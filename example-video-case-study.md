@@ -11,7 +11,7 @@ folder: development-platforms
 
 ## Summary
 
-Brief description of the lesson content, should be the same text as the description on YouTube.
+Brief description of the video content, should be the same text as the description on YouTube.
 
 ### Credits
 
