@@ -36,3 +36,11 @@ Compare the product to other products in the same category, if applicable.
 ## Summary
 
 Summarise the content and highlight the relevance of the product to a web developer.
+
+### Credits
+
+- Student Name (studentGitHubUsername)
+
+#### References
+
+- List of video or links used during research
