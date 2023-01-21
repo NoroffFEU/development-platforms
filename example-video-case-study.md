@@ -3,7 +3,7 @@ title: Example Product Video Case Study
 keywords: development platforms, example project, category name
 tags: Development Platforms, Example Project, Category Name
 sidebar: development-platforms
-permalink: development-platforms/example-product.html
+permalink: development-platforms/example-product-video.html
 folder: development-platforms
 ---
 
