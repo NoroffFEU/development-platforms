@@ -29,7 +29,7 @@ folder: development-platforms
 5. [Strengths](#strengths)
 6. [Weaknesses](#weaknesses)
 7. [Comparison](#comparison)
-8. [Summary](#summary-1)
+8. [Summary](#summary)
 9. [Credits](#credits)
 10. [Reference links](#references)
 11. [Video links](#video-links)
@@ -104,7 +104,7 @@ These new services added to the AWS ecosystem of services, making AWS a more com
 
 ### 2021
 
-### Summary
+### Timeline Summary
 
 * 2006: Amazon Web Services (AWS) is officially launched at the 2006 AWS Global Summit, offering a suite of cloud computing services, including storage, computing power, and databases.
 * 2008: The company introduces its Elastic Compute Cloud (EC2) service, which allows customers to rent virtual computers on which to run their own computer applications.
