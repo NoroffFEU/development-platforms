@@ -181,4 +181,4 @@ Summaries the content and highlight the relevance of the product to a web develo
 #### Video Links
 
 * [AWS In 5 Minutes | What Is AWS? | AWS Tutorial For Beginners | AWS Training | Simplilearn](https://www.youtube.com/watch?v=3XFODda6YXo)
-* 
+* [Top 50+ AWS Services Explained in 10 Minutes](https://www.youtube.com/watch?v=JIbIYCM48to)
