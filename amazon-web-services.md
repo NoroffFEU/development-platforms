@@ -1,11 +1,38 @@
 ---
 title: Amazon Web Services Case Study
-keywords: development platforms, example project, category name
-tags: Development Platforms, Example Project, Category Name
+keywords: Cloud computing, Virtualization, Scalability, Security, Reliability, Kinesis, Elasticache, CloudFront, 
+tags: AWS services (e.g. EC2, S3, RDS), Infrastructure as a service (IaaS), Platform as a service (PaaS), AWS Global Infrastructure, AWS, AWS Security & Compliance, AWS AI & Machine Learning Services
 sidebar: development-platforms
 permalink: development-platforms/amazon-web-services.html
 folder: development-platforms
 ---
+
+## Table of contents
+
+1. [Introduction](#introduction)
+2. [Brief History](#brief-history)
+3. [History Timeline](#history-timeline)
+    - 3.1 [2006](#2006)
+    - 3.2 [2008](#2008)
+    - 3.3 [2009](#2009)
+    - 3.4 [2011](#2011)
+    - 3.5 [2013](#2013)
+    - 3.6 [2014](#2014)
+    - 3.7 [2015](#2015)
+    - 3.8 [2016](#2016)
+    - 3.9 [2017](#2017)
+    - 3.10 [2018](#2018)
+    - 3.11 [2019](#2019)
+    - 3.12 [2020](#2020)
+    - 3.13 [2021](#2021)
+4. [Features](#features)
+5. [Strengths](#strengths)
+6. [Weaknesses](#weaknesses)
+7. [Comparison](#comparison)
+8. [Summary](#summary-1)
+9. [Credits](#credits)
+10. [Reference links](#references)
+11. [Video links](#video-links)
 
 ## Introduction
 
@@ -121,14 +148,16 @@ Summaries the content and highlight the relevance of the product to a web develo
 
 ### Credits
 
-* Christopher Tønnesland (@christonn93)
+* Christopher Tønnesland [@christonn93](https://github.com/Christonn93)
 
 #### References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Amazon_Web_Services)
 * [sados.com](https://sados.com/blog/aws-benefits-and-drawbacks/)
 * [medium.com](https://medium.com/analytics-vidhya/why-aws-advantages-and-disadvantages-f0e666b869b3)
-* []()
+* [google search: Strengths](https://www.google.com/search?q=What+is+AWS%27s+strenghts%3F)
+* [google search: Weaknesses](https://www.google.com/search?q=what+is+aws%27s+weaknesses%3F)
+* [Quora AWS Weaknesses](https://www.quora.com/What-are-Amazon-AWSs-weaknesses)
 
 #### Video Links
 
