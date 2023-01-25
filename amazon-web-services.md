@@ -58,7 +58,7 @@ In addition to EC2, Amazon also introduced the Simple Storage Service (S3) in 20
 
 ### 2008
 
-In 2008, Amazon Web Services (AWS) continued to expand its offerings and improve upon its existing services. One of the major new services that was introduced in 2008 was Amazon Elastic Block Store (EBS). This service allows developers to create storage volumes that can be attached to EC2 instances, providing them with the ability to store persistent data that can be accessed by multiple instances. This was a significant development, as it allowed developers to store data in a way that was reliable, fast and highly available, making it an ideal solution for applications that require a high degree of data durability.
+Amazon Web Services (AWS) continued to expand its offerings and improve upon its existing services. One of the major new services that was introduced in 2008 was Amazon Elastic Block Store (EBS). This service allows developers to create storage volumes that can be attached to EC2 instances, providing them with the ability to store persistent data that can be accessed by multiple instances. This was a significant development, as it allowed developers to store data in a way that was reliable, fast and highly available, making it an ideal solution for applications that require a high degree of data durability.
 
 Another important service that was launched in 2008 was Amazon CloudFront. This service is a content delivery network (CDN) that allows developers to distribute their content to users globally, with low latency and high data transfer speeds. CloudFront uses a network of edge locations around the world to cache and deliver content, which allows developers to reduce the load on their own servers and improve the performance of their applications for users. This service was a major development for developers, as it allowed them to deliver their content to users in a fast and efficient way, regardless of their location.
 
@@ -66,9 +66,27 @@ These new services added to the AWS ecosystem of services, making AWS a more com
 
 ### 2009
 
+Amazon Web Services (AWS) continued to expand its offerings and improve upon its existing services. One of the major new services that was introduced in 2009 was the Relational Database Service (RDS). This service allows developers to easily create and manage relational databases in the cloud, such as MySQL, Oracle and Microsoft SQL Server. RDS provided developers with the ability to scale their databases up and down based on demand, and also handle common database administration tasks such as backup and patching. This service was a major development for developers, as it allowed them to easily manage their databases in the cloud, and also remove the need for them to manage the underlying infrastructure.
+
+Another important service that was launched in 2009 was the Elastic Load Balancer (ELB). This service allows developers to distribute incoming traffic across multiple Amazon Elastic Compute Cloud (EC2) instances. ELB automatically routes incoming requests to the healthy instances and ensures that the application is always available. This service was a major development for developers, as it allowed them to easily handle traffic spikes and also improve the performance of their applications.
+
+These new services added to the AWS ecosystem of services, making AWS a more complete solution for developers and organizations to build, deploy and scale their applications, and making AWS a more viable choice for a wide range of use cases.
+
 ### 2011
 
+Amazon Web Services (AWS) continued to expand its offerings and improve upon its existing services. One of the major new services that was introduced in 2011 was the Elastic MapReduce (EMR). This service allows developers to process big data using the Apache Hadoop and Apache Spark frameworks, without the need to manage the underlying infrastructure. EMR service simplifies the process of running big data workloads on the cloud and allows for the easy integration with other AWS services, such as S3 and Redshift. This service was a major development for developers, as it allowed them to easily process large datasets and also get insights from it.
+
+Another important service that was launched in 2011 was the DynamoDB. This service is a NoSQL database service that allows developers to easily create and manage high-performance and highly-scalable databases. DynamoDB is a fully-managed service, which means that AWS takes care of all the underlying infrastructure, allowing developers to focus on their applications. This service was a major development for developers, as it allowed them to easily store and retrieve any amount of data, at any time, from anywhere on the web.
+
+These new services added to the AWS ecosystem of services, making AWS a more complete solution for developers and organizations to build, deploy and scale their applications, and making AWS a more viable choice for a wide range of use cases, especially for big data workloads.
+
 ### 2013
+
+Amazon Web Services (AWS) continued to expand its offerings and improve upon its existing services. One of the major new services that was introduced in 2013 was the AWS Elastic Beanstalk. This service is a fully managed service that allows developers to easily deploy, run, and scale web applications and services. Elastic Beanstalk provides an environment to easily deploy, run and scale web applications and services written in multiple languages such as Java, .Net, PHP, Node.js, Python, Ruby, Go, and Docker. With Elastic Beanstalk, developers can focus on writing code, and not worry about provisioning, scaling and managing the underlying infrastructure.
+
+Another important service that was launched in 2013 was the AWS CloudFormation. This service allows developers to use templates to model and provision, in an automated and secure manner, all the resources needed for their applications across all of their accounts and regions. AWS CloudFormation provides a common language for developers and IT operations to describe the desired state of their infrastructure and applications, and it keeps track of the actual state of the resources, making it easier to understand and control the changes in the infrastructure.
+
+These new services added to the AWS ecosystem of services, making AWS a more complete solution for developers and organizations to build, deploy, and scale their applications, and making AWS a more viable choice for a wide range of use cases, especially for web and application development.
 
 ### 2014
 
