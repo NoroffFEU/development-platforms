@@ -153,6 +153,7 @@ Summaries the content and highlight the relevance of the product to a web develo
 #### References
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Amazon_Web_Services)
+* [Wikipedia Timeline of AWS](https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services#Partnerships)
 * [sados.com](https://sados.com/blog/aws-benefits-and-drawbacks/)
 * [medium.com](https://medium.com/analytics-vidhya/why-aws-advantages-and-disadvantages-f0e666b869b3)
 * [google search: Strengths](https://www.google.com/search?q=What+is+AWS%27s+strenghts%3F)
