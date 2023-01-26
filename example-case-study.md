@@ -10,6 +10,7 @@ folder: development-platforms
 ## Introduction
 
 Summarise the product's primary purpose in one or two paragraphs.
+first commit
 
 ## Brief History
 
