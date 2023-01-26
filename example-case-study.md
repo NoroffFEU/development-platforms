@@ -19,6 +19,9 @@ developers to either create, select, update or delete data, among other commands
 
 Think of a relational database (RDB) as a digital file cabinet for storing files.
 It's very important that the data stored in a database can be relied upon, to be secure and persist.
+
+<!-- relational databases like MySQL have several features that helps secure and persist data, like: -->
+
 RDBs have stood the test of time and are still today the most used types of databases,
 and MySQL is currently the most commonly used RDB.
 
@@ -35,6 +38,10 @@ Outline the product's key features.
 ## Strengths
 
 Discuss the product's strengths.
+
+- consistency
+- stored procedures
+- locking and concurrency
 
 ## Weaknesses
 
@@ -56,3 +63,4 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 - List of video or links used during research
 - https://en.wikipedia.org/wiki/MySQL
+- https://www.youtube.com/watch?v=OqjJjpjDRLc
