@@ -11,6 +11,13 @@ folder: development-platforms
 
 Summarise the product's primary purpose in one or two paragraphs.
 
+I have chosen to write a case study about MySQL, because it is one of the world's most popular and widely used databases.
+My goal is to weigh it's strengths and weaknesses against other technologies of the same kind to figure out
+if this is a product worth using, if there are other more modern products with better solutions and
+which cases you should use or not use MySQL.
+
+<!-- Also I will have a look at other NoSQL databases to make a comparison -->
+
 MySQL is an open source relational database management system (RDBMS).
 A relational database can store data in tables consisting of rows and columns
 that can be related to each other using id's and something called foreign keys.
@@ -89,6 +96,7 @@ Discuss the product's strengths.
 - consistency
 - stored procedures
 - locking and concurrency
+- add graphs
 
 ## Weaknesses
 
