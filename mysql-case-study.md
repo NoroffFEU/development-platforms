@@ -53,21 +53,21 @@ and ranks second most used overall, behind Oracle's proprietary enterprise datab
 Here's a timeline of MySQL
 
 - 1994, development starts
-- 1995, first release on may 23rd.
+- 1995, first release on May 23rd.
 - 1996, version 3.19
 - 1997, version 3.20
-- 1998, - january 8th, version realeased for windows 95. - version 3.21 Production realease from www.mysql.com - version 3.22 alpha, beta
+- 1998, January 8th, version realeased for windows 95. - version 3.21 Production realease from www.mysql.com - version 3.22 alpha, beta
 - 1999,
 
-- 2000,
-- 2001,
-- 2002,
-- 2003,
-- 2004,
-- 2005, Oracle acquires Innobase, the company responsible for backend storage of MySQL
+- 2000, version 3.23 beta, MySQL goes open source
+- 2001, version 3.23 production
+- 2002, version 4.0 beta
+- 2003, version 4.0 production
+- 2004, version 4.1 beta June, production release October 2004 (B-trees and R-trees, prepared statements, subqueries)
+- 2005, version 5.0 beta March, production release October Oracle acquires Innobase, the company responsible for backend storage of MySQL.
 - 2006,
 - 2007,
-- 2008,
+- 2008, Sun Microsystems acquire MySQL AB
 - 2009,
 - 2010,
 - 2011,
