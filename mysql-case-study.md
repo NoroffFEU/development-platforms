@@ -73,7 +73,7 @@ Here's a timeline of MySQL
   - version 5.1 contained lots of bugs, most of them were fixed by V 5.1.51
   - version 5.1 and 6.0-alpha had issues with data warehousing - partialy because of it's inability to utilize multiple CPU cores for processing a single query.
 - 2009, version 6.0.11-alpha annouced.
-- 2010, Oracle acquires Sun Microsystems, January 27th - Michael "Monty" Widenius forked MySQL and created MariaDB to keep it open source
+- 2010, Oracle acquires Sun Microsystems - legal complications in the EU - January 27th - Michael "Monty" Widenius forked MySQL and created MariaDB to keep it open source - MariaDB API remains compatible with MySQL.
 - 2011,
 - 2012,
 - 2013, general availability for version 5.6 anounced. Big update
@@ -92,6 +92,23 @@ Here's a timeline of MySQL
 ## Features
 
 Outline the product's key features.
+
+- Supports ANSI/ISO SQL standard
+- Developed in C and C++ and is postable across a variety of platforms.
+- Fast stable and scalable
+- stored procedures
+- triggers
+- cursors
+- updated views
+- query cache
+- subselects
+
+- ACID compliance
+
+  - Atomicity - all or nothing.
+  - Consitency - transactions are valid to rules of the db.
+  - Isolation - Results of transactions are as if they are done end to end.
+  - Durability - Once a transaction is committed, it remains so.
 
 ## Strengths
 
