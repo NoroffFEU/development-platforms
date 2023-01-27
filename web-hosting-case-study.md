@@ -1,5 +1,5 @@
 ---
-title: Example Product Case Study
+title: web hosting
 keywords: development platforms, example project, category name
 tags: Development Platforms, Example Project, Category Name
 sidebar: development-platforms
