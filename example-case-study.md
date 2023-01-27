@@ -28,8 +28,15 @@ and MySQL is currently the most commonly used RDB.
 ## Brief History
 
 Provide a brief history of the product, including major milestones or events.
-
 You may use bullet points, numbered lists, paragraphs or a timeline.
+
+The first development of MySQL started in 1994 by swedish developers Allan Larson, David Axamark
+and finnish developer Michael "Monty" Widenius. MySQL derived from it's proprietary predecessor mSQL,
+another database management system based the low-lever language ISAM.
+The developers considered mSQL to be slow and inflexible and created a new SQL interface that used
+the same API as mSQL.
+Keeping the same API allowed many developers to switch to the open sourced MySQL instead.
+and was initially intended for personal usage.
 
 ## Features
 
@@ -64,3 +71,4 @@ Summarise the content and highlight the relevance of the product to a web develo
 - List of video or links used during research
 - https://en.wikipedia.org/wiki/MySQL
 - https://www.youtube.com/watch?v=OqjJjpjDRLc
+- https://en.wikipedia.org/wiki/MSQL
