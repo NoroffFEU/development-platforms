@@ -60,25 +60,29 @@ Here's a timeline of MySQL
 - 1999,
 
 - 2000, version 3.23 beta, MySQL goes open source
-- 2001, version 3.23 production
+- 2001, version 3.23
 - 2002, version 4.0 beta
-- 2003, version 4.0 production
+- 2003, version 4.0
 - 2004, version 4.1 beta June, production release October 2004 (B-trees and R-trees, prepared statements, subqueries)
 - 2005, version 5.0 beta March, production release October Oracle acquires Innobase, the company responsible for backend storage of MySQL.
 - 2006,
 - 2007,
-- 2008, Sun Microsystems acquire MySQL AB
-- 2009,
-- 2010,
+- 2008,
+  - Sun Microsystems acquire MySQL AB, version 5.1 released November
+    (partitioning, event scheduler, plugin API, server log tables, row based replication)
+  - version 5.1 contained lots of bugs, most of them were fixed by V 5.1.51
+  - version 5.1 and 6.0-alpha had issues with data warehousing - partialy because of it's inability to utilize multiple CPU cores for processing a single query.
+- 2009, version 6.0.11-alpha annouced.
+- 2010, Oracle acquires Sun Microsystems, January 27th - Michael "Monty" Widenius forked MySQL and created MariaDB to keep it open source
 - 2011,
 - 2012,
-- 2013,
+- 2013, general availability for version 5.6 anounced. Big update
 - 2014,
-- 2015,
+- 2015, general availability for version 5.7 anounced - supports native JSON data.
 - 2016,
 - 2017,
-- 2018,
-- 2019,
+- 2018, version 8.0 - update indcuded NoSQL Document Store.
+- 2019, MySQL won price of best DBMS from DB-Enginges ranking
 
 - 2020,
 - 2021,
