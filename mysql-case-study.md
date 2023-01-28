@@ -126,7 +126,11 @@ SQL standard integer types:
 
 Fixed-Point types:
 
-- DECIMAL, NUMERIC - Stores exact value. Often used for monetary data
+- DECIMAL and NUMERIC - Stores exact value. Often used for monetary data
+
+Floating-Point types:
+
+- FLOAT and DOUBLE - stores aproximate numeric value, single precision uses four bytes and double precision uses eight
 
 ##### String Data Types
 
