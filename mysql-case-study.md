@@ -120,9 +120,13 @@ Outline the product's key features.
 
 > image from: https://dev.mysql.com/doc/refman/8.0/en/integer-types.html
 
-- Integer types: INTEGER (INT), SMALLINT, TINYINT, MEDIUMINT, BIGINT
+SQL standard integer types:
 
-- Fixed-Point types: DECIMAL, NUMERIC
+- INTEGER (INT), SMALLINT, TINYINT, MEDIUMINT, BIGINT
+
+Fixed-Point types:
+
+- DECIMAL, NUMERIC
 
 ##### String Data Types
 
