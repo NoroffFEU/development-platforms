@@ -118,6 +118,8 @@ Outline the product's key features.
 
 ![Required Storage and Range for Integer Types Supported by MySQL](./images/Screenshot-integers.png)
 
+> image from: https://dev.mysql.com/doc/refman/8.0/en/integer-types.html
+
 - Integer types: INTEGER (INT), SMALLINT, TINYINT, MEDIUMINT, BIGINT
 
 - Fixed-Point types: DECIMAL, NUMERIC
