@@ -126,7 +126,7 @@ SQL standard integer types:
 
 Fixed-Point types:
 
-- DECIMAL, NUMERIC
+- DECIMAL, NUMERIC - Stores exact value. Often used for monetary data
 
 ##### String Data Types
 
