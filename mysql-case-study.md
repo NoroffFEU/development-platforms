@@ -108,7 +108,30 @@ Outline the product's key features.
   - Atomicity - all or nothing.
   - Consitency - transactions are valid to rules of the db.
   - Isolation - Results of transactions are as if they are done end to end.
-  - Durability - Once a transaction is committed, it remains so.
+  - Durability - Once a transaction is committed, it remains so. - non ACID complient databases potentially trade integrity for speed.
+
+- Editions
+
+  MySQL community edition
+
+  - open source GPL, free to use
+  - community support only
+
+  MySQL standard edition (annual subscription of about 2000 usd / year per server )
+
+  - 24/7 support from oracle.
+  - mostly the same as community edition but with support.
+
+  MySQL enterprise edition (5000 usd / year per server)
+
+  - cluster routing and partitioning features
+  - tools for security, backups and monitoring
+  - thread pooling for performance increase during large loads
+
+  MySQL cluster CGE (10.000 usd / year per server)
+
+  - designed for linear scalability
+  - higly available, high volume
 
 ## Strengths
 
