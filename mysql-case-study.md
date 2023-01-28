@@ -93,6 +93,51 @@ Here's a timeline of MySQL
 
 Outline the product's key features.
 
+#### Internals
+
+- MySQL is written in C and C++.
+- The C API gives a low level access to the client/server protocol.
+- the server design is multi-layered and has independent modules.
+- It's been tested on a wide selection of different compilers and platforms.
+- Allows for multithreading using kernel threads and can utilize multiple CPUs with ease, if available.
+- supports both transactional and non-transactional storage engines.
+- B-tree disk tables and index compression.
+- Storage engines can be added relatively easy. This makes it easier to add SQL interface for in-house databases.
+- Purify has been used to test for memory leak detection.
+- Valgrind has been used for GPL/GNU General Public License.
+- The servere is provided as a separate program when using a networked client/server program.
+- Configured with CMake for optimal portability.
+- Memory allocation system is fast-thread based.
+- Designed to implement SQL functions unsing optimized class library.
+- Uses in-memory hash tables as temporary tables
+- Joins are optimized and very fast using nested-loop join.
+
+#### Data Types
+
+##### Numeric Data Types
+
+test numeric
+
+##### String Data Types
+
+test string
+
+#### Character Sets
+
+#### Statments and Functions
+
+#### Security
+
+#### Scalability
+
+#### Connectivity
+
+#### Localization
+
+#### Tools and Clients
+
+#### ACID Compliant
+
 - Supports ANSI/ISO SQL standard
 - Developed in C and C++ and is postable across a variety of platforms.
 - Fast stable and scalable
