@@ -116,7 +116,11 @@ Outline the product's key features.
 
 ##### Numeric Data Types
 
-test numeric
+![Required Storage and Range for Integer Types Supported by MySQL](./images/Screenshot-integers.png)
+
+- Integer types: INTEGER (INT), SMALLINT, TINYINT, MEDIUMINT, BIGINT
+
+- Fixed-Point types: DECIMAL, NUMERIC
 
 ##### String Data Types
 
@@ -210,6 +214,10 @@ Summarise the content and highlight the relevance of the product to a web develo
 Articles:
 
 - https://dev.mysql.com/
+- https://dev.mysql.com/doc/refman/8.0/en/features.html
+- https://www.tutorialspoint.com/what-are-the-main-features-of-mysql
+- https://dev.mysql.com/doc/c-api/8.0/en/
+- https://dev.mysql.com/doc/refman/8.0/en/data-types.html
 - https://en.wikipedia.org/wiki/MySQL
 - https://en.wikipedia.org/wiki/MSQL
 - https://www.tutorialspoint.com/discuss-the-history-of-mysql#:~:text=Timeline%20of%20MySQL&text=MySQL%20was%20founded%20in%201995,in%20addition%20to%20Sweden%20headquarters.
