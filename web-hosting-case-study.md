@@ -33,13 +33,23 @@ As technology continues to advance, web hosting solutions have become more sophi
 
 There are several hosting companies, based on reputation these are one of many:
 
+### no.godaddy.com
+
 GoDaddy: Complete hosting solutions for any website
+
+### www.hostgator.com
 
 HostGator: Easy and affordable web hosting with intuitive site building tools
 
+### www.bluehost.com
+
 Bluehost: Extremely fast & reliable hosting with plenty of advanced security add-ons
 
+### www.web.com
+
 Web.com: Everything you need to build and host your website
+
+### www.hostinger.no
 
 Hostinger: Scalable hosting solutions for fast websites
 
