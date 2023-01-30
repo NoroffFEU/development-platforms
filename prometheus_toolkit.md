@@ -55,7 +55,15 @@ Some of the products strengths based on collection of quantifiable data would be
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
+When it comes to using Prometheus for in depth event logging you are better with using InfluxDB. There is several other systems that you would have a better use of when it comes to more specified tasks and processes.
+ie. 
+* Sensus is better for collecting and processing hybrid observability data(this includes metrics and/or events)
+* Graphite is better when you need/want a clustered solution that can hold historical data long term.
+
+
+Prometheus could be a little more userfriendly with the UI then it is. But once you get the hang of it, it's pretty easy. Learning PromQL can be tedious to do as well. This is Prometheus own query language that can be complex. 
+
+
 
 ## Comparison
 
