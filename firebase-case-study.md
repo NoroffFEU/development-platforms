@@ -104,7 +104,6 @@ ___________________________________________________________________
 - Free to start
 - Development speed
 - End-to-end app development platform
-- Powered by Google
 - Developers can focus on frontend development
 - Serverless
 - It offers machine learning capabilities
@@ -117,8 +116,6 @@ ___________________________________________________________________
 - **Development Speed** provides multiple ready-to-use services like data storage, authentication, notifications, analytics, and more that will avoid a developer from creating boilerplate code, reinventing the wheel, and starting a backend from scratch that manages all the work and helps developers drastically reduce the time to market for developing apps.
 
 - **All in one platform** it covers the entire application development cycle, and the platform contains features to build, release and monitor applications. Also, it provides tools to engage users and keep them using it.
-
-- **Powered by Google** *Firebase* is one of the most prominent and trusted names in the world of technology. As it has gone through a series of changes and developments and become the reliable platform it is today. It is now part of the Google Cloud Platform that works in perfect harmony with other Google Cloud services and integrates with plenty of third-party services.
 
 - **Focus on Front-End Development** the *Firebase* is focusing on creating frontend code for mobile applications that makes application development convenient and helps to keep costs low and it allows developers and companies to standardize the backend environment
 
