@@ -9,6 +9,8 @@ folder: development-platforms
 
 ## Introduction
 
+![web-hosting-image](https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-web-hosting/sta-je-web-hosting.jpg)
+
 Summarise the product's primary purpose in one or two paragraphs.
 
 ## Brief History
