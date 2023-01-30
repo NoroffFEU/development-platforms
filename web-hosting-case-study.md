@@ -9,9 +9,13 @@ folder: development-platforms
 
 ## Introduction
 
+### What is Web Hosting?
+
 ![web-hosting-image](https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-web-hosting/sta-je-web-hosting.jpg)
 
-Summarise the product's primary purpose in one or two paragraphs.
+### Web Hosting
+
+Web hosting is an online service that makes your website’s content accessible on the internet. When you purchase a hosting plan, you are renting space on a physical server to store all the website’s files and data.
 
 ## Brief History
 
