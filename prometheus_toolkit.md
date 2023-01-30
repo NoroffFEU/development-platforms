@@ -34,6 +34,17 @@ You may use bullet points, numbered lists, paragraphs or a timeline.
 
 ## Strengths
 
+With a richer data model you will also get a more detailed collection of metric. With Prometheus you get samples at arbitrary intervals as scrapes or rule evaluations occur, the new samples that is created are simply appended, this means that old data may be kept arbitrarily long.
+
+example of how Prometheus stores samples from HTTP requests to API servers with a response code 
+
+```
+api_server_http_requests_total{method="POST",handler="/tracks",status="500",instance="<sample1>"} -> 34
+api_server_http_requests_total{method="POST",handler="/tracks",status="500",instance="<sample2>"} -> 28
+api_server_http_requests_total{method="POST",handler="/tracks",status="500",instance="<sample3>"} -> 31 
+```
+The way Prometheus stores metrics is more detailed and you will have a better overview of the data that is collected. With the use of PromQL you will also have a great way for when visualization is needed, you can use Grafana dashboard, expression browser. Prometheus also comes with console templates to help you on the way to getting started with monitoring a project. Below is a list of some of the strength features that Prometheus has.
+
 Some of the products strengths based on collection of quantifiable data would be the
 * Storing of data metric
 * Support of code queries
@@ -41,13 +52,25 @@ Some of the products strengths based on collection of quantifiable data would be
 * Ease of deployment
 * The use of PromQL that is really good for visualisation purposes
 
+
 ## Weaknesses
 
 Discuss the product's weaknesses.
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+Compared to [InfluxDB](https://www.influxdata.com/), Prometheus is a better choice if you are primarily doing metrics, it also has a more powerfull query language, alerting and notification functionality then InfluxDB has. Both of the systems has their strengths and weaknesses, where one is better then the other. 
+
+With Prometheus you get servers that are run independently of each other and only rely on their local storage for their core functionality: scraping, rule processing and alerting.
+
+The comercial InfluxDB offering is, by design, a distributed storage cluster with storage and queries being handled by many nodes at once. With that it means that the commercial version of InfluxDB will scale horizontally easier then Prometheus, but at the same time you need to manage higher complexity of a distributed storage systems strait of from the start. Prometheus is easier to setup and run. 
+
+There is an open source version of InfluxDB that is similar to Prometheus, but not completly the same when it comes to the architecture of the system.
+
+Both systems has a data model that has key-value pairs as labels, that is called tags. They both use support float64 data types but Prometheus offers this with limited support for strings and millisecond resolution timestamps, where InfluxDB offers has full support for it, along side of int64, and bool as well.
+
+If you primarily doing event logging then InfluxDB is more suitable for this type of monitoring.
+
 
 ## Summary
 
