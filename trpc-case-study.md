@@ -41,7 +41,7 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- Truls Haakenstad Haugen || [@Menubrea](https://github.com/Menubrea)
 
 #### References
 
