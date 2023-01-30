@@ -77,7 +77,7 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- Kardo Kiyani (kardokiyani)
 
 #### References
 
