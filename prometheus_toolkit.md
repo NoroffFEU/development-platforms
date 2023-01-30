@@ -14,6 +14,9 @@ Prometheus is an Open-Source systems monitoring and alerting toolkit that collec
 By the use of a multi-dimensional data model, data can be sliced and diced at will, along dimensions like instance, service, endpoint, and method.
 It is based on a principal of Operational simplicity, so that you can spin up a monitoring server where and when you want, even as a local server at home on your desktop computer. This without setting up a distributed storage backend or reconfiguring the world. 
 
+#### What is and why would i might want systems monitoring
+It is a tool for Executive management, PO's and clients to have a singel view of project schedules, health, risks, progress and documents. Look at it from an financial aspect
+
 ## Brief History
 Prometheus is an open-source project built at [SoundCloud](https://soundcloud.com/discover). Since it's creation in 2012, there has been alot of updates and improvement on the system. It's now a standalone open-source project and maintained independently of any company. 
 Prometheus joined the [Cloud Native Computing Foundation](https://www.cncf.io/) in 2016 as the second hosted project, after [Kubernetes](https://kubernetes.io/).
