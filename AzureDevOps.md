@@ -45,83 +45,89 @@ After the rebranding Azure DevOps has continued to evolve and add more features,
 ![Azure DevOps offerings](https://www.kovair.com/blog/wp-content/uploads/2022/03/Image-1-Azure-DevOps.png)
 *Source: google*
 
-1. Source Code Management [[3](#references)]
+### Source Code Management
 
-    ```md
-    Azure DevOps provides source code management through Git repositories, which are used to store and track changes to your code. Git is a distributed version control system that allows multiple developers to work on the same codebase and track changes to the code over time.
+Azure DevOps provides source code management through Git repositories, which are used to store and track changes to your code. Git is a distributed version control system that allows multiple developers to work on the same codebase and track changes to the code over time.
 
-    With Azure DevOps, you can create a Git repository for your project and store your source code in it. You can then invite other developers to collaborate on your project and make changes to the code. Git tracks each change made to the code, allowing you to revert to a previous version if needed, view a history of changes, and compare different versions of the code.
+With Azure DevOps, you can create a Git repository for your project and store your source code in it. You can then invite other developers to collaborate on your project and make changes to the code. Git tracks each change made to the code, allowing you to revert to a previous version if needed, view a history of changes, and compare different versions of the code.
 
-    Azure DevOps provides a web-based user interface that makes it easy to perform Git-related operations, such as cloning a repository, committing changes, and creating pull requests. You can also use the command-line interface or a Git client of your choice to interact with your Git repositories in Azure DevOps.
+Azure DevOps provides a web-based user interface that makes it easy to perform Git-related operations, such as cloning a repository, committing changes, and creating pull requests. You can also use the command-line interface or a Git client of your choice to interact with your Git repositories in Azure DevOps.
 
-    By using Git in Azure DevOps, you can benefit from the power and flexibility of Git, while also taking advantage of the collaboration and integration features provided by Azure DevOps.
-    ```
+By using Git in Azure DevOps, you can benefit from the power and flexibility of Git, while also taking advantage of the collaboration and integration features provided by Azure DevOps.
+[[3](#references)]
 
-2. Continuous Integration (CI) and Continuous Delivery (CD) [[4](#references)]
+### Continuous Integration (CI) and Continuous Delivery (CD)
 
-    ```md
-    With Azure DevOps pipeline you can set up automatic builds and tests for your code project. It have support for all major languages and project types.
+With Azure DevOps pipeline you can set up automatic builds and tests for your code project. It have support for all major languages and project types.
 
-    The continuous Integration setted up to catch bugs early in the development cycle will benefit you as a programmer to save time and money due to less fixing of bugs later on.
+The continuous Integration setted up to catch bugs early in the development cycle will benefit you as a programmer to save time and money due to less fixing of bugs later on.
 
-    The continuous Delivery is a process by which code is built, tested, and deployed to one or more test and production environments. Deploying and testing in multiple environments increases quality
-    ```
+The continuous Delivery is a process by which code is built, tested, and deployed to one or more test and production environments. Deploying and testing in multiple environments increases quality
 
-3. Work Item Tracking [[5](#references)]
+[[4](#references)]
 
-    ```md
-    ```
+### Project Management
 
-4. Agile Project Management [[6](#references)]
+With Azure Boards you can manage your projects in great details. It provides a rich set of capabilities including native support for Agile, Scrum, and Kanban processes, calendar views, configurable dashboards, and integrated reporting.
 
-    ```md
-    ```
+The boards have many great features that you can use for free as long as you have an account, and you can have total 5 team member when using the free basic plan details about pricing, limitations and the different plans you will find under pricing. 
 
-5. Test Case Management [[7](#references)]
+[[5](#references)]
 
-    ```md
-    ```
+### Work Item Tracking
 
-6. Release Management [[8](#references)]
+You track your or your teams work by creating a work item. IN Azure DevOps you will need to choose what system process you want to work by. There is for of them.
 
-    ```md
-    ```
+1. Agile
+2. Basic
+3. Scrum
+4. Capability maturity model integration
 
-7. Collaboration [[9](#references)]
+In the video below I will demonstrate how to create a new work item inside the board
 
-    ```md
-    ```
+<a href="https://www.loom.com/share/2fccb37e458941fbae25e87f309ba55e"><img src="https://i.ibb.co/d07zn4d/Screenshot-2023-01-31-at-14-43-11-Development-platforms-Team-Features-Board-Boards.png" style="width: 350px;"/></a>
 
-8. Package Management [[10](#references)]
+[[6](#references)]
 
-    ```md
-    Azure DevOps provides Package Management, which is a feature that helps you manage and share packages across your organization. Package Management supports several popular package formats, including NuGet, npm, Maven, and Python packages.
+### Test Case Management
 
-    With Package Management, you can publish your packages to an internal or external feed, and then consume them in your builds and releases. You can also manage packages from different package sources, such as public feeds like npmjs.com or Maven Central, or private feeds created by your team.
+[[7](#references)]
 
-    When you publish a package, Azure DevOps stores the package and its metadata in the Package Management feed. You can then share the feed with others in your organization and use it as a source for your builds and releases.
+### Release Management
 
-    In your builds and releases, you can use the packages from the Package Management feed by specifying the feed in your build or release definition. Azure DevOps will then download the packages and make them available to your build agents or release agents.
+[[8](#references)]
 
-    Package Management in Azure DevOps helps you centralize your package management and improve collaboration and reuse within your organization. By using Package Management, you can ensure that your builds and releases use consistent and up-to-date packages.
-    ```
+### Collaboration
 
-9. Code Review and Feedback [[11](#references)]
+[[9](#references)]
 
-    ```md
-    ```
+### Package Management
 
-10. Integrated Analytics [[12](#references)]
+Azure DevOps provides Package Management, which is a feature that helps you manage and share packages across your organization. Package Management supports several popular package formats, including NuGet, npm, Maven, and Python packages.
 
-    ```md
-    Azure DevOps provides Integrated Analytics, which is a feature that helps you analyze and visualize data from various sources within Azure DevOps. Integrated Analytics uses Azure Boards and Azure DevOps data to provide insights into your work items, code changes, and pipelines.
+With Package Management, you can publish your packages to an internal or external feed, and then consume them in your builds and releases. You can also manage packages from different package sources, such as public feeds like npmjs.com or Maven Central, or private feeds created by your team.
 
-    With Integrated Analytics, you can create and share reports and dashboards that visualize data from Azure DevOps in meaningful ways. For example, you can create a dashboard that shows the status of your work items, the number of code changes made in a given time period, and the success rate of your pipelines.
+When you publish a package, Azure DevOps stores the package and its metadata in the Package Management feed. You can then share the feed with others in your organization and use it as a source for your builds and releases.
 
-    To create a report or dashboard, you can use the built-in report authoring tools in Azure DevOps, or you can use Power BI, which is a data visualization tool provided by Microsoft. To create a report or dashboard in Power BI, you can connect to the Azure DevOps data source and use the data to create charts, graphs, and other visualizations.
+In your builds and releases, you can use the packages from the Package Management feed by specifying the feed in your build or release definition. Azure DevOps will then download the packages and make them available to your build agents or release agents.
 
-    Integrated Analytics in Azure DevOps helps you make data-driven decisions by giving you access to rich data visualizations and insights into your work. With Integrated Analytics, you can monitor the progress of your work and identify areas where improvements can be made.
-    ```
+Package Management in Azure DevOps helps you centralize your package management and improve collaboration and reuse within your organization. By using Package Management, you can ensure that your builds and releases use consistent and up-to-date packages.
+
+[[10](#references)]
+
+### Code Review and Feedback
+
+[[11](#references)]
+
+### Integrated Analytics
+
+Azure DevOps provides Integrated Analytics, which is a feature that helps you analyze and visualize data from various sources within Azure DevOps. Integrated Analytics uses Azure Boards and Azure DevOps data to provide insights into your work items, code changes, and pipelines.
+
+With Integrated Analytics, you can create and share reports and dashboards that visualize data from Azure DevOps in meaningful ways. For example, you can create a dashboard that shows the status of your work items, the number of code changes made in a given time period, and the success rate of your pipelines.
+
+To create a report or dashboard, you can use the built-in report authoring tools in Azure DevOps, or you can use Power BI, which is a data visualization tool provided by Microsoft. To create a report or dashboard in Power BI, you can connect to the Azure DevOps data source and use the data to create charts, graphs, and other visualizations.
+
+Integrated Analytics in Azure DevOps helps you make data-driven decisions by giving you access to rich data visualizations and insights into your work. With Integrated Analytics, you can monitor the progress of your work and identify areas where improvements can be made.
 
 ## **Strengths**
 
@@ -200,8 +206,8 @@ Author: Christopher Tønnesland
 2. [Image of chatGDP response](https://ibb.co/dW1KqYj)
 3. [What is Azure Repos?](https://learn.microsoft.com/en-us/azure/devops/repos/get-started/what-is-repos?view=azure-devops)
 4. [What is Azure Pipelines?](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops)
-5. [Plan and track work in Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/get-started/plan-track-work?view=azure-devops&tabs=agile-process)
-6. [What is Azure Boards?](https://learn.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops)
+5. [What is Azure Boards?](https://learn.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops)
+6. [Plan and track work in Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/get-started/plan-track-work?view=azure-devops&tabs=agile-process)
 7. [What is Azure Test Plans?](https://learn.microsoft.com/en-us/azure/devops/test/overview?view=azure-devops)
 8. [Classic release pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/release/?view=azure-devops)
 9. [Best practices for "light-weight" Agile project management](https://learn.microsoft.com/en-us/azure/devops/boards/best-practices-agile-project-management?view=azure-devops&tabs=agile-process)
