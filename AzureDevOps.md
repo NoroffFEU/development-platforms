@@ -26,7 +26,7 @@ folder: development-platforms
 ![Azure DevOps offerings](https://veritis.com/wp-content/uploads/2022/02/azure-devops-offerings.jpg)
 *Source: google*
 
-Azure DevOps was initially released in 2018 by Microsoft. It is a set of developer tools, services, and features that enable teams to plan, develop, test, and deliver software more effectively. Azure DevOps integrates with the broader Azure cloud computing platform, enabling users to take advantage of its features and services, such as continuous integration and deployment, and virtual machines. Azure DevOps has since become one of the leading development platforms and is widely used by development teams across the world.
+**Azure DevOps** was initially released in 2018 by Microsoft. It is a set of developer tools, services, and features that enable teams to plan, develop, test, and deliver software more effectively. Azure DevOps integrates with the broader Azure cloud computing platform, enabling users to take advantage of its features and services, such as continuous integration and deployment, and virtual machines. Azure DevOps has since become one of the leading development platforms and is widely used by development teams across the world.
 
 Azure DevOps is for the most part free to use, however there is some limitations with using only the free tier options. I will go in deeper details about the pricing [here](#pricing)
 
