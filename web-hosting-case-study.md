@@ -101,7 +101,7 @@ Outline the product's key features.
 
 ## Strengths
 
-![strengths-image](https://matchr.com/wp-content/webp-express/webp-images/uploads/2021/07/Strengths-scaled.jpeg.webp)
+![strengths-image](https://images.shiksha.ws/mediadata/images/articles/iStock-536855465_(1).jpg)
 
 ### Shared Hosting
 
@@ -183,6 +183,6 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 - https://www.esds.co.in/kb/web-site-hosting-concept-types-advantages-and-disadvantages/
 
-- https://matchr.com/hr-resources/talent-management/build-up-employee-strengths-for-a-stronger-company/
+- https://studyabroad.shiksha.com/why-knowing-your-strengths-and-weaknesses-is-important-to-application-process-articlepage-1061
 
 - https://no.depositphotos.com/stock-photos/weaknesses.html
