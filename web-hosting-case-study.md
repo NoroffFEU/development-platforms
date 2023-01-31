@@ -101,11 +101,57 @@ Outline the product's key features.
 
 ## Strengths
 
-Discuss the product's strengths.
+![strengths-image](https://matchr.com/wp-content/webp-express/webp-images/uploads/2021/07/Strengths-scaled.jpeg.webp)
+
+### Shared Hosting
+
+- Low cost: one of the strengths with web hosting is low cost, , thats one of the main advantages.
+
+- Easy to use: it`s easy to use web hosting where it is simple to install and maintain the site trough a system where you just "click and drag" when facilitating the process.
+
+- Technical Support: the good thing is that the technical support is guaranteed by most of the  companies that offer web hosting, so it`s not scary or a risk to do it if you are not sure. Here the user will get help with important factors, such as the website itself, the server and configuration requirements.
+
+- Resources: another advance is resources, here you can get a collection of resources that can grow and get bigger while following the websites requirements and demands.
+
+### VPS Hosting(Virtual Private Server)
+
+- One of the strengths with VPS is that it works better than shared hosting because it has improved performance and security, something shared hosting don`t have.
+
+- It`s cost benefit, it saves you money.
+
+- Get the acquisition and maintenance of the equipment, and you will get reduction in the cost.
+
+### Dedicated Server Hosting
+
+- The biggest strength is that it`s very safe, zero risk of being harmed by other companies.
+
+- And you can have total autonomy over the hosting environment, which is very good, because then you have total authority over everything.
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
+![weaknesses-image](https://st2.depositphotos.com/5456580/8083/i/600/depositphotos_80830328-stock-photo-hand-writing-weaknesses.jpg)
+
+### Shared Hosting
+
+- One of the weakness of shared hosting is when the site increase in traffic volume due to resource contention, with this we are talking about other clients of the company which also offers that service of help.
+
+- Another weakness with shared hosting is the inability to customize the hosting service.
+
+- The site is not quite safe from getting the server to be overwhelmed sometimes, and with this the site can actually be taking down.
+
+- And the last but not least weakness, is sites that have high security requirements, for example e-commerce store that have credit cards in it`s own base, because of this the system is not indicated. 
+
+### VPS Hosting(Virtual Private Server)
+
+- A weakness of VPS is that the customer have a lot of work and responsibility, the customer is responsible for all installation, maintenance and also security of VPS, so it`s a lot of work here.
+
+- Another weakness is if the customer have no experience, if the customer have no experience in the subject, then one can hire the management by the supplier, but this is costly.
+
+### Dedicated Server Hosting
+
+- Here the weakness is very clear, if you have a small business, then you have a high cost, it`s that simple.
+
+- Another weakness, or disadvantage, if you wanna call it that, it requires some skill to manage and maintain a server, and this cost time to learn if you don't want to get people to do it for you.
 
 ## Comparison
 
@@ -134,3 +180,9 @@ Summarise the content and highlight the relevance of the product to a web develo
 - https://www.oxfordwebstudio.com/en/did-you-know/what-is-web-hosting
 
 - https://www.top10.com/hosting/comparison?utm_source=google&kw=web%20hosting%20best&c=485035393146&t=search&p=&m=b&adpos=&dev=c&devmod=&mobval=0&network=g&campaignid=11807750104&groupid=109961547490&targetid=kwd-10359883&interest=&physical=9073147&feedid=&a=1114&ts=hi&topic=&test=&clicktype=&gclid=EAIaIQobChMImMepo8fx_AIVb41oCR0qbQOAEAAYASAAEgLeUfD_BwE
+
+- https://www.esds.co.in/kb/web-site-hosting-concept-types-advantages-and-disadvantages/
+
+- https://matchr.com/hr-resources/talent-management/build-up-employee-strengths-for-a-stronger-company/
+
+- https://no.depositphotos.com/stock-photos/weaknesses.html
