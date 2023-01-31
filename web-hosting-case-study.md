@@ -101,7 +101,7 @@ Outline the product's key features.
 
 ## Strengths
 
-![strengths-image](https://matchr.com/wp-content/uploads/2021/07/Strengths-scaled.jpeg)
+![strengths-image](http://nejcslovnik.com/wp-content/uploads/2016/09/Image_web.jpg)
 
 ### Shared Hosting
 
@@ -183,6 +183,6 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 - https://www.esds.co.in/kb/web-site-hosting-concept-types-advantages-and-disadvantages/
 
-- https://www.google.com/search?q=strengths&tbm=isch&ved=2ahUKEwjzt4eC7_H8AhU_4bsIHWHcDwwQ2-cCegQIABAA&oq=stre&gs_lcp=CgNpbWcQARgAMgQIABBDMgQIABBDMgQIABBDMgUIABCABDIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEUN8HWNYMYIMbaABwAHgAgAFjiAHVA5IBATWYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=TRHZY7PdEr_C7_UP4bi_YA&bih=569&biw=1280#imgrc=gH3yez74IMVtOM&imgdii=HiTVcP-8h8yyJM
+- https://www.google.com/search?q=weaknesses&tbm=isch&ved=2ahUKEwib5aeW8PH8AhWW5rsIHXgwAkAQ2-cCegQIABAA&oq=weak&gs_lcp=CgNpbWcQARgAMgQIABBDMgQIABBDMgQIABBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABBDMgUIABCABDIECAAQQzIECAAQQ1DXCFj0HWDBKGgAcAB4A4ABhQGIAaIJkgEEMTEuMpgBAKABAaoBC2d3cy13aXotaW1nsAEAwAEB&sclient=img&ei=hBLZY5uTDZbN7_UP-OCIgAQ&bih=569&biw=1280#imgrc=namSzisi9ATRQM&imgdii=gCJlKJ8yFlJtaM
 
 - https://www.google.com/search?q=weaknesses&tbm=isch&ved=2ahUKEwib5aeW8PH8AhWW5rsIHXgwAkAQ2-cCegQIABAA&oq=weak&gs_lcp=CgNpbWcQARgAMgQIABBDMgQIABBDMgQIABBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABBDMgUIABCABDIECAAQQzIECAAQQ1DXCFj0HWDBKGgAcAB4A4ABhQGIAaIJkgEEMTEuMpgBAKABAaoBC2d3cy13aXotaW1nsAEAwAEB&sclient=img&ei=hBLZY5uTDZbN7_UP-OCIgAQ&bih=569&biw=1280#imgrc=9Gg7pU_sV6XWhM
