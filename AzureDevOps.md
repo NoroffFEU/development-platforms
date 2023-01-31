@@ -36,7 +36,7 @@ In 2005 the service that we today refer to as Azure DevOps was named Team Founda
 
 In 2012, TFS morphed into a tool that helped teams manage their software development projects using Agile. [[1](#references)]
 
-The name "Azure DevOps" came in 2018. Microsoft rebranded TFS to Azure DevOps, this reflecting Microsoft shift to a cloud based service and its focus on providing organizations with a more comprehensive set of tools and services.
+The name **"Azure DevOps"** came in 2018. Microsoft rebranded TFS to Azure DevOps, this reflecting Microsoft shift to a cloud based service and its focus on providing organizations with a more comprehensive set of tools and services.
 
 After the rebranding Azure DevOps has continued to evolve and add more features, you can read more about the features [here](#features). Azure DevOps have also integrated other Azure services such as Azure functions, Azure Container and Azure Kubernetes service. [[2](#references)]
 
@@ -47,6 +47,7 @@ After the rebranding Azure DevOps has continued to evolve and add more features,
 
 1. Source Code Management [[3](#references)]
 
+    ```md
     Azure DevOps provides source code management through Git repositories, which are used to store and track changes to your code. Git is a distributed version control system that allows multiple developers to work on the same codebase and track changes to the code over time.
 
     With Azure DevOps, you can create a Git repository for your project and store your source code in it. You can then invite other developers to collaborate on your project and make changes to the code. Git tracks each change made to the code, allowing you to revert to a previous version if needed, view a history of changes, and compare different versions of the code.
@@ -54,15 +55,46 @@ After the rebranding Azure DevOps has continued to evolve and add more features,
     Azure DevOps provides a web-based user interface that makes it easy to perform Git-related operations, such as cloning a repository, committing changes, and creating pull requests. You can also use the command-line interface or a Git client of your choice to interact with your Git repositories in Azure DevOps.
 
     By using Git in Azure DevOps, you can benefit from the power and flexibility of Git, while also taking advantage of the collaboration and integration features provided by Azure DevOps.
+    ```
 
 2. Continuous Integration (CI) and Continuous Delivery (CD) [[4](#references)]
+
+    ```md
+    With Azure DevOps pipeline you can set up automatic builds and tests for your code project. It have support for all major languages and project types.
+
+    The continuous Integration setted up to catch bugs early in the development cycle will benefit you as a programmer to save time and money due to less fixing of bugs later on.
+
+    The continuous Delivery is a process by which code is built, tested, and deployed to one or more test and production environments. Deploying and testing in multiple environments increases quality
+    ```
+
 3. Work Item Tracking [[5](#references)]
+
+    ```md
+    ```
+
 4. Agile Project Management [[6](#references)]
+
+    ```md
+    ```
+
 5. Test Case Management [[7](#references)]
+
+    ```md
+    ```
+
 6. Release Management [[8](#references)]
+
+    ```md
+    ```
+
 7. Collaboration [[9](#references)]
+
+    ```md
+    ```
+
 8. Package Management [[10](#references)]
 
+    ```md
     Azure DevOps provides Package Management, which is a feature that helps you manage and share packages across your organization. Package Management supports several popular package formats, including NuGet, npm, Maven, and Python packages.
 
     With Package Management, you can publish your packages to an internal or external feed, and then consume them in your builds and releases. You can also manage packages from different package sources, such as public feeds like npmjs.com or Maven Central, or private feeds created by your team.
@@ -72,10 +104,16 @@ After the rebranding Azure DevOps has continued to evolve and add more features,
     In your builds and releases, you can use the packages from the Package Management feed by specifying the feed in your build or release definition. Azure DevOps will then download the packages and make them available to your build agents or release agents.
 
     Package Management in Azure DevOps helps you centralize your package management and improve collaboration and reuse within your organization. By using Package Management, you can ensure that your builds and releases use consistent and up-to-date packages.
+    ```
 
 9. Code Review and Feedback [[11](#references)]
+
+    ```md
+    ```
+
 10. Integrated Analytics [[12](#references)]
 
+    ```md
     Azure DevOps provides Integrated Analytics, which is a feature that helps you analyze and visualize data from various sources within Azure DevOps. Integrated Analytics uses Azure Boards and Azure DevOps data to provide insights into your work items, code changes, and pipelines.
 
     With Integrated Analytics, you can create and share reports and dashboards that visualize data from Azure DevOps in meaningful ways. For example, you can create a dashboard that shows the status of your work items, the number of code changes made in a given time period, and the success rate of your pipelines.
@@ -83,6 +121,7 @@ After the rebranding Azure DevOps has continued to evolve and add more features,
     To create a report or dashboard, you can use the built-in report authoring tools in Azure DevOps, or you can use Power BI, which is a data visualization tool provided by Microsoft. To create a report or dashboard in Power BI, you can connect to the Azure DevOps data source and use the data to create charts, graphs, and other visualizations.
 
     Integrated Analytics in Azure DevOps helps you make data-driven decisions by giving you access to rich data visualizations and insights into your work. With Integrated Analytics, you can monitor the progress of your work and identify areas where improvements can be made.
+    ```
 
 ## **Strengths**
 
