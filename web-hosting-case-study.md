@@ -1,10 +1,10 @@
 ---
-title: Example Product Case Study
-keywords: development platforms, example project, category name
-tags: Development Platforms, Example Project, Category Name
-sidebar: development-platforms
-permalink: development-platforms/example-product.html
-folder: development-platforms
+title: Web Hosting
+keywords: Web Hosting
+tags: Web Hosting
+sidebar: 
+permalink: 
+folder: 
 ---
 
 ## Introduction
