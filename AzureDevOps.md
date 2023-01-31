@@ -23,7 +23,7 @@ folder: development-platforms
 
 ## Introduction
 
-![Azure DevOps offerings](https://veritis.com/wp-content/uploads/2022/02/azure-devops-offerings.jpg)
+![Azure DevOps offerings](https://miro.medium.com/max/800/1*8orwInnxqPRhrcKf9aOo9Q.png)
 *Source: google*
 
 **Azure DevOps** was initially released in 2018 by Microsoft. It is a set of developer tools, services, and features that enable teams to plan, develop, test, and deliver software more effectively. Azure DevOps integrates with the broader Azure cloud computing platform, enabling users to take advantage of its features and services, such as continuous integration and deployment, and virtual machines. Azure DevOps has since become one of the leading development platforms and is widely used by development teams across the world.
@@ -42,6 +42,29 @@ The name "Azure DevOps" came in 2018. Microsoft rebranded TFS to Azure DevOps, t
 After the rebranding Azure DevOps has continued to evolve and add more features, you can read more about the features [here](#features). Azure DevOps have also integrated other Azure services such as Azure functions, Azure Container and Azure Kubernetes service.[[2](#references)]
 
 ## Features
+
+![Azure DevOps offerings](https://www.kovair.com/blog/wp-content/uploads/2022/03/Image-1-Azure-DevOps.png)
+*Source: google*
+
+1. Continuous Integration (CI) and Continuous Delivery (CD)
+2. Source Code Management
+
+    Azure DevOps provides source code management through Git repositories, which are used to store and track changes to your code. Git is a distributed version control system that allows multiple developers to work on the same codebase and track changes to the code over time.
+
+With Azure DevOps, you can create a Git repository for your project and store your source code in it. You can then invite other developers to collaborate on your project and make changes to the code. Git tracks each change made to the code, allowing you to revert to a previous version if needed, view a history of changes, and compare different versions of the code.
+
+Azure DevOps provides a web-based user interface that makes it easy to perform Git-related operations, such as cloning a repository, committing changes, and creating pull requests. You can also use the command-line interface or a Git client of your choice to interact with your Git repositories in Azure DevOps.
+
+By using Git in Azure DevOps, you can benefit from the power and flexibility of Git, while also taking advantage of the collaboration and integration features provided by Azure DevOps.
+
+3. Work Item Tracking
+4. Agile Project Management
+5. Test Case Management
+6. Release Management
+7. Collaboration
+8. Package Management
+9. Code Review and Feedback
+10. Integrated Analytics
 
 ## Strengths
 
@@ -63,7 +86,14 @@ The pricing of using Azure DevOps depends on the size of your team or organizati
 
 As you can see in the image above there is a wide range fo options to choose from when it comes to the services that Azure DevOps have to offer.
 
-The basic plan
+The **Basic plan** of Azure DevOps is a free plan that provides limited features for small teams or individual developers. You will have access to the following features with basic plan:
+
+1. Version control, you can use Git to manage your source code
+2. WWork Tracking by using the project boards. You can in there create work items to track issues, bugs, tasks and backlogs to prioritize and mange work.
+3. Package management.
+4. Basic security and compliance: You can use features such as pull requests and code reviews to secure your code, and compliance features such as auditing and disaster recovery to meet regulatory requirements.
+5. Continuous integration (CI): You can set up CI pipelines to automatically build, test, and deploy your code.
+(*There are some limitations with the Basic plan, such as the number of parallel pipelines and the number of minutes available for CI/CD, but it is a great option for small teams or individual developers who are just getting started with DevOps.*)
 
 ### Support
 
@@ -84,6 +114,9 @@ It is worth noting that while premium support may have a higher upfront cost tha
 ## How to
 
 ## Summary
+
+![Azure DevOps offerings](https://xam.com.au/wp-content/uploads/2022/03/devops-infinity-1-1.png)
+*Source: google*
 
 ### Credits
 
