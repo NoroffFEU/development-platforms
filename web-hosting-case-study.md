@@ -65,19 +65,35 @@ Here are some few info that show where we stand today:
 
 ### - www.bluehost.com
 
+#### Bluehost - Extremely fast and reliable hosting with plenty of advanced security add-ons.
+
 ### - www.hostgator.com
+
+#### HostGator -Easy and affordable web hosting with intuitive site building tools
 
 ### - www.hostinger.com
 
+#### Hostinger -Scalable hosting solutions for fast websites
+
 ### - https://no.godaddy.com/
+
+#### GoDaddy -Complete hosting solutions for any website
 
 ### - www.networksolutions.com
 
+#### Network Solutions -Cloud-based web hosting with easy-to-upgrade packages
+
 ### - www.web.com
+
+#### Web.com -Everything you need to build and host your website
 
 ### - www.dreamhost.com
 
-## - www.a2hosting.com
+#### DreamHost -Flexible hosting solutions to ensure your success
+
+### - www.a2hosting.com
+
+#### A2 Hosting -High-powered web hosting with plans to suit your unique needs
 
 ## Features
 
