@@ -34,37 +34,36 @@ Azure DevOps is for the most part free to use, however there is some limitations
 
 In 2005 the service that we today refer to as Azure DevOps was named Team Foundation server(TFS). It was released as a set of development tools and services for teams building software applications. After its release in 2005 it have evolved and expanded with new features and services and have quickly become the most popular development platforms fro Microsoft-centric teams. TFS has been around for more then a decade, and it have since its inception in 2005 evolved a lot. There are professionals in the industry whose entire careers have been dedicated to managing TFS. Such expertise has been necessary because it was quite complicated to administer.
 
-In 2012, TFS morphed into a tool that helped teams manage their software development projects using Agile.
-[[1](#references)]
+In 2012, TFS morphed into a tool that helped teams manage their software development projects using Agile. [[1](#references)]
 
 The name "Azure DevOps" came in 2018. Microsoft rebranded TFS to Azure DevOps, this reflecting Microsoft shift to a cloud based service and its focus on providing organizations with a more comprehensive set of tools and services.
 
-After the rebranding Azure DevOps has continued to evolve and add more features, you can read more about the features [here](#features). Azure DevOps have also integrated other Azure services such as Azure functions, Azure Container and Azure Kubernetes service.[[2](#references)]
+After the rebranding Azure DevOps has continued to evolve and add more features, you can read more about the features [here](#features). Azure DevOps have also integrated other Azure services such as Azure functions, Azure Container and Azure Kubernetes service. [[2](#references)]
 
 ## Features
 
 ![Azure DevOps offerings](https://www.kovair.com/blog/wp-content/uploads/2022/03/Image-1-Azure-DevOps.png)
 *Source: google*
 
-1. Continuous Integration (CI) and Continuous Delivery (CD)
-2. Source Code Management
+1. Source Code Management [[3](#references)]
 
     Azure DevOps provides source code management through Git repositories, which are used to store and track changes to your code. Git is a distributed version control system that allows multiple developers to work on the same codebase and track changes to the code over time.
 
-With Azure DevOps, you can create a Git repository for your project and store your source code in it. You can then invite other developers to collaborate on your project and make changes to the code. Git tracks each change made to the code, allowing you to revert to a previous version if needed, view a history of changes, and compare different versions of the code.
+    With Azure DevOps, you can create a Git repository for your project and store your source code in it. You can then invite other developers to collaborate on your project and make changes to the code. Git tracks each change made to the code, allowing you to revert to a previous version if needed, view a history of changes, and compare different versions of the code.
 
-Azure DevOps provides a web-based user interface that makes it easy to perform Git-related operations, such as cloning a repository, committing changes, and creating pull requests. You can also use the command-line interface or a Git client of your choice to interact with your Git repositories in Azure DevOps.
+    Azure DevOps provides a web-based user interface that makes it easy to perform Git-related operations, such as cloning a repository, committing changes, and creating pull requests. You can also use the command-line interface or a Git client of your choice to interact with your Git repositories in Azure DevOps.
 
-By using Git in Azure DevOps, you can benefit from the power and flexibility of Git, while also taking advantage of the collaboration and integration features provided by Azure DevOps.
+    By using Git in Azure DevOps, you can benefit from the power and flexibility of Git, while also taking advantage of the collaboration and integration features provided by Azure DevOps.
 
-3. Work Item Tracking
-4. Agile Project Management
-5. Test Case Management
-6. Release Management
-7. Collaboration
-8. Package Management
-9. Code Review and Feedback
-10. Integrated Analytics
+2. Continuous Integration (CI) and Continuous Delivery (CD) [[4](#references)]
+3. Work Item Tracking [[5](#references)]
+4. Agile Project Management [[6](#references)]
+5. Test Case Management [[7](#references)]
+6. Release Management [[8](#references)]
+7. Collaboration [[9](#references)]
+8. Package Management [[10](#references)]
+9. Code Review and Feedback [[11](#references)]
+10. Integrated Analytics [[12](#references)]
 
 ## Strengths
 
@@ -136,4 +135,16 @@ Author: Christopher Tønnesland
 
 1. [TSF information](https://www.perforce.com/blog/vcs/what-team-foundation-server-tfs)
 2. [Image of chatGDP response](https://ibb.co/dW1KqYj)
-3. []()
+3. [What is Azure Repos?](https://learn.microsoft.com/en-us/azure/devops/repos/get-started/what-is-repos?view=azure-devops)
+4. [What is Azure Pipelines?](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops)
+5. [Plan and track work in Azure Boards](https://learn.microsoft.com/en-us/azure/devops/boards/get-started/plan-track-work?view=azure-devops&tabs=agile-process)
+6. [What is Azure Boards?](https://learn.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops)
+7. [What is Azure Test Plans?](https://learn.microsoft.com/en-us/azure/devops/test/overview?view=azure-devops)
+8. []()
+9. []()
+10. []()
+11. []()
+12. []()
+13. []()
+14. []()
+15. []()
