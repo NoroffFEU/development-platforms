@@ -129,7 +129,7 @@ Outline the product's key features.
 
 ## Weaknesses
 
-![weaknesses-image](https://st2.depositphotos.com/5456580/8083/i/600/depositphotos_80830328-stock-photo-hand-writing-weaknesses.jpg)
+![weaknesses-image](https://st2.depositphotos.com/5456580/8083/i/450/depositphotos_80830328-stock-photo-hand-writing-weaknesses.jpg)
 
 ### Shared Hosting
 
@@ -185,4 +185,4 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 - https://www.google.com/search?q=strengths&tbm=isch&ved=2ahUKEwjzt4eC7_H8AhU_4bsIHWHcDwwQ2-cCegQIABAA&oq=stre&gs_lcp=CgNpbWcQARgAMgQIABBDMgQIABBDMgQIABBDMgUIABCABDIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEUN8HWNYMYIMbaABwAHgAgAFjiAHVA5IBATWYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=TRHZY7PdEr_C7_UP4bi_YA&bih=569&biw=1280#imgrc=gH3yez74IMVtOM&imgdii=HiTVcP-8h8yyJM
 
-- https://no.depositphotos.com/stock-photos/weaknesses.html
+- https://www.google.com/search?q=weaknesses&tbm=isch&ved=2ahUKEwib5aeW8PH8AhWW5rsIHXgwAkAQ2-cCegQIABAA&oq=weak&gs_lcp=CgNpbWcQARgAMgQIABBDMgQIABBDMgQIABBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABBDMgUIABCABDIECAAQQzIECAAQQ1DXCFj0HWDBKGgAcAB4A4ABhQGIAaIJkgEEMTEuMpgBAKABAaoBC2d3cy13aXotaW1nsAEAwAEB&sclient=img&ei=hBLZY5uTDZbN7_UP-OCIgAQ&bih=569&biw=1280#imgrc=9Gg7pU_sV6XWhM
