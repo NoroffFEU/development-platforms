@@ -113,7 +113,7 @@ Outline the product's key features.
 
 - Resources: another advance is resources, here you can get a collection of resources that can grow and get bigger while following the websites requirements and demands.
 
-### VPS Hosting(Virtual Private Server)
+### VPS Hosting (Virtual Private Server)
 
 - One of the strengths with VPS is that it works better than shared hosting because it has improved performance and security, something shared hosting don`t have.
 
@@ -141,7 +141,7 @@ Outline the product's key features.
 
 - And the last but not least weakness, is sites that have high security requirements, for example e-commerce store that have credit cards in it`s own base, because of this the system is not indicated. 
 
-### VPS Hosting(Virtual Private Server)
+### VPS Hosting (Virtual Private Server)
 
 - A weakness of VPS is that the customer have a lot of work and responsibility, the customer is responsible for all installation, maintenance and also security of VPS, so it`s a lot of work here.
 
