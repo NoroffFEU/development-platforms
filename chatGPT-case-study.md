@@ -37,7 +37,11 @@ The history of ChatGPT itself is very short. However, there are previous relevan
 
 ## Features
 
-Outline the product's key features.
+Because it has the ability to remember previous questions asked in the same chat and is able to ask follow up questions when it needs some more context, ChatGPT can effectively interact with a human being in a conversational way. The model was trained on a massive amount of corpus data including a wide array of topics and styles which makes its potential uses so vast it will be challenging to summarise them all in one report.
+
+As the bot is able to produce human-fashion texts in several languages it can be employed to write essays, poems, bed-time stories, news articles, and even scientific abstracts. These last ones might not contain reliable information, but the text bot is able to mimic academic language perfectly. It can also correct grammar, explain complex ideas in simple terms, and solve mathematical problems making it a suitable tool for students who need assistance in their assignments or simply use it to cheat on their school work.
+
+One of the most relevant features when it comes to web and software development is its ability to produce code snippets in different programming languages including JavaScript, Java, Python, C++, C#, and Ruby. A myriad videos can be found on YouTube with influencers explaining how the text bot built entire apps for them, but it is worth mentioning that the code usually contains bugs or it isn't completely accurate. Therefore, the building process requires a human developer behind it who can either debug themselves or can give further instructions to ChatGPT to fix its own bugs. Nevertheless, the bot has proven to be an exceptional debugging assistant tool. As tackling code issues involves a lot of time spent on reading documentation, google searches, and stackoverflow, ChatGPT increases tremendously developers productivity by providing possible solutions in a matter of seconds. All it takes is copy/paste the block of code in the chat line and explain what it is supposed to do and what error is throwing.
 
 ## Strengths
 
