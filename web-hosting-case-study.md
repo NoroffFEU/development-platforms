@@ -99,7 +99,7 @@ Here are some few info that show where we stand today:
 
 ![features-image](https://www.upvoty.com/wp-content/uploads/2020/09/features.png)
 
-### - Disk Space
+### Disk Space
 
 Disk space is basically the total amount of data that a hard disk/hard drive can store. Disk capacity is displayed usually in three different ways: 
 
@@ -109,11 +109,11 @@ Disk space is basically the total amount of data that a hard disk/hard drive can
 
 - TB (terabytes)
 
-### - Bandwidth
+### Bandwidth
 
 With Bandwidth feature, you can load your website faster, because loading time can take tme and is the time it takes to transfer different website files. 
 
-### - Security
+### Security
 
 Security is something everyone should have, these days no one is safe. According to Fundera, 43% of small businesses are victims of cyber attacks. If you have the right web host, then you could prevent being attacked from cyber attacks. 
 
@@ -125,7 +125,7 @@ Some web hosting plan you should consider are:
 
 - Firewall management
 
-And if you are working with Bluehost’s Managed WordPress hosting plan, then you could sign up to this, and it will give you additional security features such ass:
+And if you are working with Bluehost’s Managed WordPress hosting plan, then you could sign up to this, and it will give you additional security features such as:
 
 - Secure shell (SSH) access
 
@@ -133,11 +133,11 @@ And if you are working with Bluehost’s Managed WordPress hosting plan, then yo
 
 - Domain privacy
 
-### - Uptime
+### Uptime
 
 What Uptime do is that it measures te percentage of time your website is up and available to the users who visit your site. With other words, the closer to 100% uptime, the better. If you use the best web hosting, it van provide high uptimes by offering backup servers and backup servers in multiple locations. Many web hosts have uptime, one example is Bluehost, which have 99.9% uptime.
 
-### - Website Speed
+### Website Speed
 
 Website speed helps loading your website faster, if you are using the right tools. Not only does website speed affect user experience, but it also does affect search engine optimization (SEO). With good web hosting companies, you can use:
 
@@ -149,7 +149,7 @@ Website speed helps loading your website faster, if you are using the right tool
 
 With these right tools above, you can help users deliver quick page.
 
-### - Pre-installed apps
+### Pre-installed apps
 
 Here web hosts offer different web hosting features, but in a app, some of these apps include:
 
@@ -161,11 +161,11 @@ Here web hosts offer different web hosting features, but in a app, some of these
 
 - E-Commerce Features
 
-### - Domain Names
+### Domain Names
 
 Your domain name is the digital address of your digital space on the internet. The reason behind making this was to find and identify internet entities, but without using IP addresses. A domain name is basically an Internet resource name that is universally understood by Web servers and online organizations and provides all pertinent destination information. This makes everything more safe and organized.
 
-### - Website Builder
+### Website Builder
 
 Website builder is a tool or program that can help you create a website without actual manual code editing. There is two times of website builders:
 
@@ -173,7 +173,7 @@ Website builder is a tool or program that can help you create a website without 
 
 - Online Website Builders
 
-### - Support
+### Support
 
 Most of the times you can never create a website 100% error-free, there will always bee some errors down the road which you will have to figure out how to fix. In those cases, a technical support team is something you will need. The biggest and best web hosting providers provide 24/7 customer support in many different ways, these can be such as:
 
@@ -189,7 +189,7 @@ Most of the times you can never create a website 100% error-free, there will alw
 
 - Calls
 
-### - Backups 
+### Backups 
 
 Backups is very important. It can prevent data loss, which is very important. It does not matter how good your website is, a website can always get hit by something which will take the website down. A good web hosting company should restore your website with minimal downtime and make frequent automatic backups of your website to like I said prevent data loss.
 
