@@ -206,3 +206,5 @@ Summarise the content and highlight the relevance of the product to a web develo
 - https://www.google.com/search?q=weaknesses&tbm=isch&ved=2ahUKEwib5aeW8PH8AhWW5rsIHXgwAkAQ2-cCegQIABAA&oq=weak&gs_lcp=CgNpbWcQARgAMgQIABBDMgQIABBDMgQIABBDMgUIABCABDIFCAAQgAQyBQgAEIAEMgQIABBDMgUIABCABDIECAAQQzIECAAQQ1DXCFj0HWDBKGgAcAB4A4ABhQGIAaIJkgEEMTEuMpgBAKABAaoBC2d3cy13aXotaW1nsAEAwAEB&sclient=img&ei=hBLZY5uTDZbN7_UP-OCIgAQ&bih=569&biw=1280#imgrc=namSzisi9ATRQM&imgdii=gCJlKJ8yFlJtaM
 
 - https://www.google.com/search?q=weaknesses&tbm=isch&tbs=rimg:CZ2pks4rIvQEYY0ggk0Ji6cssgIMCgIIABAAOgQIABAA&hl=en&sa=X&ved=0CBoQuIIBahcKEwjI2eHn8fH8AhUAAAAAHQAAAAAQcw&biw=1263&bih=569#imgrc=xATW4krbq1TyaM
+
+- https://www.bluehost.com/blog/features-a-good-web-host-should-provide/
