@@ -49,9 +49,9 @@ Martin Mroz (Git Hub User: martinMr79)
 
 #### - List of video or links used during research
 
-[Introduction to AWS for Non-Engineers: 1 Cloud Concepts]([https://link-url-here.org](https://www.linkedin.com/learning/introduction-to-aws-for-non-engineers-1-cloud-concepts-2/how-did-we-get-in-the-cloud?autoplay=true&resume=false&u=43268076))
+[Introduction to AWS for Non-Engineers: 1 Cloud Concepts](https://www.linkedin.com/learning/introduction-to-aws-for-non-engineers-1-cloud-concepts-2/how-did-we-get-in-the-cloud?autoplay=true&resume=false&u=43268076)
 
-[AWS docs]([https://link-url-here.org](https://aws.amazon.com/getting-started/cloud-essentials/))
+[AWS docs/getting started](https://aws.amazon.com/getting-started/cloud-essentials/)
 
 [Link text Here](https://link-url-here.org)
 
