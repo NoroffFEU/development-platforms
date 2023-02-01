@@ -11,13 +11,21 @@ folder: development-platforms
 
 ## Introduction
 
-tRPC stands for TypeScript Remote Procedure Call. It's a simple and lightweight library for creating API's using a singular programming language [TypeScript](https://www.typescriptlang.org/), with the option to use a singular respoitory to host both the client and server infrastructure. It operates as a protocol to call your backend functions directly from the frontend, unlike other popular options such as ``GraphQL`` which is a ``schema``.
-
+tRPC stands for TypeScript Remote Procedure Call. It's a simple and lightweight library for creating API's using a singular programming language [TypeScript](https://www.typescriptlang.org/), with the option to use a singular respoitory to host both the client and server infrastructure. It operates as a protocol to call your backend functions directly from the frontend, unlike other popular options such as ``GraphQL``.
 ## Brief History
 
-Provide a brief history of the product, including major milestones or events.
+tRPC was created by [Alex / KATT](https://twitter.com/alexdotjs) and was first released in 2020, with [tRPC/client](https://www.npmjs.com/package/@trpc/client?activeTab=versions) and [tRPC/server](https://www.npmjs.com/package/@trpc/server?activeTab=versions) seeing its 1.0.0 release back in 2020.
 
-You may use bullet points, numbered lists, paragraphs or a timeline.
+Since then there's been many iterations and versions of the product, with its latest version ``10.9.0`` being released 11th of Jan 2022.
+
+Currently its latest versions is seeing around 40k weekly downloads and the repository has a respectable 20k stars on github. The interest in the product have increased recently in social media, and been praised by several prominent ``full-stack`` developers for it's features on how it bridges the gap between front- and backend. 
+
+
+trash dev
+
+      Now everyone can call themselves full-stack developers.
+
+
 
 ## Features
 
@@ -45,4 +53,8 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 #### References
 
-- List of video or links used during research
+https://www.npmjs.com/package/@trpc/server?activeTab=versions
+https://www.npmjs.com/package/@trpc/server?activeTab=versions
+https://github.com/trpc
+https://trpc.io/
+https://create.t3.gg/en/usage/trpc
