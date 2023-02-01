@@ -97,6 +97,8 @@ Here are some few info that show where we stand today:
 
 ## Features
 
+![features-image](https://www.upvoty.com/wp-content/uploads/2020/09/features.png)
+
 ### - Disk Space
 
 ### - Bandwidth
@@ -116,8 +118,6 @@ Here are some few info that show where we stand today:
 ### - Support
 
 ### - Backups 
-
-Outline the product's key features.
 
 ## Strengths
 
