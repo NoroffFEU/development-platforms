@@ -132,11 +132,28 @@ Floating-Point types:
 
 - FLOAT and DOUBLE - stores aproximate numeric value, single precision uses four bytes and double precision uses eight
 
+Bit-value type:
+
+- Stores value in binary. Read more about binary values here: https://www.techtarget.com/whatis/definition/binary
+
+Numeric type Attributes: Numeric datatypes can have attributes to spesify the width of an integer. E.g. INT(3)
+
+Out-of-Range and Overflow Handling: Allows for both "strict SQL mode" and "no restrictive mode".
+Strict mode returns an error if the integer is out of range and no-strict clips the value to appropriatley
+fit the column data and stores the result instead.
+
+SIGNED and UNSIGNED values:
+
+- signed values can store zero, negative and positive numbers.
+- UNSIGNED values can only store zero and positive numbers.
+
+What numeric types one should use depends on the what it is used for. In general one would want to use the type that atores the most correct value and uses the least amout of storage. E.g: DECIMAL is great for monetary use where FLOAT and DOUBLE are often used for scientific numbers where every decimal number counts.
+
 ##### String Data Types
 
 test string
 
-#### Character Sets
+<!-- #### Character Sets -->
 
 #### Statments and Functions
 
