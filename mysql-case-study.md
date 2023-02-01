@@ -151,7 +151,7 @@ What numeric types one should use depends on the what it is used for. In general
 
 ##### String Data Types
 
-test string
+The string data types consist are: CHAR,VARCHAR,BINARY,VARBINARY,TEXT,BLOB,ENUM and SET.
 
 <!-- #### Character Sets -->
 
