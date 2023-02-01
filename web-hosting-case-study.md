@@ -97,6 +97,26 @@ Here are some few info that show where we stand today:
 
 ## Features
 
+### - Disk Space
+
+### - Bandwidth
+
+### - Security
+
+### - Uptime
+
+### - Website Speed
+
+### - Pre-installed apps
+
+### - Domain Names
+
+### - Website Builder
+
+### - Support
+
+### - Backups 
+
 Outline the product's key features.
 
 ## Strengths
