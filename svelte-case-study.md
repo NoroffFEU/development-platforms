@@ -19,16 +19,17 @@ Svelte is purely a compiler, that converts your application into ideal JavaScrip
 
 ## Creating a project with svelte using vite
 
-I am using [vite](https://vitejs.dev/) to create a new svelte there is other way's than vite, but im not gonna get into it. If you want a full-fledged app framework you can also use (https://svelte.dev/docs) it will also utilizing vite. But since im only gonna build a simple front-end only site/app, i will use svelte without kit.
+I am using [vite](https://vitejs.dev/) to create a new svelte project, there is other way's than vite like degit, but im not gonna get into it. If you want a full-fledged app framework you can also use [SvelteKit](https://svelte.dev/docs) it will also be utilizing vite. But since im only gonna build a simple front-end only site/app, i will use svelte (without kit).
 
-You start by navigating to the folder where you want this project, then open a terminal in the folder and type this command and hit enter.
+You start by navigating to the folder where you want to create the project, then open a terminal in the folder and type this command and hit enter.
 
 ```
 npm init vite@latest
 ```
+
 You will then get prompted some options.
 
-1. Write the project name, hit enter.
+1. Write the name of the project or hit enter for default.
 
 2. You will get options of frameworks, choose svelte.
 
@@ -39,7 +40,17 @@ Im going to choose TypeScript, feel free to choose whatever floats your boat.
 Go into the project folder `cd "name of your project"`.
 Write this command in the terminal `code .` that will open the project in a new vscode session.
 
+open terminal and write these commands:
 
+```
+npm i
+npm run dev
+```
+
+and your server is live and running.
+if you want to configure vite more you can find the docs [here](https://vitejs.dev/config/).
+
+## Using svelte
 
 
 ## Strengths
@@ -71,7 +82,14 @@ Summarise the content and highlight the relevance of the product to a web develo
 - List of video or links used during research
 
 ## References
+https://svelte.dev/docs
 
 https://blog.bitsrc.io/react-vs-sveltejs-the-war-between-virtual-and-real-dom-59cbebbab9e9
 
 https://www.eternaldev.com/blog/build-and-deploy-apps-with-svelte-and-vite/
+
+### Additional refrences
+
+[Degit npm docs](https://www.npmjs.com/package/degit)
+
+[Setting up svelte with degit](https://dev.to/jacobherrington/setting-up-a-svelte-project-in-seconds-with-degit-4dpa)
