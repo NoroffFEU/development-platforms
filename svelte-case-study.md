@@ -75,21 +75,23 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- Sigvel
 
 #### References
 
-- List of video or links used during research
+- https://www.youtube.com/watch?v=3TVy6GdtNuQ
 
 ## References
-https://svelte.dev/docs
+- https://svelte.dev/docs
 
-https://blog.bitsrc.io/react-vs-sveltejs-the-war-between-virtual-and-real-dom-59cbebbab9e9
+- https://blog.bitsrc.io/react-vs-sveltejs-the-war-between-virtual-and-real-dom-59cbebbab9e9
 
-https://www.eternaldev.com/blog/build-and-deploy-apps-with-svelte-and-vite/
+- https://www.eternaldev.com/blog/build-and-deploy-apps-with-svelte-and-vite/
+
+- https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started
 
 ### Additional refrences
 
-[Degit npm docs](https://www.npmjs.com/package/degit)
+- [Degit npm docs](https://www.npmjs.com/package/degit)
 
-[Setting up svelte with degit](https://dev.to/jacobherrington/setting-up-a-svelte-project-in-seconds-with-degit-4dpa)
+- [Setting up svelte with degit](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_Todo_list_beginning)
