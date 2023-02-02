@@ -60,4 +60,7 @@ ________________________________________________________________________________
 
 - [5] *Hosting* - is responsible for providing static and dynamic content and microservices. Can quickly deploy web apps with a single command. It allows us to migrate Firebase hosting content into our domain with SSL security.
 
-- [6] *Authentication* - 
+- [6] *Authentication* - is one of the most critical requirements for Android apps. It provides all the server-side stuff for authenticating the user, and it is much more complicated if we have to write all this code ourselves. These features can be easily integrated with your custom backend. It also provides some user interface libraries that enable screens for us when logging in.
+- [7] *Firebase Machine Learning Kit* is a powerful yet easy-to-use package, simple, easy, and quick to add to any application. Not only this, but the chances of errors are also significantly reduced. The best part of implementing this SDK is that you do not have to write much code. It applies Google Analytics for Firebase data to create groups of users based on predicted behavior. It is updated daily and can use for targeting with notifications, remote configuration, and more. It provides users with features of Machine Learning such as Face Recognizance, Language Translator, etc. 
+
+___________________________________________________________________________________________
