@@ -25,7 +25,7 @@ The history of ChatGPT itself is very short. However, there are previous relevan
 
 - 1972: Kenneth Colby, a professor of psychiatry at Stanford University, develops Parry to study the human mind through computer models.
 
-- 1983. William Chamberlain and Thomas Etter create RACTER, a chat bot whose aim is to entertain people who interact with it.
+- 1983: William Chamberlain and Thomas Etter create RACTER, a chat bot whose aim is to entertain people who interact with it.
 
 - 2000s: ALICE (Artificial Language Internet Computer Entity) was developed. Even if it didn't pass the Turing Test, it became the foundation for most chat bots nowadays.
 
