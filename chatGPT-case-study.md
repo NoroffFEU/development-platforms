@@ -59,9 +59,11 @@ ChatGPT is currently free to use. OpenAI has announced on Twitter that it's pilo
 
 ## Strengths
 
-ChatGPT can be universally used. It isn't limited to English speakers for it supports many different languages. Users' age doesn't appear to be a limitation either given its ability to explain complex concepts in simple terms. Additionally, it can assist people in their personal life by outlying meal plans or help organise their days, but it can also aid in a variety of industries like journalism, education, business development, and software development. This makes it a very versatile tool.
+ChatGPT can be universally used. It isn't limited to English speakers for it supports many different languages. Users' age doesn't appear to be a limitation either given its ability to explain complex concepts in simple terms. Additionally, it can assist people in their personal life by outlying meal plans or help organise their days, as well as it can aid in a variety of industries like journalism, education, business development, and software development. This makes it a very versatile tool.
 
-Focusing on software development, its ability to increase developers productivity is definitely its greatest strength. If the tool is used appropriately it can help us be more efficient by decreasing the time we spent planning or reading how to do something.
+Focusing on software development, its ability to increase developers productivity is definitely its greatest strength. If the tool is used appropriately it can help us be more efficient by decreasing the time we spent planning or reading how to do something. It is especially useful for students or developers in the early stage of their careers. Finding the answer that solves an issue requires knowledge of technical terms that students often forget or don't yet have - having the opportunity to explain the problem in simple terms is therefore a great advantage.
+
+The variety of subjects it was trained in is also beneficial to developers. Not only is the bot able to help in several programming languages, but it's also able to answer questions about hosting services, cms, databases, and git, amongst others. This feature makes the bot also ideal for practising for interview questions. You can even ask it to be your interviewer: it will give you a set of questions, and if your answers are incomplete it will fill in for you.
 
 ## Weaknesses
 
