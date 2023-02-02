@@ -93,13 +93,13 @@ As far as software development is concern, ChatGPT can write code faster than a 
 
 - Melisa Zorraindo (Melisa-Zorraindo)
 
-#### References
+### References
 
-##### Official site
+#### Official site
 
 - https://openai.com/blog/chatgpt/
 
-##### Internet articles
+#### Internet articles
 
 - https://yakbots.com/
 
@@ -111,7 +111,7 @@ As far as software development is concern, ChatGPT can write code faster than a 
 
 - https://en.wikipedia.org/wiki/GitHub_Copilot
 
-##### Newspaper and magazines
+#### Newspaper and magazines
 
 - https://www.theguardian.com/technology/2023/jan/13/chatgpt-explainer-what-can-artificial-intelligence-chatbot-do-ai
 
@@ -123,13 +123,13 @@ As far as software development is concern, ChatGPT can write code faster than a 
 
 - https://uk.pcmag.com/internet-3/76311/microsoft-puts-tay-chatbot-in-time-out-after-racist-tweets
 
-##### Audio
+#### Audio
 
 - https://www.bbc.co.uk/sounds/play/p0dycfgr
 
 - https://www.bbc.co.uk/sounds/play/p0dxrnyv
 
-##### Video
+#### Video
 
 - https://www.youtube.com/watch?v=0uQqMxXoNVs
 
