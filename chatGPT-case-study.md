@@ -47,6 +47,10 @@ ChatGPT is currently free to use. OpenAI has announced on Twitter that it's pilo
 
 ## Strengths
 
+ChatGPT can be universally used. It isn't limited to English speakers for it supports many different languages. Users' age doesn't appear to be a limitation either given its ability to explain complex concepts in simple terms. Additionally, it can assist people in their personal life by outlying meal plans or help organise their days, but it can also aid in a variety of industries like journalism, education, business development, and software development. This makes it a very versatile tool.
+
+Focusing on software development, its ability to increase developers productivity is definitely its greatest strength. If the tool is used appropriately it can help us be more efficient by decreasing the time we spent planning or reading how to do something.
+
 ## Weaknesses
 
 Discuss the product's weaknesses.
