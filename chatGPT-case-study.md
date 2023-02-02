@@ -37,7 +37,7 @@ The history of ChatGPT itself is very short. However, there are previous relevan
 
 ## Features
 
-Because it has the ability to remember previous questions asked in the same chat and is able to ask follow up questions when it needs more context, ChatGPT can effectively interact with a human being in a conversational way. The model was trained on a massive amount of corpus data including a wide array of topics and styles which makes its potential uses so vast it will be challenging to summarise them all in one report.
+Because it has the ability to remember previous questions asked in the same chat, ChatGPT can effectively interact with a human being in a conversational way. The model was trained on a massive amount of corpus data including a wide array of topics and styles which makes its potential uses so vast it will be challenging to summarise them all in one report.
 
 As the bot is able to produce human-fashion texts in several languages it can be employed to write essays, poems, bed-time stories, news articles, and even scientific abstracts. These last ones might not contain reliable information, but the text bot is able to mimic academic language perfectly. It can also correct grammar, explain complex ideas in simple terms, and solve mathematical problems making it a suitable tool for students who need assistance in their assignments or simply use it to cheat on their school work.
 
