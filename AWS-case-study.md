@@ -13,11 +13,42 @@ folder: development-platforms
 
 Cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources
 
-## Brief History
+## History of Cloud Computing
 
-#### Provide a brief history of the product, including major milestones or events.
+* 1950s 
+  * Invention of mainframe computing, using a central computer accessed by several devices, all using the capabilities of the central computer. 
 
-#### You may use bullet points, numbered lists, paragraphs or a timeline.
+* 1970s
+  * Concept of Virtual machines emerges, having multiple complete operating systems that "live" in a single piece of hardware. This allowed a maniframe computer to run multiple operating systems at the same time. 
+
+* 1989 
+  * UK computer scientist Tim Berners-Lee invented the World Wide Web.
+
+* 1999 
+  * Cloud-based software company Salesforce was founded.
+ 
+* 2002 
+  * Amazon Web Services (AWS) launched as a free service 
+
+* 2006 
+  * AWS started offering web-based computing infrastructure services, now known as cloud computing.
+
+* 2008 
+  * Google announced App Engine, a developer tool that allowed users to run web applications on Google infrastructure.
+
+* 2010 
+  * Microsoft released Azure, its cloud computing service.
+
+* 2011
+  * IBM introduced the SmartCloud framework.
+
+* 2015 
+  * Google and Microsoft lead massive build outs of data centres.
+
+* 2018 
+  * Leading data centre operators started the migration to 400G data speeds.
+
+
 
 ## Features
 
@@ -53,7 +84,7 @@ Martin Mroz (Git Hub User: martinMr79)
 
 [AWS docs/getting started](https://aws.amazon.com/getting-started/cloud-essentials/)
 
-[Link text Here](https://link-url-here.org)
+[Cloud computing timeline](https://www.verdict.co.uk/cloud-computing-timeline/)
 
 [Link text Here](https://link-url-here.org)
 
