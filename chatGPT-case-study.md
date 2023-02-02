@@ -19,33 +19,33 @@ Technically speaking, ChatGPT is a large language model. It means that it was tr
 
 The history of ChatGPT itself is very short. However, there are previous relevant events that give a more complete insight of the context of its introduction.
 
-- 1950s. Alan Turing, the pioneering British computer scientist, publishes ‘Computing Machinery and Intelligence’, where he proposes that if a machine can convince a human they're talking to another human, then the machine has intelligence. Later this year, he develops a test called the Turing Test to assess machine intelligence.
+- 1950s: Alan Turing, the pioneering British computer scientist, publishes ‘Computing Machinery and Intelligence’, where he proposes that if a machine can convince a human they're talking to another human, then the machine has intelligence. Later this year, he develops a test called the Turing Test to assess machine intelligence.
 
-- 1966. Joseph Weizenbaum, a German computer scientist and Professor at Massachusetts Institute of Technology, developed the program ELIZA inspired on Turing's paper. Eliza's purpose was to trick humans into believing they were chatting with another human and it's considered the first chat bot in human history. It didn't pass the Turing Test.
+- 1966: Joseph Weizenbaum, a German computer scientist and Professor at Massachusetts Institute of Technology, developed the program ELIZA inspired on Turing's paper. Eliza's purpose was to trick humans into believing they were chatting with another human and it's considered the first chat bot in human history. It didn't pass the Turing Test.
 
 - 1972: Kenneth Colby, a professor of psychiatry at Stanford University, develops Parry to study the human mind through computer models.
 
 - 1983. William Chamberlain and Thomas Etter create RACTER, a chat bot whose aim is to entertain people who interact with it.
 
-- 2000s. ALICE (Artificial Language Internet Computer Entity) was developed. Even if it didn't pass the Turing Test, it became the foundation for most chat bots nowadays.
+- 2000s: ALICE (Artificial Language Internet Computer Entity) was developed. Even if it didn't pass the Turing Test, it became the foundation for most chat bots nowadays.
 
-- 2010. Apple launches Siri.
+- 2010: Apple launches Siri.
 
-- 23rd March 2016. Microsoft releases Tay, a Twitter chat bot that was shut down shortly after because it learnt offensive language.
+- 23rd March 2016: Microsoft releases Tay, a Twitter chat bot that was shut down shortly after because it learnt offensive language.
 
-- 6th November 2016. Amazon launches Alexa.
+- 6th November 2016: Amazon launches Alexa.
 
-- 11th June 2018. OpenAI releases "Improving Language Understanding by Generative Pre-Training", a paper presenting the differences between natural language processing (NLP) models and Generative Pre-Training (GPT).
+- 11th June 2018: OpenAI releases "Improving Language Understanding by Generative Pre-Training", a paper presenting the differences between natural language processing (NLP) models and Generative Pre-Training (GPT).
 
-- November 2019. OpenAI launches GPT-2 as a "direct scale-up" of GPT.
+- November 2019: OpenAI launches GPT-2 as a "direct scale-up" of GPT.
 
-- July 2020. GPT-3 is introduced in beta testing mode.
+- July 2020: GPT-3 is introduced in beta testing mode.
 
-- 29th June 2021. GitHub releases GitHub Copilot, developed in collaboration with OpenAI and based on GPT-3.
+- 29th June 2021: GitHub releases GitHub Copilot, developed in collaboration with OpenAI and based on GPT-3.
 
-- 5th August 2022. Meta launches Blenderbot 3, the company's most advanced AI chatbot to date.
+- 5th August 2022: Meta launches Blenderbot 3, the company's most advanced AI chatbot to date.
 
-- 30th November 2022. OpenAI launches ChatGPT based on GPT-3.5 model. Within 5 days of its realease it gained 1 million users whereas other successful applications needed months to achieve the first million users. For instace, Netflix achieved its first million in 40 months, Facebook in 10 months, and Instagram in 2.5 months.
+- 30th November 2022: OpenAI launches ChatGPT based on GPT-3.5 model. Within 5 days of its realease it gained 1 million users whereas other successful applications needed months to achieve the first million users. For instace, Netflix achieved its first million in 40 months, Facebook in 10 months, and Instagram in 2.5 months.
 
 ## Features
 
