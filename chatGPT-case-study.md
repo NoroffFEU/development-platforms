@@ -85,7 +85,9 @@ The search engine You.com launched a similar tool the 24th December 2022. It all
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+Many have expressed their concern about ChatGPT and other AI tools built on large language models taking their jobs. As technology improves, these models will be capable of better understand irony, sarcarsm, jokes, human emotions, and the nuances introduced by cultural differences making them extremely powerful and suitable for sectors like psychiatry and medicine.
+
+As far as software development is concern, ChatGPT can write code faster than a human, but not more reliably. It needs human supervision to ensure it's working as intended. Even if you ask the chat bot to automate testing, these tests may also contain bugs. Replacing a human proves not to be so easy after all. Instead, this type of technology is most useful to boost productivity - to assist human beings in their daily tasks. It is obviously more efficient to ask an question and obtain a response in seconds than to post it on stackoverflow and wait for other developers to read our code and provide an answer. It is also easier to read one response than to read dozens of pages thrown on a Google search. This is why replacing an entire staff with bots is unlikely to happen in the near future.
 
 ### Credits
 
