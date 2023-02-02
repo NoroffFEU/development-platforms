@@ -21,9 +21,9 @@ The history of ChatGPT itself is very short. However, there are previous relevan
 
 - 1950s. Alan Turing, the pioneering British computer scientist, publishes ‘Computing Machinery and Intelligence’, where he proposes that if a machine can convince a human they're talking to another human, then the machine has intelligence. Later this year, he develops a test called the Turing Test to assess machine intelligence.
 
-- 1966.Joseph Weizenbaum, a German computer scientist and Professor at Massachusetts Institute of Technology, developed the program ELIZA inspired on Turing's paper. Eliza's purpose was to trick humans into believing they were chatting with another human and it's considered the first chat bot in human history. It didn't pass the Turing Test.
+- 1966. Joseph Weizenbaum, a German computer scientist and Professor at Massachusetts Institute of Technology, developed the program ELIZA inspired on Turing's paper. Eliza's purpose was to trick humans into believing they were chatting with another human and it's considered the first chat bot in human history. It didn't pass the Turing Test.
 
-- 1972. Kenneth Colby, a professor of psychiatry at Stanford University, develops Parry to study the human mind through computer models.
+- 1972: Kenneth Colby, a professor of psychiatry at Stanford University, develops Parry to study the human mind through computer models.
 
 - 1983. William Chamberlain and Thomas Etter create RACTER, a chat bot whose aim is to entertain people who interact with it.
 
