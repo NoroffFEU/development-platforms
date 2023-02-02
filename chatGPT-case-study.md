@@ -91,8 +91,48 @@ As far as software development is concern, ChatGPT can write code faster than a 
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- Melisa Zorraindo (Melisa-Zorraindo)
 
 #### References
 
-- List of video or links used during research
+##### Official site
+
+- https://openai.com/blog/chatgpt/
+
+##### Internet articles
+
+- https://yakbots.com/
+
+- https://www.biorxiv.org/content/10.1101/2022.12.23.521610v1
+
+- https://en.wikipedia.org/wiki/GPT-2
+
+- https://en.wikipedia.org/wiki/GPT-3
+
+- https://en.wikipedia.org/wiki/GitHub_Copilot
+
+##### Newspaper and magazines
+
+- https://www.theguardian.com/technology/2023/jan/13/chatgpt-explainer-what-can-artificial-intelligence-chatbot-do-ai
+
+- https://www.theguardian.com/technology/2022/dec/04/ai-bot-chatgpt-stuns-academics-with-essay-writing-skills-and-usability
+
+- https://www.theguardian.com/science/2023/jan/26/science-journals-ban-listing-of-chatgpt-as-co-author-on-papers
+
+- https://analyticsindiamag.com/story-eliza-first-chatbot-developed-1966/
+
+- https://uk.pcmag.com/internet-3/76311/microsoft-puts-tay-chatbot-in-time-out-after-racist-tweets
+
+##### Audio
+
+- https://www.bbc.co.uk/sounds/play/p0dycfgr
+
+- https://www.bbc.co.uk/sounds/play/p0dxrnyv
+
+##### Video
+
+- https://www.youtube.com/watch?v=0uQqMxXoNVs
+
+- https://www.youtube.com/watch?v=YnRrdHsV1xE
+
+- https://www.youtube.com/watch?v=o5MutYFWsM8&t=50s
