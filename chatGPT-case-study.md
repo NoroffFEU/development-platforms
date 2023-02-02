@@ -34,13 +34,12 @@ The history of ChatGPT itself is very short. However, there are previous relevan
 - 23rd March 2016. Microsoft releases Tay, a Twitter chat bot that was shut down shortly after because it learnt offensive language.
 
 - 6th November 2016. Amazon launches Alexa.
+
 - 11th June 2018. OpenAI releases "Improving Language Understanding by Generative Pre-Training", a paper presenting the differences between natural language processing (NLP) models and Generative Pre-Training (GPT).
 
 - November 2019. OpenAI launches GPT-2 as a "direct scale-up" of GPT.
 
 - July 2020. GPT-3 is introduced in beta testing mode.
-
-- 22nd September 2020. Microsoft announces exclusive licensed use of GPT-3, although others can still benefit from the public API.
 
 - 29th June 2021. GitHub releases GitHub Copilot, developed in collaboration with OpenAI and based on GPT-3.
 
@@ -78,7 +77,11 @@ Furthermore, it cannot make internet searches to find new sources of information
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+ChatGPT is not the first chat bot in the market. Most company's customer service departments offer their users the possibility to solve their problems in real time by chatting with a bot. Although they use NLP and AI to understand what the customer says, they don't perform exceptionally well and more often than not the interaction leads to frustration for the human being. Their knowledge, moreover, is limited to the task they're meant to carry out. As ChatGPT was trained using a large amount of data in different topics and styles, it isn't constraint to a specific activity.
+
+Another significant improvement was made with the introduction of the Moderation API. The API help developers protect their applications against possible misuse by giving them free access to GPT-based classifiers that detect undesired content. Bots like Tay and Blenderbot 3 would not have failed (at least so quickly) if they had been provided with a similar tool. ChatGPT is able to refuse to engage in offensive behaviour more efficently than other similar bots. https://openai.com/blog/chatgpt/ shows a comparison between ChatGPT and InstructGPT where the different responses to the same malicious question reveal a clear advance.
+
+The search engine You.com launched a similar tool the 24th December 2022. It allows users to ask questions and get an answer promptly, and it can also help software developers read and debug code. The key difference with ChatGPT is that the engine doesn't seem to remember what happened earlier in the conversation, which makes it difficult to actually chat with it.
 
 ## Summary
 
