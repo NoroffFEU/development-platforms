@@ -30,12 +30,12 @@ Today, Microsoft Azure is one of the largest and most comprehensive cloud comput
 
 Microsoft Azure offers a wide range of features that cater to businesses and individuals' needs. Some of its key features are:
 
-1.            Virtual Machines: Azure provides virtual machines that enable users to run their applications and services in the cloud. These virtual machines can be customized according to the needs of the user and can be used to host websites, run applications, and store data.
-2.            Web Applications: Azure allows users to create and deploy web applications using popular programming languages, frameworks, and tools such as .NET, Node.js, Python, and PHP.
+1.  Virtual Machines: Azure provides virtual machines that enable users to run their applications and services in the cloud. These virtual machines can be customized according to the needs of the user and can be used to host websites, run applications, and store data.
+2.  Web Applications: Azure allows users to create and deploy web applications using popular programming languages, frameworks, and tools such as .NET, Node.js, Python, and PHP.
 3.  Storage: Azure offers various storage options including blob storage, file storage, and relational databases. Users can store and access their data from anywhere in the world, making it an ideal solution for businesses that need to store substantial amounts of data.
-4.            Analytics: Azure provides a range of analytics services, including HDInsight, Stream Analytics, and Power BI, that enable users to gain insights into their data and make informed decisions.
-5.            Security: Azure provides many security features including encryption, network security, and identity management. These features help to keep data secure and ensure that only authorized users can access it.
-6.            Artificial Intelligence: Azure provides a range of AI services, including Cognitive Services, Bot Services, and Machine Learning, that enable users to add AI capabilities to their applications and services.
+4.  Analytics: Azure provides a range of analytics services, including HDInsight, Stream Analytics, and Power BI, that enable users to gain insights into their data and make informed decisions.
+5.  Security: Azure provides many security features including encryption, network security, and identity management. These features help to keep data secure and ensure that only authorized users can access it.
+6.  Artificial Intelligence: Azure provides a range of AI services, including Cognitive Services, Bot Services, and Machine Learning, that enable users to add AI capabilities to their applications and services.
     Microsoft Azure offers a wide range of features that make it a versatile cloud computing platform for businesses and individuals. Its virtual machines, web applications, storage solutions, analytics, security features, and artificial intelligence capabilities make it an ideal solution for a wide range of use cases.
 
 ## Strengths
@@ -51,11 +51,15 @@ Microsoft Azure offers many strengths, including its integration with other Micr
 ## Weaknesses
 
 Microsoft Azure is a powerful cloud computing platform, but like any technology, it also has its weaknesses. One of the main weaknesses of Azure is its complexity. Azure offers a wide range of services, making it difficult for businesses and developers to navigate and find the right solution for their needs. This complexity can also make it challenging for businesses to manage their applications and services, leading to confusion and potential errors.
+
 Another weakness of Azure is its limited customization options. While Azure provides a wide range of services, some businesses may require more customized solutions that are not available through Azure. This can limit the ability of businesses to meet their specific needs and provide a solution that is tailored to their requirements.
+
 In terms of security, Azure has had some security incidents in the past, and this can cause concerns for businesses and developers about the safety of their data. There have been instances where security features have been bypassed, leading to data breaches.
 Azure can also be expensive for businesses and developers, especially for those with large workloads. Although Azure provides a pay-as-you-go pricing model, the cost of using Azure can add up quickly, making it an expensive option for businesses.
+
 Finally, Azure can be difficult to implement for businesses and developers who are not familiar with cloud computing. Azure requires a certain level of technical expertise, making it challenging for those without the necessary skills to use the platform.
-In conclusion, Microsoft Azure has its weaknesses, including its complexity, limited customization options, security concerns, expensiveness, and difficulty of implementation. These weaknesses can make it challenging for businesses and developers to effectively use Azure and may cause them to consider alternative solutions. However, despite these weaknesses, Azure remains a popular choice for many businesses and developers due to its strengths and the benefits it provides.
+
+Microsoft Azure has its weaknesses, including its complexity, limited customization options, security concerns, expensiveness, and difficulty of implementation. These weaknesses can make it challenging for businesses and developers to effectively use Azure and may cause them to consider alternative solutions. However, despite these weaknesses, Azure remains a popular choice for many businesses and developers due to its strengths and the benefits it provides.
 
 ## Comparison
 
