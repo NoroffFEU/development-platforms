@@ -249,7 +249,65 @@ Backups is very important. It can prevent data loss, which is very important. It
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+Web hosting can be compared to other products in the same category, such as cloud hosting, VPS hosting, and dedicated server hosting, but these I have already mentioned in the strengths and weaknesses sections above. But what else products can we compare to web hosting? Well this is what we gonna find out now.
+
+Some other products that we can compare to shared hosting, VPS hosting and dedicated hosting are:
+
+- Cloud hosting
+
+- Managed WordPress Hosting
+
+- Colocation Hosting
+
+Now lets get more deeper into these three new web hosting products which can be compared to the other mentioned above.
+
+### Cloud Hosting
+
+With cloud hosting, you don`t share the resources, instead you get the resources to your sites that are 100% dedicated and created only for your site. With this you dont have to worry about other people and websites influence your website.
+
+There are many companies who are cloud host providers, some of these are:
+
+-  Google Cloud Platform
+
+- AWS (Amazon Web Services)
+
+- Microsoft Azure, DigitalOcean
+
+With cloud hosting, its very simple, we can break down cloud hosting in just two categories:
+
+- Managed
+
+Here the hosting provider will configure and maintain your server.
+
+- Unmanaged
+
+Here you yourself will have to do all the work and configure and maintain your server.
+
+The managed hosting will cost more than the unmanaged, because with the managed option they will do more work for you.
+
+### Managed WordPress Hosting
+
+Managed WordPress hosting is not like all the other hosting types, with managed WordPress hosting can not host all kinds of different sites, it can only host WordPress sites. But the good thing is that with managed WordPress hosting, you can use shared hosting and cloud hosting etc.
+
+The most different style of this kind of hosting that we can compare to the other "normal" web hosts is that WordPress have many different types of service specifically created only for managed WordPress hosting, these are:
+
+- You can have daily backups which is automatic. And if you want, you can manually back up your site.
+
+- WordPress staging sites.
+
+- Another good service is that WordPress can automatic update your changes - Automatic WordPress updates.
+
+- If you want to caching in your page or do a content delivery network (CDN), then you can get this with the "WordPress-specific performance optimizations".
+
+- You can get some good security rules with Wordpress.
+
+- You can get good expert support from Wordpress - Expert WordPress support.
+
+With managed WordPress hosting you can get both good or bad side. The good side is that managed WordPress hosting is convenience. The user will get more stuff than just web hosting. But the bad side is the price, which can be very important for many people. Managed WordPress hosting will always be expensive, but why? Because like we said the user will get a lot of services which is mentioned above, and with getting more, you have to pay more. So if you are a person who are willing to pay more, then managed WordPress hosting is the right web hosting for you.
+
+### Colocation Hosting
+
+Colocation hosting is a host type that is not used by small companies, but only the big companies compared to the other hosting types which is used by both small and big companies. Basically whats happening here is that you own the hosting hardware. So you purchase and own the hosting servers, but you also rent space in another company`s data center, this is because you want them to maintain your hardware while you having company data. But again, this is a type of hosting which only the big companies.
 
 ## Summary
 
@@ -286,3 +344,5 @@ Summarise the content and highlight the relevance of the product to a web develo
 - https://www.google.com/search?q=features&source=lnms&tbm=isch&sa=X&ved=2ahUKEwju-uC7kPT8AhWDVPEDHVVnA-4Q_AUoAXoECAEQAw&biw=1280&bih=569&dpr=1.5#imgrc=t3pkmUaSCR6dbM
 
 - https://www.website.com/website-builder-and-web-design/what-is-website-builder-how-does-website-builder-work
+
+- https://elementor.com/blog/types-of-web-hosting/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gclid=EAIaIQobChMI1KSP3Nn2_AIVw4XVCh2QJwspEAAYAyAAEgJ0SfD_BwE
