@@ -53,7 +53,13 @@ Focusing on software development, its ability to increase developers productivit
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
+Despite its many possible uses and strengths, this tool comes with a series of limitations that are important to take into account to make the most out of it. One critical issue is its lack of factual correctness at times. The bot may provide answers that are factually incorrect, but in such an assertive manner it could be difficult for the untrained eye to realise. Moreover, it gives no references on where it took the data from. In order to avoid the spread of misinformation, users should double check the answers by consulting reliable sources of information in the subject matter.
+
+Additionally, it tends to be unpredictable and unstable. This means that users may avoid content moderation by repeatedly asking the same question in different ways. It is rumoured that one user was even provided with detailed instructions on how to make a molotov cocktail.
+
+As its human trainers rewarded longer answers because they look more compelling the bot tends to be excessively verbose. This doesn't precisely add quality to the responses since the same information is repeated in different paragraphs with a slight change in phrasing. I personally consider this its biggest giveaway. It makes it relatively easy for a human being to realise when a text has been written by an AI tool, and therefore not reliable to produce important texts for university or work.
+
+The model also presents limitations in terms of server capacity. It is at times unreachable due to the amount of people trying to use the service at the same time. This is being dealt with by offering a subscription plan.
 
 ## Comparison
 
