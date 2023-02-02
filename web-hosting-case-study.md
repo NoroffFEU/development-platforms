@@ -249,6 +249,8 @@ Backups is very important. It can prevent data loss, which is very important. It
 
 ## Comparison
 
+![comparison-image](https://hatrabbits.com/wp-content/uploads/2018/10/brainstorm-evaluation.jpg)
+
 Web hosting can be compared to other products in the same category, such as cloud hosting, VPS hosting, and dedicated server hosting, but these I have already mentioned in the strengths and weaknesses sections above. But what else products can we compare to web hosting? Well this is what we gonna find out now.
 
 Some other products that we can compare to shared hosting, VPS hosting and dedicated hosting are:
