@@ -19,7 +19,7 @@ Technically speaking, ChatGPT is a large language model. It means that it was tr
 
 The history of ChatGPT itself is very short. However, there are previous relevant events that give a more complete insight of the context of its introduction.
 
-- 23rd March 2016. Microsoft releases Tey, a Twitter chat bot that was shut down shortly after because it learnt offensive language.
+- 23rd March 2016. Microsoft releases Tay, a Twitter chat bot that was shut down shortly after because it learnt offensive language.
 
 - 11th June 2018. OpenAI releases "Improving Language Understanding by Generative Pre-Training", a paper presenting the differences between natural language processing (NLP) models and Generative Pre-Training (GPT).
 
@@ -60,6 +60,8 @@ Additionally, it tends to be unpredictable and unstable. This means that users m
 As its human trainers rewarded longer answers because they look more compelling the bot tends to be excessively verbose. This doesn't precisely add quality to the responses since the same information is repeated in different paragraphs with a slight change in phrasing. I personally consider this its biggest giveaway. It makes it relatively easy for a human being to realise when a text has been written by an AI tool, and therefore not reliable to produce important texts for university or work.
 
 The model also presents limitations in terms of server capacity. It is at times unreachable due to the amount of people trying to use the service at the same time. This is being dealt with by offering a subscription plan.
+
+Furthermore, it cannot make internet searches to find new sources of information, being limited to the data it was used during its training. Although this was massive, the training finished in 2021 which makes it of little use to get information on topics that are constantly updated. In the same line it cannot provide data on current affairs.
 
 ## Comparison
 
