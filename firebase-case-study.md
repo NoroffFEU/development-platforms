@@ -81,4 +81,8 @@ ________________________________________________________________________________
 
 - *Predictions* - is a tool that uses the app's analytical data to predict or anticipate user actions. It is a service from Firebase that assists users in predicting behaviors employing Machine Learning technologies. It learns the analytical data to develop dynamic user segments based on users' predicted behavior. It will make it easier to analyze data. This feature can retain users who would have otherwise uninstalled an app. It uses the power of Google's machine learning to create dynamic user groups based on users' predicted behavior.
 
-- *Cloud Messaging* -
+- *Firebase Cloud Messaging(FCM)* - is a cross-platform solution that reliably sends messages at zero cost. It was known as Google Cloud Messaging, primarily for Android, iOS, and web applications. It works by keeping a connection open towards the Google servers from your phone. This connection listens to messages from Google servers and takes action on your phone when messages are received. When a user does not directly interact with your app, it is either running in the background or tucked away from memory, depending on the type of phone or OS the user is running. In each case, it is only possible to get a message through to the app with the app not polling a server and asking whether it has any notifications.
+
+- *Remote Config* -It makes changes and updates configurations from the Firebase console. It can dynamically turn features on and off, personalize by audience segments, and run experiments without setting up complex infrastructure or releasing a new version. It is a cloud service that controls and creates in-app default values that hold the behavior and appearance of your app.
+
+- *Dynamic Links* - 
