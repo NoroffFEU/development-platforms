@@ -6,4 +6,4 @@
 
 </p>
 
-## Let's start [CLICK HERE](https://github.com/vanjama/development-platforms-ca/blob/DBaaS-case-study/example-case-study.md/).
+## Let's start [CLICK HERE](https://github.com/vanjama/development-platforms-ca/blob/DBaaS-case-study/DBaas-case-study.md/).
