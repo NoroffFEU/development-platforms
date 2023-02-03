@@ -1,5 +1,5 @@
 ---
-title: Example Product Case Study
+title: Product Case Study
 keywords: development platforms, example project, category name
 tags: Development Platforms, Example Project, Category Name
 sidebar: development-platforms
@@ -78,22 +78,54 @@ Some other strengths of DBAAS include:
 
 These strengths make DBAAS an attractive option for businesses looking to simplify and streamline their database infrastructure, while also reducing costs and improving performance.
 
-## Weaknesses
+# Weaknesses
 
-Discuss the product's weaknesses.
+<img width="315" alt="image" src="https://user-images.githubusercontent.com/91538702/216588060-29312589-02d5-488d-8402-b4b2c361f756.png">
 
-## Comparison
+Despite its many benefits, there are also some weaknesses associated with DBAAS, including:
 
-Compare the product to other products in the same category, if applicable.
+Dependence on the provider: With DBAAS, businesses are relying on the cloud provider to manage and maintain their database infrastructure, and if the provider experiences any issues, it can impact the availability and performance of their databases.
 
-## Summary
+Limited Customization: DBAAS solutions are often designed to be used by a wide range of businesses, which means that customization options can be limited. This can make it difficult for businesses to meet their specific needs and requirements.
 
-Summarise the content and highlight the relevance of the product to a web developer.
+Security concerns: Although DBAAS providers invest heavily in security, there is still a risk of data breaches and cyber attacks. Businesses must weigh the potential security risks against the benefits of using DBAAS.
+
+Performance limitations: Depending on the provider, the performance of a DBAAS solution can be limited by the underlying infrastructure. This can impact the performance of large and complex databases.
+
+Cost: Although DBAAS is cost-effective, businesses must still pay for the resources they use, and costs can quickly add up if they need to scale their database infrastructure.
+
+With DBAAS, businesses must rely on the provider to manage and maintain their database infrastructure, which means that they have limited control over how their databases are configured and managed. Moving to a DBAAS solution can be complex and time-consuming, and businesses must consider the effort and resources required to migrate their databases to the cloud.
+
+These weaknesses must be considered when evaluating the suitability of DBAAS for a particular business. In some cases, a different approach, such as self-hosting or a hybrid cloud solution, may be a better fit.
+
+
+
+# Comparison
+
+DBAAS (Database as a Service) can be compared to other database solutions, including self-hosted databases, traditional database management systems, and other cloud-based database services. Here's a comparison of DBAAS with some of these other solutions:
+
+- Self-hosted databases: With self-hosted databases, businesses must invest in hardware and software to run their databases and manage the underlying infrastructure. This requires a significant investment in resources and technical expertise. In contrast, DBAAS is a managed service that eliminates the need for businesses to manage their own infrastructure, making it a more cost-effective and scalable solution.
+
+- Traditional database management systems: Traditional database management systems, such as Oracle and Microsoft SQL Server, require businesses to invest in licenses, hardware, and IT resources. They can be complex and time-consuming to set up and manage, and they often require a significant investment in technical expertise. In contrast, DBAAS is a managed service that provides a more streamlined and cost-effective solution for businesses.
+
+
+- Platform as a Service (PaaS): PaaS provides a platform for businesses to develop and run their applications, and it often includes a database service. However, PaaS solutions are focused on application development and deployment, while DBAAS is focused specifically on database management.
+
+
+# Summary
+
+In conclusion, DBAAS offers a cost-effective, scalable, and managed solution for businesses looking to simplify and streamline their database infrastructure. It is a good choice for businesses that do not have the resources or technical expertise to manage their own databases and want a more streamlined and user-friendly solution. However, businesses must consider the potential limitations and dependencies on the DBAAS provider when evaluating whether it is the right solution for their needs.
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- Vanja Marouf (vanjama)
 
 #### References
 
-- List of video or links used during research
+- https://www.geeksforgeeks.org/what-is-database/
+- https://www.mongodb.com/database-as-a-service
+- https://dataconomy.com/2022/12/database-as-a-service-dbaas/
+-	https://www.youtube.com/watch?v=qfiOVB3yMHQ 
+-	https://www.youtube.com/watch?v=hRulZhTtUTg 
+-	https://www.youtube.com/watch?v=qfiOVB3yMHQ 
+
