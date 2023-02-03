@@ -116,6 +116,8 @@ DBAAS (Database as a Service) can be compared to other database solutions, inclu
 
 In conclusion, DBAAS offers a cost-effective, scalable, and managed solution for businesses looking to simplify and streamline their database infrastructure. It is a good choice for businesses that do not have the resources or technical expertise to manage their own databases and want a more streamlined and user-friendly solution. However, businesses must consider the potential limitations and dependencies on the DBAAS provider when evaluating whether it is the right solution for their needs.
 
+*DBaaS is a highly relevant solution for web developers, providing them with a scalable, secure, and cost-effective data management solution that enables them to focus on development and innovation, while relying on a robust infrastructure managed by a third-party provider.*
+
 ### Credits
 
 - Vanja Marouf (vanjama)
