@@ -55,7 +55,7 @@ These are some of the key features of DBAAS, but the exact offerings will vary d
 
 # Strengths
 
-<img width="323" alt="image" src="https://user-images.githubusercontent.com/91538702/216586988-e605d46b-d2f2-48cf-9225-484e6b83af80.png">
+![image](https://user-images.githubusercontent.com/91538702/216602120-e173ae6c-2ced-4e25-84e7-41394d1a8f68.png)
 
 
 
