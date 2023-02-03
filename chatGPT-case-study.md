@@ -63,6 +63,8 @@ ChatGPT can be universally used. It isn't limited to English speakers for it sup
 
 Focusing on software development, its ability to increase developers productivity is definitely its greatest strength. If the tool is used appropriately it can help us be more efficient by decreasing the time we spent planning or reading how to do something. It is especially useful for students or developers in the early stage of their careers. Finding the answer that solves an issue requires knowledge of technical terms that students often forget or don't yet have - having the opportunity to explain the problem in simple terms is therefore a great advantage.
 
+The above applies as well when learning to read errors. Errors may look like gibberish at first and you have to learn to interpret them. Being provided with an explanation that beginner developers can understand more easily helps bridging that gap.
+
 The variety of subjects it was trained in is also beneficial to developers. Not only is the bot able to help in several programming languages, but it's also able to answer questions about hosting services, cms, databases, and git, amongst others. This feature makes the bot also ideal for practising for interview questions. You can even ask it to be your interviewer: it will give you a set of questions, and if your answers are incomplete it will fill in for you.
 
 ## Weaknesses
@@ -89,7 +91,7 @@ The search engine You.com launched a similar tool the 24th December 2022. It all
 
 Many have expressed their concern about ChatGPT and other AI tools built on large language models taking their jobs. As technology improves, these models will be capable of better understand irony, sarcarsm, jokes, human emotions, and the nuances introduced by cultural differences making them extremely powerful and suitable for sectors like psychiatry and medicine.
 
-As far as software development is concern, ChatGPT can write code faster than a human, but not more reliably. It needs human supervision to ensure it's working as intended. Even if you ask the chat bot to automate testing, these tests may also contain bugs. Replacing a human proves not to be so easy after all. Instead, this type of technology is most useful to boost productivity - to assist human beings in their daily tasks. It is obviously more efficient to ask an question and obtain a response in seconds than to post it on stackoverflow and wait for other developers to read our code and provide an answer. It is also easier to read one response than to read dozens of pages thrown on a Google search. This is why replacing an entire staff with bots is unlikely to happen in the near future.
+As far as software development is concern, ChatGPT can write code faster than a human, but not more reliably. It needs human supervision to ensure it's working as intended. Even if you ask the chat bot to automate testing, these tests may also contain bugs. Replacing a human proves not to be so easy after all. Instead, this type of technology is most useful to boost productivity - to assist human beings in their daily tasks. It is obviously more efficient to ask a question and obtain a response in seconds than to post it on stackoverflow and wait for other developers to read our code and provide an answer. It is also easier to read one response than to read dozens of pages thrown on a Google search. This is why replacing an entire staff with bots is unlikely to happen in the near future.
 
 ### Credits
 
