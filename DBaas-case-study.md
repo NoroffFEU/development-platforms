@@ -82,7 +82,8 @@ These strengths make DBAAS an attractive option for businesses looking to simpli
 
 # Weaknesses
 
-<img width="315" alt="image" src="https://user-images.githubusercontent.com/91538702/216588060-29312589-02d5-488d-8402-b4b2c361f756.png">
+![image](https://user-images.githubusercontent.com/91538702/216602302-1c2a5baa-4b62-460b-823b-64875ad24d3b.png)
+
 
 Despite its many benefits, there are also some weaknesses associated with DBAAS, including:
 
