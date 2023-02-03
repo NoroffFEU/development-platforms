@@ -24,7 +24,7 @@ In summary, DBaaS provides businesses and individuals with a cost-effective, sca
 
 DBAAS (Database as a Service) is a type of cloud computing service that provides a scalable, flexible, and managed database infrastructure. It is a relatively new concept, but its roots can be traced back to the early days of cloud computing and virtualization.
 
-The concept of DBAAS started to gain traction in the late 2000s, as cloud computing became more popular and companies started to look for ways to take advantage of its benefits. *In 2009, Amazon Web Services (AWS) launched Amazon RDS, which was one of the first DBAAS offerings on the market. This was followed by similar offerings from other major cloud providers, such as Microsoft Azure and Google Cloud Platform.
+The concept of DBAAS started to gain traction in the late 2000s, as cloud computing became more popular and companies started to look for ways to take advantage of its benefits. *In 2009, Amazon Web Services (AWS) launched Amazon RDS, which was one of the first DBAAS offerings on the market. This was followed by similar offerings from other major cloud providers, such as Microsoft Azure and Google Cloud Platform.*
 
 Over the past decade, the DBAAS market has continued to grow and evolve, with new features and capabilities being added to the existing offerings. The growing demand for cloud-based databases has driven the development of new technologies and standards, such as NoSQL databases and new data storage options like columnar and graph databases.
 
@@ -57,7 +57,7 @@ These are some of the key features of DBAAS, but the exact offerings will vary d
 
 
 
-One of the main advantages of DBaaS is the ability to scale on demand. If a user’s database needs to grow, they can easily increase the resources available to their database without the need to purchase and install additional hardware. This means that businesses can respond quickly to changes in demand, without having to worry about the underlying infrastructure.
+*One of the main advantages of DBaaS is the ability to scale on demand. If a user’s database needs to grow, they can easily increase the resources available to their database without the need to purchase and install additional hardware. This means that businesses can respond quickly to changes in demand, without having to worry about the underlying infrastructure.*
 
 
 Some other strengths of DBAAS include:
