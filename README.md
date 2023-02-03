@@ -1,4 +1,4 @@
 # Development-platforms
 <img width="308" alt="Bilde1" src="https://user-images.githubusercontent.com/91538702/216570340-b3eaaa49-0522-49a6-b2d4-aa9e91ea6125.png">
 
-Lets start [CLICK HERE](https://github.com/vanjama/development-platforms-ca/blob/DBaaS-case-study/Database%20as%20a%20Service%20(DBaaS)/).
+##Let's start [CLICK HERE](https://github.com/vanjama/development-platforms-ca/blob/DBaaS-case-study/Database%20as%20a%20Service%20(DBaaS)/).
