@@ -19,7 +19,7 @@ Svelte is purely a compiler, that converts your application into ideal JavaScrip
 
 ## Creating a project with svelte using vite
 
-I am using [vite](https://vitejs.dev/) to create a new svelte project, there is other way's than vite like degit, but im not gonna get into it. If you want a full-fledged app framework you can also use [SvelteKit](https://svelte.dev/docs) it will also be utilizing vite. But since im only gonna build a simple front-end only site/app, i will use svelte (without kit).
+I am using [vite](https://vitejs.dev/) to create a new svelte project, there is other way's than vite like degit and then rollup would be the default, but im not gonna get into that. If you want a full-fledged app framework you can also use [SvelteKit](https://svelte.dev/docs) it will also be utilizing vite. But since im only gonna build a simple front-end only site/app, i will use svelte (without kit).
 
 You start by navigating to the folder where you want to create the project, then open a terminal in the folder and type this command and hit enter.
 
@@ -44,13 +44,18 @@ open terminal and write these commands:
 
 ```
 npm i
+```
+```
 npm run dev
 ```
 
-and your server is live and running.
+And your server will be live and running.
 if you want to configure vite more you can find the docs [here](https://vitejs.dev/config/).
 
 ## Using svelte
+
+If you are using Visual Studio Code, I would recommend downloading the svelte extension "Svelte for VS code" it will give you formatting, auto completions and it allows you to use emmet inside you svelte components.
+
 
 
 ## Strengths
@@ -62,6 +67,13 @@ if you want to configure vite more you can find the docs [here](https://vitejs.d
 - Binding classes and variables are relative easy, and custom logic is not needed when binding classes.
 
 ## Weaknesses
+
+- Svelte won't listen for refrence updates and array mutations, and developers need to acctively look out for this and make sure arrays are reassigned so the UI will be updated
+
+- Usage syntax for DOM events can also be annoying, cannot directly use `onClick`, but instead use special syntax such as `on:click`
+
+- Svelte is a new and young framework with minimal community support,
+thereby doesnt have support for a wide range of plugins and integrations that might be required by heavy production applications. React is the powerful contender here. 
 
 Discuss the product's weaknesses.
 
@@ -77,11 +89,8 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 - Sigvel
 
-#### References
+### References
 
-- https://www.youtube.com/watch?v=3TVy6GdtNuQ
-
-## References
 - https://svelte.dev/docs
 
 - https://blog.bitsrc.io/react-vs-sveltejs-the-war-between-virtual-and-real-dom-59cbebbab9e9
@@ -90,7 +99,11 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 - https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started
 
-### Additional refrences
+#### Video References
+
+- https://www.youtube.com/watch?v=3TVy6GdtNuQ
+
+#### Additional refrences
 
 - [Degit npm docs](https://www.npmjs.com/package/degit)
 
