@@ -13,7 +13,10 @@ folder: development-platforms
 
 Cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources
 
-## History of Cloud Computing
+In this study case i will be looking into the biggest provider of Cloud services Amazon Web Services (AWS) 
+
+
+## Milestones in the history of cloud Computing
 
 * 1950s 
   * Invention of mainframe computing, using a central computer accessed by several devices, all using the capabilities of the central computer. 
@@ -52,7 +55,24 @@ Cloud computing is the on-demand delivery of compute power, database, storage, a
 
 ## Features
 
+Amazon Web Services (AWS) is the largest online retailer in the world. AWS provides cloud computing services to individuals, companies, and governments. In addition, it offers a set of remote computing services, including hosting and storage space on its servers, access to these resources through the internet, tools for managing them, and a range of other features that make it easier to build large-scale web applications
+
+![image](https://user-images.githubusercontent.com/80599295/216784422-20d9a0c5-a882-403a-a768-8ec1658163b6.png)
+
+pie chart by [Synergy Research Group](https://www.srgresearch.com/)
+ <br>
+ <br>
+ <br>
+
+AWS offers a vast numbers of services, too many to make an in-depth study case. so now that we had a quick look on AWS in general i will focus on **AWS Amplify**
+
+If you want to see all the services provided by AWS click [here](https://aws.amazon.com/products/?aws-products)
+
 #### Outline the product's key features.
+
+* Provide IT infrastructure services to organizations as web services. 
+* Resources are accessed using the internet 
+* Utilizes the pay-as-go model to help organizations save money, time and human resources. 
 
 ## Strengths
 
@@ -85,6 +105,8 @@ Martin Mroz (Git Hub User: martinMr79)
 [AWS docs/getting started](https://aws.amazon.com/getting-started/cloud-essentials/)
 
 [Cloud computing timeline](https://www.verdict.co.uk/cloud-computing-timeline/)
+
+[Synergy Research Group](https://www.srgresearch.com/)
 
 [Link text Here](https://link-url-here.org)
 
