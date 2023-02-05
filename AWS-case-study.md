@@ -7,14 +7,23 @@ permalink: development-platforms/example-product.html
 folder: development-platforms
 ---
 
-## Introduction
+## Table of contents
 
-#### Summarise the product's primary purpose in one or two paragraphs.
+1. [Introduction](#introduction)
+2. [Milestones in the history of cloud computing](#milestones-in-the-history-of-cloud-computing)
+3. [Features](#features)
+4. [Strengths](#strengths)
+5. [Weaknesses](#weaknesses)
+6. [Summary](#summary)
+7. [Credits](#credits)
+8. [References](#references)
+
+
+## Introduction
 
 Cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources
 
-In this study case i will be looking into the biggest provider of Cloud services Amazon Web Services (AWS) 
-
+In this study case i will be looking into the biggest provider of Cloud services Amazon Web Services (AWS), and have a closer look at using AWS Amplify as a BaaS platform 
 
 ## Milestones in the history of cloud computing
 
@@ -68,6 +77,9 @@ AWS offers a vast numbers of services, too many to make an in-depth study case. 
 
 If you want to see all the services provided by AWS click [here](https://aws.amazon.com/products/?aws-products)
 
+
+#### AWS Amplify as a BaaS platform
+
 AWS Amplify is a BaaS platform by Amazon to help developers quickly build full-stack applications on AWS. To make it possible, Amplify provides a set of tools like Amplify Libraries, Amplify UI Components, Amplify Studio, Amplify CLI toolchain, and Amplify Hosting.
 
 With Amplify, you can configure a web or mobile app backend, connect your app in minutes, visually build a web frontend UI, and easily manage app content outside the AWS console. Ship faster and scale effortlessly—with no cloud expertise needed. (Source: 
@@ -95,7 +107,7 @@ AWS Amplify is used by companies like Neiman Marcus, Noom, Amazon Music, Credit 
 * Stop spending money running and maintaining data centers. 
 * Go global in minutes 
 
-#### Advantages of using AWS compared to other Baas pålatforms 
+#### Advantages of using AWS as a Baas platform
 
 
 
