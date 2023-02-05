@@ -16,7 +16,7 @@ Cloud computing is the on-demand delivery of compute power, database, storage, a
 In this study case i will be looking into the biggest provider of Cloud services Amazon Web Services (AWS) 
 
 
-## Milestones in the history of cloud Computing
+## Milestones in the history of cloud computing
 
 * 1950s 
   * Invention of mainframe computing, using a central computer accessed by several devices, all using the capabilities of the central computer. 
@@ -68,13 +68,36 @@ AWS offers a vast numbers of services, too many to make an in-depth study case. 
 
 If you want to see all the services provided by AWS click [here](https://aws.amazon.com/products/?aws-products)
 
-#### Outline the product's key features.
+AWS Amplify is a BaaS platform by Amazon to help developers quickly build full-stack applications on AWS. To make it possible, Amplify provides a set of tools like Amplify Libraries, Amplify UI Components, Amplify Studio, Amplify CLI toolchain, and Amplify Hosting.
 
-* Provide IT infrastructure services to organizations as web services. 
-* Resources are accessed using the internet 
-* Utilizes the pay-as-go model to help organizations save money, time and human resources. 
+With Amplify, you can configure a web or mobile app backend, connect your app in minutes, visually build a web frontend UI, and easily manage app content outside the AWS console. Ship faster and scale effortlessly—with no cloud expertise needed. (Source: 
+[AWS amplify](https://aws.amazon.com/amplify/))
+
+AWS Amplify is used by companies like Neiman Marcus, Noom, Amazon Music, Credit Genie, HyperTrack, and many more.
+
+* Features
+* Storage
+* DataStore
+* Analytics
+* Authentication
+* Lambda Functions
+* Push Notifications
+* Amplify Hosting etc
 
 ## Strengths
+
+#### Advantages of Cloud Computing 
+
+* Trade capital expense for variable expense.
+* Benefit from massive economies of scale. 
+* Stop guessing about capacity.
+* increase speed and agility
+* Stop spending money running and maintaining data centers. 
+* Go global in minutes 
+
+#### Advantages of using AWS compared to other Baas pålatforms 
+
+
 
 #### Discuss the product's strengths.
 
@@ -98,8 +121,6 @@ Martin Mroz (Git Hub User: martinMr79)
 
 #### References
 
-#### - List of video or links used during research
-
 [Introduction to AWS for Non-Engineers: 1 Cloud Concepts](https://www.linkedin.com/learning/introduction-to-aws-for-non-engineers-1-cloud-concepts-2/how-did-we-get-in-the-cloud?autoplay=true&resume=false&u=43268076)
 
 [AWS docs/getting started](https://aws.amazon.com/getting-started/cloud-essentials/)
@@ -108,9 +129,11 @@ Martin Mroz (Git Hub User: martinMr79)
 
 [Synergy Research Group](https://www.srgresearch.com/)
 
-[Link text Here](https://link-url-here.org)
+[Reasearch](https://www.commoninja.com/blog/top-backend-as-a-service-baas-platforms-in-2022)
 
-[Link text Here](https://link-url-here.org)
+[AWS Essential Training for Developer](https://www.linkedin.com/learning/aws-essential-training-for-developers-17237791/what-is-the-best-way-to-use-aws?autoplay=true&u=43268076)
+
+[AWS amplify](https://aws.amazon.com/amplify/)
 
 [Link text Here](https://link-url-here.org)
 
