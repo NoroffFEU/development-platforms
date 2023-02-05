@@ -80,7 +80,23 @@ If you want to see all the services provided by AWS click [here](https://aws.ama
 
 #### AWS Amplify as a BaaS platform
 
-AWS Amplify is a BaaS platform by Amazon to help developers quickly build full-stack applications on AWS. To make it possible, Amplify provides a set of tools like Amplify Libraries, Amplify UI Components, Amplify Studio, Amplify CLI toolchain, and Amplify Hosting.
+AWS Amplify is a BaaS platform by Amazon to help developers quickly build full-stack applications on AWS. To make it possible, Amplify provides the following set of tools: 
+
+##### Amplify Studio
+Amplify Studio is a visual interface that offers a point-and-click environment for building full-stack applications (both front and backend).
+
+##### Amplify CLI
+Amplify CLI is a toolchain for configuring and managing an application backend.
+
+##### Amplify Libraries
+Amplify Libraries is an open-source set of client libraries used to build cloud-native mobile and web apps.
+
+##### Amplify UI Components
+Amplify UI Components is an open-source design system that uses cloud-connected components to enable the efficient building of applications.
+
+##### Amplify Web Hosting (Managed CI/CD and Hosting)
+
+Amplify Web Hosting is a fully-managed CI/CD service for hosting static and server-side rendered applications.
 
 With Amplify, you can configure a web or mobile app backend, connect your app in minutes, visually build a web frontend UI, and easily manage app content outside the AWS console. Ship faster and scale effortlessly—with no cloud expertise needed. (Source: 
 [AWS amplify](https://aws.amazon.com/amplify/))
@@ -100,20 +116,22 @@ AWS Amplify is used by companies like Neiman Marcus, Noom, Amazon Music, Credit 
 
 #### Advantages of Cloud Computing 
 
-* Trade capital expense for variable expense.
-* Benefit from massive economies of scale. 
-* Stop guessing about capacity.
-* increase speed and agility
-* Stop spending money running and maintaining data centers. 
+* Unlimited capacity.
+* Increase speed and agility
+* No need to run and maintain data centers. 
+* Save money with scalable capasity 
 * Go global in minutes 
 
-#### Advantages of using AWS as a Baas platform
+#### Advantages of using AWS Amplify as a Baas platform
 
 
 
 #### Discuss the product's strengths.
 
 ## Weaknesses
+
+* Complex and steep learning curve
+* Needs to be  
 
 #### Discuss the product's weaknesses.
 
@@ -147,5 +165,5 @@ Martin Mroz (Git Hub User: martinMr79)
 
 [AWS amplify](https://aws.amazon.com/amplify/)
 
-[Link text Here](https://link-url-here.org)
+[Amplify vs. Firebase](https://www.bairesdev.com/blog/amplify-vs-firebase-which-one-is-best)
 
