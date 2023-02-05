@@ -152,15 +152,18 @@ ________________________________________________________________________________
 
 **It’s not cheap and pricing is difficult to forecast** - *Firebase is a feature- high-priced mobile application development platform. It offers a free plan, but that comes with some restrictions. In another way, some open-source technologies deliver more affordable solutions. Estimating Firebase's costs can be difficult for some users, especially when the scalability requirements are unpredictable. The pricing is complicated, and Firebase has specific pricing for every feature. Keeping the costs under a threshold can be challenging with the platform, and there is no easy way to cap or put hard limits on the bill. Understand how the billing works before committing to this model, and monitor your costs regularly to avoid unexpected charges by the end of the month*.
 
-**Runs only on Google Cloud** - *Firebase is now a part of Google, and its infrastructure runs entirely on the Google Cloud, which limits the level of flexibility in terms of hosting options. It doesn't provide server-level access, and problems may arise if customizing server settings is necessary. There is no option to run Firebase on other cloud providers like AWS, Azure, or Digital Ocean*. 
+**Runs only on Google Cloud** - *Firebase is now a part of Google, and its infrastructure runs entirely on the Google Cloud, which limits the level of flexibility in terms of hosting options. It doesn't provide server-level access, and problems may arise if customizing server settings is necessary. There is no option to run Firebase on other cloud providers like AWS, Azure, or Digital Ocean*.
 
 **Dedicated Servers & Enterprise Support are not an option** - *Firebase offers less flexibility than a fully dedicated cluster structure and doesn't provide a dedicated server. Likely, several applications' workloads will not fluctuate much but may require tailor-made security settings or server-level access. A serverless structure will not be adequate for this scenario, and dedicated hosting is a more suitable option. It doesn't even offer enterprise pricing plans, contracts, or assistance, which is a significant issue for many potential users*.
 
 ___________________________________________________________________________________________
 
 ## **Comparison**
+
 ## **Reviews**
+
 ## **Alternatives**
+
 ## **Summary**
 
 Summarise the content and highlight the relevance of the product to a web developer.
