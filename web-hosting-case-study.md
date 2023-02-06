@@ -331,7 +331,7 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 ## References
 
-![references-image](https://sustainabilitygroupwork.coventry.domains/wp-content/uploads/2019/03/978383485.png)
+![references-image](https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2020/10/05112307/references.png)
 
 - https://content.noroff.dev/development-platforms/hosting.html
 
@@ -371,4 +371,4 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 - https://www.google.com/search?q=credits+to+the+images&hl=en&sxsrf=AJOqlzVpPAL-2qF5KcALyIa5KFMTgugQIg:1675689650484&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi2s_uy_oD9AhXGRPEDHYb_B74Q_AUoAXoECAEQAw&biw=1280&bih=569&dpr=1.5#imgrc=7nI0cwXgKP32HM&imgdii=sTP_T_TBMWiK1M
 
-- https://www.google.com/search?q=References+image&tbm=isch&ved=2ahUKEwjJkIu9_4D9AhXb4bsIHVWMByoQ2-cCegQIABAA&oq=References+image&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEAUQHjIGCAAQBRAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB46BAgjECc6BggAEAcQHlC4CFjnE2D0FGgAcAB4AIABogKIAZcIkgEFMC43LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=1P_gY8nWCNvD7_UP1Zie0AI#imgrc=gfrzSKeaizBfGM
+- https://www.google.com/search?q=References+image&tbm=isch&ved=2ahUKEwiA2ZfagIH9AhUR4rsIHYFsB4gQ2-cCegQIABAA&oq=References+image&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQBRAeMgYIABAFEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHlAAWABg9BdoAHAAeACAAWuIAWuSAQMwLjGYAQCqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=HQHhY8DWJJHE7_UPgdmdwAg#imgrc=jbqAds3TrVhsRM
