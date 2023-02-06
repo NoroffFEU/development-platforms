@@ -350,3 +350,5 @@ Summarise the content and highlight the relevance of the product to a web develo
 - https://www.website.com/website-builder-and-web-design/what-is-website-builder-how-does-website-builder-work
 
 - https://elementor.com/blog/types-of-web-hosting/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gclid=EAIaIQobChMI1KSP3Nn2_AIVw4XVCh2QJwspEAAYAyAAEgJ0SfD_BwE
+
+- https://www.howtogeek.com/845500/how-many-websites-are-on-the-internet/#:~:text=The%20Best%20Guess%3A%20Nearly%202%20Billion&text=Internet%20Live%20Stats%20is%20a,billion%20websites%20on%20the%20internet.
