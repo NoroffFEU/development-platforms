@@ -9,7 +9,7 @@ folder: development-platforms
 
 ## Introduction
 
-Summarise the product's primary purpose in one or two paragraphs.
+PostgreSQL is one of the most advanced open source relational database. It's been active in development for 30+ years and has earned a strong reputation for its reliability, feature robustness and performance.
 
 ## Brief History
 
