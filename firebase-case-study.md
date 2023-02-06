@@ -1,10 +1,10 @@
 ---
-title: Example Product Case Study
-keywords: development platforms, example project, category name
-tags: Development Platforms, Example Project, Category Name
+title: FirebaseCase Study
+keywords: development platforms, Firebase, case-study
+tags: Development Platforms, Firebase, Case Study
 sidebar: development-platforms
-permalink: development-platforms/example-product.html
-folder: development-platforms
+permalink: development-platforms/firebase-case-study.md
+folder: development-platforms/Firebase
 ---
 
 ## **Introduction**
@@ -95,7 +95,7 @@ ________________________________________________________________________________
 
 ## **Strengths**
 
-![Features](images/strengths.jpeg)
+![Strengths](images/strengths.jpeg)
 
 - Free to start
 - Development speed
@@ -127,7 +127,7 @@ ________________________________________________________________________________
 
 ## **Weaknesses**
 
-![Features](images/weaknesses.jpeg)
+![Weakneses](images/weaknesses.jpeg)
 
 - It’s not Open-Source
 - Firebase does not work in many countries
@@ -172,7 +172,11 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 - Nenita Santander Norvalls (NeNorvalls)
 
+___________________________________________________________________________________________
+
 ## **References:**
+
+![Reference](images/References.jpeg)
 
 #### **Introduction**
 
