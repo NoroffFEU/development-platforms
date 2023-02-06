@@ -1,10 +1,10 @@
 ---
-title: Web Hosting
-keywords: Web Hosting
-tags: Web Hosting
-sidebar: 
-permalink: 
-folder: 
+title: Web Hosting Case Study
+keywords: Development platforms, Web Hosting
+tags: Development platforms, Web Hosting
+sidebar: Development platforms
+permalink: development-platforms/web-hosting-case-study.md
+folder: Development platforms
 ---
 
 ## Introduction
