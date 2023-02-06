@@ -31,9 +31,92 @@ trash dev
 
 ## Features
 
-tRPC aims to bridge the gap between front- and backend. It does so by creating a seemless experience navigating between your client and server code. You can easily adjust endpoint name in one location, and it will update accordingly on the other side. Working with tRPC allows you to quickly locate the assoicated files you're working with by simply using the ``see reference`` feature, and you'll be taken to that script file.
+tRPC aims to bridge the gap between front- and backend. It does so by creating a seemless experience navigating between your client and server code. You can easily adjust endpoint name in one location, and it will update accordingly on the other side. Working with tRPC allows you to quickly locate the assoicated files you're working with by simply using the ``use definition`` feature, and you'll be taken to that script file.
 
 Since tRPC does not rely on schemas or code generation, and rather is a protocol for exposing backend functions to the frontend it allows a more seemless workflow for the developer, and lightweight well performing application for the end user. 
+
+## Example of basic usage
+In the image below, we see a basic example of tRPC protocols being called on front-end. We're using React queries to handle our ``CRUD`` operations. Queries for our ``GET`` requests/operations and ``Mutations`` for our ``POST``, ``PUT`` and ``DELETE`` requests/operations 
+
+```tsx 
+      import { api } from '../utils.api'; 
+
+      const newNote = api.notes.createNewNote.useMutation();
+```
+
+``api`` is the client-side entry point in this use case. Containing our Next.js App-wrapper as well as typesafe react-query hooks.
+
+``notes`` is the name given to our ``notesRouter`` in our `` appRouter``.
+
+Where as, ``createNewNote`` is the endpoint for handling our ``CREATE`` operation on the backend. 
+
+![alt-image](./tRPC-media/use-definition.png)
+
+Using right click on ``createNewNote`` allows use to use ``go to definition`` to take us directly to the file where ``createNewNote is being defined, directly to our backend endpoint code.
+
+![alt-image](./tRPC-media/use-definition-result.png)
+
+In here we see our note router, which contains all our note related endpoints, in this example, we're only going to take a closer look at ``CREATE`` operation or ``POST`` request in a traditional ``REST API``.
+
+``createTRPCRouter`` is the function we wrap all of our endpoints in by calling a publicProcedure, which is all being stored in the variable ``noteRouter``. 
+
+- ``publicProcedure`` can be viewed as the equivalent of a REST-endpoint. 
+- Defining a ``publicProcedure`` is the same no matter the operation. i.e queries or mutations. 
+
+In the example provided we're using ``Zod`` for validation. Wrapping the inputs ``title`` and ``description`` in a `z.object``, with some basic validation requirements.
+
+```ts
+      export const noteRouter = createTRPCRouter({
+  // Create new note
+  createNewNote: publicProcedure
+    .input(
+      z.object({
+        title: z
+          .string()
+          .min(5, { message: 'Must be 5 characters or longer' })
+          .max(20, { message: 'Maximum 20 characters' })
+          .trim(),
+        description: z
+          .string()
+          .max(280, { message: 'Maxiumum 280 characters' }),
+      })
+    )
+```
+
+Since this is a ``CREATE`` request we also call ``.mutation`` defining ``context`` and our already established ``input`` defined above, and accessing our notes model from ``prisma``.
+
+```prisma
+
+```prisma
+model Notes {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  description String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+```
+
+```ts
+    .mutation(async ({ ctx, input }) => {
+      try {
+        return await ctx.prisma.notes.create({
+          data: {
+            title: input.title,
+            description: input.description,
+          },
+        });
+      } catch (err) {
+        console.log(err);
+      }
+    }),
+```
+
+
+
+
+
+
 
 - CRUD operations
 - Queries for READ operations
