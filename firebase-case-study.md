@@ -14,11 +14,11 @@ folder: development-platforms/Firebase
 3. Features
 4. Strengths
 5. Weaknesses
-6. Comparison
-7. Reviews
-8. Alternatives
-9. Summary
-10. Credits
+6. Reviews
+7. Alternatives & Comparison
+8. Summary
+9. Credits
+10. Companies using Firebase
 11. Reference links
 12. Video links
 
@@ -170,18 +170,29 @@ ________________________________________________________________________________
 **Runs only on Google Cloud** - *Firebase is now a part of Google, and its infrastructure runs entirely on the Google Cloud, which limits the level of flexibility in terms of hosting options. It doesn't provide server-level access, and problems may arise if customizing server settings is necessary. There is no option to run Firebase on other cloud providers like AWS, Azure, or Digital Ocean*.
 
 **Dedicated Servers & Enterprise Support are not an option** - *Firebase offers less flexibility than a fully dedicated cluster structure and doesn't provide a dedicated server. Likely, several applications' workloads will not fluctuate much but may require tailor-made security settings or server-level access. A serverless structure will not be adequate for this scenario, and dedicated hosting is a more suitable option. It doesn't even offer enterprise pricing plans, contracts, or assistance, which is a significant issue for many potential users*.
-
 ____________________________________________________________________________________________________________________
-
-## **Comparison:**
 
 ## **Reviews:**
 
-## **Alternatives:**
+____________________________________________________________________________________________________________________
+
+## **Alternatives & Comparison:**
+
+- **Parse** is an open source where data migrations are much easier than with Firebase. Parse offers many of the same features and additional benefits. It also runs on any cloud, whereas Firebase only runs on Google Cloud. Users also say data migrations are much more manageable with Parse than with Firebase. Self-hosting is also free.
+
+- **Supabase** is a SQL database rather than NoSQL, offering most features for free.
+
+- **Kuzzle** is another alternative. It is known for improving your TTM (time-to-market) and offers a scalable server, making it an excellent option for fast-growing apps.
+
+- **Back4App** is an alternative to the original Parse hosting service that users can utilize both GraphQL and Rest API. Its live querying functionality makes it easy to execute real-time sync and storage of data.
+
+____________________________________________________________________________________________________________________
 
 ## **Summary:**
 
 Summarise the content and highlight the relevance of the product to a web developer.
+
+____________________________________________________________________________________________________________________
 
 ## **Credits:**
 
@@ -189,11 +200,30 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 ____________________________________________________________________________________________________________________
 
+## **Companies using Firebase:**
+
+- Alibaba
+![Alibaba](images/alibaba.jpeg)
+
+- Ebay Motor
+![Ebay Motor](images/ebay%20motor.jpeg)
+
+- Le Figaro
+![Le Figaro](images/le%20figaro.jpeg)
+
+- The New York Times
+![The New York Times](images/the%20new%20york%20times.jpeg)
+
+- Todoist
+![Todoist](images/todoist.jpeg)
+
+____________________________________________________________________________________________________________________
+
 ## **References:**
 
 ![Reference](images/References.jpeg)
 
-#### **Introduction**
+### **Introduction**
 
 - [links reference-https://github.com](https://github.com/user/repo/blob/branch/other_file.md)
 - [links reference-https://blog.back4app.com](https://blog.back4app.com/firebase/#What_is_Firebase_and_how_it_works)
