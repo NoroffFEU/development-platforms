@@ -65,6 +65,8 @@ Here are some few info that show where we stand today:
 
 ## Popular Web Hosting Services
 
+![web-hosting-services-image](https://miro.medium.com/max/770/1*8pUxJGcs7qfttu_pX9k1Rg.jpeg)
+
 ### - www.bluehost.com
 
 #### Bluehost - Extremely fast and reliable hosting with plenty of advanced security add-ons.
@@ -356,3 +358,5 @@ Summarise the content and highlight the relevance of the product to a web develo
 - https://www.howtogeek.com/845500/how-many-websites-are-on-the-internet/#:~:text=The%20Best%20Guess%3A%20Nearly%202%20Billion&text=Internet%20Live%20Stats%20is%20a,billion%20websites%20on%20the%20internet.
 
 - https://www.google.com/search?q=brief+history+images&tbm=isch&ved=2ahUKEwjXxePx94D9AhXOgv0HHfzyAbcQ2-cCegQIABAA&oq=brief+history+images&gs_lcp=CgNpbWcQA1DDAljDAmDDA2gAcAB4AIABlAGIAfgBkgEDMC4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=3_fgY5faCc6F9u8P_OWHuAs&bih=569&biw=1280#imgrc=1csc89iFTD1cgM
+
+- https://www.google.com/search?q=web+hosting+services+images&tbm=isch&ved=2ahUKEwiC-_Te-ID9AhWinv0HHSqpBrAQ2-cCegQIABAA&oq=web+hosting+services+images&gs_lcp=CgNpbWcQAzoECCMQJ1CvBVjDPGD0PWgBcAB4AIABfYgB6wmSAQM1LjeYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=xPjgY4KJAqK99u8PqtKagAs&bih=569&biw=1280#imgrc=2dOI2TmlGC5xgM
