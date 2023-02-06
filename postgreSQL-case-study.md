@@ -1,9 +1,9 @@
 ---
-title: Example Product Case Study
-keywords: development platforms, example project, category name
-tags: Development Platforms, Example Project, Category Name
+title: PostgreSQL Case Study
+keywords: development platforms, postgreSQL, database, datastores
+tags: Development Platforms, postgreSQL, database, datastores
 sidebar: development-platforms
-permalink: development-platforms/example-product.html
+permalink: development-platforms/postgresql.html
 folder: development-platforms
 ---
 
@@ -39,7 +39,7 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- Karla Mae Rabe(@Noizenne)
 
 #### References
 
