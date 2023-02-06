@@ -325,7 +325,7 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 ## Credits
 
-![credits-image](https://st2.depositphotos.com/1092019/7397/i/600/depositphotos_73976071-stock-photo-credits-concept-with-word-on.jpg)
+![credits-image](depositphotos_76576205-stock-photo-credits-on-office-folder-toned.jpg)
 
 ### Kardo Kiyani (kardokiyani)
 
@@ -367,4 +367,4 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 - https://www.google.com/search?q=summary+images&tbm=isch&ved=2ahUKEwjeiMzr-ID9AhUCh_0HHUskAwAQ2-cCegQIABAA&oq=summary+images&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEAcQHjIGCAAQBxAeMgYIABAHEB46BAgAEENQxhFYixlgohxoAHAAeACAAYkBiAHPB5IBAzEuOJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=3vjgY96hJoKO9u8Py8gM&bih=569&biw=1280#imgrc=tbX0gVfgaX1-qM&imgdii=TxSu0vIBXGlOrM
 
-- https://www.google.com/search?q=credits+images&tbm=isch&ved=2ahUKEwi5gNOZ_YD9AhXs7LsIHdVXB6kQ2-cCegQIABAA&oq=credits+images&gs_lcp=CgNpbWcQAzIECCMQJzIGCAAQBxAeMgYIABAHEB4yBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAUQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHlD3DFj3DGDEDWgAcAB4AIABeYgBeZIBAzAuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=cP3gY7mIOuzZ7_UP1a-dyAo&bih=569&biw=1280#imgrc=7nI0cwXgKP32HM&imgdii=u4OFEspkIRXU4M
+- https://no.depositphotos.com/stock-photos/credits.html
