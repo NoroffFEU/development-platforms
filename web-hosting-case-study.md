@@ -313,6 +313,8 @@ Colocation hosting is a host type that is not used by small companies, but only 
 
 ## Summary
 
+Web hosting is an online service that helps you and allows you to publish your website files onto the internet. This means anyone in the world who has access to internet, has also access to your website. With other words, this is a service you can get from a web hosting provider. Web hosting have been around for a long time and has a long history with many different historical events, from the 90s til now. Web hosting has many different web hosting services sites, Bluehost, Gostator and goDdaddy is one of the biggest ones. It has many helpful features which helps you make get the best web hosting experience. However, like we mentioned before, web hosting has strengths and weaknesses, the strengths and benefits of web hosting is that it gives you technical support and web security. And its also easy to use, low cost and its resources will be a benefit for you. And the weaknesses of web hosting can be some limited stuff, such as limited control, limited resources, risks which come with the security and the dependency the user have on the hosting provider, because its the hosting provider which does the work for the owner of the website, so therefore the owner has to wait for the provider to do the job for him. So as a conclusion, with web hosting, you can put your website on the internet, and this help you can get with hosting providers which does the work for you, there is many hosting providers out there, there is nearly 2 billion websites on the internet, so its not a secret that there will be more and more website out there in the future.
+
 Summarise the content and highlight the relevance of the product to a web developer.
 
 ## Credits
