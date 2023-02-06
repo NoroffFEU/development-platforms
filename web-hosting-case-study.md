@@ -19,6 +19,8 @@ Web hosting is an online service that makes your website’s content accessible 
 
 ## Brief History
 
+![brief-history-image](https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iUqMvtdtbKVc/v0/-1x-1.png)
+
 When we speak about web hosting, we have to go all the way back to 1990s, which is the early days of the internet. This is when the first websites was created, launched and hosted on personal computers. Then after some time when the internet was growing in popularity and becoming bigger and more useful, the need for more robust and reliable hosting solutions emerged. We are now gonna go even more in detail about the history and major milestones of web hosting.
 
 Some major milestones in the history of web hosting:
