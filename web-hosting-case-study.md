@@ -354,3 +354,5 @@ Summarise the content and highlight the relevance of the product to a web develo
 - https://elementor.com/blog/types-of-web-hosting/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gclid=EAIaIQobChMI1KSP3Nn2_AIVw4XVCh2QJwspEAAYAyAAEgJ0SfD_BwE
 
 - https://www.howtogeek.com/845500/how-many-websites-are-on-the-internet/#:~:text=The%20Best%20Guess%3A%20Nearly%202%20Billion&text=Internet%20Live%20Stats%20is%20a,billion%20websites%20on%20the%20internet.
+
+- https://www.google.com/search?q=brief+history+images&tbm=isch&ved=2ahUKEwjXxePx94D9AhXOgv0HHfzyAbcQ2-cCegQIABAA&oq=brief+history+images&gs_lcp=CgNpbWcQA1DDAljDAmDDA2gAcAB4AIABlAGIAfgBkgEDMC4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=3_fgY5faCc6F9u8P_OWHuAs&bih=569&biw=1280#imgrc=1csc89iFTD1cgM
