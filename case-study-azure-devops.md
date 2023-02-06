@@ -37,7 +37,6 @@ In 2005 the service that we today refer to as Azure DevOps was named Team Founda
 In 2012, TFS morphed into a tool that helped teams manage their software development projects using Agile. [[1](#references)]
 
 The name **"Azure DevOps"** came in 2018. Microsoft rebranded TFS to Azure DevOps, this reflecting Microsoft shift to a cloud based service and its focus on providing organizations with a more comprehensive set of tools and services.
-
 After the rebranding Azure DevOps has continued to evolve and add more features, you can read more about the features [here](#features). Azure DevOps have also integrated other Azure services such as Azure functions, Azure Container and Azure Kubernetes service. [[2](#references)]
 
 ## **Features**
@@ -117,6 +116,8 @@ Package Management in Azure DevOps helps you centralize your package management 
 *Reference [[10](#references)]*
 
 ### Code Review and Feedback
+
+Azure DevOps offers a code review and feedback system similar to other popular platforms, like GitHub. You create a pull request and on that request you can add your colleges to look at your code and review it. 
 
 *Reference [[11](#references)]*
 
