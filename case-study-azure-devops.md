@@ -1,9 +1,9 @@
 ---
-title: Example Product Case Study
-keywords: development platforms, example project, category name
-tags: Development Platforms, Example Project, Category Name
+title: Azure DevOps Case Study
+keywords: development platforms, Azure DevOps, Microsoft
+tags: Development Platforms, Azure DevOps, Microsoft
 sidebar: development-platforms
-permalink: development-platforms/example-product.html
+permalink: development-platforms/case-study-azure-devops.html
 folder: development-platforms
 ---
 
