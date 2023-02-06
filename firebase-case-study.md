@@ -7,13 +7,28 @@ permalink: development-platforms/firebase-case-study.md
 folder: development-platforms/Firebase
 ---
 
-## **Introduction**
+### Table of contents
 
-## *What is **Firebase**?*
+1. Introduction
+2. Brief History
+3. Features
+4. Strengths
+5. Weaknesses
+6. Comparison
+7. Reviews
+8. Alternatives
+9. Summary
+10. Credits
+11. Reference links
+12. Video links
+
+____________________________________________________________________________________________________________________
+
+## **Introduction:**
+
+## *What is ***FIREBASE***?*
 
 ![Firebase](images/firebase.jpeg)
-
-## **Firebase**
 
 A mobile development platform with features that help both developers work efficiently, fast, and reliably, solving the three main issues in mobile apps and all multi-platform devices. It was a backend platform that enhanced the developer's reliance on using it based on demand. It is a leading platform that is relied on by developers globally. It has rapid improvements and additional features that will give satisfying results for the knowledge of both developers and users. And since it is cloud-hosted, it will provide a smoother performance for demand scaling without any hassles. All features are functions for both mobile and web-based applications, including services for building, testing, and managing apps.
 
@@ -21,7 +36,7 @@ A mobile development platform with features that help both developers work effic
 
 - [video-links](https://www.youtube.com/watch?v=XHvWx1F3S4A)
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 ## **Brief History**
 
@@ -34,16 +49,16 @@ ________________________________________________________________________________
 - The first *Firebase* product launched to hit the market was the **Realtime Database**. This is an API for synchronizing application data between Android synchronization, Web, and iOS devices. Application developers can rely on the platform to create collaborative real-time applications.
 - [links](https://www.javatpoint.com/firebase-introduction)
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
-## **Features**
+## **Features:**
 
 ![Features](images/features.jpeg)
 
 ![Firebase Products & Features](images/features_services.jpg)
 [image reference from](https://www.altexsoft.com/blog/firebase-review-pros-cons-alternatives/)
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 ### **App-Building Services**
 
@@ -61,7 +76,7 @@ ________________________________________________________________________________
 
 - *Firebase Machine Learning Kit* - is a powerful yet easy-to-use package, simple, easy, and quick to add to any application. Not only this, but the chances of errors are also significantly reduced. The best part of implementing this SDK is that you do not have to write much code. It applies Google Analytics for Firebase data to create groups of users based on predicted behavior. It is updated daily and can use for targeting with notifications, remote configuration, and more. It provides users with features of Machine Learning such as Face Recognizance, Language Translator, etc.
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 ### **Testing-Maintaining Services**
 
@@ -73,7 +88,7 @@ ________________________________________________________________________________
 
 - *App Distribution* - is a unique solution to help you test cross-platform, allowing you to upload and distribute your apps to trusted testers or QA from your team to execute the process called pre-release app distribution, which is an effective option to advertise the applications.
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 ### **Business Instruments**
 
@@ -91,9 +106,9 @@ ________________________________________________________________________________
 
 - *In-App Messaging* - is a Firebase feature that lets you interact with users actively using your application. You can design your in-app messages to trigger based on your customer’s interests and behaviors. Then, your in-app messaging logic targets users with personalized messages at just the right time. It is more on a technical capability that allows a company to communicate directly with users through the product. It displays lightboxes, tooltips, surveys, banners, and other messaging formats right inside while users engage with it. It tends to have a higher response rate than push notifications or email messages.
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
-## **Strengths**
+## **Strengths:**
 
 ![Strengths](images/strengths.jpeg)
 
@@ -105,7 +120,7 @@ ________________________________________________________________________________
 - Monitor Errors
 - Backups
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 **Free to start** - *Getting started without any cost is a good option offered by Firebase and one reason it is so popular, and that users can sign in with their Google account*.
 
@@ -123,9 +138,9 @@ ________________________________________________________________________________
 
 **Backups** - *The apps are protected from any possibility of data loss by relying on the automatic backup feature of this platform. Clicking the Backups tab of the Firebase Database gives one access to the auto-backup settings*.
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
-## **Weaknesses**
+## **Weaknesses:**
 
 ![Weakneses](images/weaknesses.jpeg)
 
@@ -138,7 +153,7 @@ ________________________________________________________________________________
 - Runs only on Google Cloud
 - Dedicated Servers & Enterprise Support are not an option
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 **It’s not Open-Source** - *Firebase users can't modify Firebase source code because it is closed-source. Because of this issue, developers using Firebase end up using alternative platforms*.
 
@@ -156,23 +171,23 @@ ________________________________________________________________________________
 
 **Dedicated Servers & Enterprise Support are not an option** - *Firebase offers less flexibility than a fully dedicated cluster structure and doesn't provide a dedicated server. Likely, several applications' workloads will not fluctuate much but may require tailor-made security settings or server-level access. A serverless structure will not be adequate for this scenario, and dedicated hosting is a more suitable option. It doesn't even offer enterprise pricing plans, contracts, or assistance, which is a significant issue for many potential users*.
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
-## **Comparison**
+## **Comparison:**
 
-## **Reviews**
+## **Reviews:**
 
-## **Alternatives**
+## **Alternatives:**
 
-## **Summary**
+## **Summary:**
 
 Summarise the content and highlight the relevance of the product to a web developer.
 
-## Credits
+## **Credits:**
 
 - Nenita Santander Norvalls (NeNorvalls)
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 ## **References:**
 
@@ -297,7 +312,7 @@ ________________________________________________________________________________
 - [links reference-https://osdb.io](https://osdb.io/firebase-pros-and-cons-when-you-should-and-shouldnt-use-firebase-osdb/)
 - [links reference-https://blog.back4app.com](https://blog.back4app.com/firebase/#What_is_Firebase_and_how_it_works)
 
-___________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 ### **Video References:**
 
