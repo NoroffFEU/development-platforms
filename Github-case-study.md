@@ -21,7 +21,7 @@ folder: development-platforms
 9. [Credits](#credits)
 10. [References](#references)
 
-![GitHub](images/github-mark-white.png)
+![GitHub](#images/github-mark-white.png)
 
 ## **Introduction** 
 
