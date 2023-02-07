@@ -52,6 +52,10 @@ Svelte uses a system of reactive statements, such as `{#if}` blocks, that can co
 
 When the value of `visible` changes, Svelte will automatically update the DOM to reflect the change and render or destroy the component as needed. This allows for easy control over component loading and unloading, and ensures that resources are only used when they are actually needed, instead of constantly rendering every component like some high-budget slideshow.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/30121693/217382445-d5addc54-21a2-48bd-b613-dd9cac2e657b.png" alt="Svelte's key features"/>
+</p>
+
 ## Strengths
 
 Svelte is most known for its performance. Because it does not use a virtual DOM and instead generates HTML at build-time, it has a faster runtime performance compared to other popular frameworks. It also has a simple and intuitive syntax, which makes it easy to learn and use. This in turn also means Svelte applications are easier to maintain and scale over time.
