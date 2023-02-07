@@ -3,7 +3,7 @@ title: TensorFlow Case Study
 keywords: Python, JavaScript, TensorFlow, Machine Learning, Data Analytics
 tags: TensorFlow, Python, JavaScript, Machine Learning, Data Analytics
 sidebar: development-platforms
-permalink: development-platforms/TensorFlow.html
+permalink: development-platforms/tensorflow.html
 folder: development-platforms
 ---
 # Machine Learning and TensorFlow
@@ -35,87 +35,47 @@ Say we want to create an image recognition software for animals, we would first 
 
 ![very_basic_image_recognition](https://user-images.githubusercontent.com/91462616/217267590-f3419033-5918-4b07-9c79-1f4808cb984c.jpg)
 
-https://www.mygreatlearning.com/blog/what-is-tensorflow-machine-learning-library-explained/
+Image recognition and classification is just one of many things, as TensorFlow is a general machine learning platform than can be configured perform a variety of tasks. Some other uses include for possible real world applications include; 
 
-### Usage and Application
-
-https://medium.com/analytics-vidhya/tensorflow-and-use-cases-1e87db8b5222
-https://blog.tensorflow.org/2020/02/how-modiface-utilized-tensorflowjs-in-ar-makeup-in-browser.html
-
-- Image classification
-- Image and Face recognition
-- Object detection
-- Pose estimation
-- Style transfer
-- Sentiment analysis
-- Speech recognition
-- Natural Language Processing
-- Text generation
-- Reinforcement learning
+- Drones and Self-driving cars. 
+- Speech recognition, for products like Google Assistant. 
+- Natural Language Processing, for customer service bots, or bad language filters. 
+- Text translation, such as google translate.  
+- Text generation, for automating responses. 
+- Product, post, and article recommendations specific to the user based on past interests.  
 
 ## TensorFlow Features and Ecosystem
 
-In both eager and graph executions, TensorFlow provides an API for distributing computation across multiple devices with various distribution strategies. This distributed computing can often speed up the execution of training and evaluating of TensorFlow models and is a common practice in the field of AI
+**TensorFlow Core** is a more powerful and feature-rich library for machine learning, but it requires a more powerful machine with a GPU to train models. It provides a lower-level API that gives more control over the implementation details. But as of TensorFlow v2.0, it can also utilize **Keras**, a high-level API, that allows for faster and easier model building.  
 
-**TensorFlow Core** is a more powerful and feature-rich library for machine learning, but it requires a more powerful machine with a GPU to train models. It provides a lower-level API that gives more control over the implementation details. But as of TensorFlow v2.0, it can also utilizes **Keras**, a high level API, that allows for easier model building. 
+**TensorFlow.js** is a JavaScript library for training and deploying machine learning models in the browser and on Node.js. A flexible and intuitive high-level API provides a simple and easy-to-use interface, with a lot of the underlying implementation details abstracted away. It's can be used for creating web-based or browser-based machine learning applications. It's also convert existing TensorFlow models from python, which can be useful for bringing pre-trained models to the web as well as allowing you to retrain models with your own data. TensorFlow.js is designed to make machine learning accessible to a wider audience, including web and JavaScript developers, by allowing them to build and deploy machine learning models without needing to learn Python or use a powerful machine with a GPU. 
 
-**TensorFlow.js** is a JavaScript library for training and deploying machine learning models in the browser and on Node.js. A flexible and intuitive high-level API provides a simple and easy-to-use interface, with a lot of the underlying implementation details abstracted away. It's can be used for creating web-based or browser-based machine learning applications. It's also convert existing TensorFlow models from python, which can be useful for bringing pre-trained models to the web as well as allowing you to retrain models with your own data. TensorFlow.js is designed to make machine learning accessible to a wider audience, including web and JavaScript developers, by allowing them to build and deploy machine learning models without needing to learn Python or use a powerful machine with a GPU.
+**TensorFlow Lite** is a mobile library for deploying models on mobile (Android and iOs device), microcontrollers and other edge devices (embedded Linux). Currently support for Java, Swift Objective-C, C++ and Python. It is optimized for on device machine learning, with models reduced in size with little to no accuracy loss, data doesn't need to be sent to and from a server meaning privacy concerns can be addressed. The smaller more efficient models allow for lower power consumption, and can achieve higher performance on using hardware acceleration on mobile devices. They also provide a variety of end-to-end examples, for common machine learning tasks such as image classification, object detection, pose estimation, question answering, text classification, etc. on multiple platforms. 
 
-**TensorFlow Lite** is a mobile library for deploying models on mobile (Android and iOs device), microcontrollers and other edge devices (embeded Linux). Currently support for Java, Swift Objective-C, C++ and Python. It is optimized for on deveice machine learning, with models reduced in size with little to no accuracy loss, data doesn't need to be sent to and from a server meaning privacy concerns can be addressed. The smaller more efficent models allow for lower power consumption, and can achieve higher performance on using hardware acceleration on mobile devices. They also provide a variety end-to-end examples, for common machine learning tasks such as image classification, object detection, pose estimation, question answering, text classification, etc. on multiple platforms.
+**TFX** is a comprehensive, scalable, and modular platform that offers a range of tools for deploying and managing machine learning pipelines in a production environment, prioritizing high performance, and streamlined operations. 
 
-re-write and expand this, https://www.infoworld.com/article/3405641/tensorflow-2-review-easier-end-to-end-machine-learning.html
-```
-**TFX** is an end-to-end platform for deploying production ML pipelines. When you're ready to move your models from research to production, use TFX to create and manage a production pipeline. A TFX pipeline is a sequence of components that implement an ML pipeline which is specifically designed for scalable, high-performance machine learning tasks. Components are built using TFX libraries which can also be used individually.
+**TensorBoard** is a visualization toolkit, enabling you to track metrics like loss and accuracy, visualize the model graph, view histograms of weights, biases, or other tensors as they change over time, as well as many more function, it also allows for customization through plugins. 
 
-TensorFlow Extended (TFX) is an end-to-end platform for deploying production machine learning pipelines. TFX is something to consider once you have trained a model. Pipelines include data validation, feature engineering, modeling, model evaluation, serving inference, and managing deployments to online, native mobile, and JavaScript targets. The diagram below shows how the components of the TFX pipeline fit together.
-```
-
-TensorFlow also provides a wide array of resources on their site, with trained deployable models on TensorFlow Hub, datasets collections for training your models, tools
+TensorFlow also provides a wide array of resources, libraries, extensions, and tools on their site in addition to their main platforms, to support and speed up development and deployment. These include trained deployable models on **TensorFlow Hub**, example models on **Model Garden**, and dataset collections for training your models. It also has a selection of tools like TensorBoard to choose from to augment, optimize and improve your workflows. 
 
 ## Strengths
-https://www.javatpoint.com/advantage-and-disadvantage-of-tensorflow
-https://www.geeksforgeeks.org/why-tensorflow-is-so-popular-tensorflow-features/
-https://www.geeksforgeeks.org/advantages-and-disadvantages-of-tensorflow/
-scaleable
 
-open source
-
-graph data visulisation
-
-Debugging with tensor board
-
-compatibility with many programing languages namely Python C++, Java, Javascript, etc
-
-Extensive built-in library functions for image manipulation and optimized tensor computations.
-
-Extensive open-source user and developer community which supported latest algorithm implementations and made them readily available.
+- Open Source and Large Community: TensorFlow is an open-source platform with a huge user and developer community. This means there is a wealth of resources, tutorials, tools and libraries available to support your work beyond what is available on their main website. The community also supports the latest algorithm implementations, making them easily accessible. 
+- Built-In Library Functions: TensorFlow comes with extensive built-in library functions that make it easy to manipulate images, perform optimized tensor computations, and handle other machine learning tasks. 
+- Scalability: TensorFlow has been designed with scalability in mind, allowing you to run models on a variety of devices and hardware configurations, from mobile devices to large computer servers. 
+- Multi-Language Compatibility: TensorFlow can be used with several programming languages and is compatible with a variety of devices and hardware configurations, making it a versatile platform for machine learning. 
+- Graph Visualization with TensorBoard: TensorFlow's visualization tool, TensorBoard, provides a graph-based view of your models, allowing for easier development, optimization, and debugging. 
 
 ## Weaknesses
 
-
-Overwhelming to get started
-
-Slower development, not suitable for projects that require fast development.
-
-only NVIDIA support for GPU and Python programming language support for GPU programming. 
-
-limited windows support, a lot of features present in linux but not windows
-
+- Steep Learning Curve: TensorFlow can be overwhelming for those who are new to machine learning and can have a steeper learning curve compared to similar platforms like PyTorch. 
+- Slower Development: TensorFlow's development process can be slower compared to other competitors in the market. 
+- GPU Limitations: TensorFlow currently only supports NVIDIA GPUs and Python programming language for GPU programming. 
+- Increased Dependency: Despite its user-friendly interface and smaller program size, TensorFlow introduces an added layer of complexity. The platform relies on other dependencies for its execution, which can increase the overall dependency of your project. 
+- Limited windows feature support, a lot of features are present through linux but not windows.
 
 ## Comparison
-fact check, reference and expand from https://www.infoworld.com/article/3278008/what-is-tensorflow-the-machine-learning-library-explained.html
-https://medium.com/mlearning-ai/pytorch-vs-tensorflow-in-2022-9a7106b1f606
-https://www.databricks.com/glossary/tensorflow-guide
-https://www.simplilearn.com/keras-vs-tensorflow-vs-pytorch-article
-```
-TensorFlow vs. PyTorch, CNTK, and MXNet
 
-TensorFlow competes with a slew of other machine learning frameworks. PyTorch, CNTK, and MXNet are three major frameworks that address many of the same needs. Let's close with a quick look at where they stand out and come up short against TensorFlow:
-
-    PyTorch is built with Python and has many other similarities to TensorFlow: hardware-accelerated components under the hood, a highly interactive development model that allows for design-as-you-go work, and many useful components already included. PyTorch is generally a better choice for fast development of projects that need to be up and running in a short time, but TensorFlow wins out for larger projects and more complex workflows.
-    CNTK, the Microsoft Cognitive Toolkit, is like TensorFlow in using a graph structure to describe dataflow, but it focuses mostly on creating deep learning neural networks. CNTK handles many neural network jobs faster, and has a broader set of APIs (Python, C++, C#, Java). But it isn’t currently as easy to learn or deploy as TensorFlow. It's also only available under the GNU GPL 3.0 license, whereas TensorFlow is available under the more liberal Apache license. And CNTK isn't as aggressively developed; the last major release was in 2019.
-    Apache MXNet, adopted by Amazon as the premier deep learning framework on AWS, can scale almost linearly across multiple GPUs and multiple machines. MXNet also supports a broad range of language APIs—Python, C++, Scala, R, JavaScript, Julia, Perl, Go—although its native APIs aren’t as pleasant to work with as TensorFlow’s. It also has a far smaller community of users and developers.
-```
 
 ## Summary
 
@@ -125,10 +85,27 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 - Alexander Barrett (Anclagen)
 
-#### References
+## Glossary
+- Model: A mathematical representation of a problem and its solution. 
+- Layer/nodes/graph: A collection of neurons that perform a specific function. 
+- Neural Network: A series of interconnected layers used to model and solve a problem. 
+- Training: The process of adjusting the parameters of a model to make it better at solving a problem. 
+- Optimization: The process of finding the best set of parameters for a model. 
+- Epoch: One iteration of the training process over all the training data.
+- Batch: A subset of the training data used in each iteration of the training process.
+- Activation Function: A function that determines the output of a neuron based on its inputs.
+- Gradient Descent: An optimization algorithm that finds the minimum of a cost function.
+- Overfitting: A problem in machine learning where a model becomes too complex and memorizes the training data instead of generalizing to new data.
+- Regularization: A technique used to reduce overfitting by adding a penalty term to the loss function.
+- Inference: The process of using a trained model to make predictions on new data.
+- Transfer Learning: The process of using a pre-trained model as a starting point for a new problem.
+- Hyperparameters: Parameters that are set before training a model and affect its performance.
+- Embedding: A technique used to map categorical data into a continuous space for use in a neural network. 
 
-TensorFlow blog, site, and githubs
-- TensorFlow: https://blog.tensorflow.org/
+## References
+
+TensorFlow 
+- TensorFlow blog: https://blog.tensorflow.org/
 - TensorFlow Lite: https://www.tensorflow.org/lite/guide
 - TensorFlow Lite Example Apps: https://www.tensorflow.org/lite/examples 
 - TensorFlow Core: https://www.tensorflow.org/overview
@@ -139,15 +116,31 @@ TensorFlow blog, site, and githubs
 - https://github.com/tensorflow/tfx
 - https://github.com/tensorflow/models/tree/master/official
 
-Articles and Blogs
+General articles and blogs
 - https://ai.googleblog.com/2015/11/tensorflow-googles-latest-machine.html
 - https://www.infoworld.com/article/3278008/what-is-tensorflow-the-machine-learning-library-explained.html
-- https://www.geeksforgeeks.org/why-tensorflow-is-so-popular-tensorflow-features/
-- https://www.geeksforgeeks.org/advantages-and-disadvantages-of-tensorflow/
 - https://medium.com/analytics-vidhya/tensorflow-and-use-cases-1e87db8b5222
+- https://www.mygreatlearning.com/blog/what-is-tensorflow-machine-learning-library-explained/
 - https://www.databricks.com/discover/pages/the-democratization-of-artificial-intelligence-and-deep-learning
 - https://www.databricks.com/glossary
-- https://www.v7labs.com/blog/image-recognition-guide
+- https://www.infoworld.com/article/3405641/tensorflow-2-review-easier-end-to-end-machine-learning.html
+- https://www.v7labs.com/blog/image-recognition-guide#
+- https://blog.tensorflow.org/2020/02/how-modiface-utilized-tensorflowjs-in-ar-makeup-in-browser.html
+
+Comparisons
+- https://pytorch.org/
+- https://www.infoworld.com/article/3278008/what-is-tensorflow-the-machine-learning-library-explained.html
+- https://medium.com/mlearning-ai/pytorch-vs-tensorflow-in-2022-9a7106b1f606
+- https://www.databricks.com/glossary/tensorflow-guide
+- https://www.simplilearn.com/keras-vs-tensorflow-vs-pytorch-article
+
+Advantages and disadvantages
+- https://www.geeksforgeeks.org/advantages-and-disadvantages-of-tensorflow/
+- https://data-flair.training/blogs/tensorflow-pros-and-cons/
+- https://techvidvan.com/tutorials/tensorflow-features/
+- https://www.javatpoint.com/advantage-and-disadvantage-of-tensorflow
+- https://www.geeksforgeeks.org/why-tensorflow-is-so-popular-tensorflow-features/
+- https://www.trustradius.com/products/tensorflow/reviews?qs=pros-and-cons#reviews
 
 Linkedin Learning
 - https://www.linkedin.com/learning/learning-tensorflow-with-javascript/
