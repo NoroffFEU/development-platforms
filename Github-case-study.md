@@ -6,7 +6,7 @@ sidebar: development-platforms
 permalink: development-platforms/example-product.html
 folder: development-platforms
 ---
-# GitHub Case Study
+# <p align="center">GitHub Case Study</p>
 
 ## Table of contents
 
