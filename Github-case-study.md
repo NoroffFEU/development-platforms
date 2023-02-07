@@ -21,9 +21,12 @@ folder: development-platforms
 9. [Credits](#credits)
 10. [References](#references)
 
+
 ![GitHub](Images/github-mark-white.png)
 
-## Introduction 
+
+
+## **Introduction** 
 
 Effective teamwork and code management are essential for the development of software. Finding the ideal platform to assist this procedure is the challenge. GitHub emerged as a solution for these challenges by providing a web-based platform for code storage, sharing, and collaboration.
 
@@ -154,7 +157,7 @@ Despite the fact that GitHub is one of the most well-known and widely used web-b
  Azure DevOps, owned by Microsoft, offers a cloud-based platform for software development and collaboration. It includes version control, work tracking, and CI/CD capabilities with an emphasis on serving the needs of enterprise customers. The platform provides features such as support for large projects, robust security, and integration with other Microsoft products, making it a popular choice among organizations seeking a complete solution for software development within the Microsoft ecosystem.
 
 
-## summary
+## Summary
 
 In summary, GitHub is a web-based platform for version control and collaboration that was founded in 2008. It has several strengths that make it a powerful and adaptable tool for developers and teams, such as ease of use, wide adoption, strong community, large number of integrations, strong security features, learning and development resources, cost-effective and mobile capabilities. However, it also has some weaknesses such as limited scalability, limited built-in project management, limited built-in testing and continuous integration, limited built-in code review, limited built-in analytics, limited built-in mobile capabilities, limited control and limited customization.
 
