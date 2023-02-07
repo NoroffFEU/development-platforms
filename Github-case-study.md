@@ -23,7 +23,7 @@ folder: development-platforms
 
 ![GitHub](#/images/github-mark-white.png)
 
-## Introduction 
+## **Introduction** 
 
 Effective teamwork and code management are essential for the development of software. Finding the ideal platform to assist this procedure is the challenge. GitHub emerged as a solution for these challenges by providing a web-based platform for code storage, sharing, and collaboration.
 
