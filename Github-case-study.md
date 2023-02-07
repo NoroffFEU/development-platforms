@@ -6,7 +6,7 @@ sidebar: development-platforms
 permalink: development-platforms/example-product.html
 folder: development-platforms
 ---
-# <p align="center">GitHub Case Study</p>
+# <p align="center" style="color:red">GitHub Case Study</p>
 
 <p align="center"><img src="Images/github-mark.png"><p>
 
@@ -18,13 +18,12 @@ folder: development-platforms
 4. [Strengths](#strengths)
 5. [Weaknesses](#weaknesses)
 6. [Comparison](#comparison)
-7. [How To](#how-to)
-8. [Summary](#summary)
-9. [Credits](#credits)
-10. [References](#references)
+7. [Summary](#summary)
+8. [Credits](#credits)
+9. [References](#references)
 
 
-## **Introduction** 
+## Introduction
 
 Effective teamwork and code management are essential for the development of software. Finding the ideal platform to assist this procedure is the challenge. GitHub emerged as a solution for these challenges by providing a web-based platform for code storage, sharing, and collaboration.
 
