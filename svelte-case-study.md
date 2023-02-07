@@ -75,7 +75,9 @@ Although Svelte, React, Vue.js and Angular are all popular JavaScript frameworks
 
 Svelte has a relatively simple syntax and a different approach to building web applications, making it relatively easy to learn. React has a steeper learning curve due to its use of a virtual DOM, although it has a large and supportive community. Vue.js has a similar learning curve to React, but with a simpler syntax. Angular has the steepest learning curve of the four frameworks, due to its complex syntax and larger feature set. They also all differ in scope, as Svelte is mainly meant for smaller applications, where as React and Vue are tailored towards medium to large-size applications which do not require many different pages. Angular on the other hand is tailored towards very large applications with many different views, pages and URLs.
 
-![image](https://user-images.githubusercontent.com/30121693/217382010-89301416-a474-42e3-a6e7-81b518ad4c0a.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/30121693/217382010-89301416-a474-42e3-a6e7-81b518ad4c0a.png" alt="React vs Svelte Syntax comparison meme"/>
+</p>
 
 Svelte has a performance advantage over the other frameworks, due to its ability to compile components into highly optimized code at build-time, reducing the need for a virtual DOM and resulting in faster runtime performance. React and Vue.js both use a virtual DOM, which can result in slower performance compared to Svelte. These do, however, have optimizations available to minimize the impact. Angular, being an all-in-one framework, also has a performance advantage compared to the other frameworks.
 
