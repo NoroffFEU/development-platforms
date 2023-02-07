@@ -19,7 +19,7 @@ This case study aims to introduce the reader to Svelte as a development tool to 
 
 ## Brief History
 
-Released in November 2016, Svelte started out basically as nothing more than its predecessor, Ractive.js, but now with a compiler. In April of 2018, the developers released the second version which set out to correct what the developers viewed as mistakes in the previous build. The major turning point came in April of 2019 when version 3 was released. Svelte had been rebuild using TypeScript and completely rethought reactivity by using its compiler to orchestrate the heavy lifting behind the scenes. Much like a magician will lead you into focusing on an arbitrary part of the show rather than the actual set up of the trick, Svelte does the same by handling component loading and unloading out of the view of the user, i.e. in a "browser back-end" instead of a virtual DOM.
+Released in November 2016, Svelte started out basically as nothing more than its predecessor, Ractive.js, but now with a compiler. In April of 2018, the developers released the second version which set out to correct what the developers viewed as mistakes in the previous build. The major turning point came in April of 2019 when version 3 was released. Svelte had been rebuilt using TypeScript and completely rethought reactivity by using its compiler to orchestrate the heavy lifting behind the scenes. Much like a magician will lead you into focusing on an arbitrary part of the show rather than the actual set up of the trick, Svelte does the same by handling component loading and unloading out of the view of the user instead of a virtual DOM.
 
 The extension, SvelteKit, was announced in October 2020 and entered beta in March 2021. 
 
