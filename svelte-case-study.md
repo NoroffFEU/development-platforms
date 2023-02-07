@@ -89,6 +89,11 @@ React has, without a doubt, the largest community of developers, as well as the 
 
 Svelte is, however, increasing in popularity at an incredible rate. According to the [State of JavaScript Survey](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/), Svelte has had the highest percentage of interest since 2019 compared to its competitors. It also scores very high in awareness and retention, but lacks behind in usage. 
 
+## Getting started with Svelte
+
+- Installing
+- Creating a component
+
 ## Summary
 
 Summarise the content and highlight the relevance of the product to a web developer.
