@@ -25,7 +25,7 @@ It is a mathematical framework for representing and manipulating multi-dimension
 - 2019, TensorFlow 2.0 is released, providing a more user-friendly and intuitive API for building and training machine learning models, in response to the growing popularity of PyTorch.
 - 2021, TensorFlow is the 3rd most-starred software repository on GitHub and the most-downloaded machine learning package on PyPI.
 
-### Purpose and concepts
+## Purpose and concepts
 
 The purpose of TensorFlow is to provide a platform to build, train, and deploy, deep machine learning models, these can also be referred to as artificial neural networks. These are mathematical models that can learn from data and make predictions about new data. Unlike in regular programming where a computer program follows a fixed set of instructions it was provide, machine learning models are designed to adapt and improve over time through training. They can be trained by passing small or vast amounts of test data through layers of the model, to progressively reinforce and identify relationships between the input and output. This grows a model that can be applied to new data and accurately predict an outcome, even data it has never seen before.  
 
@@ -46,7 +46,7 @@ Image recognition and classification is just one of many things, as TensorFlow i
 
 ## TensorFlow Features and Ecosystem
 
-**TensorFlow Core** is a more powerful and feature-rich library for machine learning, but it requires a more powerful machine with a GPU to train models. It provides a lower-level API that gives more control over the implementation details. But as of TensorFlow v2.0, it can also utilize **Keras**, a high-level API, that allows for faster and easier model building.  
+**TensorFlow Core** is a more powerful and feature-rich library for machine learning, but it requires a more powerful machine with a GPU to train models. It provides a lower-level API that gives more control over the implementation details. But as of TensorFlow v2.0, it can also utilize [Keras](https://keras.io/), a high-level API, that allows for faster and easier model building.  
 
 **TensorFlow.js** is a JavaScript library for training and deploying machine learning models in the browser and on Node.js. A flexible and intuitive high-level API provides a simple and easy-to-use interface, with a lot of the underlying implementation details abstracted away. It's can be used for creating web-based or browser-based machine learning applications. It's also convert existing TensorFlow models from python, which can be useful for bringing pre-trained models to the web as well as allowing you to retrain models with your own data. TensorFlow.js is designed to make machine learning accessible to a wider audience, including web and JavaScript developers, by allowing them to build and deploy machine learning models without needing to learn Python or use a powerful machine with a GPU. 
 
@@ -73,13 +73,21 @@ TensorFlow also provides a wide array of resources, libraries, extensions, and t
 - GPU Limitations: TensorFlow currently only supports NVIDIA GPUs and Python programming language for GPU programming. 
 - Increased Dependency: Despite its user-friendly interface and smaller program size, TensorFlow introduces an added layer of complexity. The platform relies on other dependencies for its execution, which can increase the overall dependency of your project. 
 - Limited windows feature support, a lot of features are present through linux but not windows.
+- Too Many Frequent Updates, some cause your AI models to shrink as you receive background updates regularly, sometimes resulting in model quality reduction.  
 
 ## Comparison
 
+**TensorFlow and PyTorch**, PyTorch is another popular similar competing framework offering similar abstractions of development models to TensorFlow. PyTorch tends to be more popular with researchers looking for flexibility, shorter training duration, easier usage, and debugging capabilities. But TensorFlow is still prefer for creating larger, scalable, and complex models, as well as version 2 closing the gap in terms of its ease of use. TensorFlow is a more favored tool among industrial professionals as it offers a more streamlined path to production through TFX’s, TF Serving, while PyTorch has made some headway toward addressing this with TorchServe, it remains inferior. In the area of data parallelism, PyTorch gains optimal performance by relying on native support for asynchronous execution through Python. However, with TensorFlow, you must manually code and optimize every operation run on a specific device to allow distributed training, meaning you must do more work to get the same in TensorFlow. 
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+TensorFlow.js, offers the power of machine learning on a browser or in node, in a language every web developers is familiar with and the possibility to take and convert pre-existing models from other TensorFlow applications. Looking through TensorFlow's Blog section under TensorFlow.js you can already see many companies are taking advantage of it.
+
+The ability to use natural language processing models, could allow the implementation of accurate text translation to there native language, and offensive language filters for sites that warn or prevent offensive posts beyond just filtering specifc words,An example of this is [Inspace](https://blog.tensorflow.org/2020/12/inspace-new-video-conferencing-platform-uses-tensorflowjs-for-toxicity-filters-in-chat.html) has implemented filtering to their conferencing platform. Already chatGPT has taken the internet by storm in regards to what these deep models can do when provided with a vast amount of trainning data, as I expect similar systems will be pushed out to serve a variety of specific problems in the future. 
+
+You can speed up sites by using trends and specific user data to determine the most likely pages a user will navigate to next, and begin preloading assets for these pages. On top of being able to push user tailored content recommendations. The retail store [Newegg](https://blog.tensorflow.org/2021/05/speed-up-your-sites-with-web-page-prefetching-using-ml.html) has already implemented this on their store page. I expect in the future web developers will need to have a greater understanding of machine learning tools as they are incorperated into a variety of platforms and frameworks.
+
+While all this seems like it could be a good thing for the future of the web. There should be concerns about privacy, with regards to that fact that this will encourage a greater amount of data collection from companies, and how these machine learning models could begin to make accurate guesses about persons medical conditions and oppinion, from indirect sources of data. Also biases in the models and their training data should be a concern as platform like chatGPT become more common, who will deside on what infomation is or isn't appropriate for the user.
 
 ### Credits
 
@@ -101,6 +109,7 @@ Summarise the content and highlight the relevance of the product to a web develo
 - Transfer Learning: The process of using a pre-trained model as a starting point for a new problem.
 - Hyperparameters: Parameters that are set before training a model and affect its performance.
 - Embedding: A technique used to map categorical data into a continuous space for use in a neural network. 
+- Data parallelism refers to scenarios in which the same operation is performed concurrently (that is, in parallel) on elements in a source collection or array. In data parallel operations, the source collection is partitioned so that multiple threads can operate on different segments concurrently.
 
 ## References
 
@@ -126,6 +135,8 @@ General articles and blogs
 - https://www.infoworld.com/article/3405641/tensorflow-2-review-easier-end-to-end-machine-learning.html
 - https://www.v7labs.com/blog/image-recognition-guide#
 - https://blog.tensorflow.org/2020/02/how-modiface-utilized-tensorflowjs-in-ar-makeup-in-browser.html
+- https://blog.tensorflow.org/2022/08/content-moderation-using-machine-learning-a-dual-approach.html
+- https://blog.tensorflow.org/2020/09/brief-history-of-tensorflow-extended-tfx.html#TFX
 
 Comparisons
 - https://pytorch.org/
@@ -136,12 +147,17 @@ Comparisons
 
 Advantages and disadvantages
 - https://www.geeksforgeeks.org/advantages-and-disadvantages-of-tensorflow/
-- https://data-flair.training/blogs/tensorflow-pros-and-cons/
-- https://techvidvan.com/tutorials/tensorflow-features/
-- https://www.javatpoint.com/advantage-and-disadvantage-of-tensorflow
 - https://www.geeksforgeeks.org/why-tensorflow-is-so-popular-tensorflow-features/
-- https://www.trustradius.com/products/tensorflow/reviews?qs=pros-and-cons#reviews
+- https://insights.daffodilsw.com/blog/pros-and-cons-of-using-the-tensorflow-ml-platform
+- https://techvidvan.com/tutorials/tensorflow-features/
+
+Summary blog posts
+- https://blog.tensorflow.org/2021/05/speed-up-your-sites-with-web-page-prefetching-using-ml.html
+- https://blog.tensorflow.org/2020/12/inspace-new-video-conferencing-platform-uses-tensorflowjs-for-toxicity-filters-in-chat.html
+- https://www.linkedin.com/pulse/what-key-privacy-concerns-associated-machine-
 
 Linkedin Learning
 - https://www.linkedin.com/learning/learning-tensorflow-with-javascript/
 - https://www.linkedin.com/learning/building-and-deploying-deep-learning-applications-with-tensorflow/
+
+
