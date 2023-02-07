@@ -8,7 +8,7 @@ folder: development-platforms
 ---
 # <p align="center">GitHub Case Study</p>
 
-<p align="center">![GitHub](Images/github-mark.png)<p>
+<p align="center"><img src="Images/github-mark.png"><p>
 
 ## Table of contents
 
