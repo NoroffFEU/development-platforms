@@ -386,3 +386,9 @@ ________________________________________________________________________________
 ### **Image References:**
 
 - [images reference-https://stock.adobe.com](https://stock.adobe.com/ph)
+
+____________________________________________________________________________________________________________________
+
+### **Plagiarism & Grammar Checker**
+
+- [https://app.grammarly.com/](https://app.grammarly.com)
