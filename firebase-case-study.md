@@ -1,8 +1,8 @@
 ---
-title: FirebaseCase Study
-keywords: development platforms, Firebase, case-study
+title: Firebase Case Study
+keywords: development platforms, firebase, case-study
 tags: Development Platforms, Firebase, Case Study
-sidebar: development-platforms
+sidebar: development-platforms/firebase
 permalink: development-platforms/firebase-case-study.md
 folder: development-platforms/Firebase
 ---
@@ -193,7 +193,6 @@ ________________________________________________________________________________
 ## **Summary:**
 
 - What is ***Firebase***? It's Google's all-in-one cloud service, neatly packaged and delivered to developers who want something up and running quickly. No need to worry about provisioning or elastic cloud structures. All you have to do is connect it to your front end, and everything works. It is an impressive technology and a far-reaching platform for mobile-app development that streamlines various tasks and produces quality software solutions. Since Google backs the technology, it tends to be the most robust, scalable, and dynamic framework features of Firebase, giving fierce competition to web service provider companies. This article explained Firebase's advantages, downsides, pricing structure, core features, and best alternative platforms. It also has downsides, like providing NoSQL. Pricing-wise, Firebase operates under two different plans. The first one is Spark, which provides a generous free tier and encompasses most Firebase features. Firebase is fantastic if you want to create something out of nothing in a flash, making it great for rapid prototyping. You can connect to it if you've got the general gist of what you want to do and need a fully configured backend. Then Firebase can be your go-to service.
-.
 
 ____________________________________________________________________________________________________________________
 
