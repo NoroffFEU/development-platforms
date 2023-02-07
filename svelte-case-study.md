@@ -83,3 +83,4 @@ https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/
 - https://en.wikipedia.org/wiki/Svelte
 - https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started
 - https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/
+- https://ractive.js.org/
