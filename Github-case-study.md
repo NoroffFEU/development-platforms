@@ -22,7 +22,7 @@ folder: development-platforms
 10. [References](#references)
 
 
-![GitHub](Images/github-mark-white.png)
+![GitHub](Images/github-mark.png)
 
 
 
