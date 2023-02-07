@@ -163,9 +163,7 @@ ________________________________________________________________________________
 
 **Slow Queries** - *Its specific limitations are a downfall of using it, like the frequency limited to 1 per second. No native aggregation queries and the maximum API request size is only 10 MiB. The document size limit is 1 MiB, and the Queries have slow performance*.
 
-**Not all services are free to start** - *Most of its services are available under the Spark Plan, but some are unavailable. Price changes once the user exceeds the free limit. Like the Cloud Vision APIs under the Machine Learning feature, it is only available to Blaze Plan users and charges $1.5/k APIs*.
-
-**It’s not cheap and pricing is difficult to forecast** - *Firebase is a feature- high-priced mobile application development platform. It offers a free plan, but that comes with some restrictions. In another way, some open-source technologies deliver more affordable solutions. Estimating Firebase's costs can be difficult for some users, especially when the scalability requirements are unpredictable. The pricing is complicated, and Firebase has specific pricing for every feature. Keeping the costs under a threshold can be challenging with the platform, and there is no easy way to cap or put hard limits on the bill. Understand how the billing works before committing to this model, and monitor your costs regularly to avoid unexpected charges by the end of the month*.
+**It's not free or cheap, and pricing is complex to forecast** - *Most of its services are available under the Spark Plan, but some are unavailable. Price changes once the user exceeds the free limit. Like the Cloud Vision APIs under the Machine Learning feature, it is only available to Blaze Plan users and charges $1.5/k APIs. Firebase is a feature- high-priced mobile application development platform. It offers a free plan, but that comes with some restrictions. In another way, some open-source technologies deliver more affordable solutions. Estimating Firebase's costs can be difficult for some users, especially when the scalability requirements are unpredictable. The pricing is complicated, and Firebase has specific pricing for every feature. Keeping the costs under a threshold can be challenging with the platform, and there is no easy way to cap or put hard limits on the bill. Understand how the billing works before committing to this model and monitor your costs regularly to avoid unexpected charges by the end of the month*.
 
 **Runs only on Google Cloud** - *Firebase is now a part of Google, and its infrastructure runs entirely on the Google Cloud, which limits the level of flexibility in terms of hosting options. It doesn't provide server-level access, and problems may arise if customizing server settings is necessary. There is no option to run Firebase on other cloud providers like AWS, Azure, or Digital Ocean*.
 
@@ -173,6 +171,8 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________
 
 ## **Reviews:**
+
+- [Clients reviews-https://www.g2.com/products/firebase/reviews/firebase-review-4469918#survey-response-4469918](https://www.g2.com/products/firebase/reviews/firebase-review-4469918)
 
 ____________________________________________________________________________________________________________________
 
@@ -186,11 +186,14 @@ ________________________________________________________________________________
 
 - **Back4App** is an alternative to the original Parse hosting service that users can utilize both GraphQL and Rest API. Its live querying functionality makes it easy to execute real-time sync and storage of data.
 
+- [Firebase vs Supabase](https://www.youtube.com/watch?v=yGbGxWMv9KA)
+
 ____________________________________________________________________________________________________________________
 
 ## **Summary:**
 
-Summarise the content and highlight the relevance of the product to a web developer.
+- What is ***Firebase***? It's Google's all-in-one cloud service, neatly packaged and delivered to developers who want something up and running quickly. No need to worry about provisioning or elastic cloud structures. All you have to do is connect it to your front end, and everything works. It is an impressive technology and a far-reaching platform for mobile-app development that streamlines various tasks and produces quality software solutions. Since Google backs the technology, it tends to be the most robust, scalable, and dynamic framework features of Firebase, giving fierce competition to web service provider companies. This article explained Firebase's advantages, downsides, pricing structure, core features, and best alternative platforms. It also has downsides, like providing NoSQL. Pricing-wise, Firebase operates under two different plans. The first one is Spark, which provides a generous free tier and encompasses most Firebase features. Firebase is fantastic if you want to create something out of nothing in a flash, making it great for rapid prototyping. You can connect to it if you've got the general gist of what you want to do and need a fully configured backend. Then Firebase can be your go-to service.
+.
 
 ____________________________________________________________________________________________________________________
 
@@ -377,3 +380,9 @@ ________________________________________________________________________________
 #### Dynamic Links
 
 - [video-links reference-https://www.youtube.com](https://www.youtube.com/watch?v=LvY1JMcrPF8)
+
+____________________________________________________________________________________________________________________
+
+### **Image References:**
+
+- [images reference-https://stock.adobe.com](https://stock.adobe.com/ph)
