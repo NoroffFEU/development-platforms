@@ -94,9 +94,9 @@ Amplify Libraries is an open-source set of client libraries used to build cloud-
 ##### Amplify UI Components
 Amplify UI Components is an open-source design system that uses cloud-connected components to enable the efficient building of applications.
 
-##### Amplify Web Hosting (Managed CI/CD and Hosting)
+##### Amplify Web Hosting
 
-Amplify Web Hosting is a fully-managed CI/CD service for hosting static and server-side rendered applications.
+Amplify Web Hosting is a fully-managed continuous integration and continuous delivery/continuous deployment (CI/CD) service for hosting static and server-side rendered applications.
 
 With Amplify, you can configure a web or mobile app backend, connect your app in minutes, visually build a web frontend UI, and easily manage app content outside the AWS console. Ship faster and scale effortlessly—with no cloud expertise needed. (Source: 
 [AWS amplify](https://aws.amazon.com/amplify/))
@@ -114,7 +114,14 @@ AWS Amplify is used by companies like Neiman Marcus, Noom, Amazon Music, Credit 
 
 ## Strengths
 
-#### Advantages of Cloud Computing 
+
+#### Advantages of using AWS Amplify as a Baas platform
+
+* Built on top of other AWS services. 
+* Free of charge to get started.  
+* Create and deploy web applications without any coding.
+
+On top of that, you have the general bennefits of cloud computing 
 
 * Unlimited capacity.
 * Increase speed and agility
@@ -122,16 +129,10 @@ AWS Amplify is used by companies like Neiman Marcus, Noom, Amazon Music, Credit 
 * Save money with scalable capasity 
 * Go global in minutes 
 
-#### Advantages of using AWS Amplify as a Baas platform
-
-
-
-#### Discuss the product's strengths.
-
 ## Weaknesses
 
 * Complex and steep learning curve
-* Needs to be  
+* Can be expensive 
 
 #### Discuss the product's weaknesses.
 
