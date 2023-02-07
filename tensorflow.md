@@ -25,20 +25,15 @@ It is a mathematical framework for representing and manipulating multi-dimension
 - 2019, TensorFlow 2.0 is released, providing a more user-friendly and intuitive API for building and training machine learning models, in response to the growing popularity of PyTorch.
 - 2021, TensorFlow is the 3rd most-starred software repository on GitHub and the most-downloaded machine learning package on PyPI.
 
+### Purpose and concepts
 
-## Key Concepts
+The purpose of TensorFlow is to provide a platform to build, train, and deploy, deep machine learning models, these can also be referred to as artificial neural networks. These are mathematical models that can learn from data and make predictions about new data. Unlike in regular programming where a computer program follows a fixed set of instructions it was provide, machine learning models are designed to adapt and improve over time through training. They can be trained by passing small or vast amounts of test data through layers of the model, to progressively reinforce and identify relationships between the input and output. This grows a model that can be applied to new data and accurately predict an outcome, even data it has never seen before.  
 
-- Models
-- Layers
-- Neural networks
+There are many types of neural networks that can be created with machine learning and this is largely defined by the way the layers/nodes of the model are organized and configured. Two examples of these would be a convolutional network typically used for image classification, or a transformer network used for natural language processing task that chatGPT uses, as a growing field of research there are many more networks being proposed and researched. So the task you wish to achieve will typically determine the type of model you will create. 
+
+Say we want to create an image recognition software for animals, we would first need a large test data set of labeled images where you would have an image of a cat paired with the label cat. The first step in this process would typically be to convert the image into a usable format for the model. This would most likely involve converting the image into a numerical representation, such as converting the RGB values for each pixel into a number. The first layer, called the input layer, receives the preprocessed image data. Then the next layer could maybe perform a convolution operation, applying a set of filters to the image data to extract features such as edges and patterns. The next layer might perform pooling, where the image data is downsized to reduce the dimensionality and increase the model's ability to recognize larger features. This series of operations can be repeated continuously with the output of one layer server as the input for the next, as the data is passed through the layers and transforms the model can begin to learn relationships between the image data and its giving label, in effect training the model. Once this is done it can be used on new unlabeled data, of which it will offer a prediction of what the image might represent. 
 
 https://www.mygreatlearning.com/blog/what-is-tensorflow-machine-learning-library-explained/
-
-##Overview 
-
-### Purpose 
-
-The purpose of TensorFlow is to provide a platform to build, train, and deploy, deep machine learning models. These are mathematical model that can learn from data and make predictions about new data. Unlike in regular programming where a computer program follows a fixed set of instructions it was provide, machine learning models are designed to adapt and improve over time through training. They can be trained by passing small or vast amounts of test data through layers of the model, to progressively reinforce and identify relationships between the input and output. This grows a model that can be applied to new data and accurately predict an outcome, even data it has never seen before. 
 
 ### Usage and Application
 
@@ -149,6 +144,7 @@ Articles and Blogs
 - https://medium.com/analytics-vidhya/tensorflow-and-use-cases-1e87db8b5222
 - https://www.databricks.com/discover/pages/the-democratization-of-artificial-intelligence-and-deep-learning
 - https://www.databricks.com/glossary
+- https://www.v7labs.com/blog/image-recognition-guide
 
 Linkedin Learning
 - https://www.linkedin.com/learning/learning-tensorflow-with-javascript/
