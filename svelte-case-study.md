@@ -28,7 +28,7 @@ The extension, SvelteKit, was announced in October 2020 and entered beta in Marc
 The key features of Svelte are:
 
 - No virtual DOM
-  - Omittin a virtual DOM results in faster performance compared to other popular frameworks
+  - Omitting a virtual DOM results in faster performance compared to other popular frameworks
 - Reactive Declarative Syntax
   - Svelte uses a reactive and declarative syntax for building UI components, which makes it easy to understand and use for developers of all skill levels.
 - Small bundle size
@@ -40,7 +40,7 @@ The key features of Svelte are:
 - Easy to learn
   - Svelte has a simple and intuitive syntax, making it easy to learn and use, even for developers new to web development.
 
-When a component is added to the DOM, Svelte sets up the reactive values for that component and starts observing changes to them. When the component is removed from the DOM, Svelte stops observing those values and cleans up any associated resources.
+When a component is added to the DOM, Svelte sets up the reactive values for that component and starts observing changes to them. When the component is removed from the DOM, Svelte stops observing those values and cleans up any associated resources. This frees up more resources compared to other frameworks.
 
 Svelte uses a system of reactive statements, such as `{#if}` blocks, that can conditionally render or destroy a component based on its reactive values. For example, if a component has a reactive value `visible` that determines whether it should be displayed or not, you could use an `{#if}` block to conditionally render the component like so:
 
@@ -54,16 +54,25 @@ When the value of `visible` changes, Svelte will automatically update the DOM to
 
 ## Strengths
 
-Discuss the product's strengths.
 - SPA vs MPA
+
+Svelte is most known for its performance. Because it does not use a virtual DOM and instead generates HTML at build-time, it has a faster runtime performance compared to other popular frameworks. It also has a simple and intuitive syntax, which makes it easy to learn and use. This in turn also means Svelte applications are easier to maintain and scale over time.
+
+Svelte uses a reactive and declarative syntax for building UI components, which makes it easy to understand and use for developers of all skill levels. It also includes out-of-the-box support for server-side rendering, making it easy to optimize the performance of applications built with it. This helps Search Engine Optimization as well as users with slow networks.
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
+Svelte's weaknesses mainly stem from it being a relatively new framework compared to its largest competitors. It has a smaller community of developers and a more limited number of available resources. It is also not as widely used as other popular JavaScript frameworks, meaning that it may be more difficult to find experienced developers, tools, and resources to work with compared to competing frameworks.
+As mentioned previously, Svelte uses a relatively simple syntax. It does, however, also have a very different approach to building web applications compared to other popular frameworks, mainly by not utilizing a virtual DOM. This can result in a steep learning curve, especially for experienced developers.
+Lastly, Svelte is best suited for smaller and simpler applications, and may become insufficient for applications that require a large number of components or complex data management.
 
 ## Comparison
 
 Compare the product to other products in the same category, if applicable.
+
+- React
+- Vue
+- Angular
 
 ## Summary
 
