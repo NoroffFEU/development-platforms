@@ -54,25 +54,32 @@ When the value of `visible` changes, Svelte will automatically update the DOM to
 
 ## Strengths
 
-- SPA vs MPA
-
 Svelte is most known for its performance. Because it does not use a virtual DOM and instead generates HTML at build-time, it has a faster runtime performance compared to other popular frameworks. It also has a simple and intuitive syntax, which makes it easy to learn and use. This in turn also means Svelte applications are easier to maintain and scale over time.
 
 Svelte uses a reactive and declarative syntax for building UI components, which makes it easy to understand and use for developers of all skill levels. It also includes out-of-the-box support for server-side rendering, making it easy to optimize the performance of applications built with it. This helps Search Engine Optimization as well as users with slow networks.
 
+Its main strength lies in creating `Single Page Applications` or SPAs. When building a SPA in Svelte, you would typically use the Svelte components to create a modular and reusable UI. The SPA would handle navigation and data management, dynamically updating the content of the page based on user interactions and changes in data. This is often done together with a `router` such as [Svelte SPA Router](https://github.com/ItalyPaleAle/svelte-spa-router).
+Svelte does, however, also perform quite well when creating `Multi Page Applications`, or MPAs. When building an MPA in Svelte, you would typically use a routing library such as Sapper to handle navigation between pages, and each page would be built as a separate Svelte component. The components would be loaded and unloaded based on the current URL, and data management would be handled separately for each page.
+
 ## Weaknesses
 
-Svelte's weaknesses mainly stem from it being a relatively new framework compared to its largest competitors. It has a smaller community of developers and a more limited number of available resources. It is also not as widely used as other popular JavaScript frameworks, meaning that it may be more difficult to find experienced developers, tools, and resources to work with compared to competing frameworks.
-As mentioned previously, Svelte uses a relatively simple syntax. It does, however, also have a very different approach to building web applications compared to other popular frameworks, mainly by not utilizing a virtual DOM. This can result in a steep learning curve, especially for experienced developers.
+Svelte's weaknesses mainly stem from it being a relatively new framework compared to its largest competitors. It has a smaller community of developers and a more limited number of available resources. It is also not as widely used as other popular JavaScript frameworks, meaning that it may be more difficult to find experienced developers, tools, and resources to work with compared to competing frameworks. It also does not have an abundance of available packages, plugins and tools, which may prevent you from performing specific tasks or adding specific functionality to your apps.
+
+As mentioned previously, Svelte uses a relatively simple syntax. It does, however, also have a very different approach to building web applications compared to other popular frameworks, mainly by not utilizing a virtual DOM. This can result in a steep learning curve, especially for experienced developers who are used to the virtual DOM approach.
+
 Lastly, Svelte is best suited for smaller and simpler applications, and may become insufficient for applications that require a large number of components or complex data management.
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+Although Svelte, React, Vue.js and Angular are all popular JavaScript frameworks for building web applications, they have some very different design philosophies, strengths and weaknesses depending on their use.
 
-- React
-- Vue
-- Angular
+Svelte has a relatively simple syntax and a different approach to building web applications, making it relatively easy to learn. React has a steeper learning curve due to its use of a virtual DOM, although it has a large and supportive community. Vue.js has a similar learning curve to React, but with a simpler syntax. Angular has the steepest learning curve of the four frameworks, due to its complex syntax and larger feature set. They also all differ in scope, as Svelte is mainly meant for smaller applications, where as React and Vue are tailored towards medium to large-size applications which do not require many different pages. Angular on the other hand is tailored towards very large applications with many different views, pages and URLs.
+
+Svelte has a performance advantage over the other frameworks, due to its ability to compile components into highly optimized code at build-time, reducing the need for a virtual DOM and resulting in faster runtime performance. React and Vue.js both use a virtual DOM, which can result in slower performance compared to Svelte. These do, however, have optimizations available to minimize the impact. Angular, being an all-in-one framework, also has a performance advantage compared to the other frameworks.
+
+React has, without a doubt, the largest community of developers, as well as the largest number of available resources, including packages, plugins, and tools. Vue.js also has a large and growing community, while Svelte is a relatively new framework with a smaller community of developers. Angular has a large and mature community, but its syntax and complexity may make it less appealing to new developers.
+
+Svelte is, however, increasing in popularity at an incredible rate. According to the [State of JavaScript Survey](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/), Svelte has had the highest percentage of interest since 2019 compared to its competitors. It also scores very high in awareness and retention, but lacks behind in usage. 
 
 ## Summary
 
