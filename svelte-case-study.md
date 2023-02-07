@@ -19,18 +19,26 @@ This case study aims to introduce the reader to Svelte as a development tool to 
 
 ## Brief History
 
-Released in November 2016, Svelte started out basically as nothing more than its predecessor, Ractive.js, but now with a compiler. In April of 2018, the developers released the second version which set out to correct what the developers viewed as mistakes in the previous build. The major turning point came in April of 2019 when version 3 was released. Svelte had been rebuilt using TypeScript and completely rethought reactivity by using its compiler to orchestrate the heavy lifting behind the scenes. Much like a magician will lead you into focusing on an arbitrary part of the show rather than the actual set up of the trick, Svelte does the same by handling component loading and unloading out of the view of the user instead of a virtual DOM.
+Released in November 2016, Svelte started out basically as nothing more than its predecessor, Ractive.js, but with a compiler. Ractive.js was originally created at The Guardian mainly as an in-house tool, but eventually Rich Harris took it a step further and released it to the world as Svelte. In April of 2018, the developers released the second version which set out to correct what the developers viewed as mistakes in the previous build. The major turning point came in April of 2019 when version 3 was released. Svelte had been rebuilt using TypeScript and completely rethought reactivity by using its compiler to orchestrate the heavy lifting behind the scenes. Much like a magician will lead you into focusing on an arbitrary part of the show rather than the actual set up of the trick, Svelte does the same by handling component loading and unloading out of the view of the user instead of a virtual DOM.
 
 The extension, SvelteKit, was announced in October 2020 and entered beta in March 2021. 
 
 ## Features
 
-Outline the product's key features.
+The key features of Svelte are:
 
-- Syntax
-- Rendering
-- SPA vs MPA
-- Component building
+- No virtual DOM
+  - Omittin a virtual DOM results in faster performance compared to other popular frameworks
+- Reactive Declarative Syntax
+  - Svelte uses a reactive and declarative syntax for building UI components, which makes it easy to understand and use for developers of all skill levels.
+- Small bundle size
+  - This makes it an ideal choice for lightweight applications or for use on slow networks.
+- Built-in animations and  transitions
+  - Includes built-in support for animations and transitions, allowing developers to easily add animations to their applications without requiring additional libraries or plugins.
+- Server-side Rendering
+  - Supports server-side rendering, making it easy to optimize the performance of applications for search engines and users with slow networks.
+- Easy to learn
+  - Svelte has a simple and intuitive syntax, making it easy to learn and use, even for developers new to web development.
 
 When a component is added to the DOM, Svelte sets up the reactive values for that component and starts observing changes to them. When the component is removed from the DOM, Svelte stops observing those values and cleans up any associated resources.
 
@@ -47,6 +55,7 @@ When the value of `visible` changes, Svelte will automatically update the DOM to
 ## Strengths
 
 Discuss the product's strengths.
+- SPA vs MPA
 
 ## Weaknesses
 
