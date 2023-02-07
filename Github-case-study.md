@@ -8,6 +8,8 @@ folder: development-platforms
 ---
 # <p align="center">GitHub Case Study</p>
 
+<p align="center">![GitHub](Images/github-mark.png)<p>
+
 ## Table of contents
 
 1. [Introduction](#introduction)
@@ -22,7 +24,7 @@ folder: development-platforms
 10. [References](#references)
 
 
-![GitHub](Images/github-mark.png)
+
 
 
 
