@@ -24,10 +24,6 @@ folder: development-platforms
 10. [References](#references)
 
 
-
-
-
-
 ## **Introduction** 
 
 Effective teamwork and code management are essential for the development of software. Finding the ideal platform to assist this procedure is the challenge. GitHub emerged as a solution for these challenges by providing a web-based platform for code storage, sharing, and collaboration.
@@ -42,39 +38,28 @@ With the help of a collection of tools for collaboration and code editing, GitHu
  ### The Growth of GitHub
 GitHub has experienced significant growth since its launch.
 
-
-
-#### Early Success
+**Early Success**
 - In 2010, GitHub was hosting 1 million repositories, which doubled in just one year.
 - By 2011, GitHub had surpassed SourceForge and Google Code in terms of the number of commits.
--By 2013, the platform had reached three million users and was hosting five million repositories.
+- By 2013, the platform had reached three million users and was hosting five million repositories.
 - By the end of the year, the number of repositories had doubled again to reach 10 million.
-
-#### Funding and Valuation
+**Funding and Valuation**
 - In 2012, GitHub received an investment of $100 million from Andreessen Horowitz with a valuation of $750 million.
 - In 2015, an additional round of funding led by Sequoia Capital brought in $250 million, valuing the company at approximately $2 billion.
-
-#### Expansion and Recognition
+**Expansion and Recognition**
 - In 2015, GitHub opened its first office outside the US, in Japan.
 - In 2016, GitHub was ranked 14th on the Forbes Cloud 100 list.However, it did not make the list in 2018, 2019, or 2020.
-
-#### Challenges
+**Challenges**
 - In 2018, GitHub experienced a third-largest DDoS attack in history, with incoming traffic reaching 1.35 terabits per second.
 - In response, GitHub expanded its GitHub Education offering by providing free education bundles to schools.
-
 
  ### Microsoft and GitHub
 
 - Microsoft started using GitHub in 2012 for hosting open-source projects and tools.
-
 - In 2018, Microsoft bought GitHub for a sum of $7.5 billion, with GitHub still operating as a separate entity.
-
 - The acquisition was part of Microsoft's plan to focus on cloud computing and open-source software.
-
 - Some developers were worried about the acquisition, but it sparked competition and growth for GitHub.
-
 - GitHub later acquired other companies, like Semmle and npm.
-
 - In 2020, GitHub created the GitHub Archive Program to preserve its open-source code.
 
 
@@ -104,12 +89,12 @@ Here are some of the key features of the GitHub:
 - GitHub Enterprise: provides additional security and compliance capabilities and enables businesses to operate their own instance of GitHub on their own servers.
 
 
-## strengeth
+## Strengeth
 
-- Usability: GitHub's user-friendly interface makes it simple for developers to explore and use the site, even if they are unfamiliar with version control and collaboration tools.
+- **Usability**: GitHub's user-friendly interface makes it simple for developers to explore and use the site, even if they are unfamiliar with version control and collaboration tools.
 
 
-- Widely utilized: GitHub is widely used by teams and developers, making it simple to collaborate and share code with others. It is simple for new users to get started because many developers are familiar with GitHub's capabilities and process.
+- **Widely utilized**: GitHub is widely used by teams and developers, making it simple to collaborate and share code with others. It is simple for new users to get started because many developers are familiar with GitHub's capabilities and process.
 
 - Strong community: GitHub has a large and active developer and user community that offers a number of resources and support to those in need.
 
