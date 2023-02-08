@@ -28,25 +28,26 @@ According to the product creator himself, version 9.x should really be viewed as
 
 ## Features
 
-- #### Automatic typesafety
+#### Automatic typesafety
 While this is a Typescript feature, and not isolated to tRPC it allows for an eco-system where the client will notify you of errors even before you save the files.
 
-- #### Great DX
+#### Great DX
 tRPC has no build or compile steps, no code generation, runetime bloat or build step.
 
-- #### Framework agnostic
+#### Framework agnostic
 tRPC works will all JavaScript frameworks and runetimes. It's easy to add to already existing projects. 
 
-- #### Autocompletion
+#### Autocompletion
+tRPC is intelligent in the sense that it tries to auto-complete your queries for you based on your entry input.
 
 
+tRPC aims to bridge the gap between front- and backend. It does so by creating a seemless experience navigating between your client and server code. You can easily adjust endpoint name in one location, and it will update accordingly on the other side. tRPC allows you to quickly locate the assoicated files you're working with by simply using the ``use definition`` feature, and you'll be taken to that script file.
 
-tRPC aims to bridge the gap between front- and backend. It does so by creating a seemless experience navigating between your client and server code. You can easily adjust endpoint name in one location, and it will update accordingly on the other side. Working with tRPC allows you to quickly locate the assoicated files you're working with by simply using the ``use definition`` feature, and you'll be taken to that script file.
+Since tRPC does not rely on schemas or code generation, and rather is a protocol for exposing backend functions to the frontend, it allows a more seemless workflow for the developer, and lightweight well performing application with a tiny footprint for the end user. 
 
-Since tRPC does not rely on schemas or code generation, and rather is a protocol for exposing backend functions to the frontend it allows a more seemless workflow for the developer, and lightweight well performing application with a tiny footprint for the end user. 
+### Example of use
 
-#### Example of basic usage
-In the image below, we see a basic example of tRPC protocols being called on front-end. We're using React queries to handle our ``CRUD`` operations. Queries for our ``GET`` requests/operations and ``Mutations`` for our ``POST``, ``PUT`` and ``DELETE`` requests/operations 
+In the image below, we see a basic example of tRPC protocols being called on front-end. We're using React queries to handle our ``CRUD`` operations on the front-end. Queries for our ``GET`` requests/operations and ``Mutations`` for our ``POST``, ``PUT`` and ``DELETE`` requests.
 
 ```tsx 
       import { api } from '../utils.api'; 
@@ -54,27 +55,29 @@ In the image below, we see a basic example of tRPC protocols being called on fro
       const newNote = api.notes.createNewNote.useMutation();
 ```
 
-``api`` is the client-side entry point in this use case. Containing our Next.js App-wrapper as well as typesafe react-query hooks.
+ - ``api`` is the client-side entry point in this use case. Containing our Next.js App-wrapper as well as typesafe react-query hooks.
 
-``notes`` is the name given to our ``notesRouter`` in our `` appRouter``.
+- ``notes`` is the name given to our ``notesRouter`` in our `` appRouter``.
 
-Where as, ``createNewNote`` is the endpoint for handling our ``CREATE`` operation on the backend. 
+- Where as, ``createNewNote`` defines the endpoint for handling our ``CREATE`` operations with the procedures we've created on the backend. 
 
 ![alt-image](./tRPC-media/use-definition.png)
 
-Using right click on ``createNewNote`` allows use to use ``go to definition`` to take us directly to the file where ``createNewNote is being defined, directly to our backend endpoint code.
+We can easily navigate to it by right-clicking -> ``go to definition`` and it will take us straight to our router function where our procedures are being defined. 
 
 ![alt-image](./tRPC-media/use-definition-result.png)
 
-In here we see our note router, which contains all our note related endpoints, in this example, we're only going to take a closer look at ``CREATE`` operation or ``POST`` request in a traditional ``REST API``.
+A single router typically contain several procedures. In the case of our ``noteRouter``, it would make sense to have procedures, or endpoints that handles all of your ``CRUD`` operations: 
 
-``createTRPCRouter`` is the function we wrap all of our endpoints in by calling a publicProcedure, which is all being stored in the variable ``noteRouter``. 
+Read all notes, read a single note defined by ID, create a new note, update note and delete an existing note. In this example, we're specifically going to take a closer look at a ``CREATE`` operation endpoint using tRPC's library. 
+
+- ``createTRPCRouter`` is the function we wrap all of our procedures in in by calling publicProcedure, after our name definition. 
 
 - ``publicProcedure`` can be viewed as the equivalent of a REST-endpoint. 
 - Defining a ``publicProcedure`` is the same no matter the operation. i.e queries or mutations. 
 
-In the example provided we're using ``Zod`` for validation. Wrapping the inputs ``title`` and ``description`` in a `z.object``, with some basic validation requirements.
-
+ Calling the procedure builder ``input``, which is where we define the content of our endpoint. In this case we're using ``Zod`` for some basic validation and creating a ``title`` and ``description`` keys with the type of string.
+ 
 ```ts
       export const noteRouter = createTRPCRouter({
   // Create new note
@@ -93,7 +96,7 @@ In the example provided we're using ``Zod`` for validation. Wrapping the inputs 
     )
 ```
 
-Since this is a ``CREATE`` request we also call ``.mutation`` defining ``context`` and our already established ``input`` defined above, and accessing our notes model from ``prisma``.
+Now that we've defined our ``input`` we can use the procedure builser ``.mutation`` to either alter or create a new instance with those definitions. 
 
 ```prisma
 model Notes {
@@ -104,6 +107,8 @@ model Notes {
   updatedAt   DateTime @updatedAt
 }
 ```
+
+In this use case we're using prisma to easily read or write data to our database, here is the model for our Notes.
 
 ```ts
     .mutation(async ({ ctx, input }) => {
@@ -120,15 +125,9 @@ model Notes {
     }),
 ```
 
+ In our asyncronous function we call ``context`` and our previously defined ``input`` and call ``ctx.prisma.notes.create`` to a create a new instance on our database where title is that of input.title, and description is that of input.description.
 
-<a href="./tRPC-media/demo.mov" title="Demo"><img src="{image-url}" alt="Demo" /></a>
-
-
-
-
-- CRUD operations
-- Queries for READ operations
-- Mutations for CREATE, UPDATE or DELETE.
+Using the same method as before, we can right click on ``createNewNote`` to take us back to our front-end/client code.  
 
 ## Strengths
 
@@ -149,7 +148,7 @@ While on the other hand, if Typescript is not the preferred programming language
 
 #### Quick development
 - Fastest and easiest way to develop an API. 
-- Uses type inferecne, which means the type of data is automatically detected, which particularly boosts development in the early stages.
+- Uses type inferference, which means the type of data is automatically detected, which particularly boosts development in the early stages.
 - Integrate with IDE's.
 
 ## Weaknesses
