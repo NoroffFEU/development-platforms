@@ -120,9 +120,27 @@ In the video below I will demonstrate how to create a new work item inside the b
 
 ### Test Case Management
 
+With Azure Test Plans you and your team is provided with a rich and powerful tool that can be used to drive quality and collaboration during the project process. Testing is done in a browser-based test management. By using the test plan you can get feedback from stakeholders, developers can request feedback on their user stories and features. Stakeholders can respond to feedback requests using the browser-based Test & Feedback extension - not just to rate and send comments, but also by capturing rich diagnostic data and filing bugs and tasks directly.
+
+With the test plan you can set up manual and automatic testing, its easy to trace and get reports from the testing that have been done.
+
 *Reference [[7](#references)]*
 
 ### Release Management
+
+Azure DevOps offer a classic release pipeline setup where you can easily and safely deploy their applications to multiple environments. There options for setting up fully automate testing and deployment or set up a semi-automated process.
+
+<div style="width: 600px;">
+
+![Pipelines service Image](https://learn.microsoft.com/en-us/azure/devops/pipelines/release/media/what-is-release-management/understand-rm-05.png?view=azure-devops)
+
+<p style="padding: 0; margin: 0;">
+
+*Source: Azure DevOps documentation*
+
+</p>
+
+</div>
 
 *Reference [[8](#references)]*
 
@@ -184,7 +202,7 @@ Package Management in Azure DevOps helps you centralize your package management 
 
 ### Code Review and Feedback
 
-Azure DevOps offers a code review and feedback system similar to other popular platforms, like GitHub. You create a pull request and on that request you can add your colleges to look at your code and review it. 
+Azure DevOps offers a code review and feedback system similar to other popular platforms, like GitHub. You create a pull request and on that request you can add your colleges to look at your code and review it.
 
 *Reference [[13](#references)]*
 
@@ -263,7 +281,11 @@ It is worth noting that while premium support may have a higher upfront cost tha
 
 ## **Summary**
 
+Azure DevOps is a cloud computing platform and infrastructure with many features that can help you and your team with the workflow on your project. It's easy to create a free account with a small team and for a larger team you have more options.
 
+All work when using Azure DevOps can be done with your IDE. Integration with Visual Studio Code and git, you can work manly in the IDE but based on my research I have found that with the IDE and Microsoft Team you can have your code and communication with your team, manage your work board tasks.
+
+The platform itself is a clean and eay to use with loads of documentations for you to be able to make the most out of the platform.
 
 ### **Credits**
 
