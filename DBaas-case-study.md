@@ -1,5 +1,5 @@
 ---
-title: Product Case Study
+title: An Introduction to Database as a Service (DBaaS)
 keywords: development platforms, dbaas
 tags: Development Platforms, DBaaS
 sidebar: development-platforms
