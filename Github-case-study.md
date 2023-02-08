@@ -167,7 +167,7 @@ For web developers, GitHub is an essential tool for managing and collaborating o
 - [GitHub's YouTube channel videos that demonstrate the features and capabilities of GitHub](https://www.youtube.com/github)
 - [GitHub's case studies provide real-world examples of how different organizations use GitHub to support their software development workflows](https://github.com/customers)
 - https://gitprotect.io/blog/git-battles-part-3-gitlab-vs-bitbucket-which-version-control-software-to-choose-for-your-projects/
--
+- How to use github(https://www.edureka.co/blog/how-to-use-github/)
 
 
 
