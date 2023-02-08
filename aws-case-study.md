@@ -53,24 +53,24 @@ In 2006 AWS began offering IaaS services and was one of the first companies to i
 you only pay for what you need and nothing more. AWS offers different services that can be configured in defferent ways based on the user's needs. 
 AWS contains a total of more than 200 services that are built to include compute, databases, infrastructure, management, application development and security.
 Here are the different categories AWS offers:
-• compute
-• storage
-• databases
-• data management
-• migration
-• hybrid cloud
-• networking
-• development tools
-• management
-• monitoring
-• security
-• governance
-• big data management
-• analytics
+- compute
+- storage
+- databases
+- data management
+- migration
+- hybrid cloud
+- networking
+- development tools
+- management
+- monitoring
+- security
+- governance
+- big data management
+- analytics
   
-• artificial intelligence (AI)
-• mobile development
-• messages and notification
+- artificial intelligence (AI)
+- mobile development
+- messages and notification
 
 AWS provides dozens of data centers that are spread across 87 different availability zones (a location that contains multiple physical data centers).
 An AWS costumers decides for them selves how many availability zones thay need based on their needs when it comes to compliances, proximity to end
@@ -80,9 +80,9 @@ AWS is mostly knows for their EC2 solution. Amazon Elastic Compute Cloud is a se
 S3 is also one of AWS's core services and is shoer for Amazon Simple Storage Service. S3 provides a scalable obkect sstorage for data backup, collection and analytics, this is ehere a IT professional stores data and files it as S3 objects up to five GB. AWS offers various tools and services to help users migrate applications, databases, servers and data onto its public cloud.
 
 AWS also offers services for developers to use command-line tools and software development kits to deploy and manage applications and services and are avaliable for a variety of platforms and programming languages: Android, C++, iOS, Java, Node.js, PHP, Python and Ruby:
-• AWS Command Line Interface, which is Amazon's proprietary code interface;
-• AWS Tools for PowerShell, which developers use to manage cloud services from Mac, Windows and Linux environments.
-• AWS Serverless Application Model, which developers use to simulate an AWS environment to test functions of AWS Lambda, a compute service that lets     developers run code from over 200 AWS services and SaaS applications.
+- AWS Command Line Interface, which is Amazon's proprietary code interface;
+- AWS Tools for PowerShell, which developers use to manage cloud services from Mac, Windows and Linux environments.
+- AWS Serverless Application Model, which developers use to simulate an AWS environment to test functions of AWS Lambda, a compute service that lets     developers run code from over 200 AWS services and SaaS applications.
 
 Amazon API Gateway is a tool that lets development teams create, manage and monitor custom applications progamming interfaces (APIs). This lets apllications access data and functionality from the back-end services. Developers can also store their code in GitHub using the AWS CodeCommit.
 
@@ -102,12 +102,12 @@ AWS's flexibility is one of the reasons many choose to use their service as it l
 AWS serves millions of clients in more than 200 countries over the world and offers the highest relianility for its users. AWS offers many services and tasks accuratly and offers many services for making it more reliable like being capable to automatically recover from a failure. AWS stores data in different availanility zones so that if one were to fail the users would still have their data intact. 
 
 In any company that is data-driven security is one of the most important aspects. AWS provides a highly secure infrastructure to ensure the upper most privancy for yor data. In fact many other Cloud Hosting Services is built on AWS's infrastructure. 
-• Here is the layers of AWS's security protocall:
-• Data protection
-• Identity and access management
-• Infrastructure protection
-• Threat detection and continuous monitoring
-• Compliance and data privacy
+- Here is the layers of AWS's security protocall:
+- Data protection
+- Identity and access management
+- Infrastructure protection
+- Threat detection and continuous monitoring
+- Compliance and data privacy
 
 ## Weaknesses
 
