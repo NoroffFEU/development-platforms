@@ -66,8 +66,6 @@ GitHub has experienced significant growth since its launch.
 - GitHub later acquired other companies, like Semmle and npm.
 - In 2020, GitHub created the GitHub Archive Program to preserve its open-source code.
 
-
- 
  
 ## Features
 
@@ -163,9 +161,11 @@ For web developers, GitHub is an essential tool for managing and collaborating o
 ## References
 - [GitHub branding assets page](https://github.com/logos)
 - https://www.upguard.com/blog/bitbucket-vs-github
-- The GitHub website (https://github.com/)
-- Wikipedia's page on GitHub (https://en.wikipedia.org/wiki/GitHub)
-- The GitHub Blog (https://github.blog/)
+- [The GitHub website](https://github.com/)
+- [Wikipedia's page on GitHub] (https://en.wikipedia.org/wiki/GitHub)
+- [The GitHub Blog] (https://github.blog/)
+- [GitHub's YouTube channel videos that demonstrate the features and capabilities of GitHub](https://www.youtube.com/github)
+- [GitHub's case studies provide real-world examples of how different organizations use GitHub to support their software development workflows](https://github.com/customers)
 - https://gitprotect.io/blog/git-battles-part-3-gitlab-vs-bitbucket-which-version-control-software-to-choose-for-your-projects/
 -
 
