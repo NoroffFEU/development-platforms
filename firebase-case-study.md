@@ -1,10 +1,10 @@
 ---
 title: Firebase Case Study
-keywords: backend solution, free
-tags: backend, google, free
+keywords: backend solution, firebase
+tags: backend, google, firebase
 sidebar: development-platforms
-permalink: development-platforms/firebase.html
-folder: development-platforms
+permalink: development-platforms/firebase-case-study.md
+folder: development-platforms/firebase-case-study.md
 ---
 
 ## Introduction
@@ -34,11 +34,13 @@ Firebase also integrates with google services such as Google Cloud Platform and 
 Google acquired more company's and merged them with Firebase, these companys are
 LaunchKit and Crashlytics.
 
+
+
 ## Features
 
 Firebase's Key Features are:
 
-- Cloud Messaging
+- Cloud Messaging (Used for push notifications)
 - Authentication
 - Test Lab
 - Hosting
@@ -85,8 +87,23 @@ Written by:
 
 #### References
 
+### Articles
+
 - https://en.wikipedia.org/wiki/Firebase
 - https://www.javatpoint.com/features-of-firebase
 - https://osdb.io/firebase-pros-and-cons-when-you-should-and-shouldnt-use-firebase-osdb/
 - https://os-system.com/blog/comparison-firebase-with-other-platforms/
 - https://en.wikipedia.org/wiki/Mobile_backend_as_a_service
+
+### Videos
+
+#### These videos are made by fireship
+
+#### Short 100 seconds video with history and example 
+- https://www.youtube.com/watch?v=vAoB4VbhRzM
+
+#### Longer video, where he makes a messaging app using Firebase
+- https://www.youtube.com/watch?v=zQyrwxMPm88
+
+#### 5 Alternatives to Firebase
+- https://www.youtube.com/watch?v=SXmYUalHyYk
