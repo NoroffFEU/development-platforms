@@ -29,6 +29,8 @@ Effective teamwork and code management are essential for the development of soft
 
 With the help of a collection of tools for collaboration and code editing, GitHub seeks to give developers a single location to save, organize, and manage their code. It also contains tools for tracking bugs and feature requests, such as issues and pull requests for reviewing and merging code changes. Continuous integration and deployment are two additional technologies that GitHub supports and integrates. Forexample, Github has released desktop apps for Windows and macOS that make it easy for users to integrate it into their workflow. GitHub provides a full and easy solution for software development. 
 
+ 
+ 
 
  ## Brief History
 
@@ -65,6 +67,8 @@ GitHub has experienced significant growth since its launch.
 - In 2020, GitHub created the GitHub Archive Program to preserve its open-source code.
 
 
+ 
+ 
 ## Features
 
 GitHub has become a highly in demand tool for project management and software development. This popularity is largely due to its persistent addition of new and useful features.
@@ -91,6 +95,8 @@ Here are some of the key features of the GitHub:
 - **GitHub Enterprise**: provides additional security and compliance capabilities and enables businesses to operate their own instance of GitHub on their own servers.
 
 
+ 
+ 
 ## Strengeths
 
 - **Usability**: GitHub's user-friendly interface makes it simple for developers to explore and use the site, even if they are unfamiliar with version control and collaboration tools.
@@ -112,8 +118,10 @@ Here are some of the key features of the GitHub:
 
 - **Cost-effective**: GitHub offers a free plan that enables developers to access many of its features and work together on open-source projects. Additionally affordable and suited to larger enterprises, its enterprise plan.
 
+ 
+ 
 
-## weaknesses
+## Weaknesses
 
 
 - **Limited Private Repository Space for Free Accounts**:  Free account holders face restrictions on private repository space.
@@ -126,6 +134,8 @@ Here are some of the key features of the GitHub:
 
 - **Costly Upgrade**:  The free version of GitHub is very useful, but upgrading to a paid plan can be expensive, especially for large teams or organizations.
 
+ 
+ 
 ## Comparison
 
 Despite the fact that GitHub is one of the most well-known and widely used web-based collaboration and version control platforms, there are other similar products that can be used in place of or in addition to GitHub. 
@@ -136,20 +146,22 @@ Despite the fact that GitHub is one of the most well-known and widely used web-b
 
 - **Azure DevOps**: Azure DevOps, owned by Microsoft, offers a cloud-based platform for software development and collaboration. It includes version control, work tracking, and CI/CD capabilities with an emphasis on serving the needs of enterprise customers. The platform provides features such as support for large projects, robust security, and integration with other Microsoft products, making it a popular choice among organizations seeking a complete solution for software development within the Microsoft ecosystem.
 
-
+ 
+ 
 ## Summary
 
 In summary, GitHub is a web-based platform for version control and collaboration that was founded in 2008. It has several strengths that make it a powerful and adaptable tool for developers and teams, such as ease of use, wide adoption, strong community, large number of integrations, strong security features, learning and development resources, cost-effective and mobile capabilities. However, it also has some weaknesses such as limited scalability, limited built-in project management, limited built-in testing and continuous integration, limited built-in code review, limited built-in analytics, limited built-in mobile capabilities, limited control and limited customization.
 
 For web developers, GitHub is an essential tool for managing and collaborating on web development projects. It allows web developers to track changes to their code over time, collaborate with others, revert to previous versions if necessary, share code snippets, and manage large binary files. It also allows web developers to submit changes to a project for review and discussion before they are merged into the main codebase, track and discuss bugs and other issues, and assign tasks and responsibilities. Additionally, GitHub can be integrated with a wide variety of other tools and services, such as IDEs, project management tools, and continuous integration systems, which makes it easy to use in different development environments.
 
+ 
 
 ## Credits
  Saba Samuel Fitwi (sabaFitwi)
  
 
 ## References
-- GitHub branding assets page: https://github.com/logos
+- [GitHub branding assets page](https://github.com/logos)
 - https://www.upguard.com/blog/bitbucket-vs-github
 - The GitHub website (https://github.com/)
 - Wikipedia's page on GitHub (https://en.wikipedia.org/wiki/GitHub)
