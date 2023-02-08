@@ -7,7 +7,6 @@ permalink: development-platforms/case-study-dbaas.html
 folder: development-platforms
 ---
 
-# An Introduction to Database as a Service (DBaaS)
 
 >DBaaS stands for "Database as a Service." It's a cloud-based service that provides a database management system over the internet. The service is managed by a third-party provider, which takes care of the technical aspects of maintaining and managing the database. 
 
