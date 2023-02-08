@@ -20,10 +20,7 @@ AWS (Amazon Web Services) is a cloud computing platform that is provided by Amaz
 of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and packaged-software-as-a-service (SaaS). It is also important to note that 
 the concept of cloud hosting was born together with AWS. 
 
-
-![Skjermbilde 2023-02-08 kl  13 37 55](https://user-images.githubusercontent.com/91666428/217531772-b8cd9221-3f90-49c1-ae92-aa63807752a5.png)
-
-
+<img width="1024" alt="Skjermbilde 2023-02-08 kl  14 01 55" src="https://user-images.githubusercontent.com/91666428/217537213-e36faff3-28f8-48bd-a1ba-49449574f5ea.png">
 
 ## Brief History
 
@@ -52,6 +49,10 @@ AWS has just grown by then and is today the global lead in cloud hosting with a 
 In 2006 AWS began offering IaaS services and was one of the first companies to introduce a "pay-as-you-go" solution. This way
 you only pay for what you need and nothing more. AWS offers different services that can be configured in defferent ways based on the user's needs. 
 AWS contains a total of more than 200 services that are built to include compute, databases, infrastructure, management, application development and security.
+
+![Skjermbilde 2023-02-08 kl  14 00 50](https://user-images.githubusercontent.com/91666428/217536826-5b41bd3d-6a9e-44ef-ae23-f16c847f9605.png)
+
+
 Here are the different categories AWS offers:
 - compute
 - storage
@@ -71,6 +72,7 @@ Here are the different categories AWS offers:
 - artificial intelligence (AI)
 - mobile development
 - messages and notification
+
 
 AWS provides dozens of data centers that are spread across 87 different availability zones (a location that contains multiple physical data centers).
 An AWS costumers decides for them selves how many availability zones thay need based on their needs when it comes to compliances, proximity to end
