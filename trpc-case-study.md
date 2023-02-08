@@ -111,7 +111,7 @@ model Notes {
 ```
 
 
-<a href="{./tRPC-media/demo.mov}" title="Demo"><img src="{image-url}" alt="Alternate Text" /></a>
+<a href="./tRPC-media/demo.mov" title="Demo"><img src="{image-url}" alt="Demo" /></a>
 
 
 
