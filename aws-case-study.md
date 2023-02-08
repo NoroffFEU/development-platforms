@@ -21,6 +21,9 @@ of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and packaged
 the concept of cloud hosting was born together with AWS. 
 
 
+![Skjermbilde 2023-02-08 kl  13 37 55](https://user-images.githubusercontent.com/91666428/217531772-b8cd9221-3f90-49c1-ae92-aa63807752a5.png)
+
+
 
 ## Brief History
 
