@@ -72,6 +72,9 @@ Here are the different categories AWS offers:
 • mobile development
 • messages and notification
 
+![Skjermbilde 2023-02-08 kl  13 59 41](https://user-images.githubusercontent.com/91666428/217536490-5a4036a9-33bf-4fd0-bb32-07ef59e8b681.png)
+
+
 AWS provides dozens of data centers that are spread across 87 different availability zones (a location that contains multiple physical data centers).
 An AWS costumers decides for them selves how many availability zones thay need based on their needs when it comes to compliances, proximity to end
 customers and availability optimization. 
