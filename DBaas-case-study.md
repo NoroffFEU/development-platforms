@@ -1,7 +1,7 @@
 ---
 title: Product Case Study
 keywords: development platforms, example project, category name
-tags: Development Platforms, Example Project, Category Name
+tags: Development Platforms, DBaaS
 sidebar: development-platforms
 permalink: development-platforms/case-study-dbaas.html
 folder: development-platforms
