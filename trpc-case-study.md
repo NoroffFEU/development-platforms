@@ -12,30 +12,40 @@ folder: development-platforms
 ## Introduction
 
 tRPC stands for TypeScript Remote Procedure Call. It's a simple and lightweight library for creating API's using a singular programming language [TypeScript](https://www.typescriptlang.org/), with the option to use a singular respoitory to host both the client and server infrastructure. It operates as a protocol to call your backend functions directly from the frontend, unlike other popular options such as ``GraphQL``.
+
 ## Brief History
 
-tRPC was created by [Alex / KATT](https://twitter.com/alexdotjs) and was first released in 2020, with [tRPC/client](https://www.npmjs.com/package/@trpc/client?activeTab=versions) and [tRPC/server](https://www.npmjs.com/package/@trpc/server?activeTab=versions) seeing its 1.0.0 release back in 2020.
+tRPC was created by [Alex / KATT](https://twitter.com/alexdotjs) and was first released in 2020, with [tRPC/client](https://www.npmjs.com/package/@trpc/client?activeTab=versions) and [tRPC/server](https://www.npmjs.com/package/@trpc/server?activeTab=versions).
 
 Since then there's been many iterations and versions of the product, with its latest version ``10.9.0`` being released 11th of Jan 2022.
 
-Currently its latest versions is seeing around 40k weekly downloads and the repository has a respectable 20k stars on github. The interest in the product have increased recently in social media, and been praised by several prominent ``full-stack`` developers for it's features on how it bridges the gap between front- and backend. 
+Currently its latest versions is seeing around 40k weekly downloads and the repository has a respectable 20k stars on github. The interest in the product have increased recently in social media, and been praised by several prominent ``full-stack`` developers for it's features on how it bridges the gap between front- and backend, seamless workflow and overall ease-of-use in a completely typesafe eco-system.
+
+[Chris Bautista short overview here](https://www.youtube.com/watch?v=2LYM8gf184U&t=665s)
 
 According to the product creator himself, version 9.x should really be viewed as version 1.x, where as the newly released 10.x should be considered version 2.x.
 
 
-trash dev
-
-      Now everyone can call themselves full-stack developers.
-
-
-
 ## Features
+
+- #### Automatic typesafety
+While this is a Typescript feature, and not isolated to tRPC it allows for an eco-system where the client will notify you of errors even before you save the files.
+
+- #### Great DX
+tRPC has no build or compile steps, no code generation, runetime bloat or build step.
+
+- #### Framework agnostic
+tRPC works will all JavaScript frameworks and runetimes. It's easy to add to already existing projects. 
+
+- #### Autocompletion
+
+
 
 tRPC aims to bridge the gap between front- and backend. It does so by creating a seemless experience navigating between your client and server code. You can easily adjust endpoint name in one location, and it will update accordingly on the other side. Working with tRPC allows you to quickly locate the assoicated files you're working with by simply using the ``use definition`` feature, and you'll be taken to that script file.
 
-Since tRPC does not rely on schemas or code generation, and rather is a protocol for exposing backend functions to the frontend it allows a more seemless workflow for the developer, and lightweight well performing application for the end user. 
+Since tRPC does not rely on schemas or code generation, and rather is a protocol for exposing backend functions to the frontend it allows a more seemless workflow for the developer, and lightweight well performing application with a tiny footprint for the end user. 
 
-## Example of basic usage
+#### Example of basic usage
 In the image below, we see a basic example of tRPC protocols being called on front-end. We're using React queries to handle our ``CRUD`` operations. Queries for our ``GET`` requests/operations and ``Mutations`` for our ``POST``, ``PUT`` and ``DELETE`` requests/operations 
 
 ```tsx 
