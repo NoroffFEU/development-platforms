@@ -108,7 +108,13 @@ In any company that is data-driven security is one of the most important aspects
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
+The biggest and most noticable weaknesses about AWS consists of its limitations, lack of experts and price variations. 
+
+AWS's limitations comes down to limitations regarding EC2 and security. The problem appears when companies using AWS will have default resources to use but when default resources limits vary from region to region it can cause a problem. Companies can request for more resources but still they do find it to be a disadvantage. 
+
+There are only a few professionals skilled in AWS or any cloud provider therefore when companies use AWS infrastructure as their cloud computing they  find it lacking when they look to hire professionals to would for the cloud infrastructure. Many companies are ready to start using AWS, but need someone to work on AWS who can lead their organizations to cause higher performances. 
+
+AWS prices varies depending on factors suck as cost of land, fiber, electricity and taxes from that specific region. Prices will also vary depending of you need for additional tech support. AWS offers three different packages to choose from, Developer, Business and Eterprice and the price varied accordingly between there three packages and the depending factors mantioned above. 
 
 ## Comparison
 
