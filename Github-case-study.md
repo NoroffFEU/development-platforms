@@ -27,7 +27,7 @@ folder: development-platforms
 
 Effective teamwork and code management are essential for the development of software. Finding the ideal platform to assist this procedure is the challenge. GitHub emerged as a solution for these challenges by providing a web-based platform for code storage, sharing, and collaboration.
 
-With the help of a collection of tools for collaboration and code editing, GitHub seeks to give developers a single location to save, organize, and manage their code. It also contains tools for tracking bugs and feature requests, such as issues and pull requests for reviewing and merging code changes. Continuous integration and deployment are two additional technologies that GitHub supports and integrates. Forexample, Github has released desktop apps for Windows and macOS that make it easy for users to integrate it into their workflow. GitHub provides a full and easy solution for software development. 
+With the help of a collection of tools for collaboration and code editing, GitHub seeks to give developers a single location to save, organize, and manage their code. It also contains tools for tracking bugs and feature requests, such as issues and pull requests for reviewing and merging code changes. Continuous integration and deployment are two additional technologies that GitHub supports and integrates. For example, Github has released desktop apps for Windows and macOS that make it easy for users to integrate it into their workflow. GitHub provides a full and easy solution for software development. 
 
   
 
