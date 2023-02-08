@@ -49,6 +49,10 @@ AWS has just grown by then and is today the global lead in cloud hosting with a 
 In 2006 AWS began offering IaaS services and was one of the first companies to introduce a "pay-as-you-go" solution. This way
 you only pay for what you need and nothing more. AWS offers different services that can be configured in defferent ways based on the user's needs. 
 AWS contains a total of more than 200 services that are built to include compute, databases, infrastructure, management, application development and security.
+
+![Skjermbilde 2023-02-08 kl  14 00 50](https://user-images.githubusercontent.com/91666428/217536826-5b41bd3d-6a9e-44ef-ae23-f16c847f9605.png)
+
+
 Here are the different categories AWS offers:
 • compute
 • storage
@@ -68,9 +72,6 @@ Here are the different categories AWS offers:
 • artificial intelligence (AI)
 • mobile development
 • messages and notification
-
-
-![Skjermbilde 2023-02-08 kl  14 00 50](https://user-images.githubusercontent.com/91666428/217536826-5b41bd3d-6a9e-44ef-ae23-f16c847f9605.png)
 
 
 AWS provides dozens of data centers that are spread across 87 different availability zones (a location that contains multiple physical data centers).
