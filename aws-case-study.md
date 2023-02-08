@@ -20,6 +20,8 @@ AWS (Amazon Web Services) is a cloud computing platform that is provided by Amaz
 of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and packaged-software-as-a-service (SaaS). It is also important to note that 
 the concept of cloud hosting was born together with AWS. 
 
+
+
 ## Brief History
 
 AWS was originally founded 2002 when they realized they had a significant advantage in form on infrastructure services,
@@ -41,12 +43,6 @@ AWS has just grown by then and is today the global lead in cloud hosting with a 
 - 2014 - AWS launches Amazon Aurora a MySQL-compatible database.
 - 2016 - Dropbox announces their use of AWS S3 for storage.
 - 2021 - Amazon MemoryDB. An in-memory database with API compatible with that of Redis. 
-
-
-
-
-
-
 
 ## Features
 
@@ -94,7 +90,21 @@ AWS is avaliable to groups such as government agencies. education institutions. 
 
 ## Strengths
 
-Discuss the product's strengths.
+Amazon Web Services is a well rounded host cloud service that has many pors and suits many different usages. Fist of all AWS is flexible. reliable and cost effictive. There are so many different services and tools to best suit what you are looking for. This way you only play for what you need (pay-as-you-go). AWS offers a comprehensive, evolving platform that includes a mixture og IaaS, Paas and Saas.
+
+One of the biggest benefits using AWS is its user-friendliness. AWS is a really easy platform to use that is designed for quck and secure access. AWS users can administrate and modify their data anytime they want. Due to the easiness of the platform users find it much more accessable then some of its competetors. 
+
+AWS's flexibility is one of the reasons many choose to use their service as it lets you use the operating systems, programming languages, and wen applications that you are comfertable with using. Using AWS EC2 you are able to build you own virtual computing environment by setting up you the operating systems and applications that you prefer. 
+
+AWS serves millions of clients in more than 200 countries over the world and offers the highest relianility for its users. AWS offers many services and tasks accuratly and offers many services for making it more reliable like being capable to automatically recover from a failure. AWS stores data in different availanility zones so that if one were to fail the users would still have their data intact. 
+
+In any company that is data-driven security is one of the most important aspects. AWS provides a highly secure infrastructure to ensure the upper most privancy for yor data. In fact many other Cloud Hosting Services is built on AWS's infrastructure. 
+• Here is the layers of AWS's security protocall:
+• Data protection
+• Identity and access management
+• Infrastructure protection
+• Threat detection and continuous monitoring
+• Compliance and data privacy
 
 ## Weaknesses
 
