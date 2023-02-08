@@ -86,8 +86,6 @@ In the example provided we're using ``Zod`` for validation. Wrapping the inputs 
 Since this is a ``CREATE`` request we also call ``.mutation`` defining ``context`` and our already established ``input`` defined above, and accessing our notes model from ``prisma``.
 
 ```prisma
-
-```prisma
 model Notes {
   id          String   @id @default(auto()) @map("_id") @db.ObjectId
   title       String
