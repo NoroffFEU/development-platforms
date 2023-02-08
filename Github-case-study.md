@@ -74,7 +74,7 @@ Here are some of the key features of the GitHub:
 
 - **Version control**: GitHub is built on Git, a distributed version control system that enables developers to monitor changes to their code over time, work together with others, and revert to previous versions if needed.
 
--** Collaboration**: Enables developers to work on projects together, examine each other's code, and exchange ideas and issues.
+-**Collaboration**: Enables developers to work on projects together, examine each other's code, and exchange ideas and issues.
 
 
 -  **Issues and bug tracking**: Is a process for keeping track of and fixing problems, such as bugs or other technical issues, in a software development project. This process is typically done using a specialized tool, which enables developers to log, monitor, and manage issues as they arise. Issues can be assigned to specific team members, categorized with labels and milestones, and updated with comments and attachments. The aim of issue and bug tracking is to ensure that all issues are identified, prioritized, and addressed in an organized and efficient manner to maintain the quality and stability of the software. GitHub has an integrated issue tracking system within its platform, allowing developers to manage their issues directly from their repository.
