@@ -117,14 +117,46 @@ In the video below I will demonstrate how to create a new work item inside the b
 
 ### Collaboration
 
+There multiple ways to arrange good collaboration when using Azure DevOps, I will give you a quick overview of the different options you will have when working with Azure DevOps.
+
+#### Agile project management
+
 With the Agile project management that Azure DevOps offer, collaboration between you team members. You can create branches for each team members to contribute there work to the project.
 And with the board managements that that they offer you and your team can keep good track of the work that is being done.
 
 *Reference [[9](#references)]*
 
-Azure DevOps also offer integrations with Microsoft Teams, but to be able to use this feature you should to have a office365 account, they are offering a free trail of the Office365 for you to be able to test out the integrating between teams and Azure DevOps. You can read more about this and see how you make the integration if you have a look at the *Reference [[10](#references)]*
+#### Teams collaboration
 
-By using Azure DevOps and Microsoft team you and your team will have a really good way of collaborating and making sure that your project goes according to plan.
+Azure DevOps also offer integrations with Microsoft Teams, but to be able to use this feature you should to have a office365 account, they are offering a free trail of the Office365 for you to be able to test out the integrating between teams and Azure DevOps. You can read more about this and see how you make the integration if you have a look at the reference link.
+
+By using Azure DevOps and Microsoft team you and your team will have a really good way of collaborating and making sure that your project goes according to plan. You can show and adjust your team board in the teams app.
+
+<div style="width: 600px;">
+
+![Price Image](https://www.azuredevopslabs.com/labs/vstsextend/teams/images/kanbanboard_teams_new.png)
+
+<p style="padding: 0; margin: 0;">
+
+*Source: Azure DevOps Labs*
+
+</p>
+
+</div>
+
+*Reference [[10](#references)]*
+
+#### Azure DevOps Wiki
+
+Each project in Azure DevOps supports its own wiki, which enables you to conveniently write pages that help your team members and other users understand, use, and contribute to your project.
+The wiki pages you create can be edited in you preferred IDE. YOu only need to clone the Wiki in to your IDE and you can work on it there. Its powered by a git repository.
+
+Normally the developer will have a Markdown file to store documentation, alongside the source code in a folder or just directly in the area you are working on. By using the Wiki feature you are abel to store your documentation, and its easy to add to your existing project. Wiki scan your files and make each markdown file into a wiki note.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mmyw8rLs11c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+*Reference [[11](#references)]*
 
 ### Package Management
 
@@ -138,13 +170,13 @@ In your builds and releases, you can use the packages from the Package Managemen
 
 Package Management in Azure DevOps helps you centralize your package management and improve collaboration and reuse within your organization. By using Package Management, you can ensure that your builds and releases use consistent and up-to-date packages.
 
-*Reference [[11](#references)]*
+*Reference [[12](#references)]*
 
 ### Code Review and Feedback
 
 Azure DevOps offers a code review and feedback system similar to other popular platforms, like GitHub. You create a pull request and on that request you can add your colleges to look at your code and review it. 
 
-*Reference [[12](#references)]*
+*Reference [[13](#references)]*
 
 ### Integrated Analytics
 
@@ -156,15 +188,15 @@ To create a report or dashboard, you can use the built-in report authoring tools
 
 Integrated Analytics in Azure DevOps helps you make data-driven decisions by giving you access to rich data visualizations and insights into your work. With Integrated Analytics, you can monitor the progress of your work and identify areas where improvements can be made.
 
-*Reference [[13](#references)]*
+*Reference [[14](#references)]*
 
 ## **Strengths**
 
 Easy to integrate with GitHub. In 2018 Microsoft bought GitHub for $7.5 billion, so the connection between the popular code-repository service used by many developers and large companies and Azure DevOps is really easy to setup and use. The boards that Azure provide have more options to offer and looks better then in the project boards that Github provides. So to be able to use the boards that Azure DevOps offer combined whit Github repo is great.
 
-Azure DevOps have a huge documentation archive, that is describing in details how to use the service. [[14](#references)]
+Azure DevOps have a huge documentation archive, that is describing in details how to use the service. [[15](#references)]
 
-Azure DevOps have a extension for Visual Studio Code [[15](#references)]. The extension features ability to export a planning session into Azure DevOps system. Planning in Azure DevOps itself is hard, way too much clicking. It's so much easier to just type all the tasks in a simple text form and then just export them.
+Azure DevOps have a extension for Visual Studio Code [[16](#references)]. The extension features ability to export a planning session into Azure DevOps system. Planning in Azure DevOps itself is hard, way too much clicking. It's so much easier to just type all the tasks in a simple text form and then just export them.
 
 ## **Weaknesses**
 
@@ -260,9 +292,10 @@ Author: Christopher Tønnesland
 8. [Classic release pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/release/?view=azure-devops)
 9. [Best practices for "light-weight" Agile project management](https://learn.microsoft.com/en-us/azure/devops/boards/best-practices-agile-project-management?view=azure-devops&tabs=agile-process)
 10. [Microsoft Teams with Azure DevOps Services (Collaborate, Communicate and Celebrate)](https://www.azuredevopslabs.com/labs/vstsextend/teams/)
-11. [Image of chatGDP response](https://i.ibb.co/ngqTLPy/image.png)
-12. [Add reviewers to a pull request](https://learn.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops&tabs=browser#add-reviewers-to-a-pull-request)
-13. [Image of chatGDP response](https://i.ibb.co/S6YgWR2/image.png)
-14. [Azure DevOps documentation](https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops)
-15. [Azure DevOps planner](https://marketplace.visualstudio.com/items?itemName=ipatalas.vscode-sprint-planner)
-16. []()
+11. [Collaborating using Azure DevOps Wiki](https://azuredevopslabs.com/labs/azuredevops/wiki/)
+12. [Image of chatGDP response](https://i.ibb.co/ngqTLPy/image.png)
+13. [Add reviewers to a pull request](https://learn.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops&tabs=browser#add-reviewers-to-a-pull-request)
+14. [Image of chatGDP response](https://i.ibb.co/S6YgWR2/image.png)
+15. [Azure DevOps documentation](https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops)
+16. [Azure DevOps planner](https://marketplace.visualstudio.com/items?itemName=ipatalas.vscode-sprint-planner)
+
