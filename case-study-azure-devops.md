@@ -320,3 +320,5 @@ Author: Christopher Tønnesland
 14. [Image of chatGDP response](https://i.ibb.co/S6YgWR2/image.png)
 15. [Azure DevOps documentation](https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops)
 16. [Azure DevOps planner](https://marketplace.visualstudio.com/items?itemName=ipatalas.vscode-sprint-planner)
+
+[Azure DevOps Learning Path](https://azuredevopslabs.com/)
