@@ -23,8 +23,17 @@ folder: development-platforms
 
 ## **Introduction**
 
+<div style="width: 600px;">
+
 ![Azure DevOps offerings](https://miro.medium.com/max/800/1*8orwInnxqPRhrcKf9aOo9Q.png)
+
+<p style="padding: 0; margin: 0;">
+
 *Source: google*
+
+</p>
+
+</div>
 
 **Azure DevOps** was initially released in 2018 by Microsoft. It is a set of developer tools, services, and features that enable teams to plan, develop, test, and deliver software more effectively. Azure DevOps integrates with the broader Azure cloud computing platform, enabling users to take advantage of its features and services, such as continuous integration and deployment, and virtual machines. Azure DevOps has since become one of the leading development platforms and is widely used by development teams across the world.
 
@@ -41,8 +50,17 @@ After the rebranding Azure DevOps has continued to evolve and add more features,
 
 ## **Features**
 
+<div style="width: 600px;">
+
 ![Azure DevOps offerings](https://www.kovair.com/blog/wp-content/uploads/2022/03/Image-1-Azure-DevOps.png)
+
+<p style="padding: 0; margin: 0;">
+
 *Source: google*
+
+</p>
+
+</div>
 
 ### Source Code Management
 
@@ -85,7 +103,7 @@ You track your or your teams work by creating a work item. IN Azure DevOps you w
 
 In the video below I will demonstrate how to create a new work item inside the board
 
-<a href="https://www.loom.com/share/2fccb37e458941fbae25e87f309ba55e"><img src="https://i.ibb.co/d07zn4d/Screenshot-2023-01-31-at-14-43-11-Development-platforms-Team-Features-Board-Boards.png" style="width: 350px;"/></a>
+<a href="https://www.loom.com/share/2fccb37e458941fbae25e87f309ba55e"><img src="https://i.ibb.co/d07zn4d/Screenshot-2023-01-31-at-14-43-11-Development-platforms-Team-Features-Board-Boards.png" style="width: 600px;"/></a>
 
 *Reference [[6](#references)]*
 
@@ -153,7 +171,17 @@ Azure DevOps is highly customizable, but this can lead to a lack of standardizat
 
 The pricing of using Azure DevOps depends on the size of your team or organization. The image below will show you the pricing model that Azure DevOps have.
 
+<div style="width: 600px;">
+
 ![Price Image](https://i.ibb.co/5jCdgMn/image.png)
+
+<p style="padding: 0; margin: 0;">
+
+*Source: Azure DevOps homepage*
+
+</p>
+
+</div>
 
 As you can see in the image above there is a wide range fo options to choose from when it comes to the services that Azure DevOps have to offer.
 
@@ -186,8 +214,17 @@ It is worth noting that while premium support may have a higher upfront cost tha
 
 ## **Summary**
 
+<div style="width: 600px;">
+
 ![Azure DevOps offerings](https://xam.com.au/wp-content/uploads/2022/03/devops-infinity-1-1.png)
+
+<p style="padding: 0; margin: 0;">
+
 *Source: google*
+
+</p>
+
+</div>
 
 ### **Credits**
 
