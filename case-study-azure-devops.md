@@ -82,6 +82,17 @@ The continuous Integration setted up to catch bugs early in the development cycl
 
 The continuous Delivery is a process by which code is built, tested, and deployed to one or more test and production environments. Deploying and testing in multiple environments increases quality
 
+<div style="width: 600px;">
+
+![Azure DevOps offerings](https://xam.com.au/wp-content/uploads/2022/03/devops-infinity-1-1.png)
+
+<p style="padding: 0; margin: 0;">
+
+*Source: google*
+
+</p>
+</div>
+
 *Reference [[4](#references)]*
 
 ### Project Management
@@ -252,17 +263,7 @@ It is worth noting that while premium support may have a higher upfront cost tha
 
 ## **Summary**
 
-<div style="width: 600px;">
 
-![Azure DevOps offerings](https://xam.com.au/wp-content/uploads/2022/03/devops-infinity-1-1.png)
-
-<p style="padding: 0; margin: 0;">
-
-*Source: google*
-
-</p>
-
-</div>
 
 ### **Credits**
 
@@ -297,4 +298,3 @@ Author: Christopher Tønnesland
 14. [Image of chatGDP response](https://i.ibb.co/S6YgWR2/image.png)
 15. [Azure DevOps documentation](https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops)
 16. [Azure DevOps planner](https://marketplace.visualstudio.com/items?itemName=ipatalas.vscode-sprint-planner)
-
