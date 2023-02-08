@@ -153,8 +153,7 @@ The wiki pages you create can be edited in you preferred IDE. YOu only need to c
 
 Normally the developer will have a Markdown file to store documentation, alongside the source code in a folder or just directly in the area you are working on. By using the Wiki feature you are abel to store your documentation, and its easy to add to your existing project. Wiki scan your files and make each markdown file into a wiki note.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mmyw8rLs11c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+Here is a <a href="https://www.youtube.com/embed/Mmyw8rLs11c">Youtube video</a> showcasing the power of Azure DevOps Wiki features.
 
 *Reference [[11](#references)]*
 
