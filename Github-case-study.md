@@ -1,9 +1,9 @@
 ---
 title: GitHub Case Study
 keywords: development platforms, GitHub, 
-tags: Development Platforms, Example Project, Category Name
+tags: Development Platforms, GitHub, Category Name
 sidebar: development-platforms
-permalink: development-platforms/example-product.html
+permalink: development-platforms/case-study-GitHub.html
 folder: development-platforms
 ---
 # <p align="center"><span>GitHub Case Study<span></p>
@@ -29,12 +29,11 @@ Effective teamwork and code management are essential for the development of soft
 
 With the help of a collection of tools for collaboration and code editing, GitHub seeks to give developers a single location to save, organize, and manage their code. It also contains tools for tracking bugs and feature requests, such as issues and pull requests for reviewing and merging code changes. Continuous integration and deployment are two additional technologies that GitHub supports and integrates. Forexample, Github has released desktop apps for Windows and macOS that make it easy for users to integrate it into their workflow. GitHub provides a full and easy solution for software development. 
 
- 
- 
+  
 
  ## Brief History
 
- GitHub's development started on October 19, 2007. In April 2008, Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, and Scott Chacon officially launched the site after beta testing.Since its founding in 2008, GitHub has grown to become one of the most popular services for hosting and exchanging code.  
+GitHub's development started on October 19, 2007. In April 2008, Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, and Scott Chacon officially launched the site after beta testing.Since its founding in 2008, GitHub has grown to become one of the most popular services for hosting and exchanging code.  
 
  ### The Growth of GitHub
 GitHub has experienced significant growth since its launch.
