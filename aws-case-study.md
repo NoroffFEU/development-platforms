@@ -20,10 +20,7 @@ AWS (Amazon Web Services) is a cloud computing platform that is provided by Amaz
 of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and packaged-software-as-a-service (SaaS). It is also important to note that 
 the concept of cloud hosting was born together with AWS. 
 
-
-![Skjermbilde 2023-02-08 kl  13 37 55](https://user-images.githubusercontent.com/91666428/217531772-b8cd9221-3f90-49c1-ae92-aa63807752a5.png)
-
-
+<img width="1024" alt="Skjermbilde 2023-02-08 kl  14 01 55" src="https://user-images.githubusercontent.com/91666428/217537213-e36faff3-28f8-48bd-a1ba-49449574f5ea.png">
 
 ## Brief History
 
