@@ -122,9 +122,9 @@ And with the board managements that that they offer you and your team can keep g
 
 *Reference [[9](#references)]*
 
-Azure DevOps also offer integrations with Microsoft Teams, but to be able to use this feature you should to have a office365 account, they are offering a free trail of the Office365 for you to be able to test out the integrating between teams and Azure DevOps. You can read more about this and see how you make the integration if you have a look at the Reference [[10](#references)]*
+Azure DevOps also offer integrations with Microsoft Teams, but to be able to use this feature you should to have a office365 account, they are offering a free trail of the Office365 for you to be able to test out the integrating between teams and Azure DevOps. You can read more about this and see how you make the integration if you have a look at the *Reference [[10](#references)]*
 
-By using Azure DevOps and Microsoft team you and your team will have a really good way of collaborating and making sure that your project goes according to plan. 
+By using Azure DevOps and Microsoft team you and your team will have a really good way of collaborating and making sure that your project goes according to plan.
 
 ### Package Management
 
