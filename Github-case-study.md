@@ -88,7 +88,7 @@ Here are some of the key features of the GitHub:
 
 - **GitHub Pages**: makes it simple to share documentation, project details, and other resources with others by enabling the creation and publication of websites straight from a GitHub repository.
 
--**GitHub Enterprise**: provides additional security and compliance capabilities and enables businesses to operate their own instance of GitHub on their own servers.
+- **GitHub Enterprise**: provides additional security and compliance capabilities and enables businesses to operate their own instance of GitHub on their own servers.
 
 
 ## Strengeths
@@ -100,7 +100,7 @@ Here are some of the key features of the GitHub:
 
 - **Strong community**: GitHub has a large and active developer and user community that offers a number of resources and support to those in need.
 
-- **GitHub Actions**: enables you to automate, personalize, and carry out your software development workflows right in your repository.
+- **GitHub Actions**: Enables you to automate, personalize, and carry out your software development workflows right in your repository.
 
 - **Mobile capabilities**: GitHub's mobile app enables developers to view and manage their code and projects from a mobile device, making it simple to stay productive on the go.
 
@@ -124,7 +124,7 @@ Here are some of the key features of the GitHub:
 
 - **Limited Customization Options**:  While GitHub offers a wide range of tools and integrations, customization options are limited, and users may need to turn to external tools to meet their desired workflows.
 
--**Costly Upgrade**:  The free version of GitHub is very useful, but upgrading to a paid plan can be expensive, especially for large teams or organizations.
+- **Costly Upgrade**:  The free version of GitHub is very useful, but upgrading to a paid plan can be expensive, especially for large teams or organizations.
 
 ## Comparison
 
@@ -134,7 +134,7 @@ Despite the fact that GitHub is one of the most well-known and widely used web-b
 
 - **Bitbucket**: Bitbucket is also another  web-based platform for collaboration and version control. It is designed for teams and provides many of the same features, such as issue tracking, teamwork, and version control. With integrated team and project management, as well as built-in support for continuous integration and deployment, Bitbucket offers a wider selection of collaboration tools.
 
-- **Azure DevOps** Azure DevOps, owned by Microsoft, offers a cloud-based platform for software development and collaboration. It includes version control, work tracking, and CI/CD capabilities with an emphasis on serving the needs of enterprise customers. The platform provides features such as support for large projects, robust security, and integration with other Microsoft products, making it a popular choice among organizations seeking a complete solution for software development within the Microsoft ecosystem.
+- **Azure DevOps**: Azure DevOps, owned by Microsoft, offers a cloud-based platform for software development and collaboration. It includes version control, work tracking, and CI/CD capabilities with an emphasis on serving the needs of enterprise customers. The platform provides features such as support for large projects, robust security, and integration with other Microsoft products, making it a popular choice among organizations seeking a complete solution for software development within the Microsoft ecosystem.
 
 
 ## Summary
