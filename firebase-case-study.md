@@ -1,3 +1,13 @@
+---
+title: Firebase
+keywords: backend-as-a-service, Firebase Inc., Google, real-time database, user authentication, cloud storage, hosting, cloud functions
+tags: Firebase, backend, app development, database, authentication, storage, hosting, cloud functions
+sidebar: 
+permalink: 
+folder: 
+---
+
+
 # Firebase
 
 
