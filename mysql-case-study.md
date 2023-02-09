@@ -114,6 +114,8 @@ Outline the product's key features.
 
 #### Data Types
 
+<!-- todo: write synthax -->
+
 ##### Numeric Data Types
 
 ![Required Storage and Range for Integer Types Supported by MySQL](./images/Screenshot-integers.png)
@@ -151,7 +153,30 @@ What numeric types one should use depends on the what it is used for. In general
 
 ##### String Data Types
 
-The string data types consist are: CHAR,VARCHAR,BINARY,VARBINARY,TEXT,BLOB,ENUM and SET.
+The string data types consist are: CHAR,VARCHAR,BINARY,VARBINARY,TEXT,BLOB,SET and ENUM.
+
+CHAR (fixed length)
+
+- The length of a "CHAR value" is a "fixed length" that is declared when a table is created.
+  This can be anything between 0 to 255. The "CHAR value" is then padded to the right with spaces to match the "fixed value".
+  Trailing spaces will be removed when a "CHAR value" is retrieved, unless PAD_CHAR_TO_FULL_LENGTH mode is activated.
+- CHAR uses static memory allocation
+- Faster
+- typically used for phone numbers, zip codes etc.
+  E.G. CHAR(10) = "abc-------"
+
+VARCHAR (variable length)
+
+- VARCHAR values are stored with either 1 or 2 byte prefix pluss data.
+- Uses dynamic memory allocations
+- Better for storage space
+- Slower
+- typically used for storing names or other values that can vary in length.
+  E.G. VARCHAR(10) = "abc"
+
+![Difference between CHAR and VARCHAR](./images/Screenshot-CHAR-VARCHAR.png)
+
+> image from: https://dev.mysql.com/doc/refman/8.0/en/char.html
 
 <!-- #### Character Sets -->
 
