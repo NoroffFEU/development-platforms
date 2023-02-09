@@ -178,6 +178,20 @@ VARCHAR (variable length)
 
 > image from: https://dev.mysql.com/doc/refman/8.0/en/char.html
 
+BINARY and VARBINARY have many similarities with CHAR and VARCAHR. The difference is that the values are stored as byte strings rather than character strings.
+The size of BINARY and VARBINARY values can be specified like in CHAR and VARCHAR by using parathesies e.g. Binary(40).
+In this example the value will allow storage for 40 bytes and padds the potentialy "missing" space with 0x00, which are then ratained when the value is retrieved.
+VARBINARY will do the same as VARCHAR by initially using 1 or 2 byte prefix pluss data. There is no padding
+
+BLOB and TEXT
+
+- BLOB stands for "Binary Large OBject". There are four different types of BLOBs: TINYBLOB,BLOB,MEDIUMBLOB AND LONGBLOB.
+  BLOBs stores the value as binary strings
+- TEXT is the "non-binary" equivalent to blob, There are four different types of TEXT: TINYTEXT,TEXT,MEDIUMTEXT AND LONGTEXT.
+  TEXT stores values as character strings.
+
+- some developers argue that you CAN utilize BLOBs and TEXTs as a "document-database storage", meaning you can use a relational database to achieve some of the same benefits from a document-no-SQL database. However, this seems to be an ongoing debate.
+
 <!-- #### Character Sets -->
 
 #### Statments and Functions
