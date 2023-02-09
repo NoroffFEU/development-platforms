@@ -272,10 +272,28 @@ It is worth noting that while premium support may have a higher upfront cost tha
 
 ## **Comparison**
 
-- AWS CodeStar
-- GitHub
-- GitLab
-- Jira by Atlassian
+While Azure DevOps is one of the leading platforms out on the marked, there are more options for the developers to use. Here is some alternative to Azure DevOps.
+
+### Jira by Atlassian
+
+Jira is a powerful cloud- and subscription-based application lifecycle and issue management solution. It is designed to aid users both in project management and in resolving any issues that arise at any point in the software development process. It is especially concerned with easing the ability of developers to collaborate. Jira is a powerful solution that stands out when compared to many of its competitors. Two major advantages it offers are its workflow engine and its highly customizable dashboard.
+
+Some of the ways that organizations can benefit by choosing to deploy Jira include:
+
+- DevOps lifecycle visibility and planning.
+- Regular product updates.
+- Flexibility.
+- Security capabilities. 
+- Real-time notification feature.
+- Activity log.
+
+Jira's free tier offers up to 10 users, unlimited project boards and 2gb free storage. Most of the Jira users find it to be quite easy and straightforward to deploy. There is good stability and scalability when using Jira.
+
+https://www.peerspot.com/products/jira-reviews#reviews-container
+
+### GitHub
+
+### GitLab
 
 ## **How to**
 
