@@ -20,13 +20,13 @@ A code editor like VSC
 The following should be your filing tree.
 
 Root  
-|**src/  
-| |\_index.js  
-|**dist/  
-| |\_index.html  
+|-src/  
+| |-index.js  
+|-dist/  
+| |-index.html  
 |  
-|\_webpack.config.js  
-|\_package.json
+|-webpack.config.js  
+|-package.json
 
 ### Bundling
 
