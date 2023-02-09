@@ -11,7 +11,7 @@ folder: development-platforms
 ![image](https://user-images.githubusercontent.com/89133440/217799993-db6dc66a-07c9-4ed9-bd3e-bd1500737fb8.png)
 
 
-Prometheus is an Open-Source systems monitoring and alerting toolkit that collects and stores it's numeric measurements as a time series data, information is stored with the timestamp at which it was recorded, alongside optional key-value paris called labels. 
+Prometheus is an Open-Source systems monitoring and alerting toolkit that collects and stores it's numerical measurements as time series data. Information is stored with the timestamp at which it was recorded, alongside optional key-value pairs called labels. 
 
 By the use of a multi-dimensional data model, data can be sliced and diced at will, along dimensions like instance, service, endpoint, and method.
 It is based on a principal of Operational simplicity, so that you can spin up a monitoring server where and when you want, even as a local server at home on your desktop computer. This without setting up a distributed storage backend or reconfiguring the world. 
