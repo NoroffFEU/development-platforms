@@ -49,7 +49,9 @@ Bluehost: Extremely fast & reliable hosting with plenty of advanced security add
 
 Web.com: Everything you need to build and host your website
 
-### www.hostinger.no
+### ack
+
+www.hostinger.no
 
 Hostinger: Scalable hosting solutions for fast websites
 
