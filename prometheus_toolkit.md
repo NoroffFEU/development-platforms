@@ -8,6 +8,8 @@ folder: development-platforms
 ---
 
 ## Introduction
+![image](https://user-images.githubusercontent.com/89133440/217799993-db6dc66a-07c9-4ed9-bd3e-bd1500737fb8.png)
+
 
 Prometheus is an Open-Source systems monitoring and alerting toolkit that collects and stores it's numeric measurements as a time series data, information is stored with the timestamp at which it was recorded, alongside optional key-value paris called labels. 
 
@@ -16,6 +18,9 @@ It is based on a principal of Operational simplicity, so that you can spin up a 
 
 #### What is and why would i might want systems monitoring
 It is a tool for Executive management, PO's and clients to have a singel view of project schedules, health, risks, progress and documents. Look at it from an financial aspect
+
+![image](https://user-images.githubusercontent.com/89133440/217797879-a9a03c77-ded7-47f3-8654-49afd4dab336.png)
+
 
 ## Brief History
 Prometheus is an open-source project built at [SoundCloud](https://soundcloud.com/discover). Since it's creation in 2012, there has been alot of updates and improvement on the system. It's now a standalone open-source project and maintained independently of any company. 
@@ -34,6 +39,9 @@ You may use bullet points, numbered lists, paragraphs or a timeline.
 * [Pushing time series](https://prometheus.io/docs/instrumenting/pushing/) available via intermediary gateway
 * Targets are discovered via service discovery or static configuration
 * Multiple modes of graphing and dashboarding support
+
+![image](https://user-images.githubusercontent.com/89133440/217797307-ab44f040-937b-44d8-9a80-109d1b2ca80f.png)
+
 
 ## Strengths
 
@@ -84,8 +92,16 @@ If you primarily doing event logging then InfluxDB is more suitable for this typ
 
 
 ## Summary
+Prometheus is a great tool for systems monitoring and alerting, you can slice and dice the multi-dimensional data at will. Easier overview of samples that is stored. 
+You will also find that it is a great tool for visualization when that is needed, you can use Grafana dashboard and expression browser more easy. Console templates is provide from Prometheus for you to use. 
+When it comes to deployment it is quick to do when you need a new server for instance. And you have the PromQL query language. 
+
+You can read more at Prometheus own [blog](https://prometheus.io/blog/), here you will also find pictograms that shows the flow of use.
+
 
 Summarise the content and highlight the relevance of the product to a web developer.
+
+[!][A short intro video on Prometheus](https://www.youtube.com/embed/ioa0eISf1Q0)
 
 ### Credits
 
@@ -93,4 +109,12 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 #### References
 Pros and Cons review https://www.trustradius.com/products/prometheus/reviews?qs=pros-and-cons#overview
+
+Wikipedia on Prometheus https://en.wikipedia.org/wiki/Prometheus_(software)
+
+Prometheus own site https://prometheus.io/docs/introduction/overview/
+
+Prometheus blog https://prometheus.io/blog/
+
+Intro video of Prometheus https://www.youtube.com/embed/ioa0eISf1Q0
 - List of video or links used during research
