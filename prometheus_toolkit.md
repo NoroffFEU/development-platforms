@@ -14,7 +14,7 @@ folder: development-platforms
 Prometheus is an Open-Source systems monitoring and alerting toolkit that collects and stores it's numerical measurements as time series data. Information is stored with the timestamp at which it was recorded, alongside optional key-value pairs called labels. 
 
 By the use of a multi-dimensional data model, data can be sliced and diced at will, along dimensions like instance, service, endpoint, and method.
-It is based on a principal of Operational simplicity, so that you can spin up a monitoring server where and when you want, even as a local server at home on your desktop computer. This without setting up a distributed storage backend or reconfiguring the world. 
+It is based on a principal of `Operational Simplicity`, so that you can spin up a monitoring server where and when you want, even as a local server at home on your desktop computer. This without setting up a distributed storage backend or reconfiguring the world. 
 
 #### What is and why would i might want systems monitoring
 It is a tool for Executive management, PO's and clients to have a singel view of project schedules, health, risks, progress and documents. Look at it from an financial aspect
