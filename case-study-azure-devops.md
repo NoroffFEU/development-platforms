@@ -37,16 +37,16 @@ folder: development-platforms
 
 **Azure DevOps** was initially released in 2018 by Microsoft. It is a set of developer tools, services, and features that enable teams to plan, develop, test, and deliver software more effectively. Azure DevOps integrates with the broader Azure cloud computing platform, enabling users to take advantage of its features and services, such as continuous integration and deployment, and virtual machines. Azure DevOps has since become one of the leading development platforms and is widely used by development teams across the world.
 
-Azure DevOps is for the most part free to use, however there is some limitations with using only the free tier options. I will go in deeper details about the pricing [here](#pricing)
+Azure DevOps is for the most part free to use, however there is some limitations with using only a free tier option. I will go in deeper details about the pricing [here](#pricing)
 
 ## **Brief History**
 
-In 2005 the service that we today refer to as Azure DevOps was named Team Foundation server(TFS). It was released as a set of development tools and services for teams building software applications. After its release in 2005 it have evolved and expanded with new features and services and have quickly become the most popular development platforms fro Microsoft-centric teams. TFS has been around for more then a decade, and it have since its inception in 2005 evolved a lot. There are professionals in the industry whose entire careers have been dedicated to managing TFS. Such expertise has been necessary because it was quite complicated to administer.
+In 2005 the service that we today refer to as Azure DevOps was named Team Foundation server(TFS). It was released as a set of development tools and services for teams building software applications. After its release in 2005 it has evolved and expanded with new features and services and have quickly become the most popular development platforms for Microsoft-centric teams. TFS has been around for more than a decade, and it has evolved a lot since its inception in 2005. There are professionals in the industry whose entire careers have been dedicated to managing TFS. Such expertise has been necessary because it was quite complicated to administer.
 
 In 2012, TFS morphed into a tool that helped teams manage their software development projects using Agile. [[1](#references)]
 
-The name **"Azure DevOps"** came in 2018. Microsoft rebranded TFS to Azure DevOps, this reflecting Microsoft shift to a cloud based service and its focus on providing organizations with a more comprehensive set of tools and services.
-After the rebranding Azure DevOps has continued to evolve and add more features, you can read more about the features [here](#features). Azure DevOps have also integrated other Azure services such as Azure functions, Azure Container and Azure Kubernetes service. [[2](#references)]
+The name **"Azure DevOps"** came in 2018. Microsoft re-branded TFS to Azure DevOps, this reflecting Microsoft shift to a cloud based service and its focus on providing organizations with a more comprehensive set of tools and services.
+After the re-branding Azure DevOps has continued to evolve and add more features, you can read more about the features [here](#features). Azure DevOps has also integrated other Azure services such as Azure functions, Azure Container and Azure Kubernetes service. [[2](#references)]
 
 ## **Features**
 
@@ -78,7 +78,7 @@ By using Git in Azure DevOps, you can benefit from the power and flexibility of 
 
 With Azure DevOps pipeline you can set up automatic builds and tests for your code project. It have support for all major languages and project types.
 
-The continuous Integration setted up to catch bugs early in the development cycle will benefit you as a programmer to save time and money due to less fixing of bugs later on.
+The continuous Integration set up to catch bugs early in the development cycle will benefit you as a programmer to save time and money due to less fixing of bugs later on.
 
 The continuous Delivery is a process by which code is built, tested, and deployed to one or more test and production environments. Deploying and testing in multiple environments increases quality
 
@@ -97,15 +97,15 @@ The continuous Delivery is a process by which code is built, tested, and deploye
 
 ### Project Management
 
-With Azure Boards you can manage your projects in great details. It provides a rich set of capabilities including native support for Agile, Scrum, and Kanban processes, calendar views, configurable dashboards, and integrated reporting.
+With Azure Boards you can manage your projects in great detail. It provides a rich set of capabilities including native support for Agile, Scrum, and Kanban processes, calendar views, configurable dashboards, and integrated reporting.
 
-The boards have many great features that you can use for free as long as you have an account, and you can have total 5 team member when using the free basic plan details about pricing, limitations and the different plans you will find under pricing.
+The boards have many great features that you can use for free as long as you have an account, and you can have a total 5 team members when using the free basic plan details about pricing, limitations and the different plans you will find under pricing.
 
 *Reference [[5](#references)]*
 
 ### Work Item Tracking
 
-You track your or your teams work by creating a work item. IN Azure DevOps you will need to choose what system process you want to work by. There is for of them.
+You track your’s or your team's work by creating a work item. In Azure DevOps you will need to choose what system process you want to work by. There are four of them.
 
 1. Agile
 2. Basic
@@ -120,7 +120,7 @@ In the video below I will demonstrate how to create a new work item inside the b
 
 ### Test Case Management
 
-With Azure Test Plans you and your team is provided with a rich and powerful tool that can be used to drive quality and collaboration during the project process. Testing is done in a browser-based test management. By using the test plan you can get feedback from stakeholders, developers can request feedback on their user stories and features. Stakeholders can respond to feedback requests using the browser-based Test & Feedback extension - not just to rate and send comments, but also by capturing rich diagnostic data and filing bugs and tasks directly.
+With Azure Test Plans you and your team are provided with a rich and powerful tool that can be used to drive quality and collaboration during the project process. Testing is done in a browser-based test management. By using the test plan you can get feedback from stakeholders, developers can request feedback on their user stories and features. Stakeholders can respond to feedback requests using the browser-based Test & Feedback extension - not just to rate and send comments, but also by capturing rich diagnostic data and filing bugs and tasks directly.
 
 With the test plan you can set up manual and automatic testing, its easy to trace and get reports from the testing that have been done.
 
@@ -128,7 +128,7 @@ With the test plan you can set up manual and automatic testing, its easy to trac
 
 ### Release Management
 
-Azure DevOps offer a classic release pipeline setup where you can easily and safely deploy their applications to multiple environments. There options for setting up fully automate testing and deployment or set up a semi-automated process.
+Azure DevOps offer a classic release pipeline setup where you can easily and safely deploy their applications to multiple environments. There are options for setting up fully automated testing and deployment or setting up a semi-automated process.
 
 <div style="width: 600px;">
 
@@ -146,18 +146,18 @@ Azure DevOps offer a classic release pipeline setup where you can easily and saf
 
 ### Collaboration
 
-There multiple ways to arrange good collaboration when using Azure DevOps, I will give you a quick overview of the different options you will have when working with Azure DevOps.
+There are multiple ways to arrange good collaboration when using Azure DevOps, I will give you a quick overview of the different options you will have when working with Azure DevOps.
 
 #### Agile project management
 
-With the Agile project management that Azure DevOps offer, collaboration between you team members. You can create branches for each team members to contribute there work to the project.
-And with the board managements that that they offer you and your team can keep good track of the work that is being done.
+With the Agile project management that Azure DevOps offer, collaboration between your team members. You can create branches for each team member to contribute their work to the project.
+And with the board management that they offer you and your team can keep good track of the work that is being done.
 
 *Reference [[9](#references)]*
 
 #### Teams collaboration
 
-Azure DevOps also offer integrations with Microsoft Teams, but to be able to use this feature you should to have a office365 account, they are offering a free trail of the Office365 for you to be able to test out the integrating between teams and Azure DevOps. You can read more about this and see how you make the integration if you have a look at the reference link.
+Azure DevOps also offer integrations with Microsoft Teams, but to be able to use this feature you should have an Office365 account, they are offering a free trial of the Office365 for you to be able to test out the integration between teams and Azure DevOps. You can read more about this and see how you make the integration if you have a look at the reference link.
 
 By using Azure DevOps and Microsoft team you and your team will have a really good way of collaborating and making sure that your project goes according to plan. You can show and adjust your team board in the teams app.
 
@@ -178,9 +178,9 @@ By using Azure DevOps and Microsoft team you and your team will have a really go
 #### Azure DevOps Wiki
 
 Each project in Azure DevOps supports its own wiki, which enables you to conveniently write pages that help your team members and other users understand, use, and contribute to your project.
-The wiki pages you create can be edited in you preferred IDE. YOu only need to clone the Wiki in to your IDE and you can work on it there. Its powered by a git repository.
+The wiki pages you create can be edited in your preferred IDE. YOu only need to clone the Wiki into your IDE and you can work on it there. It's powered by a git repository.
 
-Normally the developer will have a Markdown file to store documentation, alongside the source code in a folder or just directly in the area you are working on. By using the Wiki feature you are abel to store your documentation, and its easy to add to your existing project. Wiki scan your files and make each markdown file into a wiki note.
+Normally the developer will have a Markdown file to store documentation, alongside the source code in a folder or just directly in the area you are working on. By using the Wiki feature you are able to store your documentation, and it's easy to add to your existing project. Wiki scan your files and make each markdown file into a wiki note.
 
 Here is a <a href="https://www.youtube.com/embed/Mmyw8rLs11c">Youtube video</a> showcasing the power of Azure DevOps Wiki features.
 
@@ -220,17 +220,17 @@ Integrated Analytics in Azure DevOps helps you make data-driven decisions by giv
 
 ## **Strengths**
 
-Easy to integrate with GitHub. In 2018 Microsoft bought GitHub for $7.5 billion, so the connection between the popular code-repository service used by many developers and large companies and Azure DevOps is really easy to setup and use. The boards that Azure provide have more options to offer and looks better then in the project boards that Github provides. So to be able to use the boards that Azure DevOps offer combined whit Github repo is great.
+Easy to integrate with GitHub. In 2018 Microsoft bought GitHub for $7.5 billion, so the connection between the popular code-repository service used by many developers and large companies and Azure DevOps is really easy to setup and use. The boards that Azure provides have more options to offer and look better then in the project boards that Github provides. So to be able to use the boards that Azure DevOps offer combined with Github repo is great.
 
-Azure DevOps have a huge documentation archive, that is describing in details how to use the service. [[15](#references)]
+Azure DevOps has a huge documentation archive that describes in detail how to use the service. [[15](#references)]
 
-Azure DevOps have a extension for Visual Studio Code [[16](#references)]. The extension features ability to export a planning session into Azure DevOps system. Planning in Azure DevOps itself is hard, way too much clicking. It's so much easier to just type all the tasks in a simple text form and then just export them.
+Azure DevOps have a extension for Visual Studio Code [[16](#references)]. The extension features the ability to export a planning session into Azure DevOps system. Planning in Azure DevOps itself is hard, way too much clicking. It's so much easier to just type all the tasks in a simple text form and then just export them.
 
 ## **Weaknesses**
 
-There are some weaknesses whit Azure DevOps, like any software platforms.
+There are some weaknesses with Azure DevOps, like any software platform.
 
-One of the weakness is the cost for larger organizations that needs additional service and support, or have really large teams. It's also a bit complex to the new DevOps, so there might be a steep learning curve to be able to use Azure DevOps and to be able to use all that is available. Also, if you are new to the system of Azure DevOps, it can come across as a bit confusing or cluttered when it comes to the user experience.
+One of the weaknesses is the cost for larger organizations that need additional service and support, or have really large teams. It's also a bit complex to the new DevOps, so there might be a steep learning curve to be able to use Azure DevOps and to be able to use all that is available. Also, if you are new to the system of Azure DevOps, it can come across as a bit confusing or cluttered when it comes to the user experience.
 
 Azure DevOps is highly customizable, but this can lead to a lack of standardization across projects and teams, making it more difficult to manage and maintain the platform.
 
@@ -250,12 +250,12 @@ The pricing of using Azure DevOps depends on the size of your team or organizati
 
 </div>
 
-As you can see in the image above there is a wide range fo options to choose from when it comes to the services that Azure DevOps have to offer.
+As you can see in the image above there is a wide range of options to choose from when it comes to the services that Azure DevOps have to offer.
 
 The **Basic plan** of Azure DevOps is a free plan that provides limited features for small teams or individual developers. You will have access to the following features with basic plan:
 
 1. Version control, you can use Git to manage your source code
-2. WWork Tracking by using the project boards. You can in there create work items to track issues, bugs, tasks and backlogs to prioritize and mange work.
+2. Work Tracking by using the project boards. You can create work items to track issues, bugs, tasks and backlogs to prioritize and manage work.
 3. Package management.
 4. Basic security and compliance: You can use features such as pull requests and code reviews to secure your code, and compliance features such as auditing and disaster recovery to meet regulatory requirements.
 5. Continuous integration (CI): You can set up CI pipelines to automatically build, test, and deploy your code.
@@ -263,7 +263,7 @@ The **Basic plan** of Azure DevOps is a free plan that provides limited features
 
 ### **Support**
 
-There is also a option for premium support from Azure DevOps.
+There is also an option for premium support from Azure DevOps.
 The cost of premium support for Azure DevOps varies based on a number of factors, including the level of support required, the number of users, and the level of service desired.
 
 Microsoft does not publicly disclose the exact cost of its premium support plans for Azure DevOps, as the pricing is customized for each organization based on its specific needs and requirements. To obtain an accurate estimate of the cost of premium support for Azure DevOps, organizations should contact Microsoft directly to discuss their specific needs and requirements.
@@ -283,9 +283,9 @@ It is worth noting that while premium support may have a higher upfront cost tha
 
 Azure DevOps is a cloud computing platform and infrastructure with many features that can help you and your team with the workflow on your project. It's easy to create a free account with a small team and for a larger team you have more options.
 
-All work when using Azure DevOps can be done with your IDE. Integration with Visual Studio Code and git, you can work manly in the IDE but based on my research I have found that with the IDE and Microsoft Team you can have your code and communication with your team, manage your work board tasks.
+All work when using Azure DevOps can be done with your IDE. Integration with Visual Studio Code and git, you can work mainly in the IDE but based on my research I have found that with the IDE and Microsoft Team you can have your code and communication with your team, manage your work board tasks.
 
-The platform itself is a clean and eay to use with loads of documentations for you to be able to make the most out of the platform.
+The platform itself is clean and easy to use with loads of documentation for you to be able to make the most out of the platform.
 
 ### **Credits**
 
@@ -294,11 +294,11 @@ Author: Christopher Tønnesland
 **Contact**
 
 <div style="display: flex; gap: 15px; flex-wrap: wrap;">
-    <a href="mailto:christopher.tonnesland@gmail.com"><img img src="https://img.shields.io/badge/gmail-%23EA4335.svg?style=plastic&logo=gmail&logoColor=white" alt="Gmail"/></a>
-    <a href="https://github.com/christonn"><img src="https://img.shields.io/badge/github-%23181717.svg?style=plastic&logo=github&logoColor=white" alt="GitHub"/></a>
-    <a href="https://wa.me/+4745481637"><img src="https://img.shields.io/badge/whatsapp-%2325D366.svg?style=plastic&logo=whatsapp&logoColor=white" alt="Whatsapp"/></a>
-    <a href="https://linkedin.com/in/christopher tønnesland"><img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="https://www.facebook.com/christonn93/"><img src="https://img.shields.io/badge/facebook-%231877F2.svg?style=plastic&logo=facebook&logoColor=white" alt="Facebook"/></a>
+	<a href="mailto:christopher.tonnesland@gmail.com"><img img src="https://img.shields.io/badge/gmail-%23EA4335.svg?style=plastic&logo=gmail&logoColor=white" alt="Gmail"/></a>
+	<a href="https://github.com/christonn"><img src="https://img.shields.io/badge/github-%23181717.svg?style=plastic&logo=github&logoColor=white" alt="GitHub"/></a>
+	<a href="https://wa.me/+4745481637"><img src="https://img.shields.io/badge/whatsapp-%2325D366.svg?style=plastic&logo=whatsapp&logoColor=white" alt="Whatsapp"/></a>
+	<a href="https://linkedin.com/in/christopher tønnesland"><img src="https://img.shields.io/badge/linkedin-%230A66C2.svg?style=plastic&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+	<a href="https://www.facebook.com/christonn93/"><img src="https://img.shields.io/badge/facebook-%231877F2.svg?style=plastic&logo=facebook&logoColor=white" alt="Facebook"/></a>
 </div>
 </br>
 
