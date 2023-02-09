@@ -19,7 +19,7 @@ A code editor like VSC
 
 The following should be your filing tree.
 
-Root
+Root  
 |**src/  
 | |\_index.js  
 |**dist/  
