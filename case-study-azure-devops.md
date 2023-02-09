@@ -220,7 +220,9 @@ Integrated Analytics in Azure DevOps helps you make data-driven decisions by giv
 
 ## **Strengths**
 
-Easy to integrate with GitHub. In 2018 Microsoft bought GitHub for $7.5 billion, so the connection between the popular code-repository service used by many developers and large companies and Azure DevOps is really easy to setup and use. The boards that Azure provides have more options to offer and look better then in the project boards that Github provides. So to be able to use the boards that Azure DevOps offer combined with Github repo is great.
+Azure DevOps have lots of strengths, but it's important to keep in mind that the strengths of the platform may vary depending on the specific needs of an organization, and that the weaknesses of the platform may also be relevant in some cases
+
+Its really easy to integrate with the widly used platform GitHub. In fact 2018 Microsoft bought GitHub for $7.5 billion, so the connection between the popular code-repository service used by many developers and large companies and Azure DevOps is really easy to setup and use. The boards that Azure provides have more options to offer and look better then in the project boards that Github provides. So to be able to use the boards that Azure DevOps offer combined with Github repo is great.
 
 Azure DevOps has a huge documentation archive that describes in detail how to use the service. [[15](#references)]
 
