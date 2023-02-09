@@ -274,15 +274,6 @@ It is worth noting that while premium support may have a higher upfront cost tha
 
 While Azure DevOps is one of the leading platforms out on the marked, there are more options for the developers to use. Here is some alternative to Azure DevOps.
 
-| Platform | Price | Features | Strengths | Weaknesses |
-|----------|-------|----------|-----------|-----------|
-| Azure DevOps | Starts at $6 per user/month for Basic and goes up to $30 per user/month for Advanced. There is also a free plan for small teams. | Azure DevOps provides an end-to-end solution for software development, including project management, source control, continuous integration and deployment, testing, and release management. It also integrates with other Microsoft services such as Office 365 and Teams. | Strong integration with Microsoft services and technologies. Good for enterprises. Offers a comprehensive solution for software development. | Limited third-party integrations compared to other platforms. User interface can be complicated for some. |
-| Jira | Starts at $7 per user/month for Jira Software and goes up to $14 per user/month for Jira Service Desk. There is also a free plan for small teams. | Jira provides project and issue tracking, as well as agile project management. It also offers custom fields, reporting, and dashboards. | Strong project management features and customizability. Good for agile software development. Widely used and supported by a large community. | Limited source control and continuous integration features compared to other platforms. User interface can be complicated for some. |
-| GitHub | Free for public repositories and starts at $4 per user/month for private repositories. | GitHub provides source control and version control, as well as project management and collaboration features. It also offers continuous integration and deployment, pull requests, and issues. | Widely used and supported by a large developer community. Good for open-source projects. Offers integrations with many other tools and services. | Limited project management and agile planning features compared to other platforms. User interface can be cluttered for some. |
-| GitLab | Free for public repositories and starts at $4 per user/month for private repositories. | GitLab provides source control, continuous integration and deployment, security, and project management. It also offers issue tracking, wikis, and dashboards. | Good for DevOps and continuous delivery. Offers a comprehensive solution for software development. Strong focus on security and compliance. | User interface can be complicated for some. Not as widely used or supported as other platforms. |
-
-<https://www.peerspot.com/products/jira-reviews#reviews-container>
-
 <table style="width:100%;">
   <tr style="background-color: #3E3E3E; color: white;">
     <th>Platform</th>
@@ -290,13 +281,24 @@ While Azure DevOps is one of the leading platforms out on the marked, there are 
     <th>Features</th>
     <th>Strengths</th>
     <th>Weaknesses</th>
+    <th>Reference</th>
   </tr>
-  <tr style="background-color: #FCF8E8; color: black;">
+  <tr style="background-color: #ffffff; color: black;">
     <td>Azure DevOps</td>
     <td>Starts at $6 per user/month for Basic and goes up to $30 per user/month for Advanced. There is also a free plan for small teams.</td>
     <td>Azure DevOps provides an end-to-end solution for software development, including project management, source control, continuous integration and deployment, testing, and release management. It also integrates with other Microsoft services such as Office 365 and Teams.</td>
     <td>Strong integration with Microsoft services and technologies. Good for enterprises. Offers a comprehensive solution for software development.</td>
     <td>Limited third-party integrations compared to other platforms. User interface can be complicated for some.</td>
+    <td>
+        <ul style="list-style: none; padding: 0; color: black;">
+            <li>
+                <a href="https://azure.microsoft.com/en-us/products/devops" style="color: #131313; text-decoration: underline #131313;">Azure DevOps</a>
+            </li>
+            <li>
+                <a href="https://sourceforge.net/software/product/Azure-DevOps-Server/" style="color: #131313; text-decoration: underline #131313;">Sourceforge</a>
+            </li>
+        </ul>
+    </td>
   </tr>
   <tr style="background-color: #3E3E3E; color: white;">
     <td>Jira</td>
@@ -304,13 +306,33 @@ While Azure DevOps is one of the leading platforms out on the marked, there are 
     <td>Jira provides project and issue tracking, as well as agile project management. It also offers custom fields, reporting, and dashboards.</td>
     <td>Strong project management features and customizability. Good for agile software development. Widely used and supported by a large community.</td>
     <td>Limited source control and continuous integration features compared to other platforms. User interface can be complicated for some.</td>
+    <td>
+        <ul style="list-style: none; padding: 0; color: black;">
+            <li>
+                <a href="https://www.atlassian.com/software/jira" style="color: #ffffff; text-decoration: underline #ffffff;">Jira software</a>
+            </li>
+            <li>
+                <a href="https://sourceforge.net/software/product/JIRA/" style="color: #ffffff; text-decoration: underline #ffffff;">Sourceforge</a>
+            </li>
+        </ul>
+    </td>
   </tr>
-  <tr style="background-color: #FCF8E8; color: black;">
+  <tr style="background-color: #ffffff; color: black;">
     <td>GitHub</td>
     <td>Free for public repositories and starts at $4 per user/month for private repositories.</td>
     <td>GitHub provides source control and version control, as well as project management and collaboration features. It also offers continuous integration and deployment, pull requests, and issues.</td>
     <td>Widely used and supported by a large developer community. Good for open-source projects. Offers integrations with many other tools and services.</td>
     <td>Limited project management and agile planning features compared to other platforms. User interface can be cluttered for some.</td>
+    <td>
+        <ul style="list-style: none; padding: 0; color: black;">
+            <li>
+                <a href="https://github.com/about" style="color: #131313; text-decoration: underline #131313;">GitHub</a>
+            </li>
+            <li>
+                <a href="https://sourceforge.net/software/product/GitHub/" style="color: #131313; text-decoration: underline #131313;">Sourceforge</a>
+            </li>
+        </ul>
+    </td>
   </tr>
   <tr style="background-color: #3E3E3E; color: white;">
     <td>GitLab</td>
@@ -318,8 +340,20 @@ While Azure DevOps is one of the leading platforms out on the marked, there are 
     <td>GitLab provides source control, continuous integration and deployment, security, and project management. It also offers issue tracking, wikis, and dashboards.</td>
     <td>Good for DevOps and continuous delivery. Offers a comprehensive solution for software development. Strong focus on security and compliance.</td>
     <td>User interface can be complicated for some. Not as widely used or supported as other platforms.</td>
+    <td>
+        <ul style="list-style: none; padding: 0; color: black;">
+            <li>
+                <a href="https://about.gitlab.com/" style="color: #ffffff; text-decoration: underline #ffffff;">GitLab</a>
+            </li>
+            <li>
+                <a href="https://sourceforge.net/software/product/GitLab/" style="color: #ffffff; text-decoration: underline #ffffff;">Sourceforge</a>
+            </li>
+        </ul>
+    </td>
     </tr>
-    </table>
+</table>
+
+To create comparison between the software above i have used [this website](https://sourceforge.net/)
 
 ## **How to**
 
