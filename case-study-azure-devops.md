@@ -230,13 +230,13 @@ Azure DevOps have a extension for Visual Studio Code [[16](#references)]. The ex
 
 There are some weaknesses with Azure DevOps, like any software platform.
 
-One of the weaknesses is the cost for larger organizations that need additional service and support, or have really large teams. It's also a bit complex to the new DevOps, so there might be a steep learning curve to be able to use Azure DevOps and to be able to use all that is available. Also, if you are new to the system of Azure DevOps, it can come across as a bit confusing or cluttered when it comes to the user experience.
+One of the weaknesses is the cost for larger organizations that need additional service and support or have really large teams. It's also a bit complex to the new DevOps so there might be a steep learning curve to be able to use Azure DevOps and to be able to use all that is available. Also, if you are new to the system of Azure DevOps it can come across as a bit confusing or cluttered when it comes to the user experience.
 
 Azure DevOps is highly customizable, but this can lead to a lack of standardization across projects and teams, making it more difficult to manage and maintain the platform.
 
 ## **Pricing**
 
-The pricing of using Azure DevOps depends on the size of your team or organization. The image below will show you the pricing model that Azure DevOps have.
+The pricing of using Azure DevOps depends on the size of your team or organization. The image below shows the pricing model that Azure DevOps have.
 
 <div style="width: 600px;">
 
@@ -257,18 +257,18 @@ The **Basic plan** of Azure DevOps is a free plan that provides limited features
 1. Version control, you can use Git to manage your source code
 2. Work Tracking by using the project boards. You can create work items to track issues, bugs, tasks and backlogs to prioritize and manage work.
 3. Package management.
-4. Basic security and compliance: You can use features such as pull requests and code reviews to secure your code, and compliance features such as auditing and disaster recovery to meet regulatory requirements.
-5. Continuous integration (CI): You can set up CI pipelines to automatically build, test, and deploy your code.
+4. Basic security and compliance: You can use features such as pull requests and code reviews to secure your code and compliance features such as auditing and disaster recovery to meet regulatory requirements.
+5. Continuous integration (CI): You can set up CI pipelines to automatically build, test and deploy your code.
 (*There are some limitations with the Basic plan, such as the number of parallel pipelines and the number of minutes available for CI/CD, but it is a great option for small teams or individual developers who are just getting started with DevOps.*)
 
 ### **Support**
 
-There is also an option for premium support from Azure DevOps.
-The cost of premium support for Azure DevOps varies based on a number of factors, including the level of support required, the number of users, and the level of service desired.
+There is an option for premium support from Azure DevOps.
+The cost of premium support for Azure DevOps varies based on a number of factors, including the level of support required, the number of users and the level of service desired.
 
-Microsoft does not publicly disclose the exact cost of its premium support plans for Azure DevOps, as the pricing is customized for each organization based on its specific needs and requirements. To obtain an accurate estimate of the cost of premium support for Azure DevOps, organizations should contact Microsoft directly to discuss their specific needs and requirements.
+Microsoft does not publicly disclose the exact cost of its premium support plans for Azure DevOps, as pricing is customized for each organization based on its specific needs and requirements. To obtain an accurate estimate of the cost of premium support for Azure DevOps, organizations should contact Microsoft directly to discuss their specific needs and requirements.
 
-It is worth noting that while premium support may have a higher upfront cost than basic support, it can provide organizations with a number of benefits, including faster response times, dedicated support engineers, and access to a wider range of support resources and expertise, which can help to minimize downtime and ensure that any issues are resolved quickly and effectively.
+It is worth noting that while premium support may have a higher upfront cost than the basic support, it can provide organizations with a number of benefits, including faster response times, dedicated support engineers, access to a wider range of support resources and expertise, which can help to minimize downtime and ensure that any issues are resolved quickly and effectively.
 
 ## **Comparison**
 
@@ -283,7 +283,7 @@ It is worth noting that while premium support may have a higher upfront cost tha
 
 Azure DevOps is a cloud computing platform and infrastructure with many features that can help you and your team with the workflow on your project. It's easy to create a free account with a small team and for a larger team you have more options.
 
-All work when using Azure DevOps can be done with your IDE. Integration with Visual Studio Code and git, you can work mainly in the IDE but based on my research I have found that with the IDE and Microsoft Team you can have your code and communication with your team, manage your work board tasks.
+All work when using Azure DevOps can be done with IDE. Integration with Visual Studio Code and git, you can work mainly in the IDE, but based on my research I have found that with the IDE and Microsoft Team you can have your code and communication with your team, manage your work board tasks.
 
 The platform itself is clean and easy to use with loads of documentation for you to be able to make the most out of the platform.
 
