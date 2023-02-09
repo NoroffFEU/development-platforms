@@ -289,6 +289,9 @@ Some of the ways that organizations can benefit by choosing to deploy Jira inclu
 
 Jira's free tier offers up to 10 users, unlimited project boards and 2gb free storage. Most of the Jira users find it to be quite easy and straightforward to deploy. There is good stability and scalability when using Jira.
 
+Compared to Azure DevOps, Jira offers more users on the free tier option, they both have good project boards, tracking, release and reports. 
+
+
 https://www.peerspot.com/products/jira-reviews#reviews-container
 
 ### GitHub
