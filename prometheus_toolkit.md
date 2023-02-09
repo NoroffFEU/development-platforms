@@ -117,4 +117,6 @@ Prometheus own site https://prometheus.io/docs/introduction/overview/
 Prometheus blog https://prometheus.io/blog/
 
 Intro video of Prometheus https://www.youtube.com/embed/ioa0eISf1Q0
+
+Promethus youtube channel https://www.youtube.com/@PrometheusIo
 - List of video or links used during research
