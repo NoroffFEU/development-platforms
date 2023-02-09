@@ -355,6 +355,8 @@ While Azure DevOps is one of the leading platforms out on the marked, there are 
 
 To create comparison between the software above i have used [this website](https://sourceforge.net/)
 
+## **How to**
+
 ## **Summary**
 
 Azure DevOps is a cloud computing platform and infrastructure with many features that can help you and your team with the workflow on your project. It's easy to create a free account with a small team and for a larger team you have more options.
