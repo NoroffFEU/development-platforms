@@ -80,7 +80,7 @@ Compared to [InfluxDB](https://www.influxdata.com/), Prometheus is a better choi
 
 With Prometheus you get servers that are run independently of each other and only rely on their local storage for their core functionality: scraping, rule processing and alerting.
 
-The comercial InfluxDB offering is, by design, a distributed storage cluster with storage and queries being handled by many nodes at once. With that it means that the commercial version of InfluxDB will scale horizontally easier then Prometheus, but at the same time you need to manage higher complexity of a distributed storage systems strait of from the start. Prometheus is easier to setup and run. 
+The commercial InfluxDB offering is, by design, a distributed storage cluster with storage and queries being handled by many nodes at once. With that, it means that the commercial version of InfluxDB will scale horizontally easier than Prometheus, but at the same time, you need to manage the higher complexity of distributed storage systems straight off from the start. Prometheus is easier to setup and run. 
 
 There is an open source version of InfluxDB that is similar to Prometheus, but not completly the same when it comes to the architecture of the system.
 
