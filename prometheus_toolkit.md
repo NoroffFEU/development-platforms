@@ -27,9 +27,7 @@ Prometheus is an open-source project built at [SoundCloud](https://soundcloud.co
 Prometheus joined the [Cloud Native Computing Foundation](https://www.cncf.io/) in 2016 as the second hosted project, after [Kubernetes](https://kubernetes.io/).
 
 
-Provide a brief history of the product, including major milestones or events.
 
-You may use bullet points, numbered lists, paragraphs or a timeline.
 
 ## Features
 
@@ -99,8 +97,6 @@ When it comes to deployment it is quick to do when you need a new server for ins
 You can read more at Prometheus own [blog](https://prometheus.io/blog/), here you will also find pictograms that shows the flow of use.
 
 
-Summarise the content and highlight the relevance of the product to a web developer.
-
 [!][A short intro video on Prometheus](https://www.youtube.com/embed/ioa0eISf1Q0)
 
 ### Credits
@@ -119,4 +115,4 @@ Prometheus blog https://prometheus.io/blog/
 Intro video of Prometheus https://www.youtube.com/embed/ioa0eISf1Q0
 
 Promethus youtube channel https://www.youtube.com/@PrometheusIo
-- List of video or links used during research
+
