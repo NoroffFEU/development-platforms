@@ -33,7 +33,7 @@ Prometheus joined the [Cloud Native Computing Foundation](https://www.cncf.io/) 
 
 * A multi-dimensional [data model](https://prometheus.io/docs/concepts/data_model/)
 * PromQL, a [flexible query language](https://prometheus.io/docs/prometheus/latest/querying/basics/)
-* no reliance on distributed storage
+* No reliance on distributed storage
 * [Pushing time series](https://prometheus.io/docs/instrumenting/pushing/) available via intermediary gateway
 * Targets are discovered via service discovery or static configuration
 * Multiple modes of graphing and dashboarding support
