@@ -112,7 +112,7 @@ You track your’s or your team's work by creating a work item. In Azure DevOps 
 3. Scrum
 4. Capability maturity model integration
 
-In the video below I will demonstrate how to create a new work item inside the board
+In the video below you can see how to create a new work item on the board.
 
 <a href="https://www.loom.com/share/2fccb37e458941fbae25e87f309ba55e"><img src="https://i.ibb.co/d07zn4d/Screenshot-2023-01-31-at-14-43-11-Development-platforms-Team-Features-Board-Boards.png" style="width: 600px;"/></a>
 
@@ -146,11 +146,11 @@ Azure DevOps offer a classic release pipeline setup where you can easily and saf
 
 ### Collaboration
 
-There are multiple ways to arrange good collaboration when using Azure DevOps, I will give you a quick overview of the different options you will have when working with Azure DevOps.
+There are multiple ways to arrange a good collaboration when using Azure DevOps, below you will find a short overview of the different options Azure DevOps offer on collaboration.
 
 #### Agile project management
 
-With the Agile project management that Azure DevOps offer, collaboration between your team members. You can create branches for each team member to contribute their work to the project.
+With the Agile project management that Azure DevOps offers, collaboration between your team members. You can create branches for each team member to contribute their work to the project.
 And with the board management that they offer you and your team can keep good track of the work that is being done.
 
 *Reference [[9](#references)]*
@@ -177,10 +177,10 @@ By using Azure DevOps and Microsoft team you and your team will have a really go
 
 #### Azure DevOps Wiki
 
-Each project in Azure DevOps supports its own wiki, which enables you to conveniently write pages that help your team members and other users understand, use, and contribute to your project.
-The wiki pages you create can be edited in your preferred IDE. YOu only need to clone the Wiki into your IDE and you can work on it there. It's powered by a git repository.
+Each project in Azure DevOps supports its own wiki, which enables you to conveniently write pages that help your team members and other users understand, use and contribute to your project.
+The wiki pages you create can be edited in your preferred IDE. You only need to clone the Wiki into your IDE and work on it there. It's powered by a git repository.
 
-Normally the developer will have a Markdown file to store documentation, alongside the source code in a folder or just directly in the area you are working on. By using the Wiki feature you are able to store your documentation, and it's easy to add to your existing project. Wiki scan your files and make each markdown file into a wiki note.
+Normally the developer will have a Markdown file to store documentation alongside the source code in a folder or just directly in the area you are working on. By using the Wiki feature it is possible to store your documentation and it's easy to add to your existing project. Wiki scans the files and make each markdown file into a wiki note.
 
 Here is a <a href="https://www.youtube.com/embed/Mmyw8rLs11c">Youtube video</a> showcasing the power of Azure DevOps Wiki features.
 
@@ -188,31 +188,31 @@ Here is a <a href="https://www.youtube.com/embed/Mmyw8rLs11c">Youtube video</a> 
 
 ### Package Management
 
-Azure DevOps provides Package Management, which is a feature that helps you manage and share packages across your organization. Package Management supports several popular package formats, including NuGet, npm, Maven, and Python packages.
+Azure DevOps provides Package Management which is a feature that helps you manage and share packages across your organization. Package Management supports several popular package formats, including NuGet, npm, Maven, and Python packages.
 
-With Package Management, you can publish your packages to an internal or external feed, and then consume them in your builds and releases. You can also manage packages from different package sources, such as public feeds like npmjs.com or Maven Central, or private feeds created by your team.
+With Package Management you can publish packages to an internal or external feed and then consume them in your builds and releases. You can also manage packages from different package sources, such as public feeds like npmjs.com or Maven Central or a private feeds created by your team.
 
-When you publish a package, Azure DevOps stores the package and its metadata in the Package Management feed. You can then share the feed with others in your organization and use it as a source for your builds and releases.
+When you publish a package, Azure DevOps stores the package and its metadata in the Package Management feed. You can then share the feed with others in the organization and use it as a source for your builds and releases.
 
 In your builds and releases, you can use the packages from the Package Management feed by specifying the feed in your build or release definition. Azure DevOps will then download the packages and make them available to your build agents or release agents.
 
-Package Management in Azure DevOps helps you centralize your package management and improve collaboration and reuse within your organization. By using Package Management, you can ensure that your builds and releases use consistent and up-to-date packages.
+Package Management in Azure DevOps helps to centralize your package management and improve collaboration and reuse within the organization. The Package Management ensures that your builds and releases use consistent and up-to-date packages.
 
 *Reference [[12](#references)]*
 
 ### Code Review and Feedback
 
-Azure DevOps offers a code review and feedback system similar to other popular platforms, like GitHub. You create a pull request and on that request you can add your colleges to look at your code and review it.
+Azure DevOps offers a code review and feedback system similar to other popular platforms, like GitHub. You create a pull request and on that request you can add team members to look at the code and review it.
 
 *Reference [[13](#references)]*
 
 ### Integrated Analytics
 
-Azure DevOps provides Integrated Analytics, which is a feature that helps you analyze and visualize data from various sources within Azure DevOps. Integrated Analytics uses Azure Boards and Azure DevOps data to provide insights into your work items, code changes, and pipelines.
+Azure DevOps provides Integrated Analytics which is a feature that helps you analyze and visualize data from various sources within Azure DevOps. Integrated Analytics uses Azure Boards and Azure DevOps data to provide insights into your work items, code changes and pipelines.
 
-With Integrated Analytics, you can create and share reports and dashboards that visualize data from Azure DevOps in meaningful ways. For example, you can create a dashboard that shows the status of your work items, the number of code changes made in a given time period, and the success rate of your pipelines.
+With Integrated Analytics you can create and share reports and dashboards that visualize data from Azure DevOps in meaningful ways. For example, you can create a dashboard that shows the status of your work items, the number of code changes made in a given time period or the success rate of your pipelines.
 
-To create a report or dashboard, you can use the built-in report authoring tools in Azure DevOps, or you can use Power BI, which is a data visualization tool provided by Microsoft. To create a report or dashboard in Power BI, you can connect to the Azure DevOps data source and use the data to create charts, graphs, and other visualizations.
+To create a report or dashboard you can use the built-in report authoring tools in Azure DevOps, or you can use Power BI, which is a data visualization tool provided by Microsoft. To create a report or dashboard in Power BI, you can connect to the Azure DevOps data source and use the data to create charts, graphs, and other visualizations.
 
 Integrated Analytics in Azure DevOps helps you make data-driven decisions by giving you access to rich data visualizations and insights into your work. With Integrated Analytics, you can monitor the progress of your work and identify areas where improvements can be made.
 
