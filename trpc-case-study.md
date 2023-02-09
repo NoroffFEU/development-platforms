@@ -47,7 +47,13 @@ Since tRPC does not rely on schemas or code generation, and rather is a protocol
 
 ### Example of use
 
-In the image below, we see a basic example of tRPC protocols being called on front-end. We're using React queries to handle our ``CRUD`` operations on the front-end. Queries for our ``GET`` requests/operations and ``Mutations`` for our ``POST``, ``PUT`` and ``DELETE`` requests.
+In the example we're using a T3 app, configured with tRPC, Prisma and MongoDB. 
+
+      - MongoDB is our database.
+      - tRPC is will be used to create our endpoint.
+      - Prisma to handle data to our database.
+
+In our front-end, client folder we have defined an endpoint the following way, and is the example we're going to follow, while highlighting some of tRPC's excellent workflow and QoL features.
 
 ```tsx 
       import { api } from '../utils.api'; 
