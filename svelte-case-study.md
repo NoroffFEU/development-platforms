@@ -68,6 +68,7 @@ as well as limits the amount of resources the client needs to use to view the si
 - Comparing the bundle size, Svelte comes out at 1.6KB and React comes out at 42.2KB, this is thanks to Svelte's compile-time approach whilst React needs to make a bit more code so it can maintain the Virtual DOM that Svelte does not use.
 - Comparing the community sizes, React's community and user base is much larger than Svelte's since it's tried and tested and a very widely used framework, which leads to many developers that are able to help you with your issues on StackOverflow among other places.
 - Comparing the maintenance, React has Facebook backing and maintaining it with people hired specifically to maintain it whilst Svelte is owned by Vercel with only a few full time maintainers it's mainly them and community contributors who maintain the code since Vercel also maintains next.js.
+- Comparing which framework to pick, if it's a small(er) project, Svelte is great and will run fast but for larger and more complex projects where you (and a team) need to build fast it's a great framework to use due to it's reliability and built in features and tools.
 
 ## Summary
 
