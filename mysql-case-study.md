@@ -192,7 +192,61 @@ BLOB and TEXT
 
 - some developers argue that you CAN utilize BLOBs and TEXTs as a "document-database storage", meaning you can use a relational database to achieve some of the same benefits from a document-no-SQL database. However, this seems to be an ongoing debate.
 
-<!-- #### Character Sets -->
+ENUM
+
+- ENUM, which is short for enumeration. Is a string object where a set of values are enumerated.
+  Think of this as an array of string values, each value has an index and only one value can be selected at the time.
+  ENUMs store the string values as numbers to save data and returns strings when retieved.
+  Only one index can be selected at the time.
+
+SET
+
+- SET are in many ways similar to ENUMs. SET allows you to select many options, as opposed to ENUM which only allows one.
+  A SET column can have up to 64 members.
+  An error will occur if the values are duplicated when stict SQL mode is active.
+  Some argue that SET can be an inefficient way to store data because of it's limiting storage capacity when working with a "many to many relationship"
+
+##### Date and Time Data Types
+
+The Date and Time Data Types are: DATE,TIME,YEAR,DATETIME and TIMESTAMP.
+
+DATE
+
+- Function: Is used for date only.
+- Format: "YYYY-MM-DD".
+- Range: From "1000-01-01" to "9999-12-31".
+- Timezone coversion: Not possible.
+
+TIME
+
+- Function: Is used for time only.
+- Format: "HH:MM:SS" or "HHH:MM:SS" for large hours.
+- Range: From "-838:59:59.000000" to "838:59:59.000000".
+- Timezone coversion: Not possible.
+
+DATETIME
+
+- Function: Is used for both date and time.
+- Format: "YYYY-MM-DD hh:mm:ss".
+- Range: From "1000-01-01 00:00:00" to "9999-12-31 23:59:59".
+- Timezone coversion: Not possible.
+
+TIMESTAMP
+
+- Function: Is used for date, time and timezone conversion.
+- Format: "YYYY-MM-DD hh:mm:ss".
+- Range: From "1970-01-01 00:00:01.000000" UTC to "2038-01-19 03:14:07.999999" UTC.
+- Timezone coversion: Possible.
+
+Both TIMESTAMP and DATETIME can include fractional seconds up to 6 digits.
+
+YEAR
+
+- Function: Is used for year only.
+- Format: "YYYY".
+- Range: 1901 to 2155.
+- Timezone coversion: Not possible.
+- 1-byte storage value.
 
 #### Statments and Functions
 
