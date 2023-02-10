@@ -28,7 +28,7 @@ AWS was originally founded 2002 when they realized they had a significant advant
 and their ability to manage and scale their infrastructure realiabily and efficently. The first AWS hosting services was launched in 2006 when Amazon SQS 
 became avaliable, shortly followed by the AWS offerings: S3, EC2, SQS is a B2B service used by many famous applications such 
 as Netflix and Dropbox. These offerings pushed AWS to become a global player in cloud hosting platforms and reprecents the core of AWS.
-AWS has just grown by then and is today the global lead in cloud hosting with a market share of 33%, and the total amout of services has grown to over 200 with a broad span of services ranging from storage, compute, machiene learning, loT, etc. 
+AWS has just grown by then and is today the global lead in cloud hosting with a market share of 34%, and the total amout of services has grown to over 200 with a broad span of services ranging from storage, compute, machiene learning, loT, etc. 
 
 - 2002 - 2005 - Amazon launches Amazon.com Web Service offering SOAP and XML interfaces.
 - 2006 - 2008 - AWS began offering IT - infrastructure in form of web services. Amazon SQS (Simple Queue Service) and S3 (simple storage service) was launched.
@@ -79,7 +79,7 @@ An AWS costumers decides for them selves how many availability zones thay need b
 customers and availability optimization. 
 
 AWS is mostly knows for their EC2 solution. Amazon Elastic Compute Cloud is a service that provides virtual servers. EC2 offers dozens of instance types with different capacities and sizes. These are tailored spicifilcy on workload types and applications.
-S3 is also one of AWS's core services and is shoer for Amazon Simple Storage Service. S3 provides a scalable obkect sstorage for data backup, collection and analytics, this is ehere a IT professional stores data and files it as S3 objects up to five GB. AWS offers various tools and services to help users migrate applications, databases, servers and data onto its public cloud.
+S3 is also one of AWS's core services and is shoer for Amazon Simple Storage Service. S3 provides a scalable object storage for data backup, collection and analytics, this is ehere a IT professional stores data and files it as S3 objects up to five GB. AWS offers various tools and services to help users migrate applications, databases, servers and data onto its public cloud.
 
 AWS also offers services for developers to use command-line tools and software development kits to deploy and manage applications and services and are avaliable for a variety of platforms and programming languages: Android, C++, iOS, Java, Node.js, PHP, Python and Ruby:
 - AWS Command Line Interface, which is Amazon's proprietary code interface;
@@ -123,11 +123,18 @@ AWS prices varies depending on factors suck as cost of land, fiber, electricity 
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+AWS first big comepetetor was Google App Engine/Google cloud platform and continues today to be one of AWS biggest competetors. The biggest key difference is that AWS has been developed and managed as a secured cloud service platform, whereas Google Cloud Platform is a computer and service suite of google's public cloud. The infrastructure provided bt Google Cloud Platform is Google Compute Engine, where for AWS it is provided by Amazon Elastic Compute Cloud. Another key difference is that in AWS PaaS is Amazon Elastic Beanstalk and uses only kubernetes, whereas Google uses Google Kubernets Engines aswell as Docker AWS and Google Cloud Platform both offers the same amount of storage limit, however the memory volume size for Google is 1GB to 64TB where for AWS it is 1GB to 16TB. 
+
+Microsoft Azure is also on of AWS biggest competetor with a market share of 21% in 2022. Essentially AWS and Azure offer the same basics when is comes to flixible computem storage, networking, and pricing where they both the the same essence in public cloud, autoscaling, self-service and pay-as-you-go. As AWS was first out we can say that Azure had adopted many of AWS qualities. 
+
+All three platforms are the leading cloud computing platforms in the world, but Amazon Web Services takes the biggest share. Many will say this is because they have been on the market the longest and is the key infrastructure for how we see cloud computing today. AWS key computing solution is EC2 whereas Azure is built on VMs (virtual machines) and include many other tools that help with deploying cloud-based applications. Also when it comes to storage Azure has similar plactises as AWS offering a solution identical to AWS S3 called The Block Storage. AWS pay-as-you-go model charges per hour while Azure pricing model also uses the pay-as-you-go model but charges per minute. AWS will help you save money with increased usage. 
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+Amazon Web Services is the leading cloud computing service in the world with a market share of 34% and built the infrastructure many of their competetors uses today. AWS first launched its services in 2006, making up the essence of AWS is their EC2 and S3 solutions providing virtual servers and storage solutions.AWS provides dozens of data centers that are spread across 87 different availability zones (a location that contains multiple physical data centers). Their flexibility, reliability and cost-effictivness makes AWS a stable all round cloud platform that is a good fit for many with their easy access. Many big and successfull companies such as Netflix and Dropblox hare users of AWS. 
+
+AWS was the first platform in it's feild and is still looked at as the strongest and is the most used out there. 
+
 
 ### Credits
 
@@ -139,3 +146,4 @@ https://www.techtarget.com/searchaws/definition/Amazon-Web-Services
 https://aws.amazon.com/websites/
 https://digitalcloud.training/a-brief-history-of-aws-and-how-computing-has-changed/
 https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services
+https://www.itbrew.com/stories/2022/12/07/aws-microsoft-and-google-each-offer-different-cloud-solutions-here-s-how-they-re-competing-on-the-market
