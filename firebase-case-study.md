@@ -90,6 +90,6 @@ When selecting a BaaS, Firebase may be a great option due to its scalable nature
 - https://firebase.google.com/pricing 
 - https://firebase.google.com/docs/ 
 - https://www.linkedin.com/learning/firebase-essential-training/control-access-with-cloud-functions?autoplay=true&resume=false 
-- https://.trustradius.com/products/firebase/reviews?qs=pros-and-cons#reviews 
+- https://trustradius.com/products/firebase/reviews?qs=pros-and-cons#reviews 
 - https://medium.com/moqod-software-company/downsides-of-firebase-limitations-to-be-aware-of-886ade5ae5a2 
 - https://www.youtube.com/watch?v=kJbw02AGiGw
