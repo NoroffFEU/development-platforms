@@ -390,6 +390,7 @@ Articles:
 - https://en.wikipedia.org/wiki/MSQL
 - https://www.tutorialspoint.com/discuss-the-history-of-mysql#:~:text=Timeline%20of%20MySQL&text=MySQL%20was%20founded%20in%201995,in%20addition%20to%20Sweden%20headquarters.
 - https://www.interviewbit.com/blog/mysql-commands/
+- https://www.techonthenet.com/mysql/functions.php
 
 Videos:
 
