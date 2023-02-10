@@ -33,7 +33,7 @@ v 10.x brings in performance improvements as well as quality of life enhancement
 - Simplified the operation of creating complex inference helpers.
 - Middlewares are now reusable and chain. 
 
-![alt-image](./tRPC-media/trpc-graph)
+![alt-image](./tRPC-media/trpc-graph.png)
 
 ## Features
 
