@@ -7,25 +7,70 @@ permalink: development-platforms/example-product.html
 folder: development-platforms
 ---
 
+# Astro
+
+## Content
+
+- Introduction
+- Brief history
+- Features
+- Strengths
+- Weaknesses
+- How to use
+- Summary
+- References
+
 ## Introduction
+
+Astro is a framework for building static websites. It allows you to use your preferred framework to build your website, which Astro then renders to static HTML with no JavaScript by default. Some JavaScript is usually unavoidable or required, however, Astro only loads JavaScript components when they are needed instead of loading the whole page with JavaScript right away. This results in a fast loading, high performing website.
+
+Astro is designed to be a content-focused framework, rather than application-focused. The framework is therefore better suited for portfolios, blogs and similar content-based websites, rather than social networks, logged-in dashboards and other application-like projects.
 
 ## Brief History
 
+Astro was first publicly introduced in June 2021. At that point the framework was still in beta and there were still missing features and bugs to be fixed.
+
+In September 2021 Netlify became Astro’s official hosting partner, and their first corporate sponsor.
+
+The 1.0 beta version was released in April 2022. This launch featured the stabilisation of all major API’s.
+
+In August 2022 the final 1.0 version was released. Since the first introduction and beta 16 months earlier, Astro had grown from an empty repo to over 30.000 users. This release included some new features and improvements.
+
+Astro’s latest major release, version 2.0, was introduced in January 2023. With this release Astro wanted to tackle problems connected to working with Markdown, and they became the first major framework to deliver complete type-safety for Markdown and MDX.
+
 ## Features
+
+- **Astro Islands**: Astro Islands are based off of the island architecture pattern. This technique builds on _partial hydration_, only loading JavaScript when necessary.
+- **Server-first**: Astro uses server-side rendering over client-side rendering as much as possible. Rendering a website on the server rather than the browser enables the page to load faster. Server-side rendering also improves the SEO for search engines.
+- **No JavaScript by default**: As JavaScript is the slowest loading asset, Astro generates every page with no client-side JavaScript by default.
+- **Customisable**: Astro supports Tailwind CSS, MDX, many more integrations as plugins.
+- **Framework-agnostic**: Astro supports multiple frameworks, React, Svelte, Vue to name a few of the most popular. You are free to choose which framework you want and you can easily switch between them and even combine several different frameworks.
 
 ## Strengths
 
 ### Designed for performance
 
+Astro's main focus is to build fast websites. The approach Astro uses to achieve this is called island architecture, which Astro introduces as Astro Islands. The general idea behind island architecture is rendering static content on the server and then implementing, “hydrating”, the page with islands of dynamic behaviour. Multiple different islands can exist on one page, but every island always renders in isolation. The benefit of this approach is mainly good performance, but also parallel loading. Different components can load in parallel but hydrate in isolation. This means that one component won't block the other from loading or having to wait for the other to load.
+
 ### Fully featured
 
+Astro supports a range of different tools, libraries and frameworks. So, you are able to use a framework you are probably already familiar with and don’t necessarily have to learn a whole new syntax. Astro also has their own built-in language, so you don't even need to use an additional framework if you don't want to.
+
+The flexibility to choose your own frameworks not only makes it easier for the developer, but it also reduces the problem of vendor lock-in. Meaning you are not dependent on a framework and it's easy to switch to new ones. This also makes it easier for new and upcoming frameworks to gain traction.
+
+In addition to using your preferred framework, Astro gives you the opportunity to combine multiple different frameworks in the same application, using their plugin system. Astro also covers everything else you would need to build a website. This includes file-based routing, component syntax, data-fetching, build process, bundling and many more features. You can find all of Astro's integrations and plugins here (https://astro.build/integrations/).
+
 ### Accessible
+
+Astro’s goal is to be accessible and easy to use for all developers. The framework was designed to feel approachable regardless of skills and experience. Astro‘s own language is designed to be less complex than other frameworks and languages. It is heavily influenced by HTML and all valid HTML snippets are already valid Astro components. So, either by choosing your preferred framework or just plain HTML, CSS and vanilla JavaScript, it is fully up to you as the developer how you want to build with Astro.
 
 ## Weaknesses
 
 ### Limited use cases
 
-## My own thoughts? demo?
+While most frameworks today are designed for creating applications, Astro was designed for creating content-based websites. Because Astro leverages server-side rendering over client-side rendering, Astro might not be ideal when creating bigger and more elaborate applications. Before using Astro you have to consider the scale and complexity of your project. This most likely leaves out projects like social media networks, logged-in admin dashboards and other more complex application-like projects.
+
+## How to use
 
 ## Summary
 
