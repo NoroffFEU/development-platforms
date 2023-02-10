@@ -59,6 +59,7 @@ as well as limits the amount of resources the client needs to use to view the si
 
 - Not used by any major entity the size of, e.g React with Facebook, Angular with Google
 - Smaller community than tried and tested frameworks like React and Vue so possibly harder to find a solution or get help fast with an issue.
+- Might be more troublesome when you start building larger project where React shines more wih making complex components.
 
 ## Comparison
 
