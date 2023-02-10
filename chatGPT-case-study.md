@@ -71,7 +71,7 @@ The variety of subjects it was trained in is also beneficial to developers. Not 
 
 Despite its many possible uses and strengths, this tool comes with a series of limitations that are important to take into account to make the most out of it. One critical issue is its lack of factual correctness at times. The bot may provide answers that are factually incorrect, but in such an assertive manner it could be difficult for an untrained person to realise. Moreover, it gives no references on where it took the data from. In order to avoid the spread of misinformation, users should double check the answers by consulting reliable sources of information in the subject matter.
 
-Additionally, it tends to be unpredictable and unstable. This means that users may avoid content moderation by repeatedly asking the same question in different ways. It is rumoured that one user was even provided with detailed instructions on how to make a molotov cocktail.
+Additionally, it tends to be unpredictable and unstable. This means that users may avoid content moderation by repeatedly asking the same question in different ways.
 
 Due to the human trainers rewarding longer answers for their appearance of being more comprehensive, the bot tends to be excessively verbose. This doesn't precisely add quality to the responses since the same information is repeated in different paragraphs with a slight change in phrasing. I personally consider this to be its biggest giveawayas it makes it relatively easy for a human to realize when a text has been written by an AI tool and therefore not reliable for producing important texts for university or work.
 
