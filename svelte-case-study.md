@@ -94,6 +94,87 @@ Svelte is, however, increasing in popularity at an incredible rate. According to
 - Installing
 - Creating a component
 
+It is recommended to install Svelte through a bundler or through Svelte's own `create-svelte` npm package.
+Vite:
+```bash
+npm init vite@latest
+```
+This will initialize the Vite installer where you can choose a Svelte environment. Enter a project name when prompted and then select Svelte when prompted to select a framework. You can here also opt in to using TypeScript with Svelte if you wish.
+
+create-svelte:
+```bash
+npm create svelte@latest myapp
+```
+Follow the install prompt and customize as needed.
+
+### Creating your first component
+Open the `App.svelte` file in the `/src/` folder of your install directory. This is the base file for your SPA and is where you will load and unload your components as necessary. If you installed Svelte with its default boilerplate code, you can take a look at the layout of the code.
+`.svelte` files are built up usually of a `<script>`, a HTML and a `<style>` section. The script section is where the component related JavaScript goes, the HTML is where you handle the component logic and the style section is the styling specific to the component.
+Navigate to the `/lib/` folder, or create it within the `/src/` directory. Create a new file called `Counter.svelte` and add the following boilerplate code:
+```
+<script>
+  let count = 0
+  const increment = () => {
+    count += 1
+  }
+</script>
+
+<button on:click={increment}>
+  count is {count}
+</button>
+```
+
+Inside `App.svelte`, add the following inside the `<main>` element:
+```
+<Counter />
+```
+This should initialize a new element in your DOM where you can click to increment a counter.
+We can also add another button to `Counter.svelte`, like so:
+```
+<script>
+  let count = 0
+  const increment = () => {
+    count += 1
+  }
+  const decrement = () => {
+    count -= 1
+  }
+</script>
+
+<button on:click={increment}>
+  count is {count}
+</button>
+<button on:click={decrement}>
+  count is {count}
+</button>
+```
+
+This will give us another button to decrement the counter variable.
+You've now created your first component!
+
+### Passing props
+Passing props in Svelte is incredibly easy. To utilize a prop in a component, you simply export it from the component file and use it where the component is called.
+For example in `App.svelte`, we can call a component like so:
+```
+<main>
+  <Greeting name={"Mike"}/>
+</main>
+```
+
+In `Greeting.svelte`, we set up the prop:
+```
+<script>
+  export let name
+</script>
+
+<div>
+  Hello {name}!
+</div>
+```
+
+Congratulations, you've passed a prop!
+In your face, React.
+
 ## Summary
 
 Summarise the content and highlight the relevance of the product to a web developer.
