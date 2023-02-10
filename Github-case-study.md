@@ -50,7 +50,7 @@ GitHub has experienced significant growth since its launch.
 
 **Expansion and Recognition**
 - In 2015, GitHub opened its first office outside the US, in Japan.
-- In 2016, GitHub was ranked 14th on the Forbes Cloud 100 list.However, it did not make the list in 2018, 2019, or 2020.
+- In 2016, GitHub was ranked 14th on the Forbes Cloud 100 list. However, it did not make the list in 2018, 2019, or 2020.
 
 **Challenges**
 - In 2018, GitHub experienced a third-largest DDoS attack in history, with incoming traffic reaching 1.35 terabits per second.
