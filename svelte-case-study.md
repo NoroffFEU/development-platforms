@@ -23,7 +23,6 @@ It was created by Rich Harris who had previously worked on ractive.js and was or
 - 2018.04.19 Version 2 of Svelte was released, it's maintainers switched it from double curly braces to single curly braces.
 - 2019.04.21 Version 3 of Svelte was released, it's now written in TypeScript.
 - 2020.10.19 The SvelteKit framework was announced.
-- 2020 Svelte was voted with the highest retention (would use again) and 1st in interest
 - 2021.03.23 SvelteKit enters public beta.
 - 2021.11.11 Svelte was bought by Vercel, the creator of next.js and brought Rich Harris into Vercel, enabling him to be the first full time contributor for Svelte.
 
