@@ -104,7 +104,7 @@ Firebase offers a free tier with limited usage of each feature, and flexible pay
 
 4.	Familiarize yourself with Firebase features: Firebase offers a wide range of features, including real-time databases, file storage, user authentication, and hosting. Take some time to explore these features in the Firebase console and experiment with them in your app. This will help you get a better understanding of what Firebase can do and how you can use it to build your app.
 
-5.	Implement Firebase in your app/website: Once you're familiar with Firebase, you can start using its features in your app. For example, you can use the Firebase Real-time Database to store and retrieve data in real-time, Firebase Authentication to handle user sign-up and sign-in, and Firebase Storage to store and retrieve files.
+5.	Implement Firebase in your project: Once you're familiar with Firebase, you can start using its features in your app. For example, you can use the Firebase Real-time Database to store and retrieve data in real-time, Firebase Authentication to handle user sign-up and sign-in, and Firebase Storage to store and retrieve files.
 
 6.	Deploy your app/website: After you've integrated Firebase into your app, you can deploy it to the web or distribute it on the app/website stores. Firebase provides hosting services that make it easy to deploy your app and keep it running reliably.
 
