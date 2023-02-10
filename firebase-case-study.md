@@ -83,6 +83,37 @@ When selecting a BaaS, Firebase may be a great option due to its scalable nature
 
 - August Wahlberg (AugustWahlberg)
 
+## Prizing
+Firebase follows a pay-per-use pricing model, meaning you only pay for what you use. The cost is determined by several factors, including:
+
+**Storage**: Firebase provides scalable storage for app data, with costs based on data volume and frequency of access.
+
+**Bandwidth**: Firebase provides scalable bandwidth for app data transfer, with costs based on data volume and frequency of transfer.
+
+**Cloud Functions**: Firebase provides serverless computing through Cloud Functions, with costs based on the number of invocations and compute time.
+
+**Authentication**: Firebase provides authentication services, with costs based on the number of authentications performed.
+
+**Analytics**: Firebase provides real-time analytics, with costs based on the data processed by the analytics service.
+
+Firebase offers a free tier with limited usage of each feature, and flexible payment options, such as monthly and annual billing. This allows you to get started and evaluate your app's needs without immediate costs. You will find more detailed information here: https://firebase.google.com/pricing
+
+
+## Getting started with Firebase
+1.	Sign up for a Firebase account: To get started with Firebase, you'll need to create a free account. Go to firebase.google.com and sign up using your Google account. This will give you access to the Firebase console, where you can manage your projects and use Firebase's various features.
+
+2.	Create a new Firebase project: From the Firebase console, click on "Create a Project". You'll be prompted to enter a project name and select a Google Analytics account (if you have one). This will create a new project in the Firebase console, which you can use to manage your app/website and its data.
+
+3.	Integrate Firebase into your app: Firebase provides comprehensive documentation on how to add Firebase to your web, iOS, or Android app. The documentation includes sample code and step-by-step instructions to help you get started quickly.
+
+4.	Familiarize yourself with Firebase features: Firebase offers a wide range of features, including real-time databases, file storage, user authentication, and hosting. Take some time to explore these features in the Firebase console and experiment with them in your app. This will help you get a better understanding of what Firebase can do and how you can use it to build your app.
+
+5.	Implement Firebase in your app/website: Once you're familiar with Firebase, you can start using its features in your app. For example, you can use the Firebase Real-time Database to store and retrieve data in real-time, Firebase Authentication to handle user sign-up and sign-in, and Firebase Storage to store and retrieve files.
+
+6.	Deploy your app/website: After you've integrated Firebase into your app, you can deploy it to the web or distribute it on the app/website stores. Firebase provides hosting services that make it easy to deploy your app and keep it running reliably.
+
+
+
 #### References
 
 - https://firebase.google.com/
