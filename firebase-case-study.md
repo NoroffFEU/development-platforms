@@ -20,7 +20,7 @@ In 2014, Google acquired Firebase and integrated it into its cloud platform. Sin
 
 ## Features
 
-Firebase offers product features which can handle of your backend all for your projects, and more. Here are the most used features:
+Firebase offers product features which can handle all of your backend for your projects. Here are the most used features:
 
 **Real-time database**: A cloud-hosted NoSQL database that enables data to be stored and synced in real-time across all connected devices.
 
