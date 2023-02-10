@@ -33,6 +33,8 @@ v 10.x brings in performance improvements as well as quality of life enhancement
 - Simplified the operation of creating complex inference helpers.
 - Middlewares are now reusable and chain. 
 
+![alt-image](./tRPC-media/trpc-graph)
+
 ## Features
 
 One of the most unique features with tRPC is how it brings typesafety between server and client code, and how well its handled. Instead of getting uncaught type-errors on runtime, Typescript will detect type related issues between server and client before the file is even saved. In addition to this, tRPC allows you to quickly update endpoint names in one place and update all associated client/server files at the same time, and navigate between script files by simply ``CMD+click`` or ``right-click+use-definition``. Everything about tRPC is about a tiny footprint, great DX and simplicity of use.
