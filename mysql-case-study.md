@@ -248,6 +248,31 @@ YEAR
 - Timezone coversion: Not possible.
 - 1-byte storage value.
 
+##### Spatial Data Types
+
+Spatial data types can consist of single geometry values:
+
+- GEOMETRY
+- POINT
+- POLYGON
+- LINESTRING
+
+The other types of spatial data consists of a collection of values:
+
+- MULTIPOINT
+- MULTILINESTRING
+- MULTIPOLYGON
+- GEOMETRYCOLLECTION
+
+This type of data is typically used in a geographic setting.
+
+##### The JSON Data Type
+
+MySQL supports JSON (Javascript Object Notation). JSON stores it's values inside an object with key value pairs.
+E.G. { key: "value", key2: 29 }
+MySQL automatically valiadates the document when storing JSON instead of a string.
+JSON stored in JSON columns allows for opimized storage, quicker conversion because JSON is stored as a binary format with a structure that enables the server to look up objects dirctly by key or array indexes.
+
 #### Statments and Functions
 
 #### Security
