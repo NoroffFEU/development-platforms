@@ -25,12 +25,19 @@ Currently its latest versions is seeing around 40k weekly downloads and the repo
 
 According to the product creator himself, version 9.x should really be viewed as version 1.x, where as the newly released 10.x should be considered version 2.x.
 
+v 10.x brings in performance improvements as well as quality of life enhancements. Some of the changes includes:
+
+- Simplified backend writing of routers and procedures.
+- Made client calls to backend procedures more easily defined.
+- Allows to seamlessly navigate between client/server code with a single mouse click.
+- Simplified the operation of creating complex inference helpers.
+- Middlewares are now reusable and chain. 
 
 ## Features
 
 tRPC aims to bridge the gap between front- and backend. It does so by creating a seemless experience navigating between your client and server code. You can easily adjust endpoint name in one location, and it will update accordingly on the other side. tRPC allows you to quickly locate the assoicated files you're working with by simply using the ``use definition`` feature, and you'll be taken to that script file.
 
-Since tRPC does not rely on schemas or code generation, and rather is a protocol for exposing backend functions to the frontend, it allows a more seemless workflow for the developer, and lightweight well performing application with a tiny footprint for the end user. 
+Since tRPC does not rely on schemas or code generation, and rather is a protocol for accessing backend functions to the frontend, it allows a more seemless workflow for the developer, and lightweight well performing application with a tiny footprint for the end user. 
 
 #### Automatic typesafety
 While this is a Typescript feature, and not isolated to tRPC it allows for an eco-system where the client will notify you of errors even before you save the files.
@@ -175,7 +182,7 @@ While on the other hand, if Typescript is not the preferred programming language
 
 ## Comparison
 
-- REST API's, GraphQL.
+[Web Dev Simplified](https://www.youtube.com/watch?v=lxnPMB0Jc7E) asks recently in a video if tRPC spells the end to ``REST/graphQL``. While
 
 ## Summary
 
@@ -194,3 +201,5 @@ Summarise the content and highlight the relevance of the product to a web develo
 - https://create.t3.gg/en/usage/trpc
 - https://www.youtube.com/watch?v=2LYM8gf184U&t=1s
 - https://cleancommit.io/blog/trpc-vs-graphql-how-to-choose-the-best-option-for-your-next-project/
+- https://www.youtube.com/watch?v=lxnPMB0Jc7E
+https://trpc.io/docs/migrate-from-v9-to-v10#summary-of-changes
