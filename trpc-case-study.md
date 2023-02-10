@@ -35,9 +35,9 @@ v 10.x brings in performance improvements as well as quality of life enhancement
 
 ## Features
 
-tRPC aims to bridge the gap between front- and backend. It does so by creating a seemless experience navigating between your client and server code. You can easily adjust endpoint name in one location, and it will update accordingly on the other side. tRPC allows you to quickly locate the assoicated files you're working with by simply using the ``use definition`` feature, and you'll be taken to that script file.
+One of the most unique features with tRPC is how it brings typesafety between server and client code, and how well its handled. Instead of getting uncaught type-errors on runtime, Typescript will detect type related issues between server and client before the file is even saved. In addition to this, tRPC allows you to quickly update endpoint names in one place and update all associated client/server files at the same time, and navigate between script files by simply ``CMD+click`` or ``right-click+use-definition``. Everything about tRPC is about a tiny footprint, great DX and simplicity of use.
 
-Since tRPC does not rely on schemas or code generation, and rather is a protocol for accessing backend functions to the frontend, it allows a more seemless workflow for the developer, and lightweight well performing application with a tiny footprint for the end user. 
+Since tRPC does not rely on schemas or code generation, and rather is a protocol for accessing backend functions to the frontend, it allows a more seamless workflow for the developer, and lightweight well performing application with a tiny footprint for the end user. 
 
 #### Automatic typesafety
 While this is a Typescript feature, and not isolated to tRPC it allows for an eco-system where the client will notify you of errors even before you save the files.
