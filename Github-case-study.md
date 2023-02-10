@@ -35,7 +35,7 @@ With the help of a collection of tools for collaboration and code editing, GitHu
 
 GitHub's development started on October 19, 2007. In April 2008, Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, and Scott Chacon officially launched the site after beta testing. Since its founding in 2008, GitHub has grown to become one of the most popular services for hosting and exchanging code.  
 
- ### The Growth of GitHub
+### The Growth of GitHub
 GitHub has experienced significant growth since its launch.
 
 **Early Success**
