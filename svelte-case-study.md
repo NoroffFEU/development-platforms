@@ -52,7 +52,7 @@ as well as limits the amount of resources the client needs to use to view the si
 
 ## Strengths
 
-- Very small file size, Svelte's bundle size being 1.6kb
+- Very small file size, Svelte's bundle size being 1.6KB
 - Simple syntax so it's easy to learn, only need knowledge of HTML, CSS and JavaScript to get started in learning how to use Svelte and SvelteKit.
 - Fast speed and performance, with server-side rendering you take care of the rendering and don't make the end user use computational power to see your site.
 
@@ -62,6 +62,13 @@ as well as limits the amount of resources the client needs to use to view the si
 - Smaller community than tried and tested frameworks like React and Vue so possibly harder to find a solution or get help fast with an issue.
 
 ## Comparison
+
+### React
+
+- Comparing React's performance with Svelte, Svelte has it beat since it compiles the code into efficient JavaScript that directly manipulates the DOM, whereas React will make the site during the runtime, on the client's side and because it has to maintain the virtual DOM and spend resources on that, making the responsiveness a tiny bit worse with Svelte.
+- Comparing the bundle size, Svelte comes out at 1.6KB and React comes out at 42.2KB, this is thanks to Svelte's compile-time approach whilst React needs to make a bit more code so it can maintain the Virtual DOM that Svelte does not use.
+- Comparing the community sizes, React's community and user base is much larger than Svelte's since it's tried and tested and a very widely used framework, which leads to many developers that are able to help you with your issues on StackOverflow among other places.
+- Comparing the maintenance, React has Facebook backing and maintaining it with people hired specifically to maintain it whilst Svelte is owned by Vercel with only a few full time maintainers it's mainly them and community contributors who maintain the code since Vercel also maintains next.js.
 
 ## Summary
 
@@ -90,3 +97,6 @@ Features:
 https://vercel.com/docs/beginner-sveltekit
 rich-harris-explains-why-sveltekit-pushes-for-server-side-rendering-and-against-spa-5flj
 https://searchengineland.com/server-side-rendering-what-seos-need-to-understand-346296
+
+Comparison:
+https://refine.dev/blog/svelte-vs-react/#:~:text=Svelte%20is%20a%20relatively%20new,based%20approach%20to%20web%20development.
