@@ -275,6 +275,29 @@ JSON stored in JSON columns allows for opimized storage, quicker conversion beca
 
 #### Statments and Functions
 
+MySQL has a large and comprehensive list of built in statements and funtions that makes it easier to perform taskt.
+
+Statements in MySQL unsually starts with one of the following keywords: SELECT, SHOW, INSERT, UPDATE, DROP, DELETE, ALTER, CREATE, USE.
+This enables the user to manipulate data in the database using a Stuctured Query Language.
+
+Functions are pre-build programs that takes parameters and returns a value or completes a task based on the parameters passed by the developer.
+
+The syntax for a MySQL function is:
+
+```
+CREATE FUNCTION function_name [(parameter datatype [, parameter datatype])]
+
+RETURNS return_datatype
+
+BEGIN
+
+declaration code here
+
+execute code here
+
+END;
+```
+
 #### Security
 
 #### Scalability
@@ -366,8 +389,10 @@ Articles:
 - https://en.wikipedia.org/wiki/MySQL
 - https://en.wikipedia.org/wiki/MSQL
 - https://www.tutorialspoint.com/discuss-the-history-of-mysql#:~:text=Timeline%20of%20MySQL&text=MySQL%20was%20founded%20in%201995,in%20addition%20to%20Sweden%20headquarters.
+- https://www.interviewbit.com/blog/mysql-commands/
 
-  Videos:
+Videos:
 
 - https://www.youtube.com/watch?v=OqjJjpjDRLc
 - https://www.youtube.com/watch?v=EIo1JFCWpfA&t=90s
+- https://www.youtube.com/watch?v=UGu9unCW4PA&list=PL_c9BZzLwBRKn20DFbNeLAAbw4ZMTlZPH
