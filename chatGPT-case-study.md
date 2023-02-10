@@ -13,7 +13,7 @@ folder: development-platforms
 
 ChatGPT is a natural language processing tool driven by artificial intelligence technology. It has the ability to answer open ended questions and assist with tasks such as composing emails and job application letters, translating phrases to and from various languages, creating workouts or meal plans, and even produce code in several programming languages. Since its release in late November 2022 it has astonished users with its human-like answers as well as raised concerns in many who see their jobs threatened in the near future.
 
-Technically speaking, ChatGPT is a large language model. It means that it was trained to predict the next most likely occurring word in a given sentence, much like the text prediction function of a mobile phone. The key difference is that this chatbot's input comes from hundreds of billions of words from a diverse range of sources including, news articles, websites, and books. "GPT" stands for "Generative Pre-trained Transformer".
+Technically speaking, ChatGPT is a large language model. This means that it was trained to predict the next most likely occurring word in a given sentence, much like the text prediction function of a mobile phone. The key difference is that this chatbot's input comes from hundreds of billions of words from a diverse range of sources including, news articles, websites, and books. "GPT" stands for "Generative Pre-trained Transformer".
 
 ## Brief History
 
