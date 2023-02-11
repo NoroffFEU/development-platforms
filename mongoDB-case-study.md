@@ -91,7 +91,7 @@ CouchDB and MongoDB compared on some key features:
 - MongoDB: Using replica and sharding mechanisms. Replica in short: Makes copies of the document so when primary fails, secondary will become primary. Makes it fault tolerant. Sharding in short: Makes it easy to scale collections over replica sets, geo-zone sharding makes it easy to manage data.
 - CouchDB: Also uses a concept of replica and sharding. Replica in short: Makes copies of the documents, which makes this fault tolerant, but each "node" is also the shard, the sharding is a automated mechanism making it not possible for the user to define keys or groupings.
 
-This comparison is created with the help of [This link](https://www.mongodb.com/compare/couchdb-vs-mongodb), and [This link](https://couchdb.apache.org/).
+This comparison is created with the help of <a href="https://www.mongodb.com/compare/couchdb-vs-mongodb"> This link</a>, and <a href="https://couchdb.apache.org/"> This link </a>.
 
 ## Summary
 
