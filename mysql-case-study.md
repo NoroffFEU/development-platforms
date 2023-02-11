@@ -300,6 +300,19 @@ END;
 
 #### Security
 
+Some of the main secutity features are:
+
+- User authentication: Access to the database can be controlled by the use of username and password authentication.
+- Access control: A user can be granted spesiffic access priveleges such as the ability to read write or execute spesific commands.
+- Encryption: MySQL uses different forms of encryption for data in transit such as SSL (Secure Sockets Layer),
+  TSL (Transport Layer Security) and AES (Advanced Encryption Standard) for data at rest.
+- Data validation: Provided contraints such as primary keys, foreign keys and checks helps preventing corruption
+  and keeps the data accurate, valid and consistent.
+- Auditing: You can log and monitor user activities to detect suspicious behaviour
+- Firewall: Access to a MySQL server can be restricted with the use of firewalls and allowing only authorized connections.
+
+Note that it's important to configure your own security-best-practises to ensure that the data is seccure.
+
 #### Scalability
 
 #### Connectivity
