@@ -35,7 +35,7 @@ You will then get prompted some options.
 
 3. you will get options for variant like javaScript, TypeScript or SvelteKit.
 
-Im going to choose TypeScript, feel free to choose whatever floats your boat.
+Im going to choose javascript for this project, feel free to choose whatever floats your boat.
 
 Go into the project folder `cd "name of your project"`.
 Write this command in the terminal `code .` that will open the project in a new vscode session.
@@ -56,7 +56,7 @@ if you want to configure vite more you can find the docs [here](https://vitejs.d
 
 If you are using Visual Studio Code, I would recommend downloading the svelte extension "Svelte for VS code" it will give you formatting, auto completions and it allows you to use emmet inside you svelte components.
 
-
+example of a fetch using svelte.
 
 ## Strengths
 
