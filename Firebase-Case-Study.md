@@ -1,6 +1,21 @@
-# Everything I wondered about Firebase: Answered
+---
 
-## What is Firebase
+title: Everything I wondered about Firebase: Answered
+keywords: development platforms, Firebase
+tags: Development Platforms, Firebase
+sidebar: development-platforms
+permalink:
+folder:
+
+---
+
+## Table of contents
+
+1. [Introduction](#Introduction)
+2.
+3.
+
+# Introduction
 
 Firebase is a development platform & tool provided by Google. Some might call it a BaaS (Backend as a service), which would be both wrong and right, as Firebase encompasses but also expands beyond the utilities of a BaaS.
 Firebase provides an arsenal of different tools and features needed to build an app through an SDK (Software Development Kit).
@@ -32,8 +47,8 @@ Unless your plan is to build something that outlives or rivals Google, I will no
 
 ### Requirements
 
-NodeJS
-A code editor like VSC
+- NodeJS
+- A code editor like VSC
 
 ### Files and folders
 
@@ -144,3 +159,5 @@ Our app is now connected to our online Firebase project.
 
 https://firebase.google.com/docs/web/setup
 https://www.youtube.com/watch?v=9zdvmgGsww0&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=1
+https://firebaseopensource.com/
+https://firebase.google.com/learn/pathways/firebase-firestore
