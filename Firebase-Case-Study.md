@@ -45,7 +45,7 @@ Although Firebase is not completely Open Source, many of their features are. Thi
 Open Source components from Firebase include SDK´s, libraries and samples, all posted on their Github.
 Unless your plan is to build something that outlives or rivals Google, I will not personally worry about Firebase´s closed source. Very large companies may however benefit from building their own infrastructure using open source alternatives, to ensure independency.
 
-## Database
+## NoSQL Database
 
 The topic of database deserves it's own section, and is discussed further [Here](#database).
 
