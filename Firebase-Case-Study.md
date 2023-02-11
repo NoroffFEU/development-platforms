@@ -1,12 +1,10 @@
 ---
-
-title: Everything I wondered about Firebase: Answered
+title: Everything I wondered about Firebase; Answered
 keywords: development platforms, Firebase
 tags: Development Platforms, Firebase
 sidebar: development-platforms
 permalink:
 folder:
-
 ---
 
 ## Table of contents
