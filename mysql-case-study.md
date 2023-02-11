@@ -315,11 +315,30 @@ Note that it's important to configure your own security-best-practises to ensure
 
 #### Scalability
 
+MySQL supports large databases. There are databases with over 50 million records, 200,000 tables and around 5 billion rows.
+The maximum number of tables is generally limited by the storage engine used.
+
 #### Connectivity
+
+There are several protocols for connecting to MySQL servers:
+
+- TCP/IP sockets on any platform.
+- Named pipes and shared-memory connections. Optional: (--protocol=memory)
+- Unix domain socket files for Unix systems.
+- Client programs for many languages. APIs are available for C, C++, Perl, Java, Eiffel, Tcl, PHP, Ruby, and Python.
+- Provides conneectors for ODBC (Open Database Connectivity), JDBC (Java Database Connectivity) and .NET applications.
 
 #### Localization
 
-#### Tools and Clients
+- Servers provide error messages in many languages.
+- Supports different character and unicode sets. Data is sorted and saved in selected language.
+- Time zones can be changed dynamically for servers and clients.
+
+#### Clients and Tools
+
+- Includes client and utility programs such as "MySQLDump", "MySQLAdmin" and "MySQL Workbench"
+- Provides CLI for SQL statements such as "MySQLCheck" and "MyISAMchk" to repair, check and optimize tables.
+- programs can be requested using `-?` or `--help` for online assistance
 
 #### ACID Compliant
 
@@ -404,6 +423,8 @@ Articles:
 - https://www.tutorialspoint.com/discuss-the-history-of-mysql#:~:text=Timeline%20of%20MySQL&text=MySQL%20was%20founded%20in%201995,in%20addition%20to%20Sweden%20headquarters.
 - https://www.interviewbit.com/blog/mysql-commands/
 - https://www.techonthenet.com/mysql/functions.php
+- https://dev.mysql.com/doc/mysql-reslimits-excerpt/8.0/en/table-size-limit.html#:~:text=You%20are%20using%20a%20MyISAM,2567%20%E2%88%92%201%20bytes).
+- https://satoricyber.com/mysql-security/mysql-security-common-threats-and-8-best-practices/#:~:text=MySQL%20protects%20sensitive%20data%20access,Asymmetric%20Public%20Key%20Encryption%2FDecryption
 
 Videos:
 
