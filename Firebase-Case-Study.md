@@ -1,8 +1,14 @@
 # Everything I wondered about Firebase: Answered
 
-## Brief History
+## What is Firebase
 
-## BaaS
+Firebase is a development platform & tool provided by Google. Some might call it a BaaS (Backend as a service), which would be both wrong and right, as Firebase encompasses but also expands beyond the utilities of a BaaS.
+Firebase provides an arsenal of different tools and features needed to build an app through an SDK (Software Development Kit).
+These include Authentication, Hosting, Cloud functions, Cloud storage, Realtime database, Performance monitoring, Analytics, Cloud messaging and more.
+
+## Vendor lock-in
+
+- Google is gigantic with small to no probability of shutting down the service. Being Vendor locked-in to this behemoth is therefore less of a concern than being locked-in to a minor and less predictable provider.
 
 ## Open source or not
 
@@ -113,17 +119,6 @@ initializeApp(firebaseConfig);
 ```
 
 Our app is now connected to our online Firebase project.
-
-### Queries
-
-Queries specifies what documents you want to collect from a collection or collection group. Below is a query that collects the documents from our Ingredients collection, where the name attribute is equal to "tomato".
-
-```js
-const q = query(colIngredients, where("name", "==", "tomato"));
-```
-
-You can now use the q variable as your parameter in your onSnapshot function, where it will retrieve only a snapshot of data that matches the query.
-The queries are unfortunately case-sensitive and you will, to the best of my research, have to create one query for uppercase and one for lowercase if you want the query to be practically case-sensitive.
 
 ## Security
 
