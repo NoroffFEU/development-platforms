@@ -56,7 +56,14 @@ this is githubs key features:
 
 - **merging**: is adding new code to a project from a sepparate branch. usually this is done after a pull request.
 
-- **Integration**: github allows for developers to use other programs in combinatiion with github
+- **Integration**: github allows for developers to use other programs in combinatiion with github. examples are: continuous integration systems, tools for project management and several IDEs.
+
+- **GitHub Actions**: is a feature where you can add automated tasks to a project. the automated tasks can either be runed manually or be set to run at spesiffic points of developement such as when a pull request is made. github actions is very flexible and allows for lots of different programming languages and tools to be used with it.
+  examples of github actions uasge: deploy to static pages, end to end testing and unit testing.
+
+- **GitHub Pages**: can be used to host a web project directly from github. it is an easy way for developers to host a project and/or share details for a project.
+
+- **GitHub Enterprise**: allows businesses to run their github projects on their own servers with additional security and access to more features like GitHub Enterprise API.
 
 ## Strengths
 
