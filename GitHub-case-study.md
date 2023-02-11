@@ -67,7 +67,20 @@ this is githubs key features:
 
 ## Strengths
 
-Discuss the product's strengths.
+- **web-based platform/ease of access**: being web based i see as a pluss. new users can easily create an account espessialy when they can sign in via google.
+
+- **popularity**: being one of the most popular development platforms do make it easy for people to choose github for their projects, as many developer already know how to use it.
+  and new users can easily be integrated in projects with help from more experienced users.
+
+- **GitHub Actions**: a powerfull tool for automation in your own reposirories.
+
+- **security**: github has many good safety features that keeps the projects safe.
+
+- **Mobile app**: github has an app developers can use to manage their code trough their mobile phones. a good tool on when you are on the go and don't have a laptop or computer available.
+
+- **Desktop app**: is superb for better workflow.
+
+- **integrations**: the fact that github can be simply used together other products like IDEs, management tools etc.
 
 ## Weaknesses
 
