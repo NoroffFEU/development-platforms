@@ -11,7 +11,7 @@ folder: development-platforms
 
 ## Introduction
 
-tRPC stands for TypeScript Remote Procedure Call. It's a simple and lightweight library for creating API's using a singular programming language [TypeScript](https://www.typescriptlang.org/), with the option to use a singular respoitory to host both the client and server infrastructure. It operates as a protocol to call your backend functions directly from the frontend, unlike other popular options such as ``GraphQL``.
+tRPC stands for TypeScript Remote Procedure Call. It's a simple and lightweight library for creating API's using a singular programming language [TypeScript](https://www.typescriptlang.org/).It operates as a protocol to call your backend functions directly from the frontend, unlike other popular options such as ``GraphQL``, which relies on schemas and code generation.
 
 ## Brief History
 
@@ -20,8 +20,6 @@ tRPC was created by [Alex / KATT](https://twitter.com/alexdotjs) and was first r
 Since then there's been many iterations and versions of the product, with its latest version ``10.9.0`` being released 11th of Jan 2022.
 
 Currently its latest versions is seeing around 40k weekly downloads and the repository has a respectable 20k stars on github. The interest in the product have increased recently in social media, and been praised by several prominent ``full-stack`` developers for it's features on how it bridges the gap between front- and backend, seamless workflow and overall ease-of-use in a completely typesafe eco-system.
-
-[Chris Bautista short overview here](https://www.youtube.com/watch?v=2LYM8gf184U&t=665s)
 
 According to the product creator himself, version 9.x should really be viewed as version 1.x, where as the newly released 10.x should be considered version 2.x.
 
@@ -35,23 +33,25 @@ v 10.x brings in performance improvements as well as quality of life enhancement
 
 ![alt-image](./tRPC-media/trpc-graph.png)
 
+tRPC's search popularity over the last 12 months. 
+
 ## Features
 
-One of the most unique features with tRPC is how it brings typesafety between server and client code, and how well its handled. Instead of getting uncaught type-errors on runtime, Typescript will detect type related issues between server and client before the file is even saved. In addition to this, tRPC allows you to quickly update endpoint names in one place and update all associated client/server files at the same time, and navigate between script files by simply ``CMD+click`` or ``right-click+use-definition``. Everything about tRPC is about a tiny footprint, great DX and simplicity of use.
+One of the most unique features with tRPC is how it brings typesafety between server and client code, and how well its handled. Instead of getting uncaught type-errors on runtime, Typescript will detect type related issues between server and client before the file is even saved. In addition to this, tRPC allows you to quickly update endpoint names in one place and update all associated client/server files at the same time, and navigate between script files by simply ``CMD+click`` or ``right-click+use-definition``.
 
-Since tRPC does not rely on schemas or code generation, and rather is a protocol for accessing backend functions to the frontend, it allows a more seamless workflow for the developer, and lightweight well performing application with a tiny footprint for the end user. 
+Since tRPC does not rely on schemas or code generation, and rather is a protocol for accessing backend functions to the frontend, it allows a more seamless workflow for the developer, and lightweight well performing application with a tiny footprint for the end user.
 
 #### Automatic typesafety
 While this is a Typescript feature, and not isolated to tRPC it allows for an eco-system where the client will notify you of errors even before you save the files.
 
 #### Great DX
-tRPC has no build or compile steps, no code generation, runetime bloat or build step.
+tRPC has no build or compile steps, no code generation, runetime bloat or build steps.
 
 #### Framework agnostic
 tRPC works will all JavaScript frameworks and runetimes. It's easy to add to already existing projects. 
 
 #### Autocompletion
-tRPC is intelligent in the sense that it tries to auto-complete your queries for you based on your entry input.
+tRPC will attempt to auto-complete your queries, speeding up development and ensuring the use of valid query data. 
 
 ### Example of use
 
@@ -177,7 +177,7 @@ A very basic layout render of the form as well as alsready existing notes in the
 ## Strengths
 
 #### tRPC is lightweight
-Since tRPC is a protocol or method for exposing backend functionality it allows for better performing applications without any code generation or runtime bloat.
+Since tRPC is a protocol or method for accessing backend functionality, it allows for better performing applications without any code generation or runtime bloat.
 
 Since tRPC uses Typescript, which is a statically typed language, type definitions are checked during compiling rather than runtime, increasing speed of application.
 
@@ -187,39 +187,73 @@ This can be viewed as both a strenght and a weakness. On one hand, it allows for
 While on the other hand, if Typescript is not the preferred programming language, or if team structure is heavily silo'd between front- and backend tRPC might not be the best option.
 
 #### tRPC works great in a monorepo
-- Easy to nagivate between code
-- better workflow and easier to maintain structure
-- Encouraged to do so.
+With how tRPC communicates between client and server code, you are encouraged to use a singluar repository, and several highlighted features are only accessible if you do so. On a smaller scale, there are many benefits in doing so. It's easier to navigate between client/server code, making changes and ensure typesafety within the entirety of your code base. No more ``uncaught type-errors``.
 
 #### Quick development
 - Fastest and easiest way to develop an API. 
 - Uses type inferference, which means the type of data is automatically detected, which particularly boosts development in the early stages.
 - Integrate with IDE's.
 
+With some familiary to tRPC and well synergized techonologies, such as Next.js and Prisma, you can have functional endpoints up and running within minutes using a pre-configured project package. Such as [T3-app](https://create.t3.gg/).
+
 ## Weaknesses
 
 #### tRPC uses Typescript
-- slow compile time
-- Only works if the entire development team is comfortable working with Typescript.
-- Can be annoying to use in smaller projects
+While your front-end certainly has knowledge of Javascript, and possibly also well versed in Typescript. The same might not be the case for your backend team, or it might simply not be the preferred techonology. There is a greater variety in programming lanugages typically used for backend than there is for frontend. 
+
+While strict static typing leaves a lot of benefits, it can be frustrating to and cumbersome to learn, especially for junior level developers.
 
 #### Works best in a monorepo
-- Not the best solution if your team is silo'd and seperate repo for the API is preferred.
+Since many of tRPC's features benefit from using a singular repository, it might not be the best option if the development team has a need or requirement for heavily silo'd frontend and backend.
 
 #### Scalability
 - In larger scale projects, in a larger team, its often beneficial to come up with a clear set of rules and a schema that everyone can work from. tRPC does not offer this.
 - If your app is getting increasingly more complex and require more nuanced requirements, tRPC might not be the best option.
 
 
-#### 
-
 ## Comparison
 
-[Web Dev Simplified](https://www.youtube.com/watch?v=lxnPMB0Jc7E) asks recently in a video if tRPC spells the end to ``REST/graphQL``. While
+[Web Dev Simplified](https://www.youtube.com/watch?v=lxnPMB0Jc7E) asks recently in a video if tRPC spells the end to ``REST/graphQL``. While his title is almost certainly to generate views and clicks, the video does highlight some of the unique benefits of tRPC as well as its simplicity of use. When possible, people tend to gravitate towards the option that provides them the simplest solution. tRPC often do so in an intelligent and seamless manner. 
+
+However, there are dilemmas and industry requirements that ``tRPC`` cannot properly solve, and in such cases there might be better options out there. One such popular option is ``graphQL``.
+
+### GraphQL
+In short, ``graphQL`` is a query language for APIs and a runtime for fulfilling those queries with your existing data. While ``REST`` APIs will always return the entire object the client is requesting, ``GraphQL`` allows you to query to your API and return only the data you're interested in. ``With GraphQL`` the client controls the data returned, not the server. 
+
+``GraphQL`` queries can access several properties at once by following references between them, making it possible to fetch all the data you need in a single request. Significantly reducing the bandwidth footprint. 
+
+Similar to ``tRPC``, ``GraphQL`` offers typesafety. ``GraphQL`` is organized in terms of types and fields, instead of endpoints. 
+
+#### Scalability and maintainance
+With ``GraphQL`` you can easily add new fields and types to the API without impacting or breaking existing queries. As a result the server code base becomes easier to maintain and allows for API growth with less hassle and complication.
+
+GraphQL is being used by industry juggernaughts such as ``Facebook``, ``Github``, ``Airbnb``, ``Twitter`` and many others.
+
+### Which is better? tRPC or GraphQL?
+``tRPC`` is still very much in its infancy, and while many of its features are excellent it cannnot match ``GraphQL's`` scalability and network efficiency. Nor does it need or try to. In my view, they can coexist not as competing technologies, but technologies that both offer their strength and weaknesses depending on use cases.
+
+*Use GraphQL if:*
+- Its a large scale project, with the need of well defined schemas, maintenance and future development requirements.
+- if your team is either heavily silo'd or use multiple programming languages.
+
+*Use tRPC if:*
+- You are looking to learn to create your own API's.
+- You are working in a smaller development team or work as a freelancer.
+- You use Typescript as your preferred programming language.
+- You are developing a smaller scope application.
+
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+tRPC offers an excellent introduction to creating API's. Using it is intuitive, fast and efficient. With some experience, you can have functional endpoints up and running within minutes. Whether you are a junior when it comes to backend or web-development in general, or an experienced full-stack developer tRPC should offer a lot of welcome features for your next project - increasing your workflow, maintaining your code base and overall helping you become an overall more productive developer. 
+
+[As Chris Bautista states in his overview video](https://www.youtube.com/watch?v=2LYM8gf184U&t=665s)
+
+```
+Now everyone can call themselves full-stack developer.
+```
+
+With some learning and familiary with the ``tRPC`` library and excellent pre-configured projects such as ``T-3 App``, it's really not too far from the truth. Maybe for your next project you too will check it out?
 
 ### Credits
 
@@ -235,4 +269,7 @@ Summarise the content and highlight the relevance of the product to a web develo
 - https://www.youtube.com/watch?v=2LYM8gf184U&t=1s
 - https://cleancommit.io/blog/trpc-vs-graphql-how-to-choose-the-best-option-for-your-next-project/
 - https://www.youtube.com/watch?v=lxnPMB0Jc7E
-https://trpc.io/docs/migrate-from-v9-to-v10#summary-of-changes
+- https://trpc.io/docs/migrate-from-v9-to-v10#summary-of-changes
+- https://www.stxnext.com/blog/typescript-pros-cons-javascript/
+- https://www.perfomatix.com/trpc-vs-graphql/
+- https://graphql.org/
