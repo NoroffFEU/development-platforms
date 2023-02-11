@@ -43,8 +43,8 @@ Unless your plan is to build something that outlives or rivals Google, I will no
 
 # Strengths
 
-- Attractive pricing plan
-- Depends on what data your app will be handling. Text, images, video. Your app can support a lot of users on free plan as long as data transfers are mostly text. By the time you need to worry about costs, you should have enough users to not have to worry about costs.
+- Attractive pricing plan - Depends on what data your app will be handling. Text, images, video. Your app can support a lot of users on free plan as long as data transfers are mostly text. By the time you need to worry about costs, you should have enough users to not have to worry about costs.
+- Well documented
 
 # Creating a Firebase Project
 
@@ -136,7 +136,13 @@ const firebaseConfig = {
 
 Go to your index.js file and paste it in.
 
-Above the config, we have to import our Firebase functions. We do this with the following command:
+Further, we will need to use functions from Firebase library. We therefore first need to run the command to download Firebase. Run the following command in the CLI:
+
+```
+npm i firebase
+```
+
+We can now import our Firebase functions. Above the config, place the following import:
 
 ```js
 import { initializeApp } from "firebase/app";
