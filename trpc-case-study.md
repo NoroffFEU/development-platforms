@@ -168,11 +168,11 @@ Where we've called our backend function and stored it in a variable ``newNote``.
 
 The repository is configured with a public MongoDB cluster with our prisma model. On submit, the form should now add a new entry to the database with the content of ``title.value`` and ``description.value``. 
 
-[!alt-image](tRPC-media/form-example.png)
+![alt-image](tRPC-media/form-example.png)
 
 A very basic layout render of the form as well as alsready existing notes in the database on the right hand side. Submitting the form should now update the database with a new entry:
 
-[!alt-image](tRPC-media/database-result.png)
+![alt-image](tRPC-media/database-result.png)
 
 ## Strengths
 
