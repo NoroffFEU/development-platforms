@@ -3,8 +3,8 @@ title: Everything I wondered about Firebase; Answered
 keywords: development platforms, Firebase
 tags: Development Platforms, Firebase
 sidebar: development-platforms
-permalink:
-folder:
+permalink: development-platforms/firebase-case-study.html
+folder: Development platforms
 ---
 
 ## Table of contents
@@ -17,7 +17,7 @@ folder:
 
 Firebase is a development platform & tool provided by Google. Some might call it a BaaS (Backend as a service), which would be both wrong and right, as Firebase encompasses but also expands beyond the utilities of a BaaS.
 Firebase provides an arsenal of different tools and features needed to build an app through an SDK (Software Development Kit).
-These include Authentication, Hosting, Cloud functions, Cloud storage, Realtime database, Performance monitoring, Analytics, Cloud messaging and more.
+These include Authentication, Hosting, Cloud functions, Cloud storage, Realtime database, Performance monitoring, Analytics, Cloud messaging and more. Let us dive deeper.
 
 ## Vendor lock-in
 
