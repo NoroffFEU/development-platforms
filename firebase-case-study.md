@@ -1,10 +1,10 @@
 ---
-title: Firebase Case Study
-keywords: development platforms, firebase, case-study
-tags: Development Platforms, Firebase, Case Study
-sidebar: development-platforms/firebase
-permalink: development-platforms/firebase-case-study.md
-folder: development-platforms/Firebase
+title: Example Product Case Study
+keywords: development platforms, example project, category name
+tags: Development Platforms, Example Project, Category Name
+sidebar: development-platforms
+permalink: development-platforms/example-product.html
+folder: development-platforms
 ---
 
 ### Table of contents
@@ -30,9 +30,7 @@ ________________________________________________________________________________
 
 ![Firebase](images/firebase.jpeg)
 
-A mobile development platform with features that help both developers work efficiently, fast, and reliably, solving the three main issues in mobile apps and all multi-platform devices. It was a backend platform that enhanced the developer's reliance on using it based on demand. It is a leading platform that is relied on by developers globally. It has rapid improvements and additional features that will give satisfying results for the knowledge of both developers and users. And since it is cloud-hosted, it will provide a smoother performance for demand scaling without any hassles. All features are functions for both mobile and web-based applications, including services for building, testing, and managing apps.
-
-**Firebase** is a cross-platform development service with features that help developers to work efficiently, quickly, and reliably, solving the three main issues in mobile apps and all multi-platform devices. It is a back-end platform that increases an application's resources based on demand. It is a leading platform that is relied upon by developers globally. It has benefited from rapid improvement and additional features that provide satisfying results for both developers and users. Since it is cloud-hosted, it provides smooth performance due to hassle-free demand scaling. All features are available for mobile and web-based applications, including services for building, testing, and managing apps.
+**Firebase** is a cross-platform development service with features that help developers to work efficiently, quickly, and reliably, solving the three main issues in mobile apps and all multi-platform devices. It is a back-end platform that increases an application's resources based on demand. It is a leading platform that is relied upon by developers globally. It has benefited from rapid improvement and additional features that provide satisfying results for developers and users. Since it is cloud-hosted, it gives smooth performance due to hassle-free demand scaling. All components are available for mobile and web-based applications, including services for building, testing, and managing apps.
 
 ____________________________________________________________________________________________________________________
 
@@ -189,7 +187,7 @@ ________________________________________________________________________________
 
 ## **Summary:**
 
-- What is ***Firebase***? It's Google's all-in-one cloud service, neatly packaged and delivered to developers who want something up and running quickly. No need to worry about provisioning or elastic cloud structures. All you have to do is connect it to your front end, and everything works. It is an impressive technology and a far-reaching platform for mobile-app development that streamlines various tasks and produces quality software solutions. Since Google backs the technology, it tends to be the most robust, scalable, and dynamic framework features of Firebase, giving fierce competition to web service provider companies. This article explained Firebase's advantages, downsides, pricing structure, core features, and best alternative platforms. It also has downsides, like providing NoSQL. Pricing-wise, Firebase operates under two different plans. The first one is Spark, which provides a generous free tier and encompasses most Firebase features. Firebase is fantastic if you want to create something out of nothing in a flash, making it great for rapid prototyping. You can connect to it if you've got the general gist of what you want to do and need a fully configured backend. Then Firebase can be your go-to service.
+- What is ***Firebase***? It's Google's all-in-one cloud service, neatly packaged and delivered to developers who want something up and running quickly. No need to worry about provisioning or elastic cloud structures. All you have to do is connect it to your front end, and everything works. It is an impressive technology and a far-reaching platform for mobile-app development that streamlines various tasks and produces quality software solutions. Since Google backs the technology, it tends to be the most robust, scalable, and dynamic framework features of Firebase, giving fierce competition to web service provider companies. This article explained Firebase's advantages, downsides, pricing structure, core features, and best alternative platforms. It also has downsides, like only providing NoSQL. Pricing-wise, Firebase operates under two different plans. The first one is Spark, which provides a generous free tier and encompasses most Firebase features. Firebase is fantastic if you want to create something out of nothing in a flash, making it great for rapid prototyping. You can connect to it if you've got the general gist of what you want to do and need a fully configured backend. Then Firebase can be your go-to service.
 
 ____________________________________________________________________________________________________________________
 
@@ -202,19 +200,10 @@ ________________________________________________________________________________
 ## **Companies using Firebase:**
 
 - Alibaba
-![Alibaba](images/alibaba.jpeg)
-
 - Ebay Motor
-![Ebay Motor](images/ebay%20motor.jpeg)
-
 - Le Figaro
-![Le Figaro](images/le%20figaro.jpeg)
-
 - The New York Times
-![The New York Times](images/the%20new%20york%20times.jpeg)
-
 - Todoist
-![Todoist](images/todoist.jpeg)
 
 ____________________________________________________________________________________________________________________
 
