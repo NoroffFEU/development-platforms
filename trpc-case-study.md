@@ -55,13 +55,13 @@ tRPC is intelligent in the sense that it tries to auto-complete your queries for
 
 ### Example of use
 
-In the example we're using a T3 app, configured with tRPC, Prisma and MongoDB. 
+In the example we're using a T3 app, configured with tRPC, Prisma, MongoDB, Next.js and Typescript. 
 
       - MongoDB is our database.
       - tRPC is will be used to create our endpoint.
       - Prisma to handle data to our database.
 
-In our front-end, client folder we have defined an endpoint the following way, and is the example we're going to follow, while highlighting some of tRPC's excellent workflow and QoL features.
+In our front-end, client folder we have defined an endpoint the following way. We're going to take a closer look at how tRPC can be used to tie everything together from backend functions, frontend rendering and an updated database with a new entry, while highlighting some of tRPC's excellent workflow and QoL features.
 
 ```tsx 
       import { api } from '../utils.api'; 
@@ -110,7 +110,7 @@ Read all notes, read a single note defined by ID, create a new note, update note
     )
 ```
 
-Now that we've defined our ``input`` we can use the procedure builser ``.mutation`` to either alter or create a new instance with those definitions. 
+Now that we've defined our ``input`` we can use the procedure builder ``.mutation`` to either alter or create a new instance with those definitions. 
 
 ```prisma
 model Notes {
@@ -122,7 +122,7 @@ model Notes {
 }
 ```
 
-In this use case we're using prisma to easily read or write data to our database, here is the model for our Notes.
+In this use case we're using prisma to easily read or write data to our database, above is the model for our ``Notes``.
 
 ```ts
     .mutation(async ({ ctx, input }) => {
@@ -141,7 +141,32 @@ In this use case we're using prisma to easily read or write data to our database
 
  In our asyncronous function we call ``context`` and our previously defined ``input`` and call ``ctx.prisma.notes.create`` to a create a new instance on our database where title is that of input.title, and description is that of input.description.
 
-Using the same method as before, we can right click on ``createNewNote`` to take us back to our front-end/client code.  
+Using the same method as before, we can right click on ``createNewNote`` to take us back to our front-end/client code. 
+
+```tsx
+     const newNote = api.notes.createNewNote.useMutation();
+```
+
+Where we've called our backend function and stored it in a variable ``newNote``. Within the render code, we've created a simple form, with text input for title and description, and added the following script to run on submit:
+
+```tsx
+<form
+          className="ml-5 rounded bg-white p-5"
+          onSubmit={(event) => {
+            event.preventDefault();
+            newNote.mutate({
+              title: data.title,
+              description: data.description,
+            });
+            setData({
+              title: '',
+              description: '',
+            });
+          }}
+        >
+```
+
+The repository is configured with a public MongoDB cluster with our prisma model. On submit, the form should now add a new entry to the database with the content of title.value and description.value. 
 
 ## Strengths
 
