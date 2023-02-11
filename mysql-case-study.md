@@ -359,20 +359,31 @@ There are several protocols for connecting to MySQL servers:
 
 #### ACID Compliant
 
-- ACID compliance
-  - Atomicity - all or nothing.
-  - Consitency - transactions are valid to rules of the db.
-  - Isolation - Results of transactions are as if they are done end to end.
-  - Durability - Once a transaction is committed, it remains so. - non ACID complient databases potentially trade integrity for speed.
+MySQL is ACID compliant
+
+ACID compliance
+
+- Atomicity - All or nothing. Transactions are treated as a unit where either all of the changes are made or none at all.
+- Consitency - Transactions are valid to rules of the db even if transactions fail.
+- Isolation - Transactions are isolated to make sure they do affect each other.
+- Durability - committed transactions persists, even in the event of failure.
+
+Non ACID complient databases can potentially trade integrity for speed.
 
 ## Strengths
 
-Discuss the product's strengths.
+- Open source: MySQL is openc source software which makes it free to use and can be modified by others.
+- Widley adobpted: MySQL is one of the most used relational databases in the world with a lot of documentation.
+- Scalability: Can scale to handle large amounts of traffic and data, a good chiose for websited with high traffic.
+- Large community: One of the best features of popular open source software is that it comes with a large community
+  which makes it a lot easier to find support and answers to questions.
+- High performance: Provides fast and efficient processing for large datasets.
+- Enterprise option: Comes with the option of changing to the proprietery enterprise version if needed.
 
-- consistency
+ <!-- - consistency
 - stored procedures
 - locking and concurrency
-- add graphs
+- add graphs -->
 
 ## Weaknesses
 
