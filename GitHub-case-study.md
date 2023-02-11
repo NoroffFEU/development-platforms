@@ -41,7 +41,22 @@ Microsoft has since 2012 been using github to host open-source projects and deve
 
 ## Features
 
-Outline the product's key features.
+this is githubs key features:
+
+- **Version Control**: version control is also known as revision control, source control, or source code management. it allows developers to monitor changes to their code and they can revert to previous versions if needed.
+
+- **Team-Collaboration**: users can work together on the same project, inspect each others code, raise issues and make plans for the project.
+
+- **Branches**: a user can start a new branch either from the main branch or a different branch. this allows the user to write new code for the project without adding it to the project itself. when new code is written on a new branch it can be merged into the main project. usually users make a pull request before merging.
+  this system enables users to develop code on different versions of a project at the same time.
+
+- **Pull requests**: when a user have made changes to a project's code on a sepparate branch, he can make a pull request. this is an important step in quality control where other developers can inspect the canges in the code. they do this to make sure that the code is bug free and has no issues. when it is determined that the code is safe it can be merged from this branch to it's parrent branch or to the main branch.
+
+- **issues**: GitHub Issues can be used to track ideas, feedback, tasks, or bugs for work on GitHub. issues can be an important part of development as bugs and problems with the code arises developers can raise an issue and also assign the issue to spesific developers for fixing.
+
+- **merging**: is adding new code to a project from a sepparate branch. usually this is done after a pull request.
+
+- **Integration**: github allows for developers to use other programs in combinatiion with github
 
 ## Strengths
 
