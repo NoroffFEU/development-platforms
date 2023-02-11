@@ -9,35 +9,32 @@ folder: development-platforms
 
 ## Introduction
 
-I have chosen to write a case study about MySQL, because it is one of the world's most popular and widely used databases.
-My goal is to weigh it's strengths and weaknesses against other technologies of the same kind to figure out
-if this is a product worth using, if there are other more modern products with better solutions and
+I have chosen to write a case study about MySQL because it is one of the world's most popular and widely used databases.
+My goal is to weigh its strengths and weaknesses against other technologies of the same kind to figure out
+if this is a product worth using if there are other more modern products with better solutions and
 which cases you should use or not use MySQL.
 
 MySQL is an open source relational database management system (RDBMS).
 A relational database can store data in tables consisting of rows and columns
-that can be related to each other using id's and something called foreign keys.
+that can be related to each other using ids and something called foreign keys.
 The SQL in MySQL stands for Structured Query Language, which is a standardized language used by
-developers to either create, select, update or delete data, among other commands.
+developers to either create, select, update, or delete data, among other commands.
 
 Think of a relational database (RDB) as a digital file cabinet for storing files.
-It's very important that the data stored in a database can be relied upon, to be secure and persist.
+It's very important that the data stored in a database can be relied upon, to be secure and persistent.
 
 RDBs have stood the test of time and are still today the most used types of databases,
 and MySQL is currently the most commonly used RDB.
 
 ## Brief History
 
-Provide a brief history of the product, including major milestones or events.
-You may use bullet points, numbered lists, paragraphs or a timeline.
-
-The first development of MySQL started in 1994 by swedish developers Allan Larson, David Axamark
-and finnish developer Michael "Monty" Widenius. MySQL was initially intended for personal usage
-and derived from it's proprietary predecessor mSQL, another database management system
-based the low-lever language ISAM. The developers considered mSQL to be slow and inflexible
+The first development of MySQL started in 1994 by Swedish developers Allan Larson, David Axamark
+, and Finnish developer Michael "Monty" Widenius. MySQL was initially intended for personal usage
+and derived from its proprietary predecessor mSQL, another database management system
+based on the low-lever language ISAM. The developers considered mSQL to be slow and inflexible
 and created a new SQL interface that used the same API as mSQL.
 Keeping the same API allowed many developers to switch to MySQL
-after it's first release in May 23rd 1995.
+after its first release on May 23rd, 1995.
 
 In the year 2000, MySQL went open source which allowed it to be accessed and used by everyone.  
 Since then it has grown in popularity and is currently ranked the world's most used open source database
@@ -61,13 +58,13 @@ Here's a timeline of MySQL
   - Sun Microsystems acquire MySQL AB, version 5.1 released November
     (partitioning, event scheduler, plugin API, server log tables, row based replication)
   - version 5.1 contained lots of bugs, most of them were fixed by V 5.1.51
-  - version 5.1 and 6.0-alpha had issues with data warehousing - partially because of it's inability to utilize multiple CPU cores for processing a single query.
+  - version 5.1 and 6.0-alpha had issues with data warehousing - partially because of its inability to utilize multiple CPU cores for processing a single query.
 - 2009, version 6.0.11-alpha announced.
 - 2010, Oracle acquires Sun Microsystems - legal complications in the EU - January 27th - Michael "Monty" Widenius forked MySQL and created MariaDB to keep it open source - MariaDB API remains compatible with MySQL.
 - 2013, general availability for version 5.6 announced. Big update
 - 2015, general availability for version 5.7 announced - supports native JSON data.
 - 2018, version 8.0 - update included NoSQL Document Store.
-- 2019, MySQL won price of best DBMS from DB-Engines ranking
+- 2019, MySQL won the price of best DBMS from DB-Engines ranking
 
 ##### Editions
 
@@ -76,18 +73,18 @@ MySQL community edition
 - open source GPL, free to use
 - community support only
 
-MySQL standard edition (annual subscription of about 2000 usd / year per server )
+MySQL standard edition (annual subscription of about 2000 USD / year per server )
 
-- 24/7 support from oracle.
-- mostly the same as community edition but with support.
+- 24/7 support from Oracle.
+- mostly the same as the community edition but with support.
 
-MySQL enterprise edition (5000 usd / year per server)
+MySQL enterprise edition (5000 USD / year per server)
 
 - cluster routing and partitioning features
-- tools for security, backups and monitoring
+- tools for security, backups, and monitoring
 - thread pooling for performance increase during large loads
 
-MySQL cluster CGE (10.000 usd / year per server)
+MySQL Cluster CGE (10.000 USD / year per server)
 
 - designed for linear scalability
 - highly available, high volume
@@ -98,21 +95,21 @@ Outline the product's key features.
 
 #### Internals
 
-- MySQL is written in C and C++ portable across a variety of platforms.
-- The C API gives a low level access to the client/server protocol.
+- MySQL is written in C and C++ and portable across a variety of platforms.
+- The C API gives a low-level access to the client/server protocol.
 - Supports ANSI/ISO SQL standard
 - the server design is multi-layered and has independent modules.
 - It's been tested on a wide selection of different compilers and platforms.
 - Allows for multithreading using kernel threads and can utilize multiple CPUs with ease, if available.
 - supports both transactional and non-transactional storage engines.
 - B-tree disk tables and index compression.
-- Storage engines can be added relatively easy. This makes it easier to add SQL interface for in-house databases.
+- Storage engines can be added relatively easily. This makes it easier to add an SQL interface for in-house databases.
 - Purify has been used to test for memory leak detection.
 - Valgrind has been used for GPL/GNU General Public License.
 - The server is provided as a separate program when using a networked client/server program.
 - Configured with CMake for optimal portability.
 - Memory allocation system is fast-thread based.
-- Designed to implement SQL functions using optimized class library.
+- Designed to implement SQL functions using an optimized class library.
 - Uses in-memory hash tables as temporary tables
 - Joins are optimized and very fast using nested-loop join.
 
@@ -153,20 +150,20 @@ SIGNED and UNSIGNED values:
 - signed values can store zero, negative and positive numbers.
 - UNSIGNED values can only store zero and positive numbers.
 
-What numeric types one should use depends on the what it is used for. In general one would want to use the type that stores the most accurate value and uses the least amount of storage, with consideration to how fast you need the data to be pulled or stored. E.g: DECIMAL is great for monetary use where FLOAT and DOUBLE are often used for scientific numbers where every decimal number counts.
+What numeric types one should use depends on what it is used for. In general, one would want to use the type that stores the most accurate value and uses the least amount of storage, with consideration to how fast you need the data to be pulled or stored. E.g: DECIMAL is great for monetary use whereas FLOAT and DOUBLE are often used for scientific numbers where every decimal number counts.
 
 ##### String Data Types
 
-The string data types consist are: CHAR,VARCHAR,BINARY,VARBINARY,TEXT,BLOB,SET and ENUM.
+The string data types are CHAR, VARCHAR, BINARY, VARBINARY, TEXT, BLOB, SET, and ENUM.
 
 CHAR (fixed length)
 
 - The length of a "CHAR value" is a "fixed length" that is declared when a table is created.
   This can be anything between 0 to 255. The "CHAR value" is then padded to the right with spaces to match the "fixed value".
-  Trailing spaces will be removed when a "CHAR value" is retrieved, unless PAD_CHAR_TO_FULL_LENGTH mode is activated.
+  Trailing spaces will be removed when a "CHAR value" is retrieved unless PAD_CHAR_TO_FULL_LENGTH mode is activated.
 - CHAR uses static memory allocation
 - Faster
-- typically used for phone numbers, zip codes etc.
+- typically used for phone numbers, zip codes, etc.
   E.G. CHAR(10) = "abc-------"
 
 VARCHAR (variable length)
@@ -184,14 +181,14 @@ VARCHAR (variable length)
 
 BINARY and VARBINARY have many similarities with CHAR and VARCHAR. The difference is that the values are stored as byte strings rather than character strings.
 The size of BINARY and VARBINARY values can be specified like in CHAR and VARCHAR by using parentheses e.g. Binary(40).
-In this example the value will allow storage for 40 bytes and pads the potentially "missing" space with 0x00, which are then retained when the value is retrieved.
+In this example, the value will allow storage for 40 bytes and pads the potentially "missing" space with 0x00, which is then retained when the value is retrieved.
 VARBINARY will do the same as VARCHAR by initially using 1 or 2 byte prefix plus data. There is no padding
 
 BLOB and TEXT
 
-- BLOB stands for "Binary Large OBject". There are four different types of BLOBs: TINYBLOB,BLOB,MEDIUMBLOB AND LONGBLOB.
-  BLOBs stores the value as binary strings
-- TEXT is the "non-binary" equivalent to blob, There are four different types of TEXT: TINYTEXT,TEXT,MEDIUMTEXT AND LONGTEXT.
+- BLOB stands for "Binary Large OBject". There are four different types of BLOBs: TINYBLOB, BLOB, MEDIUMBLOB and LONGBLOB.
+  BLOBs store the value as binary strings
+- TEXT is the "non-binary" equivalent to blob, There are four different types of TEXT: TINYTEXT, TEXT, MEDIUMTEXT and LONGTEXT.
   TEXT stores values as character strings.
 
 - some developers argue that you CAN utilize BLOBs and TEXTs as a "document-database storage", meaning you can use a relational database to achieve some of the same benefits from a document-no-SQL database. However, this seems to be an ongoing debate.
@@ -199,20 +196,20 @@ BLOB and TEXT
 ENUM
 
 - ENUM, which is short for enumeration. Is a string object where a set of values are enumerated.
-  Think of this as an array of string values, each value has an index and only one value can be selected at the time.
-  ENUMs store the string values as numbers to save data and returns strings when retrieved.
-  Only one index can be selected at the time.
+  Think of this as an array of string values, each value has an index and only one value can be selected at a time.
+  ENUMs store the string values as numbers to save data and return strings when retrieved.
+  Only one index can be selected at a time.
 
 SET
 
-- SET are in many ways similar to ENUMs. SET allows you to select many options, as opposed to ENUM which only allows one.
+- SET is in many ways similar to ENUMs. SET allows you to select many options, as opposed to ENUM which only allows one.
   A SET column can have up to 64 members.
   An error will occur if the values are duplicated when strict SQL mode is active.
-  Some argue that SET can be an inefficient way to store data because of it's limiting storage capacity when working with a "many to many relationship"
+  Some argue that SET can be an inefficient way to store data because of its limiting storage capacity when working with "many to many relationships"
 
 ##### Date and Time Data Types
 
-The Date and Time Data Types are: DATE,TIME,YEAR,DATETIME and TIMESTAMP.
+The Date and Time Data Types are DATE, TIME, YEAR, DATETIME and TIMESTAMP.
 
 DATE
 
@@ -261,7 +258,7 @@ Spatial data types can consist of single geometry values:
 - POLYGON
 - LINESTRING
 
-The other types of spatial data consists of a collection of values:
+The other types of spatial data consist of a collection of values:
 
 - MULTIPOINT
 - MULTILINESTRING
@@ -272,19 +269,19 @@ This type of data is typically used in a geographic setting.
 
 ##### The JSON Data Type
 
-MySQL supports JSON (Javascript Object Notation). JSON stores it's values inside an object with key value pairs.
+MySQL supports JSON (Javascript Object Notation). JSON stores its values inside an object with key-value pairs.
 E.G. { key: "value", key2: 29 }
 MySQL automatically validates the document when storing JSON instead of a string.
-JSON stored in JSON columns allows for optimized storage, quicker conversion because JSON is stored as a binary format with a structure that enables the server to look up objects directly by key or array indexes.
+JSON stored in JSON columns allows for optimized storage, and quicker conversion because JSON is stored as a binary format with a structure that enables the server to look up objects directly by key or array indexes.
 
 #### Statements and Functions
 
-MySQL has a large and comprehensive list of built in statements and functions that makes it easier to perform tasks.
+MySQL has a large and comprehensive list of built-in statements and functions that makes it easier to perform tasks.
 
-Statements in MySQL usually starts with one of the following keywords: SELECT, SHOW, INSERT, UPDATE, DROP, DELETE, ALTER, CREATE, USE.
+Statements in MySQL usually start with one of the following keywords: SELECT, SHOW, INSERT, UPDATE, DROP, DELETE, ALTER, CREATE, USE.
 This enables the user to manipulate data in the database using a Structured Query Language.
 
-Functions are pre-build programs that takes parameters and returns a value or completes a task based on the parameters passed by the developer.
+Functions are pre-build programs that take parameters and return a value or complete a task based on the parameters passed by the developer.
 
 The syntax for a MySQL function is:
 
@@ -306,20 +303,20 @@ END;
 
 Some of the main security features are:
 
-- User authentication: Access to the database can be controlled by the use of username and password authentication.
+- User authentication: Access to the database can be controlled by the use of a username and password authentication.
 - Access control: A user can be granted specific access privileges such as the ability to read write or execute specific commands.
 - Encryption: MySQL uses different forms of encryption for data in transit such as SSL (Secure Sockets Layer),
   TSL (Transport Layer Security) and AES (Advanced Encryption Standard) for data at rest.
-- Data validation: Provided constraints such as primary keys, foreign keys and checks helps preventing corruption
-  and keeps the data accurate, valid and consistent.
+- Data validation: Provided constraints such as primary keys, foreign keys, and checks help prevent corruption
+  and keep the data accurate, valid, and consistent.
 - Auditing: You can log and monitor user activities to detect suspicious behavior
 - Firewall: Access to a MySQL server can be restricted with the use of firewalls and allowing only authorized connections.
 
-Note that it's important to configure your own security-best-practices to ensure that the data is secure.
+Note that it's important to configure your security-best-practices to ensure that the data is secure.
 
 #### Scalability
 
-MySQL supports large databases. There are databases with over 50 million records, 200,000 tables and around 5 billion rows.
+MySQL supports large databases. There are databases with over 50 million records, 200,000 tables, and around 5 billion rows.
 The maximum number of tables is generally limited by the storage engine used.
 
 #### Connectivity
@@ -330,12 +327,12 @@ There are several protocols for connecting to MySQL servers:
 - Named pipes and shared-memory connections. Optional: (--protocol=memory)
 - Unix domain socket files for Unix systems.
 - Client programs for many languages. APIs are available for C, C++, Perl, Java, Eiffel, Tcl, PHP, Ruby, and Python.
-- Provides connectors for ODBC (Open Database Connectivity), JDBC (Java Database Connectivity) and .NET applications.
+- Provides connectors for ODBC (Open Database Connectivity), JDBC (Java Database Connectivity), and .NET applications.
 
 #### Localization
 
 - Servers provide error messages in many languages.
-- Supports different character and unicode sets. Data is sorted and saved in selected language.
+- Supports different character and Unicode sets. Data is sorted and saved in the selected language.
 - Time zones can be changed dynamically for servers and clients.
 
 #### Clients and Tools
@@ -351,11 +348,11 @@ MySQL is ACID compliant
 ACID compliance
 
 - Atomicity - All or nothing. Transactions are treated as a unit where either all of the changes are made or none at all.
-- Consistency - Transactions are valid to rules of the db even if transactions fail.
+- Consistency - Transactions are valid to the rules of the DB even if transactions fail.
 - Isolation - Transactions are isolated to make sure they do affect each other.
-- Durability - committed transactions persists, even in the event of failure.
+- Durability - committed transactions persist, even in the event of failure.
 
-Non ACID compliant databases can potentially trade integrity for speed.
+Non-ACID-compliant databases can potentially trade integrity for speed.
 
 ## Strengths
 
@@ -385,7 +382,7 @@ Summarize the content and highlight the relevance of the product to a web develo
 
 #### References
 
-- List of video or links used during research
+- List of videos or links used during research
 
 Articles:
 
