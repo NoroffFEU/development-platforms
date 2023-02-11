@@ -11,6 +11,7 @@ folder: development-platforms
 
 PostgreSQL is one of the most advanced open source relational database. It's been active in development for 30+ years and has earned a strong reputation for its reliability, feature robustness and performance.
 
+
 ## Brief History
 
 Provide a brief history of the product, including major milestones or events.
@@ -49,11 +50,26 @@ Performance and maintenance were improved, it ran faster, bugs were fixed and go
 
 ## Features
 
-Outline the product's key features.
+PostgreSQL has a large list of features which consists of many relating to performance, security, programming extensions and configurations.
+
+Here are a few key features:
+* In addition to being a free and an open source software, it has support for writing functions(programming languages) such as:
+    * SQL, Python, Perl, Tcl, Java, R, Javascript, shell and Lua.
+* Has the capacity for fault tolerance.
+* PostgreSQL also supports alot of data types.
+    * Besides the string, numeric, boolean, date, POSTGRES also supports enumerated, geometric, hstores, network adressess, binary, xml, json, array, uuid, monetary and more. 
+* Table inheritance.
+     Allows you to create a child table based on another table, where the child table will include all of the columns in the parent table.
+* Is ACID Compliant.
+     Is reliable because it is ACID(Atomicity, Consistency, Isolation and Durability) compliant meaning queries will maintain data integrity. POSTGRES is known for its rocksolid referential and transactional integrity.
+* Multi-version concurrency control(MVCC)
+    MVCC is an advanced technique for improving database performance in a multi-user environment. 
+
 
 ## Strengths
 
 Discuss the product's strengths.
+
 
 ## Weaknesses
 
