@@ -9,46 +9,51 @@ folder: Development platforms
 
 ## Table of contents
 
-1. [Introduction](#Introduction)
-2.
+1. [Introduction](#introduction)
+2. [Brief History](#brief-history)
 3.
 
 # Introduction
 
 Firebase is a development platform & tool provided by Google. Some might call it a BaaS (Backend as a service), which would be both wrong and right, as Firebase encompasses but also expands beyond the utilities of a BaaS.
 Firebase provides an arsenal of different tools and features needed to build an app through an SDK (Software Development Kit).
-These include Authentication, Hosting, Cloud functions, Cloud storage, Realtime database, Performance monitoring, Analytics, Cloud messaging and more. Let us dive deeper.
+These include Authentication, Hosting, Cloud functions, Cloud storage, Realtime database, Performance monitoring, Analytics, Cloud messaging and more.  
+Let us dive deeper.
 
-## Vendor lock-in
+# Brief History
 
-When using external development platforms like BaaS, you are often required to use the company´s SDK´s, and therefore building your application on their terms, using their methods. This may cause the issue of "Vendor Lock-in", where your code is tied to the service to such an extent that although you want to switch service, the amount of work required to do it prevents you.
+# Vendor lock-in
+
+When using external development platforms like BaaS's, you are often required to use the company's SDK's, and therefore building your application on their terms, using their methods. This may cause the issue of "Vendor Lock-in", where your code is tied to the service to such an extent that although you want to switch service, the amount of work required to do it prevents you.
 
 Main causes of worry from this phenomenon may include:
 
 - The service provider shuts down.
 - The service provider increases prices.
 - You reach a technical barrier of the service
-- The service adopts unethical views or routines
 
-Lets look at these from the perspective of a Firebase customer.
-Google is gigantic with small to no probability of shutting down the service. Being Vendor locked-in to this behemoth is therefore less of a concern than being locked-in to a minor and less predictable provider. Big ships turn slowly.
+Lets look at these in regards of Firebase.  
+Unfortunately, your code will become quite specified to their service, as most functions are imported from their library. However, Google is a gigantic company with small to no probability of shutting down the service. Being Vendor locked-in to this behemoth is therefore less of a concern than being locked-in to a minor and less predictable provider. When it comes to pricing, big ships turn slowly. Currently, Firebase provides a brilliant "pay as you grow" plan, which we will discuss later.
 
-## Open source or not
+# Closed Source
 
 Although Firebase is not completely Open Source, many of their features are. This is done for increased transparency and
 Open Source components from Firebase include SDK´s, libraries and samples, all posted on their Github.
 Unless your plan is to build something that outlives or rivals Google, I will not personally worry about Firebase´s closed source. Very large companies may however benefit from building their own infrastructure using open source alternatives, to ensure independency.
 
-## What makes Firebase unique
+# Strengths
 
-## Creating a Firebase Project
+- Attractive pricing plan
+- Depends on what data your app will be handling. Text, images, video. Your app can support a lot of users on free plan as long as data transfers are mostly text. By the time you need to worry about costs, you should have enough users to not have to worry about costs.
 
-### Requirements
+# Creating a Firebase Project
+
+## Requirements
 
 - NodeJS
 - A code editor like VSC
 
-### Files and folders
+## Files and folders
 
 The following should be your filing tree.
 
@@ -61,7 +66,7 @@ Root
 |-webpack.config.js  
 |-package.json
 
-### Bundling
+## Bundling
 
 Before you start, you will need to install and setup a bundler to bundle your application specific code with your imported library code.
 
@@ -113,7 +118,7 @@ npm run build
 This should build a file called bundle.js in our dist folder.
 After the file is created, we may change our javascript source to the newly created "bundle.js" in our index.html, and see that the source of our js in the developer tools look neat.
 
-### Create Project
+## Create Project
 
 We may now continue to the Firebase website and create a **web** project. In the Project Settings, you will find a tab called SDK setup and configuration.
 Select the "Config" radio button, and copy the config code presented. It should look something like this:
@@ -147,13 +152,13 @@ initializeApp(firebaseConfig);
 
 Our app is now connected to our online Firebase project.
 
-## Security
+# Security
 
-## Hosting
+# Hosting
 
-## Summary
+# Summary
 
-## Sources
+# Sources
 
 https://firebase.google.com/docs/web/setup
 https://www.youtube.com/watch?v=9zdvmgGsww0&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=1
