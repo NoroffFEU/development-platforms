@@ -1,0 +1,21 @@
+{
+  "cSpell.words": [
+    "datatypes",
+    "GEOMETRYCOLLECTION",
+    "LINESTRING",
+    "LONGBLOB",
+    "LONGTEXT",
+    "MEDIUMBLOB",
+    "MEDIUMINT",
+    "MEDIUMTEXT",
+    "MULTILINESTRING",
+    "MULTIPOINT",
+    "MULTIPOLYGON",
+    "SMALLINT",
+    "TINYBLOB",
+    "TINYINT",
+    "TINYTEXT",
+    "VARBINARY",
+    "VARCHAR"
+  ]
+}
