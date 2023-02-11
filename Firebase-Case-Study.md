@@ -45,6 +45,10 @@ Although Firebase is not completely Open Source, many of their features are. Thi
 Open Source components from Firebase include SDK´s, libraries and samples, all posted on their Github.
 Unless your plan is to build something that outlives or rivals Google, I will not personally worry about Firebase´s closed source. Very large companies may however benefit from building their own infrastructure using open source alternatives, to ensure independency.
 
+## Database
+
+The topic of database deserves it's own section, and is discussed further [Here](#database).
+
 # Strengths
 
 - Attractive pricing plan - Depends on what data your app will be handling. Text, images, video. Your app can support a lot of users on free plan as long as data transfers are mostly text. By the time you need to worry about costs, you should have enough users to not have to worry about costs.
