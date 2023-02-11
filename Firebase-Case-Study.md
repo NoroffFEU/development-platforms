@@ -22,11 +22,13 @@ Let us dive deeper.
 
 # Brief History
 
+Firebase originated as Evolve, an API that enables integration of online chat functionality to websites. When the founders discovered that the service was being used to pass application data that were not chat messages, they decided to separate the chat system and the real-time architecture that powered it. Firebase was founded as a separate company in 2011. In 2014, Firebase is acquired by Google.
+
 # Vendor lock-in
 
 When using external development platforms like BaaS's, you are often required to use the company's SDK's, and therefore building your application on their terms, using their methods. This may cause the issue of "Vendor Lock-in", where your code is tied to the service to such an extent that although you want to switch service, the amount of work required to do it prevents you.
 
-Main causes of worry from this phenomenon may include:
+Being vendor locked in can be a major issue if:
 
 - The service provider shuts down.
 - The service provider increases prices.
@@ -157,6 +159,10 @@ initializeApp(firebaseConfig);
 ```
 
 Our app is now connected to our online Firebase project.
+
+# Database
+
+- noSQL - benefits - weaknesses - method
 
 # Security
 
