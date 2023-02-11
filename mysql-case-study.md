@@ -57,16 +57,12 @@ Here's a timeline of MySQL
 - 1996, version 3.19
 - 1997, version 3.20
 - 1998, January 8th, version realeased for windows 95. - version 3.21 Production realease from www.mysql.com - version 3.22 alpha, beta
-- 1999,
-
 - 2000, version 3.23 beta, MySQL goes open source
 - 2001, version 3.23
 - 2002, version 4.0 beta
 - 2003, version 4.0
 - 2004, version 4.1 beta June, production release October 2004 (B-trees and R-trees, prepared statements, subqueries)
 - 2005, version 5.0 beta March, production release October Oracle acquires Innobase, the company responsible for backend storage of MySQL.
-- 2006,
-- 2007,
 - 2008,
   - Sun Microsystems acquire MySQL AB, version 5.1 released November
     (partitioning, event scheduler, plugin API, server log tables, row based replication)
@@ -74,20 +70,33 @@ Here's a timeline of MySQL
   - version 5.1 and 6.0-alpha had issues with data warehousing - partialy because of it's inability to utilize multiple CPU cores for processing a single query.
 - 2009, version 6.0.11-alpha annouced.
 - 2010, Oracle acquires Sun Microsystems - legal complications in the EU - January 27th - Michael "Monty" Widenius forked MySQL and created MariaDB to keep it open source - MariaDB API remains compatible with MySQL.
-- 2011,
-- 2012,
 - 2013, general availability for version 5.6 anounced. Big update
-- 2014,
 - 2015, general availability for version 5.7 anounced - supports native JSON data.
-- 2016,
-- 2017,
 - 2018, version 8.0 - update indcuded NoSQL Document Store.
 - 2019, MySQL won price of best DBMS from DB-Enginges ranking
 
-- 2020,
-- 2021,
-- 2022,
-- 2023,
+##### Editions
+
+MySQL community edition
+
+- open source GPL, free to use
+- community support only
+
+MySQL standard edition (annual subscription of about 2000 usd / year per server )
+
+- 24/7 support from oracle.
+- mostly the same as community edition but with support.
+
+MySQL enterprise edition (5000 usd / year per server)
+
+- cluster routing and partitioning features
+- tools for security, backups and monitoring
+- thread pooling for performance increase during large loads
+
+MySQL cluster CGE (10.000 usd / year per server)
+
+- designed for linear scalability
+- higly available, high volume
 
 ## Features
 
@@ -95,8 +104,9 @@ Outline the product's key features.
 
 #### Internals
 
-- MySQL is written in C and C++.
+- MySQL is written in C and C++ portable across a variety of platforms.
 - The C API gives a low level access to the client/server protocol.
+- Supports ANSI/ISO SQL standard
 - the server design is multi-layered and has independent modules.
 - It's been tested on a wide selection of different compilers and platforms.
 - Allows for multithreading using kernel threads and can utilize multiple CPUs with ease, if available.
@@ -111,6 +121,13 @@ Outline the product's key features.
 - Designed to implement SQL functions unsing optimized class library.
 - Uses in-memory hash tables as temporary tables
 - Joins are optimized and very fast using nested-loop join.
+<!-- todo - Fast stable and scalable
+- stored procedures
+- triggers
+- cursors
+- updated views
+- query cache
+- subselects -->
 
 #### Data Types
 
@@ -342,45 +359,11 @@ There are several protocols for connecting to MySQL servers:
 
 #### ACID Compliant
 
-- Supports ANSI/ISO SQL standard
-- Developed in C and C++ and is postable across a variety of platforms.
-- Fast stable and scalable
-- stored procedures
-- triggers
-- cursors
-- updated views
-- query cache
-- subselects
-
 - ACID compliance
-
   - Atomicity - all or nothing.
   - Consitency - transactions are valid to rules of the db.
   - Isolation - Results of transactions are as if they are done end to end.
   - Durability - Once a transaction is committed, it remains so. - non ACID complient databases potentially trade integrity for speed.
-
-- Editions
-
-  MySQL community edition
-
-  - open source GPL, free to use
-  - community support only
-
-  MySQL standard edition (annual subscription of about 2000 usd / year per server )
-
-  - 24/7 support from oracle.
-  - mostly the same as community edition but with support.
-
-  MySQL enterprise edition (5000 usd / year per server)
-
-  - cluster routing and partitioning features
-  - tools for security, backups and monitoring
-  - thread pooling for performance increase during large loads
-
-  MySQL cluster CGE (10.000 usd / year per server)
-
-  - designed for linear scalability
-  - higly available, high volume
 
 ## Strengths
 
