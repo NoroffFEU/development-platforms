@@ -8,9 +8,23 @@ These include Authentication, Hosting, Cloud functions, Cloud storage, Realtime 
 
 ## Vendor lock-in
 
-- Google is gigantic with small to no probability of shutting down the service. Being Vendor locked-in to this behemoth is therefore less of a concern than being locked-in to a minor and less predictable provider.
+When using external development platforms like BaaS, you are often required to use the company´s SDK´s, and therefore building your application on their terms, using their methods. This may cause the issue of "Vendor Lock-in", where your code is tied to the service to such an extent that although you want to switch service, the amount of work required to do it prevents you.
+
+Main causes of worry from this phenomenon may include:
+
+- The service provider shuts down.
+- The service provider increases prices.
+- You reach a technical barrier of the service
+- The service adopts unethical views or routines
+
+Lets look at these from the perspective of a Firebase customer.
+Google is gigantic with small to no probability of shutting down the service. Being Vendor locked-in to this behemoth is therefore less of a concern than being locked-in to a minor and less predictable provider. Big ships turn slowly.
 
 ## Open source or not
+
+Although Firebase is not completely Open Source, many of their features are. This is done for increased transparency and
+Open Source components from Firebase include SDK´s, libraries and samples, all posted on their Github.
+Unless your plan is to build something that outlives or rivals Google, I will not personally worry about Firebase´s closed source. Very large companies may however benefit from building their own infrastructure using open source alternatives, to ensure independency.
 
 ## What makes Firebase unique
 
