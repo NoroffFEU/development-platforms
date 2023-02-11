@@ -150,7 +150,7 @@ Using the same method as before, we can right click on ``createNewNote`` to take
 Where we've called our backend function and stored it in a variable ``newNote``. Within the render code, we've created a simple form, with text input for title and description, and added the following script to run on submit:
 
 ```tsx
-<form
+      <form
           className="ml-5 rounded bg-white p-5"
           onSubmit={(event) => {
             event.preventDefault();
@@ -166,7 +166,13 @@ Where we've called our backend function and stored it in a variable ``newNote``.
         >
 ```
 
-The repository is configured with a public MongoDB cluster with our prisma model. On submit, the form should now add a new entry to the database with the content of title.value and description.value. 
+The repository is configured with a public MongoDB cluster with our prisma model. On submit, the form should now add a new entry to the database with the content of ``title.value`` and ``description.value``. 
+
+[!alt-image](tRPC-media/form-example.png)
+
+A very basic layout render of the form as well as alsready existing notes in the database on the right hand side. Submitting the form should now update the database with a new entry:
+
+[!alt-image](tRPC-media/database-result.png)
 
 ## Strengths
 
