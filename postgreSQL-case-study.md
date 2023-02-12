@@ -14,13 +14,9 @@ PostgreSQL is one of the most advanced open source relational database. It's bee
 
 ## Brief History
 
-Provide a brief history of the product, including major milestones or events.
-
-You may use bullet points, numbered lists, paragraphs or a timeline.
-
 This ORDBMS which stands for Object Relational Database Management system is PostgreSQl which is taken from the POSTGRES package written at the University Berkley. POSTGRES was used for mant different research and production application which include a financial data analysis system, a jet enginge performance monitoring package, and asteroid tracking database, a medical information database, and several geographic information systems. It has also been used as an educational tool at several universities. 
 
-# The Berkley POSTGRES Project
+### The Berkley POSTGRES Project
 
 1986 - The implementation of POSTGRES began and the project, led by Professor Michael Stonebraker, was sponsored by the Defense Advanced Research Agency, the Army Research Office, the National Science Foundation and ESL, Inc.
 
@@ -38,12 +34,12 @@ This ORDBMS which stands for Object Relational Database Management system is Pos
 
 1993 - The size of the external user community almost doubled. The Berkley POSTGRES Project officially ended with Version 4.2 because maintenance of the prototype code took up large amounts of time that should have been devoted to database research.
 
-# Postgres95
+### Postgres95
 
 1994 - An SQL language interpreter was added by Andrew Yu and Jolly Chen, and Postgres95 which was its new name, was released to the web as an open source descendant of the original POSTGRES. 
 Performance and maintenance were improved, it ran faster, bugs were fixed and got many enhancements.
 
-# PostgreSQL
+### PostgreSQL
 
 1996 - New name was implemented to PostgreSQL to reflect the relationship between the original POSTGRES and the more recent versions with SQL capability. 
 
@@ -53,22 +49,35 @@ Performance and maintenance were improved, it ran faster, bugs were fixed and go
 PostgreSQL has a large list of features which consists of many relating to performance, security, programming extensions and configurations.
 
 Here are a few key features:
-* In addition to being a free and an open source software, it has support for writing functions(programming languages) such as:
-    * SQL, Python, Perl, Tcl, Java, R, Javascript, shell and Lua.
-* Has the capacity for fault tolerance.
+* Runs on most operating systems.
 * PostgreSQL also supports alot of data types.
-    * Besides the string, numeric, boolean, date, POSTGRES also supports enumerated, geometric, hstores, network adressess, binary, xml, json, array, uuid, monetary and more. 
+     Besides the string, numeric, boolean, date, POSTGRES also supports enumerated, geometric, hstores, network adressess, binary, xml, json, array, uuid, monetary and more. 
 * Table inheritance.
      Allows you to create a child table based on another table, where the child table will include all of the columns in the parent table.
-* Is ACID Compliant.
-     Is reliable because it is ACID(Atomicity, Consistency, Isolation and Durability) compliant meaning queries will maintain data integrity. POSTGRES is known for its rocksolid referential and transactional integrity.
+* Asynchronous replication
+     Asynchronous is the standard in PostgreSQL to replicate data. It's a reliable and easy way to distribute data makes setups more failsafe. 
 * Multi-version concurrency control(MVCC)
     MVCC is an advanced technique for improving database performance in a multi-user environment. 
 
+Read more on: https://www.postgresql.org/about/featurematrix/
 
 ## Strengths
 
-Discuss the product's strengths.
+### Open source
+PostgreSQL is an open-source database making it free to use which allows users to use, modify and implement as they want. Thus it has a strong and active community who has contributed to it's development. This type of community driven development has resulted in a lot of participation from it's users. 
+
+### Programming language support
+In addition to being a free and an open source software, it has support for writing functions(programming languages) such as:
+    SQL, Python, Perl, Tcl, Java, R, Javascript, shell and Lua.
+
+### Extensibility
+PostgrSQL is designed to be extensible. It allows you to define your own data types, index types, operators, functional languages, access methods etc, making PostgreSQL extremely programmable. 
+
+### Scalability
+Scalability is how a system/database can handle a growing amount of demands by adding resources, and PostgreSQL can do just that. It can handle large amounts of data and it scales up as the data grows. 
+
+### ACID Compliant
+PostgreSQL reliable because it is ACID(Atomicity, Consistency, Isolation and Durability) compliant meaning queries will maintain data integrity. POSTGRES is known for its rocksolid referential and transactional integrity.
 
 
 ## Weaknesses
