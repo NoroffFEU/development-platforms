@@ -7,32 +7,6 @@ permalink: development-platforms/strapi.html
 folder: development-platforms
 ---
 
-## Table of contents
-
-1. [Introduction](#introduction)
-2. [Brief history](#brief-history)
-3. [Features](#features)
-4. [Strengths](#strengths)
-5. [Weaknesses](#weaknesses)
-6. [Comparison](#comparison)
-7. [Use case: creating an API](#use-case:-creating-an-api)
-8. [Summary](#summary)
-9. [Credits](#credits)
-10. [References](#references)
-
-## Table of content
-
-1. [Introduction](#introduction)
-2. [History](#brief-history)
-3. [Purpose and Concepts](#purpose-and-concepts)
-4. [Features and Ecosystem](#tensorflow-features-and-ecosystem)
-5. [Strengths](#strengths)
-6. [Weaknesses](#weaknesses)
-7. [Comparison](#comparison)
-8. [Summary](#summary)
-9. [Glossary](#glossary)
-10. [References](#references)
-
 ## 1. Introduction
 
 The creation and maintenance of databases or Application Programming Interfaces (APIs) are tasks typically associated with the work of a backend or fullstack developer. The work of a frontend developer, on the other hand, is typically associated with consuming that data – turning it into chunks of information that will hopefully be meaningful to the end user of a given service of product.
