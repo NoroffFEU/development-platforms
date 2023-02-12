@@ -67,7 +67,7 @@ as well as limits the amount of resources the client needs to use to view the si
 
 ## Weaknesses
 
-- Not used by any major entity the size of, e.g React with Facebook, Angular with Google
+- Not used by any major entity the size of, e.g React with Facebook or Angular with Google
 - Smaller community than tried and tested frameworks like React and Vue so possibly harder to find a solution or get help fast with an issue.
 - Might be more troublesome when you start building larger project where React shines more wih making complex components.
 
@@ -84,7 +84,7 @@ as well as limits the amount of resources the client needs to use to view the si
 ## Summary
 
 Svelte is a open source compiler and component framework that has revolutionised loading times for the end user by fully embracing Server Side Rendering with SvelteKit, it's currently best for smaller and simpler projects and it's easy to learn and get into.
-It beats the most popular frameworks in loadtime thanks to it's compiling before sending approach (SSR)
+It has really grown in the few years since it's launch and so has the continued interest in learning and wanting to use it based on the developer feedback
 
 ### Credits
 
