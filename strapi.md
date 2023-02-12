@@ -20,6 +20,19 @@ folder: development-platforms
 9. [Credits](#credits)
 10. [References](#references)
 
+## Table of content
+
+1. [Introduction](#introduction)
+2. [History](#brief-history)
+3. [Purpose and Concepts](#purpose-and-concepts)
+4. [Features and Ecosystem](#tensorflow-features-and-ecosystem)
+5. [Strengths](#strengths)
+6. [Weaknesses](#weaknesses)
+7. [Comparison](#comparison)
+8. [Summary](#summary)
+9. [Glossary](#glossary)
+10. [References](#references)
+
 ## 1. Introduction
 
 The creation and maintenance of databases or Application Programming Interfaces (APIs) are tasks typically associated with the work of a backend or fullstack developer. The work of a frontend developer, on the other hand, is typically associated with consuming that data – turning it into chunks of information that will hopefully be meaningful to the end user of a given service of product.
@@ -91,14 +104,16 @@ On the other hand, in recent years we have seen the emergence of numerous other 
 
 One of Strapi's closest competitors is [Contentful](https://www.contentful.com). This platform is also based on an API-first architecture. It compares to Strapi to the extent that developers can benefit from a simple installation process, a user-friendly interface and, most importantly, a focused environment whose sole purpose is to create and manage APIs. It is not open-source, however. On the other hand, unlike Strapi, it does offer integrated hosting services for its APIs. Being a product tailored to the corporate world, the high monthly costs of Contentful can be an impeding factor for many projects.
 
-Another product that can be compared to Strapi is Sanity. It is also an open-source CMS that offers powerful and very customisable functionalities. It has extra functionalities that may be appealing for professionals who may want to edit image files without leaving the platform. The API functionalities are comparable to Strapi's, although not as granular. Like Contentful, Sanity also offers integrated hosting.
+Another product that can be compared to Strapi is [Sanity](https://www.sanity.io). It is also an open-source CMS that offers powerful and very customisable functionalities. It has extra functionalities that may be appealing for professionals who may want to edit image files without leaving the platform. The API functionalities are comparable to Strapi's, although not as granular. Like Contentful, Sanity also offers integrated hosting.
 
 I think this comparison can be summarised in the following way: on the one hand, Strapi seems to be the most flexible and most customisable of these tools, but it does require some extra work in terms of setting up external hosting and databases. On the other hand, Contentful and Sanity are a simpler tools that, despite offering hosting out of the box, have a light disadvantage for those wanting to create highly granular and customisable APIs. What do they have in common? All of them play well with most modern frontend frameworks, as well as with most popular static hosting services. Also, the three tools offer free tiers that are probably enough for most individual, small-scale projects.
 
-There are of course numerous other tools that allow developers to create their own APIs (like Netlify CMS, Butter CMS, Umbraco CMS, Firebase, AppWrite, Parse, AWS Amplify and countless others). But many of these fall into the Backend as a service (BaaS) category, which means they include several other functionalities as a core part of their services. For that reason, I think they should not be directly compared to products that primarily advertise themselves as headless CMS platforms.
+There are of course numerous other tools that allow developers to create their own APIs (like Netlify CMS, Butter CMS, Umbraco CMS, Firebase, AppWrite, Parse, AWS Amplify and countless others). But many of these fall into the Backend as a service (BaaS) category, which means they go beyond merely CMS functionalities. For that reason, I think they should not be directly compared to products that primarily advertise themselves as headless CMS platforms.
 
 ## 7. Use case: creating an API
 
 I will now show how to create a simple API with Strapi. For this demonstration, I will be dealing with academic articles – so each entry will consist of fields like title, authors, publication date, body, references and so on. Here is a quick step-by-step guide:
 
 1. Before installing Strapi, the first thing we need to decide is which database we are going to use.
+
+... continue
