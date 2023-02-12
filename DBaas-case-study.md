@@ -1,6 +1,6 @@
 ---
 title: An Introduction to Database as a Service (DBaaS)
-keywords: development platforms, dbaas, cloud database, software, MongoDB, SAP, Azure 
+keywords: development platforms, dbaas, cloud database, software, MongoDB, SAP, Azure, cloud computing service
 tags: Development Platforms, DBaaS
 sidebar: development-platforms
 permalink: development-platforms/case-study-dbaas.html
@@ -134,6 +134,18 @@ DBaas (Database as a Service) can be compared to other database solutions, inclu
 
 
 - Platform as a Service (PaaS): PaaS provides a platform for businesses to develop and run their applications, and it often includes a database service. However, PaaS solutions are focused on application development and deployment, while Dbaas is focused specifically on database management.
+
+Some popular DBaaS providers include:
+
+1. Amazon Web Services (AWS) RDS: Provides managed relational databases such as Amazon Aurora, MySQL, MariaDB, Microsoft SQL Server, and PostgreSQL.
+2. Google Cloud SQL: Provides managed relational databases such as MySQL and PostgreSQL.
+3. Microsoft Azure Database Services: Provides managed relational databases such as Azure SQL Database and Azure Database for PostgreSQL.
+4. MongoDB Atlas: Provides a fully managed MongoDB database service.
+5. Oracle Cloud Infrastructure (OCI) Database: Provides managed relational databases such as Oracle Database, Autonomous Transaction Processing, and  Autonomous Data Warehouse.
+6. IBM Db2 on Cloud: Provides a managed relational database service based on the IBM Db2 database management system.
+
+
+These are just a few of the many DBaaS providers available. The best provider for you will depend on your specific needs, including the type of database you require, the size of your data, and the features you need. 
 
 
 # Summary
