@@ -7,6 +7,20 @@ permalink: development-platforms/case-study-dbaas.html
 folder: development-platforms
 ---
 
+## Table of content
+1. [Introduction](#introduction)
+1. [History](#brief-history)
+2. [Features](#features)
+3. [Strengths](#strengths)
+4. [Weaknesses](#weaknesses)
+5. [Comparison](#comparison)
+6. [Summary](#summary)
+7. [References](#references)
+
+
+
+# Introduction
+
 DBaas: Database-as-a-service (DBaaS) is a cloud computing service. As a hosted/managed service, users don’t have to worry about setting up hardware or installing software. Everything related to managing the database is handled by the service provider. 
 
 >But what is a database? Database is an organized collection of data and information or interrelated data collected at one place.
@@ -27,7 +41,7 @@ In summary, DBaaS provides businesses and individuals with a cost-effective, sca
 ![image](https://user-images.githubusercontent.com/91538702/216594932-a405a5c1-e23a-40e4-8122-daee58fa56c7.png)
 
 
-# Brief History
+# Brief history
 
 DBaas (Database as a Service) is a type of cloud computing service that provides a scalable, flexible, and managed database infrastructure. It is a relatively new concept, but its roots can be traced back to the early days of cloud computing and virtualization.
 
