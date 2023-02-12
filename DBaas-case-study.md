@@ -1,6 +1,6 @@
 ---
 title: An Introduction to Database as a Service (DBaaS)
-keywords: development platforms, dbaas
+keywords: development platforms, dbaas, cloud database, software, MongoDB, SAP, Azure 
 tags: Development Platforms, DBaaS
 sidebar: development-platforms
 permalink: development-platforms/case-study-dbaas.html
