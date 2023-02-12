@@ -11,7 +11,7 @@ folder: Development platforms
 
 1. [Introduction](#introduction)
 2. [Brief History](#brief-history)
-3.
+3. [Potential Issues](#potential-issues)
 
 # Introduction
 
@@ -37,22 +37,32 @@ Being vendor locked in can be a major issue if:
 - You reach a technical barrier of the service
 
 Lets look at these in regards of Firebase.  
-Unfortunately, your code will become quite specified to their service, as most functions are imported from their library. However, Google is a gigantic company with small to no probability of shutting down the service. Being Vendor locked-in to this behemoth is therefore less of a concern than being locked-in to a minor and less predictable provider. When it comes to pricing, big ships turn slowly. Currently, Firebase provides a brilliant "pay as you grow" plan, which we will discuss later.
+Unfortunately, your code will become quite specified to their service, as most functions are imported from their library, meaning Vendor Lock-in with Firebase will occur to at least some extent. However, Google is a gigantic company with small to no probability of shutting down the service. Being Vendor locked-in to this behemoth is therefore less of a concern than being locked-in to a minor and less predictable provider. When it comes to pricing, big ships turn slowly. Currently, Firebase provides a brilliant "pay as you grow" plan, which we will discuss later.
 
 ## Closed Source
 
-Although Firebase is not completely Open Source, many of their features are. This is done for increased transparency and
+Although Firebase is not Open Source, many of their features are. This is done for increased transparency and building a stronger developer community.
 Open Source components from Firebase include SDK´s, libraries and samples, all posted on their Github.
 Unless your plan is to build something that outlives or rivals Google, I will not personally worry about Firebase´s closed source. Very large companies may however benefit from building their own infrastructure using open source alternatives, to ensure independency.
 
 ## NoSQL Database
 
+This can be both good and bad, depending on your data and structure. It is however important to be vigilant when constructing your NoSQL database.
 The topic of database deserves it's own section, and is discussed further [Here](#database).
 
 # Strengths
 
-- Attractive pricing plan - Depends on what data your app will be handling. Text, images, video. Your app can support a lot of users on free plan as long as data transfers are mostly text. By the time you need to worry about costs, you should have enough users to not have to worry about costs.
-- Well documented
+## Pricing
+
+In my opinion, Firebase has an attractive pricing strategy. It offers a "Spark" plan, which is free until your app or website reach a certain amount of traffic or storage. These amounts are relatively high if your application mostly deals in low sizes of data.
+For reference, the Spark plan allows 50k monthly active users and 50k document reads from the Firestore database each month for free and the equivalent of 20M messages storing. Should however your reads and database contain videos or images, you will likely reach various limits faster.
+The general feel here is that by the time you need to worry about costs, you should have enough users to not have to worry about the costs.
+
+## Well documented
+
+Although closed source, Firebase has a great developer community and is a topic with many discussions and youtube videos surrounding it. Firebase also provides an abundance of learning material in text or videos on their website. For troubleshooting and issues you can also contact customer support, although some inquiries about debugging and writing code will be "Out of scope" unless you have a paid support plan.
+
+## Plugins and Integrations
 
 # Creating a Firebase Project
 
@@ -168,7 +178,10 @@ Our app is now connected to our online Firebase project.
 
 # Database
 
-- noSQL - benefits - weaknesses - method
+- Realtime / Firestore
+- noSQL - benefits - weaknesses - method how to query
+- Works online by caching changes and syncing when online
+- Queries
 
 # Security
 
