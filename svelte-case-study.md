@@ -11,6 +11,16 @@ folder: development-platforms
 
 ## Table of Content
 
+1. [Introduction](#introduction)
+2. [Brief History](#brief-history)
+3. [Developer Votes](#developer-votes)
+4. [Features](#features)
+5. [Strengths](#strengths)
+6. [Weaknesses](#weaknesses)
+7. [Comparison](#comparison)
+8. [Summary](#summary)
+9. [References](#references)
+
 ## Introduction
 
 Svelte, loaned from the french meaning "Stretched Out" is a free and open source component framework, compiler as well as a language created by Rich Harris and it's focus is to limit how much is transferred between the server and client as a SPA, it builds everything as JavaScript during the build-time so the browser only needs to receive JavaScript and that's all it'll receive instead of a framework, this helps keeping Svelte lightweight with great performance, whilst the language only requires you to know HTML, CSS and JavaScript to build a quick and responsive Svelte or SvelteKit application as it's very easy to learn.
@@ -26,7 +36,7 @@ It was created by Rich Harris who had previously worked on ractive.js and was or
 - 2021.03.23 SvelteKit enters public beta.
 - 2021.11.11 Svelte was bought by Vercel, the creator of next.js and brought Rich Harris into Vercel, enabling him to be the first full time contributor for Svelte.
 
-## Developer votes
+## Developer Votes
 
 - 2019 Svelte was voted 2nd in retention, 1st in interest (wanting to use again, wanting to learn).
 - 2020 Svelte was voted 1st in retention, 1st in interest.
@@ -72,6 +82,8 @@ as well as limits the amount of resources the client needs to use to view the si
 - Comparing which framework to pick, if it's a small(er) project, Svelte is great and will run fast but for larger and more complex projects where you (and a team) need to build fast it's a great framework to use due to it's reliability and built in features and tools.
 
 ## Summary
+
+Svelte is a open source compiler and component framework that has revolutionised loading times for the end user by fully embracing Server Side Rendering with SvelteKit, it's currently best for smaller and simpler projects and it's easy to learn and get into.
 
 ### Credits
 
