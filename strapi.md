@@ -7,6 +7,8 @@ permalink: development-platforms/strapi.html
 folder: development-platforms
 ---
 
+# Strapi
+
 ## 1. Introduction
 
 The creation and maintenance of databases or Application Programming Interfaces (APIs) are tasks typically associated with the work of a backend or fullstack developer. The work of a frontend developer, on the other hand, is typically associated with consuming that data – turning it into chunks of information that will hopefully be meaningful to the end user of a given service of product.
