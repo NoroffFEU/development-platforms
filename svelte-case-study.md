@@ -84,6 +84,7 @@ as well as limits the amount of resources the client needs to use to view the si
 ## Summary
 
 Svelte is a open source compiler and component framework that has revolutionised loading times for the end user by fully embracing Server Side Rendering with SvelteKit, it's currently best for smaller and simpler projects and it's easy to learn and get into.
+It beats the most popular frameworks in loadtime thanks to it's compiling before sending approach (SSR)
 
 ### Credits
 
@@ -91,25 +92,24 @@ Svelte is a open source compiler and component framework that has revolutionised
 
 #### References
 
-Introduction:
+Introduction:</br>
 https://www.okupter.com/blog/svelte-vs-sveltekit-the-difference
 
-Brief history:
-https://en.wikipedia.org/wiki/Svelte#cite_note-infoq-8
-https://youtu.be/kMlkCYL9qo0
-https://youtu.be/qSfdtmcZ4d0 2020.10.19 SvelteKit was announced
-https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte
-https://svelte.dev/
-https://dev.to/mandrasch/
+Brief history:</br>
+https://en.wikipedia.org/wiki/Svelte#cite_note-infoq-8 </br>
+https://youtu.be/kMlkCYL9qo0 </br>
+https://youtu.be/qSfdtmcZ4d0 </br>
+https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte </br>
+https://svelte.dev/ </br>
+https://dev.to/mandrasch/ </br>
 
-Developer Votes:
-https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/
-https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-webframe-want
+Developer Votes:</br>
+https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/ </br>
+https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-webframe-want </br>
 
-Features:
-https://vercel.com/docs/beginner-sveltekit
-rich-harris-explains-why-sveltekit-pushes-for-server-side-rendering-and-against-spa-5flj
-https://searchengineland.com/server-side-rendering-what-seos-need-to-understand-346296
+Features:</br>
+https://vercel.com/docs/beginner-sveltekit </br>
+https://searchengineland.com/server-side-rendering-what-seos-need-to-understand-346296 </br>
 
-Comparison:
+Comparison:</br>
 https://refine.dev/blog/svelte-vs-react/#:~:text=Svelte%20is%20a%20relatively%20new,based%20approach%20to%20web%20development.
