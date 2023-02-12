@@ -58,9 +58,21 @@ Google tag manager is, as the name suggests, a tag management tool. The purpose 
 
 - July 2023: The end of Universal analytics(UA) (Weber, 2022)
 
-## Features
+## About and Features
 
-Google analytics provide the opporutinity
+As mentioned, Google analytics is an analysis tool that collects data and provides insights on how users behave and what actions they take on a website or application through different reports.
+
+GA4 provide five main categories
+
+- Acquisition reports
+- Engagement reports
+- Monetization reports
+- Demographics reports
+- Tech reports
+
+Exploration reports
+
+Which gives you the opportunity to customize and create your own reports. Here you can
 
 ## Strengths
 
