@@ -86,15 +86,15 @@ These strengths make DBaas an attractive option for businesses looking to simpli
 
 Despite its many benefits, there are also some weaknesses associated with DBaas, including:
 
-Dependence on the provider: With DBaas, businesses are relying on the cloud provider to manage and maintain their database infrastructure, and if the provider experiences any issues, it can impact the availability and performance of their databases.
+1. Dependence on the provider: With DBaas, businesses are relying on the cloud provider to manage and maintain their database infrastructure, and if the provider experiences any issues, it can impact the availability and performance of their databases.
 
-Limited Customization: DBaas solutions are often designed to be used by a wide range of businesses, which means that customization options can be limited. This can make it difficult for businesses to meet their specific needs and requirements.
+2. Limited Customization: DBaas solutions are often designed to be used by a wide range of businesses, which means that customization options can be limited. This can make it difficult for businesses to meet their specific needs and requirements.
 
-Security concerns: Although DBaas providers invest heavily in security, there is still a risk of data breaches and cyber attacks. Businesses must weigh the potential security risks against the benefits of using DBAAS.
+3. Security concerns: Although DBaas providers invest heavily in security, there is still a risk of data breaches and cyber attacks. Businesses must weigh the potential security risks against the benefits of using DBAAS.
 
-Performance limitations: Depending on the provider, the performance of a DBaas solution can be limited by the underlying infrastructure. This can impact the performance of large and complex databases.
+4. Performance limitations: Depending on the provider, the performance of a DBaas solution can be limited by the underlying infrastructure. This can impact the performance of large and complex databases.
 
-Cost: Although Dbaas is cost-effective, businesses must still pay for the resources they use, and costs can quickly add up if they need to scale their database infrastructure.
+5. Cost: Although Dbaas is cost-effective, businesses must still pay for the resources they use, and costs can quickly add up if they need to scale their database infrastructure.
 
 With DBaas, businesses must rely on the provider to manage and maintain their database infrastructure, which means that they have limited control over how their databases are configured and managed. Moving to a DBaas solution can be complex and time-consuming, and businesses must consider the effort and resources required to migrate their databases to the cloud.
 
