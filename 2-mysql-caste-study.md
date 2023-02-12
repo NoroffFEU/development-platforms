@@ -21,7 +21,7 @@ The SQL in MySQL stands for Structured Query Language, which is a standardized l
 developers to either create, select, update, or delete data, among other commands.
 
 Think of a relational database (RDB) as a digital file cabinet for storing files.
-It's very important that the data stored in a database can be relied upon, to be secure and persistent.
+Data stored in a database must be reliable, to be secure and persistent.
 
 RDBs have stood the test of time and are still today the most used types of databases,
 and MySQL is currently the most commonly used RDB.
