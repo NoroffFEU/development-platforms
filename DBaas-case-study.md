@@ -7,8 +7,14 @@ permalink: development-platforms/case-study-dbaas.html
 folder: development-platforms
 ---
 
+DBaas: Database-as-a-service (DBaaS) is a cloud computing service. As a hosted/managed service, users don’t have to worry about setting up hardware or installing software. Everything related to managing the database is handled by the service provider. 
 
->DBaaS stands for "Database as a Service." It's a cloud-based service that provides a database management system over the internet. The service is managed by a third-party provider, which takes care of the technical aspects of maintaining and managing the database. 
+>But what is a database? Database is an organized collection of data and information or interrelated data collected at one place.
+
+In a database, data is organized into tables consisting of rows and columns and it is indexed so data can be updated, expanded, and deleted easily. There are different kinds of databases, ranging from the most prevalent approach, the relational database, to a distributed database, cloud database, and NoSQL databases. Once the data has been uploaded, the DBaaS database engine itself operates in almost exactly the same way as an on-premises installation.
+
+<On-premises software: is installed and runs on computers on the premises of the person or organization using the software, rather than at a remote facility such as a server farm or cloud.
+
 
 With DBaaS, customers can access a database hosted in the cloud, which is managed by a third-party provider, eliminating the need for them to invest in hardware, software, and IT resources to manage their own databases.
 In this model, customers pay for the resources they use, such as storage and processing power, and can easily scale their database as their needs change. 
@@ -30,6 +36,8 @@ The concept of DBaas started to gain traction in the late 2000s, as cloud comput
 Over the past decade, the DBaas market has continued to grow and evolve, with new features and capabilities being added to the existing offerings. The growing demand for cloud-based databases has driven the development of new technologies and standards, such as NoSQL databases and new data storage options like columnar and graph databases.
 
 Today, DBaas is widely used by businesses of all sizes, from startups to large enterprises, as a way to simplify and streamline their database infrastructure. With its many benefits, such as reduced cost, increased agility, and improved scalability, it is likely to continue to play a key role in the future of database management.
+
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/91538702/218302467-b5ef02ef-231d-4cf4-8e1c-727147977aca.png">
 
 
 # Features
