@@ -62,7 +62,14 @@ The general feel here is that by the time you need to worry about costs, you sho
 
 Although closed source, Firebase has a great developer community and is a topic with many discussions and youtube videos surrounding it. Firebase also provides an abundance of learning material in text or videos on their website. For troubleshooting and issues you can also contact customer support, although some inquiries about debugging and writing code will be "Out of scope" unless you have a paid support plan.
 
-## Plugins and Integrations
+## Integrations and Extensions
+
+Firebase provides a bunch of out of the box code to handle various tasks and simplify development process. Some are provided directly from Firebase and some are found in the Extension Marketplace. Below are some examples;
+
+- Firebase have their own integrated authentication for registering users and login/logout.
+- Payment Extension with Stripe
+- Page search extension
+- Email trigger to users on specific database alternations
 
 # Creating a Firebase Project
 
