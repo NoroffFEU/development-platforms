@@ -82,7 +82,13 @@ PostgreSQL reliable because it is ACID(Atomicity, Consistency, Isolation and Dur
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
+### Learning curve
+Learning PostgrSQL can be a little hard, and it can take time to be good at it.
+
+### Performance
+Even though PostgrSQL is a very efficient database, it may not be as fast as some other databases.
+
+
 
 ## Comparison
 
