@@ -1,2 +1,3 @@
-# development-platforms
-A collection of case studies covering development platform products.
+<h1 align="center"> Development - Platforms</h1>
+
+
