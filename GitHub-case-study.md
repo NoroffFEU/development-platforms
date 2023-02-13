@@ -82,22 +82,47 @@ this is githubs key features:
 
 - **integrations**: the fact that github can be simply used together other products like IDEs, management tools etc.
 
+- **easy to find resources**: it is easy to find resources for learning how to use github, both from github itself and the large community of users.
+
+- **Free of charge up to a certain point**: GitHub is Free for personal accounts. github enterprise is affordable for bigger enterprises.
+
+- **github pages**: you can host your own website directly from github free of charge.
+
 ## Weaknesses
 
-Discuss the product's weaknesses.
+- **Limitations**: github has its limitations, not everything can be done trough github and some developers may look for other platforms if github cannot provide for their needs.
+
+- **overvelving to new users**: it can be difficult for new users due to its complexity, i can personally relate to this.
+
+- **Performance on big repositories**: free user accounts are limited to github's servers, this can cause issues when there is a high ammount of traffic on the servers.
+
+- **Storage capasity**: Storage capasity is limited for free accounts. at a certain point the user may have to pay for more storage capasity.
+
+- **expensive enterprice**: upgrading to enterprise may be costly, but it depends on the size of the enterprises and revenue. it is certainly something to consider before upgrading or choosing github at all.
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+there are other platforms similar to github:
+
+- **GitLab**: GitLab is open source and can be self hosted for free. it launched in 2014 and it is a web-based platform for collaboration and version control. gitlab has built-in continuous integration and testing capabilities.gitlab has about 200-500 thousand users and is owned by gitlab inc. it has a limit of 10 GB of repository storage, wich is ten times greater than github.
+
+- **Azure DevOps**: is owned by microsoft and is a cloud based platform that focuses on enterprise customers, it is a good option if you use a lot of microsoft products and services as it integrates well with many of their products. azure devops is a fully integrated set of services that provide all the tools necessary for building and maintaining a backlog.
+
+- **Bitbucket**: launched in 2008 and is owned by atlassian. it is a web based platform for collaboration and version control. it has about 10 million users. it has a storage limit of 2 GB repository storage, wich is twice the limit of github. It provides integration with other Atlassian tools. but it is much more limited in its capabilities than the other alternatives.
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+github is one of the best platforms for open-source projects, you can also use it for private repositories. it has a great community, is easy to use, great security and many features and tools for collaboration. But everything has it's limits. it can be scaled up but only up to a certain point where other alternatives might seem like a better option for enterprises, they might see azure devops as a better alternative.
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- andreas jakobsen (volvojakobsen)
 
 #### References
 
-- List of video or links used during research
+- [GitHub, gitlab and bitbucket comparison](https://www.youtube.com/watch?v=FQGXIIqziQg)
+- [GitHub wiki](https://en.wikipedia.org/wiki/GitHub)
+- [GitHub docs](https://docs.github.com/en)
+- [GitHub's website](https://github.com)
+- [Gitlab wiki](https://en.wikipedia.org/wiki/GitLab)
+- [bitbucket wiki](https://en.wikipedia.org/wiki/Bitbucket)
