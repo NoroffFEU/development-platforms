@@ -205,7 +205,7 @@ No website is one hundred per cent error-free; there will always be issues or er
 
 ### Backups 
 
-Backups is very important. It can prevent data loss, which is very important. It does not matter how good your website is, a website can always get hit by something which will take the website down. A good web hosting company should restore your website with minimal downtime and make frequent automatic backups of your website to like I said prevent data loss.
+Backups are very important, especially if your site handles sensitive information such as e-commerce orders. They can prevent data loss in the event of an incident. It does not matter how good your website is, a website can always get hit by something which will take the website down. A good web hosting company should restore your website with minimal downtime and make frequent automatic backups to protect your website.
 
 ## Strengths
 
