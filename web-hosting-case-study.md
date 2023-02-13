@@ -215,7 +215,7 @@ Backups are very important, especially if your site handles sensitive informatio
 
 - Low cost: one of the strengths with web hosting is low cost, , thats one of the main advantages.
 
-- Easy to use: it`s easy to use web hosting where it is simple to install and maintain the site trough a system where you just "click and drag" when facilitating the process.
+- Easy to use: it's easy to use web hosting where it is simple to install and maintain the site trough a system where you just "click and drag" when facilitating the process.
 
 - Technical Support: the good thing is that the technical support is guaranteed by most of the  companies that offer web hosting, so it`s not scary or a risk to do it if you are not sure. Here the user will get help with important factors, such as the website itself, the server and configuration requirements.
 
