@@ -177,6 +177,8 @@ Here web hosts offer different web hosting features, but in a app, some of these
 
 Your domain name is the digital address of your digital space on the internet. The reason behind making this was to find and identify internet entities, but without using IP addresses. A domain name is basically an Internet resource name that is universally understood by Web servers and online organizations and provides all pertinent destination information. This makes everything more safe and organized.
 
+For example, Google maintains the IP addresses 8.8.8.8 and 8.8.4.4 as the primary and secondary DNS addresses for Google Public DNS.
+
 ### Website Builder
 
 Website builder is a tool or program that can help you create a website without actual manual code editing. There is two times of website builders:
