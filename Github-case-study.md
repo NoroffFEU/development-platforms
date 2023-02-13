@@ -69,21 +69,13 @@ GitHub has become a highly in demand tool for project management and software de
 Here are some of the key features of the GitHub:
 
 - **Version control**: GitHub is built on Git, a distributed version control system that enables developers to monitor changes to their code over time, work together with others, and revert to previous versions if needed.
-
 - **Collaboration**: Enables developers to work on projects together, examine each other's code, and exchange ideas and issues.
-
 - **Issues and bug tracking**: Is a process for keeping track of and fixing problems, such as bugs or other technical issues, in a software development project. This process is typically done using a specialized tool, which enables developers to log, monitor, and manage issues as they arise. Issues can be assigned to specific team members, categorized with labels and milestones, and updated with comments and attachments. The aim of issue and bug tracking is to ensure that all issues are identified, prioritized, and addressed in an organized and efficient manner to maintain the quality and stability of the software. GitHub has an integrated issue tracking system within its platform, allowing developers to manage their issues directly from their repository.
-
 - **Pull requests**: These enable developers to submit modifications to a project for review and discussion prior to merging them into the main repository.
-
 - **Branching and merging**: This feature enables developers to work on different versions of a project at the same time and quickly incorporate their updates into the main core.s
-
 - **Integration**: GitHub can be combined with many different other programs and services, such as well-known IDEs, project management tools, and continuous integration systems.
-
 - **GitHub Actions**: enables developers to automate a number of software development activities, including creating, testing, and deploying code. It offers a quick way to automate regular processes, including creating and testing pull requests, as well as more complex workflows that incorporate other programs and services. A wide range of tools and programming languages can be utilized with GitHub Actions due to its flexibility.
-
 - **GitHub Pages**: makes it simple to share documentation, project details, and other resources with others by enabling the creation and publication of websites straight from a GitHub repository.
-
 - **GitHub Enterprise**: provides additional security and compliance capabilities and enables businesses to operate their own instance of GitHub on their own servers.
  
 ## Strengeths
