@@ -39,7 +39,19 @@ In 2018 Microsoft renamed Team Foundation Server (TFS) product to Azure DevOps b
 
 ## Features
 
-Outline the product's key features.
+Azure DevOps has a range of services covering the full development life - cycle. These are:
+
+- Azure Boards: Agile planning, work item tracking, visualization and reporting tool.
+
+- Azure Pipelines: A language, platform and cloud agnostic CI/CD platform with support for containers or Kubernetes.
+
+- Azure Repos: Provides cloud - hosted private git repos.
+
+- Azure Artifacts: Provides integrated package management with support for Maven, npm, Python and NuGet package feeds from public or private sources.
+
+- Azure Test Plans: Provides an integrated planned and exploratory testing solution.
+
+- Azure DevOps can also be used to manage third - party tools.
 
 ## Strengths
 
