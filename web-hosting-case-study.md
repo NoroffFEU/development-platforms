@@ -147,7 +147,7 @@ Uptime is a measurement of the percentage of time your website is up and availab
 
 ### Website Speed
 
-Website speed helps loading your website faster, if you are using the right tools. Not only does website speed affect user experience, but it also does affect search engine optimization (SEO). With good web hosting companies, you can use:
+Website speed is the measurement of how quickly your website loads on a user's browser. Not only does website speed affect user experience, but it also affects search engine optimization (SEO). With good web hosting companies, you can use:
 
 - Using servers with solid-state drives (SSD)
 
@@ -156,6 +156,10 @@ Website speed helps loading your website faster, if you are using the right tool
 - Offering a content delivery network (CDN) service
 
 With these right tools above, you can help users deliver quick page.
+
+Website speed does affect UX because a fast page improves user experience, with a slow page it will make people who visit your site angry and frustrated, and with this it will just make them leave your site.
+
+It also affect SEO because it is one of the key determining factors for Google’s algorithm. Like we said slow site will turn visitors away and fast sites provide good user experiences for your visitors. With this Google will rank the fast sites higher than the slow ones.
 
 ### Pre-installed apps
 
