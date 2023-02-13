@@ -14,6 +14,10 @@ folder: Development platforms
 3. [Potential Issues](#potential-issues)
 4. [Strengths](#strengths)
 5. [Creating a Firebase Project](#creating-a-firebase-project)
+6. [Database](#database)
+7. [Security](#security)
+8. [Hosting](#hosting)
+9. [Summary](#summary)
 
 # Introduction
 
@@ -60,6 +64,7 @@ The primary benefit of Firebase contra no BaaS or another BaaS provider is that 
 
 For reference, the so-called Spark plan allows 50k monthly active users and 50k documents read from the Firestore database each month for free and the equivalent of 20M messages stored. Should however your reads and writes to the database contain videos or images, you will likely reach various limits of data transfer faster.
 The general impression I am getting here is that by the time you need to worry about costs, you should have enough users to not have to worry about the costs.
+One notable downside of their pricing plan is that it may be hard to estimate costs way down the line.
 
 Setting up a project is not very challenging, and you can have a front end connected to a database within minutes. We will go through the steps for connecting to a database [later](#creating-a-firebase-project)
 
@@ -266,3 +271,4 @@ https://firebase.google.com/learn/pathways/firebase-firestore
 https://www.youtube.com/watch?v=v_hR4K4auoQ&ab_channel=Firebase
 https://firebase.google.com/docs/database/rtdb-vs-firestore
 https://www.youtube.com/watch?v=gEaY2GZMino&ab_channel=TheNetNinja
+https://firebase.google.com/docs/firestore/query-data/queries
