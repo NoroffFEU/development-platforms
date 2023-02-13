@@ -55,7 +55,13 @@ Azure DevOps has a range of services covering the full development life - cycle.
 
 ## Strengths
 
-Discuss the product's strengths.
+The benefits of using Azure DevOps are:
+
+- Reliability: As a SaaS offering, Azure DevOps is reliable, scalable and globally available. It is also backed by an SLA of 99.9% uptime and by 24/7 support.
+
+- Access to the latest features: Every 3 weeks Azure DevOps gets access to new features. Microsoft is transparent and have published the product roadmap and are committed to rapidly iterating on the feature - set.
+
+- End of the upgrade cycle: Upgrades are a regular headache for organizations that are running on - premises CI/CD tooling. By moving to a SaaS model, you no longer need to worry about patching and upgrading the toolchain.
 
 ## Weaknesses
 
