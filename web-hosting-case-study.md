@@ -187,6 +187,34 @@ Website builder is a tool or program that can help you create a website without 
 
 - Online Website Builders
 
+The PROS of using website builders:
+
+- No Coding Skills Required
+
+- Cheap and Fast
+
+- Easy to Export
+
+- No Design Skills Required
+
+The CONS of using Website Builders:
+
+- Not Very Suitable for Professional Business
+
+- Not Custom Designed
+
+- Slow Loading Time
+
+- Poor SEO
+
+- Limited Pages
+
+- Limited Features
+
+- Poor Customer Service
+
+- Flash Based
+
 ### Support
 
 No website is one hundred per cent error-free; there will always be issues or errors down the road which you will have to figure out how to fix. In those cases, a technical support team is something you will need. The biggest and best web hosting providers provide 24/7 customer support in many different ways, such as:
