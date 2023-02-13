@@ -9,7 +9,7 @@ folder: development-platforms
 
 ## Introduction
 
-**Neo4j** is an open-source graph database management system that helps store and query complex relationships between data. It is commonly used in web development for applications that involve relationships such as social networks, recommendation systems, fraud detection, e-commerce websites and many others. Neo4j provides efficient querying of data relationships and has a user-friendly query language, making it accessible to web developers of different levels of expertise.
+**Neo4j** is an open-source graph database management system that helps store and query complex relationships between data. It is commonly used in web development for applications that involve relationships such as social networks, recommendation systems, fraud detection, e-commerce websites and many others. It provides efficient querying of data relationships and has a user-friendly query language, making it accessible to web developers of different levels of expertise.
 
 ## Brief History
 
@@ -21,7 +21,21 @@ _<sub> Said the chief Marketing Officer at Neo4j, Chandra Rangan. </sub>_
 
 ## Features
 
-Outline the product's key features.
+-   **ACID Transactions:** Neo4j provides Atomicity, Consistency, Isolation, and Durability (ACID) transactions, that allow users to ensure the consistency and integrity of their data.
+
+-   **Graph Data Modeling:** Neo4j provides a flexible graph data model that allows users to store and manage complex relationships between data.
+
+-   **Cypher Query Language:** Neo4j has a user-friendly query language called Cypher, which makes it easy to query data relationships and perform complex analysis.
+
+-   **Scalability:** Neo4j provides scalability options that allow users to scale the database to meet the demands of their applications.
+
+-   **Integration:** Neo4j provides integrations with other systems and technologies, making it easy to work with other tools and technologies.
+
+-   **Real-time Performance:** Neo4j provides real-time performance for querying data relationships, making it suitable for use cases that require fast data analysis.
+
+-   **Community and Support:** Neo4j has a large and active community of users and developers, providing support, resources and documentation.
+
+These features make Neo4j a versatile and powerful tool for managing and querying data relationships, making it a popular choice for a wide range of use cases.
 
 ## Strengths
 
