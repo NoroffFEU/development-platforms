@@ -23,7 +23,9 @@ folder: development-platforms
 
 ## Introduction
 
-Summarise the product's primary purpose in one or two paragraphs.
+Azure DevOps is a Software as a service (SaaS) platform from Microsoft. It provides an end - to - end DevOps toolchain for developing and deploying software. Azure DevOps also integrates with most of the leading tools on the market. It is a great option for making a DevOps toolchain.
+
+Azure DevOps is a platform that supports a collaborative culture and uses a set of processes that brings together developers, project managers and contributors to develop software. Azure DevOps makes it faster to improve and create products for organizations than they can with traditional software development approaches.
 
 ## Brief History
 
@@ -49,7 +51,7 @@ Compare the product to other products in the same category, if applicable.
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+Summarize the content and highlight the relevance of the product to a web developer.
 
 ### Credits
 
@@ -57,4 +59,8 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 #### References
 
-- List of video or links used during research
+- https://learn.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?view=azure-devops
+
+- https://www.devopsgroup.com/insights/resources/tutorials/all/what-is-azure-devops/
+
+-
