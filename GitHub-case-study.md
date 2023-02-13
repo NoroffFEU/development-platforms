@@ -7,6 +7,10 @@ permalink: development-platforms/example-product.html
 folder: development-platforms
 ---
 
+# <p align="center"><span>GitHub Case Study<span></p>
+
+<p align="center"><img src="Images/github.png"><p>
+
 ## Introduction
 
 GitHub is an Internet hosting service for software development and version control using Git. it is a web based platform where users can store their code and colaborate together on a coding project. GitHub has a lot of great tools/features like github desktop, actions, project management, teams, etc.
@@ -112,7 +116,7 @@ there are other platforms similar to github:
 
 ## Summary
 
-github is one of the best platforms for open-source projects, you can also use it for private repositories. it has a great community, is easy to use, great security and many features and tools for collaboration. But everything has it's limits. it can be scaled up but only up to a certain point where other alternatives might seem like a better option for enterprises, they might see azure devops as a better alternative.
+github is one of the best (if not the best) platforms for open-source projects, you can also use it for private repositories. it has a great community, is easy to use, great security and many features and tools for collaboration. But everything has it's limits. it can be scaled up but only up to a certain point where other alternatives might seem like a better option for enterprises, in that case azure devops might be a better alternative.
 
 ### Credits
 
