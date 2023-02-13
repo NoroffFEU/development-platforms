@@ -225,7 +225,7 @@ Backups are very important, especially if your site handles sensitive informatio
 
 - Shared hosting is best for personal sites and startups. But VPS hosting wins for dynamic, larger sites and small businesses. VPS is more expensive than shared hosting, and the reason for that is that you get more flexibility over your resource limits, greater security, and improved performance. 
 
-- It`s cost benefit, it saves you money.
+- Its cost-effective, saving you money.
 
 - Get the acquisition and maintenance of the equipment, and you will get reduction in the cost.
 
