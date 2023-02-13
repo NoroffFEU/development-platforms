@@ -12,7 +12,7 @@ folder: development-platforms
 
 ## Introduction
 
-Astro is a fairly new and upcoming framework for building static websites. It allows you to use your preferred framework to build your website, which Astro then renders to static HTML with no JavaScript by default. Some JavaScript is usually unavoidable or required, however, Astro only loads JavaScript components when they are needed instead of loading the whole page with JavaScript right away. This results in a fast loading, high performing website.
+Astro is a fairly new and up-and-coming framework for building static websites. It allows you to use your preferred framework to build your website, which Astro then renders to static HTML with no JavaScript by default. Some JavaScript is usually unavoidable or required, however, Astro only loads JavaScript components when they are needed instead of loading the whole page with JavaScript right away. This results in a fast loading, high performing website.
 
 Astro is designed to be a content-focused framework, rather than application-focused. The framework is therefore better suited for portfolios, blogs and similar content-based websites, rather than social networks, logged-in dashboards and other application-like projects.
 
