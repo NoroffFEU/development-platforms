@@ -62,6 +62,8 @@ Google tag manager is, as the name suggests, a tag management tool. The purpose 
 
 As mentioned, Google analytics is an analysis tool that collects data and provides insights on how users behave and what actions they take on a website or application through different reports.
 
+GA provide insights in the form of dimensions and metrics in their reports, i.e. Very simply put, GA will answer the question: How many users clicked the primary button on the home page? By using the primary button as a dimension and number of clicks as the metric.
+
 GA4 provide five main categories
 
 - Acquisition reports
@@ -70,9 +72,35 @@ GA4 provide five main categories
 - Demographics reports
 - Tech reports
 
-Exploration reports
+For the sake of this study, I will cover three of these five reports. Acquisition, engagement and demographics. In addition to exploration reports.
 
-Which gives you the opportunity to customize and create your own reports. Here you can
+Acquisition reports
+In GA4 you will find two different types of acquisition reports.
+
+- User acquisition reports: Will help you answer how people who have never used your website or app found your website or app.
+- Traffic acquisition reports: Will help you answer what led both new and returning users to visit your website or app.
+  (Analytics Help, 2023)
+
+These reports will provide great insights into how people found your website and/or what made them visit.
+examples of channels or sources people could have arrived from and triggered them to visit could be:
+
+- Paid Social ads, like ads on facebook or instagram.
+- Paid search, like paid ads on google.
+- Organic search (no paid), like in the search result of google.
+- Direct traffic, people who just enter your website in the browser and go there.
+
+Engagement reports
+
+In GA4 you will find four different types of engagement reports
+
+- Events, could be anything happening or user action on the page. Like: page view, button click, form submit, scrolled.
+- Conversions, is an event, but usually an event which is view as the final step in a number of events. Like: making a purchase or complete registration.
+- Pages and screens, lets you view on which page the engagement is happening. How many views a certain page has, total events triggered on a certain page or how many users visited the certain page.
+- Landing pages, gives you an overview of the engagement on the different landing pages (the first page of the website people viewed when entering the website)
+
+Demographics reports
+
+Lets you see from what city or country your traffic/users are coming from.
 
 ## Strengths
 
@@ -96,8 +124,9 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 #### References
 
-- Fedorovicius, J. (2022) Obtained from https://www.analyticsmania.com/post/google-tag-manager-vs-google-analytics/
+- Fedorovicius, J. (2022) Obtained from https://www.analyticsmania.com/post/google-tag-manager-vs-google-analytics/ & https://www.learn.analyticsmania.com/courses
 - Franco, L. & Valdés, M. (2021) Obtained from https://onward.justia.com/history-of-google-analytics/
 - digitalstateconsulting (2014) Obtained from https://digitalstateconsulting.com/knowledge-is-power/brief-history-google-analytics-part-one/
 - Djuraskovic, O (2022) Obtained from https://firstsiteguide.com/best-website-analytics-tools/
 - Weber, B (2023) Obtained from https://inmarketingwetrust.com.au/timeline-of-ga4-google-analytics-4-release-date-news/
+- Analytics Help (2023) Obtained from https://support.google.com/analytics/answer/${topic}
