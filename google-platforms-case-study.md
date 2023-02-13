@@ -1,6 +1,6 @@
 ---
 title: Google platforms Case Study
-keywords: development platforms, google analytics, analytics, tracking, google tag manager
+keywords: development platforms, google analytics, analytics, GA4, GTM, tracking, google tag manager
 tags: Development Platforms, google platforms, analytics
 sidebar: development-platforms
 permalink: development-platforms/google-platforms.html
