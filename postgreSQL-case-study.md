@@ -13,7 +13,7 @@ PostgreSQL is one of the most advanced open source relational database. It's bee
 
 ## Brief History
 
-This ORDBMS which stands for Object Relational Database Management system is PostgreSQl which is taken from the POSTGRES package written at the University Berkley. POSTGRES was used for mant different research and production application which include a financial data analysis system, a jet enginge performance monitoring package, and asteroid tracking database, a medical information database, and several geographic information systems. It has also been used as an educational tool at several universities. 
+This ORDBMS which stands for Object Relational Database Management system is PostgreSQl which is taken from the POSTGRES package written at the University of California, Berkley. POSTGRES was used for different research and production application which include a financial data analysis system, a jet enginge performance monitoring package, and asteroid tracking database, a medical information database, and several geographic information systems. It has also been used as an educational tool at several universities. 
 
 ### The Berkley POSTGRES Project
 
@@ -69,7 +69,7 @@ In addition to being a free and an open source software, it has support for writ
     SQL, Python, Perl, Tcl, Java, R, Javascript, shell and Lua.
 
 ### Extensibility
-PostgrSQL is designed to be extensible. It allows you to define your own data types, index types, operators, functional languages, access methods etc, making PostgreSQL extremely programmable. 
+PostgrSQL is designed to be extensible. It allows you to define your own data types, index types, operators, functional languages, access methods etc, making PostgreSQL extremely programmable.  
 
 ### Scalability
 Scalability is how a system/database can handle a growing amount of demands by adding resources, and PostgreSQL can do just that. It can handle large amounts of data and it scales up as the data grows. 
@@ -84,7 +84,6 @@ Learning PostgrSQL can be a little hard, and it can take time to be good at it.
 
 ### Performance
 Even though PostgrSQL is a very efficient database, it may not be as fast as some other databases in certain areas.
-
 
 ## Comparison
 
@@ -102,12 +101,12 @@ Similarities:
 * Both rely on SQL which enables tables to be joined using few lines of code.
 * Both PostgreSQL and MySQL have communities to provide supports to their users where they have many volunteers that devote their time to offer free advice, recommendation and support to users.
 * On both DBMSs, you can use JSON for transporting and storing data, objects and arrays.
-* 
-
 
 ## Summary
 
 Summarise the content and highlight the relevance of the product to a web developer.
+
+PostgreSQL also known as Postgres is a free and open source Object Relational Database Management system with more than 30+ years of active development. It dates back to 80's where it was created by a computer science professor name Michael Stonebraker at the University of California, Berkley. It has then been renamed twice and now called PostgreSQL to signify the relationship between the original name and the use of SQL. It has many advanved features that safely store and scale the most complicated workloads. Though PostgreSQL has its strength with its many built-in features and more such as supporting many programming languages, being extensible and handling large amount of data, it also has its challenges. PostgreSQL has a steep learning curve, making it hard for beginners and it also may be slower than other databases in certain workloads. 
 
 ### Credits
 
