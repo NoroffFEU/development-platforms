@@ -14,9 +14,9 @@ folder: development-platforms
 - [Features](#features)
 - [Setup](#setup)
 - [Using Svelte](#using-svelte)
-- [Strenghts](#strenghts)
+- [Strenghts](#strengths)
 - [Weaknesses](#weaknesses)
-- [Compared to react](#compared-to-react)
+- [Compared to react](#comparison)
 - [Summary](#summary)
 - [Credtis & Refrences](#credits)
 
