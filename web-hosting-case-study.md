@@ -189,7 +189,7 @@ Website builder is a tool or program that can help you create a website without 
 
 ### Support
 
-Most of the times you can never create a website 100% error-free, there will always bee some errors down the road which you will have to figure out how to fix. In those cases, a technical support team is something you will need. The biggest and best web hosting providers provide 24/7 customer support in many different ways, these can be such as:
+No website is one hundred per cent error-free; there will always be issues or errors down the road which you will have to figure out how to fix. In those cases, a technical support team is something you will need. The biggest and best web hosting providers provide 24/7 customer support in many different ways, such as:
 
 - Knowledge bases
 
