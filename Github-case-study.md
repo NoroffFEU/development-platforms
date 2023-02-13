@@ -6,7 +6,7 @@ sidebar: development-platforms
 permalink: development-platforms/case-study-GitHub.html
 folder: development-platforms
 ---
-# <p align="center"><span>GitHub Case Study<span></p>
+# <p align="center"><span>GitHub - Case Study<span></p>
 
 <p align="center"><img src="Images/github-mark.png"><p>
 
