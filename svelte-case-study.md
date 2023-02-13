@@ -7,6 +7,19 @@ permalink: development-platforms/svelte-product.html
 folder: development-platforms
 ---
 
+## Table of content
+
+- (Introduction)[]
+- (Brief History)[]
+- (Features)[]
+- (Setup)[]
+- (Using svelte)[]
+- (strenghts)[]
+- (weaknesses)[]
+- (compared to react)[]
+- (summery)[]
+- (credits and refrences)[]
+
 ## Introduction
 
 Svelte is a javascript compiler, its similar to React, but react uses Virtual DOM and Svelte is a javascript Compiler, both provide a similar component-based architecture -- that means both enable a CDD bottom-up development, and both enable sharing their components between apps, via tools and platforms like [Github](www.github.com).
@@ -17,7 +30,7 @@ Svelte is a javascript compiler, its similar to React, but react uses Virtual DO
 
 Svelte is purely a compiler, that converts your application into ideal JavaScript code when you build your application for production.
 
-## Creating a project with svelte using vite
+## Setup
 
 I am using [vite](https://vitejs.dev/) to create a new svelte project, there is other way's than vite like degit and then rollup would be the default, but im not gonna get into that. If you want a full-fledged app framework you can also use [SvelteKit](https://svelte.dev/docs) it will also be utilizing vite. But since im only gonna build a simple front-end only site/app, i will use svelte (without kit).
 
