@@ -61,6 +61,12 @@ These features make Neo4j a versatile and powerful tool for managing and queryin
 
 ## Comparison
 
+Alongside Neo4j, Amazon Neptune and TigerGraph are two major players in the graph database market.
+
+Neo4j and Amazon Neptune are both popular graph databases, but they have distinct differences in terms of data model, scalability, performance, and integration. While Neo4j provides a flexible graph data model and uses the Cypher query language, Neptune provides better scalability and integration with other AWS services.
+
+TigerGraph is a high-performance graph database management system that provides real-time analysis of complex relationships. While both Neo4j and TigerGraph provide efficient querying of data relationships, TigerGraph provides better performance for large-scale use cases and provides advanced analytics capabilities.
+
 ## Summary
 
 Summarise the content and highlight the relevance of the product to a web developer.
