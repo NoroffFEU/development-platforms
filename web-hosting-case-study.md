@@ -410,3 +410,5 @@ Web hosting is an online service that helps you and allows you to publish your w
 - https://www.socket.net/blog/tech/how-much-web-space-do-I-need#:~:text=For%20most%20websites%20with%20text,package%20with%20more%20transfer%20bandwidth.
 
 - https://www.websitebuilderexpert.com/web-hosting/comparisons/shared-hosting-vs-vps-hosting/#:~:text=While%20shared%20hosting%20is%20best,greater%20security%2C%20and%20improved%20performance.
+
+- https://serverguy.com/servers/dedicated-server-security-tips/#:~:text=Dedicates%20servers%20are%20inherently%20safe,company%20keeps%20the%20server%20safe.
