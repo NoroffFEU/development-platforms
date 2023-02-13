@@ -117,7 +117,9 @@ For the most part, 1GB will often be sufficient. For most websites with text and
 
 ### Bandwidth
 
-With Bandwidth feature, you can load your website faster, because loading time can take tme and is the time it takes to transfer different website files. 
+With Bandwidth feature, you can load your website faster, because loading time can take tme and is the time it takes to transfer different website files.
+
+Commonly, network bandwidth is measured in bits per second (bps). And organizations and internet service providers (ISPs) usually measure bandwidth in megabits per second (Mbps) or gigabits per second (Gbps).
 
 ### Security
 
