@@ -114,4 +114,9 @@ PostgreSQL also known as Postgres is a free and open source Object Relational Da
 
 #### References
 
-- List of video or links used during research
+- https://www.postgresql.org
+- https://en.wikipedia.org/wiki/PostgreSQL
+- https://www.postgresqltutorial.com
+- https://www.sql-workbench.eu/dbms_comparison.html
+- https://www.linkedin.com/pulse/what-postgresql-introduction-advantages-disadvantages-ankita-sharda/
+- https://hackr.io/blog/postgresql-vs-mysql
