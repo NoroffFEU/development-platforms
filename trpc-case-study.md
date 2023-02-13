@@ -204,7 +204,7 @@ While your front-end certainly has knowledge of Javascript, and possibly also we
 While strict static typing leaves a lot of benefits, it can be frustrating to and cumbersome to learn, especially for junior level developers.
 
 #### Works best in a monorepo
-Since many of tRPC's features benefit from using a singular repository, it might not be the best option if the development team has a need or requirement for heavily silo'd frontend and backend.
+Since many of tRPC's features benefit from using a singular repository, it might not be the best option if the development team has a need or requirement for a heavily siloed frontend and backend.
 
 #### Scalability
 - In larger scale projects, in a larger team, its often beneficial to come up with a clear set of rules and a schema that everyone can work from. tRPC does not offer this.
