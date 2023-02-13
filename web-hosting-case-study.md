@@ -217,7 +217,7 @@ Backups are very important, especially if your site handles sensitive informatio
 
 - Easy to use: it's easy to use web hosting where it is simple to install and maintain the site trough a system where you just "click and drag" when facilitating the process.
 
-- Technical Support: the good thing is that the technical support is guaranteed by most of the  companies that offer web hosting, so it`s not scary or a risk to do it if you are not sure. Here the user will get help with important factors, such as the website itself, the server and configuration requirements.
+- Technical Support: the good thing is that technical support is guaranteed by most of the companies that offer web hosting, so it's not scary or risky to do it if you are not sure. Here the user will get help with important factors, such as the website itself, the server and configuration requirements.
 
 - Resources: another advance is resources, here you can get a collection of resources that can grow and get bigger while following the websites requirements and demands.
 
