@@ -53,7 +53,7 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- Mona Dagsland (Littlaa)
 
 #### References
 
