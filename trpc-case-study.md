@@ -11,7 +11,7 @@ folder: development-platforms
 
 ## Introduction
 
-tRPC stands for TypeScript Remote Procedure Call. It's a simple and lightweight library for creating APIs using a singular programming language [TypeScript](https://www.typescriptlang.org/).It operates as a protocol to call your backend functions directly from the frontend, unlike other popular options such as `GraphQL`, which relies on schemas and code generation.
+tRPC stands for `TypeScript Remote Procedure Call`. It's a simple and lightweight library for creating APIs using a singular programming language [TypeScript](https://www.typescriptlang.org/). It operates as a protocol to call your backend functions directly from the frontend, unlike other popular options such as `GraphQL`, which relies on schemas and code generation.
 
 ## Brief History
 
@@ -37,7 +37,7 @@ tRPC's search popularity over the last 12 months.
 
 ## Features
 
-One of the most unique features of tRPC is how it brings type-safety between server and client code, and how well it's handled. Instead of getting uncaught type errors on runtime, Typescript will detect type-related issues between server and client before the file is even saved. In addition to this, RPC allows you to quickly update endpoint names in one place and update all associated client/server files at the same time, and navigate between script files by simply ` CMD+click` or `right-click+use-definition `.
+One of the most unique features of tRPC is how it brings type-safety between server and client code, and how well it's handled. Instead of getting uncaught type errors on runtime, Typescript will detect type-related issues between server and client before the file is even saved. In addition to this, RPC allows you to quickly update endpoint names in one place and update all associated client/server files at the same time, and navigate between script files by simply `CMD+click` or `right-click+use-definition`.
 
 Since tRPC does not rely on schemas or code generation, and rather is a protocol for accessing backend functions to the frontend, it allows a more seamless workflow for the developer, and a lightweight well performing application with a tiny footprint for the end user.
 
@@ -216,7 +216,7 @@ Since many of tRPC's features benefit from using a singular repository, it might
 #### Scalability
 
 - In larger-scale projects, in a larger team, it's often beneficial to come up with a clear set of rules and a schema that everyone can work from. tRPC does not offer this.
-- If your app is getting increasingly more complex and require more nuanced requirements, tRPC might not be the best option.
+- If your app is getting increasingly more complex and requires more nuanced requirements, other options provide better solutions to maintain your server-side code base.
 
 ## Comparison
 
@@ -242,8 +242,9 @@ GraphQL is being used by industry juggernauts such as `Facebook`, `Github`, `Air
 
 `tRPC` is still very much in its infancy, and while many of its features are excellent it cannot match `GraphQL's` scalability and network efficiency. Nor does it need or try to. In my view, they can coexist not as competing technologies, but as technologies that both offer their strength and weaknesses depending on use cases.
 
-\_Use GraphQL if:
-It's a large-scale project, with the need for well-defined schemas, maintenance and future development requirements.
+_Use GraphQL if:_
+
+- It's a large-scale project, with the need for well-defined schemas, maintenance and future development requirements.
 
 - if your team is either heavily siloed or uses multiple programming languages.
 
