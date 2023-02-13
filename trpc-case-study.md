@@ -201,7 +201,7 @@ With some familiary to tRPC and well synergized techonologies, such as Next.js a
 #### tRPC uses Typescript
 While a front-end team certainly has knowledge of Javascript and may be well versed in Typescript, the same might not be the case for a backend team. There is a greater variety in programming languages typically used for backend than for frontend, meaning that Typescript may not always be the most suitable choice.
 
-While strict static typing leaves a lot of benefits, it can be frustrating to and cumbersome to learn, especially for junior level developers.
+While strict static typing leaves a lot of benefits, it can be frustrating and cumbersome to learn, especially for junior-level developers.
 
 #### Works best in a monorepo
 Since many of tRPC's features benefit from using a singular repository, it might not be the best option if the development team has a need or requirement for a heavily siloed frontend and backend.
