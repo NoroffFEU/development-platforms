@@ -29,6 +29,14 @@ Azure DevOps is a platform that supports a collaborative culture and uses a set 
 
 ## Brief History
 
+Microsoft Team Foundation Server (TFS) has been around for more than a decade. It has been evolving a lot since it was released in 2005.
+
+TFS was very complicated to use because it was created before user experience (UX) was a priority for Microsoft. Therefor it was critical to have hands - on management to deal with database change, service packs and countless upgrades that added numerous small features.
+
+In 2012 TFS became a tool that helped teams manage their software development projects using Agile. This became very popular because companies already had Microsoft licenses. It made it easier to adopt and support Agile software development process.
+
+In 2018 Microsoft renamed Team Foundation Server (TFS) product to Azure DevOps because of the importance af DevOps principles in their software development process.
+
 ## Features
 
 Outline the product's key features.
@@ -59,4 +67,6 @@ Summarize the content and highlight the relevance of the product to a web develo
 
 - https://www.devopsgroup.com/insights/resources/tutorials/all/what-is-azure-devops/
 
--
+- https://www.perforce.com/blog/vcs/what-team-foundation-server
+
+- Noroff Module 3 (DevOps)
