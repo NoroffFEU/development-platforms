@@ -234,7 +234,7 @@ GraphQL is being used by industry juggernaughts such as ``Facebook``, ``Github``
 
 *Use GraphQL if:*
 - Its a large scale project, with the need of well defined schemas, maintenance and future development requirements.
-- if your team is either heavily silo'd or use multiple programming languages.
+- if your team is either heavily siloed or use multiple programming languages.
 
 *Use tRPC if:*
 - You are looking to learn to create your own API's.
