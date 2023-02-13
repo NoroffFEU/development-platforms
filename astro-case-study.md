@@ -40,7 +40,7 @@ Astro’s latest major release, version 2.0, was introduced in January 2023. Wit
 
 ### Designed for performance
 
-Astro's main focus is to build fast websites. The approach Astro uses to achieve this is called island architecture, which Astro introduces as Astro Islands. The general idea behind island architecture is rendering static content on the server and then implementing, “hydrating”, the page with islands of dynamic behaviour. Multiple different islands can exist on one page, but every island always renders in isolation. The benefit of this approach is mainly good performance, but also parallel loading. Different components can load in parallel but hydrate in isolation. This means that one component won't block the other from loading or having to wait for the other to load.
+Astro's main focus is to build fast websites. The approach Astro uses to achieve this is called **island architecture**, which Astro introduces as Astro Islands. The general idea behind island architecture is rendering static content on the server and then implementing, “hydrating”, the page with islands of dynamic behaviour. Multiple different islands can exist on one page, but every island always renders in isolation. The benefit of this approach is mainly good performance, but also parallel loading. Different components can load in parallel but hydrate in isolation. This means that one component won't block the other from loading or having to wait for the other to load.
 
 ### Fully featured
 
@@ -52,7 +52,7 @@ In addition to using your preferred framework, Astro gives you the opportunity t
 
 ### Accessible
 
-Astros goal is to be accessible and easy to use for all developers. The framework was designed to feel approachable regardless of skills and experience. Astro‘s own language is designed to be less complex than other frameworks and languages. It is heavily influenced by HTML and all valid HTML snippets are already valid Astro components. So, either by choosing your preferred framework or just plain HTML, CSS and vanilla JavaScript, it is fully up to you as the developer how you want to build with Astro.
+Astro's goal is to be accessible and easy to use for all developers. The framework was designed to feel approachable regardless of skills and experience. Astro's own language is designed to be less complex than other frameworks and languages. It is heavily influenced by HTML and all valid HTML snippets are already valid Astro components. So, either by choosing your preferred framework or just plain HTML, CSS and vanilla JavaScript, it is fully up to you as the developer how you want to build with Astro.
 
 ## Weaknesses
 
@@ -81,7 +81,7 @@ The closest and most commonly compared framework to Astro is Next.js. Next.js is
 
 Astro offers a wide range of choices and flexibility when it comes to frameworks, tools and libraries. Next.js is limited to React only. But, because of this they provide an extensive set of React features.
 
-Astro is a MPA framework, meaning most of the page's HTML is rendered on the server. Next.js is a SPA framework, which renders most of the HTML in the browser as a single JavaScript application. The main differences between MPAs and SPAs are site behaviour, SEO and performance. A SPA needs to run an entire JavaScript application just to render the HTML of the page, while an MPA doesn't require much, if any, JavaScript to run. This gives an MPA a much faster first page load than a SPA. However, once a SPA is fully loaded it may offer a faster second or third page load experience than an MPA. Because SPAs are rendered as a single JavaScript application, it lets the application control memory and state across multiple pages. This makes SPAs offer more powerful transitions across page navigation and the superior option when it comes to interactive and data-driven applications. Because of the fast first load experience, MPAs are best when it comes to content-full websites.
+Astro is an MPA framework, meaning most of the page's HTML is rendered on the server. Next.js is an SPA framework, which renders most of the HTML in the browser as a single JavaScript application. The main differences between MPAs and SPAs are site behaviour, SEO and performance. An SPA needs to run an entire JavaScript application just to render the HTML of the page, while an MPA doesn't require much, if any, JavaScript to run. This gives an MPA a much faster first page load than an SPA. However, once an SPA is fully loaded it may offer a faster second or third page load experience than an MPA. Because SPAs are rendered as a single JavaScript application, it lets the application control memory and state across multiple pages. This makes SPAs offer more powerful transitions across page navigation and the superior option when it comes to interactive and data-driven applications. Because of the fast first load experience, MPAs are best when it comes to content-full websites.
 
 They both offer unique methods and features. Astro prioritises performance and simplicity, while Next.js prioritise powerful features. Astro would probably be the best option for static content-based websites, while Next.js would be better for more dynamic and interactive websites.
 
