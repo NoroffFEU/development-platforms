@@ -12,6 +12,7 @@ folder: Development platforms
 1. [Introduction](#introduction)
 2. [Brief History](#brief-history)
 3. [Potential Issues](#potential-issues)
+4. [Strengths](#strengths)
 
 # Introduction
 
@@ -22,51 +23,51 @@ Let us dive deeper.
 
 # Brief History
 
-Firebase originated as Evolve, an API that enables integration of online chat functionality to websites. When the founders discovered that the service was being used to pass application data that were not chat messages, they decided to separate the chat system and the real-time architecture that powered it. Firebase was founded as a separate company in 2011. In 2014, Firebase is acquired by Google.
+Firebase originated as Evolve, an API that enables the integration of online chat functionality to websites. When the founders discovered that the service was being used to pass application data that were not chat messages, they decided to separate the chat system and the real-time architecture that powered it. Firebase was founded as a separate company in 2011. In 2014, Firebase is acquired by Google.
 
 # Potential issues
 
 ## Vendor lock-in
 
-When using external development platforms like BaaS's, you are often required to use the company's SDK's, and therefore building your application on their terms, using their methods. This may cause the issue of "Vendor Lock-in", where your code is tied to the service to such an extent that although you want to switch service, the amount of work required to do it prevents you.
+When using external development platforms like BaaS, you are often required to use the company's SDKs, therefore building your application on their terms, using their methods. This may cause the issue of "Vendor Lock-in", where your code is tied to the service to such an extent that although you want to switch services, the amount of work required to do it prevents you.
 
 Being vendor locked in can be a major issue if:
 
 - The service provider shuts down.
 - The service provider increases prices.
-- You reach a technical barrier of the service
+- You reach a technical barrier to the service
 
-Lets look at these in regards of Firebase.  
-Unfortunately, your code will become quite specified to their service, as most functions are imported from their library, meaning Vendor Lock-in with Firebase will occur to at least some extent. However, Google is a gigantic company with small to no probability of shutting down the service. Being Vendor locked-in to this behemoth is therefore less of a concern than being locked-in to a minor and less predictable provider. When it comes to pricing, big ships turn slowly. Currently, Firebase provides a brilliant "pay as you grow" plan, which we will discuss later.
+Let's look at these in the context of Firebase.  
+Unfortunately, your code will become quite specified to their service, as most functions are imported from their library, meaning Vendor Lock-in with Firebase will occur to at least some extent. However, Google is a gigantic company with a small to no probability of shutting down the service. Being Vendor locked into this behemoth is therefore less of a concern than being locked-in into a minor and less predictable provider. When it comes to pricing, big ships turn slowly. Currently, Firebase provides a brilliant "pay as you grow" plan, which we will discuss later.
 
 ## Closed Source
 
-Although Firebase is not Open Source, many of their features are. This is done for increased transparency and building a stronger developer community.
-Open Source components from Firebase include SDK´s, libraries and samples, all posted on their Github.
-Unless your plan is to build something that outlives or rivals Google, I will not personally worry about Firebase´s closed source. Very large companies may however benefit from building their own infrastructure using open source alternatives, to ensure independency.
+Although Firebase is not Open Source, many of its features are. This is done for increased transparency and to build a stronger developer community.
+Open Source components from Firebase include SDKs, libraries and samples, all posted on their Github.
+Unless you plan to build something that outlives or rivals Google, I will not personally worry about Firebase´s closed source. Very large companies may however benefit from building their own infrastructure using open-source alternatives, to ensure independence.
 
 ## NoSQL Database
 
 This can be both good and bad, depending on your data and structure. It is however important to be vigilant when constructing your NoSQL database.
-The topic of database deserves it's own section, and is discussed further [Here](#database).
+The topic of databases deserves its own section and is discussed further [Here](#database).
 
 # Strengths
 
 ## Pricing
 
-In my opinion, Firebase has an attractive pricing strategy. It offers a "Spark" plan, which is free until your app or website reach a certain amount of traffic or storage. These amounts are relatively high if your application mostly deals in low sizes of data.
-For reference, the Spark plan allows 50k monthly active users and 50k document reads from the Firestore database each month for free and the equivalent of 20M messages storing. Should however your reads and database contain videos or images, you will likely reach various limits faster.
-The general feel here is that by the time you need to worry about costs, you should have enough users to not have to worry about the costs.
+In my opinion, Firebase has an attractive pricing strategy. It offers a "Spark" plan, which is free until your app or website reaches a certain amount of traffic or storage. These amounts are relatively high if your application mostly deals with low sizes of data.
+For reference, the Spark plan allows 50k monthly active users and 50k documents read from the Firestore database each month for free and the equivalent of 20M messages stored. Should however your reads and database contain videos or images, you will likely reach various limits faster.
+The general feeling here is that by the time you need to worry about costs, you should have enough users to not have to worry about the costs.
 
 ## Well documented
 
-Although closed source, Firebase has a great developer community and is a topic with many discussions and youtube videos surrounding it. Firebase also provides an abundance of learning material in text or videos on their website. For troubleshooting and issues you can also contact customer support, although some inquiries about debugging and writing code will be "Out of scope" unless you have a paid support plan.
+Although closed source, Firebase has a great developer community and is a topic with many discussions and youtube videos surrounding it. Firebase also provides an abundance of learning material in text or videos on its website. For troubleshooting and issues, you can also contact customer support, although some inquiries about debugging and writing code will be "Out of scope" unless you have a paid support plan.
 
 ## Integrations and Extensions
 
-Firebase provides a bunch of out of the box code to handle various tasks and simplify development process. Some are provided directly from Firebase and some are found in the Extension Marketplace. Below are some examples;
+Firebase provides a bunch of out-of-the-box code to handle various tasks and simplify the development process. Some are provided directly from Firebase and some are found in the Extension Marketplace. Below are some examples;
 
-- Firebase have their own integrated authentication for registering users and login/logout.
+- Firebase has its own integrated authentication for registering users and login/logout.
 - Payment Extension with Stripe
 - Page search extension
 - Email trigger to users on specific database alternations
@@ -93,7 +94,7 @@ Root
 
 ## Bundling
 
-Before you start, you will need to install and setup a bundler to bundle your application specific code with your imported library code.
+Before you start, you will need to install and set up a bundler to bundle your application-specific code with your imported library code.
 
 - Libraries like React or Svelte would have their own bundler.
 
@@ -106,12 +107,12 @@ npm i webpack webpack-cli -D
 ```
 
 When run, webpack will look for a file called index.js in our src folder, and output a main.js in our dist folder.
-However, the source code will look messy in the browser, making debugging a hassle. To solve this, we can use "source-maps".
+However, the source code will look messy in the browser, making debugging a hassle. To solve this, we can use "source maps".
 Source maps are a method of bringing a compiled file back to its pre-built state, visually reversing the bundling.
 
 To do this, we create a file **webpack.config.js**.
 
-Without going into much details, our webpack.config.js will look like this with our chosen tools:
+Without going into great detail, our webpack.config.js will look like this with our chosen tools:
 
 ```js
 const path = require("path");
@@ -141,7 +142,7 @@ npm run build
 ```
 
 This should build a file called bundle.js in our dist folder.
-After the file is created, we may change our javascript source to the newly created "bundle.js" in our index.html, and see that the source of our js in the developer tools look neat.
+After the file is created, we may change our javascript source to the newly created "bundle.js" in our index.html, and see that the source of our js in the developer tools looks neat.
 
 ## Create Project
 
@@ -161,7 +162,7 @@ const firebaseConfig = {
 
 Go to your index.js file and paste it in.
 
-Further, we will need to use functions from Firebase library. We therefore first need to run the command to download Firebase. Run the following command in the CLI:
+Further, we will need to use functions from the Firebase library. We therefore first need to run the command to download Firebase. Run the following command in the CLI:
 
 ```
 npm i firebase
@@ -173,7 +174,7 @@ We can now import our Firebase functions. Above the config, place the following 
 import { initializeApp } from "firebase/app";
 ```
 
-We have now imported the initializeApp function, and may use it to initialize our app with our config.
+We have now imported the initializeApp function and may use it to initialize our app with our config.
 
 Below our config, paste the following function:
 
@@ -196,7 +197,11 @@ Our app is now connected to our online Firebase project.
 
 # Summary
 
-# Sources
+## Credit
+
+- Tom Erik William Ertvaag (WParsec)
+
+### Sources
 
 https://firebase.google.com/docs/web/setup
 https://www.youtube.com/watch?v=9zdvmgGsww0&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=1
