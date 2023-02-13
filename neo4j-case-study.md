@@ -69,12 +69,27 @@ TigerGraph is a high-performance graph database management system that provides 
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+In summary, Neo4j is a powerful graph database management system that is designed for efficient storage and querying of data relationships. It provides fast querying, easy-to-use Cypher query language, scalability, integrations, and reliable transactions, making it a versatile solution for a wide range of use cases. However, it has limitations in terms of analytics capabilities, higher resource requirements, limited adoption and higher cost, making it more suitable for specific use cases.
+
+Neo4j is relevant because it provides a solution for efficiently storing and querying data relationships, which are common in web development. It can be used to store and manage data for web applications that involve complex relationships, such as social networks, recommendation systems, and e-commerce websites. Additionally, the Cypher query language provided by Neo4j is easy to read and understand, making it accessible. Overall, it can provide web developers with a powerful tool for managing complex data relationships and enabling more efficient data analysis.
 
 ### Credits
 
--   Student Name (studentGitHubUsername)
+-   Viorel Lazari (https://github.com/VLazari)
 
 #### References
 
--   List of video or links used during research
+-   https://neo4j.com/use-cases/
+-   https://en.wikipedia.org/wiki/Graph_database
+-   https://en.wikipedia.org/wiki/Neo4j
+-   https://analyticsindiamag.com/the-origin-of-neo4j/#:~:text=Founded%20in%202007%2C%20Neo4j%20has,Partners%2C%20DTCP%2C%20and%20Lightrock.
+-   https://dbdb.io/db/neo4j
+-   https://towardsdatascience.com/comparing-graph-databases-5475bdb2e65f
+-   https://neo4j.com/docs/cypher-manual/current/access-control/limitations/
+-   https://www.educba.com/neo4j-vs-neptune/?source=leftnav
+-   https://db-engines.com/en/system/Neo4j%3BTigerGraph
+-   https://www.youtube.com/watch?v=oRtVdXvtD3o
+-   https://www.youtube.com/watch?v=T6L9EoBy8Zk
+-   https://www.youtube.com/watch?v=8jNPelugC2s
+-   https://www.javatpoint.com/features-of-neo4j
+-   https://alronz.github.io/Factors-Influencing-NoSQL-Adoption/site/Neo4j/Results/Strengths%20and%20Weaknesses/#weaknesses
