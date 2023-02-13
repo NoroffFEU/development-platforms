@@ -23,7 +23,7 @@ Currently its latest versions is seeing around 40k weekly downloads and the repo
 
 According to the product creator himself, version 9.x should really be viewed as version 1.x, where as the newly released 10.x should be considered version 2.x.
 
-v 10.x brings in performance improvements as well as quality of life enhancements. Some of the changes includes:
+Version 10 brings in performance improvements as well as quality-of-life enhancements. Some of the changes include:
 
 - Simplified backend writing of routers and procedures.
 - Made client calls to backend procedures more easily defined.
