@@ -29,10 +29,6 @@ Azure DevOps is a platform that supports a collaborative culture and uses a set 
 
 ## Brief History
 
-Provide a brief history of the product, including major milestones or events.
-
-You may use bullet points, numbered lists, paragraphs or a timeline.
-
 ## Features
 
 Outline the product's key features.
