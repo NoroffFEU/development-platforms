@@ -223,7 +223,7 @@ Backups are very important, especially if your site handles sensitive informatio
 
 ### VPS Hosting (Virtual Private Server)
 
-- - One of the strengths of VPS is that it works better than shared hosting because it has improved performance and security, something shared hosting doesn't have.
+- One of the strengths of VPS is that it works better than shared hosting because it has improved performance and security, something shared hosting doesn't have.
 
 - It`s cost benefit, it saves you money.
 
