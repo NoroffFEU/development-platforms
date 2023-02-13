@@ -245,7 +245,7 @@ GraphQL is being used by industry juggernaughts such as ``Facebook``, ``Github``
 
 ## Summary
 
-tRPC offers an excellent introduction to creating API's. Using it is intuitive, fast and efficient. With some experience, you can have functional endpoints up and running within minutes. Whether you are a junior when it comes to backend or web-development in general, or an experienced full-stack developer tRPC should offer a lot of welcome features for your next project - increasing your workflow, maintaining your code base and overall helping you become an overall more productive developer. 
+tRPC offers an excellent introduction to creating APIs. Using it is intuitive, fast and efficient. With some experience, you can get functional endpoints up and running within minutes. Whether you are a junior when it comes to backend or web development in general, or an experienced full-stack developer tRPC should offer a lot of welcome features for your next project - increasing your workflow, maintaining your code base and overall helping you become an overall more productive developer. 
 
 [As Chris Bautista states in his overview video](https://www.youtube.com/watch?v=2LYM8gf184U&t=665s)
 
