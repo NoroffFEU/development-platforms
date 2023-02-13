@@ -184,7 +184,7 @@ Since tRPC uses Typescript, which is a statically typed language, type definitio
 #### tRPC uses Typescript
 This can be viewed as both a strength and a weakness. On the one hand, it allows for a uniform coding language and infrastructure between backend and frontend, improving workflow and communication between the team. 
 
-While on the other hand, if Typescript is not the preferred programming language, or if team structure is heavily silo'd between front- and backend tRPC might not be the best option.
+While on the other hand, if Typescript is not the preferred programming language, or if team structure is heavily siloed between front and backend tRPC might not be the best option.
 
 #### tRPC works great in a monorepo
 With how tRPC communicates between client and server code, you are encouraged to use a singluar repository, and several highlighted features are only accessible if you do so. On a smaller scale, there are many benefits in doing so. It's easier to navigate between client/server code, making changes and ensure typesafety within the entirety of your code base. No more ``uncaught type-errors``.
