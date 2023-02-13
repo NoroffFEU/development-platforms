@@ -227,8 +227,6 @@ Backups are very important, especially if your site handles sensitive informatio
 
 - Its cost-effective, saving you money.
 
-- Get the acquisition and maintenance of the equipment, and you will get reduction in the cost.
-
 ### Dedicated Server Hosting
 
 - The biggest strength is that it`s very safe, zero risk of being harmed by other companies.
