@@ -44,21 +44,23 @@ Unfortunately, your code will become quite specified to their service, as most f
 
 Although Firebase is not Open Source, many of its features are. This is done for increased transparency and to build a stronger developer community.
 Open Source components from Firebase include SDKs, libraries and samples, all posted on their Github.
-Unless you plan to build something that outlives or rivals Google, I will not personally worry about Firebase´s closed source. Very large companies may however benefit from building their own infrastructure using open-source alternatives, to ensure independence.
+Unless you plan to build something that outlives or rivals Google, I will not personally worry about Firebase´s closed source. Very large companies may however benefit from building their infrastructure using open-source alternatives, to ensure independence.
 
-## NoSQL Database
+## Only NoSQL Database
 
 Firebase does not offer SQL databases, and you will have to use the NoSQL database they provide. This can be both good and bad, depending on your data and structure. It is however important to be vigilant when constructing your NoSQL database.
 The topic of databases deserves its own section and is discussed further [Here](#database).
 
 # Strengths
 
-## Easy Startup
+## Easy Initialization
 
 The primary benefit of Firebase contra no BaaS or another BaaS provider is that it handles challenging and time-consuming tasks for you, so you can focus on advancing your front end rapidly and with no cost until your application is already highly trafficked.
 
 For reference, the so-called Spark plan allows 50k monthly active users and 50k documents read from the Firestore database each month for free and the equivalent of 20M messages stored. Should however your reads and writes to the database contain videos or images, you will likely reach various limits of data transfer faster.
 The general impression I am getting here is that by the time you need to worry about costs, you should have enough users to not have to worry about the costs.
+
+Setting up a project is not very challenging, and you can have a front end connected to a database within minutes. We will go through the steps for connecting to a database [later](#creating-a-firebase-project)
 
 ## Well documented
 
@@ -187,14 +189,30 @@ Our app is now connected to our online Firebase project.
 
 # Database
 
-- Realtime / Firestore
-- noSQL - benefits - weaknesses - method how to query
-  NoSQL reads slower, but writes faster
-  NoSQL is better at handling lots of connections going to it at the same time reading and writing data.
+## Realtime Database & Firestore
 
-- Migration
-- Works offline by caching changes and syncing when online
-- Queries
+Firebase offers two databases: Firestore and Firebase Realtime Database.  
+Both are [NoSQL](#nosql) databases, with slightly different use cases.
+
+- Firebase Realtime Database uses a JSON-based data model, and is more flexible in terms of structure, as it does not require a fixed schema and allows you to store nested data structures. It is more suited when real-time synchronization is important.
+
+- Firestore uses a document-oriented data model, where data is stored as collections of documents, each of which contains key-value pairs. Firestore allows more complex querying than Realtime Database and slightly more options for security, although both databases exhibit robust security. It is more suited for larger data where more complex querying and security are important.
+
+## NoSQL
+
+NoSQL, meaning "Not only SQL", are databases that store data with methods other than tabular relations. NoSQL databases do not require a specific input format and are more flexible than relational databases, making them an attractive choice for dynamic applications with many users and unstructured data.
+Some of the advantages of using NoSQL databases include horizontal scalability, flexibility, and ease of development. NoSQL databases are also well-suited for handling big data, real-time data, and cloud-based applications.
+They may however experience difficulty handling a lot of reads due to the potential complexity of your database structure, and for the same reason may not perform as well as relational databases in handling complex queries. In addition to this, unlike their relational counterpart, there is no standard language for NoSQL databases. This often makes database providers construct their own language, thus providing an extra layer of vendor lock-in to that specific database.
+
+## Migration
+
+Migrating away from Firestore may be highly difficult, depending on the size and complexity of your data. Due to the specific structure and syntax, migration to another database would require significant changes in your code.
+It is however not impossible, and should the need desperately arise, you can consult with experts in database migration.
+
+- Cloud functions, Middleware & REST API
+  Cloud functions require a "Blaze" plan.
+
+## Queries
 
 # Security
 
