@@ -356,9 +356,9 @@ Non-ACID-compliant databases can potentially trade integrity for speed.
 
 ## Strengths
 
-- Open source: MySQL is open source software which makes it free to use and can be modified by others.
+- Open source: MySQL is a free open source software that can be modified by others to fit specific needs.
 - Widely adopted: MySQL is one of the most used relational databases in the world with a lot of documentation.
-- Scalability: Can scale to handle large amounts of traffic and data, a good choice for websites with high traffic.
+- Scalability: built to scale and handle very large amounts of traffic and data, a good choice for websites with high traffic.
 - Large community: One of the best features of popular open source software is that it comes with a large community
   which makes it a lot easier to find support and answers to questions.
 - High performance: Provides fast and efficient processing for large datasets.
@@ -366,11 +366,42 @@ Non-ACID-compliant databases can potentially trade integrity for speed.
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
+- Limited transaction processing: MySQL is less sophisticated regarding transaction processing.
+- Limited No-SQL capabilities: MySQL is limited in it's ability to handle No-SQL data.
+- Lacking built-in security features: MySQL har fewer built in security systems than some other database providers,
+  This can lead to developers having to create additional security infrastructure.
+
+  <!-- todo: sql injections -->
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+<!-- Compare the product to other products in the same category, if applicable. -->
+
+It seems to be that the three overwhelmingly most popular open-source relational databases are MySQL, PostgreSQL and Microsoft SQL Server, in given order. I'm therefore going to make a comparison between MySQL and PostgreSQL.
+
+<!-- to see how they differ, what they have in common and What would be best different upcases. -->
+
+First i will look at their similarities, then their differences and finally, what use cases and they are optimal for.
+
+##### Similarities
+
+- Both are open-source, free to use and modify.
+- Relational database management systems (RDBMS).
+- Uses tables that have relationships between them.
+- Widely adopted
+- Has large communities
+- Based on the same foundational SQL (structured query language)
+
+##### Differences
+
+- SQL: While they are both rooted in the same SQL language, they have quite a differing syntax today.
+  PostgreSQL uses a more advanced version of the query language known as PL/SQL
+- Transactions: PostgreSQL transaction capabilities are more advanced and support multi-version concurrency control (MVCC).
+- Data Types: PostgreSQL supports a more diverse set of data-types.
+- Indexing: PostgreSQL supports more advanced index capabilities, e.g. partial indexes and indexes on expressions.
+- security: PostgreSQL has a more comprehensive built-in security system that support data encryption and row-level security.
+
+##### use-case
 
 ## Summary
 
