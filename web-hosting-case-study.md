@@ -113,6 +113,8 @@ Disk space is basically the total amount of data that a hard disk/hard drive can
 
 - TB (terabytes)
 
+For the most part, 1GB will often be sufficient. For most websites with text and images, 3-5 GB should be plenty. If you except users to download large multimedia files or if more than 500 visitors are expected per day, then you should consider a package with more transfer bandwidth.
+
 ### Bandwidth
 
 With Bandwidth feature, you can load your website faster, because loading time can take tme and is the time it takes to transfer different website files. 
@@ -370,3 +372,5 @@ Web hosting is an online service that helps you and allows you to publish your w
 - https://www.google.com/search?q=credits+to+the+images&hl=en&sxsrf=AJOqlzVpPAL-2qF5KcALyIa5KFMTgugQIg:1675689650484&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi2s_uy_oD9AhXGRPEDHYb_B74Q_AUoAXoECAEQAw&biw=1280&bih=569&dpr=1.5#imgrc=7nI0cwXgKP32HM&imgdii=sTP_T_TBMWiK1M
 
 - https://www.google.com/search?q=References+image&tbm=isch&ved=2ahUKEwiA2ZfagIH9AhUR4rsIHYFsB4gQ2-cCegQIABAA&oq=References+image&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQBRAeMgYIABAFEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHlAAWABg9BdoAHAAeACAAWuIAWuSAQMwLjGYAQCqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=HQHhY8DWJJHE7_UPgdmdwAg#imgrc=jbqAds3TrVhsRM
+
+- https://www.socket.net/blog/tech/how-much-web-space-do-I-need#:~:text=For%20most%20websites%20with%20text,package%20with%20more%20transfer%20bandwidth.
