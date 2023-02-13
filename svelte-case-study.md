@@ -1,6 +1,6 @@
 ---
 title: Svelte Case Study
-keywords: development platforms, svelte project, development
+keywords: development platforms, svelte, development, compiler, framework
 tags: Development Platforms, Svelte Project, Development
 sidebar: development-platforms
 permalink: development-platforms/svelte-product.html
@@ -69,7 +69,60 @@ if you want to configure vite more you can find the docs [here](https://vitejs.d
 
 If you are using Visual Studio Code, I would recommend downloading the svelte extension "Svelte for VS code" it will give you formatting, auto completions and it allows you to use emmet inside you svelte components.
 
-example of a fetch using svelte.
+This is an example of a fetch using svelte.
+```js
+ <div class="items-container">
+   <ul>
+     {#await fetchItems(baseUrl + API_KEY + langEnUs)}
+       <p style="font-weight: bold">loading...</p>
+     {:then items}
+       {#each items as item}
+         <li id={item.id}>{item.name}</li>
+       {/each}
+     {:catch err}
+       <p class="error">Something went wrong! -- {err}</p>
+     {/await}
+   </ul>
+ </div>
+```
+This code will generate the items straight in the html using the `#await` syntax.
+
+You combined this with a script tag in the svelte file where you will be setting up the fetch.
+```js
+<script>
+  const baseUrl = "your url";
+  const API_KEY = import.meta.env.YOUR_API_KEY;
+
+  /**
+   * Fetches the api item.
+   * @param url contains the targeted API url for the wanted object.
+   * @returns Should return the response to the svelte #await in the html block.
+   */
+  export async function getGenres(url) {
+      // fetches the item from the url target.
+      const res = await fetch(url);
+
+      // Handles bad requests / error responses
+      if (!res.ok) {
+        throw new Error(`Bad request ${res.statusText}`);
+      }
+
+      // setting the response to a variable and returning it
+      const data = await res.json();
+      return data.items;
+  }
+</script>
+```
+
+#### If you want to specify the context of the script, you can use different context attributes to the script tag.
+
+- If you are using typescript you can use the following at the top of your script file
+`<script lang="ts"></script>`
+
+- If your script should be a module you can use the following in the same way
+`<script lang="ts" context="module"></script>` this is the deault so instead you can use the `<script context></script>` in the instance of reffering to it as a module.
+
+- If your script should be a instance, you just switch out module for instance.
 
 ## Strengths
 
@@ -113,6 +166,8 @@ Summarise the content and highlight the relevance of the product to a web develo
 - https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started
 
 - https://www.youtube.com/watch?v=rkwKpULfWZA
+
+- https://chat.openai.com/chat
 
 #### Video References
 
