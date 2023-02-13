@@ -192,11 +192,11 @@ Our app is now connected to our online Firebase project.
 ## Realtime Database & Firestore
 
 Firebase offers two databases: Firestore and Firebase Realtime Database.  
-Both are [NoSQL](#nosql) databases, with slightly different use cases.
+Both are [NoSQL](#nosql) real-time databases, with slightly different use cases.
 
-- Firebase Realtime Database uses a JSON-based data model, and is more flexible in terms of structure, as it does not require a fixed schema and allows you to store nested data structures. It is more suited when real-time synchronization is important.
+- Firebase Realtime Database uses a JSON-based data model, and is more flexible in terms of structure, as it does not require a fixed schema and allows you to store nested data structures. It is more suited when real-time synchronization is important and complex data & querying is not needed.
 
-- Firestore uses a document-oriented data model, where data is stored as collections of documents, each of which contains key-value pairs. Firestore allows more complex querying than Realtime Database and slightly more options for security, although both databases exhibit robust security. It is more suited for larger data where more complex querying and security are important.
+- Firestore is a newer and enhanced version of Realtime Database, which uses a document-oriented data model, where data is stored as collections of documents, each of which contains key-value pairs. Firestore allows more complex querying than Realtime Database and slightly more options for security, although both databases exhibit robust security. It is more suited for larger data where more complex querying and security are important.
 
 ## NoSQL
 
@@ -209,8 +209,9 @@ They may however experience difficulty handling a lot of reads due to the potent
 Migrating away from Firestore may be highly difficult, depending on the size and complexity of your data. Due to the specific structure and syntax, migration to another database would require significant changes in your code.
 It is however not impossible, and should the need desperately arise, you can consult with experts in database migration.
 
-- Cloud functions, Middleware & REST API
-  Cloud functions require a "Blaze" plan.
+## Cloud functions, Middleware & REST API
+
+Cloud functions do however require a "Blaze" plan.
 
 ## Queries
 
@@ -234,3 +235,5 @@ https://firebase.google.com/docs/web/setup
 https://www.youtube.com/watch?v=9zdvmgGsww0&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=1
 https://firebaseopensource.com/
 https://firebase.google.com/learn/pathways/firebase-firestore
+https://www.youtube.com/watch?v=v_hR4K4auoQ&ab_channel=Firebase
+https://firebase.google.com/docs/database/rtdb-vs-firestore
