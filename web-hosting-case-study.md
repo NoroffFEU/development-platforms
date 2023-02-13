@@ -143,7 +143,7 @@ And if you are working with Bluehost’s Managed WordPress hosting plan, then yo
 
 ### Uptime
 
-What Uptime do is that it measures te percentage of time your website is up and available to the users who visit your site. With other words, the closer to 100% uptime, the better. If you use the best web hosting, it van provide high uptimes by offering backup servers and backup servers in multiple locations. Many web hosts have uptime, one example is Bluehost, which have 99.9% uptime.
+Uptime is a measurement of the percentage of time your website is up and available to the users who visit your site compared with the time that the site is offline. In other words, the closer to 100% uptime, the better. If you use the best web hosting, it can provide high uptimes by offering backup servers in multiple locations. Many web hosts have uptime guarantees, one example is Bluehost, which offers 99.9% uptime.
 
 ### Website Speed
 
