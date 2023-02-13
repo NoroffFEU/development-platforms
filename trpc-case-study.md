@@ -11,7 +11,7 @@ folder: development-platforms
 
 ## Introduction
 
-tRPC stands for TypeScript Remote Procedure Call. It's a simple and lightweight library for creating API's using a singular programming language [TypeScript](https://www.typescriptlang.org/).It operates as a protocol to call your backend functions directly from the frontend, unlike other popular options such as ``GraphQL``, which relies on schemas and code generation.
+tRPC stands for TypeScript Remote Procedure Call. It's a simple and lightweight library for creating APIs using a singular programming language [TypeScript](https://www.typescriptlang.org/).It operates as a protocol to call your backend functions directly from the frontend, unlike other popular options such as ``GraphQL``, which relies on schemas and code generation.
 
 ## Brief History
 
