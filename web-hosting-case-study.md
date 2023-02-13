@@ -155,7 +155,7 @@ Website speed is the measurement of how quickly your website loads on a user's b
 
 - Offering a content delivery network (CDN) service
 
-With these right tools above, you can help users deliver quick page.
+By taking advantage of the tools above, it is possible to increase the speed of a web page.
 
 Website speed does affect UX because a fast page improves user experience, with a slow page it will make people who visit your site angry and frustrated, and with this it will just make them leave your site.
 
