@@ -11,7 +11,6 @@ folder: development-platforms
 
 PostgreSQL is one of the most advanced open source relational database. It's been active in development for 30+ years and has earned a strong reputation for its reliability, feature robustness and performance.
 
-
 ## Brief History
 
 This ORDBMS which stands for Object Relational Database Management system is PostgreSQl which is taken from the POSTGRES package written at the University Berkley. POSTGRES was used for mant different research and production application which include a financial data analysis system, a jet enginge performance monitoring package, and asteroid tracking database, a medical information database, and several geographic information systems. It has also been used as an educational tool at several universities. 
@@ -43,14 +42,13 @@ Performance and maintenance were improved, it ran faster, bugs were fixed and go
 
 1996 - New name was implemented to PostgreSQL to reflect the relationship between the original POSTGRES and the more recent versions with SQL capability. 
 
-
 ## Features
 
 PostgreSQL has a large list of features which consists of many relating to performance, security, programming extensions and configurations.
 
 Here are a few key features:
-* Runs on most operating systems.
-* PostgreSQL also supports alot of data types.
+* Runs on most operating systems like Windows, Linux on all recent distributions, macOS, NetBSD, FreeSBD etc.
+* PostgreSQL also supports alot of data types;
      Besides the string, numeric, boolean, date, POSTGRES also supports enumerated, geometric, hstores, network adressess, binary, xml, json, array, uuid, monetary and more. 
 * Table inheritance.
      Allows you to create a child table based on another table, where the child table will include all of the columns in the parent table.
@@ -79,20 +77,33 @@ Scalability is how a system/database can handle a growing amount of demands by a
 ### ACID Compliant
 PostgreSQL reliable because it is ACID(Atomicity, Consistency, Isolation and Durability) compliant meaning queries will maintain data integrity. POSTGRES is known for its rocksolid referential and transactional integrity.
 
-
 ## Weaknesses
 
 ### Learning curve
 Learning PostgrSQL can be a little hard, and it can take time to be good at it.
 
 ### Performance
-Even though PostgrSQL is a very efficient database, it may not be as fast as some other databases.
-
+Even though PostgrSQL is a very efficient database, it may not be as fast as some other databases in certain areas.
 
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+PostgreSQL VS MYSQL
+
+Differences:
+* PostgreSQL is an Object Relational Database Management System(ORDBMS) and MySQL is Relational Database Management System(RDBMS). Meaning in MySQL, all tables are interrelated, but PostgreSQL combines the characteristics of both ORDBMS and RDMBS so it doesn't only contain interrelated tables, but it also supports objects, classes and inheritances.
+* PostgreSQL supports modern application features such as JSON, XML etc, while MySQL only supports JSON.
+* While PostgrSQL supports advanced data types such as arrays, hstore and user-defined data types, MySQL only supports standard data types such as numeric, date and time, string, spatial and the JSON data type.
+* PostgreSQL is maintained by developers who volunteer, while MySQL is maintained by Oracle Corporation.
+* PostgreSQL is also fully ACID compliant while MySQL is ACID compliant only through InnoDB and NDB Cluster Storage engines. 
+* In terms of how the learning curve is for these databases, PostgreSQL may be harder for beginners to learn compared to MySQL which is more user-friendly as takes less time to build a project from scratch.
+
+Similarities:
+* Both rely on SQL which enables tables to be joined using few lines of code.
+* Both PostgreSQL and MySQL have communities to provide supports to their users where they have many volunteers that devote their time to offer free advice, recommendation and support to users.
+* On both DBMSs, you can use JSON for transporting and storing data, objects and arrays.
+* 
+
 
 ## Summary
 
