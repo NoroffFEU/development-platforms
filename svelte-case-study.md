@@ -177,9 +177,13 @@ In your face, React.
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+Svelte is a free and open source front-end component framework within the JavaScript ecosystem. Svelte differs from other JavaScript frameworks mainly in how the components are shipped to the browser. Where React and Vue render components in a virtual DOM, Svelte instead compiles HTML templates to specialized, highly optimized code at build-time, which in turn increases performance.
 
-https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/
+Key features include: no virtual DOM, reactive declarative syntax, small bundle size, built-in animations and transitions and server-side rendering, all while being easy to learn.
+
+Svelte's main strength lies in creating `Single Page Applications` or SPAs. When building a SPA in Svelte, you would typically use the Svelte components to create a modular and reusable UI. The SPA would handle navigation and data management, dynamically updating the content of the page based on user interactions and changes in data.
+
+Since it's release in 2016, Svelte has grown to become one of the most popular JavaScript frameworks available, as shown in the [State of JavaScript Survey](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/) because it is so simple to use compared to its competitors. This is also why web developers are starting to favor it while more and more companies are adopting it into their tech stack.
 
 ![meme](https://user-images.githubusercontent.com/30121693/217350618-46a4aa69-c4c4-4f13-9c9b-c2156b1f48cb.png)
 
@@ -195,3 +199,4 @@ https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/
 - https://subscribe.packtpub.com/why-use-svelte-for-your-next-javascript-project/#:~:text=Svelte%20is%20a%20modern%20JavaScript,Vue%2C%20or%20any%20other%20frameworks.
 - https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/
 - https://ractive.js.org/
+- Richard Dawkins
