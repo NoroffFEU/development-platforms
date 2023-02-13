@@ -13,6 +13,7 @@ folder: Development platforms
 2. [Brief History](#brief-history)
 3. [Potential Issues](#potential-issues)
 4. [Strengths](#strengths)
+5. [Creating a Firebase Project](#creating-a-firebase-project)
 
 # Introduction
 
@@ -209,11 +210,38 @@ They may however experience difficulty handling a lot of reads due to the potent
 Migrating away from Firestore may be highly difficult, depending on the size and complexity of your data. Due to the specific structure and syntax, migration to another database would require significant changes in your code.
 It is however not impossible, and should the need desperately arise, you can consult with experts in database migration.
 
-## Cloud functions, Middleware & REST API
-
-Cloud functions do however require a "Blaze" plan.
-
 ## Queries
+
+A Firebase query is the method of getting your desired data from the database. This is done by using Firebase's imported functions together with your own defined query.
+In my Firebase project console, I have created a collection called **Ingredients**, and I have a document in that collection with the name attribute of "tomato".
+Below is an example I created of a query to get all results from the **Ingredients** collection with the name "tomato".
+
+```js
+// Creates a variable for the Ingredients Collection in the database
+const colIngredients = collection(db, "ingredients");
+
+// Create a const q that contains the query function
+const q = query(colIngredients, where("name", "==", "tomato"));
+
+// Real time collection data with onSnapshot
+function getIngredients(query) {
+  onSnapshot(
+    query,
+    (querySnapshot) => {
+      let ingredients = [];
+      querySnapshot.forEach((doc) => {
+        ingredients.push({ ...doc.data(), id: doc.id });
+      });
+      console.log("Data from onSnapshot: ", ingredients);
+      buildList(ingredients);
+    },
+    (error) => {
+      console.log("Error getting documents: ", error);
+    }
+  );
+}
+getIngredients(q);
+```
 
 # Security
 
@@ -237,3 +265,4 @@ https://firebaseopensource.com/
 https://firebase.google.com/learn/pathways/firebase-firestore
 https://www.youtube.com/watch?v=v_hR4K4auoQ&ab_channel=Firebase
 https://firebase.google.com/docs/database/rtdb-vs-firestore
+https://www.youtube.com/watch?v=gEaY2GZMino&ab_channel=TheNetNinja
