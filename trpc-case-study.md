@@ -237,7 +237,7 @@ GraphQL is being used by industry juggernaughts such as ``Facebook``, ``Github``
 - if your team is either heavily siloed or use multiple programming languages.
 
 *Use tRPC if:*
-- You are looking to learn to create your own API's.
+- You are looking to learn to create your own APIs.
 - You are working in a smaller development team or work as a freelancer.
 - You use Typescript as your preferred programming language.
 - You are developing a smaller scope application.
