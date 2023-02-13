@@ -162,9 +162,11 @@ Compared to a somewhat more simple tool for mapping user behavior on a website, 
 
 ## Summary
 
-GA4 is a statistic and analysis tool which can be used by developers to get insights on users behaviors on a website. It provides different kind of reports, which one can customize however one wants.
+GA4 is a statistic and analysis tool which can be used by developers to get insights on users behaviors on a website. It provides different kinds of reports, which one can customize however one wants.
 
 GA4 provide insights mainly in the form of numbers. By using the exploration reports feature one could make more visual representations of the numbers, than the more tabled standard reports.
+
+These reports could be used by developers to get insight into users behavior on a website, to further improve the user experience.
 
 GA4 could be very complex and hard to learn, which makes one might question the value vs the reward of taking the time to learn it as a developer. Specially when there is much simpler tools out there for mapping user behavior.
 
