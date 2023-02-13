@@ -73,3 +73,5 @@ VPS hosting provides a web developer with a flexible and customizable hosting en
 - Is VPS same as VM? https://www.websitebuilderinsider.com/is-vps-same-as-vm/
 - VPS Hosting: 7 Must-Have Features https://www.bigrock.in/blog/products/hosting/vps-hosting-7-must-have-features
 - THE PROS AND CONS OF VPS WEB HOSTING https://www.webhostinghub.com/web-hosting-guide/the-pros-and-cons-of-vps-web-hosting
+- The History of Dedicated Servers https://www.liquidweb.com/blog/history-future-dedicated-servers/
+- The History of Cloud VPS https://www.vps.net/blog/history-cloud-vps/
