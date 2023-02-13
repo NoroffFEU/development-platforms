@@ -1,11 +1,25 @@
 ---
 title: Azure DevOps Case Study
-keywords: development platforms, Azure DevOps, category name
+keywords: Development Platforms, Azure DevOps, category name
 tags: Development Platforms, Azure DevOps, Category Name
 sidebar: development-platforms
 permalink: development-platforms/azuredevops.html
 folder: development-platforms
 ---
+
+# Azure DevOps
+
+## Table of content
+
+1. [Introduction](#introduction)
+2. [History](#brief-history)
+3. [Features](#features)
+4. [Strengths](#strengths)
+5. [Weaknesses](#weaknesses)
+6. [Comparison](#comparison)
+7. [Summary](#summary)
+8. [Credits](#credits)
+9. [References](#references)
 
 ## Introduction
 
