@@ -9,18 +9,18 @@ folder: development-platforms
 
 ## Introduction to MongoDB
 
-MongoDB is a open source NoSQL database management program that has focus on being scalable and flexible, allowing for storing of big amounts of data in a fast and agile database.
+MongoDB is a open source NoSQL database management program that has focus on being scalable, flexible, allowing for the storage of large amounts of data in a fast and agile database.
 MongoDB was created by the owners of a internet advertisement company, called DoubleClick, they struggled with the storage databases not being scalable and agile enough.
 Instead of using tables and rows, like the SQL databases, MongoDB gathers information and data in collections and documents.
 
 ## Brief History
 
-In the early days, 1970s, NoSQL was just a supplement to the SQL ways of storing data. But as the internet grew and evolved, so did the users, the records and the size of data being stored. The SQL had limitations, and they became more and more apparent. So adopting a more flexible and scalable way to store data was a priority. This formed the evolution of NoSQL, and from that MongoDB arised.
+In the early days, 1970s, NoSQL was just a supplement to the SQL ways of storing data. But as the internet grew and evolved, so did the number of users, the records and the size of data being stored.
+The limitations of SQL became more apparent. Adopting a more flexible and scalable way to store data was a priority. This began the evolution of NoSQL, from that MongoDB arose.
 
-In the points below, I will list the startup points to MongoDB, but also the biggest releases added to the database throughout the years.
+In the list below, we will look at important years and releases for MongoDB.
 
-- 2007 - MongoDB was founded by Dwight Merriman, Eliot Horrowitz and Kevin Ryan.
-- 2007 - MongoDB the work begins and it was initially developed as a component of a planning platform as a service platform.
+- 2007 -MongoDB was founded by Dwight Merriman, Eliot Horrowitz and Kevin Ryan. It was initially developed as a component of a planning platform as a service product.
 - 2009 - launched and shifted to a open-source development platform.
 - 2015 - In the early 2015 MongoDB released their version 3.0 - With WiredTiger Storage Engine, Ops Manager and 50-member replica sets.
 - 2015 - Later the same year the released their version 3.2 - With Encrypted Storage Engine, In-Memory Storage Engine. They also released the MongoDB Compass and MongoDB Connector for BI.
@@ -35,16 +35,37 @@ In the points below, I will list the startup points to MongoDB, but also the big
 ## MongoDBs main Features
 
 - Indexing
-  - This makes the searching though the database less time consuming and makes it easier. This means that every field in the documents are indexed with primary and secondary indices.
+
+  - The search through the database becomes less time consuming and easier to do.
+  - This means that every field in the documents are indexed with primary and secondary indices.
+
 - Replication
-  - This means the database makes copies of the data and sends it to multiple servers. Which make the data more available and redundant, if one server fails, the data can be retrieved from another server. A replica set can contain of two or more copies of the data, each set may act in the role of primary or secondary replica. Where it is the primary replica that serves as the main server and interacts with the client and performs the read/write operations. The secondary replica is a copy of the data of the primary using built-in replication. If the primary replica should fail, it automatically switches to the secondary, that then serves as the primary server.
+
+  - This means the database makes copies of the data and sends it to multiple servers. Which make the data more available and redundant, if one server fails, the data can be retrieved from another server.
+  - A replica set can contain of two or more copies of the data, each set may act in the role of primary or secondary replica.
+  - The primary replica serves as the main server and interacts with the client and performs the read/write operations.
+  - The secondary replica is a copy of the data in the primary using built-in replication.
+  - If the primary replica should fail, it automatically switches to the secondary, that then serves as the primary server.
+
 - Aggregation
-  - Makes it possible to perform operations on the grouped data, and then receive a single or computed result. This is thanks to the three different aggregation methods; aggregation pipeline, map-reduce function and a single-purpose aggregation methods.
+
+  - Makes it possible to perform operations on the grouped data, and then receive a single or computed result.
+  - This is thanks to the three different aggregation methods;
+    - aggregation pipeline
+    - map-reduce function
+    - a single-purpose aggregation methods.
+
 - Scalability
-  - Through sharding you distribute the data to different servers, where the data is partitioned into chunks using a shard key. These chunks are evenly distributed across shards thats placed on different servers. This way MongoDB provides horizontal scalability, which balances the load to keep the system up and running, and gives less chance of hardware failure.
+
+  - Through sharding you distribute the data to different servers, where the data is partitioned into chunks using a shard key.
+  - The chunks are evenly distributed across shards thats placed on different servers.
+    This way MongoDB provides horizontal scalability, which balances the load to keep the system up and running, and gives less chance of hardware failure.
+
 - Document-oriented
+
   - Each database contains a collection which contains documents. And each document can be different, with variations in number of fields and size.
   - The documents structure can be familiar to developers, as they are constructed like objects.
+
 - Ad hoc queries
   - Supports search by field, range queries and by regular expression searches.
 
@@ -59,6 +80,8 @@ In the points below, I will list the startup points to MongoDB, but also the big
 
 ## Weaknesses
 
+- ACID (Atomicity, Consistency, Isolation, Durability)
+  - MongoDB launched in their version 4.0 a
 - Uses a lot of memory for data storage.
 - Security may not be their strongest suite as there has been reports of MongoDB installations has been stolen, and servers has been held for ransome. Creators claim to have taken measures to upscale the security.
 - Joining - there isn't a simple, automated way to join documents. This can be done, but has to be done manually
@@ -95,7 +118,7 @@ This comparison is created with the help of <a href="https://www.mongodb.com/com
 
 ## Summary
 
-Overall MongoDB is a strong NoSQL database. The strengths trumps over the weaknesses. MongoDB is easy to use, it has many features many developers look for, and it supports many different development languages, which makes it more accessible for different types of developers. It can contain big amounts of data and the data is easy accessed.
+Overall MongoDB is a strong NoSQL database. In the author's view the strengths trump the weaknesses. MongoDB is easy to use, it has many features many developers look for, it supports many different development languages, which makes it more accessible for different types of developers. It can contain big amounts of data and the data is easy accessed.
 
 ### Credits
 
