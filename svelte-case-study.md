@@ -9,19 +9,19 @@ folder: development-platforms
 
 ## Svelte - the magical disappearing UI framework
 
-Svelte is a free and open source front-end component framework within the JavaScript ecosystem. Created by Rich Harris in 2016, it has quickly risen to become one of the most popular JavaScript frameworks currently available. Svelte differs from other JavaScript frameworks mainly in how the components are shipped to the browser. Where React and Vue render components in a virtual DOM, Svelte instead compiles HTML templates to specialized, highly optimized code at build-time, which in turn increases performance.
+Svelte is a free and open-source front-end component framework in the JavaScript ecosystem. Created by Rich Harris in 2016, it has quickly become one of the most popular JavaScript frameworks available. Svelte differs from other JavaScript frameworks, mainly in how it ships components to the browser. Unlike React and Vue, which render components in a virtual DOM, Svelte compiles HTML templates into specialized, highly optimized code at build time, resulting in improved performance.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/30121693/217351206-6f367e60-d963-40a4-81f2-2f4ec54b910f.png" alt="Svelte messiah meme"/>
 </p>
 
-This case study aims to introduce the reader to Svelte as a development tool to build front-end applications with and will not make the reader an expert in the framework by the end of the case study. It instead hopes to give the reader the tools necessary to form an informed opinion on whether or not Svelte will serve as a good development platform for them.
+This case study aims to introduce the reader to Svelte as a development tool for building front-end applications. It does not aim to make the reader an expert in the framework by the end, but rather to provide the reader with the necessary information to form an informed opinion on whether or not Svelte will be a good development platform for them.
 
 ## Brief History
 
-Released in November 2016, Svelte started out basically as nothing more than its predecessor, Ractive.js, but with a compiler. Ractive.js was originally created at The Guardian mainly as an in-house tool, but eventually Rich Harris took it a step further and released it to the world as Svelte. In April of 2018, the developers released the second version which set out to correct what the developers viewed as mistakes in the previous build. The major turning point came in April of 2019 when version 3 was released. Svelte had been rebuilt using TypeScript and completely rethought reactivity by using its compiler to orchestrate the heavy lifting behind the scenes. Much like a magician will lead you into focusing on an arbitrary part of the show rather than the actual set up of the trick, Svelte does the same by handling component loading and unloading out of the view of the user instead of a virtual DOM.
+Released in November 2016, Svelte started out as an improved version of its predecessor, Ractive.js, with the addition of a compiler. Ractive.js was created at The Guardian as an in-house tool, but eventually, Rich Harris took it to the next level and released it to the world as Svelte. In April 2018, the developers released the second version to correct what they considered to be mistakes in the previous build. The major turning point came in April 2019 with the release of version 3. Svelte was re-built using TypeScript and had a completely rethought reactivity system, using its compiler to handle the heavy lifting behind the scenes. Svelte, like a magician who leads you to focus on a specific part of the show instead of the set-up of the trick, handles component loading and unloading out of view of the user instead of a virtual DOM.
 
-The extension, SvelteKit, was announced in October 2020 and entered beta in March 2021. 
+The extension, SvelteKit, was announced in October 2020 and entered beta in March 2021. SvelteKit aims to be a more complete, or all-in-one, service. It is designed to make it easier to build fast, modern web applications by offering a set of tools for building, deploying, and scaling applications with Svelte. SvelteKit provides a standard architecture for building web applications and makes it easier to handle common tasks such as routing, code splitting, and asset handling. It also provides a set of features for building server-side rendering applications and integrates with modern tools such as webpack and Rollup. SvelteKit is designed to work seamlessly with the Svelte JavaScript framework and provides a familiar and consistent development experience for Svelte developers.
 
 ## Features
 
@@ -40,9 +40,9 @@ The key features of Svelte are:
 - Easy to learn
   - Svelte has a simple and intuitive syntax, making it easy to learn and use, even for developers new to web development.
 
-When a component is added to the DOM, Svelte sets up the reactive values for that component and starts observing changes to them. When the component is removed from the DOM, Svelte stops observing those values and cleans up any associated resources. This frees up more resources compared to other frameworks.
+When a component is added to the DOM, Svelte sets up the reactive values for that component and starts observing changes to them. When the component is removed from the DOM, Svelte stops observing those values and cleans up any associated resources, freeing up more resources compared to other frameworks.
 
-Svelte uses a system of reactive statements, such as `{#if}` blocks, that can conditionally render or destroy a component based on its reactive values. For example, if a component has a reactive value `visible` that determines whether it should be displayed or not, you could use an `{#if}` block to conditionally render the component like so:
+Svelte uses a system of reactive statements, such as {#if} blocks, to conditionally render or destroy a component based on its reactive values. For example, if a component has a reactive value visible that determines whether it should be displayed or not, you could use an {#if} block to conditionally render the component, like this:
 
 ```js
 {#if visible}
@@ -50,7 +50,7 @@ Svelte uses a system of reactive statements, such as `{#if}` blocks, that can co
 {/if}
 ```
 
-When the value of `visible` changes, Svelte will automatically update the DOM to reflect the change and render or destroy the component as needed. This allows for easy control over component loading and unloading, and ensures that resources are only used when they are actually needed, instead of constantly rendering every component like some high-budget slideshow.
+When the value of visible changes, Svelte automatically updates the DOM to reflect the change and render or destroy the component as needed. This allows for easy control over component loading and unloading, and ensures that resources are only used when they are actually required, instead of constantly rendering every component like in some high-budget slideshow.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/30121693/217382445-d5addc54-21a2-48bd-b613-dd9cac2e657b.png" alt="Svelte's key features"/>
@@ -58,12 +58,13 @@ When the value of `visible` changes, Svelte will automatically update the DOM to
 
 ## Strengths
 
-Svelte is most known for its performance. Because it does not use a virtual DOM and instead generates HTML at build-time, it has a faster runtime performance compared to other popular frameworks. It also has a simple and intuitive syntax, which makes it easy to learn and use. This in turn also means Svelte applications are easier to maintain and scale over time.
+Svelte is well known for its performance. It does not use a virtual DOM, instead, it generates HTML at build-time, resulting in a faster runtime performance compared to other popular frameworks. Its simple and intuitive syntax makes it easy to learn and use, leading to easier maintenance and scalability over time.
 
-Svelte uses a reactive and declarative syntax for building UI components, which makes it easy to understand and use for developers of all skill levels. It also includes out-of-the-box support for server-side rendering, making it easy to optimize the performance of applications built with it. This helps Search Engine Optimization as well as users with slow networks.
+Svelte uses a reactive and declarative syntax for building UI components, making it easy to understand and use for developers of all skill levels. It also provides out-of-the-box support for server-side rendering, improving Search Engine Optimization and helping users with slow networks.
 
-Its main strength lies in creating `Single Page Applications` or SPAs. When building a SPA in Svelte, you would typically use the Svelte components to create a modular and reusable UI. The SPA would handle navigation and data management, dynamically updating the content of the page based on user interactions and changes in data. This is often done together with a `router` such as [Svelte SPA Router](https://github.com/ItalyPaleAle/svelte-spa-router).
-Svelte does, however, also perform quite well when creating `Multi Page Applications`, or MPAs. When building an MPA in Svelte, you would typically use a routing library such as Sapper to handle navigation between pages, and each page would be built as a separate Svelte component. The components would be loaded and unloaded based on the current URL, and data management would be handled separately for each page.
+Svelte excels in creating Single Page Applications (SPAs). When building a SPA in Svelte, you typically use Svelte components to create a modular and reusable UI. The SPA handles navigation and data management, dynamically updating the content of the page based on user interactions and changes in data. This can be done using a routing library such as Svelte SPA Router.
+
+Svelte also performs well when creating Multi Page Applications (MPAs). When building an MPA in Svelte, you would typically use a routing library such as Sapper to handle navigation between pages, with each page being built as a separate Svelte component. The components are loaded and unloaded based on the current URL, with data management handled separately for each page.
 
 ## Weaknesses
 
@@ -71,7 +72,7 @@ Svelte's weaknesses mainly stem from it being a relatively new framework compare
 
 As mentioned previously, Svelte uses a relatively simple syntax. It does, however, also have a very different approach to building web applications compared to other popular frameworks, mainly by not utilizing a virtual DOM. This can result in a steep learning curve, especially for experienced developers who are used to the virtual DOM approach.
 
-Lastly, Svelte is best suited for smaller and simpler applications, and may become insufficient for applications that require a large number of components or complex data management.
+In conclusion, while Svelte has some advantages over other frameworks, it also has its own set of limitations. Whether or not Svelte is the right choice for your project will depend on your specific requirements, the size and complexity of the project, and the experience and skill level of your development team. It may be best to consider using Svelte for smaller projects or as a part of a larger, more complex application built with other frameworks.
 
 ## Comparison
 
