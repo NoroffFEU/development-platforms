@@ -223,7 +223,7 @@ Backups are very important, especially if your site handles sensitive informatio
 
 ### VPS Hosting (Virtual Private Server)
 
-- One of the strengths of VPS is that it works better than shared hosting because it has improved performance and security, something shared hosting doesn't have.
+- Shared hosting is best for personal sites and startups. But VPS hosting wins for dynamic, larger sites and small businesses. VPS is more expensive than shared hosting, and the reason for that is that you get more flexibility over your resource limits, greater security, and improved performance. 
 
 - It`s cost benefit, it saves you money.
 
@@ -382,3 +382,5 @@ Web hosting is an online service that helps you and allows you to publish your w
 - https://www.google.com/search?q=References+image&tbm=isch&ved=2ahUKEwiA2ZfagIH9AhUR4rsIHYFsB4gQ2-cCegQIABAA&oq=References+image&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQBRAeMgYIABAFEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHlAAWABg9BdoAHAAeACAAWuIAWuSAQMwLjGYAQCqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=HQHhY8DWJJHE7_UPgdmdwAg#imgrc=jbqAds3TrVhsRM
 
 - https://www.socket.net/blog/tech/how-much-web-space-do-I-need#:~:text=For%20most%20websites%20with%20text,package%20with%20more%20transfer%20bandwidth.
+
+- https://www.websitebuilderexpert.com/web-hosting/comparisons/shared-hosting-vs-vps-hosting/#:~:text=While%20shared%20hosting%20is%20best,greater%20security%2C%20and%20improved%20performance.
