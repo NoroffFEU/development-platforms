@@ -50,8 +50,7 @@ GitHub has experienced significant growth since its launch.
 - In 2016, GitHub was ranked 14th on the Forbes Cloud 100 list. However, it did not make the list in 2018, 2019, or 2020.
 
 **Challenges**
-- In 2018, GitHub experienced a third-largest DDoS attack in history, with incoming traffic reaching 1.35 terabits per second.
-- In response, GitHub expanded its GitHub Education offering by providing free education bundles to schools.
+-In 2018, GitHub experienced the third-largest DDoS attack in history, with incoming traffic reaching 1.35 terabits per second. In response to this attack, GitHub and its DDoS protection partner, Akamai Prolexic, took a combination of actions.Akamai took care of filtering out the malicious traffic by redirecting the incoming traffic to its scrubbing centers, while GitHub used its own network defenses to keep its systems stable. The collaboration between the two resulted in a speedy resolution in just 10 minutes, with no data loss or compromise. This experience emphasizes the need for a robust DDoS protection plan and the benefits of partnerships between organizations and tech providers in combating DDoS attacks.
 
  ### Microsoft and GitHub
 
@@ -64,9 +63,7 @@ GitHub has experienced significant growth since its launch.
  
 ## Features
 
-GitHub has become a highly in demand tool for project management and software development. This popularity is largely due to its persistent addition of new and useful features.
-
-Here are some of the key features of the GitHub:
+GitHub has become a highly in demand tool for project management and software development. This popularity is largely due to its persistent addition of new and useful features. Here are some of the key features of the GitHub:
 
 - **Version control**: GitHub is built on Git, a distributed version control system that enables developers to monitor changes to their code over time, work together with others, and revert to previous versions if needed.
 - **Collaboration**: Enables developers to work on projects together, examine each other's code, and exchange ideas and issues.
@@ -124,6 +121,7 @@ For web developers, GitHub is an essential tool for managing and collaborating o
 - [Wikipedia's page on GitHub](https://en.wikipedia.org/wiki/GitHub)
  -https://www.wired.com/story/github-ddos-memcached/
 - [The GitHub Blog](https://github.blog/)
+- [February 28th DDoS Incident Report](https://github.blog/2018-03-01-ddos-incident-report/)
 - [GitHub's YouTube channel videos that demonstrate the features and capabilities of GitHub](https://www.youtube.com/github)
 - [GitHub's case studies provide real-world examples of how different organizations use GitHub to support their software development workflows](https://github.com/customers)
 - https://gitprotect.io/blog/git-battles-part-3-gitlab-vs-bitbucket-which-version-control-software-to-choose-for-your-projects/
