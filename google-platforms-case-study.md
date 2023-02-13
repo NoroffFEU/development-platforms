@@ -105,16 +105,30 @@ Lets you see from what city or country your traffic/users are coming from.
 
 #### Exploration reports
 
-Makes you customize your own reports.
+Makes you customize your own reports, which could provide greater insights to different user journeys.
 
 In GA4 you could setup a lott of complex reports, which might fit your needs better insights then whats provided by the standard reports.
-Lets say you wanted to view something like
+Lets say you wanted to view a report with the following conditions: Users who made a purchase, but only users who clicked the primary button on the home page and which did not arrive from paid ads. You could add all these filters each time on one of the standard reports, but if this is a report you would like to view more frequently, to make an exploration report for it would be much more efficient.
+
+Here you could also create more visual charts and tables, like: funnel exploration and path exploration, to get a visualization on the user journey and behavior.
+
+#### Other features
+
+A list of other features provided by GA4:
+
+- Enhanced Measurement, lets you track page views for SPAs (Single page apps).
+- Audiences, GA4 let you create different audiences, which you can customize yourself. i.e. Only users who made a purchase could be a audience.
+- Traffic filters, Filter traffic from certain ip-addresses. i.e. Internal traffic.
+- Unwanted referrals filter, Filter traffic from websites you don't want to show up in your reports.
+- Sessions, let you define what should be counted as a session(a user interacting with your website).
+- Engaged session, let you define how long time
+-
 
 ### Google Tag Manager
 
 As mentioned in the introduction, I will very briefly cover the platform google tag manager(GTM) and how it works, and how it works in relation to google analytics.
 
-GTM works as a middle man between the website and the analytics tool(GA4). GTM will create something called dataLayer, which is an array. It's possible to create this array without the use of GTM, but if there is no dataLayer array, GTM will create it for you. the dataLayer is used to feed information from the website to GTM, which then sends that data to GA4.
+GTM works as a middle man between the website and the analytics tool(GA4). GTM will create something called dataLayer, which is an array. It's possible to create this array without the use of GTM, but if there is no dataLayer array, GTM will create it for you. the dataLayer is used to feed information from the website to GTM, which then sends that data to GA4. (Fedorovicius, 2022)
 
 With GTM you can create something called tags, which you can configure to trigger when certain things are happening on the website. For example: You could create a tag in GTM and configure it to send an event to GA4, and then add a trigger when you want that tag to fire/send the event to GA4.
 
@@ -122,33 +136,48 @@ It's fully possible to use google analytics without GTM. But with GTM you could 
 
 ## Strengths
 
-Google analytics 4 is great for proving insights in the form of numbers.
+So what's so great about GA4, besides obviously being a great tool for digital marketers who's looking to increase their sales.
 
-You could easily see things like:
+How could we use it to speed up and improve our development?
 
--
+GA4 is great for proving insights in the form of numbers and user journeys.
+
+It provide insights on how many times somethings happening on a website, on what page it's happening on, how long people are staying, what page they previously visited, on what page users land on and what page they left, and so on.
+
+We could use this data to develope the website and further improve the user experience.
+
+Say a lott of users left the website on a certain page, or say nearly no one clicked the primary button on the home page. Well that gives us an assumption on that something about that page or that button might not be very user friendly.
+
+We could add an event on any action or change happening on the website, and get a number on how many times the event occurred.
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
+While GA4 is great at providing insights on what happening and how many times something is happening, it's not telling us why. We can just assume, based on the actions and quantity of those actions.
+
+GA4 is also very complex and it can be hard to learn. To find the data on the insights one is after is not always straight forward, and when it comes to finding the right numbers for improving the user experience, there might be more suited and less time consuming tools for that.
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+Compared to a somewhat more simple tool for mapping user behavior on a website, like Hotjar, GA4 provides deeper insights and numbers. While on the other hand the heat maps provided by hotjar visualize the user behavior in a different and maybe more accurate way when it comes to improving the user experience.
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+GA4 is a statistic and analysis tool which can be used by developers to get insights on users behaviors on a website. It provides different kind of reports, which one can customize however one wants.
+
+GA4 provide insights mainly in the form of numbers. By using the exploration reports feature one could make more visual representations of the numbers, than the more tabled standard reports.
+
+GA4 could be very complex and hard to learn, which makes one might question the value vs the reward of taking the time to learn it as a developer. Specially when there is much simpler tools out there for mapping user behavior.
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- Joakim Lee Sletten (joakimlees)
 
 #### References
 
-- Fedorovicius, J. (2022) Obtained from https://www.analyticsmania.com/post/google-tag-manager-vs-google-analytics/ & https://www.learn.analyticsmania.com/courses
+- Fedorovicius, J. (2022) Obtained from https://www.analyticsmania.com/post/google-tag-manager-vs-google-analytics/ & https://www.learn.analyticsmania.com/courses & https://www.analyticsmania.com/post/what-is-data-layer-in-google-tag-manager/
 - Franco, L. & Valdés, M. (2021) Obtained from https://onward.justia.com/history-of-google-analytics/
 - digitalstateconsulting (2014) Obtained from https://digitalstateconsulting.com/knowledge-is-power/brief-history-google-analytics-part-one/
 - Djuraskovic, O (2022) Obtained from https://firstsiteguide.com/best-website-analytics-tools/
 - Weber, B (2023) Obtained from https://inmarketingwetrust.com.au/timeline-of-ga4-google-analytics-4-release-date-news/
 - Analytics Help (2023) Obtained from https://support.google.com/analytics/answer/${topic}
+- Teagle, M. (2022) Obtained from https://www.boostability.com/content/google-analytics-4-pros-and-cons-ga4
