@@ -1,7 +1,7 @@
 ---
 title: Astro Case Study
-keywords: development platforms, example project, category name
-tags: Development Platforms, Example Project, Category Name
+keywords: development platforms, Astro, static site builder
+tags: Development Platforms, Astro, static site builder
 sidebar: development-platforms
 permalink: development-platforms/astro-case-study.md
 folder: development-platforms
@@ -9,16 +9,6 @@ folder: development-platforms
 
 # Astro
 
-## Content
-
-- Introduction
-- Brief history
-- Features
-- Strengths
-- Weaknesses
-- Comparison
-- Summary
-- References
 
 ## Introduction
 
@@ -58,7 +48,7 @@ Astro supports a range of different tools, libraries and frameworks. So, you are
 
 The flexibility to choose your own frameworks not only makes it easier for the developer, but it also reduces the problem of vendor lock-in. Meaning you are not dependent on a framework and it's easy to switch to new ones. This also makes it easier for new and upcoming frameworks to gain traction.
 
-In addition to using your preferred framework, Astro gives you the opportunity to combine multiple different frameworks in the same application, using their plugin system. Astro also covers everything else you would need to build a website. This includes file-based routing, component syntax, data-fetching, build process, bundling and many more features. You can find all of Astro's integrations and plugins here (https://astro.build/integrations/).
+In addition to using your preferred framework, Astro gives you the opportunity to combine multiple different frameworks in the same application, using their plugin system. Astro also covers everything else you would need to build a website. This includes file-based routing, component syntax, data-fetching, build process, bundling and many more features. You can find all of Astro's integrations and plugins [here](https://astro.build/integrations/).
 
 ### Accessible
 
@@ -68,7 +58,7 @@ Astros goal is to be accessible and easy to use for all developers. The framewor
 
 ### Limited use cases
 
-While most frameworks today are designed for creating applications, Astro was designed for creating content-based websites. Because Astro leverages server-side rendering over client-side rendering, Astro might not be ideal when creating bigger and more elaborate applications. Before using Astro you have to consider the scale and complexity of your project. This most likely leaves out projects like social media networks, logged-in admin dashboards and other more complex application-like projects. Another reason limiting the use case of Astro is the fact that, because the framework is relatively new, it is not an in-demand skill yet and likely won't be used in the workplace for a while, if ever.
+While most frameworks today are designed for creating applications, Astro was designed for creating content-based websites. Because Astro leverages server-side rendering over client-side rendering, Astro might not be ideal when creating bigger and more elaborate applications. Before using Astro you have to consider the scale and complexity of your project. This most likely leaves out projects like social media networks, logged-in admin dashboards and other more complex application-like projects. 
 
 ## Comparison
 
@@ -97,6 +87,13 @@ They both offer unique methods and features. Astro prioritises performance and s
 
 ## Summary
 
+
+
 ### Credits
 
 #### References
+- https://docs.astro.build/en/concepts/why-astro/
+- https://astro.build/blog/ 
+- https://www.patterns.dev/posts/islands-architecture/ 
+- https://nextjs.org/
+- https://docs.astro.build/en/guides/migrate-to-astro/from-nextjs/ 
