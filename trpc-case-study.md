@@ -182,7 +182,7 @@ Since tRPC is a protocol or method for accessing backend functionality, it allow
 Since tRPC uses Typescript, which is a statically typed language, type definitions are checked during compiling rather than runtime, increasing speed of application.
 
 #### tRPC uses Typescript
-This can be viewed as both a strenght and a weakness. On one hand, it allows for a uniform coding language and infrastructure between backend and frontend, improving worklflow and communcation between the team. 
+This can be viewed as both a strength and a weakness. On the one hand, it allows for a uniform coding language and infrastructure between backend and frontend, improving workflow and communication between the team. 
 
 While on the other hand, if Typescript is not the preferred programming language, or if team structure is heavily silo'd between front- and backend tRPC might not be the best option.
 
