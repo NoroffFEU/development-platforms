@@ -64,7 +64,7 @@ As mentioned, Google analytics is an analysis tool that collects data and provid
 
 GA provide insights in the form of dimensions and metrics in their reports, i.e. Very simply put, GA will answer the question: How many users clicked the primary button on the home page? By using the primary button as a dimension and number of clicks as the metric.
 
-GA4 provide five main categories
+### GA4 provide five main categories
 
 - Acquisition reports
 - Engagement reports
@@ -74,7 +74,8 @@ GA4 provide five main categories
 
 For the sake of this study, I will cover three of these five reports. Acquisition, engagement and demographics. In addition to exploration reports.
 
-Acquisition reports
+#### Acquisition reports
+
 In GA4 you will find two different types of acquisition reports.
 
 - User acquisition reports: Will help you answer how people who have never used your website or app found your website or app.
@@ -89,7 +90,7 @@ examples of channels or sources people could have arrived from and triggered the
 - Organic search (no paid), like in the search result of google.
 - Direct traffic, people who just enter your website in the browser and go there.
 
-Engagement reports
+#### Engagement reports
 
 In GA4 you will find four different types of engagement reports
 
@@ -98,13 +99,34 @@ In GA4 you will find four different types of engagement reports
 - Pages and screens, lets you view on which page the engagement is happening. How many views a certain page has, total events triggered on a certain page or how many users visited the certain page.
 - Landing pages, gives you an overview of the engagement on the different landing pages (the first page of the website people viewed when entering the website)
 
-Demographics reports
+#### Demographics reports
 
 Lets you see from what city or country your traffic/users are coming from.
 
+#### Exploration reports
+
+Makes you customize your own reports.
+
+In GA4 you could setup a lott of complex reports, which might fit your needs better insights then whats provided by the standard reports.
+Lets say you wanted to view something like
+
+### Google Tag Manager
+
+As mentioned in the introduction, I will very briefly cover the platform google tag manager(GTM) and how it works, and how it works in relation to google analytics.
+
+GTM works as a middle man between the website and the analytics tool(GA4). GTM will create something called dataLayer, which is an array. It's possible to create this array without the use of GTM, but if there is no dataLayer array, GTM will create it for you. the dataLayer is used to feed information from the website to GTM, which then sends that data to GA4.
+
+With GTM you can create something called tags, which you can configure to trigger when certain things are happening on the website. For example: You could create a tag in GTM and configure it to send an event to GA4, and then add a trigger when you want that tag to fire/send the event to GA4.
+
+It's fully possible to use google analytics without GTM. But with GTM you could more easily send different events to analytics, without the need to hard-code that functionality yourself.
+
 ## Strengths
 
-Discuss the product's strengths.
+Google analytics 4 is great for proving insights in the form of numbers.
+
+You could easily see things like:
+
+-
 
 ## Weaknesses
 
