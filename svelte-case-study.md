@@ -9,28 +9,28 @@ folder: development-platforms
 
 ## Table of content
 
-- (Introduction)[]
-- (Brief History)[]
-- (Features)[]
-- (Setup)[]
-- (Using svelte)[]
-- (strenghts)[]
-- (weaknesses)[]
-- (compared to react)[]
-- (summery)[]
-- (credits and refrences)[]
+- [Introduction](#svelte-intro)
+- [Brief History](#svelte-history)
+- [Features](#svelte-features)
+- [Setup](#svelte-setup)
+- [Using Svelte](#using-svelte)
+- [Strenghts](#svelte-strenghts)
+- [Weaknesses](#svelte-weaknesses)
+- [Compared to react](#svelte-vs-react)
+- [Summary](#summary)
+- [Credtis & Refrences](#credits-and-refrences)
 
-## Introduction
+## Introduction {#svelte-intro}
 
 Svelte is a javascript compiler, its similar to React, but react uses Virtual DOM and Svelte is a javascript Compiler, both provide a similar component-based architecture -- that means both enable a CDD bottom-up development, and both enable sharing their components between apps, via tools and platforms like [Github](www.github.com).
 
-## Brief History
+## Brief History {#svelte-history}
 
-## Features
+## Features {#svelte-features}
 
 Svelte is purely a compiler, that converts your application into ideal JavaScript code when you build your application for production.
 
-## Setup
+## Setup {#svelte-setup}
 
 I am using [vite](https://vitejs.dev/) to create a new svelte project, there is other way's than vite like degit and then rollup would be the default, but im not gonna get into that. If you want a full-fledged app framework you can also use [SvelteKit](https://svelte.dev/docs) it will also be utilizing vite. But since im only gonna build a simple front-end only site/app, i will use svelte (without kit).
 
@@ -65,13 +65,13 @@ npm run dev
 And your server will be live and running.
 if you want to configure vite more you can find the docs [here](https://vitejs.dev/config/).
 
-## Using svelte
+## Using svelte {#using-svelte}
 
 If you are using Visual Studio Code, I would recommend downloading the svelte extension "Svelte for VS code" it will give you formatting, auto completions and it allows you to use emmet inside you svelte components.
 
 example of a fetch using svelte.
 
-## Strengths
+## Strengths {#svelte-strengths}
 
 - The building time is much faster when compared to react or even other frameworks.
 
@@ -79,7 +79,7 @@ example of a fetch using svelte.
 
 - Binding classes and variables are relative easy, and custom logic is not needed when binding classes.
 
-## Weaknesses
+## Weaknesses {#svelte-weaknesses}
 
 - Svelte won't listen for refrence updates and array mutations, and developers need to acctively look out for this and make sure arrays are reassigned so the UI will be updated
 
@@ -90,11 +90,11 @@ thereby doesnt have support for a wide range of plugins and integrations that mi
 
 Discuss the product's weaknesses.
 
-## Comparison
+## Comparison {#svelte-vs-react}
 
 Compare the product to other products in the same category, if applicable.
 
-## Summary
+## Summary {#summary}
 
 Summarise the content and highlight the relevance of the product to a web developer.
 
