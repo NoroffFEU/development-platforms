@@ -98,10 +98,10 @@ Firebase is a popular option for developing mobile and web apps because of its m
 ## Weaknesses
 
 Like any platform, Firebase has some drawbacks that developers should take into account before choosing it for app development:
-- **Limited customization:** Firebase provides a range of pre-built APIs and tools, but some developers may need more customization and control over the underlying infrastructure.
-- **Dependence on Google Cloud:**  Because Firebase is a service offered by Google Cloud, developers must feel comfortable relying on Google for infrastructure, security, and support.
+- **Limited customization:** Firebase provides a range of pre-built APIs and tools, but some developers may need more customization to meet different app requirements.
+- **Vendor Lock-in:** Vendor lock-in describes the situation where a customer depends on a single vendor for services or products and would be forced to invest a lot of time and money to switch vendors. Relying heavily on Firebase also means that an organization's data and operations are managed by a third party, which could introduce security and privacy concerns. It's critical for businesses to be aware of these risks and to weigh the long-term effects of their technology decisions. 
 - **No SQL query support:** Since Firebase uses a NoSQL data model for its real-time database, some developers may find it challenging to carry out complex data queries.
-- **Limited server-side processing:** Firebase Functions provides a serverless computing platform, but some developers may need more control over the server-side processing that occurs when handling app requests.
+- **Cost:** While Firebase offers a free tier, some developers may find that the cost of the paid plans increases quickly as their app grows, which can be a concern for cost-sensitive development teams.
 
 
 ## Comparison
@@ -124,13 +124,11 @@ In conclusion, Firebase and AWS Amplify are both competent platforms for app dev
 
 ## Summary
 
-Firebase is incredibly relevant for web developers thanks to its concise, streamlined app development experience, real-time updates, and pre-built APIs and tools.
-
-Without the need for complicated server-side coding, developers can easily build and launch real-time applications that can manage large amounts of data and users with Firebase. As a result, developers can concentrate on creating the features and functionality of their applications rather than worrying about managing and scaling the underlying infrastructure, which saves time and resources.
+Firebase is incredibly relevant for web developers thanks to its concise, streamlined app development experience, real-time updates, and pre-built APIs and tools. As a result, developers can concentrate on creating the features and functionality of their applications rather than worrying about managing and scaling the backend infrastructure, which saves time and resources.
 
 Additionally, its integration with other Google services, such as Google Analytics, can provide web developers with a complete solution for developing, deploying, and tracking their applications.
 
-After conducting this case study, I gained knowledge about Firebase's background, features, and range of skills. Overall, building apps with Firebase is a dependable, scalable, and efficient process. 
+After conducting this case study, I gained knowledge about Firebase's background, features, and range of skills. Overall, developing apps with Firebase is a dependable, scalable, and effective process, but before choosing what development platform to use, it is essential to consider its limitations and how they may impact your project. 
 
 ### Credits
 
@@ -145,6 +143,7 @@ After conducting this case study, I gained knowledge about Firebase's background
 - https://www.javatpoint.com/firebase-introduction
 - https://osdb.io/firebase-pros-and-cons-when-you-should-and-shouldnt-use-firebase-osdb/#ib-toc-anchor-12
 - https://blog.minimacode.com/use-firebase-for-your-project/
+- https://www.altexsoft.com/blog/firebase-review-pros-cons-alternatives/
 - https://www.linkedin.com/learning/firebase-essential-training
 - https://www.bairesdev.com/blog/amplify-vs-firebase-which-one-is-best/
 - https://www.mitrais.com/news-updates/aws-amplify-vs-google-firebase-which-is-better/
