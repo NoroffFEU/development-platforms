@@ -48,16 +48,17 @@ Unless you plan to build something that outlives or rivals Google, I will not pe
 
 ## NoSQL Database
 
-This can be both good and bad, depending on your data and structure. It is however important to be vigilant when constructing your NoSQL database.
+Firebase does not offer SQL databases, and you will have to use the NoSQL database they provide. This can be both good and bad, depending on your data and structure. It is however important to be vigilant when constructing your NoSQL database.
 The topic of databases deserves its own section and is discussed further [Here](#database).
 
 # Strengths
 
-## Pricing
+## Easy Startup
 
-In my opinion, Firebase has an attractive pricing strategy. It offers a "Spark" plan, which is free until your app or website reaches a certain amount of traffic or storage. These amounts are relatively high if your application mostly deals with low sizes of data.
-For reference, the Spark plan allows 50k monthly active users and 50k documents read from the Firestore database each month for free and the equivalent of 20M messages stored. Should however your reads and database contain videos or images, you will likely reach various limits faster.
-The general feeling here is that by the time you need to worry about costs, you should have enough users to not have to worry about the costs.
+The primary benefit of Firebase contra no BaaS or another BaaS provider is that it handles challenging and time-consuming tasks for you, so you can focus on advancing your front end rapidly and with no cost until your application is already highly trafficked.
+
+For reference, the so-called Spark plan allows 50k monthly active users and 50k documents read from the Firestore database each month for free and the equivalent of 20M messages stored. Should however your reads and writes to the database contain videos or images, you will likely reach various limits of data transfer faster.
+The general impression I am getting here is that by the time you need to worry about costs, you should have enough users to not have to worry about the costs.
 
 ## Well documented
 
@@ -67,7 +68,7 @@ Although closed source, Firebase has a great developer community and is a topic 
 
 Firebase provides a bunch of out-of-the-box code to handle various tasks and simplify the development process. Some are provided directly from Firebase and some are found in the Extension Marketplace. Below are some examples;
 
-- Firebase has its own integrated authentication for registering users and login/logout.
+- Firebase has its own integrated authentication for registering users and log-in/log-out.
 - Payment Extension with Stripe
 - Page search extension
 - Email trigger to users on specific database alternations
@@ -100,13 +101,13 @@ Before you start, you will need to install and set up a bundler to bundle your a
 
 - If writing in vanilla JS, we can use a bundler called Webpack.
 
-We install webpack using the following command:
+We install Webpack using the following command:
 
 ```
 npm i webpack webpack-cli -D
 ```
 
-When run, webpack will look for a file called index.js in our src folder, and output a main.js in our dist folder.
+When run, Webpack will look for a file called index.js in our src folder, and output a main.js in our dist folder.
 However, the source code will look messy in the browser, making debugging a hassle. To solve this, we can use "source maps".
 Source maps are a method of bringing a compiled file back to its pre-built state, visually reversing the bundling.
 
@@ -188,7 +189,11 @@ Our app is now connected to our online Firebase project.
 
 - Realtime / Firestore
 - noSQL - benefits - weaknesses - method how to query
-- Works online by caching changes and syncing when online
+  NoSQL reads slower, but writes faster
+  NoSQL is better at handling lots of connections going to it at the same time reading and writing data.
+
+- Migration
+- Works offline by caching changes and syncing when online
 - Queries
 
 # Security
@@ -196,6 +201,10 @@ Our app is now connected to our online Firebase project.
 # Hosting
 
 # Summary
+
+- You will be taken care of, and you will most likely have everything you need, although expenses will be present with high demand.
+- You will be locked in, and migrating to another service later is not easy.
+- Firebase is great if you are unsure of the success of your application, and want to give it a go with zero costs and minimal time invested.
 
 ## Credit
 
