@@ -199,7 +199,7 @@ With some familiary to tRPC and well synergized techonologies, such as Next.js a
 ## Weaknesses
 
 #### tRPC uses Typescript
-While your front-end certainly has knowledge of Javascript, and possibly also well versed in Typescript. The same might not be the case for your backend team, or it might simply not be the preferred techonology. There is a greater variety in programming lanugages typically used for backend than there is for frontend. 
+While a front-end team certainly has knowledge of Javascript and may be well versed in Typescript, the same might not be the case for a backend team. There is a greater variety in programming languages typically used for backend than for frontend, meaning that Typescript may not always be the most suitable choice.
 
 While strict static typing leaves a lot of benefits, it can be frustrating to and cumbersome to learn, especially for junior level developers.
 
