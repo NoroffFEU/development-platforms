@@ -181,7 +181,7 @@ For example, Google maintains the IP addresses 8.8.8.8 and 8.8.4.4 as the primar
 
 ### Website Builder
 
-Website builder is a tool or program that can help you create a website without actual manual code editing. There is two times of website builders:
+Website builder is a tool or program that can help you create a website without manual code editing. There are two types of website builders:
 
 - Offline Website Builders
 
