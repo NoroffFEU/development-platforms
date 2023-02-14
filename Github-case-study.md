@@ -26,13 +26,13 @@ folder: development-platforms
  
 Effective teamwork and code management are essential for the development of software. The difficulty is in locating the best platform to aid in this process. GitHub emerged as a solution for these challenges by providing a web-based platform for code storage, sharing, and collaboration.
 
-With a collection of collaboration and code editing tools, GitHub aims to give developers a single location to save, organize, and manage their code. It also includes bug and feature request tracking tools such as issues and pull requests for reviewing and merging code changes. GitHub supports and integrates continuous integration and deployment technologies. For example, GitHub has released desktop apps for Windows and macOS, making it easy for users to integrate them into their workflows. GitHub provides a complete and easy solution for software development.
+With a collection of collaboration and code editing tools, GitHub aims to give developers a single location to save, organise, and manage their code. It also includes bug and feature request tracking tools such as issues and pull requests for reviewing and merging code changes. GitHub supports and integrates continuous integration and deployment technologies. For example, GitHub has released desktop apps for Windows and macOS, making it easy for users to integrate them into their workflows. GitHub provides a complete and easy solution for software development.
 
 ## Brief History
 
 GitHub's development started on October 19, 2007. In April 2008, Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, and Scott Chacon officially launched the site after beta testing. Since its founding in 2008, GitHub has grown to become one of the most popular services for hosting and exchanging code.  
 
-### The Growth of GitHub
+### The growth of GitHub
 GitHub has experienced significant growth since its launch.
 
 **Early Success**
@@ -41,17 +41,17 @@ GitHub has experienced significant growth since its launch.
 - By 2013, the platform had reached three million users and was hosting five million repositories.
 - By the end of the year, the number of repositories had doubled again to reach 10 million.
 
-**Funding and Valuation**
+**Funding and valuation**
 - In 2012, GitHub received an investment of $100 million from Andreessen Horowitz with a valuation of $750 million.
 - In 2015, an additional round of funding led by Sequoia Capital brought in $250 million, valuing the company at approximately $2 billion.
 
-**Expansion and Recognition**
+**Expansion and recognition**
 - In 2015, GitHub opened its first office outside the US, in Japan.
 - In 2016, GitHub was ranked 14th on the Forbes Cloud 100 list. However, it did not make the list in 2018, 2019, or 2020.
 
 **Challenges**
  
-- In 2018, GitHub experienced the third-largest DDoS attack in history, with incoming traffic reaching 1.35 terabits per second. In response to this attack, GitHub and its DDoS protection partner, Akamai Prolexic, took a combination of actions. Akamai took care of filtering out the malicious traffic by redirecting the incoming traffic to its scrubbing centers, while GitHub used its own network defences to keep its systems stable. The collaboration between the two resulted in a speedy resolution in just 10 minutes with no data loss or compromise. This experience emphasises the need for a robust DDoS protection plan and the benefits of partnerships between organisations and tech providers in combating DDoS attacks.
+- In 2018, GitHub experienced the third-largest DDoS attack in history, with incoming traffic reaching 1.35 terabits per second. In response to this attack, GitHub and its DDoS protection partner, Akamai Prolexic, took a combination of actions. Akamai took care of filtering out the malicious traffic by redirecting the incoming traffic to its scrubbing centres, while GitHub used its own network defences to keep its systems stable. The collaboration between the two resulted in a speedy resolution in just 10 minutes with no data loss or compromise. This experience emphasises the need for a robust DDoS protection plan and the benefits of partnerships between organisations and tech providers in combating DDoS attacks.
 
 ### Microsoft and GitHub
 
@@ -68,20 +68,19 @@ GitHub has become a highly in-demand tool for project management and software de
 
 - **Version control**: GitHub is built on Git, a distributed version control system that allows developers to track changes to their code over time, collaborate with others, and roll back to previous versions if necessary.
 - **Collaboration**: This enables developers to work on projects together, examine each other's code, and exchange ideas and issues.
-- **Issues and bug tracking**: Is a process for tracking and resolving problems in a software development project, such as bugs or other technical issues.This process is typically done using a specialised tool, which enables developers to log, monitor, and manage issues as they arise. Issues can be assigned to specific team members, categorised with labels and milestones, and updated with comments and attachments. The aim of issue and bug tracking is to ensure that all issues are identified, prioritized, and addressed in an organised and efficient manner to maintain the quality and stability of the software. GitHub has an integrated issue tracking system within its platform, allowing developers to manage their issues directly from their repository.
-- **Pull requests**:  These allow developers to submit project modifications for review and discussion before merging them into the main repository.
+- **Issues and bug tracking**: This is a process for tracking and resolving problems in a software development project, such as bugs or other technical issues. This process is typically done using a specialised tool, which enables developers to log, monitor, and manage issues as they arise. Issues can be assigned to specific team members, categorised with labels and milestones, and updated with comments and attachments. The aim of issue and bug tracking is to ensure that all issues are identified, prioritised, and addressed in an organised and efficient manner to maintain the quality and stability of the software. GitHub has an integrated issue tracking system within its platform, allowing developers to manage their issues directly from their repository.
+- **Pull request**: This allows developers to submit project modifications for review and discussion before merging them into the main repository.
 - **Branching and merging**: This feature allows developers to work on multiple versions of a project at the same time, quickly incorporating their changes into the main code. 
 - **Integration**: GitHub can be combined with many different other programmes and services, such as well-known IDEs, project management tools, and continuous integration systems.
-- **GitHub Actions**: allows developers to automate a variety of software development tasks such as code creation, testing, and deployment. It offers a quick way to automate regular processes, including creating and testing pull requests, as well as more complex workflows that incorporate other programmes and services. A wide range of tools and programming languages can be utilised with GitHub Actions due to their flexibility.
-- **GitHub Pages**: enables the creation and publication of websites directly from a GitHub repository, making it simple to share documentation, project details, and other resources with others.
-- **GitHub Enterprise**: provides additional security and compliance capabilities, as well as the ability for businesses to run their own GitHub instance on their own servers. 
+- **GitHub Actions**: Allows developers to automate a variety of software development tasks, such as code creation, testing, and deployment. It offers a quick way to automate regular processes, including creating and testing pull requests, as well as more complex workflows that incorporate other programmes and services. A wide range of tools and programming languages can be used with GitHub Actions due to their flexibility.
+- **GitHub Pages**: This enables the creation and publication of websites directly from a GitHub repository, making it simple to share documentation, project details, and other resources with others.
+- **GitHub Enterprise**:  provides additional security and compliance capabilities, as well as the ability for businesses to run their own GitHub instance on their own servers. 
  
-## Strengeths
- 
+## Strengths
 - Usability: GitHub's user-friendly interface makes it simple for developers to explore and use the site, even if they are unfamiliar with version control and collaboration tools.
-- Widely utilized: GitHub is widely used by teams and developers, making it simple to collaborate and share code with others. It is simple for new users to get started because many developers are familiar with GitHub's capabilities and process.
+- Widely used: GitHub is widely used by teams and developers, making it simple to collaborate and share code with others. It is simple for new users to get started because many developers are familiar with GitHub's capabilities and process.
 - Strong community: GitHub has a large and active developer and user community that offers a number of resources and support to those in need.
-- GitHub Actions: Allows you to automate, personalize, and execute software development workflows directly within your repository.
+- GitHub Actions: This feature enables you to automate, personalise, and execute software development workflows directly from your repository. 
 - Mobile capabilities: GitHub's mobile app enables developers to view and manage their code and projects from a mobile device, making it simple to stay productive on the go.
 - A large number of integrations: Because it can be combined with a wide range of other products and services, such as IDEs, project management tools, and continuous integration systems, GitHub is simple to use in a variety of development environments.
 - Strong security features: GitHub provides a number of security features and integrations that aid in the protection of the codebase, the discovery of flaws, and the correction of them.
