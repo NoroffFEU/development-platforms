@@ -184,11 +184,11 @@ GA4 could be very complex and hard to learn, which makes one might question the 
 
 #### References
 
-- Fedorovicius, J. (2022) Obtained from https://www.analyticsmania.com/post/google-tag-manager-vs-google-analytics/ & https://www.learn.analyticsmania.com/courses & https://www.analyticsmania.com/post/what-is-data-layer-in-google-tag-manager/
-- Franco, L. & Valdés, M. (2021) Obtained from https://onward.justia.com/history-of-google-analytics/
+- Analytics Help (2023) Obtained from https://support.google.com/analytics/answer/${topic}
 - digitalstateconsulting (2014) Obtained from https://digitalstateconsulting.com/knowledge-is-power/brief-history-google-analytics-part-one/
 - Djuraskovic, O (2022) Obtained from https://firstsiteguide.com/best-website-analytics-tools/
-- Weber, B (2023) Obtained from https://inmarketingwetrust.com.au/timeline-of-ga4-google-analytics-4-release-date-news/
-- Analytics Help (2023) Obtained from https://support.google.com/analytics/answer/${topic}
-- Teagle, M. (2022) Obtained from https://www.boostability.com/content/google-analytics-4-pros-and-cons-ga4
+- Fedorovicius, J. (2022) Obtained from https://www.analyticsmania.com/post/google-tag-manager-vs-google-analytics/ & https://www.learn.analyticsmania.com/courses & https://www.analyticsmania.com/post/what-is-data-layer-in-google-tag-manager/
+- Franco, L. & Valdés, M. (2021) Obtained from https://onward.justia.com/history-of-google-analytics/
 - Tag Manager Help (2023) Obtained from https://support.google.com/tagmanager/answer/${topic}
+- Teagle, M. (2022) Obtained from https://www.boostability.com/content/google-analytics-4-pros-and-cons-ga4
+- Weber, B (2023) Obtained from https://inmarketingwetrust.com.au/timeline-of-ga4-google-analytics-4-release-date-news/
