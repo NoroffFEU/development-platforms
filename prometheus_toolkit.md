@@ -23,11 +23,11 @@ It is a tool for Executive management, PO's and clients to have a single view of
 
 
 ## Brief History
-If we look back at how monitoring and alerting was in the "old-days", we had small little light bulbs flashing and sounds that went off when something was wrong or and error happenend, this was in the early days of monitoring and alerting. Back in that time there was only a handfull of people that would know what, when and how to fix a problem that accured. With the dawn of a more automative and digital solution to the handle issues and know what is happening, it all got easier and you got alot more information.
+If we look back at how monitoring and alerting was in the "old-days", we had small little light bulbs flashing and sounds that went off when something was wrong or and error happened, this was in the early days of monitoring and alerting. Back in that time there was only a handful of people that would know what, when and how to fix a problem that occurred. With the dawn of a more automatized and digital solution to the handle issues and know what is happening, it all got easier and you got a lot more information.
 
 With software like Prometheus (and others), you now have detailed information about how a project is running, when something is failing, where it is failing. With this depth of information at hand one can quickly solve an issue, and you will have data logs on it as well. Welcome to the digital age of system monitoring and alerting.
 
-Prometheus is an open-source project built at [SoundCloud](https://soundcloud.com/discover). Since it's creation in 2012, there has been alot of updates and improvement on the system. It's now a standalone open-source project and maintained independently of any company. 
+Prometheus is an open-source project built at [SoundCloud](https://soundcloud.com/discover). Since it's creation in 2012, there has been a lot of updates and improvement on the system. It's now a standalone open-source project and maintained independently of any company. 
 Prometheus joined the [Cloud Native Computing Foundation](https://www.cncf.io/) in 2016 as the second hosted project, after [Kubernetes](https://kubernetes.io/).
 
 
@@ -63,7 +63,7 @@ Some of the products strengths based on collection of quantifiable data would be
 * Support of code queries
 * Providing data source to any [Grafana](https://grafana.com/) dashboard
 * Ease of deployment
-* The use of PromQL that is really good for visualisation purposes
+* The use of PromQL is really good for visualization purposes
 
 
 ## Weaknesses
@@ -80,13 +80,13 @@ Prometheus could be a little more userfriendly with the UI then it is. But once 
 
 ## Comparison
 
-Compared to [InfluxDB](https://www.influxdata.com/), Prometheus is a better choice if you are primarily doing metrics, it also has a more powerfull query language, alerting and notification functionality then InfluxDB has. Both of the systems has their strengths and weaknesses, where one is better then the other. 
+Compared to [InfluxDB](https://www.influxdata.com/), Prometheus is a better choice if you are primarily doing metrics, it also has a more powerful query language, alerting and notification functionality then InfluxDB has. Both of the systems has their strengths and weaknesses, where one is better then the other. 
 
 With Prometheus you get servers that are run independently of each other and only rely on their local storage for their core functionality: scraping, rule processing and alerting.
 
 The commercial InfluxDB offering is, by design, a distributed storage cluster with storage and queries being handled by many nodes at once. With that, it means that the commercial version of InfluxDB will scale horizontally easier than Prometheus, but at the same time, you need to manage the higher complexity of distributed storage systems straight off from the start. Prometheus is easier to setup and run. 
 
-There is an open source version of InfluxDB that is similar to Prometheus, but not completly the same when it comes to the architecture of the system.
+There is an open source version of InfluxDB that is similar to Prometheus, but not completely the same when it comes to the architecture of the system.
 
 Both systems has a data model that has key-value pairs as labels, that is called tags. They both use support float64 data types but Prometheus offers this with limited support for strings and millisecond resolution timestamps, where InfluxDB offers has full support for it, along side of int64, and bool as well.
 
@@ -96,7 +96,7 @@ If you primarily doing event logging then InfluxDB is more suitable for this typ
 ## Summary
 Prometheus is a great tool for systems monitoring and alerting, that allows you to really get into the depth of the amount of data that is collected for your projects. with tools like Prometheus you will get a much better overview of the health of your project, if and when something is failing this will be shown in logs and alerts. When thinking on the financial health of a project this lets you handle issues and problems at a much earlier stage then without using a toolkit like this. Projects are not bleeding money by having long periods of down time because a problem that is there needs to be located first. 
 
-And with the PromQL, short for Prommetheus Querying Language, you can can query metrics within Premetheus. You can display expression's return either as graphs or export it using the [HTTP API](https://prometheus.io/docs/prometheus/latest/querying/api/) 
+And with the PromQL, short for Prometheus Querying Language, you can can query metrics within Prometheus. You can display expression's return either as graphs or export it using the [HTTP API](https://prometheus.io/docs/prometheus/latest/querying/api/) 
 
 You will also find that it is a great tool for visualization when that is needed, you can use Grafana dashboard and expression browser more easy. Console templates is provide from Prometheus for you to use. 
 When it comes to deployment it is quick to do when you need a new server for instance. And you have the PromQL query language. 
@@ -121,5 +121,5 @@ Prometheus blog https://prometheus.io/blog/
 
 Intro video of Prometheus https://www.youtube.com/embed/ioa0eISf1Q0
 
-Promethus youtube channel https://www.youtube.com/@PrometheusIo
+Prometheus youtube channel https://www.youtube.com/@PrometheusIo
 
