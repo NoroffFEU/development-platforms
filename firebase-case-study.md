@@ -8,39 +8,124 @@ folder: development-platforms
 ---
 
 ## Introduction
+- What is Firebase? Main purpose -
 
-Summarise the product's primary purpose in one or two paragraphs.
+Firebase is a Mobile Application Development Platform with tools to make the job a developer would otherwise have to build themselves easier. This includes everything from analytics, authentication, databases, configuration, file storage, push messaging and more! The service is hosted on a cloud solution provided by Google, and there are backend components completely maintained and operated by them. There is no need to use any middleware between your app and the service, as the client Software Development Kits provided by firebase use the backend services directly. Some might call Firebase a “back-end as a service”, but Doug Stevenson, who works with Firebase, has not felt comfortable wedging it fully into that category.
 
 ## Brief History
+- History of firebase (2011 - today) -
 
-Provide a brief history of the product, including major milestones or events.
+In 2011 James Tamplin and Andrew Lee founded Envolve. Envolve allowed for integration of chat functionality via provided API for developers to use into their websites. After release they found that it was being used to pass application data, and not just text messages. Tamplin and Lee then founded Firebase as a separate company in September 2011. Their first product was Firebase Real-Time Database and is an API that synchronizes data across Android, iOS and Web Applications with Firebase’s cloud.  After launching the beta they raised 1.1M USD in seed funding in May 2012, and a year later, in 2013 they raised five times as much in Series A funding.
 
-You may use bullet points, numbered lists, paragraphs or a timeline.
+
+In 2014 they launched Firebase Hosting and Firebase Authentication as two new products. Later that year, in October, Google purchased Firebase and started further development and maintenance of the Brand. Google then acquired Divshot (2015), an interface builder and web hosting platform to merge into the Firebase Team. In the following years they expanded the service further and integrated AdMob, Google Platform and Google Ads (2016), as well as acquired Fabric and Crashlytics from Twitter (2017). They’ve expanded their service through the years and there are now several options to build, improve and grow an application with Firebase. 
+
+![image](https://user-images.githubusercontent.com/91533917/218750092-e8d847d7-538b-414e-9d04-83966b1a886b.png)
+
 
 ## Features
+- Highlights of Product -
 
-Outline the product's key features.
+According to Firebase’s Homepage, these are the features sorted in their respective category:
+
+Build
+- Cloud Firestore
+- Realtime Database
+- Remote Config
+- Firebase Extensions
+- App Check
+- Cloud Functions
+- Authentication
+- Cloud Messaging
+- Hosting
+- Cloud Storage
+- Firebase ML
+
+Release & Monitor
+- Crashlytics
+- Google Analytics
+- Remote Config
+- Performance Monitoring
+- Test Lab
+- App Distribution
+
+Engage 
+- Remote Config
+- Google Analytics
+- A/B Testing
+- Authentication
+- Cloud Messaging
+- Crashlytics
+- Dynamic Links
+- In-App Messaging
+
 
 ## Strengths
 
-Discuss the product's strengths.
+* Faster Development, as it offers a set of pre-requisites of backend development.
+* Has different pricing models to suit your needs.
+* Firebase has a real-time database, which collects, processes and enriches incoming series of data points immediately after the data is created.
+* Has incredible storage size potential for storing data.
+* It is a serverless framework that is stored in a cloud and runs in a managed environment.
+* Firebase is highly secure by encrypting data in transit and isolate customer data. Several of the services Firebase offer also encrypt data at rest.
+* Has the most advanced hosted Backend-as-a-Service (BaaS) solution.
+* It is quick and easy to set up.
+* Firebase provides three-way data binding with AngularFire, making sure all data is updated everywhere automatically.
+* Has simple serialization of app state.
+* It is easy to access data, files, authorization and more.
+* No infrastructure to server needed to power apps with data.
+* Has JSON storage, which means no issue between data and objects.
+
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
+* There are limited querying and indexing capabilities.
+* Has limited data migration.
+* It does not support native aggregation.
+* Some features are platform dependent. 
+* Firebase is Android centered.
+* Has less support for iOS. 
+
 
 ## Comparison
+- vs. MongoDB  -
 
-Compare the product to other products in the same category, if applicable.
+The most common comparison to Firebase is MongoDB, and therefore we are going to have a look at those. In terms of pure performance, MongoDB has a lot of customizability offers and a good spectrum of efficiency tiers. MongoDB is also faster because it was built to accommodate fast-moving data pipelines and online transaction processing. Another thing worth noting is the stability. MongoDB is more dependable because it is not a cloud service, and therefore does not have anything that hinders it from changing. 
+
+To use the database’s store data in MongoDB you have to be authorized and have the appropriate identification. This is not the case for Firebase, as the data can be accessed by anybody. This makes MongoDB a safer option. In terms of market popularity both seem to have the same popularity. Although MongoDB has had a slow and steady rise, Firebase’s rise in popularity has been for a significantly shorter period of time. 
+
+When comparing the prices, we see that you may choose to pay as you go with various pricing for Firebase, but there is no such offer for MongoDB. However, for MongoDB’s premium edition you get a service that does not require any dedicated server, in contrast to Firebase. It is not easy to compare these two as they do not function the same, and whichever you would want to choose depends on what needs you have.
+
+Firebase is often a great pick for often ramping up an application, but MongoDB might be the best option for storing and faster scaling. MongoDB stores geospatial information, while Firebase is used for real-time synchronization. If you want to store huge amounts of data you might want to go for MongoDB, while Firebase’s easy-to-use API is simple to integrate. 
+
+## Some applications you may have heard of using Firebase
+![image](https://user-images.githubusercontent.com/91533917/218751166-547e3b09-5e7d-463d-9858-f1ccc1a0c1db.png)
+![image](https://user-images.githubusercontent.com/91533917/218751196-34001296-bd89-48e9-992e-cbf464449f6e.png)
+![image](https://user-images.githubusercontent.com/91533917/218751215-90f8a703-7fba-4b73-b1fc-2ee734447d59.png)
+![image](https://user-images.githubusercontent.com/91533917/218751238-ca2362ec-b08d-4543-9386-62cbe1fa2f10.png)
+![image](https://user-images.githubusercontent.com/91533917/218751259-2c38a121-4708-4202-b723-bedf30f6c1f0.png)
+
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+To summarize, Firebase is Google’s Mobile Application Development Platform and it has a lot of different aspects to it. Depending on your needs, it might just be what you need for your next app development project. With Firebase you can speed up the development of your application with their backend infrastructure, easily stay updated on the performance and stability, as well as enhance the user engagement with analytics and campaigns. The predominant strength with Firebase is its ability to reduce the amount of work it takes setting up all the elements of an application and updating it, and that it has a real-time database that collects incoming data immediately. MongoDB is one of several contenders, and to make a choice between the two, you should look at the qualities each option has, as they are not exactly the same. 
+
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- Dina Olufsen (DinaOluf)
+
 
 #### References
 
-- List of video or links used during research
+https://firebase.google.com/
+
+https://medium.com/firebase-developers/what-is-firebase-the-complete-story-abridged-bcc730c5f2c0
+
+https://www.c-sharpcorner.com/article/introduction-to-google-firebase/
+
+https://www.javatpoint.com/firebase-introduction
+
+https://osdb.io/firebase-pros-and-cons-when-you-should-and-shouldnt-use-firebase-osdb/#ib-toc-anchor-4
+
+https://medium.com/mqos-technologies/mongodb-vs-firebase-which-is-the-best-database-in-2022-aff873566586 
