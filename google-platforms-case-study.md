@@ -31,7 +31,7 @@ Google tag manager is, as the name suggests, a tag management tool. The purpose 
 
 - 2008: Continued to evolve with a series of beta updates. Such as: Advanced Segmentation, Custom Reports, Multi-dimensional Motion Charts, a new Management Dashboard. (digitalstateconsulting.com, 2014).
 
--2009: 2nd release update. Google Analytics Asynchronous Code (ga.js). (Franco & Valdés, 2021)
+- 2009: 2nd release update. Google Analytics Asynchronous Code (ga.js). (Franco & Valdés, 2021)
 
 - 2009: A new AdSense integration feature which helped users to measure website performance and ROI. In addition to a universal rollout of the Data Export API, which supported the integration of web analytics across multiple platforms.
   October 2009: Google released version 4 og google analytics, with features such as: New algorithm, profile conversions, create goals for time spent on site and page views per visit.
