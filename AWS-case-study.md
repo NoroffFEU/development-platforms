@@ -10,7 +10,7 @@ folder: development-platforms
 ## Table of contents
 
 1. [Introduction](#introduction)
-2. [Milestones in the history of AWS and cloud computing](#milestones-in-the-history-of-cloud-computing-and-aws)
+2. [Milestones in the history of AWS and cloud computing](#milestones-in-the-history-of-aws-and-cloud-computing)
 3. [Features](#features)
 4. [Strengths](#strengths)
 5. [Weaknesses](#weaknesses)
@@ -23,9 +23,7 @@ folder: development-platforms
 
 Cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources
 
-
 In this study case i will be looking into the world’s biggest cloud platform Amazon Web Services (AWS), and have a closer look at using AWS Amplify as a BaaS platform 
-
 
 
 ## Milestones in the history of AWS and cloud computing 
@@ -62,7 +60,8 @@ In this study case i will be looking into the world’s biggest cloud platform A
 
 * 2018 
   * Leading data centre operators started the migration to 400G data speeds.
-
+  * AWS Amplify Console launched.
+  
 
 
 ## Features
@@ -76,9 +75,9 @@ pie chart by [Synergy Research Group](https://www.srgresearch.com/)
  <br>
  <br>
 
-AWS offers a vast numbers of services, too many to make an in-depth study case. so now that we had a quick look on AWS in general i will focus on **AWS Amplify**
+AWS offers a vast numbers of services, too many to make an in-depth study case. so now that we had a quick look on AWS and cloud computing in general i will now focus on **AWS Amplify** AWS Amplify is an open-source JavaScript library provided by Amazon Web Services (AWS).
 
-If you want to see all the services provided by AWS click [here](https://aws.amazon.com/products/?aws-products)
+If you want to learn more about other services provided by AWS click [here](https://aws.amazon.com/products/?aws-products) to see a full list of products offered by AWS. 
 
 
 #### AWS Amplify as a BaaS platform
@@ -165,7 +164,6 @@ Costs can be both a significant advantage and disadvantage of cloud computing.
 
 #### AWS Amplify vs Azure Mobile apps
 
-###### Similarities: 
 Both AWS Amplify and Azure Mobile apps are cloud based platforms and offer simmilar services. Both supports popular framworks, such as React Native, Xamarin, and Angular <br>
 
 However there are some diffrences too. 
@@ -176,25 +174,27 @@ However there are some diffrences too.
 3. Pricing: AWS Amplify has a flexible pricing model that charges based on usage, while Azure Mobile Apps has a set pricing model that charges based on the number of API calls and data storage.
 4. Amplify provides a limited set of libraries, and UI components (see [Features](#features) for details) making it easier to get started while Mobile Apps provides a comprehensive set of features and services, but may require more setup and configuration compared to AWS Amplify.
 
-#### AWS Amplify vs Google cloud
+#### AWS Amplify vs Google Firebase
+
+Firebase was originally founded as an independet company, but was aquired by Google in 2014, and has since then been integrated with other services that they offer, such as Google CLoud Platform. 
 
 
+###### Diferences: 
+1. Firebase is mostly geared towards Android users, and do not provide the same capabilities for IOS apps.  
+2. Firebase has been around for longer, and has a more extensive feature set.
+3. Firebase is not yet as integrated into other cloud platform services as Amplify.  
 
 #### Open-source vs self-hosted providers
 
-#### AWS Amplify vs Firabase
-
-
-
-
 ## Summary
+
+
 
 #### Summarise the content and highlight the relevance of the product to a web developer.
 
 ### Credits
 
-#### - Student Name (studentGitHubUsername)
-Martin Mroz (Git Hub User: [martinMr79](https://github.com/martinMr79))
+Martin Mroz (Git Hub: [martinMr79](https://github.com/martinMr79))
 
 #### References
 
@@ -219,4 +219,4 @@ Martin Mroz (Git Hub User: [martinMr79](https://github.com/martinMr79))
 [cloud computing security](https://ermetic.com/blog/cloud/state-of-cloud-security-2021-more-aware-yet-very-exposed)
 [AWS - misunderstandings about vendor lock-in](https://aws.amazon.com/campaigns/uk-enterprise-executive-leaders/vendor-lock-in-blog)
 [Unpicking vendor lock-in](https://docs.aws.amazon.com/whitepapers/latest/unpicking-vendor-lock-in/unpick-vendor-lock-in.html)
-[chatGPT](https://openai.com/)
+[chatGPT](https://openai.com/) *note all information received from chatGPT data have been backed up by at least one additional source. 
