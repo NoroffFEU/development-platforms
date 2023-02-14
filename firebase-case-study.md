@@ -24,8 +24,6 @@ In 2014 they launched Firebase Hosting and Firebase Authentication as two new pr
 
 
 ## Features
-Highlights of Product
-
 According to Firebase’s Homepage, these are the features sorted in their respective category:
 
 Build
