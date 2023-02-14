@@ -1,7 +1,7 @@
 ---
 title: Azure DevOps Case Study
-keywords: Development Platforms, Azure DevOps, category name
-tags: Development Platforms, Azure DevOps, Category Name
+keywords: Development Platforms, Azure DevOps, Collaboration, Communication
+tags: Development Platforms, Azure DevOps, Collaboration, Communication
 sidebar: development-platforms
 permalink: development-platforms/azuredevops.html
 folder: development-platforms
@@ -68,13 +68,19 @@ Azure DevOps are:
 
 - Flexible: Organizations don't have to go "all in" on Azure DevOps. Organizations can adopt each of the services independently and integrate them with your existing tool chain, most of the popular tools are supported.
 
-- Platform agnostic: Azure DevOps is designed to work with ant platform (Linux, MacOS and Windows) or language (Node,js, Python, Java, PHP, Ruby, C/C++, .Net, Android and iOS apps).
+- Platform Agnostic: Azure DevOps is designed to work with ant platform (Linux, MacOS and Windows) or language (Node,js, Python, Java, PHP, Ruby, C/C++, .Net, Android and iOS apps).
 
 - Cloud Agnostic: It deliver continuos to AWS and GCP as well as to Azure.
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
+Some weaknesses Azure DevOps can have are:
+
+- Integration Challenges: DevOps requires a high level of integration between development and IT operations. This can be challenging to achieve, especially in large organizations with complex systems. DevOps can also require a significant culture change, which can be difficult to implement.
+
+- Increased Risks: DevOps can increase the risk associated with software development. This is because it requires a high degree of automation. This can lead toi errors if not properly configured. DevOps can also make it difficult to track the source of the problems when they occur.
+
+- High cost if misconfigured: It can be costly to implement if DevOps is not properly configured. DevOps needs a significant investment in automation and infrastructure. This can also lead to increased risks and integration challenges.
 
 ## Comparison
 
@@ -95,5 +101,7 @@ Summarize the content and highlight the relevance of the product to a web develo
 - https://www.devopsgroup.com/insights/resources/tutorials/all/what-is-azure-devops/
 
 - https://www.perforce.com/blog/vcs/what-team-foundation-server
+
+- https://www.kovair.com/blog/pros-and-cons-of-the-devops-principles/
 
 - Noroff Module 3 (DevOps)
