@@ -252,6 +252,12 @@ getIngredients(q);
 
 # Security
 
+With Firebase projects, you work with authentication and database queries entirely from the front end, meaning our database is exposed to the client. One might think this renders your data exposed to hackers.
+However, Firebase maintains a high level of security through something called "Security rules". Let's have a deeper look.
+
+On a normal application, you would have a protected server that uses cookies or tokens to verify if you have permission to access the server or not.
+Firebase Security Rules perform the same task, but without the need to write server-side code. Instead, you create a policy in the Firebase console that defines who has access to what in your database, using an intuitive language called **Common expression language**. Every read or write request to the database is routed through these policies and denied by default until potentially finding a rule that allows it.
+
 # Hosting
 
 # Summary
