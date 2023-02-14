@@ -116,11 +116,11 @@ Azure DevOps offer a classic release pipeline setup where you can easily and saf
 
 ### Collaboration
 
-There are multiple ways to arrange a good collaboration when using Azure DevOps, below you will find a short overview of the different options Azure DevOps offer on collaboration.
+There are multiple ways to arrange a good collaboration when using Azure DevOps, below we will take a short look of the different options Azure DevOps offer on collaboration.
 
 #### Agile project management
 
-With the Agile project management that Azure DevOps offers, collaboration between your team members. You can create branches for each team member to contribute their work to the project.
+With the Agile project management that Azure DevOps offers, collaboration between the development team easy and clear. We can create branches for each team member to contribute their work to the project.
 And with the board management that they offer you and your team can keep good track of the work that is being done.
 
 *Reference [[9](#references)]*
@@ -152,7 +152,7 @@ Here is a [Youtube video](https://www.youtube.com/embed/Mmyw8rLs11c) showcasing 
 
 Azure DevOps provides Package Management which is a feature that helps you manage and share packages across your organization. Package Management supports several popular package formats, including NuGet, npm, Maven, and Python packages.
 
-With Package Management you can publish packages to an internal or external feed and then consume them in your builds and releases. You can also manage packages from different package sources, such as public feeds like npmjs.com or Maven Central or a private feeds created by your team.
+With Package Management we can publish packages to an internal or external feed and then consume them in your builds and releases. We can also manage packages from different package sources, such as public feeds like npmjs.com or Maven Central or a private feeds created by your team.
 
 When you publish a package, Azure DevOps stores the package and its metadata in the Package Management feed. You can then share the feed with others in the organization and use it as a source for your builds and releases.
 
@@ -166,6 +166,11 @@ Package Management in Azure DevOps helps to centralize your package management a
 
 Azure DevOps offers a code review and feedback system similar to other popular platforms, like GitHub. You create a pull request and on that request you can add team members to look at the code and review it.
 
+We can use the code review and feedback fields to create queries and reports that track the status of these processes. The fields appear in the following work item types, which are included with the default processes for Azure Boards and TFS: Code Review Request, Code Review Response, Feedback Request, and Feedback Response.
+
+We can also give access to outside sources to provide feedback. Outside source can be your stakeholders, other development teams or independent reviewers.
+
+*Reference [[12](#references)]*
 *Reference [[13](#references)]*
 
 ### Integrated Analytics
@@ -178,7 +183,7 @@ To create a report or dashboard you can use the built-in report authoring tools 
 
 Integrated Analytics in Azure DevOps helps you make data-driven decisions by giving you access to rich data visualizations and insights into your work. With Integrated Analytics, you can monitor the progress of your work and identify areas where improvements can be made.
 
-*Reference [[14](#references)]*
+*Reference [[15](#references)]*
 
 ## Strengths
 
@@ -187,9 +192,9 @@ Azure DevOps have lots of strengths, but it's important to keep in mind that the
 **Here is some of the strengths of Azure DevOps**
 
 1. Its really easy to integrate with the widley used platform GitHub. In fact 2018 Microsoft bought GitHub for $7.5 billion, so the connection between the popular code-repository service used by many developers and large companies and Azure DevOps is really easy to setup and use.
-2. Azure DevOps has a huge documentation archive that describes in detail how to use the service. [[15](#references)]
+2. Azure DevOps has a huge documentation archive that describes in detail how to use the service. [[16](#references)]
 3. Tightly integrated with other Microsoft technologies, such as Visual Studio, Azure, and Office 365, making it a convenient choice for organizations that use these technologies.
-4. Azure DevOps have a extension for Visual Studio Code [[16](#references)]. The extension features the ability to export a planning session into Azure DevOps system. Planning in Azure DevOps itself is hard, way too much clicking. It's so much easier to just type all the tasks in a simple text form and then just export them.
+4. Azure DevOps have a extension for Visual Studio Code [[17](#references)]. The extension features the ability to export a planning session into Azure DevOps system. Planning in Azure DevOps itself is hard, way too much clicking. It's so much easier to just type all the tasks in a simple text form and then just export them.
 5. Highly customizable, and provides a wide range of options for users to configure the platform to meet their specific needs.
 6. Designed with DevOps in mind, and provides a comprehensive set of tools for software development and delivery, making it an attractive choice for organizations that are looking to adopt DevOps practices.
 
@@ -243,7 +248,7 @@ While Azure DevOps is one of the leading platforms out on the marked, there are 
 
 | Platform      | Price                                                                                                                                             | Features                                                                                                                                                                                                                                                                    | Strengths                                                                                                                                        | Weaknesses                                                                                                                          | Reference                                                                                                                                         |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| Azure DevOpds | Starts at $6 per user/month for Basic and goes up to $30 per user/month for Advanced. There is also a free plan for small teams.                  | Azure DevOps provides an end-to-end solution for software development, including project management, source control, continuous integration and deployment, testing, and release management. It also integrates with other Microsoft services such as Office 365 and Teams. | Strong integration with Microsoft services and technologies. Good for enterprises. Offers a comprehensive solution for software development.     | Limited third-party integrations compared to other platforms. User interface can be complicated for some.                           | [Azure DevOps](https://azure.microsoft.com/en-us/products/devops)<br>[Sourceforge](https://sourceforge.net/software/product/Azure-DevOps-Server/) |
+| Azure DevOps | Starts at $6 per user/month for Basic and goes up to $30 per user/month for Advanced. There is also a free plan for small teams.                  | Azure DevOps provides an end-to-end solution for software development, including project management, source control, continuous integration and deployment, testing, and release management. It also integrates with other Microsoft services such as Office 365 and Teams. | Strong integration with Microsoft services and technologies. Good for enterprises. Offers a comprehensive solution for software development.     | Limited third-party integrations compared to other platforms. User interface can be complicated for some.                           | [Azure DevOps](https://azure.microsoft.com/en-us/products/devops)<br>[Sourceforge](https://sourceforge.net/software/product/Azure-DevOps-Server/) |
 | Jira          | Starts at $7 per user/month for Jira Software and goes up to $14 per user/month for Jira Service Desk. There is also a free plan for small teams. | Jira provides project and issue tracking, as well as agile project management. It also offers custom fields, reporting, and dashboards.                                                                                                                                     | Strong project management features and customizability. Good for agile software development. Widely used and supported by a large community.     | Limited source control and continuous integration features compared to other platforms. User interface can be complicated for some. | [Jira software](https://www.atlassian.com/software/jira)<br>[Sourceforge](https://sourceforge.net/software/product/JIRA/)                         |
 | GitHub        | Free for public repositories and starts at $4 per user/month for private repositories.                                                            | GitHub provides source control and version control, as well as project management and collaboration features. It also offers continuous integration and deployment, pull requests, and issues.                                                                              | Widely used and supported by a large developer community. Good for open-source projects. Offers integrations with many other tools and services. | Limited project management and agile planning features compared to other platforms. User interface can be cluttered for some.       | [GitHub](https://github.com/about)<br>[Sourceforge](https://sourceforge.net/software/product/GitHub/)                                             |
 | GitLab        | Free for public repositories and starts at $4 per user/month for private repositories.                                                            | GitLab provides source control, continuous integration and deployment, security, and project management. It also offers issue tracking, wikis, and dashboards.                                                                                                              | Good for DevOps and continuous delivery. Offers a comprehensive solution for software development. Strong focus on security and compliance.      | User interface can be complicated for some. Not as widely used or supported as other platforms.                                     | [GitLab](https://about.gitlab.com/)<br>[Sourceforge](https://sourceforge.net/software/product/GitLab/)                                            |
@@ -256,9 +261,11 @@ To create comparison between the software above i have used [this website](https
 
 Azure DevOps is a cloud computing platform and infrastructure with many features that can help you and your team with the workflow on your project. It's easy to create a free account with a small team and for a larger team you have more options.
 
-All work when using Azure DevOps can be done with IDE. Integration with Visual Studio Code and git, you can work mainly in the IDE, but based on my research I have found that with the IDE and Microsoft Team you can have your code and communication with your team, manage your work board tasks.
+All work when using Azure DevOps can be done with IDE. Integration with Visual Studio Code and git, you can work mainly in the IDE. With the Visual Studio Code and Microsoft Team you can have your code and communication with your team, manage your work board tasks.
 
-The platform itself is clean and easy to use with loads of documentation for you to be able to make the most out of the platform.
+Azure DevOps is integrated with the most essential tools for making the work, collaboration and communication easy, in a organized environment
+
+The platform itself is clean and easy to use with lots of documentation for us to be able to make the most out of the platform.
 
 ### Credits
 
@@ -290,9 +297,10 @@ Author: Christopher Tønnesland
 11. [Collaborating using Azure DevOps Wiki](https://azuredevopslabs.com/labs/azuredevops/wiki/)
 12. [Image of chatGDP response](https://i.ibb.co/ngqTLPy/image.png)
 13. [Add reviewers to a pull request](https://learn.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops&tabs=browser#add-reviewers-to-a-pull-request)
-14. [Image of chatGDP response](https://i.ibb.co/S6YgWR2/image.png)
-15. [Azure DevOps documentation](https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops)
-16. [Azure DevOps planner](https://marketplace.visualstudio.com/items?itemName=ipatalas.vscode-sprint-planner)
+14. [Code review and feedback field reference in Azure Boards and Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/boards/work-items/guidance/guidance-code-review-feedback-field-reference?view=azure-devops)
+15. [Image of chatGDP response](https://i.ibb.co/S6YgWR2/image.png)
+16. [Azure DevOps documentation](https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops)
+17. [Azure DevOps planner](https://marketplace.visualstudio.com/items?itemName=ipatalas.vscode-sprint-planner)
 
 [Azure DevOps Learning Path](https://azuredevopslabs.com/)
 [Visual Studio Code extension](https://marketplace.visualstudio.com/publishers/Microsoft%20DevLabs)
