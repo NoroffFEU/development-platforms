@@ -133,7 +133,7 @@ A list of other features provided by GA4:
 
 ### Google Tag Manager
 
-As mentioned in the introduction, I will very briefly cover the platform google tag manager(GTM) and how it works, and how it works in relation to google analytics.
+As mentioned in the introduction, we will briefly cover the platform google tag manager (GTM) and how it works, especially in relation to google analytics.
 
 GTM works as a middle man between the website and the analytics tool(GA4). GTM will create something called dataLayer, which is an array. It's possible to create this array without the use of GTM, but if there is no dataLayer array, GTM will create it for you. the dataLayer is used to feed information from the website to GTM, which then sends that data to GA4. (Fedorovicius, 2022)
 
@@ -149,11 +149,11 @@ How could we use it to speed up and improve our development?
 
 GA4 is great for proving insights in the form of numbers and user journeys.
 
-It provide insights on how many times somethings happening on a website, on what page it's happening on, how long people are staying, what page they previously visited, on what page users land on and what page they left, and so on.
+It provides insights on how often something is happening on a website, on which page, how long users are staying, which page they previously visited, on which page users land and what page they left, and so on.
 
-We could use this data to develope the website and further improve the user experience.
+We could use this data to develop the website and further improve the user experience.
 
-Say a lott of users left the website on a certain page, or say nearly no one clicked the primary button on the home page. Well that gives us an assumption on that something about that page or that button might not be very user friendly.
+For example, if users left the website on a certain page, or say nearly no one clicked the primary button on the home page. That may lead to the conclusion that something about that page or that button might not be very user-friendly.
 
 We could add an event on any action or change happening on the website, and get a number on how many times the event occurred.
 
