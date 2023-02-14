@@ -92,7 +92,7 @@ Firebase follows a pay-per-use pricing model, meaning you only pay for what you 
 
 **Analytics**: Firebase provides real-time analytics, with costs based on the data processed by the analytics service.
 
-Firebase offers a free tier with limited usage of each feature, and flexible payment options, such as monthly and annual billing. This allows you to get started and evaluate your app's needs without immediate costs. You will find more detailed information here: https://firebase.google.com/pricing
+Firebase offers a free tier with limited usage of each feature, and flexible payment options, such as monthly and annual billing. This allows you to get started and evaluate your app's needs without immediate costs. You will find more detailed information [here](https://firebase.google.com/pricing).
 
 
 ## Getting started with Firebase
