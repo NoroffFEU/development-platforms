@@ -11,18 +11,34 @@ folder: development-platforms / firebase-case-study
 
 ## Introduction
 
+Summary of products' primary purpose
+
 ## Brief History
+
+A brief history of the product, including major milestones or events
 
 ## Features
 
+Outline the products key features
+
 ## Strength
+
+Discuss the product's strengths
 
 ## Weaknesses
 
+Discuss its' weaknesses
+
 ## Comparison
+
+Compare the product to other similar products i.e.: AWS Amplify
 
 ## Summary
 
+Summarise with relevance
+
 ### Credits
+
+-
 
 ### References
