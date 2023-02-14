@@ -254,9 +254,8 @@ getIngredients(q);
 
 # Summary
 
-- You will be taken care of, and you will most likely have everything you need, although expenses will be present with high demand.
-- You will be locked in, and migrating to another service later is not easy.
-- Firebase is great if you are unsure of the success of your application, and want to give it a go with zero costs and minimal time invested.
+I view Firebase as a brilliant tool when you are unsure about the success of your application, and you want to give it a go with costs and minimal time invested.
+You will be vendor locked in, and migrating to another service later is not easy. However, Firebase will most likely offer everything you need. The X factor in my opinion is pricing, but when this becomes an issue, your application is already successful, and you may then have the means to hire assistance to migrate to another service if needed.
 
 ## Credit
 
