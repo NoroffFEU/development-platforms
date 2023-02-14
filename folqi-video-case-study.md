@@ -11,12 +11,18 @@ folder: development-platforms
 
 ## Summary
 
-Brief description of the video content, should be the same text as the description on YouTube.
+The video describes the Folqi Care project in relation to the development platforms module.
 
 ### Credits
 
 - Student Name (RobertDacian)
 
-#### References
+#### Video PDF Presentation
 
-- List of video or links used during research
+- This is the video presentation in a PDF format.
+
+<iframe src="https://drive.google.com/file/d/19bCX17dxMXbKIj3Kfu4BJ2pJ20yyDkYU/preview" width="640" height="480" allow="autoplay"></iframe>
+
+- This is the video presentation in a keynote format.
+
+<iframe src="https://drive.google.com/file/d/15UgyeQf-9Fpd0sy3E760q4214GQrLgQR/preview" width="640" height="480" allow="autoplay"></iframe>
