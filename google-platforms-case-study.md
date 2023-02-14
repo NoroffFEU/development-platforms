@@ -166,6 +166,8 @@ GA4 is also very complex and it can be hard to learn. To find the data on the in
 
 Compared to a somewhat more simple tool for mapping user behavior on a website, like Hotjar, GA4 provides deeper insights and numbers. While on the other hand the heat maps provided by hotjar visualize the user behavior in a different and maybe more accurate way when it comes to improving the user experience.
 
+With that said and the vast popularity of google analytics in mind. Learning how to implement GA4 to a website and apply website tracking with the use of google tag manager could be of great benefit. Almost all businesses today have some form of website tracking, which they need to keep up with their competitors. With analytics being one of, if not the most popular one, chances are you will run into it sooner not later.
+
 ## Summary
 
 GA4 is a statistic and analysis tool which can be used by developers to get insights on users behaviors on a website. It provides different kinds of reports, which one can customize however one wants.
@@ -174,7 +176,7 @@ GA4 provide insights mainly in the form of numbers. By using the exploration rep
 
 These reports could be used by developers to get insight into users behavior on a website, to further improve the user experience.
 
-GA4 could be very complex and hard to learn, which makes one might question the value vs the reward of taking the time to learn it as a developer. Specially when there is much simpler tools out there for mapping user behavior.
+GA4 could be very complex and hard to learn, which makes one might question the value vs the reward of taking the time to learn it as a developer. Specially when there is much simpler tools out there for mapping user behavior. With that said, a lot of clients probably wants GA4 on their website.
 
 ### Credits
 
