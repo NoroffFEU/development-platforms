@@ -128,8 +128,7 @@ A list of other features provided by GA4:
 - Traffic filters, Filter traffic from certain ip-addresses. i.e. Internal traffic.
 - Unwanted referrals filter, Filter traffic from websites you don't want to show up in your reports.
 - Sessions, let you define what should be counted as a session(a user interacting with your website).
-- Engaged session, let you define how long time
--
+- Engaged session, users who stay and interact with your website for more than x amount of seconds (by default the engagement time is set to 10 seconds).
 
 ### Google Tag Manager
 
