@@ -1,6 +1,6 @@
 ---
 title: Svelte Case Study
-keywords: development platforms, svelte, development, compiler, framework
+keywords: development platforms, svelte, development, compiler, Web Framework
 tags: Development Platforms, Svelte Project, Development
 sidebar: development-platforms
 permalink: development-platforms/svelte-product.html
@@ -8,7 +8,6 @@ folder: development-platforms
 ---
 
 ## Table of content
-
 - [Introduction](#introduction)
 - [Brief History](#brief-history)
 - [Features](#features)
@@ -21,14 +20,42 @@ folder: development-platforms
 - [Credtis & Refrences](#credits)
 
 ## Introduction
+Svelte is a javascript compiler, its similar to React, but react uses Virtual DOM and both provide a similar component-based architecture -- that means both enable a CDD bottom-up development, and both enable sharing their components between apps, via tools and platforms like [Github](www.github.com).
 
-Svelte is a javascript compiler, its similar to React, but react uses Virtual DOM and Svelte is a javascript Compiler, both provide a similar component-based architecture -- that means both enable a CDD bottom-up development, and both enable sharing their components between apps, via tools and platforms like [Github](www.github.com).
+In this study case i will get into how to use it.
 
 ## Brief History
+[Svelte](https://svelte.dev/) was created by Rich Harris. Svelte is a free and open source front end component framework / language, it is not a monolithic JavaScript library imported by applications. Instead, it compiles HTML templates to specialized code that manipulates the DOM directly. And was initial released / commit `26th November, 2016`.
+
+- `26th November, 2016` The initial commit to the svelte Github repo.
+
+- `29th November, 2016` The first stable version 1.0 was lunched.
+
+- `29th November, 2017` Version 2.0 is released, major performance improvements and a new API for writing components.
+
+- `5th March, 2018` Version 2.5 is released, with new features like context API and improved TypeScript support.
+
+- `19th April, 2019` Svelte is written in TypeScript
+
+- `3th September, 2019` Version 3.0 is released, with a rewritten compiler, improved performance and a new feature like reactive declarations and context API.
+
+- `22th October, 2020` Svelte Summit, the first virtual confrence dedicated to Svelte took place.
+
+- `1th December, 2020` SvelteKit was announced in a blog post. 
+
+- `March 2021` SvelteKit entered beta.
+
+- `December 2022` SvelteKit was released after two years in development.
 
 ## Features
 
-Svelte is purely a compiler, that converts your application into ideal JavaScript code when you build your application for production.
+Svelte's template syntax is easy to read and write, and allows you to create dynamic UI elements.
+
+Svelte can be used for server-side rendering, which can improve the performance and accessibility.
+
+Svelte provides efficient bundling and code splitting mechanism, which can help to reduce the size of your application and improve performance.
+
+you can create CSS styles that are scoped to specific components, so they won't interfere with other parts of your application. This makes it easier to manage your styles and ensure they only apply where you want them to, without causing conflicts or unintended side effects.
 
 ## Setup
 
