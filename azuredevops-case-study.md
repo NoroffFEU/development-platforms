@@ -84,7 +84,11 @@ Some weaknesses Azure DevOps can have are:
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+- GitHub
+
+- GitLab
+
+- Jira Software
 
 ## Summary
 
@@ -103,5 +107,7 @@ Azure DevOps is a feature - rich and mature platform. It is very flexible in the
 - https://www.perforce.com/blog/vcs/what-team-foundation-server
 
 - https://www.kovair.com/blog/pros-and-cons-of-the-devops-principles/
+
+- https://www.trustradius.com/reviews/azure-devops-services-formerly-vsts-2022-02-17-06-11-47
 
 - Noroff Module 3 (DevOps)
