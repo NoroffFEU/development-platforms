@@ -50,7 +50,8 @@ GitHub has experienced significant growth since its launch.
 - In 2016, GitHub was ranked 14th on the Forbes Cloud 100 list. However, it did not make the list in 2018, 2019, or 2020.
 
 **Challenges**
--In 2018, GitHub experienced the third-largest DDoS attack in history, with incoming traffic reaching 1.35 terabits per second. In response to this attack, GitHub and its DDoS protection partner, Akamai Prolexic, took a combination of actions.Akamai took care of filtering out the malicious traffic by redirecting the incoming traffic to its scrubbing centers, while GitHub used its own network defenses to keep its systems stable. The collaboration between the two resulted in a speedy resolution in just 10 minutes, with no data loss or compromise. This experience emphasizes the need for a robust DDoS protection plan and the benefits of partnerships between organizations and tech providers in combating DDoS attacks.
+ 
+- In 2018, GitHub experienced the third-largest DDoS attack in history, with incoming traffic reaching 1.35 terabits per second. In response to this attack, GitHub and its DDoS protection partner, Akamai Prolexic, took a combination of actions. Akamai took care of filtering out the malicious traffic by redirecting the incoming traffic to its scrubbing centers, while GitHub used its own network defences to keep its systems stable. The collaboration between the two resulted in a speedy resolution in just 10 minutes with no data loss or compromise. This experience emphasises the need for a robust DDoS protection plan and the benefits of partnerships between organisations and tech providers in combating DDoS attacks.
 
 ### Microsoft and GitHub
 
