@@ -279,12 +279,12 @@ You will be vendor locked in, and migrating to another service later is not easy
 
 ### Sources
 
-https://firebase.google.com/docs/web/setup
-https://www.youtube.com/watch?v=9zdvmgGsww0&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb&index=1
-https://firebaseopensource.com/
-https://firebase.google.com/learn/pathways/firebase-firestore
-https://www.youtube.com/watch?v=v_hR4K4auoQ&ab_channel=Firebase
-https://firebase.google.com/docs/database/rtdb-vs-firestore
-https://www.youtube.com/watch?v=gEaY2GZMino&ab_channel=TheNetNinja
-https://firebase.google.com/docs/firestore/query-data/queries
+https://firebase.google.com/docs/web/setup  
+https://www.youtube.com/watch?v=9zdvmgGsww0&list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlbindex=1  
+https://firebaseopensource.com/  
+https://firebase.google.com/learn/pathways/firebase-firestore  
+https://www.youtube.com/watch?v=v_hR4K4auoQ&ab_channel=Firebase  
+https://firebase.google.com/docs/database/rtdb-vs-firestore  
+https://www.youtube.com/watch?v=gEaY2GZMino&ab_channel=TheNetNinja  
+https://firebase.google.com/docs/firestore/query-data/queries  
 https://www.youtube.com/watch?v=sw1Uy3zwsLs&ab_channel=Fireship
