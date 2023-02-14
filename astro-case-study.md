@@ -1,7 +1,7 @@
 ---
 title: Astro Case Study
-keywords: development platforms, Astro, static site builder
-tags: Development Platforms, Astro, static site builder
+keywords: development platforms, Astro, static site generator, framework
+tags: Development Platforms, Astro, static site generator, framework
 sidebar: development-platforms
 permalink: development-platforms/astro-case-study.md
 folder: development-platforms
@@ -18,15 +18,15 @@ Astro is designed to be a content-focused framework, rather than application-foc
 
 ## Brief History
 
-Astro was first publicly introduced in June 2021. At that point the framework was still in beta and there were still missing features and bugs to be fixed.
+- Astro was first publicly introduced in June 2021. At that point the framework was still in beta and there were still missing features and bugs to be fixed.
 
-In September 2021 Netlify became Astro’s official hosting partner, and their first corporate sponsor.
+- In September 2021 Netlify became Astro’s official hosting partner, and their first corporate sponsor.
 
-The 1.0 beta version was released in April 2022. This launch featured the stabilisation of all major API’s and they had no plans for any major changes before the official release of Astro 1.0.
+- The 1.0 beta version was released in April 2022. This launch featured the stabilisation of all major API’s and they had no plans for any major changes before the official release of Astro 1.0. During this launch week they also announced experimental support for server-side rendering (SSR). The implementation of SSR opened up for more use-cases, especially e-commerce. 
 
-In August 2022 the final 1.0 version was released. Since the first introduction and beta 16 months earlier, Astro had grown from an empty repo to over 30.000 users. This release included some new features and improvements.
+- In August 2022 the final 1.0 version was released. Since the first introduction and beta 16 months earlier, Astro had grown from an empty repo to over 30.000 users. This release included some new features and improvements, including the stabilisation of SSR.
 
-Astro’s latest major release, version 2.0, was introduced in January 2023. With this release Astro wanted to tackle problems connected to working with Markdown, and they became the first major framework to deliver complete type-safety for Markdown and MDX. Astro 2.0 also introduces hybrid rendering. Previously Astro let you choose between static or server build output, but with this upgraded version you are able to combine them.
+- Astro’s latest major release, version 2.0, was introduced in January 2023. With this release Astro wanted to tackle problems connected to working with Markdown, and they became the first major framework to deliver complete type-safety for Markdown and MDX. Astro 2.0 also introduces hybrid rendering. Previously Astro let you choose between static or server build output, but with this upgraded version you are able to combine them.
 
 ## Features
 
@@ -86,6 +86,12 @@ Astro is an MPA framework, meaning most of the page's HTML is rendered on the se
 They both offer unique methods and features. Astro prioritises performance and simplicity, while Next.js prioritise powerful features. Astro would probably be the best option for static content-based websites, while Next.js would be better for more dynamic and interactive websites.
 
 ## Summary
+
+Astro is an all-in-one framework designed for speed and performance. This is done by using island architecture, Astro Islands, to render static content while implementing dynamic behaviour. No client-side JavaScript is loaded and components needing JavaScript are only loaded when needed. 
+
+The framework was designed with content-based websites in mind, in contrast to most modern frameworks which are designed for web applications. This makes Astro an ideal framework for building portfolios, blogs, documentation websites and even e-commerce. For more interactive web applications like networks, portals and dashboard Astro might not be the most appropriate framework, whereas an application-focused framework like Next.js would be better suited.
+
+Astro strives to be accessible and easy to use. This is done by giving the developer flexibility to choose their favourite frontend framework to work with and the ability to combine different ones in the same project. Astro’s own built-in language was also created to be simple and easy to learn. Astro includes everything you need to build a website, and you can also extend Astro with a large number of different integrations. 
 
 
 
