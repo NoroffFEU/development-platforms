@@ -182,11 +182,11 @@ Integrated Analytics in Azure DevOps helps you make data-driven decisions by giv
 
 ## Strengths
 
-Azure DevOps have lots of strengths, but it's important to keep in mind that the strengths of the platform may vary depending on the specific needs of an organization and that the strengths of the platform may outweigh these weaknesses for some use cases. 
+Azure DevOps have lots of strengths, but it's important to keep in mind that the strengths of the platform may vary depending on the specific needs of an organization and that the strengths of the platform may outweigh these weaknesses for some use cases.
 
 **Here is some of the strengths of Azure DevOps**
 
-1. Its really easy to integrate with the widley used platform GitHub. In fact 2018 Microsoft bought GitHub for $7.5 billion, so the connection between the popular code-repository service used by many developers and large companies and Azure DevOps is really easy to setup and use. The boards that Azure provides have more options to offer and look better then in the project boards that Github provides. So to be able to use the boards that Azure DevOps offer combined with Github repo is great.
+1. Its really easy to integrate with the widley used platform GitHub. In fact 2018 Microsoft bought GitHub for $7.5 billion, so the connection between the popular code-repository service used by many developers and large companies and Azure DevOps is really easy to setup and use.
 2. Azure DevOps has a huge documentation archive that describes in detail how to use the service. [[15](#references)]
 3. Tightly integrated with other Microsoft technologies, such as Visual Studio, Azure, and Office 365, making it a convenient choice for organizations that use these technologies.
 4. Azure DevOps have a extension for Visual Studio Code [[16](#references)]. The extension features the ability to export a planning session into Azure DevOps system. Planning in Azure DevOps itself is hard, way too much clicking. It's so much easier to just type all the tasks in a simple text form and then just export them.
