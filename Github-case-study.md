@@ -26,9 +26,9 @@ folder: development-platforms
 
 Effective teamwork and code management are essential for the development of software. Finding the ideal platform to assist this procedure is the challenge. GitHub emerged as a solution for these challenges by providing a web-based platform for code storage, sharing, and collaboration.
 
-With the help of a collection of tools for collaboration and code editing, GitHub seeks to give developers a single location to save, organize, and manage their code. It also contains tools for tracking bugs and feature requests, such as issues and pull requests for reviewing and merging code changes. Continuous integration and deployment are two additional technologies that GitHub supports and integrates. For example, Github has released desktop apps for Windows and macOS that make it easy for users to integrate it into their workflow. GitHub provides a full and easy solution for software development. 
+With a collection of collaboration and code editing tools, GitHub aims to give developers a single location to save, organize, and manage their code. It also includes bug and feature request tracking tools such as issues and pull requests for reviewing and merging code changes. GitHub supports and integrates continuous integration and deployment technologies. For example, GitHub has released desktop apps for Windows and macOS, making it easy for users to integrate into their workflow. GitHub provides a complete and easy solution for software development.
 
- ## Brief History
+## Brief History
 
 GitHub's development started on October 19, 2007. In April 2008, Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, and Scott Chacon officially launched the site after beta testing. Since its founding in 2008, GitHub has grown to become one of the most popular services for hosting and exchanging code.  
 
@@ -52,7 +52,7 @@ GitHub has experienced significant growth since its launch.
 **Challenges**
 -In 2018, GitHub experienced the third-largest DDoS attack in history, with incoming traffic reaching 1.35 terabits per second. In response to this attack, GitHub and its DDoS protection partner, Akamai Prolexic, took a combination of actions.Akamai took care of filtering out the malicious traffic by redirecting the incoming traffic to its scrubbing centers, while GitHub used its own network defenses to keep its systems stable. The collaboration between the two resulted in a speedy resolution in just 10 minutes, with no data loss or compromise. This experience emphasizes the need for a robust DDoS protection plan and the benefits of partnerships between organizations and tech providers in combating DDoS attacks.
 
- ### Microsoft and GitHub
+### Microsoft and GitHub
 
 - Microsoft started using GitHub in 2012 for hosting open-source projects and tools.
 - In 2018, Microsoft bought GitHub for a sum of $7.5 billion, with GitHub still operating as a separate entity.
