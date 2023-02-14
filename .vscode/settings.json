@@ -17,5 +17,6 @@
     "TINYTEXT",
     "VARBINARY",
     "VARCHAR"
-  ]
+  ],
+  "cSpell.ignoreWords": ["ORDBMS", "RDBMS"]
 }
