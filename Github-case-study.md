@@ -72,13 +72,13 @@ GitHub has become a highly in-demand tool for project management and software de
 - **Pull requests**:  These allow developers to submit project modifications for review and discussion before merging them into the main repository.
 - **Branching and merging**: This feature allows developers to work on multiple versions of a project at the same time, quickly incorporating their changes into the main code. 
 - **Integration**: GitHub can be combined with many different other programmes and services, such as well-known IDEs, project management tools, and continuous integration systems.
-- **GitHub Actions**: allows developers to automate a variety of software development tasks such as code creation, testing, and deployment.It offers a quick way to automate regular processes, including creating and testing pull requests, as well as more complex workflows that incorporate other programmes and services. A wide range of tools and programming languages can be utilised with GitHub Actions due to their flexibility.
+- **GitHub Actions**: allows developers to automate a variety of software development tasks such as code creation, testing, and deployment. It offers a quick way to automate regular processes, including creating and testing pull requests, as well as more complex workflows that incorporate other programmes and services. A wide range of tools and programming languages can be utilised with GitHub Actions due to their flexibility.
 - **GitHub Pages**: enables the creation and publication of websites directly from a GitHub repository, making it simple to share documentation, project details, and other resources with others.
 - **GitHub Enterprise**: provides additional security and compliance capabilities, as well as the ability for businesses to run their own GitHub instance on their own servers. 
  
 ## Strengeths
  
- Usability: GitHub's user-friendly interface makes it simple for developers to explore and use the site, even if they are unfamiliar with version control and collaboration tools.
+- Usability: GitHub's user-friendly interface makes it simple for developers to explore and use the site, even if they are unfamiliar with version control and collaboration tools.
 - Widely utilized: GitHub is widely used by teams and developers, making it simple to collaborate and share code with others. It is simple for new users to get started because many developers are familiar with GitHub's capabilities and process.
 - Strong community: GitHub has a large and active developer and user community that offers a number of resources and support to those in need.
 - GitHub Actions: Allows you to automate, personalize, and execute software development workflows directly within your repository.
@@ -102,9 +102,9 @@ Despite the fact that GitHub is one of the most well-known and widely used web-b
 
 **GitLab**: Like GitHub, GitLab is a web-based collaboration and version control platform.GitLab also offers comprehensive analytics, integrated continuous integration and testing, and more precise access control and permission management. Due to its open-source nature, it encourages cooperation among a sizable user and developer community, guaranteeing that the platform is constantly updated with new features and enhancements. GitLab is an extremely flexible and customised project management tool that can be used either on a self-hosted server or as a service from GitLab Inc.
 
-- **Bitbucket**: Bitbucket is another web-based collaboration and version control platform.It is designed for teams and provides many of the same features, such as issue tracking, teamwork, and version control. With integrated team and project management, as well as built-in support for continuous integration and deployment, Bitbucket offers a wider selection of collaboration tools.
+**Bitbucket**: Bitbucket is another web-based collaboration and version control platform.It is designed for teams and provides many of the same features, such as issue tracking, teamwork, and version control. With integrated team and project management, as well as built-in support for continuous integration and deployment, Bitbucket offers a wider selection of collaboration tools.
 
-- **Azure DevOps**: Azure DevOps, owned by Microsoft, offers a cloud-based platform for software development and collaboration. It includes version control, work tracking, and CI/CD capabilities with an emphasis on serving the needs of enterprise customers. The platform provides features such as support for large projects, robust security, and integration with other Microsoft products, making it a popular choice among organisations seeking a complete solution for software development within the Microsoft ecosystem.
+**Azure DevOps**: Azure DevOps, owned by Microsoft, offers a cloud-based platform for software development and collaboration. It includes version control, work tracking, and CI/CD capabilities with an emphasis on serving the needs of enterprise customers. The platform provides features such as support for large projects, robust security, and integration with other Microsoft products, making it a popular choice among organisations seeking a complete solution for software development within the Microsoft ecosystem.
  
 ## Summary
  
