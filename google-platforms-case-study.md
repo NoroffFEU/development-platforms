@@ -13,7 +13,9 @@ This study mainly covers Google analytics, but will also touch on Google tag man
 
 Google Analytics is an analysis tool used to gain insights and provide reports on web application user behaviour. Since Universal google analytics (UA) expires in July 2023 (Weber, 2023), this study will cover the already exciting successor, google analytics 4 (GA4).
 
-Google tag manager is, as the name suggests, a tag management tool. The purpose is to make it easy to manage tracking codes for various platforms, not only google analytics but also platforms such as google ads, Meta platforms/facebook pixel etc. (Fedorovicius, 2022)
+Google tag manager (GTM) is, as the name suggests, a tag management tool, better known as tag management system (TMS). The purpose is to make it easy to manage tracking codes for various platforms, not only google analytics but also platforms such as google ads, Meta platforms/facebook pixel etc. (Fedorovicius, 2022)
+
+The purpose of a TMS like GTM is to allow for a quick and easy way to update measurement codes and related code fragments, which collectively is known as tags, on a website or web application. This is done by applying a small segment of Tag Manager code to the project. With that code applied the developer can then safely and easily deploy analytics and measurement tag configurations from a web-based user interface. (Google Help, 2023)
 
 ## Brief History
 
@@ -183,3 +185,4 @@ GA4 could be very complex and hard to learn, which makes one might question the 
 - Weber, B (2023) Obtained from https://inmarketingwetrust.com.au/timeline-of-ga4-google-analytics-4-release-date-news/
 - Analytics Help (2023) Obtained from https://support.google.com/analytics/answer/${topic}
 - Teagle, M. (2022) Obtained from https://www.boostability.com/content/google-analytics-4-pros-and-cons-ga4
+- Tag Manager Help (2023) Obtained from https://support.google.com/tagmanager/answer/${topic}
