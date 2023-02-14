@@ -7,10 +7,9 @@ sidebar: development-platforms
 
 ## Introduction
 
-Firebase is a Backend-as-a-Service (BaaS) platform provided by Google that offers a real-time database, as well as storage, authentication, hosting and other features for building, improving and growing web and mobile applications. 
+Firebase is a Backend-as-a-Service (BaaS) platform provided by Google that offers a real-time database, as well as storage, authentication, hosting and other features for building, improving and growing web and mobile applications.
 
 It's primary purpose is to simplify app development and make it easier for developers to focus on the frontend and the user experience of their application, while Firebase handles the backend infrastructure, making the development process faster and more efficient.
-
 
 ## Brief History
 
@@ -22,7 +21,7 @@ You may use bullet points, numbered lists, paragraphs or a timeline.
 
 As mentioned, there are many features in Firebase, which can be divided into three main products.
 
-<img width="806" alt="image" src="https://user-images.githubusercontent.com/89157761/218459770-11cf4e92-7bf0-4753-b7be-9869413e2855.png">
+![Firebase Products](/images/firebase_products.png)
 
 ### Build
 
@@ -36,7 +35,7 @@ As mentioned, there are many features in Firebase, which can be divided into thr
 
 **Cloud Firestore** Cloud Firestore is a NoSQL database that makes it easy for developers to store, sync, and query data for mobile and web apps - at global scale.
 
-**Cloud Functions**  Cloud functions are serverless computing functions that run in response to events triggered by Firebase features or HTTPS requests. They allow developers to run backend code without having to manage servers.
+**Cloud Functions** Cloud functions are serverless computing functions that run in response to events triggered by Firebase features or HTTPS requests. They allow developers to run backend code without having to manage servers.
 
 **Authentication** Aims to simplify the development of secure authentication systems while enhancing end users' sign-in and onboarding processes. It offers a complete identification solution, including login for Google, Twitter, Facebook, and GitHub in addition to email and password accounts.
 
@@ -81,7 +80,6 @@ As mentioned, there are many features in Firebase, which can be divided into thr
 
 **Dynamic Links** Smart URLs that dynamically direct users to specific content within an app or website, allowing for a better user experience and more efficient app engagement. They can be used to deep link users into specific parts of the app, or to direct users to a specific app store page if the app is not installed. Even new users are directed to the desired content after installing and opening the app for the first time.
 
-
 ## Strengths
 
 Firebase has several strengths that make it a popular choice for mobile and web app development:
@@ -94,7 +92,6 @@ Firebase has several strengths that make it a popular choice for mobile and web 
 - **Cost-effective:** Firebase offers a free tier, with a range of paid plans that are designed to be cost-effective for a wide range of app development needs.
 - **Community:** Firebase has a large and active community of developers and partners, who share knowledge, tools, and best practices, making it easier for developers to get help and support when building and launching apps.
 
-
 ## Weaknesses
 
 Firebase, like any platform, has some weaknesses that developers should consider when choosing it for app development:
@@ -106,7 +103,6 @@ Firebase, like any platform, has some weaknesses that developers should consider
 - **Latency:** Firebase's real-time database is designed to be fast and efficient, but some apps may experience latency, especially when handling large amounts of data or traffic.
 - **Data privacy:** Firebase stores data in the cloud, which can be a concern for some developers who need to ensure that their users' data is protected and secure.
 - **Cost:** While Firebase offers a free tier, some developers may find that the cost of the paid plans increases quickly as their app grows, which can be a concern for cost-sensitive development teams.
-
 
 ## Comparison
 
@@ -123,7 +119,6 @@ Let’s say that a mobile app development company is looking to build a new soci
 In this case, Firebase would be a good choice for the social networking app due to its real-time database, user authentication services, and ease of use. However, for a more complex app with scalability requirements, AWS Amplify might be a better choice due to its flexibility and scalability.
 
 In conclusion, both Firebase and AWS Amplify are powerful platforms for app development, and the best choice between the two will depend on the specific requirements and use case of each app.
-
 
 ## Summary
 
