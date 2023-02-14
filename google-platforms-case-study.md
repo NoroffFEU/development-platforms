@@ -115,7 +115,7 @@ For developers, if the traffic is coming from a country which reads from right t
 Makes you customize your own reports, which could provide greater insights to different user journeys.
 
 In GA4 you could setup a lot of complex reports, which might fit your needs better and gives greater insights than what is provided by the standard reports.
-Lets say you wanted to view a report with the following conditions: Users who made a purchase, but only users who clicked the primary button on the home page and which did not arrive from paid ads. You could add all these filters each time on one of the standard reports, but if this is a report you would like to view more frequently, to make an exploration report for it would be much more efficient.
+Let's say you wanted to view a report with the following conditions: Users who made a purchase but only users who clicked the primary button on the home page and did not arrive from paid ads. You could add all these filters each time on one of the standard reports, but if this is a report you would like to view more frequently, to make an exploration report for it would be much more efficient.
 
 Here you could also create more visual charts and tables, like: funnel exploration and path exploration, to get a visualization on the user journey and behavior.
 
