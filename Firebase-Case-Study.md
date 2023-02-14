@@ -210,7 +210,7 @@ Both are [NoSQL](#nosql) real-time databases, with slightly different use cases.
 
 NoSQL, meaning "Not only SQL", are databases that store data with methods other than tabular relations. NoSQL databases do not require a specific input format and are more flexible than relational databases, making them an attractive choice for dynamic applications with many users and unstructured data.
 Some of the advantages of using NoSQL databases include horizontal scalability, flexibility, and ease of development. NoSQL databases are also well-suited for handling big data, real-time data, and cloud-based applications.
-They may however experience difficulty handling a lot of reads due to the potential complexity of your database structure, and for the same reason may not perform as well as relational databases in handling complex queries. In addition to this, unlike their relational counterpart, there is no standard language for NoSQL databases. This often makes database providers construct their own language, thus providing an extra layer of vendor lock-in to that specific database.
+They may, however, experience difficulty handling a lot of reads due to the potential complexity of your database structure, and for the same reason may not perform as well as relational databases in handling complex queries. In addition to this, unlike their relational counterpart, there is no standard language for NoSQL databases. This often makes database providers construct their own language, thus providing an extra layer of vendor lock-in to that specific database.
 
 ## Migration
 
@@ -259,6 +259,14 @@ On a normal application, you would have a protected server that uses cookies or 
 Firebase Security Rules perform the same task, but without the need to write server-side code. Instead, you create a policy in the Firebase console that defines who has access to what in your database, using an intuitive language called **Common expression language**. Every read or write request to the database is routed through these policies and denied by default until potentially finding a rule that allows it.
 
 # Hosting
+
+Firebase provides quick and easy hosting of your project, with benefits like custom domains, automatic versioning that lets you fall back to a previous version if needed and URL rewrites and redirects.
+
+You can deploy your project from your firebase CLI with the following command:
+
+```
+firebase deploy
+```
 
 # Summary
 
