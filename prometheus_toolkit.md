@@ -23,6 +23,10 @@ It is a tool for Executive management, PO's and clients to have a single view of
 
 
 ## Brief History
+If we look back at how monitoring and alerting was in the "old-days", we had small little light bulbs flashing and sounds that went off when something was wrong or and error happenend, this was in the early days of monitoring and alerting. Back in that time there was only a handfull of people that would know what, when and how to fix a problem that accured. With the dawn of a more automative and digital solution to the handle issues and know what is happening, it all got easier and you got alot more information.
+
+With software like Prometheus (and others), you now have detailed information about how a project is running, when something is failing, where it is failing. With this depth of information at hand one can quickly solve an issue, and you will have data logs on it as well. Welcome to the digital age of system monitoring and alerting.
+
 Prometheus is an open-source project built at [SoundCloud](https://soundcloud.com/discover). Since it's creation in 2012, there has been alot of updates and improvement on the system. It's now a standalone open-source project and maintained independently of any company. 
 Prometheus joined the [Cloud Native Computing Foundation](https://www.cncf.io/) in 2016 as the second hosted project, after [Kubernetes](https://kubernetes.io/).
 
@@ -90,7 +94,10 @@ If you primarily doing event logging then InfluxDB is more suitable for this typ
 
 
 ## Summary
-Prometheus is a great tool for systems monitoring and alerting, you can slice and dice the multi-dimensional data at will. Easier overview of samples that is stored. 
+Prometheus is a great tool for systems monitoring and alerting, that allows you to really get into the depth of the amount of data that is collected for your projects. with tools like Prometheus you will get a much better overview of the health of your project, if and when something is failing this will be shown in logs and alerts. When thinking on the financial health of a project this lets you handle issues and problems at a much earlier stage then without using a toolkit like this. Projects are not bleeding money by having long periods of down time because a problem that is there needs to be located first. 
+
+And with the PromQL, short for Prommetheus Querying Language, you can can query metrics within Premetheus. You can display expression's return either as graphs or export it using the [HTTP API](https://prometheus.io/docs/prometheus/latest/querying/api/) 
+
 You will also find that it is a great tool for visualization when that is needed, you can use Grafana dashboard and expression browser more easy. Console templates is provide from Prometheus for you to use. 
 When it comes to deployment it is quick to do when you need a new server for instance. And you have the PromQL query language. 
 
