@@ -63,6 +63,15 @@ The benefits of using Azure DevOps are:
 
 - End of the upgrade cycle: Upgrades are a regular headache for organizations that are running on - premises CI/CD tooling. By moving to a SaaS model, you no longer need to worry about patching and upgrading the toolchain.
 
+Azure DevOps provides a platform that is not focused at organizations that are end - to - end Microsoft or Windows.
+Azure DevOps are:
+
+- Flexible: Organizations don't have to go "all in" on Azure DevOps. Organizations can adopt each of the services independently and integrate them with your existing tool chain, most of the popular tools are supported.
+
+- Platform agnostic: Azure DevOps is designed to work with ant platform (Linux, MacOS and Windows) or language (Node,js, Python, Java, PHP, Ruby, C/C++, .Net, Android and iOS apps).
+
+- Cloud Agnostic: It deliver continuos to AWS and GCP as well as to Azure.
+
 ## Weaknesses
 
 Discuss the product's weaknesses.
