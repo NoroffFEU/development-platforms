@@ -302,5 +302,7 @@ Author: Christopher Tønnesland
 16. [Azure DevOps documentation](https://learn.microsoft.com/en-us/azure/devops/?view=azure-devops)
 17. [Azure DevOps planner](https://marketplace.visualstudio.com/items?itemName=ipatalas.vscode-sprint-planner)
 
-[Azure DevOps Learning Path](https://azuredevopslabs.com/)
-[Visual Studio Code extension](https://marketplace.visualstudio.com/publishers/Microsoft%20DevLabs)
+Other links:
+
+- [Azure DevOps Learning Path](https://azuredevopslabs.com/)
+- [Visual Studio Code extension](https://marketplace.visualstudio.com/publishers/Microsoft%20DevLabs)
