@@ -14,9 +14,10 @@ folder: development-platforms
 3. [Features](#features)
 4. [Strengths](#strengths)
 5. [Weaknesses](#weaknesses)
-6. [Summary](#summary)
-7. [Credits](#credits)
-8. [References](#references)
+6. [Comparison](#comparison)
+7. [Summary](#summary)
+8. [Credits](#credits)
+9. [References](#references)
 
 
 ## Introduction
@@ -217,6 +218,13 @@ Martin Mroz (Git Hub: [martinMr79](https://github.com/martinMr79))
 [Disadvantages of cloud computing](https://emeritus.org/blog/technology-disadvantages-of-cloud-computing/#:~:text=Data%20security%20and%20privacy%20threats,breach%20from%202020%20to%202022)
 
 [cloud computing security](https://ermetic.com/blog/cloud/state-of-cloud-security-2021-more-aware-yet-very-exposed)
+
 [AWS - misunderstandings about vendor lock-in](https://aws.amazon.com/campaigns/uk-enterprise-executive-leaders/vendor-lock-in-blog)
+
 [Unpicking vendor lock-in](https://docs.aws.amazon.com/whitepapers/latest/unpicking-vendor-lock-in/unpick-vendor-lock-in.html)
-[chatGPT](https://openai.com/) *note all information received from chatGPT data have been backed up by at least one additional source. 
+
+[chatGPT](https://openai.com/) *
+
+<br>
+<br>
+*note information received from chatGPT data have been backed up by at least one additional source. 
