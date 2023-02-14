@@ -104,11 +104,17 @@ In GA4 you will find four different types of engagement reports
 
 Lets you see from what city or country your traffic/users are coming from.
 
+These insights could be useful for both marketers and developers.
+
+As marketers it let's you see where your customers and users are coming from, which could help further adjust the marketing more suited for your audience to increase sales. I.e. A website selling tires for cars. If the majority of their users/traffic are coming from South Africa. Cars driving on snow with tires designed with spikes might not be the best way to go, but if their traffic is mainly from Norway, it might work very well.
+
+For developers, if the traffic is coming from a country which reads from right to left and not left to right, the UX design probably differs.
+
 #### Exploration reports
 
 Makes you customize your own reports, which could provide greater insights to different user journeys.
 
-In GA4 you could setup a lott of complex reports, which might fit your needs better insights then whats provided by the standard reports.
+In GA4 you could setup a lot of complex reports, which might fit your needs better and gives greater insights than what is provided by the standard reports.
 Lets say you wanted to view a report with the following conditions: Users who made a purchase, but only users who clicked the primary button on the home page and which did not arrive from paid ads. You could add all these filters each time on one of the standard reports, but if this is a report you would like to view more frequently, to make an exploration report for it would be much more efficient.
 
 Here you could also create more visual charts and tables, like: funnel exploration and path exploration, to get a visualization on the user journey and behavior.
