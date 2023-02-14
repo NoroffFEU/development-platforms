@@ -88,7 +88,7 @@ Compare the product to other products in the same category, if applicable.
 
 ## Summary
 
-Summarize the content and highlight the relevance of the product to a web developer.
+Azure DevOps is a feature - rich and mature platform. It is very flexible in the way that it supports different languages, platforms and cloud vendors. This makes it a viable option for a huge range of organizations. However, there is also some potential disadvantages that should be considered. But if it is used correctly, DevOps can help to improve organizations efficiency, quality and customer satisfaction.
 
 ### Credits
 
