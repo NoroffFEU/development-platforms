@@ -269,7 +269,7 @@ The platform itself is clean and easy to use with lots of documentation for us t
 
 ### Credits
 
-Author: Christopher Tønnesland
+Author: Christopher Tønnesland - [GitHub](https://github.com/Christonn93)
 
 **Contact**
 
