@@ -9,26 +9,15 @@ folder: development-platforms
 
 ## Introduction
 
-Amazon Web Services was the first major cloud hosting service. Cloud Hosting is a service that uses 
-the resources of a remote network of remote servers that
-enables the website to use the resources of multiple servers, therefore resulting in a 
-faster performance. This is a technology that splits
-a physical server into multiple virtual machines that we call "cloud servers". 
-Connecting these is what creates a single network for hosting a website. 
+Amazon Web Services was the first major cloud hosting service. Cloud Hosting is a service that uses the resources of a remote network of remote servers that enables the website to use the resources of multiple servers, therefore resulting in a faster performance. This is a technology that splits a physical server into multiple virtual machines that we call "cloud servers". Connecting these is what creates a single network for hosting a website. 
 
-AWS (Amazon Web Services) is a cloud computing platform that is provided by Amazon. AWS includes a mixture
-of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and packaged-software-as-a-service (SaaS). It is also important to note that 
-the concept of cloud hosting was born together with AWS. 
+AWS (Amazon Web Services) is a cloud computing platform that is provided by Amazon. AWS includes a mixture of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and packaged-software-as-a-service (SaaS). It is also important to note that the concept of cloud hosting was born together with AWS. 
 
 <img width="1024" alt="Skjermbilde 2023-02-08 kl  14 01 55" src="https://user-images.githubusercontent.com/91666428/217537213-e36faff3-28f8-48bd-a1ba-49449574f5ea.png">
 
 ## Brief History
 
-AWS was originally founded 2002 when they realized they had a significant advantage in form of infrastructure services,
-and their ability to manage and scale their infrastructure reliably and efficiently. The first AWS hosting services was launched in 2006 when Amazon SQS 
-became available, shortly followed by the AWS offerings: S3, EC2, SQS is a B2B service used by many famous applications such 
-as Netflix and Dropbox. These offerings pushed AWS to become a global player in cloud hosting platforms and represents the core of AWS.
-AWS has just grown by then and is today the global lead in cloud hosting with a market share of 34%, and the total amount of services has grown to over 200 with a broad span of services ranging from storage, compute, machine learning, loT, etc. 
+AWS was originally founded 2002 when they realized they had a significant advantage in form of infrastructure services, and their ability to manage and scale their infrastructure reliably and efficiently. The first AWS hosting services was launched in 2006 when Amazon SQS became available, shortly followed by the AWS offerings: S3, EC2, SQS is a B2B service used by many famous applications such as Netflix and Dropbox. These offerings pushed AWS to become a global player in cloud hosting platforms and represents the core of AWS. AWS has just grown by then and is today the global lead in cloud hosting with a market share of 34%, and the total amount of services has grown to over 200 with a broad span of services ranging from storage, compute, machine learning, loT, etc. 
 
 - 2002 - 2005 - Amazon launches Amazon.com Web Service offering SOAP and XML interfaces.
 - 2006 - 2008 - AWS began offering IT - infrastructure in form of web services. Amazon SQS (Simple Queue Service) and S3 (simple storage service) was    launched. This represents the core of AWS.
@@ -45,9 +34,7 @@ AWS has just grown by then and is today the global lead in cloud hosting with a 
 
 ## Features
 
-In 2006 AWS began offering IaaS services and was one of the first companies to introduce a "pay-as-you-go" solution. This way
-you only pay for what you need and nothing more. AWS offers different services that can be configured in different ways based on the user's needs. 
-AWS contains a total of more than 200 services that are built to include compute, databases, infrastructure, management, application development and security.
+In 2006 AWS began offering IaaS services and was one of the first companies to introduce a "pay-as-you-go" solution. This way you only pay for what you need and nothing more. AWS offers different services that can be configured in different ways based on the user's needs. AWS contains a total of more than 200 services that are built to include compute, databases, infrastructure, management, application development and security.
 
 ![Skjermbilde 2023-02-08 kl  14 00 50](https://user-images.githubusercontent.com/91666428/217536826-5b41bd3d-6a9e-44ef-ae23-f16c847f9605.png)
 
@@ -77,8 +64,7 @@ AWS provides dozens of data centers that are spread across 87 different availabi
 An AWS costumers decides for them selves how many availability zones that need based on their needs when it comes to compliances, proximity to end
 customers and availability optimization. 
 
-AWS is mostly knows for their EC2 solution. Amazon Elastic Compute Cloud is a service that provides virtual servers. EC2 offers dozens of instance types with different capacities and sizes. These are tailored specifically on workload types and applications.
-S3 is also one of AWS's core services and is shoer for Amazon Simple Storage Service. S3 provides a scalable object storage for data backup, collection and analytics, this is where a IT professional stores data and files it as S3 objects up to five GB. AWS offers various tools and services to help users migrate applications, databases, servers and data onto its public cloud.
+AWS is mostly knows for their EC2 solution. Amazon Elastic Compute Cloud is a service that provides virtual servers. EC2 offers dozens of instance types with different capacities and sizes. These are tailored specifically on workload types and applications. S3 is also one of AWS's core services and is shoer for Amazon Simple Storage Service. S3 provides a scalable object storage for data backup, collection and analytics, this is where a IT professional stores data and files it as S3 objects up to five GB. AWS offers various tools and services to help users migrate applications, databases, servers and data onto its public cloud.
 
 AWS also offers services for developers to use command-line tools and software development kits to deploy and manage applications and services and are available for a variety of platforms and programming languages: Android, C++, iOS, Java, Node.js, PHP, Python and Ruby:
 - AWS Command Line Interface, which is Amazon's proprietary code interface;
