@@ -25,7 +25,7 @@ Svelte is a javascript compiler, its similar to React, but react uses Virtual DO
 In this study case i will get into how to use it.
 
 ## Brief History
-[Svelte](https://svelte.dev/) was created by Rich Harris. Svelte is a free and open source front end component framework / language, it is not a monolithic JavaScript library imported by applications. Instead, it compiles HTML templates to specialized code that manipulates the DOM directly. And was initial released / commit `26th November, 2016`.
+[Svelte](https://svelte.dev/) was created by Rich Harris. Svelte is a free and open source front end component framework / language, it is not a monolithic JavaScript library imported by applications. Instead, it compiles HTML templates to specialized code that manipulates the DOM directly. And was initial released / first commit on `26th November, 2016`.
 
 - `26th November, 2016` The initial commit to the svelte Github repo.
 
