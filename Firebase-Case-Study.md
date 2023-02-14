@@ -55,7 +55,7 @@ Unless you plan to build something that outlives or rivals Google, I will not pe
 
 ## Only NoSQL Database
 
-Firebase does not offer SQL databases, and you will have to use the NoSQL database they provide. This can be both good and bad, depending on your data and structure. It is however important to be vigilant when constructing your NoSQL database.
+Firebase does not offer SQL databases, and you will have to use one of the NoSQL databases they provide. This can be both good and bad, depending on your data and structure. It is however important to be vigilant when constructing your NoSQL database.
 The topic of databases deserves its own section and is discussed further [Here](#database).
 
 # Strengths
