@@ -9,7 +9,7 @@ folder: development-platforms
 
 ## Introduction
 
-This study mainly covers Google analytics, but will also touch on Google tag manager, as it is a very related platform.
+This study mainly covers Google analytics, but will also touch on Google tag manager, as it is a closely related platform.
 
 Google Analytics is an analysis tool, which is used to gain insights and provide reports on user behavior on websites and/or web applications. Since Universal google analytics(UA) expires in July 2023 (Weber, 2023), this study will cover the already exciting successor google analytics 4(GA4).
 
