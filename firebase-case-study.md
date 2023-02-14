@@ -50,6 +50,38 @@ Firebase's Key Features are:
 - Real-time Database
 - Storage
 
+## What do these features do?
+
+I'll be going over 4 of these features starting with:
+
+### Cloud Messaging
+
+Firebase Cloud Messaging (FCM) is a tool that lets you send messages cross platform in a good and reliable way.
+It uses push notification to send these messages, which can be sendt through the firebase console website.
+The push notifications is handled through the API and can handle 2 types of messages, which are notification messages and data messages.
+Notification messages are the push notifications, which will be displayed on the user device, while data messages are directly handled by the application. 
+
+### Authentication
+
+Firebase Authentication provides the backend and UI for authentication.
+It supports login using password, phone numbers and authenticating with social media, such as Facebook, Google and Twitter and more.
+The service uses the industry standards such as OAuth 2.0 and OpenID Connect which makes it possible to integrate it with your own custom backend service. Making it appealing for most developers.
+
+### Test Lab
+
+This is a feature i've personally used before, and it works really well.
+The program runs through your application checking for bugs or security failures, 
+it also records the process so you won't struggle finding where the bug or leak was when it was detected.
+Another key feature is the possibility of configuring and testing the app,
+on different devices so you can get a better idea on how it runs in the real world.
+
+### Real-Time Database
+
+The real-time database store and syncs the data with Google's NoSQL database, which is stored in the cloud.
+All devices on the application shares one Realtime Database instance and it automatically syncs in real time with all the users.
+The database is a one big JSON object and can be handled and updated by developers in real time,
+aswell making it easy to maintain and push changes to the application.
+
 ## Strengths
 
 - Authentication is secure and can be done by email and password, facebook and other SSO methods.
