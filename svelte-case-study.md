@@ -52,7 +52,6 @@ Svelte uses a system of reactive statements, such as {#if} blocks, to conditiona
 
 When the value of visible changes, Svelte automatically updates the DOM to reflect the change and render or destroy the component as needed. This allows for easy control over component loading and unloading, and ensures that resources are only used when they are actually required, instead of constantly rendering every component like in some high-budget slideshow.
 
-<p align="center">
   <img src="https://user-images.githubusercontent.com/30121693/217382445-d5addc54-21a2-48bd-b613-dd9cac2e657b.png" alt="Svelte's key features"/>
 </p>
 
