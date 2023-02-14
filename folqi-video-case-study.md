@@ -1,7 +1,7 @@
 ---
 title: Folqi Care Project Case Study
-keywords: development platforms, folqi, website
-tags: Development Platforms, folqi Care
+keywords: Development Platforms, Folqi Care Project, backend, front-end
+tags: Development Platforms, Folqi Care, backend, front-end, project-development-process
 sidebar: development-platforms
 permalink: development-platforms/folqi-care-video.html
 folder: development-platforms
@@ -11,7 +11,7 @@ folder: development-platforms
 
 ## Summary
 
-The video describes the Folqi Care project in relation to the development platforms module.
+The video describes the Folqi Care project in relation to the development platforms module. You can also find this video's PDF and Keynote formats on this page. Feel free to download and use these files if you wish so.
 
 ### Credits
 
