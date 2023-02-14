@@ -79,7 +79,7 @@ Firebase faces competition from several other cloud-based platforms and services
 
 When selecting a BaaS, Firebase may be a great option due to its scalable nature, real-time database capabilities, and ease of authentication and hosting. However, it's important to consider its limitations and how they may impact your project over time. There are many excellent BaaS platforms that compete with Firebase, so it's crucial to thoroughly consider your options before decide which one to choose.
 
-## Prizing
+## Pricing
 Firebase follows a pay-per-use pricing model, meaning you only pay for what you use. The cost is determined by several factors, including:
 
 **Storage**: Firebase provides scalable storage for app data, with costs based on data volume and frequency of access.
