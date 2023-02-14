@@ -287,3 +287,4 @@ https://www.youtube.com/watch?v=v_hR4K4auoQ&ab_channel=Firebase
 https://firebase.google.com/docs/database/rtdb-vs-firestore
 https://www.youtube.com/watch?v=gEaY2GZMino&ab_channel=TheNetNinja
 https://firebase.google.com/docs/firestore/query-data/queries
+https://www.youtube.com/watch?v=sw1Uy3zwsLs&ab_channel=Fireship
