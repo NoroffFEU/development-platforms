@@ -21,46 +21,31 @@ folder: development-platforms
 10. [Credits](#credits)
 11. [References](#references)
 
-## **Introduction**
-
-<div style="width: 600px;">
+## Introduction
 
 ![Azure DevOps offerings](https://miro.medium.com/max/800/1*8orwInnxqPRhrcKf9aOo9Q.png)
 
-<p style="padding: 0; margin: 0;">
-
 *Source: google*
-
-</p>
-
-</div>
 
 **Azure DevOps** was initially released in 2018 by Microsoft. It is a set of developer tools, services, and features that enable teams to plan, develop, test, and deliver software more effectively. Azure DevOps integrates with the broader Azure cloud computing platform, enabling users to take advantage of its features and services, such as continuous integration and deployment, and virtual machines. Azure DevOps has since become one of the leading development platforms and is widely used by development teams across the world.
 
-Azure DevOps is for the most part free to use, however there is some limitations with using only a free tier option. I will go in deeper details about the pricing [here](#pricing)
+Azure DevOps is for the most part free to use, however there is some limitations with using only a free tier option. We will look in deeper detail about the pricing [here](#pricing)
 
-## **Brief History**
+## Brief History
 
-In 2005 the service that we today refer to as Azure DevOps was named Team Foundation server(TFS). It was released as a set of development tools and services for teams building software applications. After its release in 2005 it has evolved and expanded with new features and services and have quickly become the most popular development platforms for Microsoft-centric teams. TFS has been around for more than a decade, and it has evolved a lot since its inception in 2005. There are professionals in the industry whose entire careers have been dedicated to managing TFS. Such expertise has been necessary because it was quite complicated to administer.
+In 2005 the service that we today refer to as Azure DevOps was named Team Foundation server (TFS). It was released as a set of development tools and services for teams building software applications. After its release in 2005 it has evolved and expanded with new features and services and have quickly become the most popular development platforms for Microsoft-centric teams. TFS has been around for more than a decade, and it has evolved a lot since its inception in 2005. There are professionals in the industry whose entire careers have been dedicated to managing TFS. Such expertise has been necessary because it was quite complicated to administer.
 
 In 2012, TFS morphed into a tool that helped teams manage their software development projects using Agile. [[1](#references)]
 
 The name **"Azure DevOps"** came in 2018. Microsoft re-branded TFS to Azure DevOps, this reflecting Microsoft shift to a cloud based service and its focus on providing organizations with a more comprehensive set of tools and services.
+
 After the re-branding Azure DevOps has continued to evolve and add more features, you can read more about the features [here](#features). Azure DevOps has also integrated other Azure services such as Azure functions, Azure Container and Azure Kubernetes service. [[2](#references)]
 
-## **Features**
-
-<div style="width: 600px;">
+## Features
 
 ![Azure DevOps offerings](https://www.kovair.com/blog/wp-content/uploads/2022/03/Image-1-Azure-DevOps.png)
 
-<p style="padding: 0; margin: 0;">
-
 *Source: google*
-
-</p>
-
-</div>
 
 ### Source Code Management
 
@@ -82,16 +67,9 @@ The continuous Integration set up to catch bugs early in the development cycle w
 
 The continuous Delivery is a process by which code is built, tested, and deployed to one or more test and production environments. Deploying and testing in multiple environments increases quality
 
-<div style="width: 600px;">
-
 ![Azure DevOps offerings](https://xam.com.au/wp-content/uploads/2022/03/devops-infinity-1-1.png)
 
-<p style="padding: 0; margin: 0;">
-
 *Source: google*
-
-</p>
-</div>
 
 *Reference [[4](#references)]*
 
@@ -130,17 +108,9 @@ With the test plan you can set up manual and automatic testing, its easy to trac
 
 Azure DevOps offer a classic release pipeline setup where you can easily and safely deploy their applications to multiple environments. There are options for setting up fully automated testing and deployment or setting up a semi-automated process.
 
-<div style="width: 600px;">
-
 ![Pipelines service Image](https://learn.microsoft.com/en-us/azure/devops/pipelines/release/media/what-is-release-management/understand-rm-05.png?view=azure-devops)
 
-<p style="padding: 0; margin: 0;">
-
 *Source: Azure DevOps documentation*
-
-</p>
-
-</div>
 
 *Reference [[8](#references)]*
 
@@ -161,17 +131,9 @@ Azure DevOps also offer integrations with Microsoft Teams, but to be able to use
 
 By using Azure DevOps and Microsoft team you and your team will have a really good way of collaborating and making sure that your project goes according to plan. You can show and adjust your team board in the teams app.
 
-<div style="width: 600px;">
-
 ![Price Image](https://www.azuredevopslabs.com/labs/vstsextend/teams/images/kanbanboard_teams_new.png)
 
-<p style="padding: 0; margin: 0;">
-
 *Source: Azure DevOps Labs*
-
-</p>
-
-</div>
 
 *Reference [[10](#references)]*
 
@@ -182,7 +144,7 @@ The wiki pages you create can be edited in your preferred IDE. You only need to 
 
 Normally the developer will have a Markdown file to store documentation alongside the source code in a folder or just directly in the area you are working on. By using the Wiki feature it is possible to store your documentation and it's easy to add to your existing project. Wiki scans the files and make each markdown file into a wiki note.
 
-Here is a <a href="https://www.youtube.com/embed/Mmyw8rLs11c">Youtube video</a> showcasing the power of Azure DevOps Wiki features.
+Here is a [Youtube video](https://www.youtube.com/embed/Mmyw8rLs11c) showcasing the power of Azure DevOps Wiki features.
 
 *Reference [[11](#references)]*
 
@@ -218,7 +180,7 @@ Integrated Analytics in Azure DevOps helps you make data-driven decisions by giv
 
 *Reference [[14](#references)]*
 
-## **Strengths**
+## Strengths
 
 Azure DevOps have lots of strengths, but it's important to keep in mind that the strengths of the platform may vary depending on the specific needs of an organization and that the strengths of the platform may outweigh these weaknesses for some use cases. 
 
@@ -231,7 +193,7 @@ Azure DevOps have lots of strengths, but it's important to keep in mind that the
 5. Highly customizable, and provides a wide range of options for users to configure the platform to meet their specific needs.
 6. Designed with DevOps in mind, and provides a comprehensive set of tools for software development and delivery, making it an attractive choice for organizations that are looking to adopt DevOps practices.
 
-## **Weaknesses**
+## Weaknesses
 
 There are some weaknesses with Azure DevOps, like any software platform.
 
@@ -247,21 +209,13 @@ Azure DevOps is highly customizable, but this can lead to a lack of standardizat
 6. Azure DevOps may not be able to scale to meet the needs of very large organizations, especially those with large teams and complex software development pipelines.
 7. Some features that are commonly used in software development may not be available in Azure DevOps, or may require additional tools or services to be used.
 
-## **Pricing**
+## Pricing
 
 The pricing of using Azure DevOps depends on the size of your team or organization. The image below shows the pricing model that Azure DevOps have.
 
-<div style="width: 600px;">
-
 ![Price Image](https://i.ibb.co/5jCdgMn/image.png)
 
-<p style="padding: 0; margin: 0;">
-
 *Source: Azure DevOps homepage*
-
-</p>
-
-</div>
 
 As you can see in the image above there is a wide range of options to choose from when it comes to the services that Azure DevOps have to offer.
 
@@ -274,7 +228,7 @@ The **Basic plan** of Azure DevOps is a free plan that provides limited features
 5. Continuous integration (CI): You can set up CI pipelines to automatically build, test and deploy your code.
 (*There are some limitations with the Basic plan, such as the number of parallel pipelines and the number of minutes available for CI/CD, but it is a great option for small teams or individual developers who are just getting started with DevOps.*)
 
-### **Support**
+### Support
 
 There is an option for premium support from Azure DevOps.
 The cost of premium support for Azure DevOps varies based on a number of factors, including the level of support required, the number of users and the level of service desired.
@@ -283,94 +237,22 @@ Microsoft does not publicly disclose the exact cost of its premium support plans
 
 It is worth noting that while premium support may have a higher upfront cost than the basic support, it can provide organizations with a number of benefits, including faster response times, dedicated support engineers, access to a wider range of support resources and expertise, which can help to minimize downtime and ensure that any issues are resolved quickly and effectively.
 
-## **Comparison**
+## Comparison
 
 While Azure DevOps is one of the leading platforms out on the marked, there are more options for the developers to use. Here is some alternative to Azure DevOps.
 
-<table style="width:100%;">
-  <tr style="background-color: #3E3E3E; color: white;">
-    <th>Platform</th>
-    <th>Price</th>
-    <th>Features</th>
-    <th>Strengths</th>
-    <th>Weaknesses</th>
-    <th>Reference</th>
-  </tr>
-  <tr style="background-color: #ffffff; color: black;">
-    <td>Azure DevOps</td>
-    <td>Starts at $6 per user/month for Basic and goes up to $30 per user/month for Advanced. There is also a free plan for small teams.</td>
-    <td>Azure DevOps provides an end-to-end solution for software development, including project management, source control, continuous integration and deployment, testing, and release management. It also integrates with other Microsoft services such as Office 365 and Teams.</td>
-    <td>Strong integration with Microsoft services and technologies. Good for enterprises. Offers a comprehensive solution for software development.</td>
-    <td>Limited third-party integrations compared to other platforms. User interface can be complicated for some.</td>
-    <td>
-        <ul style="list-style: none; padding: 0; color: black;">
-            <li>
-                <a href="https://azure.microsoft.com/en-us/products/devops" style="color: #131313; text-decoration: underline #131313;">Azure DevOps</a>
-            </li>
-            <li>
-                <a href="https://sourceforge.net/software/product/Azure-DevOps-Server/" style="color: #131313; text-decoration: underline #131313;">Sourceforge</a>
-            </li>
-        </ul>
-    </td>
-  </tr>
-  <tr style="background-color: #3E3E3E; color: white;">
-    <td>Jira</td>
-    <td>Starts at $7 per user/month for Jira Software and goes up to $14 per user/month for Jira Service Desk. There is also a free plan for small teams.</td>
-    <td>Jira provides project and issue tracking, as well as agile project management. It also offers custom fields, reporting, and dashboards.</td>
-    <td>Strong project management features and customizability. Good for agile software development. Widely used and supported by a large community.</td>
-    <td>Limited source control and continuous integration features compared to other platforms. User interface can be complicated for some.</td>
-    <td>
-        <ul style="list-style: none; padding: 0; color: black;">
-            <li>
-                <a href="https://www.atlassian.com/software/jira" style="color: #ffffff; text-decoration: underline #ffffff;">Jira software</a>
-            </li>
-            <li>
-                <a href="https://sourceforge.net/software/product/JIRA/" style="color: #ffffff; text-decoration: underline #ffffff;">Sourceforge</a>
-            </li>
-        </ul>
-    </td>
-  </tr>
-  <tr style="background-color: #ffffff; color: black;">
-    <td>GitHub</td>
-    <td>Free for public repositories and starts at $4 per user/month for private repositories.</td>
-    <td>GitHub provides source control and version control, as well as project management and collaboration features. It also offers continuous integration and deployment, pull requests, and issues.</td>
-    <td>Widely used and supported by a large developer community. Good for open-source projects. Offers integrations with many other tools and services.</td>
-    <td>Limited project management and agile planning features compared to other platforms. User interface can be cluttered for some.</td>
-    <td>
-        <ul style="list-style: none; padding: 0; color: black;">
-            <li>
-                <a href="https://github.com/about" style="color: #131313; text-decoration: underline #131313;">GitHub</a>
-            </li>
-            <li>
-                <a href="https://sourceforge.net/software/product/GitHub/" style="color: #131313; text-decoration: underline #131313;">Sourceforge</a>
-            </li>
-        </ul>
-    </td>
-  </tr>
-  <tr style="background-color: #3E3E3E; color: white;">
-    <td>GitLab</td>
-    <td>Free for public repositories and starts at $4 per user/month for private repositories.</td>
-    <td>GitLab provides source control, continuous integration and deployment, security, and project management. It also offers issue tracking, wikis, and dashboards.</td>
-    <td>Good for DevOps and continuous delivery. Offers a comprehensive solution for software development. Strong focus on security and compliance.</td>
-    <td>User interface can be complicated for some. Not as widely used or supported as other platforms.</td>
-    <td>
-        <ul style="list-style: none; padding: 0; color: black;">
-            <li>
-                <a href="https://about.gitlab.com/" style="color: #ffffff; text-decoration: underline #ffffff;">GitLab</a>
-            </li>
-            <li>
-                <a href="https://sourceforge.net/software/product/GitLab/" style="color: #ffffff; text-decoration: underline #ffffff;">Sourceforge</a>
-            </li>
-        </ul>
-    </td>
-    </tr>
-</table>
+| Platform      | Price                                                                                                                                             | Features                                                                                                                                                                                                                                                                    | Strengths                                                                                                                                        | Weaknesses                                                                                                                          | Reference                                                                                                                                         |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Azure DevOpds | Starts at $6 per user/month for Basic and goes up to $30 per user/month for Advanced. There is also a free plan for small teams.                  | Azure DevOps provides an end-to-end solution for software development, including project management, source control, continuous integration and deployment, testing, and release management. It also integrates with other Microsoft services such as Office 365 and Teams. | Strong integration with Microsoft services and technologies. Good for enterprises. Offers a comprehensive solution for software development.     | Limited third-party integrations compared to other platforms. User interface can be complicated for some.                           | [Azure DevOps](https://azure.microsoft.com/en-us/products/devops)<br>[Sourceforge](https://sourceforge.net/software/product/Azure-DevOps-Server/) |
+| Jira          | Starts at $7 per user/month for Jira Software and goes up to $14 per user/month for Jira Service Desk. There is also a free plan for small teams. | Jira provides project and issue tracking, as well as agile project management. It also offers custom fields, reporting, and dashboards.                                                                                                                                     | Strong project management features and customizability. Good for agile software development. Widely used and supported by a large community.     | Limited source control and continuous integration features compared to other platforms. User interface can be complicated for some. | [Jira software](https://www.atlassian.com/software/jira)<br>[Sourceforge](https://sourceforge.net/software/product/JIRA/)                         |
+| GitHub        | Free for public repositories and starts at $4 per user/month for private repositories.                                                            | GitHub provides source control and version control, as well as project management and collaboration features. It also offers continuous integration and deployment, pull requests, and issues.                                                                              | Widely used and supported by a large developer community. Good for open-source projects. Offers integrations with many other tools and services. | Limited project management and agile planning features compared to other platforms. User interface can be cluttered for some.       | [GitHub](https://github.com/about)<br>[Sourceforge](https://sourceforge.net/software/product/GitHub/)                                             |
+| GitLab        | Free for public repositories and starts at $4 per user/month for private repositories.                                                            | GitLab provides source control, continuous integration and deployment, security, and project management. It also offers issue tracking, wikis, and dashboards.                                                                                                              | Good for DevOps and continuous delivery. Offers a comprehensive solution for software development. Strong focus on security and compliance.      | User interface can be complicated for some. Not as widely used or supported as other platforms.                                     | [GitLab](https://about.gitlab.com/)<br>[Sourceforge](https://sourceforge.net/software/product/GitLab/)                                            |
 
 To create comparison between the software above i have used [this website](https://sourceforge.net/)
 
-## **How to**
+## How to
 
-## **Summary**
+## Summary
 
 Azure DevOps is a cloud computing platform and infrastructure with many features that can help you and your team with the workflow on your project. It's easy to create a free account with a small team and for a larger team you have more options.
 
@@ -378,7 +260,7 @@ All work when using Azure DevOps can be done with IDE. Integration with Visual S
 
 The platform itself is clean and easy to use with loads of documentation for you to be able to make the most out of the platform.
 
-### **Credits**
+### Credits
 
 Author: Christopher Tønnesland
 
@@ -393,7 +275,7 @@ Author: Christopher Tønnesland
 </div>
 </br>
 
-#### **References**
+#### References
 
 1. [TSF information](https://www.perforce.com/blog/vcs/what-team-foundation-server-tfs)
 2. [Image of chatGDP response](https://ibb.co/dW1KqYj)
