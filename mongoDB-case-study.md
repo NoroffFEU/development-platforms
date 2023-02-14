@@ -34,40 +34,49 @@ In the list below, we will look at important years and releases for MongoDB.
 
 ## MongoDBs main Features
 
-- Indexing
+#### Indexing
 
-  - The search through the database becomes less time consuming and easier to do.
-  - This means that every field in the documents are indexed with primary and secondary indices.
+- The search through the database becomes less time consuming and easier to do.
+- This means that every field in the documents are indexed with primary and secondary indices.
 
-- Replication
+#### Replication
 
-  - This means the database makes copies of the data and sends it to multiple servers. Which make the data more available and redundant, if one server fails, the data can be retrieved from another server.
-  - A replica set can contain of two or more copies of the data, each set may act in the role of primary or secondary replica.
-  - The primary replica serves as the main server and interacts with the client and performs the read/write operations.
-  - The secondary replica is a copy of the data in the primary using built-in replication.
-  - If the primary replica should fail, it automatically switches to the secondary, that then serves as the primary server.
+- This means the database makes copies of the data and sends it to multiple servers. Which make the data more available and redundant, if one server fails, the data can be retrieved from another server.
+- A replica set can contain of two or more copies of the data, each set may act in the role of primary or secondary replica.
+- The primary replica serves as the main server and interacts with the client and performs the read/write operations.
+- The secondary replica is a copy of the data in the primary using built-in replication.
+- If the primary replica should fail, it automatically switches to the secondary, that then serves as the primary server.
 
-- Aggregation
+#### Aggregation
 
-  - Makes it possible to perform operations on the grouped data, and then receive a single or computed result.
-  - This is thanks to the three different aggregation methods;
-    - aggregation pipeline
-    - map-reduce function
-    - a single-purpose aggregation methods.
+- Makes it possible to perform operations on the grouped data, and then receive a single or computed result.
+- This is thanks to the three different aggregation methods;
+  - aggregation pipeline
+  - map-reduce function
+  - a single-purpose aggregation methods.
 
-- Scalability
+#### Scalability
 
-  - Through sharding you distribute the data to different servers, where the data is partitioned into chunks using a shard key.
-  - The chunks are evenly distributed across shards thats placed on different servers.
-    This way MongoDB provides horizontal scalability, which balances the load to keep the system up and running, and gives less chance of hardware failure.
+- Through sharding you distribute the data to different servers, where the data is partitioned into chunks using a shard key.
+- The chunks are evenly distributed across shards thats placed on different servers.
+  This way MongoDB provides horizontal scalability, which balances the load to keep the system up and running, and gives less chance of hardware failure.
 
-- Document-oriented
+#### Document-oriented
 
-  - Each database contains a collection which contains documents. And each document can be different, with variations in number of fields and size.
-  - The documents structure can be familiar to developers, as they are constructed like objects.
+- Each database contains a collection which contains documents. And each document can be different, with variations in number of fields and size.
+- The documents structure can be familiar to developers, as they are constructed like objects.
 
-- Ad hoc queries
-  - Supports search by field, range queries and by regular expression searches.
+#### Ad hoc queries
+
+- Supports search by field, range queries and by regular expression searches.
+
+#### ACID (Atomicity, Consistency, Isolation, Durability)
+
+- This is one of the biggest weaknesses of NoSQL databases.
+- MongoDB data model allows data to be stored in a single document, which don't require a multi-document transaction.
+- After their version 4.0 came out they introduced transactions.
+- A transaction is a group of database operations that will only succeeds if all the operations within the transactions succeeds. This can impact a single record or multiple records.
+- The ACID transactions gives a guarantee that the database will be in a consistent state after running a set of operations.
 
 ## Strengths
 
@@ -80,8 +89,6 @@ In the list below, we will look at important years and releases for MongoDB.
 
 ## Weaknesses
 
-- ACID (Atomicity, Consistency, Isolation, Durability)
-  - MongoDB launched in their version 4.0 a
 - Uses a lot of memory for data storage.
 - Security may not be their strongest suite as there has been reports of MongoDB installations has been stolen, and servers has been held for ransome. Creators claim to have taken measures to upscale the security.
 - Joining - there isn't a simple, automated way to join documents. This can be done, but has to be done manually
@@ -134,3 +141,5 @@ Overall MongoDB is a strong NoSQL database. In the author's view the strengths t
 - https://webandcrafts.com/blog/mongodb-advantages-and-disadvantages/
 - https://couchdb.apache.org/
 - https://www.mongodb.com/compare/couchdb-vs-mongodb
+- https://www.mongodb.com/basics/acid-transactions
+- https://www.digitalocean.com/community/tutorials/how-to-use-transactions-in-mongodb
