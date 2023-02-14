@@ -9,7 +9,7 @@ folder: development-platforms
 
 # Firebase Case Study
 
-![image](https://user-images.githubusercontent.com/89157761/218564702-aec66677-4b07-4b3f-9c76-6608be3378c5.png)
+![Firebase logo](https://user-images.githubusercontent.com/89157761/218564702-aec66677-4b07-4b3f-9c76-6608be3378c5.png)
 
 ### Table of content
 
@@ -104,7 +104,7 @@ Like any platform, Firebase has some drawbacks that developers should take into 
 
 ## Comparison
 
-![image](https://user-images.githubusercontent.com/89157761/218549729-6671acce-8e7c-40b7-9210-f84ac9a027f8.png)
+![Firebase vs AWS Amplify](https://user-images.githubusercontent.com/89157761/218549729-6671acce-8e7c-40b7-9210-f84ac9a027f8.png)
 
 AWS Amplify is one of many platforms that are comparable to Firebase. They are both well-known cloud-based platforms for app development. Both offer several services for building, deploying, and scaling apps, but they differ in some ways that make them appropriate for various use cases.
 
