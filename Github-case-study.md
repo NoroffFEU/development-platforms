@@ -1,9 +1,9 @@
 ---
 title: GitHub Case Study
-keywords: development platforms, GitHub, 
-tags: Development Platforms, GitHub, Category Name
+keywords: development platforms, GitHub, version control
+tags: Development Platforms, GitHub
 sidebar: development-platforms
-permalink: development-platforms/case-study-GitHub.html
+permalink: development-platforms/github.html
 folder: development-platforms
 ---
 # <p align="center"><span>GitHub - Case Study<span></p>
@@ -93,15 +93,15 @@ GitHub has become a highly in-demand tool for project management and software de
 - Complex User Interface:  The interface may be overwhelming and complicated, especially for new users.
 - Performance Concerns:  Can experience performance issues during high traffic or when working with large repositories.
 - Limited Customization Options:  While GitHub offers a wide range of tools and integrations, customization options are limited, and users may need to turn to external tools to meet their desired workflows.
-- Costly Upgrade:  The free version of GitHub is very useful, but upgrading to a paid plan can be expensive, especially for large teams or organizations.
+- Costly Upgrade:  The free version of GitHub is very useful, but upgrading to a paid plan can be expensive, especially for large teams or organisations.
  
 ## Comparison
 
 Despite the fact that GitHub is one of the most well-known and widely used web-based collaboration and version control platforms, there are other similar products that can be used in place of or in addition to GitHub. 
 
-**GitLab**: Like GitHub, GitLab is a web-based collaboration and version control platform.GitLab also offers comprehensive analytics, integrated continuous integration and testing, and more precise access control and permission management. Due to its open-source nature, it encourages cooperation among a sizable user and developer community, guaranteeing that the platform is constantly updated with new features and enhancements. GitLab is an extremely flexible and customised project management tool that can be used either on a self-hosted server or as a service from GitLab Inc.
+**GitLab**: Like GitHub, GitLab is a web-based collaboration and version control platform. GitLab also offers comprehensive analytics, integrated continuous integration and testing, and more precise access control and permission management. Due to its open-source nature, it encourages cooperation among a sizable user and developer community, guaranteeing that the platform is constantly updated with new features and enhancements. GitLab is an extremely flexible and customised project management tool that can be used either on a self-hosted server or as a service from GitLab Inc.
 
-**Bitbucket**: Bitbucket is another web-based collaboration and version control platform.It is designed for teams and provides many of the same features, such as issue tracking, teamwork, and version control. With integrated team and project management, as well as built-in support for continuous integration and deployment, Bitbucket offers a wider selection of collaboration tools.
+**Bitbucket**: Bitbucket is another web-based collaboration and version control platform. It is designed for teams and provides many of the same features, such as issue tracking, teamwork, and version control. With integrated team and project management, as well as built-in support for continuous integration and deployment, Bitbucket offers a wider selection of collaboration tools.
 
 **Azure DevOps**: Azure DevOps, owned by Microsoft, offers a cloud-based platform for software development and collaboration. It includes version control, work tracking, and CI/CD capabilities with an emphasis on serving the needs of enterprise customers. The platform provides features such as support for large projects, robust security, and integration with other Microsoft products, making it a popular choice among organisations seeking a complete solution for software development within the Microsoft ecosystem.
  
