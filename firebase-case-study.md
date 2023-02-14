@@ -62,29 +62,29 @@ Engage
 
 ## Strengths
 
-** Faster Development, as it offers a set of pre-requisites of backend development.
-* Has different pricing models to suit your needs.
-* Firebase has a real-time database, which collects, processes and enriches incoming series of data points immediately after the data is created.
-* Has incredible storage size potential for storing data.
-* It is a serverless framework that is stored in a cloud and runs in a managed environment.
-* Firebase is highly secure by encrypting data in transit and isolate customer data. Several of the services Firebase offer also encrypt data at rest.
-* Has the most advanced hosted Backend-as-a-Service (BaaS) solution.
-* It is quick and easy to set up.
-* Firebase provides three-way data binding with AngularFire, making sure all data is updated everywhere automatically.
-* Has simple serialization of app state.
-* It is easy to access data, files, authorization and more.
-* No infrastructure to server needed to power apps with data.
-* Has JSON storage, which means no issue between data and objects.
+1. Faster Development, as it offers a set of pre-requisites of backend development.
+2. Has different pricing models to suit your needs.
+3. Firebase has a real-time database, which collects, processes and enriches incoming series of data points immediately after the data is created.
+4. Has incredible storage size potential for storing data.
+5. It is a serverless framework that is stored in a cloud and runs in a managed environment.
+6. Firebase is highly secure by encrypting data in transit and isolate customer data. Several of the services Firebase offer also encrypt data at rest.
+7. Has the most advanced hosted Backend-as-a-Service (BaaS) solution.
+8. It is quick and easy to set up.
+9. Firebase provides three-way data binding with AngularFire, making sure all data is updated everywhere automatically.
+10. Has simple serialization of app state.
+11. It is easy to access data, files, authorization and more.
+12. No infrastructure to server needed to power apps with data.
+13. Has JSON storage, which means no issue between data and objects.
 
 
 ## Weaknesses
 
-* There are limited querying and indexing capabilities.
-* Has limited data migration.
-* It does not support native aggregation.
-* Some features are platform dependent. 
-* Firebase is Android centered.
-* Has less support for iOS. 
+1. There are limited querying and indexing capabilities.
+2. Has limited data migration.
+3. It does not support native aggregation.
+4. Some features are platform dependent. 
+5. Firebase is Android centered.
+6. Has less support for iOS. 
 
 
 ## Comparison
