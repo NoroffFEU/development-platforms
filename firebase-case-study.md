@@ -97,10 +97,8 @@ When comparing the prices, we see that you may choose to pay as you go with vari
 Firebase is often a great pick for often ramping up an application, but MongoDB might be the best option for storing and faster scaling. MongoDB stores geospatial information, while Firebase is used for real-time synchronization. If you want to store huge amounts of data you might want to go for MongoDB, while Firebase’s easy-to-use API is simple to integrate. 
 
 ## Some applications you may have heard of using Firebase
-![image](https://user-images.githubusercontent.com/91533917/218751166-547e3b09-5e7d-463d-9858-f1ccc1a0c1db.png)
-![image](https://user-images.githubusercontent.com/91533917/218751196-34001296-bd89-48e9-992e-cbf464449f6e.png)
-![image](https://user-images.githubusercontent.com/91533917/218751215-90f8a703-7fba-4b73-b1fc-2ee734447d59.png)
-![image](https://user-images.githubusercontent.com/91533917/218751238-ca2362ec-b08d-4543-9386-62cbe1fa2f10.png)
+![image](https://user-images.githubusercontent.com/91533917/218753092-5b154dc3-e062-4eec-b109-e291482bef0e.png)
+
 ![image](https://user-images.githubusercontent.com/91533917/218751259-2c38a121-4708-4202-b723-bedf30f6c1f0.png)
 
 
