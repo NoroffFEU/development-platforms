@@ -257,6 +257,13 @@ To create comparison between the software above i have used [this website](https
 
 ## How to
 
+```
+NOT sure if this will be included, I will have to see if i will include this
+I'm thinking to create a video montage of how to use Azure DevOps. 
+
+Add information about how to use Azure DevOps with git commands.
+```
+
 ## Summary
 
 Azure DevOps is a cloud computing platform and infrastructure with many features that can help you and your team with the workflow on your project. It's easy to create a free account with a small team and for a larger team you have more options.
