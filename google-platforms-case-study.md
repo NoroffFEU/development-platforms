@@ -22,20 +22,20 @@ The purpose of a TMS like GTM is to allow for a quick and easy way to update mea
 "Google Analytics is by far the biggest web analytics platform in the world" - Djuraskovic, O (2022)
 
 - 1998: A statistics analysis program, Urchin was developed.
-- March 2005: Google acquired Urchin. (digitalstateconsulting.com, 2014)
 
+- March 2005: Google acquired Urchin. (digitalstateconsulting.com, 2014)
 - 2005: 1st release. Urchin from Google(urchin.js). (Franco & Valdés, 2021)
 - November 2005: Google Introduced the first version of Google Analytics. (digitalstateconsulting.com, 2014).
 
 - 2007: 2nd release. Classic Google Analytics: Google Analytics Synchronous Code(ga.js). (Franco & Valdés, 2021)
-- 2007: The Analytics’ reporting interface was revamped for “greater customization and collaboration. "moving analytics from the back room of techies into the boardroom.(digitalstateconsulting.com, 2014)
+- 2007: The Analytics’ reporting interface was revamped for “greater customization and collaboration. "moving analytics from the back room of techies into the boardroom.(digitalstateconsulting.com, 2014)git
 
 - 2008: Continued to evolve with a series of beta updates. Such as: Advanced Segmentation, Custom Reports, Multi-dimensional Motion Charts, a new Management Dashboard. (digitalstateconsulting.com, 2014)
 
 - 2009: 2nd release update. Google Analytics Asynchronous Code (ga.js). (Franco & Valdés, 2021)
 
 - 2009: A new AdSense integration feature which helped users to measure website performance and ROI. In addition to a universal rollout of the Data Export API, which supported the integration of web analytics across multiple platforms.
-  October 2009: Google released version 4 og google analytics, with features such as: New algorithm, profile conversions, create goals for time spent on site and page views per visit.
+- October 2009: Google released version 4 og google analytics, with features such as: New algorithm, profile conversions, create goals for time spent on site and page views per visit.
   (digitalstateconsulting.com, 2014)
 
 "The V4 update laid the foundations for Google Analytics that we use today" - (digitalstateconsulting.com, 2014)
@@ -50,7 +50,7 @@ The purpose of a TMS like GTM is to allow for a quick and easy way to update mea
 
 - 2013: More than 70 product updates for UA. Such as improved user interface, new APIs, more real-time reports for users better to interpret visitor behavior. (digitalstateconsulting.com, 2014).
 
--2017: 3rd release update. Global Site Tag (gtag.js). (Franco & Valdés, 2021)
+- 2017: 3rd release update. Global Site Tag (gtag.js). (Franco & Valdés, 2021)
 
 - 2019: Google analytics 4(GA4) Beta lunch. (Weber, 2022)
 
