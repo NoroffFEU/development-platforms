@@ -9,11 +9,37 @@ folder: development-platforms
 
 ## Introduction
 
-PostgreSQL is one of the most advanced open-source relational databases. It's been active in development for 30+ years and has earned a strong reputation for its reliability, feature robustness, and performance.
+### Introction to databases
+A database is a collection of information stored within a computer, thus we can store, maintain and access that data. Databases can collect information on people, thing and places in one place so it can be organized, observed and analyzed. There are many different types of databases with each type providing different functionality to their users. The different types of databases also has each their own strengts and weaknesses based on how they are designed. 
+
+* Relational database
+     The most common type. Here, data is organized into tables(also called entities) and uses relationships between those tables to manage and retrieve information. 
+
+     Some types of relational database include:
+     * Hierarchical databases
+     * Network databases
+     * Object-oriented databases(OOD)
+
+     Examples of relational databases:
+     * MySQL
+     * PostgreSQL
+     * Oracle
+
+* Non-relational/NoSQL database
+     Also a very common type. In a non-relational database, the data within is unstructured. This allows them to process larger amounts of data, making it faster and easier to expand in the future.
+
+     A list of some different types of non-relational databases:
+     * Document databases stores data in document format. MondoDB is this type of database.
+     * Key-value databases stores data in a model that pairs a key with an associated value. Berkely DB, Dynamo and Redis uses this type of database.
+     * Graph databases stores data that is connected through defined relationships, it uses nodes, edges and properties to represent and store said data. Neo4j, ArangoDB and Amazon Netune are this type of database.
+     * Wide column stores data using columns, row, tables much like in a relational database, but formatting and naming conventions can vary across rows in a single database table. DBMSs data uses this type are ScyllaDB, Cassandra and Microsoft Azure Cosmos DB.
+
+     In this study, we will be taking a closer look at PostgreSQL which is an Object Relational Database Management System, ORDBMS for short. This means that in addition to being a relational database, PostgreSQL also supports object oriented concepts such as classes, objects and inheritances in this database. It is present in the ground level between the RDBMS and OODBMS.
+
+### Introduction to PostgreSQL
+PostgreSQL is one of the most advanced open-source relational databases. It's been active in development for 30+ years and has earned a strong reputation for its reliability, feature robustness, and performance. This ORDBMS is PostgreSQL which is taken from the POSTGRES package written at the University of California, Berkley. POSTGRES was used for different research and production application which include a financial data analysis system, a jet engine performance monitoring package, an asteroid tracking database, a medical information database, and several geographic information systems. It has also been used as an educational tool at several universities.
 
 ## Brief History
-
-This ORDBMS which stands for Object Relational Database Management system is PostgreSQL which is taken from the POSTGRES package written at the University of California, Berkley. POSTGRES was used for different research and production application which include a financial data analysis system, a jet engine performance monitoring package, an asteroid tracking database, a medical information database, and several geographic information systems. It has also been used as an educational tool at several universities. 
 
 ### The Berkley POSTGRES Project
 
@@ -87,9 +113,9 @@ Even though PostgreSQL is a very efficient database, it may not be as fast as so
 
 ## Comparison
 
-PostgreSQL VS MYSQL
+### PostgreSQL VS MYSQL
 
-Differences:
+#### Differences
 * PostgreSQL is an Object Relational Database Management System(ORDBMS) and MySQL is Relational Database Management System(RDBMS). Meaning in MySQL, all tables are interrelated, but PostgreSQL combines the characteristics of both ORDBMS and RDMBS so it doesn't only contain interrelated tables, but it also supports objects, classes, and inheritances.
 * PostgreSQL supports modern application features such as JSON, XML etc, while MySQL only supports JSON.
 * While PostgreSQL supports advanced data types such as arrays, hstore, and user-defined data types, MySQL only supports standard data types such as numeric, date and time, string, spatial and the JSON data type.
@@ -97,14 +123,12 @@ Differences:
 * PostgreSQL is also fully ACID compliant while MySQL is ACID compliant only through InnoDB and NDB Cluster Storage engines. 
 * In terms of how the learning curve is for these databases, PostgreSQL may be harder for beginners to learn compared to MySQL which is more user-friendly as takes less time to build a project from scratch.
 
-Similarities:
+#### Similarities
 * Both rely on SQL which enables tables to be joined using few lines of code.
 * Both PostgreSQL and MySQL have communities to provide support to their users where they have many volunteers that devote their time to offer free advice, recommendation and support to users.
 * On both DBMSs, you can use JSON for transporting and storing data, objects, and arrays.
 
 ## Summary
-
-Summarise the content and highlight the relevance of the product to a web developer.
 
 PostgreSQL, also known as Postgres, is a free and open-source Object Relational Database Management system with more than 30+ years of active development. It dates back to '80s when it was created by a computer science professor named Michael Stonebraker at the University of California, Berkley. It has then been renamed twice and now called PostgreSQL to signify the relationship between the original name and the use of SQL. It has many advanced features that safely store and scale the most complicated workloads. Though PostgreSQL has its strength with its many built-in features and more such as supporting many programming languages, being extensible, and handling large amount of data, it also has its challenges. PostgreSQL has a steep learning curve, making it hard for beginners and it also may be slower than other databases in certain workloads. 
 
@@ -117,6 +141,7 @@ PostgreSQL, also known as Postgres, is a free and open-source Object Relational 
 - https://www.postgresql.org
 - https://en.wikipedia.org/wiki/PostgreSQL
 - https://www.postgresqltutorial.com
+- https://www.indeed.com/career-advice/career-development/types-of-databases
 - https://dev.mysql.com
 - https://www.sql-workbench.eu/dbms_comparison.html
 - https://www.linkedin.com/pulse/what-postgresql-introduction-advantages-disadvantages-ankita-sharda/
