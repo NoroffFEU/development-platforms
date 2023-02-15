@@ -43,13 +43,13 @@ Azure DevOps has a range of services covering the full development life - cycle.
 
 - **Azure Boards**: Agile planning, work item tracking, visualization and reporting tool.
 
-- Azure Pipelines: A language, platform and cloud agnostic CI/CD platform with support for containers or Kubernetes.
+- **Azure Pipelines**: A language, platform and cloud agnostic CI/CD platform with support for containers or Kubernetes.
 
-- Azure Repos: Provides cloud - hosted private git repos.
+- **Azure Repos**: Provides cloud - hosted private git repos.
 
-- Azure Artifacts: Provides integrated package management with support for Maven, npm, Python and NuGet package feeds from public or private sources.
+- **Azure Artifacts**: Provides integrated package management with support for Maven, npm, Python and NuGet package feeds from public or private sources.
 
-- Azure Test Plans: Provides an integrated planned and exploratory testing solution.
+- **Azure Test Plans**: Provides an integrated planned and exploratory testing solution.
 
 - Azure DevOps can also be used to manage third - party tools.
 
@@ -57,30 +57,30 @@ Azure DevOps has a range of services covering the full development life - cycle.
 
 The benefits of using Azure DevOps are:
 
-- Reliability: As a SaaS offering, Azure DevOps is reliable, scalable and globally available. It is also backed by an SLA of 99.9% uptime and by 24/7 support.
+- **Reliability**: As a SaaS offering, Azure DevOps is reliable, scalable and globally available. It is also backed by an SLA of 99.9% uptime and by 24/7 support.
 
-- Access to the latest features: Every 3 weeks Azure DevOps gets access to new features. Microsoft is transparent and have published the product roadmap and are committed to rapidly iterating on the feature - set.
+- **Access to the latest features**: Every 3 weeks Azure DevOps gets access to new features. Microsoft is transparent and have published the product roadmap and are committed to rapidly iterating on the feature - set.
 
-- End of the upgrade cycle: Upgrades are a regular headache for organizations that are running on - premises CI/CD tooling. By moving to a SaaS model, you no longer need to worry about patching and upgrading the toolchain.
+- **End of the upgrade cycle**: Upgrades are a regular headache for organizations that are running on - premises CI/CD tooling. By moving to a SaaS model, you no longer need to worry about patching and upgrading the toolchain.
 
 Azure DevOps provides a platform that is not focused at organizations that are end - to - end Microsoft or Windows.
 Azure DevOps are:
 
-- Flexible: Organizations don't have to go "all in" on Azure DevOps. Organizations can adopt each of the services independently and integrate them with your existing tool chain, most of the popular tools are supported.
+- **Flexible**: Organizations don't have to go "all in" on Azure DevOps. Organizations can adopt each of the services independently and integrate them with your existing tool chain, most of the popular tools are supported.
 
-- Platform Agnostic: Azure DevOps is designed to work with ant platform (Linux, MacOS and Windows) or language (Node,js, Python, Java, PHP, Ruby, C/C++, .Net, Android and iOS apps).
+- **Platform Agnostic**: Azure DevOps is designed to work with ant platform (Linux, MacOS and Windows) or language (Node,js, Python, Java, PHP, Ruby, C/C++, .Net, Android and iOS apps).
 
-- Cloud Agnostic: It deliver continuos to AWS and GCP as well as to Azure.
+- **Cloud Agnostic**: It deliver continuos to AWS and GCP as well as to Azure.
 
 ## Weaknesses
 
 Some weaknesses Azure DevOps can have are:
 
-- Integration Challenges: DevOps requires a high level of integration between development and IT operations. This can be challenging to achieve, especially in large organizations with complex systems. DevOps can also require a significant culture change, which can be difficult to implement.
+- **Integration Challenges**: DevOps requires a high level of integration between development and IT operations. This can be challenging to achieve, especially in large organizations with complex systems. DevOps can also require a significant culture change, which can be difficult to implement.
 
-- Increased Risks: DevOps can increase the risk associated with software development. This is because it requires a high degree of automation. This can lead toi errors if not properly configured. DevOps can also make it difficult to track the source of the problems when they occur.
+- **Increased Risks**: DevOps can increase the risk associated with software development. This is because it requires a high degree of automation. This can lead toi errors if not properly configured. DevOps can also make it difficult to track the source of the problems when they occur.
 
-- High cost if misconfigured: It can be costly to implement if DevOps is not properly configured. DevOps needs a significant investment in automation and infrastructure. This can also lead to increased risks and integration challenges.
+- **High cost if misconfigured**: It can be costly to implement if DevOps is not properly configured. DevOps needs a significant investment in automation and infrastructure. This can also lead to increased risks and integration challenges.
 
 ## Comparison
 
