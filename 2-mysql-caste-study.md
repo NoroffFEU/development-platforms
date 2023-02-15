@@ -91,9 +91,9 @@ MySQL Cluster CGE (10.000 USD / year per server)
 
 ## Features
 
-Outline the product's key features.
-
 #### Internals
+
+<!-- !!! -->
 
 - MySQL is written in C and C++ and portable across a variety of platforms.
 - The C API gives a low-level access to the client/server protocol.
