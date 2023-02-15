@@ -141,19 +141,9 @@ It's time to see Strapi in action. In this demonstration, a simple API designed 
 
 29. It's time to check whether the API is already available. Go to http://localhost:1337/api/articles. Nothing is displayed yet (403 status). That's because the API has net yet been set to public. To do that, go back to Strapi's dashboard and click on "Settings".
 30. Under the "Users & Permissions Plugin" area, click on "Roles". Then click on "Public".
-31. Under permissions, you will be able to edit the public access to the different content-types you have created. In our case, let's click on "Articles". Tick the "find" and "findOne" boxes. Then click on save.
+31. Under permissions, you will be able to edit the public access to the different content-types you have created. In our case, let's click on "Articles". Tick the "find" and "findOne" boxes. Then click on save. This enable the API users to access individual endpoints for each article.
 32. Now, if you repeat step 29 (or refresh the page), the API data will be correctly displayed. It is ready to be consumed in our local development environment.
 33. The API will continue to be available for as long as the `npm run develop` command keeps running in your terminal. In order to interrupt the process, exit the process (by pressing "control C", for example). After refreshing the page, the API will no longer be available. To make it locally available again, run the command `npm run develop` one more time.
-
-34. Accessing the data
-    1.  Try going to http://localhost:1337/api/articles
-    2.  It does not allow us to see the content. All endpoints are private, unless we give permission.
-    3.  To get permission: settings > Roles > Public
-    4.  Tick the box "find" and save. Now, we can see the data that Strapi provides us.
-    5.  Find: to find all items
-    6.  Findone: to be able to find one by ID, for example
-    7.  Count: gives the count
-    8.  Now, the data is available in JSON format ready to be used.
 
 ## Summary
 
