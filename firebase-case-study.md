@@ -78,7 +78,7 @@ Engage
 ## Weaknesses
 
 1. There are limited querying and indexing capabilities.
-2. Has limited data migration.
+2. Has limited data migration options.
 3. It does not support native aggregation.
 4. Some features are platform dependent. 
 5. Firebase is Android centered.
