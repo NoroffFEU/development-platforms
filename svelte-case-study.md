@@ -22,8 +22,6 @@ folder: development-platforms
 ## Introduction
 Svelte is a javascript compiler, its similar to React, but react uses Virtual DOM and both provide a similar component-based architecture -- that means both enable a CDD bottom-up development, and both enable sharing their components between apps, via tools and platforms like [Github](www.github.com).
 
-In this study case i will get into how to use it.
-
 ## Brief History
 [Svelte](https://svelte.dev/) was created by Rich Harris. Svelte is a free and open source front end component framework / language, it is not a monolithic JavaScript library imported by applications. Instead, it compiles HTML templates to specialized code that manipulates the DOM directly. And was initial released / first commit on `26th November, 2016`.
 
@@ -141,7 +139,7 @@ You combined this with a script tag in the svelte file where you will be setting
 </script>
 ```
 
-#### If you want to specify the context of the script, you can use different context attributes to the script tag.
+#### Context of the script.
 
 - If you are using typescript you can use the following at the top of your script file
 `<script lang="ts"></script>`
@@ -151,11 +149,93 @@ You combined this with a script tag in the svelte file where you will be setting
 
 - If your script should be a instance, you just switch out module for instance.
 
-#### Syntax 
+- If the script should be loaded asynchronously you can use async
+`<script async></script>` this can improve performance by allwoing the script to load after the component has finished rendering.
+
+- if you want to debug you can use
+`<script debug></script>` This attribute enables or disables debugging mode for the component. This is by default `"true"`
+
+#### Svelte Syntax
 
 Svelte application components are defined with `.svelte` files. Wich are HTML files extended with templating syntax that is based on Javascript and is similar to JSX.
 
+---
+`{@debug}` This tag offers an alternative to console.log(), if you want to console log / debug something in your code.
 
+Example:
+```js
+<script>
+	let user = {
+		firstname: 'Ada',
+		lastname: 'Lovelace'
+	};
+</script>
+
+{@debug user}
+
+<h1>Hello {user.firstname}!</h1>
+```
+This will debug user object, and console log the response.
+
+#### [Learn more](https://svelte.dev/docs#template-syntax-debug)
+---
+`@const myVar` defines a local constant and is only allowed as a direct child of 
+`{#if}`, `{:else if}`, `{:else}`, `{#each}`, `{:then}`, `{:catch}`, `<Component />` or `<svelte:fragment />`.
+
+Example:
+```js
+<script>
+	export let boxes;
+</script>
+
+{#each boxes as box}
+	{@const area = box.width * box.height}
+	{box.width} * {box.height} = {area}
+{/each}
+```
+
+#### [Learn more](https://svelte.dev/docs#template-syntax-const)
+---
+`{#each items as item} {/each}` For each block, you can combine this with index, (key), and `{:else}`
+
+Example:
+```js
+<h1>Shopping list</h1>
+<ul>
+	{#each items as item}
+		<li>{item.name} x {item.qty}</li>
+	{/each}
+</ul>
+```
+
+#### [Learn more](https://svelte.dev/docs#template-syntax-each)
+---
+`{#await expression}.. {:then item} .. {:catch error} .. {/await}` You can also exclude `:then`, if you dont need to render anything when the promise rejects you can also remove `:catch`.
+
+Example:
+```js
+ <div class="items-container">
+   <ul>
+     {#await fetchItems(baseUrl + API_KEY + langEnUs)}
+<---- Promise is pending ----->
+       <p style="font-weight: bold">loading...</p>
+     {:then items}
+<---- Promise was fulfilled ----->
+       {#each items as item}
+         <li id={item.id}>{item.name}</li>
+       {/each}
+     {:catch err}
+<---- Promise was rejected ----->
+       <p class="error">Something went wrong! -- {err}</p>
+     {/await}
+   </ul>
+ </div>
+```
+
+#### [Learn more](https://svelte.dev/docs#template-syntax-await).
+---
+
+[Svelte template syntax](https://svelte.dev/docs#template-syntax)
 
 ## Strengths
 
