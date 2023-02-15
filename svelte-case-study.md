@@ -112,7 +112,7 @@ This is an example of a fetch using svelte.
 ```
 This code will generate the items straight in the html using the `#await` syntax.
 
-You combined this with a script tag in the svelte file where you will be setting up the fetch.
+You combine this with a script tag in the svelte file where you will be setting up the fetch.
 ```js
 <script>
   const baseUrl = "your url";
@@ -139,6 +139,27 @@ You combined this with a script tag in the svelte file where you will be setting
 </script>
 ```
 
+The content in the svelte files looks like this.
+```
+<script>
+import Nav from "../lib/comp/Nav.svelte"
+</script>
+
+HTML
+// If your in App.svelte you will also have a head and main tag.
+<svelte:head>
+<title>Homepage | PageName</title>
+</svelte:head>
+
+<main>
+<Nav />
+</main>
+
+<styles>
+@import "../css.app.css";
+</styles>
+```
+
 #### Context of the script.
 
 - If you are using typescript you can use the following at the top of your script file
@@ -157,7 +178,7 @@ You combined this with a script tag in the svelte file where you will be setting
 
 #### Svelte Syntax
 
-Svelte application components are defined with `.svelte` files. Wich are HTML files extended with templating syntax that is based on Javascript and is similar to JSX.
+Svelte application components are defined with `.svelte` files. Wich are HTML files extended with templating syntax that is based on Javascript and is similar to JSX. You can use __layout.svelte to create a layout that will be on all the pages like header and navigation.
 
 ---
 `{@debug}` This tag offers an alternative to console.log(), if you want to console log / debug something in your code.
@@ -174,6 +195,12 @@ Example:
 {@debug user}
 
 <h1>Hello {user.firstname}!</h1>
+
+<style>
+h1 {
+color: green;
+}
+</style>
 ```
 This will debug user object, and console log the response.
 
@@ -277,7 +304,7 @@ Unlike react components, Svelte components allow you to write code in a way that
 
 ## Summary
 
-Svelte's blazing fast build time and tiny bundle sizes are quite appealing, especially for small applications. It is easy to understand and use.
+Svelte's blazing fast build time and tiny bundle sizes are quite appealing, especially for small applications. It is easy to understand and use thus great for beginners.
 
 Since release, svelte has become the most popular framework available as shown in the
 [State of javascript survey](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/).
