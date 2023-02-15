@@ -66,6 +66,7 @@ Svelte on the other hand "surgically" update the app whenever there's a change, 
 - Very small file size, Svelte's bundle size being 1.6KB
 - Simple syntax so it's easy to learn, only need knowledge of HTML, CSS and JavaScript to get started in learning how to use Svelte and SvelteKit.
 - Fast speed and performance, with server-side rendering you take care of the rendering and don't make the end user use computational power to see your site.
+- No virtual DOM, which is less overhead for the application and less data needing to be sent as the virtual DOM is a means to an end, writing code that more or less just "works" transition wise and works okay enough performance wise.
 
 ## Weaknesses
 
@@ -112,6 +113,10 @@ https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-web
 Features:</br>
 https://vercel.com/docs/beginner-sveltekit </br>
 https://searchengineland.com/server-side-rendering-what-seos-need-to-understand-346296 </br>
+https://svelte.dev/blog/virtual-dom-is-pure-overhead </br>
+
+Strengths:</br>
+https://svelte.dev/blog/virtual-dom-is-pure-overhead </br>
 
 Comparison:</br>
 https://refine.dev/blog/svelte-vs-react/#:~:text=Svelte%20is%20a%20relatively%20new,based%20approach%20to%20web%20development.
