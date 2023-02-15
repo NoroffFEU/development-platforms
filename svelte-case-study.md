@@ -23,19 +23,21 @@ folder: development-platforms
 Svelte is a javascript compiler, its similar to React, but react uses Virtual DOM and both provide a similar component-based architecture -- that means both enable a CDD bottom-up development, and both enable sharing their components between apps, via tools and platforms like [Github](www.github.com).
 
 ## Brief History
-[Svelte](https://svelte.dev/) was created by Rich Harris. Svelte is a free and open source front end component framework / language, it is not a monolithic JavaScript library imported by applications. Instead, it compiles HTML templates to specialized code that manipulates the DOM directly. And was initial released / first commit on `26th November, 2016`.
+[Svelte](https://svelte.dev/) was created by Rich Harris. Svelte is a free and open source front end component framework / language, it is not a monolithic JavaScript library imported by applications. Instead, it compiles HTML templates to specialized code that manipulates the DOM directly. And was initial released `26th November, 2016`.
 
-- `26th November, 2016` The initial commit to the svelte Github repo.
+- `23th May, 2016` The initial commit to the svelte Github repo.
 
-- `29th November, 2016` The first stable version 1.0 was lunched.
+- `29th November, 2016` was first released.
 
-- `29th November, 2017` Version 2.0 is released, major performance improvements and a new API for writing components.
+- `19th September, 2017` First stable version of svelte, version 1.0 was released.
 
-- `5th March, 2018` Version 2.5 is released, with new features like context API and improved TypeScript support.
+- `29th November, 2017` Version 2.0 is released, major performance improvements like a new API for writing components and TypeScript support.
+
+- `25th January, 2019` Version 2.4 is released, with new features like context API and improved TypeScript support.
 
 - `19th April, 2019` Svelte is written in TypeScript
 
-- `3th September, 2019` Version 3.0 is released, with a rewritten compiler, improved performance and a new feature like reactive declarations and context API.
+- `21th April, 2019` Version 3.0 is released written in TypeScript, with a rewritten compiler.
 
 - `22th October, 2020` Svelte Summit, the first virtual conference dedicated to Svelte took place.
 
