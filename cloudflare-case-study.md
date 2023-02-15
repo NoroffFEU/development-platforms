@@ -49,9 +49,9 @@ Mitigating attacks like these is one of the tasks Cloudflare takes on as a bounc
 
 ### Cloudflare Workers - serverless computing platform
 
-Serverless computing is a service in which a cloud provider takes care on the servers on behalf of their customers. Serverless means that the customer writing the code does not have to worry about configuring or maintaining infrastructure. The Cloudflare Workers runtime is uses the V8 engine - the same JavaScript (JS) engine used in Chromium browsers and the Node.js runtime enviroment. 
+Serverless computing is a service in which a cloud provider takes care of the servers on behalf of their customers. Serverless means that the customer writing the code does not have to worry about configuring or maintaining infrastructure. The Cloudflare Workers runtime uses the V8 engine - the same JavaScript (JS) engine used in Chromium browsers and the Node.js runtime enviroment. 
 
-There are some differences between JS written for a browser or for Node.js. Rather than running in a browser or a server, Worker functions runs on Cloudflare's global cloud network, where each of the machines on the network hosts an instance of the Workers runtime, each of which is capable of running thousands of user-defined apps. 
+There are some differences between JS written for a browser or for Node.js. Rather than running in a browser or on a server, Workers functions runs on Cloudflare's global cloud network, where each of the machines on the network hosts an instance of the Workers runtime, each of which is capable of running thousands of user-defined apps. 
 
 ## Strengths
 
