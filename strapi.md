@@ -164,3 +164,10 @@ This article has covered one of the many possible ways of getting started with S
 Henri Kugler (@NehGuk)
 
 ## References
+
+- [Strapi's official documentation](https://docs.strapi.io/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project)
+- [BuiltWith: Open Source Usage Distribution in the Top 10k Sites](https://trends.builtwith.com/shop/open-source/traffic/Top-10k)
+- [Contentful](https://www.contentful.com)
+- [Sanity.io](https://www.sanity.io)
+- [Getting started with Strapi Headless CMS on mac with PostgreSQL](https://www.youtube.com/watch?v=FeZyCxwb1aQ)
+- [Laith Academy: Strap1 v4 Crash Course](https://www.youtube.com/watch?v=vcopLqUq594)
