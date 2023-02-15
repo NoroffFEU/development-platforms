@@ -165,7 +165,8 @@ Henri Kugler (@NehGuk)
 
 ## References
 
-- [Strapi's official documentation](https://docs.strapi.io/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project)
+- [Strapi's Official Documentation](https://docs.strapi.io/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project)
+- [PostgreSQL Official Documentation](https://www.postgresql.org)
 - [BuiltWith: Open Source Usage Distribution in the Top 10k Sites](https://trends.builtwith.com/shop/open-source/traffic/Top-10k)
 - [Contentful](https://www.contentful.com)
 - [Sanity.io](https://www.sanity.io)
