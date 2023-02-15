@@ -17,7 +17,7 @@ folder: development-platforms
 - [Weaknesses](#weaknesses)
 - [Compared to react](#comparison)
 - [Summary](#summary)
-- [Credtis & Refrences](#credits)
+- [Credits & References](#credits)
 
 ## Introduction
 Svelte is a javascript compiler, its similar to React, but react uses Virtual DOM and both provide a similar component-based architecture -- that means both enable a CDD bottom-up development, and both enable sharing their components between apps, via tools and platforms like [Github](www.github.com).
@@ -37,7 +37,7 @@ Svelte is a javascript compiler, its similar to React, but react uses Virtual DO
 
 - `3th September, 2019` Version 3.0 is released, with a rewritten compiler, improved performance and a new feature like reactive declarations and context API.
 
-- `22th October, 2020` Svelte Summit, the first virtual confrence dedicated to Svelte took place.
+- `22th October, 2020` Svelte Summit, the first virtual conference dedicated to Svelte took place.
 
 - `1th December, 2020` SvelteKit was announced in a blog post. 
 
@@ -166,19 +166,19 @@ HTML
 `<script lang="ts"></script>`
 
 - If your script should be a module you can use the following in the same way
-`<script lang="ts" context="module"></script>` this is the deault so instead you can use the `<script context></script>` in the instance of reffering to it as a module.
+`<script lang="ts" context="module"></script>` this is the default so instead you can use the `<script context></script>` in the instance of referring to it as a module.
 
 - If your script should be a instance, you just switch out module for instance.
 
 - If the script should be loaded asynchronously you can use async
-`<script async></script>` this can improve performance by allwoing the script to load after the component has finished rendering.
+`<script async></script>` this can improve performance by allowing the script to load after the component has finished rendering.
 
 - if you want to debug you can use
 `<script debug></script>` This attribute enables or disables debugging mode for the component. This is by default `"true"`
 
 #### Svelte Syntax
 
-Svelte application components are defined with `.svelte` files. Wich are HTML files extended with templating syntax that is based on Javascript and is similar to JSX. You can use __layout.svelte to create a layout that will be on all the pages like header and navigation.
+Svelte application components are defined with `.svelte` files. Which are HTML files extended with templating syntax that is based on Javascript and is similar to JSX. You can use __layout.svelte to create a layout that will be on all the pages like header and navigation.
 
 ---
 `{@debug}` This tag offers an alternative to console.log(), if you want to console log / debug something in your code.
@@ -237,7 +237,7 @@ Example:
 
 #### [Learn more](https://svelte.dev/docs#template-syntax-each)
 ---
-`{#await expression}.. {:then item} .. {:catch error} .. {/await}` You can also exclude `:then`, if you dont need to render anything when the promise rejects you can also remove `:catch`.
+`{#await expression}.. {:then item} .. {:catch error} .. {/await}` You can also exclude `:then`, if you do not need to render anything when the promise rejects you can also remove `:catch`.
 
 Example:
 ```js
@@ -278,12 +278,12 @@ Example:
 
 ## Weaknesses
 
-- Svelte won't listen for refrence updates and array mutations, and developers need to actively look out for this and make sure arrays are reassigned so the UI will be updated
+- Svelte won't listen for reference updates and array mutations, and developers need to actively look out for this and make sure arrays are reassigned so the UI will be updated
 
 - Usage syntax for DOM events can also be annoying, cannot directly use `onClick`, but instead use special syntax such as `on:click`
 
 - Svelte is a new and young framework with minimal community support,
-thereby doesnt have support for a wide range of plugins and integrations that might be required by heavy production applications. React is the powerful contender here. 
+thereby does not have support for a wide range of plugins and integrations that might be required by heavy production applications. React is the powerful contender here. 
 
 ## Comparison
 
@@ -333,7 +333,7 @@ Tony Erlandsen - Sigvel
 
 - https://www.youtube.com/watch?v=rkwKpULfWZA
 
-#### Additional refrences
+#### Additional references
 
 - [Degit npm docs](https://www.npmjs.com/package/degit)
 
