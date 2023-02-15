@@ -241,32 +241,50 @@ Example:
 
 - The building time is much faster when compared to react or even other frameworks.
 
-- Bundle size is smaller and tiny when gzipped compared to react
+- Bundle size is smaller and tiny when gzipped.
 
 - Binding classes and variables are relative easy, and custom logic is not needed when binding classes.
 
+- Scoping CSS withing the component itself allows flexible styling.
+
+- Easier to understand and get started with compared to other frameworks.
+
 ## Weaknesses
 
-- Svelte won't listen for refrence updates and array mutations, and developers need to acctively look out for this and make sure arrays are reassigned so the UI will be updated
+- Svelte won't listen for refrence updates and array mutations, and developers need to actively look out for this and make sure arrays are reassigned so the UI will be updated
 
 - Usage syntax for DOM events can also be annoying, cannot directly use `onClick`, but instead use special syntax such as `on:click`
 
 - Svelte is a new and young framework with minimal community support,
 thereby doesnt have support for a wide range of plugins and integrations that might be required by heavy production applications. React is the powerful contender here. 
 
-Discuss the product's weaknesses.
-
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+### Svelte vs react
+
+Both Svelte and React.js are component-based JavaScript frameworks for web application development. Their main difference is that
+svelte is a compiler that converts your application into ideal JavaScript during build time as opposed to React, which uses a virtual DOM to interpret the application code during runtime.
+
+![Svelte vs. React Behind the Scenes](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*_7upPeJparkaxnpBhOkZig.png)
+
+According to the [Svelte Documentation](https://svelte.dev/)
+
+> Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.
+
+> Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.
+
+Unlike react components, Svelte components allow you to write code in a way that feels a lot more like writing HTML, CSS and Javascript. Svelte uses its own template language to create your user interface and react uses JSX to accomplish the same.
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+Svelte's blazing fast build time and tiny bundle sizes are quite appealing, especially for small applications. It is easy to understand and use.
+
+Since release, svelte has become the most popular framework available as shown in the
+[State of javascript survey](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/).
 
 ### Credits
 
-- Sigvel
+Tony Erlandsen - Sigvel
 
 ### References
 
@@ -278,13 +296,15 @@ Summarise the content and highlight the relevance of the product to a web develo
 
 - https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started
 
-- https://www.youtube.com/watch?v=rkwKpULfWZA
+- https://www.twilio.com/blog/react-svelte-comparing-basics
 
 - https://chat.openai.com/chat
 
 #### Video References
 
 - https://www.youtube.com/watch?v=3TVy6GdtNuQ
+
+- https://www.youtube.com/watch?v=rkwKpULfWZA
 
 #### Additional refrences
 
