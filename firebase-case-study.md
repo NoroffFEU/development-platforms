@@ -82,7 +82,7 @@ Engage
 3. It does not support native aggregation.
 4. Some features are platform dependent. 
 5. Firebase is Android centric.
-6. Has less support for iOS. 
+6. Offers less support for iOS. 
 
 
 ## Comparison
