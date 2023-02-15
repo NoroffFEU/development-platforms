@@ -89,6 +89,10 @@ Another significant improvement was made with the introduction of the Moderation
 
 The search engine You.com launched a similar tool the 24th December 2022. It allows users to ask questions and get an answer promptly, and it can also help software developers read and debug code. The key difference with ChatGPT is that the engine doesn't seem to remember what happened earlier in the conversation, which makes it difficult to actually chat with it.
 
+## ChatGPT - demo
+
+[This repository was created with the aim of demonstrating how the chatbot works in the context of web development.](https://github.com/Melisa-Zorraindo/ChatGPT-demo) The readme file explains in detail the instructions given, as well as the challenges I encountered.
+
 ## Summary
 
 Many have expressed their concern about ChatGPT and other AI tools built on large language models taking their jobs. As technology improves, these models will be capable of better understand irony, sarcarsm, jokes, human emotions, and the nuances introduced by cultural differences making them extremely powerful and suitable for sectors like psychiatry and medicine.
