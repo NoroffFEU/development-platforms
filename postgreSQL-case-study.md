@@ -101,7 +101,21 @@ PostgreSQL is designed to be extensible. It allows you to define your own data t
 Scalability is how a system/database can handle a growing amount of demands by adding resources, and PostgreSQL can do just that. It can handle large amounts of data and it scales up as the data grows. 
 
 ### ACID Compliant
-PostgreSQL is reliable because it is ACID(Atomicity, Consistency, Isolation, and Durability) compliant meaning queries will maintain data integrity. POSTGRES is known for its rock solid referential and transactional integrity.
+PostgreSQL is reliable because it is ACID(Atomicity, Consistency, Isolation, and Durability) compliant meaning queries will maintain data integrity. POSTGRES is known for its rock solid referential and transactional integrity. ACID in a database system refers to four properties of a transaction. These sets of properties makes sure a database transaction are processed reliably before and after. Transactions in this case refers to a set of actions/operations that are used to perform some logical set of work that accesses and can possibly modify the contents of a database. We can access the transactions using read and write operations. 
+
+#### Atomicity
+This means that the transaction either takes place all at once or doesn't happen at all. The is no midway. Every transaction are considered as one single sted which either run to completion or not executed at all. Atomicity is also known as "all or nothing".
+
+#### Consistency
+Consistency ensures that all data will be consistent meaning that the integrity constrains is maintained throughout a transaction. 
+
+#### Isolation 
+This guarantees that all transactions will occur in isolation meaning a transaction occurs independently, and wont be affected by other transactions. 
+
+#### Durability
+Durability ensures that once a transaction is done, it will remain and persist in the system even if a failure happens. The effects of a transaction are never lost as these updates become permanent and are stored in the non-volatile memory. 
+
+In short, ACID are the properties of a transaction that provide a mechanism in database management systems to ensure the consistency and correctness of any database.
 
 ## Weaknesses
 
@@ -142,6 +156,8 @@ PostgreSQL, also known as Postgres, is a free and open-source Object Relational 
 - https://en.wikipedia.org/wiki/PostgreSQL
 - https://www.postgresqltutorial.com
 - https://www.indeed.com/career-advice/career-development/types-of-databases
+- https://database.guide/what-is-acid-in-databases/
+- https://www.geeksforgeeks.org/acid-properties-in-dbms/
 - https://dev.mysql.com
 - https://www.sql-workbench.eu/dbms_comparison.html
 - https://www.linkedin.com/pulse/what-postgresql-introduction-advantages-disadvantages-ankita-sharda/
