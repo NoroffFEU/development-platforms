@@ -161,7 +161,7 @@ This article has covered one of the many possible ways of getting started with S
 
 ## Credits
 
-Henri Kugler (@NehGuk)
+Henri Kugler ([@NehGuk](https://github.com/NehGuk))
 
 ## References
 
