@@ -41,7 +41,7 @@ In 2018 Microsoft renamed Team Foundation Server (TFS) product to Azure DevOps b
 
 Azure DevOps has a range of services covering the full development life - cycle. These are:
 
-- Azure Boards: Agile planning, work item tracking, visualization and reporting tool.
+- **Azure Boards**: Agile planning, work item tracking, visualization and reporting tool.
 
 - Azure Pipelines: A language, platform and cloud agnostic CI/CD platform with support for containers or Kubernetes.
 
