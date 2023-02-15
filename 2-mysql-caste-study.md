@@ -377,52 +377,47 @@ Non-ACID-compliant databases can potentially trade integrity for speed.
 
 <!-- Compare the product to other products in the same category, if applicable. -->
 
-It seems to be that the three overwhelmingly most used open-source relational databases are MySQL, PostgreSQL and Microsoft SQL Server, in given order. I'm therefore going to make a comparison between MySQL and PostgreSQL.
+The three overwhelmingly most used open-source relational databases are MySQL, PostgreSQL and Microsoft SQL Server, in given order. I'm therefore going to make a comparison between MySQL and PostgreSQL.
 
-Both are open-source software which makes it free-to-use and enables users modify the software to their own needs.
-They are generally considered to be Relational database management systems (RDBMS), however, Postgres is actually an object-relational database (ORDBMS). The difference between these is the way they store and organize their data.
+Both MySQL and PostgreSQL are open-source software, this makes them free-to-use and enables users modify the software to their own needs.
+They are both generally considered to be Relational Database Management Systems (RDBMS), however, Postgres is actually an Object-Relational Database (ORDBMS).
+
+The main difference between these is the way they store and organize their data.
 An RDBMS stores it's data in tables and relationships and an ORDBMS stores it's data in objects and classes.
-Object-relational databases are better at handling complex data structures, can store and manipulate other formats such as xml and json,
-allows for more complex relationships and generally considered better at handling many-to-many relationships.
+Object-relational databases are better at handling complex data structures, can store and manipulate other formats such as hstore and xml, allows for more complex relationships and generally considered better at handling many-to-many relationships.
 
-MySQL is purely a relational database that connects using a single thread process as opposed to Postgres which creates a new system process using it's memory allocation for every connection. <!-- This makes MySQL a better fit for application that arent -!>
+MySQL is purely a relational database that connects using a single thread process as opposed to Postgres which creates a new system process using it's memory allocation for every connection. This makes postgres slightly slower when reading data and gives MySQL an advantage when it comes to smaller scale projects.
 
-<!-- postgres system process via memory for every client, read more, mysql uses single process and single thread for every connection, read more -->
+Replication is supported by both systems. Postgres uses synchronous replication, and MySQL uses one-way asynchronous replication.
+Postgres offer more ways to use indexes such as indexing JSON, hash indexes and partial indexes.
 
-<!-- storage engines -->
+Security is an almost even race. Both services support AES,TSL and SSL, although TSL must be configured to postgres before use.
+For authentication Postgres uses an IP-based client with Kerberos and PAM, whereas MySQL uses native window services, LDAP and PAM.
 
-##### Similarities
+#### Conclusion
 
-- Uses tables that have relationships between them.
-- Widely adopted
-- Has large communities
+MySQL and PostgreSQL are database software that truly have stood the test of time.
+Choosing the right database is a determining factor, so it depends on what your use case is.
 
-Syntax: Both are based on the same foundational SQL (structured query language). However, they have developed their own dialect over time.
-This is an example of how a SELECT query in both MySQL and postgres:
+If your application needs a database that is feature-rich, can handle complex queries, frequent write operations and unique ways to index, then PostgreSQL is a good choice.
 
-`SELECT * FROM USERS;`
+If your application is smaller, you would perhaps want something light that requires less maintenance but is also easy to manage and reliable.
 
-MySQL does not support multiple subqueries e.g. "ALT" or "LIMIT",
-nor does it support these SQL clauses: "OUTER JOIN" or "INTERSECT".
+##### Use cases:
 
-<!-- - supported by prisma -->
+MySQL:
 
-##### Differences
+- Transactions
+- Storage and logistics
+- Customer data
+- eCommerce.
 
-- SQL: While they are both rooted in the same SQL language, they have quite a differing syntax today.
-  PostgreSQL uses a more advanced version of the query language known as PL/SQL
-- Transactions: PostgreSQL transaction capabilities are more advanced and support multi-version concurrency control (MVCC).
-- Data Types: PostgreSQL supports a more diverse set of data-types.
-- Indexing: PostgreSQL supports more advanced index capabilities, e.g. partial indexes and indexes on expressions.
-- security: PostgreSQL has a more comprehensive built-in security system that support data encryption and row-level security.
-- Postgres has support for a few more languages
--
+PostgreSQL:
 
-<!-- PostgreSQL is a suitable choice for optimizing supply chain performance and storage (don't use this) -->
-<!-- Postgres seems to have good support fo no-sql, read more -->
-<!-- Postgres good for scientific data, read more -->
-
-##### use-case
+- Scientific data
+- Industrial data
+- Spatial and Geographic data
+- large datasets
 
 ## Summary
 
@@ -449,11 +444,18 @@ Articles:
 - https://www.interviewbit.com/blog/mysql-commands/
 - https://www.techonthenet.com/mysql/functions.php
 - https://dev.mysql.com/doc/mysql-reslimits-excerpt/8.0/en/table-size-limit.html#:~:text=You%20are%20using%20a%20MyISAM,2567%20%E2%88%92%201%20bytes).
-- https://satoricyber.com/mysql-security/mysql-security-common-threats-and-8-best-practices/#:~:text=MySQL%20protects%20sensitive%20data%20access,Asymmetric%20Public%20Key%20Encryption%2FDecryption
+- https://satoricyber.com/mysql-security/mysql-security-common-threats-and-8-best-practices/#:~:text=MySQL%20protects%20sensitive%20data%20accessAsymmetric%20Public%20Key%20Encryption%2FDecryption
 - https://kinsta.com/blog/postgresql-vs-mysql/#postgresql-vs-mysql-headtohead-comparison
 - https://www.fivetran.com/blog/postgresql-vs-mysql
-- https://zetcode.com/mysql/storageengines/#:~:text=There%20are%20two%20types%20of,to%20version%205.5%20was%20MyISAM.
+- https://zetcode.com/mysql/storageengines/#:~:text=There%20are%20two%20types%20ofto%20version%205.5%20was%20MyISAM.
 - https://www.postgresql.org/docs/current/connect-estab.html#:~:text=PostgreSQL%20implements%20a%20%E2%80%9Cprocess%20per,time%20a%20connection%20is%20requested.
+- https://blog.devart.com/postgresql-vs-mysql.html
+- https://www.sumologic.com/blog/postgresql-vs-mysql/
+- https://www.postgresql.org/docs/current/ssl-tcp.html
+- https://www.integrate.io/blog/postgresql-vs-mysql-which-one-is-better-for-your-use-case/#:~:text=Most%20developers%20will%20tell%20yoularge%20and%20complicated%20analytical%20processes.
+- https://www.postgresql.org/docs/current/libpq-ssl.html#:~:text=PostgreSQL%20has%20native%20support%20forTLS%20protocols%20for%20increased%20security.
+- https://www.postgresql.org/docs/current/user-manag.html
+- https://www.immuta.com/blog/attribute-based-access-control/
 
 Videos:
 
@@ -461,3 +463,4 @@ Videos:
 - https://www.youtube.com/watch?v=OqjJjpjDRLc
 - https://www.youtube.com/watch?v=EIo1JFCWpfA&t=90s
 - https://www.youtube.com/watch?v=UGu9unCW4PA&list=PL_c9BZzLwBRKn20DFbNeLAAbw4ZMTlZPH
+- https://www.youtube.com/watch?v=btjBNKP49Rk&t=300s
