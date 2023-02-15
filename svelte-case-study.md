@@ -23,7 +23,7 @@ folder: development-platforms
 
 ## Introduction
 
-Svelte, loaned from the french meaning "Stretched Out" is a free and open source component framework, compiler as well as a language created by Rich Harris and it's focus is to limit how much is transferred between the server and client as a SPA, it builds everything as JavaScript during the build-time so the browser only needs to receive JavaScript and that's all it'll receive instead of a framework, this helps keeping Svelte lightweight with great performance, whilst the language only requires you to know HTML, CSS and JavaScript to build a quick and responsive Svelte or SvelteKit application as it's very easy to learn.
+Svelte, loaned from the french meaning "Stretched Out" is a free and open source component framework, compiler as well as a language created by Rich Harris and it's focus is to limit how much is transferred between the server and client, it builds everything as JavaScript during the build-time so the browser only needs to receive JavaScript and that's all it'll receive instead of a framework, this helps keeping Svelte lightweight with great performance, whilst the language only requires you to know HTML, CSS and JavaScript to build a quick and responsive Svelte or SvelteKit application as it's very easy to learn.
 
 It was created by Rich Harris who had previously worked on ractive.js and was originally written in JavaScript but was later written in TypeScript. in 2021 SvelteKit came and improved upon Svelte with taking the good bits from it and got the ability to handle the building of a fullstack application with server-side rendering, API and endpoints to name a few.
 
@@ -50,14 +50,16 @@ It was created by Rich Harris who had previously worked on ractive.js and was or
 
 **It's a compiler:** Being more of a compiler than a framework, Svelte allows you to write Svelte code that becomes optimised and lightweight JavaScript code for the browser to reduce loadtime, you send the least amount of code necessary to get exactly the results you want. This is very small in size and very efficient for the client to work with.
 
-**Reactivity:** Instead of relying on an API to tell the virtual DOM what to do when and being tied to it as in, without the Virtual DOM it'll never have any idea of when a change in data is occuring and can't react without it. Svelte on the other hand "surgically" update the app whenever there's a change, not needing to look at the virtual DOM for changes and directly works with the DOM.
-
 **Code-splitting:** SvelteKit uses code-splitting to only use the code needed for that **route** to reduce the load by only sending to the client only what is needed for the page, and reusing components and get what is lacking when opening new pages on the website.
 
 **Server-side rendering:** SvelteKit will render the contents of the page as HTML before sending it to the client, limiting the initial loadtime and improving the user experience for the user and then hydrating the JavaScript to become functional on the client's side with client-side rendering.
 
 Server-side rendering also helps with Search Engine Optimisation, as by sending the HTML first Google can find your site's metadata and credit you appropriately and put you higher on search results,
 as well as limits the amount of resources the client needs to use to view the site and allows for faster loading.
+
+**Reactivity:** Instead of relying on an API to tell the virtual DOM what to do when and being tied to it as in, without the Virtual DOM it'll never have any idea of when a change in data is occuring and can't react without it.
+The virtual DOM also has to check with an earlier snapshot of the virtual DOM to make comparisons to know what to change before sending the next changes to the DOM which increases the load.
+Svelte on the other hand "surgically" update the app whenever there's a change, not needing to look at the virtual DOM for changes and directly works with the DOM.
 
 ## Strengths
 
