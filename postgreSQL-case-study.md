@@ -81,7 +81,12 @@ Here are a few key features:
 * Asynchronous replication
      Asynchronous is the standard in PostgreSQL to replicate data. It's a reliable and easy way to distribute data making setups more failsafe. 
 * Multi-version concurrency control(MVCC)
-    MVCC is an advanced technique for improving database performance in a multi-user environment. 
+    MVCC is an advanced technique for improving database performance in a multi-user environment.
+* Point in time recovery(PITR)
+* Write-ahead logging(WAL)
+* Full support for foreign keys, joins, views, triggers, and stored procedures, in many languages.
+* Supports storage of binary large objects(blob) including pictures, sounds, and videos.
+* Full-text search
 
 Read more: https://www.postgresql.org/about/featurematrix/
 
@@ -120,10 +125,14 @@ In short, ACID are the properties of a transaction that provide a mechanism in d
 ## Weaknesses
 
 ### Learning curve
-Learning PostgreSQL can be a little hard, and it can take time to be good at it.
+Learning PostgreSQL can be a little hard, and it can take time to be good at it. Installations, configurations and such can be fairly difficult for beginners.
 
 ### Performance
 Even though PostgreSQL is a very efficient database, it may not be as fast as some other databases in certain areas.
+
+### Support
+Compared to MySQL where many open-source apps can support it, PostgreSQL may not be.
+
 
 ## Comparison
 
