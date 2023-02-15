@@ -27,35 +27,35 @@ In 2014 they launched Firebase Hosting and Firebase Authentication as two new pr
 According to Firebase’s Homepage, these are the features sorted in their respective category:
 
 Build
-- Cloud Firestore
-- Realtime Database
-- Remote Config
-- Firebase Extensions
-- App Check
-- Cloud Functions
-- Authentication
-- Cloud Messaging
-- Hosting
-- Cloud Storage
-- Firebase ML
+- **Cloud Firestore** a NoSQL database you can store, sync and query data at a global scale.
+- **Realtime Database** a Realtime Database with JSON data. The original Firebase database from before Cloud Firestore was released.
+- **Remote Config** for making quick updates and personilization with ease.
+- **Firebase Extensions** a whole marketplace of pre-packaged solutions.
+- **App Check** frotects your API data.
+- **Cloud Functions** runs backend without the need of servers.
+- **Authentication** a multiplatform sign-in with drop-in UI and comprehensive security.
+- **Cloud Messaging** makes it easy to send notifications, and at no cost.
+- **Hosting** lets you test locally, preview and deploy with smart functions.
+- **Cloud Storage** stores and serve content with user-based security.
+- **Firebase ML** adds machine learning capabilities. (beta)
 
 Release & Monitor
-- Crashlytics
-- Google Analytics
-- Remote Config
-- Performance Monitoring
-- Test Lab
-- App Distribution
+- **Crashlytics** helps you track, prioritize and fix crashes faster.
+- **Google Analytics** gives you information on up to 500 distinct events, like the performance, purchase data, user behaviour and more.
+- **Remote Config** for making quick updates and personilization with ease.
+- **Performance Monitoring** a real time tool with custom view of application performance. 
+- **Test Lab** allows you to run tests that simulate actual usage environments without the need of code.
+- **App Distribution** for managing a beta testing program for your testers.
 
 Engage 
-- Remote Config
-- Google Analytics
-- A/B Testing
-- Authentication
-- Cloud Messaging
-- Crashlytics
-- Dynamic Links
-- In-App Messaging
+- **Remote Config** for making quick updates and personilization with ease.
+- **Google Analytics** gives you information on up to 500 distinct events, like the performance, purchase data, user behaviour and more.
+- **A/B Testing** for experimentation and analyzing tests. 
+- **Authentication** a multiplatform sign-in with drop-in UI and comprehensive security.
+- **Cloud Messaging** makes it easy to send notifications, and at no cost.
+- **Crashlytics** helps you track, prioritize and fix crashes faster.
+- **Dynamic Links** smart URLs that show people what they're looking for and transition users from web to application.
+- **In-App Messaging** helps you engage your active users with targeted messages and triggers them based on behaviour.
 
 
 ## Strengths
