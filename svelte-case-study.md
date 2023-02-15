@@ -43,9 +43,9 @@ Svelte is a javascript compiler, its similar to React, but react uses Virtual DO
 
 - `1th December, 2020` SvelteKit was announced in a blog post. 
 
-- `March 2021` SvelteKit entered beta.
+- `18th March, 2021` SvelteKit entered beta.
 
-- `December 2022` SvelteKit was released after two years in development.
+- `December, 2022` SvelteKit was released after two years in development.
 
 ## Features
 
