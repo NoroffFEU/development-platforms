@@ -7,7 +7,7 @@ permalink: development-platforms/azuredevops.html
 folder: development-platforms
 ---
 
-# Azure DevOps
+<h1 align="center">Azure DevOps</h1>
 
 ## Table of content
 
