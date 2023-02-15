@@ -151,6 +151,12 @@ You combined this with a script tag in the svelte file where you will be setting
 
 - If your script should be a instance, you just switch out module for instance.
 
+#### Syntax 
+
+Svelte application components are defined with `.svelte` files. Wich are HTML files extended with templating syntax that is based on Javascript and is similar to JSX.
+
+
+
 ## Strengths
 
 - The building time is much faster when compared to react or even other frameworks.
