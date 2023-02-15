@@ -11,7 +11,7 @@ folder: development-platforms
 
 ## 1. Introduction
 
-The creation and maintenance of databases or Application Programming Interfaces (APIs) are tasks typically associated with the work of a backend or fullstack developer. The work of a frontend developer, on the other hand, is typically associated with consuming that data – turning it into chunks of information that will hopefully be meaningful to the end user of a given service of product.
+The creation and maintenance of databases or Application Programming Interfaces (APIs) are tasks typically associated with the work of a backend or fullstack developer. The work of a frontend developer, on the other hand, is typically associated with consuming that data – turning it into chunks of information that will hopefully be meaningful to the end user of a given service or product.
 
 However, web development platforms and technologies are evolving in such a way that the distance between frontend and backend developers is getting shorter and shorter. The widespread adoption of Strapi is an example of that trend. Strapi is an open-source headless Content Management System (CMS). It is arguably the easiest way for developers to create and manage their own APIs.
 
