@@ -77,6 +77,10 @@ In the list below, we will look at important years and releases for MongoDB.
 - After their version 4.0 came out they introduced transactions.
 - A transaction is a group of database operations that will only succeeds if all the operations within the transactions succeeds. This can impact a single record or multiple records.
 - The ACID transactions gives a guarantee that the database will be in a consistent state after running a set of operations.
+- some weaknesses to ACID:
+  - One is that the database needs to "lock" the resources involved to prevent writes from interfering with one another. So if more than one tries to write in the same data, they can be stuck and have to wait for the current edit to be finished.
+  - There is a performance cost to multi-document transactions.
+  - Limit transactions to 1 000 document modifications.
 
 ## Strengths
 
