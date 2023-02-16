@@ -47,7 +47,7 @@ Let's consider this in the context of Firebase. Unfortunately, your code will be
 
 ## Closed Source
 
-Open Source components from Firebase include SDKs, libraries and samples, all posted on their Github.
+Although Firebase is not open source, many of its features are. This is done for increased transparency and to build a stronger developer community. Open source components from Firebase include SDKs, libraries, and samples, all posted on their GitHub page. 
 Unless you plan to build something that outlives or rivals Google, I will not personally worry about Firebase´s closed source. Very large companies may however benefit from building their infrastructure using open-source alternatives, to ensure independence.
 
 ## Only NoSQL Database
