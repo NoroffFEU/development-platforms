@@ -119,7 +119,7 @@ MySQL Cluster CGE (10.000 USD / year per server)
 
 ##### Numeric Data Types
 
-![Required Storage and Range for Integer Types Supported by MySQL](./images/Screenshot-integers.png)
+![Required Range and Storage for Integer Types Supported by MySQL](./images/Screenshot-integers.png)
 
 > image from: https://dev.mysql.com/doc/refman/8.0/en/integer-types.html
 
@@ -286,18 +286,19 @@ Functions are pre-build programs that take parameters and return a value or comp
 The syntax for a MySQL function is:
 
 ```
-CREATE FUNCTION function_name [(parameter datatype [, parameter datatype])]
-
+CREATE FUNCTION function_name [ (parameter datatype [, parameter datatype]) ]
 RETURNS return_datatype
 
 BEGIN
 
-declaration code here
+   declaration_section
 
-execute code here
+   executable_section
 
 END;
 ```
+
+> function source: https://www.techonthenet.com/mysql/functions.php
 
 #### Security
 
@@ -313,6 +314,16 @@ Some of the main security features are:
 - Firewall: Access to a MySQL server can be restricted with the use of firewalls and allowing only authorized connections.
 
 Note that it's important to configure your security-best-practices to ensure that the data is secure.
+
+SQL injections
+
+It is highly recommended that developers properly configure the database and all code connected to it
+to avoid attacks such as SQL injections. here are some methods from MySQL that can help secure the database:
+
+- prepared statements: Separate and create layers between user input and SQL with prepared statements and parameterized queries.
+- Stored procedures: Control what types of statements are executed.
+- Input validation: Build a robust validations system to properly sanitize data.
+- Limited privileges: Limit and compartmentalize privileges to decreases risk of SQL injections
 
 #### Scalability
 
@@ -371,8 +382,6 @@ Non-ACID-compliant databases can potentially trade integrity for speed.
 - Lacking built-in security features: MySQL har fewer built in security systems than some other database providers,
   This can lead to developers having to create additional security infrastructure.
 
-  <!-- todo: sql injections -->
-
 ## Comparison
 
 <!-- Compare the product to other products in the same category, if applicable. -->
@@ -383,13 +392,13 @@ Both MySQL and PostgreSQL are open-source software, this makes them free-to-use 
 They are both generally considered to be Relational Database Management Systems (RDBMS), however, Postgres is actually an Object-Relational Database (ORDBMS).
 
 The main difference between these is the way they store and organize their data.
-An RDBMS stores it's data in tables and relationships and an ORDBMS stores it's data in objects and classes.
+An RDBMS stores it's data in tables with relationships and an ORDBMS stores it's data in objects and classes.
 Object-relational databases are better at handling complex data structures, can store and manipulate other formats such as hstore and xml, allows for more complex relationships and generally considered better at handling many-to-many relationships.
 
 MySQL is purely a relational database that connects using a single thread process as opposed to Postgres which creates a new system process using it's memory allocation for every connection. This makes postgres slightly slower when reading data and gives MySQL an advantage when it comes to smaller scale projects.
 
 Replication is supported by both systems. Postgres uses synchronous replication, and MySQL uses one-way asynchronous replication.
-Postgres offer more ways to use indexes such as indexing JSON, hash indexes and partial indexes.
+Postgres offer more ways to use indexes such as indexing JSON, Hash indexes and partial indexes.
 
 Security is an almost even race. Both services support AES,TSL and SSL, although TSL must be configured to postgres before use.
 For authentication Postgres uses an IP-based client with Kerberos and PAM, whereas MySQL uses native window services, LDAP and PAM.
@@ -397,11 +406,11 @@ For authentication Postgres uses an IP-based client with Kerberos and PAM, where
 #### Conclusion
 
 MySQL and PostgreSQL are database software that truly have stood the test of time.
-Choosing the right database is a determining factor, so it depends on what your use case is.
+Choosing the right database is a determining factor, so it depends on the use case.
 
 If your application needs a database that is feature-rich, can handle complex queries, frequent write operations and unique ways to index, then PostgreSQL is a good choice.
 
-If your application is smaller, you would perhaps want something light that requires less maintenance but is also easy to manage and reliable.
+If your application is smaller, you would perhaps want to use something lighter that requires less maintenance but is also easy to manage and reliable.
 
 ##### Use cases:
 
@@ -456,6 +465,7 @@ Articles:
 - https://www.postgresql.org/docs/current/libpq-ssl.html#:~:text=PostgreSQL%20has%20native%20support%20forTLS%20protocols%20for%20increased%20security.
 - https://www.postgresql.org/docs/current/user-manag.html
 - https://www.immuta.com/blog/attribute-based-access-control/
+- https://ostatic.com/mysql
 
 Videos:
 
