@@ -255,25 +255,15 @@ While Azure DevOps is one of the leading platforms out on the marked, there are 
 
 To create comparison between the software above i have used [this website](https://sourceforge.net/)
 
-## How to
-
-```
-NOT sure if this will be included, I will have to see if i will include this
-I'm thinking to create a video montage of how to use Azure DevOps. 
-
-Add information about how to use Azure DevOps with git commands.
-```
-
 ## Summary
 
 Azure DevOps is a cloud computing platform and infrastructure with many features that can help you and your team with the workflow on your project. It's easy to create a free account with a small team and for a larger team you have more options.
 
 All work when using Azure DevOps can be done with IDE. Integration with Visual Studio Code and git, you can work mainly in the IDE. With the Visual Studio Code and Microsoft Team you can have your code and communication with your team, manage your work board tasks.
 
-Azure DevOps is integrated with the most essential tools for making the work, collaboration and communication easy, in a organized environment
+Azure DevOps is integrated with the most essential tools for making the work, collaboration and communication easy, in a organized environment. If you are familiar whit using git commands, you are able to easily clone, commit and push your work in to the repository
 
 The platform itself is clean and easy to use with lots of documentation for us to be able to make the most out of the platform.
-
 
 ### Credits
 
