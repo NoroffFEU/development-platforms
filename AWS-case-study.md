@@ -187,7 +187,8 @@ Firebase was originally founded as an independet company, but was aquired by Goo
 
 ## Summary
 
-AWS Amplify do take time to master, but will provide bennefits once it is mastered. it provides developers with tools like authentications, notifications, and APIs, and will allow developers to build entire infrastructures faster.
+AWS Amplify do take time to master, but will provide bennefits once it is mastered. it provides developers with tools like authentications, notifications, and APIs. 
+Overall, AWS Amplify is a powerful tool for developers who want to build web and mobile apps quickly and easily. 
 
 ### Credits
 
