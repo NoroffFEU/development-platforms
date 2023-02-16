@@ -34,7 +34,13 @@ The company grew rapidly and delivered its first live traffic (a pixel buried de
 
 ## Features
 
-Outline the product's key features.
+- Protect web apps and APIs.
+- Manage and defend against bots.
+- Prevent user account takeover.
+- Defend your site from client-side threats like data skimming.
+- Respond quickly to large DDoS attacks.
+- Implement secure, cloud-based identity management.
+- Conceal your web apps from the public Internet.
 
 ## Strengths
 
