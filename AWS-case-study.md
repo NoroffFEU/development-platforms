@@ -185,13 +185,9 @@ Firebase was originally founded as an independet company, but was aquired by Goo
 2. Firebase has been around for longer, and has a more extensive feature set.
 3. Firebase is not yet as integrated into other cloud platform services as Amplify.  
 
-#### Open-source vs self-hosted providers
-
 ## Summary
 
-
-
-#### Summarise the content and highlight the relevance of the product to a web developer.
+AWS Amplify do take time to master, but will provide bennefits once it is mastered. it provides developers with tools like authentications, notifications, and APIs, and will allow developers to build entire infrastructures faster.
 
 ### Credits
 
