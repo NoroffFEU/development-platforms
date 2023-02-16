@@ -55,18 +55,27 @@ It has become the go-to platform for open-source software development and is use
 Microsoft acquired GitHub in 2018 for $7.5 billion.
 The acquisition was seen as a significant move by Microsoft to bolster its position in the developer tools and services market.
 
-The acquisition has allowed Microsoft to leverage GitHub's strengths, such as its powerful collaboration tools and strong developer community, to enhance its development tools and services. Microsoft has also integrated GitHub with its other products, such as Visual Studio and Azure, to provide a more seamless and comprehensive development experience for developers.
+The acquisition has allowed Microsoft to leverage GitHub's strengths, such as its powerful collaboration tools and strong developer community, to enhance its development tools and services.
+Microsoft has also integrated GitHub with its other products, such as Visual Studio and Azure, to provide a more seamless and comprehensive development experience for developers.
 the acquisition of GitHub by Microsoft has been generally well-received and has provided a significant boost to Microsoft's position in the developer tools and services market.
 
 ## Features
 GitHub is a web-based platform for version control and collaboration that allows developers to store and share their code. Here are some of the key features of GitHub:
-- **Version control:** GitHub allows developers to easily track changes to their code over time. This is achieved through the use of Git, a distributed version control system.
+- **Version control:** GitHub allows developers to easily track changes to their code over time.
+  This is achieved through the use of Git, a distributed version control system.
 
-- **Collaboration:** GitHub allows multiple developers to work on the same codebase simultaneously, and provides tools for managing pull requests, code reviews, and other collaboration workflows.
+- **Collaboration:** GitHub allows multiple developers to work on the same codebase simultaneously,
+  and provides tools for managing pull requests, code reviews, and other collaboration workflows.
 
-- **Branches:** A user can start a new branch either from the main branch or a different branch. This allows the user to write new code for the project without adding it to the project itself. When new code is written on a new branch it can be merged into the main project. Usually, users make a pull request before merging. This system enables users to develop code on different versions of a project at the same time.
+- **Branches:** A user can start a new branch either from the main branch or a different branch.
+  This allows the user to write new code for the project without adding it to the project itself.
+  When new code is written on a new branch it can be merged into the main project.
+  Usually, users make a pull request before merging. This system enables users to develop code on different versions of a project at the same time.
 
-- **Pull requests:** When a user has made changes to a project's code on a separate branch, he can make a pull request. This is an important step in quality control where other developers can inspect the changes in the code. They do this to make sure that the code is bug-free and has no issues. When it is determined that the code is safe it can be merged from this branch to its parent branch or the main branch.
+- **Pull requests:** When a user has made changes to a project's code on a separate branch, he can make a pull request.
+  This is an important step in quality control where other developers can inspect the changes in the code.
+  They do this to make sure that the code is bug-free and has no issues.
+  When it is determined that the code is safe it can be merged from this branch to its parent branch or the main branch.
 
 - **Issue tracking:** GitHub includes a powerful issue-tracking system that allows users to report bugs, suggest new features, and track progress on specific tasks.
 
@@ -150,17 +159,25 @@ Today, GitHub is considered an essential tool for many software projects and is 
 
 #### References
 - [GitHub website](https://github.com)
+- [GitHub blog](https://github.blog/)
 - [GitHub wiki](https://en.wikipedia.org/wiki/GitHub)
+- [GitHub step by step](https://www.edureka.co/blog/how-to-use-github/)
+- [Github doc](https://docs.github.com/en)
+
 - [Gitlab website](https://about.gitlab.com/)
 - [Gitlab wiki](https://en.wikipedia.org/wiki/GitLab)
+
+- [Bitbucket website](https://bitbucket.org/product/)
+- [Bitbucket Wiki](https://en.wikipedia.org/wiki/Bitbucket)
+
+- [Azure DevOps website](https://azure.microsoft.com/en-us/products/devops)
+- [Azure DevOps wiki](https://en.wikipedia.org/wiki/Azure_DevOps_Server)
+
 - [Microsoft acquires GitHub](https://news.microsoft.com/announcement/microsoft-acquires-github/)
-- [GitHub step by step](https://www.edureka.co/blog/how-to-use-github/)
-- [GitHub blog](https://github.blog/)
-- [Azure DevOps](https://azure.microsoft.com/en-us/products/devops)
-- [GitHub v Azure DevOps](https://azure.microsoft.com/en-us/products/devops](https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins))
+
+- [GitHub v Azure DevOps](https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins)
 - [Github v Bitbucket](https://www.upguard.com/blog/bitbucket-vs-github)
 - [GitHub v Gitlab](https://www.geeksforgeeks.org/difference-between-gitlab-and-github/)
-- https://github.com/customer-stories
 
 
 
