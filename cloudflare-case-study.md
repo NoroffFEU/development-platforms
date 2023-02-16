@@ -18,12 +18,11 @@ folder: development-platforms
 5. [Weaknesses](#weaknesses)
 6. [Comparison](#comparison)
 7. [Summary](#summary)
-8. [Glossary](#glossary)
-9. [References](#references)
+8. [References](#references)
 
 ## Introduction
 
-CLoudflare is a global content delivery network provider that delivers a broad range of services to businesses, aiming to make them more secure, enhancing performance of their applications and eliminating the cost and complexity of managing network hardware. It primarily acts as a reverse proxy between a website's visitor and the customer's hosting provider, meaning it sits in front of back-end applications and forwards client (browser) requests to those applications. When the request pass trough Cloudflare they can apply various rules and optimizations to improve security, performance, and reliability.
+Cloudflare is a global content delivery network provider that delivers a broad range of services to businesses, aiming to make them more secure, enhancing performance of their applications and eliminating the cost and complexity of managing network hardware. It primarily acts as a reverse proxy between a website's visitor and the customer's hosting provider, meaning it sits in front of back-end applications and forwards client (browser) requests to those applications. When the request pass trough Cloudflare they can apply various rules and optimizations to improve security, performance, and reliability.
 
 ## Brief History
 
@@ -55,21 +54,32 @@ There are some differences between JS written for a browser or for Node.js. Rath
 
 ## Strengths
 
-Using the Cloudflare CDN boosts performance by, among other factors, reducing the distance the requested content needs to travel. This is done by caching the content. If the content requested by the browser is not already available on the Cloudflare networks edge servers, they will make an initial request for the content to the origin server and store static content on their network, so that any future request for that content can be served directly by their networks edge servers. There are case-studies available on Cloudflare's website where the customer reports a 50% reduction in load time. 
+Using the Cloudflare CDN boosts performance by, among other factors, reducing the distance the requested content needs to travel. This is done by caching the content. That means that if the content requested by the browser is not already available on the Cloudflare networks edge servers, they will make an initial request for the content to the origin server and then store the static content on their network, so that any future request for that specific content can be served directly by their networks edge servers. There are case-studies available on Cloudflare's website where the customer reports a 50% reduction in load time after onbording to Cloudflares CDN. 
 
-In addition to performance, both reliability and security are important strengts of Cloudflare's CDN. By analyzing and directing traffic, they make sure that legitimate requests are handled effeciently, and malicious traffic is dropped or made managable. 
+In addition to performance, both reliability and security are important strengts of Cloudflare's CDN. By analyzing and directing traffic, they make sure that legitimate requests are handled effeciently, and malicious traffic is dropped or made managable by separating the traffic into smaller lumps that are distributed troughout their network, making it more managable for each individual server. 
 
 ## Weaknesses
 
-Using Cloudflare adds some complexity to the process of hosting content. The Cloudflare UI is described as complex by several sources. 
+Using Cloudflare adds some complexity to the process of hosting content. The Cloudflare UI is described as complex by several sources, but I personally found it quite intuitive when I was doing some testing with the Workers functionality.
 In addition it comes with a cost, fairly expensive for high-volume users, although you will get some basic features for free. 
+
+In general, I was not able to find reliable information on weaknesses with Cloudflare, only the cons mentioned above. 
 
 ## Comparison
 
-There are many CDN providers out there, but Cloudflare seems to be the one that is most preferred when I look at comparisons. This seems to be due to a highly reliable service that is easy to setup, with a broad spectrum of features and functionality available.
+There are many CDN providers out there, but Cloudflare seems to be the one that is most preferred when I look at comparisons. This seems to be due to a highly reliable service that is easy to setup, with a broad spectrum of features and functionality available. 
 
-In terms of performance Cloudflare currently rank 4th on the benchmarking site CDNPerf. 
+### Cloudflare VS Amazon CloudFront
 
+Cloudflare uses reverse proxy servers to serve requests. Websites and apps are configured to use Cloudflare's nameservers. Requests go to these servers which then routes traffic. CloudFront uses actual servers to reduce load time. Customer's set up copies of the data, called distributions, that are have unique URLs. Admins use the URLs to route the requests to the CloudFront CDN. 
+
+Cloudflare has more than 200 data centres across 270 cities in 100+ countries. CloudFront is distributed across 225+ edge locations in 90 cities across 47 countries. 
+
+Cloudflare provides better caching and HTTP headers control, whereas this is a more complex process to configure in CloudFront. 
+
+Cloudflare is designed with DDoS mitigation in mind, while this is not the case with CloudFront. For the latter, AWS have other products that can handle that. 
+
+In terms of performance Cloudflare currently rank 4th on the benchmarking site CDNPerf, while CloudFront is 2nd. 
 
 ## Summary
 
@@ -93,5 +103,8 @@ Summarise the content and highlight the relevance of the product to a web develo
 - [Cloudflare - DDos Attack](https://www.cloudflare.com/en-gb/learning/ddos/what-is-a-ddos-attack/)
 - [Wikipedia - DDoS Attack](https://en.wikipedia.org/wiki/Denial-of-service_attack)
 
+#### Comparison
 
-
+- [Techtarget - Cloudflare vs CloudFront](https://www.techtarget.com/searchcloudcomputing/answer/Cloudflare-vs-Amazon-CloudFront-Which-CDN-is-right-for-you)
+- [Petri - Amazon CloudFront Vs. Cloudflare: How to Choose the Right CDN](https://petri.com/aws-cloudfront-vs-cloudflare/)
+- [CDNPerf](https://www.cdnperf.com/)
