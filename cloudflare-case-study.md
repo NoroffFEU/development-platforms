@@ -18,7 +18,8 @@ folder: development-platforms
 5. [Weaknesses](#weaknesses)
 6. [Comparison](#comparison)
 7. [Summary](#summary)
-8. [References](#references)
+8. [Credits](#credits)
+9. [References](#references)
 
 ## Introduction
 
@@ -86,6 +87,10 @@ In terms of performance Cloudflare currently rank 4th on the benchmarking site C
 Cloudflare is one of the leading providers of content delivery networks in the world, and they have a broad range of products for anyone wanting to make their content more accessible, reliable and secure. 
 
 Cloudflares Developer Platform provides solutions for developers to deploy their serverless applications on servers distributed all over the planet. In addition, they provide their Pages solution for deploying full-stack application instantly to the same global network, and an Image API to store, optimizing and resize images. This is just some of the functionality that is highly relevant for a developer.
+
+### Credits
+
+-  (olee2)[https://github.com/olee2]
 
 ### References
 
