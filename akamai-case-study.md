@@ -89,9 +89,11 @@ Akamai is one of the largest if not the largest provider of CDN technology today
 - All top 10 software companies
 
 **Money**
+
 Compared to other companies of Akamai, Akamai doesnt really make difference on the customer as its billing plan is scalable by usage, while other companies have different plans to choose from that are more future friendly for the customer. Akamai has also a minimum 12 month plan that others doesnt have.
 
 **Location Coverage**
+
 Akamai has deployed the most pervasive, highly distributed content delivery network (CDN) with approximately 350,000 servers in 134 countries and over 1,300 networks around the world.
 
 
