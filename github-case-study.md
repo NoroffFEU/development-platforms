@@ -102,22 +102,33 @@ GitHub is a powerful and widely-used platform, but it also has some weaknesses a
 
 #### GitHub v Bitbucket
 GitHub and Bitbucket are both web-based platforms for hosting and managing source code repositories, but there are some key differences between the two:
-  - Pricing: GitHub offers a free tier with unlimited public repositories, but limits the number of private repositories and collaborators. Bitbucket, on the other hand, offers free unlimited private repositories for small teams, with pricing that scales as the team grows. This makes Bitbucket a more cost-effective option for small teams or organizations that need to manage a large number of private repositories.
+  - **Pricing:** GitHub offers a free tier with unlimited public repositories, but limits the number of private repositories and collaborators. Bitbucket, on the other hand, offers free unlimited private repositories for small teams, with pricing that scales as the team grows. This makes Bitbucket a more cost-effective option for small teams or organizations that need to manage a large number of private repositories.
   
-  - Integrations: GitHub has a larger ecosystem of third-party integrations than Bitbucket, which makes it easier for developers to integrate with other tools and services. However, Bitbucket integrates well with other Atlassian products, such as Jira and Confluence.
+  - **Integrations:** GitHub has a larger ecosystem of third-party integrations than Bitbucket, which makes it easier for developers to integrate with other tools and services. However, Bitbucket integrates well with other Atlassian products, such as Jira and Confluence.
   
-  - User Interface: GitHub has a more polished and user-friendly interface than Bitbucket, with features such as code reviews and pull requests that are more intuitive and easier to use. Bitbucket's interface can be more complex and less intuitive for new users.
+  - **User Interface:** GitHub has a more polished and user-friendly interface than Bitbucket, with features such as code reviews and pull requests that are more intuitive and easier to use. Bitbucket's interface can be more complex and less intuitive for new users.
 
 #### GitHub v Gitlab
 GitHub and GitLab are both popular web-based platforms for hosting and managing source code repositories, but there are some key differences between the two:
-  - Pricing: GitLab offers a free, self-hosted Community Edition as well as a cloud-hosted free tier with unlimited private repositories. GitHub offers a free tier with unlimited public repositories but limits the number of private repositories and collaborators. For larger teams, GitLab can be more cost-effective than GitHub.
+  - **Pricing:** GitLab offers a free, self-hosted Community Edition as well as a cloud-hosted free tier with unlimited private repositories. GitHub offers a free tier with unlimited public repositories but limits the number of private repositories and collaborators. For larger teams, GitLab can be more cost-effective than GitHub.
   
-  - Collaboration: Both GitHub and GitLab offer powerful collaboration features such as pull requests, code reviews, and merge requests. However, GitLab's collaboration features are more robust, with more granular permissions and approval workflows.
+  - **Collaboration:** Both GitHub and GitLab offer powerful collaboration features such as pull requests, code reviews, and merge requests. However, GitLab's collaboration features are more robust, with more granular permissions and approval workflows.
   
-  - Customization: GitLab offers more customization options than GitHub, including the ability to create custom workflows and pipelines, and to set up your continuous integration and deployment servers.
+  - **Customization:** GitLab offers more customization options than GitHub, including the ability to create custom workflows and pipelines, and to set up your continuous integration and deployment servers.
   
-  - Hosting Options: GitLab offers both cloud-based and self-hosted options, while GitHub only offers cloud-based hosting. This gives GitLab users more control over their hosting environment and infrastructure.
+  - **Hosting Options:** GitLab offers both cloud-based and self-hosted options, while GitHub only offers cloud-based hosting. This gives GitLab users more control over their hosting environment and infrastructure.
   
+#### GitHub v Azure DevOps
+GitHub and Azure DevOps are both popular platforms for software development, but there are some key differences between the two:
+  - **Pricing:**  GitHub offers free and paid plans, with features such as private repositories, team collaboration, and code review. Its pricing is primarily based on the number of private repositories you want to host.
+  Azure DevOps offers a wide range of pricing options, including a free tier for up to 5 users and enterprise pricing for large teams. Its pricing is based on the number of users, build minutes, and hosted artifacts.
+
+  - **Functionality:** GitHub is primarily a web-based platform for version control, code collaboration, and code hosting. It's a platform where developers can share and manage code repositories, collaborate on code, and track issues and bugs.
+  On the other hand, Azure DevOps is a platform that includes a set of development tools for project management, source control, build and release management, and testing. It provides a comprehensive suite of tools that integrate seamlessly to help teams manage the entire application development lifecycle.
+
+  - **Target Audience:** GitHub is used by a wide range of developers, from individual developers to large enterprise teams. It's a popular platform for open-source projects as well.
+  Azure DevOps is designed for larger enterprise teams, with a focus on application lifecycle management, continuous integration and delivery, and agile project management.
+
 ## Summary
 
 Summarise the content and highlight the relevance of the product to a web developer.
