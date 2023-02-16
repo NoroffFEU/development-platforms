@@ -26,7 +26,6 @@ Firebase provides an arsenal of different tools and features required to build a
 These include Authentication, Hosting, Cloud Functions, Cloud Storage, Realtime Database, Performance Monitoring, Analytics, Cloud Messaging, and more.
 
 In this case study, I aim to answer everything I first wondered about Firebase, including practical examples.
-Let us begin.
 
 # Brief History
 
