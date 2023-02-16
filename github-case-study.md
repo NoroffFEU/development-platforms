@@ -36,10 +36,10 @@ Short timeline:
 - **2012**: Andreessen Horowitz invested $100 million in the company.
 - **2013**: GitHub passed 3 million users and was hosting 5 million repositories, in the end of the year the number of repositories was reaching 10 million. 
 - **2014**: Both Russia and India blacklisted GitHub.com and other sites for content users had on their websites, but the blacklist was lifted after three days. 
-- **2016**: GitHub was ranked no. 14 on the Forbes Cloud 100 list. The same year they launchd Campus Experts to train and encourage students to grow technology communities at their universities.
+- **2016**: GitHub was ranked no. 14 on the Forbes Cloud 100 list. The same year they launched Campus Experts to train and encourage students to grow technology communities at their universities.
 - **2018**: Microsoft acquired GitHub for $7.5 billion US.
 - **2019**: GitHub acquired Semmle, a code analysis tool. 
-- **2020**GitHub acquired **npm**, a JavaScript packaging vendor. 
+- **2020**: GitHub acquired **npm**, a JavaScript packaging vendor. 
 - **2021**: 28 million public repositories. It is the largest source code host.
 - **2023**: GitHub reported having over 100 million developers and more than 372 million repositories.
 
@@ -64,7 +64,7 @@ GitHub is a web-based platform for version control and collaboration that allows
 
 - **Issue tracking:** GitHub includes a powerful issue-tracking system that allows users to report bugs, suggest new features, and track progress on specific tasks.
 
-- **Merging:** Is adding new code to a project from a separate branch. usually, this is done after a pull request.
+- **Merging:** Adding new code to a project from a separate branch. usually, this is done after a pull request.
 
 - **GitHub Actions:** This is a feature where you can add automated tasks to a project. The automated tasks can either be run manually or be set to run at specific points of development such as when a pull request is made. GitHub actions are very flexible and allow for lots of different programming languages and tools to be used with it. examples of GitHub actions usage: deploy to static pages, end-to-end testing and unit testing.
 
