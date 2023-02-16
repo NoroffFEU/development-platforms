@@ -55,15 +55,21 @@ There are some differences between JS written for a browser or for Node.js. Rath
 
 ## Strengths
 
-Discuss the product's strengths.
+Using the Cloudflare CDN boosts performance by, among other factors, reducing the distance the requested content needs to travel. This is done by caching the content. If the content requested by the browser is not already available on the Cloudflare networks edge servers, they will make an initial request for the content to the origin server and store static content on their network, so that any future request for that content can be served directly by their networks edge servers. There are case-studies available on Cloudflare's website where the customer reports a 50% reduction in load time. 
+
+In addition to performance, both reliability and security are important strengts of Cloudflare's CDN. By analyzing and directing traffic, they make sure that legitimate requests are handled effeciently, and malicious traffic is dropped or made managable. 
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
+Using Cloudflare adds some complexity to the process of hosting content. The Cloudflare UI is described as complex by several sources. 
+In addition it comes with a cost, fairly expensive for high-volume users, although you will get some basic features for free. 
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+There are many CDN providers out there, but Cloudflare seems to be the one that is most preferred when I look at comparisons. This seems to be due to a highly reliable service that is easy to setup, with a broad spectrum of features and functionality available.
+
+In terms of performance Cloudflare currently rank 4th on the benchmarking site CDNPerf. 
+
 
 ## Summary
 
@@ -79,7 +85,7 @@ Summarise the content and highlight the relevance of the product to a web develo
 #### Reversed Proxy
 
 - [Cloudflare - Reversed Proxy](https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/)
-- [Wikipedia - Reversen Proxy](https://en.wikipedia.org/wiki/Reverse_proxy)
+- [Wikipedia - Reversed Proxy](https://en.wikipedia.org/wiki/Reverse_proxy)
 
 #### DDoS Attacks and Mitigation
 
