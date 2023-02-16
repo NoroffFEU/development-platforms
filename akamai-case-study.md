@@ -2,8 +2,11 @@
 
 |    Title     |    keywords |	  tags |	sidebar |	permalink |	folder |
 | :---         |   :---      |  :---   | :---     | :---      |   :--  |
-| Akamai       |  CDN        | CDN      | git status| git status | git status    |
-|              |  Server     | Server   | git diff  | git diff   | git diff      |
+| Akamai       |development-platforms |development-platforms|development-platforms|development-platforms/akamai-case-study.md| hepp |
+|              | CDN        | CDN   | git diff  | git diff   | git diff   |
+|              |   Server   | Server  |           |            |            |
+|              |            |         |           |             |           |
+
 
 ## Introduction
 
