@@ -196,7 +196,7 @@ Today, GitHub is considered an essential tool for many software projects and is 
 
 ### Credits
 
-- Joakim Vanebo (Pjatte1337)
+- Joakim Vanebo - [GitHub](https://github.com/Pjatte1337)
 
 #### References
 
