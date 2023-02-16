@@ -439,11 +439,20 @@ PostgreSQL:
 
 ## Summary
 
-Summarize the content and highlight the relevance of the product to a web developer.
+<!-- Summarize the content and highlight the relevance of the product to a web developer. -->
+
+MySQL is a relational database that has truly stood the test of time and speaks it's own value on the market, as it is the worlds most used open-source relational database. Known for it's reliability, speed, ability to scale and compatibility with other programing languages,which makes it easily available and often found in a web developer's stack.
+
+It also comes with tools for protection against SQL injections, supports third party tools and other features that makes it easy to use for web developers.
+The community has grown in size, ever since it started in the mid 1990's and is a large and active community that offers support and share their knowledge with other users.
+If you are handling monetary transactions, logistics or customer data, then MySQL is the perfect database.
+On the other hand if you are handling large scientific data that require complex relations and queries then perhaps PostgreSQL is a better choice.
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+<!-- - Student Name (studentGitHubUsername) -->
+
+Johann Ranudd (johannranudd)
 
 #### References
 
@@ -475,6 +484,8 @@ Articles:
 - https://www.postgresql.org/docs/current/user-manag.html
 - https://www.immuta.com/blog/attribute-based-access-control/
 - https://ostatic.com/mysql
+- https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+- https://www.mysqltutorial.org/mysql-prepared-statement.aspx
 
 Videos:
 
