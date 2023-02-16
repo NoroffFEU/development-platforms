@@ -13,8 +13,7 @@ folder: development-platforms
 
 I have chosen to write a case study about MySQL because it is one of the world's most popular and widely used databases.
 My goal is to weigh its strengths and weaknesses against other technologies of the same kind to figure out
-if this is a product worth using if there are other more modern products with better solutions and
-which cases you should use or not use MySQL.
+if this is a product worth using or if there are other products with better solutions, and in which cases you should use or not use MySQL.
 
 MySQL is an open source relational database management system (RDBMS).
 A relational database can store data in tables consisting of rows and columns
@@ -23,7 +22,7 @@ The SQL in MySQL stands for Structured Query Language, which is a standardized l
 developers to either create, select, update, or delete data, among other commands.
 
 Think of a relational database (RDB) as a digital file cabinet for storing files.
-Data stored in a database must be reliable, to be secure and persistent.
+Data stored in a database must be reliable and secure.
 
 RDBs have stood the test of time and are still today the most used types of databases,
 and MySQL is currently the most commonly used RDB.
@@ -34,8 +33,8 @@ and MySQL is currently the most commonly used RDB.
 
 You may use bullet points, numbered lists, paragraphs or a timeline. -->
 
-The first development of MySQL started in 1994 by Swedish developers Allan Larson, David Axamark
-, and Finnish developer Michael "Monty" Widenius. MySQL was initially intended for personal usage
+The first development of MySQL started in 1994 by Swedish developers Allan Larson, David Axamark,
+and Finnish developer Michael "Monty" Widenius. MySQL was initially intended for personal usage
 and derived from its proprietary predecessor mSQL, another database management system
 based on the low-lever language ISAM. The developers considered mSQL to be slow and inflexible
 and created a new SQL interface that used the same API as mSQL.
@@ -103,29 +102,25 @@ MySQL Cluster CGE (10.000 USD / year per server)
 
 #### Internals
 
-<!-- !!! -->
-
 - MySQL is written in C and C++ and portable across a variety of platforms.
 - The C API gives a low-level access to the client/server protocol.
+- Supports both transactional and non-transactional storage engines.
 - Supports ANSI/ISO SQL standard
-- the server design is multi-layered and has independent modules.
+- The server design is multi-layered and has independent modules.
 - It's been tested on a wide selection of different compilers and platforms.
 - Allows for multithreading using kernel threads and can utilize multiple CPUs with ease, if available.
-- supports both transactional and non-transactional storage engines.
 - B-tree disk tables and index compression.
 - Storage engines can be added relatively easily. This makes it easier to add an SQL interface for in-house databases.
 - Purify has been used to test for memory leak detection.
 - Valgrind has been used for GPL/GNU General Public License.
-- The server is provided as a separate program when using a networked client/server program.
 - Configured with CMake for optimal portability.
 - Memory allocation system is fast-thread based.
+- The server is provided as a separate program when using a networked client/server program.
 - Designed to implement SQL functions using an optimized class library.
 - Uses in-memory hash tables as temporary tables
 - Joins are optimized and very fast using nested-loop join.
 
 #### Data Types
-
-<!-- todo: write syntax -->
 
 ##### Numeric Data Types
 
@@ -192,30 +187,30 @@ VARCHAR (variable length)
 BINARY and VARBINARY have many similarities with CHAR and VARCHAR. The difference is that the values are stored as byte strings rather than character strings.
 The size of BINARY and VARBINARY values can be specified like in CHAR and VARCHAR by using parentheses e.g. Binary(40).
 In this example, the value will allow storage for 40 bytes and pads the potentially "missing" space with 0x00, which is then retained when the value is retrieved.
-VARBINARY will do the same as VARCHAR by initially using 1 or 2 byte prefix plus data. There is no padding
+VARBINARY will do the same as VARCHAR by initially using 1 or 2 byte prefix plus data. There is no padding.
 
 BLOB and TEXT
 
-- BLOB stands for "Binary Large OBject". There are four different types of BLOBs: TINYBLOB, BLOB, MEDIUMBLOB and LONGBLOB.
-  BLOBs store the value as binary strings
-- TEXT is the "non-binary" equivalent to blob, There are four different types of TEXT: TINYTEXT, TEXT, MEDIUMTEXT and LONGTEXT.
-  TEXT stores values as character strings.
+BLOB stands for "Binary Large OBject". There are four different types of BLOBs: TINYBLOB, BLOB, MEDIUMBLOB and LONGBLOB.
+BLOBs store the value as binary strings
+TEXT is the "non-binary" equivalent to blob, There are four different types of TEXT: TINYTEXT, TEXT, MEDIUMTEXT and LONGTEXT.
+TEXT stores values as character strings.
 
-- some developers argue that you CAN utilize BLOBs and TEXTs as a "document-database storage", meaning you can use a relational database to achieve some of the same benefits from a document-no-SQL database. However, this seems to be an ongoing debate.
+Some developers argue that you CAN utilize BLOBs and TEXTs as a "document-database storage", meaning you can use a relational database to achieve some of the same benefits from a document-no-SQL database. However, this seems to be an ongoing debate.
 
 ENUM
 
-- ENUM, which is short for enumeration. Is a string object where a set of values are enumerated.
-  Think of this as an array of string values, each value has an index and only one value can be selected at a time.
-  ENUMs store the string values as numbers to save data and return strings when retrieved.
-  Only one index can be selected at a time.
+ENUM, which is short for enumeration. Is a string object where a set of values are enumerated.
+Think of this as an array of string values, each value has an index and only one value can be selected at a time.
+ENUMs store the string values as numbers to save data and return strings when retrieved.
+Only one index can be selected at a time.
 
 SET
 
-- SET is in many ways similar to ENUMs. SET allows you to select many options, as opposed to ENUM which only allows one.
-  A SET column can have up to 64 members.
-  An error will occur if the values are duplicated when strict SQL mode is active.
-  Some argue that SET can be an inefficient way to store data because of its limiting storage capacity when working with "many to many relationships"
+SET is in many ways similar to ENUMs. SET allows you to select many options, as opposed to ENUM which only allows one.
+A SET column can have up to 64 members.
+An error will occur if the values are duplicated when strict SQL mode is active.
+Some argue that SET can be an inefficient way to store data because of its limiting storage capacity when working with "many to many relationships"
 
 ##### Date and Time Data Types
 
@@ -342,11 +337,11 @@ The maximum number of tables is generally limited by the storage engine used.
 
 #### Connectivity
 
-There are several protocols for connecting to MySQL servers:
+There are several options for connecting to MySQL servers:
 
 - TCP/IP sockets on any platform.
-- Named pipes and shared-memory connections. Optional: (--protocol=memory)
 - Unix domain socket files for Unix systems.
+- Named pipes and shared-memory connections. Optional: (--protocol=memory)
 - Client programs for many languages. APIs are available for C, C++, Perl, Java, Eiffel, Tcl, PHP, Ruby, and Python.
 - Provides connectors for ODBC (Open Database Connectivity), JDBC (Java Database Connectivity), and .NET applications.
 
