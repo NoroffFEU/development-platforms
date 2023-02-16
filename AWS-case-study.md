@@ -75,7 +75,7 @@ pie chart by [Synergy Research Group](https://www.srgresearch.com/)
  <br>
  <br>
 
-AWS offers a vast number of services, too many to make an in-depth study case. so now that we had a quick look on AWS and cloud computing in general i will now focus on **AWS Amplify** AWS Amplify is an open-source JavaScript library provided by Amazon Web Services (AWS).
+AWS offers a vast number of services, too many to make an in-depth study case. so now that we had a quick look at AWS and cloud computing in general I will now focus on **AWS Amplify** AWS Amplify is an open-source JavaScript library provided by Amazon Web Services (AWS).
 
 If you want to learn more about other services provided by AWS click [here](https://aws.amazon.com/products/?aws-products) to see a full list of products offered by AWS. 
 
