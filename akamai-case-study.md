@@ -44,7 +44,14 @@ The company grew rapidly and delivered its first live traffic (a pixel buried de
 
 ## Strengths
 
-Discuss the product's strengths.
+- Successful track record of developing new products – product innovation.
+- Strong Brand Portfolio – Over the years Akamai Technologies has invested in building a strong brand portfolio. The SWOT analysis of Akamai Technologies just    underlines this fact. This brand portfolio can be extremely useful if the organization wants to expand into new product categories.
+- Automation of activities brought consistency of quality to Akamai Technologies products and has enabled the company to scale up and scale down based on the demand conditions in the market.
+- Highly skilled workforce through successful training and learning programs. Akamai Technologies is investing huge resources in training and development of its employees resulting in a workforce that is not only highly skilled but also motivated to achieve more.
+- Superb Performance in New Markets – Akamai Technologies has built expertise at entering new markets and making success of them. The expansion has helped the organization to build new revenue stream and diversify the economic cycle risk in the markets it operates in.
+- Good Returns on Capital Expenditure – Akamai Technologies is relatively successful at execution of new projects and generated good returns on capital expenditure by building new revenue streams.
+- Strong dealer community – It has built a culture among distributor & dealers where the dealers not only promote company’s products but also invest in training the sales team to explain to the customer how he/she can extract the maximum benefits out of the products.
+- Successful track record of integrating complimentary firms through mergers & acquisition. It has successfully integrated number of technology companies in the past few years to streamline its operations and to build a reliable supply chain.
 
 ## Weaknesses
 
