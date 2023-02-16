@@ -2,10 +2,10 @@
 
 |    Title     |    keywords |	  tags |	sidebar |	permalink |	folder |
 | :---         |   :---      |  :---   | :---     | :---      |   :--  |
-| Akamai       |development-platforms |development-platforms|development-platforms|development-platforms/akamai-case-study.md| hepp |
-|              | CDN        | CDN   | git diff  | git diff   | git diff   |
-|              |   Server   | Server  |           |            |            |
-|              |            |         |           |             |           |
+| Akamai       |development-platforms, CDN, Server  |development-platforms, CDN, Server|development-platforms|development-platforms/akamai-case-study.md| hepp |
+
+
+
 
 
 ## Introduction
