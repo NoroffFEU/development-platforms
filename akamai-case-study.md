@@ -82,7 +82,11 @@ The company grew rapidly and delivered its first live traffic (a pixel buried de
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+Akamai is one of the largest if not the largest provider of CDN technology today, and is used by: 
+- All top 10 video streaming services
+- All top 10 video game companies
+- All top 10 banks
+- All top 10 software companies
 
 ## Summary
 
