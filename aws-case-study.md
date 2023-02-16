@@ -13,7 +13,7 @@ Amazon Web Services was the first major cloud hosting service. Cloud Hosting is 
 
 AWS (Amazon Web Services) is a cloud computing platform that is provided by Amazon. AWS includes a mixture of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and packaged-software-as-a-service (SaaS). It is also important to note that the concept of cloud hosting was born together with AWS. 
 
-<img width="1024" alt="Skjermbilde 2023-02-08 kl  14 01 55" src="https://user-images.githubusercontent.com/91666428/217537213-e36faff3-28f8-48bd-a1ba-49449574f5ea.png">
+!["Skjermbilde 2023-02-08 kl  14 01 55"] (src="https://user-images.githubusercontent.com/91666428/217537213-e36faff3-28f8-48bd-a1ba-49449574f5ea.png">)
 
 ## Brief History
 
