@@ -14,6 +14,7 @@ folder: development-platforms
 - [Strengths](#strengths)
 - [Weaknesses](#weaknesses)
 - [Comparison](#comparison)
+- [Ethics](#ethics)
 - [Preview Period](#preview-period)
 - [Summary](#summary)
 - [Credits](#credits)
@@ -116,6 +117,17 @@ Although they function very similar in generating code recommendations, CodeWhis
 Copilot and CodeWhisperer also differ when it comes to how they handle code suggestions that are similar to their training. While CodeWhisperer notifies the developer of the issue and provides them with references, Copilot does not has this function yet. They have however made an announcement stating that they are working on a feature for this.
 
 
+## Ethics
+
+While AI pair programming such as CodeWhisperer can be very helpful for developers, the ethics of it are debated and here first and foremost concerns regarding copyright issues.
+ 
+As parts of these tools' training is based on open-source code with various licensing agreements, one of the main topics debated is how legal, or illegal, the code generated actually is. Can the generated code be considered as original code? Arguments used to support this is that the tools don't copy open-source code directly but uses analysis of it to write their own, much like developers do; search open-source code for inspiration, and then writing their own code. Or should the generated code be treated as derivative work and with that be regulated by the same terms as the original open-source code?
+ 
+Per time it has not been made any clear decisions or guidelines on this, but it is an important discussion worth keeping in mind when using these tools.
+ 
+In regards of CodeWhisperer and this thematic, CodeWhisperer has a reference tracker that will notify the developer of similarities with training data. But apart from that, Amazon has stated that it is the developers that both own and are responsible for the code CodeWhisperer generates.
+
+
 ## Preview period
 
 As previously mentioned, Amazon CodeWhisperer is out on preview. During this period, developers worldwide can use it for free. 
@@ -153,4 +165,6 @@ Marianne Bjerløv Pedersen (gitHub user: [Mariannebp](https://github.com/Mariann
 - [https://catalog.us-east-1.prod.workshops.aws/workshops/a33a5d69-1417-4d5f-acc9-ae5c7fba665b/en-US](https://catalog.us-east-1.prod.workshops.aws/workshops/a33a5d69-1417-4d5f-acc9-ae5c7fba665b/en-US)
 - [https://github.com/features/copilot](https://github.com/features/copilot)
 - [https://github.blog/2022-11-01-preview-referencing-public-code-in-github-copilot/](https://github.blog/2022-11-01-preview-referencing-public-code-in-github-copilot/)
-
+- [https://www.itprotoday.com/development-techniques-and-management/does-ai-assisted-coding-violate-open-source-licenses](https://www.itprotoday.com/development-techniques-and-management/does-ai-assisted-coding-violate-open-source-licenses)
+- [https://www.techtarget.com/searchsoftwarequality/news/252523049/Developers-beware-AI-pair-programming-comes-with-pitfalls](https://www.techtarget.com/searchsoftwarequality/news/252523049/Developers-beware-AI-pair-programming-comes-with-pitfalls)
+- [https://spectrum.ieee.org/ai-code-generation-ownership#toggle-gdpr](https://spectrum.ieee.org/ai-code-generation-ownership#toggle-gdpr)
