@@ -22,18 +22,18 @@ folder: development-platforms
 
 ## Introduction
 
-Cloud computing is the on-demand delivery of compute power, database, storage, applications, and other IT resources
+Cloud computing is the on-demand delivery of computing power, database, storage, applications, and other IT resources
 
-In this study case i will be looking into the world’s biggest cloud platform Amazon Web Services (AWS), and have a closer look at using AWS Amplify as a BaaS platform 
+In this study case, I will be looking into the world’s biggest cloud platform Amazon Web Services (AWS), and have a closer look at using AWS Amplify as a BaaS platform 
 
 
 ## Milestones in the history of AWS and cloud computing 
 
 * 1950s 
-  * Invention of mainframe computing, using a central computer accessed by several devices, all using the capabilities of the central computer. 
+  * The Invention of mainframe computing, using a central computer accessed by several devices, all using the capabilities of the central computer. 
 
 * 1970s
-  * Concept of Virtual machines emerges, having multiple complete operating systems that "live" in a single piece of hardware. This allowed a mainframe computer to run multiple operating systems at the same time. 
+  * The concept of Virtual machines emerges, having multiple complete operating systems that "live" in a single piece of hardware. This allowed a mainframe computer to run multiple operating systems at the same time. 
 
 * 1989 
   * UK computer scientist Tim Berners-Lee invented the World Wide Web.
@@ -57,10 +57,9 @@ In this study case i will be looking into the world’s biggest cloud platform A
   * IBM introduced the SmartCloud framework.
 
 * 2015 
-  * Google and Microsoft lead massive build outs of data centres.
+  * Google and Microsoft lead massive build-outs of data centers.
 
-* 2018 
-  * Leading data centre operators started the migration to 400G data speeds.
+* 2018 Leading data center operators started the migration to 400G data speeds.
   * AWS Amplify Console launched.
   
 
@@ -76,7 +75,7 @@ pie chart by [Synergy Research Group](https://www.srgresearch.com/)
  <br>
  <br>
 
-AWS offers a vast numbers of services, too many to make an in-depth study case. so now that we had a quick look on AWS and cloud computing in general i will now focus on **AWS Amplify** AWS Amplify is an open-source JavaScript library provided by Amazon Web Services (AWS).
+AWS offers a vast number of services, too many to make an in-depth study case. so now that we had a quick look on AWS and cloud computing in general i will now focus on **AWS Amplify** AWS Amplify is an open-source JavaScript library provided by Amazon Web Services (AWS).
 
 If you want to learn more about other services provided by AWS click [here](https://aws.amazon.com/products/?aws-products) to see a full list of products offered by AWS. 
 
@@ -104,7 +103,7 @@ Amplify Web Hosting is a fully-managed continuous integration and continuous del
 With Amplify, you can configure a web or mobile app backend, connect your app in minutes, visually build a web frontend UI, and manage app content outside the AWS console. Ship faster and scale effortlessly—with no cloud expertise needed. (Source: 
 [AWS amplify](https://aws.amazon.com/amplify/))
 
-Amplify Hosting supports the common SPA frameworks like React, Vue.js, Ionic and Ember as well as statistic site generators like Gatsby, VuePress and Jekyll.   
+Amplify Hosting supports common SPA frameworks like React, Vue.js, Ionic and Ember as well as statistic site generators like Gatsby, VuePress and Jekyll.   
 
 If you have existing code, and you want to deploy it through Amplify Web Hosting, then you can connect your git repository (GitHub, BitBucket Cloud, GitLab, and AWS CodeCommit) to set up continuous deployment.    
 
@@ -113,7 +112,7 @@ Other components provided by AWS Amplify:
 * Storage
   * Keep your app data synced with the cloud, manage your distributed data, and handle subscriptions and messaging.
 * Analytics
-  * Track user sessions and report on their behaviour. Set up custom attributes and analyze conversion funnels. 
+  * Track user sessions and report on their behavior. Set up custom attributes and analyze conversion funnels. 
 * Authentication
   * Access ready-to-use workflows for MFA, single sign-on, forgot password, etc.
 * Push Notifications
@@ -125,11 +124,10 @@ AWS Amplify is used by companies like Neiman Marcus, Noom, Amazon Music, Credit 
 
 #### Advantages of using AWS Amplify as a Baas platform
 
-* Built on top of other AWS services. 
-* Free tier offers to get you started for free.  
+* Built on top of other AWS services. The free tier offers to get you started for free.  
 * Create and deploy web applications without any coding.
 
-#### Additional benefits that comes with cloud computing  
+#### Additional benefits that come with cloud computing  
 
 * Unlimited capacity.
 * Increase speed and agility
@@ -141,7 +139,7 @@ AWS Amplify is used by companies like Neiman Marcus, Noom, Amazon Music, Credit 
 
 ###### Downtime 
 <br>
-When the cloud provider has internet outage or weak connectivity, services will get interrupted. It is rare for a cloud provider to experience an outage, but it does happen. 
+When the cloud provider has an internet outage or weak connectivity, services will get interrupted. It is rare for a cloud provider to experience an outage, but it does happen. 
 
 
 ###### Security 
@@ -150,7 +148,7 @@ According to this survey, almost [98% of companies using cloud computing service
 
 ###### Vendor Lock-in
 <br>
-Vendor lock-in refers to a situation where we become heavily dependent on cloud computing services of a particular vendor making it difficult to switch to a different vendor. This usually happens because of large amounts of data which is difficult to migrate, and the codebase and architecture of the application may need to be significantly refactored to work with another vendor’s infrastructure and APIs. 
+Vendor lock-in refers to a situation where we become heavily dependent on the cloud computing services of a particular vendor making it difficult to switch to a different vendor. This usually happens because of large amounts of data which is difficult to migrate, and the codebase and architecture of the application may need to be significantly refactored to work with another vendor’s infrastructure and APIs. 
 
 AWS although admitting that there is a degree of dependency, claims that vendor lock-in is not the challenge you might perceive, as data can be moved freely, and it is made as open source available to all, enabling to make their own technology choice at any point up the stack. You can read more [here](https://aws.amazon.com/campaigns/uk-enterprise-executive-leaders/vendor-lock-in-blog) and [here.](https://docs.aws.amazon.com/whitepapers/latest/unpicking-vendor-lock-in/unpick-vendor-lock-in.html) 
 
@@ -158,36 +156,29 @@ AWS although admitting that there is a degree of dependency, claims that vendor 
 <br>
 Costs can be both a significant advantage and disadvantage of cloud computing. 
 
-* Complex and steep learning curve
-* Can be expensive 
-
 ## Comparison
 
 #### AWS Amplify vs Azure Mobile apps
 
-Both AWS Amplify and Azure Mobile apps are cloud based platforms and offer similar services. Both supports popular frameworks, such as React Native, Xamarin, and Angular <br>
-
-However there are some differences too. 
+Both AWS Amplify and Azure Mobile apps are cloud-based platforms and offer similar services. Both support popular frameworks, such as React Native, Xamarin, and Angular <However, there are some differences too. 
 
 ###### Differences:  
-1. Amplify offers tools for building a full-stack web application, while Azure Mobile apps only offers the backend services.
-2. Amplify supports front-end frameworks like React Native and Angular, while Azure mobile apps integrates with client platforms, such as iOS, Android, and Windows, and it supports Xamarin and React Native. 
+1. Amplify offers tools for building a full-stack web application, while Azure Mobile apps only offer backend services.
+2. Amplify supports front-end frameworks like React Native and Angular, while Azure mobile apps integrate with client platforms, such as iOS, Android, and Windows, and it supports Xamarin and React Native. 
 3. Pricing: AWS Amplify has a flexible pricing model that charges based on usage, while Azure Mobile Apps has a set pricing model that charges based on the number of API calls and data storage.
 4. Amplify provides a limited set of libraries, and UI components (see [Features](#features) for details) making it easier to get started while Mobile Apps provides a comprehensive set of features and services, but may require more setup and configuration compared to AWS Amplify.
 
 #### AWS Amplify vs Google Firebase
 
-Firebase was originally founded as an independent company, but was acquired by Google in 2014, and has since then been integrated with other services that they offer, such as Google CLoud Platform. 
+Firebase was originally founded as an independent company, but was acquired by Google in 2014, and has since then been integrated with other services that they offer, such as the Google Cloud Platform. 
 
 
 ###### Differences:  
-1. Firebase is mostly geared towards Android users, and do not provide the same capabilities for IOS apps.  
-2. Firebase has been around for longer, and has a more extensive feature set.
+1. Firebase is mostly geared toward Android users and does not provide the same capabilities for IOS apps.  
+2. Firebase has been around for longer and has a more extensive feature set.
 3. Firebase is not yet as integrated into other cloud platform services as Amplify.  
 
-## Summary
-
-AWS Amplify do take time to master, but will provide benefits once it is mastered. it provides developers with tools like authentications, notifications, and APIs. 
+## SummaryAWS Amplify does take time to master but will provide benefits once it is mastered. it provides developers with tools like authentications, notifications, and APIs. 
 Overall, AWS Amplify is a powerful tool for developers who want to build web and mobile apps quickly and easily. 
 
 ### Credits
@@ -208,7 +199,7 @@ Martin Mroz (Git Hub: [martinMr79](https://github.com/martinMr79))
 
 [AWS Essential Training for Developer](https://www.linkedin.com/learning/aws-essential-training-for-developers-17237791/what-is-the-best-way-to-use-aws?autoplay=true&u=43268076)
 
-[AWS amplify](https://aws.amazon.com/amplify/)
+[AWS Amplify](https://aws.amazon.com/amplify/)
 
 [Amplify vs. Firebase](https://www.bairesdev.com/blog/amplify-vs-firebase-which-one-is-best)
 
@@ -224,4 +215,4 @@ Martin Mroz (Git Hub: [martinMr79](https://github.com/martinMr79))
 
 <br>
 <br>
-*note information received from chatGPT data have been backed up by at least one additional source. 
+*note information received from chatGPT data has been backed up by at least one additional source. 
