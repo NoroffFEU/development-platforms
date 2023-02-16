@@ -2,8 +2,8 @@
 
 |    Title     |    keywords |	  tags |	sidebar |	permalink |	folder |
 | :---         |   :---      |  :---   | :---     | :---      |   :--  |
-| Akamai       |git status  | git status| git status| git status | git status    |
-|              |git diff    | git diff  | git diff  | git diff   | git diff      |
+| Akamai       |  CDN        | CDN      | git status| git status | git status    |
+|              |  Server     | Server   | git diff  | git diff   | git diff      |
 
 ## Introduction
 
