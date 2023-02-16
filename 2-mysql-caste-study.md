@@ -9,6 +9,8 @@ folder: development-platforms
 
 ## Introduction
 
+<!-- Summarise the product's primary purpose in one or two paragraphs. -->
+
 I have chosen to write a case study about MySQL because it is one of the world's most popular and widely used databases.
 My goal is to weigh its strengths and weaknesses against other technologies of the same kind to figure out
 if this is a product worth using if there are other more modern products with better solutions and
@@ -27,6 +29,10 @@ RDBs have stood the test of time and are still today the most used types of data
 and MySQL is currently the most commonly used RDB.
 
 ## Brief History
+
+<!-- Provide a brief history of the product, including major milestones or events.
+
+You may use bullet points, numbered lists, paragraphs or a timeline. -->
 
 The first development of MySQL started in 1994 by Swedish developers Allan Larson, David Axamark
 , and Finnish developer Michael "Monty" Widenius. MySQL was initially intended for personal usage
@@ -90,6 +96,10 @@ MySQL Cluster CGE (10.000 USD / year per server)
 - highly available, high volume
 
 ## Features
+
+<!-- Outline the product's key features.
+
+ -->
 
 #### Internals
 
@@ -367,6 +377,8 @@ Non-ACID-compliant databases can potentially trade integrity for speed.
 
 ## Strengths
 
+<!-- Discuss the product's strengths. -->
+
 - Open source: MySQL is a free open-source software that can be modified by others to fit specific needs.
 - Widely adopted: MySQL is one of the most used relational databases in the world with a lot of documentation and community support.
 - Scalability: Can scale to handle large amounts of data, a good choice for busy web applications.
@@ -376,6 +388,8 @@ Non-ACID-compliant databases can potentially trade integrity for speed.
 - Proprietary option: Comes with the option of changing to the proprietary enterprise version if needed.
 
 ## Weaknesses
+
+<!-- Discuss the product's weaknesses. -->
 
 - Limited transaction processing: MySQL is less sophisticated regarding transaction processing.
 - Limited No-SQL capabilities: MySQL is limited in it's ability to handle No-SQL data.
