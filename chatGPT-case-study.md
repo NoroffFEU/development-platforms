@@ -75,7 +75,7 @@ Despite its many possible uses and strengths, this tool comes with a series of l
 
 Additionally, it tends to be unpredictable and unstable. This means that users may avoid content moderation by repeatedly asking the same question in different ways.
 
-Due to the human trainers rewarding longer answers for their appearance of being more comprehensive, the bot tends to be excessively verbose. This doesn't precisely add quality to the responses since the same information is repeated in different paragraphs with a slight change in phrasing. I personally consider this to be its biggest giveawayas it makes it relatively easy for a human to realize when a text has been written by an AI tool and therefore not reliable for producing important texts for university or work.
+Due to the human trainers rewarding longer answers for their appearance of being more comprehensive, the bot tends to be excessively verbose. This doesn't always add quality to the responses since the same information is being repeated in different paragraphs with a slight change in phrasing. This is a major giveaway that makes it relatively easy for a human to realize when a text has been written by an AI tool and therefore not reliable for producing important texts for university or work.
 
 The model also presents limitations in terms of server capacity. It is at times unreachable due to the amount of people trying to use the service at the same time. ChatGPT, as well as other NLP systems are very resource-intensive and can be expensive to run and scale. This is being addressed by offering a subscription plan.
 
