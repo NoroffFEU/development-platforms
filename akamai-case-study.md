@@ -1,9 +1,9 @@
 
 
 | Title | keywords |	tags |	sidebar |	permalink |	folder |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| :---         |     :---:      |          ---: || :---         |     :---:      |          ---: |
+| git status   | git status     | git status    | git status   | git status     | git status    |
+| git diff     | git diff       | git diff      | git diff     | git diff       | git diff      |
 
 ## Introduction
 
