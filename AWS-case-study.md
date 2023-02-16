@@ -146,6 +146,8 @@ When the cloud provider has an internet outage or weak connectivity, services wi
 <br>
 According to this survey, almost [98% of companies using cloud computing services experienced at least one data breach](https://ermetic.com/blog/cloud/state-of-cloud-security-2021-more-aware-yet-very-exposed) from 2020 to 2022. Inadequate cloud security measures lead to data leakage over cloud networks which can result in intellectual property theft, contract breaches, and malware attacks. Hackers can also control how companies provide services to their customers or end-users. 
 
+
+
 ###### Vendor Lock-in
 <br>
 Vendor lock-in refers to a situation where we become heavily dependent on the cloud computing services of a particular vendor making it difficult to switch to a different vendor. This usually happens because of large amounts of data which is difficult to migrate, and the codebase and architecture of the application may need to be significantly refactored to work with another vendor’s infrastructure and APIs. 
@@ -178,7 +180,8 @@ Firebase was originally founded as an independent company, but was acquired by G
 2. Firebase has been around for longer and has a more extensive feature set.
 3. Firebase is not yet as integrated into other cloud platform services as Amplify.  
 
-## SummaryAWS Amplify does take time to master but will provide benefits once it is mastered. it provides developers with tools like authentications, notifications, and APIs. 
+## Summary
+AWS Amplify does take time to master but will provide benefits once it is mastered. it provides developers with tools like authentications, notifications, and APIs. 
 Overall, AWS Amplify is a powerful tool for developers who want to build web and mobile apps quickly and easily. 
 
 ### Credits
@@ -215,4 +218,4 @@ Martin Mroz (Git Hub: [martinMr79](https://github.com/martinMr79))
 
 <br>
 <br>
-*note information received from chatGPT data has been backed up by at least one additional source. 
+*information received from chatGPT data has been backed up by at least one additional source. 
