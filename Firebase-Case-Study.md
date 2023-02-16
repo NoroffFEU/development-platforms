@@ -43,7 +43,6 @@ Being vendor locked in can be a major issue if:
 - The service provider increases prices.
 - You reach a technical barrier to the service
 
-Let's look at these in the context of Firebase.  
 Unfortunately, your code will become quite specified to their service, as most functions are imported from their library, meaning Vendor Lock-in with Firebase will occur to at least some extent. However, Google is a gigantic company with a small to no probability of shutting down the service. Being Vendor locked into this behemoth is therefore less of a concern than being locked-in into a minor and less predictable provider. When it comes to pricing, big ships turn slowly. Currently, Firebase provides a brilliant "pay as you grow" plan, which we will discuss later.
 
 ## Closed Source
