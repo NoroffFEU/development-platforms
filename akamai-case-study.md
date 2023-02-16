@@ -2,7 +2,7 @@
 
 |    Title     |    keywords |	  tags |	sidebar |	permalink |	folder |
 | :---         |   :---      |  :---   | :---     | :---      |   :--  |
-| Akamai       |development-platforms, CDN, Server  |development-platforms, CDN, Server|development-platforms|development-platforms/akamai-case-study.md| hepp |
+|Akamai Case Study|development-platforms, CDN(content delivery network), Server|development-platforms, CDN, Server|development-platforms|development-platforms/akamai-case-study.md| Development-platforms|
 
 
 
