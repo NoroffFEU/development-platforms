@@ -49,32 +49,30 @@ Today, GitHub is used by millions of developers around the world and is consider
 ### Microsoft acquires GitHub
 Microsoft acquired GitHub in 2018 for $7.5 billion. The acquisition was seen as a significant move by Microsoft to bolster its position in the developer tools and services market.
 
-The acquisition has allowed Microsoft to leverage GitHub's strengths, such as its powerful collaboration tools and strong developer community, to enhance its own development tools and services. Microsoft has also integrated GitHub with its other products, such as Visual Studio and Azure, to provide a more seamless and comprehensive development experience for developers.
+The acquisition has allowed Microsoft to leverage GitHub's strengths, such as its powerful collaboration tools and strong developer community, to enhance its development tools and services. Microsoft has also integrated GitHub with its other products, such as Visual Studio and Azure, to provide a more seamless and comprehensive development experience for developers.
 the acquisition of GitHub by Microsoft has been generally well-received and has provided a significant boost to Microsoft's position in the developer tools and services market.
 
 ## Features
 GitHub is a web-based platform for version control and collaboration that allows developers to store and share their code. Here are some of the key features of GitHub:
-
 - **Version control:** GitHub allows developers to easily track changes to their code over time. This is achieved through the use of Git, a distributed version control system.
 
 - **Collaboration:** GitHub allows multiple developers to work on the same codebase simultaneously, and provides tools for managing pull requests, code reviews, and other collaboration workflows.
 
-- **Branches:** A user can start a new branch either from the main branch or a different branch. This allows the user to write new code for the project without adding it to the project itself. When new code is written on a new branch it can be merged into the main project. Usually users make a pull request before merging. This system enables users to develop code on different versions of a project at the same time.
+- **Branches:** A user can start a new branch either from the main branch or a different branch. This allows the user to write new code for the project without adding it to the project itself. When new code is written on a new branch it can be merged into the main project. Usually, users make a pull request before merging. This system enables users to develop code on different versions of a project at the same time.
 
-- **Pull requests:** When a user have made changes to a project's code on a separate branch, he can make a pull request. This is an important step in quality control where other developers can inspect the changes in the code. They do this to make sure that the code is bug free and has no issues. When it is determined that the code is safe it can be merged from this branch to it's parent branch or to the main branch.
+- **Pull requests:** When a user has made changes to a project's code on a separate branch, he can make a pull request. This is an important step in quality control where other developers can inspect the changes in the code. They do this to make sure that the code is bug-free and has no issues. When it is determined that the code is safe it can be merged from this branch to its parent branch or the main branch.
 
-- **Issue tracking:** GitHub includes a powerful issue tracking system that allows users to report bugs, suggest new features, and track progress on specific tasks.
+- **Issue tracking:** GitHub includes a powerful issue-tracking system that allows users to report bugs, suggest new features, and track progress on specific tasks.
 
-- **Merging:** Is adding new code to a project from a separate branch. usually this is done after a pull request.
+- **Merging:** Is adding new code to a project from a separate branch. usually, this is done after a pull request.
 
-- **GitHub Actions:** Is a feature where you can add automated tasks to a project. The automated tasks can either be run manually or be set to run at specific points of development such as when a pull request is made. GitHub actions is very flexible and allows for lots of different programming languages and tools to be used with it. examples of GitHub actions usage: deploy to static pages, end to end testing and unit testing.
+- **GitHub Actions:** This is a feature where you can add automated tasks to a project. The automated tasks can either be run manually or be set to run at specific points of development such as when a pull request is made. GitHub actions are very flexible and allow for lots of different programming languages and tools to be used with it. examples of GitHub actions usage: deploy to static pages, end-to-end testing and unit testing.
 
 - **Marketplace:** GitHub Marketplace is a platform that offers a variety of apps and tools that can be integrated with GitHub to enhance developer workflows, automate tasks, and improve productivity.
 
 ## Strengths
 
 GitHub is a powerful web-based platform that offers numerous benefits to developers and businesses. Some of the key strengths of GitHub include:
-
 - **Collaboration:** GitHub is designed to enable developers to work together on code projects, allowing them to share, review, and edit code in real-time. It provides features like pull requests, issue tracking, and team discussions to facilitate collaboration among developers.
 
 - **Open Source:** GitHub hosts a large number of open-source projects, making it easy for developers to access and contribute to them. Open source projects on GitHub allow developers to learn from the code of others, and to contribute to the community by improving or extending existing projects.
@@ -85,18 +83,16 @@ GitHub is a powerful web-based platform that offers numerous benefits to develop
 
 - **Cost-effective:** GitHub offers a free plan that enables developers to access many of its features and work together on open-source projects. Its enterprise plan is also affordable and well-suited to larger businesses.
 
-- **GitHub Actions:** This feature enables you to automate, personalise, and execute software development workflows directly from your repository.
+- **GitHub Actions:** This feature enables you to automate, personalize, and execute software development workflows directly from your repository.
 
-- **Mobile / desktop app:** GitHub has an app developers can use to manage their code trough their mobile phones,making it simple to stay productive on the go.
-GitHub also have a desktop app to make a better workflow when on computer
+- **Mobile / **Desktop** app:**** GitHub has an app that developers can use to manage their code through their mobile phones, making it simple to stay productive on the go. GitHub also has a desktop app to make a better workflow when on a computer
 
-- **Community:** GitHub has a large and active community of developers, which provides a valuable resource for learning and problem-solving. Developers can find answers to their questions, share their own knowledge, and get feedback from others on their code.
+- **Community:** GitHub has a large and active community of developers, which provides a valuable resource for learning and problem-solving. Developers can find answers to their questions, share their knowledge, and get feedback from others on their code.
 
 ## Weaknesses
 
-GitHub is a powerful and widely-used platform, it also has some weaknesses and limitations.
-
-- **Learning Curve:** GitHub can be difficult to learn and use for beginners who are new to version control and collaboration. The platform has a steep learning curve, and users may need to invest significant time and effort to become proficient. from a personal POV, there was a lot of new methods and new concepts at the start, but after a couple of repos you learn more and more how things work.
+GitHub is a powerful and widely-used platform, but it also has some weaknesses and limitations.
+- **Learning Curve:** GitHub can be difficult to learn and use for beginners who are new to version control and collaboration. The platform has a steep learning curve, and users may need to invest significant time and effort to become proficient. from a personal POV, there were a lot of new methods and new concepts at the start, but after a couple of repos you learn more and more about how things work.
 
 - **Limited Private Repositories:** GitHub's free tier only allows for a limited number of private repositories, which can be a limitation for individual developers or small teams who need to keep their code private.
 
@@ -114,11 +110,11 @@ GitHub and Bitbucket are both web-based platforms for hosting and managing sourc
 
 #### GitHub v Gitlab
 GitHub and GitLab are both popular web-based platforms for hosting and managing source code repositories, but there are some key differences between the two:
-  - Pricing: GitLab offers a free, self-hosted Community Edition as well as a cloud-hosted free tier with unlimited private repositories. GitHub offers a free tier with unlimited public repositories, but limits the number of private repositories and collaborators. For larger teams, GitLab can be more cost-effective than GitHub.
+  - Pricing: GitLab offers a free, self-hosted Community Edition as well as a cloud-hosted free tier with unlimited private repositories. GitHub offers a free tier with unlimited public repositories but limits the number of private repositories and collaborators. For larger teams, GitLab can be more cost-effective than GitHub.
   
   - Collaboration: Both GitHub and GitLab offer powerful collaboration features such as pull requests, code reviews, and merge requests. However, GitLab's collaboration features are more robust, with more granular permissions and approval workflows.
   
-  - Customization: GitLab offers more customization options than GitHub, including the ability to create custom workflows and pipelines, and to set up your own continuous integration and deployment servers.
+  - Customization: GitLab offers more customization options than GitHub, including the ability to create custom workflows and pipelines, and to set up your continuous integration and deployment servers.
   
   - Hosting Options: GitLab offers both cloud-based and self-hosted options, while GitHub only offers cloud-based hosting. This gives GitLab users more control over their hosting environment and infrastructure.
   
@@ -135,7 +131,7 @@ Summarise the content and highlight the relevance of the product to a web develo
 - [GitHub wiki](https://en.wikipedia.org/wiki/GitHub)
 - [Gitlab website](https://about.gitlab.com/)
 - [Gitlab wiki](https://en.wikipedia.org/wiki/GitLab)
-- [Microsoft acquries GitHub](https://news.microsoft.com/announcement/microsoft-acquires-github/)
+- [Microsoft acquires GitHub](https://news.microsoft.com/announcement/microsoft-acquires-github/)
 - [GitHub step by step](https://www.edureka.co/blog/how-to-use-github/)
 - [GitHub blog](https://github.blog/)
 - [Azure DevOps](https://azure.microsoft.com/en-us/products/devops)
