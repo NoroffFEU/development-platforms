@@ -274,6 +274,7 @@ Azure DevOps is integrated with the most essential tools for making the work, co
 
 The platform itself is clean and easy to use with lots of documentation for us to be able to make the most out of the platform.
 
+
 ### Credits
 
 Author: Christopher Tønnesland - [GitHub](https://github.com/Christonn93)
