@@ -83,7 +83,9 @@ In terms of performance Cloudflare currently rank 4th on the benchmarking site C
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+Cloudflare is one of the leading providers of content delivery networks in the world, and they have a broad range of products for anyone wanting to make their content more accessible, reliable and secure. 
+
+Cloudflares Developer Platform provides solutions for developers to deploy their serverless applications on servers distributed all over the planet. In addition, they provide their Pages solution for deploying full-stack application instantly to the same global network, and an Image API to store, optimizing and resize images. This is just some of the functionality that is highly relevant for a developer.
 
 ### References
 
@@ -102,6 +104,10 @@ Summarise the content and highlight the relevance of the product to a web develo
 - [Cloudflare - DDoS Mitigation](https://www.cloudflare.com/learning/ddos/ddos-mitigation/)
 - [Cloudflare - DDos Attack](https://www.cloudflare.com/en-gb/learning/ddos/what-is-a-ddos-attack/)
 - [Wikipedia - DDoS Attack](https://en.wikipedia.org/wiki/Denial-of-service_attack)
+
+#### Workers
+
+- [Cloudflare Workers](https://developers.cloudflare.com/workers/)
 
 #### Comparison
 
