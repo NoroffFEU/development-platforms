@@ -22,10 +22,13 @@ folder: development-platforms
 
 ## Introduction
 GitHub is an internet hosting service for software development and version control using Git, 
-GitHub is a web-based platform where users can start and store their code and collaborate with others on projects or get feedback. GitHub has a lot of tools and features like action, project, GitHub Desktop, bug tracking, task management, etc
+GitHub is a web-based platform where users can start and store their code and collaborate with others on projects or get feedback.
+GitHub has a lot of tools and features like action, project, GitHub Desktop, bug tracking, task management, etc
 
 ## Brief History
-GitHub was founded in 2008 by Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, and Scott Chacon. GitHub has had enormous growth since it was founded and today it is one of the most popular platforms for web hosting and code sharing. GitHub's headquarters is based in San Francisco in the state of California, in the united states of America. the CEO of GitHub is named Thomas Dohmke.
+GitHub was founded in 2008 by Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, and Scott Chacon.
+GitHub has had enormous growth since it was founded and today it is one of the most popular platforms for web hosting and code sharing.
+GitHub's headquarters is based in San Francisco in the state of California, in the united states of America. the CEO of GitHub is named Thomas Dohmke.
 
 Short timeline:
 - **2007**: The development of GitHub.com began.
@@ -43,11 +46,14 @@ Short timeline:
 - **2021**: 28 million public repositories. It is the largest source code host.
 - **2023**: GitHub reported having over 100 million developers and more than 372 million repositories.
 
-GitHub quickly became popular among developers and soon became the largest host of source code in the world. In 2012, GitHub raised $100 million in funding and was valued at $750 million.
-Today, GitHub is used by millions of developers around the world and is considered an essential tool for many software projects. It has become the go-to platform for open-source software development and is used by organizations and individuals alike to share code and collaborate on software development projects.
+GitHub quickly became popular among developers and soon became the largest host of source code in the world.
+In 2012, GitHub raised $100 million in funding and was valued at $750 million.
+Today, GitHub is used by millions of developers around the world and is considered an essential tool for many software projects.
+It has become the go-to platform for open-source software development and is used by organizations and individuals alike to share code and collaborate on software development projects.
 
 ### Microsoft acquires GitHub
-Microsoft acquired GitHub in 2018 for $7.5 billion. The acquisition was seen as a significant move by Microsoft to bolster its position in the developer tools and services market.
+Microsoft acquired GitHub in 2018 for $7.5 billion.
+The acquisition was seen as a significant move by Microsoft to bolster its position in the developer tools and services market.
 
 The acquisition has allowed Microsoft to leverage GitHub's strengths, such as its powerful collaboration tools and strong developer community, to enhance its development tools and services. Microsoft has also integrated GitHub with its other products, such as Visual Studio and Azure, to provide a more seamless and comprehensive development experience for developers.
 the acquisition of GitHub by Microsoft has been generally well-received and has provided a significant boost to Microsoft's position in the developer tools and services market.
@@ -92,7 +98,7 @@ GitHub is a powerful web-based platform that offers numerous benefits to develop
 ## Weaknesses
 
 GitHub is a powerful and widely-used platform, but it also has some weaknesses and limitations.
-- **Learning Curve:** GitHub can be difficult to learn and use for beginners who are new to version control and collaboration. The platform has a steep learning curve, and users may need to invest significant time and effort to become proficient. from a personal POV, there were a lot of new methods and new concepts at the start, but after a couple of repos you learn more and more about how things work.
+- **Learning Curve:** GitHub can be difficult to learn and use for beginners who are new to version control and collaboration. The platform has a steep learning curve, and users may need to invest significant time and effort to become proficient. from a personal POV, there were a lot of new methods and new concepts at the start, but after a couple of repositories you learn more and more about how things work.
 
 - **Limited Private Repositories:** GitHub's free tier only allows for a limited number of private repositories, which can be a limitation for individual developers or small teams who need to keep their code private.
 
@@ -131,7 +137,12 @@ GitHub and Azure DevOps are both popular platforms for software development, but
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+This text is a case study of GitHub, an internet hosting service for software development and version control using Git.
+The platform is used to store and share code and collaborate with others on projects or receive feedback.
+It has several features such as version control, collaboration tools, branches, pull requests, issue tracking, and more.
+The text outlines the history of GitHub, from its foundation in 2008 to its acquisition by Microsoft in 2018 for $7.5 billion.
+Microsoft has integrated GitHub with its other products, such as Visual Studio and Azure, to provide a more seamless and comprehensive development experience for developers.
+Today, GitHub is considered an essential tool for many software projects and is used by millions of developers around the world.
 
 ### Credits
 
