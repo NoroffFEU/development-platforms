@@ -25,7 +25,7 @@ Firebase is a development platform and tool provided by Google. Some might call 
 Firebase provides an arsenal of different tools and features required to build an app through SDKs (Software Development Kits).
 These include Authentication, Hosting, Cloud Functions, Cloud Storage, Realtime Database, Performance Monitoring, Analytics, Cloud Messaging, and more.
 
-In this case study, I aim to answer everything I initially wondered about Firebase, including practical examples. Let's begin.
+In this case study, I aim to answer everything you may initially be wondering about Firebase, including practical examples. Let's begin.
 
 # Brief History
 
@@ -47,7 +47,7 @@ Let's consider this in the context of Firebase. Unfortunately, your code will be
 
 ## Closed Source
 
-Although Firebase is not open source, many of its features are. This is done for increased transparency and to build a stronger developer community. Open source components from Firebase include SDKs, libraries, and samples, all posted on their GitHub page. 
+Although Firebase is not open source, many of its features are. This is done for increased transparency and to build a stronger developer community. Open source components from Firebase include SDKs, libraries, and samples, all posted on their GitHub page.
 Unless you plan to build something that outlives or rivals Google, you don't need to worry about Firebase's closed source. However, very large companies may benefit from building their infrastructure using open-source alternatives to ensure independence.
 
 ## Only NoSQL Database
@@ -267,8 +267,8 @@ firebase deploy
 
 # Summary
 
-I view Firebase as a brilliant tool when you are unsure about the success of your application, and you want to give it a go with costs and minimal time invested.
-You will be vendor locked in, and migrating to another service later is not easy. However, Firebase will most likely offer everything you need. The X factor in my opinion is pricing, but when this becomes an issue, your application is already successful, and you may then have the means to hire assistance to migrate to another service if needed.
+Firebase is a brilliant tool when you are unsure about the success of your application, and you want to give it a go with costs and minimal time invested.
+You will be vendor locked in, and migrating to another service later is not easy. However, Firebase will most likely offer everything you need. The X factor is pricing, but when this becomes an issue, your application is already successful, and you may then have the means to hire assistance to migrate to another service if needed.
 
 ## Credit
 
