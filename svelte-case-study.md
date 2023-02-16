@@ -1,6 +1,6 @@
 ---
 title: Svelte Case Study
-keywords: development platforms, svelte, development, compiler, Web Framework
+keywords: Development Platforms, Svelte, Development, Compiler, Web Framework
 tags: Development Platforms, Svelte Project, Development
 sidebar: development-platforms
 permalink: development-platforms/svelte-product.html
@@ -20,14 +20,12 @@ folder: development-platforms
 - [Credits & References](#credits)
 
 ## Introduction
-Svelte is a javascript compiler, its similar to React, but react uses Virtual DOM and both provide a similar component-based architecture -- that means both enable a CDD bottom-up development, and both enable sharing their components between apps, via tools and platforms like [Github](www.github.com).
+Svelte is a JavaScript compiler, its similar to React, but React uses Virtual DOM and both provide a similar component-based architecture -- that means both enable a CDD bottom-up development, and both enable sharing their components between apps, via tools and platforms like [Github](www.github.com).
 
 ## Brief History
 [Svelte](https://svelte.dev/) was created by Rich Harris. Svelte is a free and open source front end component framework / language, it is not a monolithic JavaScript library imported by applications. Instead, it compiles HTML templates to specialized code that manipulates the DOM directly. And was initial released `26th November, 2016`.
 
-- `23th May, 2016` The initial commit to the svelte Github repo.
-
-- `29th November, 2016` was first released.
+- `26th November, 2016` was first released.
 
 - `19th September, 2017` First stable version of svelte, version 1.0 was released.
 
@@ -59,28 +57,26 @@ you can create CSS styles that are scoped to specific components, so they won't 
 
 ## Setup
 
-I am using [vite](https://vitejs.dev/) to create a new svelte project, there is other way's than vite like degit and then rollup would be the default, but im not gonna get into that. If you want a full-fledged app framework you can also use [SvelteKit](https://svelte.dev/docs) it will also be utilizing vite. But since im only gonna build a simple front-end only site/app, i will use svelte (without kit).
+This case study will be utilizing [Vite](https://vitejs.dev/) to create a new Svelte project, there are other methods available, such as Degit and then Rollup would be the default, but this case study will not focus on those options. If you would like a full-fledged app framework you can also use [SvelteKit](https://svelte.dev/docs), which also utilizes Vite. But since I'm only gonna build a simple front-end only site/app, I will use Svelte (without kit).
 
-You start by navigating to the folder where you want to create the project, then open a terminal in the folder and type this command and hit enter.
+You start by navigating to the folder where you want to create the project. Then, open a terminal in the folder and type this command, and hit enter.
 
 ```
 npm init vite@latest
 ```
 
-You will then get prompted some options.
+You will then be prompted with some options.
 
-1. Write the name of the project or hit enter for default.
+1. Write the name of the project, or hit enter for the default.
+2. You will get options for frameworks, choose Svelte.
+3. you will get options for variants, like JavaScript, TypeScript, or SvelteKit.
 
-2. You will get options of frameworks, choose svelte.
+I'm going to choose JavaScript for this project, feel free to choose whatever you prefer.
 
-3. you will get options for variant like javaScript, TypeScript or SvelteKit.
+To go go into the project folder, use `cd "name of your project"`.
+In the terminal, type `code .` to open the project in a new VS Code session.
 
-Im going to choose javascript for this project, feel free to choose whatever floats your boat.
-
-Go into the project folder `cd "name of your project"`.
-Write this command in the terminal `code .` that will open the project in a new vscode session.
-
-open terminal and write these commands:
+Open your terminal and type these commands:
 
 ```
 npm i
@@ -89,14 +85,13 @@ npm i
 npm run dev
 ```
 
-And your server will be live and running.
-if you want to configure vite more you can find the docs [here](https://vitejs.dev/config/).
+Your server will then be live and running. if you want to configure Vite more, you can find the documentation [here](https://vitejs.dev/config/).
 
 ## Using svelte
 
-If you are using Visual Studio Code, I would recommend downloading the svelte extension "Svelte for VS code" it will give you formatting, auto completions and it allows you to use emmet inside you svelte components.
+If you are using Visual Studio Code, I would recommend downloading the Svelte extension "Svelte for VS Code". It will give you formatting, auto completions, and it allows you to use Emmet inside your Svelte components.
 
-This is an example of a fetch using svelte.
+This is an example of a fetch using svelte:
 ```js
  <div class="items-container">
    <ul>
@@ -112,9 +107,9 @@ This is an example of a fetch using svelte.
    </ul>
  </div>
 ```
-This code will generate the items straight in the html using the `#await` syntax.
+This code will generate the items straight in the HTML using the `#await` Svelte syntax.
 
-You combine this with a script tag in the svelte file where you will be setting up the fetch.
+You combine this with a script tag in the Svelte file where you will be setting up the fetch.
 ```js
 <script>
   const baseUrl = "your url";
@@ -147,7 +142,7 @@ The content in the svelte files looks like this.
 import Nav from "../lib/comp/Nav.svelte"
 </script>
 
-HTML
+HTML HERE
 // If your in App.svelte you will also have a head and main tag.
 <svelte:head>
 <title>Homepage | PageName</title>
@@ -164,28 +159,29 @@ HTML
 
 #### Context of the script.
 
-- If you are using typescript you can use the following at the top of your script file
+- If you are using typescript you can use the following at the top of your script file:
 `<script lang="ts"></script>`
 
-- If your script should be a module you can use the following in the same way
-`<script lang="ts" context="module"></script>` this is the default so instead you can use the `<script context></script>` in the instance of referring to it as a module.
+- If your script should be a module you can use the following in the same way:
+`<script lang="ts" context="module"></script>`. This is the default, so instead you can use `<script context></script>` when referring to it as a module.
 
-- If your script should be a instance, you just switch out module for instance.
+- If your script should be a instance, you just switch out "module" for "instance".
 
-- If the script should be loaded asynchronously you can use async
-`<script async></script>` this can improve performance by allowing the script to load after the component has finished rendering.
+- If the script should be loaded asynchronously you can use `async`:
+`<script async></script>`. This can improve performance by allowing the script to load after the component has finished rendering.
 
-- if you want to debug you can use
-`<script debug></script>` This attribute enables or disables debugging mode for the component. This is by default `"true"`
+- if you want to debug you can use:
+`<script debug></script>`. This attribute enables or disables debugging mode for the component. This is set to `"true"`by default.
 
 #### Svelte Syntax
 
-Svelte application components are defined with `.svelte` files. Which are HTML files extended with templating syntax that is based on Javascript and is similar to JSX. You can use __layout.svelte to create a layout that will be on all the pages like header and navigation.
+Svelte application components are defined with `.svelte` files. Which are HTML files extended with templating syntax that is based on JavaScript and is similar to JSX. You can use `__layout.svelte` to create a layout that will be on all the pages, such as a header and navigation.
 
 ---
-`{@debug}` This tag offers an alternative to console.log(), if you want to console log / debug something in your code.
+`{@debug}` This tag offers an alternative to console.log(), it allows you to console log and debug your code in Svelte.
+You can use this in place of `console.log()`.
 
-Example:
+For example:
 ```js
 <script>
 	let user = {
@@ -204,14 +200,14 @@ color: green;
 }
 </style>
 ```
-This will debug user object, and console log the response.
+This will debug `user` object and console log its response.
 
 #### [Learn more](https://svelte.dev/docs#template-syntax-debug)
 ---
 `@const myVar` defines a local constant and is only allowed as a direct child of 
 `{#if}`, `{:else if}`, `{:else}`, `{#each}`, `{:then}`, `{:catch}`, `<Component />` or `<svelte:fragment />`.
 
-Example:
+For example:
 ```js
 <script>
 	export let boxes;
@@ -225,9 +221,9 @@ Example:
 
 #### [Learn more](https://svelte.dev/docs#template-syntax-const)
 ---
-`{#each items as item} {/each}` For each block, you can combine this with index, (key), and `{:else}`
+`{#each items as item} {/each}` is used to loop through an array or object. You can also include index, a key value for each loop, and `{:else}`.
 
-Example:
+For example:
 ```js
 <h1>Shopping list</h1>
 <ul>
@@ -239,9 +235,9 @@ Example:
 
 #### [Learn more](https://svelte.dev/docs#template-syntax-each)
 ---
-`{#await expression}.. {:then item} .. {:catch error} .. {/await}` You can also exclude `:then`, if you do not need to render anything when the promise rejects you can also remove `:catch`.
+`{#await expression}.. {:then item} .. {:catch error} .. {/await}` is used to handle promises in Svelte. You can also exclude `:then`, and if you do not need to render anything when the promise rejects, you can also remove `:catch`.
 
-Example:
+For example:
 ```js
  <div class="items-container">
    <ul>
@@ -268,24 +264,23 @@ Example:
 
 ## Strengths
 
-- The building time is much faster when compared to react or even other frameworks.
+- The build time is much faster when compared to react or even other frameworks.
 
-- Bundle size is smaller and tiny when gzipped.
+- The bundle size is smaller and tiny when gzipped.
 
-- Binding classes and variables are relative easy, and custom logic is not needed when binding classes.
+- Binding classes and variables are relatively easy, and custom logic is not needed when binding classes.
 
 - Scoping CSS withing the component itself allows flexible styling.
 
-- Easier to understand and get started with compared to other frameworks.
+- It is easier to understand and get started with compared to other frameworks.
 
 ## Weaknesses
 
-- Svelte won't listen for reference updates and array mutations, and developers need to actively look out for this and make sure arrays are reassigned so the UI will be updated
+- Svelte does not automatically listen for updates to references and array mutations, so developers need to actively watch for these and ensure that arrays are reassigned in order to upodate the UI.
 
-- Usage syntax for DOM events can also be annoying, cannot directly use `onClick`, but instead use special syntax such as `on:click`
+- The syntax for handling DOM events can also be annoying, as it requires special syntax such as `on:click` rather than more straight forward like `onClick`.
 
-- Svelte is a new and young framework with minimal community support,
-thereby does not have support for a wide range of plugins and integrations that might be required by heavy production applications. React is the powerful contender here. 
+- Svelte is a new and relatively young framework with minimal community support, thereby does not have support for a wide range of plugins and integrations that might be required by large-scale production applications. In this regard, React is the powerful contender here.
 
 ## Comparison
 
