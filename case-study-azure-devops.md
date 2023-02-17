@@ -187,16 +187,19 @@ Integrated Analytics in Azure DevOps helps you make data-driven decisions by giv
 
 ## Strengths
 
+Its really easy to integrate with the widley used platform GitHub. In fact 2018 Microsoft bought GitHub for $7.5 billion, so the connection between the popular code-repository service used by many developers and large companies and Azure DevOps is really easy to setup and use.
+
+Azure DevOps has a huge documentation archive that describes in detail how to use the service. [[16](#references)]
+
+Tightly integrated with other Microsoft technologies, such as Visual Studio, Azure, and Office 365, making it a convenient choice for organizations that use these technologies.
+
+Azure DevOps have a extension for Visual Studio Code [[17](#references)]. The extension features the ability to export a planning session into Azure DevOps system. Planning in Azure DevOps itself is hard, way too much clicking. It's so much easier to just type all the tasks in a simple text form and then just export them.
+
+Highly customizable, and provides a wide range of options for users to configure the platform to meet their specific needs.
+
+Designed with DevOps in mind, and provides a comprehensive set of tools for software development and delivery, making it an attractive choice for organizations that are looking to adopt DevOps practices.
+
 Azure DevOps have lots of strengths, but it's important to keep in mind that the strengths of the platform may vary depending on the specific needs of an organization and that the strengths of the platform may outweigh these weaknesses for some use cases.
-
-**Here is some of the strengths of Azure DevOps**
-
-1. Its really easy to integrate with the widley used platform GitHub. In fact 2018 Microsoft bought GitHub for $7.5 billion, so the connection between the popular code-repository service used by many developers and large companies and Azure DevOps is really easy to setup and use.
-2. Azure DevOps has a huge documentation archive that describes in detail how to use the service. [[16](#references)]
-3. Tightly integrated with other Microsoft technologies, such as Visual Studio, Azure, and Office 365, making it a convenient choice for organizations that use these technologies.
-4. Azure DevOps have a extension for Visual Studio Code [[17](#references)]. The extension features the ability to export a planning session into Azure DevOps system. Planning in Azure DevOps itself is hard, way too much clicking. It's so much easier to just type all the tasks in a simple text form and then just export them.
-5. Highly customizable, and provides a wide range of options for users to configure the platform to meet their specific needs.
-6. Designed with DevOps in mind, and provides a comprehensive set of tools for software development and delivery, making it an attractive choice for organizations that are looking to adopt DevOps practices.
 
 ## Weaknesses
 
@@ -206,13 +209,15 @@ One of the weaknesses is the cost for larger organizations that need additional 
 
 Azure DevOps is highly customizable, but this can lead to a lack of standardization across projects and teams, making it more difficult to manage and maintain the platform.
 
-1. Can be complex, especially for organizations that are new to DevOps or are unfamiliar with Microsoft technologies.
-2. Highly customizable, but this can lead to a lack of standardization across projects and teams, making it more difficult to manage and maintain the platform.
-3. Expensive, especially for organizations that require additional services or support, or that have large teams.
-4. Can be challenging to integrate with other tools and systems, especially if they are not from Microsoft or are not cloud-based.
-5. The user experience of Azure DevOps can be confusing or cluttered, especially for users who are new to the platform or have limited experience with similar tools.
-6. Azure DevOps may not be able to scale to meet the needs of very large organizations, especially those with large teams and complex software development pipelines.
-7. Some features that are commonly used in software development may not be available in Azure DevOps, or may require additional tools or services to be used.
+I can be a bit complex for some users, especially for organizations that are new to DevOps or are unfamiliar with Microsoft technologies.
+
+There is some challenges to integrate with other tools and systems, especially if they are not from Microsoft or are not cloud-based.
+
+The user experience of Azure DevOps can be confusing or cluttered, especially for users who are new to the platform or have limited experience with similar tools.
+
+Azure DevOps may not be able to scale to meet the needs of very large organizations, especially those with large teams and complex software development pipelines.
+
+Some features that are commonly used in software development may not be available in Azure DevOps, or may require additional tools or services to be used.
 
 ## Pricing
 
@@ -255,22 +260,13 @@ While Azure DevOps is one of the leading platforms out on the marked, there are 
 
 To create comparison between the software above i have used [this website](https://sourceforge.net/)
 
-## How to
-
-```
-NOT sure if this will be included, I will have to see if i will include this
-I'm thinking to create a video montage of how to use Azure DevOps. 
-
-Add information about how to use Azure DevOps with git commands.
-```
-
 ## Summary
 
 Azure DevOps is a cloud computing platform and infrastructure with many features that can help you and your team with the workflow on your project. It's easy to create a free account with a small team and for a larger team you have more options.
 
 All work when using Azure DevOps can be done with IDE. Integration with Visual Studio Code and git, you can work mainly in the IDE. With the Visual Studio Code and Microsoft Team you can have your code and communication with your team, manage your work board tasks.
 
-Azure DevOps is integrated with the most essential tools for making the work, collaboration and communication easy, in a organized environment
+Azure DevOps is integrated with the most essential tools for making the work, collaboration and communication easy, in a organized environment. If you are familiar whit using git commands, you are able to easily clone, commit and push your work in to the repository
 
 The platform itself is clean and easy to use with lots of documentation for us to be able to make the most out of the platform.
 
