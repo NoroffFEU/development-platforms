@@ -192,7 +192,7 @@ While on the other hand, if Typescript is not the preferred programming language
 
 #### tRPC works great in a mono repo
 
-With how tRPC communicates between client and server code, you are encouraged to use a singular repository, and several highlighted features are only accessible if you do so. On a smaller scale, there are many benefits to doing so. It's easier to navigate between client/server code, make changes and ensure type-safety within the entirety of your code base. No more `uncaught type errors`.
+With how tRPC communicates between client and server code, you are encouraged to use a singular repository, and several highlighted features are only accessible if you do so. On a smaller scale, there are many benefits to doing so. It's easier to navigate between client/server code, make changes and ensure typesafety within the entirety of your code base. No more `uncaught type errors`.
 
 #### Quick development
 
@@ -216,7 +216,7 @@ Since many of tRPC's features benefit from using a singular repository, it might
 #### Scalability
 
 - In larger-scale projects, in a larger team, it's often beneficial to come up with a clear set of rules and a schema that everyone can work from. tRPC does not offer this.
-- If your app is getting increasingly more complex and requires more nuanced requirements, other options provide better solutions to maintain your server-side code base.
+- If your app is getting increasingly more complex and requires more nuanced requirements, other options provide better solutions to manage and maintain your server-side code base.
 
 ## Comparison
 
@@ -273,15 +273,16 @@ With some learning and familiarity with the `tRPC` library and excellent pre-con
 
 #### References
 
-- https://www.npmjs.com/package/@trpc/server?activeTab=versions
-- https://www.npmjs.com/package/@trpc/server?activeTab=versions
-- https://github.com/trpc
-- https://trpc.io/
-- https://create.t3.gg/en/usage/trpc
-- https://www.youtube.com/watch?v=2LYM8gf184U&t=1s
-- https://cleancommit.io/blog/trpc-vs-graphql-how-to-choose-the-best-option-for-your-next-project/
-- https://www.youtube.com/watch?v=lxnPMB0Jc7E
-- https://trpc.io/docs/migrate-from-v9-to-v10#summary-of-changes
-- https://www.stxnext.com/blog/typescript-pros-cons-javascript/
-- https://www.perfomatix.com/trpc-vs-graphql/
-- https://graphql.org/
+- [tRPC server](https://www.npmjs.com/package/@trpc/server?activeTab=versions)
+- [tRPC client](https://www.npmjs.com/package/@trpc/client?activeTab=versions)
+- [tRPC repository](https://github.com/trpc)
+- [tRPC official site](https://trpc.io/)
+- [T3 App on tRPC](https://create.t3.gg/en/usage/trpc)
+- [Chris Bautista overview](https://www.youtube.com/watch?v=2LYM8gf184U&t=1s)
+- [tRPC/ GraphQL comparison](https://cleancommit.io/blog/trpc-vs-graphql-how-to-choose-the-best-option-for-your-next-project/)
+- [Web Dev Simplified overview](https://www.youtube.com/watch?v=lxnPMB0Jc7E)
+- [tRPC version 10 changes](https://trpc.io/docs/migrate-from-v9-to-v10#summary-of-changes)
+- [TypeScript/Javascript comparison](https://www.stxnext.com/blog/typescript-pros-cons-javascript/)
+- [tRPC/GraphQL comparison](https://www.perfomatix.com/trpc-vs-graphql/)
+- [GraphQL official site](https://graphql.org/)
+- [TypeScript official site](https://www.typescriptlang.org/)
