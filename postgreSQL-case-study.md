@@ -12,8 +12,8 @@ folder: development-platforms
 ### Introction to databases
 A database is a collection of information stored within a computer, thus we can store, maintain and access that data. Databases can collect information on people, thing and places in one place so it can be organized, observed and analyzed. There are many different types of databases with each type providing different functionality to their users. The different types of databases also has each their own strengts and weaknesses based on how they are designed. 
 
-* Relational database
-     The most common type. Here, data is organized into tables(also called entities) and uses relationships between those tables to manage and retrieve information. 
+#### Relational database
+     The most common type. Here, data is organized into tables (also called entities) and uses relationships between those tables to manage and retrieve information. 
 
      Some types of relational database include:
      * Hierarchical databases
@@ -25,16 +25,16 @@ A database is a collection of information stored within a computer, thus we can 
      * PostgreSQL
      * Oracle
 
-* Non-relational/NoSQL database
-     Also a very common type. In a non-relational database, the data within is unstructured. This allows them to process larger amounts of data, making it faster and easier to expand in the future.
+#### Non-relational/NoSQL database
+     In a non-relational database, the data within is unstructured. This allows them to process larger amounts of data, making it faster and easier to expand in the future. This is an increasingly popular approach.
 
-     A list of some different types of non-relational databases:
+A list of some different types of non-relational databases:
      * Document databases stores data in document format. MondoDB is this type of database.
      * Key-value databases stores data in a model that pairs a key with an associated value. Berkely DB, Dynamo and Redis uses this type of database.
      * Graph databases stores data that is connected through defined relationships, it uses nodes, edges and properties to represent and store said data. Neo4j, ArangoDB and Amazon Netune are this type of database.
      * Wide column stores data using columns, row, tables much like in a relational database, but formatting and naming conventions can vary across rows in a single database table. DBMSs data uses this type are ScyllaDB, Cassandra and Microsoft Azure Cosmos DB.
 
-     In this study, we will be taking a closer look at PostgreSQL which is an Object Relational Database Management System, ORDBMS for short. This means that in addition to being a relational database, PostgreSQL also supports object oriented concepts such as classes, objects and inheritances in this database. It is present in the ground level between the RDBMS and OODBMS.
+In this study, we will be taking a closer look at PostgreSQL, which is an Object Relational Database Management System, ORDBMS for short. This means that in addition to being a relational database, PostgreSQL also supports object-oriented concepts such as classes, objects and inheritances in this database. It is present at the ground level between the RDBMS and OODBMS.
 
 ### Introduction to PostgreSQL
 PostgreSQL is one of the most advanced open-source relational databases. It's been active in development for 30+ years and has earned a strong reputation for its reliability, feature robustness, and performance. This ORDBMS is PostgreSQL which is taken from the POSTGRES package written at the University of California, Berkley. POSTGRES was used for different research and production application which include a financial data analysis system, a jet engine performance monitoring package, an asteroid tracking database, a medical information database, and several geographic information systems. It has also been used as an educational tool at several universities.
@@ -106,7 +106,7 @@ PostgreSQL is designed to be extensible. It allows you to define your own data t
 Scalability is how a system/database can handle a growing amount of demands by adding resources, and PostgreSQL can do just that. It can handle large amounts of data and it scales up as the data grows. 
 
 ### ACID Compliant
-PostgreSQL is reliable because it is ACID(Atomicity, Consistency, Isolation, and Durability) compliant meaning queries will maintain data integrity. POSTGRES is known for its rock-solid referential and transactional integrity. ACID in a database system refers to four properties of a transaction. These sets of properties make sure a database transaction are processed reliably before and after. Transactions in this case refer to a set of actions/operations that are used to perform some logical set of work that accesses and can possibly modify the contents of a database. We can access the transactions using read and write operations. 
+PostgreSQL is reliable because it is ACID (Atomicity, Consistency, Isolation, and Durability) compliant, meaning queries will maintain data integrity. POSTGRES is known for its rock-solid referential and transactional integrity. ACID in a database system refers to four properties of a transaction. These properties make sure database transactions are processed reliably before and after. Transactions, in this case, refer to a set of actions/operations used to access or modify the contents of a database, such as complex read and write operations. 
 
 #### Atomicity
 This means that the transaction either takes place all at once or doesn't happen at all. The is no midway. Every transaction is considered as one single sted which either runs to completion or not executed at all. Atomicity is also known as "all or nothing".
@@ -152,7 +152,7 @@ Compared to MySQL where many open-source apps can support it, PostgreSQL may not
 
 ## Summary
 
-PostgreSQL, also known as Postgres, is a free and open-source Object Relational Database Management system with more than 30+ years of active development. It dates back to '80s when it was created by a computer science professor named Michael Stonebraker at the University of California, Berkley. It has then been renamed twice and now called PostgreSQL to signify the relationship between the original name and the use of SQL. It has many advanced features that safely store and scale the most complicated workloads. Though PostgreSQL has its strength with its many built-in features and more such as supporting many programming languages, being extensible, and handling large amount of data, it also has its challenges. PostgreSQL has a steep learning curve, making it hard for beginners and it also may be slower than other databases in certain workloads. 
+PostgreSQL, also known as Postgres, is a free and open-source Object Relational Database Management system with more than 30+ years of active development. It dates back to the 80s when it was created by a computer science professor named Michael Stonebraker at the University of California, Berkley. It has since been renamed twice and is now called PostgreSQL to signify the relationship between the original name and the use of SQL. It has many advanced features that safely store and scale the most complicated workloads. Though PostgreSQL has its strength with its many built-in features and more such as supporting many programming languages, being extensible, and handling large amounts of data, it also has its challenges. PostgreSQL has a steep learning curve, making it hard for beginners, and it also may be slower than other databases in certain circumstances. 
 
 ### Credits
 
