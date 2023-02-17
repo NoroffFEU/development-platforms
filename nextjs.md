@@ -9,11 +9,12 @@ folder: development-platforms
 
 ## Introduction
 
-Next JS is created by Vercel. Built on one of the most used JavaScript frameworks, React.js, Next.js uses React as a UI framework and uses tools such as turbopack to beef up the speed of the page. Next.js is used on sites such as TikTok, Twitch, Hulu, HBO max, IGN, Nvidia, Bose, Sonos and Verge. Built on the 6 tennants
+Next JS is created by Vercel. Built on one of the most used JavaScript frameworks, React.js, Next.js uses React as a UI framework and uses tools such as turbopack to beef up the speed of the website. Next.js is used on sites such as TikTok, Twitch, Hulu, HBO max, IGN, Nvidia, Bose, Sonos and Verge.
 
 ## Brief History
 
 - 2016 July first single line set up for react is released create-react-app 3 months before...
+
 - 2016 October Next.js initial release
 - 2017 March - Next.js 2.0 gets unveiled officially at ReactConf
 - 2018 September - Next.js 7.0 released with Webpack 4
@@ -27,14 +28,16 @@ Next JS is created by Vercel. Built on one of the most used JavaScript framework
 ## Features
 
 - Image optimization
-  - If used with layout specification it can be even stronger
+  - If used with layout specification it can be even stronger, rezises images for you and bases it off the screen size making phone request even lighter
 - Font optimization
   - CSS and font files are downloaded at build time, no requests are sent to google by the browser.
 - Fast refresh
 - Server side rendering
-- Flexibility to choose how data gets shown, serverside, static, by interaction from users. Or even a mix of them.
+- Incremental Static Regeneration on a per-page level
 - Fullstack framework built on top of React using React as a UI framework
-- Great documentation
+- Typescript support
+- Nested routing
+- Code splitting
 
 ## Strengths
 
@@ -43,13 +46,13 @@ It also has a strong commmunity on Discord and an active community on Youtube wi
 
 - Simple to set up, with only one line of code
   - npx create-next-app@latest
-- Typescript compatible
 - Routing is set up for you, files and folders set up the url for the developer
 - code splitting comes with
 - API routes
 - Faster than ever due to "Turbopack"
 - Migration is easy
--
+- Great documentation
+- Support styled JSX
 
 ## Weaknesses
 
