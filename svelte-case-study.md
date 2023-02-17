@@ -11,9 +11,7 @@ folder: development-platforms
 
 Svelte is a free and open-source front-end component framework in the JavaScript ecosystem. Created by Rich Harris in 2016, it has quickly become one of the most popular JavaScript frameworks available. Svelte differs from other JavaScript frameworks, mainly in how it ships components to the browser. Unlike React and Vue, which render components in a virtual DOM, Svelte compiles HTML templates into specialized, highly optimized code at build time, resulting in improved performance.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/30121693/217351206-6f367e60-d963-40a4-81f2-2f4ec54b910f.png" alt="Svelte messiah meme"/>
-</p>
+  ![Svelte messiah meme](https://user-images.githubusercontent.com/30121693/217351206-6f367e60-d963-40a4-81f2-2f4ec54b910f.png)
 
 This case study aims to introduce the reader to Svelte as a development tool for building front-end applications. It does not aim to make the reader an expert in the framework by the end, but rather to provide the reader with the necessary information to form an informed opinion on whether or not Svelte will be a good development platform for them.
 
@@ -58,7 +56,7 @@ When the value of visible changes, Svelte automatically updates the DOM to refle
 
 Svelte is well known for its performance. It does not use a virtual DOM, instead, it generates HTML at build-time, resulting in a faster runtime performance compared to other popular frameworks. Its simple and intuitive syntax makes it easy to learn and use, leading to easier maintenance and scalability over time.
 
-Svelte uses a reactive and declarative syntax for building UI components, making it easy to understand and use for developers of all skill levels. It also provides out-of-the-box support for server-side rendering, improving Search Engine Optimization and helping users with slow networks.
+Svelte uses a reactive and declarative syntax for building UI components, making it easy to understand and use for developers of all skill levels. Reactive means that when a value changes, any part of the application which depends on that value will also change. Declarative means you describe what you want to happen, rather than how to do it. It also provides out-of-the-box support for server-side rendering, improving Search Engine Optimization and helping users with slow networks.
 
 Svelte excels in creating Single Page Applications (SPAs). When building a SPA in Svelte, you typically use Svelte components to create a modular and reusable UI. The SPA handles navigation and data management, dynamically updating the content of the page based on user interactions and changes in data. This can be done using a routing library such as Svelte SPA Router.
 
@@ -66,7 +64,7 @@ Svelte also performs well when creating Multi Page Applications (MPAs). When bui
 
 ## Weaknesses
 
-Svelte's weaknesses mainly stem from it being a relatively new framework compared to its largest competitors. It has a smaller community of developers and a more limited number of available resources. It is also not as widely used as other popular JavaScript frameworks, meaning that it may be more difficult to find experienced developers, tools, and resources to work with compared to competing frameworks. It also does not have an abundance of available packages, plugins and tools, which may prevent you from performing specific tasks or adding specific functionality to your apps.
+Svelte's weaknesses mainly stem from it being a relatively new framework compared to its largest competitors. It has a smaller community of developers and a more limited number of available resources. It is also not as widely used as other popular JavaScript frameworks, meaning that it may be more difficult to find experienced developers, tools, and resources to work with compared to competing frameworks. It also does not have an abundance of available packages, plugins and tools, which may prevent you from performing specific tasks or adding specific functionalities to your apps.
 
 As mentioned previously, Svelte uses a relatively simple syntax. It does, however, also have a very different approach to building web applications compared to other popular frameworks, mainly by not utilizing a virtual DOM. This can result in a steep learning curve, especially for experienced developers who are used to the virtual DOM approach.
 
@@ -76,17 +74,15 @@ In conclusion, while Svelte has some advantages over other frameworks, it also h
 
 Although Svelte, React, Vue.js and Angular are all popular JavaScript frameworks for building web applications, they have some very different design philosophies, strengths and weaknesses depending on their use.
 
-Svelte has a relatively simple syntax and a different approach to building web applications, making it relatively easy to learn. React has a steeper learning curve due to its use of a virtual DOM, although it has a large and supportive community. Vue.js has a similar learning curve to React, but with a simpler syntax. Angular has the steepest learning curve of the four frameworks, due to its complex syntax and larger feature set. They also all differ in scope, as Svelte is mainly meant for smaller applications, where as React and Vue are tailored towards medium to large-size applications which do not require many different pages. Angular on the other hand is tailored towards very large applications with many different views, pages and URLs.
+Svelte has a relatively simple syntax and a different approach to building web applications, making it relatively easy to learn. React has a steeper learning curve due to its use of a virtual DOM, although it has a large and supportive community. Vue.js has a similar learning curve to React, but with a simpler syntax. Angular has the steepest learning curve of the four frameworks, due to its complex syntax and larger feature set. They also all differ in scope, as Svelte is mainly meant for smaller applications, whereas React and Vue are tailored towards medium to large-size applications which do not require many different pages. Angular on the other hand is tailored towards very large applications with many different views, pages and URLs.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/30121693/217382010-89301416-a474-42e3-a6e7-81b518ad4c0a.png" alt="React vs Svelte Syntax comparison meme"/>
-</p>
+![React vs Svelte Syntax comparison meme](https://user-images.githubusercontent.com/30121693/217382010-89301416-a474-42e3-a6e7-81b518ad4c0a.png)
 
 Svelte has a performance advantage over the other frameworks, due to its ability to compile components into highly optimized code at build-time, reducing the need for a virtual DOM and resulting in faster runtime performance. React and Vue.js both use a virtual DOM, which can result in slower performance compared to Svelte. These do, however, have optimizations available to minimize the impact. Angular, being an all-in-one framework, also has a performance advantage compared to the other frameworks.
 
 React has, without a doubt, the largest community of developers, as well as the largest number of available resources, including packages, plugins, and tools. Vue.js also has a large and growing community, while Svelte is a relatively new framework with a smaller community of developers. Angular has a large and mature community, but its syntax and complexity may make it less appealing to new developers.
 
-Svelte is, however, increasing in popularity at an incredible rate. According to the [State of JavaScript Survey](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/), Svelte has had the highest percentage of interest since 2019 compared to its competitors. It also scores very high in awareness and retention, but lacks behind in usage. 
+Svelte is, however, increasing in popularity at an incredible rate. According to the [State of JavaScript Survey](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/), Svelte has had the highest percentage of interest since 2019 compared to its competitors. It also scores very high in awareness and retention, but lags behind in usage. 
 
 ## Getting started with Svelte
 
@@ -152,7 +148,7 @@ This will give us another button to decrement the counter variable.
 You've now created your first component!
 
 ### Passing props
-Passing props in Svelte is incredibly easy. To utilize a prop in a component, you simply export it from the component file and use it where the component is called.
+A `prop` is a way to pass data from a parent component to a child component. Props allow you to create reusable components that can accept different data inputs and render accordingly. Passing props in Svelte is incredibly easy. To utilize a prop in a component, you simply export it from the component file and use it where the component is called.
 For example in `App.svelte`, we can call a component like so:
 ```
 <main>
@@ -182,7 +178,7 @@ Key features include: no virtual DOM, reactive declarative syntax, small bundle 
 
 Svelte's main strength lies in creating `Single Page Applications` or SPAs. When building a SPA in Svelte, you would typically use the Svelte components to create a modular and reusable UI. The SPA would handle navigation and data management, dynamically updating the content of the page based on user interactions and changes in data.
 
-Since it's release in 2016, Svelte has grown to become one of the most popular JavaScript frameworks available, as shown in the [State of JavaScript Survey](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/) because it is so simple to use compared to its competitors. This is also why web developers are starting to favor it while more and more companies are adopting it into their tech stack.
+Since it's release in 2016, Svelte has grown to become one of the most popular JavaScript frameworks available, as shown in the [State of JavaScript Survey](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/) because it is so simple to use compared to its competitors. This is also why web developers are starting to favour it while more and more companies are adopting it into their tech stack.
 
 ![meme](https://user-images.githubusercontent.com/30121693/217350618-46a4aa69-c4c4-4f13-9c9b-c2156b1f48cb.png)
 
@@ -199,3 +195,4 @@ Since it's release in 2016, Svelte has grown to become one of the most popular J
 - https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/
 - https://ractive.js.org/
 - Richard Dawkins
+- ChatGPT
