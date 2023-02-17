@@ -11,7 +11,7 @@ folder: development-platforms
 
 ## Introduction
 
-tRPC stands for `TypeScript Remote Procedure Call`. It's a simple and lightweight library for creating APIs using a singular programming language [TypeScript](https://www.typescriptlang.org/). It operates as a protocol to call your backend functions directly from the frontend, unlike other popular options such as `GraphQL`, which relies on schemas and code generation.
+`tRPC` stands for `TypeScript Remote Procedure Call`. It's a simple and lightweight library for creating APIs using a singular programming language [TypeScript](https://www.typescriptlang.org/). It operates as a protocol to call your backend functions directly from the frontend, unlike other popular options such as `GraphQL`, which relies on schemas and code generation.
 
 ## Brief History
 
@@ -37,35 +37,35 @@ tRPC's search popularity over the last 12 months.
 
 ## Features
 
-One of the most unique features of tRPC is how it brings type-safety between server and client code, and how well it's handled. Instead of getting uncaught type errors on runtime, Typescript will detect type-related issues between server and client before the file is even saved. In addition to this, RPC allows you to quickly update endpoint names in one place and update all associated client/server files at the same time, and navigate between script files by simply `CMD+click` or `right-click+use-definition`.
+One of the most unique features of tRPC is how it brings type-safety between server and client code, and how well it's handled. Instead of getting uncaught type errors on runtime, Typescript will detect type-related issues between server and client before the file is even saved. In addition to this, RPC allows you to quickly update endpoint names in one place and update all associated client/server files at the same time, and navigate between script files by simply `CMD+click` or `right-click + <Go to definition>`.
 
-Since tRPC does not rely on schemas or code generation, and rather is a protocol for accessing backend functions to the frontend, it allows a more seamless workflow for the developer, and a lightweight well performing application with a tiny footprint for the end user.
+Since `tRPC` does not rely on schemas or code generation, and rather is a protocol for accessing backend functions to the frontend, it allows a more seamless workflow for the developer, and a lightweight well performing application with a tiny footprint for the end user.
 
 #### Automatic type-safety
 
-While this is a Typescript feature, and not isolated to tRPC it allows for an eco-system where the client will notify you of errors even before you save the files.
+While this is a `Typescript` feature, and not isolated to `tRPC` it allows for an eco-system where the client will notify you of errors even before you save the files.
 
 #### Great DX
 
-tRPC has no code generation or runtime bloat.
+`tRPC` has no code generation or runtime bloat.
 
 #### Framework agnostic
 
-tRPC works will all JavaScript frameworks and runtime. It's easy to add to already existing projects.
+`tRPC` works will all JavaScript frameworks and runtime. It's easy to add to already existing projects.
 
 #### Autocompletion
 
-tRPC will attempt to auto-complete your queries, speeding up development and ensuring the use of valid query data.
+`tRPC` will attempt to auto-complete your queries, speeding up development and ensuring the use of valid query data.
 
 ### Example of use
 
-In the example we're using a T3 app, configured with tRPC, Prisma, MongoDB, Next.js and Typescript.
+In the example we're using a `T3 app`, configured with `tRPC`, `Prisma`, `MongoDB`, `Next.js` and `Typescript`.
 
-      - MongoDB is our database.
-      - tRPC will be used to create our endpoint.
-      - Prisma to handle data for our database.
+      - `MongoDB` is our database.
+      - `tRPC` will be used to create our endpoint.
+      - `Prisma` to handle data for our database.
 
-In our front-end client folder, we have defined an endpoint the following way. We're going to take a closer look at how tRPC can be used to tie everything together from backend functions, frontend rendering and an updated database with a new entry while highlighting some of tRPC's excellent workflow and QoL features.
+In our front-end client folder, we have defined an endpoint the following way. We're going to take a closer look at how `tRPC` can be used to tie everything together from backend functions, frontend rendering and an updated database with a new entry while highlighting some of tRPC's excellent workflow and QoL features.
 
 ```tsx
 import { api } from "../utils.api";
@@ -73,7 +73,7 @@ import { api } from "../utils.api";
 const newNote = api.notes.createNewNote.useMutation();
 ```
 
-- `api` is the client-side entry point in this use case. Containing our Next.js App-wrapper as well as typesafe react-query hooks.
+- `api` is the client-side entry point in this use case. Containing our `Next.js` app-wrapper as well as typesafe react-query hooks.
 
 - `notes` is the name given to our `notesRouter` in our `appRouter`.
 
@@ -89,10 +89,10 @@ A single router typically contains several procedures. In the case of our `noteR
 
 Read all notes, read a single note defined by ID, create a new note, update the note and delete an existing note. In this example, we're specifically going to take a closer look at a `CREATE` operation endpoint using tRPC's library.
 
-- `createTRPCRouter` is the function we wrap all of our procedures in by calling publicProcedure, after our name definition.
+- `createTRPCRouter` is the function we wrap all of our procedures in by calling `publicProcedure`, after our name definition.
 
-- `publicProcedure` can be viewed as the equivalent of a REST endpoint.
-- Defining a `publicProcedure` is the same no matter the operation. i.e queries or mutations.
+- `Procedures` can be viewed as the equivalent of a REST endpoint.
+- Defining a `Procedure` is the same no matter the operation. i.e queries or mutations.
 
 Calling the procedure builder `input`, which is where we define the content of our endpoint. In this case, we're using `Zod` for some basic validation and creating `title` and `description` keys with the type of string.
 
@@ -126,7 +126,7 @@ model Notes {
 }
 ```
 
-In this use case we're using Prisma to easily read or write data to our database, above is the model for our `Notes`.
+In this use case we're using `Prisma` to easily read or write data to our database, above is the model for our `Notes`.
 
 ```ts
     .mutation(async ({ ctx, input }) => {
@@ -182,17 +182,17 @@ A very basic layout render of the form as well as already existing notes in the 
 
 #### tRPC is lightweight
 
-Since tRPC is a protocol or method for accessing backend functionality, it allows for better-performing applications without any code generation or runtime bloat.
+Since `tRPC` is a protocol or method for accessing backend functionality, it allows for better-performing applications without any code generation or runtime bloat.
 
 #### tRPC uses Typescript
 
 This can be viewed as both a strength and a weakness. On the one hand, it allows for a uniform coding language and infrastructure between the backend and frontend, improving workflow and communication between the team.
 
-While on the other hand, if Typescript is not the preferred programming language, other options might be preferable.
+While on the other hand, if `Typescript` is not the preferred programming language within the team or organization, other options might be preferable.
 
 #### tRPC works great in a mono repo
 
-With how tRPC communicates between client and server code, you are encouraged to use a singular repository, and several highlighted features are only accessible if you do so. On a smaller scale, there are many benefits to doing so. It's easier to navigate between client/server code, make changes and ensure typesafety within the entirety of your code base. No more `uncaught type errors`.
+With how `tRPC` communicates between client and server code, you are encouraged to use a singular repository, and several highlighted features are only accessible if you do so. On a smaller scale, there are many benefits to doing so. It's easier to navigate between client/server code, make changes and ensure type safety within the entirety of your code base. No more `uncaught type errors`.
 
 #### Quick development
 
@@ -215,12 +215,12 @@ Since many of tRPC's features benefit from using a singular repository, it might
 
 #### Scalability
 
-- In larger-scale projects, in a larger team, it's often beneficial to come up with a clear set of rules and a schema that everyone can work from. tRPC does not offer this.
+- In larger-scale projects, in a larger team, it's often beneficial to come up with a clear set of rules and a schema that everyone can work from. `tRPC` does not offer this.
 - If your app is getting increasingly more complex and requires more nuanced requirements, other options provide better solutions to manage and maintain your server-side code base.
 
 ## Comparison
 
-[Web Dev Simplified](https://www.youtube.com/watch?v=lxnPMB0Jc7E) asks recently in a video if tRPC spells the end to `REST/graphQL`. While his title is almost certainly to generate views and clicks, the video does highlight some of the unique benefits of tRPC as well as its simplicity of use. When possible, people tend to gravitate toward the option that provides them with the simplest solution. tRPC often does so intelligently and seamlessly.
+[Web Dev Simplified](https://www.youtube.com/watch?v=lxnPMB0Jc7E) asks recently in a video if tRPC spells the end to `REST/graphQL`. While his title is almost certainly to generate views and clicks, the video does highlight some of the unique benefits of `tRPC` as well as its simplicity of use. When possible, people tend to gravitate toward the option that provides them with the simplest solution. `tRPC` often does so intelligently and seamlessly.
 
 However, there are dilemmas and industry requirements that `tRPC` cannot properly solve, and in such cases, there might be better options out there. One such popular option is `graphQL`.
 
@@ -257,12 +257,12 @@ _Use tRPC if:_
 
 ## Summary
 
-tRPC offers an excellent introduction to creating APIs. Using it is intuitive, fast and efficient. With some experience, you can get functional endpoints up and running within minutes. Whether you are a junior when it comes to the backend or web development in general, or an experienced full-stack developer tRPC should offer a lot of welcome features for your next project - increasing your workflow, maintaining your code base and overall helping you become an overall more productive developer.
+`tRPC` offers an excellent introduction to creating APIs. Using it is intuitive, fast and efficient. With some experience, you can get functional endpoints up and running within minutes. Whether you are a junior when it comes to the backend or web development in general, or an experienced full-stack developer `tRPC` should offer a lot of welcome features to new and existing projects.
 
 [As Chris Bautista states in his overview video](https://www.youtube.com/watch?v=2LYM8gf184U&t=665s)
 
 ```
-Now everyone can call themselves full-stack developer.
+Now everyone can call themselves a full-stack developer.
 ```
 
 With some learning and familiarity with the `tRPC` library and excellent pre-configured projects such as `T-3 App`, it's not too far from the truth. Maybe for your next project, you too will check it out?
@@ -270,6 +270,12 @@ With some learning and familiarity with the `tRPC` library and excellent pre-con
 ### Credits
 
 - Truls Haakenstad Haugen || [@Menubrea](https://github.com/Menubrea)
+
+#### Resources
+
+[tRPC Crash Course](https://www.youtube.com/watch?v=UfUbBWIFdJs)
+[tRPC Crash Course Project](https://youtu.be/GuzZN-4kc3w)
+[T-3 with tRPC - Create Chat Application](https://youtu.be/dXRRY37MPuk)
 
 #### References
 
@@ -286,3 +292,4 @@ With some learning and familiarity with the `tRPC` library and excellent pre-con
 - [tRPC/GraphQL comparison](https://www.perfomatix.com/trpc-vs-graphql/)
 - [GraphQL official site](https://graphql.org/)
 - [TypeScript official site](https://www.typescriptlang.org/)
+- [tRPC interview with creator](https://youtu.be/Mm3Z5c1Linw)
