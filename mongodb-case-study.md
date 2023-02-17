@@ -89,5 +89,5 @@ In conclusion, MongoDB is a potent NoSQL database with several advantages for bu
 - https://en.wikipedia.org/wiki/MongoDB
 - https://www.w3schools.com/mongodb/
 - https://www.mongodb.com/compare/mongodb-mysql
-- https://www.youtube.com/watch?v=3GHZd0zv170&t=891s (Data Modeling with MongoDB
+- https://www.youtube.com/watch?v=3GHZd0zv170&t=891s (Data Modeling with MongoDB)
 - https://www.youtube.com/watch?v=t0GlGbtMTio (Which is better, SQL vs NoSQL)
