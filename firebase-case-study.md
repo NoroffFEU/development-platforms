@@ -19,6 +19,9 @@ Firebase is a backend as a service, or BaaS, provided by Google. The short versi
 
 A brief history of the product, including major milestones or events
 
+- 2011: James Tamplin and Andrew Lee at Envolve creates Firebase to funnel data storage and data transfer into one realtime system.
+- 2012:
+
 ## Features
 
 Outline the products key features
@@ -44,3 +47,6 @@ Summarise with relevance
 -
 
 ### References
+
+- https://firebase.google.com/products-build
+- https://www.wired.com/2012/04/firebase/
