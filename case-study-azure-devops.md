@@ -262,13 +262,15 @@ To create comparison between the software above i have used [this website](https
 
 ## Summary
 
-Azure DevOps is a cloud computing platform and infrastructure with many features that can help you and your team with the workflow on your project. It's easy to create a free account with a small team and for a larger team you have more options.
+Azure DevOps is a cloud computing platform and infrastructure with many features that can help you and your team with the workflow on your project.
 
-All work when using Azure DevOps can be done with IDE. Integration with Visual Studio Code and git, you can work mainly in the IDE. With the Visual Studio Code and Microsoft Team you can have your code and communication with your team, manage your work board tasks.
+Integrated with the most essential tools for making work and collaboration easy, in a organized environment. If you are familiar whit using git commands, you are able to easily clone, commit and push your work in to the repository
 
-Azure DevOps is integrated with the most essential tools for making the work, collaboration and communication easy, in a organized environment. If you are familiar whit using git commands, you are able to easily clone, commit and push your work in to the repository
+With Microsoft Teams along side Visual Studio Code, you can have good communication with your team, manage your work boards tasks, follow progress and hold team meetings.
 
-The platform itself is clean and easy to use with lots of documentation for us to be able to make the most out of the platform.
+The detailed documentation includes guides, tips and tricks so you and your team to be able to make the most out of the platform.
+
+There is a wide range of options for small and large teams, and it can be customized to your needs.
 
 ### Credits
 
