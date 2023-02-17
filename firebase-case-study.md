@@ -2,9 +2,9 @@
 title: Firebase
 keywords: backend-as-a-service, BAAS, Firebase, real-time database, user authentication, cloud storage, hosting, cloud functions
 tags: Firebase, BAAS, development, database, authentication, storage, hosting, cloud functions
-sidebar: 
-permalink: 
-folder: 
+sidebar: development platforms
+permalink: developmennt-platforms/firebase-case-study.md
+folder: development platforms
 ---
 
 
