@@ -1,2 +1,7 @@
-# development-platforms
-A collection of case studies covering development platform products.
+---
+title: Supabase Case Study
+keywords: development platforms, Supabase, open source, relational database
+tags: Development Platforms, Supabase, open source, relational database
+permalink: 
+folder: development-platforms
+---
