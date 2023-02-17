@@ -129,8 +129,17 @@ Postgres has been around for decades and will probably exist for many more. With
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- Adrian Brandshaug (Git Hub: [adrianBrands](https://github.com/adrianBrands))
 
 #### References
 
-- List of video or links used during research
+- https://en.wikipedia.org/wiki/Ingres_(database)
+- https://en.wikipedia.org/wiki/PostgreSQL
+- https://www.postgresql.org/docs/current/history.html
+- https://aiven.io/blog/an-introduction-to-postgresql
+- https://www.postgresql.org/docs/12/encryption-options.html
+- https://www.prisma.io/dataguide/postgresql/benefits-of-postgresql#open-source-development-and-community
+- https://www.infoworld.com/article/3619531/postgresql-benefits-and-challenges-a-snapshot.html
+- https://www.keitaro.com/2021/09/14/advantages-of-using-postgresql/
+- https://www.fivetran.com/blog/postgresql-vs-mysql
+
