@@ -122,11 +122,7 @@ For a web developer, CDN or Akamai is very relevant, as CDN will help:
 
 #### References
 https://www.akamai.com/
-
 http://fernfortuniversity.com/term-papers/swot/1433/919-akamai-technologies.php
-
 https://techdocs.akamai.com/gtm/docs/welcome-to-global-traffic-management
-
 https://www.cdnetworks.com/web-performance-blog/cdn-benefits/
-
 https://www.grfcpa.com/2021/08/content-delivery-network-cdn-security-risks/
