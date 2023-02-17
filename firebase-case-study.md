@@ -70,7 +70,9 @@ However, other platforms may offer more customization options, more advanced fea
 One example use for Firebase is to build a real-time social media application. The developer could use Firebase's Real-time Database to store user profiles and posts, allowing data to be updated and synced across all connected devices in real-time. The developer could also use Firebase Authentication to provide sign-up and sign-in functionality, enabling users to securely create accounts and log in to the app. Additionally, the developer could use Firebase Cloud Storage to store and access user-generated images and videos, and Firebase Cloud Functions to run server-side code in response to events, such as sending notifications when a new post is made. With these tools, the developer could build a fully-functional social media app that provides users with a fast, scalable, and seamless experience.
 
 I made an example page using Auth to store users and realtime database to store and send data to the correct user. (It's awful UX and full spaghetti, but im working on it)
+
 Repo: https://github.com/Jonast96/Online-business-card/tree/development
+
 Demo site: https://extraordinary-crepe-15f88c.netlify.app/index.html 
 
 ## Summary
