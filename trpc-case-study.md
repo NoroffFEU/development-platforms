@@ -45,10 +45,6 @@ Since `tRPC` does not rely on schemas or code generation, and rather is a protoc
 
 While this is a `Typescript` feature, and not isolated to `tRPC` it allows for an eco-system where the client will notify you of errors even before you save the files.
 
-#### Great DX
-
-`tRPC` has no code generation or runtime bloat.
-
 #### Framework agnostic
 
 `tRPC` works will all JavaScript frameworks and runtime. It's easy to add to already existing projects.
@@ -57,13 +53,17 @@ While this is a `Typescript` feature, and not isolated to `tRPC` it allows for a
 
 `tRPC` will attempt to auto-complete your queries, speeding up development and ensuring the use of valid query data.
 
+#### Great DX
+
+`tRPC` offers great workflow through all of its features, and provide an overall excellent developer experience.
+
 ### Example of use
 
 In the example we're using a `T3 app`, configured with `tRPC`, `Prisma`, `MongoDB`, `Next.js` and `Typescript`.
 
-      - `MongoDB` is our database.
-      - `tRPC` will be used to create our endpoint.
-      - `Prisma` to handle data for our database.
+      - MongoDB is our database.
+      - tRPC will be used to create our endpoint.
+      - Prisma to handle data for our database.
 
 In our front-end client folder, we have defined an endpoint the following way. We're going to take a closer look at how `tRPC` can be used to tie everything together from backend functions, frontend rendering and an updated database with a new entry while highlighting some of tRPC's excellent workflow and QoL features.
 
