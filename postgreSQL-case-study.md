@@ -13,7 +13,7 @@ folder: development-platforms
 A database is a collection of information stored within a computer, thus we can store, maintain and access that data. Databases can collect information on people, thing and places in one place so it can be organized, observed and analyzed. There are many different types of databases with each type providing different functionality to their users. The different types of databases also has each their own strengts and weaknesses based on how they are designed. 
 
 #### Relational database
-     The most common type. Here, data is organized into tables(also called entities) and uses relationships between those tables to manage and retrieve information. 
+     The most common type. Here, data is organized into tables (also called entities) and uses relationships between those tables to manage and retrieve information. 
 
      Some types of relational database include:
      * Hierarchical databases
