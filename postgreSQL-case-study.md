@@ -13,26 +13,26 @@ folder: development-platforms
 A database is a collection of information stored within a computer, thus we can store, maintain and access that data. Databases can collect information on people, thing and places in one place so it can be organized, observed and analyzed. There are many different types of databases with each type providing different functionality to their users. The different types of databases also has each their own strengts and weaknesses based on how they are designed. 
 
 #### Relational database
-     The most common type. Here, data is organized into tables (also called entities) and uses relationships between those tables to manage and retrieve information. 
+The most common type. Here, data is organized into tables (also called entities) and uses relationships between those tables to manage and retrieve information. 
 
-     Some types of relational database include:
-     * Hierarchical databases
-     * Network databases
-     * Object-oriented databases(OOD)
+Some types of relational database include:
+* Hierarchical databases
+* Network databases
+* Object-oriented databases(OOD)
 
-     Examples of relational databases:
-     * MySQL
-     * PostgreSQL
-     * Oracle
+Examples of relational databases:
+* MySQL
+* PostgreSQL
+* Oracle
 
 #### Non-relational/NoSQL database
-     In a non-relational database, the data within is unstructured. This allows them to process larger amounts of data, making it faster and easier to expand in the future. This is an increasingly popular approach.
+In a non-relational database, the data within is unstructured. This allows them to process larger amounts of data, making it faster and easier to expand in the future. This is an increasingly popular approach.
 
 A list of some different types of non-relational databases:
-     * Document databases stores data in document format. MondoDB is this type of database.
-     * Key-value databases stores data in a model that pairs a key with an associated value. Berkely DB, Dynamo and Redis uses this type of database.
-     * Graph databases stores data that is connected through defined relationships, it uses nodes, edges and properties to represent and store said data. Neo4j, ArangoDB and Amazon Netune are this type of database.
-     * Wide column stores data using columns, row, tables much like in a relational database, but formatting and naming conventions can vary across rows in a single database table. DBMSs data uses this type are ScyllaDB, Cassandra and Microsoft Azure Cosmos DB.
+* Document databases stores data in document format. MondoDB is this type of database.
+* Key-value databases stores data in a model that pairs a key with an associated value. Berkely DB, Dynamo and Redis uses this type of database.
+* Graph databases stores data that is connected through defined relationships, it uses nodes, edges and properties to represent and store said data. Neo4j, ArangoDB and Amazon Netune are this type of database.
+* Wide column stores data using columns, row, tables much like in a relational database, but formatting and naming conventions can vary across rows in a single database table. DBMSs data uses this type are ScyllaDB, Cassandra and Microsoft Azure Cosmos DB.
 
 In this study, we will be taking a closer look at PostgreSQL, which is an Object Relational Database Management System, ORDBMS for short. This means that in addition to being a relational database, PostgreSQL also supports object-oriented concepts such as classes, objects and inheritances in this database. It is present at the ground level between the RDBMS and OODBMS.
 
