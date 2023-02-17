@@ -105,12 +105,24 @@ As for the major companies, in security they provide both different but the same
 To summarise I would say that Akamai is the biggest CDN provider at the moment, but is more suited for major companies rather than small businesses.
 They work to keep sites safe and easy to reach and use, for both the owner of the site and the user.
 
-Summarise the content and highlight the relevance of the product to a web developer.
+For a web developer, CDN or Akamai is very relevant, as CDN will help:
+1. Decrease server load
+2. Improve site speed and website performance
+3. Allow audience segmentation based on user analytics
+4. Reduce packet loss and lower network latency
+5. Enable advanced website security
+6. Enhance content availability
+7. Contribute to cost savings by reducing bandwidth
+8. Increase audience reach and scale effectively
+
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- Thomas Henriksen (Snurre1)
 
 #### References
-
-- List of video or links used during research
+https://www.akamai.com/
+http://fernfortuniversity.com/term-papers/swot/1433/919-akamai-technologies.php
+https://techdocs.akamai.com/gtm/docs/welcome-to-global-traffic-management
+https://www.cdnetworks.com/web-performance-blog/cdn-benefits/
+https://www.grfcpa.com/2021/08/content-delivery-network-cdn-security-risks/
