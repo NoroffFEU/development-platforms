@@ -55,13 +55,13 @@ In the years that followed, MongoDB continued to grow and evolve. In 2013, the c
 
 - Another crucial aspect that makes MongoDB a well-liked option for companies is its query language. The query language's user-friendly architecture and support for a large range of operators and functions make it simple to execute sophisticated queries.
 
-![Image of MongoDB](https://www.openlogic.com/sites/default/files/image/2021-06/image-blog-openlogic-what-is-mongodb.png)
-
 ## Benefits
 
 MongoDB's scalability, performance, and flexibility are its key advantages. Businesses may create high-performance apps that can cope with enormous volumes of data and users by utilising MongoDB. Complex data structures are simple to store and query with MongoDB's flexible schema, which can increase development productivity and cut down on time spent on data modelling and schema design.
 
 A wide range of functions for data analysis and reporting are also available with MongoDB. Large amounts of data can be analysed using the MapReduce and aggregation frameworks, which are supported, and they can also be utilised to create unique reports. It also works nicely with well-known business intelligence and data visualisation platforms like Tableau, Power BI, and Looker.
+
+![Image of MongoDB](https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png)
 
 The developer-friendliness of MongoDB is another advantage. It is simple to integrate with well-known programming languages like Java, Python, and Node.js because to its wide collection of APIs and drivers. As a result, creating and maintaining applications built on top of MongoDB is made simpler for developers.
 
