@@ -146,4 +146,6 @@ Postgres has been around for decades and will probably exist for many more. With
 - https://www.infoworld.com/article/3619531/postgresql-benefits-and-challenges-a-snapshot.html
 - https://www.keitaro.com/2021/09/14/advantages-of-using-postgresql/
 - https://www.fivetran.com/blog/postgresql-vs-mysql
+- https://cdn.educba.com/academy/wp-content/uploads/2020/02/PostgreSQL-Features.jpg
+- https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
 
