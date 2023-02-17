@@ -57,3 +57,5 @@ Summarise with relevance
 - https://techcrunch.com/2014/05/13/firebase-adds-web-hosting-to-its-database-platform/
 - https://firebase.blog/posts/2014/10/firebase-is-joining-google
 - https://techcrunch.com/2014/05/13/firebase-adds-web-hosting-to-its-database-platform/
+- https://www.youtube.com/watch?v=QcsAb2RR52c&ab_channel=Firebase
+- https://techcrunch.com/2017/10/03/google-launches-cloud-firestore-a-new-document-database-for-app-developers/
