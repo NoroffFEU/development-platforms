@@ -59,7 +59,8 @@ In this study case, I will be looking into the world’s biggest cloud platform 
 * 2015 
   * Google and Microsoft lead massive build-outs of data centers.
 
-* 2018 Leading data center operators started the migration to 400G data speeds.
+* 2018 
+  * Leading data center operators started the migration to 400G data speeds.
   * AWS Amplify Console launched.
   
 
