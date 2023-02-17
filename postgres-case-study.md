@@ -35,6 +35,8 @@ By 1996 Postgres was called Postgres95. It became clear that this name would not
 
 ## Features
 
+![Features](images/PostgreSQL-Features.jpg)
+
 ### Json language support
 
 PostgreSQL supports json language. You can define table columns as json or jsonb data types and use json functions to parse and manipulate the content.
