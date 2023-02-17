@@ -21,6 +21,8 @@ folder: development-platforms
 
 ## Introduction
 
+![Introduction](images/postgres.png)
+
 PostgresSQL also known as Postgres, is a flexible open-source object relational database management system (RDBMS) which has been around for decades.It is designed to manage a huge variety of use cases, from single machines to data warehouses to web services with several concurrent users. It is also the default database for macOS server and is also available for Linux, FreeBSD, OpenBSD, and Windows.
 
 ## Brief History
