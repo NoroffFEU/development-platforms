@@ -286,8 +286,10 @@ For example:
 
 ### Svelte vs react
 
-Both Svelte and React.js are component-based JavaScript frameworks for web application development. Their main difference is that
-svelte is a compiler that converts your application into ideal JavaScript during build time as opposed to React, which uses a virtual DOM to interpret the application code during runtime.
+Both Svelte and React.js are component-based JavaScript frameworks used for building web applications. Here are some of the difference between them two:
+
+**Approach to building UI components**
+Svelte compiles the application during build time, resulting in small and fast applications. On the other hand, React uses a virtual DOM, which is updated during runtime, resulting in slower performance than Svelte for large applications.
 
 ![Svelte vs. React Behind the Scenes](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*_7upPeJparkaxnpBhOkZig.png)
 
@@ -297,11 +299,26 @@ According to the [Svelte Documentation](https://svelte.dev/)
 
 > Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.
 
-Unlike react components, Svelte components allow you to write code in a way that feels a lot more like writing HTML, CSS and Javascript. Svelte uses its own template language to create your user interface and react uses JSX to accomplish the same.
+**Learning curve**
+Svelte is easier to learn and use because it requires less setup, configuration, and boilerplate code than React. Svelte's templating syntax is similar to HTML and JavaScript, whereas React uses JSX, which requires a bit more knowledge.
+
+**Bundle size***
+Svelte generates smaller bundle sizes than React, resulting in faster load times and better performance.
+
+**Community support**
+React has a larger and more established community, resulting in a wide range of plugins, integrations, and libraries. Svelte is a newer framework and has less support in terms of libraries, plugins, and integrations.
+
+**Re-rendering**
+Svelte has a unique approach to reactivity that results in automatic updates of the UI without the need for virtual DOM reconciliation. In contrast, React relies heavily on the virtual DOM and requires updates to be reconciled.
+
+**Summary** 
+Svelte is a compiler-based framework that is easier to learn and generates smaller bundle sizes for web applications. React is a more established framework with a larger community, providing a wide range of plugins, integrations, and libraries for building large-scale applications.
 
 ## Summary
 
-Svelte's blazing fast build time and tiny bundle sizes are quite appealing, especially for small applications. It is easy to understand and use thus great for beginners.
+Svelte is a free and open-source front-end component framework that compiles HTML templates to specialized code that directly manipulates the Document Object Model (DOM), which was created by rich harris in 2016.
+
+Svelte is a framework that's similar to React, Svelte uses a compiler and provide efficient bundling and code splitting, wich reduces the size of the application and improves the performance. Wich also means your app will run better and take up less space. If you want to learn how to use Svelte and start using it in your own applications, This case study covers the basics.
 
 Since release, svelte has become the most popular framework available as shown in the
 [State of javascript survey](https://2022.stateofjs.com/en-US/libraries/front-end-frameworks/).
