@@ -75,6 +75,19 @@ The absence of transaction functionality in MongoDB is another potential flaw. E
 
 Finally, although sophisticated, MongoDB's query language can be more difficult to understand than SQL. This can make learning the query language for MongoDB more challenging for developers who are used to dealing with SQL.
 
-## Conclusion
+## Summary
 
 In conclusion, MongoDB is a potent NoSQL database with several advantages for businesses that must store and analyse massive amounts of data. Modern applications that call for advanced data modelling and analysis can benefit from its flexibility, scalability, and performance. However, some businesses may find its inexperience, lack of transaction support, and sophisticated query language to be a detriment. When choosing to use MongoDB as your primary database system, it's crucial to consider these advantages and disadvantages.
+
+### Credits
+
+- Øyvind Meldahl (oyvind-meldahl)
+
+#### References
+
+- https://www.mongodb.com
+- https://en.wikipedia.org/wiki/MongoDB
+- https://www.w3schools.com/mongodb/
+- https://www.mongodb.com/compare/mongodb-mysql
+- https://www.youtube.com/watch?v=3GHZd0zv170&t=891s (Data Modeling with MongoDB
+- https://www.youtube.com/watch?v=t0GlGbtMTio (Which is better, SQL vs NoSQL)
