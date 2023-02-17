@@ -21,6 +21,8 @@ In 2009, MongoDB's initial version was published, and thanks to its efficiency a
 
 In the years that followed, MongoDB continued to grow and evolve. In 2013, the company introduced MongoDB Enterprise, a commercial version of the database that included additional features and support. In 2017, MongoDB went public, raising over $192 million in its initial public offering. Today, MongoDB is one of the most popular NoSQL databases in the world, with over 100 million downloads and a community of developers and users that continues to grow.
 
+![Image of MongoDB](https://www.openlogic.com/sites/default/files/image/2021-06/image-blog-openlogic-what-is-mongodb.png)
+
 ## Features
 
 **Document-Oriented Approach**
