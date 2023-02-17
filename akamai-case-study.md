@@ -96,8 +96,14 @@ Compared to other companies of Akamai, Akamai doesnt really make difference on t
 
 Akamai has deployed the most pervasive, highly distributed content delivery network (CDN) with approximately 350,000 servers in 134 countries and over 1,300 networks around the world.
 
+**Security**
+As for the major companies, in security they provide both different but the same technology, in protecting you against DoS and DDoS attacks, and web attacks such as SQL injection.
+
 
 ## Summary
+
+To summarise I would say that Akamai is the biggest CDN provider at the moment, but is more suited for major companies rather than small businesses.
+They work to keep sites safe and easy to reach and use, for both the owner of the site and the user.
 
 Summarise the content and highlight the relevance of the product to a web developer.
 
