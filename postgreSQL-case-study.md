@@ -28,7 +28,7 @@ A database is a collection of information stored within a computer, thus we can 
 #### Non-relational/NoSQL database
      In a non-relational database, the data within is unstructured. This allows them to process larger amounts of data, making it faster and easier to expand in the future. This is an increasingly popular approach.
 
-     A list of some different types of non-relational databases:
+A list of some different types of non-relational databases:
      * Document databases stores data in document format. MondoDB is this type of database.
      * Key-value databases stores data in a model that pairs a key with an associated value. Berkely DB, Dynamo and Redis uses this type of database.
      * Graph databases stores data that is connected through defined relationships, it uses nodes, edges and properties to represent and store said data. Neo4j, ArangoDB and Amazon Netune are this type of database.
