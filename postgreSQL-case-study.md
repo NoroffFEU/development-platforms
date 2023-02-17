@@ -106,7 +106,7 @@ PostgreSQL is designed to be extensible. It allows you to define your own data t
 Scalability is how a system/database can handle a growing amount of demands by adding resources, and PostgreSQL can do just that. It can handle large amounts of data and it scales up as the data grows. 
 
 ### ACID Compliant
-PostgreSQL is reliable because it is ACID(Atomicity, Consistency, Isolation, and Durability) compliant meaning queries will maintain data integrity. POSTGRES is known for its rock-solid referential and transactional integrity. ACID in a database system refers to four properties of a transaction. These sets of properties make sure a database transaction are processed reliably before and after. Transactions in this case refer to a set of actions/operations that are used to perform some logical set of work that accesses and can possibly modify the contents of a database. We can access the transactions using read and write operations. 
+PostgreSQL is reliable because it is ACID (Atomicity, Consistency, Isolation, and Durability) compliant, meaning queries will maintain data integrity. POSTGRES is known for its rock-solid referential and transactional integrity. ACID in a database system refers to four properties of a transaction. These properties make sure database transactions are processed reliably before and after. Transactions, in this case, refer to a set of actions/operations used to access or modify the contents of a database, such as complex read and write operations. 
 
 #### Atomicity
 This means that the transaction either takes place all at once or doesn't happen at all. The is no midway. Every transaction is considered as one single sted which either runs to completion or not executed at all. Atomicity is also known as "all or nothing".
