@@ -13,7 +13,7 @@ folder: development-platforms / firebase-case-study
 
 Summary of products' primary purpose
 
-Firebase is a cloud based development platform provided by Google. Firebase was created by James Tamplin and Andrew Lee at Envolve in 2011 to funnel data storage and data transfer into one realtime system for the companys chat service. In 2012 Firebase goes public as a separate company to Envolve, and in 2014 Firebase is acquired by Google. The short version of Firebase is that it provides a complete toolkit for developers to create applications, providing cloud based solutions such as storage, hosting, and serverless computing. This allows developers to focus on building applications without having to worry about managing and maintaining servers or scaling.
+Firebase is a cloud based development platform provided by Google. Firebase was created by James Tamplin and Andrew Lee at Envolve in 2011 to funnel data storage and data transfer into one realtime system for the companys chat service. In 2012 Firebase goes public as a separate company to Envolve, and in 2014 Firebase is acquired by Google. The short version of Firebase is that it provides a complete Software Development Kit, or SDK, across multible platforms to create applications with, providing cloud based solutions such as storage, hosting, and serverless computing. This allows developers to focus on building applications without having to worry about managing and maintaining servers or scaling.
 
 ## Brief History
 
