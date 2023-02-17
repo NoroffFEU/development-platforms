@@ -26,7 +26,7 @@ A database is a collection of information stored within a computer, thus we can 
      * Oracle
 
 #### Non-relational/NoSQL database
-     Also a very common type. In a non-relational database, the data within is unstructured. This allows them to process larger amounts of data, making it faster and easier to expand in the future.
+     In a non-relational database, the data within is unstructured. This allows them to process larger amounts of data, making it faster and easier to expand in the future. This is an increasingly popular approach.
 
      A list of some different types of non-relational databases:
      * Document databases stores data in document format. MondoDB is this type of database.
