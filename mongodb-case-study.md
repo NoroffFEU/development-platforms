@@ -57,9 +57,9 @@ In the years that followed, MongoDB continued to grow and evolve. In 2013, the c
 
 - Another crucial aspect that makes MongoDB a well-liked option for companies is its query language. The query language's user-friendly architecture and support for a large range of operators and functions make it simple to execute sophisticated queries.
 
-## Benefits
-
 ![Image of MongoDB](https://studyopedia.com/wp-content/uploads/2021/06/MongoDB-example.png)
+
+## Benefits
 
 MongoDB's scalability, performance, and flexibility are its key advantages. Businesses may create high-performance apps that can cope with enormous volumes of data and users by utilising MongoDB. Complex data structures are simple to store and query with MongoDB's flexible schema, which can increase development productivity and cut down on time spent on data modelling and schema design.
 
