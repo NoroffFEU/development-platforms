@@ -32,7 +32,7 @@ They provide easy-to-follow guidelines to set up your clusters and free alternat
 - **2010** version 1.4 hit the market, this was the first version ready to be used by consumers.
 - **2013** subscription based alternatives was released to the public. 10Gen also re-branded to MongoDB inc.
 - **2014** version 2.4.9 launched, which was a more stable build. 
--**2016** MongoDB inc launched their cloud service, Atlas! 
+- **2016** MongoDB inc launched their cloud service, Atlas! 
 - **2020** Atlas advances with Atlas Data lake, Atlas Search and MongoDB realm
 
 ## **Features**
