@@ -1,11 +1,14 @@
----
+b---
 title: Neo4j Product Case Study
 keywords: development platforms, example project, category name
 tags: Development Platforms, Example Project, Category Name
 sidebar: development-platforms
 permalink: development-platforms/example-product.html
 folder: development-platforms
+
 ---
+
+# Neo4j
 
 ## Introduction
 
@@ -55,17 +58,61 @@ These features make Neo4j a versatile and powerful tool for managing and queryin
 
 -   **Complex deployment:** Neo4j may require more complex deployment and maintenance compared to other databases, especially for large-scale deployments.
 
--   **Analytics capabilities:** It may not be as well suited for more advanced analytics and data processing, compared to other databases.
+-   **Analytics capabilities:** It may not be as well suited for more advanced analytics and data processing, compared to other databases such as: Greenplum, Casandra, MongoDB, Apache Hadoop etc.
 
--   **Document storage:** It is well suited for managing complex relationships between data but, it may not be as well suited for document storage, compared to other databases.
+-   **Document storage:** It is well suited for managing complex relationships between data but, it may not be as well suited for document storage as compared to other NoSQL databases such as MongoDB, which is specifically designed for document storage and can handle a diverse range of document storage tasks.
 
 ## Comparison
+
+### The comparison of Neo4j with other graph databases
 
 Alongside Neo4j, Amazon Neptune and TigerGraph are two major players in the graph database market.
 
 Neo4j and Amazon Neptune are both popular graph databases, but they have distinct differences in terms of data model, scalability, performance, and integration. While Neo4j provides a flexible graph data model and uses the Cypher query language, Neptune provides better scalability and integration with other AWS services.
 
 TigerGraph is a high-performance graph database management system that provides real-time analysis of complex relationships. While both Neo4j and TigerGraph provide efficient querying of data relationships, TigerGraph provides better performance for large-scale use cases and provides advanced analytics capabilities.
+
+### The comparison of Neo4j with SQL and NoSQL databases
+
+![Image providede by: https://medium.com/@tigergraph/what-is-a-graph-database-and-why-should-you-care-d537124c7f39](https://miro.medium.com/v2/resize:fit:720/format:webp/1*8Za0wYRVykspOTL2nSohng.png)</br>
+_<sub> Image form: https://medium.com/@tigergraph/what-is-a-graph-database-and-why-should-you-care-d537124c7f39 </sub>_
+
+As illustrated in the example graph databases are uniquely designed to analyze relationships among data by pre-connecting the data entities and relationships, which eliminates the need for time-consuming table joins or multiple scans across large tables. This sets them apart from traditional relational databases and NoSQL databases, making them an ideal choice for applications that prioritize relationship analysis.
+
+### _The following is an example of relational and graph models from: https://neo4j.com/developer/cypher/guide-sql-to-cypher/_
+
+### Relational model
+
+![Image providede by: https://neo4j.com/developer/cypher/guide-sql-to-cypher/](https://dist.neo4j.com/wp-content/uploads/Northwind_diagram.jpg)</br>
+_<sub> Image form: https://neo4j.com/developer/cypher/guide-sql-to-cypher/ </sub>_
+
+### Graph model
+
+![Image providede by: https://neo4j.com/developer/cypher/guide-sql-to-cypher/](https://dist.neo4j.com/wp-content/uploads/northwind_graph_simple.png)</br>
+_<sub> Image form: https://neo4j.com/developer/cypher/guide-sql-to-cypher/ </sub>_
+
+> Joining Products with Customers</br>
+> We want to see who bought Chocolade. Let’s join the four tables together, refer to the model (ER-diagram) when you’re unsure.</br>
+>
+> ### Plsql:
+
+```
+SELECT DISTINCT c.CompanyName
+FROM customers AS c
+JOIN orders AS o ON (c.CustomerID = o.CustomerID)
+JOIN order_details AS od ON (o.OrderID = od.OrderID)
+JOIN products AS p ON (od.ProductID = p.ProductID)
+WHERE p.ProductName = 'Chocolade';
+```
+
+> The graph model (have a look) is much simpler, as we don’t need join tables, and expressing connections as graph patterns, is easier to read too.
+>
+> ### Cypher:
+
+```
+MATCH (p:Product {productName:"Chocolade"})<-[:PRODUCT]-(:Order)<-[:PURCHASED]-(c:Customer)
+RETURN distinct c.companyName;
+```
 
 ## Summary
 
@@ -93,3 +140,6 @@ Neo4j is relevant because it provides a solution for efficiently storing and que
 -   https://www.youtube.com/watch?v=8jNPelugC2s
 -   https://www.javatpoint.com/features-of-neo4j
 -   https://alronz.github.io/Factors-Influencing-NoSQL-Adoption/site/Neo4j/Results/Strengths%20and%20Weaknesses/#weaknesses
+-   https://greenplum.org/top-ten-open-source-big-data-database/
+-   https://neo4j.com/developer/cypher/guide-sql-to-cypher/
+-   https://medium.com/@tigergraph/what-is-a-graph-database-and-why-should-you-care-d537124c7f39
