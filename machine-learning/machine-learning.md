@@ -22,8 +22,8 @@ As an AI pair programmer, GitHub Copilot offers suggestions to your code by anal
 
 Copilot is a relative new service with GitHub announcing it for technical preview in June, 2021. Only in June of 2022 did it come out of technical preview and became available for developers with a subscription. There has however been progress in the face of machine learning since the 1940s.
 
-- 1943. Logician Walter Pitts and neuroscientist Warren McCulloch publishes a paper trying to mathematically map out thought processes and decision making in human cognition.
-- 1950. Alan Turing, an English mathematician and computer scientist, proposed the Turing Test. A test that would deem a machine "intelligent" or "unintelligent". The machine would be credited "intelligent" based on if it could convince a human being that it, the machine, was in fact a human being. Not long after this, a summer research program at Dartmouth College became the official birthplace of AI.
+- 1943: Logician Walter Pitts and neuroscientist Warren McCulloch publishes a paper trying to mathematically map out thought processes and decision making in human cognition.
+- 1950: Alan Turing, an English mathematician and computer scientist, proposed the Turing Test. A test that would deem a machine "intelligent" or "unintelligent". The machine would be credited "intelligent" based on if it could convince a human being that it, the machine, was in fact a human being. Not long after this, a summer research program at Dartmouth College became the official birthplace of AI.
 
 These two significant points in time led to "intelligent" machine learning algorithms to form, and can today do things like play board games with human beings and use speech recognition.
 
@@ -41,6 +41,21 @@ GitHub Copilot works with programs like, but are not limited to, JavaScript, Pyt
 ## How to use it
 
 GitHub Copilot comes as a Visual Studio Code extension, and the suggestions the program gives will be displayed directly in your code editor, making it very easy to work with. Follow this [link](https://docs.github.com/en/copilot/quickstart) for a quickstart guide.
+
+1. Sign up for a GitHub Copilot account.
+2. Install the Visual Studio Code extension.
+3. Create a new JavaScript file.
+4. Try out Copilot by typing out the following:
+
+```js
+function calculateDaysBetweenDates(begin, end) {
+```
+
+5. To accept the following suggestion, the grayed out text, hit tab.
+
+<img alt="GitHub Copilot example" src="https://docs.github.com/assets/cb-44686/images/help/copilot/first-suggestion-visual-studio-code.png" style="width: 100%; max-width: 600px"/>
+
+[Image Source](https://docs.github.com/en/copilot/quickstart)
 
 You will receive suggestions either by starting to write the code you want to use, or by writing a comment describing what you want the code to do.
 
