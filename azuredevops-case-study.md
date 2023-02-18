@@ -84,13 +84,19 @@ Some weaknesses Azure DevOps can have are:
 
 ## Comparison
 
+Some Development platforms that compares to Azure DevOps:
+
 - **GitHub**
 
-⋅⋅⋅Features
+Collaborative Coding: You can contribute quickly with an automatic environment setup. You can see the changes that you make and have a community around your code. You can have discussions, easily search for code and navigate around your code, get notifications, give and get code review from multiple people.
 
 - **GitLab**
 
+GitLab provides powerful planning tools so that your team can be synchronized. It enables planning and management through epics, groups and milestones, because of this you can organize and track progress in your team. GitLab is simple and flexible to use in planning. This meets the needs for both small teams and to large enterprises. GitLab helps teams organize, plan, align and track projects. This helps the team to know that everyone is working on the right things at the right time.
+
 - **Jira Software**
+
+With this Development platform you can work with powerful agile boards, like Scrum and Kanban. You can keep you teams and organizations in sync with roadmaps. This makes that teams can make quick decisions but still stay aligned with the bigger goal. Jira is flexible and you can choose from team or company - managed projects. You can create customizable workflows to any style of work and you can extend the power of Jira Software with 3000+ apps and integrations that are available.
 
 ## Summary
 
