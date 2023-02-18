@@ -86,7 +86,7 @@ Some weaknesses Azure DevOps can have are:
 
 - **GitHub**
 
---- Features
+⋅⋅⋅ Features
 
 - **GitLab**
 
