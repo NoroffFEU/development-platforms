@@ -38,9 +38,35 @@ The Firebase portfolio of products is divided into three categories: build, rele
 
 **Realtime Database** is a NoSQL database and is the original product Firebase procued since its inception in 2011. Data is stored as JSON and is synchronized across platforms and can be accessed from the client-side SDK, essentially being like an API. Data is cached locally and can be accessed in realtime, even offline, to improve the end-user experience.
 
-The Build category hosts the backbone of Firebases' entire portfolio since its inception: the Realtime Database and Cloud Firestore. Cloud Firestore is the next evolution of Realtime Database and Firebase still serves and maintains Realtime Database in their product portfolio as one of their featured products. The Realtime Database is a NoSQL database that stores data in a JSON tree, whereas Cloud Firestore is a NoSQL document database. This essentially means that data is stored in documents, which can then be organized into collections. Because data is stored in collections rather than table rather than tables and rows like SQL databases, a database can be scaled horizontally rather than vertically, which causes less performance issues for the servers. Storing data in collections of documents then, reduces the complexity at scale that a JSON tree can cause. The short version of the differences in the data models between Realtime Database and Cloud Firestore is that Firestores' data model reduces complexity, especially at scale. Because of these differences in the infrastructure of each database, querying data is also different. Where Cloud Firestore allows for simple and compound sorting and filtering, Realtime Database allows for deep but limited queries. Essentially, queries in Firestore can be chained and combine filtering and sorting, and queries will always return whole indexed documents. Realtime Database on the other hand, queries can sort or filter, returns entire subtrees of JSON, but can access data at any granularity.
+**Cloud Functions** is a backend framework for Firebase. Much like express.js, it is a framework to write the logic to handle HTTP requests on the application. Cloud functions are stored in a Cloud Storage Bucket and the code is handled by Google's servers, building the function source, creating new instances to handle multiple events.
 
-Automatic scaling - scales horizontally rather than vertically
+**Authentication**
+
+**Cloud Messaging**
+
+**Hosting**
+
+**Firebase ML**
+
+### Release & Monitor
+
+**Crashlytics**
+
+**Google Analytics**
+
+**Performance Monitoring**
+
+**Test Lab**
+
+**App Distribution**
+
+### Engage
+
+**A/B Testing**
+
+**Dynamic Links**
+
+**In-App Messaging**
 
 ## Strength
 
