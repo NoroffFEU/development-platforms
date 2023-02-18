@@ -30,7 +30,11 @@ A brief history of the product, including major milestones or events
 
 Outline the products key features
 
-The Firebase portfolio of products is divided into three categories: build, release & monitor, and engage. Each category has their own suite of products, tools, and integrations.
+The Firebase portfolio of products is divided into three categories: build, release & monitor, and engage. Each category has their own suite of products, tools, and integrations. To best illustrate the size of Firebases' portfolio, I will discuss and elaborate on their products and services by category.
+
+### Build
+
+The Build category hosts the backbone of Firebases' entire portfolio since its inception: the realtime database, Cloud Firestore. Cloud Firestore is a NoSQL document database that allows storage, syncronization of data, and data query on all platforms, meaning mobile and web applications.
 
 ## Strength
 
