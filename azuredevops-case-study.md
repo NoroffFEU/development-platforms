@@ -84,11 +84,13 @@ Some weaknesses Azure DevOps can have are:
 
 ## Comparison
 
-- GitHub
+- **GitHub**
 
-- GitLab
+--- Features
 
-- Jira Software
+- **GitLab**
+
+- **Jira Software**
 
 ## Summary
 
