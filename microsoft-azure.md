@@ -9,15 +9,39 @@ folder: development-platforms
 
 ## Introduction
 
-Microsoft Azure is a cloud computing platform and infrastructure created by Microsoft. It offers a wide range of services for building, deploying, and managing applications. Azure is widely used by organizations across various industries for its scalability, flexibility, and security features; making it one of the leading cloud computing platforms in the market.
+Microsoft Azure is a cloud computing platform and infrastructure created by Microsoft which targeted at Business and Developers without additional coding. It offers a wide range of services for building, deploying, and managing applications. Azure is widely used by organizations across various industries for its scalability, flexibility, and security features; making it one of the leading cloud computing platforms in the market.
 
 ## Brief History
-
-Microsoft Azure was first announced in October 2008 as "Windows Azure," and was later renamed to Microsoft Azure in April 2014. Windows Azure became commercially available in the early year of 2010 as more services were added. Microsoft Azure is available in 140 countries and regions, and is operated by more than 60 Azure regions worldwide.
 
 Provide a brief history of the product, including major milestones or events.
 
 You may use bullet points, numbered lists, paragraphs or a timeline.
+
+Microsoft Azure was first announced in October 2008 as "Windows Azure," and was later renamed to Microsoft Azure in late March 2014. Windows Azure became commercially available in the early year of 2010 as more services were added. Microsoft Azure is available in 140 countries and regions, and is operated by more than 60 Azure regions worldwide.
+
+The original name Windows Azure was chosen to reflect the fact that the platform was built on top of Windows Server. However, the name was changed to Microsoft Azure in 2014 to reflect the fact that the platform is now built on top of Microsoft's own operating system, Windows Server.
+
+### The First-Generation Services
+
+The first-generation of Windows Azure started with a limited set of services. The major service which it was launched for enabled developers to run the ASP.NET web applications and APIs. After a year the Windows Azure was released, the announcement of the SQL Azure relational database and support for other programming languages like Java, PHP, and some micro related services made them ready to transform their services into a Giant.
+
+Many more services were added when the Windows Azure became commercially available in 2010. One of the popular services was .NET Framework 4 which supported the Microsoft SQL Server. Other services that are worthed to mention at that time are OS Versioning, Content Delivery Network (CDN) and Microsoft Azure Service Bus that used to connect on-premises applications with cloud-based applications and Azure's own services.
+
+### The Second-Generation Services
+
+Infrastructure as a Service (IaaS) at the time was the best approach for customers to best control their cloud infrastructure. Developers started to uses Open-Source Software (OSS) because it was cheaper which increased the usage of software like Linux and OSS packages like MySQL, PHP, and Apache. This made Microsoft to rethink their strategy, and this was the time when they renamed their cloud platform to "Microsoft Azure". Microsoft Azure was also the best place to run the Linux Operating system after the re-strategies, and this meant that the full operations was transformed from platform as a service to infrastructure as a service.
+
+### The Third-Generation Services
+
+This was the era of big data, analytics and Internet of Things (IoT). Giants like Amazon and Google were all pushing their platforms and applications to meet the demand from the marked. As for Microsoft, they launched the Azure Data Lake Store and Azure Data Lake Analytics to provide an end-to-end Big Data and analytics platform on Azure. Microsoft will later go on to acquire Revolution Analytics to make the popular R language native to Azure data platform. Microsoft also foresaw the Internet of Things (IoT) as a worthy service to leverage on which they invested.
+
+Microsoft Azure is among the first clouds service providers to have an end-to-end connected devices stack powered by Event Hub, IoT Hub, Stream Analytics, SQL Database and Power BI. As we all know currently that Microsoft is the only company to offer the core building blocks of IoT (PaaS) and a white-labelled, multi-tenant, ready-to-use IoT SaaS offering branded as Azure IoT Central.
+
+### The Fourth-Generation Services
+
+Apart from OSS and OSS packages, big data and IoT, software and the cloud began to drift towards intelligence. As one of the leading cloud service providers, Microsoft invested a lot of time and money into Machine Learning and Artificial Intelligence (AI). Microsoft Azure was the only cloud service provider to offer a complete AI platform that includes the full spectrum of AI services, from data preparation to model training and deployment.
+
+By partnering with the leading AI companies like NVIDIA, Intel, and Qualcomm, Microsoft Azure is able to offer the best AI services to its customers, and to make sure Azure IoT Edge is the best platform for to work with AI models.
 
 ## Features
 
