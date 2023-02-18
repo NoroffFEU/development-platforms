@@ -9,8 +9,6 @@ folder: development-platforms
 
 ## Introduction
 
-<!-- Summarise the product's primary purpose in one or two paragraphs. -->
-
 I have chosen to write a case study about MySQL because it is one of the world's most popular and widely used databases.
 My goal is to weigh its strengths and weaknesses against other technologies of the same kind to figure out
 if this is a product worth using or if there are other products with better solutions, and in which cases you should use or not use MySQL.
@@ -28,10 +26,6 @@ RDBs have stood the test of time and are still today the most used types of data
 and MySQL is currently the most commonly used RDB.
 
 ## Brief History
-
-<!-- Provide a brief history of the product, including major milestones or events.
-
-You may use bullet points, numbered lists, paragraphs or a timeline. -->
 
 The first development of MySQL started in 1994 by Swedish developers Allan Larson, David Axamark,
 and Finnish developer Michael "Monty" Widenius. MySQL was initially intended for personal usage
@@ -95,10 +89,6 @@ MySQL Cluster CGE (10.000 USD / year per server)
 - highly available, high volume
 
 ## Features
-
-<!-- Outline the product's key features.
-
- -->
 
 #### Internals
 
@@ -326,9 +316,9 @@ It is highly recommended that developers properly configure the database and all
 to avoid attacks such as SQL injections. here are some methods from MySQL that can help secure the database:
 
 - prepared statements: Separate and create layers between user input and SQL with prepared statements and parameterized queries.
-- Stored procedures: Control what types of statements are executed.
 - Input validation: Build a robust validations system to properly sanitize data.
 - Limited privileges: Limit and compartmentalize privileges to decreases risk of SQL injections
+- Stored procedures: Control what types of statements are executed.
 
 #### Scalability
 
@@ -372,8 +362,6 @@ Non-ACID-compliant databases can potentially trade integrity for speed.
 
 ## Strengths
 
-<!-- Discuss the product's strengths. -->
-
 - Open source: MySQL is a free open-source software that can be modified by others to fit specific needs.
 - Widely adopted: MySQL is one of the most used relational databases in the world with a lot of documentation and community support.
 - Scalability: Can scale to handle large amounts of data, a good choice for busy web applications.
@@ -384,16 +372,12 @@ Non-ACID-compliant databases can potentially trade integrity for speed.
 
 ## Weaknesses
 
-<!-- Discuss the product's weaknesses. -->
-
 - Limited transaction processing: MySQL is less sophisticated regarding transaction processing.
 - Limited No-SQL capabilities: MySQL is limited in it's ability to handle No-SQL data.
 - Lacking built-in security features: MySQL har fewer built in security systems than some other database providers,
   This can lead to developers having to create additional security infrastructure.
 
 ## Comparison
-
-<!-- Compare the product to other products in the same category, if applicable. -->
 
 The three overwhelmingly most used open-source relational databases are MySQL, PostgreSQL and Microsoft SQL Server, in given order. I'm therefore going to make a comparison between MySQL and PostgreSQL.
 
@@ -439,8 +423,6 @@ PostgreSQL:
 
 ## Summary
 
-<!-- Summarize the content and highlight the relevance of the product to a web developer. -->
-
 MySQL is a relational database that has truly stood the test of time and speaks it's own value on the market, as it is the worlds most used open-source relational database. Known for it's reliability, speed, ability to scale and compatibility with other programing languages,which makes it easily available and often found in a web developer's stack.
 
 It also comes with tools for protection against SQL injections, supports third party tools and other features that makes it easy to use for web developers.
@@ -449,8 +431,6 @@ If you are handling monetary transactions, logistics or customer data, then MySQ
 On the other hand if you are handling large scientific data that require complex relations and queries then perhaps PostgreSQL is a better choice.
 
 ### Credits
-
-<!-- - Student Name (studentGitHubUsername) -->
 
 Johann Ranudd (johannranudd)
 
