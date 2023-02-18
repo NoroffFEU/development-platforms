@@ -29,11 +29,9 @@ Svelte is a JavaScript compiler, its similar to React, but React uses Virtual DO
 
 - `19th September, 2017` First stable version of svelte, version 1.0 was released.
 
-- `29th November, 2017` Version 2.0 is released, major performance improvements like a new API for writing components and TypeScript support.
+- `19th April, 2018` Version 2.0 is released, major performance improvements like a new API for writing components and TypeScript support.
 
 - `25th January, 2019` Version 2.4 is released, with new features like context API and improved TypeScript support.
-
-- `19th April, 2019` Svelte is written in TypeScript
 
 - `21th April, 2019` Version 3.0 is released written in TypeScript, with a rewritten compiler.
 
