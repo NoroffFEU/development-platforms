@@ -118,4 +118,10 @@ Azure DevOps is a feature - rich and mature platform. It is very flexible in the
 
 - https://www.trustradius.com/reviews/azure-devops-services-formerly-vsts-2022-02-17-06-11-47
 
+- https://github.com/features
+
+- https://about.gitlab.com/features/?stage=plan
+
+- https://www.atlassian.com/software/jira/features
+
 - Noroff Module 3 (DevOps)
