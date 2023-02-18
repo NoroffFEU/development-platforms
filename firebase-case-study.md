@@ -34,7 +34,9 @@ The Firebase portfolio of products is divided into three categories: build, rele
 
 ### Build
 
-The Build category hosts the backbone of Firebases' entire portfolio since its inception: the realtime database, Cloud Firestore. Cloud Firestore is a NoSQL document database that allows storage, syncronization of data, and data query on all platforms, meaning mobile and web applications.
+The Build category hosts the backbone of Firebases' entire portfolio since its inception: the Realtime Database and Cloud Firestore. Cloud Firestore is the next evolution of Realtime Database and Firebase still serves and maintains Realtime Database in their product portfolio as one of their featured products. The Realtime Database is a NoSQL database that stores data in a JSON tree, whereas Cloud Firestore is a NoSQL document database. This essentially means that data is stored in documents, which can then be organized into collections. Because data is stored in collections rather than table rather than tables and rows like SQL databases, a database can be scaled horizontally rather than vertically, which causes less performance issues for the servers.
+
+Automatic scaling - scales horizontally rather than vertically
 
 ## Strength
 
@@ -65,3 +67,6 @@ Summarise with relevance
 - https://techcrunch.com/2014/05/13/firebase-adds-web-hosting-to-its-database-platform/
 - https://www.youtube.com/watch?v=QcsAb2RR52c&ab_channel=Firebase
 - https://techcrunch.com/2017/10/03/google-launches-cloud-firestore-a-new-document-database-for-app-developers/
+- https://firebase.google.com/products-build
+- https://firebase.google.com/docs/database/rtdb-vs-firestore
+- https://www.youtube.com/watch?v=v_hR4K4auoQ&ab_channel=Firebase
