@@ -173,7 +173,7 @@ HTML HERE
 
 #### Svelte Syntax
 
-Svelte application components are defined with `.svelte` files. Which are HTML files extended with templating syntax that is based on JavaScript and is similar to JSX. You can use `__layout.svelte` to create a layout that will be on all the pages, such as a header and navigation.
+Svelte application components are defined with .svelte files, which are HTML files extended with templating syntax that is based on JavaScript and is similar to JSX. An important point to mention is that you can create a `__layout.svelte` component to create a layout that will appear on all pages, such as a header and navigation. You can then create a Header.svelte and a Nav.svelte component, import the Nav to the Header, and then import the Header with everything else, like a logo and hamburger menu, to the `__layout.svelte` component. By doing this, you will have it on every page.
 
 ---
 `{@debug}` This tag offers an alternative to console.log(), it allows you to console log and debug your code in Svelte.
