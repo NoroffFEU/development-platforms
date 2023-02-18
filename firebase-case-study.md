@@ -30,6 +30,8 @@ A brief history of the product, including major milestones or events
 
 Outline the products key features
 
+The Firebase portfolio of products is divided into three categories: build, release & monitor, and engage. Each category has their own suite of products, tools, and integrations.
+
 ## Strength
 
 Discuss the product's strengths
