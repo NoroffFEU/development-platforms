@@ -109,7 +109,9 @@ GitHub seems to be more user-friendly and easier to learn. Most developers manag
 
 Last but not least GitHub has better security features, and with the possibility to purchase and additional license for advanced securtiy.
 
-The information behind the comparison above is found at https://intercept.cloud/en/news/github-vs-azure-en/ where the conclusion in my opinion seems correct based on the slim experience I have with both development systems.
+The information behind the comparison above is found at https://intercept.cloud/en/news/github-vs-azure-en/
+
+Several comparisons of the two systems were researched, the information in the link above seemed most correct based on my own experiences and understandings.
 
 ## Summary
 
