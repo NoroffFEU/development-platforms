@@ -20,7 +20,7 @@ folder: development-platforms
 - [Credits & References](#credits)
 
 ## Introduction
-Svelte is a JavaScript compiler, its similar to React, but React uses Virtual DOM and both provide a similar component-based architecture -- that means both enable a CDD bottom-up development, and both enable sharing their components between apps, via tools and platforms like [Github](www.github.com).
+In this case study, I will talk about the difference between React and Svelte, and how you would use Svelte. Svelte is a JavaScript compiler. It's similar to React, but React uses Virtual DOM. Both provide a similar component-based architecture -- that means both enable CDD (component-driven development) bottom-up development, and both enable sharing their components between apps via tools and platforms like [Github](www.github.com).
 
 ## Brief History
 [Svelte](https://svelte.dev/) was created by Rich Harris. Svelte is a free and open source front end component framework / language, it is not a monolithic JavaScript library imported by applications. Instead, it compiles HTML templates to specialized code that manipulates the DOM directly. And was initial released `26th November, 2016`.
