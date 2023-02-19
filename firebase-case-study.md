@@ -56,9 +56,9 @@ The Firebase portfolio of products is divided into three categories: build, rele
 
 **Google Analytics** is an SDK that monitors and reports user behavior. Conditions can be configured for measuring any event trigger, views, demographic or specific details about eCommerce or ad revenue. It is one of the free services of Firebase and has unlimited number of reports available to the user. Data is collected and is reported and displayed on a dashboard in the console.
 
-**Remote Config**
+**Remote Config** is a cloud service that lets developers make changes to an application without having the user update the application. These changes can be isolated from the rest of the user population, effecting changes to specific users or groups of users. Remote Config allows developers to make changes in the Firebase Console and roll out said changes to the user population without having to create a new build. Remote Config can also be integrated with A/B Testing.
 
-**A/B Testing**
+**A/B Testing** is tool to test any metric of an application in an experiment. It runs on top of Analytics, Cloud Messaging, and Remote Config, allowing you to test for any metric at different builds or variation to an application in sample pool of users. A/B Testing is powered by Google Optimize, which performs Bayesian statistical analysis of the experiment and generates a report of Observed Data and Modeled Data. Observed being totals, averages, and percentile differences, and Modeled being probability, percentile differences from baseline, and metric ranges.
 
 **Dynamic Links**
 
@@ -107,3 +107,4 @@ Summarise with relevance
 - https://www.appmysite.com/blog/what-is-an-ipa-file-and-how-can-you-open-one/
 - https://firebase.google.com/docs/app-distribution
 - https://firebase.google.com/docs/analytics/
+- https://firebase.google.com/docs/remote-config
