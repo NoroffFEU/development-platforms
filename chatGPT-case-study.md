@@ -93,4 +93,4 @@ ChatGPT can be pretty useful for web developers who want quick answers to coding
 - https://www.youtube.com/watch?v=o5MutYFWsM8&t=50s
 - https://www.theguardian.com/science/2023/jan/26/science-journals-ban-listing-of-chatgpt-as-co-author-on-papers
 
-I used more youtube videos then this
+I used more youtube videos then this and googled alot.
