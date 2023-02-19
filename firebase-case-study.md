@@ -64,9 +64,21 @@ The Firebase portfolio of products is divided into three categories: build, rele
 
 Discuss the product's strengths
 
+Comprehensive ecosystem for building and testing
+
+Expansive cross-platform portfolio
+
+Focused on scalability
+
 ## Weaknesses
 
 Discuss its' weaknesses
+
+Vendor lock-in
+
+Only NoSQL database available
+
+Can get very expensive
 
 ## Comparison
 
