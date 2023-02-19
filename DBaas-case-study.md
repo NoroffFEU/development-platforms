@@ -176,4 +176,5 @@ Businesses who want a more streamlined and user-friendly solution but lack the r
 -	https://www.youtube.com/watch?v=qfiOVB3yMHQ 
 -	https://www.youtube.com/watch?v=hRulZhTtUTg 
 -	https://www.youtube.com/watch?v=qfiOVB3yMHQ 
+-	https://openai.com/blog/chatgpt/ 
 
