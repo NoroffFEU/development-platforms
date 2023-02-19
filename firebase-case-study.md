@@ -75,7 +75,9 @@ The Firebase portfolio of products is divided into three categories: build, rele
 
 ## Comparison
 
-Compare the product to other similar products i.e.: AWS Amplify
+Although a case could be made for comparing AWS Amplify and Firebase, it seems much more natural to compare Firebase to Supabase since Supabase advertises itself as the open-source alternative to Firebase.
+
+Supabase is the open-source "alternative" to Firebase, meaning that the technologies Supabase employs in their services are also open-sourced. Where Firebase's infrastructure is proprietary, such as Cloud Firestore, Supabase uses the open-sourced database PostgreSQL. PostgreSQL is a relational database, meaning tables and rows, which solves the usecase problem Firebase's only non-relational database.
 
 ## Summary
 
@@ -111,3 +113,4 @@ Summarise with relevance
 - https://firebase.google.com/docs/remote-config
 - https://firebase.google.com/community/stories
 - https://firebase.google.com/pricing#blaze-calculator
+- https://supabase.com/
