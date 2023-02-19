@@ -141,7 +141,7 @@ DBaas (Database as a Service) can be compared to other database solutions, inclu
 - Platform as a Service (PaaS): PaaS provides a platform for businesses to develop and run their applications, and it often includes a database service. However, PaaS solutions are focused on application development and deployment, while Dbaas is focused specifically on database management.
 
 One of the most significant pieces of software at the moment is a database as a service (DBaaS) provider.
-Due to fierce competition, today's Database as a Service (DBaaS) Providers have maintained a very low-cost investment for the majority and are highly adaptable. Finding the best Database as a Service (DBaaS) Provider might be difficult at the moment because there are so many alternatives accessible. 
+Due to fierce competition, today's Database as a Service (DBaaS) Providers have maintained a very low-cost investment for the majority and are highly adaptable. Finding the best DBaaS Provider might be difficult at the moment because there are so many alternatives accessible. 
 
 
 Some popular DBaaS providers include:
