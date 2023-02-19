@@ -41,11 +41,11 @@ By 1996 Postgres was called Postgres95. It became clear that this name would not
 
 ### JSON language support
 
-PostgreSQL supports Json language. You can define table columns as Json or Jsonb data types and use Json functions to parse and manipulate the content.
+- PostgreSQL supports Json language. You can define table columns as Json or Jsonb data types and use Json functions to parse and manipulate the content.
 
 #### Security
 
-Has a lot of ways to handle several kinds of security issues. Encryption options are provided at several levels and provide flexibility in protecting data from disclosure due to database server theft, unscrupulous administrations, and insecure networks.
+- Has a lot of ways to handle several kinds of security issues. Encryption options are provided at several levels and provide flexibility in protecting data from disclosure due to database server theft, unscrupulous administrations, and insecure networks.
 
 - password encryption
   Database user passwords are stored as hashes so the administrator cannot determine the actual password assigned to the user.
@@ -55,7 +55,7 @@ Has a lot of ways to handle several kinds of security issues. Encryption options
 
 #### Concurrency
 
-PostgreSQL supports concurrent ACID transactions. To do this, PostgreSQL may use multiple locks to serialize database changes. when concurrent changes are made, the first transaction may proceed, and the second pause until the first commits or aborts.
+- PostgreSQL supports concurrent ACID transactions. To do this, PostgreSQL may use multiple locks to serialize database changes. when concurrent changes are made, the first transaction may proceed, and the second pause until the first commits or aborts.
 
 ### Feature highlights
 
@@ -84,15 +84,15 @@ PostgreSQL supports concurrent ACID transactions. To do this, PostgreSQL may use
 
 ### Programming languages
 
-Postgres supports a large list of programming languages such as C/C++, Delphi, Erlang, Go, Java, Javascript, JSON, Lisp, .Net, Python, R and Tcl.
+- Postgres supports a large list of programming languages such as C/C++, Delphi, Erlang, Go, Java, Javascript, JSON, Lisp, .Net, Python, R and Tcl.
 
 ### Compatibility
 
-Postgres is compatible with all the leading operating systems like Windows, Linux, macOS, UNIX, etc.
+- Postgres is compatible with all the leading operating systems like Windows, Linux, macOS, UNIX, etc.
 
 ### Data types
 
-Supports wide data types like Primitives(string, numeric, integer, boolean), structured(array, date/time, UUID, range), document (XML, JSON/JSONB, key-value), and customization (custom types, composite)
+- Supports wide data types like Primitives(string, numeric, integer, boolean), structured(array, date/time, UUID, range), document (XML, JSON/JSONB, key-value), and customization (custom types, composite)
 
 ## Weaknesses
 
@@ -102,7 +102,7 @@ Supports wide data types like Primitives(string, numeric, integer, boolean), str
 
 ### Performance
 
-Postgres may not be as fast as other databases in some situations.
+- Postgres may not be as fast as other databases in some situations.
 
 ### Not restrained by a single owner
 
@@ -129,7 +129,7 @@ Postgres may not be as fast as other databases in some situations.
 
 ## Summary
 
-Postgres has been around for decades and will probably exist for many more. With its big community and open-source guidance, it is no wonder that Postgres is one of the most used ones. Postgres provides a large list of features, language support and data types. With its stability, advancements, and functionality Postgres is a great choice to handle simple to complex data projects. It can be a bit challenging with installation and configuration for beginners. Thankfully with the strong open-source documentation and with its big community, it is possible to get the help you need.
+- Postgres has been around for decades and will probably exist for many more. With its big community and open-source guidance, it is no wonder that Postgres is one of the most used ones. Postgres provides a large list of features, language support and data types. With its stability, advancements, and functionality Postgres is a great choice to handle simple to complex data projects. It can be a bit challenging with installation and configuration for beginners. Thankfully with the strong open-source documentation and with its big community, it is possible to get the help you need.
 
 ### Credits
 
