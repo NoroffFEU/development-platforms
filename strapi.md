@@ -169,6 +169,7 @@ A few notes on how to use this API:
 - By default, Strapi hides media fields. For that reason, if we need to fetch specific media elements, we must explicitly add the following URL query parameter: `https://fff-api.onrender.com/api/articles/populate=coverImage`. More than one parameter can be added simultaneously. For example: `https://fff-api.onrender.com/api/articles/populate=coverImage,imageGallery`.
 - Another useful way of manipulating Strapi API calls is by using the `fields` URL parameter. The URL `https://fff-api.onrender.com/api/articles?fields=title` will only fetch the titles of the respective items included in the articles array.
 - Filtering is also a useful technique. For example, by using the URL `http://localhost:1337/api/articles?fields=publishedAt` the user will be fetching only the `publishedAt` parameters. We can further filter that API call by adding the following: `http://localhost:1337/api/articles?fields=publishedAt&sort=publishedAt:desc`. This will sort the articles based on their publication date. Both `asc` and `desc` can be used, meaning "ascendant" and "descendant" order.
+- The API's repository on Github can be accessed via the following link: `https://github.com/NehGuk/fff-api`.
 
 ## Summary
 
