@@ -43,10 +43,9 @@ As mentioned, there are many features in Firebase, which can be divided into thr
 
 ### Build - Get to market and deliver value to your users, faster
 
-**Cloud Functions**: Enables developers to automatically execute backend code in response to events brought on by Firebase features and HTTPS requests. They allow developers to run backend code without having to manage servers.
+**Cloud Functions**: Serverless computing functions that enable developers to automatically execute backend code in response to events brought on by Firebase features and HTTPS requests. They allow developers to run backend code without having to manage servers.
 
-**Cloud Functions** Cloud functions are serverless computing functions that run in response to events triggered by Firebase features or HTTPS requests. They allow developers to run backend code without having to manage servers.
-**Authentication**: Aims to simplify the development of secure authentication systems while enhancing end users' sign-in and onboarding processes. It offers a complete identification solution, including login for Google, Twitter, Facebook, and GitHub in addition to email and password accounts.
+**Authentication**: Enhances the sign-in and onboarding processes for end users while making the development of secure authentication systems easier. It uses oAuth, an open standard protocol for authorization that allows third-party applications to access a user's resources without having to know their credentials such as username and password. Because of oAuth, users can sign in using third-party authentication such as Google, Twitter, Facebook, and GitHub.
 
 **Hosting**: Firebase offers fast, secure and production-quality web content hosting. Developers can easily launch web applications and deliver static and dynamic content to a global CDN with a single command (content delivery network).
 
