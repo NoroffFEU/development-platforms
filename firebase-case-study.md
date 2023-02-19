@@ -11,13 +11,9 @@ folder: development-platforms / firebase-case-study
 
 ## Introduction
 
-Summary of products' primary purpose
-
 Firebase is a cloud based development platform provided by Google. Firebase was created by James Tamplin and Andrew Lee at Envolve in 2011 to funnel data storage and data transfer into one realtime system for the companys chat service. In 2012 Firebase goes public as a separate company to Envolve, and in 2014 Firebase is acquired by Google. The short version of Firebase is that it provides a complete Software Development Kit, or SDK, across multible platforms to create applications with, providing cloud based solutions such as storage, hosting, and serverless computing. This allows developers to focus on building applications without having to worry about managing and maintaining servers or scaling.
 
 ## Brief History
-
-A brief history of the product, including major milestones or events
 
 - 2011: Firebase is created to funnel data storage and data transfer into one realtime system for Envolves' chat service.
 - 2012: Firebase goes public with Realtime Database as their first product.
@@ -27,8 +23,6 @@ A brief history of the product, including major milestones or events
 - 2017: Firebase launches Cloud Firestore, a realtime document database that can synchronize data across platforms.
 
 ## Features
-
-Outline the products key features
 
 The Firebase portfolio of products is divided into three categories: build, release & monitor, and engage. Each category has their own suite of products, tools, and integrations. To best illustrate the size of Firebases' portfolio, I will discuss and elaborate on their products and services by category.
 
@@ -102,3 +96,5 @@ Summarise with relevance
 - https://www.youtube.com/watch?v=v_hR4K4auoQ&ab_channel=Firebase
 - https://firebase.google.com/docs/database
 - https://firebase.google.com/docs/auth
+- https://firebase.google.com/docs/cloud-messaging
+- https://firebase.google.com/docs/cloud-messaging/fcm-architecture
