@@ -60,10 +60,6 @@ The Firebase portfolio of products is divided into three categories: build, rele
 
 **A/B Testing** is tool to test any metric of an application in an experiment. It runs on top of Analytics, Cloud Messaging, and Remote Config, allowing you to test for any metric at different builds or variation to an application in sample pool of users. A/B Testing is powered by Google Optimize, which performs Bayesian statistical analysis of the experiment and generates a report of Observed Data and Modeled Data. Observed being totals, averages, and percentile differences, and Modeled being probability, percentile differences from baseline, and metric ranges.
 
-**Dynamic Links**
-
-**In-App Messaging**
-
 ## Strength
 
 Discuss the product's strengths
