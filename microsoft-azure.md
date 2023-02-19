@@ -1,7 +1,7 @@
 ---
 title: Microsoft Azure App Service
-keywords: development platforms, example project, category name
-tags: Development Platforms, Example Project, Category Name
+keywords: Microsoft Azure, Cloud Service
+tags: Microsoft, Azure, cloud computing, infrastructure
 sidebar: development-platforms
 permalink: development-platforms/microsoft-azure.html
 folder: development-platforms
@@ -13,13 +13,9 @@ Microsoft Azure is a cloud computing platform and infrastructure created by Micr
 
 ## Brief History
 
-Provide a brief history of the product, including major milestones or events.
-
-You may use bullet points, numbered lists, paragraphs or a timeline.
-
 Microsoft Azure was first announced in October 2008 as "Windows Azure," and was later renamed to Microsoft Azure in late March 2014. Windows Azure became commercially available in the early year of 2010 as more services were added. Microsoft Azure is available in 140 countries and regions, and is operated by more than 60 Azure regions worldwide.
 
-The original name Windows Azure was chosen to reflect the fact that the platform was built on top of Windows Server. However, the name was changed to Microsoft Azure in 2014 to reflect the fact that the platform is now built on top of Microsoft's own operating system, Windows Server.
+The original name Windows Azure was chosen to reflect the fact that the platform was built on top of Windows Server. However, the name was changed to Microsoft Azure to reflect the fact that the platform is now built on top of Microsoft's own operating system, Windows Server.
 
 ### The First-Generation Services
 
@@ -29,7 +25,7 @@ Many more services were added when the Windows Azure became commercially availab
 
 ### The Second-Generation Services
 
-Infrastructure as a Service (IaaS) at the time was the best approach for customers to best control their cloud infrastructure. Developers started to uses Open-Source Software (OSS) because it was cheaper which increased the usage of software like Linux and OSS packages like MySQL, PHP, and Apache. This made Microsoft to rethink their strategy, and this was the time when they renamed their cloud platform to "Microsoft Azure". Microsoft Azure was also the best place to run the Linux Operating system after the re-strategies, and this meant that the full operations was transformed from platform as a service to infrastructure as a service.
+Infrastructure as a Service (IaaS) at the time was the best approach for customers to best control their cloud infrastructure. Developers started to use Open-Source Software (OSS) because it was cheaper, which increased the usage of software like Linux and OSS packages like MySQL, PHP, and Apache. This made Microsoft to rethink their strategy, and this was the time when they renamed their cloud platform to "Microsoft Azure". Microsoft Azure was also the best place to run the Linux Operating system after the re-strategies, and this meant that the full operations was transformed from platform as a service to infrastructure as a service.
 
 ### The Third-Generation Services
 
@@ -63,51 +59,55 @@ Azure offers four different forms of cloud computing: infrastructure as a servic
 
 Microsoft Azure has several strengths, some of the most notable include:
 
-- High Availability: Azure provides a high availability infrastructure, with a 99.95% SLA for virtual machines and 99.9% SLA for SQL databases. This ensures that applications and data are always available and accessible.
+- High availability: Azure provides a high availability infrastructure, with a 99.95% SLA for virtual machines and 99.9% SLA for SQL databases. This ensures that applications and data are always available and accessible.
 
-- Scalability: Azure provides a highly scalable infrastructure that can quickly adapt to changing workloads and user demand. This allows organizations to scale up or down as needed, without having to worry about downtime or performance issues. This up-scale and down-scale can be done with just a click of a button. With this scalable structure, businesses have the flexibility to pay only for what they use.
+- Scalability: Azure provides a highly scalable infrastructure that can quickly adapt to changing workloads and user demand. This allows organizations to scale up or down as needed, without having to worry about downtime or performance issues. This up-scale and down-scale can be done with just a few clicks of a button. With this scalable structure, businesses have the flexibility to pay only for what they use.
 
-- Data security: Microsoft has a strong focus on security and privacy, and Azure provides a number of security features and certifications, such as ISO 27001 and SOC 1, 2, and 3. The standard security model: "detect, assess, diagnose, stabilize and close." paired with the strong cybersecurity controls, makes Azure a leader in IaaS security. Azure also provides simple, user-friendly tools for increased security, such as multi-factor authentication and application password requirements.
+- Data security: Microsoft has a strong focus on security and privacy, and Azure provides a number of security features and certifications. Their standard security system follows a ADADSC approach: "detect, assess, diagnose, stabilize and close." paired with the strong cybersecurity controls, makes Azure a leader in IaaS security. Azure also provides simple, user-friendly tools for increased security, such as multi-factor authentication and application password requirements.
 
-- Cost-effective: Azure provides a pay-as-you-go pricing model, allowing organizations to only pay for the resources they use, making it a cost-effective solution for businesses of all sizes.
+- Cost-effective: Azure provides a pay-as-you-go pricing model, allowing organizations to only pay for the resources they use, making it a cost-effective solution for businesses of all sizes. Additionally, the cloud environment allows businesses to launch both customer applications and internal applications, which can help saving infrastructure costs and also reduce the hardware and software maintenance burdens on in-house IT management.
 
-- Flexibility: Supports a wide range of platforms, languages, and tools, making it easy to build and deploy applications in the cloud.
-
-- Global Reach: Azure has a global network of data centers, allowing users to deploy and run applications in multiple regions around the world.
+- Flexibility: Supports a wide range of platforms, languages, and tools, making it easy to build and deploy applications in the cloud. Azure allows you to build apps with the language you prefer, including .NET, Java, and Node.js, then gives you access to tools like Visual Studio. This allows you to stay productive while focusing on the coding instead of how it is managed.
 
 - Integration with Microsoft Products: Azure integrates with other Microsoft products, such as Office 365 and Dynamics 365, making it easier for organizations to manage their IT environment.
 
-- Hybrid Capabilities: Azure provides hybrid solutions that allow users to run applications and store data in both the cloud and on-premises, providing more options for deployment and management.
+- Hybrid capabilities: Azure provides hybrid solutions that allow users to run applications and store data in both the cloud and on-premises, providing more options for deployment and management. You choose the migration path that works best for the needs of your business.
 
-- AI and Machine Learning: Azure provides a range of AI and machine learning services, making it easier for organizations to implement and benefit from these technologies.
+- AI and Machine learning: Azure provides a range of AI and machine learning services, making it easier for organizations to implement and benefit from these technologies. You can build bots which naturally interact with consumers, make faster predictions, and improve your overall service capabilities.
 
 ## Weaknesses
 
-Discuss the product's weaknesses.
-
 Microsoft Azure, like any technology, has some weaknesses, including:
 
-- Complexity: Azure provides a wide range of services, which can make it complex to navigate and make the right choice for a specific use case.
+- Complex and requires management: Azure provides a wide range of services, which can make it complex to navigate and make the right choice for a specific use case. As with most cloud service providers, Azure also requires to be expertly managed and maintained to ensure all moving parts work together efficiently.
 
-- Learning Curve: For organizations new to cloud computing, there can be a steep learning curve to understand and utilize all of the features and services offered by Azure.
+- Learning curve: For organizations new to cloud computing, there can be a steep learning curve to understand and utilize all of the features and services offered by Azure.
 
 - Pricing: Although Azure provides a cost-effective pricing model, it can be difficult to predict and manage costs, especially for organizations with variable workloads and usage patterns.
 
 - Dependence on Microsoft: Azure is a Microsoft-only solution, and organizations relying on other platforms and technologies may need to make significant changes to fully utilize the capabilities of Azure.
 
-- Performance: Although Azure provides high performance for most applications, some users have reported performance issues, particularly for latency-sensitive applications.
-
-- Limited Customization: Azure provides a number of pre-built services and features, but some users may find that they need more customization and control, which may not be possible with Azure.
+- Limited customization and customer support: Azure provides a number of pre-built services and features, but some users may find that they need more customization and control, which may not be possible with Azure. Also, despite their high-quality products and global reach, Microsoft is not very good at dealing with the sheer volume of their customers and treating each customer as a unique individual.
 
 Overall, while Microsoft Azure has its weaknesses, it remains a highly popular and widely used cloud computing platform due to its strengths and the benefits it provides to organizations.
 
 ## Comparison
 
-Compare the product to other products in the same category, if applicable.
+Another popular cloud service provider is Amazon Web Services (AWS). AWS and Azure provide a similar set of core features and cloud capabilities. However, they differ from each other in some essential aspects. Below are some of the differences between Azure and AWS:
+
+- Documentation and simplicity of use: AWS offers greater ease of use and is good for first-time cloud platform adopters. The first is the dashboard, which is both feature-rich and user-friendly. However, adding users and access rules is more complex in AWS. Azure keeps all the user accounts and information in one place, although its documentation and recommendations system is less intuitive and search-friendly.
+
+- Open-source development: AWS is good for open-source developers as it is compatible with Linux and offers many integrations for varied open-source applications. In contrast, Microsoft Azure is still in the process of embracing the open-source community, which contributes to the domination of AWS in the open-source cloud hosting space.
+
+- Security Features: AWS does a brilliant job of selecting secure alternatives and default settings to provide enhanced privacy. Azure on the other hand, relies on Microsoft's Cloud Defender service for security and data privacy, which is powered by artificial intelligence and safeguards against new and existing threats.
+
+- Pricing: Azure and AWS cater service and pricing based on requirements. However, AWS is rated on an hourly basis and Azure on a minute basis. Azure offers higher flexibility in short-term subscriptions.
+
+- Machine learning: Both AWS and Azure have studios for machine learning (ML) model development. To work with AWS AI-tools, one needs coding and data science skills. On the contrary, Azure ML Studio is primarily focused on providing a codeless experience. Azure's interface features easy drag-and-drop pieces that let users build a comprehensive ML model with little to no programming knowledge.
 
 ## Summary
 
-Summarise the content and highlight the relevance of the product to a web developer.
+Microsoft Azure is a cloud computing platform and set of services provided by Microsoft. Azure offers a wide range of services for computing, storage, networking, and more, as well as tools for building, deploying, and managing applications and services. The platform is known for its scalability, reliability, and strong security features. Azure is used by organizations of all sizes, across a variety of industries, for a wide range of use cases, including web and mobile app development, data storage and analysis, artificial intelligence and machine learning, and more. With a global network and a strong developer community, Azure is a popular choice for organizations looking to leverage the benefits of cloud computing.
 
 ### Credits
 
@@ -119,3 +119,5 @@ Summarise the content and highlight the relevance of the product to a web develo
 - https://build5nines.com/map-azure-regions/
 - https://blog.icorps.com/pros-and-cons-microsoft-azure
 - https://www.atmosera.com/blog/the-most-important-features-of-microsoft-azure/
+- https://www.simplilearn.com/tutorials/cloud-computing-tutorial/aws-vs-azure
+- https://www.spiceworks.com/tech/cloud/articles/aws-vs-azure/#_002
