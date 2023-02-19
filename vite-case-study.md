@@ -67,9 +67,9 @@ In summary, Vite is a powerful build tool for front-end development that offers 
 
 #### References
 - [Vite Github Sourcecode](github.com/vitejs/vite)
-- [Vitejs.dev](vitejs.dev)
+- [Vitejs.dev](https://vitejs.dev/)
 - [Vite - Wikipedia](en.wikipedia.org/wiki/Vite_(software))
-- [Vite in 100 Seconds video](youtube.com/watch?v=KCrXgy8qtjM)
+- [Vite in 100 Seconds video](https://www.youtube.com/watch?v=KCrXgy8qtjM&ab_channel=Fireship)
 - [10minute demonstration of Vite from "Evan You"](youtube.com/watch?v=DkGV5F4XnfQ)
 - [Introduction to Vite - Article](dev.to/codemaker2015/introduction-to-vite-the-lightning-fast-module-bundler-32mm)
 - [What is vitejs? - Article](https://www.sitepoint.com/vitejs-front-end-build-tool-introduction/)
