@@ -70,7 +70,7 @@ In summary, Vite is a powerful build tool for front-end development that offers 
 - Per Jakob Ludvigsen [PJLUDVIGSEN](https://github.com/PJLUDVIGSEN)
 
 #### References
-- [Vite Github Sourcecode](https://github.com/vitejs/vite)
+- [Vite Github Source code](https://github.com/vitejs/vite)
 - [Vitejs.dev](https://vitejs.dev/)
 - [Vite - Wikipedia](https://en.wikipedia.org/wiki/Vite_(software))
 - [Vite in 100 Seconds video](https://www.youtube.com/watch?v=KCrXgy8qtjM&ab_channel=Fireship)
