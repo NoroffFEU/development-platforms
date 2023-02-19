@@ -18,6 +18,7 @@ The development of Vite began in 2018, as a pet project of Evan You, the creator
 Within the front-end development community, Vite's unique design immediately gained a following among developers, propelling it to become one of the most extensively utilized build tools.
 
 - Release of version 1.0 in April 2020
+- Release of Vite 2.0 February 16 2021
 
 ## Features
 
@@ -28,6 +29,7 @@ Vite comes with several features that make it a standout choice for front-end de
 Support for TypeScript, Less, and Sass.
 - Simple and intuitive configuration with a single vite.config.js file.
 - Plugin system for customizing the build process.
+- Framework-agnostic with boilerplate support for various frameworks including React, Vue.js, Preact, Vanilla Javascript the increasingly popular svelte and more.
 
 ## Strengths
 
@@ -38,6 +40,7 @@ Vite's strengths include:
 - Easy configuration with a single file
 - Flexibility with support for multiple file types and plugin system.
 
+
 ## Weaknesses
 
 Some of Vite's weaknesses include:
@@ -47,7 +50,7 @@ Some of Vite's weaknesses include:
 
 ## Comparison
 
-Compared to traditional build tools like Webpack and Rollup, Vite provides a more streamlined and faster development experience. Vite's optimized build process and support for HMR make it a standout choice for front-end developers looking to build JavaScript applications quickly and efficiently.
+Compared to traditional build tools like Webpack or Create React App(CRA), Vite provides a more streamlined and faster development experience. Vite's optimized build process and support for HMR make it a standout choice for front-end developers looking to build JavaScript applications quickly and efficiently.
 
 When compared to other development platforms in the industry, Vite stands out in several ways:
 
@@ -61,6 +64,7 @@ With the likes of Webpack which have been the industry standard for something li
 In summary, Vite is a powerful build tool for front-end development that offers a faster and more efficient development experience. It is a reliable platform for developers who want to create JavaScript applications, this development platform boasts an intuitive configuration and provides versatile file types and plugins support, making it an outstanding option and valuable tool for frontend web development.
 
 #### References
+- [Vite Github Sourcecode](github.com/vitejs/vite)
 - [Vitejs.dev](vitejs.dev)
 - [Vite - Wikipedia](en.wikipedia.org/wiki/Vite_(software))
 - [Vite in 100 Seconds video](youtube.com/watch?v=KCrXgy8qtjM)
