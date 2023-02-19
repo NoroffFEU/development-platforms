@@ -38,23 +38,25 @@ The Firebase portfolio of products is divided into three categories: build, rele
 
 **Cloud Messaging** is a messaging and notification service that uses the Cloud Functions environment to push messages to the end users. Messages can be constructed in the Firebase Console GUI, and users can be targeted granularly, by groups, or by categories through serverside code. As with other Firebase products and services, this architeture is focused on scalability.
 
-**Hosting** is a hosting service that serves content over an SSL connection on edge servers on a global CDN. 
+**Hosting** is a hosting service that serves content over an SSL connection on edge servers on a global CDN.
 
-**Firebase ML** is a mobile SDK that provides machine learning models with APIs in the cloud or on-device. The cloud or on-device API Firebase provides pre-trained models for text recognition, image labeling, object detection and tracking, face detection and contour tracing, barcode scanning, language identification, translation, and smart reply. 
+**Firebase ML** is a mobile SDK that provides machine learning models with APIs in the cloud or on-device. The cloud or on-device API Firebase provides pre-trained models for text recognition, image labeling, object detection and tracking, face detection and contour tracing, barcode scanning, language identification, translation, and smart reply.
 
 ### Release & Monitor
 
-**Crashlytics**
+**Crashlytics** is a realtime crash reporter for mobile apps. It condenses performance and crash information into managable lists and provides recommended solutions.
 
-**Google Analytics**
+**Performance Monitoring** is an SDK that collects data about an applications performance. It monitors things like an applications start-up time and HTTP network requests, and reports this information in the Firebase Console.
 
-**Performance Monitoring**
+**Test Lab** is a cloud based end-to-end testing environment, or lab, to test mobile applications on different devices. An application is hooked onto a device through an API for a device running in a Google Data Center, allowing the application to be tested on the hardware it would be running on in a live environment.
 
-**Test Lab**
-
-**App Distribution**
+**App Distribution** is another type of testing tool for mobile applications. Uploading IPA (iOS App Store Package) or APK (Android Application Package) files to a Firebase project allows Firebase to distrube the application to testers. Testers are invited through the Firebase Console and applications can be tested at different builds.
 
 ### Engage
+
+**Google Analytics** is an SDK that monitors and reports user behavior. Conditions can be configured for measuring any event trigger, views, demographic or specific details about eCommerce or ad revenue. It is one of the free services of Firebase and has unlimited number of reports available to the user. Data is collected and is reported and displayed on a dashboard in the console.
+
+**Remote Config**
 
 **A/B Testing**
 
@@ -99,3 +101,9 @@ Summarise with relevance
 - https://firebase.google.com/docs/cloud-messaging
 - https://firebase.google.com/docs/cloud-messaging/fcm-architecture
 - https://firebase.google.com/docs/hosting
+- https://firebase.google.com/docs/ml
+- https://firebase.google.com/docs/crashlytics
+- https://firebase.google.com/docs/perf-mon
+- https://www.appmysite.com/blog/what-is-an-ipa-file-and-how-can-you-open-one/
+- https://firebase.google.com/docs/app-distribution
+- https://firebase.google.com/docs/analytics/
