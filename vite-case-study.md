@@ -66,13 +66,14 @@ With the likes of Webpack which have been the industry standard for something li
 In summary, Vite is a powerful build tool for front-end development that offers a faster and more efficient development experience. It is a reliable platform for developers who want to create JavaScript applications, this development platform boasts an intuitive configuration and provides versatile file types and plugins support, making it an outstanding option and valuable tool for frontend web development.
 
 #### References
-- [Vite Github Sourcecode](github.com/vitejs/vite)
+- [Vite Github Sourcecode](https://github.com/vitejs/vite)
 - [Vitejs.dev](https://vitejs.dev/)
-- [Vite - Wikipedia](en.wikipedia.org/wiki/Vite_(software))
+- [Vite - Wikipedia](https://www.en.wikipedia.org/wiki/Vite_(software))
 - [Vite in 100 Seconds video](https://www.youtube.com/watch?v=KCrXgy8qtjM&ab_channel=Fireship)
-- [10minute demonstration of Vite from "Evan You"](youtube.com/watch?v=DkGV5F4XnfQ)
-- [Introduction to Vite - Article](dev.to/codemaker2015/introduction-to-vite-the-lightning-fast-module-bundler-32mm)
+- [10minute demonstration of Vite from "Evan You"](https://www.youtube.com/watch?v=DkGV5F4XnfQ)
+- [Introduction to Vite - Article](https://www.dev.to/codemaker2015/introduction-to-vite-the-lightning-fast-module-bundler-32mm)
 - [What is vitejs? - Article](https://www.sitepoint.com/vitejs-front-end-build-tool-introduction/)
+- [Vite vs Webpack - Article](https://www.vuemastery.com/blog/vite-vs-webpack/)
 
 
 
