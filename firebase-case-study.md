@@ -40,9 +40,9 @@ The Firebase portfolio of products is divided into three categories: build, rele
 
 **Cloud Functions** is a backend framework for Firebase. Much like express.js, it is a framework to write the logic to handle HTTP requests on the application. Cloud functions are stored in a Cloud Storage Bucket and the code is handled by Google's servers, building the function source, creating new instances to handle multiple events.
 
-**Authentication**
+**Authentication** is an SDK that leverages industry standard authentication methods like OAuth 2.0 and OpenID Connect. Firebase provides two primary methods of authentication. The first is FirebaseUI Auth and is a complete drop-in product, providing a standardized log-in UI that can be configured accept third party authentication, such as Google Sign-In, Facebook Login, GitHub, etc. The second is the Firebase SDK Authentication which is a suite of authentication methods such as email and password, phone number, and third party authentication. It works by passing the user credentials or third party OAuth token through the Firebase Authentication SDK. Then the credentials are then verified on Firebase's backend services and returns a response. The authenticated response is session based, meaning the user can end and restart the application and continue their session without having to log in again.
 
-**Cloud Messaging**
+**Cloud Messaging** is a messaging and notification service that uses the Cloud Functions environment to push messages to the end users. Messages can be constructed in the Firebase Console GUI, and users can be targeted granularly, by groups, or by categories through serverside code. As with other Firebase products and services, this architeture is focused on scalability.
 
 **Hosting**
 
@@ -101,3 +101,4 @@ Summarise with relevance
 - https://firebase.google.com/docs/database/rtdb-vs-firestore
 - https://www.youtube.com/watch?v=v_hR4K4auoQ&ab_channel=Firebase
 - https://firebase.google.com/docs/database
+- https://firebase.google.com/docs/auth
