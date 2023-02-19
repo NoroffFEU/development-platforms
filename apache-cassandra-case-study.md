@@ -3,8 +3,8 @@ title: Apache Cassandra Case Study
 keywords: development platforms, apache cassandra, database
 tags: Development Platforms, Apache Cassandra, Database
 sidebar: development-platforms
-permalink:development-platforms/apache-cassandra.html
-folder:development-platforms
+permalink: development-platforms/apache-cassandra.html
+folder: development-platforms
 ---
 # Apache Cassandra 
 ## Introduction
