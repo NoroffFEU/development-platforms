@@ -3,7 +3,7 @@ title: Vite js development platform
 keywords: development platforms, vite js, school project
 tags: Development Platforms, Vite js, School project, Building tools, Frontend tools
 sidebar: development-platforms
-permalink: development-platforms/example-product.html
+permalink: development-platforms/vitejs-case-study.md
 folder: development-platforms
 ---
 
@@ -168,20 +168,23 @@ Vite is still young in the marked and have achieved a lot. So I have the believi
     - [Npm charts](https://npmcharts.com/compare/vite?interval=30)
 
 
-- Vite js: General references
+- Vite js: General references:
     - [Vite in 100 Seconds video](youtube.com/watch?v=KCrXgy8qtjM)
     - [Why vite?](https://vitejs.dev/guide/why.html)
     - [Vite Getting Started](https://vitejs.dev/guide/)
 
-- Vue Mastery blog
+- Vite Github:
+    - [Vite js - Github repo](https://github.com/vitejs/vite)
+
+- Vue Mastery blog:
     - [Vite vs Webpack](https://www.vuemastery.com/blog/vite-vs-webpack/)
 
-- What is bundlers?
+- What is bundlers:
     - [JavaScript Module Bundlers](https://snipcart.com/blog/javascript-module-bundler)
     - [How JavaScript Bundlers work](https://medium.com/@gimenete/how-javascript-bundlers-work-1fc0d0caf2da)
     - [JavaScript Bundlers](https://dev.to/underscorecode/javascript-bundlers-an-in-depth-comparative-is-webpack-still-the-best-bundler-in-2021-59jk)
 
-- ES modules
+- ES modules:
     - [Noroff - ES6 Modules introduction](https://content.noroff.dev/javascript-2/introduction.html)
     - [Noroff - ES6 Modules Setup](https://content.noroff.dev/javascript-2/setup.html)
     - [Noroff - ES6 Modules Basics](https://content.noroff.dev/javascript-2/basics.html)
@@ -190,8 +193,8 @@ Vite is still young in the marked and have achieved a lot. So I have the believi
     - [JavaScript Tutorial - A Comprehensive Look at ES6 Modules](https://www.javascripttutorial.net/es6/es6-modules/)
 
 
-- Hot Module Replacement
+- Hot Module Replacement:
     - [Vite - Slow updates, HMR](https://vitejs.dev/guide/why.html#slow-updates)
 
-- ESbuild
+- ESbuild:
     - [ESbuild](https://esbuild.github.io/)
