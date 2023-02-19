@@ -62,13 +62,10 @@ The Firebase portfolio of products is divided into three categories: build, rele
 
 ## Strength
 
-Discuss the product's strengths
-
-Comprehensive ecosystem for building and testing
-
-Expansive cross-platform portfolio
-
-Focused on scalability
+- Firebase has a comprehensive ecosystem, providing the all the tools developers would require to build, test, monitor, and distribute applications.
+- Firebase supports cross-platform development. Meaning that developers can develop applications for android, iOS, and web from an extensive list of programing languages and libraries, ranging from javascript, c++, and unity to react native, flutter and vue.
+- Focused on scalability. The structure of Firestore's NoSQL document database and other products like Cloud Functions and Cloud Messaging offer safe horizontal scaling of any application.
+- Has a huge community of users and plenty of resources to learn from and engage with. Ranging from comprehensive documentation with codelabs and guides, to blogs, Firebase Summit, and social media.
 
 ## Weaknesses
 
@@ -116,3 +113,4 @@ Summarise with relevance
 - https://firebase.google.com/docs/app-distribution
 - https://firebase.google.com/docs/analytics/
 - https://firebase.google.com/docs/remote-config
+- https://firebase.google.com/community/stories
