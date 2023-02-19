@@ -23,9 +23,9 @@ Next.js is popular due to it flexibility and simplicity/ease of use, making it a
 
 - In 2019, Next.js 8 was released, which added support for automatic code splitting and dynamic imports.
 
-- In 2020, Next.js 9 was released, which added support for built-in TypeScript support and automatic static optimization. It also improved the support for dynamic imports.
+- In 2020, Next.js 9 was released, which added support for built-in TypeScript and automatic static optimization. It also improved the support for dynamic imports.
 
-- Next.js has gained its popularity among developers due to its simplicity and ease of use. Its also very popular because it can handle big complex web applications.
+- Next.js has gained its popularity among developers due to its simplicity and ease of use. Its also very popular because it can handle big and complex web applications.
 
 - Today a lot of companies are using Next.js to build their web applications such as Netflix, Uber, TikTok, Twitch and many more.
 
@@ -43,11 +43,11 @@ The framework has a lot of features that make it a popular framework to chose fr
 - **API Routes**
 - **Lots of plugins**
 
-I will be going through each of these features in more detail in the next section.
+I will be going through each of these features in more detail in the next section of strengths as these are some of the features that make next so good to chose when working with react.
 
 ## How it works
 
-Next.js is a framework that is built on top of react, which means that it uses react to build the web application. It also uses react-dom to render the react components on the client side. Next.js also uses react-dom/server to render the react components on the server side and uses webpack to bundle the code and babel to transpile the code.
+Next.js is a framework that is built on top of react, which means that it uses react to build the web application. It also uses react-dom to render the react components on the client side, react-dom/server to render the react components on the server side and uses webpack to bundle the code and babel to transpile the code.
 
 Next.js also uses a lot of other libraries and packages to provide a lot of the features that it provides. Some of the libraries and packages include:
 
@@ -69,11 +69,11 @@ Next.js also uses a lot of other libraries and packages to provide a lot of the 
 
 - **Static-side Generation** - Allows the developer to generate static HTMl files for each page of the website at the build time, which means it helps a lot in improving the websites speed and performance. This is often used for blogs, e-commerce and news websites.
 
-- **Client-side Routing** - Next.js provides a client side routing, which does mean that users can navigate between pages without having to refresh the page. This provides a better user experience and help in load time.
+- **Client-side Routing** - Provides a client side routing, which does mean that users can navigate between pages without having to refresh the page. This provides a better user experience and help in load time.
 
 - **Automatic Code Splitting** - Automatically splits the code into a smaller chunk of code based on the pages and routes, which reduces the code needed to be loaded. This helps in improving the performance and speed of the web application. This is also known as dynamic imports.
 
-- **Built-in Support** - Next.js provides built-in support for TypeScript, Sass, and LESS. This allows the developer to use these features without the need for external libraries.
+- **Built-in Support** - Provides built-in support for TypeScript, Sass, and LESS. This allows the developer to use these features without the need for external libraries.
 
 - **API Routes** - Provides a built-in support for creating serverless API routes.
   This lets the developer to build backend functions without worrying about server configuration and maintenance.
@@ -87,7 +87,7 @@ Next.js also uses a lot of other libraries and packages to provide a lot of the 
 
 ## Weaknesses
 
-Next.js is not perfect and does have some weaknesses. Some of the weaknesses could be:
+Next.js is not perfect and does have some weaknesses and some of these could be...
 
 - **Limited flexibility** - Next mainly focuses on server-side rendering and static site generation, which means that it does not provide a lot of flexibility when it comes to building a web application. This could be a problem for developers who want to build a web application that does not require server-side rendering or static site generation. For example the site require a lot of client-side rendering.
 
@@ -96,7 +96,7 @@ Next.js is not perfect and does have some weaknesses. Some of the weaknesses cou
 - **Cant control routing** - While next.js support built-in routing and navigation, it doesn't provide much customization when it comes to routing. This could be a problem for developers who want to have more control over the routing.
 
 - **Limited plugins/compatibility** - Next.js does provide a lot of plugins, but it does not provide a lot of plugins that are needed for building a web application. For example, it does not provide a plugin for database management.
-  Its also not compatible with some of the other libraries and packages, which means you might have to use a different library to achieve the same result, or you might have to modify the code to get the solution you want. This adds a lot of complexity.
+  Its also not compatible with some of the other libraries and packages, which means you might have to use a different library to achieve the same result, or you might have to change the code/plugins to get the solution you want. This adds a lot of difficulty.
 
 ## Comparison
 
@@ -116,10 +116,20 @@ SvelteKit is more opinionated than next.js, with a focus at creating highly opti
 
 ## Summary
 
+Next.js is a well written framework that is built on top of react. It provides a lot of features out of the box that react doesn't, which makes it a popular framework to chose from when building a web application with react. It also provides a lot of plugins that can be used to extend the functionality of the framework. While you could get server-side rendering and other stuff with react, it does require a bit more work to get it to work, which is why next.js is a lot more popular.
+
+You could also use different frameworks like the others we discussed to get many of the same features, but next.js comes with a lot more tutorials and documentation, which makes it a lot easier to get started with, compared to something like SvelteKit which is fairly new. But that being said, if you know svelte from before, it might be a lot easier to get started with SvelteKit.
+
+If you like react and its eco system, and you want to build a web application that requires server-side rendering, then next.js is a great framework to chose from. But if you want to build a web application that does not require server-side rendering, then you might want to chose a different framework.
+
 ### Credits
 
 - Adrian Fredriksen (AdrianFred)
 
 #### References
 
-- List of video or links used during research
+- https://cloudcannon.com/blog/sveltekit-vs-next-js/
+- https://nextjs.org/docs
+- https://kit.svelte.dev/docs/introduction
+- https://www.youtube.com/watch?v=Sklc_fQBmcs
+- https://blog.logrocket.com/react-remix-vs-next-js-vs-sveltekit/
