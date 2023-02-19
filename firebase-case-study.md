@@ -69,13 +69,9 @@ The Firebase portfolio of products is divided into three categories: build, rele
 
 ## Weaknesses
 
-Discuss its' weaknesses
-
-Vendor lock-in
-
-Only NoSQL database available
-
-Can get very expensive
+- Vendor lock-in prevents product owners or developers to move to a different backend provider.
+- Offers only one type of database. Though the arguments for NoSQL document database or Realtime Database are strong, there are usecases for SQL databases as well.
+- Complicated pricing plan. Though their Spark plan is free, the pricing plan is automatically updated to Blaze after a certain threshold. And finding out how much you can expect to pay can be hard to predict, because it is entirely based upon the number of users you have.
 
 ## Comparison
 
@@ -114,3 +110,4 @@ Summarise with relevance
 - https://firebase.google.com/docs/analytics/
 - https://firebase.google.com/docs/remote-config
 - https://firebase.google.com/community/stories
+- https://firebase.google.com/pricing#blaze-calculator
