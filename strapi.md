@@ -154,7 +154,7 @@ b) Installing the Cloudinary Strapi plugin;
 c) Using Render.com to host a PostgreSQL database;
 d) Connecting Render.com to a Github repository containing the Strapi project.
 
-The result has been a functional live API deployed at:
+A detailed guide on how to implement these steps can be found on this [online tutorial](https://www.youtube.com/watch?v=akvItcWW81g)). The result has been a functional live API deployed at:
 
 `https://fff-api.onrender.com/api/articles`
 
