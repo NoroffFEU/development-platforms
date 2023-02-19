@@ -81,11 +81,15 @@ Supabase is the open-source "alternative" to Firebase, meaning that the technolo
 
 ## Summary
 
-Summarise with relevance
+Firebase is, at its core, a Backend as a Service type of product. But when compared to a service like Supabase, it becomes apparent that what Firebase offers is an ecosystem. At the risk of complete vendor lock-in and potentially complex pricing plan, Firebase offers a tool or solution to most problems that is built to scale incredibly well.
+
+Firebase products are divided into three categories: build, release and monitor, and engage. In build we find the backbone of Firebase since its inception, the Realtime Database, and its evolution, Cloud Firestore, and the tools we would expect from a BaaS, like Authentication, Storage, and a framework to write HTTP endpoints. But here Firebase also offers an Emulator Suite where we can test and build locally, as well as Security Rules for accessing your database, and Machine Learning tools to integrate with your applications.
+
+Although build offers amazing infrastructure for developers to build applications on, release & monitor and engage takes this further by providing SDKs, extensions, and integrations that allow developers to monitor and analyze their applications performance and end-to-end testing, as well as taking user testing to another level by being able to isolate users with Remote Config and deploy changes to these specific users without having to update the entire application.
 
 ### Credits
 
--
+- Bjørn Arne Læknes (barlaek)
 
 ### References
 
