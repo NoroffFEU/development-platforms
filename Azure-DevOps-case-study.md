@@ -106,7 +106,7 @@ In a comparison there is also another side. GitHub has some features that are be
 
 GitHub seems to be more user-friendly and easier to learn. Most developers manage to learn GitHub faster than they can learn Azure DevOps. When looking up introduction courses for the two systems, the one for GitHub is significantly shorter as well.
 
-Last but not least GitHub has better security features, and with the possibility to purchase and additional license for advanced securtiy.
+Last but not least GitHub has better security features, and with the possibility to purchase an additional license for advanced securtiy.
 
 The information behind the comparison above is mostly found at [Azure DevOps vs. Github](https://intercept.cloud/en/news/github-vs-azure-en/)
 
