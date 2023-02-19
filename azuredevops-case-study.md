@@ -41,9 +41,7 @@ In 2018 Microsoft renamed Team Foundation Server (TFS) product to Azure DevOps b
 
 Azure DevOps has a range of services covering the full development life - cycle. These are:
 
-- **Azure Boards**: Agile or Scrum planning based on what suits the users needs the best, work item tracking, visualization and reporting tool. A single user can be a part of multiple organizations and the owner of the organization can assign roles and permissions to anyone in the organization when they need certain requirements to be done.
-
-Azure Boards also helps the development team with interactive and customized tools that they require to manage their software projects.It has support for Agile, Scrum and Kanban planning.
+- **Azure Boards**: Agile or Scrum planning based on what suits the users needs the best, work item tracking, visualization and reporting tool. A single user can be a part of multiple organizations and the owner of the organization can assign roles and permissions to anyone in the organization when they need certain requirements to be done. Azure Boards also helps the development team with interactive and customized tools that they require to manage their software projects.It has support for Agile, Scrum and Kanban planning.
 
 - **Azure Pipelines**: A language, platform and cloud agnostic CI/CD platform with support for containers or Kubernetes. It provides templates that can be used by the user and the templates can be customized in the form of YAML, depending on the requirements of the project.
 
@@ -51,7 +49,7 @@ Azure Boards also helps the development team with interactive and customized too
 
 - **Azure Artifacts**: Provides integrated package management with support for Maven, npm, Python and NuGet package feeds from public or private sources.
 
-- **Azure Test Plans**: Provides an integrated planned and exploratory testing solution.
+- **Azure Test Plans**: Provides an integrated planned and exploratory testing solution. It is a tool set that are used by the development team to check the quality of the code going through the cycle. The tool can be easily used from the browser and provide many different kind of testing frameworks.
 
 - Azure DevOps can also be used to manage third - party tools.
 
@@ -65,8 +63,7 @@ The benefits of using Azure DevOps are:
 
 - **End of the upgrade cycle**: Upgrades are a regular headache for organizations that are running on - premises CI/CD tooling. By moving to a SaaS model, you no longer need to worry about patching and upgrading the toolchain.
 
-Azure DevOps provides a platform that is not focused at organizations that are end - to - end Microsoft or Windows.
-Azure DevOps are:
+Azure DevOps provides a platform that is not focused at organizations that are end - to - end Microsoft or Windows. Azure DevOps are:
 
 - **Flexible**: Organizations don't have to go "all in" on Azure DevOps. Organizations can adopt each of the services independently and integrate them with your existing tool chain, most of the popular tools are supported.
 
@@ -125,5 +122,7 @@ Azure DevOps is a feature - rich and mature platform. It is very flexible in the
 - https://about.gitlab.com/features/?stage=plan
 
 - https://www.atlassian.com/software/jira/features
+
+- https://www.tothenew.com/blog/8-important-features-on-azure-devops/
 
 - Noroff Module 3 (DevOps)
