@@ -17,7 +17,7 @@ However Azure DevOps is a pay per-user license system and offer no free trials g
 
 ## Brief History
 
-In the below timeline, some of microsofts major milestones for the development system will be introduced:
+In the below timeline, some of microsofts major milestones for the development software will be introduced:
 
 - ###### 2005
 
@@ -36,13 +36,14 @@ In the below timeline, some of microsofts major milestones for the development s
   Rebrand; Azure DevOps was previously known as Microsoft Visual Studio Team System (VSTS) and Team Foundation Server (TFS) before it's name change on september 10, 2018. With the rebrand came several updates to the system including the cloud-hosted services into the on-premises server product.
 
 - ###### 2018
+
   GitHub was bought by Microsoft in october 2018 for 7.5 billion, giving GitHub more advantages while owned by the largest software developer in the world.
 
 ## Features
 
 DevOps was created to better the transition between development and the operative. This results in Azure DevOps having several key features in it's system to help give a smoother work flow.
 
-##### Some of whom is:
+##### Some of whom are:
 
 - Azure Boards: "Deliver value to your users faster using proven agile tools to plan, track, and discuss work across your teams."
 - Azure Pipelines: "Build, test, and deploy with CI/CD that works with any language, platform, and cloud. Connect to GitHub or any other Git provider and deploy continuously."
@@ -95,27 +96,27 @@ While researching both Azure DevOps and GitHub some differences emergered but it
 
 From the project management aspects Azure DevOps seems to be better for planning with management systems like Scrum and Kanban. This is due to the system being more mature and has had more time to develop the software.
 
-This can easily be used in combination with GitHub if your prefer, due to the integration possibilities between GitHub and for example Azure Boards, giving the user the best of both worlds.
+This can easily be used in combination with GitHub if you prefer, due to the integration possibilities between GitHub and for example Azure Boards, giving the user the best of both worlds.
 
 Azure also has an advantage over Github when looking at the workflow development. Developers can here configure tasks with an easy-to-use UI and drag them into a pipeline while using Azure DevOps.
 
 ##### Benefits of GitHub
 
-In a comparison there is also another side. GitHub also has some features that are better than Azure DevOps, some of whom is pricing. It has been mentioned before in this case study that Github has a free option while Azure DevOps you will have to pay for a licence making GitHub a cheaper option and also for smaller development teams a better one.
+In a comparison there is also another side. GitHub has some features that are better than Azure DevOps, some of whom is pricing. It has been mentioned before in this case study that Github has a free option, while with Azure DevOps you will have to pay for a licence making GitHub a cheaper option and also for smaller development teams a better one.
 
-GitHub seems to be more user-friendly and easier to learn. Most developers manage to learn GitHub fasten than they can learn Azure DevOps. When looking up introduction courses for the two systems, the one for GitHub is significantly shorter as well.
+GitHub seems to be more user-friendly and easier to learn. Most developers manage to learn GitHub faster than they can learn Azure DevOps. When looking up introduction courses for the two systems, the one for GitHub is significantly shorter as well.
 
 Last but not least GitHub has better security features, and with the possibility to purchase and additional license for advanced securtiy.
 
-The information behind the comparison above is found at [Azure DevOps vs. Github](https://intercept.cloud/en/news/github-vs-azure-en/)
+The information behind the comparison above is mostly found at [Azure DevOps vs. Github](https://intercept.cloud/en/news/github-vs-azure-en/)
 
-Several comparisons of the two systems were researched, the information in the link above seemed most correct based on my own experiences and understandings.
+Several comparisons of the two systems were researched, but the information in the link above seemed most correct based on my own experiences and understandings with the two systems.
 
 ## Summary
 
 During this case study there has been a short introduction into Azure DevOps as a development system as well as a comparison to GitHub.
 
-The conclusion after comparing the two is that for a larger enterprise / development company Azure DevOps seems to be the better choice, but a combination of the two might also be a good use of resources. Azure DevOps has a great amount to features making it so that the development teams can if wished have their whole work process within one system.
+The conclusion after comparing the two is that for a larger enterprise / development company Azure DevOps seems to be the better choice, but a combination of the two might also be a good use of resources. Azure DevOps has a great amount of features, making it so that the development teams can if they wish, have their whole work process within one system.
 
 However for a smaller development team and / or a single developer, GitHub is a better choice due to it's simplicity, user-friendly build and possibility to work for free. If the development team has the money it might also be a good idea to combine the two development systems due to the systems differences in strength.
 
