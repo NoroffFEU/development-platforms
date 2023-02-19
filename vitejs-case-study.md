@@ -1,7 +1,7 @@
 ---
-title: Vite JS development platform
-keywords: development platforms, vite js, tailwindcss, school project
-tags: Development Platforms, Example Project, Category Name
+title: Vite js development platform
+keywords: development platforms, vite js, school project
+tags: Development Platforms, Vite js, School project, Building tools, Frontend tools
 sidebar: development-platforms
 permalink: development-platforms/example-product.html
 folder: development-platforms
@@ -104,7 +104,8 @@ Something that's is important to remember is that Vite is still pretty new in th
 If we are looking into plugins we will have some limitations at Vite. 
 
 - Plugins
-    - As an example does Vite js have 6 official plugins available on their webpage and if we compere with Webpack js that's have 23 plugins available
+    
+    As an example does Vite js have 6 official plugins available on their webpage and if we compere with Webpack js that's have 23 plugins available
 
 
 ## Comparison
