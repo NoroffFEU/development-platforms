@@ -173,7 +173,7 @@ A few notes on how to use this API:
 
 ## Summary
 
-This article has covered one of the many possible ways of getting started with Strapi APIs. This service is one of the most popular choices among developers who wish to create and maintain their APIs without necessarily resorting to in-depth knowledge on backend technologies. Easy of use has made Strapi a sensible alternative for developers who wish to work with headless CMS projects -- without having to rely on legacy platforms like Wordpress. This article has only served as an introduction to the topic, however. There is, of course, a lot more to explore and discover. It is very likely that, sooner or later, you will encounter Strapi APIs in your future projects.
+This article has covered one of the many possible ways of getting started with Strapi APIs. This service is one of the most popular choices among developers who wish to create and maintain their APIs without necessarily resorting to in-depth knowledge on backend technologies. Ease of use has made Strapi a sensible alternative for developers who wish to work with headless CMS projects -- without having to rely on legacy platforms like Wordpress. This article has only served as an introduction to the topic, however. There is, of course, a lot more to explore and discover. It is very likely that, sooner or later, you will encounter Strapi APIs in your future projects.
 
 ## Credits
 
@@ -191,3 +191,4 @@ Henri Kugler ([@NehGuk](https://github.com/NehGuk))
 - [Strapi v4 Deploy with PostgreSQL Database and Cloudinary Free](https://www.youtube.com/watch?v=akvItcWW81g)
 - [Cloudinary's Official website](https://strapi.io/blog/add-cloudinary-support-to-your-strapi-application)
 - [Render's official website](https://render.com)
+- [Farming for the future](https://map.farmingforthefuture.site)
