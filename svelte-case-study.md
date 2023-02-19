@@ -25,7 +25,7 @@ folder: development-platforms
 
 Svelte, loaned from the french meaning "Stretched Out" is a free and open source component framework, compiler as well as a language created by Rich Harris and it's focus is to limit how much is transferred between the server and client, it builds everything as JavaScript during the build-time so the browser only needs to receive JavaScript and that's all it'll receive instead of a framework, this helps keeping Svelte lightweight with great performance, whilst the language only requires you to know HTML, CSS and JavaScript to build a quick and responsive Svelte or SvelteKit application as it's very easy to learn.
 
-It was created by Rich Harris who had previously worked on ractive.js and was originally written in JavaScript but was later written in TypeScript. in 2021 SvelteKit came and improved upon Svelte with taking the good bits from it and got the ability to handle the building of a fullstack application with server-side rendering, API and endpoints to name a few.
+Rich Harris had also previously worked on ractive.js and Svelte was originally written in JavaScript but was later written in TypeScript. in 2021 SvelteKit came and improved upon Svelte with taking the good bits from it and got the ability to handle the building of a fullstack application with server-side rendering, API and endpoints to name a few.
 
 ## Brief History
 
