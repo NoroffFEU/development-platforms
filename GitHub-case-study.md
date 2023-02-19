@@ -23,7 +23,7 @@ GitHub was founded in 2008 by Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, a
 
 **github blooming**
 
-- (year 2010) After only two years since it's launch github was hosting over 1 million repositories witch doubled a year later.
+- (year 2010) Two years after its launch, GitHub was hosting over 1 million repositories.
 - (year 2011) In the period of January to May 2011 ReadWriteWeb reported that GitHub had surpassed SourceForge and Google Code in total number of commits.
 - (year 2013) It was hosting 5 million repositories and had over 3 million users. Before this year ended the amount of repositories had doubled again and it was now hosting over 10 million repositories.
 
@@ -71,7 +71,7 @@ This is GitHub key features:
 
 ## Strengths
 
-- **Web-based platform/ease of access**: Being web based i see as a plus. New users can easily create an account especially when they can sign in via google.
+- **Web-based platform/ease of access**: Being web based can be seen as a plus. New users can easily create an account especially when they can sign in via google.
 
 - **Popularity**: Being one of the most popular development platforms do make it easy for people to choose github for their projects, as many developer already know how to use it.
   And new users can easily be integrated in projects with help from more experienced users.
