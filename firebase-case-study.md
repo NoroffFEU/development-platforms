@@ -38,9 +38,9 @@ The Firebase portfolio of products is divided into three categories: build, rele
 
 **Cloud Messaging** is a messaging and notification service that uses the Cloud Functions environment to push messages to the end users. Messages can be constructed in the Firebase Console GUI, and users can be targeted granularly, by groups, or by categories through serverside code. As with other Firebase products and services, this architeture is focused on scalability.
 
-**Hosting**
+**Hosting** is a hosting service that serves content over an SSL connection on edge servers on a global CDN. 
 
-**Firebase ML**
+**Firebase ML** is a mobile SDK that provides machine learning models with APIs in the cloud or on-device. The cloud or on-device API Firebase provides pre-trained models for text recognition, image labeling, object detection and tracking, face detection and contour tracing, barcode scanning, language identification, translation, and smart reply. 
 
 ### Release & Monitor
 
@@ -98,3 +98,4 @@ Summarise with relevance
 - https://firebase.google.com/docs/auth
 - https://firebase.google.com/docs/cloud-messaging
 - https://firebase.google.com/docs/cloud-messaging/fcm-architecture
+- https://firebase.google.com/docs/hosting
