@@ -158,7 +158,7 @@ The result has been a functional live API deployed at:
 
 `https://fff-api.onrender.com/api/articles`
 
-The admin panel for managing the API can be access at:
+The admin panel for managing the API can be accessed at:
 
 `https://fff-api.onrender.com/api/articles/admin`
 
