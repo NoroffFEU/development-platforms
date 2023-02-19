@@ -135,7 +135,7 @@ You combine this with a script tag in the Svelte file where you will be setting 
 ```
 
 The content in the svelte files looks like this.
-```
+```js
 <script>
 import Nav from "../lib/comp/Nav.svelte"
 </script>
