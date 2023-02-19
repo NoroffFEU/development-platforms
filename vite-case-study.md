@@ -9,6 +9,8 @@ folder: development-platforms
 
 ## Introduction
 
+![Vite logo image](https://vitejs.dev/og-image.png)
+
 Vite (French word for "quick", pronounced /vit/, like "veet") is a modern build tool for front-end development, specifically designed for JavaScript applications. It provides faster and more efficient development experience with features like instant hot module replacement (HMR), optimized building process, and a simple and intuitive configuration.
 
 ## Brief History
