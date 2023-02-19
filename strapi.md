@@ -145,9 +145,34 @@ It's time to see Strapi in action. In this demonstration, a simple API designed 
 32. Now, if you repeat step 29 (or refresh the page), the API data will be correctly displayed. It is ready to be consumed in our local development environment.
 33. The API will continue to be available for as long as the `npm run develop` command keeps running in your terminal. In order to interrupt the process, exit the process (by pressing "control C", for example). After refreshing the page, the API will no longer be available. To make it locally available again, run the command `npm run develop` one more time.
 
+### Deploying the API
+
+The Strapi API which has been created by following the steps above will only be available in your local environment. Deploying the API to make it publicly available requires another sequence of procedures –- like integrating your newly-created API with a remote server and a remote database. There are many ways of doing that. While deployment strategies are not the main intent of this article, a sample API has been deployed, for demonstration purposes, by using the following method:
+
+a) Creating a Strapi project, similarly to what has been done in the previous chapters;
+b) Installing the Cloudinary Strapi plugin;
+c) Using Render.com to host a PostgreSQL database;
+d) Connecting Render.com to a Github repository containing the Strapi project.
+
+The result has been a functional live API deployed at:
+
+`https://fff-api.onrender.com/api/articles`
+
+The admin panel for managing the API can be access at:
+
+`https://fff-api.onrender.com/api/articles/admin`
+
+A few notes on how to use this API:
+
+- The endpoint `https://fff-api.onrender.com/api/articles` will show a list of all articles.
+- The endpoint `https://fff-api.onrender.com/api/articles/2` will show an individual article based on its ID number.
+- By default, Strapi hides media fields. For that reason, if we need to fetch specific media elements, we must explicitly add the following URL query parameter: `https://fff-api.onrender.com/api/articles/populate=coverImage`. More than one parameter can be added simultaneously. For example: `https://fff-api.onrender.com/api/articles/populate=coverImage,imageGallery`.
+- Another useful way of manipulating Strapi API calls is by using the `fields` URL parameter. The URL `https://fff-api.onrender.com/api/articles?fields=title` will only fetch the titles of the respective items included in the articles array.
+- Filtering is also a useful technique. For example, by using the URL `http://localhost:1337/api/articles?fields=publishedAt` the user will be fetching only the `publishedAt` parameters. We can further filter that API call by adding the following: `http://localhost:1337/api/articles?fields=publishedAt&sort=publishedAt:desc`. This will sort the articles based on their publication date. Both `asc` and `desc` can be used, meaning "ascendant" and "descendant" order.
+
 ## Summary
 
-This article has covered one of the many possible ways of getting started with Strapi APIs in a local development environment. A PostgreSQL database is usually a welcome addition to Strapi APIs, considering it is also a popular and open-source technology. Strapi offers, of course, many more features and functionalities that are worth exploring.
+This article has covered one of the many possible ways of getting started with Strapi APIs. This service is one of the most popular choices among developers who wish to create and maintain their APIs without necessarily resorting to in-depth knowledge on backend technologies. Easy of use has made Strapi a sensible alternative for developers who wish to work with headless CMS projects -- without having to rely on legacy platforms like Wordpress. This article has only served as an introduction to the topic, however. There is, of course, a lot more to explore and discover. It is very likely that, sooner or later, you will encounter Strapi APIs in your future projects.
 
 ## Credits
 
@@ -155,10 +180,13 @@ Henri Kugler ([@NehGuk](https://github.com/NehGuk))
 
 ## References
 
-- [Strapi's Official Documentation](https://docs.strapi.io/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project)
-- [PostgreSQL Official Documentation](https://www.postgresql.org)
+- [Strapi's official documentation](https://docs.strapi.io/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project)
+- [PostgreSQL official documentation](https://www.postgresql.org)
 - [BuiltWith: Open Source Usage Distribution in the Top 10k Sites](https://trends.builtwith.com/shop/open-source/traffic/Top-10k)
 - [Contentful](https://www.contentful.com)
 - [Sanity.io](https://www.sanity.io)
 - [Getting started with Strapi Headless CMS on mac with PostgreSQL](https://www.youtube.com/watch?v=FeZyCxwb1aQ)
 - [Laith Academy: Strap1 v4 Crash Course](https://www.youtube.com/watch?v=vcopLqUq594)
+- [Strapi v4 Deploy with PostgreSQL Database and Cloudinary Free](https://www.youtube.com/watch?v=akvItcWW81g)
+- [Cloudinary's Official website](https://strapi.io/blog/add-cloudinary-support-to-your-strapi-application)
+- [Render's official website](https://render.com)
