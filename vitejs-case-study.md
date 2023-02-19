@@ -45,9 +45,9 @@ The goal of this building tool is to speed up the process of using a frontend to
 
 Vite comes with **ESBuild** that's bundling the dependencies during the development and makes the bundling extremely quick compared to other frontend tooling package.
 Another key functions that's have made it so successfully is the advantage of using native ES modules that's is supported in almost all
-moderne web-browsers. Developers will notice the speed during the development when HMR (Hot Module Replacement) will kick-in over ESM (ECMAScript modules), the instantly update in the browser when changes is made.
+moderne web-browsers. Developers will notice the speed during the development when HMR (Hot Module Replacement) will kick-in over ESM (ECMAScript modules), the instantly update in the browser when changes is made instead of the need to reload the hole page.
 
-The slogan for Vite is "Next Generation Frontend Tooling" which the really lives up to.
+The slogan for Vite is "Next Generation Frontend Tooling" which they really lives up to.
 
 ### **Milestone**
 
@@ -80,12 +80,12 @@ Another competitor is the well known Webpack, they have been on the marked for 1
 
 - HMR
 
-    Hot Module Replacement is a built-in features in Vite which will made the development much easier and faster. HMR is a feature that's update the JavaScript module during the development which will give the developer instantly updates in the browser without a full reload of the application. HMR is able other building tool as well but in Vite it's comes already built-in and is taking the advantage directly with ESM which will speed up the feature.
+    Hot Module Replacement is a built-in features in Vite which will made the development much easier and faster. HMR is a feature that's update the JavaScript module during the development which will give the developer instantly updates in the browser without a full reload of the application. HMR is able to other building tool as well but in Vite it's comes already built-in and is taking the advantage directly with ESM which will speed up the feature.
 
-- ESBuild
+- ESBuild & Rollup
 
-    ESBuild is another development platform that's is made for frontend. Vite is using some of the functionality of ESBuilding during the development performance in Vite.
-    Bundling the dependencies with ESBuild and together with Rollup will 
+    ESBuild is another development platform that's is made for frontend which is one of the fastest bundler when it's time to building for the production. Vite is using some of the functionality of ESBuilding during the development performance in Vite.
+    Bundling the dependencies with ESBuild and together with Rollup will make to building process to production both stable, reliable and fast.
 
 
 ## Strengths
@@ -191,3 +191,6 @@ Vite is still young in the marked and have achieved a lot. So I have the believi
 
 - Hot Module Replacement
     - [Vite - Slow updates, HMR](https://vitejs.dev/guide/why.html#slow-updates)
+
+- ESbuild
+    - [ESbuild](https://esbuild.github.io/)
