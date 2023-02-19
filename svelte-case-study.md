@@ -335,8 +335,6 @@ Tony Erlandsen - Sigvel
 
 - https://www.twilio.com/blog/react-svelte-comparing-basics
 
-- https://chat.openai.com/chat
-
 #### Video References
 
 - https://www.youtube.com/watch?v=3TVy6GdtNuQ
@@ -348,3 +346,5 @@ Tony Erlandsen - Sigvel
 - [Degit npm docs](https://www.npmjs.com/package/degit)
 
 - [Setting up svelte with degit](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_Todo_list_beginning)
+
+- https://chat.openai.com/chat
