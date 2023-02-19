@@ -19,7 +19,7 @@ You may use bullet points, numbered lists, paragraphs or a timeline.
 
 ## Features
 
-Outline the product's key features.
+Outline the product's key features
 
 ## Strengths
 
