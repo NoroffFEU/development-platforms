@@ -1,5 +1,5 @@
 ---
-title: Github Product Video Case Study
+title: Github Video Case Study
 keywords: development platforms, Github , Project management , Github Actions
 tags: Development Platforms, Example Project, Category Name
 sidebar: development-platforms
