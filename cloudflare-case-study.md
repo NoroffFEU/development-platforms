@@ -53,6 +53,10 @@ Serverless computing is a service in which a cloud provider takes care of the se
 
 There are some differences between JS written for a browser or for Node.js. Rather than running in a browser or on a server, Workers functions runs on Cloudflare's global cloud network, where each of the machines on the network hosts an instance of the Workers runtime, each of which is capable of running thousands of user-defined apps. 
 
+### Cloudflare Pages
+
+Cloudflare's Pages is a JAMstack (JavaScript, API, Markup) platform for deploying webpages and also offering tools for developers to collaborate on projects. Cloudflare Pages works similar to Netlify or GitHub Pages in that users can easily connect to their GitHub accound and deploy a website trough a repo. Using the JAMstack approach, as much of the HTML as possible is pre-built and stored on Cloudflare's CDN, while dynamic components of the app is based on APIs.
+
 ## Strengths
 
 Using the Cloudflare CDN boosts performance by, among other factors, reducing the distance the requested content needs to travel. This is done by caching the content. That means that if the content requested by the browser is not already available on the Cloudflare networks edge servers, they will make an initial request for the content to the origin server and then store the static content on their network, so that any future request for that specific content can be served directly by their networks edge servers. There are case-studies available on Cloudflare's website where the customer reports a 50% reduction in load time after onbording to Cloudflares CDN. 
@@ -86,7 +90,7 @@ In terms of performance Cloudflare currently rank 4th on the benchmarking site C
 
 Cloudflare is one of the leading providers of content delivery networks in the world, and they have a broad range of products for anyone wanting to make their content more accessible, reliable and secure. 
 
-Cloudflares Developer Platform provides solutions for developers to deploy their serverless applications on servers distributed all over the planet. In addition, they provide their Pages solution for deploying full-stack application instantly to the same global network, and an Image API to store, optimizing and resize images. This is just some of the functionality that is highly relevant for a developer.
+Cloudflare's Developer Platform provides solutions for building and deploying projects on every scale. Combining Cloudflare Pages and Workers allow you to develop and deploy full stack web applications only using Cloudflare, providing you with all the benefits that comes with offering your content trough their edge network. You can also deploy projects built in React, Vue, Next.js, and many other frameworks. In addition, their development platform provide solutions for storage, image optimalization and email routing. 
 
 ### Credits
 
@@ -113,6 +117,11 @@ Cloudflares Developer Platform provides solutions for developers to deploy their
 #### Workers
 
 - [Cloudflare Workers](https://developers.cloudflare.com/workers/)
+
+#### Pages
+
+- [Cloudflare Pages](https://developers.cloudflare.com/pages/)
+- [What is a JAMstack?](https://www.cloudflare.com/en-gb/learning/performance/what-is-jamstack/)
 
 #### Comparison
 
