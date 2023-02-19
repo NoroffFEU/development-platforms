@@ -9,7 +9,7 @@ folder: development-platforms
 
 ## Introduction
 
-Vite is a modern build tool for front-end development, specifically designed for JavaScript applications. It provides faster and more efficient development experience with features like instant hot module replacement (HMR), optimized building process, and a simple and intuitive configuration.
+Vite (French word for "quick", pronounced /vit/, like "veet") is a modern build tool for front-end development, specifically designed for JavaScript applications. It provides faster and more efficient development experience with features like instant hot module replacement (HMR), optimized building process, and a simple and intuitive configuration.
 
 ## Brief History
 
@@ -59,3 +59,14 @@ With the likes of Webpack which have been the industry standard for something li
 ## Summary
 
 In summary, Vite is a powerful build tool for front-end development that offers a faster and more efficient development experience. It is a reliable platform for developers who want to create JavaScript applications, this development platform boasts an intuitive configuration and provides versatile file types and plugins support, making it an outstanding option and valuable tool for frontend web development.
+
+#### References
+- [Vitejs.dev](vitejs.dev)
+- [Vite - Wikipedia](en.wikipedia.org/wiki/Vite_(software))
+- [Vite in 100 Seconds video](youtube.com/watch?v=KCrXgy8qtjM)
+- [10minute demonstration of Vite from "Evan You"](youtube.com/watch?v=DkGV5F4XnfQ)
+- [Introduction to Vite - Article](dev.to/codemaker2015/introduction-to-vite-the-lightning-fast-module-bundler-32mm)
+- [What is vitejs? - Article](https://www.sitepoint.com/vitejs-front-end-build-tool-introduction/)
+
+
+
