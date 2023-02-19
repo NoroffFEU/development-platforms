@@ -40,8 +40,6 @@ In the below timeline, some of microsofts major milestones for the development s
 
 ## Features
 
-Outline the product's key features.
-
 DevOps was created to better the transition between development and the operative. This results in Azure DevOps having several key features in it's system to help give a smoother work flow.
 
 ##### Some of whom is:
@@ -109,7 +107,7 @@ GitHub seems to be more user-friendly and easier to learn. Most developers manag
 
 Last but not least GitHub has better security features, and with the possibility to purchase and additional license for advanced securtiy.
 
-The information behind the comparison above is found at https://intercept.cloud/en/news/github-vs-azure-en/
+The information behind the comparison above is found at [3]
 
 Several comparisons of the two systems were researched, the information in the link above seemed most correct based on my own experiences and understandings.
 
@@ -127,7 +125,7 @@ However for a smaller development team and / or a single developer, GitHub is a 
 
 #### References
 
-- https://intercept.cloud/en/news/github-vs-azure-en/
+- [3](https://intercept.cloud/en/news/github-vs-azure-en/)
 - https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins
 - https://www.trustradius.com/products/azure-devops-services/reviews?qs=pros-and-cons#reviews
 - https://azure.microsoft.com/en-us/products/devops
@@ -136,3 +134,7 @@ However for a smaller development team and / or a single developer, GitHub is a 
 - https://www.cnbc.com/2021/10/17/gitlab-now-worth-twice-what-microsoft-paid-for-github.html#:~:text=Microsoft%20acquired%20its%20larger%20rival,the%20world's%20largest%20software%20developer.
 - https://www.netapp.com/devops-solutions/what-is-devops/#:~:text=The%20practice%20of%20DevOps%20encourages,operations%20team%20(Ops)%20counterparts.
 - https://github.com/features
+
+The numbered refrences found beneath text is paraphrased from the information found at the linked website.
+
+Other refrenceses has simply been inspirational.
