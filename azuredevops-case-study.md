@@ -41,11 +41,13 @@ In 2018 Microsoft renamed Team Foundation Server (TFS) product to Azure DevOps b
 
 Azure DevOps has a range of services covering the full development life - cycle. These are:
 
-- **Azure Boards**: Agile planning, work item tracking, visualization and reporting tool.
+- **Azure Boards**: Agile or Scrum planning based on what suits the users needs the best, work item tracking, visualization and reporting tool. A single user can be a part of multiple organizations and the owner of the organization can assign roles and permissions to anyone in the organization when they need certain requirements to be done.
 
-- **Azure Pipelines**: A language, platform and cloud agnostic CI/CD platform with support for containers or Kubernetes.
+Azure Boards also helps the development team with interactive and customized tools that they require to manage their software projects.It has support for Agile, Scrum and Kanban planning.
 
-- **Azure Repos**: Provides cloud - hosted private git repos.
+- **Azure Pipelines**: A language, platform and cloud agnostic CI/CD platform with support for containers or Kubernetes. It provides templates that can be used by the user and the templates can be customized in the form of YAML, depending on the requirements of the project.
+
+- **Azure Repos**: Provides cloud - hosted private git repos. It is a version control tool that can be used by the team to manage their set of codes. Version Control systems are the software that helps developers track the changes in their code.
 
 - **Azure Artifacts**: Provides integrated package management with support for Maven, npm, Python and NuGet package feeds from public or private sources.
 
