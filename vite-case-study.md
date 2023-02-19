@@ -31,7 +31,7 @@ Vite comes with several features that make it a standout choice for front-end de
 Support for TypeScript, Less, and Sass.
 - Simple and intuitive configuration with a single vite.config.js file.
 - Plugin system for customizing the build process.
-- Framework-agnostic with boilerplate support for various frameworks including React, Vue.js, Preact, Vanilla Javascript the increasingly popular svelte and more.
+- Framework-agnostic with boilerplate support for various frameworks including React, Vue.js, Preact, Vanilla Javascript, the increasingly popular framework Svelte and more.
 
 ## Strengths
 
