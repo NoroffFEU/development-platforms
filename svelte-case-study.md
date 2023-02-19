@@ -114,11 +114,11 @@ You combine this with a script tag in the Svelte file where you will be setting 
   const API_KEY = import.meta.env.YOUR_API_KEY;
 
   /**
-   * Fetches the api item.
+   * Fetches the API item.
    * @param url contains the targeted API url for the wanted object.
    * @returns Should return the response to the svelte #await in the html block.
    */
-  export async function getGenres(url) {
+  export async function fetchItems(url) {
       // fetches the item from the url target.
       const res = await fetch(url);
 
