@@ -1,23 +1,23 @@
 ---
 title: MySql Case Study
-keywords: Relasjonsdatabase, Open source, Tabeller, Sql
-tags: Relasjonsdatabase, Open source, Tabeller, Sql
+keywords: Relational Database, Open source, Tables, SQL
+tags: Relational Database, Open source, Tables, SQL
 sidebar: development-platforms
 folder: development-platforms
 ---
 # MySql
 
-## Table of content
+## Table of Content
 1. [Introduction](#introduction)
 2. [History](#brief-history)
-1. [Purpose and Concepts](#purpose-and-concepts)
-1. [Features and Ecosystem](#mysql-features)
-1. [Strengths](#strengths)
-1. [Weaknesses](#weaknesses)
-1. [Comparison](#comparison)
-1. [Summary](#summary)
-1. [Glossary](#glossary)
-1. [References](#references)
+3. [Purpose and Concepts](#purpose-and-concepts)
+4. [Features and Ecosystem](#mysql-features)
+5. [Strengths](#strengths)
+6. [Weaknesses](#weaknesses)
+7. [Comparison](#comparison)
+8. [Summary](#summary)
+9. [Glossary](#glossary)
+10. [References](#references)
 
 ## Introduction
 
