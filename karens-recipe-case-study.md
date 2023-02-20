@@ -13,8 +13,6 @@ The website should be easy to upload recipes, organize them into categories and 
 her own collection with ease. Karen wants to make sure she can easily learn how to   
 publish her recipes without it being too time-consuming or troublesome.
 
-![Karen's Persona Profile](https://github.com/siljeangelvik/development_platforms_ca/raw/main/public/karen-case-study.png)
-
 <img src="./karens_assets/karen-case-study.png" data-canonical-src="./karens_assets/karen-case-study.png" width="600" height="auto"  alt="Karen Persona Profile"/>
 
 ### Our approach
