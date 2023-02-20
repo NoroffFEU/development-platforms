@@ -149,11 +149,10 @@ MySQL is a well-structured, open-source database management system that is parti
 
 ### Credits
 
-- Student Name (studentGitHubUsername)
+- [Ajeerathan K](https://github.com/gitAji)
 
 #### References
 
-- List of video or links used during research
 - [History of MYSQL](https://en.wikipedia.org/wiki/MySQL)
 - [Open source stacks](https://www.geeksforgeeks.org/what-is-the-difference-between-lamp-stack-mamp-stack-and-wamp-stack/)
 - [About mysql](https://dev.mysql.com/doc/refman/8.0/en/what-is-mysql.html)
