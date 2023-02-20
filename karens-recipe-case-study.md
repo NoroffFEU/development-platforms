@@ -210,20 +210,10 @@ together with **GraphQL** gives you the opportunity to query for a specific endp
 these tools are great and easy to use, if you don't want to use a coupled CMS.    
 It is intuitive and flexible, and the most important: Karen can add her recipes whenever she wants!
 
-We made a little video clip to showcase a basic introduction of Hygraph.    
-
+<a href="https://www.youtube.com/watch?v=7hnxVRcmN94">**_Video Clip Showcasing Hygraph_**</a>  
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=7hnxVRcmN94
 " target="_blank"><img src="./karens_assets/developmentplatforms_graphcms-3.png"
-alt="Video Clip Showcasing Hygraph" width="600" height="auto" border="10" /></a>
-
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=7hnxVRcmN94
-" target="_blank"><img src="http://img.youtube.com/vi/7hnxVRcmN94/0.jpg"
-alt="Video Clip Showcasing Hygraph" width="600" height="auto" border="10" /></a>
-
-
-[<img src="./karens_assets/developmentplatforms_graphcms-3.png" width="600">](https://www.youtube.com/watch?v=7hnxVRcmN94/)
-
+alt="Video Clip Showcasing Hygraph" width="600" height="auto" border="10" /></a>  
 
 [<img src="./karens_assets/developmentplatforms_graphcms-3.png" width="600">](https://www.youtube.com/watch?feature=player_embedded&v=7hnxVRcmN94)  
 **Source:** [_Video Clip Showcasing Hygraph_](https://www.youtube.com/watch?v=7hnxVRcmN94)
