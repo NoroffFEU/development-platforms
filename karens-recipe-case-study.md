@@ -131,55 +131,86 @@ The **GraphQL CMS** was an idea created by two friends in **2015** working for a
 * Offers a free plan
 
 ## Weaknesses
+* GraphQL allows mutations in writing codes requiring customized codes for every new write operation.  
+Therefore the GraphQL can be more challenging in design and implementation.
 * Cost money for bigger or more projects
 * We have yet to figure out more cons...
 
 ## Comparison
-### Nextjs vs Svelte
-NextJS enables us to create full-stack web applications by extending the latest   
-React features. We’ll use Next JS pre-rendering with Static Generation.   
-With NextJS we can create entire APIs without ever needing the backend.
+### Hygraph vs WordPress
+Using WordPress can cause your code to become more difficult   
+to maintain due to the amount of plugins you might end up   
+integrating. Hygraph seems to beat WP in a multitude of fields   
+and generally has more to offer with equally good/or better solutions.
 
-### GraphQL vs REST
-GraphQL has many advantages over REST. GraphQL is faster than REST because   
-you can easily pick the fields you have to query. GraphQL provides a   
-better learning curve as compared to REST.
+**GraphQL** offers to do what a lot of WordPress plugins claim to do,   
+but fails to do as efficiently as GraphQL. GraphQL also offers its own API.     
+GraphQL focuses on simplifying the exchange of data between the client and   
+the server and claims to be more efficient than the standard REST architecture.   
+Hygraph also has a larger selection of categories, such as Headless eCommerce,   
+Forms automation, mobile content management system and more. Hygraph is also generally   
+easier to set up and maintain, especially code-wise when using a headless CMS.   
+WordPress relies on a lot of plugins which can cause hard-to-maintain hacky code down the road.
 
-<img src="./karens_assets/rest_graphql.png" data-canonical-src="./karens_assets/rest_graphql.png" width="600" height="auto"  alt="Rest vs GraphQL"/>
+Although using Hygraph offers drag & drop features and minimizes/eliminates need for code,   
+it is still easier to understand and use the tool with at least some level of technical   
+knowledge and be familiar with web-development. For those who lack this experience WordPress could   
+be a better option since it is very easy to use even for those with little to no technical knowledge.
 
-### GraphCMS vs WordPress
-Next JS is specifically designed for server-side rendering and offers   
-a range of features to make it easy for developers to build server-rendered   
-React applications. Svelte also offers support for server-side rendering;   
-however, compared to Next JS, it requires more setup and configuration.
+Both WordPress and Hygraph offer simplicity and a wide range of use-cases,   
+and both tools have a free-to-use tier which makes getting started easy.
+
+### GraphQL vs SQL
+While GraphQL offers a simple, readable format for data access, it stands out   
+from SQL in that it has a unique feature called “nesting”. This ability to nest   
+queries lets us fetch all the relevant data from the API all within one request.   
+GraphQL is also nearly a universal query language that can handle data from different   
+sources with ease. This makes GraphQL ideal for working with backends that have other   
+types of data sources besides databases.
+
+SQL has long been the most popular go-to query language. But SQL does not have   
+the ability to use nested queries like GraphQL. SQL syntax is also a bit more complex,   
+as well as it not being universal which still makes it a great tool for working with   
+databases, but not ideal for APIs.
+
+The way I like to say it is this:   
+_"GraphQL permits flexible queries within the framework set by the   
+developer who built the API. SQL permits universal querying on any   
+database model. So if you’re primarily querying databases, SQL will do the job nicely."_
+
+GraphQL, in spite of its popularity as an API query language,   
+is not going to unseat SQL as the primary language for database access.
 
 ## Summary
-As content management systems (CMS) become more and more popular, developers have to decide which CMS to use for their projects.   
-WordPress has been the go-to option for many projects due to its ease of use, powerful features and flexibility.   
-However, as technology advances, there are now other options available that can provide a better development experience.
+As content management systems (CMS) become more and more popular,   
+developers have to decide which CMS to use for their projects.   
+WordPress has been the go-to option for many projects due to   
+its ease of use, powerful features and flexibility. However,   
+as technology advances, there are now other options available   
+that can provide a better development experience.  
 
 **WordPress** is still the most popular CMS solution, but it is too monolithic, preventing it from being   
 flexible enough to meet the needs of today's users. And as developers, as far as we're concerned,   
-WordPress will not give us the needed support for improving our coding skills.
+WordPress will not give us the needed support for improving our coding skills.  
 
-**Hygraph(GraphCMS)** gives the developer the ease of not having to hard-code their own back-end.   
-Hygraph was a great option for our project because it provided a solid, intuitive platform.   
-We utilized Hygraph's intuitive user interface which enabled us to quickly develop the website   
-with minimal effort. It allowed us to develop the website quickly and easily, and gave Karen   
-the opportunity to add her recipes with ease.
+**Hygraph (GraphCMS)** gives the developer the ease of not having to hard-code their own back-end.     
+Hygraph was a great option for our project because it provided a solid, intuitive platform.    
+We utilized Hygraph's intuitive user interface which enabled us to quickly develop the website    
+with minimal effort. It allowed us to develop the website quickly and easily, and gave Karen    
+the opportunity to add her recipes with ease.  
 
-Using **GraphQL** makes it easy to exchange data at a single endpoint.
-In Hygraph, the `models` made in the `schema`-section could be compared to the  
-`tables` in a database, and the `fields` would be the `columns`. Now, instead of   
-the developer adding more `tables`, Karen can do that herself, as well as adding the   
-`rows` to the `tables`, without the developer having to hard-code their way to achieve this.
+**GraphQL** makes it easy to exchange data at a single endpoint.    
+In Hygraph, the `models` made in the `schema`-section could be compared to the    
+`tables` in a database, and the `fields` would be the `columns`. Now, instead of     
+the developer adding more `tables`, Karen can do that herself, as well as adding the     
+`rows` to the `tables`, without the developer having to hard-code their way to achieve this.  
 
-It exists a lot of documentation and a big community for **Hygraph**, and using it   
-together with GraphQL gives you the opportunity to query for the specific endpoint,   
-these tools are great and easy to use, as well as super flexible! And don’t forget  
-that Karen can add her recipes whenever she wants, without having the developer do ANYTHING!
+It exists a lot of documentation and a big community for **Hygraph**, and using it     
+together with **GraphQL** gives you the opportunity to query for a specific endpoint,     
+these tools are great and easy to use, if you don't want to use a coupled CMS.    
+It is intuitive and flexible, and the most important: Karen can add her recipes whenever she wants!
 
-We made a little video clip to showcase the basics of Hygraph.  
+We made a little video clip to showcase the basics of Hygraph.    
 Click the image below to watch.
 
 [<img src="./karens_assets/developmentplatforms_graphcms-3.png" width="100%">](https://www.youtube.com/watch?v=7hnxVRcmN94)  
