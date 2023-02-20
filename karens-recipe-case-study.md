@@ -181,6 +181,9 @@ database model. So if you’re primarily querying databases, SQL will do the job
 GraphQL, in spite of its popularity as an API query language,   
 is not going to unseat SQL as the primary language for database access.
 
+[**_Short Clip Showcasing Basics of Hygraph_**](https://www.youtube.com/watch?v=7hnxVRcmN94)  
+[<img src="./karens_assets/developmentplatforms_graphcms-3.png" width="600">](https://www.youtube.com/watch?feature=player_embedded&v=7hnxVRcmN94)
+
 ## Summary
 As content management systems (CMS) become more and more popular,   
 developers have to decide which CMS to use for their projects.   
@@ -209,14 +212,6 @@ It exists a lot of documentation and a big community for **Hygraph**, and using 
 together with **GraphQL** gives you the opportunity to query for a specific endpoint,     
 these tools are great and easy to use, if you don't want to use a coupled CMS.    
 It is intuitive and flexible, and the most important: Karen can add her recipes whenever she wants!
-
-<a href="https://www.youtube.com/watch?v=7hnxVRcmN94">**_Video Clip Showcasing Hygraph_**</a>  
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=7hnxVRcmN94
-" target="_blank"><img src="./karens_assets/developmentplatforms_graphcms-3.png"
-alt="Video Clip Showcasing Hygraph" width="600" height="auto" border="10" /></a>  
-
-[<img src="./karens_assets/developmentplatforms_graphcms-3.png" width="600">](https://www.youtube.com/watch?feature=player_embedded&v=7hnxVRcmN94)  
-**Source:** [_Video Clip Showcasing Hygraph_](https://www.youtube.com/watch?v=7hnxVRcmN94)
 
 ## References
 **Wikipedia:** [Nextjs](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjQ89zihaT9AhXitYsKHW6TAPkQmhN6BAhiEAI&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNext.js&usg=AOvVaw0B-Px8Rh7KearsjWzEctWw)  
