@@ -213,7 +213,21 @@ It is intuitive and flexible, and the most important: Karen can add her recipes 
 We made a little video clip to showcase the basics of Hygraph.    
 Click the image below to watch.
 
-[<img src="./karens_assets/developmentplatforms_graphcms-3.png" width="100%">](https://www.youtube.com/watch?v=7hnxVRcmN94)  
+(<a href="http://www.youtube.com/watch?feature=player_embedded&v=7hnxVRcmN94"
+target="_blank">[<img src="./karens_assets/developmentplatforms_graphcms-3.png"
+alt="Video Thumbnail Hygraph" width="240" height="180" border="10"/>]</a>)
+
+
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
+[<img src="./karens_assets/developmentplatforms_graphcms-3.png" width="100%">](https://www.youtube.com/watch?v=7hnxVRcmN94/)
+
+
+[<img src="./karens_assets/developmentplatforms_graphcms-3.png" width="100%">](https://www.youtube.com/watch?feature=player_embedded&v=7hnxVRcmN94)  
 **Source:** [_Video Clip Showcasing Hygraph_](https://www.youtube.com/watch?v=7hnxVRcmN94)
 
 ## References
