@@ -16,8 +16,7 @@ folder: development-platforms
 6. [Weaknesses](#weaknesses)
 7. [Comparison](#comparison)
 8. [Summary](#summary)
-9. [Glossary](#glossary)
-10. [References](#references)
+9. [References](#references)
 
 ## Introduction
 
