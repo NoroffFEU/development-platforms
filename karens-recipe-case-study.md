@@ -13,7 +13,7 @@ The website should be easy to upload recipes, organize them into categories and 
 her own collection with ease. Karen wants to make sure she can easily learn how to   
 publish her recipes without it being too time-consuming or troublesome.
 
-<img src="karens_assets/karen-case-study.png" data-canonical-src="karens_assets/karen-case-study.png" width="600" height="auto"  alt="Karen Persona Profile"/>
+<img src="./karens_assets/karen-case-study.png" data-canonical-src="./karens_assets/karen-case-study.png" width="600" height="auto"  alt="Karen Persona Profile"/>
 
 ### Our approach
 We put focus on to the keywords in Karen's wishlist. She wants to **manage**, **organize** and **share** her   
@@ -119,7 +119,7 @@ The **GraphQL CMS** was an idea created by two friends in **2015** working for a
   can easily set up content structures, or models, create custom workflows,   
   and connect models to speed up creation.
 
-<img src="karens_assets/features_hygraph.png" data-canonical-src="karens_assets/features_hygraph.png" width="600" height="auto"  alt="Features of the Hygraph CMS"/>
+<img src="./karens_assets/features_hygraph.png" data-canonical-src="./karens_assets/features_hygraph.png" width="600" height="auto"  alt="Features of the Hygraph CMS"/>
 
 * **_Note:_** _Image shows only Hygraph features._
 
@@ -145,7 +145,7 @@ GraphQL has many advantages over REST. GraphQL is faster than REST because
 you can easily pick the fields you have to query. GraphQL provides a   
 better learning curve as compared to REST.
 
-<img src="karens_assets/rest_graphql.png" data-canonical-src="karens_assets/rest_graphql.png" width="600" height="auto"  alt="Rest vs GraphQL"/>
+<img src="./karens_assets/rest_graphql.png" data-canonical-src="./karens_assets/rest_graphql.png" width="600" height="auto"  alt="Rest vs GraphQL"/>
 
 ### GraphCMS vs WordPress
 Next JS is specifically designed for server-side rendering and offers   
@@ -182,7 +182,7 @@ that Karen can add her recipes whenever she wants, without having the developer 
 We made a little video clip to showcase the basics of Hygraph.  
 Click the image below to watch.
 
-[<img src="karens_assets/developmentplatforms_graphcms-3.png" width="100%">](https://www.youtube.com/watch?v=7hnxVRcmN94)  
+[<img src="./karens_assets/developmentplatforms_graphcms-3.png" width="100%">](https://www.youtube.com/watch?v=7hnxVRcmN94)  
 **Source:** [_Video Clip Showcasing Hygraph_](https://www.youtube.com/watch?v=7hnxVRcmN94)
 
 ## References
