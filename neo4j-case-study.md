@@ -1,4 +1,4 @@
-b---
+---
 title: Neo4j Product Case Study
 keywords: development platforms, example project, category name
 tags: Development Platforms, Example Project, Category Name
