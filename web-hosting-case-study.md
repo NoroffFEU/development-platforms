@@ -2,6 +2,9 @@
 title: web hosting
 keywords: web hosting
 tags: web hosting
+sidebar: development-platforms
+permalink: development-platforms/web-hosting-case-study.html
+folder: development-platforms
 ---
 
 ## Introduction
