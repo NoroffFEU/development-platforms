@@ -9,10 +9,6 @@ folder: development-platforms
 
 ## Introduction
 
-I have chosen to write a case study about MySQL because it is one of the world's most popular and widely used databases.
-My goal is to weigh its strengths and weaknesses against other technologies of the same kind to figure out
-if this is a product worth using or if there are other products with better solutions, and in which cases you should use or not use MySQL.
-
 MySQL is an open source relational database management system (RDBMS).
 A relational database can store data in tables consisting of rows and columns
 that can be related to each other using ids and something called foreign keys.
