@@ -49,7 +49,7 @@ Svelte can be used for server-side rendering, which can improve the performance 
 
 Svelte provides efficient bundling and code splitting mechanism, which can help to reduce the size of your application and improve performance.
 
-you can create CSS styles that are scoped to specific components, so they won't interfere with other parts of your application. This makes it easier to manage your styles and ensure they only apply where you want them to, without causing conflicts or unintended side effects.
+You can create CSS styles that are scoped to specific components, so they won't interfere with other parts of your application. This makes it easier to manage your styles and ensure they only apply where you want them to, without causing conflicts or unintended side effects.
 
 ## Setup
 
