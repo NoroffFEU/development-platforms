@@ -1,3 +1,9 @@
+---
+title: React-Native-case-study
+keywords: development platforms 
+
+---
+
 # React Native Case Study
 
 ## Introduction
@@ -104,7 +110,7 @@ React Native's performance is one of its most significant advantages. React Nati
 
 ## Weaknesses
 
-### Dependance on Meta
+### Dependent on Meta
 One weakness which can also be considered a strength. Both React and React Native is maintained by the company Meta (formerly known as Facebook). If Meta decided to drop the support for React Native the system could quickly fall behind other technologies. How ever with a large and expanding communities chances are big that some other entity would take over and continue to develop React Native.
 
 ### Dependency on third party libraries
@@ -145,9 +151,11 @@ When compared to Flutter, React Native is limited in functionalities and can be 
 
 In conclusion, React Native is a popular framework for developing mobile applications, especially for cross-platform development. It has several benefits, including code reusability and a large developer community. However, it also has a few weaknesses, such as limited functionalities and performance issues. When compared to Flutter, React Native may not be the best option for complex and high-performance applications.
 
+## References
 
 https://fireart.studio/blog/flutter-vs-react-native-what-app-developers-should-know-about-cross-platform-mobile-development/
-
 https://www.oreilly.com/library/view/learning-react-native/9781491929049/ch01.html
-
 https://www.elpassion.com/blog/what-is-react-native-and-when-to-use-it
+https://www.thirdrocktechkno.com/blog/pros-and-cons-of-react-native-development-in-2021/
+https://www.mindk.com/blog/react-native-pros-and-cons/
+https://en.wikipedia.org/wiki/React_Native
