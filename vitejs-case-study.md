@@ -20,7 +20,7 @@ folder: development-platforms
 
 ## Introduction
 
-I have chosen to learn more about what a bundler is and why we need to have them. I wanted to dig in and learn more about the building tool Vite js.
+In this case study will you learn more about what a bundler is and why we need to have them. Dig in and learn more about this new building tool Vite js.
 
 Vite js is a building tool for frontend development and the goal is to give the developers an faster and a more satisfy
 experience for modern web projects.
