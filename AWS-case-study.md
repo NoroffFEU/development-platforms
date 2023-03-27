@@ -1,222 +1,134 @@
 ---
-title: AWS Amplify Product Case Study
-keywords: development platforms, AWS, Cloud Computing, Amplify
-tags: Development Platforms, AWS, Cloud Computing, Amplify
+title: Amazon Web Services Case Study
+keywords: development platforms, AWS, Cloud Hosting
+tags: Development Platforms, AWS, Cloud Hosting
 sidebar: development-platforms
 permalink: development-platforms/example-product.html
 folder: development-platforms
 ---
 
-## Table of contents
-
-1. [Introduction](#introduction)
-2. [Milestones in the history of AWS and cloud computing](#milestones-in-the-history-of-aws-and-cloud-computing)
-3. [Features](#features)
-4. [Strengths](#strengths)
-5. [Weaknesses](#weaknesses)
-6. [Comparison](#comparison)
-7. [Summary](#summary)
-8. [Credits](#credits)
-9. [References](#references)
-
-
 ## Introduction
 
-Cloud computing is the on-demand delivery of computing power, database, storage, applications, and other IT resources
+Amazon Web Services was the first major cloud hosting service. Cloud Hosting is a service that uses the resources of a remote network of remote servers that enables the website to use the resources of multiple servers, therefore resulting in a faster performance. This is a technology that splits a physical server into multiple virtual machines that we call "cloud servers". Connecting these is what creates a single network for hosting a website. 
 
-In this study case, I will be looking into the world’s biggest cloud platform Amazon Web Services (AWS), and have a closer look at using AWS Amplify as a BaaS platform 
+AWS (Amazon Web Services) is a cloud computing platform that is provided by Amazon. AWS includes a mixture of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and packaged-software-as-a-service (SaaS). It is also important to note that the concept of cloud hosting was born together with AWS. 
 
+!["Skjermbilde 2023-02-08 kl  14 01 55"] (src="https://user-images.githubusercontent.com/91666428/217537213-e36faff3-28f8-48bd-a1ba-49449574f5ea.png">)
 
-## Milestones in the history of AWS and cloud computing 
+## Brief History
 
-* 1950s 
-  * The Invention of mainframe computing, using a central computer accessed by several devices, all using the capabilities of the central computer. 
+AWS was originally founded 2002 when they realized they had a significant advantage in form of infrastructure services, and their ability to manage and scale their infrastructure reliably and efficiently. The first AWS hosting services was launched in 2006 when Amazon SQS became available, shortly followed by the AWS offerings: S3, EC2, SQS is a B2B service used by many famous applications such as Netflix and Dropbox. These offerings pushed AWS to become a global player in cloud hosting platforms and represents the core of AWS. AWS has just grown by then and is today the global lead in cloud hosting with a market share of 34%, and the total amount of services has grown to over 200 with a broad span of services ranging from storage, compute, machine learning, loT, etc. 
 
-* 1970s
-  * The concept of Virtual machines emerges, having multiple complete operating systems that "live" in a single piece of hardware. This allowed a mainframe computer to run multiple operating systems at the same time. 
-
-* 1989 
-  * UK computer scientist Tim Berners-Lee invented the World Wide Web.
-
-* 1999 
-  * Cloud-based software company Salesforce was founded.
- 
-* 2002 
-  * Amazon Web Services (AWS) launched as a free service 
-
-* 2006 
-  * AWS started offering web-based computing infrastructure services, now known as cloud computing.
-
-* 2008 
-  * Google announced App Engine, a developer tool that allowed users to run web applications on Google infrastructure.
-
-* 2010 
-  * Microsoft released Azure, its cloud computing service.
-
-* 2011
-  * IBM introduced the SmartCloud framework.
-
-* 2015 
-  * Google and Microsoft lead massive build-outs of data centers.
-
-* 2018 
-  * Leading data center operators started the migration to 400G data speeds.
-  * AWS Amplify Console launched.
-  
-
+- 2002 - 2005 - Amazon launches Amazon.com Web Service offering SOAP and XML interfaces.
+- 2006 - 2008 - AWS began offering IT - infrastructure in form of web services. Amazon SQS (Simple Queue Service) and S3 (simple storage service) was    launched. This represents the core of AWS.
+- 2008 - AWS biggest competition, Google App Engine is launched. AWS launches Amazon CloudFront (CDN).
+- 2008 - 2009 - AWS launches S3 and EC2 in Europe making it more accessible to locally run their instances. This is a huge benefit for AWS.
+- 2009 - AWS launches multiple new services: ELB, Auto Scaling, Amazon cloud Watch, Import/Export services, Virtual Private Cloud, Amazon Relational 
+         Database Service, mySQL Databases. 
+- 2010 - AWS Simple Notification Service, AWS CloudFormation, identity and Access Management launches. Amazon.com's retail web services is migrates to  AWS.
+- 2012 - Amazon launches AWS marketplace. And Netflix open sources Chaos Monkey
+- 2013 - Launches AWS CloudTrail. A web Service that records API calls. And AWS Launches in China, this is a big launch for AWS.
+- 2014 - AWS launches Amazon Aurora a MySQL-compatible database.
+- 2016 - Dropbox announces their use of AWS S3 for storage.
+- 2021 - Amazon MemoryDB. An in-memory database with API compatible with that of Redis. 
 
 ## Features
 
-Amazon Web Services (AWS) is the largest online retailer in the world. AWS provides cloud computing services to individuals, companies, and governments. In addition, it offers a set of remote computing services, including hosting and storage space on its servers, access to these resources through the internet, tools for managing them, and a range of other features that make it easier to build large-scale web applications
+In 2006 AWS began offering IaaS services and was one of the first companies to introduce a "pay-as-you-go" solution. This way you only pay for what you need and nothing more. AWS offers different services that can be configured in different ways based on the user's needs. AWS contains a total of more than 200 services that are built to include compute, databases, infrastructure, management, application development and security.
 
-![image](https://user-images.githubusercontent.com/80599295/216784422-20d9a0c5-a882-403a-a768-8ec1658163b6.png)
-
-pie chart by [Synergy Research Group](https://www.srgresearch.com/)
- <br>
- <br>
- <br>
-
-AWS offers a vast number of services, too many to make an in-depth study case. so now that we had a quick look at AWS and cloud computing in general I will now focus on **AWS Amplify** AWS Amplify is an open-source JavaScript library provided by Amazon Web Services (AWS).
-
-If you want to learn more about other services provided by AWS click [here](https://aws.amazon.com/products/?aws-products) to see a full list of products offered by AWS. 
+![Skjermbilde 2023-02-08 kl  14 00 50](https://user-images.githubusercontent.com/91666428/217536826-5b41bd3d-6a9e-44ef-ae23-f16c847f9605.png)
 
 
-#### AWS Amplify as a BaaS platform
+Here are the different categories AWS offers:
+- compute
+- storage
+- databases
+- data management
+- migration
+- hybrid cloud
+- networking
+- development tools
+- management
+- monitoring
+- security
+- governance
+- big data management
+- analytics
+  
+- artificial intelligence (AI)
+- mobile development
+- messages and notification
 
-AWS Amplify is a BaaS platform by Amazon to help developers quickly build full-stack applications on AWS. To make it possible, Amplify provides the following set of tools: 
 
-##### Amplify Studio
-Amplify Studio is a visual interface that offers a point-and-click environment for building full-stack applications (both front and backend).
+AWS provides dozens of data centers that are spread across 87 different availability zones (a location that contains multiple physical data centers).
+An AWS costumers decides for them selves how many availability zones that need based on their needs when it comes to compliances, proximity to end
+customers and availability optimization. 
 
-##### Amplify CLI
-Amplify CLI is a toolchain for configuring and managing an application backend.
+AWS is mostly knows for their EC2 solution. Amazon Elastic Compute Cloud is a service that provides virtual servers. EC2 offers dozens of instance types with different capacities and sizes. These are tailored specifically on workload types and applications. S3 is also one of AWS's core services and is shoer for Amazon Simple Storage Service. S3 provides a scalable object storage for data backup, collection and analytics, this is where a IT professional stores data and files it as S3 objects up to five GB. AWS offers various tools and services to help users migrate applications, databases, servers and data onto its public cloud.
 
-##### Amplify Libraries
-Amplify Libraries is an open-source set of client libraries used to build cloud-native mobile and web apps.
+AWS also offers services for developers to use command-line tools and software development kits to deploy and manage applications and services and are available for a variety of platforms and programming languages: Android, C++, iOS, Java, Node.js, PHP, Python and Ruby:
+- AWS Command Line Interface, which is Amazon's proprietary code interface;
+- AWS Tools for PowerShell, which developers use to manage cloud services from Mac, Windows and Linux environments.
+- AWS Serverless Application Model, which developers use to simulate an AWS environment to test functions of AWS Lambda, a compute service that lets     developers run code from over 200 AWS services and SaaS applications.
 
-##### Amplify UI Components
-Amplify UI Components is an open-source design system that uses cloud-connected components to enable the efficient building of applications.
+Amazon API Gateway is a tool that lets development teams create, manage and monitor custom applications programming interfaces (APIs). This lets applications access data and functionality from the back-end services. Developers can also store their code in GitHub using the AWS CodeCommit.
 
-##### Amplify Web Hosting
 
-Amplify Web Hosting is a fully-managed continuous integration and continuous delivery/continuous deployment (CI/CD) service for hosting static and server-side rendered applications.
+AWS offers many different tools and solutions for enterprises and software developers. And gives developers a good way to monitor and access the different services. 
+AWS is available to groups such as government agencies. education institutions. non profits and private organizations.
 
-With Amplify, you can configure a web or mobile app backend, connect your app in minutes, visually build a web frontend UI, and manage app content outside the AWS console. Ship faster and scale effortlessly—with no cloud expertise needed. (Source: 
-[AWS amplify](https://aws.amazon.com/amplify/))
-
-Amplify Hosting supports common SPA frameworks like React, Vue.js, Ionic and Ember as well as statistic site generators like Gatsby, VuePress and Jekyll.   
-
-If you have existing code, and you want to deploy it through Amplify Web Hosting, then you can connect your git repository (GitHub, BitBucket Cloud, GitLab, and AWS CodeCommit) to set up continuous deployment.    
-
-Other components provided by AWS Amplify: 
-
-* Storage
-  * Keep your app data synced with the cloud, manage your distributed data, and handle subscriptions and messaging.
-* Analytics
-  * Track user sessions and report on their behavior. Set up custom attributes and analyze conversion funnels. 
-* Authentication
-  * Access ready-to-use workflows for MFA, single sign-on, forgot password, etc.
-* Push Notifications
-  * Manage your campaigns and send messages to your users across multiple channels, including text, email, and push. 
-
-AWS Amplify is used by companies like Neiman Marcus, Noom, Amazon Music, Credit Genie, HyperTrack, and many more.
 
 ## Strengths
 
-#### Advantages of using AWS Amplify as a Baas platform
+Amazon Web Services is a well rounded host cloud service that has many pros and suits many different usages. Fist of all AWS is flexible. reliable and cost effective. There are so many different services and tools to best suit what you are looking for. This way you only play for what you need (pay-as-you-go). AWS offers a comprehensive, evolving platform that includes a mixture og IaaS, PaaS and SaaS.
 
-* Built on top of other AWS services. The free tier offers to get you started for free.  
-* Create and deploy web applications without any coding.
+One of the biggest benefits using AWS is its user-friendliness. AWS is a really easy platform to use that is designed for quick and secure access. AWS users can administrate and modify their data anytime they want. Due to the easiness of the platform users find it much more accessible then some of its competitors. 
 
-#### Additional benefits that come with cloud computing  
+AWS's flexibility is one of the reasons many choose to use their service as it lets you use the operating systems, programming languages, and wen applications that you are comfortable with using. Using AWS EC2 you are able to build you own virtual computing environment by setting up you the operating systems and applications that you prefer. 
 
-* Unlimited capacity.
-* Increase speed and agility
-* No need to run and maintain data centers. 
-* Reduce costs with scalable capacity 
-* Go global in minutes 
+AWS serves millions of clients in more than 200 countries over the world and offers the highest reliability for its users. AWS offers many services and tasks accurately and offers many services for making it more reliable like being capable to automatically recover from a failure. AWS stores data in different availability zones so that if one were to fail the users would still have their data intact. 
+
+In any company that is data-driven security is one of the most important aspects. AWS provides a highly secure infrastructure to ensure the upper most privacy for yor data. In fact many other Cloud Hosting Services is built on AWS's infrastructure. 
+- Here is the layers of AWS's security protocols:
+- Data protection
+- Identity and access management
+- Infrastructure protection
+- Threat detection and continuous monitoring
+- Compliance and data privacy
 
 ## Weaknesses
 
-###### Downtime 
-<br>
-When the cloud provider has an internet outage or weak connectivity, services will get interrupted. It is rare for a cloud provider to experience an outage, but it does happen. 
+The biggest and most noticeable weaknesses about AWS consists of its limitations, lack of experts and price variations. 
 
+AWS's limitations comes down to limitations regarding EC2 and security. The problem appears when companies using AWS will have default resources to use but when default resources limits vary from region to region it can cause a problem. Companies can request for more resources but still they do find it to be a disadvantage. 
 
-###### Security 
-<br>
-According to this survey, almost [98% of companies using cloud computing services experienced at least one data breach](https://ermetic.com/blog/cloud/state-of-cloud-security-2021-more-aware-yet-very-exposed) from 2020 to 2022. Inadequate cloud security measures lead to data leakage over cloud networks which can result in intellectual property theft, contract breaches, and malware attacks. Hackers can also control how companies provide services to their customers or end-users. 
+There are only a few professionals skilled in AWS or any cloud provider therefore when companies use AWS infrastructure as their cloud computing they  find it lacking when they look to hire professionals to would for the cloud infrastructure. Many companies are ready to start using AWS, but need someone to work on AWS who can lead their organizations to cause higher performances. 
 
-
-
-###### Vendor Lock-in
-<br>
-Vendor lock-in refers to a situation where we become heavily dependent on the cloud computing services of a particular vendor making it difficult to switch to a different vendor. This usually happens because of large amounts of data which is difficult to migrate, and the codebase and architecture of the application may need to be significantly refactored to work with another vendor’s infrastructure and APIs. 
-
-AWS although admitting that there is a degree of dependency, claims that vendor lock-in is not the challenge you might perceive, as data can be moved freely, and it is made as open source available to all, enabling to make their own technology choice at any point up the stack. You can read more [here](https://aws.amazon.com/campaigns/uk-enterprise-executive-leaders/vendor-lock-in-blog) and [here.](https://docs.aws.amazon.com/whitepapers/latest/unpicking-vendor-lock-in/unpick-vendor-lock-in.html) 
-
-###### Costs can add up quickly 
-<br>
-Costs can be both a significant advantage and disadvantage of cloud computing. 
+AWS prices varies depending on factors suck as cost of land, fiber, electricity and taxes from that specific region. Prices will also vary depending of you need for additional tech support. AWS offers three different packages to choose from, Developer, Business and Enterprise and the price varied accordingly between there three packages and the depending factors mentioned above. 
 
 ## Comparison
 
-#### AWS Amplify vs Azure Mobile apps
+AWS first big competitor was Google App Engine/Google cloud platform and continues today to be one of AWS biggest competitors. The biggest key difference is that AWS has been developed and managed as a secured cloud service platform, whereas Google Cloud Platform is a computer and service suite of google's public cloud. The infrastructure provided bt Google Cloud Platform is Google Compute Engine, where for AWS it is provided by Amazon Elastic Compute Cloud. Another key difference is that in AWS PaaS is Amazon Elastic Beanstalk and uses only kubernetes, whereas Google uses Google Kubernetes Engines as well as Docker AWS and Google Cloud Platform both offers the same amount of storage limit, however the memory volume size for Google is 1GB to 64TB where for AWS it is 1GB to 16TB. 
 
-Both AWS Amplify and Azure Mobile apps are cloud-based platforms and offer similar services. Both support popular frameworks, such as React Native, Xamarin, and Angular <However, there are some differences too. 
+Microsoft Azure is also on of AWS biggest competitor with a market share of 21% in 2022. Essentially AWS and Azure offer the same basics when is comes to flexible computer storage, networking, and pricing where they both the the same essence in public cloud, autoscaling, self-service and pay-as-you-go. As AWS was first out we can say that Azure had adopted many of AWS qualities. 
 
-###### Differences:  
-1. Amplify offers tools for building a full-stack web application, while Azure Mobile apps only offer backend services.
-2. Amplify supports front-end frameworks like React Native and Angular, while Azure mobile apps integrate with client platforms, such as iOS, Android, and Windows, and it supports Xamarin and React Native. 
-3. Pricing: AWS Amplify has a flexible pricing model that charges based on usage, while Azure Mobile Apps has a set pricing model that charges based on the number of API calls and data storage.
-4. Amplify provides a limited set of libraries, and UI components (see [Features](#features) for details) making it easier to get started while Mobile Apps provides a comprehensive set of features and services, but may require more setup and configuration compared to AWS Amplify.
-
-#### AWS Amplify vs Google Firebase
-
-Firebase was originally founded as an independent company, but was acquired by Google in 2014, and has since then been integrated with other services that they offer, such as the Google Cloud Platform. 
-
-
-###### Differences:  
-1. Firebase is mostly geared toward Android users and does not provide the same capabilities for IOS apps.  
-2. Firebase has been around for longer and has a more extensive feature set.
-3. Firebase is not yet as integrated into other cloud platform services as Amplify.  
+All three platforms are the leading cloud computing platforms in the world, but Amazon Web Services takes the biggest share. Many will say this is because they have been on the market the longest and is the key infrastructure for how we see cloud computing today. AWS key computing solution is EC2 whereas Azure is built on VMs (virtual machines) and include many other tools that help with deploying cloud-based applications. Also when it comes to storage Azure has similar practices as AWS offering a solution identical to AWS S3 called The Block Storage. AWS pay-as-you-go model charges per hour while Azure pricing model also uses the pay-as-you-go model but charges per minute. AWS will help you save money with increased usage. 
 
 ## Summary
-AWS Amplify does take time to master but will provide benefits once it is mastered. it provides developers with tools like authentications, notifications, and APIs. 
-Overall, AWS Amplify is a powerful tool for developers who want to build web and mobile apps quickly and easily. 
+
+Amazon Web Services is the leading cloud computing service in the world with a market share of 34% and built the infrastructure many of their competitors uses today. AWS first launched its services in 2006, making up the essence of AWS is their EC2 and S3 solutions providing virtual servers and storage solutions.AWS provides dozens of data centers that are spread across 87 different availability zones (a location that contains multiple physical data centers). Their flexibility, reliability and cost-effectiveness makes AWS a stable all round cloud platform that is a good fit for many with their easy access. Many big and successful companies such as Netflix and Dropbox hare users of AWS. 
+
+AWS was the first platform in it's field and is still looked at as the strongest and is the most used out there. 
+
 
 ### Credits
 
-Martin Mroz (Git Hub: [martinMr79](https://github.com/martinMr79))
+- Sara Ferrer (saraRferrer)
 
 #### References
 
-[Introduction to AWS for Non-Engineers: 1 Cloud Concepts](https://www.linkedin.com/learning/introduction-to-aws-for-non-engineers-1-cloud-concepts-2/how-did-we-get-in-the-cloud?autoplay=true&resume=false&u=43268076)
-
-[AWS docs/getting started](https://aws.amazon.com/getting-started/cloud-essentials/)
-
-[Cloud computing timeline](https://www.verdict.co.uk/cloud-computing-timeline/)
-
-[Synergy Research Group](https://www.srgresearch.com/)
-
-[Research](https://www.commoninja.com/blog/top-backend-as-a-service-baas-platforms-in-2022)
-
-[AWS Essential Training for Developer](https://www.linkedin.com/learning/aws-essential-training-for-developers-17237791/what-is-the-best-way-to-use-aws?autoplay=true&u=43268076)
-
-[AWS Amplify](https://aws.amazon.com/amplify/)
-
-[Amplify vs. Firebase](https://www.bairesdev.com/blog/amplify-vs-firebase-which-one-is-best)
-
-[Disadvantages of cloud computing](https://emeritus.org/blog/technology-disadvantages-of-cloud-computing/#:~:text=Data%20security%20and%20privacy%20threats,breach%20from%202020%20to%202022)
-
-[cloud computing security](https://ermetic.com/blog/cloud/state-of-cloud-security-2021-more-aware-yet-very-exposed)
-
-[AWS - misunderstandings about vendor lock-in](https://aws.amazon.com/campaigns/uk-enterprise-executive-leaders/vendor-lock-in-blog)
-
-[Unpicking vendor lock-in](https://docs.aws.amazon.com/whitepapers/latest/unpicking-vendor-lock-in/unpick-vendor-lock-in.html)
-
-[chatGPT](https://openai.com/) *
-
-<br>
-<br>
-*information received from chatGPT data has been backed up by at least one additional source. 
+https://www.techtarget.com/searchaws/definition/Amazon-Web-Services
+https://aws.amazon.com/websites/
+https://digitalcloud.training/a-brief-history-of-aws-and-how-computing-has-changed/
+https://en.wikipedia.org/wiki/Timeline_of_Amazon_Web_Services
+https://www.itbrew.com/stories/2022/12/07/aws-microsoft-and-google-each-offer-different-cloud-solutions-here-s-how-they-re-competing-on-the-market

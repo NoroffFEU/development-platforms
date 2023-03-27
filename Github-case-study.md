@@ -1,142 +1,132 @@
 ---
-title: GitHub Case Study
-keywords: development platforms, GitHub, version control
-tags: Development Platforms, GitHub
+title: Example Product Case Study
+keywords: development platforms, github
+tags: Development Platforms, github
 sidebar: development-platforms
-permalink: development-platforms/github.html
+permalink: development-platforms/case-study-github.html
 folder: development-platforms
 ---
-# <p align="center"><span>GitHub - Case Study<span></p>
 
-<p align="center"><img src="Images/github-mark.png"><p>
+# <p align="center"><span>GitHub Case Study<span></p>
 
-## Table of contents
-
-1. [Introduction](#introduction)
-2. [Brief History](#brief-history)
-3. [Features](#features)
-4. [Strengths](#strengths)
-5. [Weaknesses](#weaknesses)
-6. [Comparison](#comparison)
-7. [Summary](#summary)
-8. [Credits](#credits)
-9. [References](#references)
+<p align="center"><img src="Images/github.png"><p>
 
 ## Introduction
- 
-Effective teamwork and code management are essential for the development of software. The difficulty is in locating the best platform to aid in this process. GitHub emerged as a solution for these challenges by providing a web-based platform for code storage, sharing, and collaboration.
 
-With a collection of collaboration and code editing tools, GitHub aims to give developers a single location to save, organise, and manage their code. It also includes bug and feature request tracking tools such as issues and pull requests for reviewing and merging code changes. GitHub supports and integrates continuous integration and deployment technologies. For example, GitHub has released desktop apps for Windows and macOS, making it easy for users to integrate them into their workflows. GitHub provides a complete and easy solution for software development.
+GitHub is an Internet hosting service for software development and version control using Git. It is a web based platform where users can store their code and collaborate together on a coding project. GitHub has a lot of great tools/features like github desktop, actions, project management, teams, etc.
 
 ## Brief History
 
-GitHub's development started on October 19, 2007. In April 2008, Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, and Scott Chacon officially launched the site after beta testing. Since its founding in 2008, GitHub has grown to become one of the most popular services for hosting and exchanging code.  
+GitHub was founded in 2008 by Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, and Scott Chacon. GitHub has had an enormous growth since it was founded and today it is one of the most popular platforms for web hosting and code sharing. GitHub's headquarters is based in San Francisco in the state of California, in the united states of america. The CEO of GitHub is named Thomas Dohmke. GitHub currently has about 2500 employees and in 2018 it had about 200-300 million USD of revenue.
 
-### The growth of GitHub
-GitHub has experienced significant growth since its launch.
+### From the beginning to the present time (2023)
 
-**Early Success**
-- In 2010, GitHub was hosting 1 million repositories, which had doubled in just one year.
-- By 2011, GitHub had surpassed SourceForge and Google Code in terms of the number of commits.
-- By 2013, the platform had reached three million users and was hosting five million repositories.
-- By the end of the year, the number of repositories had doubled again to reach 10 million.
+**github blooming**
 
-**Funding and valuation**
-- In 2012, GitHub received an investment of $100 million from Andreessen Horowitz with a valuation of $750 million.
-- In 2015, an additional round of funding led by Sequoia Capital brought in $250 million, valuing the company at approximately $2 billion.
+- (year 2010) Two years after its launch, GitHub was hosting over 1 million repositories.
+- (year 2011) In the period of January to May 2011 ReadWriteWeb reported that GitHub had surpassed SourceForge and Google Code in total number of commits.
+- (year 2013) It was hosting 5 million repositories and had over 3 million users. Before this year ended the amount of repositories had doubled again and it was now hosting over 10 million repositories.
 
-**Expansion and recognition**
-- In 2015, GitHub opened its first office outside the US, in Japan.
-- In 2016, GitHub was ranked 14th on the Forbes Cloud 100 list. However, it did not make the list in 2018, 2019, or 2020.
+**Finance**
 
-**Challenges**
- 
-- In 2018, GitHub experienced the third-largest DDoS attack in history, with incoming traffic reaching 1.35 terabits per second. In response to this attack, GitHub and its DDoS protection partner, Akamai Prolexic, took a combination of actions. Akamai took care of filtering out the malicious traffic by redirecting the incoming traffic to its scrubbing centres, while GitHub used its own network defences to keep its systems stable. The collaboration between the two resulted in a speedy resolution in just 10 minutes with no data loss or compromise. This experience emphasises the need for a robust DDoS protection plan and the benefits of partnerships between organisations and tech providers in combating DDoS attacks.
+- In 2012 Andreessen Horowitz invested 100 million USD in GitHub with a valuation of 750 million USD.
+- In 2015 GitHub raised another $250 million of venture capital in a series B round. Investors were Sequoia Capital, Andreessen Horowitz, Thrive Capital, and other venture capital funds. This round valued the company at about 2 billion USD
 
-### Microsoft and GitHub
+**International Expansion**
 
-- Microsoft started using GitHub in 2012 for hosting open-source projects and tools.
-- In 2018, Microsoft bought GitHub for a sum of $7.5 billion, with GitHub still operating as a separate entity.
-- The acquisition was part of Microsoft's plan to focus on cloud computing and open-source software.
-- Some developers were worried about the acquisition, but it sparked competition and growth for GitHub.
-- GitHub later acquired other companies, like Semmle and npm.
-- In 2020, GitHub created the GitHub Archive Program to preserve its open-source code.
- 
+- In 2015 GitHub opened its first office outside of the United States of America. The office was opened in Japan.
+- In 2016, GitHub was ranked No. 14 on the Forbes Cloud 100 list. It was not featured on the 2018, 2019, and 2020 lists.
+
+**major attack**
+In 2018 GitHub fell victim to what was considered to be the third biggest DDoS (Distributed Denial of Service) attack in history. The attack's traffic peaked at about 1.35 terabits per second. As a respond to this GitHub expanded its GitHub Education by offering free education bundles to all schools.
+
+**Acquisition by Microsoft**
+Microsoft has since 2012 been using github to host open-source projects and development tools such as .NET Core, Chakra Core, MSBuild, PowerShell, PowerToys, Visual Studio Code, Windows Calculator, Windows Terminal and most of its product documentation (now to be found on Microsoft Docs). Microsoft announced on June 4Th 2018 that it intended to acquire GitHub for 7.5 billion USD. Only months later on October 26, 2018. the deal was closed. Under Microsoft GitHub continued to operate independently as a community, platform and business. This acquisition was in line with Microsoft's business strategy under CEO Satya Nadella, which focused on cloud computing services, alongside the development of and contributions to open-source software. Concerns over the sale bolstered interest in competitors like: Bitbucket, GitLab and SourceForge. they reported that they had seen spikes in new users intending to switch from GitHub to their respective services. In 2019 GitHub acquired Semmle, a code analysis tool, and in 2020 GitHub launched in India under the name GitHub India Private Limited. In 2020 it also acquired npm (Node Package Manager) for an undisclosed sum.
+
 ## Features
 
-GitHub has become a highly in-demand tool for project management and software development. This popularity is largely due to its persistent addition of new and useful features. Here are some of the key features of GitHub:
+This is GitHub key features:
 
-- **Version control**: GitHub is built on Git, a distributed version control system that allows developers to track changes to their code over time, collaborate with others, and roll back to previous versions if necessary.
-- **Collaboration**: This enables developers to work on projects together, examine each other's code, and exchange ideas and issues.
-- **Issues and bug tracking**: This is a process for tracking and resolving problems in a software development project, such as bugs or other technical issues. This process is typically done using a specialised tool, which enables developers to log, monitor, and manage issues as they arise. Issues can be assigned to specific team members, categorised with labels and milestones, and updated with comments and attachments. The aim of issue and bug tracking is to ensure that all issues are identified, prioritised, and addressed in an organised and efficient manner to maintain the quality and stability of the software. GitHub has an integrated issue tracking system within its platform, allowing developers to manage their issues directly from their repository.
-- **Pull request**: This allows developers to submit project modifications for review and discussion before merging them into the main repository.
-- **Branching and merging**: This feature allows developers to work on multiple versions of a project at the same time, quickly incorporating their changes into the main code. 
-- **Integration**: GitHub can be combined with many different other programmes and services, such as well-known IDEs, project management tools, and continuous integration systems.
-- **GitHub Actions**: Allows developers to automate a variety of software development tasks, such as code creation, testing, and deployment. It offers a quick way to automate regular processes, including creating and testing pull requests, as well as more complex workflows that incorporate other programmes and services. A wide range of tools and programming languages can be used with GitHub Actions due to their flexibility.
-- **GitHub Pages**: This enables the creation and publication of websites directly from a GitHub repository, making it simple to share documentation, project details, and other resources with others.
-- **GitHub Enterprise**:  provides additional security and compliance capabilities, as well as the ability for businesses to run their own GitHub instance on their own servers. 
- 
+- **Version Control**: version control is also known as revision control, source control, or source code management. It allows developers to monitor changes to their code and they can revert to previous versions if needed.
+
+- **Team-Collaboration**: Users can work together on the same project, inspect each others code, raise issues and make plans for the project.
+
+- **Branches**: A user can start a new branch either from the main branch or a different branch. This allows the user to write new code for the project without adding it to the project itself. When new code is written on a new branch it can be merged into the main project. Usually users make a pull request before merging.
+  This system enables users to develop code on different versions of a project at the same time.
+
+- **Pull requests**: When a user have made changes to a project's code on a separate branch, he can make a pull request. This is an important step in quality control where other developers can inspect the changes in the code. They do this to make sure that the code is bug free and has no issues. When it is determined that the code is safe it can be merged from this branch to it's parent branch or to the main branch.
+
+- **Issues**: GitHub Issues can be used to track ideas, feedback, tasks, or bugs for work on GitHub. Issues can be an important part of development as bugs and problems with the code arises developers can raise an issue and also assign the issue to specific developers for fixing.
+
+- **Merging**: Is adding new code to a project from a separate branch. usually this is done after a pull request.
+
+- **Integration**: GitHub allows for developers to use other programs in combination with github. examples are: continuous integration systems, tools for project management and several IDEs.
+
+- **GitHub Actions**: Is a feature where you can add automated tasks to a project. The automated tasks can either be run manually or be set to run at specific points of development such as when a pull request is made. GitHub actions is very flexible and allows for lots of different programming languages and tools to be used with it.
+  examples of GitHub actions usage: deploy to static pages, end to end testing and unit testing.
+
+- **GitHub Pages**: Can be used to host a web project directly from GitHub. It is an easy way for developers to host a project and/or share details for a project.
+
+- **GitHub Enterprise**: Allows businesses to run their github projects on their own servers with additional security and access to more features like GitHub Enterprise API.
+
 ## Strengths
-- Usability: GitHub's user-friendly interface makes it simple for developers to explore and use the site, even if they are unfamiliar with version control and collaboration tools.
-- Widely used: GitHub is widely used by teams and developers, making it simple to collaborate and share code with others. It is simple for new users to get started because many developers are familiar with GitHub's capabilities and process.
-- Strong community: GitHub has a large and active developer and user community that offers a number of resources and support to those in need.
-- GitHub Actions: This feature enables you to automate, personalise, and execute software development workflows directly from your repository. 
-- Mobile capabilities: GitHub's mobile app enables developers to view and manage their code and projects from a mobile device, making it simple to stay productive on the go.
-- A large number of integrations: Because it can be combined with a wide range of other products and services, such as IDEs, project management tools, and continuous integration systems, GitHub is simple to use in a variety of development environments.
-- Strong security features: GitHub provides a number of security features and integrations that aid in the protection of the codebase, the discovery of flaws, and the correction of them.
-- Resources for learning and development: GitHub offers a variety of tools that developers may use to expand their knowledge, streamline their processes, and keep up with the newest trends and technology.
-- Cost-effective: GitHub offers a free plan that enables developers to access many of its features and work together on open-source projects. Its enterprise plan is also affordable and well-suited to larger businesses.
- 
+
+- **Web-based platform/ease of access**: Being web based can be seen as a plus. New users can easily create an account especially when they can sign in via google.
+
+- **Popularity**: Being one of the most popular development platforms do make it easy for people to choose github for their projects, as many developer already know how to use it.
+  And new users can easily be integrated in projects with help from more experienced users.
+
+- **GitHub Actions**: A powerful tool for automation in your own repositories.
+
+- **Security**: GitHub has many good safety features that keeps the projects safe.
+
+- **Mobile app**: GitHub has an app developers can use to manage their code trough their mobile phones. A good tool on when you are on the go and don't have a laptop or computer available.
+
+- **Desktop app**: Is superb for better workflow.
+
+- **Integrations**: The fact that github can be simply used together other products like IDEs, management tools etc.
+
+- **Easy to find resources**: It is easy to find resources for learning how to use github, both from GitHub itself and the large community of users.
+
+- **Free of charge up to a certain point**: GitHub is Free for personal accounts. GitHub enterprise is affordable for bigger enterprises.
+
+- **GitHub pages**: You can host your own website directly from github free of charge.
+
 ## Weaknesses
 
-- Limited Private Repository Space for Free Accounts:  Free account holders face restrictions on private repository space.
-- Complex User Interface:  The interface may be overwhelming and complicated, especially for new users.
-- Performance Concerns:  Can experience performance issues during high traffic or when working with large repositories.
-- Limited Customization Options:  While GitHub offers a wide range of tools and integrations, customization options are limited, and users may need to turn to external tools to meet their desired workflows.
-- Costly Upgrade:  The free version of GitHub is very useful, but upgrading to a paid plan can be expensive, especially for large teams or organisations.
- 
+- **Limitations**: GitHub has its limitations, not everything can be done trough GitHub and some developers may look for other platforms if GitHub cannot provide for their needs.
+
+- **Overwhelming to new users**: It can be difficult for new users due to its complexity, i can personally relate to this.
+
+- **Performance on big repositories**: Free user accounts are limited to GitHub's servers, this can cause issues when there is a high amount of traffic on the servers.
+
+- **Storage capasity**: Storage capacity is limited for free accounts. at a certain point the user may have to pay for more storage capacity.
+
+- **Expensive enterprice**: Upgrading to enterprise may be costly, but it depends on the size of the enterprises and revenue. It is certainly something to consider before upgrading or choosing github at all.
+
 ## Comparison
 
-Despite the fact that GitHub is one of the most well-known and widely used web-based collaboration and version control platforms, there are other similar products that can be used in place of or in addition to GitHub. 
+There are other platforms similar to github:
 
-**GitLab**: Like GitHub, GitLab is a web-based collaboration and version control platform. GitLab also offers comprehensive analytics, integrated continuous integration and testing, and more precise access control and permission management. Due to its open-source nature, it encourages cooperation among a sizable user and developer community, guaranteeing that the platform is constantly updated with new features and enhancements. GitLab is an extremely flexible and customised project management tool that can be used either on a self-hosted server or as a service from GitLab Inc.
+- **GitLab**: GitLab is open source and can be self hosted for free. It launched in 2014 and it is a web-based platform for collaboration and version control. gitlab has built-in continuous integration and testing capabilities. gitlab has about 200-500 thousand users and is owned by gitlab inc. it has a limit of 10 GB of repository storage, which is ten times greater than github.
 
-**Bitbucket**: Bitbucket is another web-based collaboration and version control platform. It is designed for teams and provides many of the same features, such as issue tracking, teamwork, and version control. With integrated team and project management, as well as built-in support for continuous integration and deployment, Bitbucket offers a wider selection of collaboration tools.
+- **Azure DevOps**: Is owned by Microsoft and is a cloud based platform that focuses on enterprise customers, it is a good option if you use a lot of Microsoft products and services as it integrates well with many of their products. Azure devops is a fully integrated set of services that provide all the tools necessary for building and maintaining a backlog.
 
-**Azure DevOps**: Azure DevOps, owned by Microsoft, offers a cloud-based platform for software development and collaboration. It includes version control, work tracking, and CI/CD capabilities with an emphasis on serving the needs of enterprise customers. The platform provides features such as support for large projects, robust security, and integration with other Microsoft products, making it a popular choice among organisations seeking a complete solution for software development within the Microsoft ecosystem.
- 
+- **Bitbucket**: launched in 2008 and is owned by atlassian. It is a web based platform for collaboration and version control. It has about 10 million users. It has a storage limit of 2 GB repository storage, which is twice the limit of github. It provides integration with other Atlassian tools. But it is much more limited in its capabilities than the other alternatives.
+
 ## Summary
- 
-In summary, GitHub is a web-based platform for version control and collaboration that was founded in 2008. It has several strengths that make it a powerful and adaptable tool for developers and teams, such as ease of use, wide adoption, a strong community, a large number of integrations, strong security features, learning and development resources, cost-effectiveness, and mobile capabilities. However, it also has some weaknesses, such as limited scalability, limited built-in project management, limited built-in testing and continuous integration, limited built-in code review, limited built-in analytics, limited built-in mobile capabilities, limited control, and limited customization.
 
-For web developers, GitHub is an essential tool for managing and collaborating on web development projects. It allows web developers to track changes to their code over time, collaborate with others, revert to previous versions if necessary, share code snippets, and manage large binary files. It also allows web developers to submit changes to a project for review and discussion before they are merged into the main codebase, track and discuss bugs and other issues, and assign tasks and responsibilities. Additionally, GitHub can be integrated with a wide variety of other tools and services, such as IDEs, project management tools, and continuous integration systems, which makes it easy to use in different development environments.
+GitHub is one of the best (if not the best) platforms for open-source projects, you can also use it for private repositories. It has a great community, is easy to use, great security and many features and tools for collaboration. But everything has it's limits. It can be scaled up but only up to a certain point where other alternatives might seem like a better option for enterprises, in that case azure devops might be a better alternative.
 
-## Credits
-Saba Samuel Fitwi (sabaFitwi)
- 
-## References
-- [GitHub branding assets page](https://github.com/logos)
-- [GitHub Survived the Biggest DDoS Attack Ever Recorded](https://www.upguard.com/blog/bitbucket-vs-github)
-- [The GitHub website](https://github.com/)
-- [Wikipedia's page on GitHub](https://en.wikipedia.org/wiki/GitHub)
-- https://www.wired.com/story/github-ddos-memcached/
-- [The GitHub Blog](https://github.blog/)
-- [February 28th DDoS Incident Report](https://github.blog/2018-03-01-ddos-incident-report/)
-- [GitHub's YouTube channel videos that demonstrate the features and capabilities of GitHub](https://www.youtube.com/github)
-- [GitHub's case studies provide real-world examples of how different organizations use GitHub to support their software development workflows](https://github.com/customers)
-- https://gitprotect.io/blog/git-battles-part-3-gitlab-vs-bitbucket-which-version-control-software-to-choose-for-your-projects/
-- [How to use github](https://www.edureka.co/blog/how-to-use-github/)
+### Credits
 
+- Andreas Jakobsen (volvojakobsen)
 
+#### References
 
-
-
-
-
-
-
-
-
-
-
-
+- [GitHub, gitlab and bitbucket comparison](https://www.youtube.com/watch?v=FQGXIIqziQg)
+- [GitHub wiki](https://en.wikipedia.org/wiki/GitHub)
+- [GitHub docs](https://docs.github.com/en)
+- [GitHub's website](https://github.com)
+- [Gitlab wiki](https://en.wikipedia.org/wiki/GitLab)
+- [bitbucket wiki](https://en.wikipedia.org/wiki/Bitbucket)
