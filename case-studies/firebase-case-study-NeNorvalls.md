@@ -28,7 +28,7 @@ ________________________________________________________________________________
 
 ## *What is ***FIREBASE***?*
 
-![Firebase](images/firebase.jpeg)
+![Firebase](/static/images/firebase.jpeg)
 
 **Firebase** is a cross-platform development service with features that help developers to work efficiently, quickly, and reliably, solving the three main issues in mobile apps and all multi-platform devices. It is a back-end platform that increases an application's resources based on demand. It is a leading platform that is relied upon by developers globally. It has benefited from rapid improvement and additional features that provide satisfying results for developers and users. Since it is cloud-hosted, it gives smooth performance due to hassle-free demand scaling. All components are available for mobile and web-based applications, including services for building, testing, and managing apps.
 
@@ -48,9 +48,9 @@ ________________________________________________________________________________
 
 ## **Features:**
 
-![Features](images/features.jpeg)
+![Features](/static/images/features.jpeg)
 
-![Firebase Products & Features](images/features_services.jpg)
+![Firebase Products & Features](/static/images/features_services.jpg)
 [image reference from](https://www.altexsoft.com/blog/firebase-review-pros-cons-alternatives/)
 
 ____________________________________________________________________________________________________________________
@@ -105,7 +105,7 @@ ________________________________________________________________________________
 
 ## **Strengths:**
 
-![Strengths](images/strengths.jpeg)
+![Strengths](/static/images/strengths.jpeg)
 
 - Free to start
 - Development speed
@@ -137,7 +137,7 @@ ________________________________________________________________________________
 
 ## **Weaknesses:**
 
-![Weakneses](images/weaknesses.jpeg)
+![Weakneses](/static/images/weaknesses.jpeg)
 
 - It’s not Open-Source
 - Firebase does not work in many countries
@@ -209,7 +209,7 @@ ________________________________________________________________________________
 
 ## **References:**
 
-![Reference](images/References.jpeg)
+![Reference](/static/images/References.jpeg)
 
 ### **Introduction**
 

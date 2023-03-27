@@ -31,7 +31,7 @@ Version 10 brings in performance improvements as well as quality-of-life enhance
 - Simplified the operation of creating complex inference helpers.
 - Middlewares are now reusable and chain.
 
-![alt-image](./tRPC-media/trpc-graph.png)
+![alt-image](/static/images/tRPC-media/trpc-graph.png)
 
 tRPC's search popularity over the last 12 months.
 
@@ -79,11 +79,11 @@ const newNote = api.notes.createNewNote.useMutation();
 
 - Whereas, `createNewNote` defines the endpoint for handling our `CREATE` operations with the procedures we've created on the backend.
 
-![alt-image](./tRPC-media/use-definition.png)
+![alt-image](/static/images/tRPC-media/use-definition.png)
 
 We can easily navigate to it by right-clicking -> `go to definition` and it will take us straight to our router function where our procedures are being defined.
 
-![alt-image](./tRPC-media/use-definition-result.png)
+![alt-image](/static/images/tRPC-media/use-definition-result.png)
 
 A single router typically contains several procedures. In the case of our `noteRouter`, it would make sense to have procedures or endpoints that handle all of your `CRUD` operations:
 
@@ -172,11 +172,11 @@ Where we've called our backend function and stored it in a variable `newNote`. W
 
 The repository is configured with a public MongoDB cluster with our Prisma model. On submission, the form should now add a new entry to the database with the content of `title.value` and `description.value`.
 
-![alt-image](tRPC-media/form-example.png)
+![alt-image](/static/images/form-example.png)
 
 A very basic layout render of the form as well as already existing notes in the database on the right-hand side. Submitting the form should now update the database with a new entry:
 
-![alt-image](tRPC-media/database-result.png)
+![alt-image](/static/images/database-result.png)
 
 ## Strengths
 
