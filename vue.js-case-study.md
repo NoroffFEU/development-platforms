@@ -11,7 +11,9 @@ I've chosen Vue as my case study because I'm most interested in frontend. I use 
 ## Brief History
 
 Vue was created by Evan You, a Google software engineer, in 2013 and had its official release in 2014. The name derives from the French word vue, meaning view. Evan wanted to create a framework that was lightweight and included the best parts from Angular, which he had been using at Google.
-  
+
+Here is a timeline highlighting the major events:
+ 
 - 2013: Version .6 In December Evan You created the first version of Vue.
 - 2014: Version .8 First public release.
 - 2015: Version 1 released
