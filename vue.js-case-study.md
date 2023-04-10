@@ -58,9 +58,6 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Vue.js)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
 ## Additional Resources
 
