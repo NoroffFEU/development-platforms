@@ -64,5 +64,4 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- ([Official Website](https://vuejs.org/))
