@@ -64,4 +64,4 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## Additional Resources
 
-- ([Official Website](https://vuejs.org/))
+- [Official Website](https://vuejs.org/)
