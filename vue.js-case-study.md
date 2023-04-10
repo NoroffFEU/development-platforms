@@ -6,13 +6,13 @@ tags: javascript, framework, vue
 
 ## Introduction
 
-I've chosen Vue as my case study because I'm most interested in frontend. I use React at work on a dailly basis, but never tried Vue and thought this would be pretty interesting to dive deeper into.
+I've chosen Vue as my case study because frontend is what I study. I've never used Vue and I have zero experience with it, so I reckon this would be pretty interesting to dive deeper into.
 
 ## Brief History
 
 Vue was created by Evan You, a Google software engineer, in 2013 and had its official release in 2014. The name derives from the French word vue, meaning view. Evan wanted to create a framework that was lightweight and included the best parts from Angular, which he had been using at Google.
 
-Here is a timeline highlighting the major events:
+### Here is a timeline highlighting the major events:
  
 - 2013: Version 0.6 In December Evan You created the first version of Vue
 - 2014: Version 0.8 First public release
