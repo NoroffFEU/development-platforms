@@ -6,19 +6,17 @@ tags: javascript, framework, vue
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+I've chosen Vue as my case study because I'm most interested in frontend. I use React at work on a dailly basis, but never tried Vue and thought this would be pretty interesting to dive deeper into.
 
 ## Brief History
 
-Vue was created by Evan You, a Google software engineer, in 2013 and had its official release in 2014. The name derived from the French word vue, meaning view. Evan wanted to create a framework that was lightweight and included the best parts from Angular, which he had been using at Google.
+Vue was created by Evan You, a Google software engineer, in 2013 and had its official release in 2014. The name derives from the French word vue, meaning view. Evan wanted to create a framework that was lightweight and included the best parts from Angular, which he had been using at Google.
   
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 2013: Version .6 In December Evan You created the first version of Vue.
+- 2014: Version .8 First public release.
+- 2015: Version 1 released
+- 2016: Version 2 released
+- 2020: Version 3 released
 
 ## Main Features
 
