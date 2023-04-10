@@ -1,7 +1,7 @@
 ---
 title: ExpressJS Case Study
 author: Stian Stordal [<StianSto>](https://github.com/StianSto)
-tags:
+tags: backend, framework, node, nodejs, javascript, api, server-side, MERN
 ---
 
 # ExpressJS Case Study
@@ -21,12 +21,25 @@ tags:
 
 ## Introduction
 
-ExpressJS is a Node.js web application framework. It was created by [TJ Holowaychuk](https://github.com/tj), but is now maintained by Douglas Wilson and [others](https://expressjs.com/en/resources/community.html). It is used on the backend to create server-side applications and is frequently used to make APIs. Express is one of the Core tools in the MEAN-/MERN-/MEVN-stack
+ExpressJS is a Node.js web application framework. It was created by [TJ Holowaychuk](https://github.com/tj), but is now maintained by Douglas Wilson and [others](https://expressjs.com/en/resources/community.html). It is used on the backend to create server-side applications and is frequently used to make APIs. Express is one of the Core tools in the MEAN-/MERN-/MEVN -stack
 
-<details open>
+<details >
 	<summary>what is Node.js?</summary>
 
-> Node.js is an "asynchronous event-driven JavaScript runtime" ([nodejs.org](https://nodejs.org/en/about)). This means that node will execute tasks based on certain events, like a user trying to access a port, or sending an HTTP request. Node.js being a runtime means that you don't need to be in a browser environment to run your code. Instead you can run it on a local environment in Node, which makes it ideal to develop web servers and other backend applications on.
+> Node.js is an "asynchronous event-driven JavaScript runtime" ([nodejs.org](https://nodejs.org/en/about)). This means that node will execute tasks based on certain events, like a user trying to access a port, or sending an HTTP request. Node.js being a runtime means that you don't need to be in a browser environment to run your code. Instead you can run it on a local environment in Node, which makes it ideal to develop web servers and other backend applications on. If you are already familiar with javascript, chances are, that you have already used Node.js a lot already. Like installing node modules in your project (bootstrap, dotenv, sass etc...), or using npm to switch betwee node versions.
+
+</details>
+<details >
+	<summary>what is MEAN/MERN/MEVN -stack?</summary>
+
+> these stacks refers to a collection of tools:
+>
+> MongoDB (database)  
+> Express (backend, server-side app)  
+> React/Angular/Vue or other front end frameworks (frontend)  
+> Node.js (backend)
+>
+> with all these tools you can build a fullstack application from scratch.
 
 </details>
 
@@ -54,15 +67,19 @@ ExpressJS is a Node.js web application framework. It was created by [TJ Holowayc
 
 Express has been and still is one of the most used frameworks for Node.js. It has also solidified its popularity by being part of the MERN/-stack (MongoDB, Express, React(or other front-end frameworks like angular), and Node.js). It is safe to say express is not going anywhere anytime soon.
 
-That being said, Express has gotten a lot more competition in the last few years. in 2017 Fastify was released and has given Express a run for its money, by offering better speed and performance. In addition to Fastify, there is also Koa.js, Nest.js (which uses express "under the hood", but can be configured to use Fastify), and Hapi
+That being said, Express has gotten a lot more competition in the last few years. In 2017 Fastify was released and has given Express a run for its money, by offering better speed and performance. In addition to Fastify, there is also Koa.js, Nest.js (which uses express "under the hood", but can be configured to use Fastify), and Hapi
 
-Express being a framework based on Node.js might also be getting some serious competition from Deno, which aims to replace Node.js. Deno offers better speeds and better security. Right now Deno reports they have compatibility with NPM, but we might see a Web Application Framework built on Deno, like [Oak](https://deno.land/x/oak@v12.1.0), outperforming both Express and Fastify in the coming future. That being said, Node.js is not about to be completely replaced anytime soon, after being the gold standard for JavaScript developers for a long time. And since Deno offers compatibility with NPM, Express is not likely to fall off the wagon even if Deno becomes the new gold standard.
+Express being a framework based on Node.js might also be getting some serious competition from [Deno](https://deno.land/), which aims to replace Node.js. Deno offers better speeds and better security. Right now Deno reports they have compatibility with NPM, but we might see a Web Application Framework built on Deno, like [Oak](https://deno.land/x/oak@v12.1.0), outperforming both Express and Fastify in the coming future. That being said, Node.js is not about to be completely replaced anytime soon, after being the gold standard for JavaScript developers for a long time. And since Deno offers compatibility with NPM, Express is not likely to fall off the wagon even if Deno becomes the new gold standard.
+
+In addition to Deno, there is also the newer competitor: [Bun](https://bun.sh/), which claims to be even faster than Deno, and with native support for node packages and more. I should mention that bun is still in version 0.5.9 as of writing this, and still has a few things to iron out, but it will be interesting to try out Express with Bun when it is fully ready.
 
 <br>
 
 ## Getting Started
 
 Below is a very simple setup of an Express app that renders a hello world page on localhost. In addition to this, MDN has a very thorough tutorial on creating a web app with express [here](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website)
+
+<br>
 
 #### step 0: setup <a id="gettingsStartedStep0"></a>
 
@@ -71,7 +88,7 @@ before we install express, we need to make sure we have everything we need. if y
 create and open a folder in your favorite code editor.
 run this command to confirm node is installed.
 
-```
+```bash
 node -v
 ```
 
@@ -79,38 +96,42 @@ if it returns a version number you can continue. if not, install node.
 
 Next we initialize our project
 
-```
+```bash
 npm init
 ```
 
 After you have filled in the required fields in the CLI, a package.json file should appear. We can now install Express.
 
+<br>
+
 #### step 1: install express <a id="gettingsStartedStep1"></a>
 
 To install Express run this command. This will install Express as a dependency in your project.
 
-```
+```bash
 npm i express
 ```
 
 > you can also quickly install an Express skeleton with [_express generator_](https://expressjs.com/en/starter/generator.html), which can save you a lot of time. I recommend doing this only when you are familiar with the ins and outs of Express.
 
+<br>
+
 #### step 2: Create an Express app file <a id="gettingsStartedStep2"></a>
 
 Next we will make the app file that runs our web app. create a file called app.js. in this file add this:
 
-```
-const express = require('express')
-const app = express()
-const port = 3000
+```js
+const express = require("express");
+const app = express();
+const port = 3000;
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
 
 app.listen(port, () => {
   console.log(`Hello world! im on http://localhost:${port}`);
-})
+});
 ```
 
 <details>
@@ -146,9 +167,12 @@ Great! We can now start our app by running `node app.js` in our CLI. You should 
  click the link (you may have to ctrl or cmd-click it) or copy it into your browser. If your page says "Hello world" it was successful.
 
 Congratulations! you have made your very own server-side rendered web app :tada:
+
 <br>
 
 ## Conclusion
+
+In conclusion, ExpressJS is a widely used Node.js web application framework with a rich set of features, such as routing, middleware support, and template engine integration. ExpressJS has a significant community around it and is an integral part of the MEAN/MERN/MEVN stack. While ExpressJS faces competition from newer frameworks such as Fastify, Koa.js, and Nest.js, it continues to maintain its position as a popular choice for backend development. With the emergence of Deno and its superior speed and security, it is possible that we may see a new web application framework built on top of it, which could challenge ExpressJS's dominance in the future.
 
 <br>
 
@@ -173,64 +197,46 @@ Below are some additional paragraphs to further explain some important words, de
 
 #### Middleware
 
-Kyle Cook (a.k.a WebDevSimplified) defines middleware as
+Expressjs.com defines middleware as
 
-> "a function, a program or something that is going to run between the time the server gets the request, and the time the server sends the response out to the client"
+> "functions that have access to the request object (req), the response object (res), and the next function in the application’s request-response cycle. The next function is a function in the Express router which, when invoked, executes the middleware succeeding the current middleware."
+>
+> [expressjs.com - Writing middleware for use in Express apps](https://expressjs.com/en/guide/writing-middleware.html)
 
-Looking at the example above in the [getting started](#getting-started) section, we can say that app.get is a middleware function. The server receives a GET request to "/" from the client, and the server runs app.js and tries to match the routes, in this case it is a get request, so app.get is run, and the route matches also, so the callback function (req, res) => {res.send("Hello World!")} is also run.
+explained in the simplest way i can think of: Middleware functions are executed after the request is recieved, and before the response has been sent out. the next() function allows you to chain middleware functions together like this: (note that the arrow function is also a middleware function)
 
-We can also make our own middleware function, which is where the power of middleware comes to light. lets create a simple _greeting function_
-
+```js
+app.get("/", middleware1, middleware2, middleware3, (req, res) => {
+  console.log("Hello World");
+});
 ```
+
+The usefullnes of middleware functions comes in when creating your own. Lets create a simple _greeting function_
+
+```js
 function greeting(req, res, next) {
-	console.log('hello friend!')
-	next()
+  console.log("hello friend!");
+  res.send("Hello World!");
+  next();
 }
 ```
 
 this function takes in three parameters: the request, the response and a function called next. We need to use next to tell the server to continue to the next middleware function.
 
-when can run our middleware function in two ways, globally or as a specific middleware in our router.
+We can run our middleware function in two ways, globally or as a specific middleware in our router.
+The global is simple enough, add this above the routers, but after the imports:
 
-the global is simple enough, add this above the routers, but after the imports:
-
-```
-app.use(greeting)
-```
-
-now greeting will run everytime a request is sent to the server. But what if you only want to use this middleware when you request the "/greeting" endpoint. lets create the route for greeting first.
-
-```
-app.get("/greeting", (req, res) => {
-	res.send('hello friend, how are you?')
-})
+```js
+app.use(greeting);
 ```
 
-now we add our greeting middleware function to this route as a parameter
+now greeting will run everytime a request is sent to the server. But what if you only want to use this middleware when you request the "/greeting" endpoint. lets create the route for greeting.
 
-```
-app.get("/greeting", greeting, (req, res) => {
-	res.send('hello friend, how are you?')
-})
+```js
+app.get("/greeting", greeting);
 ```
 
-if you make a GET request to "/greeting" you will now see that the page renders "hello friend, how are you?" and in the cli, it has logged "hello friend!". Now for the final step
-
-Now we now everything we need to know to create our modular middleware functions. lets clean up these routes, and change the behaviour a little.
-
-```
-function helloWorld(req, res, next) {
-	res.send('Hello World!')
-}
-function greeting(req, res, next) {
-	res.send('Hello Friend')
-}
-
-app.get("/", helloWorld)
-app.get("/greeting", greeting)
-```
-
-if you visit "/" in your browser, you should now see "Hello World!", and if you go to "/greeting" you will see "Hello Friend". we just made our code a lot more readable and made a usable router for "/" and "/greeting"
+if you make a GET request to "/greeting" you will now see that the page renders "Hello World!", and in the CLI it will log "hello friend!".
 
 <br>
 
@@ -287,7 +293,7 @@ app.listen(port, () => {
 <details>
 	<summary>note: we are not creating HTML files but sending plain text in this example</summary>
 
-you can further Improve this feature by utilizing _view template engines_, such as EJS, or PUG. With these tools, you can create static HTML pages dynamically and send them to the client server. For this example, however, we'll stick with plain text for simplicity's sake.
+> you can further Improve this feature by utilizing _view template engines_, such as EJS, or PUG. With these tools, you can create static HTML pages dynamically and send them to the client server. For this example, however, we'll stick with plain text for simplicity's sake.
 
 </details>
 
