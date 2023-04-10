@@ -14,11 +14,11 @@ Vue was created by Evan You, a Google software engineer, in 2013 and had its off
 
 #### Here is a timeline highlighting the major events:
  
-- 2013: Version 0.6 In December Evan You created the first version of Vue
-- 2014: Version 0.8 First public release
-- 2015: Version 1.0 Released
-- 2016: Version 2.0 Released
-- 2020: Version 3.0 Released
+- **2013:** Version 0.6 In December Evan You created the first version of Vue
+- **2014:** Version 0.8 First public release
+- **2015:** Version 1.0 Released
+- **2016:** Version 2.0 Released
+- **2020:** Version 3.0 Released
 
 ## Main Features
 
