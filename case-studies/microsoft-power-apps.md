@@ -6,11 +6,16 @@ tags: example, case study, platform
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+Microsoft Power Apps is a platform with low-code development tools that allows users to create custom business applications without having to be an educated programmer. These apps can be built for different purposes, such as data collection, workflow automation and management.
+
+Power Apps is a part of the Microsoft Power Platform which also includes other useful tools. It is designed to work seamlessly with other Microsoft products, such as SharePoint, Teams etc.
+
+Power Apps is easy to use, and it includes pre-built templates and drag-and-drop components, allowing users to quickly create functional apps for their work environment. Power Apps integrates with a range of data sources, for example cloud-based services.
 
 ## Brief History
 
 You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
+
 - 1990: Examples are invented by John Doe.
 - 1991: Examples are first used in Example Project.
 - 1996: Example Project is released to the public.
@@ -24,14 +29,15 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
 
 You may use subheadings, tables or bullet points to structure your description:
+
 - **Example Feature:** This feature does something for a specific reason.
 - **Example Feature:** This feature does something for a specific reason.
 - **Example Feature:** This feature does something for a specific reason.
 
 Example feature table:
 
-| Feature | Description |
-| --- | --- |
+| Feature         | Description                                        |
+| --------------- | -------------------------------------------------- |
 | Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
@@ -57,7 +63,7 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
+- _Good Examples_ by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
