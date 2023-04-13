@@ -89,3 +89,14 @@ If you have any additional resources or information on using BaaS platforms for 
 ## License
 
 This repository is licensed under the MIT License.
+
+### Credits
+
+- Ethmane Didi (Ousman)
+
+#### References
+
+- https://youtu.be/WfrE0csVUk8
+
+- https://youtu.be/WfrE0csVUk8
+
