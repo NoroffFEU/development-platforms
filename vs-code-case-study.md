@@ -1,6 +1,6 @@
 ---
 title: Visual Studio Code (VS Code) case study
-author: Jonas Hope [[JonasHope]](https://github.com/JonasHope)(https://github.com/JonasHope)
+author: Jonas Hope [JonasHope](https://github.com/JonasHope)
 tags: vscode, case study, code editor
 ---
 
@@ -20,6 +20,22 @@ tags: vscode, case study, code editor
   - 2021: Visual Studio Code introduced support for Apples new silicon processors, allowing it to run natively on the new architecture.
 
 ## Main Features
+
+### Live Share
+
+### Web IDE
+
+### Extensions
+
+### Debugging
+
+### Source Control
+
+### Syntax Highlighting
+
+### Code Refactoring
+
+### Git Version Control
 
 ## Market Comparison
 
