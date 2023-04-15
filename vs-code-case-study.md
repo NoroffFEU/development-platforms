@@ -1,8 +1,8 @@
-
+---
 title: Visual Studio Code (VS Code) case study
-author: Jonas Hope [JonasHope](https://github.com/JonasHope)
+author: Jonas Hope <JonasHope>
 tags: vscode, case study, code editor
-
+---
 
 ## Introduction
 
@@ -29,7 +29,14 @@ tags: vscode, case study, code editor
 
 ### Debugging
 
-### Source Control
+### Source Control 
+
+Visual Studio Code has a built-in support for source control, this allows developers to manage changes to their code over time. It is an important feature for developers as it allows them to track changes to their codebase, collaborate with other developers, and revert changes if necessary.
+The source control functionality is based on Git, which is a popular distributed version control system that is widely used in the development industry, Git allows developers to create multiple branches of their codebase, which makes it possible for developers to work on different features or bug fixes simultaneously without interfering with each other's work. Changes to the code can be commited to the local Git repository, then pushed to a remote repository for sharing with fellow developers.
+
+In VSCode, the source control functionally is easily accessed through the *Source Control Panel*, which can be opned by clicking on the icon that looks like a branch with a circle around it in the left-hand sidebar. From here, you can create new branches, commit changes, push changes and view the status of their git repository. 
+
+Additionally, VSCode has several features that make working with source control easier and more efficient. Heres some examples, it provides visual cues in the editor to show which lines have been added, removed or modified since last commit. It also provides a visual difference (diff) tool, which allows you to see the differences between different versions your code. Last but not least, it has a intergrated support for pull requests and code reviews, this allows teams to collaborate on code changes and ensure that changes are reviewd and tested before they are merged into the main codebase.
 
 ### Syntax Highlighting
 
