@@ -1,9 +1,9 @@
----
+
 title: Visual Studio Code (VS Code) case study
 author: Jonas Hope [JonasHope](https://github.com/JonasHope)
 tags: vscode, case study, code editor
----
-[JonasHope](https://github.com/JonasHope)
+
+
 ## Introduction
 
 ## Brief History
