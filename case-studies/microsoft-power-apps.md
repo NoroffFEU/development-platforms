@@ -26,7 +26,7 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 
 ## Main Features
 
-# Start from data sources
+### Start from data sources
 Power Apps offer multiple ways to quick-start your app and pre-populate it with data. Having access to multiple data sources in its Microsoft environment makes it a powerful tool to generate apps that solve work related problems on the fly. For example: If you have an Excel spreadsheet for booking and charging the company’s electric car, you could make that into an app. In fact, you can use most Microsoft work tools like SharePoint, Excel and Dataverse to create your app. You can also populate your app from a database. Another option is to use a Figma UI kit to get your app started. We will briefly explain a few of the most popular options, and how they work.
 
 - **Excel:**
@@ -50,7 +50,7 @@ Apart from being limited to supported components only, starting your app from th
 - Custom connectors
 Power Apps allows you to create custom connectors that can connect to any RESTful API. This means that you can use Power Apps to connect to almost any data source that provides a web API.
 
-# Components
+### Components
 Components are the building blocks of Power App. Power Apps have many pre-built UI components that cover common app features like gallery, form, text-input, etc. You can also create custom components. To use components, you simply have to drag the component you want into your app after locating it in the side-menu. 
 
 **Some major components include:**
@@ -67,7 +67,7 @@ Components are the building blocks of Power App. Power Apps have many pre-built 
 - Card
 - Data table
 
-# Example Feature: This feature does something for a specific reason.
+### Example Feature: This feature does something for a specific reason.
 
 Example feature table:
 
