@@ -43,6 +43,19 @@ Overall, web IDE in VS Code offers a convenient and powerful way for developers 
 
 ### Extensions:
 
+Extensions in VS Code are add-ons that allow users to customize the editor and tailor it to their specific needs. VS Code allows users to create their own extensions using the VS Code Extension API. This allows developers to add new features or functionality to the editor and share their extensions with others.Some of the most popular extensions are: 
+
+- **Prettier**: This popular extension provides automatic code formatting for JavaScript, TypeScript, CSS, JSON, and more. It can help make your code more readable and consistent by automatically formatting it according to a set of rules. You can customize this rules to your own needs or go with the standard rules already in place. 
+
+- **Live Server**: See own section
+
+- **Code Spell Checker**: This extension checks your code for spelling errors and typos and provides suggestions for corrections. It can help you avoid mistakes in your code and improve the readability of your code.
+
+- **Python**: With over 80 million downloads this the extension is at the top over the most popular and most downloaded extentions in VS Code. It provides a range of features to make developing Python applications easier and more efficien with features like code editing, debugging, testing, code linting and more. It is overall a powerfull tool for Python developers that helps you write, test, and debug Python code more efficiently. 
+
+- **IntelliCode**: Thiis extension was released in 2018 by Microsoft and has since been continuously updated and improved with new features and capabilities. It uses artificial intelligence to provide smarter coding assistance. It uses machine learning algorithms to analyze your code and suggest the most likely code completions, and after using it for a while it will learn your coding habits and can provide personalized suggestions based on your coding style and preferences.The IntelliCode extension supports multiple programming languages, including C#, JavaScript, Python, and more.
+
+
 ### Debugging:
 
 ### Source Control:
