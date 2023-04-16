@@ -51,6 +51,7 @@ Making the code easier to read is only one of the great features of syntax highl
   
 Overall, syntax highlighting is an important feature of VS Code that can help make coding easier, faster and more efficent. By visually distingushing different components of the code, syntax highlighting can help developers read and understand code more easily, catch mistakes early on, and improve the overall quality of their code.
 
+  
 ### Code Refactoring
  
 Code refactoring is about improving code quality by making it more efficient, readable and maintainable. VSCode has several built-in tools to help you with this. These tools allow developers to modify exsiting code without changing its behavior or functionality.
@@ -63,8 +64,9 @@ Simply press **F2** or right click on the code and select **Rename Symbol** to u
   [More info about renaming](https://code.visualstudio.com/docs/editor/editingevolved#_rename-symbol)
   
   - **Extracting code**: Extracting code refers to the process of taking a piece of code and turning it into a separate function, variable or class. This can help make the code more modular and reusable.
-  
 In VSCode, the process of extracting code is often called "The Extact Method" or "Extract Function". This can be done with the use of an extenstion, for example "JavaScript ES6 code snippets", which includes a shortcut for extracting code. It is also possible to do this without the use of an extenstion, select the code you wish to extract, right click on it, and choose "Refactor > Extract Method/Function" from the context menu.
+  
+  - **Organizing imports**: This feature automatically sorts and removes unused import statements, making the codebase cleaner and more efficient. This can be done using the "Organize Imports" command, simply open the file you wish to organize and click on the "Organize Imports" button in the top right corner of the editor window. Theres also a shortcut command "Shift+Alt+O (shift+option+o on mac)". Running this command will sort your imports alphabetically, remove any unused imports and group imports from the same package together.
 
 ### Git Version Control
 
