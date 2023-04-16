@@ -52,6 +52,12 @@ Making the code easier to read is only one of the great features of syntax highl
 Overall, syntax highlighting is an important feature of VS Code that can help make coding easier, faster and more efficent. By visually distingushing different components of the code, syntax highlighting can help developers read and understand code more easily, catch mistakes early on, and improve the overall quality of their code.
 
 ### Code Refactoring
+ 
+Code refactoring is about improving code quality by making it more efficient, readable and maintainable. VSCode has several built-in tools to help you with this. These tools allow developers to modify exsiting code without changing its behavior or functionality.
+  
+Some of the code refactoring features in VSCode include these features:
+  
+  - **Renaming**: Imagine you want to change the name of a variable, function or class, but you have lost control of all the places you have used it. This feature allows you to change the name trough out your entire code base with a single action. This makes it easier to maintain consistency and clarity within the codebase.
 
 ### Git Version Control
 
