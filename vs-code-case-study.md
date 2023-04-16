@@ -23,7 +23,23 @@ tags: vscode, case study, code editor
 
 ### Live Share
 
+Live Share is a feature in Visual Studio Code that allows developers to collaborate on code in real-time, even if they are not in the same physical location. 
+
+With Live Share, multiple people can work together on the same codebase simultaneously, making it easier to collaborate on projects and work more efficiently. It's available as a free extension for Visual Studio Code and it’s a powerful tool for remote collaboration that can be especially helpful for distributed teams or remote workers.
+
+Live Share allows you to share your entire workspace or a specific file with others. You can invite other people to collaborate by sharing a link or by adding them to your Live Share session. Once they join, they can see your code and any changes you make in real-time. They can also edit the code themselves, and you can see their changes in real-time as well.
+Live Share also includes features for code debugging and testing. For example, you can start a debugging session and share it with others, allowing them to see and interact with the debugging interface in real-time. This can be particularly helpful when trying to diagnose complex bugs or issues.
+
+
 ### Web IDE
+
+A web IDE (Integrated Development Environment) in VS Code allows developers to code, test and debug their applications entirely from within the browser, without having to install any additional software or set up any local development environments. It also offers the convenience of collaborative coding, where multiple developers can work on the same codebase simultaneously from different locations, and see changes made by others in real-time.
+
+Web IDE in VS Code is made possible through the use of a technology called "Visual Studio Code Online" (formerly known as "Visual Studio Online"), which is a cloud-based version of the popular code editor. This technology enables developers to access a complete and fully-featured version of VS Code from within a web browser, including features like code highlighting, IntelliSense, debugging, and more.
+
+To use the web IDE in VS Code, you need to have an Azure account and set up a "Visual Studio Code Online" instance in Azure. Once you have done this, you can access the web IDE through a web browser by entering the URL provided by Azure.
+
+Overall, web IDE in VS Code offers a convenient and powerful way for developers to code and collaborate on projects from anywhere, without the need for extensive setup or installation processes.
 
 ### Extensions
 
