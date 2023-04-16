@@ -21,7 +21,7 @@ tags: vscode, case study, code editor
 
 ## Main Features
 
-### Live Share
+### Live Share:
 
 Live Share is a feature in Visual Studio Code that allows developers to collaborate on code in real-time, even if they are not in the same physical location. 
 
@@ -31,7 +31,7 @@ Live Share allows you to share your entire workspace or a specific file with oth
 Live Share also includes features for code debugging and testing. For example, you can start a debugging session and share it with others, allowing them to see and interact with the debugging interface in real-time. This can be particularly helpful when trying to diagnose complex bugs or issues.
 
 
-### Web IDE
+### Web IDE:
 
 A web IDE (Integrated Development Environment) in VS Code allows developers to code, test and debug their applications entirely from within the browser, without having to install any additional software or set up any local development environments. It also offers the convenience of collaborative coding, where multiple developers can work on the same codebase simultaneously from different locations, and see changes made by others in real-time.
 
@@ -41,11 +41,11 @@ To use the web IDE in VS Code, you need to have an Azure account and set up a "V
 
 Overall, web IDE in VS Code offers a convenient and powerful way for developers to code and collaborate on projects from anywhere, without the need for extensive setup or installation processes.
 
-### Extensions
+### Extensions:
 
-### Debugging
+### Debugging:
 
-### Source Control 
+### Source Control:
 
 Visual Studio Code has a built-in support for source control, this allows developers to manage changes to their code over time. It is an important feature for developers as it allows them to track changes to their codebase, collaborate with other developers, and revert changes if necessary.
 The source control functionality is based on Git, which is a popular distributed version control system that is widely used in the development industry, Git allows developers to create multiple branches of their codebase, which makes it possible for developers to work on different features or bug fixes simultaneously without interfering with each other's work. Changes to the code can be commited to the local Git repository, then pushed to a remote repository for sharing with fellow developers.
@@ -55,7 +55,7 @@ In VSCode, the source control functionally is easily accessed through the **Sour
 Additionally, VSCode has several features that make working with source control easier and more efficient. Heres some examples, it provides visual cues in the editor to show which lines have been added, removed or modified since last commit. It also provides a visual difference (diff) tool, which allows you to see the differences between different versions your code. Last but not least, it has a intergrated support for pull requests and code reviews, this allows teams to collaborate on code changes and ensure that changes are reviewd and tested before they are merged into the main codebase.
 
 
-### Syntax Highlighting
+### Syntax Highlighting:
   
 Syntax highlighting is a common feature is most modern code editors, including VS Code. It helps make code easier to read and understand by visually distingushing    different components of the code. Syntax highlighting does as exactly what you would expect from reading the name, it highlights different elements of the code with distinct colors or styles, sutch as strings, comments, keywords, variables and more. this makes it easier for developers to visually see  differences between components of the code, which can be very helpful when working with large codebases or trying to debug issues in the code.
   
@@ -68,7 +68,7 @@ Making the code easier to read is only one of the great features of syntax highl
 Overall, syntax highlighting is an important feature of VS Code that can help make coding easier, faster and more efficent. By visually distingushing different components of the code, syntax highlighting can help developers read and understand code more easily, catch mistakes early on, and improve the overall quality of their code.
 
   
-### Code Refactoring
+### Code Refactoring:
  
 Code refactoring is about improving code quality by making it more efficient, readable and maintainable. VSCode has several built-in tools to help you with this. These tools allow developers to modify exsiting code without changing its behavior or functionality.
   
@@ -84,7 +84,7 @@ In VSCode, the process of extracting code is often called "The Extact Method" or
   
   - **Organizing imports**: This feature automatically sorts and removes unused import statements, making the codebase cleaner and more efficient. This can be done using the "Organize Imports" command, simply open the file you wish to organize and click on the "Organize Imports" button in the top right corner of the editor window. Theres also a shortcut command "Shift+Alt+O (shift+option+o on mac)". Running this command will sort your imports alphabetically, remove any unused imports and group imports from the same package together.
 
-### Git Version Control
+### Git Version Control:
 
 ## Market Comparison
 
