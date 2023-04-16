@@ -34,7 +34,7 @@ tags: vscode, case study, code editor
 Visual Studio Code has a built-in support for source control, this allows developers to manage changes to their code over time. It is an important feature for developers as it allows them to track changes to their codebase, collaborate with other developers, and revert changes if necessary.
 The source control functionality is based on Git, which is a popular distributed version control system that is widely used in the development industry, Git allows developers to create multiple branches of their codebase, which makes it possible for developers to work on different features or bug fixes simultaneously without interfering with each other's work. Changes to the code can be commited to the local Git repository, then pushed to a remote repository for sharing with fellow developers.
 
-In VSCode, the source control functionally is easily accessed through the *Source Control Panel*, which can be opned by clicking on the icon that looks like a branch with a circle around it in the left-hand sidebar. From here, you can create new branches, commit changes, push changes and view the status of their git repository. 
+In VSCode, the source control functionally is easily accessed through the **Source Control Panel**, which can be opned by clicking on the icon that looks like a branch with a circle around it in the left-hand sidebar. From here, you can create new branches, commit changes, push changes and view the status of their git repository. 
 
 Additionally, VSCode has several features that make working with source control easier and more efficient. Heres some examples, it provides visual cues in the editor to show which lines have been added, removed or modified since last commit. It also provides a visual difference (diff) tool, which allows you to see the differences between different versions your code. Last but not least, it has a intergrated support for pull requests and code reviews, this allows teams to collaborate on code changes and ensure that changes are reviewd and tested before they are merged into the main codebase.
 
@@ -58,6 +58,13 @@ Code refactoring is about improving code quality by making it more efficient, re
 Some of the code refactoring features in VSCode include these features:
   
   - **Renaming**: Imagine you want to change the name of a variable, function or class, but you have lost control of all the places you have used it. This feature allows you to change the name trough out your entire code base with a single action. This makes it easier to maintain consistency and clarity within the codebase.
+Simply press **F2** or right click on the code and select **Rename Symbol** to use this feature.
+  
+  [More info about renaming](https://code.visualstudio.com/docs/editor/editingevolved#_rename-symbol)
+  
+  - **Extracting code**: Extracting code refers to the process of taking a piece of code and turning it into a separate function, variable or class. This can help make the code more modular and reusable.
+  
+In VSCode, the process of extracting code is often called "The Extact Method" or "Extract Function". This can be done with the use of an extenstion, for example "JavaScript ES6 code snippets", which includes a shortcut for extracting code. It is also possible to do this without the use of an extenstion, select the code you wish to extract, right click on it, and choose "Refactor > Extract Method/Function" from the context menu.
 
 ### Git Version Control
 
