@@ -59,10 +59,27 @@ Some of the most popular extensions are:
 
 To install an extension, simply search for it in the Extensions panel on the left side of the editor, and click the Install button. VS Code automatically checks for updates to extensions and notifies you when a new version is available. You can manage your extensions by disabling or uninstalling them, or configure their settings. 
 
-![Left hand panel where your can find the extensions](image.png.png)
+![Left side panel where your can find the extensions](image.png.png)
 
 
 ### Debugging:
+
+Debugging is an essential part of the software development process, and Visual Studio Code provides a powerful set of tools for debugging your code. Its built-in debugger helps accelerate your edit, compile, and debug loop. It offers support for for the Node.js runtime and can debug JavaScript, TypeScript, or any other language that gets transpiled to JavaScript. To debug other languages and runtimes search for Debuggers extensions (read on how to install extensions in the Extension Section above). 
+
+Key things to know about debugging in VS Code: 
+
+Before you can start debugging, you need to create a **launch configuration**. This configuration specifies how to launch your application and how to attach the debugger to it. You can create launch configurations for different types of applications, such as Node.js, Python, or C# applications.
+
+![Debugger icon in left side panel](2023-04-16-15-04-37.png)
+
+VS Code provides several **debugging views** that help you analyze your code as it runs. These views include the Debug Console, which displays output from your application and the Debug Explorer, which displays information about your running applications and allows you to control the debugger.
+
+**Breakpoints** are markers that you can place in your code to pause the debugger when it reaches a particular line. This allows you to inspect the state of your application at that point in the code and diagnose issues. There are also **Conditional breakpoints** that allow you to pause the debugger only when a particular condition is met. This can be useful for debugging complex logic or loops. You can also set breakpoints in your unit tests and step through your tests to diagnose issues that comes up. 
+
+**Watch expressions** allow you to monitor the value of a variable or expression as your code runs. You can add watch expressions to the Debug Console or the Variables view and see how their values change as your code executes.
+
+Overall, debugging in VS Code is a powerful and flexible feature that can help you diagnose issues and improve the quality of your code. By leveraging the built-in debugging tools and views, you can gain insights into your code as it runs and identify and fix issues more efficiently.
+
 
 ### Source Control:
 
