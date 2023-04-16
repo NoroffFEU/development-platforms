@@ -82,15 +82,15 @@ In the future, BaaS platforms are expected to play an even more critical role in
 
 - [BaaS Case Studies](https://baaslist.com/case-studies/): This website offers a collection of case studies showcasing successful frontend applications built with BaaS platforms, providing insights and inspiration for developers.
 
-## Contributings
+## Contributing
 
 If you have any additional resources or information on using BaaS platforms for frontend development, feel free to contribute to this repository by opening a pull request. Please make sure that your contribution is relevant and follows our contribution guidelines.
 
-## Licenses
+## License
 
 This repository is licensed under the MIT License.
 
-### Creditss
+### Credits
 
 - Ethmane Didi (Ousman)
 
