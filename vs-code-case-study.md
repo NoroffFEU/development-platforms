@@ -96,6 +96,8 @@ Simply press **F2** or right click on the code and select **Rename Symbol** to u
 In VSCode, the process of extracting code is often called "The Extact Method" or "Extract Function". This can be done with the use of an extenstion, for example "JavaScript ES6 code snippets", which includes a shortcut for extracting code. It is also possible to do this without the use of an extenstion, select the code you wish to extract, right click on it, and choose "Refactor > Extract Method/Function" from the context menu.
   
   - **Organizing imports**: This feature automatically sorts and removes unused import statements, making the codebase cleaner and more efficient. This can be done using the "Organize Imports" command, simply open the file you wish to organize and click on the "Organize Imports" button in the top right corner of the editor window. Theres also a shortcut command "Shift+Alt+O (shift+option+o on mac)". Running this command will sort your imports alphabetically, remove any unused imports and group imports from the same package together.
+  
+  - **Code Analysis**: In VSCode, code analysis is a built in service, which automatically analysis your code in real time. It includes error detection, code highlighting and code completion suggestions. By analyzing the code, it can identify potential issues and suggest improvements. It is also possible to congfigure the feature to fit your specific needs, allowing you to tailor the feedback. Overall this feature is designed to help you write better code, faster.
 
 ### Git Version Control:
 
