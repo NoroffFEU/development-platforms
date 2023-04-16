@@ -47,7 +47,7 @@ Extensions in VS Code are add-ons that allow users to customize the editor and t
 
 - **Prettier**: This popular extension provides automatic code formatting for JavaScript, TypeScript, CSS, JSON, and more. It can help make your code more readable and consistent by automatically formatting it according to a set of rules. You can customize this rules to your own needs or go with the standard rules already in place. 
 
-- **Live Server**: See own section
+- **Live Server**: This extension provides a simple web server that allows you to see live changes to your HTML, CSS, and JavaScript code in real-time. It automatically refreshes your browser whenever you make changes to your code, making it easier to test and debug your web applications.
 
 - **Code Spell Checker**: This extension checks your code for spelling errors and typos and provides suggestions for corrections. It can help you avoid mistakes in your code and improve the readability of your code.
 
