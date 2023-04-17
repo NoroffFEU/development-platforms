@@ -148,7 +148,8 @@ To start using VS Code, follow these steps:
 6. **Install extensions:** Remember that VS Code have powerful extensions that allows you to customize your workflow and add new features to the editor. Be sure to check these out to make your coding easier and more fun! 
 
 That's it! With these steps, you should be able to start using VS Code for your coding projects. 
-For more resources, tips and help view [the VS Code Docs](https://code.visualstudio.com/docs)
+
+For more resources, tips and help view the [VS Code Docs](https://code.visualstudio.com/docs)
 
 
 ## Conclusion
