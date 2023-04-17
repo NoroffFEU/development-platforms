@@ -77,7 +77,6 @@ VS Code provides several **debugging views** that help you analyze your code as 
 **Breakpoints** are markers that you can place in your code to pause the debugger when it reaches a particular line. This allows you to inspect the state of your application at that point in the code and diagnose issues. There are also **Conditional breakpoints** that allow you to pause the debugger only when a particular condition is met. This can be useful for debugging complex logic or loops. You can also set breakpoints in your unit tests and step through your tests to diagnose issues that comes up. 
 
 **Watch expressions** allow you to monitor the value of a variable or expression as your code runs. You can add watch expressions to the Debug Console or the Variables view and see how their values change as your code executes.
-
 Overall, debugging in VS Code is a powerful and flexible feature that can help you diagnose issues and improve the quality of your code. By leveraging the built-in debugging tools and views, you can gain insights into your code as it runs and identify and fix issues more efficiently.
 
 
@@ -126,7 +125,26 @@ In VSCode, the process of extracting code is often called "The Extact Method" or
 
 ## Market Comparison
 
-## Getting Started
+## Getting Started with VS Code
+
+To start using VS Code, follow these steps:
+
+1. **Download VS Code:** You can download VS Code for your operating system from the [official website](https://code.visualstudio.com/). Click on the "Download for [Your OS]" button, and follow the instructions to download and install the software.
+
+2. **Install VS Code:** Once the download is complete, open the installer and follow the instructions to install VS Code on your computer.
+
+3. **Launch VS Code:** Once the installation is complete, launch VS Code by clicking on the icon in your application folder, desktop or by searching for it in your operating system's search bar.
+
+4. **Open a folder or file:** After launching VS Code you can open a folder or file to start coding. To open a folder, click on "File" in the top menu and select "Open Folder." To open a file, click on "File" and select "Open File."
+
+![Open folder or file](2023-04-17-11-24-30.png)
+
+5. **Start coding:** Once you have opened a folder or file, you can start coding in the editor. 
+
+6. **Install extensions:** Remember that VS Code have powerful extensions that allows you to customize your workflow and add new features to the editor. Be sure to check these out to make your coding easier and more fun! 
+
+That's it! With these steps, you should be able to start using VS Code for your coding projects. For more resources, tips and help view [the VS Code Docs](https://code.visualstudio.com/docs)
+
 
 ## Conclusion
 
