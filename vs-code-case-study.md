@@ -3,6 +3,12 @@ title: Visual Studio Code (VS Code) case study
 author: Jonas Hope <JonasHope>, Ma Enirose Hellum <Enirose>, Marita M Stenersen <MaritaMalvinsdatter>
 tags: vscode, case study, code editor
 ---
+  
+  | Feature | Description |
+| --- | --- |
+| Example Feature | This feature does something for a specific reason. |
+| Example Feature | This feature does something for a specific reason. |
+| Example Feature | This feature does something for a specific reason. |
 
 ## Introduction
 
