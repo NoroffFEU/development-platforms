@@ -4,11 +4,11 @@ author: Jonas Hope <JonasHope>, Ma Enirose Hellum <Enirose>, Marita M Stenersen 
 tags: vscode, case study, code editor
 ---
   
-  | Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
+  | Title | Author |  Tags  |
+| --- | --- | --- |
+| Visual Studio Code (VS Code) case study | Jonas Hope <JonasHope> |  vscode, case study, code editor |
+|  | Ma Enirose Hellum <Enirose> |  |
+|  | Marita M Stenersen <MaritaMalvinsdatter> | |
 
 ## Introduction
 
