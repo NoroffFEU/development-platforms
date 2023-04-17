@@ -8,7 +8,8 @@
 
 ### Video 
 
-[![Building and Deploying Frontend Applications with Backend-as-a-Service (BaaS) Platforms: A Step-by-Step Guide and Case Studies](http://img.youtube.com/vi/WfrE0csVUk8/0.jpg)](http://www.youtube.com/watch?v=WfrE0csVUk8 "Building and Deploying Frontend Applications with Backend-as-a-Service (BaaS) Platforms: A Step-by-Step Guide and Case Studies")
+
+[![Building and Deploying Frontend Applications with Backend-as-a-Service (BaaS) Platforms: A Step-by-Step Guide and Case Studies](http://img.youtube.com/vi/WfrE0csVUk8/0.jpg)](https://youtu.be/G6ktLWX1kFA "Building and Deploying Frontend Applications with Backend-as-a-Service (BaaS) Platforms: A Step-by-Step Guide and Case Studies")
 
 
 
@@ -96,7 +97,7 @@ This repository is licensed under the MIT License.
 
 #### References
 
-- https://youtu.be/WfrE0csVUk8
+- https://youtu.be/G6ktLWX1kFA
 
 
 
