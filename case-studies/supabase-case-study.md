@@ -9,19 +9,19 @@ folder: development-platforms
 
 # Supabase Case Study
 
-![Supabase logo](/Images/Supabase.png)
+![Supabase logo](/static/images/Supabase.png)
 
 ### Table of content
 
-1. [Introduction
-2. [History
-3. [Features
-4. [Strengths
-5. [Weaknesses
-6. [Comparison
-7. [Summary
-8. [Credits
-9. [References
+1. Introduction
+2. History
+3. Features
+4. Strengths
+5. Weaknesses
+6. Comparison
+7. Summary
+8. Credits
+9. References
 
 ## Introduction
 
@@ -83,7 +83,7 @@ Here are some of the top Backend as a Service (BaaS) platforms.
 
 - Firebase offers more services than Supabase.
 
-- No vendor locking ( Firebase owned by Google, firebase we can´t move our application or export to other platform.)
+- vendor locking ( Firebase owned by Google, firebase we can´t move our application or export to other platform.)
 
 ## Getting started:
 
