@@ -12,6 +12,14 @@ Power Apps is a part of the Microsoft Power Platform which also includes other u
 
 Power Apps is easy to use, and it includes pre-built templates and drag-and-drop components, allowing users to quickly create functional apps for their work environment. Power Apps integrates with a range of data sources, for example cloud-based services.
 
+### What is a low-code environment?
+
+A low code environment is a platform that allows the user to develop simple and complex applications easier - often with a interface to use instead of pure code. The production time of applications here is a lot quicker.
+
+Having a low-code environment is much like using buiding blocks to contruct an entire city. You can assemble the structures you need without worrying about how each brick works and what way they should be used. It will empower you to build a range of applications with ease.
+
+According to Gartner. Inc's latest report the global market for low-code is esitmated to almost 27 billion in 2023.
+
 ### So what is the benefits of Power apps?
 
 When looking for a development platform, Power apps has a lot to offer. By looking at the connectors that Power Apps provides, it's clear that the platform has many benefits for a complete environment. Power apps can be used combined with the power platform - and connected to a bunch of back-end technologies. It can easily be looked upon as a magic wand, giving a company the power to solve any business problem you might encounter.
@@ -22,13 +30,14 @@ A large benefit of Power Apps is that the created application can be used on bot
 
 Using Power Apps and the Power Platform for security is like building your business on a rock-solid foundation. By leveraging the Microsoft Dataverse platform, businesses can ensure a standardized approach to security, rather than having to create their own security systems from scratch. With a role-based model, each user has access only to the data they need, providing stability and security for your business data.
 
-### What is a low-code environment?
+### Limitations
+Customization: While Microsoft Power Apps allows you to create custom applications for your workplace, the platform has limitations in terms of customization. Users are limited to the features and functionalities provided by Power Apps, and it may not meet all the needs for your application.
 
-A low code environment is a platform that allows the user to develop simple and complex applications easier - often with a interface to use instead of pure code. The production time of applications here is a lot quicker.
+Performance: Being a cloud-based environment, users can experience lag time and slow response times when running a bigger application.
 
-Having a low-code environment is much like using buiding blocks to contruct an entire city. You can assemble the structures you need without worrying about how each brick works and what way they should be used. It will empower you to build a range of applications with ease.
+Subscription cost: Microsoft Power Apps is a subscription-based service. While it's an affordable platform for small businesses, it may not be the best option for bigger enterprises with a large base of users.
 
-According to Gartner. Inc's latest report the global market for low-code is esitmated to almost 27 billion in 2023.
+Limited Offline Access: Another limitation is that Microsoft Power Apps requires an internet connection to work. This can be a challenge for businesses that require offline access to their data, or work in places with limited network access.
 
 ## Brief History
 
