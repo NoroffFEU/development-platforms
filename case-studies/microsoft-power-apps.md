@@ -45,7 +45,6 @@ Limited Offline Access: Another limitation is that Microsoft Power Apps requires
 - 2016 - Microsoft released PowerApps as a standalone product and added it to the Office 365 suite. Power Apps has since grown in popularity and evolved with new features and capabilities, such as the ability to integrate with other Microsoft products like Power BI and Azure.
 - 2019 - Microsoft announced the availability of Power Apps for mobile devices, enabling users to create and use apps on-the-go.
 - 2020 - Microsoft released new tools to simplify the process of building custom connectors for Power Apps, allowing users to easily integrate with a wide range of data sources.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
 
 ## Main Features
 
