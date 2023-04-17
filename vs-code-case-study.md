@@ -149,7 +149,7 @@ To start using VS Code, follow these steps:
 
 That's it! With these steps, you should be able to start using VS Code for your coding projects. 
 
-For more resources, tips and help view the [VS Code Docs](https://code.visualstudio.com/docs){:target="_blank"}
+For more resources, tips and help view the `[VS Code Docs](https://code.visualstudio.com/docs){:target="_blank"}`
 
 
 ## Conclusion
