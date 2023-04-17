@@ -141,13 +141,14 @@ To start using VS Code, follow these steps:
 
 4. **Open a folder or file:** After launching VS Code you can open a folder or file to start coding. To open a folder, click on "File" in the top menu and select "Open Folder." To open a file, click on "File" and select "Open File."
 
-![Open folder or file](2023-04-17-11-24-30.png)
+![Open folder or file](2023-04-17-11-55-51.png)
 
 5. **Start coding:** Once you have opened a folder or file, you can start coding in the editor. 
 
 6. **Install extensions:** Remember that VS Code have powerful extensions that allows you to customize your workflow and add new features to the editor. Be sure to check these out to make your coding easier and more fun! 
 
-That's it! With these steps, you should be able to start using VS Code for your coding projects. For more resources, tips and help view [the VS Code Docs](https://code.visualstudio.com/docs)
+That's it! With these steps, you should be able to start using VS Code for your coding projects. 
+For more resources, tips and help view [the VS Code Docs](https://code.visualstudio.com/docs)
 
 
 ## Conclusion
