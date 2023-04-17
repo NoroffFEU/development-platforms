@@ -1,6 +1,6 @@
 ---
 title: Visual Studio Code (VS Code) case study
-author: |
+author:
   Jonas Hope <JonasHope>  
   Ma Enirose Hellum <Enirose>  
   Marita M Stenersen <MaritaMalvinsdatter>  
