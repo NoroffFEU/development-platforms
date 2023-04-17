@@ -41,14 +41,10 @@ Limited Offline Access: Another limitation is that Microsoft Power Apps requires
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
+- 2015 -Power Apps was first introduced by Microsoft in November 2015 as a new addition to its suite of business applications. Initially, it was part of the Dynamics 365 suite and was called "Project Siena."
+- 2016 - Microsoft released PowerApps as a standalone product and added it to the Office 365 suite. Power Apps has since grown in popularity and evolved with new features and capabilities, such as the ability to integrate with other Microsoft products like Power BI and Azure.
+- 2019 - Microsoft announced the availability of Power Apps for mobile devices, enabling users to create and use apps on-the-go.
+- 2020 - Microsoft released new tools to simplify the process of building custom connectors for Power Apps, allowing users to easily integrate with a wide range of data sources.
 - 2010: E.G. Group open sources Example Project and all proprietary Examples.
 
 ## Main Features
