@@ -127,6 +127,54 @@ In VSCode, the process of extracting code is often called "The Extact Method" or
 ### Git Version Control:
 
 ## Market Comparison
+**Visual Studio Code** is one of the most widely used code editor in the market right now.  One of the advantages of Vscode is its extensibility.  Where it has huge marketplace of plugins, extensions and themes,  making it easier for developers to customize their experience and tailor the editor to their specific needs. This extensibility makes it a popular choice among developers across different domains.
+
+It is designed to be fast, lightweight,  and powerful, providing developers with an efficient tool for editing and debugging code in various programming languages.
+
+VS Code has built-in support for Node. js, TypeScript, and JavaScript and a feature-rich extension ecosystem for different languages like C++, Java, C#, PHP, Go, and Python.
+
+You can find lots  of code editor alternatives in the market right now. 
+  
+### Here are some top alternatives  to visual studio code:
+* Atom
+* Webstorm
+* Eclipse
+* Visual code
+* Sublime text
+* SonarQube
+* Gitlab
+and many more!
+
+But let's focus with two alternatives ( **Atom and Webstorm**) and compare those two with then vscode. 
+
+### What is the difference between Atom and Vscode?
+  
+![Vscode vs Atom](https://user-images.githubusercontent.com/95321157/232502911-85b6d9d8-07de-4eee-9f73-1ece70dcab2e.jpg)
+
+Both **Atom** and **VSCode** are both free and open-source code editor and part of Microsoft family, whereas Atom was originally created by github and Vscode was developed by Microsoft, and both have their own strengths and weaknesses.
+
+**Atom** is an all-in-one platform that’s perfect for an absolute beginner but is still suitably advanced for seasoned users with extensive coding and HTML knowledge. It's go-to choice for users looking for a basic-level editor, where it is easy to customized.
+
+Built for collaboration. It has already inbuilt Git and complete Github integration, with easy-to-install and update plugins, it lets you create new branches, resolve merge conflicts, and view pull requests directly from the text editor. 
+
+It has a simple and customizable user interface, and its key features include code highlighting, auto-completion, and multiple panes. Atom also has a large library of plugins and themes that can be easily installed to extend its functionality.
+
+While the **VSCode** has a more streamlined user interface compared to Atom and provides a range of advanced features like debugging, Git integration, and intelligent code completion.
+
+Developers who choose to use vscode are those who had no interest in expirementing with their code editor, They are the ones who wants more near-IDE functionality with simple and clean code editor.  Even though they can install certain plugins to add themes, features and additional support for languages, it remains the same after adding some certain plugins.
+
+Here are some of the pros and cons of Atom and VS Code:
+  
+### Pros   
+| Atom   | Vscode    |
+| :----:  | :----:   |
+| :----:  | :----:   |
+
+### Cons
+| Atom   | Vscode    |
+| :----:  | :----:   |
+| :----:  | :----:   |
+
 
 ## Getting Started with VS Code
 
