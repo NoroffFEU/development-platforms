@@ -1,9 +1,9 @@
 ---
 title: Visual Studio Code (VS Code) case study
 author: 
-  - Jonas Hope <JonasHope><br>
-  - Ma Enirose Hellum <Enirose><br>
-  - Marita M Stenersen <MaritaMalvinsdatter><br>
+  Jonas Hope <JonasHope><br>
+  Ma Enirose Hellum <Enirose><br>
+  Marita M Stenersen <MaritaMalvinsdatter><br>
 tags: vscode, case study, code editor
 ---
 
