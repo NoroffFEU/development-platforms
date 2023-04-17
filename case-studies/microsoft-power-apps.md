@@ -12,6 +12,24 @@ Power Apps is a part of the Microsoft Power Platform which also includes other u
 
 Power Apps is easy to use, and it includes pre-built templates and drag-and-drop components, allowing users to quickly create functional apps for their work environment. Power Apps integrates with a range of data sources, for example cloud-based services.
 
+### So what is the benefits of Power apps?
+
+When looking for a development platform, Power apps has a lot to offer. By looking at the connectors that Power Apps provides, it's clear that the platform has many benefits for a complete environment. Power apps can be used combined with the power platform - and connected to a bunch of back-end technologies. It can easily be looked upon as a magic wand, giving a company the power to solve any business problem you might encounter.
+
+Micorsoft is putting a huge amount of energy into this platform and constantly updates the features and functionality of it's power platform. Whereas alot of these are developed to match user feedback. Power Apps provides a simple code language called Power Fx, which is similar to Excel formulas and makes it easy to get started with app development. App development is always getting quicker, and with co-pilot it's even simpler - Much like ChatGPT. The power platform is much like a bridge to the future, connecting businesses to cutting-edge technology that was not thought possible.
+
+A large benefit of Power Apps is that the created application can be used on both mobile and computer devices. This creates a portable, functional, and simple way of utilizing the application.
+
+Using Power Apps and the Power Platform for security is like building your business on a rock-solid foundation. By leveraging the Microsoft Dataverse platform, businesses can ensure a standardized approach to security, rather than having to create their own security systems from scratch. With a role-based model, each user has access only to the data they need, providing stability and security for your business data.
+
+### What is a low-code environment?
+
+A low code environment is a platform that allows the user to develop simple and complex applications easier - often with a interface to use instead of pure code. The production time of applications here is a lot quicker.
+
+Having a low-code environment is much like using buiding blocks to contruct an entire city. You can assemble the structures you need without worrying about how each brick works and what way they should be used. It will empower you to build a range of applications with ease.
+
+According to Gartner. Inc's latest report the global market for low-code is esitmated to almost 27 billion in 2023.
+
 ## Brief History
 
 You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
@@ -25,6 +43,22 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 - 2010: E.G. Group open sources Example Project and all proprietary Examples.
 
 ## Main Features
+
+### Model driven apps
+
+Model-driven applications in Power Apps are designed to be data-centric and are built on top of a common data service platform. These applications are typically connected to datasets and are primarily used for presenting data to users.
+
+Developers can create forms, views, and dashboards within model-driven applications, which can then be accessed by users through the Power Apps portal or the Dynamics 365 application.
+
+Model-driven applications can be compared to a pre-built house, where the structure and layout are already established. However, developers have the ability to customize certain aspects of the application to their liking, such as the color scheme and user interface.
+
+### Canvas driven applications
+
+Canvas-driven applications, on the other hand, are more like a blank canvas. There is full control over the layout, design, and functionality of the application. Additionally, you have the same connectors as in model-driven applications.
+
+Some options in canvas-driven apps involve customizing how buttons, controls, and other elements behave and interact with users. Canvas-driven applications are developed with little to no code, but they can still be quite complex.
+
+To put it into a metaphor, the developer has complete freedom and control over the application itself, adding colors, shapes, elements, and interactions to create a personalized piece of art for users to interact with.
 
 ### Start from data sources
 Power Apps offer multiple ways to quick-start your app and pre-populate it with data. Having access to multiple data sources in its Microsoft environment makes it a powerful tool to generate apps that solve work related problems on the fly. For example: If you have an Excel spreadsheet for booking and charging the company’s electric car, you could make that into an app. In fact, you can use most Microsoft work tools like SharePoint, Excel and Dataverse to create your app. You can also populate your app from a database. Another option is to use a Figma UI kit to get your app started. We will briefly explain a few of the most popular options, and how they work.
