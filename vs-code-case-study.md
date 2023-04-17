@@ -149,7 +149,7 @@ and many more!
 
 But let's focus with two alternatives ( **Atom and Webstorm**) and compare those two with then vscode. 
 
-### What is the difference between Atom and Vscode?
+### What is the difference between VS Code and Atom?
   
 ![Vscode vs Atom](https://user-images.githubusercontent.com/95321157/232502911-85b6d9d8-07de-4eee-9f73-1ece70dcab2e.jpg)
 
@@ -187,7 +187,20 @@ Here are some of the pros and cons of Atom and VS Code:
 | Sometimes has issues with stability and crashes | Not as customizable as Atom in terms of themes and UI |
 
   
+  
 All in all, choosing between VS Code and Atom will depend on developers personal preferences and their specific needs for their projects. Both have pros and cons. VS Code is often considered more powerful and efficient than Atom due to its extensive features and better performance. But it's worth trying both code editors to see what works best for you as a developer.
+
+### What is the difference between VS Code and WebStorm?
+  
+![Vscode vs WebStorm](https://user-images.githubusercontent.com/95321157/232600821-5f6779a6-591f-4224-8325-d9d1c4c70911.jpg)
+
+**WebStorm and Visual Studio Code (VS Code)** are two popular integrated development environments (**IDEs**) used by developers for web development.
+  
+**WebStorm**, developed by JetBrains, is a full-fledged IDE designed specifically for JavaScript, CSS, and HTML development. It has a rich set of features for coding, debugging, and testing web applications. **WebStorm is a commercial product and requires a paid license to use.**
+
+On the other hand, like what i said between VS Code and Atom. **VS Code** is a free, open-source IDE developed by Microsoft that supports a wide range of programming languages including JavaScript, CSS, and HTML. It has a large and active community that has contributed to the development of numerous extensions and plugins.
+
+  
 
 
 ## Getting Started with VS Code
