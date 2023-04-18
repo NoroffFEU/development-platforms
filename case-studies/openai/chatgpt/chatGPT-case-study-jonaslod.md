@@ -47,6 +47,16 @@ ChatGPT is part of a family of models developed by OpenAI that use the *Generati
 
 - 30th November 2022: OpenAI launches ChatGPT based on the GPT-3.5 model. It gained 1 million users within 5 days of its release, whereas other successful applications needed months to achieve the first million users. For instance, Netflix achieved its first million in 40 months, Facebook in 10 months, and Instagram in 2.5 months.
 
+- February 2023: Meta AI releases LLaMA (Large Language Model Meta AI)
+
+- 6th Februrary 2023: Google annonces Bard, a conversational chatbot AI powered by Meta AI's LLaMA
+
+- 14th March 2023: GPT-4 is released. It was made publicly avaliable in a limited fashion via ChatGPT Plus, with access to a commercial API being provided through a waitlist.
+
+- 30th March 2023: AutoGPT is released
+
+- 2023: BabyAGI and JARVIS/HuggingGPT is released
+
 ## Features
 
 ChatGPT has the ability to remember previous questions asked in a chat, enabling it to effectively interact with humans in a conversational manner. The model was trained on a vast amount of corpus data covering a wide range of topics and styles, making its potential uses diverse.
@@ -72,8 +82,14 @@ One of the most relevant features for web and software development is its abilit
 
 ChatGPT is currently free to use. OpenAI has announced on [Twitter](https://twitter.com) that it's piloting a subscription plan that offers faster response times and reliability during peak hours. At the time of writing this report, the plan costs $20/month. The free tier will still be available to the public.
 
+OpenAI have released an API for accessing the AI models they have developed. On their [official website](https://openai.com/blog/openai-api) they state:
+'*Unlike most AI systems which are designed for one use-case, the API today provides a general-purpose “text in, text out” interface, allowing users to try it on virtually any English language task. You can now request access in order to integrate the API into your product, develop an entirely new application, or help us explore the strengths and limits of this technology.*'
+
+The API will return a text completion, from a given text prompt, attempting to match the pattern it was given. It can be "programmed" by providing some examples of what you'd like it to do. The API currently runs models with weights from the GPT-3 family.
+
 ### How it works
 ChatGPT uses a deep neural network architecture called a Transformer, which was introduced in 2017. Transformers are designed to process sequential data, such as text, and are particularly well-suited to generating text that is coherent and grammatically correct. Since it is trained using a large amount of text data, it learns the statistical patterns and relationships that exist within human language. When a user inputs a prompt, ChatGPT uses this knowledge to generate a response that is relevant.
+It is worth mentioning, in regards to ChatGPT, that due to the sheer size and complexity of the algorithm, exactly how it works cannot be known.
 
 
 ## Strengths
@@ -93,7 +109,7 @@ ChatGPT can be fine-tuned on specific tasks and datasets to improve its performa
 
 ## Weaknesses
 
-Despite its many possible uses and strengths, this tool comes with a series of limitations that are important to take into account. One critical issue is its lack of factual correctness at times. The bot may provide answers that are factually incorrect, but in such an assertive manner it could be difficult for an untrained person to realise. Moreover, it gives no references on where it took the data from. In order to avoid the spread of misinformation, users should double check the answers by consulting reliable sources of information in the subject matter. Additionally, it tends to be unpredictable and unstable. This means that users may avoid content moderation by repeatedly asking the same question in different ways.
+Despite its many possible uses and strengths, this tool comes with a series of limitations that are important to take into account. One critical issue is its lack of factual correctness at times. The bot may provide answers that are factually incorrect, but in such an assertive manner it could be difficult for an untrained person to realise, also known as "hallucination". Moreover, it gives no references on where it took the data from. In order to avoid the spread of misinformation, users should double check the answers by consulting reliable sources of information in the subject matter. Additionally, it tends to be unpredictable and unstable. This means that users may avoid content moderation by repeatedly asking the same question in different ways.
 
 Due to the human trainers rewarding longer answers for their appearance of being more comprehensive, the bot tends to be excessively verbose. This doesn't always add quality to the responses since the same information is being repeated in different paragraphs with a slight change in phrasing. This is a major giveaway that might make it easy for a human to realise when a text has been written by an AI tool, and therefore not reliable for producing important texts for university or work.
 
@@ -112,7 +128,7 @@ ChatGPT also lacks some human aspects, mainly creativity and the ability to crea
 
 ChatGPT is not the first chatbot on the market. Most companies' customer service departments offer their users the possibility to solve their problems in real-time by chatting with a bot. Some customer service chatbots are trained on a set of questions and answers. This results in less adaptability than ChatGPT. If the chatbot is presented with a complex question / task, and the chatbot is unable to assist, the user is usually transferred to a customer service employee. The chatbot's knowledge is limited to the task they're designed to carry out. For example, a bank chatbot can't help with debugging code and a shipping service chatbot cannot assist authors in writing essays. ChatGPT, however, is not constrained to a specific activity, as it was trained using a large amount of data in different topics and styles.
 
-ChatGPT is one of several NLP models that are capable of generating human-like text. Some of the other models that are commonly used for this purpose include Google's Meena, Microsoft's XiaoIce, and Facebook's Blender. Compared to these models, ChatGPT is generally considered to be more versatile and capable of generating text in a wider range of styles and genres. However, it also tends to generate more irrelevant or nonsensical responses than some of the other models.
+ChatGPT is one of several NLP models that are capable of generating human-like text. Some of the other models that are commonly used for this purpose include Google's Meena, Microsoft's XiaoIce, and Facebook's Blender. Compared to these models, ChatGPT is generally considered to be more versatile and capable of generating text in a wider range of styles and genres. However, it also tends to generate more irrelevant or nonsensical responses than some of the other models. There have been some recent releases in 2023 as well, including Googles's LaMDA, Meta AI's LLaMA and Alpaca.
 
 
 ## Summary
@@ -136,6 +152,11 @@ As far as software development is concerned, ChatGPT can write code faster than 
 ### Articles
 - https://platform.openai.com/docs/models/overview
 - https://openai.com/blog/chatgpt
+- https://openai.com/blog/openai-api
+- https://en.wikipedia.org/wiki/GPT-4
+- https://en.wikipedia.org/wiki/Auto-GPT
+- https://en.wikipedia.org/wiki/LLaMA
+- https://en.wikipedia.org/wiki/LaMDA#Bard
 
 
 ## Screenshots
