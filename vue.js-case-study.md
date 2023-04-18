@@ -23,6 +23,11 @@ Vue was created by Evan You, a Google software engineer, in 2013 and had its off
 ## Main Features
 
 Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+ 
+Vue is a Javascript framework used to build frontend UI. It is simple and has a small learning curve, good library support and is efficient.
+ 
+
+Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
 
 You may use subheadings, tables or bullet points to structure your description:
 - **Example Feature:** This feature does something for a specific reason.
@@ -47,6 +52,10 @@ If you are writing about an open source tool, it may be a good idea to compare i
 
 Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
 
+ ### Pros
+- **Small in size:** The framework is only 18kb and is fast to install.
+- **Performance:** Using a virtual DOM, page rendering is pretty quick and thus improves the application's overall performance.
+
 ## Getting Started
 
 If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
@@ -58,7 +67,7 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Vue.js)
-
+- [Vue Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 ## Additional Resources
 
 - [Official Website](https://vuejs.org/)
