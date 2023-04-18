@@ -5,6 +5,8 @@ tags: javascript, framework, vue
 ---
 
 ## Introduction
+ 
+ ![Image of Vue logo](https://res.cloudinary.com/practicaldev/image/fetch/s--q6AIFazN--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ll22z8mea106b4vjdjy7.jpeg)
 
 I've chosen Vue as my case study because frontend is what I study. I've never used Vue and I have zero experience with it, so I reckon this would be pretty interesting to dive deeper into.
 
@@ -21,36 +23,25 @@ Vue was created by Evan You, a Google software engineer, in 2013 and had its off
 - **2020:** Version 3.0 Released
 
 ## Main Features
-
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
  
 Vue is a Javascript framework used to build frontend UI. It is simple and has a small learning curve, good library support and is efficient.
- 
-
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
-
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-
-Example feature table:
 
 | Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+| :--- | :--- |
+| Virtual DOM | Virtual representation of the DOM tree that makes the page faster |
+| Data Binding | Manipulates/assign values to HTML attributes, change style or assign classes etc. |
+| Components | Create custom reusable HTML elements |
+| Event Handling | Event listeners |
+| Animation/Transition | Built-in wrappers and/or third party libraries for transition effects |
+| Computed Properties | Listens to changes made to UI elements and performs necessary calculations without additional coding |
+| Templates | Compiles templates into virtual DOM render functions |
+| Directives | Buil-in directives such as: v-if, v-else, v-show, v-on, v-bind, and v-model |
+| Watchers | This feature does something for a specific reason. |
+| Routing | |
+| Lightweight | |
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
 
  ### Pros
 - **Small in size:** The framework is only 18kb and is fast to install.
@@ -58,16 +49,15 @@ Similarly, a self hosted tool and a cloud based tool with a similar purpose may 
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
 
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Vue.js)
 - [Vue Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI)
+- [Tutorialspoint](https://www.tutorialspoint.com/vuejs/vuejs_overview.htm)
 ## Additional Resources
 
 - [Official Website](https://vuejs.org/)
