@@ -36,20 +36,37 @@ Vue is a Javascript framework used to build frontend UI. It is simple and has a 
 | Computed Properties | Listens to changes made to UI elements and performs necessary calculations without additional coding |
 | Templates | Compiles templates into virtual DOM render functions |
 | Directives | Buil-in directives such as: v-if, v-else, v-show, v-on, v-bind, and v-model |
-| Watchers | This feature does something for a specific reason. |
-| Routing | |
-| Lightweight | |
+| Watchers | Applied to changing data such as form inputs. Data handling is taken care of by a watcher |
+| Routing | Vue-router helps with navigation between pages |
+| Lightweight | Light and fast performing |
 
 ## Market Comparison
 
-
+ ### Vue vs React
+ 
+#### Virtual DOM
+ - Both use virtual DOM which makes it faster
+#### Template vs JSX
+ - Vue uses html, js and css seperately, which makes it easier for beginners to learn Vue. This resembles a vanilla based approach to making UI. React on the other hand use jsx, which means that html and css are used in the js files either as styled components, function components or class components.
+#### Installation Tools
+ - React uses create react app and VueJS uses vue-cli /CDN/npm.
+ 
  ### Pros
 - **Small in size:** The framework is only 18kb and is fast to install.
 - **Performance:** Using a virtual DOM, page rendering is pretty quick and thus improves the application's overall performance.
 
 ## Getting Started
+ 
+ 
+```
+npm init vue@latest
+```
 
-
+ ### Vue from CDN
+ ```ruby
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+```
+ 
 ## Conclusion
 
 
