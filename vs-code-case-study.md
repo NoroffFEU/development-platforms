@@ -221,9 +221,10 @@ Here are some of the pros and cons of WebStorm and VS Code:
 | Requires a paid license to use. |Some features may require the installation of extensions, which can sometimes lead to compatibility issues. |
 | Has a steeper learning curve than some other IDEs. | Doesn't have as many built-in features for web development as WebStorm. |
 | Can be resource-intensive and slow on older computers. | May not be suitable for larger and more complex projects that require a more robust IDE. |
-| | Searching for settings is a bit complicated. |
+| Takes up a good chunk of computer processor. | Searching for settings is a bit complicated. |
+|  Slows down for large codebases.| VS Code gets high CPU usage for running |
   
-
+  
 ## Getting Started with VS Code
 
 To start using VS Code, follow these steps:
