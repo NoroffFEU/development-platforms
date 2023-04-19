@@ -198,11 +198,26 @@ All in all, choosing between VS Code and Atom will depend on developers personal
   
 **WebStorm**, developed by JetBrains, is a full-fledged IDE designed specifically for JavaScript, CSS, and HTML development. It has a rich set of features for coding, debugging, and testing web applications. It comes with a myriad of out-of-the-box features intended for rapid prototyping and deployment.**WebStorm is a commercial product and requires a paid license to use.**
   
-WebStorm mainly focuses on web development. It supports many languages such as Angular, React, HTML, CSS, JavaSript, TypeScript,  AngularJS, React Native and PhoneGap. And if you notice many those langauges is JavaScript-based, as WebStorm was developed primarily for JavaScript.
+WebStorm mainly focuses on web development. It supports many languages such as Angular, React, HTML, CSS, JavaSript, Vue.js, TypeScript, AngularJS, React Native and PhoneGap. And if you notice many those langauges is JavaScript-based, as WebStorm was developed primarily for JavaScript.
 
 On the other hand, like what i said between VS Code and Atom. **VS Code** is a free, open-source IDE developed by Microsoft that supports a wide range of programming languages including JavaScript, CSS, and HTML. It has a large and active community that has contributed to the development of numerous extensions and plugins. Programmers can develop an app from start to finish but with fewer features available — it isn’t a full development environment unlike WebStorm.  VS Code still provides quality of life features, like code assistance and debugging support for the programmers.
 
 Visual Studio Code supports more on major programming languages such as Python, C, C++, C#, Java and JavaScript, although a JavaScript developer can safely use either platform.
+  
+Here are some of the pros and cons of WebStorm and VS Code:
+  
+#### Pros   
+| Webstorm   | VS Code    |
+| :----  | :----   |
+| Includes a robust built-in debugger that supports a wide range of debugging scenarios  | Supports a wide range of programming languages, including JavaScript, Java, C++, Python, and many others.  |
+| Comprehensive and powerful IDE for JavaScript, CSS, and HTML development. | Free and open source for everyone |
+| Integrates well with other JetBrains tools, such as IntelliJ IDEA, PyCharm, and PhpStorm. | Has a lightweight and customizable interface that allows developers to personalize their workspace. |
+| Has strong built-in support for popular front-end frameworks such as React, Angular, and Vue.js. | Has a large and active community that has contributed to the development of numerous extensions and plugins. |
+| Has a built-in code quality analysis tool that can detect errors and code smells. | Offers a seamless remote development experience. |
+
+#### Cons  
+| Webstorm   | VS Code    |
+| :----  | :----   |
   
 
 ## Getting Started with VS Code
