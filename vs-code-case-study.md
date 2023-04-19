@@ -259,3 +259,4 @@ For more resources, tips and help view the [VS Code Docs](https://code.visualstu
 ## References
   * (https://stackshare.io/visual-studio-code/alternatives)
   * (https://www.getapp.com/development-tools-software/a/visual-studio-code/alternatives/)
+  * (https://www.crazyegg.com/blog/atom-vs-visual-studio-code/)
