@@ -30,16 +30,6 @@ Shopify provides a variety of features that make it a popular choice for e-comme
 - Marketing and SEO: Shopify provides a suite of marketing tools, including email marketing, social media integration, and search engine optimization (SEO) features.
 - Analytics and Reporting: Shopify provides detailed analytics and reporting features, allowing businesses to track sales, customer behavior, and other important metrics.
 
-Example feature table:
-
-| Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
-
 ## Market Comparison
 
 When compared to other e-commerce platforms, Shopify offers several advantages:
