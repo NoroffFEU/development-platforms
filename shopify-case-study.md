@@ -79,4 +79,5 @@ Overall, Shopify's future looks promising, with continued expansion into new mar
 ## References
 
 - [Shopify website](https://www.shopify.com)
-- [Shopify Wikipedia](https://en.wikipedia.org/wiki/Shopify)
+- [Shopify Developer Documentation](https://developers.shopify.com/)
+- [Shopify vs. WooCommerce: Which is the Best E-commerce Platform?](https://www.wpbeginner.com/opinion/shopify-vs-woocommerce-which-is-the-best-ecommerce-platform/)
