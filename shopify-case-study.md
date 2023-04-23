@@ -62,7 +62,7 @@ Getting started with Shopify as a development platform is quite straightforward.
 
 6. **Launch your store**: Once you've completed the above steps, you can launch your store and start selling products.
 
-In addition to these steps, Shopify also provides a range of resources and documentation to help beginners get started. You can find tutorials, guides, and support forums on the Shopify website to help you navigate the platform and its features.
+In addition to these steps, Shopify also provides a range of resources and documentation to help beginners get started. You can find tutorials, guides, and support forums on the Shopify website to help you navigate the platform and its features. You can also connect Shopify with other tools like Sanity for developing online shopping solutions.
 
 Overall, getting started with Shopify is relatively easy and user-friendly, even for beginners with no coding experience. With a little bit of time and effort, you can create a professional-looking online store and start selling products in no time.
 
