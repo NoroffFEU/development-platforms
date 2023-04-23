@@ -125,6 +125,20 @@ In VSCode, the process of extracting code is often called "The Extact Method" or
   - **Code Analysis**: In VSCode, code analysis is a built in service, which automatically analysis your code in real time. It includes error detection, code highlighting and code completion suggestions. By analyzing the code, it can identify potential issues and suggest improvements. It is also possible to congfigure the feature to fit your specific needs, allowing you to tailor the feedback. Overall this feature is designed to help you write better code, faster.
 
 ### Git Version Control:
+  
+  Git is a widely used version control system that allows developers to manage and track changes done to their code. VSCode has a buildt in support for Git, which makes it easy for developers to do git operations without even leaving the code editor. Here are some things you can do with it:
+  
+  - Stage changes
+  - Commit changes
+  - Create and switch between branches
+  - Pull and push changes
+  - Fix merge conflics
+  - view commit history
+  
+  for the more experianced users, VSCode also provides more advanced git features such as support for git submodules, stashing changes, and tagging commits.
+  for more information about Git version control, check out this link:
+  
+  [More info on git version control](https://code.visualstudio.com/docs/sourcecontrol/overview)
 
 ## Market Comparison
   
