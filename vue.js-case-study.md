@@ -52,11 +52,17 @@ Vue is a Javascript framework used to build frontend UI. It is simple and has a 
  - React uses create react app and VueJS uses vue-cli /CDN/npm.
  
  ### Pros
-- **Small in size:** The framework is only 18kb and is fast to install.
+- **Small in size:** The framework is only 18kb and is fast to install
 - **Performance:** Using a virtual DOM, page rendering is pretty quick and thus improves the application's overall performance
-- **Data-binding** Two-way databinding
-- **Light learning curve** All you need to know is basic HTML, CSS and Javascript
-
+- **Data-binding:** Two-way databinding
+- **Light learning curve:** All you need to know is basic HTML, CSS and Javascript
+ - **Community support:** Vue has a pretty active community on Discord chat and forum
+ 
+  ### Cons
+- **Language barrier:** Due to its popularity in China, much of the community support will be in Chinese
+- **Lack of support for large-scale projects:** For large-scale projects a framework must ensure stability and strong support. Vue does not have many problems, but are used in relatively small projects
+- **Lack of experienced developers:** Vue is steadily gaining momentum, but it's a still relatively young technology
+ 
 ## Getting Started
  
  
