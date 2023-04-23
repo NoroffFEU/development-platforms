@@ -64,7 +64,3 @@ Overall, Shopify's future looks promising, with continued expansion into new mar
 
 - [Shopify website](https://www.shopify.com)
 - [Shopify Wikipedia](https://en.wikipedia.org/wiki/Shopify)
-
-## Additional Resources
-
-- 
