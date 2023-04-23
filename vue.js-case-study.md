@@ -53,7 +53,9 @@ Vue is a Javascript framework used to build frontend UI. It is simple and has a 
  
  ### Pros
 - **Small in size:** The framework is only 18kb and is fast to install.
-- **Performance:** Using a virtual DOM, page rendering is pretty quick and thus improves the application's overall performance.
+- **Performance:** Using a virtual DOM, page rendering is pretty quick and thus improves the application's overall performance
+- **Data-binding** Two-way databinding
+- **Light learning curve** All you need to know is basic HTML, CSS and Javascript
 
 ## Getting Started
  
