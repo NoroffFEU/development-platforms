@@ -45,11 +45,13 @@ Vue is a Javascript framework used to build frontend UI. It is simple and has a 
  ### Vue vs React
  
 #### Virtual DOM
- - Both use virtual DOM which makes it faster
+ - Both use virtual DOM which makes it faster.
 #### Template vs JSX
  - Vue uses html, js and css seperately, which makes it easier for beginners to learn Vue. This resembles a vanilla based approach to making UI. React on the other hand use jsx, which means that html and css are used in the js files either as styled components, function components or class components.
 #### Installation Tools
- - React uses create react app and VueJS uses vue-cli /CDN/npm.
+ - React uses create react app and Vue uses vue-cli /CDN/npm. React needs webpack for the build, whereas VueJS does not. We can start with VueJS coding anywhere in jsfiddle or codepen using the cdn library.
+#### Popularity
+ - React is popular than Vue. The job opportunity with React is more than Vue. There is a big name behind React i.e. Facebook which makes it more popular
  
  ### Pros
 - **Small in size:** The framework is only 18kb and is fast to install
@@ -77,6 +79,7 @@ npm init vue@latest
  
 ## Conclusion
 
+ Vue is a lightweight framework that is easier for beginners to master. It has some powerful features such as the virtual DOM, data-binding etc. Vue has taken the good parts from Angular and React and has built a powerful library, but has still a way to go before they reach Angular and React levels of popularity. Vue is a developing framework and thus still a work in progress. 
 
 ## References
 
