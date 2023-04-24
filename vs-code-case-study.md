@@ -275,3 +275,5 @@ For more resources, tips and help view the [VS Code Docs](https://code.visualstu
   * (https://www.getapp.com/development-tools-software/a/visual-studio-code/alternatives/)
   * (https://www.crazyegg.com/blog/atom-vs-visual-studio-code/)
   * (https://code.visualstudio.com/docs)
+  * (https://www.trustradius.com/products/microsoft-visual-studio-code/reviews#reviews)
+  * (https://www.techrepublic.com/article/webstorm-vs-vscode/)
