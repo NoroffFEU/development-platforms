@@ -53,16 +53,16 @@ Supabase is an open-source platform that offers many features for developers. Li
 
  ## References
 
-https://www.youtube.com/watch?v=zBZgdTb-dns
-https://github.com/supabase/supabase
-https://supabase.com/blog/supabase-how-we-launch
-https://supabase.com/docs/guides/getting-started/architecture#product-principles
-https://techcrunch.com/2021/09/09/supabase-raises-30m-for-its-open-source-insta-backend/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAANqAKvTDVVkg4H1d87RZCIZRHVxReLCqk1CfKGyvg532XudZVSm7f1O1TwFZDrytprmtqh4UFOK4aE_LXESSfrOO4M49Z6TEN0PCxxyD4MwqdQy3Vlqxwj1pLwL9NyPibA9hqyincxSU6M09fiV7XYtBaV-7Ru3q0RzmgXhekTor
-https://blog.logrocket.com/firebase-vs-supabase-choosing-right-tool-project/
-https://supabase.com/docs/guides/database/overview
-https://supabase.com/auth
-https://supabase.com/docs/guides/functions
-https://supabase.com/docs/guides/self-hosting
-https://www.red-gate.com/simple-talk/development/other-development/firebase-and-supabase-key-differences/
-https://makerkit.dev/blog/saas/supabase-vs-firebase
-https://medium.com/@brenda.clark/firebase-alternative-3-open-source-ways-to-follow-e45d9347bc8c
+- https://www.youtube.com/watch?v=zBZgdTb-dns
+- https://github.com/supabase/supabase
+- https://supabase.com/blog/supabase-how-we-launch
+- https://supabase.com/docs/guides/getting-started/architecture#product-principles
+- https://techcrunch.com/2021/09/09/supabase-raises-30m-for-its-open-source-insta-backend/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAANqAKvTDVVkg4H1d87RZCIZRHVxReLCqk1CfKGyvg532XudZVSm7f1O1TwFZDrytprmtqh4UFOK4aE_LXESSfrOO4M49Z6TEN0PCxxyD4MwqdQy3Vlqxwj1pLwL9NyPibA9hqyincxSU6M09fiV7XYtBaV-7Ru3q0RzmgXhekTor
+- https://blog.logrocket.com/firebase-vs-supabase-choosing-right-tool-project/
+- https://supabase.com/docs/guides/database/overview
+- https://supabase.com/auth
+- https://supabase.com/docs/guides/functions
+- https://supabase.com/docs/guides/self-hosting
+- https://www.red-gate.com/simple-talk/development/other-development/firebase-and-supabase-key-differences/
+- https://makerkit.dev/blog/saas/supabase-vs-firebase
+- https://medium.com/@brenda.clark/firebase-alternative-3-open-source-ways-to-follow-e45d9347bc8c
