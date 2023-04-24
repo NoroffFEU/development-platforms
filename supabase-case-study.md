@@ -2,7 +2,7 @@
 title: Supabase Case Study
 author: Marte Moslet <martemoslet>
 tags: supabase, case study, platform, BaaS
- ---
+---
 
  ## Introduction
 
