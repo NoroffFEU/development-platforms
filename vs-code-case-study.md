@@ -277,3 +277,4 @@ For more resources, tips and help view the [VS Code Docs](https://code.visualstu
   * (https://code.visualstudio.com/docs)
   * (https://www.trustradius.com/products/microsoft-visual-studio-code/reviews#reviews)
   * (https://www.techrepublic.com/article/webstorm-vs-vscode/)
+  * (https://www.trustradius.com/products/intellij-webstorm/reviews?qs=pros-and-cons#comparisons)
