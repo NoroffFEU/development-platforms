@@ -4,25 +4,26 @@ author: Marte Moslet <martemoslet>
 tags: supabase, case study, platform, BaaS
 ---
 
- ## Introduction
+## Introduction
 
  Supabase is a backend-as-a-Service (BaaS) platform that offers PostgreSQL database, authentication, storage and edge functions. It was created in 2019 as an open-source alternative to Firebase. 
 
- ## Brief history
+## Brief history
 
 - 2019: Supabase is created
 - July 2020: Announced Auth
 - November 2020: Supabase Beta
 
- ## Main features
+## Main features
 
 Supabase is based completely on free open-source software (FOSS). Their main features are:
+
 - Postgres database: A free and open source database. It is considered a very stable and advanced database. It is easy to use, and stores structured and related data as in a spreadsheet. It comes with additional features, inculding real-time listening to database changes and database backups.
 - Authentication: Supabase uses open source auth. It has a build-in authentucation, authorization and user management. It works with all the popular login providers, like Google, Facebook, GitHub, Twitter, Discord and many more. It also stores user data in your database.
 - Storage: It has a storage system that lets you store with unlimited scaleability for any file type.
 - Edge functions: Server-side TypeScript functions distributed closer to the user. It gives the user a fast and personilized experience.
 
- ## Strengths
+## Strengths
 
 - Hosting: Supabase can be hosted in several ways. You can deploy to your own infrastructure using Docker. Or you can use Supabase Cloud, where Supabase will manage and scale your infrastructure.
 - Price: Supabase offers a free plan for small projects, and payment plans for projects that requires bigger databases.
@@ -30,13 +31,12 @@ Supabase is based completely on free open-source software (FOSS). Their main fea
 - Zero lock in: Supabase is open source so there is zero lock in.
 - Auto-generated-API: The APIs are auto-generated from the database. The API is instant updated when the database changes.
 
- ## Weaknesses
+## Weaknesses
 
 - When self-hosting you will lose the management UI.
 - Supabase is still in Beta stage. They are stable enough for non-enterprise, and offers new features regularly. Being a very new platform it has a smaller community and fewer resources, so it could be harder to get support when needed.
 
-
- ## Comparison
+## Comparison
 
 Supabase calls itself an open source alternative to Firebase. There are several similarities and differences between them. Let’s look at some of the differences:
 
@@ -47,11 +47,11 @@ Supabase calls itself an open source alternative to Firebase. There are several 
 For bigger projects Firebase offer a pay-as-you-go plan. They charges for reads, writes and deletes. This can get pricey as an app gains popularity and users.
 - Self-hosting: Firebase do not allow self-hosting, while this is something Supabase offers.
 
- ## Conclusion
+## Conclusion
 
 Supabase is an open-source platform that offers many features for developers. Like postgres database, authentication, storage and edge function. Supabase can also be self-hosted. For small projects it can be used for free, and offers a paid plan when needing bigger databases. Being open-source gives the users the chance to view and modify the source code, and there is also no vendor lock-in. Supabase was created in 2019. Being a new platform they are still in Beta stage, but offers new features regularly. This makes Supabase a fast-growing platform.
 
- ## References
+## References
 
 - https://www.youtube.com/watch?v=zBZgdTb-dns
 - https://github.com/supabase/supabase
