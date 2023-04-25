@@ -13,6 +13,7 @@ Power Apps is a part of the Microsoft Power Platform which also includes other u
 Power Apps is easy to use, and it includes pre-built templates and drag-and-drop components, allowing users to quickly create functional apps for their work environment. Power Apps integrates with a range of data sources, for example cloud-based services.
 
 ### What is a low-code environment?
+![Image](https://user-images.githubusercontent.com/91562336/234335946-140c889d-7b38-450e-8d6a-7be20494fa07.jpg)
 
 A low code environment is a platform that allows the user to develop simple and complex applications easier - often with a interface to use instead of pure code. The production time of applications here is a lot quicker.
 
@@ -113,15 +114,13 @@ Power Apps allows you to create custom connectors that can connect to any RESTfu
 
 ### Components
 Components are the building blocks of Power App. Power Apps have many pre-built UI components that cover common app features like gallery, form, text-input, etc. You can also create custom components. To use components, you simply have to drag the component you want into your app after locating it in the side-menu. 
-**Major Components:**
 
-| component       | Description                                                               |
-| --------------- | --------------------------------------------------                        |
-| Control         | Allow interaction with your records from your datasource.                 |
-| Property        | Each control has one or more properties. Example: Color, size, type, etc. |
-| Function        | Is used to interact with and change properties. Similar syntax to Excel.  |
 
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+| **Major Components**    | **Description**                                                           |
+| ---------------         | --------------------------------------------------                        |
+| Control                 | Allow interaction with your records from your datasource.                 |
+| Property                | Each control has one or more properties. Example: Color, size, type, etc. |
+| Function                | Is used to interact with and change properties. Similar syntax to Excel.  |
 
 ## Market Comparison
 
