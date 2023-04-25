@@ -8,7 +8,7 @@ tags: javascript, framework, vue
  
  ![Image of Vue logo](https://res.cloudinary.com/practicaldev/image/fetch/s--q6AIFazN--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ll22z8mea106b4vjdjy7.jpeg)
 
-Vue is a Javascript framework for building user interfaces and single-page applications (SPAs). It builds on top of standard HTML, CSS and Javascript and is fairly easy for beginners to learn, given that you have experience with the previously mentioned frontend languages. This distinguishes Vue from competitors such as Angular and React that both uses Typescript and JSX.
+Vue is a Javascript framework for building user interfaces and single-page applications (SPAs). It builds on top of standard HTML, CSS and Javascript and is fairly easy for beginners to learn, given that you have experience with the previously mentioned frontend languages. This distinguishes Vue from competitors that use Typescript, JSX, and require familiarity with an array of different libraries.
 
 ## Brief History
 
@@ -44,6 +44,8 @@ Vue is a Javascript framework used to build frontend UI. It is simple and has a 
 
  ### Vue vs React
  
+ [!Vue vs React image](https://www.monterail.com/hs-fs/hubfs/blog_graphics/xVue_vs_React_comparison_of_technologies.png,qwidth=1172,aheight=1722,aname=Vue_vs_React_comparison_of_technologies.png.pagespeed.ic.nlnRETuray.webp)
+ 
 #### Virtual DOM
  - Both use virtual DOM which makes it faster.
 #### Template vs JSX
@@ -51,7 +53,7 @@ Vue is a Javascript framework used to build frontend UI. It is simple and has a 
 #### Installation Tools
  - React uses create react app and Vue uses vue-cli /CDN/npm. React needs webpack for the build, whereas VueJS does not. We can start with VueJS coding anywhere in jsfiddle or codepen using the cdn library.
 #### Popularity
- - React is more popular than Vue. Job opportunities with React is are more common than with Vue. There is a big name behind React i.e. Facebook which makes it more popular because...
+ - React is popular than Vue. The job opportunity with React is more than Vue. There is a big name behind React i.e. Facebook which makes it more popular
  
  ### Pros
 - **Small in size:** The framework is only 18kb and is fast to install
