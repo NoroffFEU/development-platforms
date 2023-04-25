@@ -8,11 +8,11 @@ tags: javascript, framework, vue
  
  ![Image of Vue logo](https://res.cloudinary.com/practicaldev/image/fetch/s--q6AIFazN--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ll22z8mea106b4vjdjy7.jpeg)
 
-I've chosen Vue as my case study because frontend is what I study. I've never used Vue and I have zero experience with it, so I reckon this would be pretty interesting to dive deeper into.
+Vue is a Javascript framework for building user interfaces and single-page applications (SPAs). It builds on top of standard HTML, CSS and Javascript and is fairly easy for beginners to learn, given that you have experience with the previously mentioned frontend languages. This distinguishes Vue from competitors such as Angular and React that both uses Typescript and JSX.
 
 ## Brief History
 
-Vue was created by Evan You, a Google software engineer, in 2013 and had its official release in 2014. The name derives from the French word vue, meaning view. Evan wanted to create a framework that was lightweight and included the best parts from Angular, which he had been using at Google.
+Vue was created by Evan You, a Google software engineer, in 2013 and had its official release in 2014. The name derives from the French word vue, meaning view. Evan wanted to create a framework that was lightweight and included the best parts from Angular, which he had been using at Google. 
 
 #### Here is a timeline highlighting the major events:
  
@@ -72,7 +72,7 @@ Vue is a Javascript framework used to build frontend UI. It is simple and has a 
 npm init vue@latest
 ```
 
- ### Vue from CDN
+### Vue from CDN
  ```ruby
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 ```
