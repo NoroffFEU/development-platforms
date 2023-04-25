@@ -79,7 +79,7 @@ npm init vue@latest
  
 ## Conclusion
 
- Vue is a lightweight framework that is easier for beginners to master. It has some powerful features such as the virtual DOM, data-binding etc. Vue has taken the good parts from Angular and React and has built a powerful library, but has still a way to go before they reach Angular and React levels of popularity. Vue is a developing framework and thus still a work in progress. 
+Vue is a lightweight framework that is easier for beginners to master. It has some powerful features such as the virtual DOM, data-binding etc. Vue has taken the good parts from Angular and React and has built a powerful library, but has still a way to go before they reach Angular and React levels of popularity. Vue is a developing framework and thus still a work in progress. 
 
 ## References
 
