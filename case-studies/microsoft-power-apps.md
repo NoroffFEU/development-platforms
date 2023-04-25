@@ -3,7 +3,7 @@ title: Microsoft Power Apps Case Study
 author: Robin Lysaker, Benjamin Løndal, Trine Sandberg
 tags: Microsoft, Power Apps, Low code, case study, platform
 ---
-
+![Image](https://user-images.githubusercontent.com/91562336/234244746-63e6e487-b46e-4e31-a478-f08227d1e22c.png)
 ## Introduction
 
 Microsoft Power Apps is a platform with low-code development tools that allows users to create custom business applications without having to be an educated programmer. These apps can be built for different purposes, such as data collection, workflow automation and management.
@@ -65,6 +65,7 @@ Some options in canvas-driven apps involve customizing how buttons, controls, an
 To put it into a metaphor, the developer has complete freedom and control over the application itself, adding colors, shapes, elements, and interactions to create a personalized piece of art for users to interact with.
 
 ### How it works
+![Image](https://user-images.githubusercontent.com/91562336/234261904-32e7b386-291d-434e-a223-a40adb4d4a78.png)
 Every component you make in your Power App is “stored” in .JSON and .YML files. These files are being “fed” into Microsoft’s PowerApps application, which in turn generates your app. You can connect your app to your GitHub account and access the files from there, or open them in your favorite code editor. Accessing these files directly won't necessarily provide you with more options than you already have in the Power Apps editor, but it might be easier to access and change certain features and settings.
 
 ### Version control
@@ -103,6 +104,7 @@ You can use the Power Apps Figma asset pack/UI kit to create your app layout, an
 **SQL**
  
 You can connect a SQL server to Microsoft PowerApps. It is really simple to connect if you already have an SQL server in your Microsoft environment. You only need to click new connection and choose the SQL server. From there you can either connect directly or use a gateway.
+![Image](https://user-images.githubusercontent.com/91562336/234244332-1f89b5dd-ff22-4c54-825c-7132c0b0ec9f.png)
 
 ### Custom connectors
 Power Apps allows you to create custom connectors that can connect to any RESTful API. This means that you can use Power Apps to connect to almost any data source that provides a web API. To set up a custom connector, you can simply access the inbuilt wizard from the menu.
