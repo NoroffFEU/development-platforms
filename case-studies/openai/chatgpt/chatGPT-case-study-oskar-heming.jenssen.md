@@ -59,6 +59,52 @@ The following is an example of how to use ChatGPT in developement. Let's say we 
 
 Since ChatGPT remembers the whole conversation, you can use this to provide context for future questions. Let's start with telling to act as a front-end developer and write the code we need.
 
+![Skjermbilde 2023-04-25 kl  10 20 55](https://user-images.githubusercontent.com/95288100/234256997-de022b7c-12fc-4971-8ea8-ae7e1879123c.png)
+
+![Skjermbilde 2023-04-25 kl  10 29 42](https://user-images.githubusercontent.com/95288100/234257355-cebc75cc-d099-4874-99a6-6066a28af7bb.png)
+
+![Skjermbilde 2023-04-25 kl  10 30 16](https://user-images.githubusercontent.com/95288100/234257447-c2c17cc5-2b06-4348-b81a-6244a818942b.png)
+
+![Skjermbilde 2023-04-25 kl  10 30 32](https://user-images.githubusercontent.com/95288100/234257518-c49035b9-eced-4f4c-bc72-cdfe6e576c0f.png)
+
+ChatGPT writes all the HTML and JavaScript. In addition it provides an explanation of what it does. This is the result when putting the code into a boilerplate HTML file and opening it up with live-server:
+
+![Skjermbilde 2023-04-25 kl  10 48 00](https://user-images.githubusercontent.com/95288100/234257984-62457fbb-c6e6-4c75-bb64-77e642906a0f.png)
+
+Success-message when filling out the form:
+
+![Skjermbilde 2023-04-25 kl  10 48 20](https://user-images.githubusercontent.com/95288100/234258059-9463f38b-1bb3-4e1b-9dc1-86490e7f9d90.png)
+
+At the moment it's a very basic-looking form, so here I ask ChatGPT to style it with CSS.
+
+![Skjermbilde 2023-04-25 kl  11 15 03](https://user-images.githubusercontent.com/95288100/234258488-b32916c7-aa0e-4ee3-9b22-8a33eaa6c22b.png)
+
+![Skjermbilde 2023-04-25 kl  11 15 13](https://user-images.githubusercontent.com/95288100/234258529-dc377497-2da8-4e19-8ee7-ae6aec766297.png)
+
+![Skjermbilde 2023-04-25 kl  11 15 24](https://user-images.githubusercontent.com/95288100/234258596-b8b8d17a-7df1-47a0-ab2d-e830e173a137.png)
+
+ChatGPT provides the CSS along with another explanation of what it does. The page now looks like this:
+
+![Skjermbilde 2023-04-25 kl  11 17 12](https://user-images.githubusercontent.com/95288100/234258719-78fa7c4f-5402-4d3f-b583-93ebbadeaed3.png)
+
+It did what we asked, although in my head, I imagined the labels would be left aligned. Also, the success-message still appears in the top -left corner. It makes sense since that it appears like this, since I technically only asked it to style the position of the form. This is where you can see that it pays off to be as specific as possible. So we are gonna ask it to style it a little further one last time.
+
+![Skjermbilde 2023-04-25 kl  11 27 42](https://user-images.githubusercontent.com/95288100/234259117-70ee6cbe-a568-4bbd-82f1-72ffebf67c8a.png)
+
+![Skjermbilde 2023-04-25 kl  11 27 54](https://user-images.githubusercontent.com/95288100/234259240-9f84294c-a281-45db-96d2-dc76a3825d8b.png)
+
+![Skjermbilde 2023-04-25 kl  11 28 11](https://user-images.githubusercontent.com/95288100/234259279-32f537dc-3553-40f1-b59a-d1b2087fac1a.png)
+
+![Skjermbilde 2023-04-25 kl  11 29 23](https://user-images.githubusercontent.com/95288100/234259393-a591271b-3caa-403b-8761-bf33ce3c4e40.png)
+
+New result:
+
+![Skjermbilde 2023-04-25 kl  11 30 27](https://user-images.githubusercontent.com/95288100/234260320-31ea7bf0-c0d9-43e0-a2d1-336405b14fdd.png)
+
+![Skjermbilde 2023-04-25 kl  11 30 56](https://user-images.githubusercontent.com/95288100/234260347-5489f60b-a5ba-492e-b73f-bf31e81fe362.png)
+
+The labels are now left-aligned. The idea was actually to have it left-aligned with the input elements, but this demonstrates the need for specificity and writing good prompts, since technically it did what was asked. In all this took only three prompts, and shows how easy and fast ChatGPT can help with developement.
+
 ## Conclusion
 
 ChatGPT is a powerful tool to use in different situations. In this case study, we try to demonstrate how it can be a useful tool in web and software developement. It is important to be aware of the limitations of ChatGPT and that it can be wrong. Therefore you should be aware of how to interact with ChatGPT to get the desired results. It can save time and a lot of frustration, and you can also learn alot from it. An overreliance however can end up backfiring as you may not end up learning too much, so its important to use with caution. ChatGPT along with other AI products are definetely here to stay, but instead of fearing the worst, we can learn how to use it to our advantage and let it enhance our own work.
