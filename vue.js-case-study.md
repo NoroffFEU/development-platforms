@@ -28,14 +28,14 @@ Vue is a Javascript framework used to build frontend UI. It is simple and has a 
 
 | Feature | Description |
 | :--- | :--- |
-| Virtual DOM | Virtual representation of the DOM tree that makes the page faster |
+| Virtual DOM | Virtual representation of the DOM tree, a copy of the real DOM, that is compared whenever a change is made and updates the UI accordingly, resulting in better performance |
 | Data Binding | Manipulates/assign values to HTML attributes, change style or assign classes etc. |
 | Components | Create custom reusable HTML elements |
 | Event Handling | Event listeners |
 | Animation/Transition | Built-in wrappers and/or third party libraries for transition effects |
 | Computed Properties | Listens to changes made to UI elements and performs necessary calculations without additional coding |
 | Templates | Compiles templates into virtual DOM render functions |
-| Directives | Buil-in directives such as: v-if, v-else, v-show, v-on, v-bind, and v-model |
+| Directives | Built-in directives such as: v-if, v-else, v-show, v-on, v-bind, and v-model |
 | Watchers | Applied to changing data such as form inputs. Data handling is taken care of by a watcher |
 | Routing | Vue-router helps with navigation between pages |
 | Lightweight | Light and fast performing |
