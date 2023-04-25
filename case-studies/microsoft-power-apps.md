@@ -145,6 +145,28 @@ You can also be added by email via a product owner.
 
 When your app is live, you can monitor performance and usage. You can update it with improvements, and address issues or bugs that may occur.
 
+## Production
+
+To publish your new application you can follow these steps: 
+
+1. Open the app you want to publish
+
+2. Click on File > Publish app.
+
+3. In the dialog box, select the environment in which you want to publish the app. 
+You can choose from a list of environments available to you.
+
+4. Choose if it is a canvas app, or a model-driven app you want to publish.
+
+5. Make sure that your external data is properly authorized. This would be typically any connectors or APIs.
+
+6. Configure additional settings, for example analytics.
+
+7. Click the "Publish" button to start the process of publishing your app.
+
+8. When the app is published, you can access it from the environment you chose. 
+You might have to share the app with users who need access to it.
+
 ## Conclusion
 
 This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
