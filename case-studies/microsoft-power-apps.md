@@ -14,6 +14,7 @@ Power Apps is easy to use, and it includes pre-built templates and drag-and-drop
 
 ### What is a low-code environment?
 ![Image](https://user-images.githubusercontent.com/91562336/234335946-140c889d-7b38-450e-8d6a-7be20494fa07.jpg)
+*(Figur 1)*
 
 A low code environment is a platform that allows the user to develop simple and complex applications easier - often with a interface to use instead of pure code. The production time of applications here is a lot quicker.
 
@@ -36,7 +37,7 @@ Customization: While Microsoft Power Apps allows you to create custom applicatio
 
 Performance: Being a cloud-based environment, users can experience lag time and slow response times when running a bigger application.
 
-Subscription cost: Microsoft Power Apps is a subscription-based service. While it's an affordable platform for small businesses, it may not be the best option for bigger enterprises with a large base of users.
+Subscription cost: Microsoft Power Apps is a subscription-based service. Since PowerApps functions inside a Microsoft environment, depending on cost and licensing, it may or may not be an available option for you or your customer.
 
 Limited Offline Access: Another limitation is that Microsoft Power Apps requires an internet connection to work. This can be a challenge for businesses that require offline access to their data, or work in places with limited network access.
 
@@ -67,6 +68,8 @@ To put it into a metaphor, the developer has complete freedom and control over t
 
 ### How it works
 ![Image](https://user-images.githubusercontent.com/91562336/234261904-32e7b386-291d-434e-a223-a40adb4d4a78.png)
+*(Figur 2)*
+
 Every component you make in your Power App is “stored” in .JSON and .YML files. These files are being “fed” into Microsoft’s PowerApps application, which in turn generates your app. You can connect your app to your GitHub account and access the files from there, or open them in your favorite code editor. Accessing these files directly won't necessarily provide you with more options than you already have in the Power Apps editor, but it might be easier to access and change certain features and settings.
 
 ### Version control
