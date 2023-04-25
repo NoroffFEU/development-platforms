@@ -161,7 +161,7 @@ You can find lots  of code editor alternatives in the market right now.
 * Gitlab
 and many more!
 
-But let's focus with two alternatives ( **Atom and Webstorm**) and compare those two with the vscode. 
+But let's focus with two alternatives ( **Atom and Webstorm**) and compare those two with then vscode. 
 
 ### What is the difference between VS Code and Atom?
   
@@ -263,6 +263,28 @@ That's it! With these steps, you should be able to start using VS Code for your 
 
 For more resources, tips and help view the [VS Code Docs](https://code.visualstudio.com/docs)
 
+  
+## Fun Easter Eggs
+  
+  VS Code has several tricks and hacks that are fun to know about! In this section i will give you a quick summary of some of them.
+  
+  1. **Party Mode:** This feature turns your code editor into a disco party. To activate it, open the command palette (Ctrl+shift+P), type "Party mode", and select "Start Party", Your entire screen will start flashing and changing colors!
+  
+  2. **Code Tracker:** This easter Egg tracks the number of keystrokes you make in a day and displays it in the status bar. To activate it, again you have to open your command palette and type "Code Tracker".
+  
+  3. **Cow say:** This feature addsa  cow that says a message of your choice to the integrated terminal. To activate it, open a terminal and type "cowsay" followed by ur message. For example, "cowsay Hello there", The cow will apear and say your message.
+  
+  4. **Zen Mode:** This is a feature that removes all distractions by hiding everything except ur code editor. To activate it, click the Zen mode button in the satus bar, or press f11. The screen will turn black, and only the code editor will be visable.
+  
+  5. **Tetris game:** Did you know you can play games inside VScode? well, now you do! To active this feature, open the command palette, type in "Tetris", and select "Start game". A new tab will open with the game!
+  
+  6. **Konami Code:** If you press the konami code (up, up, down, down, left, right, left, right, B, A) in VS Code, a little surprise will apear on the bottom right of your screen.
+  
+  7. **Emmet Abbrevation:** Emmmet is actually a popular tool for writing HTML and CSS code quickly. In VS code, you can type somthing such as "ul>li*3" and press Tab to expand it into the full code. This could save you a lot of time and effort, and is maybe my favorit trick!
+  
+  
+  **I hope you find these fun Easter eggs and hidden features in VS Code interesting and enjoyable!**
+  
 
 ## Conclusion
 ## Credits
