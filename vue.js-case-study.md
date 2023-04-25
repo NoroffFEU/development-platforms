@@ -44,7 +44,7 @@ Vue is a Javascript framework used to build frontend UI. It is simple and has a 
 
  ### Vue vs React
  
- [!Vue vs React image](https://www.monterail.com/hs-fs/hubfs/blog_graphics/xVue_vs_React_comparison_of_technologies.png,qwidth=1172,aheight=1722,aname=Vue_vs_React_comparison_of_technologies.png.pagespeed.ic.nlnRETuray.webp)
+ ![Vue vs React image](https://www.monterail.com/hs-fs/hubfs/blog_graphics/xVue_vs_React_comparison_of_technologies.png,qwidth=1172,aheight=1722,aname=Vue_vs_React_comparison_of_technologies.png.pagespeed.ic.nlnRETuray.webp)
  
 #### Virtual DOM
  - Both use virtual DOM which makes it faster.
@@ -89,6 +89,7 @@ npm init vue@latest
 - [Vue Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 - [Tutorialspoint](https://www.tutorialspoint.com/vuejs/vuejs_overview.htm)
 - [Blog](https://www.altexsoft.com/blog/engineering/pros-and-cons-of-vue-js/)
+- [Monterail](https://www.monterail.com/blog/vue-vs-react)
 ## Additional Resources
 
 - [Official Website](https://vuejs.org/)
