@@ -6,7 +6,7 @@ tags: supabase, case study, platform, BaaS
 
 ## Introduction
 
- Supabase is a backend-as-a-Service (BaaS) platform that offers PostgreSQL database, authentication, storage and edge functions. It was created in 2019 as an open-source alternative to Firebase. 
+ Supabase is a backend-as-a-Service (BaaS) platform that offers PostgreSQL database, authentication, storage and edge functions. It was created in 2019 as an open-source alternative to Firebase.
 
 ## Brief history
 
@@ -18,7 +18,7 @@ tags: supabase, case study, platform, BaaS
 
 Supabase is based completely on free open-source software (FOSS). Their main features are:
 
-- Postgres database: A free and open source database. It is considered a very stable and advanced database. It is easy to use, and stores structured and related data as in a spreadsheet. It comes with additional features, inculding real-time listening to database changes and database backups.
+- Postgres database: A free and open source database. It is considered a very stable and advanced database. It is easy to use, and stores structured and related data as in a spreadsheet. It comes with additional features, including real-time listening to database changes and database backups.
 - Authentication: Supabase uses open source auth. It has a build-in authentucation, authorization and user management. It works with all the popular login providers, like Google, Facebook, GitHub, Twitter, Discord and many more. It also stores user data in your database.
 - Storage: It has a storage system that lets you store with unlimited scaleability for any file type.
 - Edge functions: Server-side TypeScript functions distributed closer to the user. It gives the user a fast and personilized experience.
@@ -42,7 +42,7 @@ Supabase calls itself an open source alternative to Firebase. There are several 
 
 - Database: The main difference between the two platforms are the databases. Firebase uses NoSQL databases that stores data as collections of documents. This makes storing and retrieving data easy, but it can be more challenging to perform complex queries and transactions. Supabase uses PostgreSQL databases. This supports complex queries and transactions.
 - Open-source: Firebase is not open-source, they are owned by Google and the source code for the platform is not available for users. Supabase is open-source, this means that users can modify the source code, and customize to meet their needs.
-- Lock-in: Supabase is open source so there is no vendor lock-in. Firebase is owned by Google and is vendor locked-in. This limits the user to only using the products from this particular vendor. Being a Google product developers must rely on Google’s infrastructure and support.
+- Lock-in: Supabase is open source so there is no vendor lock-in. Firebase is owned by Google and is vendor locked-in. This limits users to only using the products from this particular vendor. Being a Google product developers must rely on Google’s infrastructure and support.
 - Pricing: Both platforms offers a free tier. Supabase charges based on the database size.
 For bigger projects Firebase offer a pay-as-you-go plan. They charges for reads, writes and deletes. This can get pricey as an app gains popularity and users.
 - Self-hosting: Firebase do not allow self-hosting, while this is something Supabase offers.
