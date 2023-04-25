@@ -8,7 +8,7 @@ tags: javascript, framework, vue
  
  ![Image of Vue logo](https://res.cloudinary.com/practicaldev/image/fetch/s--q6AIFazN--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ll22z8mea106b4vjdjy7.jpeg)
 
-Vue is a Javascript framework for building user interfaces and single-page applications (SPAs). It builds on top of standard HTML, CSS and Javascript and is fairly easy for beginners to learn, given that you have experience with the previously mentioned frontend languages. This distinguishes Vue from competitors that use Typescript, JSX, and require familiarity with an array of different libraries.
+Vue is a Javascript framework for building user interfaces and single-page applications (SPAs). It builds on top of standard HTML, CSS and Javascript and is fairly easy for beginners to learn, given that you have experience with the previously mentioned frontend languages. This distinguishes Vue from competitors that require deep knowledge of Typescript, JSX, and an array of different libraries.
 
 ## Brief History
 
