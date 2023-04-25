@@ -161,7 +161,7 @@ You can find lots  of code editor alternatives in the market right now.
 * Gitlab
 and many more!
 
-But let's focus with two alternatives ( **Atom and Webstorm**) and compare those two with then vscode. 
+But let's focus with two alternatives ( **Atom and Webstorm**) and compare those two with the vscode. 
 
 ### What is the difference between VS Code and Atom?
   
