@@ -22,25 +22,6 @@ Having a low-code environment is much like using buiding blocks to contruct an e
 
 According to Gartner. Inc's latest report the global market for low-code is esitmated to almost 27 billion in 2023.
 
-### So what is the benefits of Power apps?
-
-When looking for a development platform, Power apps has a lot to offer. By looking at the connectors that Power Apps provides, it's clear that the platform has many benefits for a complete environment. Power apps can be used combined with the power platform - and connected to a bunch of back-end technologies. It can easily be looked upon as a magic wand, giving a company the power to solve any business problem you might encounter.
-
-Micorsoft is putting a huge amount of energy into this platform and constantly updates the features and functionality of it's power platform. Whereas alot of these are developed to match user feedback. Power Apps provides a simple code language called Power Fx, which is similar to Excel formulas and makes it easy to get started with app development. App development is always getting quicker, and with co-pilot it's even simpler - Much like ChatGPT. The power platform is much like a bridge to the future, connecting businesses to cutting-edge technology that was not thought possible.
-
-A large benefit of Power Apps is that the created application can be used on both mobile and computer devices. This creates a portable, functional, and simple way of utilizing the application.
-
-Using Power Apps and the Power Platform for security is like building your business on a rock-solid foundation. By leveraging the Microsoft Dataverse platform, businesses can ensure a standardized approach to security, rather than having to create their own security systems from scratch. With a role-based model, each user has access only to the data they need, providing stability and security for your business data.
-
-### Limitations
-Customization: While Microsoft Power Apps allows you to create custom applications for your workplace, the platform has limitations in terms of customization. Users are limited to the features and functionalities provided by Power Apps, and it may not meet all the needs for your application.
-
-Performance: Being a cloud-based environment, users can experience lag time and slow response times when running a bigger application.
-
-Subscription cost: Microsoft Power Apps is a subscription-based service. Since PowerApps functions inside a Microsoft environment, depending on cost and licensing, it may or may not be an available option for you or your customer.
-
-Limited Offline Access: Another limitation is that Microsoft Power Apps requires an internet connection to work. This can be a challenge for businesses that require offline access to their data, or work in places with limited network access.
-
 ## Brief History
 
 - 2015 -Power Apps was first introduced by Microsoft in November 2015 as a new addition to its suite of business applications. Initially, it was part of the Dynamics 365 suite and was called "Project Siena."
@@ -75,8 +56,9 @@ Every component you make in your Power App is “stored” in .JSON and .YML fil
 ### Version control
 Power apps has a built in version control by default. This version control can be accessed outside of the application itself on the main menu and will version every save and track which version that is live.
 Versioning number will be automatic and the creator can add comments on the save and published apps if wanted.
+While this is a really good foundation it might be worth while looking into the other part of versioning, the experimental Github version control.
 
-### Github version control (experimental)
+### Github version control
 The MS team will always release new features into Power apps. One of these is the Git integration which allows users to hook up their application to Girhub. Therefor using it as a version control system in addition to the integrated one.
 
 This will make it possible to pull and push into git, sync the repo and even edit the repo directly in code. Though this make the process of creating an application harder - it can help with even clearer explanation of features, updates and commits.
@@ -88,27 +70,39 @@ Power Apps offer multiple ways to quick-start your app and pre-populate it with 
 ![Image](https://user-images.githubusercontent.com/91562336/234009602-fe73700f-8cd2-44b6-bdf3-a11d815272f2.jpg)
 
 For example: If you have an Excel spreadsheet for booking and charging the company’s electric car, you could make that into an app. In fact, you can use most Microsoft work tools like SharePoint, Excel and Dataverse to create your app. You can also populate your app from a database. Another option is to use a Figma UI kit to get your app started. We will briefly explain a few of the most popular options, and how they work.
+<hr>
 
 ![Image](https://user-images.githubusercontent.com/91562336/234001709-5437d399-166b-4e2e-b3c2-fe1ac1d0fb7d.jpg) 
+
 **Excel**
 
-As already mentioned, you can import data from Excel spreadsheets and use it to generate an app. This can be werry convenient if you already have the data you want to use organized in Excel. Also, many of the formulas used in Excel are also used in Power Apps, although with some difference, it will be familiar for users that are intermediate or advanced in Excel.
+As already mentioned, you can import data from Excel spreadsheets and use it to generate an app. This can be werry convenient if you already have the data you want to use organized in Excel. Also, many of the formulas used in Excel are also used in Power Apps, although with some difference, it will be familiar for users that are intermediate or advanced in Excel. It is worth mentioning that Excel is not a scalable datasource because of it's limitations with columns and rows.
+<hr>
+
 
 ![Image](https://user-images.githubusercontent.com/91562336/234001452-d17c48bd-6fde-4735-a15a-2600756abd0c.png)
+
 **SharePoint**
 
 Lists and libraries from SharePoint can easily be used to populate your app with both text and other content like images or videos.
+<hr>
+
 
 ![Image](https://user-images.githubusercontent.com/91562336/234001607-003ecbae-68e7-48e6-87d4-793deb638d61.png)
+
 **Figma**
 
 You can use the Power Apps Figma asset pack/UI kit to create your app layout, and Power Apps will automatically create that layout for you. It works by utilizing Power Apps prebuilt components. However, this kit is in early access, and not all components are supported yet. For example: Charts, galleries, icons, shapes and tables are not supported. Apart from being limited to supported components only, starting your app from this UI kit is still a good option. Especially if you need to collaborate on your app design outside of the Microsoft environment it exists in. In addition, Figma has more powerful tools for alignment and spacing than Power Apps, and are easier to work with in this regard.
+<hr>
  
 ![Image](https://user-images.githubusercontent.com/91562336/234034611-5a88d3d9-727e-440f-a7b3-f2f4948244c8.png)
+
 **SQL**
  
 You can connect a SQL server to Microsoft PowerApps. It is really simple to connect if you already have an SQL server in your Microsoft environment. You only need to click new connection and choose the SQL server. From there you can either connect directly or use a gateway.
+
 ![Image](https://user-images.githubusercontent.com/91562336/234244332-1f89b5dd-ff22-4c54-825c-7132c0b0ec9f.png)
+<hr>
 
 ### Custom connectors
 Power Apps allows you to create custom connectors that can connect to any RESTful API. This means that you can use Power Apps to connect to almost any data source that provides a web API. To set up a custom connector, you can simply access the inbuilt wizard from the menu.
@@ -125,13 +119,8 @@ Components are the building blocks of Power App. Power Apps have many pre-built 
 | Property                | Each control has one or more properties. Example: Color, size, type, etc. |
 | Function                | Is used to interact with and change properties. Similar syntax to Excel.  |
 
-## Market Comparison
+*Note that a property can be a function, though a function cannot be a property. Example: Hover-state, and on-click-states*
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
 
 ## Getting Started
 
@@ -160,20 +149,35 @@ To publish your new application you can follow these steps:
 3. In the dialog box, select the environment in which you want to publish the app. 
 You can choose from a list of environments available to you.
 
-4. Choose if it is a canvas app, or a model-driven app you want to publish.
+4. Make sure that your external data is properly authorized. This would be typically any connectors or APIs.
 
-5. Make sure that your external data is properly authorized. This would be typically any connectors or APIs.
+5. Configure additional settings, for example analytics.
 
-6. Configure additional settings, for example analytics.
+6. Click the "Publish" button to start the process of publishing your app.
 
-7. Click the "Publish" button to start the process of publishing your app.
-
-8. When the app is published, you can access it from the environment you chose. 
+7. When the app is published, you can access it from the environment you chose. 
 You might have to share the app with users who need access to it.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+### So what is the benefits of Power apps?
+
+When looking for a development platform, Power apps has a lot to offer. By looking at the connectors that Power Apps provides, it's clear that the platform has many benefits for a complete environment. Power apps can be used combined with the power platform - and connected to a bunch of back-end technologies. It can easily be looked upon as a magic wand, giving a company the power to solve any business problem you might encounter.
+
+Micorsoft is putting a huge amount of energy into this platform and constantly updates the features and functionality of it's power platform. Whereas alot of these are developed to match user feedback. Power Apps provides a simple code language called Power Fx, which is similar to Excel formulas and makes it easy to get started with app development. App development is always getting quicker, and with co-pilot it's even simpler - Much like ChatGPT. The power platform is much like a bridge to the future, connecting businesses to cutting-edge technology that was not thought possible.
+
+A large benefit of Power Apps is that the created application can be used on both mobile and computer devices. This creates a portable, functional, and simple way of utilizing the application.
+
+Using Power Apps and the Power Platform for security is like building your business on a rock-solid foundation. By leveraging the Microsoft Dataverse platform, businesses can ensure a standardized approach to security, rather than having to create their own security systems from scratch. With a role-based model, each user has access only to the data they need, providing stability and security for your business data.
+
+### Limitations
+Customization: While Microsoft Power Apps allows you to create custom applications for your workplace, the platform has limitations in terms of customization. Users are limited to the features and functionalities provided by Power Apps, and it may not meet all the needs for your application.
+
+Performance: Being a cloud-based environment, users can experience lag time and slow response times when running a bigger application.
+
+Subscription cost: Microsoft Power Apps is a subscription-based service. Since PowerApps functions inside a Microsoft environment, depending on cost and licensing, it may or may not be an available option for you or your customer.
+
+Limited Offline Access: Another limitation is that Microsoft Power Apps requires an internet connection to work. This can be a challenge for businesses that require offline access to their data, or work in places with limited network access.
 
 ## References
 
