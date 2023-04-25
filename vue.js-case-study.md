@@ -24,8 +24,6 @@ Vue was created by Evan You, a Google software engineer, in 2013 and had its off
 
 ## Main Features
  
-Vue is a Javascript framework used to build frontend UI. It is simple and has a small learning curve, good library support and is efficient.
-
 | Feature | Description |
 | :--- | :--- |
 | Virtual DOM | Virtual representation of the DOM tree, a copy of the real DOM, that is compared whenever a change is made and updates the UI accordingly, resulting in better performance |
