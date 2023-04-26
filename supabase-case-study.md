@@ -13,6 +13,7 @@ tags: supabase, case study, platform, BaaS
 - 2019: Supabase is created
 - July 2020: Announced Auth
 - November 2020: Supabase Beta
+- December 2020: Recieves $6M in funding
 
 ## Main features
 
@@ -66,3 +67,4 @@ Supabase is an open-source platform that offers many features for developers. Li
 - https://www.red-gate.com/simple-talk/development/other-development/firebase-and-supabase-key-differences/
 - https://makerkit.dev/blog/saas/supabase-vs-firebase
 - https://medium.com/@brenda.clark/firebase-alternative-3-open-source-ways-to-follow-e45d9347bc8c
+- https://techcrunch.com/2020/12/15/supabase-raises-6m-for-its-open-source-firebase-alternative/
