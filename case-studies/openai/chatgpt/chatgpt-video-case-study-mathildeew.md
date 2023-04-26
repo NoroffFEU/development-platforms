@@ -1,7 +1,7 @@
 ---
 title: ChatGPT - Video Case Study
-keywords: development platforms, chatGPT, openAI, NLP, GPT, AI, chatbot
-tags: Development Platforms
+author: [Mathilde Elinor](https://github.com/mathildeew) 
+tags: development platforms, chatGPT, openAI, NLP, GPT, AI, chatbot
 ---
 
 # ChatGPT- Video Case study
