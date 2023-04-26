@@ -4,9 +4,9 @@ keywords: development platforms, chatGPT, openAI, NLP, GPT, AI, chatbot
 tags: Development Platforms
 ---
 
-#ChatGPT- Video Case study
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/r_1Vy1ahp5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  
+# ChatGPT- Video Case study
+[![ChatGPT - Video Case Study](http://img.youtube.com/vi/1Vy1ahp5Y/0.jpg)](https://www.youtube.com/watch?v=r_1Vy1ahp5Y "ChatGPT - Video Case Study")
+
 ## Credits
 This is a video companion of two consolidated previous written case studies:
 
