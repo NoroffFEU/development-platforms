@@ -5,9 +5,7 @@ tags: Development Platforms
 ---
 
 # ChatGPT- Video Case study
-[![ChatGPT - Video Case Study]
-(https://user-images.githubusercontent.com/94295012/234562826-6e05629f-9afc-494c-ba05-4e83db361370.png)]
-(https://www.youtube.com/watch?v=r_1Vy1ahp5Y)
+[![ChatGPT - Video Case Study](https://user-images.githubusercontent.com/94295012/234562826-6e05629f-9afc-494c-ba05-4e83db361370.png)](https://www.youtube.com/watch?v=r_1Vy1ahp5Y)
 
 ## Credits
 This is a video companion of two consolidated previous written case studies:
