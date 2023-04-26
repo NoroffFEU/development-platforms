@@ -14,10 +14,10 @@ You can find the demo here: https://github.com/ohjenssen/OpenAI-API-Demo
 Oskar Heming Jenssen
 
 ## References
-https://platform.openai.com/
-https://gptforwork.com/guides/openai-gpt3-tokens
-https://www.makeuseof.com/openai-api-guide-what-can-you-do/
+- https://platform.openai.com/
+- https://gptforwork.com/guides/openai-gpt3-tokens
+- https://www.makeuseof.com/openai-api-guide-what-can-you-do/
 
 ## Additional Resources
-https://github.com/ohjenssen/OpenAI-API-Demo
-https://platform.openai.com/docs/introduction
+- https://github.com/ohjenssen/OpenAI-API-Demo
+- https://platform.openai.com/docs/introduction
