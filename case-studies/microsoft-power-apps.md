@@ -13,10 +13,10 @@ Power Apps is a part of the Microsoft Power Platform which also includes other u
 Power Apps is easy to use, and it includes pre-built templates and drag-and-drop components, allowing users to quickly create functional apps for their work environment. Power Apps integrates with a range of data sources, for example cloud-based services.
 
 ### What is a low-code environment?
-![Image](https://user-images.githubusercontent.com/91562336/234335946-140c889d-7b38-450e-8d6a-7be20494fa07.jpg)
-*(Figur 1)*
+![Image](https://user-images.githubusercontent.com/91562336/234335946-140c889d-7b38-450e-8d6a-7be20494fa07.jpg)<br />
+*(Fig. 1)*
 
-A low-code environment is a platform that allows the user to develop simple and complex applications easier - often with an interface to use instead of pure code. The production time of applications here is a lot quicker.
+As shown in Fig. 1, a low-code environment is a platform that allows the user to develop simple and complex applications easier - often with an interface to use instead of pure code. The production time of applications here is a lot quicker.
 
 Having a low-code environment is much like using building blocks to construct an entire city. You can assemble the structures you need without worrying about how each brick works and what way they should be used. It will empower you to build a range of applications with ease.
 
@@ -48,8 +48,8 @@ Some options in canvas-driven apps involve customizing how buttons, controls, an
 To put it into a metaphor, the developer has complete freedom and control over the application itself, adding colors, shapes, elements, and interactions to create a personalized piece of art for users to interact with.
 
 ### How it works
-![Image](https://user-images.githubusercontent.com/91562336/234261904-32e7b386-291d-434e-a223-a40adb4d4a78.png)
-*(Figur 2)*
+![Image](https://user-images.githubusercontent.com/91562336/234261904-32e7b386-291d-434e-a223-a40adb4d4a78.png)<br />
+*(Fig. 2 components stored in JSON)*
 
 Every component created in a Power App is stored in .JSON and .YML files. These files are then utilized by Microsoft's Power Apps application to generate the app. You have the option to connect your app to your GitHub account to access the files, or you can open them in your preferred code editor. Directly accessing these files may not necessarily provide additional options beyond what is available in the Power Apps editor, but it can make it easier to access and modify certain features and settings.
 
@@ -63,38 +63,35 @@ This makes it possible to pull and push into Git, sync the repository, and even 
 
 To get started, navigate to Settings > Experimental Features and scroll down until you see Git integration.
 
-### Start from data sources
+### Start from datasources
 Power Apps offers multiple ways to quickly start your app and pre-populate it with data. With access to multiple data sources in the Microsoft environment, it becomes a powerful tool to generate apps that can solve work-related problems on the fly.
-![Image](https://user-images.githubusercontent.com/91562336/234009602-fe73700f-8cd2-44b6-bdf3-a11d815272f2.jpg)
+![Image](https://user-images.githubusercontent.com/91562336/234009602-fe73700f-8cd2-44b6-bdf3-a11d815272f2.jpg)<br />
+*(Fig. 3 different datasources available to Power Apps)*
 
 For example, if you have an Excel spreadsheet for booking and charging the company’s electric car, you can turn it into an app. In fact, you can use most of Microsoft's work tools such as SharePoint, Excel, and Dataverse to create your app. You can also populate your app from a database. Another option is to use a Figma UI kit to get started with your app. We will briefly explain a few of the most popular options and how they work.
 <hr>
 
-![Image](https://user-images.githubusercontent.com/91562336/234001709-5437d399-166b-4e2e-b3c2-fe1ac1d0fb7d.jpg) 
-
+![Image](https://user-images.githubusercontent.com/91562336/234001709-5437d399-166b-4e2e-b3c2-fe1ac1d0fb7d.jpg) <br />
 **Excel**
 
 As already mentioned, you can import data from Excel spreadsheets and use it to generate an app. This can be very convenient if you already have the data you want to use organized in Excel. Additionally, many of the formulas used in Excel are also used in Power Apps, so users with intermediate or advanced Excel skills will find it familiar. It is worth mentioning, however, that Excel is not a scalable data source due to its limitations with columns and rows.
 <hr>
 
 
-![Image](https://user-images.githubusercontent.com/91562336/234001452-d17c48bd-6fde-4735-a15a-2600756abd0c.png)
-
+![Image](https://user-images.githubusercontent.com/91562336/234001452-d17c48bd-6fde-4735-a15a-2600756abd0c.png)<br />
 **SharePoint**
 
 Use SharePoint lists and libraries to populate Power Apps with data and media. This enables you to easily create engaging apps by adding text, images, and videos. Whether you require product catalogs, customer reviews, or instructional videos, SharePoint simplifies content integration into your app.
 <hr>
 
 
-![Image](https://user-images.githubusercontent.com/91562336/234001607-003ecbae-68e7-48e6-87d4-793deb638d61.png)
-
+![Image](https://user-images.githubusercontent.com/91562336/234001607-003ecbae-68e7-48e6-87d4-793deb638d61.png)<br />
 **Figma**
 
 You can use the Power Apps Figma asset pack or UI kit to create your app's layout, and Power Apps will automatically generate it for you. This process is possible by utilizing Power Apps prebuilt components. However, it is important to note that this kit is currently in early access and not all components are supported yet. For instance, charts, galleries, icons, shapes, and tables are not yet supported. Despite the limitation to supported components only, starting your app from this UI kit is still a viable option, especially if you need to collaborate on your app design outside of the Microsoft environment. Additionally, Figma offers more robust tools for alignment and spacing than Power Apps, making them easier to work with in this regard.
 <hr>
  
-![Image](https://user-images.githubusercontent.com/91562336/234034611-5a88d3d9-727e-440f-a7b3-f2f4948244c8.png)
-
+![Image](https://user-images.githubusercontent.com/91562336/234034611-5a88d3d9-727e-440f-a7b3-f2f4948244c8.png)<br />
 **SQL**
  
 Connecting a SQL server to Microsoft Power Apps is a simple process, especially if you already have an SQL server in your Microsoft environment. All you need to do is click on "new connection" and select the SQL server. Once you do that, you can either connect directly or use a gateway to establish a connection.
@@ -163,50 +160,39 @@ However, there are also some limitations to Power Apps that should be considered
 
 Overall, Power Apps is a powerful and reliable development platform that offers many benefits for businesses looking to develop custom applications. However, it is essential to consider its limitations before deciding to use it for your business needs.
 
-## References
 
-## Additional Resources
+## Resources
 
-Microsoft’s Power Apps official webpage.
-Url: https://powerapps.microsoft.com/nb-no/ 
+[Microsoft’s Power Apps official webpage.](https://powerapps.microsoft.com/nb-no/)
 
-Connect to SQL server from Power Apps (2022), Microsoft Learn.
-Url: https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/connections/connection-azure-sqldatabase 
+[Connect to SQL server from Power Apps (2022), Microsoft Learn.](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/connections/connection-azure-sqldatabase)
 
-Create a custom connector from scratch (2022), Microsoft Learn.
-Url: https://learn.microsoft.com/en-us/connectors/custom-connectors/define-blank 
+[Create a custom connector from scratch (2022), Microsoft Learn.](https://learn.microsoft.com/en-us/connectors/custom-connectors/define-blank)
 
-Understand data sources for canvas apps (2022), Microsoft Learn.
-Url: https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/working-with-data-sources 
+[Understand data sources for canvas apps (2022), Microsoft Learn.](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/working-with-data-sources)
 
-What are canvas apps? (2023), Microsoft Learn.
-Url: https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/getting-started 
+[What are canvas apps? (2023), Microsoft Learn.](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/getting-started)
 
-Canvas component overview (2023), Microsoft Learn.
-Url: https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/create-component 
+[Canvas component overview (2023), Microsoft Learn.](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/create-component)
 
-What are model-driven apps in Power Apps? (2022), Microsoft Learn.
-Url: https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/model-driven-app-overview 
+[What are model-driven apps in Power Apps? (2022), Microsoft Learn.](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/model-driven-app-overview)
 
-How to use Microsoft Power Apps - Beginner tutorial (2021), Kevin Starvert.
-Url: https://www.youtube.com/watch?v=2RzCbd5XgJg 
+[How to use Microsoft Power Apps - Beginner tutorial (2021), Kevin Starvert.](https://www.youtube.com/watch?v=2RzCbd5XgJg)
 
-PowerApps tutorial - Create, customize, and share an app from a SharePoint list (2022), Shane Young.
-Url: https://www.youtube.com/watch?v=kA5xUtrM6bo 
+[PowerApps tutorial - Create, customize, and share an app from a SharePoint list (2022), Shane Young.](https://www.youtube.com/watch?v=kA5xUtrM6bo)
 
-Convert your Figma design to a Power App using Figma to app (2022), Microsoft Power Apps.
-Url: https://www.youtube.com/watch?v=XH0XmwpqVuQ 
+[Convert your Figma design to a Power App using Figma to app (2022), Microsoft Power Apps.](https://www.youtube.com/watch?v=XH0XmwpqVuQ)
 
-How to create a Power App from Figma tutorial | Figma and Power Apps integration (2022), Power Apps University.
-Url: https://www.youtube.com/watch?v=-8PTq2fCcgA 
+[How to create a Power App from Figma tutorial | Figma and Power Apps integration (2022), Power Apps University.](https://www.youtube.com/watch?v=-8PTq2fCcgA)
 
-Microsoft Power Apps - Create Apps from Figma UI kit (Preview), Microsoft.
-Url: https://www.figma.com/community/file/1110934196623232680/Microsoft-Power-Apps---Create-Apps-from-Figma-UI-Kit-(Preview)
+[Microsoft Power Apps - Create Apps from Figma UI kit (Preview), Microsoft.](https://www.figma.com/community/file/1110934196623232680/Microsoft-Power-Apps---Create-Apps-from-Figma-UI-Kit-(Preview))
 
-What is Power Apps?
-Url: https://www.youtube.com/watch?v=uqYgq9wmgQg&ab_channel=LisaCrosbie
+[What is Power Apps?](https://www.youtube.com/watch?v=uqYgq9wmgQg&ab_channel=LisaCrosbie)
 
-Microsoft Power Platform Fundamentals in 15 minutes
-Url: https://www.youtube.com/watch?v=ergBfAQqsgk&ab_channel=LisaCrosbie
+[Microsoft Power Platform Fundamentals in 15 minutes](https://www.youtube.com/watch?v=ergBfAQqsgk&ab_channel=LisaCrosbie)
+
+[Shane Young](https://www.youtube.com/channel/UC7_OGRP8BYvtGB8eZdPG6Ng)
+
+[Leila Gharani](https://youtube.com/@LeilaGharani)
 
 
