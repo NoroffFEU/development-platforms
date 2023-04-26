@@ -8,6 +8,7 @@
 
 
 ## Introduction
+Visual Studio Code is a widely used, and one of the leading code-editors out there right now. A powerful, simple, easy-to-use, free and open-source platform developed by Microsoft. It has a huge marketplace for plug-ins and built-in support for debugging with breakpoints. It also supports multiple languages. 
 
 ## Brief History
   
@@ -287,6 +288,9 @@ For more resources, tips and help view the [VS Code Docs](https://code.visualstu
   
 
 ## Conclusion
+  
+In conclusion, VS Code is a popular choice among developers due to its powerful features and user-friendly interface. Its vast library of extensions and plugins enables developers to customize their coding environment to their liking. While there are many alternatives in the market, VSCode's continued development and support from Microsoft suggest it will remain a leading code editor for years to come. Ultimately, the choice of code editor is a matter of personal preference, and developers who prioritize simplicity and power may find VS Code to be their ideal choice.
+  
 ## Credits
   * Jonas Hope (JonasHope) 
   * Ma Enirose Hellum (Enirose) 
