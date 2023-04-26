@@ -1,6 +1,6 @@
 ---
 title: ChatGPT - Video Case Study
-author: [Mathilde Elinor](https://github.com/mathildeew) 
+author: Mathilde Elinor<mathildeew> 
 tags: development platforms, chatGPT, openAI, NLP, GPT, AI, chatbot
 ---
 
