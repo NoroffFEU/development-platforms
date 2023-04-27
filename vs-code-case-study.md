@@ -304,3 +304,6 @@ In conclusion, VS Code is a popular choice among developers due to its powerful 
   * (https://www.trustradius.com/products/microsoft-visual-studio-code/reviews#reviews)
   * (https://www.techrepublic.com/article/webstorm-vs-vscode/)
   * (https://www.trustradius.com/products/intellij-webstorm/reviews?qs=pros-and-cons#comparisons)
+  * (https://en.wikipedia.org/wiki/Visual_Studio_Code)
+  * (https://geekflare.com/vs-code-extensions/)
+  
