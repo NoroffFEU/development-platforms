@@ -84,7 +84,33 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
     -> FROM citizen
     -> WHERE income/dependents > 10000 AND age > 30;
 ```
+- Full support of SQL `GROUP BY` and `ORDER BY` clauses. Support for functions as `COUNT()`, `AVG()`, `STD()`, `SUM()`, `MAX()`, `MIN()`, and `GROUP CONCAT()`'
+- It supports `LEFT OUTER JOIN` and `RIGHT OUTER JOIN` with both standard SQL and ODBC syntax
+- Support `DELETE`, `INSERT`, `REPLACE`, and `UPDATE` to return the number of rows that were changed/affected, or to return the number of rows matched instead of setting a flag when connecting to the server
+- Support for MySQL-specific `SHOW` statements that retrieve information about databases, storage engines, tables, and indexes. Support for the `INFORMATION_SCHEMA` database, implemented according to standard SQL.
+- An `EXPLAIN` to show how the optimizer resolves a query
+- Independence of function names from table or column names. For example, `ABS` is a valid column name. The only restriction is that for a function call no spaces are permitted between the function name and the `()` that follows it
+- Users can refer to tables from different databases in the same statement
 
+**Security:**
+- MySQL consists of a solid data security layer that protects sensitive data from intruders
+- A privilege and password system that is very flexible and secure, and that enables host-based verification
+- Password security by encryption of all password traffic when you connect to a server.
+
+**Scalability and Limits**
+- Support for large databases. MySQL Server offers databases that contains 50 million records. There are also users who use MySQL Server with 200,000 tables and about 5,000,000,000 rows
+- Support for up to 64 indexes per table. Each index may consist of 1 to 16 columns or parts of columns. The maximum index width of `InnoDB` tables is either 767 bytes or 3072 bytes. The maximum index width for `MyISAM` tables is 1000 bytes. Also, an index may use prefix of a column for `CHAR`, `VARCHAR`, `BLOB`, or `TEXT` column types
+
+**Connectivity**
+- Clients can connect to MySQL Server using several protocols:
+- - Clients can connect using TCP/IP sockets on any platform
+- - On Windows systems, clients can connect using named pipes if the server is started with `named_pipe` system variable enabled
+- - Windows servers also support shared-memory connections if started with the `shared_memory` system variabe enabled
+- - Clients can connect through shared memory by using the `--protocol=memory` option
+- - on Unix systems, clients can connect using Unix domain socket files
+- MySQL client programs can be written in many languages. A client library written in `C` is available for clients written in `C` or `C++`, or for any language that provides `C` bindings
+- APIs for `C`, `C++`, `Eiffel`, `Java`, `Perl`, `PHP`, `Phyton`, `Ruby` and `TcI` are available, enabling MySQL clients to be written in many languages
+- 
 
 Example feature table:
 
