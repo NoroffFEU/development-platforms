@@ -8,7 +8,7 @@ Tags: MySQL, Datastore, Database, Relational Database, Relational Database Manag
 
 ## Introduction
 
-MySQL is a Relational Database Management System (RDBMS), based on Structured Query Language (SQL). MySQL was originally developed and released on 23rd of May in 1995 by the swedish company MySQL AB, founded by David Axmark, Allan Larsson and Michael Widenius. MySQL was in 2010 bought by Sun Microsystems (now Oracle Corporation). MySQL is an open-source software that runs on most operating systems (OS).
+MySQL is a Relational Database Management System (RDBMS), based on Structured Query Language (SQL). MySQL was originally developed and released on 23rd of May in 1995 by the swedish company MySQL AB, founded by David Axmark, Allan Larsson and Michael Widenius. MySQL was in 2008 bought by Sun Microsystems (later acquired by Oracle Corporation in 2010). MySQL is an open-source software that runs on most operating systems (OS).
 
 
 ## Brief History
@@ -19,7 +19,20 @@ MySQL is a Relational Database Management System (RDBMS), based on Structured Qu
 - 1998: Production release from www.mysql.com
 - 2001: Production release, MySQL version 3.23 declared stable
 - 2003: Production release, version 4.0: Set operations allow the results of multiple queries to be combined into a single result: (UNION, INTERSECT, EXCEPT)
-- 
+- 2004: Production release, version 4.1: Subqueries, prepared statements, R-trees, B-trees
+- 2005: Production release, version 5.0: Cursors, Stored Procedures, Triggers, Views, Database Transactions (XA transactions)
+- 2008: MySQL AB acquired by Sun Microsystems
+- 2008: Production release, version 5.1: Event scheduler, partitioning, plugin API, row-based replication, server log tables
+- 2010: Sun Microsystems acquired by Oracle Corporation
+- 2010: Michael Widenius forked MySQL the day Oracle announced the purchase of Sun Microsystems, launching MariaDB
+- 2010: MySQL Server 5.5 generally available, with features and enchancementes included: 
+- - Default storage engine InnoDB (supports transactions and referential integrity constraints)
+- - Improved InnoDB I/O subsystem
+- - Improved SMP support
+- - Semisynchronous replication
+- - SIGNAL and RESIGNAL statement in compliance with the SQL standard
+- - Support for supplementary Unicode characters sets utf-16, utf-32 and utf-8mb4
+- - New options for user-defined partitioning
 
 ## Main Features
 
