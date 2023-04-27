@@ -58,14 +58,19 @@ The following section describes some of the most important features and characte
 
 **Relational Database Management System (RDBMS):**
 - MySQL is a relational database management system. This database language is based on the SQL queries to access and manage records of the table
+
 **Easy to use:**
 - MySQL is user-friendly and easy to learn. New users only have to get basic knowledge of SQL. And can build and interact with MySQL by using only a few simple SQL statements
+
 **It is secure:**
 - MySQL consists of a solid data security layer that protects sensitive data from intruders. Passwords are also encrypted in MySQL
+
 **Client/Server Architecture:**
 - MySQL follows the working of a client/server architecture. There is a server (MySQL) and arbitrarily many clients (application programs) which communicates with the server; that is, they can query data, save changes, etc.
+
 **Free to download:**
 - MySQL is a free-to-use software that users can download from www.mysql.com without any cost
+
 **It is scalable:**
 - 
 
