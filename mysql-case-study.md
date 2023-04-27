@@ -56,23 +56,35 @@ MySQL is as mentioned a relational database management system (RDBMS) based on t
 
 The following section describes some of the most important features and characteristics of the MySQL Database Software:
 
-**Relational Database Management System (RDBMS):**
-- MySQL is a relational database management system. This database language is based on the SQL queries to access and manage records of the table
+**Internals and Portability:**
+- Written in C and C++
+- Tested with a broad range of different compilers
+- Works on many different platforms
+- For portability, configured using CMake
+- Tested with Purify (commercial memory leakage detector) as well as with Valgrind (a GPL tool)
+- Uses multi-layered server design with independent modules
+- Designed to be fully multithreaded using kernel threads, to easily use multiple CPUs if they are available
+- Provides transactional and non-transactional storage engines
+- Uses very fast B-tree disk tables (MyISAM) with index compression
+- Designed to make it relatively easy to add other storage engines. This is useful if you want to provide an SQL interface for an in-house database
+- Executes very fast JOINs using an optimized nested-loop JOIN.
+- Implements SQL functions using highly optimized class library that should be as fast as possible. Usually there is no memory allocation at all after query initialization
+- Provides the server as a separate program for use in a client/server networked environment
 
-**Easy to use:**
-- MySQL is user-friendly and easy to learn. New users only have to get basic knowledge of SQL. And can build and interact with MySQL by using only a few simple SQL statements
+**Data Types:**
+- Fixed length and variable-length string types
+- Many data types:
+- - signed/unsigned integers 1, 2, 3, 4 and 8 bytes long
+- - FLOAT, DOUBLE, CHAR, VARCHAR, BINARY, VARBINARY, TEXT, BLOB, DATE, TIME, DATETIME, TIMESTAMP, YEAR, SET, ENUM and OpenGIS spatial types
 
-**It is secure:**
-- MySQL consists of a solid data security layer that protects sensitive data from intruders. Passwords are also encrypted in MySQL
+**Statements and Functions:**
+- Full operator and function support in the SELECT list and WHERE clause of queries. For example:
+```sql
+mysql> SELECT CONCAT(first_name, ' ', last_name)
+    -> FROM citizen
+    -> WHERE income/dependents > 10000 AND age > 30;
+```
 
-**Client/Server Architecture:**
-- MySQL follows the working of a client/server architecture. There is a server (MySQL) and arbitrarily many clients (application programs) which communicates with the server; that is, they can query data, save changes, etc.
-
-**Free to download:**
-- MySQL is a free-to-use software that users can download from www.mysql.com without any cost
-
-**It is scalable:**
-- 
 
 Example feature table:
 
