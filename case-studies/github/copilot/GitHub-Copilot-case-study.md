@@ -1,24 +1,9 @@
-<table>
-  <tr>
-   <td><strong>Title</strong>
-   </td>
-   <td><strong>Author</strong>
-   </td>
-   <td><strong>Tags</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>GitHub Copilot case study
-   </td>
-   <td>Petter Emil Hatland Mikalsen &lt;petmik1>
-   </td>
-   <td>GitHub, case study, Copilot, AI 
-   </td>
-  </tr>
-</table>
-
-
-
+---
+title: GitHub Copilot case study
+author: Petter Emil Hatland Mikalsen <petmik1>
+tags:GitHub, case study, Copilot, AI
+---
+  
 ## Introduction
 
 according to GitHub, “GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pretrained language model created by OpenAI. It is available as an extension for Visual Studio Code, Visual Studio, Neovim, and the JetBrains suite of integrated development environments (IDEs).”
@@ -27,8 +12,6 @@ This is a great introduction description of what Copilot is. It is meant to be a
 
 
 ## Brief history
-
-
 
 * June 29, 2021: GitHub announced the beta version of Copilot, an AI-powered code completion tool developed in collaboration with OpenAI.
 * July 5, 2021: The Copilot beta was made available to a limited number of testers, who were given access to the tool through a Visual Studio Code extension.
@@ -40,7 +23,6 @@ This is a great introduction description of what Copilot is. It is meant to be a
 
 
 ## Main features
-
 
 
 * AI-powered code completion
