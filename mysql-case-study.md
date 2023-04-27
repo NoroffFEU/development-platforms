@@ -4,9 +4,12 @@ author: Jøran Engelund
 tags: MySQL, Datastore, Database, Relational Database, Relational Database Management System, Open-Source
 ---
 
+![png-clipart-mysql-workbench-database-mysql-cluster-others-text-logo](https://user-images.githubusercontent.com/56642663/234897204-b5ff8767-6ce2-4dd4-a050-c4bce3ae5292.png)
+
+
 ## Introduction
 
-MySQL is a Relational Database System Management, based on structured query language (SQL). MySQL was originally developed and released on 23rd of May in 1993 by a swedish company, MySQL AB, founded by David Axmark, Allan Larsson and Michael "Monty" Widenius. and is licenced an open-source that runs on most Operating Systems (OS).  
+MySQL is a Relational Database Management System (RDBMS), based on structured query language (SQL). MySQL was originally developed and released on 23rd of May in 1993 by the swedish company MySQL AB, founded by David Axmark, Allan Larsson and Michael Widenius. MySQL is licensed as an open-source that runs on most Operating Systems (OS).  
 
 ## Brief History
 
