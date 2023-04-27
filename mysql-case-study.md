@@ -15,6 +15,10 @@ MySQL is a Relational Database Management System (RDBMS), based on Structured Qu
 
 - 1994: Original Development of MySQL by Widenious and Axmark
 - 1995: First version released by MySQL AB, by David Axmark, Allan Larsson and Michael Widenius.
+- 1998: First version for Windows OS was released for Windows 95 and NT
+- 1998: Production release from www.mysql.com
+- 2001: Production release, MySQL version 3.23 declared stable
+- 2003: Production release, version 4.0: Set operations allow the results of multiple queries to be combined into a single result: (UNION, INTERSECT, EXCEPT)
 - 
 
 ## Main Features
