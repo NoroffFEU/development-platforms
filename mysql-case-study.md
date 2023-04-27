@@ -85,7 +85,7 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
     -> WHERE income/dependents > 10000 AND age > 30;
 ```
 - Full support of SQL `GROUP BY` and `ORDER BY` clauses. Support for functions as `COUNT()`, `AVG()`, `STD()`, `SUM()`, `MAX()`, `MIN()`, and `GROUP CONCAT()`'
-- It supports `LEFT OUTER JOIN` and `RIGHT OUTER JOIN` with both standard SQL and ODBC syntax
+- It supports `LEFT OUTER JOIN` and `RIGHT OUTER JOIN` with both standard SQL and ODBC (Open Database Connectivity) syntax
 - Support `DELETE`, `INSERT`, `REPLACE`, and `UPDATE` to return the number of rows that were changed/affected, or to return the number of rows matched instead of setting a flag when connecting to the server
 - Support for MySQL-specific `SHOW` statements that retrieve information about databases, storage engines, tables, and indexes. Support for the `INFORMATION_SCHEMA` database, implemented according to standard SQL.
 - An `EXPLAIN` to show how the optimizer resolves a query
@@ -110,7 +110,25 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - - on Unix systems, clients can connect using Unix domain socket files
 - MySQL client programs can be written in many languages. A client library written in `C` is available for clients written in `C` or `C++`, or for any language that provides `C` bindings
 - APIs for `C`, `C++`, `Eiffel`, `Java`, `Perl`, `PHP`, `Phyton`, `Ruby` and `TcI` are available, enabling MySQL clients to be written in many languages
-- 
+- The connector/ODBC (MyODBC) interface provides MySQL support for client programs that use ODBC (Open Database Connectivity) connections. 
+- - For example, you can use MS Access to connect your MySQL Server. Clients can be run on Windows or Unix.
+- The Connector/J interface provides MySQL support for Java client programs that use JDBC connections. Clients can be run on Windows or Unix
+- MySQL Connector/NET enables developers to easily create `.NET` applications that require secure, high-performance data connectivity with MySQL. It implements the required `ADO.NET` interfaces and integrates into `ADO.NET` aware tools. Developers can build applications using their choice of `.NET` languages
+- MySQL Connector/NET is a fully managed `ADO.NET` driver written 100% in pure `C#`
+
+**Localization**
+- The MySQL Server can provide error messages to clients in many languages
+- MySQL has full support for several different character sets, including `latin1(cp1252)`, `german`, `big5`, `ujis`, several Unicode character sets, and more
+- - for example, the scandinavian characters `"Å"`, `"Ä"`, `Ø`, and `Ö` are permitted in the table and column names
+- All data is saved in the chosen character set
+- Sorting and comparisons are done according to the default character set and collation. It is possible to change this when the MySQL Server is started
+- The server time zone can be changed dynamically, and individual clients can specify their own time zone
+
+**Clients and Tools**
+- MySQL includes several client and utility programs. These include both command-line programs such as `mysqldump` and `mysqladmin`, and graphical programs such as MySQL Workbench
+- MySQL Server has built-in support for SQL statements to check, optimize, and repair tables. These statements are available from the command-line utility for performing these operations on `MyISAM` tables
+- MySQL programs can be invoked with the `--help` or `-?` option to obtain online assistance
+
 
 Example feature table:
 
