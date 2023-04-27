@@ -33,13 +33,31 @@ MySQL is a Relational Database Management System (RDBMS), based on Structured Qu
 - - SIGNAL and RESIGNAL statement in compliance with the SQL standard
 - - Support for supplementary Unicode characters sets utf-16, utf-32 and utf-8mb4
 - - New options for user-defined partitioning
+- 2013: The general availability of MySQL version 5.6 announced, with new features like:
+- - Performance improvements to the query optimizer
+- - Higher transactional throughput in InnoDB
+- - new NoSQL-style memcached APIs
+- - Improvements to partitioningfor querying and managing very large tables
+- - TIMESTAMP column type that correctly stores milliseconds
+- - Improvements to replication
+- - InnoDB storage engine included support for full-text search and improved group commit performance
+- 2015: The general availability of MySQL 5.7: MySQL supports a native JSON data type defined by RFC 7159
+- 2018: MySQL Server 8.0 announced, including:
+- - NoSQL Document Store
+- - Atomic and crash safe DDL sentences and JSON Extended syntax
+- - JSON table functions
+- - Improved sorting
+- - Partial updates
+- 2019: DB-Engines ranking declares MySQL DBMS
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+MySQL is as mentioned a relational database management system (RDBMS) based on the structural query language (SQL) and is one of the most popular languages in the market for accessing and managing table records. MySQL is also a open-source and free software under the GNU license.
 
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
+The following section describes some of the most important features and characteristics of the MySQL Database Software:
+
+- **Internals and Portability:**
+- - wawdwa
 - **Example Feature:** This feature does something for a specific reason.
 - **Example Feature:** This feature does something for a specific reason.
 
