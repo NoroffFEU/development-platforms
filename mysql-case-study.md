@@ -1,25 +1,21 @@
 ---
 Title: MySQL Case Study
-author: Jøran Engelund
-tags: MySQL, Datastore, Database, Relational Database, Relational Database Management System, Open-Source
+Author: Jøran Engelund
+Tags: MySQL, Datastore, Database, Relational Database, Relational Database Management System, Open-Source
 ---
 
 ![mysql-official](https://user-images.githubusercontent.com/56642663/234897614-037394b5-4c2c-459d-9934-a4e7c9175933.svg)
 
 ## Introduction
 
-MySQL is a Relational Database Management System (RDBMS), based on structured query language (SQL). MySQL was originally developed and released on 23rd of May in 1993 by the swedish company MySQL AB, founded by David Axmark, Allan Larsson and Michael Widenius. MySQL is licensed as an open-source that runs on most Operating Systems (OS).  
+MySQL is a Relational Database Management System (RDBMS), based on Structured Query Language (SQL). MySQL was originally developed and released on 23rd of May in 1995 by the swedish company MySQL AB, founded by David Axmark, Allan Larsson and Michael Widenius. MySQL was in 2010 bought by Sun Microsystems (now Oracle Corporation). MySQL is an open-source software that runs on most operating systems (OS).
+
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 1994: Original Development of MySQL by Widenious and Axmark
+- 1995: First version released by MySQL AB, by David Axmark, Allan Larsson and Michael Widenius.
+- 
 
 ## Main Features
 
