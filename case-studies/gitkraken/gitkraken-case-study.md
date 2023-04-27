@@ -1,7 +1,7 @@
 ---
 title: Gitkraken Case Study
 author: Roxanne Franco <roxannefranco>
-tags: gitkraken, case study, dev platform, GUI, workflow, dev tool, multiplatform, UI, git integration,
+tags: gitkraken, case study, dev platform, GUI, workflow, dev tool, multiplatform, UI, git integration.
 sidebar: development-platforms
 permalink: development-platforms/gitkraken-case-study.md
 folder: development-platforms/gitkraken-case-study.md
@@ -114,8 +114,6 @@ No platform is perfect and after some research into reviews from GitKraken users
 -**Free version only for non-commercial use:** The free version is only available for non-commercial purposes and the paid versions are fairly expensive.
 
 - **Overwelming for new users:** There are users who complaint about UI not being entirely user friendly at first.
-
-### **GitKraken x Github Desktop differences**
 
 ## **Getting Started with GitKraken**
 
