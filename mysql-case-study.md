@@ -75,7 +75,7 @@ The following section describes some of the most important features and characte
 - Fixed length and variable-length string types
 - Many data types:
 - - signed/unsigned integers 1, 2, 3, 4 and 8 bytes long
-- - FLOAT, DOUBLE, CHAR, VARCHAR, BINARY, VARBINARY, TEXT, BLOB, DATE, TIME, DATETIME, TIMESTAMP, YEAR, SET, ENUM and OpenGIS spatial types
+- - `FLOAT`, `DOUBLE`, `CHAR`, `VARCHAR`, `BINARY`, `VARBINARY`, `TEXT`, `BLOB`, `DATE`, `TIME`, `DATETIME`, `TIMESTAMP`, `YEAR`, `SET`, `ENUM` and OpenGIS spatial types
 
 **Statements and Functions:**
 - Full operator and function support in the SELECT list and WHERE clause of queries. For example:
