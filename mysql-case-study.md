@@ -4,8 +4,7 @@ author: Jøran Engelund
 tags: MySQL, Datastore, Database, Relational Database, Relational Database Management System, Open-Source
 ---
 
-![png-clipart-mysql-workbench-database-mysql-cluster-others-text-logo](https://user-images.githubusercontent.com/56642663/234897204-b5ff8767-6ce2-4dd4-a050-c4bce3ae5292.png)
-
+![mysql-official](https://user-images.githubusercontent.com/56642663/234897614-037394b5-4c2c-459d-9934-a4e7c9175933.svg)
 
 ## Introduction
 
