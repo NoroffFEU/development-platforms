@@ -56,8 +56,8 @@ MySQL is as mentioned a relational database management system (RDBMS) based on t
 
 The following section describes some of the most important features and characteristics of the MySQL Database Software:
 
-- **Internals and Portability:**
-- - wawdwa
+**Internals and Portability:**
+- wawdwa
 - **Example Feature:** This feature does something for a specific reason.
 - **Example Feature:** This feature does something for a specific reason.
 
