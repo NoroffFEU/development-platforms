@@ -1,12 +1,11 @@
----
-title: GitHub Copilot case study
-author: Petter Emil Hatland Mikalsen <petmik1>
-tags:GitHub, case study, Copilot, AI
----
+| title                     | author                       | tags                            |
+|---------------------------|------------------------------|---------------------------------|
+| GitHub Copilot case study | Petter Emil Hatland Mikalsen | GitHub, case study, Copilot, AI |
+  
   
 ## Introduction
 
-according to GitHub, “GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pretrained language model created by OpenAI. It is available as an extension for Visual Studio Code, Visual Studio, Neovim, and the JetBrains suite of integrated development environments (IDEs).”
+According to GitHub, “GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. It draws context from comments and code to suggest individual lines and whole functions instantly. GitHub Copilot is powered by OpenAI Codex, a generative pretrained language model created by OpenAI. It is available as an extension for Visual Studio Code, Visual Studio, Neovim, and the JetBrains suite of integrated development environments (IDEs).”
 
 This is a great introduction description of what Copilot is. It is meant to be an AI partner helping develop coding in many languages. It is not supposed to replace the developer but be a second pair of eyes, helping suggest and proofread the developer's work. 
 
@@ -27,12 +26,12 @@ This is a great introduction description of what Copilot is. It is meant to be a
 
 * AI-powered code completion
 * Multi-language support
-* natural language support
-* integration with multiple IDEs
-* learning and improving from code written by developers
-* code review assistance 
+* Natural language support
+* Integration with multiple IDEs
+* Learning and improving from code written by developers
+* Code review assistance 
 * Copilot can be trained on the specific user's codebase and style, improving its suggestions' accuracy and being more personalized to the user’s need.
-*  Copilot can suggest entire functions, classes, and methods based on context.
+* Copilot can suggest entire functions, classes, and methods based on context.
 * Copilot can offer variable names and type annotations. 
 * It is also able to suggest unit tests and examples of code.
 
@@ -54,8 +53,9 @@ Copilot for business is more restricted. They still collect user engagement data
 ## Market Comparison
 
 Tabnine is the biggest challenger to GitHub Copilot. Unlike Copilot, they have a free tier limited to “short code completions for simple projects.” This seems limited, and to upgrade to get access to the more advanced features, one has to pay $12 a month. Similar to Copilot, they have a free 14-day trial. Unlike Copilot, they are based on OpenAI GPT2. This is, for some users, a blessing, and for others, it makes it less valuable. 
+Unlike GitHub Copilot, the software can also be hosted locally for additional security for enterprises.
 
-Unlike GitHub Copilot, the software can also be hosted locally for additional security for enterprises. 
+Another option is AWS CodeWisperer. It was announced on 24 June 2022. It is a part of the AWS Toolkit by Amazon Web Services. It has gotten a lot of the same response from users as Tabnine. But unlike Copilot and Tabnine, it is free. 
 
 
 ## Future
@@ -65,7 +65,7 @@ Github Copilot X was announced on March 22, 2023. It is meant to extend what an 
 This is only what we know is coming. Who knows what other features they are working on? 
 
 
-## conclusion
+## Conclusion
 
 GitHub Copilot is a great tool to help developers code faster and better. It is meant to be an extra pair of eyes to proofread and help write code. One must be sure of what it is suggesting and know what one accepts. Copilot is an excellent tool for doing repetitive tasks as well as creating unit tests. 
 
@@ -74,7 +74,7 @@ The most significant disadvantage of Copilot is that users are getting dependent
 The future of GitHub Copilot will be enjoyable to follow as Copilot X has been announced, and all the changes and new features coming are going to extend AI assistants' helpfulness to developers.
 
 
-## references
+## References
 
 [https://github.com/features/copilot](https://github.com/features/copilot)
 
@@ -87,3 +87,4 @@ The future of GitHub Copilot will be enjoyable to follow as Copilot X has been a
 [https://www.tabnine.com/pricing](https://www.tabnine.com/pricing)
 
 [https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/)
+[https://aws.amazon.com/codewhisperer/faqs/](https://aws.amazon.com/codewhisperer/faqs/)
