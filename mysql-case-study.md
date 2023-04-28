@@ -96,16 +96,16 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - Independence of function names from table or column names. For example, `ABS` is a valid column name. The only restriction is that for a function call no spaces are permitted between the function name and the `()` that follows it
 - Users can refer to tables from different databases in the same statement
 
-**Security:**
+#### Security:
 - MySQL consists of a solid data security layer that protects sensitive data from intruders
 - A privilege and password system that is very flexible and secure, and that enables host-based verification
 - Password security by encryption of all password traffic when you connect to a server.
 
-**Scalability and Limits:**
+#### Scalability and Limits:
 - Support for large databases. MySQL Server offers databases that contains 50 million records. There are also users who use MySQL Server with 200,000 tables and about 5,000,000,000 rows
 - Support for up to 64 indexes per table. Each index may consist of 1 to 16 columns or parts of columns. The maximum index width of `InnoDB` tables is either 767 bytes or 3072 bytes. The maximum index width for `MyISAM` tables is 1000 bytes. Also, an index may use prefix of a column for `CHAR`, `VARCHAR`, `BLOB`, or `TEXT` column types
 
-**Connectivity:**
+#### Connectivity:
 - Clients can connect to MySQL Server using several protocols:
 - - Clients can connect using TCP/IP sockets on any platform
 - - On Windows systems, clients can connect using named pipes if the server is started with `named_pipe` system variable enabled
@@ -120,7 +120,7 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - MySQL Connector/NET enables developers to easily create `.NET` applications that require secure, high-performance data connectivity with MySQL. It implements the required `ADO.NET` interfaces and integrates into `ADO.NET` aware tools. Developers can build applications using their choice of `.NET` languages
 - MySQL Connector/NET is a fully managed `ADO.NET` driver written 100% in pure `C#`
 
-**Localization:**
+#### Localization:
 - The MySQL Server can provide error messages to clients in many languages
 - MySQL has full support for several different character sets, including `latin1(cp1252)`, `german`, `big5`, `ujis`, several Unicode character sets, and more
 - - for example, the scandinavian characters `"Å"`, `"Ä"`, `Ø`, and `Ö` are permitted in the table and column names
@@ -128,7 +128,7 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - Sorting and comparisons are done according to the default character set and collation. It is possible to change this when the MySQL Server is started
 - The server time zone can be changed dynamically, and individual clients can specify their own time zone
 
-**Clients and Tools:**
+#### Clients and Tools:
 
 MySQL includes several client and utility programs. These include both command-line programs such as `mysqldump` and `mysqladmin`, and graphical programs such as MySQL Workbench. MySQL Server also has an built-in support for SQL statements to check, optimize, and repair tables. These statements are available from the command-line utility for performing these operations on `MyISAM` tables. MySQL programs can aswell be invoked with the `--help` or `-?` option to obtain online assistance
 
@@ -152,6 +152,8 @@ MySQL database's inbuilt function like `UNIX_TIMESTAMP()` will also return 0 aft
 MariaDB is as MySQL, an open-source RDBMS, and also a fork from MySQL created in 2009 when Oracle acquired Sun Microsystems and in that process, gained control over MySQL. MariaDB is an backward-compatible improved version of MySQL. It comes with various inbuilt capable features and many security and execution improvements that's missing in MySQL. MariaDB supports the same features that MySQL does but also offers additional ones too.
 
 Replacing MySQL, MariaDB has become a seamless process for most applications and CMS (Content Management Systems), especially WordPress. The existing software, from popular CMS tools like WordPress, Joomla, and Drupal, to applications like phpMyAdmin, works out of the box and the actual data can be exported/imported without any changes
+
+#### Comparison:
 
 |   	|  **MariaDB** 	| **MySQL**  	|
 |---	|---	|---	|
