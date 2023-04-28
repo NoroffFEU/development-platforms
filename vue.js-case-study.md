@@ -12,7 +12,9 @@ Vue is a Javascript framework for building user interfaces and single-page appli
 
 ## Brief History
 
-Vue was created by Evan You, a Google software engineer, in 2013 and had its official release in 2014. The name derives from the French word vue, meaning view. Evan wanted to create a framework that was lightweight and included the best parts from Angular, which he had been using at Google. 
+Vue was created by Evan You, a Google software engineer, in 2013 and had its official release in 2014. The name derives from the French word vue, meaning view. He had previously worked on several large-scale projects using other popular frameworks, but found that they often came with a steep learning curve and a lot of overhead that was not necessary for smaller projects.
+ 
+Evan wanted to create a framework that was easy to understand and use, yet still powerful enough to handle complex applications. He was inspired by the simplicity and elegance of React's component-based architecture and Angular's two-way data binding, and set out to create a framework that combined the best of both worlds.
 
 #### Here is a timeline highlighting the major events:
  
