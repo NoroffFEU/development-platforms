@@ -6,4 +6,4 @@
 
 #### Webpage
 
-- https://https://jolly-seahorse-c34997.netlify.app/
+- https://jolly-seahorse-c34997.netlify.app/
