@@ -6,7 +6,7 @@ tags: javascript, framework, vue
 
 ## Introduction
  
- ![Image of Vue logo](https://res.cloudinary.com/practicaldev/image/fetch/s--q6AIFazN--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ll22z8mea106b4vjdjy7.jpeg)
+![Image of Vue logo](https://res.cloudinary.com/practicaldev/image/fetch/s--q6AIFazN--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ll22z8mea106b4vjdjy7.jpeg)
 
 Vue is a Javascript framework for building user interfaces and single-page applications (SPAs). It builds on top of standard HTML, CSS and Javascript and is fairly easy for beginners to learn, given that you have experience with the previously mentioned frontend languages. This distinguishes Vue from competitors that require deep knowledge of Typescript, JSX, and an array of different libraries.
 
@@ -42,9 +42,9 @@ Evan wanted to create a framework that was easy to understand and use, yet still
 
 ## Market Comparison
 
- ### Vue vs React
+### Vue vs React
  
- ![Vue vs React image](https://www.monterail.com/hs-fs/hubfs/blog_graphics/xVue_vs_React_comparison_of_technologies.png,qwidth=1172,aheight=1722,aname=Vue_vs_React_comparison_of_technologies.png.pagespeed.ic.nlnRETuray.webp)
+![Vue vs React image](https://www.monterail.com/hs-fs/hubfs/blog_graphics/xVue_vs_React_comparison_of_technologies.png,qwidth=1172,aheight=1722,aname=Vue_vs_React_comparison_of_technologies.png.pagespeed.ic.nlnRETuray.webp)
  
 #### Virtual DOM
  - Both use virtual DOM which makes it faster.
@@ -55,14 +55,14 @@ Evan wanted to create a framework that was easy to understand and use, yet still
 #### Popularity
  - React is popular than Vue. The job opportunity with React is more than Vue. There is a big name behind React i.e. Facebook which makes it more popular
  
- ### Pros
+### Pros
 - **Small in size:** The framework is only 18kb and is fast to install
 - **Performance:** Using a virtual DOM, page rendering is pretty quick and thus improves the application's overall performance
 - **Data-binding:** Two-way databinding allows for a component class to share data between itself and its template.
 - **Light learning curve:** All you need to know is basic HTML, CSS and Javascript
- - **Community support:** Vue has a pretty active community on Discord chat and forum
+- **Community support:** Vue has a pretty active community on Discord chat and forum
  
-  ### Cons
+### Cons
 - **Language barrier:** Due to its popularity in China, much of the community support will be in Chinese
 - **Lack of support for large-scale projects:** For large-scale projects a framework must ensure stability and strong support. Vue does not have many problems, but are used in relatively small projects
 - **Lack of experienced developers:** Vue is steadily gaining momentum, but it's a still relatively young technology
