@@ -196,7 +196,7 @@ Both MariaDB and MySQL offers a range of features and benefits for the users. Ma
 ## Getting Started with MySQL
 
 ### Installing and Starting MySQL:
-##### Linux:
+#### Linux:
 - The easiest way to install MySQL is to use the [MySQL repositories](https://dev.mysql.com/downloads/)
 - - Next, start the MySQL Server if your installation includes [mysqld_safe:](https://dev.mysql.com/doc/refman/8.0/en/mysqld-safe.html)
 ```sql
@@ -208,26 +208,26 @@ $> systemctl start mysqld
 ```
 - It is important that the MySQL Server is being runned using an unprivileged login account. To ensure this, run [mysqld_safe](https://dev.mysql.com/doc/refman/8.0/en/mysqld-safe.html) as `root` and include `--user` option as shown. Otherwise, you should execute the program while logged in as `mysql`, in which case you can omit the `--user` option from the command.
 
-##### Microsoft Windows:
+#### Microsoft Windows:
 - The recommended way to install MySQL on Windows is to use the [MySQL Installer](https://dev.mysql.com/downloads/installer/)
 - If you have chosen to configure MySQL as a Windows service during the installation process, which is the default option, the MySQL server will start automatically after the installation process is completed.
 
-##### macOS:
+#### macOS:
 - The recommended way for installing on macOS is to use the [macOS installer package](https://dev.mysql.com/doc/refman/8.0/en/macos-installation-pkg.html)
 
-##### Other platforms:
+#### Other platforms:
 - For installations on other platforms, as well as installation methods not covered above, see [Installing and Upgrading MySQL](https://dev.mysql.com/doc/refman/8.0/en/installing.html)
 
 ### Connecting to the MySQL server with the mysql client:
 - Once your MySQL server is up and running, you can connect to it as the superuser `root` with the [mysql client](https://dev.mysql.com/doc/refman/8.0/en/mysql.html)
 
-##### For Linux:
+#### For Linux:
 - Enter the following command at the command line terminal
 ```sql
 $> mysql -u root -p
 ```
 
-##### For Windows:
+#### For Windows:
 - Click `Start` -> `All Programs` -> `MySQL Command Line Client`
 - If MySQL wasn't installed with the MySQL Installer, open a command prompt, go to the `bin` folder under the base directory of your MySQL installation, and write the following command:
 ```sql
@@ -237,7 +237,7 @@ C:\> mysql -u root -p
 
 ### Some Basic Operations with MySQL:
 
-##### Creating a new database:
+#### Creating a new database:
 - Use a CREATE DATABASE statement:
 ```sql
 mysql> CREATE DATABASE pets;
@@ -258,7 +258,7 @@ mysql> SHOW DATABASES;
 5 rows in set (0.00 sec)
 ```
 
-##### Showing existing databases:
+#### Showing existing databases:
 - Use a SHOW DATABASES statement:
 ```sql
 mysql> SHOW DATABASES;
