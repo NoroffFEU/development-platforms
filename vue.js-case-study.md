@@ -18,9 +18,9 @@ Vue was created by Evan You, a Google software engineer, in 2013 and had its off
  
 - **2013:** Version 0.6 In December Evan You created the first version of Vue
 - **2014:** Version 0.8 First public release
-- **2015:** Version 1.0 Released
-- **2016:** Version 2.0 Released
-- **2020:** Version 3.0 Released
+- **2015:** Version 1.0 Was released, which featured a virtual DOM and improved performance.
+- **2016:** Version 2.0 Was released, which introduced significant performance improvements, better TypeScript support, and a new syntax for components.
+- **2020:** Version 3.0 Was released, which introduced several new features and performance improvements over the previous version.
 
 ## Main Features
  
@@ -56,7 +56,7 @@ Vue was created by Evan You, a Google software engineer, in 2013 and had its off
  ### Pros
 - **Small in size:** The framework is only 18kb and is fast to install
 - **Performance:** Using a virtual DOM, page rendering is pretty quick and thus improves the application's overall performance
-- **Data-binding:** Two-way databinding
+- **Data-binding:** Two-way databinding allows for a component class to share data between itself and its template.
 - **Light learning curve:** All you need to know is basic HTML, CSS and Javascript
  - **Community support:** Vue has a pretty active community on Discord chat and forum
  
