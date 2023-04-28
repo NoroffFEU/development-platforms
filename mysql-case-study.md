@@ -130,6 +130,9 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - MySQL programs can be invoked with the `--help` or `-?` option to obtain online assistance
 
 
+### Limitations:
+When users use some storage engines other than the default of InnoDB, MySQL doesn't comply with the full SQL standard for some of the implemented
+
 Example feature table:
 
 | Feature | Description |
