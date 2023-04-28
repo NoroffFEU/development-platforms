@@ -28,19 +28,21 @@ According to Gartner, Inc.'s latest report, the global market for low-code is es
 - **2016** - Microsoft released Power Apps as a standalone product and added it to the Office 365 suite. Power Apps has since grown in popularity and evolved with new features and capabilities, such as the ability to integrate with other Microsoft products like Power BI and Azure.
 - **2019** - Microsoft announced the availability of Power Apps for mobile devices, enabling users to create and use apps on-the-go.
 - **2020** - Microsoft released new tools to simplify the process of building custom connectors for Power Apps, allowing users to easily integrate with a wide range of data sources.
+- **2020** - Microsoft renames the common data service to dataverse.
+
+- **2023** - Microsoft annoucing Copilot for power apps for developers and users - letting developers set up an app faster, and users to interact with the app in a completely new and innovative way. 
 
 ## Main Features
 
 ### Model and Canvas driven apps - how they work
 
-In power apps you can develop with either model driven or canvas driven development. But how do they differentiate? 
+In Power Apps, you can develop with either model-driven or canvas-driven development. But how do they differ?
 
-Model-driven is designed to be a data-centric development enviroment and are built on top of a common data service platform. The application is in that regard connected to datasets and therefor often used to present data to the users. With this approach the developers can create forms, views and dashboards - this can then be accessed by users through the power apps portal and the dynamics 365 Application. 
+Model driven is designed to be a data-centric development environment and is built on top of dataverse (Previously known as the common data service). The application is, in that regard, connected to datasets and is therefore often used to present data to users. With this approach, developers can create forms, views, and dashboards, which can then be accessed by users through the Power Apps portal and the Dynamics 365 application.
 
-Canvas on the other hand as the name says is an empty canvas to build your application on. The developer will have full control over layout, design and functionality og the application and can paint it the way the users want. From a developer and designer point of view you can see how this allows the developer to customize the application with use-ability in mind. 
-Working with a canvas application also makes it possible to make the low-code part more complex with power apps coding language Power Fx. Making the functionality of the application just how you want it. 
+Canvas driven, on the other hand, as the name suggests, is an empty canvas to build your application on. The developer will have full control over layout, design, and functionality. Starting from a canvas enables the user to develop freely instead of starting from a pre-populated app template. Starting from a canvas can make it easier to create custom components and functions that are more complex and tailored to your needs, making the functionality of the application just how you want it.
 
-Wrapping it up these two ways of developing through power apps will most likely combined in the future - for now the users can choose to either build their house from scratch in canvas --or simply place furniture in model driven enviroment
+In conclusion, these two ways of developing through Power Apps will most likely be combined in the future. For now, users can choose to either build their house from scratch in the canvas or simply place furniture in the model-driven environment.
 
 ### How it works
 ![Illustrates the headline: How it works. Shows a Themes.json file with a questionmark next to it.](https://user-images.githubusercontent.com/91562336/234261904-32e7b386-291d-434e-a223-a40adb4d4a78.png)<br />
