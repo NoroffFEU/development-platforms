@@ -5,22 +5,22 @@ Tags: MySQL, Datastore, Database, Relational Database, Relational Database Manag
 ---
 
 ## Table of Contents:
-**1. [Introduction](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#introduction)**
+1. **[Introduction](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#introduction)**
 2. **[Brief History](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#brief-history)**
 3. **[Main Features:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#main-features)**
-- - 3a. [Internals and Portability](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#internals-and-portability)
-- - 3b. [Data Types](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#data-types)
-- - 3c. [Statements and Functions](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#statements-and-functions)
-- - 3d. [Security](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#security)
-- - 3e. [Scalability and Limits](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#scalability-and-limits)
-- - 3f. [Connectivity](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#connectivity)
-- - 3g. [Localization](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#localization)
-- - 3h. [Clients and Tools](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#clients-and-tools)
+- - 3a. *[Internals and Portability](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#internals-and-portability)
+- - 3b. *[Data Types](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#data-types)
+- - 3c. *[Statements and Functions](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#statements-and-functions)
+- - 3d. *[Security](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#security)
+- - 3e. *[Scalability and Limits](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#scalability-and-limits)
+- - 3f. *[Connectivity](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#connectivity)
+- - 3g. *[Localization](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#localization)
+- - 3h. *[Clients and Tools](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#clients-and-tools)
 4. **[Limitations](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#limitations)**
 5. **[Market Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#market-comparison)**
-- - 5a. [What is MariaDB?](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#what-is-mariadb)
-- - 5b. [Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#comparison)
-- - 5c. [Conclusion of Market Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#conclusion-of-market-comparison)
+- - 5a. *[What is MariaDB?](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#what-is-mariadb)
+- - 5b. *[Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#comparison)
+- - 5c. *[Conclusion of Market Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#conclusion-of-market-comparison)
 6. **[Getting Started with MySQL](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#getting-started-with-mysql)**
 - - 6a. [Installing and Starting MySQL](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#installing-and-starting-mysql)
 
