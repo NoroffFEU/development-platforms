@@ -143,12 +143,16 @@ MySQL database's inbuilt function like `UNIX_TIMESTAMP()` will also return 0 aft
 
 ![mysql-vs-mariadb](https://user-images.githubusercontent.com/56642663/235160360-28a7f502-86ce-4564-b8d2-da54c2464b02.png)
 
+### What is MariaDB?
+MariaDB is as MySQL, an open-source RDBMS, and also a fork from MySQL created in 2009 when Oracle acquired Sun Microsystems and in that process, gained control over MySQL. MariaDB is an backward-compatible improved version of MySQL. It comes with various inbuilt capable features and many security and execution improvements that's missing in MySQL. MariaDB supports the same features that MySQL does but also offers additional ones too.
 
-|   	|  MariaDB 	| MySQL  	|
+Replacing MySQL, MariaDB has become a seamless process for most applications and CMS (Content Management Systems), especially WordPress. The existing software, from popular CMS tools like WordPress, Joomla, and Drupal, to applications like phpMyAdmin, works out of the box and the actual data can be exported/imported without any changes
+
+|   	|  **MariaDB** 	| **MySQL**  	|
 |---	|---	|---	|
 | **Storage**  	| MariaDB has 12 different storage engines that you won't find in MySQL  	| MySQL offer fewer alternatives for storage engine compared to MariaDB  	|
-|   	|   	|   	|
-|   	|   	|   	|
+|   **Oracle Database Compatability**	| MariaDB is the only open-source database compatible with Oracle Database stored procedures, sequences, data types, etc.  	| MySQL has some basic Oracle features compatibility  	|
+| **Speed Performance**  	| MariaDB is faster when it comes to replication and performing queries. Also supports a high concurrent number of connections without much performance degradation  	| MySQL is slower in speed and performance when it's compared to MariaDB  	|
 |   	|   	|   	|
 |   	|   	|   	|
 |   	|   	|   	|
