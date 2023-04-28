@@ -17,11 +17,11 @@ Tags: MySQL, Datastore, Database, Relational Database, Relational Database Manag
 - - 3g. *[Localization](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#localization)*
 - - 3h. *[Clients and Tools](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#clients-and-tools)*
 4. **[Limitations](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#limitations)**
-5. **[Market Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#market-comparison)**
+5. **[Market Comparison:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#market-comparison)**
 - - 5a. *[What is MariaDB?](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#what-is-mariadb)*
 - - 5b. *[Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#comparison)*
 - - 5c. *[Conclusion of Market Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#conclusion-of-market-comparison)*
-6. **[Getting Started with MySQL](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#getting-started-with-mysql)**
+6. **[Getting Started with MySQL:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#getting-started-with-mysql)**
 - - 6a. *[Installing and Starting MySQL](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#installing-and-starting-mysql)*
 
 ---
