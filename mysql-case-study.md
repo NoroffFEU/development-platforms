@@ -22,7 +22,19 @@ Tags: MySQL, Datastore, Database, Relational Database, Relational Database Manag
 - - 5b. *[Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#comparison)*
 - - 5c. *[Conclusion of Market Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#conclusion-of-market-comparison)*
 6. **[Getting Started with MySQL:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#getting-started-with-mysql)**
-- - 6a. *[Installing and Starting MySQL](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#installing-and-starting-mysql)*
+- - 6a. *[Installing and Starting MySQL:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#installing-and-starting-mysql)*
+- - - 6a.1 *[Linux](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#linux)*
+- - - 6a.2 *[Microsoft Windows](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#microsoft-windows)*
+- - - 6a.3 *[macOS](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#macos)*
+- - - 6a.4 *[Other Platforms](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#other-platforms)*
+- - 6b. *[Connecting to the MySQL with the msql client:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#connecting-to-the-mysql-server-with-the-mysql-client)*
+- - - 6b.1 *[Linux](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#for-linux)*
+- - - 6b.2 *[Windows](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#for-windows)*
+- - 6c. *[Some Basic Operations with MySQL:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#some-basic-operations-with-mysql)*
+- - - 6c.1 *[Creating a new database](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#creating-a-new-database)*
+- - - 6c.2 *[Showing existing databases](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#showing-existing-databases)*
+7. **[Conclusion](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#conclusion)**
+8. **[References](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#references)**
 
 ---
 
