@@ -1,10 +1,7 @@
 ---
 title: Supabase Case Study
-keywords: development platforms, supabase, baas platform
+author: Sayeda Chattopadhyay <sayeda-chattopadhy>
 tags: Development Platforms, Supabase, BaaS platform
-sidebar: development-platforms
-permalink: development-platforms/supabase.html
-folder: development-platforms
 ---
 
 # Supabase Case Study
@@ -25,9 +22,13 @@ folder: development-platforms
 
 ## Introduction
 
-Supabase is an open-source Backend-as-a-Service (BaaS) platform. Supabase uses Postgres and provides developers a range odf services e.g. cloud-hosted database, authentication, real-time subscriptions, and API generation services. Some of the advantages of Supabase are easy-to-use APIs, SDKs, and client libraries for common programming languages such as JavaScript, Python, and Ruby. Morover, it is designed to be scalable, customizable and secure.
+Supabase is an open-source Backend-as-a-Service (BaaS) platform. It is a free and open-source tool that helps developers build web and mobile apps. It provides several services, including a cloud-hosted database, authentication, real-time subscriptions, and API generation services.
 
-Since Supabase is licensed under the Apache License 2.0, it is free to use and modify. These makes it an ideal choice for businesses and enterprises of all sizes and it has gained popularity among developers, making it a good alternative to other BaaS platforms e.g Firebase, Parse, Appwrite, Nhost and AWS Amplify.
+Developers can easily use Supabase with popular programming languages like JavaScript, Python, and Ruby by using the provided SDKs (software development kits). This allows them to easily build and manage the backend of their app.
+
+Supabase is scalable, customizable, and secure, making it a great choice for developers who want to build apps quickly and efficiently without having to worry about managing their own servers or databases.
+
+Since Supabase is licensed under the Apache License 2.0, it is free to use and modify. This makes it an ideal choice for businesses and enterprises of all sizes and it has gained popularity among developers, making it a good alternative to other BaaS platforms e.g Firebase, Parse, Appwrite, Nhost and AWS Amplify.
 
 ## Brief History
 
@@ -39,15 +40,16 @@ Some of the key features of Supabase include:
 
 | Feature                          | Description                                                                                                                                                                                                                                |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Real-time database               | Supabase provides a real-time database that allows developers to sync data in real-time facilitating building applications such as chat, notifications, and collaboration apps.                                                            |
-| Authentication and authorization | Supabase has inbuild authentication and authorization features which helps to manage user sign-up, sign-in, password management, and access control of the applications.                                                                   |
-| Database management              | Supabase offers database management system based on Postgres, allowing developers to create, manage, and query databases using SQL. Other features include data validation, and query builders.                                            |
-| APIs and SDKs                    | Supabase provides APIs and SDKs for many programming languages, e.g. Python, JavaScript, and others, facilitating integration of Supabase services into codes.                                                                             |
-| Serverless Functions             | Supabase allows developers to deploy serverless functions, which are performing a specific action in response to an event, such as processing an HTTP request, responding to a database update, or handling an event from a message queue. |
+| Setting up and managing backend infrastructure           | Supabase helps with setting up and managing backend infrastructure for web and mobile applications. This can be time-consuming and complicated, especially for smaller teams with limited resources. Supabase provides a range of services for the backend, including cloud-hosted databases, real-time subscriptions, and authentication, that allow developers to focus on building their applications and delivering value to their users without having to worry about the backend infrastructure.                                                           |
+| Realtime subscriptions | Real-time subscriptions refer to the ability of a system to push data changes in real-time to connected clients, enabling them to receive updates as soon as changes occur. This means that developer can build applications that automatically update themselves without requiring the user to refresh the page. For example, in a chat application, when a new message is sent, it will automatically appear on the recipient's screen without them having to manually refresh the page. Real-time subscriptions make it easier to build dynamic and responsive applications that provide users with a better experience. 
+| Authentication and authorization | Supabase has built-in features to manage how users sign up, log in, reset their passwords, and control what parts of an application they can access. It helps developers easily handle user authentication and authorization without having to create those features from scratch. **Authentication** in Supabase refers to the process of verifying the identity of a user who wants to use a particular application or service. This can be done by entering login information like email and password or using external providers like Google or Facebook.**Authorization**, on the other hand, is the process of deciding what resources or actions an authenticated user can access. This is based on the user's role and permissions, which determines what they can do and what they cannot. It ensures that users can only access the resources they are authorized to access and perform actions they are authorized to perform.                                                              |
+| Database management              | Supabase has a system for managing databases, which is based on a popular database software called Postgres. Developers can use Supabase to create, manage, and ask questions to databases using a special language called SQL. Supabase also has tools to check that the data entered in the database is correct, and to easily build queries to extract specific information from the database.                                        |
+| APIs and SDKs                    | Supabase provides tools for developers to easily integrate its services into their code, including APIs and SDKs for popular programming languages like Python and JavaScript.                                                                             |
+| Serverless Functions             | Serverless Functions are a way to run small pieces of code on the cloud without needing to manage any server infrastructure. It allows developers to focus on writing the code for their application without worrying about the underlying infrastructure, as the cloud provider automatically takes care of it. Supabase allows developers to deploy serverless functions, which are performing a specific action in response to an event, such as processing an HTTP request, responding to a database update, or handling an event from a message queue. |
 | Storage                          | Supabase includes cloud storage for storing and serving files, such as images, audio, and video.                                                                                                                                           |
-| Customization                    | Supabase is an open-source platform that can be customized and modified to suit your specific requirements. Users can also contribute to the development of Supabase                                                                       |
-| Scalability and performance      | Supabase has features such as automatic scaling, caching, and CDNs.                                                                                                                                                                        |
-| Cost                             | Supabase offers paid plans but at the smae time the free plan has good usage limits affordable for small / medium projects.                                                                                                                |
+| Customization                    | Supabase is an open-source platform that can be customized and modified to suit specific requirements. Users can also contribute to the development of Supabase.                               |
+| Scalability and performance      | Automatic scaling, caching, and CDNs are features in Supabase that help improve the performance of web applications. **Automatic scaling** means that Supabase can handle sudden increases in traffic by automatically allocating more resources to handle the increased load.  **Caching** saves data that is used often to make it quicker to find, making it faster to get the information from the database. **CDN** stands for Content Delivery Network, which is a system of distributed servers that deliver content to users based on their geographic location. This improves website performance by reducing the time it takes to deliver content.                                                                                                                                                                      |
+| Cost                             | Supabase offers paid plans but at the same time the free plan has good usage limits affordable for small / medium projects.                                                                                                                |
 
 ## Strengths
 
@@ -69,40 +71,54 @@ The weaknesses of Supabase can be outlined as follows:
 
 - It is relatively new BaaS platform compared to Firebase or AWS Amplify. So, it has a much smaller user community. In addition, it will require the users to invest some time to adapt and familiar themselves with its APIs and SDKs.
 
-- Some of established platforms can have more features. Supabase focussed mainly on backend services and do not have hosting services as in Firebase. Thus it is natural that many developers will prefer to use different solutions for their frontend applications.
+- Some established platforms may have more features than Supabase. Supabase primarily focuses on backend services and does not offer hosting services like Firebase. Therefore, it is natural for many developers to prefer using different solutions for their frontend applications.
 
 ## Market Comparison
 
 Here are some of the top Backend as a Service (BaaS) platforms.
-1.Firebase by Google:
-2.AWS Amplify by Amazon Web Services (AWS):
-3.Microsoft Azure Mobile Apps
-4.Parse Platform:
-5.Backendless
-6.Kinvey
+- Firebase by Google:
+- AWS Amplify by Amazon Web Services (AWS):
+- Microsoft Azure Mobile Apps
+- Parse Platform:
+- Backendless
+- Kinvey
 
-- Firebase offers more services than Supabase.
+Here we compare supabase with Firebase.
 
-- vendor locking ( Firebase owned by Google, firebase we can´t move our application or export to other platform.)
+![Supabase logo](/static/images/supabase-vs-firebase.png)
+
+- **Database** : Supabase uses PostgreSQL, which is a powerful, open-source relational database, while Firebase uses NoSQL, which is a flexible, schema-less database.
+
+- **Authentication** : Supabase supports authentication with popular providers like Google, GitHub, and Facebook, while Firebase also supports those providers as well as several others, like Apple and Twitter.
+
+- **Pricing**: Supabase is open source and free to use, while Firebase has a free tier with limited features and charges based on usage beyond that.
+
+- **Customization**: Supabase allows developers to write custom business logic in their database, while Firebase relies on cloud functions to achieve the same functionality.
+
+- **Real-time updates**: Supabase uses a built-in system in PostgreSQL (which is a type of database) to provide real-time updates. On the other hand, Firebase has a real-time database that is specifically designed for real-time updates.
+
+- **Vendor locking**: It is a potential concern with Firebase, as it is owned by Google and therefore may not be easily transferable to other platforms or services. This could limit the flexibility of developers who rely heavily on Firebase's services and features, and may lead to difficulties if they wish to migrate their application to a different platform or service in the future.
 
 ## Getting started:
 
-Sign up for an account: Go to the Supabase website (https://supabase.io/) and sign up for a free account. You will need to provide an email address, password, and agree to the terms of service.
+**Sign up for an account**: To start using Supabase, you need to create an account by going to their website, which is https://supabase.io/. It's free to sign up, but you'll need to provide some information such as your email address and a password. You also need to agree to their terms of service. Supabase offers multiple ways to sign in, including using your email and password, magic links, or authentication with popular providers such as Google, GitHub, Twitter, and Facebook. If you already have an authentication token from other services like OAuth, JWT, or OpenID Connect, you can also use that to sign in to Supabase.
 
-Create a new project: Once you have an account, you can create a new project in the Supabase dashboard. This will create a new instance of Supabase for your project and provide you with the necessary credentials to access the Supabase services.
+**Create a new project** : Once you have an account, you can create a new project in the Supabase dashboard. This will create a new instance of Supabase for your project and provide you with the necessary credentials to access the Supabase services.
 
-Install the Supabase client library: Supabase provides client libraries for various programming languages, such as JavaScript, Python, Ruby, and others. You will need to install the appropriate client library for your chosen language in your development environment.
+**Install the Supabase client library**: Supabase provides client libraries for various programming languages, such as JavaScript, Python, Ruby, and others. You will need to install the appropriate client library for your chosen language in your development environment.
 
-Connect to your Supabase project: Using the credentials provided in the Supabase dashboard, you can connect to your Supabase project using the client library in your application code. This will allow you to interact with the Supabase services, such as the database, authentication, and real-time subscriptions.
+**Connect to your Supabase project**: Using the credentials provided in the Supabase dashboard, you can connect to your Supabase project using the client library in your application code. This will allow you to interact with the Supabase services, such as the database, authentication, and real-time subscriptions.
 
-Use Supabase services in your application: Once connected, you can start using the Supabase services in your application code. For example, you can create and manage database tables, authenticate users, and perform real-time data synchronization using Supabase's APIs and SDKs.
+**Use Supabase services in your application**: Once connected, you can start using the Supabase services in your application code. For example, you can create and manage database tables, authenticate users, and perform real-time data synchronization using Supabase's APIs and SDKs.
 
 ## Summary
 
-Supabase is an open source BaaS platform that offers a rangle of backend services for both web and mobile applications. Is services include real-time data synchronization, built-in authentication and authorization. It is designed to be developer-friendly, scalable, flexible in addition to being cost-effectiveness. The main streingths of are that it is open-source and very user friendly. These allows for positive contributions to it developemnt from the user community. However, there are some limitations as it is comparatively new platform and doesnot have self-hosting capability.
+Supabase is an open-source BaaS platform that offers a range of backend services for both web and mobile applications. Its services include real-time data synchronization, built-in authentication, and authorization. It is designed to be developer-friendly, scalable, flexible, and cost-effective. The main strengths are that it is open-source and very user-friendly, allowing for positive contributions from the user community to its development. However, there are some limitations as it is a comparatively new platform and does not have self-hosting capability.
 
 ### Credits
 
+- Sjur Hassel(VaNomad)
+- Rohit Kumar Amdahl(RohitAmdahl)
 - Sayeda Chattopadhyay (sayeda-chattopadhyay)
 
 #### References
