@@ -140,6 +140,10 @@ MySQL database's inbuilt function like `UNIX_TIMESTAMP()` will also return 0 aft
 
 ## Market Comparison
 
+
+![mysql-vs-mariadb](https://user-images.githubusercontent.com/56642663/235160360-28a7f502-86ce-4564-b8d2-da54c2464b02.png)
+
+
 |  MySQL 	| MariaDB   	|
 |---	|---	|
 | cake  	| cake   	|
