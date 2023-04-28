@@ -27,7 +27,7 @@ Tags: MySQL, Datastore, Database, Relational Database, Relational Database Manag
 - - - 6a.2 *[Microsoft Windows](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#microsoft-windows)*
 - - - 6a.3 *[macOS](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#macos)*
 - - - 6a.4 *[Other Platforms](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#other-platforms)*
-- - 6b. *[Connecting to the MySQL with the msql client:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#connecting-to-the-mysql-server-with-the-mysql-client)*
+- - 6b. *[Connecting to the MySQL Server with the msql client:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#connecting-to-the-mysql-server-with-the-mysql-client)*
 - - - 6b.1 *[Linux](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#for-linux)*
 - - - 6b.2 *[Windows](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#for-windows)*
 - - 6c. *[Some Basic Operations with MySQL:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#some-basic-operations-with-mysql)*
@@ -232,7 +232,7 @@ $> systemctl start mysqld
 
 ---
 
-### Connecting to the MySQL server with the mysql client:
+### Connecting to the MySQL Server with the mysql client:
 - Once your MySQL server is up and running, you can connect to it as the superuser `root` with the [mysql client](https://dev.mysql.com/doc/refman/8.0/en/mysql.html)
 
 #### For Linux:
@@ -309,3 +309,4 @@ Installing and starting MySQL is a simple process that varies depending on which
 - [MySQL features - dev.mysql.com](https://dev.mysql.com/doc/refman/8.0/en/features.html)
 - [MySQL vs MariaDB - linuxac](https://linuxiac.com/mysql-vs-mariadb/)
 - [MySQL vs MariaDB - Cloudways](https://www.cloudways.com/blog/mariadb-vs-mysql/)
+- [Getting started with MySQL - dev.mysql.com](https://dev.mysql.com/doc/mysql-getting-started/en/)
