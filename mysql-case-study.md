@@ -165,13 +165,15 @@ Replacing MySQL, MariaDB has become a seamless process for most applications and
 
 ---
 
-#### Conclusion of comparison:
+#### Conclusion of Market Comparison:
 
 Both MariaDB and MySQL offers a range of features and benefits for the users. MariaDB has an edge over MySQL when it comes to storage engine alternatives, replication, clustering and compatibility with Oracle Databases. MariaDB also offers high speed / performance and security features, with the three password authentication plugins and the support for binary log encryption. However, MySQL is being backed by Oracle Corporation, which provides the users with a enterprise-level support and consistent updates, which in turns makes it a solid choice for business customers looking for a steady RDBMS. While MariaDB offers a complete package in regards of Community & License, the MySQL's community edition has some certain limitations that in the end could impact the database and query speed. In the end, the choice between MySQL and MariaDB will depend on the users specific needs, like performance, scalability, support and the compatibility with other tools  
 
-## Getting Started
+## Getting Started with MySQL
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+#### Installing and Starting MySQL:
+**Linux:**
+- The easiest way to install MySQL is to use the [MySQL repositories](https://dev.mysql.com/downloads/)
 
 ## Conclusion
 
