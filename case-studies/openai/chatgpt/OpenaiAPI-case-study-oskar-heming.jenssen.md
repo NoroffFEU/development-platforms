@@ -21,3 +21,4 @@ Oskar Heming Jenssen
 ## Additional Resources
 - https://github.com/ohjenssen/OpenAI-API-Demo
 - https://platform.openai.com/docs/introduction
+- https://github.com/NoroffFEU/development-platforms/blob/main/case-studies/openai/chatgpt/chatGPT-case-study-jonaslod.md
