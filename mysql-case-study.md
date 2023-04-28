@@ -84,7 +84,7 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
     -> FROM citizen
     -> WHERE income/dependents > 10000 AND age > 30;
 ```
-- Full support of SQL `GROUP BY` and `ORDER BY` clauses. Support for functions as `COUNT()`, `AVG()`, `STD()`, `SUM()`, `MAX()`, `MIN()`, and `GROUP CONCAT()`'
+- Full support of SQL `GROUP BY` and `ORDER BY` clauses. Support for functions as `COUNT()`, `AVG()`, `STD()`, `SUM()`, `MAX()`, `MIN()`, and `GROUP CONCAT()`
 - It supports `LEFT OUTER JOIN` and `RIGHT OUTER JOIN` with both standard SQL and ODBC (Open Database Connectivity) syntax
 - Support `DELETE`, `INSERT`, `REPLACE`, and `UPDATE` to return the number of rows that were changed/affected, or to return the number of rows matched instead of setting a flag when connecting to the server
 - Support for MySQL-specific `SHOW` statements that retrieve information about databases, storage engines, tables, and indexes. Support for the `INFORMATION_SCHEMA` database, implemented according to standard SQL.
@@ -129,10 +129,11 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - MySQL Server has built-in support for SQL statements to check, optimize, and repair tables. These statements are available from the command-line utility for performing these operations on `MyISAM` tables
 - MySQL programs can be invoked with the `--help` or `-?` option to obtain online assistance
 
-___
 
-### Limitations:
-When users use some storage engines other than the default of InnoDB, MySQL doesn't comply with the full SQL standard for some of the implemented
+## Limitations:
+When users use storage engines other than the default of InnoDB, MySQL doesn't comply with the full SQL standard for some of the implemented functionality, including foreign key references. Check constraints are also parsed but ignored by all storage engines before MySQL version 8.0.15
+Up until MySQL 5.7, triggers are limited to one per action / timing, meaning that at most one trigger can be defined to be executed after an `INSERT` operation, and one before `INSERT` on the same table.
+MySQL database's inbuilt function like `UNIX_TIMESTAMP()` will also return 0 after 03:14:07 UTC on the 19th of January 2038. Recently, there had been an attempt to solve this problem which had been assigned to the internal queue.
 
 
 ## Market Comparison
