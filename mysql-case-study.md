@@ -291,7 +291,7 @@ Installing and starting MySQL is a simple process that varies depending on which
 ## References
 
 - [MySQL - Wikipedia](https://en.wikipedia.org/wiki/MySQL)
-- [Histori of MySQL - Data Science Central](https://www.datasciencecentral.com/history-of-mysql/)
+- [History of MySQL - Data Science Central](https://www.datasciencecentral.com/history-of-mysql/)
 - [Understanding MySQL Internals - O'Reilly](https://www.oreilly.com/library/view/understanding-mysql-internals/0596009577/ch01.html)
 - [MySQL features - JavatPoint](https://www.javatpoint.com/mysql-features)
 - [MySQL features - dev.mysql.com](https://dev.mysql.com/doc/refman/8.0/en/features.html)
