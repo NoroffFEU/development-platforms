@@ -65,12 +65,14 @@ Power Apps offers multiple ways to quickly start your app and pre-populate it wi
 *(Fig. 3 different datasources available to Power Apps)*
 
 For example, if you have an Excel spreadsheet for booking and charging the company’s electric car, you can turn it into an app. In fact, you can use most of Microsoft's work tools such as SharePoint, Excel, and Dataverse to create your app. You can also populate your app from a database. Another option is to use a Figma UI kit to get started with your app. We will briefly explain a few of the most popular options and how they work.
+
 ---
 
 ![Excel's logo.](https://user-images.githubusercontent.com/91562336/234001709-5437d399-166b-4e2e-b3c2-fe1ac1d0fb7d.jpg) <br />
 **Excel**
 
 As already mentioned, you can import data from Excel spreadsheets and use it to generate an app. This can be very convenient if you already have the data you want to use organized in Excel. Additionally, many of the formulas used in Excel are also used in Power Apps, so users with intermediate or advanced Excel skills will find it familiar. It is worth mentioning, however, that Excel is not a scalable data source due to its limitations with columns and rows.
+
 ---
 
 
@@ -78,6 +80,7 @@ As already mentioned, you can import data from Excel spreadsheets and use it to 
 **SharePoint**
 
 Use SharePoint lists and libraries to populate Power Apps with data and media. This enables you to easily create engaging apps by adding text, images, and videos. Whether you require product catalogs, customer reviews, or instructional videos, SharePoint simplifies content integration into your app.
+
 ---
 
 
@@ -85,6 +88,7 @@ Use SharePoint lists and libraries to populate Power Apps with data and media. T
 **Figma**
 
 You can use the Power Apps Figma asset pack or UI kit to create your app's layout, and Power Apps will automatically generate it for you. This process is possible by utilizing Power Apps prebuilt components. However, it is important to note that this kit is currently in early access and not all components are supported yet. For instance, charts, galleries, icons, shapes, and tables are not yet supported. Despite the limitation to supported components only, starting your app from this UI kit is still a viable option, especially if you need to collaborate on your app design outside of the Microsoft environment. Additionally, Figma offers more robust tools for alignment and spacing than Power Apps, making them easier to work with in this regard.
+
 ---
  
 ![SQL/database icon.](https://user-images.githubusercontent.com/91562336/234034611-5a88d3d9-727e-440f-a7b3-f2f4948244c8.png)<br />
@@ -93,6 +97,7 @@ You can use the Power Apps Figma asset pack or UI kit to create your app's layou
 Connecting a SQL server to Microsoft Power Apps is a simple process, especially if you already have an SQL server in your Microsoft environment. All you need to do is click on "new connection" and select the SQL server. Once you do that, you can either connect directly or use a gateway to establish a connection.
 
 ![Screenshot of the connections options location from Power Apps user interface.](https://user-images.githubusercontent.com/91562336/234244332-1f89b5dd-ff22-4c54-825c-7132c0b0ec9f.png)
+
 ---
 
 ### Custom connectors
