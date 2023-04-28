@@ -31,21 +31,16 @@ According to Gartner, Inc.'s latest report, the global market for low-code is es
 
 ## Main Features
 
-### Model driven apps
+### Model and Canvas driven apps - how they work
 
-Model-driven applications in Power Apps are designed to be data-centric and are built on top of a common data service platform. These applications are typically connected to datasets and are primarily used for presenting data to users.
+In power apps you can develop with either model driven or canvas driven development. But how do they differentiate? 
 
-Developers can create forms, views, and dashboards within model-driven applications, which can then be accessed by users through the Power Apps portal or the Dynamics 365 application.
+Model-driven is designed to be a data-centric development enviroment and are built on top of a common data service platform. The application is in that regard connected to datasets and therefor often used to present data to the users. With this approach the developers can create forms, views and dashboards - this can then be accessed by users through the power apps portal and the dynamics 365 Application. 
 
-Model-driven applications can be compared to a pre-built house, where the structure and layout are already established. However, developers have the ability to customize certain aspects of the application to their liking, such as the color scheme and user interface.
+Canvas on the other hand as the name says is an empty canvas to build your application on. The developer will have full control over layout, design and functionality og the application and can paint it the way the users want. From a developer and designer point of view you can see how this allows the developer to customize the application with use-ability in mind. 
+Working with a canvas application also makes it possible to make the low-code part more complex with power apps coding language Power Fx. Making the functionality of the application just how you want it. 
 
-### Canvas driven applications
-
-Canvas-driven applications, on the other hand, are more like a blank canvas. There is full control over the layout, design, and functionality of the application. Additionally, you have the same connectors as in model-driven applications.
-
-Some options in canvas-driven apps involve customizing how buttons, controls, and other elements behave and interact with users. Canvas-driven applications are developed with little to no code, but they can still be quite complex.
-
-To put it into a metaphor, the developer has complete freedom and control over the application itself, adding colors, shapes, elements, and interactions to create a personalized piece of art for users to interact with.
+Wrapping it up these two ways of developing through power apps will most likely combined in the future - for now the users can choose to either build their house from scratch in canvas --or simply place furniture in model driven enviroment
 
 ### How it works
 ![Illustrates the headline: How it works. Shows a Themes.json file with a questionmark next to it.](https://user-images.githubusercontent.com/91562336/234261904-32e7b386-291d-434e-a223-a40adb4d4a78.png)<br />
@@ -70,27 +65,27 @@ Power Apps offers multiple ways to quickly start your app and pre-populate it wi
 *(Fig. 3 different datasources available to Power Apps)*
 
 For example, if you have an Excel spreadsheet for booking and charging the company’s electric car, you can turn it into an app. In fact, you can use most of Microsoft's work tools such as SharePoint, Excel, and Dataverse to create your app. You can also populate your app from a database. Another option is to use a Figma UI kit to get started with your app. We will briefly explain a few of the most popular options and how they work.
-<hr>
+---
 
 ![Excel's logo.](https://user-images.githubusercontent.com/91562336/234001709-5437d399-166b-4e2e-b3c2-fe1ac1d0fb7d.jpg) <br />
 **Excel**
 
 As already mentioned, you can import data from Excel spreadsheets and use it to generate an app. This can be very convenient if you already have the data you want to use organized in Excel. Additionally, many of the formulas used in Excel are also used in Power Apps, so users with intermediate or advanced Excel skills will find it familiar. It is worth mentioning, however, that Excel is not a scalable data source due to its limitations with columns and rows.
-<hr>
+---
 
 
 ![Sharepoint's logo.](https://user-images.githubusercontent.com/91562336/234001452-d17c48bd-6fde-4735-a15a-2600756abd0c.png)<br />
 **SharePoint**
 
 Use SharePoint lists and libraries to populate Power Apps with data and media. This enables you to easily create engaging apps by adding text, images, and videos. Whether you require product catalogs, customer reviews, or instructional videos, SharePoint simplifies content integration into your app.
-<hr>
+---
 
 
 ![Figma's logo.](https://user-images.githubusercontent.com/91562336/234001607-003ecbae-68e7-48e6-87d4-793deb638d61.png)<br />
 **Figma**
 
 You can use the Power Apps Figma asset pack or UI kit to create your app's layout, and Power Apps will automatically generate it for you. This process is possible by utilizing Power Apps prebuilt components. However, it is important to note that this kit is currently in early access and not all components are supported yet. For instance, charts, galleries, icons, shapes, and tables are not yet supported. Despite the limitation to supported components only, starting your app from this UI kit is still a viable option, especially if you need to collaborate on your app design outside of the Microsoft environment. Additionally, Figma offers more robust tools for alignment and spacing than Power Apps, making them easier to work with in this regard.
-<hr>
+---
  
 ![SQL/database icon.](https://user-images.githubusercontent.com/91562336/234034611-5a88d3d9-727e-440f-a7b3-f2f4948244c8.png)<br />
 **SQL**
@@ -98,7 +93,7 @@ You can use the Power Apps Figma asset pack or UI kit to create your app's layou
 Connecting a SQL server to Microsoft Power Apps is a simple process, especially if you already have an SQL server in your Microsoft environment. All you need to do is click on "new connection" and select the SQL server. Once you do that, you can either connect directly or use a gateway to establish a connection.
 
 ![Screenshot of the connections options location from Power Apps user interface.](https://user-images.githubusercontent.com/91562336/234244332-1f89b5dd-ff22-4c54-825c-7132c0b0ec9f.png)
-<hr>
+---
 
 ### Custom connectors
 With Power Apps, you can create custom connectors that allow you to connect to any RESTful API. This gives you the ability to connect to almost any data source that provides a web API. Creating a custom connector is easy and straightforward, as you can simply access the built-in wizard from the menu.
