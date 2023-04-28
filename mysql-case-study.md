@@ -6,7 +6,7 @@ Tags: MySQL, Datastore, Database, Relational Database, Relational Database Manag
 
 ## Table of Contents:
 1. sad
-    1a. asd
+
 
 ![mysql-official](https://user-images.githubusercontent.com/56642663/234897614-037394b5-4c2c-459d-9934-a4e7c9175933.svg)
 
@@ -60,7 +60,7 @@ MySQL is as mentioned a relational database management system (RDBMS) based on t
 
 The following section describes some of the most important features and characteristics of the MySQL Database Software:
 
-**Internals and Portability:**
+#### Internals and Portability:
 - Written in C and C++
 - Tested with a broad range of different compilers
 - Works on many different platforms
@@ -75,13 +75,13 @@ The following section describes some of the most important features and characte
 - Implements SQL functions using highly optimized class library that should be as fast as possible. Usually there is no memory allocation at all after query initialization
 - Provides the server as a separate program for use in a client/server networked environment
 
-**Data Types:**
+#### Data Types:
 - Fixed length and variable-length string types
 - Many data types:
 - - signed/unsigned integers 1, 2, 3, 4 and 8 bytes long
 - - `FLOAT`, `DOUBLE`, `CHAR`, `VARCHAR`, `BINARY`, `VARBINARY`, `TEXT`, `BLOB`, `DATE`, `TIME`, `DATETIME`, `TIMESTAMP`, `YEAR`, `SET`, `ENUM` and OpenGIS spatial types
 
-**Statements and Functions:**
+#### Statements and Functions:
 - Full operator and function support in the SELECT list and WHERE clause of queries. For example:
 ```sql
 mysql> SELECT CONCAT(first_name, ' ', last_name)
