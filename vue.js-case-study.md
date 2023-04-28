@@ -20,9 +20,10 @@ Evan wanted to create a framework that was easy to understand and use, yet still
  
 - **2013:** Version 0.6 In December Evan You created the first version of Vue
 - **2014:** Version 0.8 First public release
-- **2015:** Version 1.0 Was released, which featured a virtual DOM and improved performance.
+- **2015:** Version 1.0 Was released, which featured a virtual DOM and improved performance. Starting to gain popularity. Chinese tech giants Alibaba and Xiamoi are now using Vue.
 - **2016:** Version 2.0 Was released, which introduced significant performance improvements, better TypeScript support, and a new syntax for components.
-- **2020:** Version 3.0 Was released, which introduced several new features and performance improvements over the previous version.
+- **2020:** Version 3.0 Was released, which introduced several new features and performance improvements over the previous version. Estimated over 6 million weekly downloads from npm.
+- **2021:** The community is growing and it has now over 10 million downloads per week.
 
 ## Main Features
  
