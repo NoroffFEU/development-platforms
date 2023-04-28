@@ -280,16 +280,20 @@ mysql> SHOW DATABASES;
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+MySQL has a rich and diverse history of development and releases. From the initial development in 1994 and the release in 1995, to the acquisation by Sun Microsystems and eventually the ownership by Oracle, MySQL has steadily provided reliable and efficient Relational Database Management solutions. Over the years, MySQL has continued to evolve and change to the needs of its users, with new features and enhancements added in each version release.
+
+MySQL is also a popular open-source relational database management system that offers various features and functionalitites to access and manage table records. It has a range of characteristics such as portability, scalability, data security and connectivity, and can handle large databases with millions of records
+
+With the Market Comparison between MySQL and MariaDB, both of them has their own unique strengths and limitations. MariaDB offers a wide range og storage engine options, replication and cluster features, while MySQL has the advantage of being backed by Oracle, which serves top-tier support for enterprise-customers aswell with steady and consistent updates 
+
+Installing and starting MySQL is a simple process that varies depending on which platform the user is using. For Linux users, repositories is the easiest way to install. On Windows, it is recommended to use the MySQL installer, which will automatically configure MySQL as a windows service. Once the MySQL Server is up and running, you can connect to it using mysql client and perform basic operations like creating a new database and showing existing ones
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [MySQL - Wikipedia](https://en.wikipedia.org/wiki/MySQL)
+- [Histori of MySQL - Data Science Central](https://www.datasciencecentral.com/history-of-mysql/)
+- [Understanding MySQL Internals - O'Reilly](https://www.oreilly.com/library/view/understanding-mysql-internals/0596009577/ch01.html)
+- [MySQL features - JavatPoint](https://www.javatpoint.com/mysql-features)
+- [MySQL features - dev.mysql.com](https://dev.mysql.com/doc/refman/8.0/en/features.html)
+- [MySQL vs MariaDB - linuxac](https://linuxiac.com/mysql-vs-mariadb/)
+- [MySQL vs MariaDB - Cloudways](https://www.cloudways.com/blog/mariadb-vs-mysql/)
