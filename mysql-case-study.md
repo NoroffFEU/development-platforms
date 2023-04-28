@@ -125,12 +125,10 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - The server time zone can be changed dynamically, and individual clients can specify their own time zone
 
 **Clients and Tools**
-- MySQL includes several client and utility programs. These include both command-line programs such as `mysqldump` and `mysqladmin`, and graphical programs such as MySQL Workbench
-- MySQL Server has built-in support for SQL statements to check, optimize, and repair tables. These statements are available from the command-line utility for performing these operations on `MyISAM` tables
-- MySQL programs can be invoked with the `--help` or `-?` option to obtain online assistance
+MySQL includes several client and utility programs. These include both command-line programs such as `mysqldump` and `mysqladmin`, and graphical programs such as MySQL Workbench. MySQL Server also has an built-in support for SQL statements to check, optimize, and repair tables. These statements are available from the command-line utility for performing these operations on `MyISAM` tables. MySQL programs can aswell be invoked with the `--help` or `-?` option to obtain online assistance
 
 
-## Limitations:
+## Limitations
 When users use storage engines other than the default of InnoDB, MySQL doesn't comply with the full SQL standard for some of the implemented functionality, including foreign key references. Check constraints are also parsed but ignored by all storage engines before MySQL version 8.0.15.
 
 
@@ -142,11 +140,15 @@ MySQL database's inbuilt function like `UNIX_TIMESTAMP()` will also return 0 aft
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+|  MySQL 	| MariaDB   	|
+|---	|---	|
+|   	|   	|
+|   	|   	|
+|   	|   	|
+|   	|   	|
+|   	|   	|
+|   	|   	|
+|   	|   	|
 
 ## Getting Started
 
