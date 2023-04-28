@@ -52,7 +52,7 @@ MySQL is a Relational Database Management System (RDBMS), based on Structured Qu
 
 ## Main Features
 
-MySQL is as mentioned a relational database management system (RDBMS) based on the structural query language (SQL) and is one of the most popular languages in the market for accessing and managing table records. MySQL is also a open-source and free software under the GNU license.
+MySQL is as mentioned a relational database management system (RDBMS) based on the structural query language (SQL) and is one of the most popular RDBMS softwares in the market for accessing and managing table records. MySQL is also a open-source and free software under the GNU license.
 
 The following section describes some of the most important features and characteristics of the MySQL Database Software:
 
