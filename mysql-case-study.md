@@ -151,17 +151,18 @@ Replacing MySQL, MariaDB has become a seamless process for most applications and
 
 |   	|  **MariaDB** 	| **MySQL**  	|
 |---	|---	|---	|
-| **Storage**  	| MariaDB has 12 different storage engines that you won't find in MySQL  	| MySQL offer fewer alternatives for storage engine compared to MariaDB  	|
+| **Storage Engines**  	| MariaDB supports a wide variety of storage engines like Blackhole, CSV, XtraDB, Aria, InnoDB, Archive, MariaDB ColumnStore, Connect, Cassandra Storage Engine, etc.  	| MySQL offer fewer alternatives for storage engine compared to MariaDB like example: MyISAM, Merge, Federated, InnoDB, Archive, Memory, CSV, Blackhole  	|
 |   **Oracle Database Compatability**	| MariaDB is the only open-source database compatible with Oracle Database stored procedures, sequences, data types, etc.  	| MySQL has some basic Oracle features compatibility  	|
 | **Speed / Performance**  	| MariaDB is faster when it comes to replication and performing queries. Also supports a high concurrent number of connections without much performance degradation  	| MySQL does have the ability to thread pool. It is however only available in the Enterprise Edition of MySQL. This means that the free-to-use community version doesn't include thread pooling  	|
 | **Replication**  	| MariaDB allows Master to Slave data transfer and enables Master to Master replication. This provides administrators with added functionality to work with multiple Master databases at once  	| MySQL offers asynchronous replication, which means it is a one-way process  	|
 | **Clustering**   	| MariaDB uses the Galera Cluster to perform advanced replication for multi-master nodes. It is built by default in MariaDB and can be easily enabled by activating the configuration parameters   	| MySQL uses a specialized cluster technology called MySQL Cluster. This is a separate product from the MySQL Community/Enterprise Editions. It provides another storage engine to MySQL, distributing records over multiple hosts by a key hash
 | **Support**  	| MariaDB provides a top-quality support option that offers 24/7 technical support throughout the year. In addition, their engineer are quite skilled in both MariaDB and MySQL, which helps helps alot if the user decides to switch between the two databases  	| MySQL offers an enterprise version of its product that includes complimentary security features and 24/ support. Backed by the Oracle Corporation, MySQL is an excellent option for business customers looking for steady improvements, consistent updates, and enterprise-level support  	|
 | **Security**   	| MariaDB offers three password authentication plugins, which gives the users more security in their database management  	| MySQL comes with the validate_password component, which is used to verify and increase password security. MySQL also comes with a privilege and password system that is very flexible and secure, that enables host-based verification. It also offers password security by encryption of all password traffic when you connect to a server.
-|   	|   	|   	|
-|   	|   	|   	|
-|   	|   	|   	|
-|   	|   	|   	|
+| **Encryption**   	| MariaDB supports binary log encryption and temporary table encryption  	| MySQL gives the authentication to configure and encrypts redo/undo logs, while it doesn't encrypt temporary tablespace or binary logs  	|
+| **Community & License**  	| MariaDB provides a complete package  	| MySQL comes with certain limitations. The community edition is missing capabilities like Threadpool, which significantly impairs the database and query speed 	|
+
+![Thread-Pooling](https://user-images.githubusercontent.com/56642663/235178708-c7df5fc0-a1d9-4f7e-8d69-2216be88eb9c.png)
+
 
 ## Getting Started
 
