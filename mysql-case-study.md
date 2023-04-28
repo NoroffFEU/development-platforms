@@ -198,6 +198,9 @@ Both MariaDB and MySQL offers a range of features and benefits for the users. Ma
 #### Installing and Starting MySQL:
 **Linux:**
 - The easiest way to install MySQL is to use the [MySQL repositories](https://dev.mysql.com/downloads/)
+- Next, start the MySQL Server if your installation includes [mysqld_safe:](https://dev.mysql.com/doc/refman/8.0/en/mysqld-safe.html)
+- - ```sql $> bin/mysqld_safe --user=mysql & ```
+- 
 
 ## Conclusion
 
