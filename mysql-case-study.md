@@ -24,6 +24,7 @@ Tags: MySQL, Datastore, Database, Relational Database, Relational Database Manag
 6. **[Getting Started with MySQL](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#getting-started-with-mysql)**
 - - 6a. *[Installing and Starting MySQL](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#installing-and-starting-mysql)*
 
+---
 
 ![mysql-official](https://user-images.githubusercontent.com/56642663/234897614-037394b5-4c2c-459d-9934-a4e7c9175933.svg)
 
