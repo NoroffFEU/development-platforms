@@ -125,6 +125,7 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - The server time zone can be changed dynamically, and individual clients can specify their own time zone
 
 **Clients and Tools:**
+
 MySQL includes several client and utility programs. These include both command-line programs such as `mysqldump` and `mysqladmin`, and graphical programs such as MySQL Workbench. MySQL Server also has an built-in support for SQL statements to check, optimize, and repair tables. These statements are available from the command-line utility for performing these operations on `MyISAM` tables. MySQL programs can aswell be invoked with the `--help` or `-?` option to obtain online assistance
 
 
