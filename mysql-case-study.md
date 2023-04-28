@@ -16,7 +16,7 @@ Tags: MySQL, Datastore, Database, Relational Database, Relational Database Manag
 - - 3f. [Connectivity](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#connectivity)
 - - 3g. [Localization](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#localization)
 - - 3h. [Clients and Tools](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#clients-and-tools)
-4. **[Limitations](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#limitations)
+4. **[Limitations](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#limitations)**
 5. **[Market Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#market-comparison)**
 - - 5a. [What is MariaDB?](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#what-is-mariadb)
 - - 5b. [Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#comparison)
