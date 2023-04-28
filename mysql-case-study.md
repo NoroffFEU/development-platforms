@@ -5,7 +5,7 @@ Tags: MySQL, Datastore, Database, Relational Database, Relational Database Manag
 ---
 
 ## Table of Contents:
-1. [Introduction](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#introduction)
+1. **[Introduction](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#introduction)**
 2. [Brief History](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#brief-history)
 3. [Main Features](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#main-features)
 - - 3a. [Internals and Portability](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#internals-and-portability)
