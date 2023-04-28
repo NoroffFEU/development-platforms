@@ -218,6 +218,8 @@ $> systemctl start mysqld
 #### Other platforms:
 - For installations on other platforms, as well as installation methods not covered above, see [Installing and Upgrading MySQL](https://dev.mysql.com/doc/refman/8.0/en/installing.html)
 
+---
+
 ### Connecting to the MySQL server with the mysql client:
 - Once your MySQL server is up and running, you can connect to it as the superuser `root` with the [mysql client](https://dev.mysql.com/doc/refman/8.0/en/mysql.html)
 
@@ -234,6 +236,8 @@ $> mysql -u root -p
 C:\> mysql -u root -p
 ```
 - You are then asked for the `root` password, which was assigned in different manners according to the way MySQL was installed
+
+---
 
 ### Some Basic Operations with MySQL:
 
