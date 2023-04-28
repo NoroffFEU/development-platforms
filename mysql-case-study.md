@@ -163,6 +163,11 @@ Replacing MySQL, MariaDB has become a seamless process for most applications and
 
 ![Thread-Pooling](https://user-images.githubusercontent.com/56642663/235178708-c7df5fc0-a1d9-4f7e-8d69-2216be88eb9c.png)
 
+---
+
+### Conclusion of comparison:
+
+Both MariaDB and MySQL offers a range of features and benefits for the users. MariaDB has an edge over MySQL when it comes to storage engine alternatives, replication, clustering and compatibility with Oracle Databases. MariaDB also offers high speed / performance and security features, with the three password authentication plugins and the support for binary log encryption. However, MySQL is being backed by Oracle Corporation, which provides the users with a enterprise-level support and consistent updates, which in turns makes it a solid choice for business customers looking for a steady RDBMS. While MariaDB offers a complete package in regards of Community & License, the MySQL's community edition has some certain limitations that in the end could impact the database and query speed. In the end, the choice between MySQL and MariaDB will depend on the users specific needs, like performance, scalability, support and the compatibility with other tools  
 
 ## Getting Started
 
