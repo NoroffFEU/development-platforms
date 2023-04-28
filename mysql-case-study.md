@@ -129,7 +129,7 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - MySQL Server has built-in support for SQL statements to check, optimize, and repair tables. These statements are available from the command-line utility for performing these operations on `MyISAM` tables
 - MySQL programs can be invoked with the `--help` or `-?` option to obtain online assistance
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+___
 
 ### Limitations:
 When users use some storage engines other than the default of InnoDB, MySQL doesn't comply with the full SQL standard for some of the implemented
