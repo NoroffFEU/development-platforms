@@ -153,8 +153,8 @@ Replacing MySQL, MariaDB has become a seamless process for most applications and
 | **Storage**  	| MariaDB has 12 different storage engines that you won't find in MySQL  	| MySQL offer fewer alternatives for storage engine compared to MariaDB  	|
 |   **Oracle Database Compatability**	| MariaDB is the only open-source database compatible with Oracle Database stored procedures, sequences, data types, etc.  	| MySQL has some basic Oracle features compatibility  	|
 | **Speed Performance**  	| MariaDB is faster when it comes to replication and performing queries. Also supports a high concurrent number of connections without much performance degradation  	| MySQL is slower in speed and performance when it's compared to MariaDB  	|
-|   	|   	|   	|
-|   	|   	|   	|
+| **Replication**  	| MariaDB allows Master to Slave data transfer and enables Master to Master replication. This provides administrators with added functionality to work with multiple Master databases at once  	| MySQL offers asynchronous replication, which means it is a one-way process  	|
+| **Clustering**   	| MariaDB uses the Galera Cluster to perform advanced replication for multi-master nodes. It is built by default in MariaDB and can be easily enabled by activating   	|
 |   	|   	|   	|
 |   	|   	|   	|
 
