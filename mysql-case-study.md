@@ -131,8 +131,12 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 
 
 ## Limitations:
-When users use storage engines other than the default of InnoDB, MySQL doesn't comply with the full SQL standard for some of the implemented functionality, including foreign key references. Check constraints are also parsed but ignored by all storage engines before MySQL version 8.0.15
+When users use storage engines other than the default of InnoDB, MySQL doesn't comply with the full SQL standard for some of the implemented functionality, including foreign key references. Check constraints are also parsed but ignored by all storage engines before MySQL version 8.0.15.
+
+
 Up until MySQL 5.7, triggers are limited to one per action / timing, meaning that at most one trigger can be defined to be executed after an `INSERT` operation, and one before `INSERT` on the same table.
+
+
 MySQL database's inbuilt function like `UNIX_TIMESTAMP()` will also return 0 after 03:14:07 UTC on the 19th of January 2038. Recently, there had been an attempt to solve this problem which had been assigned to the internal queue.
 
 
