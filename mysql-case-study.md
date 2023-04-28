@@ -142,7 +142,7 @@ MySQL database's inbuilt function like `UNIX_TIMESTAMP()` will also return 0 aft
 
 |  MySQL 	| MariaDB   	|
 |---	|---	|
-|   	|   	|
+| cake  	| cake   	|
 |   	|   	|
 |   	|   	|
 |   	|   	|
