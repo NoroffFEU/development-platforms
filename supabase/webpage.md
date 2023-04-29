@@ -6,4 +6,4 @@
 
 #### Webpage
 
-- https://jolly-seahorse-c34997.netlify.app/
+- https://supabase-supabase.netlify.app
