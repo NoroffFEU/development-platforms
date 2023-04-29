@@ -22,3 +22,5 @@ https://www.youtube.com/watch?v=hxhfxN6yGcg
 
 - ANDY'S TECH TUTORIALS | React Login
 - PROGRAMONAUT.COM | How to use Supabase
+- SUPABASE.COM | Supabase Documentation
+  
