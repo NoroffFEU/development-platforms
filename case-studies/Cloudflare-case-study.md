@@ -188,7 +188,7 @@ Cloudflare is a CDN and web security company that provides a range of services t
 - [Cloudflare help center](https://support.cloudflare.com/hc/en-us)
 - [Cloudflare community](https://community.cloudflare.com/)
 - [Cloudflare API documentation](https://developers.cloudflare.com/api)
-- [Cloudflare's Youtube channel](https://www.youtube.com/channel/UCs1L-XX1BZfkTc0tTWeTtXQ)
+- [Cloudflare's Youtube channel](https://www.youtube.com/@cloudflare)
 - [Cloudflare's Github](https://github.com/cloudflare)
 
 ### History:
