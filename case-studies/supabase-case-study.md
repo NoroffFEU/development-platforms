@@ -1,6 +1,6 @@
 ---
 title: Supabase Case Study
-author: Sayeda Chattopadhyay <sayeda-chattopadhy>
+authors: Sjur Hassel, Rohit Kumar Amdahl & Sayeda Chattopadhyay 
 tags: Development Platforms, Supabase, BaaS platform
 ---
 
