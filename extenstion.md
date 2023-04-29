@@ -1,4 +1,3 @@
-
 ---
 title: Supabase case study
 author: Rohit kumar <RohitAmdahl>
