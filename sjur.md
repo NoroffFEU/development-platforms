@@ -6,7 +6,7 @@ tags: supabase, case-study, case study, assignment
 
 
 ## Video
-<video src="https://www.youtube.com/watch?v=hxhfxN6yGcg" controls="controls" muted="muted" playsinline="playsinline"></video>
+[![Watch the video](https://user-images.githubusercontent.com/77972892/235294534-1186b93f-3698-4001-a308-55cdb2cb5f28.png)](https://www.youtube.com/watch?v=hxhfxN6yGcg)
 
 ## YouTube References
 
