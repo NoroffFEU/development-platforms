@@ -6,8 +6,7 @@ tags: supabase, case-study, case study, assignment
 
 
 ## Video
-
-  <img width="761" alt="Screenshot 2023-04-29 at 09 58 18" src="https://www.youtube.com/watch?v=hxhfxN6yGcg">
+<video src="https://www.youtube.com/watch?v=hxhfxN6yGcg" controls="controls" muted="muted" playsinline="playsinline"></video>
 
 ## YouTube References
 
