@@ -4,7 +4,9 @@ author: Sjur Hassel <VaNomad>
 tags: supabase, case-study, case study, assignment
 ---
 
-<iframe src="https://www.youtube.com/embed/dQw4w9WgXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  
+<iframe src="[https://youtu.be/hxhfxN6yGcg](https://www.youtube.com/watch?v=hxhfxN6yGcg)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## YouTube References
 
