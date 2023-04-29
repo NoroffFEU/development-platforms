@@ -6,7 +6,7 @@ tags: supabase, case-study, case study, assignment
 
   
   
-<iframe src="[https://youtu.be/hxhfxN6yGcg](https://www.youtube.com/watch?v=hxhfxN6yGcg)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315 title="Supabase Case Study" "src="https://www.youtube.com/watch?v=hxhfxN6yGcg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## YouTube References
 
