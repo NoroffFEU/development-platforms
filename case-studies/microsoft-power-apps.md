@@ -27,18 +27,10 @@ According to Gartner, Inc.'s latest report, the global market for low-code is es
 - **2015** - Power Apps was first introduced by Microsoft in November 2015 as a new addition to its suite of business applications. Initially, it was part of the Dynamics 365 suite and was called "Project Siena."
 - **2016** - Microsoft released Power Apps as a standalone product and added it to the Office 365 suite. Power Apps has since grown in popularity and evolved with new features and capabilities, such as the ability to integrate with other Microsoft products like Power BI and Azure.
 - **2019** - Microsoft announced the availability of Power Apps for mobile devices, enabling users to create and use apps on-the-go.
-- **2020** - Microsoft released new tools to simplify the process of building custom connectors for Power Apps, allowing users to easily integrate with a wide range of data sources.
-- **2020** - Microsoft renames the common data service to dataverse.
-- **2021** - Microsoft made Mixed reality components generally available in Power apps.
-- **2021** - Microsoft released a VS code extension to allow developers to work more in VS code. Included intellisense and CLI support. 
-- **2021** - Microsoft Power apps is recognized as a leader in The Forrester wave as a low-code platform for proffesional developers. They are also a leader in the Gartner Magic quadrant for enterprise low-code application platforms. 
-- **2021** - Power apps Ideas AI is introduced to include natural language written Power Fx formulas. 
-- **2021** - Experminatal Github version control introduced in power apps. 
-- **2022** - Power Virtual Agents is Generally available using the chatbot component.
-- **2022** - Dataverse service client SDK becomes Generally Available.
-- **2022** - Introducing Named formulas to the Power Fx language making it easier to have global variables. 
-- **2023** - Microsoft Power apps is named a leader in the 2023 Gartner Magic Quadrant for enterprise low-code application platforms. 
-- **2023** - Microsoft annoucing Copilot for power apps for developers and users - letting developers set up an app faster, and users to interact with the app in a completely new and innovative way. 
+- **2020** - Microsoft released new tools to simplify the process of building custom connectors for Power Apps, allowing users to easily integrate with a wide range of data sources. The common data service is rebranched to dataverse. 
+- **2021** - Microsoft made Mixed reality components generally available in Power apps. An VS code extension is released to allow developers to work more easily in code which include CLI support and intellisense. Microsoft Power apps is recognized as a leader in low code application platforms by The Forrester Wave and Gartner Magic quadrant for enterprises. Power apps Ideas AI is introduced to include a natural language written Power Fx formulas and an experimental Github version control is introduced. 
+- **2022** - Power Virtual Agents is Generally available using the chatbot component as well as dataverse service client SDK. Named formulas is introduced to make global variables easier to have control over. 
+- **2023** - Microsoft Power apps is named a leader in the 2023 Gartner Magic Quadrant for enterprise low-code application platforms. Announcing Copilot for power apps for developers and users - allowing developers to set up the app with commands and user to interact with the app in a new and innovative way. Much like a chat. 
 
 ## Main Features
 
