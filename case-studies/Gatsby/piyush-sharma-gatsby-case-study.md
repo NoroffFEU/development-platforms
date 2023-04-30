@@ -4,6 +4,8 @@ author: Piyush Sharma
 tags: Gatsby, Javascript, framework, case study, development platform
 ---
 
+![image](https://user-images.githubusercontent.com/95731355/235372625-180f892e-a2ec-459f-b36e-0a50b1563b2b.png)
+
 ## Introduction
 
 Gatsby is a web framework that facilitates the creation of static websites and web applications. It's built on top of React and utilizes modern web technologies like GraphQL, Webpack, and Babel to provide high performance and a more user-friendly experience for developers.
