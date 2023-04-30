@@ -51,6 +51,7 @@ and highly regarded CMS platforms in the industry.
 When compared to other popular CMS platforms like WordPress, Drupal, and Joomla, Ghost stands out for its simplicity, speed, and focus on blogging.
 While it may not have as many features or ability to be as customizable as some of the other CMS platforms, it's a great choice for bloggers and content creators
 who want to focus on creating content without getting bogged down in technical details.
+
 Compared with WordPress, Ghost is solely based on blogging, while WordPress offers a lot more complexity and the ability to manage for example e-commerce sites as well. The communities are quite different when it comes to the size and amount of users, meaninng that it could be more difficult to
 find plugins, themes and previously asked questions with Ghost. WordPress also offers more features and customization than Ghost, but at the cost of a more complex interface. Ghost would be recommended for the users that would like an easy and fast way to create content, without the need for a lot of extra faetures and complexity. 
   
