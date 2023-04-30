@@ -4,7 +4,7 @@ author: Daniel Vier <donnybrilliant>
 tags: vite, video case study, build tool, tutorial
 ---
 
-<iframe src="https://www.youtube.com/embed/dQw4w9WgXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/rnc7QdbuQC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## References
 
