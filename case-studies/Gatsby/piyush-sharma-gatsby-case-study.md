@@ -207,3 +207,5 @@ https://www.youtube.com/watch?v=2n4Feb3n46Q&ab_channel=Prismic
 https://www.gatsbyjs.com/docs/glossary/static-site-generator/
 
 https://www.gatsbyjs.com/docs/glossary/
+
+https://solutionshub.epam.com/blog/post/what-is-server-side-rendering
