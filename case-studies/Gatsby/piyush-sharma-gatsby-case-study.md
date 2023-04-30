@@ -203,3 +203,7 @@ https://www.mparticle.com/blog/what-is-gatsby/
 https://www.youtube.com/watch?v=GuvAMcsoreI&ab_channel=ZacGordon
 
 https://www.youtube.com/watch?v=2n4Feb3n46Q&ab_channel=Prismic
+
+https://www.gatsbyjs.com/docs/glossary/static-site-generator/
+
+https://www.gatsbyjs.com/docs/glossary/
