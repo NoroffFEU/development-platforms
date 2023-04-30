@@ -3,7 +3,7 @@ title: Gatsby (JavaScript framework) Case Study
 author: Piyush Sharma
 tags: Gatsby, Javascript, framework, case study, development platform
 ---
-![Image] <p align="center"><img src="Images/gatsby.jpeg"><p>
+![Image] <p align="center"><img src="static/images/gatsby.jpeg"><p>
 
 ## Introduction
 
