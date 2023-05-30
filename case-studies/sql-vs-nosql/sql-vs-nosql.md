@@ -127,7 +127,8 @@ SQL, er et standardspråk som brukes til å kommunisere med databaser og til å 
 
 Oppsummert er MySQL en spesifikk implementering av et RDBMS som bruker SQL som sitt primære språk, mens SQL er et språk som brukes til å kommunisere med databaser generelt.
 
-###Kilder
+### Kilder
+
 Vi har brukte disse kildene for å hente informasjon:
 
  - [https://google.no](http://www.google.no/)
