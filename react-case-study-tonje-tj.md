@@ -207,21 +207,6 @@ npm start
 ```
 This command will start the development server and automatically open your application in a web browser. Any changes you make to your code will be hot-reloaded, meaning you can see the updates instantly without manually refreshing the page.
 
-4. **Writing React Components:** In React, UI elements are created using components. Components are reusable, self-contained units that hold specific functionality and rendering logic. To create a new component, you can define a JavaScript function or class that returns JSX (a combination of HTML and JavaScript syntax). Here's an example of a simple functional component:
-
-jsx file
-```
-import React from 'react';
-
-function Greeting() {
-  return <h1>Hello, React!</h1>;
-}
-
-export default Greeting;
-
-```
-You can use this component in other parts of your application by importing it and including it in the JSX code.
-
 You can visit [React's](https://react.dev/learn) homepage to read more about documentation and how to use React. 
 
 ## Conclusion
