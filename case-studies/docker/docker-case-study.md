@@ -62,7 +62,7 @@ Developing apps today requires so much more than writing code. Multiple language
 
 - **Step 2: Verify Installation:** Once installed, open a terminal or command prompt and run the following command:
 
-```bash
+```css
 docker --version
 ```
 
@@ -70,7 +70,7 @@ This command should display the installed Docker version, indicating that Docker
 
 - **Step 3: Run Your First Container:** Let's run a simple container to verify everything is working correctly. In the terminal, type the following command:
 
-```bash
+```arduino
 docker run hello-world
 ```
 
@@ -80,7 +80,7 @@ Docker will automatically donwload the 'hello-world' image from Docker Hub, crea
 
 - **Step 5: Build Your Own Image:** To truly harness the power of Docker, you'll want to create your own Docker images. Docker images are defined using a simple text file called a Dockerfile. The Dockerfile specifies the application, dependencies, and configurations needed for your container. Here's a basic example of a Dockerfile for a simple web application using Node.js:
 
-```dockerfile
+```Dockerfile
 # Use the official Node.js image as the base image
 FROM node:14
 
@@ -105,7 +105,7 @@ CMD ["npm", "start"]
 
 With This dockerfile in your project directory, you can build your custom image using the following command:
 
-```bash
+```perl
 docker build -t my-node-app .
 ```
 
@@ -113,7 +113,7 @@ Replace 'my-node-app' with a name for your image. The '.' at the end indicates t
 
 - **Step 6: Run Your Custom Image:** Now that you've built your custom image, you can run a container from it:
 
-```bash
+```arduino
 docker run -p 3000:3000 my-node-app
 ```
 
