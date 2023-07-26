@@ -62,7 +62,7 @@ Developing apps today requires so much more than writing code. Multiple language
 
 - **Step 2: Verify Installation:** Once installed, open a terminal or command prompt and run the following command:
 
-```css
+```arduino
 docker --version
 ```
 
@@ -105,7 +105,7 @@ CMD ["npm", "start"]
 
 With This dockerfile in your project directory, you can build your custom image using the following command:
 
-```perl
+```arduino
 docker build -t my-node-app .
 ```
 
