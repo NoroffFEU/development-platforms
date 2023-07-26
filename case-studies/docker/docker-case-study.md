@@ -39,15 +39,40 @@ Developing apps today requires so much more than writing code. Multiple language
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+#### Advantages
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+- **Portability:** Docker containers encapsulate applications and their dependencies, making them highly portable. You can run containers consistently on any platform that supports Docker, from development machines to production servers, without worrying about environment differences.
+- **Efficiency:** Containers share the host OS's kernel, reducing overhead compared to traditional virtualization. This results in faster startup times, lower resource usage, and the ability to run many containers on a single host.
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+#### Disadvantages
+
+- **Complexity:** Docker introduces additional complexity to the development and deployment process, especially for those new to containerization. Understanding container orchestration, networking, and security aspects can be challenging.
+- **Security Concerns:** While Docker provides isolation between containers, security breaches can still occur if container images are not properly built, or if malicious actors exploit vulnerabilities in shared libraries.
+- **Networking Complexity:** Docker networking can be complex, especially when dealing with inter-container communication or integrating containers with external networks. Proper network configuration is crucial for seamless application operation.
+
+#### Similar Tools & Technologies
+
+- **Podman:** Podman is a containerization tool similar to Docker but offers some differences. One key distinction is that Podman does not require a separate daemon to run containers, making it more suitable for scenarios where users prefer not to have a background service managing containers.
+- **rkt (Rocket):** rkt, also known as Rocket, is an open-source container runtime developed by CoreOS. It was designed with a focus on security and composability, providing an alternative to Docker's container runtime.
+- **LXC (Linux Containers):** LXC is an older containerization technology that predates Docker. It provides operating system-level virtualization like Docker but with a lower level of abstraction. While LXC is more flexible in terms of container management, Docker's ease of use and ecosystem popularity have led to its widespread adoption.
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+- **Step 1: Install Docker:** First, you need to install Docker on your machine. Docker provides versions for various operating systems, including Windows, macOS, and Linux. Visit the official Docker website (https://www.docker.com/get-started) and download the appropriate version for your system.
+
+- **Step 2: Verify Installation:** Once installed, open a terminal or command prompt and run the following command:
+
+```bash
+docker --version
+```
+
+This command should display the installed Docker version, indicating that Docker is up and running.
+
+- **Step 3: Run your first container:** Let's run a simple container to verify everything is working correctly. In the terminal, type the following command:
+
+```bash
+docker run hello-world
+```
 
 ## Conclusion
 
