@@ -103,6 +103,22 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
+With This dockerfile in your project directory, you can build your custom image using the following command:
+
+```bash
+docker build -t my-node-app .
+```
+
+Replace 'my-node-app' with a name for your image. The '.' at the end indicates that the dockerfile is in the current directory.
+
+- **Step 6: Run Your Custom Image:** Now that you've built your custom image, you can run a container from it:
+
+```bash
+docker run -p 3000:3000 my-node-app
+```
+
+This command maps port 3000 from the container to port 3000 on your host machine, allowing you to access the web application running inside the container.
+
 ## Conclusion
 
 This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
