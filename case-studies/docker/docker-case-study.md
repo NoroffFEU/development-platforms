@@ -8,17 +8,19 @@ tags: docker, case study, platform
 
 Docker takes away repetitve, mundane configuration tasks and is used throughout the development lifecycle for fast, easy and portable application development - desktop and cloud. Docker's comprehensive end to end platform includes UIs, CLIs, APIs and security that are engineered to work together across the entire application delivery lifecycle.
 
-![Image of docker](https://d1.awsstatic.com/acs/characters/Logos/Docker-Logo_Horizontel_279x131.b8a5c41e56b77706656d61080f6a0217a3ba356d.png)
+![Image of docker](https://1000logos.net/wp-content/uploads/2021/11/Docker-Logo.png)
 
 ## Brief History
 
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- **Origins:** Docker was born in 2013, created by Solomon Hykes. It was initially an internal project at dotCloud, a platform-as-a-service company. The project was open-sourced and released to the public in March 2013.
+- **Early Popularity:** Docker quickly gained traction in the developer community due to its novel approach to containerization. It built upon existing Linux container technologies like LXC but introduced a more user-friendly interface and efficient container management.
+- **Docker, Inc.** The growing interest and demand for Docker led to the establishment of Docker, Inc. (formerly known as dotCloud, Inc.). In 2013, Solomon Hykes co-founded the company to support and further develop the Docker project. Docker, Inc., received significant funding, helping to fuel Docker's rapid growth.
+- **Standardization and Partnerships:** Docker rapidly emerged as a de facto standard for containerization. Major technology companies like Google, Microsoft, Amazon, and IBM recognized Docker's potential and started supporting it in their platforms and cloud services.
+- **Docker Hub:** Docker introduced Docker Hub, a cloud-based registry, in 2014. Docker Hub allowed developers to share, distribute, and discover Docker images, contributing to the vibrant Docker ecosystem.
+- **Docker Compose and Swarm:** In 2014, Docker released Docker Compose, a tool that simplified the definition and management of multi-container applications. Around the same time, Docker Swarm was introduced, providing native clustering and orchestration capabilities for Docker.
+- **Containerd and CNCF:** In 2017, Docker donated its container runtime, containerd, to the Cloud Native Computing Foundation (CNCF). Containerd became a core component of the container ecosystem, fostering collaboration and standardization.
+- **Competition and Kubernetes:** As Docker's popularity soared, Kubernetes, an open-source container orchestration platform initially developed by Google, gained momentum. Although Docker and Kubernetes were initially seen as competitors, they eventually found synergy, and Kubernetes could manage Docker containers seamlessly.
+- **Ecosystem Growth:** The Docker ecosystem continued to expand with various tools and services aimed at streamlining container management, security, and deployment. Docker remained a significant player, but the containerization market saw the rise of other container runtimes and orchestration solutions.
 
 ## Features
 
