@@ -125,12 +125,10 @@ In conclusion, Docker has revolutionized the way we develop, deploy, and manage 
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [docker.com](https://www.docker.com/)
+- [docker's wikipedia](<https://en.wikipedia.org/wiki/Docker_(software)>)
+- [docker-curriculum.com](https://docker-curriculum.com/)
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [Crash Course](https://www.youtube.com/watch?v=pg19Z8LL06w&ab_channel=TechWorldwithNana)
