@@ -10,39 +10,35 @@ Bluehost is a well-known web hosting provider that offers a variety of hosting s
 
 ## Brief History
 
-In 2003 Bluehost was founded by Matt Heaton and Danny Ashworth. Bluehost is one of the most popular hosting providers in the insustry and offers various hosting services, with focus on user-friendly features and customer support. In 2015 Bluehost launched a partnership with WordPress, and offered optimized hosting solutions specifically designed for WordPress-powered websites.
+In 2003 Bluehost was founded by Matt Heaton and Danny Ashworth. Bluehost is one of the most popular hosting providers in the insustry, and offers various hosting services, with focus on user-friendly features and customer support. In 2015 Bluehost launched a partnership with WordPress, and offered optimized hosting solutions specifically designed for WordPress-powered websites.
+
+Shared hosting is when multiple websites share the resources of a single server.
 
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+Bluehosts shared hosting services is a cost-effective option that dosnt require extensive resources or high level of costomization. With its one-click WordPress Installation feture it is easy to setup a WordPress website. You also get a free domain name the first year. If you have a small business or an Idea, and limited resources and technical knowledge Bluehost shared hosting services would be a easy, quick and affordable way to get your business up and running.
 
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
+Other features include: 
+- **Free SSL Certificate:** for securing youre website. 
 
-Example feature table:
+- **cPanel Control Panel** /Bluehost utilizes the industry-standard cPanel control panel, making it easier for you to manage your website, domains, files, databases, and other aspects of hosting./
+- **Security Features:**  /Bluehost incorporates security features like site lock, spam protection, and regular server monitoring to help protect your website from potential threats./
 
-| Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
 
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
 ## Weaknesses
-In shared hosting multiple websites share the same server. when other websites on the same server experience high traffic or resource demands, it can affect the performance or loading times of your website. shared hosting also have limitations on sercer-lever customization. The fact that multiple websites share the same server in shared hosting there are risks of security vulnerabilities than other hosting services. If one website on the server is compromised, it could potentially affect other websites as well.
+In shared hosting multiple websites share the same server. when other websites on the same server experience high traffic or resource demands, it can affect the performance or loading times of your website. shared hosting also have limitations on server-lever customization. The fact that multiple websites share the same server in shared hosting there are risks of security vulnerabilities than other hosting services. If one website on the server is compromised, it could potentially affect other websites as well.
 The Pricing can also be misleading. //Like many hosting providers, Bluehost often offers attractive introductory pricing for the first term of your hosting plan. However, renewal pricing tends to be higher, which means you might pay more when renewing your plan.//
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+bluehost - 24/7 customer suppert and ....Wordpress.
+HostGator offeres unmeted bandwidth 
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+DreamHost offers shared hosting plans with a focus on security and unlimited traffic. While Bluehost typically comes with a standard 30-day guarantee, DreamHost has a 97-day Mony back gurarantee, wich gives you more time to evaluate their services, without risk. Dreamhost also offer cloud hosting plans, wich Bluehost no longer offers. 
+
 
 ## Getting Started
 
@@ -54,7 +50,10 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## References
 
-- [Example.com](https://example.com)
+- [Bluehost.com](https://www.bluehost.com)
+
+https://www.bluehost.com/help/article/cloud-hosting?utm_campaign=pmax_PPC&utm_source=googleads&utm_medium=brandsearch&utm_affiliate=bluehost_PPC&irpid=100&clickid=P99C100S570N0B5578A2D4499E0000V162&pb=signup_searchgenericpromo&siteid=100&channelid=P99C100S570N0B5578A2D4499E0000V162&gclid=EAIaIQobChMI04yTsNHegAMVS1WRBR06uw2GEAAYASAAEgKGVvD_BwE&gclsrc=aw.ds
+
 - *Good Examples* by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
