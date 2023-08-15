@@ -6,7 +6,7 @@ tags: development Platforms, Bluehost, Shared hosting
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+Bluehost is a well-known web hosting provider that offers a variety of hosting services, including shared hosting, dedicated hosting and VPS Hosting. In this Case study I will be focusing on Bluehost Shared Hosting Features. 
 
 ## Brief History
 
@@ -31,6 +31,10 @@ Example feature table:
 | Example Feature | This feature does something for a specific reason. |
 
 You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+
+## Weaknesses
+In shared hosting multiple websites share the same server. when other websites on the same server experience high traffic or resource demands, it can affect the performance or loading times of your website. shared hosting also have limitations on sercer-lever customization. The fact that multiple websites share the same server in shared hosting there are risks of security vulnerabilities than other hosting services. If one website on the server is compromised, it could potentially affect other websites as well.
+The Pricing can also be misleading. //Like many hosting providers, Bluehost often offers attractive introductory pricing for the first term of your hosting plan. However, renewal pricing tends to be higher, which means you might pay more when renewing your plan.//
 
 ## Market Comparison
 
