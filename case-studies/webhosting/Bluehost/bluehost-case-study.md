@@ -10,14 +10,14 @@ Bluehost is a well-known web hosting provider that offers a variety of hosting s
 
 ## Brief History
 
-In 2003 Bluehost was founded by Matt Heaton and Danny Ashworth. Bluehost is one of the most popular hosting providers in the insustry, and offers various hosting services, with focus on user-friendly features and customer support. In 2015 Bluehost launched a partnership with WordPress, and offered optimized hosting solutions specifically designed for WordPress-powered websites.
+In 2003 Bluehost was founded by Matt Heaton and Danny Ashworth. Bluehost is one of the most popular hosting providers in the insustry, and offers various hosting services, with focus on user-friendly features and customer support..... In 2015 Bluehost launched a partnership with WordPress, and offered optimized hosting solutions specifically designed for WordPress-powered websites.
 
-Shared hosting is when multiple websites share the resources of a single server.
+Shared hosting is when multiple websites share the resources of a single server. Shared hosting services is a commen choice for small businesses and websites that only require certain amount of disk space, bandwidth and other resources. 
 
 
 ## Main Features
 
-Bluehosts shared hosting services is a cost-effective option that dosnt require extensive resources or high level of costomization. With its one-click WordPress Installation feture it is easy to setup a WordPress website. You also get a free domain name the first year. If you have a small business or an Idea, and limited resources and technical knowledge Bluehost shared hosting services would be a easy, quick and affordable way to get your business up and running.
+Bluehosts shared hosting services is a cost-effective option that dosnt require extensive resources or high level of costomization. With its one-click WordPress Installation feture it is easy to setup a WordPress website. You also get a free domain name the first year. If you have a small business or an idea, but you have limited resources and technical knowledge, Bluehost shared hosting services would be a easy, quick and affordable way to get your business up and running.
 
 Other features include: 
 - **Free SSL Certificate:** for securing youre website. 
@@ -28,10 +28,18 @@ Other features include:
 
 
 ## Weaknesses
-In shared hosting multiple websites share the same server. when other websites on the same server experience high traffic or resource demands, it can affect the performance or loading times of your website. shared hosting also have limitations on server-lever customization. The fact that multiple websites share the same server in shared hosting there are risks of security vulnerabilities than other hosting services. If one website on the server is compromised, it could potentially affect other websites as well.
+In shared hosting multiple websites share the same server. When other websites on the same server experience high traffic or resource demands, it can affect the performance or loading times of your website. Shared hosting also have limitations on server-lever customization. With shared hosting there is still a greater risk, then other hosting services, when it comes to security vulnerabilities, due to the fact that multiple websites share the same server. If one website on the server is compromised, it could potentially affect other websites as well.
+
+scalability...
+shares CPU, RAM, and bandwidth with other websites.
+This sharing allows the hosting provider to offer more affordable plans, but it can also lead to limitations in terms of performance and scalability.
+If your once small business, suddenly gets alot more traffic and users, it might be time consider to change to a more advances hosting option, like (VPS) virtual private server or dedicated server. Bluehost, like most other hosting services, offers different hosting options to suit your needs.  
+
 The Pricing can also be misleading. //Like many hosting providers, Bluehost often offers attractive introductory pricing for the first term of your hosting plan. However, renewal pricing tends to be higher, which means you might pay more when renewing your plan.//
 
 ## Market Comparison
+
+There are many ..... that offers shared hosting plans and services. 
 
 bluehost - 24/7 customer suppert and ....Wordpress.
 HostGator offeres unmeted bandwidth 
