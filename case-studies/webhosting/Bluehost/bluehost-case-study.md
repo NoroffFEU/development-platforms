@@ -6,7 +6,7 @@ tags: development Platforms, Bluehost, Shared hosting
 
 ## Introduction
 
-Bluehost is a well-known web hosting provider that offers a variety of hosting services, including shared hosting, dedicated hosting and VPS Hosting. In this Case study I will be focusing on Bluehost Shared Hosting Features. 
+Bluehost is a well-known web hosting provider that offers a variety of hosting services, including shared hosting, dedicated hosting and VPS hosting. In this Case study I will be focusing on Bluehost Shared Hosting Features. 
 
 ## Brief History
 
@@ -25,36 +25,42 @@ Other features include:
 - **cPanel Control Panel** /Bluehost utilizes the industry-standard cPanel control panel, making it easier for you to manage your website, domains, files, databases, and other aspects of hosting./
 - **Security Features:**  /Bluehost incorporates security features like site lock, spam protection, and regular server monitoring to help protect your website from potential threats./
 
-
-
 ## Weaknesses
+
 In shared hosting multiple websites share the same server. When other websites on the same server experience high traffic or resource demands, it can affect the performance or loading times of your website. Shared hosting also have limitations on server-lever customization. With shared hosting there is still a greater risk, then other hosting services, when it comes to security vulnerabilities, due to the fact that multiple websites share the same server. If one website on the server is compromised, it could potentially affect other websites as well.
 
 scalability...
-shares CPU, RAM, and bandwidth with other websites.
+businesses that host their websites through shared hosting shares CPU, RAM, and bandwidth with other websites.
 This sharing allows the hosting provider to offer more affordable plans, but it can also lead to limitations in terms of performance and scalability.
-If your once small business, suddenly gets alot more traffic and users, it might be time consider to change to a more advances hosting option, like (VPS) virtual private server or dedicated server. Bluehost, like most other hosting services, offers different hosting options to suit your needs.  
+If your once small business, suddenly grows and gets alot more traffic, it might be time to consider to change to a more advanced hosting option, like (VPS) virtual private server or a dedicated server. Bluehost, like most other hosting services, offers different hosting options to suit your needs.  
 
 The Pricing can also be misleading. //Like many hosting providers, Bluehost often offers attractive introductory pricing for the first term of your hosting plan. However, renewal pricing tends to be higher, which means you might pay more when renewing your plan.//
 
 ## Market Comparison
 
-There are many ..... that offers shared hosting plans and services. 
+There are many hosting sites that offers shared hosting plans and services. They each ..... with different advantages
 
-bluehost - 24/7 customer suppert and ....Wordpress.
-HostGator offeres unmeted bandwidth 
-
-
-DreamHost offers shared hosting plans with a focus on security and unlimited traffic. While Bluehost typically comes with a standard 30-day guarantee, DreamHost has a 97-day Mony back gurarantee, wich gives you more time to evaluate their services, without risk. Dreamhost also offer cloud hosting plans, wich Bluehost no longer offers. 
-
-
-## Getting Started
-
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+bluehost is the official Wordpress recommandation and might be a preffered choise for wordpress users. They also have a 24/7 customer suppert. HostGator offers unlimited storage and unmetered bandwidth. DreamHost offers shared hosting plans, with a focus on security and unlimited traffic. While Bluehost typically comes with a standard 30-day guarantee, DreamHost has a 97-day Money back gurarantee, that gives you more time to evaluate their services without risk. Dreamhost also offers cloud hosting plans, which Bluehost no longer offers.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+shared hosting 
+
+advantages: 
+- cost effective 
+-  with limited resources and/or technical knowledge a shared hosting plan is ......
+
+- malware scanning
+
+disadvantages
+- scalability 
+- security vulnerabilities
+- limited customization
+
+-bluehost vs other shared hosting plans. 
+even though most shared hosting plans offers simular services it might be worth some resourch to find the hosting service that best suit your needs, preferances and prioreties.
+
+What does the future look like for this tool?
 
 ## References
 
