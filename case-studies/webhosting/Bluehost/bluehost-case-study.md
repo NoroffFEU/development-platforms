@@ -17,7 +17,7 @@ Shared hosting is when multiple websites share the resources of a single server.
 
 ## Main Features
 
-Bluehosts shared hosting services is a cost-effective option that dosnt require extensive resources or high level of costomization. With its one-click WordPress Installation feture it is easy to setup a WordPress website. You also get a free domain name the first year. If you have a small business or an idea, but you have limited resources and technical knowledge, Bluehost shared hosting services would be a easy, quick and affordable way to get your business up and running.
+Bluehosts shared hosting services is a cost-effective option that dosnt require extensive resources or high level of costomization. With its one-click WordPress Installation feture it is easy to setup a WordPress website. You also get a free domain name the first year. If you have a small business or website, but you have limited resources and technical knowledge, Bluehost shared hosting services would be a easy, quick and affordable way to get your business or website up and running.
 
 Other features include: 
 - **Free SSL Certificate:** for securing youre website. 
