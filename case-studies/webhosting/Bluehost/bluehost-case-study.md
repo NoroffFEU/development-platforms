@@ -1,12 +1,12 @@
 ---
 title: Bluehost Case Study
-author: Example Author <ExampleUsername>
+author: Ingeborg Mellingen
 tags: development Platforms, Bluehost, Shared hosting 
 ---
 
 ## Introduction
 
-Bluehost is a well-known web hosting provider that offers a variety of hosting services, including shared hosting, dedicated hosting and VPS hosting. In this Case study I will be focusing on Bluehost Shared Hosting Features. 
+Bluehost is a well-known web hosting provider that offers a variety of hosting services, including shared hosting, dedicated hosting and VPS hosting. In this Case study I will be focusing on Bluehost shared hosting features. 
 
 ## Brief History
 
@@ -38,9 +38,9 @@ The Pricing can also be misleading. //Like many hosting providers, Bluehost ofte
 
 ## Market Comparison
 
-There are many hosting sites that offers shared hosting plans and services. They each ..... with different advantages
+There are many hosting sites that offers shared hosting plans and services. They each come with different advantages.
 
-bluehost is the official Wordpress recommandation and might be a preffered choise for wordpress users. They also have a 24/7 customer suppert. HostGator offers unlimited storage and unmetered bandwidth. DreamHost offers shared hosting plans, with a focus on security and unlimited traffic. While Bluehost typically comes with a standard 30-day guarantee, DreamHost has a 97-day Money back gurarantee, that gives you more time to evaluate their services without risk. Dreamhost also offers cloud hosting plans, which Bluehost no longer offers.
+Bluehost is the official Wordpress recommandation and might be a preffered choise for wordpress users. They also have a 24/7 customer suppert. HostGator offers unlimited storage and unmetered bandwidth. DreamHost offers shared hosting plans, with a focus on security and unlimited traffic. While Bluehost typically comes with a standard 30-day guarantee, DreamHost has a 97-day Money back gurarantee, that gives you more time to evaluate their services without risk. Dreamhost also offers cloud hosting plans, which Bluehost no longer offers. Even though most shared hosting plans offers simular services it might be worth some resourch to find the hosting service that best suit your needs, preferances and prioreties.
 
 ## Conclusion
 
@@ -58,7 +58,7 @@ disadvantages
 - limited customization
 
 -bluehost vs other shared hosting plans. 
-even though most shared hosting plans offers simular services it might be worth some resourch to find the hosting service that best suit your needs, preferances and prioreties.
+
 
 What does the future look like for this tool?
 
