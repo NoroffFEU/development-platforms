@@ -62,7 +62,7 @@ Copilot, an AI-powered, is a Machine Learning tool designed to enhance productiv
 
 | --- | Price | For who |
 | --- | --- | --- |
-| Microsoft 365 Copilot | $30 per month | Normal every day life people to business monguls |
+| Microsoft 365 Copilot | $30 per month | Normal every day life people to business moguls |
 | Github Copilot for individuals| $10 per month / $100 per year | Developers |
 | Chat gpt | Free | Anyone |
 
