@@ -2,9 +2,7 @@
 title: AWS S3 Video Case Study
 keywords: development platforms, Video Case Study, Web Based Services
 tags: Development Platforms, Video Case Study, Web Based Services, AWS, S3
-sidebar: development-platforms
 permalink: https://www.youtube.com/watch?v=iBoQNv8iHDs&ab_channel=Karl
-folder: development-platforms
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iBoQNv8iHDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
