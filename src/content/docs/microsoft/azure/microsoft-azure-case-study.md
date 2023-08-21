@@ -2,9 +2,6 @@
 title: Microsoft Azure Cloud Hosting Case Study
 keywords: development platforms, azure, cloud, hosting
 tags: Development Platforms, Microsoft, Microsoft Azure, Cloud, Hosting
-sidebar: development-platforms
-permalink: development-platforms/microsoft-azure-case-study.md
-folder: development-platforms
 ---
 
 ## Introduction

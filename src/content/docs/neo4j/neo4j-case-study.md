@@ -2,10 +2,6 @@
 title: Neo4j Product Case Study
 keywords: development platforms, example project, category name
 tags: Development Platforms, Example Project, Category Name
-sidebar: development-platforms
-permalink: development-platforms/example-product.html
-folder: development-platforms
-
 ---
 
 # Neo4j
@@ -24,43 +20,43 @@ _<sub> Said the chief Marketing Officer at Neo4j, Chandra Rangan. </sub>_
 
 ## Features
 
--   **ACID transactions:** Neo4j provides Atomicity, Consistency, Isolation, and Durability (ACID) transactions, that allow users to ensure the consistency and integrity of their data.
+- **ACID transactions:** Neo4j provides Atomicity, Consistency, Isolation, and Durability (ACID) transactions, that allow users to ensure the consistency and integrity of their data.
 
--   **Graph data Modeling:** Neo4j provides a flexible graph data model that allows users to store and manage complex relationships between data.
+- **Graph data Modeling:** Neo4j provides a flexible graph data model that allows users to store and manage complex relationships between data.
 
--   **Cypher query language:** Neo4j has a user-friendly query language called Cypher, which makes it easy to query data relationships and perform complex analysis.
+- **Cypher query language:** Neo4j has a user-friendly query language called Cypher, which makes it easy to query data relationships and perform complex analysis.
 
--   **Scalability:** Neo4j provides scalability options that allow users to scale the database to meet the demands of their applications.
+- **Scalability:** Neo4j provides scalability options that allow users to scale the database to meet the demands of their applications.
 
--   **Real-time performance:** Neo4j provides real-time performance for querying data relationships, making it suitable for use cases that require fast data analysis.
+- **Real-time performance:** Neo4j provides real-time performance for querying data relationships, making it suitable for use cases that require fast data analysis.
 
--   **Community and support:** Neo4j has a large and active community of users and developers, providing support, resources and documentation.
+- **Community and support:** Neo4j has a large and active community of users and developers, providing support, resources and documentation.
 
 These features make Neo4j a versatile and powerful tool for managing and querying data relationships, making it a popular choice for a wide range of use cases.
 
 ## Strengths
 
--   **High performance:** Neo4j is designed for efficient querying and analysis of data relationships, providing high performance for real-time data analysis.
+- **High performance:** Neo4j is designed for efficient querying and analysis of data relationships, providing high performance for real-time data analysis.
 
--   **Efficient data relationships:** Neo4j's graph data model enables efficient storage and querying of data relationships, making it ideal for use cases that involve complex relationships between data.
+- **Efficient data relationships:** Neo4j's graph data model enables efficient storage and querying of data relationships, making it ideal for use cases that involve complex relationships between data.
 
--   **Fast querying:** Neo4j provides fast and efficient querying of data relationships, making it suitable for use cases that require real-time data analysis and decision-making.
+- **Fast querying:** Neo4j provides fast and efficient querying of data relationships, making it suitable for use cases that require real-time data analysis and decision-making.
 
--   **Integration:** Neo4j provides integrations with other systems and technologies, making it easy to work with other tools and technologies.
+- **Integration:** Neo4j provides integrations with other systems and technologies, making it easy to work with other tools and technologies.
 
--   **Scalability** Neo4j can handle large amounts of data and high numbers of concurrent users, making it suitable for use cases that involve big data and high traffic.
+- **Scalability** Neo4j can handle large amounts of data and high numbers of concurrent users, making it suitable for use cases that involve big data and high traffic.
 
--   **Reliable transactions:** Provided using ACID transactions, ensuring that database operations are completed successfully or not at all, making it a reliable solution for critical data.
+- **Reliable transactions:** Provided using ACID transactions, ensuring that database operations are completed successfully or not at all, making it a reliable solution for critical data.
 
 ## Weaknesses
 
--   **Higher resource requirements:** Compared to traditional relational databases, Neo4j requires higher resources for storage and processing, making it less suitable for use cases with limited resources.
+- **Higher resource requirements:** Compared to traditional relational databases, Neo4j requires higher resources for storage and processing, making it less suitable for use cases with limited resources.
 
--   **Complex deployment:** Neo4j may require more complex deployment and maintenance compared to other databases, especially for large-scale deployments.
+- **Complex deployment:** Neo4j may require more complex deployment and maintenance compared to other databases, especially for large-scale deployments.
 
--   **Analytics capabilities:** It may not be as well suited for more advanced analytics and data processing, compared to other databases such as: Greenplum, Casandra, MongoDB, Apache Hadoop etc.
+- **Analytics capabilities:** It may not be as well suited for more advanced analytics and data processing, compared to other databases such as: Greenplum, Casandra, MongoDB, Apache Hadoop etc.
 
--   **Document storage:** It is well suited for managing complex relationships between data but, it may not be as well suited for document storage as compared to other NoSQL databases such as MongoDB, which is specifically designed for document storage and can handle a diverse range of document storage tasks.
+- **Document storage:** It is well suited for managing complex relationships between data but, it may not be as well suited for document storage as compared to other NoSQL databases such as MongoDB, which is specifically designed for document storage and can handle a diverse range of document storage tasks.
 
 ## Comparison
 
@@ -122,24 +118,24 @@ Neo4j is relevant because it provides a solution for efficiently storing and que
 
 ### Credits
 
--   Viorel Lazari (https://github.com/VLazari)
+- Viorel Lazari (https://github.com/VLazari)
 
 #### References
 
--   https://neo4j.com/use-cases/
--   https://en.wikipedia.org/wiki/Graph_database
--   https://en.wikipedia.org/wiki/Neo4j
--   https://analyticsindiamag.com/the-origin-of-neo4j/#:~:text=Founded%20in%202007%2C%20Neo4j%20has,Partners%2C%20DTCP%2C%20and%20Lightrock.
--   https://dbdb.io/db/neo4j
--   https://towardsdatascience.com/comparing-graph-databases-5475bdb2e65f
--   https://neo4j.com/docs/cypher-manual/current/access-control/limitations/
--   https://www.educba.com/neo4j-vs-neptune/?source=leftnav
--   https://db-engines.com/en/system/Neo4j%3BTigerGraph
--   https://www.youtube.com/watch?v=oRtVdXvtD3o
--   https://www.youtube.com/watch?v=T6L9EoBy8Zk
--   https://www.youtube.com/watch?v=8jNPelugC2s
--   https://www.javatpoint.com/features-of-neo4j
--   https://alronz.github.io/Factors-Influencing-NoSQL-Adoption/site/Neo4j/Results/Strengths%20and%20Weaknesses/#weaknesses
--   https://greenplum.org/top-ten-open-source-big-data-database/
--   https://neo4j.com/developer/cypher/guide-sql-to-cypher/
--   https://medium.com/@tigergraph/what-is-a-graph-database-and-why-should-you-care-d537124c7f39
+- https://neo4j.com/use-cases/
+- https://en.wikipedia.org/wiki/Graph_database
+- https://en.wikipedia.org/wiki/Neo4j
+- https://analyticsindiamag.com/the-origin-of-neo4j/#:~:text=Founded%20in%202007%2C%20Neo4j%20has,Partners%2C%20DTCP%2C%20and%20Lightrock.
+- https://dbdb.io/db/neo4j
+- https://towardsdatascience.com/comparing-graph-databases-5475bdb2e65f
+- https://neo4j.com/docs/cypher-manual/current/access-control/limitations/
+- https://www.educba.com/neo4j-vs-neptune/?source=leftnav
+- https://db-engines.com/en/system/Neo4j%3BTigerGraph
+- https://www.youtube.com/watch?v=oRtVdXvtD3o
+- https://www.youtube.com/watch?v=T6L9EoBy8Zk
+- https://www.youtube.com/watch?v=8jNPelugC2s
+- https://www.javatpoint.com/features-of-neo4j
+- https://alronz.github.io/Factors-Influencing-NoSQL-Adoption/site/Neo4j/Results/Strengths%20and%20Weaknesses/#weaknesses
+- https://greenplum.org/top-ten-open-source-big-data-database/
+- https://neo4j.com/developer/cypher/guide-sql-to-cypher/
+- https://medium.com/@tigergraph/what-is-a-graph-database-and-why-should-you-care-d537124c7f39

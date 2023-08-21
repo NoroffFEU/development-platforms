@@ -2,9 +2,6 @@
 title: VPS Case Study
 keywords: development platforms, virtual private server, web hosting
 tags: Development Platforms, Virtual Private Server, Web Hosting
-sidebar: development-platforms
-permalink: development-platforms/vps-case-study.html
-folder: development-platforms
 ---
 
 ## Introduction
@@ -14,9 +11,8 @@ VPS (Virtual Private Server) hosting is a type of web hosting that provides dedi
 ## Brief History
 
 The history of VPS hosting can be traced all the way back to the early 2000s. It was developed as a solution to provide a hosting environment that was more flexible and customizable than shared hosting, and more affordable than dedicated hosting.
-Before VPS hosting, it was more common to use shared hosting due to it was a very affordable solution and ease of use. The other option was to utulize Dedicated Hosting that offered more resources, but it is quite expensive to use and unlike shared hosting, it requires a bit of technical knowledge. 
+Before VPS hosting, it was more common to use shared hosting due to it was a very affordable solution and ease of use. The other option was to utulize Dedicated Hosting that offered more resources, but it is quite expensive to use and unlike shared hosting, it requires a bit of technical knowledge.
 Here comes our saviour, the Virtual Private Servers! It provided as a middle ground for those who needed more resources and control than shared hosting, but didn't want to pay the high costs of dedicated hosting. It offered dedicated resources, customization, and flexebility at an affordable price.
-
 
 ## Features
 

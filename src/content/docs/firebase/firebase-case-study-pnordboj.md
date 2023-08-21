@@ -2,9 +2,6 @@
 title: Firebase Case Study
 keywords: backend solution, firebase
 tags: backend, google, firebase
-sidebar: development-platforms
-permalink: development-platforms/firebase-case-study.md
-folder: development-platforms/firebase-case-study.md
 ---
 
 ## Introduction
@@ -15,11 +12,13 @@ This makes maintaining the app wuite alot easier then if you would do it by your
 ## Brief History Year by Year
 
 ### 2012
+
 Firebase launched to the public april 2012.
 It launched with the Firebase Realtime Database, a solution that synchronies data across multiple platforms including mobile apps and web apps!
 
 ### 2014
-Firebase launched 2 new products to it's users, Firebase Hosting and Authentication, this made Firebase a "MBaaS" short for "mobile backend as a service", more commonly known as backend as a service, which is a solution that provides mobile apps and web apps developers a way to integrate their application with push notifications and messaging services. 
+
+Firebase launched 2 new products to it's users, Firebase Hosting and Authentication, this made Firebase a "MBaaS" short for "mobile backend as a service", more commonly known as backend as a service, which is a solution that provides mobile apps and web apps developers a way to integrate their application with push notifications and messaging services.
 
 In october 2014 Google acquired Firebase
 
@@ -33,8 +32,6 @@ At Google I/O (Google's conference for showing that's coming) they announced Fir
 Firebase also integrates with google services such as Google Cloud Platform and Google Ads.
 Google acquired more company's and merged them with Firebase, these companys are
 LaunchKit and Crashlytics.
-
-
 
 ## Features
 
@@ -59,7 +56,7 @@ I'll be going over 4 of these features starting with:
 Firebase Cloud Messaging (FCM) is a tool that lets you send messages cross platform in a good and reliable way.
 It uses push notification to send these messages, which can be sendt through the firebase console website.
 The push notifications is handled through the API and can handle 2 types of messages, which are notification messages and data messages.
-Notification messages are the push notifications, which will be displayed on the user device, while data messages are directly handled by the application. 
+Notification messages are the push notifications, which will be displayed on the user device, while data messages are directly handled by the application.
 
 ### Authentication
 
@@ -70,7 +67,7 @@ The service uses the industry standards such as OAuth 2.0 and OpenID Connect whi
 ### Test Lab
 
 This is a feature i've personally used before, and it works really well.
-The program runs through your application checking for bugs or security failures, 
+The program runs through your application checking for bugs or security failures,
 it also records the process so you won't struggle finding where the bug or leak was when it was detected.
 Another key feature is the possibility of configuring and testing the app,
 on different devices so you can get a better idea on how it runs in the real world.
@@ -87,7 +84,7 @@ aswell making it easy to maintain and push changes to the application.
 - Authentication is secure and can be done by email and password, facebook and other SSO methods.
 - Provides realtime data to the developer.
 - API is easy to integrate and has really good documentation official and community documentation
-By community documentation i mean solutions to error messages on sites such as github and stackoverflow!
+  By community documentation i mean solutions to error messages on sites such as github and stackoverflow!
 - File backup is done by using Google Cloud
 
 ## Weaknesses
@@ -99,6 +96,7 @@ By community documentation i mean solutions to error messages on sites such as g
 ## Comparison
 
 ### AWS (Amazon Web Services)
+
 - Firebase is faster then AWS
 - Also cheaper then AWS
 - AWS also has easy setup and integration, it also has a big library of different choices the developer can pick from when it comes to hardware.
@@ -114,7 +112,8 @@ have encounterd that error aswell, making it easy to solve and move on.
 
 ### Credits
 
-Written by: 
+Written by:
+
 - Patrick Nordbo Johnsen (pnordboj)
 
 #### References
@@ -131,11 +130,14 @@ Written by:
 
 #### These videos are made by fireship
 
-#### Short 100 seconds video with history and example 
+#### Short 100 seconds video with history and example
+
 - https://www.youtube.com/watch?v=vAoB4VbhRzM
 
 #### Longer video, where he makes a messaging app using Firebase
+
 - https://www.youtube.com/watch?v=zQyrwxMPm88
 
 #### 5 Alternatives to Firebase
+
 - https://www.youtube.com/watch?v=SXmYUalHyYk

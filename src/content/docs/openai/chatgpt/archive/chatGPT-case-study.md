@@ -2,9 +2,6 @@
 title: ChatGPT case study
 keywords: ai, textbot, NLP, GPT, dev platforms
 tags: Development Platforms, Example Project, Category Name
-sidebar: development-platforms
-permalink: development-platforms/chatGPT.html
-folder: development-platforms
 ---
 
 ## Introduction

@@ -2,24 +2,25 @@
 title: Svelte Case Study
 keywords: JavaScript, Svelte, SvelteKit, JavaScript framework, Web framework, Component framework
 tags: JavaScript, Svelte, SvelteKit, JavaScript framework, Web framework, Component framework
-sidebar: development-platforms
-permalink: development-platforms/svelte.html
-folder: development-platforms
 ---
 
 # Svelte
 
 ## Table of Content
 
-1. [Introduction](#introduction)
-2. [Brief History](#brief-history)
-3. [Developer Votes](#developer-votes)
-4. [Features](#features)
-5. [Strengths](#strengths)
-6. [Weaknesses](#weaknesses)
-7. [Comparison](#comparison)
-8. [Summary](#summary)
-9. [References](#references)
+- [Svelte](#svelte)
+  - [Table of Content](#table-of-content)
+  - [Introduction](#introduction)
+  - [Brief History](#brief-history)
+  - [Developer Votes](#developer-votes)
+  - [Features](#features)
+  - [Strengths](#strengths)
+  - [Weaknesses](#weaknesses)
+  - [Comparison](#comparison)
+    - [React](#react)
+  - [Summary](#summary)
+    - [Credits](#credits)
+      - [References](#references)
 
 ## Introduction
 

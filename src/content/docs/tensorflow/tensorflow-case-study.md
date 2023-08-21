@@ -2,25 +2,25 @@
 title: TensorFlow Case Study
 keywords: Python, JavaScript, TensorFlow, Machine Learning, Data Analytics
 tags: TensorFlow, Python, JavaScript, Machine Learning, Data Analytics
-sidebar: development-platforms
-permalink: development-platforms/tensorflow.html
-folder: development-platforms
 ---
 
 # TensorFlow
 
 ## Table of content
 
-1. [Introduction](#introduction)
-2. [History](#brief-history)
-3. [Purpose and Concepts](#purpose-and-concepts)
-4. [Features and Ecosystem](#tensorflow-features-and-ecosystem)
-5. [Strengths](#strengths)
-6. [Weaknesses](#weaknesses)
-7. [Comparison](#comparison)
-8. [Summary](#summary)
-9. [Glossary](#glossary)
-10. [References](#references)
+- [TensorFlow](#tensorflow)
+  - [Table of content](#table-of-content)
+  - [Introduction](#introduction)
+  - [Brief History](#brief-history)
+  - [Purpose and Concepts](#purpose-and-concepts)
+  - [TensorFlow Features and Ecosystem](#tensorflow-features-and-ecosystem)
+  - [Strengths](#strengths)
+  - [Weaknesses](#weaknesses)
+  - [Comparison](#comparison)
+  - [Summary](#summary)
+    - [Credits](#credits)
+  - [Glossary](#glossary)
+  - [References](#references)
 
 ## Introduction
 

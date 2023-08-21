@@ -1,3 +1,9 @@
+---
+title: MongoDB Case Study
+keywords: development platforms, Case Study, Web Based Services
+tags: Development Platforms, Case Study, Web Based Services, MongoDB
+---
+
 | **Table of contents**                           |
 | ----------------------------------------------- |
 | [Intro](#intro)                                 |
@@ -79,7 +85,7 @@ example:
 lets take the image above as an example of a document within a collection of "employees". if we wanted to retreive any employees in marketing we could do this:
 
 ```js
-db.employees.find({ deptname: "marketing" });
+db.employees.find({ deptname: "marketing" })
 ```
 
 here we have added a query for all employees in marketing, without ever predefining any schemas.

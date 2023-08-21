@@ -2,24 +2,15 @@
 title: Hotjar Case Study
 keywords: development platforms, Hotjar, web analytics tool
 tags: Development Platforms, Hotjar, web analytics tool
-sidebar: development-platforms
-permalink: development-platforms/hotjar-case-study.md
-folder: development-platforms
 ---
 
-
 # Hotjar
-
 
 ## Introduction
 
 Hotjar is a web analytics tool that helps businesses gather data about how their users engage with their website and allows for improvement of the user experience. It features interactive heatmaps for clicks and actions, recordings of user sessions, surveys, funnel conversion reports, polls, user testing and live feedback.
 
 All of these features, both separately and together, maps out the users' behaviour and needs and in turn, help businesses understand their users and give them the information needed to optimize the website.
-
-
-
-
 
 ## Brief History
 
@@ -33,10 +24,6 @@ All of these features, both separately and together, maps out the users' behavio
 - The company's headquarters is in Malta and operates on a fully remote basis with a global team of over 200 people who work throughout Europe, Africa, the Americas and Asia.
 - Hotjar is used by 1,148,546 websites in 180+ countries.
 - In 2021 Hotjar got acquired by global technology giant Contentsquare.
-
-
-
-
 
 ## Features
 
@@ -58,10 +45,6 @@ Hotjar is a thorough web analytics and user feedback tool that provides several 
 
 These are some of Hotjar's core features, but the platform has much more to offer in terms of web analytics, user feedback, and user research.
 
-
-
-
-
 ## Strengths
 
 Hotjar offers user-focused analytics, enabling businesses to understand the preferences and behaviour of the people who are visiting their websites. This enables them to evaluate the website's effectiveness and make data-driven adjustments to improve the user experience.
@@ -76,10 +59,6 @@ An affordable solution for small enterprises and startups thanks to its flexible
 
 Hotjar is a well-liked tool for website optimization and user research because of these benefits, which help companies better understand their customers and enhance the user experience.
 
-
-
-
-
 ## Weaknesses
 
 Hotjar's data segmentation capabilities are relatively constrained. While you can divide your data by device, country, and other criteria, you might not be able to segment it as precisely as you would like. This can make it challenging to gain a clear sense of how various audiences are interacting with your website.
@@ -88,25 +67,21 @@ One of the features that Hotjar lacks is a predictive analysis available in com
 
 Hotjar has only a few A/B testing options. While you can use Hotjar to monitor the performance of various pages and elements, you might not be able to do comprehensive A/B testing that lets you choose which version of a page or element performs better based on data.
 
-
-
-
-
 ## Comparison
 
 ### Crazy Egg
+
 Crazy Egg features a heatmap and A/B testing tools and can monitor how users engage with a website. It has features like scroll maps, click maps, and user recordings that can help businesses improve the conversion rate of their website. They don't offer any free plan.
 
 ### Mouseflow
+
 Mouseflow is an additional website analytics tool with features like heatmaps, user recording, and form analytics. It also features a range of conversion rate optimization tools, including A/B testing and funnel analysis. They also offer a free plan for up to 500 recordings/per month.
+
 ### Lucky Orange
+
 Lucky Orange is a real-time website analytics solution which includes features like user recordings, heatmaps, live chat, pop-up announcements and conversion funnels. Businesses are able to see in real time how users engage with their website and identify areas for improvement. They also offer a free plan for up to 500 views/per month.
 
 Each of these tools has distinctive qualities and advantages. Hotjar stands out for its accessibility and low cost, although it might not provide all the sophisticated capabilities that some companies need.
-
-
-
-
 
 ## Summary
 
@@ -117,17 +92,9 @@ Also, developers can gather feedback directly from users of their websites using
 
 Web developers who want to improve the functionality and user experience of their websites should consider using Hotjar. For businesses of all sizes, its user-friendly interface and cost make it an appealing alternative.
 
-
-
-
 ### Credits
 
 - Birgitte Vedaa (@piiito)
-
-
-
-
-
 
 #### References
 

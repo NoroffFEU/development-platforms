@@ -2,9 +2,6 @@
 title: Next Js Case Study
 keywords: development platforms, Next Js, Framework, React, Server Side Render
 tags: Development Platforms, Example Project, Category Name
-sidebar: development-platforms
-permalink: development-platforms/NextJs-case-study.md
-folder: development-platforms
 ---
 
 ## Introduction

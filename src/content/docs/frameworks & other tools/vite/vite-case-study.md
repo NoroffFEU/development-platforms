@@ -2,9 +2,6 @@
 title: A Case Study on the Development Platform Vite
 keywords: development platform, web development, vite
 tags: Development Platforms, Web Development, Vite, Build-tool
-sidebar: development-platforms
-permalink: development-platforms/vite-case-study.html
-folder: development-platforms
 ---
 
 ## Introduction
@@ -28,7 +25,7 @@ Vite comes with several features that make it a standout choice for front-end de
 
 - Instant hot module replacement (HMR) for faster development cycles. Vite can detect changes in the source code and reload the browser instantly. This feature saves time and increases productivity.
 - Optimized build process that speeds up the build time
-Support for TypeScript, Less, and Sass.
+  Support for TypeScript, Less, and Sass.
 - Simple and intuitive configuration with a single vite.config.js file.
 - Plugin system for customizing the build process.
 - Framework-agnostic with boilerplate support for various frameworks including React, Vue.js, Preact, Vanilla Javascript, the increasingly popular framework Svelte and more.
@@ -41,7 +38,6 @@ Vite's strengths include:
 - Faster build times with optimized build process
 - Easy configuration with a single file
 - Flexibility with support for multiple file types and plugin system.
-
 
 ## Weaknesses
 
@@ -70,14 +66,12 @@ In summary, Vite is a powerful build tool for front-end development that offers 
 - Per Jakob Ludvigsen [PJLUDVIGSEN](https://github.com/PJLUDVIGSEN)
 
 #### References
+
 - [Vite Github Source code](https://github.com/vitejs/vite)
 - [Vitejs.dev](https://vitejs.dev/)
-- [Vite - Wikipedia](https://en.wikipedia.org/wiki/Vite_(software))
+- [Vite - Wikipedia](<https://en.wikipedia.org/wiki/Vite_(software)>)
 - [Vite in 100 Seconds video](https://www.youtube.com/watch?v=KCrXgy8qtjM&ab_channel=Fireship)
 - [10minute demonstration of Vite from "Evan You"](https://www.youtube.com/watch?v=DkGV5F4XnfQ)
 - [Introduction to Vite - Article](https://www.dev.to/codemaker2015/introduction-to-vite-the-lightning-fast-module-bundler-32mm)
 - [What is vitejs? - Article](https://www.sitepoint.com/vitejs-front-end-build-tool-introduction/)
 - [Vite vs Webpack - Article](https://www.vuemastery.com/blog/vite-vs-webpack/)
-
-
-

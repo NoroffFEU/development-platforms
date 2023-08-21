@@ -2,23 +2,20 @@
 title: ChatGPT Case Study
 keywords: development platforms, machine learning, generative ai, text bot, natural language processing, NLP, GPT
 tags: Development Platforms, Example Project, Category Name
-sidebar: development-platforms
-permalink: development-platforms/chatGPT.html
-folder: development-platforms
 ---
 
 # ChatGPT - Case Study
 
 ## Introduction
 
-ChatGPT is a natural language processing tool developed by [OpenAI](https://openai.com/), released in November 2022. Since its release, it has gained worldwide traction from the tech-industry and the general public. The chatbot can answer open ended questions, and assist users with tasks.  Many are amazed about how human-like ChatGPTs responses are, and some are concerned about their jobs being threatened in the near future.
+ChatGPT is a natural language processing tool developed by [OpenAI](https://openai.com/), released in November 2022. Since its release, it has gained worldwide traction from the tech-industry and the general public. The chatbot can answer open ended questions, and assist users with tasks. Many are amazed about how human-like ChatGPTs responses are, and some are concerned about their jobs being threatened in the near future.
 
 ChatGPT is a natural language processing (NLP) tool driven by artificial intelligence technology. Due to being a NLP tool, the chatbot is trained to predict the next most likely word occurring in a given sentence. The big selling point of ChatGPT is that its input comes from a diverse range of sources including news articles, websites, and books.
 
-
 ## Brief History
 
-ChatGPT is part of a family of models developed by OpenAI that use the *Generative Pre-trained Transformer* (GPT) architecture. The original GPT model was released in 2018, with each iteration improving the quality of the generated text. The history of ChatGPT itself is short, but there are some previous events that contribute to understanding where ChatGPT, chatbots and AI is today.
+ChatGPT is part of a family of models developed by OpenAI that use the _Generative Pre-trained Transformer_ (GPT) architecture. The original GPT model was released in 2018, with each iteration improving the quality of the generated text. The history of ChatGPT itself is short, but there are some previous events that contribute to understanding where ChatGPT, chatbots and AI is today.
+
 - 1950s: Alan Turing, the pioneering British computer scientist, publishes “Computing Machinery and Intelligence”, where he proposes that if a machine can convince a human they're talking to another human, then the machine has intelligence. Later this year, he developed a test called the “Turing Test” to assess machine intelligence.
 
 - 1966: Joseph Weizenbaum, a German computer scientist and Professor at Massachusetts Institute of Technology, developed the program ELIZA inspired by Turing's paper. Eliza's purpose was to trick humans into believing they were chatting with another human and it's considered the first chat bot in human history. It didn't pass the Turing Test.
@@ -62,6 +59,7 @@ ChatGPT is part of a family of models developed by OpenAI that use the *Generati
 ChatGPT has the ability to remember previous questions asked in a chat, enabling it to effectively interact with humans in a conversational manner. The model was trained on a vast amount of corpus data covering a wide range of topics and styles, making its potential uses diverse.
 
 When asked about what tasks it could assist with (screenshot #1), ChatGPT answered:
+
 ```
 I can help with a wide range of tasks, including:
 
@@ -76,6 +74,7 @@ I can help with a wide range of tasks, including:
 These are just a few examples of the many tasks that I can help with.
 
 ```
+
 The bot can produce human-like text in several languages, making it suitable for writing essays, poems, bedtime stories, news articles, and even scientific abstracts. The information provided by ChatGPT might not be reliable in all cases, but the text bot is able to mimic academic language perfectly. It can also improve grammar, explain complex ideas in simple terms, and solve mathematical problems, making it a suitable tool for students who need assistance with their assignments.
 
 One of the most relevant features for web and software development is its ability to generate code snippets in different programming languages including JavaScript, Java, Python, C++, C#, and Ruby. A myriad of videos can be found on YouTube explaining how ChatGPT built entire apps for them, but it is worth mentioning that the code usually contains bugs or it isn't completely accurate. Therefore, the building process requires a human developer behind it who can either debug or give further instructions to ChatGPT on how it can fix its own bugs. Nevertheless, the bot has proven to be an exceptional debugging assistant tool. Since resolving code issues involves a lot of time spent on reading documentation, Google searches, and StackOverflow, ChatGPT can significantly increase developers productivity by providing possible solutions in a matter of seconds. All the developer needs to do is copy/paste the code into the chat line and explain what it's supposed to do and what error it's throwing.
@@ -83,14 +82,14 @@ One of the most relevant features for web and software development is its abilit
 ChatGPT is currently free to use. OpenAI has announced on [Twitter](https://twitter.com) that it's piloting a subscription plan that offers faster response times and reliability during peak hours. At the time of writing this report, the plan costs $20/month. The free tier will still be available to the public.
 
 OpenAI have released an API for accessing the AI models they have developed. On their [official website](https://openai.com/blog/openai-api) they state:
-'*Unlike most AI systems which are designed for one use-case, the API today provides a general-purpose “text in, text out” interface, allowing users to try it on virtually any English language task. You can now request access in order to integrate the API into your product, develop an entirely new application, or help us explore the strengths and limits of this technology.*'
+'_Unlike most AI systems which are designed for one use-case, the API today provides a general-purpose “text in, text out” interface, allowing users to try it on virtually any English language task. You can now request access in order to integrate the API into your product, develop an entirely new application, or help us explore the strengths and limits of this technology._'
 
 The API will return a text completion, from a given text prompt, attempting to match the pattern it was given. It can be "programmed" by providing some examples of what you'd like it to do. The API currently runs models with weights from the GPT-3 family.
 
 ### How it works
+
 ChatGPT uses a deep neural network architecture called a Transformer, which was introduced in 2017. Transformers are designed to process sequential data, such as text, and are particularly well-suited to generating text that is coherent and grammatically correct. Since it is trained using a large amount of text data, it learns the statistical patterns and relationships that exist within human language. When a user inputs a prompt, ChatGPT uses this knowledge to generate a response that is relevant.
 It is worth mentioning, in regards to ChatGPT, that due to the sheer size and complexity of the algorithm, exactly how it works cannot be known.
-
 
 ## Strengths
 
@@ -105,7 +104,6 @@ The variety of subjects it was trained in is also beneficial to developers. Not 
 The relevance of this tool to senior developers and systems architects lies in its capacity to accelerate the acquisition of new skills and offer a solid base for learning. Furthermore, it can also pinpoint areas of unfamiliarity, making it an attractive and valuable asset for these professionals who typically need to be updated on the latest advancements in their field.
 
 ChatGPT can be fine-tuned on specific tasks and datasets to improve its performance for particular use cases. This means that organisations can train ChatGPT to specialise in certain types of writing, such as legal or medical writing, or to incorporate domain-specific language and terminology.
-
 
 ## Weaknesses
 
@@ -123,13 +121,11 @@ There is no consistent way of accurately separating text written by humans and C
 
 ChatGPT also lacks some human aspects, mainly creativity and the ability to create new ideas. All its output is generated based on existing text written by humans. It might be able to create original sentences, based on existing knowledge, but it is (currently) unable to create something new out of nothing.
 
-
 ## Comparison
 
 ChatGPT is not the first chatbot on the market. Most companies' customer service departments offer their users the possibility to solve their problems in real-time by chatting with a bot. Some customer service chatbots are trained on a set of questions and answers. This results in less adaptability than ChatGPT. If the chatbot is presented with a complex question / task, and the chatbot is unable to assist, the user is usually transferred to a customer service employee. The chatbot's knowledge is limited to the task they're designed to carry out. For example, a bank chatbot can't help with debugging code and a shipping service chatbot cannot assist authors in writing essays. ChatGPT, however, is not constrained to a specific activity, as it was trained using a large amount of data in different topics and styles.
 
 ChatGPT is one of several NLP models that are capable of generating human-like text. Some of the other models that are commonly used for this purpose include Google's Meena, Microsoft's XiaoIce, and Facebook's Blender. Compared to these models, ChatGPT is generally considered to be more versatile and capable of generating text in a wider range of styles and genres. However, it also tends to generate more irrelevant or nonsensical responses than some of the other models. There have been some recent releases in 2023 as well, including Googles's LaMDA, Meta AI's LLaMA and Alpaca.
-
 
 ## Summary
 
@@ -139,17 +135,19 @@ Although technologies like ChatGPT can be utilised in a wide range of fields, it
 
 As far as software development is concerned, ChatGPT can write code faster than a human, but not more reliably. It requires human supervision to ensure it's working as intended. Even if you ask the chatbot to automate testing, these tests may also contain bugs. Replacing a human proves not to be so easy after all. Instead, this type of technology is most useful to boost productivity - to assist human beings in their daily tasks. It is obviously more efficient to ask a question and obtain a response in seconds than to post it on [stackoverflow](https://stackoverflow.com/) and wait for other developers to read our code and provide an answer. It is also easier to read one response than sift through dozens of pages from a Google search. This is why replacing an entire staff with bots is unlikely to happen in the near future.
 
-
 ## Credits
 
 - Jonas Lødøen ([jonaslod](https://github.com/jonaslod))
 
 ## References
+
 ### Original Material
+
 - [ChatGPT - A case study - github/Melisa-Zorraindo](https://github.com/NoroffFEU/development-platforms/blob/main/case-studies/chatGPT-case-study-Melisa-Zorraindo.md)
 - [ChatGPT case study - github/akeek](https://github.com/NoroffFEU/development-platforms/blob/main/case-studies/chatGPT-case-study.md)
 
 ### Articles
+
 - https://platform.openai.com/docs/models/overview
 - https://openai.com/blog/chatgpt
 - https://openai.com/blog/openai-api
@@ -158,7 +156,7 @@ As far as software development is concerned, ChatGPT can write code faster than 
 - https://en.wikipedia.org/wiki/LLaMA
 - https://en.wikipedia.org/wiki/LaMDA#Bard
 
-
 ## Screenshots
+
 1. Asking ChatGPT what it can assist with
-<img width="380" alt="chatgpt-help-with" src="https://user-images.githubusercontent.com/95305401/231838625-72866f50-319a-4507-b73e-68076ac09276.PNG">
+   <img width="380" alt="chatgpt-help-with" src="https://user-images.githubusercontent.com/95305401/231838625-72866f50-319a-4507-b73e-68076ac09276.PNG">

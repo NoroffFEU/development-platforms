@@ -2,9 +2,6 @@
 title: Gitkraken Case Study
 author: Roxanne Franco <roxannefranco>
 tags: gitkraken, case study, dev platform, GUI, workflow, dev tool, multiplatform, UI, git integration.
-sidebar: development-platforms
-permalink: development-platforms/gitkraken-case-study.md
-folder: development-platforms/gitkraken-case-study.md
 ---
 
 ## **Introduction to** ![](https://www.gitkraken.com/wp-content/uploads/2022/10/Group-771.svg)

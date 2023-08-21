@@ -2,9 +2,6 @@
 title: Azure DevOps vs. GitHub Case Study
 keywords: development platforms, Azure DevOps, GitHub, Comparison
 tags: Development Platforms, Azure DevOps, GitHub, Comparison
-sidebar: development-platforms
-permalink: development-platforms/azure-devops.html
-folder: development-platforms
 ---
 
 ## Introduction

@@ -2,9 +2,6 @@
 title: MongoDB Product Case Study
 keywords: development platforms, MongoDB project, NoSQL
 tags: Development Platforms, MongoDB Project, NoSQL
-sidebar: development-platforms
-permalink: development-platforms/mongoDB.html
-folder: development-platforms
 ---
 
 ## Introduction to MongoDB

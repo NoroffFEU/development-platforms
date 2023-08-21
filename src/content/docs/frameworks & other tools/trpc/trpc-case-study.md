@@ -2,9 +2,6 @@
 title: Example Product Case Study
 keywords: development platforms, example project, category name
 tags: Development Platforms, Example Project, Category Name
-sidebar: development-platforms
-permalink: development-platforms/example-product.html
-folder: development-platforms
 ---
 
 ![alt-image](https://external-preview.redd.it/announcing-trpc-v10-v0-AjkO8Ti4nYzykqK_syEj1aOgBt4AMKotD3C0JNrkANY.jpg?auto=webp&s=b9c1f6d6e0fbddf97db400d6a56274ea129a58da)
@@ -68,9 +65,9 @@ In the example we're using a `T3 app`, configured with `tRPC`, `Prisma`, `MongoD
 In our front-end client folder, we have defined an endpoint the following way. We're going to take a closer look at how `tRPC` can be used to tie everything together from backend functions, frontend rendering and an updated database with a new entry while highlighting some of tRPC's excellent workflow and QoL features.
 
 ```tsx
-import { api } from "../utils.api";
+import { api } from "../utils.api"
 
-const newNote = api.notes.createNewNote.useMutation();
+const newNote = api.notes.createNewNote.useMutation()
 ```
 
 - `api` is the client-side entry point in this use case. Containing our `Next.js` app-wrapper as well as typesafe react-query hooks.
@@ -148,7 +145,7 @@ In our asynchronous function we call `context` and our previously defined `input
 Using the same method as before, we can right-click on `createNewNote` to take us back to our front-end/client code.
 
 ```tsx
-const newNote = api.notes.createNewNote.useMutation();
+const newNote = api.notes.createNewNote.useMutation()
 ```
 
 Where we've called our backend function and stored it in a variable `newNote`. Within the rendering code, we've created a simple form, with text input for the title and description, and added the following script to run on submit:

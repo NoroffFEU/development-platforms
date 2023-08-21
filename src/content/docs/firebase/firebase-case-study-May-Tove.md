@@ -2,9 +2,6 @@
 title: Firebase Case Study
 keywords: development platforms, firebase, baas platform
 tags: Development Platforms, Firebase, BaaS platform
-sidebar: development-platforms
-permalink: development-platforms/firebase.html
-folder: development-platforms
 ---
 
 # Firebase Case Study

@@ -2,9 +2,6 @@
 title: Postgres/psql Video Case Study
 keywords: PostgreSQL, SQL, database, psql
 tags: development platforms, PostgreSQL project, SQL
-sidebar: development-platforms
-permalink: https://youtu.be/VOJ3811-JA0
-folder: development-platforms
 ---
 
 <iframe width="560" height="315" src="https://youtu.be/VOJ3811-JA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

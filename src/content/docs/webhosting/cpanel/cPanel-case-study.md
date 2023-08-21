@@ -2,9 +2,6 @@
 title: cPanel Case Study
 keywords: development platforms, cPanel, control panel
 tags: Development Platforms, cPanel, constrol panel, web-based
-sidebar: development-platforms
-permalink: development-platforms/cPanel-case-study.html
-folder: development-platforms
 ---
 
 ## Introduction

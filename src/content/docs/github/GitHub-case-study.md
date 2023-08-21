@@ -2,9 +2,6 @@
 title: Example Product Case Study
 keywords: development platforms, github
 tags: Development Platforms, github
-sidebar: development-platforms
-permalink: development-platforms/case-study-github.html
-folder: development-platforms
 ---
 
 # <p align="center"><span>GitHub Case Study<span></p>

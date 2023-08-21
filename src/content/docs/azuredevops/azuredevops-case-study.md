@@ -2,24 +2,22 @@
 title: Azure DevOps Case Study
 keywords: Development Platforms, Azure DevOps, Collaboration, Communication
 tags: Development Platforms, Azure DevOps, Collaboration, Communication
-sidebar: development-platforms
-permalink: development-platforms/azuredevops.html
-folder: development-platforms
 ---
 
 <h1 align="center">Azure DevOps</h1>
 
 ## Table of content
 
-1. [Introduction](#introduction)
-2. [History](#brief-history)
-3. [Features](#features)
-4. [Strengths](#strengths)
-5. [Weaknesses](#weaknesses)
-6. [Comparison](#comparison)
-7. [Summary](#summary)
-8. [Credits](#credits)
-9. [References](#references)
+- [Table of content](#table-of-content)
+- [Introduction](#introduction)
+- [Brief History](#brief-history)
+- [Features](#features)
+- [Strengths](#strengths)
+- [Weaknesses](#weaknesses)
+- [Comparison](#comparison)
+- [Summary](#summary)
+  - [Credits](#credits)
+    - [References](#references)
 
 ## Introduction
 

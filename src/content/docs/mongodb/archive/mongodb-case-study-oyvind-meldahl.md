@@ -2,9 +2,6 @@
 title: MongoDB Case Study
 keywords: MongoDB, Database, Node, Humongous, JSON
 tags: MongoDB, JavaScript, Database, JSON, Object, Cluster
-sidebar: development-platforms
-permalink: development-platforms/mongodb-case-study.md
-folder: development-platforms
 ---
 
 # MongoDB

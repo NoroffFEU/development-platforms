@@ -2,9 +2,6 @@
 title: Strapi
 keywords: development platforms, cms, strapi
 tags: development platforms, cms, strapi
-sidebar: development-platforms
-permalink: development-platforms/strapi.html
-folder: development-platforms
 ---
 
 # Strapi

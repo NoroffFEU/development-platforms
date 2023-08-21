@@ -2,27 +2,38 @@
 title: Svelte Case Study
 keywords: Development Platforms, Svelte, Development, Compiler, Web Framework
 tags: Development Platforms, Svelte Project, Development
-sidebar: development-platforms
-permalink: development-platforms/svelte-product.html
-folder: development-platforms
 ---
 
 ## Table of content
+
+- [Table of content](#table-of-content)
 - [Introduction](#introduction)
 - [Brief History](#brief-history)
 - [Features](#features)
 - [Setup](#setup)
-- [Using Svelte](#using-svelte)
-- [Strenghts](#strengths)
+- [Using svelte](#using-svelte)
+    - [Context of the script.](#context-of-the-script)
+    - [Svelte Syntax](#svelte-syntax)
+    - [Learn more](#learn-more)
+    - [Learn more](#learn-more-1)
+    - [Learn more](#learn-more-2)
+    - [Learn more.](#learn-more-3)
+- [Strengths](#strengths)
 - [Weaknesses](#weaknesses)
-- [Compared to react](#comparison)
+- [Comparison](#comparison)
+  - [Svelte vs react](#svelte-vs-react)
 - [Summary](#summary)
-- [Credits & References](#credits)
+  - [Credits](#credits)
+  - [References](#references)
+    - [Video References](#video-references)
+    - [Additional references](#additional-references)
 
 ## Introduction
+
 In this case study, I will talk about the difference between React and Svelte, and how you would use Svelte. Svelte is a JavaScript compiler. It's similar to React, but React uses Virtual DOM. Both provide a similar component-based architecture -- that means both enable CDD (component-driven development) bottom-up development, and both enable sharing their components between apps via tools and platforms like [Github](www.github.com).
 
 ## Brief History
+
 [Svelte](https://svelte.dev/) was created by Rich Harris. Svelte is a free and open source front end component framework / language, it is not a monolithic JavaScript library imported by applications. Instead, it compiles HTML templates to specialized code that manipulates the DOM directly.
 
 - `29th November, 2016` First stable version of svelte, version 1.0 was released.
@@ -35,7 +46,7 @@ In this case study, I will talk about the difference between React and Svelte, a
 
 - `22th October, 2020` Svelte Summit, the first virtual conference dedicated to Svelte took place.
 
-- `1th December, 2020` SvelteKit was announced in a blog post. 
+- `1th December, 2020` SvelteKit was announced in a blog post.
 
 - `18th March, 2021` SvelteKit entered beta.
 
@@ -77,6 +88,7 @@ Open your terminal and type these commands:
 ```
 npm i
 ```
+
 ```
 npm run dev
 ```
@@ -88,6 +100,7 @@ Your server will then be live and running. if you want to configure Vite more, y
 If you are using Visual Studio Code, I would recommend downloading the Svelte extension "Svelte for VS Code". It will give you formatting, auto completions, and it allows you to use Emmet inside your Svelte components.
 
 This is an example of a fetch using svelte:
+
 ```js
  <div class="items-container">
    <ul>
@@ -103,9 +116,11 @@ This is an example of a fetch using svelte:
    </ul>
  </div>
 ```
+
 This code will generate the items straight in the HTML using the `#await` Svelte syntax.
 
 You combine this with a script tag in the Svelte file where you will be setting up the fetch.
+
 ```js
 <script>
   const baseUrl = "your url";
@@ -133,6 +148,7 @@ You combine this with a script tag in the Svelte file where you will be setting 
 ```
 
 The content in the svelte files looks like this.
+
 ```js
 <script>
 import Nav from "../lib/comp/Nav.svelte"
@@ -156,28 +172,30 @@ HTML HERE
 #### Context of the script.
 
 - If you are using typescript you can use the following at the top of your script file:
-`<script lang="ts"></script>`
+  `<script lang="ts"></script>`
 
 - If your script should be a module you can use the following in the same way:
-`<script lang="ts" context="module"></script>`. This is the default, so instead you can use `<script context></script>` when referring to it as a module.
+  `<script lang="ts" context="module"></script>`. This is the default, so instead you can use `<script context></script>` when referring to it as a module.
 
 - If your script should be a instance, you just switch out "module" for "instance".
 
 - If the script should be loaded asynchronously you can use `async`:
-`<script async></script>`. This can improve performance by allowing the script to load after the component has finished rendering.
+  `<script async></script>`. This can improve performance by allowing the script to load after the component has finished rendering.
 
 - if you want to debug you can use:
-`<script debug></script>`. This attribute enables or disables debugging mode for the component. This is set to `"true"`by default.
+  `<script debug></script>`. This attribute enables or disables debugging mode for the component. This is set to `"true"`by default.
 
 #### Svelte Syntax
 
 Svelte application components are defined with .svelte files, which are HTML files extended with templating syntax that is based on JavaScript and is similar to JSX. An important point to mention is that you can create a `__layout.svelte` component to create a layout that will appear on all pages, such as a header and navigation. You can then create a Header.svelte and a Nav.svelte component, import the Nav to the Header, and then import the Header with everything else, like a logo and hamburger menu, to the `__layout.svelte` component. By doing this, you will have it on every page.
 
 ---
+
 `{@debug}` This tag offers an alternative to console.log(), it allows you to console log and debug your code in Svelte.
 You can use this in place of `console.log()`.
 
 For example:
+
 ```js
 <script>
 	let user = {
@@ -196,14 +214,18 @@ color: green;
 }
 </style>
 ```
+
 This will debug `user` object and console log its response.
 
 #### [Learn more](https://svelte.dev/docs#template-syntax-debug)
+
 ---
-`@const myVar` defines a local constant and is only allowed as a direct child of 
+
+`@const myVar` defines a local constant and is only allowed as a direct child of
 `{#if}`, `{:else if}`, `{:else}`, `{#each}`, `{:then}`, `{:catch}`, `<Component />` or `<svelte:fragment />`.
 
 For example:
+
 ```js
 <script>
 	export let boxes;
@@ -216,10 +238,13 @@ For example:
 ```
 
 #### [Learn more](https://svelte.dev/docs#template-syntax-const)
+
 ---
+
 `{#each items as item} {/each}` is used to loop through an array or object. You can also include index, a key value for each loop, and `{:else}`.
 
 For example:
+
 ```js
 <h1>Shopping list</h1>
 <ul>
@@ -230,10 +255,13 @@ For example:
 ```
 
 #### [Learn more](https://svelte.dev/docs#template-syntax-each)
+
 ---
+
 `{#await expression}.. {:then item} .. {:catch error} .. {/await}` is used to handle promises in Svelte. You can also exclude `:then`, and if you do not need to render anything when the promise rejects, you can also remove `:catch`.
 
 For example:
+
 ```js
  <div class="items-container">
    <ul>
@@ -254,6 +282,7 @@ For example:
 ```
 
 #### [Learn more](https://svelte.dev/docs#template-syntax-await).
+
 ---
 
 [Svelte template syntax](https://svelte.dev/docs#template-syntax)
@@ -298,7 +327,7 @@ According to the [Svelte Documentation](https://svelte.dev/)
 **Learning curve**
 Svelte is easier to learn and use because it requires less setup, configuration, and boilerplate code than React. Svelte's templating syntax is similar to HTML and JavaScript, whereas React uses JSX, which requires a bit more knowledge.
 
-**Bundle size***
+**Bundle size\***
 Svelte generates smaller bundle sizes than React, resulting in faster load times and better performance.
 
 **Community support**
@@ -307,7 +336,7 @@ React has a larger and more established community, resulting in a wide range of 
 **Re-rendering**
 Svelte has a unique approach to reactivity that results in automatic updates of the UI without the need for virtual DOM reconciliation. In contrast, React relies heavily on the virtual DOM and requires updates to be reconciled.
 
-**Summary** 
+**Summary**
 Svelte is a compiler-based framework that is easier to learn and generates smaller bundle sizes for web applications. React is a more established framework with a larger community, providing a wide range of plugins, integrations, and libraries for building large-scale applications.
 
 ## Summary

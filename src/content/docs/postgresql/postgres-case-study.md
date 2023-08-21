@@ -2,9 +2,6 @@
 title: PostgreSQL Case Study
 keywords: development platforms, PostgreSQL project, Structured Query Language,
 tags: development platforms, PostgreSQL project, Structured Query Language,
-sidebar: development-platforms
-permalink: development-platforms/example-product.html
-folder: development-platforms
 ---
 
 ## Table of contents
@@ -148,4 +145,3 @@ By 1996 Postgres was called Postgres95. It became clear that this name would not
 - https://www.fivetran.com/blog/postgresql-vs-mysql
 - https://cdn.educba.com/academy/wp-content/uploads/2020/02/PostgreSQL-Features.jpg
 - https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png
-
