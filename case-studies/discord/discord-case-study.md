@@ -59,7 +59,9 @@ Users create their own servers that host text/voice channels which are used by t
 
 - March: Discord announced it had hired its first finance chief, former head of finance for Pinterest `Tomasz Marcinkowski`.
 - July: Discord acquired `Sentropy`, a internet moderation company.
-- August: Discord had reported $130 million in 2020 revenues, triple from the prior year, and had an estimated valuation of $15 billion.
+- August:
+- - Discord had reported $130 million in 2020 revenues, triple from the prior year, and had an estimated valuation of $15 billion.
+- - Discord launched Threads, which are temporary text channels that can be set to automatically disappear. This is meant to help foster more communication within servers.
 - September: Google sent cease and desist notices to the developers of two of the most popular music bots used on `Discord–Groovy` and `Rythm`–which were used on an estimated 36 million servers in total. These bots allowed users to request and play songs in a voice channel, taking the songs from YouTube ad-free.
 - November: Citron posted mockup images of Discord around the proposed Web3 principles with integrated cryptocurrency and non-fungible token support, leading to criticism from its userbase.
 
