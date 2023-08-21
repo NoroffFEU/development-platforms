@@ -10,22 +10,23 @@ tags: Discord, SoMe, Communication
 
 You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
 
-#### - 2011: In the beginning...
+#### 2011: In the beginning...
 
-- - Jason Citron sold OpenFeint (Social gaming platform for mobile games) to GREE in 2011 for 104 Million USD, which he used to found Hammer & Chisel.
-- - Citron with his FFXIV and League of Legends team had difficulty communicating tactics and strategies with the available free VoIP software at the time.
-- - This led to the development of a chat service with a focus on `user friendliness` with minimal impact on `performance`.
+- Jason Citron sold OpenFeint (Social gaming platform for mobile games) to GREE in 2011 for 104 Million USD, which he used to found Hammer & Chisel.
+- Citron with his FFXIV and League of Legends team had difficulty communicating tactics and strategies with the available free VoIP software at the time.
+- This led to the development of a chat service with a focus on `user friendliness` with minimal impact on `performance`.
 
 #### - 2015: The rise of Discord
 
-- - March: Discord was released to the public as a beta.
-- - May: Discord fully releases under the domain name discordapp.com.
-- 2016:
-- - January: Hammer & Chisel reported that Discord had been used by 3 million people, with growth of 1 million per month, reaching 11 million users in July that year.
-- - May:
-- - December: The company reported it had 25 million users worldwide.
+- March: Discord was released to the public as a beta.
+- May: Discord fully releases under the domain name discordapp.com.
+
+#### 2016:
+
+- January: Hammer & Chisel reported that Discord had been used by 3 million people, with growth of 1 million per month, reaching 11 million users in July that year.
+- May:
+- December: The company reported it had 25 million users worldwide.
 - 2017:
-- -
 
 ## Main Features
 
