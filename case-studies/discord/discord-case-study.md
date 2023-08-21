@@ -16,17 +16,38 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 - Citron with his FFXIV and League of Legends team had difficulty communicating tactics and strategies with the available free VoIP software at the time.
 - This led to the development of a chat service with a focus on `user friendliness` with minimal impact on `performance`.
 
-#### - 2015: The rise of Discord
+#### 2015:
 
-- March: Discord was released to the public as a beta.
-- May: Discord fully releases under the domain name discordapp.com.
+- Discord opened a public beta in March.
+- Discord was publicly released in May under the domain name discordapp.com.
+- Discord became widely used by e-sports and LAN tournament gamers. The company benefited from relationships with Twitch streamers and subreddit communities for Diablo and World of Warcraft.
 
 #### 2016:
 
-- January: Hammer & Chisel reported that Discord had been used by 3 million people, with growth of 1 million per month, reaching 11 million users in July that year.
-- May:
-- December: The company reported it had 25 million users worldwide.
-- 2017:
+- In January Hammer & Chisel reported that Discord had been used by 3 million people, with growth of 1 million per month, reaching 11 million users in July that year.
+- By December the company reported it had 25 million users worldwide.
+
+#### 2017:
+
+- By the end of 2017, the service had drawn nearly 90 million users, with roughly 1.5 million new users each week.
+- The company observed that while the bulk of its servers are used for gaming-related purposes, `a small number have been created by users for non-gaming activities, like stock trading, fantasy football, and other shared interest groups.`
+- Video calling and screen sharing were added in October 2017, allowing users to create private video calls with up to 10 users.
+- Starting October 2017, Discord allows game developers and publishers to verify their servers. Verified servers, like verified accounts on social media sites, have badges to mark them as official communities.
+
+#### 2018:
+
+#### 2019:
+
+- Due to the COVID-19 pandemic and the popularity of the video calls the limit of users increased from 10 to 50.
+- In August 2019, the video/screen sharing feature was further expanded with live streaming channels in servers. A user can share their entire screen, or a specific application, and others in that channel can choose to watch the stream.
+
+#### 2020:
+
+#### 2021:
+
+#### 2022:
+
+#### 2023:
 
 ## Main Features
 
@@ -34,7 +55,8 @@ Describe the primary purpose of the tool that you have selected. Which problems 
 
 You may use subheadings, tables or bullet points to structure your description:
 
-- **Example Feature:** This feature does something for a specific reason.
+- **Servers:** Discord communities are organized into discrete collections of channels called servers. Although they are referred to as servers on the front end, they are called "guilds" in the developer documentation. Users can create servers for free, manage their public visibility, and create voice channels, text channels, and categories to sort the channels into.
+
 - **Example Feature:** This feature does something for a specific reason.
 - **Example Feature:** This feature does something for a specific reason.
 
@@ -69,6 +91,7 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Discord - Wikipedia](https://en.wikipedia.org/wiki/Discord)
+- [Discord - Fandom](https://discord.fandom.com/wiki/Discord)
 
 ## Additional Resources
 
