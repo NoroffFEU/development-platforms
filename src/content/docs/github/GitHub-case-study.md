@@ -4,7 +4,7 @@ keywords: development platforms, github
 tags: Development Platforms, github
 ---
 
-![](/src/assets/github-mark-white.png)
+![GitHub logomark in white](~/assets/github/github-mark-white.png)
 
 ## Introduction
 

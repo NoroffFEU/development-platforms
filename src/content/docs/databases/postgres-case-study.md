@@ -6,7 +6,7 @@ tags: development platforms, PostgreSQL project, Structured Query Language,
 
 ## Introduction
 
-![Introduction](~/assets/postgres.png)
+![Introduction](~/assets/databases/postgres.png)
 
 PostgreSQL also known as Postgres, is a flexible open-source object-relational database management system (RDBMS) that has been around for decades. It is designed to manage a huge variety of use cases, from single machines to data warehouses to web services with several concurrent users. It is also the default database for macOS servers and is also available for Linux, FreeBSD, OpenBSD, and Windows.
 
@@ -22,7 +22,7 @@ By 1996 Postgres was called Postgres95. It became clear that this name would not
 
 ## Features
 
-![Features](~/assets/PostgreSQL-Features.jpg)
+![Features](~/assets/databases/postgresql-features.jpg)
 
 ### JSON language support
 

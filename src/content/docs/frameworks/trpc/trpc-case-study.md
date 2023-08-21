@@ -28,7 +28,7 @@ Version 10 brings in performance improvements as well as quality-of-life enhance
 - Simplified the operation of creating complex inference helpers.
 - Middlewares are now reusable and chain.
 
-![alt-image](~/assets/tRPC-media/trpc-graph.png)
+![alt-image](~/assets/frameworks/trpc/trpc-graph.png)
 
 tRPC's search popularity over the last 12 months.
 
@@ -76,11 +76,11 @@ const newNote = api.notes.createNewNote.useMutation()
 
 - Whereas, `createNewNote` defines the endpoint for handling our `CREATE` operations with the procedures we've created on the backend.
 
-![alt-image](~/assets/tRPC-media/use-definition.png)
+![alt-image](~/assets/frameworks/trpc/use-definition.png)
 
 We can easily navigate to it by right-clicking -> `go to definition` and it will take us straight to our router function where our procedures are being defined.
 
-![alt-image](~/assets/tRPC-media/use-definition-result.png)
+![alt-image](~/assets/frameworks/trpc/use-definition-result.png)
 
 A single router typically contains several procedures. In the case of our `noteRouter`, it would make sense to have procedures or endpoints that handle all of your `CRUD` operations:
 
@@ -169,11 +169,11 @@ Where we've called our backend function and stored it in a variable `newNote`. W
 
 The repository is configured with a public MongoDB cluster with our Prisma model. On submission, the form should now add a new entry to the database with the content of `title.value` and `description.value`.
 
-![alt-image](~/assets/tRPC-media/form-example.png)
+![alt-image](~/assets/frameworks/trpc/form-example.png)
 
 A very basic layout render of the form as well as already existing notes in the database on the right-hand side. Submitting the form should now update the database with a new entry:
 
-![alt-image](~/assets/tRPC-media/database-result.png)
+![alt-image](~/assets/frameworks/trpc/database-result.png)
 
 ## Strengths
 
@@ -220,6 +220,8 @@ Since many of tRPC's features benefit from using a singular repository, it might
 [Web Dev Simplified](https://www.youtube.com/watch?v=lxnPMB0Jc7E) asks recently in a video if tRPC spells the end to `REST/graphQL`. While his title is almost certainly to generate views and clicks, the video does highlight some of the unique benefits of `tRPC` as well as its simplicity of use. When possible, people tend to gravitate toward the option that provides them with the simplest solution. `tRPC` often does so intelligently and seamlessly.
 
 However, there are dilemmas and industry requirements that `tRPC` cannot properly solve, and in such cases, there might be better options out there. One such popular option is `graphQL`.
+
+![Graph comparing tRPC with GraphQL](~/assets/frameworks/trpc/trpc-graphql-comparison.png)
 
 ### GraphQL
 

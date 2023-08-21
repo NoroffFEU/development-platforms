@@ -60,7 +60,7 @@ Some of the most popular extensions are:
 
 To install an extension, simply search for it in the Extensions panel on the left side of the editor, and click the Install button. VS Code automatically checks for updates to extensions and notifies you when a new version is available. You can manage your extensions by disabling or uninstalling them, or configure their settings.
 
-![Left side panel where your can find the extensions](~/assets/vscode-extensions-preview.png)
+![Left side panel where your can find the extensions](~/assets/ide/vscode-extensions-preview.png)
 
 ### Debugging:
 
@@ -70,7 +70,7 @@ Key things to know about debugging in VS Code:
 
 Before you can start debugging, you need to create a **launch configuration**. This configuration specifies how to launch your application and how to attach the debugger to it. You can create launch configurations for different types of applications, such as Node.js, Python, or C# applications.
 
-![Debugger icon in left side panel](~/assets/vscode-debugger-icon.png)
+![Debugger icon in left side panel](~/assets/ide/vscode-debugger-icon.png)
 
 VS Code provides several **debugging views** that help you analyze your code as it runs. These views include the Debug Console, which displays output from your application and the Debug Explorer, which displays information about your running applications and allows you to control the debugger.
 
@@ -247,7 +247,7 @@ To start using VS Code, follow these steps:
 
 4. **Open a folder or file:** After launching VS Code you can open a folder or file to start coding. To open a folder, click on "File" in the top menu and select "Open Folder." To open a file, click on "File" and select "Open File."
 
-![Open folder or file](~/assets/vscode-open-folder-file.png)
+![Open folder or file](~/assets/ide/vscode-open-folder-file.png)
 
 5. **Start coding:** Once you have opened a folder or file, you can start coding in the editor.
 
