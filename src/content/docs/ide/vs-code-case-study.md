@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Code (VSCode) Case Study
+title: Visual Studio Code (VSCode)
 keywords: vscode, case study, code editor
 tags: vscode, case study, code editor
 ---

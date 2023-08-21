@@ -1,6 +1,6 @@
 ---
 title: Vite Video Case Study
-author: Daniel Vier <donnybrilliant>
+keywords: vite, video case study, build tool, tutorial
 tags: vite, video case study, build tool, tutorial
 ---
 

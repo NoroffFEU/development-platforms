@@ -1,7 +1,7 @@
 ---
-title: Example Product Case Study
-keywords: development platforms, example project, category name
-tags: Development Platforms, Example Project, Category Name
+title: tRPC Case Study
+keywords: development platform, web development, trpc
+tags: Development Platforms, Web Development, trpc, Build-tool
 ---
 
 ![alt-image](https://external-preview.redd.it/announcing-trpc-v10-v0-AjkO8Ti4nYzykqK_syEj1aOgBt4AMKotD3C0JNrkANY.jpg?auto=webp&s=b9c1f6d6e0fbddf97db400d6a56274ea129a58da)

@@ -4,9 +4,7 @@ keywords: development platforms, cms, strapi
 tags: development platforms, cms, strapi
 ---
 
-# Strapi
-
-## 1. Introduction
+## Introduction
 
 The creation and maintenance of databases or Application Programming Interfaces (APIs) are tasks typically associated with the work of a backend or fullstack developer. The work of a frontend developer, on the other hand, is typically associated with consuming that data – turning it into chunks of information that will hopefully be meaningful to the end user of a given service or product.
 
@@ -14,13 +12,13 @@ However, web development platforms and technologies are evolving in such a way t
 
 This article will explain what Strapi is, why it was created and how it currently works. It will also cover some of its strengths and weaknesses. At the end, there will be a demonstration of Strapi in action – in combination with PostgreSQL – to create a simple API that serves developers with academic articles ready to be used in their frontend projects.
 
-## 2. Brief History
+## Brief History
 
 Strapi was founded in 2015, in France. Soon after its first public repository was published on Github, in October that year, the company attracted the attention of developers from across the globe. Back then, developers weren't seeing a lot of innovation in the niche of Content Management Systems (CMSs). Wordpress, Drupal, Joomla and others were the main players in this field. However, most of these tools were considered either too limited or too complex. While they still allow developers to create their own APIs, they do so in ways that we can consider, perhaps, a little too old-fashioned.
 
 The creators of Strapi took advantage of this market opportunity. A new open-source tool that allowed developers to create and manage APIs in an easy and straight-forward manner was a rather relevant innovation at the time. In 2017, Strapi was already a much talked-about product. A popular experimental version (V.3 alpha) was released. The first stable version came out in 2020, along with a new branding and an enterprise plan that consolidated the company's presence as an important player in the realm of headless CMSs. At the time of writing, Strapi's latest version is 4.3.9. It has become a ubiquitous service used by frontend, backend and fullstack developers who need to efficiently create and manage APIs.
 
-## 3. Features
+## Features
 
 Below is a list of Strapi's main features and functionalities:
 
@@ -39,7 +37,7 @@ Below is a list of Strapi's main features and functionalities:
 - It works natively with Docker.
 - It has a lively and active community, counting on a variety of plugins and third-party integrations. It also counts on an official Discord server.
 
-## 4. Strengths
+## Strengths
 
 The features listed in the previous chapter actually constitute Strapi's main strengths. In addition to those, the following items should also be considered:
 
@@ -47,7 +45,7 @@ The features listed in the previous chapter actually constitute Strapi's main st
 - The fact that Strapi is "100% JavaScript", as phrased in its homepage, may also be seen as a strength. The reason is simple: Javascript is usually the programming language that frontend developers are most familiar with. Consequently, a field which was previously dominated by backend developers can now be safely explored by frontend developers as well, or by other professionals who have limited knowledge of backend technologies. This may have been one of the main reasons behind Strapi's rapid dissemination and adoption by tech communities.
 - The REST APIs created via Strapi can be easily documented with popular tools such as Swagger.
 
-## 5. Weaknesses
+## Weaknesses
 
 Strapi has, of course, some weaknesses too. For some projects, the following topics may be a hindrance:
 
@@ -56,7 +54,7 @@ Strapi has, of course, some weaknesses too. For some projects, the following top
 - Strapi does not have a native hosting environment yet, although they have recently announced StrapiCloud, as a tool which will fill this gap in the future.
 - Strapi is rapidly evolving and that means it is frequently updated. Some of these updates may be disruptive, as they implement breaking changes that may compromise some projects.
 
-## 6. Comparison
+## Comparison
 
 There are at least two ways of comparing Strapi with similar products: (a) analysing how it differs from more traditional CMS platforms like Wordpress (WP), Drupal and Joomla; and (b) analysing how it differs from more modern products that perform similar roles, even though these may not be strictly equivalent in terms of functionalities.
 
@@ -80,7 +78,7 @@ On the one hand, Strapi seems to be the most flexible and most customisable of t
 
 There are of course numerous other tools that allow developers to create their own APIs (like Netlify CMS, Butter CMS, Umbraco CMS, Firebase, AppWrite, Parse, AWS Amplify and countless others). But many of these fall into the Backend as a service (BaaS) category, which means they go beyond merely CMS functionalities. For that reason, they should not be directly compared to products that primarily advertise themselves as headless CMS platforms.
 
-## 7. Use case: creating an API
+## Use case: creating an API
 
 It's time to see Strapi in action. In this demonstration, a simple API designed to serve clients with academic articles will be created. Each entry will consist of fields like title, authors, publication date, body, references and so on. There are many ways of creating a Strapi API. One of them is by integrating Strapi with PostgreSQL database. First, make sure you have both NodeJS and npm installed in your development environment. Then, follow the steps:
 

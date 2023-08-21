@@ -1,5 +1,5 @@
 ---
-title: Example Product Case Study
+title: GitHub
 keywords: development platforms, github
 tags: Development Platforms, github
 ---

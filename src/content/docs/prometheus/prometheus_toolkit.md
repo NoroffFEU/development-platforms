@@ -1,7 +1,7 @@
 ---
 title: Prometheus Monitoring and Alerting
-keywords: development platforms, example project, category name
-tags: Development Platforms, Example Project, Category Name
+keywords: Prometheus, Monitoring, Alerting, Open Source, Systems, Toolkit
+tags: Prometheus, Monitoring, Alerting, Open Source, Systems, Toolkit
 ---
 
 ## Introduction

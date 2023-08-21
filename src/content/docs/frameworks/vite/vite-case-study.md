@@ -1,5 +1,5 @@
 ---
-title: A Case Study on the Development Platform Vite
+title: Vite Case Study
 keywords: development platform, web development, vite
 tags: Development Platforms, Web Development, Vite, Build-tool
 ---

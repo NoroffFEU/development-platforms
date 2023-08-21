@@ -1,7 +1,7 @@
 ---
 title: Neo4j Product Case Study
-keywords: development platforms, example project, category name
-tags: Development Platforms, Example Project, Category Name
+keywords: development platforms, Video Case Study, Web Based Services
+tags: Development Platforms, Video Case Study, Web Based Services, Neo4j
 ---
 
 # Neo4j

@@ -1,7 +1,7 @@
 ---
 title: Github Video Case Study
 keywords: development platforms, Github , Project management , Github Actions
-tags: Development Platforms, Example Project, Category Name
+tags: Development Platforms, Github , Project management , Github Actions
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=EHIT7fhmA7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

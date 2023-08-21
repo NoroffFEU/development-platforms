@@ -1,7 +1,7 @@
 ---
 title: ChatGPT Case Study
 keywords: development platforms, machine learning, generative ai, text bot, natural language processing, NLP, GPT
-tags: Development Platforms, Example Project, Category Name
+tags: Development Platforms, Machine Learning, Generative AI, Text Bot, Natural Language Processing, NLP, GPT
 ---
 
 # ChatGPT - Case Study
