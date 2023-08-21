@@ -28,7 +28,7 @@ Version 10 brings in performance improvements as well as quality-of-life enhance
 - Simplified the operation of creating complex inference helpers.
 - Middlewares are now reusable and chain.
 
-![alt-image](/static/images/tRPC-media/trpc-graph.png)
+![alt-image](~/assets/tRPC-media/trpc-graph.png)
 
 tRPC's search popularity over the last 12 months.
 
@@ -76,11 +76,11 @@ const newNote = api.notes.createNewNote.useMutation()
 
 - Whereas, `createNewNote` defines the endpoint for handling our `CREATE` operations with the procedures we've created on the backend.
 
-![alt-image](/static/images/tRPC-media/use-definition.png)
+![alt-image](~/assets/tRPC-media/use-definition.png)
 
 We can easily navigate to it by right-clicking -> `go to definition` and it will take us straight to our router function where our procedures are being defined.
 
-![alt-image](/static/images/tRPC-media/use-definition-result.png)
+![alt-image](~/assets/tRPC-media/use-definition-result.png)
 
 A single router typically contains several procedures. In the case of our `noteRouter`, it would make sense to have procedures or endpoints that handle all of your `CRUD` operations:
 
@@ -94,7 +94,7 @@ Read all notes, read a single note defined by ID, create a new note, update the 
 Calling the procedure builder `input`, which is where we define the content of our endpoint. In this case, we're using `Zod` for some basic validation and creating `title` and `description` keys with the type of string.
 
 ```ts
-      export const noteRouter = createTRPCRouter({
+export const noteRouter = createTRPCRouter({
   // Create new note
   createNewNote: publicProcedure
     .input(
@@ -126,18 +126,18 @@ model Notes {
 In this use case we're using `Prisma` to easily read or write data to our database, above is the model for our `Notes`.
 
 ```ts
-    .mutation(async ({ ctx, input }) => {
-      try {
-        return await ctx.prisma.notes.create({
-          data: {
-            title: input.title,
-            description: input.description,
-          },
-        });
-      } catch (err) {
-        console.log(err);
-      }
-    }),
+.mutation(async ({ ctx, input }) => {
+  try {
+    return await ctx.prisma.notes.create({
+      data: {
+        title: input.title,
+        description: input.description,
+      },
+    });
+  } catch (err) {
+    console.log(err);
+  }
+}),
 ```
 
 In our asynchronous function we call `context` and our previously defined `input` and call `ctx.prisma.notes.create` to create a new instance on our database where the title is that of `input.title`, and description is that of `input.description`.
@@ -151,29 +151,29 @@ const newNote = api.notes.createNewNote.useMutation()
 Where we've called our backend function and stored it in a variable `newNote`. Within the rendering code, we've created a simple form, with text input for the title and description, and added the following script to run on submit:
 
 ```tsx
-      <form
-          className="ml-5 rounded bg-white p-5"
-          onSubmit={(event) => {
-            event.preventDefault();
-            newNote.mutate({
-              title: data.title,
-              description: data.description,
-            });
-            setData({
-              title: '',
-              description: '',
-            });
-          }}
-        >
+<form
+  className="ml-5 rounded bg-white p-5"
+  onSubmit={(event) => {
+    event.preventDefault();
+    newNote.mutate({
+      title: data.title,
+      description: data.description,
+    });
+    setData({
+      title: '',
+      description: '',
+    });
+  }}
+>
 ```
 
 The repository is configured with a public MongoDB cluster with our Prisma model. On submission, the form should now add a new entry to the database with the content of `title.value` and `description.value`.
 
-![alt-image](/static/images/form-example.png)
+![alt-image](~/assets/tRPC-media/form-example.png)
 
 A very basic layout render of the form as well as already existing notes in the database on the right-hand side. Submitting the form should now update the database with a new entry:
 
-![alt-image](/static/images/database-result.png)
+![alt-image](~/assets/tRPC-media/database-result.png)
 
 ## Strengths
 

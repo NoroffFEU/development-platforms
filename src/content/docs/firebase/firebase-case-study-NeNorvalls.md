@@ -8,7 +8,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ## \*What is **_FIREBASE_**?\*
 
-![Firebase](/static/images/firebase.jpeg)
+![Firebase](~/assets/firebase.jpeg)
 
 **Firebase** is a cross-platform development service with features that help developers to work efficiently, quickly, and reliably, solving the three main issues in mobile apps and all multi-platform devices. It is a back-end platform that increases an application's resources based on demand. It is a leading platform that is relied upon by developers globally. It has benefited from rapid improvement and additional features that provide satisfying results for developers and users. Since it is cloud-hosted, it gives smooth performance due to hassle-free demand scaling. All components are available for mobile and web-based applications, including services for building, testing, and managing apps.
 
@@ -28,9 +28,9 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ## **Features:**
 
-![Features](/static/images/features.jpeg)
+![Features](~/assets/features.jpeg)
 
-![Firebase Products & Features](/static/images/features_services.jpg)
+![Firebase Products & Features](~/assets/features_services.jpg)
 [image reference from](https://www.altexsoft.com/blog/firebase-review-pros-cons-alternatives/)
 
 ---
@@ -85,7 +85,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ## **Strengths:**
 
-![Strengths](/static/images/strengths.jpeg)
+![Strengths](~/assets/strengths.jpeg)
 
 - Free to start
 - Development speed
@@ -117,7 +117,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ## **Weaknesses:**
 
-![Weakneses](/static/images/weaknesses.jpeg)
+![Weakneses](~/assets/weaknesses.jpeg)
 
 - It’s not Open-Source
 - Firebase does not work in many countries
@@ -190,126 +190,126 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ## **References:**
 
-![Reference](/static/images/References.jpeg)
+![Reference](~/assets/References.jpeg)
 
 ### **Introduction**
 
-- [links reference-https://github.com](https://github.com/user/repo/blob/branch/other_file.md)
-- [links reference-https://blog.back4app.com](https://blog.back4app.com/firebase/#What_is_Firebase_and_how_it_works)
-- [image reference-https://stock.adobe.com](https://stock.adobe.com/ph)
-- [links reference-https://firebase.google.com](https://firebase.google.com/)
-- [links reference-https://www.javatpoint.com](https://www.javatpoint.com/firebase-introduction)
-- [image reference-https://www.altexsoft.com](https://www.altexsoft.com/blog/firebase-review-pros-cons-alternatives/)
+- [https://github.com](https://github.com/user/repo/blob/branch/other_file.md)
+- [https://blog.back4app.com](https://blog.back4app.com/firebase/#What_is_Firebase_and_how_it_works)
+- [https://stock.adobe.com](https://stock.adobe.com/ph)
+- [https://firebase.google.com](https://firebase.google.com/)
+- [https://www.javatpoint.com](https://www.javatpoint.com/firebase-introduction)
+- [https://www.altexsoft.com](https://www.altexsoft.com/blog/firebase-review-pros-cons-alternatives/)
 
 #### _Realtime database_
 
-- [links reference-https://firebase.google.com](https://firebase.google.com/docs/database)
-- [links reference-https://hazelcast.com](https://hazelcast.com/glossary/real-time-database/)
-- [links reference-https://en.wikipedia.org](https://en.wikipedia.org/wiki/Real-time_database)
+- [https://firebase.google.com](https://firebase.google.com/docs/database)
+- [https://hazelcast.com](https://hazelcast.com/glossary/real-time-database/)
+- [https://en.wikipedia.org](https://en.wikipedia.org/wiki/Real-time_database)
 
 #### _Firestore_
 
-- [links reference-https://cloud.google.com](https://cloud.google.com/firestore/docs/data-model)
-- [links reference-https://www.codemag.com](https://www.codemag.com/Article/1905071/Introduction-to-Cloud-Firestore)
+- [https://cloud.google.com](https://cloud.google.com/firestore/docs/data-model)
+- [https://www.codemag.com](https://www.codemag.com/Article/1905071/Introduction-to-Cloud-Firestore)
 
 #### _Cloud Functions_
 
-- [links reference-https://firebase.google.com](https://firebase.google.com/docs/functions#:~:text=Cloud%20Functions%20for%20Firebase%20is,runs%20in%20a%20managed%20environment)
-- [links reference-https://firebase.blog](https://firebase.blog/posts/2017/03/introducing-cloud-functions-for-firebase)
-- [links reference-https://blog.back4app.com](https://blog.back4app.com/firebase-cloud-functions/])
+- [https://firebase.google.com](https://firebase.google.com/docs/functions#:~:text=Cloud%20Functions%20for%20Firebase%20is,runs%20in%20a%20managed%20environment)
+- [https://firebase.blog](https://firebase.blog/posts/2017/03/introducing-cloud-functions-for-firebase)
+- [https://blog.back4app.com](https://blog.back4app.com/firebase-cloud-functions/])
 
 #### _Cloud Storage_
 
-- [links reference-https://firebase.google.com](https://firebase.google.com/docs/storage)
-- [links reference-https://www.javatpoint.com](https://www.javatpoint.com/firebase-cloud-storage)
+- [https://firebase.google.com](https://firebase.google.com/docs/storage)
+- [https://www.javatpoint.com](https://www.javatpoint.com/firebase-cloud-storage)
 
 #### _Hosting_
 
-- [links reference-https://www.javatpoint.com](https://www.javatpoint.com/firebase-hosting)
-- [link reference-https://firebase.google.com](https://firebase.google.com/docs/hosting)
-- [link reference-https://pranaypatel.medium.com](https://pranaypatel.medium.com/firebase-hosting-cecc4b87c641)
+- [https://www.javatpoint.com](https://www.javatpoint.com/firebase-hosting)
+- [https://firebase.google.com](https://firebase.google.com/docs/hosting)
+- [https://pranaypatel.medium.com](https://pranaypatel.medium.com/firebase-hosting-cecc4b87c641)
 
 #### _Authentication_
 
-- [link reference-https://firebase.google.com](https://firebase.google.com/docs/auth)
-- [links reference-https://www.javatpoint.com](https://www.javatpoint.com/firebase-authentication)
+- [https://firebase.google.com](https://firebase.google.com/docs/auth)
+- [https://www.javatpoint.com](https://www.javatpoint.com/firebase-authentication)
 
 #### _Machine Learning Kit_
 
-- [links reference-https://blog.back4app.com](https://blog.back4app.com/firebase-ml/)
-- [links reference-https://medium.com](https://medium.com/@lmoroney_40129/machine-learning-in-firebase-using-predictions-8a1df0c63b60)
-- [links reference-https://www.geeksforgeeks.org](https://www.geeksforgeeks.org/firebase-machine-learning-kit/)
-- [links reference-https://www.quora.com](https://www.quora.com/What-s-new-in-Firebase-Machine-Learning-and-MLKit)
+- [https://blog.back4app.com](https://blog.back4app.com/firebase-ml/)
+- [https://medium.com](https://medium.com/@lmoroney_40129/machine-learning-in-firebase-using-predictions-8a1df0c63b60)
+- [https://www.geeksforgeeks.org](https://www.geeksforgeeks.org/firebase-machine-learning-kit/)
+- [https://www.quora.com](https://www.quora.com/What-s-new-in-Firebase-Machine-Learning-and-MLKit)
 
 #### _Test Lab_
 
-- [links reference-https://docs.codemagic.io](https://docs.codemagic.io/yaml-testing/firebase-test-lab/)
-- [links reference-https://console.cloud.google.com](https://console.cloud.google.com/marketplace/details/google-cloud-platform/firebase-test-lab-for-android?pli=1)
-- [links reference-https://www.g2.com](https://www.g2.com/products/google-firebase-test-lab/reviews)
-- [links reference-https://subscription.packtpub.com](https://subscription.packtpub.com/book/web-development/9781788624718/7/ch07lvl1sec44/firebase-test-lab)
+- [https://docs.codemagic.io](https://docs.codemagic.io/yaml-testing/firebase-test-lab/)
+- [https://console.cloud.google.com](https://console.cloud.google.com/marketplace/details/google-cloud-platform/firebase-test-lab-for-android?pli=1)
+- [https://www.g2.com](https://www.g2.com/products/google-firebase-test-lab/reviews)
+- [https://subscription.packtpub.com](https://subscription.packtpub.com/book/web-development/9781788624718/7/ch07lvl1sec44/firebase-test-lab)
 
 #### _Crashlytics_
 
-- [links reference-https://firebase.google.com](https://firebase.google.com/docs/crashlytics)
-- [links reference-blog.back4app](https://blog.back4app.com/firebase-crashlytics/)
-- [links reference-https://www.javatpoint.com](https://www.javatpoint.com/firebase-crashlytics)
+- [https://firebase.google.com](https://firebase.google.com/docs/crashlytics)
+- [blog.back4app](https://blog.back4app.com/firebase-crashlytics/)
+- [https://www.javatpoint.com](https://www.javatpoint.com/firebase-crashlytics)
 
 #### _Performance Monitoring_
 
-- [links reference-https://firebase.blog](https://firebase.blog/posts/2018/11/firebase-performance-monitoring)
-- [links reference-https://firebase.google.com](https://firebase.google.com/docs/perf-mon)
-- [links reference-https://subscription.packtpub.com](https://subscription.packtpub.com/book/web-development/9781788624718/8/ch08lvl1sec49/firebase-performance-monitoring)
+- [https://firebase.blog](https://firebase.blog/posts/2018/11/firebase-performance-monitoring)
+- [https://firebase.google.com](https://firebase.google.com/docs/perf-mon)
+- [https://subscription.packtpub.com](https://subscription.packtpub.com/book/web-development/9781788624718/8/ch08lvl1sec49/firebase-performance-monitoring)
 
 #### _App Distribution(Beta)_
 
-- [links reference-https://firebase.google.com](https://firebase.google.com/docs/app-distribution)
-- [links reference-https://blog.back4app.com](https://blog.back4app.com/firebase-app-distribution/)
+- [https://firebase.google.com](https://firebase.google.com/docs/app-distribution)
+- [https://blog.back4app.com](https://blog.back4app.com/firebase-app-distribution/)
 
 #### _Google Analytics_
 
-- [links reference-https://www.webfx.com](https://www.webfx.com/martech/tech/firebase-vs-google/)
-- [links reference-https://support.google.com](https://support.google.com/firebase/answer/7388022?hl=en)
-- [links reference-https://firebase.flutter.dev](https://firebase.flutter.dev/docs/analytics/overview/)
+- [https://www.webfx.com](https://www.webfx.com/martech/tech/firebase-vs-google/)
+- [https://support.google.com](https://support.google.com/firebase/answer/7388022?hl=en)
+- [https://firebase.flutter.dev](https://firebase.flutter.dev/docs/analytics/overview/)
 
 #### _Predictions_
 
-- [links reference-https://blog.back4app.com](https://blog.back4app.com/firebase-predictions/#:~:text=Firebase%20Predictions%20is%20a%20tool,out%20of%20it%20with%20ease.)
-- [links reference-https://medium.com](https://medium.com/loodos/firebase-predictions-control-your-audience-growth-713eac413acf)
-- [links reference-https://vladimirj.dev](https://vladimirj.dev/firebase-predictions/)
+- [https://blog.back4app.com](https://blog.back4app.com/firebase-predictions/#:~:text=Firebase%20Predictions%20is%20a%20tool,out%20of%20it%20with%20ease.)
+- [https://medium.com](https://medium.com/loodos/firebase-predictions-control-your-audience-growth-713eac413acf)
+- [https://vladimirj.dev](https://vladimirj.dev/firebase-predictions/)
 
 #### _Cloud Messaging_
 
-- [links reference-https://www.techtarget.com](https://www.techtarget.com/whatis/definition/Firebase-Cloud-Messaging-FCM)
-- [links reference-https://www.javatpoint.com](https://www.javatpoint.com/firebase-cloud-messaging)
-- [links reference-https://en.wikipedia.org](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)
-- [links reference-https://firebase.flutter.dev](https://firebase.flutter.dev/docs/messaging/overview/)
+- [https://www.techtarget.com](https://www.techtarget.com/whatis/definition/Firebase-Cloud-Messaging-FCM)
+- [https://www.javatpoint.com](https://www.javatpoint.com/firebase-cloud-messaging)
+- [https://en.wikipedia.org](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging)
+- [https://firebase.flutter.dev](https://firebase.flutter.dev/docs/messaging/overview/)
 
 #### _Remote Config_
 
-- [links reference-https://firebase.google.com](https://firebase.google.com/products/remote-config?gclid=CjwKCAiA_vKeBhAdEiwAFb_nrfw47Y8y7No9FhAEiL9iSr83gJB6wYkQGsXYfnTjqwos-JKQ1NFSThoCfVAQAvD_BwE&gclsrc=aw.ds)
-- [links reference-https://firebase.google.com/docs/remote-config](https://firebase.google.com/docs/remote-config#:~:text=Firebase%20Remote%20Config%20is%20a,and%20appearance%20of%20your%20app.)
+- [https://firebase.google.com](https://firebase.google.com/products/remote-config?gclid=CjwKCAiA_vKeBhAdEiwAFb_nrfw47Y8y7No9FhAEiL9iSr83gJB6wYkQGsXYfnTjqwos-JKQ1NFSThoCfVAQAvD_BwE&gclsrc=aw.ds)
+- [https://firebase.google.com/docs/remote-config](https://firebase.google.com/docs/remote-config#:~:text=Firebase%20Remote%20Config%20is%20a,and%20appearance%20of%20your%20app.)
 
 #### _Dynamic Links_
 
-- [links reference-https://blog.back4app.com](https://blog.back4app.com/firebase-dynamic-links/)
+- [https://blog.back4app.com](https://blog.back4app.com/firebase-dynamic-links/)
 
 #### _A/B Testing_
 
-- [links reference-https://firebase.google.com](https://firebase.google.com/products/ab-testing#:~:text=Firebase%20A%2FB%20Testing%20gives,the%20copy%20of%20your%20notifications%3F)
-- [links reference-https://theengineerscafe.com](https://theengineerscafe.com/firebase-predictions-explained/)
-- [links reference-https://www.mouritech.com](https://www.mouritech.com/it-technical-articles/a/b-testing-boost-user-retention/)
+- [https://firebase.google.com](https://firebase.google.com/products/ab-testing#:~:text=Firebase%20A%2FB%20Testing%20gives,the%20copy%20of%20your%20notifications%3F)
+- [https://theengineerscafe.com](https://theengineerscafe.com/firebase-predictions-explained/)
+- [https://www.mouritech.com](https://www.mouritech.com/it-technical-articles/a/b-testing-boost-user-retention/)
 
 #### _In-App Messaging_
 
-- [links reference-https://www.airship.com](https://www.airship.com/resources/explainer/in-app-messaging-explained/#:~:text=In%2Dapp%20messages%20are%20messages,messaging%20and%20Message%20Center%20messages.)
-- [links reference-https://www.leanplum.com](https://www.leanplum.com/glossary/in-app-messaging/)
-- [links reference-https://www.helpshift.com](https://www.helpshift.com/glossary/in-app-messaging/)
-- [links references-https://www.businessofapps.com/](https://www.businessofapps.com/guide/in-app-messaging/)
+- [https://www.airship.com](https://www.airship.com/resources/explainer/in-app-messaging-explained/#:~:text=In%2Dapp%20messages%20are%20messages,messaging%20and%20Message%20Center%20messages.)
+- [https://www.leanplum.com](https://www.leanplum.com/glossary/in-app-messaging/)
+- [https://www.helpshift.com](https://www.helpshift.com/glossary/in-app-messaging/)
+- [https://www.businessofapps.com/](https://www.businessofapps.com/guide/in-app-messaging/)
 
 ### Strengths & Weaknesses
 
-- [links reference-https://osdb.io](https://osdb.io/firebase-pros-and-cons-when-you-should-and-shouldnt-use-firebase-osdb/)
-- [links reference-https://blog.back4app.com](https://blog.back4app.com/firebase/#What_is_Firebase_and_how_it_works)
+- [https://osdb.io](https://osdb.io/firebase-pros-and-cons-when-you-should-and-shouldnt-use-firebase-osdb/)
+- [https://blog.back4app.com](https://blog.back4app.com/firebase/#What_is_Firebase_and_how_it_works)
 
 ---
 
@@ -317,41 +317,41 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 #### Firebase
 
-- [video-links reference-https://www.youtube.com](https://www.youtube.com/watch?v=XHvWx1F3S4A)
+- [https://www.youtube.com](https://www.youtube.com/watch?v=XHvWx1F3S4A)
 
 #### Cloud Functions
 
-- [video-links reference-https://www.youtube.com](https://www.youtube.com/watch?v=QP8sjZuOlFY&t=8s)
+- [https://www.youtube.com](https://www.youtube.com/watch?v=QP8sjZuOlFY&t=8s)
 
 #### Cloud Storage
 
-- [video-links reference-https://www.youtube.com](https://www.youtube.com/watch?v=_tyjqozrEPY&t=5s)
+- [https://www.youtube.com](https://www.youtube.com/watch?v=_tyjqozrEPY&t=5s)
 
 #### Authentication
 
-- [video-links reference-https://www.youtube.com](https://www.youtube.com/watch?v=8sGY55yxicA)
+- [https://www.youtube.com](https://www.youtube.com/watch?v=8sGY55yxicA)
 
 #### Performance Monitoring
 
-- [video-links reference-https://www.youtube.com](https://www.youtube.com/watch?v=0EHSPFvH7vk&t=2s)
+- [https://www.youtube.com](https://www.youtube.com/watch?v=0EHSPFvH7vk&t=2s)
 
 #### Google Analytics
 
-- [video-links reference-https://www.youtube.com](https://www.youtube.com/watch?v=8iZpH7O6zXo&t=1s)
+- [https://www.youtube.com](https://www.youtube.com/watch?v=8iZpH7O6zXo&t=1s)
 
 #### Cloud Messaging
 
-- [video-links reference-https://www.youtube.com](https://www.youtube.com/watch?v=sioEY4tWmLI)
+- [https://www.youtube.com](https://www.youtube.com/watch?v=sioEY4tWmLI)
 
 #### Dynamic Links
 
-- [video-links reference-https://www.youtube.com](https://www.youtube.com/watch?v=LvY1JMcrPF8)
+- [https://www.youtube.com](https://www.youtube.com/watch?v=LvY1JMcrPF8)
 
 ---
 
 ### **Image References:**
 
-- [images reference-https://stock.adobe.com](https://stock.adobe.com/ph)
+- [https://stock.adobe.com](https://stock.adobe.com/ph)
 
 ---
 

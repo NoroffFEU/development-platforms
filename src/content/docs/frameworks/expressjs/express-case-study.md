@@ -28,15 +28,11 @@ ExpressJS is a Node.js web application framework. It was created by [TJ Holowayc
 
 </details>
 
-<br>
-
 ## Brief History
 
 - 2010: ExpressJS released by [TJ Holowaychuk](https://github.com/tj)
 - 2014: StrongLoop acquired the rights to manage the project.
 - 2015: StrongLoop was acquired by IBM, along with the rights to Express
-
-<br>
 
 ## Main Features
 
@@ -45,8 +41,6 @@ ExpressJS is a Node.js web application framework. It was created by [TJ Holowayc
 - **template engines**: you can use Express and Node js to create a _dynamic website_. to do that express has support for template engines like EJS and PUG. read more about creating dynamic websites [here](#dynamic-website)
 - **easy to get into**: Express and Node is written in the very familiar language of JavaScript. This helps to ease front-end developers into the backend, instead of having to learn a whole new language like python, C#, Ruby or GO.
 - **community**: Express is one of the most used Web Application Frameworks for Node.js. It is therefore no surprise that there is a huge community around Express that aims to teach and further develop it.
-
-<br>
 
 ## Market Comparison
 
@@ -58,15 +52,11 @@ Express being a framework based on Node.js might also be getting some serious co
 
 In addition to Deno, there is also the newer competitor: [Bun](https://bun.sh/), which claims to be even faster than Deno, and with native support for node packages and more. I should mention that bun is still in version 0.5.9 as of writing this, and still has a few things to iron out, but it will be interesting to try out Express with Bun when it is fully ready.
 
-<br>
-
 ## Getting Started
 
 Below is a very simple setup of an Express app that renders a hello world page on localhost. In addition to this, MDN has a very thorough tutorial on creating a web app with express [here](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website)
 
-<br>
-
-#### step 0: setup <a id="gettingsStartedStep0"></a>
+#### Step 0: Setup
 
 before we install express, we need to make sure we have everything we need. if you already know how to install node, and initialize a node project, continue to [step 1](#gettingsStartedStep1).
 
@@ -87,9 +77,7 @@ npm init
 
 After you have filled in the required fields in the CLI, a package.json file should appear. We can now install Express.
 
-<br>
-
-#### step 1: install express <a id="gettingsStartedStep1"></a>
+#### Step 1: Install Express
 
 To install Express run this command. This will install Express as a dependency in your project.
 
@@ -99,9 +87,7 @@ npm i express
 
 > you can also quickly install an Express skeleton with [_express generator_](https://expressjs.com/en/starter/generator.html), which can save you a lot of time. I recommend doing this only when you are familiar with the ins and outs of Express.
 
-<br>
-
-#### step 2: Create an Express app file <a id="gettingsStartedStep2"></a>
+#### Step 2: Create an Express app file
 
 Next we will make the app file that runs our web app. create a file called app.js. in this file add this:
 
@@ -153,13 +139,9 @@ click the link (you may have to ctrl or cmd-click it) or copy it into your brows
 
 Congratulations! you have made your very own server-side rendered web app :tada:
 
-<br>
-
 ## Conclusion
 
 In conclusion, ExpressJS is a widely used Node.js web application framework with a rich set of features, such as routing, middleware support, and template engine integration. ExpressJS has a significant community around it and is an integral part of the MEAN/MERN/MEVN stack. While ExpressJS faces competition from newer frameworks such as Fastify, Koa.js, and Nest.js, it continues to maintain its position as a popular choice for backend development. With the emergence of Deno and its superior speed and security, it is possible that we may see a new web application framework built on top of it, which could challenge ExpressJS's dominance in the future.
-
-<br>
 
 ## References
 
@@ -170,15 +152,11 @@ In conclusion, ExpressJS is a widely used Node.js web application framework with
 - [mdn web docs - Express/NodeJS](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/)
 - [educative.io - Fastify vs. express](https://www.educative.io/answers/fastify-vs-express)
 
-<br>
-
 ## Additional Recources
 
 ### Glossary
 
 Below are some additional paragraphs to further explain some important words, definitions or elements used in this document.
-
-<br>
 
 #### Middleware
 
@@ -222,8 +200,6 @@ app.get("/greeting", greeting)
 ```
 
 if you make a GET request to "/greeting" you will now see that the page renders "Hello World!", and in the CLI it will log "hello friend!".
-
-<br>
 
 #### Dynamic website
 
@@ -279,4 +255,4 @@ app.listen(port, () => {
 
 </details>
 
-run this with `node app.js` and go to http://localhost/animals/dog and see what happens. You should now see "Rufus the dog" on the site. Try entering different animals including animals that don't exist in our "database", and see what happens. Congratulations, you created a dynamic website! :tada:
+Run this with `node app.js` and go to http://localhost/animals/dog and see what happens. You should now see "Rufus the dog" on the site. Try entering different animals including animals that don't exist in our "database", and see what happens. Congratulations, you created a dynamic website! :tada:

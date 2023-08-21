@@ -3,7 +3,9 @@ title: Microsoft Power Apps Case Study
 author: Robin Lysaker, Benjamin Løndal, Trine Sandberg
 tags: Microsoft, Power Apps, Low code, case study, development platform
 ---
+
 ![Power Apps logo with name and the two overlapping purple "diamonds" icon.](https://user-images.githubusercontent.com/91562336/234244746-63e6e487-b46e-4e31-a478-f08227d1e22c.png)
+
 ## Introduction
 
 Microsoft Power Apps is a platform with low-code development tools that allows users to create custom business applications without having to be an educated programmer. These apps can be built for different purposes, such as data collection, workflow automation and management.
@@ -13,8 +15,9 @@ Power Apps is a part of the Microsoft Power Platform which also includes other u
 Power Apps is easy to use, and it includes pre-built templates and drag-and-drop components, allowing users to quickly create functional apps for their work environment. Power Apps integrates with a range of data sources, for example cloud-based services.
 
 ### What is a low-code environment?
-![Illustration of a low code enviroment. Shows two screens wheras one screen shows code, and the other shows a user interface.](https://user-images.githubusercontent.com/91562336/234335946-140c889d-7b38-450e-8d6a-7be20494fa07.jpg)<br />
-*(Fig. 1)*
+
+![Illustration of a low code enviroment. Shows two screens wheras one screen shows code, and the other shows a user interface.](https://user-images.githubusercontent.com/91562336/234335946-140c889d-7b38-450e-8d6a-7be20494fa07.jpg)
+_(Fig. 1)_
 
 As shown in Fig. 1, a low-code environment is a platform that allows the user to develop simple and complex applications easier - often with an interface to use instead of pure code. The production time of applications here is a lot quicker.
 
@@ -27,10 +30,10 @@ According to Gartner, Inc.'s latest report, the global market for low-code is es
 - **2015** - Power Apps was first introduced by Microsoft in November 2015 as a new addition to its suite of business applications. Initially, it was part of the Dynamics 365 suite and was called "Project Siena."
 - **2016** - Microsoft released Power Apps as a standalone product and added it to the Office 365 suite. Power Apps has since grown in popularity and evolved with new features and capabilities, such as the ability to integrate with other Microsoft products like Power BI and Azure.
 - **2019** - Microsoft announced the availability of Power Apps for mobile devices, enabling users to create and use apps on-the-go.
-- **2020** - Microsoft released new tools to simplify the process of building custom connectors for Power Apps, allowing users to easily integrate with a wide range of data sources. The common data service is rebranched to dataverse. 
-- **2021** - Microsoft made Mixed reality components generally available in Power apps. An VS code extension is released to allow developers to work more easily in code which include CLI support and intellisense. Microsoft Power apps is recognized as a leader in low code application platforms by The Forrester Wave and Gartner Magic quadrant for enterprises. Power apps Ideas AI is introduced to include a natural language written Power Fx formulas and an experimental Github version control is introduced. 
-- **2022** - Power Virtual Agents is Generally available using the chatbot component as well as dataverse service client SDK. Named formulas is introduced to make global variables easier to have control over. 
-- **2023** - Microsoft Power apps is named a leader in the 2023 Gartner Magic Quadrant for enterprise low-code application platforms. Announcing Copilot for power apps for developers and users - allowing developers to set up the app with commands and user to interact with the app in a new and innovative way. Much like a chat. 
+- **2020** - Microsoft released new tools to simplify the process of building custom connectors for Power Apps, allowing users to easily integrate with a wide range of data sources. The common data service is rebranched to dataverse.
+- **2021** - Microsoft made Mixed reality components generally available in Power apps. An VS code extension is released to allow developers to work more easily in code which include CLI support and intellisense. Microsoft Power apps is recognized as a leader in low code application platforms by The Forrester Wave and Gartner Magic quadrant for enterprises. Power apps Ideas AI is introduced to include a natural language written Power Fx formulas and an experimental Github version control is introduced.
+- **2022** - Power Virtual Agents is Generally available using the chatbot component as well as dataverse service client SDK. Named formulas is introduced to make global variables easier to have control over.
+- **2023** - Microsoft Power apps is named a leader in the 2023 Gartner Magic Quadrant for enterprise low-code application platforms. Announcing Copilot for power apps for developers and users - allowing developers to set up the app with commands and user to interact with the app in a new and innovative way. Much like a chat.
 
 ## Main Features
 
@@ -45,15 +48,18 @@ Canvas driven, on the other hand, as the name suggests, is an empty canvas to bu
 In conclusion, these two ways of developing through Power Apps will most likely be combined in the future. For now, users can choose to either build their house from scratch in the canvas or simply place furniture in the model-driven environment.
 
 ### How it works
-![Illustrates the headline: How it works. Shows a Themes.json file with a questionmark next to it.](https://user-images.githubusercontent.com/91562336/234261904-32e7b386-291d-434e-a223-a40adb4d4a78.png)<br />
-*(Fig. 2 components stored in JSON)*
+
+![Illustrates the headline: How it works. Shows a Themes.json file with a questionmark next to it.](https://user-images.githubusercontent.com/91562336/234261904-32e7b386-291d-434e-a223-a40adb4d4a78.png)
+_(Fig. 2 components stored in JSON)_
 
 Every component created in a Power App is stored in .JSON and .YML files. For example: Themes and colors is stored in Themes.json as shown in figure 2. These files are then utilized by Microsoft's Power Apps application to generate the app. You have the option to connect your app to your GitHub account to access the files, or you can open them in your preferred code editor. Directly accessing these files may not necessarily provide additional options beyond what is available in the Power Apps editor, but it can make it easier to access and modify certain features and settings.
 
 ### Version control
+
 Power Apps has built-in version control functionality by default. This version control can be accessed from the main menu outside of the application, and it tracks every save to indicate which version is currently live. Versioning numbers are automatically generated, and the creator can add comments to the save and published apps if desired. While this is a good foundation, it may be worthwhile to explore other aspects of version control, such as the experimental GitHub version control.
 
 ### Github version control
+
 The Microsoft team regularly releases new features into Power Apps. One such feature is Git integration, which enables users to connect their applications to GitHub, using it as an additional version control system in addition to the integrated one.
 
 This makes it possible to pull and push into Git, sync the repository, and even edit the repository directly in code. Although this may make the process of creating an application more challenging, it can lead to even clearer explanations of features, updates, and commits.
@@ -61,41 +67,40 @@ This makes it possible to pull and push into Git, sync the repository, and even 
 To get started, navigate to Settings > Experimental Features and scroll down until you see Git integration.
 
 ### Start from datasources
+
 Power Apps offers multiple ways to quickly start your app and pre-populate it with data. With access to multiple data sources in the Microsoft environment, it becomes a powerful tool to generate apps that can solve work-related problems on the fly.
 
-![Illustrates a few of the datasource options you can use with Power Apps.](https://user-images.githubusercontent.com/91562336/234009602-fe73700f-8cd2-44b6-bdf3-a11d815272f2.jpg)<br />
-*(Fig. 3 different datasources available to Power Apps)*
+![Illustrates a few of the datasource options you can use with Power Apps.](https://user-images.githubusercontent.com/91562336/234009602-fe73700f-8cd2-44b6-bdf3-a11d815272f2.jpg)
+_(Fig. 3 different datasources available to Power Apps)_
 
 For example, if you have an Excel spreadsheet for booking and charging the company’s electric car, you can turn it into an app. In fact, you can use most of Microsoft's work tools such as SharePoint, Excel, and Dataverse to create your app. You can also populate your app from a database. Another option is to use a Figma UI kit to get started with your app. We will briefly explain a few of the most popular options and how they work.
 
 ---
 
-![Excel's logo.](https://user-images.githubusercontent.com/91562336/234001709-5437d399-166b-4e2e-b3c2-fe1ac1d0fb7d.jpg) <br />
+![Excel's logo.](https://user-images.githubusercontent.com/91562336/234001709-5437d399-166b-4e2e-b3c2-fe1ac1d0fb7d.jpg)
 **Excel**
 
 As already mentioned, you can import data from Excel spreadsheets and use it to generate an app. This can be very convenient if you already have the data you want to use organized in Excel. Additionally, many of the formulas used in Excel are also used in Power Apps, so users with intermediate or advanced Excel skills will find it familiar. It is worth mentioning, however, that Excel is not a scalable data source due to its limitations with columns and rows.
 
 ---
 
-
-![Sharepoint's logo.](https://user-images.githubusercontent.com/91562336/234001452-d17c48bd-6fde-4735-a15a-2600756abd0c.png)<br />
+![Sharepoint's logo.](https://user-images.githubusercontent.com/91562336/234001452-d17c48bd-6fde-4735-a15a-2600756abd0c.png)
 **SharePoint**
 
 Use SharePoint lists and libraries to populate Power Apps with data and media. This enables you to easily create engaging apps by adding text, images, and videos. Whether you require product catalogs, customer reviews, or instructional videos, SharePoint simplifies content integration into your app.
 
 ---
 
-
-![Figma's logo.](https://user-images.githubusercontent.com/91562336/234001607-003ecbae-68e7-48e6-87d4-793deb638d61.png)<br />
+![Figma's logo.](https://user-images.githubusercontent.com/91562336/234001607-003ecbae-68e7-48e6-87d4-793deb638d61.png)
 **Figma**
 
 You can use the Power Apps Figma asset pack or UI kit to create your app's layout, and Power Apps will automatically generate it for you. This process is possible by utilizing Power Apps prebuilt components. However, it is important to note that this kit is currently in early access and not all components are supported yet. For instance, charts, galleries, icons, shapes, and tables are not yet supported. Despite the limitation to supported components only, starting your app from this UI kit is still a viable option, especially if you need to collaborate on your app design outside of the Microsoft environment. Additionally, Figma offers more robust tools for alignment and spacing than Power Apps, making them easier to work with in this regard.
 
 ---
- 
-![SQL/database icon.](https://user-images.githubusercontent.com/91562336/234034611-5a88d3d9-727e-440f-a7b3-f2f4948244c8.png)<br />
+
+![SQL/database icon.](https://user-images.githubusercontent.com/91562336/234034611-5a88d3d9-727e-440f-a7b3-f2f4948244c8.png)
 **SQL**
- 
+
 Connecting a SQL server to Microsoft Power Apps is a simple process, especially if you already have an SQL server in your Microsoft environment. All you need to do is click on "new connection" and select the SQL server. Once you do that, you can either connect directly or use a gateway to establish a connection.
 
 ![Screenshot of the connections options location from Power Apps user interface.](https://user-images.githubusercontent.com/91562336/234244332-1f89b5dd-ff22-4c54-825c-7132c0b0ec9f.png)
@@ -103,22 +108,22 @@ Connecting a SQL server to Microsoft Power Apps is a simple process, especially 
 ---
 
 ### Custom connectors
+
 With Power Apps, you can create custom connectors that allow you to connect to any RESTful API. This gives you the ability to connect to almost any data source that provides a web API. Creating a custom connector is easy and straightforward, as you can simply access the built-in wizard from the menu.
 
 ![Screenshot of the costom connectors options location from Power Apps user interface.](https://user-images.githubusercontent.com/91562336/234003464-a39319a2-94c3-4b0f-b5d9-3dbae9d18bc5.png)
 
 ### Components
+
 The components in Power Apps serve as the fundamental building blocks for creating custom apps. These pre-built UI components cover a range of common app features such as galleries, forms, and text inputs. Custom components can also be created to fit the specific needs of an app. Utilizing these components is as simple as dragging and dropping the desired component from the side menu into the app.
 
+| **Major Components** | **Description**                                                           |
+| -------------------- | ------------------------------------------------------------------------- |
+| Control              | Allow interaction with your records from your datasource.                 |
+| Property             | Each control has one or more properties. Example: Color, size, type, etc. |
+| Function             | Is used to interact with and change properties. Similar syntax to Excel.  |
 
-| **Major Components**    | **Description**                                                           |
-| ---------------         | --------------------------------------------------                        |
-| Control                 | Allow interaction with your records from your datasource.                 |
-| Property                | Each control has one or more properties. Example: Color, size, type, etc. |
-| Function                | Is used to interact with and change properties. Similar syntax to Excel.  |
-
-*It is important to keep in mind that within Power Apps, a property can be defined as a function, but a function cannot be defined as a property. This can be illustrated through examples such as hover-state and on-click-states.*
-
+_It is important to keep in mind that within Power Apps, a property can be defined as a function, but a function cannot be defined as a property. This can be illustrated through examples such as hover-state and on-click-states._
 
 ## Getting Started
 
@@ -163,7 +168,6 @@ However, there are also some limitations to Power Apps that should be considered
 
 Overall, Power Apps is a powerful and reliable development platform that offers many benefits for businesses looking to develop custom applications. However, it is essential to consider its limitations before deciding to use it for your business needs.
 
-
 ## Resources
 
 [Microsoft’s Power Apps official webpage.](https://powerapps.microsoft.com/nb-no/)
@@ -188,7 +192,7 @@ Overall, Power Apps is a powerful and reliable development platform that offers 
 
 [How to create a Power App from Figma tutorial | Figma and Power Apps integration (2022), Power Apps University.](https://www.youtube.com/watch?v=-8PTq2fCcgA)
 
-[Microsoft Power Apps - Create Apps from Figma UI kit (Preview), Microsoft.](https://www.figma.com/community/file/1110934196623232680/Microsoft-Power-Apps---Create-Apps-from-Figma-UI-Kit-(Preview))
+[Microsoft Power Apps - Create Apps from Figma UI kit (Preview), Microsoft.](<https://www.figma.com/community/file/1110934196623232680/Microsoft-Power-Apps---Create-Apps-from-Figma-UI-Kit-(Preview)>)
 
 [What is Power Apps?](https://www.youtube.com/watch?v=uqYgq9wmgQg&ab_channel=LisaCrosbie)
 
@@ -197,5 +201,3 @@ Overall, Power Apps is a powerful and reliable development platform that offers 
 [Shane Young](https://www.youtube.com/channel/UC7_OGRP8BYvtGB8eZdPG6Ng)
 
 [Leila Gharani](https://youtube.com/@LeilaGharani)
-
-

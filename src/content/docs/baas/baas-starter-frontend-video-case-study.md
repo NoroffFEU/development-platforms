@@ -6,7 +6,7 @@ tags: Development Platforms, Video Case Study, Web Based Services, BaaS, Firebas
 
 ### Video
 
-[![Building and Deploying Frontend Applications with Backend-as-a-Service (BaaS) Platforms: A Step-by-Step Guide and Case Studies](https://img.youtube.com/vi/G6ktLWX1kFA/0.jpg)](https://www.youtube.com/watch?v=G6ktLWX1kFA "Building and Deploying Frontend Applications with Backend-as-a-Service (BaaS) Platforms: A Step-by-Step Guide and Case Studies")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G6ktLWX1kFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Summary of key points:
 

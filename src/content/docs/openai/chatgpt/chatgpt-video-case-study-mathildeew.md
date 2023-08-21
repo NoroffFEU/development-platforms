@@ -3,7 +3,7 @@ title: ChatGPT - Video Case Study
 keywords: development platforms, chatGPT, openAI, NLP, GPT, AI, chatbot
 ---
 
-[![ChatGPT - Video Case Study](https://user-images.githubusercontent.com/94295012/234562826-6e05629f-9afc-494c-ba05-4e83db361370.png)](https://www.youtube.com/watch?v=iSbtG5SBL9Q)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iSbtG5SBL9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Credits
 

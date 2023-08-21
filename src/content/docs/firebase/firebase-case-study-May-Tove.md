@@ -22,7 +22,7 @@ Over the next several years, Firebase added new features, such as authentication
 
 As mentioned, there are many features in Firebase, which can be divided into three main products; build, release & monitor and engage. I will write about the features of each one in more detail below.
 
-![Firebase Products](/static/images/firebase_products.png)
+![Firebase Products](../../../assets/firebase_products.png)
 
 ### Build - Get to market and deliver value to your users, faster
 
