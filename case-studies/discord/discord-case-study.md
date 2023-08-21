@@ -1,7 +1,7 @@
 ---
 title: Discord Case Study
 author: Elias Ekornås <https://imdev.no>
-tags: Discord, SoMe, VoIP, instant messaging, videoconferences, content delivery
+tags: Discord, SoMe, VoIP, Instant messaging, Videoconferences, Content delivery
 ---
 
 ## Introduction
@@ -11,20 +11,20 @@ Users create their own servers that host text/voice channels which are used by t
 
 ## Brief History
 
-#### 2011: In the beginning...
+#### 2011: In the beginning.
 
 - Jason Citron sold OpenFeint (Social gaming platform for mobile games) to GREE in 2011 for 104 Million USD, which he used to found Hammer & Chisel.
 - Citron with his FFXIV and League of Legends team had difficulty communicating tactics and strategies with the available free VoIP software at the time.
 - This led to the development of a chat service with a focus on `user friendliness` with minimal impact on `performance`.
 
-#### 2015:
+#### 2015: Baby steps...
 
 - Discord opened a public beta in March.
 - Discord was publicly released in May under the domain name discordapp.com.
 - Discord became widely used by e-sports and LAN tournament gamers.
 - The company benefited from relationships with Twitch streamers and subreddit communities for Diablo and World of Warcraft.
 
-#### 2016: Baby steps...
+#### 2016: Growth spurt.
 
 - January: Hammer & Chisel reported that Discord had been used by 3 million people, with growth of 1 million per month, reaching 11 million users in July that year.
 - Discord raised an additional $20 million in funding, including an investment from WarnerMedia (then TimeWarner).
@@ -80,11 +80,11 @@ You may use subheadings, tables or bullet points to structure your description:
 
 Example feature table:
 
-| Feature         | Description                                        |
-| --------------- | -------------------------------------------------- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
+| Feature         | Description                                                                                                                                                                                                                                                                                                                                                        |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Servers         | Discord communities are organized into discrete collections of channels called servers. Although they are referred to as servers on the front end, they are called "guilds" in the developer documentation. Users can create servers for free, manage their public visibility, and create voice channels, text channels, and categories to sort the channels into. |
+| Example Feature | This feature does something for a specific reason.                                                                                                                                                                                                                                                                                                                 |
+| Example Feature | This feature does something for a specific reason.                                                                                                                                                                                                                                                                                                                 |
 
 You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
