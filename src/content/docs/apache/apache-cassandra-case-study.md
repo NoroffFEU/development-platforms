@@ -1,10 +1,8 @@
 ---
-title: Apache Cassandra Case Study
+title: Apache Cassandra
 keywords: development platforms, apache cassandra, database
 tags: Development Platforms, Apache Cassandra, Database
 ---
-
-# Apache Cassandra
 
 ## Introduction
 

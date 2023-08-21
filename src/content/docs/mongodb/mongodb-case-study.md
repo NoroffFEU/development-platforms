@@ -4,16 +4,6 @@ keywords: development platforms, Case Study, Web Based Services
 tags: Development Platforms, Case Study, Web Based Services, MongoDB
 ---
 
-| **Table of contents**                           |
-| ----------------------------------------------- |
-| [Intro](#intro)                                 |
-| [History](#history)                             |
-| [Features](#features)                           |
-| [Strengths & Weaknesses](#strength--weaknesses) |
-| [Market Comparison](#market-comparison)         |
-| [Summary](#summary)                             |
-| [References](#references)                       |
-
 ## Intro
 
 MongoDB is a open source NoSQL database management program that has focus on being scalable and flexible, allowing for the storage of large amounts of data in a fast and agile database. It was created by the owners of a internet advertisement company, called DoubleClick, they struggled with the storage databases not being scalable and agile enough. Instead of using tables and rows, like the SQL databases, MongoDB gathers information and data in collections and documents. In this case-study we will explore the key features, benefits, and drawbacks of MongoDB.

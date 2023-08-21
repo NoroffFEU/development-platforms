@@ -4,9 +4,7 @@ keywords: development platforms, github
 tags: Development Platforms, github
 ---
 
-# <p align="center"><span>GitHub Case Study<span></p>
-
-<p align="center"><img src="Images/github.png"><p>
+![](/src/assets/github.png)
 
 ## Introduction
 

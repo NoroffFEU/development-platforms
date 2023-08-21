@@ -4,21 +4,6 @@ author: Stian Stordal [<StianSto>](https://github.com/StianSto)
 tags: backend, framework, node, nodejs, javascript, api, server-side, MERN
 ---
 
-# ExpressJS Case Study
-
-| **Table of contents**                         |
-| --------------------------------------------- |
-| [Introduction](#Introduction)                 |
-| [Brief History](#Brief-History)               |
-| [Main Features](#Main-Features)               |
-| [Market Comparison](#Market-Comparison)       |
-| [Getting Started](#Getting-Started)           |
-| [References](#References)                     |
-| [Additional Recources](#Additional-Recources) |
-
-<br>
-<br>
-
 ## Introduction
 
 ExpressJS is a Node.js web application framework. It was created by [TJ Holowaychuk](https://github.com/tj), but is now maintained by Douglas Wilson and [others](https://expressjs.com/en/resources/community.html). It is used on the backend to create server-side applications and is frequently used to make APIs. Express is one of the Core tools in the MEAN-/MERN-/MEVN -stack
@@ -34,9 +19,9 @@ ExpressJS is a Node.js web application framework. It was created by [TJ Holowayc
 
 > these stacks refers to a collection of tools:
 >
-> MongoDB (database)  
-> Express (backend, server-side app)  
-> React/Angular/Vue or other front end frameworks (frontend)  
+> MongoDB (database)
+> Express (backend, server-side app)
+> React/Angular/Vue or other front end frameworks (frontend)
 > Node.js (backend)
 >
 > with all these tools you can build a fullstack application from scratch.
@@ -121,17 +106,17 @@ npm i express
 Next we will make the app file that runs our web app. create a file called app.js. in this file add this:
 
 ```js
-const express = require("express");
-const app = express();
-const port = 3000;
+const express = require("express")
+const app = express()
+const port = 3000
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
+  res.send("Hello World!")
+})
 
 app.listen(port, () => {
-  console.log(`Hello world! im on http://localhost:${port}`);
-});
+  console.log(`Hello world! im on http://localhost:${port}`)
+})
 ```
 
 <details>
@@ -162,9 +147,9 @@ app.listen(port, () => {
 
 </details>
 
-Great! We can now start our app by running `node app.js` in our CLI. You should see  
- "Hello world! I'm on http://localhost:3000" in your CLI.  
- click the link (you may have to ctrl or cmd-click it) or copy it into your browser. If your page says "Hello world" it was successful.
+Great! We can now start our app by running `node app.js` in our CLI. You should see
+"Hello world! I'm on http://localhost:3000" in your CLI.
+click the link (you may have to ctrl or cmd-click it) or copy it into your browser. If your page says "Hello world" it was successful.
 
 Congratulations! you have made your very own server-side rendered web app :tada:
 
@@ -207,17 +192,17 @@ explained in the simplest way i can think of: Middleware functions are executed 
 
 ```js
 app.get("/", middleware1, middleware2, middleware3, (req, res) => {
-  console.log("Hello World");
-});
+  console.log("Hello World")
+})
 ```
 
 The usefullnes of middleware functions comes in when creating your own. Lets create a simple _greeting function_
 
 ```js
 function greeting(req, res, next) {
-  console.log("hello friend!");
-  res.send("Hello World!");
-  next();
+  console.log("hello friend!")
+  res.send("Hello World!")
+  next()
 }
 ```
 
@@ -227,13 +212,13 @@ We can run our middleware function in two ways, globally or as a specific middle
 The global is simple enough, add this above the routers, but after the imports:
 
 ```js
-app.use(greeting);
+app.use(greeting)
 ```
 
 now greeting will run everytime a request is sent to the server. But what if you only want to use this middleware when you request the "/greeting" endpoint. lets create the route for greeting.
 
 ```js
-app.get("/greeting", greeting);
+app.get("/greeting", greeting)
 ```
 
 if you make a GET request to "/greeting" you will now see that the page renders "Hello World!", and in the CLI it will log "hello friend!".
@@ -247,9 +232,9 @@ a dynamic website differs from a static website in that it _generates_ the stati
 ```js
 // app.js
 
-const express = require("express");
-const app = express();
-const port = 3000;
+const express = require("express")
+const app = express()
+const port = 3000
 
 // our hardcoded database of animals
 const animals = [
@@ -265,29 +250,26 @@ const animals = [
     race: "cat",
     name: "Cathy",
   },
-];
+]
 
 // route to /animals/:race. runs the findAnimalByRace middleware
-app.get("/animals/:race", findAnimalByRace);
+app.get("/animals/:race", findAnimalByRace)
 
 // our middleware for finding and returning
 function findAnimalByRace(req, res, next) {
   // find animal by the race value
-  const findByRace = animals.find(
-    (animals) => animals.race === req.params.race
-  );
+  const findByRace = animals.find(animals => animals.race === req.params.race)
 
   // send the result to the client. If server couldn't find the animal, it sends a 404 status.
-  if (findByRace === undefined)
-    res.status(404).send(`we could not find ${req.params.race} :( `);
-  res.status(200).send(`${findByRace.name} the ${findByRace.race}`);
+  if (findByRace === undefined) res.status(404).send(`we could not find ${req.params.race} :( `)
+  res.status(200).send(`${findByRace.name} the ${findByRace.race}`)
 
-  next();
+  next()
 }
 
 app.listen(port, () => {
-  console.log(`Hello world! im on http://localhost:${port}`);
-});
+  console.log(`Hello world! im on http://localhost:${port}`)
+})
 ```
 
 <details>

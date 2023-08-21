@@ -4,24 +4,7 @@ keywords: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 ---
 
-### Table of contents
-
-1. Introduction
-2. Brief History
-3. Features
-4. Strengths
-5. Weaknesses
-6. Reviews
-7. Alternatives & Comparison
-8. Summary
-9. Credits
-10. Companies using Firebase
-11. Reference links
-12. Video links
-
----
-
-## **Introduction:**
+## Introduction
 
 ## \*What is **_FIREBASE_**?\*
 

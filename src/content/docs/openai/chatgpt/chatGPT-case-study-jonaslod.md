@@ -4,8 +4,6 @@ keywords: development platforms, machine learning, generative ai, text bot, natu
 tags: Development Platforms, Machine Learning, Generative AI, Text Bot, Natural Language Processing, NLP, GPT
 ---
 
-# ChatGPT - Case Study
-
 ## Introduction
 
 ChatGPT is a natural language processing tool developed by [OpenAI](https://openai.com/), released in November 2022. Since its release, it has gained worldwide traction from the tech-industry and the general public. The chatbot can answer open ended questions, and assist users with tasks. Many are amazed about how human-like ChatGPTs responses are, and some are concerned about their jobs being threatened in the near future.

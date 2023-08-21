@@ -4,8 +4,6 @@ keywords: development platforms, Video Case Study, Web Based Services
 tags: Development Platforms, Video Case Study, Web Based Services, Neo4j
 ---
 
-# Neo4j
-
 ## Introduction
 
 **Neo4j** is an open-source graph database management system that helps store and query complex relationships between data. It is commonly used in web development for applications that involve relationships such as social networks, recommendation systems, fraud detection, e-commerce websites and many others. It provides efficient querying of data relationships and has a user-friendly query language, making it accessible to web developers of different levels of expertise.

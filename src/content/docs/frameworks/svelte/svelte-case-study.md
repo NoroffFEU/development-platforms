@@ -4,24 +4,6 @@ keywords: JavaScript, Svelte, SvelteKit, JavaScript framework, Web framework, Co
 tags: JavaScript, Svelte, SvelteKit, JavaScript framework, Web framework, Component framework
 ---
 
-# Svelte
-
-## Table of Content
-
-- [Svelte](#svelte)
-  - [Table of Content](#table-of-content)
-  - [Introduction](#introduction)
-  - [Brief History](#brief-history)
-  - [Developer Votes](#developer-votes)
-  - [Features](#features)
-  - [Strengths](#strengths)
-  - [Weaknesses](#weaknesses)
-  - [Comparison](#comparison)
-    - [React](#react)
-  - [Summary](#summary)
-    - [Credits](#credits)
-      - [References](#references)
-
 ## Introduction
 
 Svelte, loaned from the french meaning "Stretched Out" is a free and open source component framework, compiler as well as a language created by Rich Harris and it's focus is to limit how much is transferred between the server and client, it builds everything as JavaScript during the build-time so the browser only needs to receive JavaScript and that's all it'll receive instead of a framework, this helps keeping Svelte lightweight with great performance, whilst the language only requires you to know HTML, CSS and JavaScript to build a quick and responsive Svelte or SvelteKit application as it's very easy to learn.

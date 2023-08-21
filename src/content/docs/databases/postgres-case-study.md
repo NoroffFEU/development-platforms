@@ -4,18 +4,6 @@ keywords: development platforms, PostgreSQL project, Structured Query Language,
 tags: development platforms, PostgreSQL project, Structured Query Language,
 ---
 
-## Table of contents
-
-1. [Introduction](#introduction)
-2. [Brief History](#Brief-History)
-3. [Features](#features)
-4. [Strengths](#strengths)
-5. [Weaknesses](#weaknesses)
-6. [Comparison](#comparison)
-7. [Summary](#summary)
-8. [Credits](#credits)
-9. [References](#references)
-
 ## Introduction
 
 ![Introduction](/static/images/postgres.png)

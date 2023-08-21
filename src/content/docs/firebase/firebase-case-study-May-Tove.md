@@ -4,21 +4,7 @@ keywords: development platforms, firebase, baas platform
 tags: Development Platforms, Firebase, BaaS platform
 ---
 
-# Firebase Case Study
-
 ![Firebase logo](https://user-images.githubusercontent.com/89157761/218564702-aec66677-4b07-4b3f-9c76-6608be3378c5.png)
-
-### Table of content
-
-1. [Introduction](https://github.com/May-Tove/development-platforms/edit/firebase-case-study/firebase-case-study.md#introduction)
-2. [History](https://github.com/May-Tove/development-platforms/edit/firebase-case-study/firebase-case-study.md#brief-history)
-3. [Features](https://github.com/May-Tove/development-platforms/edit/firebase-case-study/firebase-case-study.md#features)
-4. [Strengths](https://github.com/May-Tove/development-platforms/edit/firebase-case-study/firebase-case-study.md#strengths)
-5. [Weaknesses](https://github.com/May-Tove/development-platforms/edit/firebase-case-study/firebase-case-study.md#weaknesses)
-6. [Comparison](https://github.com/May-Tove/development-platforms/edit/firebase-case-study/firebase-case-study.md#comparison)
-7. [Summary](https://github.com/May-Tove/development-platforms/edit/firebase-case-study/firebase-case-study.md#summary)
-8. [Credits](https://github.com/May-Tove/development-platforms/edit/firebase-case-study/firebase-case-study.md#credits)
-9. [References](https://github.com/May-Tove/development-platforms/edit/firebase-case-study/firebase-case-study.md#references)
 
 ## Introduction
 

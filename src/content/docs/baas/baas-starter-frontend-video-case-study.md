@@ -30,19 +30,6 @@ Overall, BaaS is an exciting and rapidly evolving area of front-end development,
 
 This repository provides resources and information on using Backend-as-a-Service (BaaS) platforms for frontend development. BaaS is a popular approach to building web and mobile applications that allows developers to focus on the frontend without having to worry about managing servers or databases.
 
-## Table of Contents
-
-- [Frontend Development with Backend-as-a-Service (BaaS)](#frontend-development-with-backend-as-a-service-baas)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Key Points](#key-points)
-  - [Recommendations and Future Prospects](#recommendations-and-future-prospects)
-  - [Resources](#resources)
-  - [Contributing](#contributing)
-  - [License](#license)
-    - [Credits](#credits)
-      - [References](#references)
-
 ## Overview
 
 BaaS (Backend as a Service) is a development platform that offers pre-built backend services that can be easily integrated into front-end applications. BaaS platforms provide a range of benefits, including speed, scalability, cost-effectiveness, and flexibility. However, there are also some drawbacks, such as vendor lock-in, limited customization, and security concerns.

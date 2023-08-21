@@ -4,8 +4,6 @@ keywords: development platforms, machine learning, generative ai, text bot, natu
 tags: Development Platforms, Machine Learning, Generative AI, Text Bot, Natural Language Processing, ChatGPT
 ---
 
-# ChatGPT - A case study
-
 ## Introduction
 
 ChatGPT is a natural language processing tool driven by artificial intelligence technology. It has the ability to answer open ended questions and assist with tasks such as composing emails and job application letters, translating phrases to and from various languages, creating workouts or meal plans, and even produce code in several programming languages. Since its release in late November 2022 it has astonished users with its human-like answers as well as raised concerns in many who see their jobs threatened in the near future.

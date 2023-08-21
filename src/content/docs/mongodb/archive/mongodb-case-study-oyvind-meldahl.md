@@ -4,8 +4,6 @@ keywords: MongoDB, Database, Node, Humongous, JSON
 tags: MongoDB, JavaScript, Database, JSON, Object, Cluster
 ---
 
-# MongoDB
-
 ## Introduction
 
 MongoDB is a popular NoSQL database that has become increasingly popular in recent years due to its scalability, performance, and flexibility. In this summary, I will explore the key features, benefits, and drawbacks of MongoDB.

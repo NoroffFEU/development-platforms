@@ -4,8 +4,6 @@ keywords: development platforms, Hotjar, web analytics tool
 tags: Development Platforms, Hotjar, web analytics tool
 ---
 
-# Hotjar
-
 ## Introduction
 
 Hotjar is a web analytics tool that helps businesses gather data about how their users engage with their website and allows for improvement of the user experience. It features interactive heatmaps for clicks and actions, recordings of user sessions, surveys, funnel conversion reports, polls, user testing and live feedback.

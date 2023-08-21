@@ -4,8 +4,6 @@ keywords: backend-as-a-service, BAAS, Firebase, real-time database, user authent
 tags: Firebase, BAAS, development, database, authentication, storage, hosting, cloud functions
 ---
 
-# Firebase
-
 ## Introduction
 
 Firebase is a backend-as-a-service (BAAS) platform that provides developers with a variety of tools and services to help them build and scale their apps. It was created by Firebase Inc. in 2011 and later acquired by Google in 2014. With Firebase, developers can build and manage their apps without having to worry about server-side code or infrastructure.

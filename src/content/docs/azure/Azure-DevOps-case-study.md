@@ -1,5 +1,5 @@
 ---
-title: Azure DevOps vs. GitHub Case Study
+title: Azure DevOps vs. GitHub
 keywords: development platforms, Azure DevOps, GitHub, Comparison
 tags: Development Platforms, Azure DevOps, GitHub, Comparison
 ---
@@ -123,10 +123,10 @@ However for a smaller development team and / or a single developer, GitHub is a 
 
 #### References
 
-- [Azure DevOps vs. Github] https://intercept.cloud/en/news/github-vs-azure-en/
-- https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins
-- [Forum based information posted by the average user] https://www.trustradius.com/products/azure-devops-services/reviews?qs=pros-and-cons#reviews
-- [Information found at microsoft] https://azure.microsoft.com/en-us/products/devops
+- [Azure DevOps vs. Github](https://intercept.cloud/en/news/github-vs-azure-en/)
+- [Azure DevOps vs GitHub: Which DevOps tool is better?](https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins)
+- [Forum based information posted by the average user](https://www.trustradius.com/products/azure-devops-services/reviews?qs=pros-and-cons#reviews)
+- [Information found at microsoft](https://azure.microsoft.com/en-us/products/devops)
 
 Refrenceses that has simply been inspirational.
 

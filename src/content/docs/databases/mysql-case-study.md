@@ -4,47 +4,6 @@ keywords: development platforms, Case Study, Database
 tags: MySQL, Datastore, Database, Relational Database, Relational Database Management System, Open-Source
 ---
 
-## Table of Contents:
-
-1. **[Introduction](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#introduction)**
-2. **[Brief History](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#brief-history)**
-3. **[Main Features:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#main-features)**
-
-- - 3a. _[Internals and Portability](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#internals-and-portability)_
-- - 3b. _[Data Types](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#data-types)_
-- - 3c. _[Statements and Functions](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#statements-and-functions)_
-- - 3d. _[Security](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#security)_
-- - 3e. _[Scalability and Limits](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#scalability-and-limits)_
-- - 3f. _[Connectivity](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#connectivity)_
-- - 3g. _[Localization](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#localization)_
-- - 3h. _[Clients and Tools](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#clients-and-tools)_
-
-4. **[Limitations](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#limitations)**
-5. **[Market Comparison:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#market-comparison)**
-
-- - 5a. _[What is MariaDB?](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#what-is-mariadb)_
-- - 5b. _[Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#comparison)_
-- - 5c. _[Conclusion of Market Comparison](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#conclusion-of-market-comparison)_
-
-6. **[Getting Started with MySQL:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#getting-started-with-mysql)**
-
-- - 6a. _[Installing and Starting MySQL:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#installing-and-starting-mysql)_
-- - - 6a.1 _[Linux](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#linux)_
-- - - 6a.2 _[Microsoft Windows](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#microsoft-windows)_
-- - - 6a.3 _[macOS](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#macos)_
-- - - 6a.4 _[Other Platforms](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#other-platforms)_
-- - 6b. _[Connecting to the MySQL Server with the msql client:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#connecting-to-the-mysql-server-with-the-mysql-client)_
-- - - 6b.1 _[Linux](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#for-linux)_
-- - - 6b.2 _[Windows](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#for-windows)_
-- - 6c. _[Some Basic Operations with MySQL:](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#some-basic-operations-with-mysql)_
-- - - 6c.1 _[Creating a new database](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#creating-a-new-database)_
-- - - 6c.2 _[Showing existing databases](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#showing-existing-databases)_
-
-7. **[Conclusion](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#conclusion)**
-8. **[References](https://github.com/JoranEngelund/development-platforms/blob/mysql-case-study/mysql-case-study.md#references)**
-
----
-
 ![mysql-official](https://user-images.githubusercontent.com/56642663/234897614-037394b5-4c2c-459d-9934-a4e7c9175933.svg)
 
 ## Introduction
@@ -66,28 +25,28 @@ MySQL is a Relational Database Management System (RDBMS), based on Structured Qu
 - 2010: Sun Microsystems acquired by Oracle Corporation
 - 2010: Michael Widenius forked MySQL the day Oracle announced the purchase of Sun Microsystems, launching MariaDB
 - 2010: MySQL Server 5.5 generally available, with features and enchancementes included:
-- - Default storage engine InnoDB (supports transactions and referential integrity constraints)
-- - Improved InnoDB I/O subsystem
-- - Improved SMP support
-- - Semisynchronous replication
-- - SIGNAL and RESIGNAL statement in compliance with the SQL standard
-- - Support for supplementary Unicode characters sets utf-16, utf-32 and utf-8mb4
-- - New options for user-defined partitioning
+  - Default storage engine InnoDB (supports transactions and referential integrity constraints)
+  - Improved InnoDB I/O subsystem
+  - Improved SMP support
+  - Semisynchronous replication
+  - SIGNAL and RESIGNAL statement in compliance with the SQL standard
+  - Support for supplementary Unicode characters sets utf-16, utf-32 and utf-8mb4
+  - New options for user-defined partitioning
 - 2013: The general availability of MySQL version 5.6 announced, with new features like:
-- - Performance improvements to the query optimizer
-- - Higher transactional throughput in InnoDB
-- - new NoSQL-style memcached APIs
-- - Improvements to partitioningfor querying and managing very large tables
-- - TIMESTAMP column type that correctly stores milliseconds
-- - Improvements to replication
-- - InnoDB storage engine included support for full-text search and improved group commit performance
+  - Performance improvements to the query optimizer
+  - Higher transactional throughput in InnoDB
+  - new NoSQL-style memcached APIs
+  - Improvements to partitioningfor querying and managing very large tables
+  - TIMESTAMP column type that correctly stores milliseconds
+  - Improvements to replication
+  - InnoDB storage engine included support for full-text search and improved group commit performance
 - 2015: The general availability of MySQL 5.7: MySQL supports a native JSON data type defined by RFC 7159
 - 2018: MySQL Server 8.0 announced, including:
-- - NoSQL Document Store
-- - Atomic and crash safe DDL sentences and JSON Extended syntax
-- - JSON table functions
-- - Improved sorting
-- - Partial updates
+  - NoSQL Document Store
+  - Atomic and crash safe DDL sentences and JSON Extended syntax
+  - JSON table functions
+  - Improved sorting
+  - Partial updates
 - 2019: DB-Engines ranking declares MySQL DBMS
 
 ## Main Features

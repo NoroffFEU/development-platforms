@@ -4,24 +4,6 @@ keywords: Python, JavaScript, TensorFlow, Machine Learning, Data Analytics
 tags: TensorFlow, Python, JavaScript, Machine Learning, Data Analytics
 ---
 
-# TensorFlow
-
-## Table of content
-
-- [TensorFlow](#tensorflow)
-  - [Table of content](#table-of-content)
-  - [Introduction](#introduction)
-  - [Brief History](#brief-history)
-  - [Purpose and Concepts](#purpose-and-concepts)
-  - [TensorFlow Features and Ecosystem](#tensorflow-features-and-ecosystem)
-  - [Strengths](#strengths)
-  - [Weaknesses](#weaknesses)
-  - [Comparison](#comparison)
-  - [Summary](#summary)
-    - [Credits](#credits)
-  - [Glossary](#glossary)
-  - [References](#references)
-
 ## Introduction
 
 TensorFlow is a software library for machine learning and artificial intelligence released under the Apache 2.0 open-source license in 2015. It was developed by the Google Brain team as their second-generation machine learning system, designed to improve on the shortcomings of DistBelief, googles propriety first-generation machine learning platform. It is designed to be flexible, general, portable, and scalable, allowing users to build and train complex machine learning models on various hardware configurations and in a variety of programming languages. It can make use, most notably of Python and JavaScript, as a front-end API, for building applications while executing the calculations in more efficient C++. It has streamline the process of developing and deploying advanced analytics applications for both research and industry.

@@ -4,17 +4,6 @@ keywords: development platforms, vite js, school project
 tags: Development Platforms, Vite js, School project, Building tools, Frontend tools
 ---
 
-## Content
-
-1. Introduction
-2. Brief history
-3. Features
-4. Strengths
-5. Weaknesses
-6. Comparison
-7. Summary
-8. Reference
-
 ## Introduction
 
 In this case study will you learn more about what a bundler is and why we need to have them. Dig in and learn more about this new building tool Vite js.

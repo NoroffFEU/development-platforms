@@ -4,30 +4,6 @@ keywords: Development Platforms, Svelte, Development, Compiler, Web Framework
 tags: Development Platforms, Svelte Project, Development
 ---
 
-## Table of content
-
-- [Table of content](#table-of-content)
-- [Introduction](#introduction)
-- [Brief History](#brief-history)
-- [Features](#features)
-- [Setup](#setup)
-- [Using svelte](#using-svelte)
-    - [Context of the script.](#context-of-the-script)
-    - [Svelte Syntax](#svelte-syntax)
-    - [Learn more](#learn-more)
-    - [Learn more](#learn-more-1)
-    - [Learn more](#learn-more-2)
-    - [Learn more.](#learn-more-3)
-- [Strengths](#strengths)
-- [Weaknesses](#weaknesses)
-- [Comparison](#comparison)
-  - [Svelte vs react](#svelte-vs-react)
-- [Summary](#summary)
-  - [Credits](#credits)
-  - [References](#references)
-    - [Video References](#video-references)
-    - [Additional references](#additional-references)
-
 ## Introduction
 
 In this case study, I will talk about the difference between React and Svelte, and how you would use Svelte. Svelte is a JavaScript compiler. It's similar to React, but React uses Virtual DOM. Both provide a similar component-based architecture -- that means both enable CDD (component-driven development) bottom-up development, and both enable sharing their components between apps via tools and platforms like [Github](www.github.com).
