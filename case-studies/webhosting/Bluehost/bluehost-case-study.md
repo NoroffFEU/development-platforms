@@ -10,7 +10,9 @@ Bluehost is a well-known web hosting provider that offers a variety of hosting s
 
 ## Brief History
 
-In 2003 Bluehost was founded by Matt Heaton and Danny Ashworth. Bluehost is one of the most popular hosting providers in the insustry, and offers various hosting services, with focus on user-friendly features and customer support..... In 2015 Bluehost launched a partnership with WordPress, and offered optimized hosting solutions specifically designed for WordPress-powered websites.
+In 2003 Bluehost.com was officially launched by Matt Heaton. Bluehost is one of the most popular hosting providers in the insustry, and offers various hosting services, with focus on user-friendly features and 24/7 customer support.
+In 2013, Bluehost introduced VPS and dedicated server hosting.
+In 2015 Bluehost launched their partnership with WordPress, and offered optimized hosting solutions specifically designed for WordPress-powered websites.
 
 Shared hosting is when multiple websites share the resources of a single server. Shared hosting services is a commen choice for small businesses and websites that only require certain amount of disk space, bandwidth and other resources.
 
@@ -49,32 +51,24 @@ Dreamhost also offers cloud hosting plans, which Bluehost no longer offers. Even
 
 ## Conclusion
 
-shared hosting
+Bluehost's shared hosting services are particularly well-suited for small businesses and individuals looking for an affordable and hassle-free way to establish their online presence. The convenience of one-click WordPress installation and a complimentary domain name for the first year makes getting started quick and straightforward. Additionally, features like a free SSL certificate and the use of the cPanel control panel enhance the security and manageability of your website.
 
-advantages:
+While Bluehost's shared hosting has its strengths, it's important to acknowledge its weaknesses as well. Shared hosting's main drawback lies in the fact that multiple websites share the same server resources, potentially leading to performance issues during traffic spikes and posing security risks if one website on the server is compromised.
 
-- cost effective
-- with limited resources and/or technical knowledge a shared hosting plan is ......
+When comparing Bluehost to other hosting providers, it's evident that there's a diverse range of options available in the market. Bluehost's close partnership with WordPress, coupled with its 24/7 customer support, positions it as a compelling choice, especially for WordPress users. However, alternatives like HostGator and DreamHost offer unique features such as unlimited storage, enhanced security measures, and longer money-back guarantees.
 
-- malware scanning
-
-disadvantages
-
-- scalability
-- security vulnerabilities
-- limited customization
-
-What does the future look like for this tool?
+In the end, selecting the right shared hosting provider depends on a thorough assessment of your specific needs, priorities, and growth projections. Bluehost's shared hosting services excel in their user-friendliness, making them an excellent choice for beginners and small-scale websites. As with any decision, careful consideration and research will help ensure that you choose the hosting service that aligns perfectly with your online ambitions.
 
 ## References
 
 - [Bluehost.com](https://www.bluehost.com)
+- Article inspired by chatGPT: https://chat.openai.com/
+- [wikipedia.com](https://en.wikipedia.org/wiki/Bluehost)
 
-https://www.bluehost.com/help/article/cloud-hosting?utm_campaign=pmax_PPC&utm_source=googleads&utm_medium=brandsearch&utm_affiliate=bluehost_PPC&irpid=100&clickid=P99C100S570N0B5578A2D4499E0000V162&pb=signup_searchgenericpromo&siteid=100&channelid=P99C100S570N0B5578A2D4499E0000V162&gclid=EAIaIQobChMI04yTsNHegAMVS1WRBR06uw2GEAAYASAAEgKGVvD_BwE&gclsrc=aw.ds
+- [Heaton, Matt "Genesis of Bluehost.com..."](https://web.archive.org/web/20160917194024/http://www.mattheaton.com/?p=3)
 
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- _Genesis of Bluehost.com..._ by Matt Heaton, 2006
+- [Matt Heaton / President Bluehost.com](https://web.archive.org/web/20160917194024/http://www.mattheaton.com/?p=3)
 
 ## Additional Resources
 
