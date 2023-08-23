@@ -2,6 +2,9 @@
 title: Bluehost Case Study
 author: Ingeborg Mellingen
 tags: development Platforms, Bluehost, Shared hosting
+sidebar: development-platforms
+permalink: development-platforms/bluehost-case-study.md
+folder: development-platforms
 ---
 
 ## Introduction
