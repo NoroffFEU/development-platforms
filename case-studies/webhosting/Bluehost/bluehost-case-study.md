@@ -40,7 +40,8 @@ businesses that host their websites through shared hosting shares CPU, RAM, and 
 Pricing:
 The Pricing can also be somewhat misleading. Many shared hosting plans offers attractive introductory pricing for the first term. Renewal pricing is, however useally higher than first terms.
 
-customization:
+Customization:
+Shared hosting comes with costomization limitations compaired to other more advanced hosting options like VPS or dedicated servers. since multiple websites share the same server resources the server configurations are set so accomodate the needs of a wide range of websites. Shared hosting environments might have limitations on what server modules and extentions can be innstalled. Shared hosting providers typically offer a predefined set of software applications that can be installed easily through control panels like cPanel. Installing custom software may not be allowed due to security and stability concerns. Server settings and configurations are standardized and you might not have access to modify server-level settings that could impact other users on the same server.
 
 ## Market Comparison
 
@@ -53,24 +54,14 @@ Dreamhost also offers cloud hosting plans, which Bluehost no longer offers. Even
 
 Bluehost's shared hosting services are particularly well-suited for small businesses and individuals looking for an affordable and hassle-free way to establish their online presence. The convenience of one-click WordPress installation and a complimentary domain name for the first year makes getting started quick and straightforward. Additionally, features like a free SSL certificate and the use of the cPanel control panel enhance the security and manageability of your website.
 
-While Bluehost's shared hosting has its strengths, it's important to acknowledge its weaknesses as well. Shared hosting's main drawback lies in the fact that multiple websites share the same server resources, potentially leading to performance issues during traffic spikes and posing security risks if one website on the server is compromised.
+While Bluehost's shared hosting has its strengths, shared hosting's main drawback lies in the fact that multiple websites share the same server resources, potentially leading to performance issues during traffic spikes and posing security risks if one website on the server is compromised.
 
-When comparing Bluehost to other hosting providers, it's evident that there's a diverse range of options available in the market. Bluehost's close partnership with WordPress, coupled with its 24/7 customer support, positions it as a compelling choice, especially for WordPress users. However, alternatives like HostGator and DreamHost offer unique features such as unlimited storage, enhanced security measures, and longer money-back guarantees.
-
-In the end, selecting the right shared hosting provider depends on a thorough assessment of your specific needs, priorities, and growth projections. Bluehost's shared hosting services excel in their user-friendliness, making them an excellent choice for beginners and small-scale websites. As with any decision, careful consideration and research will help ensure that you choose the hosting service that aligns perfectly with your online ambitions.
+When comparing Bluehost to other hosting providers, it's evident that there's a diverse range of options available in the market. Bluehost's close partnership with WordPress, coupled with its 24/7 customer support, positions it as a compelling choice, especially for WordPress users. However, alternatives like HostGator and DreamHost offer unique features such as unlimited storage, enhanced security measures, and longer money-back guarantees. Selecting the right shared hosting provider depends on a thorough assessment of your specific needs, priorities, and growth projections.
 
 ## References
 
 - [Bluehost.com](https://www.bluehost.com)
-- Article inspired by chatGPT: https://chat.openai.com/
+- Article inspired by chatGPT https://chat.openai.com/
 - [wikipedia.com](https://en.wikipedia.org/wiki/Bluehost)
-
-- [Heaton, Matt "Genesis of Bluehost.com..."](https://web.archive.org/web/20160917194024/http://www.mattheaton.com/?p=3)
-
 - _Genesis of Bluehost.com..._ by Matt Heaton, 2006
 - [Matt Heaton / President Bluehost.com](https://web.archive.org/web/20160917194024/http://www.mattheaton.com/?p=3)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
