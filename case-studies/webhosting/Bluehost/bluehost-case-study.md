@@ -13,13 +13,9 @@ Bluehost is a well-known web hosting provider that offers a variety of hosting s
 
 ## Brief History
 
-In 2003 Bluehost.com was officially launched by Matt Heaton. Bluehost is one of the most popular hosting providers in the insustry, and offers various hosting services, with focus on user-friendly features and 24/7 customer support.
-In 2013, Bluehost introduced VPS and dedicated server hosting.
-In 2015 Bluehost launched their partnership with WordPress, and offered optimized hosting solutions specifically designed for WordPress-powered websites.
+In 2003 Bluehost.com was officially launched by Matt Heaton. Bluehost is one of the most popular hosting providers in the insustry, and offers various hosting services, with focus on user-friendly features and 24/7 customer support. In 2013, Bluehost introduced VPS and dedicated server hosting. In 2015 Bluehost launched their partnership with WordPress, and offered optimized hosting solutions specifically designed for WordPress-powered websites.
 
 Shared hosting is when multiple websites share the resources of a single server. Shared hosting services is a commen choice for small businesses and websites that only require certain amount of disk space, bandwidth and other resources.
-
-/add more about shared hosting/
 
 ## Main Features
 
@@ -29,8 +25,9 @@ Other features include:
 
 - **Free SSL Certificate:** for securing youre website.
 
-- **cPanel Control Panel** /Bluehost utilizes the industry-standard cPanel control panel, making it easier for you to manage your website, domains, files, databases, and other aspects of hosting./
-- **Security Features:** /Bluehost incorporates security features like site lock, spam protection, and regular server monitoring to help protect your website from potential threats./
+- **cPanel Control Panel** Bluehost utilizes cPanel - a industry-standard control panel to simplify the process of managing websites, domains, files, databases, and other server-related tasks.
+
+- **Security Features:** Bluehost incorporates security features like spam protection, site lock, and server monitoring to help protect your website from potential threats.
 
 ## Weaknesses
 
@@ -50,8 +47,7 @@ Shared hosting comes with costomization limitations compaired to other more adva
 
 There are many hosting sites that offers shared hosting plans and services. They each come with different advantages and disadvantages.
 
-Bluehost is the official Wordpress recommendation and might be the preffered choise for wordpress users. They also have a 24/7 customer suppert. HostGator offers unlimited storage and unmetered bandwidth. DreamHost offers shared hosting plans, with a focus on security and unlimited traffic. While Bluehost typically comes with a standard 30-day guarantee, DreamHost has a 97-day Money back gurarantee, that gives you more time to evaluate their services without economical risk.
-Dreamhost also offers cloud hosting plans, which Bluehost no longer offers. Even though most shared hosting plans offers simular services, there are some differences, so it might be worth some resourch to find the hosting service that best suit your needs, preferances and prioreties.
+Bluehost is the official Wordpress recommendation and might be the preffered choise for wordpress users. They also have a 24/7 customer suppert. HostGator offers unlimited storage and unmetered bandwidth. DreamHost offers shared hosting plans, with a focus on security and unlimited traffic. While Bluehost typically comes with a standard 30-day guarantee, DreamHost has a 97-day Money back gurarantee, that gives you more time to evaluate their services without economical risk. Dreamhost also offers cloud hosting plans, which Bluehost no longer offers. Even though most shared hosting plans offers simular services, there are some differences, so it might be worth some resourch to find the hosting service that best suit your needs, preferances and prioreties.
 
 ## Conclusion
 
@@ -64,7 +60,10 @@ When comparing Bluehost to other hosting providers, it's evident that there's a 
 ## References
 
 - [Bluehost.com](https://www.bluehost.com)
+
 - Article inspired by chatGPT https://chat.openai.com/
+
 - [wikipedia.com](https://en.wikipedia.org/wiki/Bluehost)
+
 - _Genesis of Bluehost.com..._ by Matt Heaton, 2006
 - [Matt Heaton / President Bluehost.com](https://web.archive.org/web/20160917194024/http://www.mattheaton.com/?p=3)
