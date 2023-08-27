@@ -41,7 +41,12 @@ Firebase is a feature-heavy BaaS that helps building any application (web or mob
        - **Firebase ML(Beta)**
          
 - ### Release And Monitor Products[^8]
-    - **Firebase Crashlytics** : 
+    - **Firebase Crashlytics** : is a crash and error reporting tool. When an application, whether it is web or mobile, encounter a problem as experienced by the actual user, it sends an error report in real-time. It helps developers to fix bugs in the application as quickly as possible. It sends also important informations for troubleshooting the caused of the crash or the error.The following are more of their release and monitor products :
+       - **Google Analytics**
+       - **Remote Config**
+       - **Performance Monitoring**
+       - **Test Lab**
+       - **App Distribution**
   
 - ### Engage Products
 
