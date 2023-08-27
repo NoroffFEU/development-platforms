@@ -86,8 +86,16 @@ Firebase is always compared to Supabase as the open-source alternative. Although
 
 ## Conclusion
 
-Although Firebase has some issues with how its data is structured, there are a lot of supports you can find on how to optimize and use Firebase. You can find a big community online and also textbooks for Firebase. As I have to start this case study, I tried to look for books for Supabase and Firebase but I couldn't find one for Supabase. This is one of the reasons I prefer to use Firebase than Supabase. Support and the integrity of the company or the owner of the platform have a big impact on choosing the right Baas provider as a front-end developer. For the satisfaction of customers, having more features to help with development and optimizing the application is great for developers, in which Firebase can offer.
+Although Firebase has some issues with how its data is structured, there are a lot of supports you can find on how to optimize and use Firebase. You can find a big community online and also textbooks for Firebase. As I have to start this case study, I tried to look for books for Supabase and Firebase but I couldn't find one for Supabase. This is one of the reasons I prefer to use Firebase than Supabase. Support and the integrity of the company or the owner of the platform have a big impact on choosing the right Baas provider as a front-end developer. For the satisfaction of customers, having more features to help with development and optimizing the application is great for developers, which Firebase can offer.
 
+## References
+
+- https://supabase.com/
+- https://firebase.google.com/
+- https://blog.back4app.com/firebase/
+- https://www.c-sharpcorner.com/article/introduction-to-google-firebase/
+- https://firebase.blog/posts/2023/05/whats-new-at-google-io
+- Firebase: Cookbook, 2017, Housen Yahiaoui
   
 [^1]: https://blog.back4app.com/firebase/
 [^2]: https://www.c-sharpcorner.com/article/introduction-to-google-firebase/
