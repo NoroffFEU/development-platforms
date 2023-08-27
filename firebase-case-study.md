@@ -76,6 +76,14 @@ Firebase is a feature-heavy BaaS that helps build any application (web or mobile
 - **Vendor-Lockin** : Using a lot of tools from Firebase will mean also that you need to change a lot of code when changing providers or platforms. So you will end up taking a lot of time to change your code or keep using it forever.
 - **Price** : Since Firebase has a lot of tools or features to offer, it comes with a price also. Although, they provide a free tier for small projects but only for good testing purposes.
 
+## Comparison
+
+Firebase is always compared to Supabase as the open-source alternative. Although they have a lot in common or have the same features, Supabase is still far from being an alternative to Firebase. Firebase has a lot more to offer than Firebase. If all these features will be available also in Supabase, then "I think" it can be considered as an alternative. But here are some parts or features of Firebase that can be compared to Supabase.
+
+- **Price**[^10][^11] : Firebase has only two choices free plan and a pay-as-you-go plan. Supabase has four choices, depending on how big your project will be. Both of them offer a free tier for small projects but Supabase has a limit only for two projects while Firebase has unlimited.
+- **Database**[^12][^13]: Firebase is built from NoSQL while Supabase is built from PostgreSQL. NoSQL is advantageous for real-time data synchronization while PostgreSQL is advantageous in migrating your database.
+- **Products**[^14][^15]: Firebase has 18 products while Supabase has only 6.
+  
 [^1]: https://blog.back4app.com/firebase/
 [^2]: https://www.c-sharpcorner.com/article/introduction-to-google-firebase/
 [^3]: https://cloud.google.com/firestore/docs/release-notes#October_03_2017
@@ -85,3 +93,9 @@ Firebase is a feature-heavy BaaS that helps build any application (web or mobile
 [^7]: https://firebase.google.com/products-build
 [^8]: https://firebase.google.com/products-release
 [^9]: https://firebase.google.com/products-engage
+[^10]: https://supabase.com/pricing
+[^11]: https://firebase.google.com/pricing
+[^12]: https://supabase.com/database
+[^13]: https://firebase.google.com/docs/database
+[^14]: https://supabase.com/
+[^15]: https://firebase.google.com/
