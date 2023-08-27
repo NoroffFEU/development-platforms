@@ -19,3 +19,37 @@ In this case study, I will discuss Firebase. The history of it, what are the ser
 - 2017 : Firebase released beta version of Cloud Firestore in October 03, 2017. An improved version of original Firebase Realtime database.
 - 2019 : Firebase Cloud Firestorre introduced an improved version of data storing structure in January 2019.
 - 2023 : Firebase released an AI-powered extensions powered by PaLM API(Pathways Language Model).
+
+## Main Features
+
+Firebase is a feature-heavy BaaS that helps building any application (web or mobile) faster and easier[^5]. It is a development platform that aims to solve three main struggles of developers in building applications[^6], which are to be build the application faster, release and monitor the application with confidence on its performance and stability, and to engage with appllication users. To solve these problems, here are the main features of firebase to boost building application.
+
+ - ### Build Products[^7]
+
+   Firebase Build products are tools that can be used to manage the infrastructure of the application in order to accelerate and scale the development.
+   
+   - **Cloud Firestore** : is a NoSQL document database. NoSQL stands for "not only SQL" which is a type of managing a database system that is different from the traditional relational databases. It is designed to handle large volume of data. Cloud Firestore stored datas in a collection of documents, this documents can also stored sub-collection of documents and so on. Even how big your data will become, Cloud Firestore can retrieve data easily using their expressive queries. The following are more of their build products :
+       - **Realtime Database**
+       - **Remote Config**
+       - **Firebase Extension**
+       - **App check**
+       - **Cloud Functions**
+       - **Authentication**
+       - **Cloud Messaging**
+       - **Hosting**
+       - **Cloud Storage**
+       - **Firebase ML(Beta)**
+         
+- ### Release And Monitor Products[^8]
+    - **Firebase Crashlytics** : 
+  
+- ### Engage Products
+
+[^1]: https://blog.back4app.com/firebase/
+[^2]: https://www.c-sharpcorner.com/article/introduction-to-google-firebase/
+[^3]: https://cloud.google.com/firestore/docs/release-notes#October_03_2017
+[^4]: https://firebase.blog/posts/2023/05/whats-new-at-google-io
+[^5]: Yahiaoui, Housen, _Firebase:Cookbook_, Pack Publishing, 2017, pp. 7
+[^6]: https://blog.back4app.com/firebase/
+[^7]: https://firebase.google.com/products-build
+[^8]: https://firebase.google.com/products-release
