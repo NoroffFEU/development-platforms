@@ -71,6 +71,11 @@ Firebase is a feature-heavy BaaS that helps build any application (web or mobile
 - **Real-time Crash Reporting** : The actual user only discovers some bugs. If these problems are not reported immediately, it will either make more users experience the problem, or your updates will create more problems because you still need to fix the old one. This reporting also helps developers find the root of the problem the fastest way.
 - **Remote Config** : Sometimes knotakes, working what your target audience wants is hard. Remote config helps to customize the application based on the type of users without changing codes or updating the application.
 
+## Weaknesses
+
+- **Vendor-Lockin** : Using a lot of tools from Firebase will mean also that you need to change a lot of code when changing providers or platforms. So you will end up taking a lot of time to change your code or keep using it forever.
+- **Price** : Since Firebase has a lot of tools or features to offer, it comes with a price also. Although, they provide a free tier for small projects but only for good testing purposes.
+
 [^1]: https://blog.back4app.com/firebase/
 [^2]: https://www.c-sharpcorner.com/article/introduction-to-google-firebase/
 [^3]: https://cloud.google.com/firestore/docs/release-notes#October_03_2017
