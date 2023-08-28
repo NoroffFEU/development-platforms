@@ -1,7 +1,7 @@
 ---
 title: Node.js Case Study
 author: Edina Isztojka
-tags: node.js, case study, development-platform, javascript, server-side, fornt-end, back-end
+tags: node.js, case study, development-platform, javascript, server-side, front-end, back-end
 ---
 
 # Wellcome to the exciting word of Node.js!
@@ -68,6 +68,27 @@ Node.js offers several key features that make it a compelling choice for server-
 - **Cross-platform:**
   Node.js is designed to work on different types of computer systems, including Windows, macOS, and Linux. This means that developers can create applications using Node.js that can be used on these different systems without difficulty. This is very useful for teams of developers who use different systems or when putting applications on different servers or cloud platforms.
 
+  ## Strengths
+
+  1. **High Performance:** Node.js boasts rapid execution through direct compilation with the V8 engine.
+  2. **Scalability** Its event-driven setup suits applications with numerous connections.
+  3. **Easy to Learn:** Node.js's use of JavaScript eases learning and transitions between frontend and backend.
+  4. **Cost-Effective:** Leveraging open-source modules via npm minimizes development expenses.
+  5. **Extensibility:** Modular design encourages customization.
+  6. **Large Community Support:** An active community provides valuable resources.
+  7. **Response Time:** Non-blocking architecture enhances response time.
+  8. **Loading Time:** Node.js reduces loading times with caching.
+  9. **Helps in building the cross-functional teams.**
+
+  ## Weaknesses
+
+  1. **Single Thread:** Node.js struggles with CPU-intensive tasks.
+  2. **Callback Hell:** Improper asynchronous code handling can lead to complexity.
+  3. **Use Case Limitations:** Not ideal for server-side rendering-heavy projects.
+  4. **Learning Curve:** Grasping advanced concepts and concurrency can pose challenges.
+  5. **Multi-Core Utilization:** Limited by default single-threading, although clustering helps.
+  6. **Library Maturity:** Varying npm package quality can be an issue.
+
 ## Market Comparison
 
 Node.js competes with several other server-side technologies and frameworks. Here's a comparison with some of the popular alternatives:
@@ -97,13 +118,33 @@ npm init
 npm install express
 ```
 
-4. **Write Code**: Create a JavaScript file and start writing your Node.js application code.
+4. **Write Code**: Once we have installed Node.js, let's build our first web server. Create a file named app.js containing the following contents:
 
-5. **Run the Application**: Use the Node.js command to run your application, for example:
+```
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+
+```
+
+5. **Run the Application**: Now, run your web server using:
 
 ```
 node app.js
 ```
+
+Visit http://localhost:3000 and you will see a message saying "Hello World".
 
 ## Conclusion
 
@@ -119,6 +160,9 @@ Node.js continues to evolve, and its active community ensures the platform's gro
 - [The History of Node.js](https://www.section.io/engineering-education/history-of-nodejs/)
 - [Node.js, Express, MongoDB & More: The Complete Bootcamp2023](https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/)
 - [Node.js, Express, MongoDB & More: The Complete Bootcamp2023, GitHub Repository](https://github.com/jonasschmedtmann/complete-node-bootcamp)
+- [Learn Node.js ](https://www.tutorialspoint.com/nodejs/index.htm)
+- [Top 5 NodeJS Pros and Cons: What They Mean for Your Business](https://anywhere.epam.com/business/node-js-pros-and-cons)
+- [Advantages and Disadvantages of Node.js](https://www.codingninjas.com/studio/library/advantages-and-disadvantages-of-nodejs)
 
 ## Additional Resources
 
