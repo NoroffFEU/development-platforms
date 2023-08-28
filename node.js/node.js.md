@@ -4,7 +4,7 @@ author: Edina Isztojka
 tags: node.js, case study, development-platform, javascript, server-side, front-end, back-end
 ---
 
-# Wellcome to the exciting word of Node.js!
+# Welcome to the exciting world of Node.js!
 
 ## What is Node.js?
 
