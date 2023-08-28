@@ -1,7 +1,7 @@
 ---
-title: Example Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+title: Docker Case Study
+author: Håkon Willand Engebretsen/BishopWeyland
+tags: Docker, image, container, containerization, development platform
 ---
 
 ## Introduction
@@ -23,8 +23,6 @@ Making sure applications work the same way on different computers can be a chall
 | Dockerfile | A Dockerfile is like a list of step-by-step instructions for making a special package containing everything an application needs to run. These instructions say what files and settings to put in the package and how they should be arranged. It's used to create a consistent package that can be used to start containers.             |
 | Image      | An image is like a ready-to-use package that holds all the parts an application requires to work, including the code, tools, and settings. It's created based on the Dockerfile instructions. Think of it as a snapshot of the application setup that can be easily shared and used to create containers.                                 |
 | Container  | A container is like a separate box where you can put your application and run it. It's made from an image. Containers keep everything your application needs in one place, so it can run the same way no matter where it's used. They're isolated from each other, so they can run without affecting other containers or the host system. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
 ## Market Comparison
 
