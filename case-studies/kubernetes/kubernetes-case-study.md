@@ -6,7 +6,9 @@ Tags: Containerization, Case study, Platform
 
 ## Introduction
 
-Kubernetes is an open-source container orchestration system under the Apache Licence 2.0 used for automating deployment, scaling and management.
+Kubernetes is an open-source container operating system under the Apache Licence 2.0 used for automating deployment, scaling and management.
+Containers contain all needed application code and dependencies within a microservice architecture. These are self contained and can run anywhere; cloud, local etc.
+Kubernetes task is to operate them in production at any given scale, making the the application owners able to deploy complex applications rapidly and reliably.
 Kubernetes is written in the Go language.
 
 ## Brief History
@@ -28,22 +30,30 @@ Features:
 
 | Feature | Description |
 | --- | --- |
-| Automated rollouts and rollbacks | ... |
-| Service discovery and load balancing | ... |
-| Storage orchestration | ... |
-| Self-healing | ... |
-| Secret and configuration management | ... |
-| Automatic bin packing | ... |
-| Batch execution | ... |
-| Horizontal scaling | ... |
-| IPv4/IPv6 dual-stack | ... |
-| Designed for extensibility | ... |
+| Automated rollouts and rollbacks | Progressive rollouts and monitoring. Rollbacks if something goes wrong |
+| Service discovery and load balancing | Each Pod has unique IP adress and can load balance acroos |
+| Storage orchestration | Automatically mount storage system, local cloud or network |
+| Self-healing | Restarts failing containers and kills non-responding nodes |
+| Secret and configuration management | Deploy and update secrets and configuration without rebuilding image |
+| Automatic bin packing | Automatically place containers based on resources and contraints |
+| Batch execution | Can manage batch an CI workloads |
+| Horizontal scaling | Scales automatically, or with a simple command |
+| IPv4/IPv6 dual-stack | Allocate IPv4 and IPv6 to Pods and Services |
+| Designed for extensibility | Add features without changing upstream source code |
 
 
 
 ## Market Comparison
 
-Compared to others...
+Compared to Docker (Swarm).
+Kubernetes and Docker are mostly complementary tools. Kubernetes can work together with Docker. But either can be used without the other.
+
+Kubernetes is more complex, regarding installation and learning curve. It can automatically scale and has built in monitoring.
+You need to setup load balancer manually, and you also need a separate CLI tool.
+
+Docker Swarm on the other hand is easier to install and has a flatter learning curve. Docker is a suite of tools for creating, sharing and running containers (Swarm).
+It doesn't automatically scale, and needs third party tools for monitoring. It has an automatic load balancer and integrated CLI.
+
 
 ## Getting Started
 
@@ -57,21 +67,42 @@ Find the latest version and download here:
 kubectl is Kubernetes command line tool, allowing you to run commands against the Kubernetes clusters. It is available for a number of operating systems.
 You can use kubectl to inspect, manage and deploy clusters.
 
-If you want to run Kubernetes on your local computer, you need kind, which is a tool for running local Kubernetes clusters using Docker container nodes.
+If you want to run Kubernetes on your local computer, you need [kind](https://github.com/kubernetes-sigs/kind), which is a tool for running local Kubernetes clusters using Docker container nodes.
 This tool requires that you have either Docker or Podman installed.
+
+The Kubernetes master node handles the control pane of the cluster and is built out of various components;
+
+API server: Serves the Kubernetes API over HTTP using JSON.
+Scheduler: Tracks resource allocation and ensures workload does not exceed available resources on the various nodes.
+Controllers: Communicates with the API to create, update and delete the resoures it manages on the cluster of nodes. 
+Nodes: A machine where containers are deployed.
+Pods: Is a basic scheduling unit and consists of one or more containers on the same node. Containers reside inside Pods.
+Workloads: Allows users to define and manage workloads at a higher level than Pods.
+Services: A set of Pods that work together.
+Volumes, ConfigMaps, Labels and Add-ons and more are even more components included in the master node. 
 
 
 ## Conclusion
  
 What are the main advantages and disadvantages? 
+Kubernetes can automate deployment and management of containerized applications, so you don't have to individually manage each container.
+It can also scale, meaning it will determine placement of the containers to ensure efficient resource use on the host machine(s).
+
+Challenges include security, although there are multiple built in mechanisms to prevent vulnerabilities. This includes secure container deployment pipelines, encrypted network traffic and more. It will require a thorough DevSecOps approach as these systems alone are not sufficient.
+
 What are the main use cases? 
-What are the main limitations? 
-What does the future look like?
+It "fetches" a container image from a repository and deploys it on a host machine. It is also able to automatically re-create failed containers, reducing down-time.
+
+What are the main challenges? 
+Networking the containers, and their secure communication is a comprehensive task, and you need a balancer to distribute traffic across multiple hosts.
+Operating teams depend on detailed monitoring data to ensure that the heallth of the infrastructure and the application itself is in good condition.
+
 
 ## References
 
 - [Kubernetes.io](https://kubernetes.io)
 - [Wikipedia](https://https://en.wikipedia.org/wiki/Kubernetes)
+- [Dynatrace](https://https://dynatrace.com/news/blog/kubernetes-vs-docker/)
 
 ## Additional Resources
 
