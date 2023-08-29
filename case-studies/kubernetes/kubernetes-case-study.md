@@ -29,10 +29,6 @@ Kubernetes (K8s) in an open-source container orchestration platform created to s
 
 ## Features
 
-K8s makes it easy for developers to add on features and it takes up less space.
-
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
-
 | Feature | Description |
 | --- | --- |
 | Container Orchestration | K8s manages containers. Containers are lightweight and consistent units for packaging and running applications and their dependencies. It automates tasks such as deploying containers, scaling them up or down based on demand, and distributing traffic among them. In other words, K8s makes sure that different programs can work together and talk to each other without getting confused. |
