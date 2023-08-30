@@ -1,12 +1,12 @@
 ---
 title: LiteSpeed Case Study
 author: Audun Roald <Yggdrass (GitHub Username) & AudRoa43553@stud.noroff.no (studentemail)>
-tags: example, case study, platform
+tags: litespeed, case study, development platform
 ---
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+LiteSpeed is an Apache interchangable Web Server, that handles thousands of concurrent connections witha small memory footprint. It is high performance, esy to use, secure and it is easy to covert to from Apache, as it provides It's security features also makes it much less vulnerable to various attacks.
 
 ## Brief History
 
@@ -32,9 +32,14 @@ Example feature table:
 
 | Feature | Description |
 | --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
+| Apache Drop-in replacement | This feature does something for a specific reason. |
+| HTTP/2 Support | This feature does something for a specific reason. |
+| QUIC Support | This feature does something for a specific reason. |
+| Zero Downtime | This feature does something for a specific reason. |
+| Anti-DDoS Advances | This feature does something for a specific reason. |
+| Event-Driven Architecture | This feature does something for a specific reason. |
+
+ [Link To Features](https://www.litespeedtech.com/docs/webserver/introduction)
 
 You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
@@ -57,6 +62,7 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Example.com](https://example.com)
+- [LiteSpeed Wiki](https://www.litespeedtech.com/support/wiki/doku.php)
 - *Good Examples* by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
