@@ -1,8 +1,7 @@
 ---
 title: DBaaS Case Study
 author: Sakon Patsamit
-tags: DBaas, case study, cloud database,
-cloud services
+tags: DBaas, case study, cloud database, cloud services
 ---
 
 ## Introduction
