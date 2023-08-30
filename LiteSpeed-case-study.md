@@ -1,8 +1,11 @@
 ---
 title: LiteSpeed Case Study
+keywords: development platforms, litespeed, apache cassandra, database
 author: Audun Roald <Yggdrass (GitHub Username) & AudRoa43553@stud.noroff.no (studentemail)>
-tags: litespeed, case study, development platform
+tags: litespeed, case study, development platforms
 ---
+
+
 
 
 ![Image of LiteSpeed Web Server homepage](/LiteSpeed_HeaderImage.png)
