@@ -55,7 +55,7 @@ LiteSpeed's licensing costs are quite low compared to any hardware upgrades requ
 
 
 ### LiteSpeed Web Server feature table
-
+ [Link To LiteSpeed Web Server features](https://www.litespeedtech.com/products/litespeed-web-server/features)
 | Feature | Description |
 | --- | --- |
 | Apache Drop-in replacement | Supports and runs Apache configuration files and mods, is easy to install and therefore can be used as a replacement for and already Apache run server. |
@@ -66,7 +66,7 @@ LiteSpeed's licensing costs are quite low compared to any hardware upgrades requ
 | Event-Driven Architecture | Fewer processes, less overhead, and enormous scalability. |
 | Hosting Control Panels | Can host control panels such as cPanel, Plesk, Interworx, VirtualAdmin and DirectAdmin |
 
- [Link To LiteSpeed Web Server features](https://www.litespeedtech.com/products/litespeed-web-server/features)
+
 
 
  ### ReleaseLog
