@@ -88,17 +88,23 @@ LiteSpeed was created to be used as an easy-to-use drop-in replacement for Apach
 
 
 
-## Getting Started
+## Getting Started with LiteSpeed Web Server
 
-### Installing LiteSpeed
-[How to install LiteSpeed](https://www.litespeedtech.com/products/litespeed-web-server/release-log)
-It is recommended to install Litespeed Web Server via litespeed.sh
+### Paid plans
+In order to use LiteSpeed Web Server you need to select a plan. They have an option for a free trial of 15 days, and then a free starter plan. Otherwise they have plans for monthly or yearly or one time payments. You can see their pans here: [Plans](https://www.litespeedtech.com/products/litespeed-web-server/lsws-pricing).
+
+
+LiteSpeed has set up an easy to read and concise guide on how to install and configure it in different ways. Therefore it is not needed for me to write it here. Just click the link below and it will take you to the installation guide they have. On the left of the page you have list of contents that you can easily get the starting help you need to get started with LiteSpeed from installing to configure and use.
+[How to install LiteSpeed](https://docs.litespeedtech.com/lsws/)
 
 
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+LiteSpeed Web Server is a lightweight alternative to Apache Web Server. It uses the same configuration and mods as Apache and is an easy to replace option. It will also handle alot more connections while simultaniously using less memory and CPU. LiteSpeed is also alot faster than Apache in serving PHP contents.
+LSWS is also more cost effective and provides the ability to upgrade software without having the server to not be acessible for the users in the meantime.
+Though it has all these qualities that is better than Apache, LiteSpeed does not support Windows and so it will not be an eligible option for all the companies that are using Windows. So LiteSpeed are a better option as a web server for those that don't use windows, but not an option for most companies as those use Windows.
+In order for you to use LiteSpeed you have to pay a monthly fee. They have a free option in "OpenLiteSpeed", though this doesn't support Apache and is updated more rarely than the paid regular version. So if you are not using Windows it will be better and more stable to pay the anual fee for the regular one rather than using the free option.
 
 
 
@@ -106,6 +112,7 @@ This section can be used to summarize your findings. What are the main advantage
 
 - [Example.com](https://example.com)
 - [LiteSpeed Wiki](https://www.litespeedtech.com/support/wiki/doku.php)
+- [How to install LiteSpeed](https://docs.litespeedtech.com/lsws/)
 - [LiteSpeed Web Server features](https://www.litespeedtech.com/products/litespeed-web-server/features)
 - [LiteSpeed article on Hivelocity](https://www.hivelocity.net/kb/what-is-litespeed/)
 - [LiteSpeed article on ElegantThemes](https://www.elegantthemes.com/blog/wordpress/what-is-litespeed-web-server-software)
