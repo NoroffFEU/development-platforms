@@ -84,12 +84,15 @@ OpenLiteSpeed is an open source and free version of LiteSpeed but this version o
 
 LiteSpeed Web Server is compatible with Apache Web Server and it's features such as mod_rewrite, mod_security and .htaccess. LiteSpeed can also load the Apache configuration files, and doing so can work as a direct replacement for Apache.
 LiteSpeed is faster than Apache when serving PHP contents.
+LiteSpeed was created to be used as an easy-to-use drop-in replacement for Apache. Though it does not support Windows, in copntrary to Apache. Therefore it is eliminated as a candidate for several companies, and so Apache is a better option still.
 
 
 
 ## Getting Started
 
+### Installing LiteSpeed
 [How to install LiteSpeed](https://www.litespeedtech.com/products/litespeed-web-server/release-log)
+It is recommended to install Litespeed Web Server via litespeed.sh
 
 
 
