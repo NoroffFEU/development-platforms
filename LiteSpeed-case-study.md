@@ -4,6 +4,10 @@ author: Audun Roald <Yggdrass (GitHub Username) & AudRoa43553@stud.noroff.no (st
 tags: litespeed, case study, development platform
 ---
 
+
+![Image of LiteSpeed Web Server homepage](./LiteSpeed_HeaderImage.png]
+
+
 ## Introduction
 
 LiteSpeed Web Server (LSWS) is a lightweight proprietary web server. It is Apache interchangable, that handles thousands of concurrent connections witha small memory footprint. It is high performance, esy to use, secure and it is easy to covert to from Apache, as it provides It's security features also makes it much less vulnerable to various attacks.
