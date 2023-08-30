@@ -26,23 +26,23 @@ Breif history:
 
 ## Main Features
 
-###Performance & Scalability
+### Performance & Scalability
 
 LiteSpeed has superior performance in terms of raw speed and scalability. It is an ideal hosting platform for serving WordPress, Joomla and Drupal based websites as it easily increases PHP's performance and security. This is done through its unique event driven architecture. It can serve thousands of clients simultaneously with minimum use of server rescources such as memory and CPU. The unique code of LiteSpeed Web Server increases PHP performance as well as serving static websites faster than Apache. It can also handle sudden spikes in traffic as well as helping to manage against DDOS attacks without any DDOS mitigation hardware.
 
-###Security
+### Security
 
 LiteSpeed is compatible with Apache's mod_security feature and has a built-in anti-DDOS capability. Customizable features such as per-IP connections and bandwith throttling, blocks IPs that makes too many connections or requests, or ask for too much bandwith. This will stop attackers before they overrun the server.
 
-###Support
+### Support
 
 LiteSpeed has something called "zero downtime maintenance". This means that you can restart the server and update the software without compromizing your website's avaliability to users.
 
-###Cost effective
+### Cost effective
 
 LiteSpeed's licensing costs are quite low compared to any hardware upgrades required to run for instance Apache. The web servers unique features help reduce the support costs by providing an optimized, secure and stable hosting platform.
 
-###Cons
+### Cons
 
 LiteSpeed does not support Windows. This will eliminate it as a web server candidate for many companies.
 OpenLiteSpeed is an open source and free version of LiteSpeed but this version of LiteSpeed is not compatible with Apache.
