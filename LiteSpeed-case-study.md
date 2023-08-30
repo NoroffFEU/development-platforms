@@ -60,11 +60,11 @@ OpenLiteSpeed is an open source and free version of LiteSpeed but this version o
 | Event-Driven Architecture | Fewer processes, less overhead, and enormous scalability. |
 | Hosting Control Panels | Can host control panels such as cPanel, Plesk, Interworx, VirtualAdmin and DirectAdmin |
 
- [Link To Features](https://www.litespeedtech.com/products/litespeed-web-server/features)
+ [Link To LiteSpeed Web Server features](https://www.litespeedtech.com/products/litespeed-web-server/features)
 
 
 
- ###ReleaseLog
+ ### ReleaseLog
  
  [Link To LiteSpeed Web Server release log](https://www.litespeedtech.com/products/litespeed-web-server/release-log)
 
@@ -89,6 +89,7 @@ This section can be used to summarize your findings. What are the main advantage
 
 - [Example.com](https://example.com)
 - [LiteSpeed Wiki](https://www.litespeedtech.com/support/wiki/doku.php)
+- [LiteSpeed Web Server features](https://www.litespeedtech.com/products/litespeed-web-server/features)
 - [LiteSpeed article on Hivelocity](https://www.hivelocity.net/kb/what-is-litespeed/)
 - [LiteSpeed article on ElegantThemes](https://www.elegantthemes.com/blog/wordpress/what-is-litespeed-web-server-software)
 - [LiteSpeed article on Wikipedia](https://en.wikipedia.org/wiki/LiteSpeed_Web_Server)
