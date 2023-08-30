@@ -48,7 +48,7 @@ LiteSpeed does not support Windows. This will eliminate it as a web server candi
 OpenLiteSpeed is an open source and free version of LiteSpeed but this version of LiteSpeed is not compatible with Apache.
 
 
-LiteSpeed Web Server feature table:
+### LiteSpeed Web Server feature table:
 
 | Feature | Description |
 | --- | --- |
