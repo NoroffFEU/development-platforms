@@ -1,0 +1,18 @@
+{
+  "name": "starlight",
+  "type": "module",
+  "version": "0.0.1",
+  "license": "CC-BY-SA-4.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.7.2",
+    "astro": "^2.10.5",
+    "sharp": "^0.32.3"
+  }
+}
