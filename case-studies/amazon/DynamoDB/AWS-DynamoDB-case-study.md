@@ -52,11 +52,46 @@ The list below includes but is not limited to some of the most important feature
 
 ## Market Comparison
 
-In this section I will first take a look at what type of free tiers the two companies offer to their customers, followed by some comparisons into the technical aspects of the two databases.
+In this section i will be comparing AWS DynamoDB with Oracle NoSQL Database pricing models and the technical aspects that they both incorporate.
 
-### Pricing
+### Provisioned Capacity Pricing Model
 
-|          |              DynamoDB Free Tier (Provisioned Capacity)                           |              Always Free NoSQL Database Service (Provisioned Capacity)                           |
+Provisioned capacity in the context of databases refers to the pre-allocated resources that you set up to handle the anticipated workload of read and write operations on your database.
+
+In other words, when you provision capacity for a database, you are specifying the amount of computing resources (such as processing power, memory, and storage) that should be dedicated to handling the data access operations. This capacity is allocated based on your expected usage patterns, traffic volume, and performance requirements.
+
+Some of the key points about provisioned capacity are:
+1. **Predictable Performance**: By provisioning a set amount of capacity, you can ensure consistent and predictable performance for your database, as it will have a dedicated amount of resources available at all times.
+2. **Cost Predictability**: Provisioned capacity typically comes with a fixed cost associated with the allocated resources. You pay for the capacity you provision, regardless of whether you fully utilize it or not.
+3. **Adjustable**: While provisioned capacity provides a baseline level of performance, many cloud database services allow you to adjust the provisioned capacity up or down as your needs change. This allows you to scale your resources to match changes in traffic or workload.
+4. **Capacity Planning**: Provisioned capacity often requires some level of capacity planning to determine the appropriate amount of resources needed to handle your database's workload effectively.
+5. **Optimized for Steady Workloads**: Provisioned capacity is well-suited for workloads that have relatively steady and predictable traffic patterns. It ensures that your application doesn't face performance fluctuations due to sudden spikes in traffic.
+
+One of the drawbacks with provisoned capacity is excess capacity that can lead to over-provisioning which will result in unnecessary costs or provisioning too little capacity which can result in performance bottlenecks during high-demand periods.
+
+
+ℹ️ **EDITORS NOTE**: I would like to take this opportunity to apologize if some of the price comparisons are not quite correct in the table below, it was difficult to find and adjust the relevant values to compare with one another. ℹ️
+
+
+
+
+|          |             AWS DynamoDB                           |              Oracle NoSQL Database                           |
+| --------------- | -------------------------------------------------- | -------------------------------------------------- |
+| Monthly write cost | 33.46 USD  | 25.08 USD = 200 writes x $0.1254 |
+| Monthly read cost | 3.37 USD  | 1.28 USD = 200 reads x $0.0064 |
+| Storage | 7.43 USD = 25GB | 1.65 USD = 25GB |
+| Upfront write cost | 356.00 USD  | 0 USD |
+| Upfront read cost | 35.60 USD  | 0 USD |
+| Total Monthly Billing | First Month: 391.60 USD<br>After: 44.26 USD  | 28.01 USD |
+| Total Price First Year | 922.72 USD  | 336.12 USD |
+
+ℹ️ **EDITORS NOTE**: The prices in the table are from the expected calculations provided by each website thus you should take into consideration that there might be some slight differences. ℹ️
+
+### Free Tier Model
+
+Both database providers offer free tiers for their services, below you can see the comparison.
+
+|          |             AWS DynamoDB Free Tier (Provisioned Capacity)                           |              Always Free NoSQL Database Service (Provisioned Capacity)                           |
 | --------------- | -------------------------------------------------- | -------------------------------------------------- |
 | Free Tier Time Limitation | The free tier is available for up to 12 months from the accounts activation date. | The Always Free services are available for an unlimited period of time. |
 | Write Capacity | 25 WCUs of provisioned capacity for tables using the DynamoDB Standard table class. | Write Capacity (Write Units) is 50 and cannot be changed. |
