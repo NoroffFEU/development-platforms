@@ -116,7 +116,7 @@ Written by:
 
 - Patrick Nordbo Johnsen (pnordboj)
 
-#### References
+### References
 
 ### Articles
 

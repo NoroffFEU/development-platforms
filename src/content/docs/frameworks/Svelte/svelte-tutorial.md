@@ -52,7 +52,7 @@ You will then be prompted with some options.
 
 1. Write the name of the project, or hit enter for the default.
 2. You will get options for frameworks, choose Svelte.
-3. you will get options for variants, like JavaScript, TypeScript, or SvelteKit.
+3. You will get options for variants, like JavaScript, TypeScript, or SvelteKit.
 
 I'm going to choose JavaScript for this project, feel free to choose whatever you prefer.
 

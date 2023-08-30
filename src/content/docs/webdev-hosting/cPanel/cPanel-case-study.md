@@ -96,7 +96,7 @@ As a web developer, cPanel is highly relevant as it provides a convenient and ef
 
 - Stian Dille Kornbakk (S10ANDK)
 
-#### References
+### References
 
 - Article inspired by chatGPT: https://chat.openai.com/
 - cPanel official website: https://cpanel.net/

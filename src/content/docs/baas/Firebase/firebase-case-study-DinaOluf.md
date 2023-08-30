@@ -115,7 +115,7 @@ To summarize, Firebase is Google’s Mobile Application Development Platform and
 
 - Dina Olufsen (DinaOluf)
 
-#### References
+### References
 
 https://firebase.google.com/
 

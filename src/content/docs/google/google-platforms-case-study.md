@@ -179,7 +179,7 @@ GA4 could be very complex and hard to learn, which makes one might question the 
 
 - Joakim Lee Sletten (joakimlees)
 
-#### References
+### References
 
 - Analytics Help (2023) Obtained from https://support.google.com/analytics/answer/${topic}
 - digitalstateconsulting (2014) Obtained from https://digitalstateconsulting.com/knowledge-is-power/brief-history-google-analytics-part-one/

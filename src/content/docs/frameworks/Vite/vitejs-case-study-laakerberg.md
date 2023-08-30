@@ -140,7 +140,7 @@ Vite is still young in the marked and have achieved a lot. So I have the believi
 
 - Linus Aakerberg (LAakerberg)
 
-#### References
+### References
 
 - Npm trends & charts:
 

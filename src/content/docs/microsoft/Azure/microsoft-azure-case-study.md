@@ -86,7 +86,7 @@ To summarize, Microsoft Azure is a cloud computing platform and infrastructure c
 
 - Andrew Hay (andjhay)
 
-#### References
+### References
 
 1. Microsoft Azure. "Azure Official Website." Microsoft, 2023, https://azure.microsoft.com/.
 2. Microsoft. "Azure Documentation." Microsoft, 2023, https://docs.microsoft.com/en-us/azure/.

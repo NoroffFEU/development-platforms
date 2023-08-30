@@ -94,7 +94,7 @@ Web developers who want to improve the functionality and user experience of thei
 
 - Birgitte Vedaa (@piiito)
 
-#### References
+### References
 
 https://www.hotjar.com/
 

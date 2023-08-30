@@ -76,7 +76,7 @@ It has really grown in the few years since it's launch and so has the continued 
 
 - Martin Pedersen (MartinP3)
 
-#### References
+### References
 
 Introduction:</br>
 https://www.okupter.com/blog/svelte-vs-sveltekit-the-difference

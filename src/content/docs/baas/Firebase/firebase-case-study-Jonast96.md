@@ -76,7 +76,7 @@ Jon Åstveit
 
 GitHub: Jonast96
 
-#### References
+### References
 
 Firebase website: https://firebase.google.com
 

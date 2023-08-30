@@ -118,7 +118,7 @@ Neo4j is relevant because it provides a solution for efficiently storing and que
 
 - Viorel Lazari (https://github.com/VLazari)
 
-#### References
+### References
 
 - https://neo4j.com/use-cases/
 - https://en.wikipedia.org/wiki/Graph_database

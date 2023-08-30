@@ -16,31 +16,17 @@ However Azure DevOps is a pay per-user license system and offer no free trials g
 
 In the below timeline, some of microsofts major milestones for the development software will be introduced:
 
-- ###### 2005
-
-  Initial release of Microsoft Visual Studio Team System (VSTS).
-
-- ###### 2012
-
-  Microsoft Power Point was integrated with Azure to enable rapid storyboard development.
-
-- ###### 2013
-
-  Microsoft added native support for Git. This is a standard implementation based on the same library that powers GitHub.
-
-- ###### 2018
-
-  Rebrand; Azure DevOps was previously known as Microsoft Visual Studio Team System (VSTS) and Team Foundation Server (TFS) before it's name change on september 10, 2018. With the rebrand came several updates to the system including the cloud-hosted services into the on-premises server product.
-
-- ###### 2018
-
-  GitHub was bought by Microsoft in october 2018 for 7.5 billion, giving GitHub more advantages while owned by the largest software developer in the world.
+- **2005** - Initial release of Microsoft Visual Studio Team System (VSTS).
+- **2012** - Microsoft Power Point was integrated with Azure to enable rapid storyboard development.
+- **2013** - Microsoft added native support for Git. This is a standard implementation based on the same library that powers GitHub.
+- **2018** - Rebrand; Azure DevOps was previously known as Microsoft Visual Studio Team System (VSTS) and Team Foundation Server (TFS) before it's name change on september 10, 2018. With the rebrand came several updates to the system including the cloud-hosted services into the on-premises server product.
+- **2018** - GitHub was bought by Microsoft in october 2018 for 7.5 billion, giving GitHub more advantages while owned by the largest software developer in the world.
 
 ## Features
 
 DevOps was created to better the transition between development and the operative. This results in Azure DevOps having several key features in it's system to help give a smoother work flow.
 
-##### Some of whom are:
+**Some of whom are:**
 
 - Azure Boards: "Deliver value to your users faster using proven agile tools to plan, track, and discuss work across your teams."
 - Azure Pipelines: "Build, test, and deploy with CI/CD that works with any language, platform, and cloud. Connect to GitHub or any other Git provider and deploy continuously."
@@ -89,7 +75,7 @@ This Case Study had a closer look at Azure DevOps but while also comparing it to
 
 While researching both Azure DevOps and GitHub some differences emergered but it all comes down to what needs and goals your team has, for some a combination of both might be better than choosing one.
 
-##### Benefits of Azure DevOps
+### Benefits of Azure DevOps
 
 From the project management aspects Azure DevOps seems to be better for planning with management systems like Scrum and Kanban. This is due to the system being more mature and has had more time to develop the software.
 
@@ -97,7 +83,7 @@ This can easily be used in combination with GitHub if you prefer, due to the int
 
 Azure also has an advantage over Github when looking at the workflow development. Developers can here configure tasks with an easy-to-use UI and drag them into a pipeline while using Azure DevOps.
 
-##### Benefits of GitHub
+### Benefits of GitHub
 
 In a comparison there is also another side. GitHub has some features that are better than Azure DevOps, some of whom is pricing. It has been mentioned before in this case study that Github has a free option, while with Azure DevOps you will have to pay for a licence making GitHub a cheaper option and also for smaller development teams a better one.
 
@@ -121,7 +107,7 @@ However for a smaller development team and / or a single developer, GitHub is a 
 
 - Benedicte Øverbø (th3boe)
 
-#### References
+### References
 
 - [Azure DevOps vs. Github](https://intercept.cloud/en/news/github-vs-azure-en/)
 - [Azure DevOps vs GitHub: Which DevOps tool is better?](https://acloudguru.com/blog/engineering/azure-devops-vs-github-comparing-microsofts-devops-twins)

@@ -26,7 +26,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ---
 
-## **Features:**
+## **Features**
 
 ![Features](~/assets/firebase/features.jpg)
 
@@ -83,7 +83,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ---
 
-## **Strengths:**
+## **Strengths**
 
 ![Strengths](~/assets/firebase/strengths.jpg)
 
@@ -115,7 +115,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ---
 
-## **Weaknesses:**
+## **Weaknesses**
 
 ![Weakneses](~/assets/firebase/weaknesses.jpg)
 
@@ -146,13 +146,13 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ---
 
-## **Reviews:**
+## **Reviews**
 
 - [Video reviews-https://www.g2.com/](https://www.g2.com/products/firebase/reviews/firebase-review-4469918)
 
 ---
 
-## **Alternatives & Comparison:**
+## **Alternatives & Comparison**
 
 - **Parse** is an open source where data migrations are much easier than with Firebase. Parse offers many of the same features and additional benefits. It also runs on any cloud, whereas Firebase only runs on Google Cloud. Users also say data migrations are much more manageable with Parse than with Firebase. Self-hosting is also free.
 
@@ -166,19 +166,19 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ---
 
-## **Summary:**
+## **Summary**
 
 - What is **_Firebase_**? It's Google's all-in-one cloud service, neatly packaged and delivered to developers who want something up and running quickly. No need to worry about provisioning or elastic cloud structures. All you have to do is connect it to your front end, and everything works. It is an impressive technology and a far-reaching platform for mobile-app development that streamlines various tasks and produces quality software solutions. Since Google backs the technology, it tends to be the most robust, scalable, and dynamic framework features of Firebase, giving fierce competition to web service provider companies. This article explained Firebase's advantages, downsides, pricing structure, core features, and best alternative platforms. It also has downsides, like only providing NoSQL. Pricing-wise, Firebase operates under two different plans. The first one is Spark, which provides a generous free tier and encompasses most Firebase features. Firebase is fantastic if you want to create something out of nothing in a flash, making it great for rapid prototyping. You can connect to it if you've got the general gist of what you want to do and need a fully configured backend. Then Firebase can be your go-to service.
 
 ---
 
-## **Credits:**
+## **Credits**
 
 - Nenita Santander Norvalls (NeNorvalls)
 
 ---
 
-## **Companies using Firebase:**
+## **Companies using Firebase**
 
 - Alibaba
 - Ebay Motor
@@ -188,7 +188,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ---
 
-## **References:**
+## **References**
 
 ![Reference](~/assets/firebase/references.jpg)
 
@@ -313,7 +313,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ---
 
-### **Video References:**
+### **Video References**
 
 #### Firebase
 
@@ -349,7 +349,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ---
 
-### **Image References:**
+### **Image References**
 
 - [https://stock.adobe.com](https://stock.adobe.com/ph)
 

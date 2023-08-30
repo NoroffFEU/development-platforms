@@ -56,7 +56,7 @@ In conclusion, Appwrite presents a promising solution for developers seeking to 
 
 - Mohammed Allawi (Allawi465)
 
-#### References
+### References
 
 - https://appwrite.io/
 - https://www.coreapi.org/#examples

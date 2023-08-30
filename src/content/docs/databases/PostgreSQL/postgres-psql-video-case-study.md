@@ -18,7 +18,7 @@ This case study is created as a video counterpart to the detailed written [postg
 
 - Megumi Kimura (MegumiKim)
 
-#### References
+### References
 
 - https://www.postgresql.org/
 - https://youtu.be/qw--VYLpxG4 (Learn Postgres Full Course)

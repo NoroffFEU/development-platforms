@@ -84,11 +84,11 @@ Overall, ServiceNow offers a comprehensive and flexible platform that can help b
 
 Despite its horrible name, ServiceNow highlighted how the platform was able to address the ITSM (IT Service Management) challenges faced by a global financial services company. By providing a unified platform for ITSM, ServiceNow was able to automate many of the client's IT processes, improve collaboration between IT and other business units, and provide the client with a comprehensive view of their IT operations. The results were significant, including a reduction in the number of incidents reported, decreased resolution and change implementation times, and overall improvements in productivity, efficiency, and customer satisfaction. The case study demonstrates how ServiceNow's platform can help organizations address their ITSM needs and improve their overall IT operations.
 
-#### Credits
+### Credits
 
 - Kennet Torgersen, (KennTorg).
 
-#### References
+### References
 
 - https://www.servicenow.com/
 - https://developer.servicenow.com/dev.do

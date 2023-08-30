@@ -88,7 +88,7 @@ Azure DevOps is a feature - rich and mature platform. It is very flexible in the
 
 - Mona Dagsland (Littlaa)
 
-#### References
+### References
 
 - https://learn.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?view=azure-devops
 

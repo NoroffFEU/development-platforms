@@ -120,7 +120,7 @@ AWS was the first platform in it's field and is still looked at as the strongest
 
 - Sara Ferrer (saraRferrer)
 
-#### References
+### References
 
 https://www.techtarget.com/searchaws/definition/Amazon-Web-Services
 https://aws.amazon.com/websites/

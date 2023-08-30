@@ -84,7 +84,7 @@ ChatGPT can be pretty useful for web developers who want quick answers to coding
 
 - Svein Åke Ek (akeek)
 
-#### References
+### References
 
 - https://openai.com/blog/chatgpt/
 - https://www.youtube.com/watch?v=o5MutYFWsM8&t=50s

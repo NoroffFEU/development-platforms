@@ -117,7 +117,7 @@ GitHub is one of the best (if not the best) platforms for open-source projects, 
 
 - Andreas Jakobsen (volvojakobsen)
 
-#### References
+### References
 
 - [GitHub, gitlab and bitbucket comparison](https://www.youtube.com/watch?v=FQGXIIqziQg)
 - [GitHub wiki](https://en.wikipedia.org/wiki/GitHub)

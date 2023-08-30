@@ -118,7 +118,7 @@ For a web developer, CDN or Akamai is very relevant, as CDN will help:
 
 - Thomas Henriksen (Snurre1)
 
-#### References
+### References
 
 https://www.akamai.com/
 

@@ -123,7 +123,7 @@ If you like react and its eco system, and you want to build a web application th
 
 - Adrian Fredriksen (AdrianFred)
 
-#### References
+### References
 
 - https://cloudcannon.com/blog/sveltekit-vs-next-js/
 - https://nextjs.org/docs

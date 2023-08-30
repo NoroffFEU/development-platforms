@@ -55,7 +55,7 @@ MySQL is as mentioned a relational database management system (RDBMS) based on t
 
 The following section describes some of the most important features and characteristics of the MySQL Database Software:
 
-#### Internals and Portability:
+### Internals and Portability
 
 - Written in C and C++
 - Tested with a broad range of different compilers
@@ -71,14 +71,14 @@ The following section describes some of the most important features and characte
 - Implements SQL functions using highly optimized class library that should be as fast as possible. Usually there is no memory allocation at all after query initialization
 - Provides the server as a separate program for use in a client/server networked environment
 
-#### Data Types:
+### Data Types
 
 - Fixed length and variable-length string types
 - Many data types:
 - - signed/unsigned integers 1, 2, 3, 4 and 8 bytes long
 - - `FLOAT`, `DOUBLE`, `CHAR`, `VARCHAR`, `BINARY`, `VARBINARY`, `TEXT`, `BLOB`, `DATE`, `TIME`, `DATETIME`, `TIMESTAMP`, `YEAR`, `SET`, `ENUM` and OpenGIS spatial types
 
-#### Statements and Functions:
+### Statements and Functions
 
 - Full operator and function support in the SELECT list and WHERE clause of queries. For example:
 
@@ -96,18 +96,18 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - Independence of function names from table or column names. For example, `ABS` is a valid column name. The only restriction is that for a function call no spaces are permitted between the function name and the `()` that follows it
 - Users can refer to tables from different databases in the same statement
 
-#### Security:
+### Security
 
 - MySQL consists of a solid data security layer that protects sensitive data from intruders
 - A privilege and password system that is very flexible and secure, and that enables host-based verification
 - Password security by encryption of all password traffic when you connect to a server.
 
-#### Scalability and Limits:
+### Scalability and Limits
 
 - Support for large databases. MySQL Server offers databases that contains 50 million records. There are also users who use MySQL Server with 200,000 tables and about 5,000,000,000 rows
 - Support for up to 64 indexes per table. Each index may consist of 1 to 16 columns or parts of columns. The maximum index width of `InnoDB` tables is either 767 bytes or 3072 bytes. The maximum index width for `MyISAM` tables is 1000 bytes. Also, an index may use prefix of a column for `CHAR`, `VARCHAR`, `BLOB`, or `TEXT` column types
 
-#### Connectivity:
+### Connectivity
 
 - Clients can connect to MySQL Server using several protocols:
 - - Clients can connect using TCP/IP sockets on any platform
@@ -123,7 +123,7 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - MySQL Connector/NET enables developers to easily create `.NET` applications that require secure, high-performance data connectivity with MySQL. It implements the required `ADO.NET` interfaces and integrates into `ADO.NET` aware tools. Developers can build applications using their choice of `.NET` languages
 - MySQL Connector/NET is a fully managed `ADO.NET` driver written 100% in pure `C#`
 
-#### Localization:
+### Localization
 
 - The MySQL Server can provide error messages to clients in many languages
 - MySQL has full support for several different character sets, including `latin1(cp1252)`, `german`, `big5`, `ujis`, several Unicode character sets, and more
@@ -132,7 +132,7 @@ mysql> SELECT CONCAT(first_name, ' ', last_name)
 - Sorting and comparisons are done according to the default character set and collation. It is possible to change this when the MySQL Server is started
 - The server time zone can be changed dynamically, and individual clients can specify their own time zone
 
-#### Clients and Tools:
+### Clients and Tools
 
 MySQL includes several client and utility programs. These include both command-line programs such as `mysqldump` and `mysqladmin`, and graphical programs such as MySQL Workbench. MySQL Server also has an built-in support for SQL statements to check, optimize, and repair tables. These statements are available from the command-line utility for performing these operations on `MyISAM` tables. MySQL programs can aswell be invoked with the `--help` or `-?` option to obtain online assistance
 
@@ -154,7 +154,7 @@ MariaDB is as MySQL, an open-source RDBMS, and also a fork from MySQL created in
 
 Replacing MySQL, MariaDB has become a seamless process for most applications and CMS (Content Management Systems), especially WordPress. The existing software, from popular CMS tools like WordPress, Joomla, and Drupal, to applications like phpMyAdmin, works out of the box and the actual data can be exported/imported without any changes
 
-#### Comparison:
+### Comparison
 
 |                                   | **MariaDB**                                                                                                                                                                                                                                                   | **MySQL**                                                                                                                                                                                                                                                                                                                                    |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -172,15 +172,15 @@ Replacing MySQL, MariaDB has become a seamless process for most applications and
 
 ---
 
-#### Conclusion of Market Comparison:
+#### Conclusion of Market Comparison
 
 Both MariaDB and MySQL offers a range of features and benefits for the users. MariaDB has an edge over MySQL when it comes to storage engine alternatives, replication, clustering and compatibility with Oracle Databases. MariaDB also offers high speed / performance and security features, with the three password authentication plugins and the support for binary log encryption. However, MySQL is being backed by Oracle Corporation, which provides the users with a enterprise-level support and consistent updates, which in turns makes it a solid choice for business customers looking for a steady RDBMS. While MariaDB offers a complete package in regards of Community & License, the MySQL's community edition has some certain limitations that in the end could impact the database and query speed. In the end, the choice between MySQL and MariaDB will depend on the users specific needs, like performance, scalability, support and the compatibility with other tools
 
 ## Getting Started with MySQL
 
-### Installing and Starting MySQL:
+### Installing and Starting MySQL
 
-#### Linux:
+#### Linux
 
 - The easiest way to install MySQL is to use the [MySQL repositories](https://dev.mysql.com/downloads/)
 - - Next, start the MySQL Server if your installation includes [mysqld_safe:](https://dev.mysql.com/doc/refman/8.0/en/mysqld-safe.html)
@@ -197,26 +197,26 @@ $> systemctl start mysqld
 
 - It is important that the MySQL Server is being runned using an unprivileged login account. To ensure this, run [mysqld_safe](https://dev.mysql.com/doc/refman/8.0/en/mysqld-safe.html) as `root` and include `--user` option as shown. Otherwise, you should execute the program while logged in as `mysql`, in which case you can omit the `--user` option from the command.
 
-#### Microsoft Windows:
+#### Microsoft Windows
 
 - The recommended way to install MySQL on Windows is to use the [MySQL Installer](https://dev.mysql.com/downloads/installer/)
 - If you have chosen to configure MySQL as a Windows service during the installation process, which is the default option, the MySQL server will start automatically after the installation process is completed.
 
-#### macOS:
+#### macOS
 
 - The recommended way for installing on macOS is to use the [macOS installer package](https://dev.mysql.com/doc/refman/8.0/en/macos-installation-pkg.html)
 
-#### Other platforms:
+#### Other platforms
 
 - For installations on other platforms, as well as installation methods not covered above, see [Installing and Upgrading MySQL](https://dev.mysql.com/doc/refman/8.0/en/installing.html)
 
 ---
 
-### Connecting to the MySQL Server with the mysql client:
+### Connecting to the MySQL Server with the mysql client
 
 - Once your MySQL server is up and running, you can connect to it as the superuser `root` with the [mysql client](https://dev.mysql.com/doc/refman/8.0/en/mysql.html)
 
-#### For Linux:
+#### For Linux
 
 - Enter the following command at the command line terminal
 
@@ -224,7 +224,7 @@ $> systemctl start mysqld
 $> mysql -u root -p
 ```
 
-#### For Windows:
+#### For Windows
 
 - Click `Start` -> `All Programs` -> `MySQL Command Line Client`
 - If MySQL wasn't installed with the MySQL Installer, open a command prompt, go to the `bin` folder under the base directory of your MySQL installation, and write the following command:
@@ -237,9 +237,9 @@ C:\> mysql -u root -p
 
 ---
 
-### Some Basic Operations with MySQL:
+### Some Basic Operations with MySQL
 
-#### Creating a new database:
+#### Creating a new database
 
 - Use a CREATE DATABASE statement:
 
@@ -264,7 +264,7 @@ mysql> SHOW DATABASES;
 5 rows in set (0.00 sec)
 ```
 
-#### Showing existing databases:
+#### Showing existing databases
 
 - Use a SHOW DATABASES statement:
 

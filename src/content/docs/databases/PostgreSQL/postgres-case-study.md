@@ -120,7 +120,7 @@ By 1996 Postgres was called Postgres95. It became clear that this name would not
 
 - Adrian Brandshaug (Git Hub: [adrianBrands](https://github.com/adrianBrands))
 
-#### References
+### References
 
 - https://en.wikipedia.org/wiki/Ingres_(database)
 - https://en.wikipedia.org/wiki/PostgreSQL

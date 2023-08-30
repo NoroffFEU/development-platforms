@@ -38,23 +38,23 @@ One of the most unique features of tRPC is how it brings type-safety between ser
 
 Since `tRPC` does not rely on schemas or code generation, and rather is a protocol for accessing backend functions to the frontend, it allows a more seamless workflow for the developer, and a lightweight well performing application with a tiny footprint for the end user.
 
-#### Automatic type-safety
+### Automatic type-safety
 
 While this is a `Typescript` feature, and not isolated to `tRPC` it allows for an eco-system where the client will notify you of errors even before you save the files.
 
-#### Framework agnostic
+### Framework agnostic
 
 `tRPC` works will all JavaScript frameworks and runtime. It's easy to add to already existing projects.
 
-#### Autocompletion
+### Autocompletion
 
 `tRPC` will attempt to auto-complete your queries, speeding up development and ensuring the use of valid query data.
 
-#### Great DX
+### Great DX
 
 `tRPC` offers great workflow through all of its features, and provide an overall excellent developer experience.
 
-### Example of use
+## Example of use
 
 In the example we're using a `T3 app`, configured with `tRPC`, `Prisma`, `MongoDB`, `Next.js` and `Typescript`.
 
@@ -177,21 +177,21 @@ A very basic layout render of the form as well as already existing notes in the 
 
 ## Strengths
 
-#### tRPC is lightweight
+### tRPC is lightweight
 
 Since `tRPC` is a protocol or method for accessing backend functionality, it allows for better-performing applications without any code generation or runtime bloat.
 
-#### tRPC uses Typescript
+### tRPC uses Typescript
 
 This can be viewed as both a strength and a weakness. On the one hand, it allows for a uniform coding language and infrastructure between the backend and frontend, improving workflow and communication between the team.
 
 While on the other hand, if `Typescript` is not the preferred programming language within the team or organization, other options might be preferable.
 
-#### tRPC works great in a mono repo
+### tRPC works great in a mono repo
 
 With how `tRPC` communicates between client and server code, you are encouraged to use a singular repository, and several highlighted features are only accessible if you do so. On a smaller scale, there are many benefits to doing so. It's easier to navigate between client/server code, make changes and ensure type safety within the entirety of your code base. No more `uncaught type errors`.
 
-#### Quick development
+### Quick development
 
 The fastest and easiest way to develop an API.
 Uses type interference, which means the type of data is automatically detected, which particularly boosts development in the early stages.
@@ -200,17 +200,17 @@ With some familiarity with tRPC and well-synergized technologies, such as Next.j
 
 ## Weaknesses
 
-#### tRPC uses Typescript
+### tRPC uses Typescript
 
 While a front-end team certainly has knowledge of Javascript and may be well versed in Typescript, the same might not be the case for a backend team. There is a greater variety in programming languages typically used for the backend than for frontend, meaning that Typescript may not always be the most suitable choice.
 
 While strict static typing leaves a lot of benefits, it can be frustrating and cumbersome to learn, especially for junior-level developers.
 
-#### Works best in a mono repo
+### Works best in a mono repo
 
 Since many of tRPC's features benefit from using a singular repository, it might not be the best option if the development team has a need or requirement for a heavily siloed frontend and backend.
 
-#### Scalability
+### Scalability
 
 - In larger-scale projects, in a larger team, it's often beneficial to come up with a clear set of rules and a schema that everyone can work from. `tRPC` does not offer this.
 - If your app is getting increasingly more complex and requires more nuanced requirements, other options provide better solutions to manage and maintain your server-side code base.
@@ -276,7 +276,7 @@ With some learning and familiarity with the `tRPC` library and excellent pre-con
 [tRPC Crash Course Project](https://youtu.be/GuzZN-4kc3w)
 [T-3 with tRPC - Create Chat Application](https://youtu.be/dXRRY37MPuk)
 
-#### References
+### References
 
 - [tRPC server](https://www.npmjs.com/package/@trpc/server?activeTab=versions)
 - [tRPC client](https://www.npmjs.com/package/@trpc/client?activeTab=versions)

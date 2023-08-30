@@ -29,14 +29,14 @@ In the list below, we will look at important years and releases for MongoDB.
 - 2021-2022 - Released the version 5.0, and Rapid released - MongoDB 5.x, MongoDB Stable API, Atlas Serverless instances, MongoDB Atlas Data API
 - 2022 - Released the version 6.0 - Atlas Serverless instances, Atlas Data API, Atlas CLI and Flexible Sync. Atlas Data Lase, Atlas Data Federation and Atlas SQL Interface. And Cluster-to-cluster sync.
 
-## MongoDBs main Features
+## MongoDBs Main Features
 
-#### Indexing
+### Indexing
 
 - The search through the database becomes less time consuming and easier to do.
 - This means that every field in the documents are indexed with primary and secondary indices.
 
-#### Replication
+### Replication
 
 - This means the database makes copies of the data and sends it to multiple servers. Which make the data more available and redundant, if one server fails, the data can be retrieved from another server.
 - A replica set can contain of two or more copies of the data, each set may act in the role of primary or secondary replica.
@@ -44,7 +44,7 @@ In the list below, we will look at important years and releases for MongoDB.
 - The secondary replica is a copy of the data in the primary using built-in replication.
 - If the primary replica should fail, it automatically switches to the secondary, that then serves as the primary server.
 
-#### Aggregation
+### Aggregation
 
 - Makes it possible to perform operations on the grouped data, and then receive a single or computed result.
 - This is thanks to the three different aggregation methods;
@@ -52,22 +52,22 @@ In the list below, we will look at important years and releases for MongoDB.
   - map-reduce function
   - a single-purpose aggregation methods.
 
-#### Scalability
+### Scalability
 
 - Through sharding you distribute the data to different servers, where the data is partitioned into chunks using a shard key.
 - The chunks are evenly distributed across shards thats placed on different servers.
   This way MongoDB provides horizontal scalability, which balances the load to keep the system up and running, and gives less chance of hardware failure.
 
-#### Document-oriented
+### Document-oriented
 
 - Each database contains a collection which contains documents. And each document can be different, with variations in number of fields and size.
 - The documents structure can be familiar to developers, as they are constructed like objects.
 
-#### Ad hoc queries
+### Ad hoc queries
 
 - Supports search by field, range queries and by regular expression searches.
 
-#### ACID (Atomicity, Consistency, Isolation, Durability)
+### ACID (Atomicity, Consistency, Isolation, Durability)
 
 - This is one of the biggest weaknesses of NoSQL databases.
 - MongoDB data model allows data to be stored in a single document, which don't require a multi-document transaction.
@@ -102,22 +102,22 @@ CouchDB is also a NoSQL document oriented database. The design favors availabili
 
 CouchDB and MongoDB compared on some key features:
 
-#### Data Model
+### Data Model
 
 - MongoDB: stores the data in BSON format - documents gets grouped in databases and collections and are returned as JSON. They support a large amount of data types, including: strings, numbers, geo data, dates, arrays, decimal, nested objects, binary data.
 - CouchDB: stores JSON documents. They only support data types like: string, numbers, arrays, objects and booleans.
 
-#### Indexing
+### Indexing
 
 - MongoDB: indexes are supported in many different types: Compound, Text, Geo, Wild Card, TTL, and Partial.
 - CouchDB: indexing is limited, and for some workloads it requires a "design document" definition.
 
-#### Query Language
+### Query Language
 
 - MongoDB: Uses their own query language, MongoDB Query Language (MQL). Designed for easy use for developers.
 - CouchDB: Uses HTTP protocol for API, javascript.
 
-#### Availability and Scalability
+### Availability and Scalability
 
 - MongoDB: Using replica and sharding mechanisms. Replica in short: Makes copies of the document so when primary fails, secondary will become primary. Makes it fault tolerant. Sharding in short: Makes it easy to scale collections over replica sets, geo-zone sharding makes it easy to manage data.
 - CouchDB: Also uses a concept of replica and sharding. Replica in short: Makes copies of the documents, which makes this fault tolerant, but each "node" is also the shard, the sharding is a automated mechanism making it not possible for the user to define keys or groupings.
@@ -132,7 +132,7 @@ Overall MongoDB is a strong NoSQL database. In the author's view the strengths t
 
 - Jenny Marie Feragen (Jenfer93)
 
-#### References
+### References
 
 - List of video or links used during research
 - https://www.techtarget.com/searchdatamanagement/definition/MongoDB

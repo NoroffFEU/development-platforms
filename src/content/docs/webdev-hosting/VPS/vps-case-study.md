@@ -60,7 +60,7 @@ VPS hosting provides a web developer with a flexible and customizable hosting en
 
 - Benjamin Arevalo (ImBenni)
 
-#### References
+### References
 
 - History Revolving Around The World Of VPS https://technofaq.org/posts/2017/06/history-revolving-around-the-world-of-vps/
 - What is a Virtual Private Server (VPS)? https://cloud.google.com/learn/what-is-a-virtual-private-server#:~:text=A%20VPS%E2%80%94or%20virtual%20private,and%20customization%20than%20shared%20hosting

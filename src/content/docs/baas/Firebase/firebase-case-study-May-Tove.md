@@ -114,7 +114,7 @@ After conducting this case study, I gained knowledge about Firebase's background
 
 - May-Tove Hovdal (May-Tove)
 
-#### References
+### References
 
 - https://firebase.google.com/
 - https://medium.com/firebase-developers/what-is-firebase-the-complete-story-abridged-bcc730c5f2c0
@@ -129,6 +129,6 @@ After conducting this case study, I gained knowledge about Firebase's background
 - https://www.mitrais.com/news-updates/aws-amplify-vs-google-firebase-which-is-better/
 - https://aws.amazon.com/amplify/?nc=sn&loc=1
 
-#### Tools
+### Tools
 
 - https://chat.openai.com

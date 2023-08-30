@@ -105,7 +105,7 @@ Firebase offers a free tier with limited usage of each feature, and flexible pay
 
 - August Wahlberg (AugustWahlberg)
 
-#### References
+### References
 
 - https://firebase.google.com/
 - https://cloud.google.com/firebase/

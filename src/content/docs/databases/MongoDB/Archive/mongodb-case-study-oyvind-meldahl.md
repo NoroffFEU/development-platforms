@@ -78,7 +78,7 @@ In conclusion, MongoDB is a potent NoSQL database with several advantages for bu
 
 - Øyvind Meldahl (oyvind-meldahl)
 
-#### References
+### References
 
 - https://www.mongodb.com
 - https://en.wikipedia.org/wiki/MongoDB

@@ -17,7 +17,7 @@ I also do a short pros and cons about AWS and S3 throughout the video, and towar
 
 - Karl-Morten Kvammen (Tactikerl )
 
-#### References
+### References
 
 - List of video or links used during research
 - AWS documentation/tutorial for setting up Album SDK for S3 buckets https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-photos-view.html

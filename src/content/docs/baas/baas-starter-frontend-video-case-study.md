@@ -72,6 +72,6 @@ This repository is licensed under the MIT License.
 
 - Ethmane Didi (Ousman)
 
-#### References
+### References
 
 - https://youtu.be/G6ktLWX1kFA

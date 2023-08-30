@@ -42,15 +42,15 @@ Today, MongoDB is one of the most popular NoSQL databases in the world, with ove
 | Ad hoc queries    |
 | ACID              |
 
-### 1. Indexing
+### Indexing
 
 MongoDB has a robust indexing system that enables efficient search and retrieval of data. It supports various indexing options, including single-field, compound, and multi-key indexes, which can be customized based on specific data access patterns. MongoDB indexes all fields in the documents with primary and secondary indices to optimize query performance. This ensures that queries are executed faster, resulting in a more efficient search process.
 
-### 2. Replication
+### Replication
 
 MongoDB's replication feature allows for copies of data to be stored on multiple servers, increasing availability and redundancy. A replica set can consist of two or more copies of the data, with each set being able to act as the primary or secondary replica. The primary replica is responsible for interacting with the client and executing read/write operations, while the secondary replica is a copy of the data on the primary replica. If the primary replica fails, the secondary replica automatically takes over and becomes the primary server, ensuring that data remains available.
 
-### 3.Aggregation
+### Aggregation
 
 MongoDB offers powerful aggregation capabilities that allow businesses to perform sophisticated data analysis and reporting. The aggregation framework supports three different methods: the aggregation pipeline, map-reduce functions, and single-purpose aggregation methods. With these methods, it is possible to perform operations on grouped data and receive a single or computed result. The aggregation framework provides several operations, including filtering, grouping, sorting, and aggregation calculation, which make complex data analysis tasks easier without requiring the creation of complex SQL queries.
 
@@ -107,22 +107,22 @@ CouchDB is also a NoSQL document oriented database. The design favors availabili
 
 CouchDB and MongoDB compared on some key features:
 
-#### Data Model
+### Data Model
 
 - MongoDB: stores the data in BSON format - documents gets grouped in databases and collections and are returned as JSON. They support a large amount of data types, including: strings, numbers, geo data, dates, arrays, decimal, nested objects, binary data.
 - CouchDB: stores JSON documents. They only support data types like: string, numbers, arrays, objects and booleans.
 
-#### Indexing
+### Indexing
 
 - MongoDB: indexes are supported in many different types: Compound, Text, Geo, Wild Card, TTL, and Partial.
 - CouchDB: indexing is limited, and for some workloads it requires a "design document" definition.
 
-#### Query Language
+### Query Language
 
 - MongoDB: Uses their own query language, MongoDB Query Language (MQL). Designed for easy use for developers.
 - CouchDB: Uses HTTP protocol for API, javascript.
 
-#### Availability and Scalability
+### Availability and Scalability
 
 - MongoDB: Using replica and sharding mechanisms. Replica in short: Makes copies of the document so when primary fails, secondary will become primary. Makes it fault tolerant. Sharding in short: Makes it easy to scale collections over replica sets, geo-zone sharding makes it easy to manage data.
 - CouchDB: Also uses a concept of replica and sharding. Replica in short: Makes copies of the documents, which makes this fault tolerant, but each "node" is also the shard, the sharding is a automated mechanism making it not possible for the user to define keys or groupings.

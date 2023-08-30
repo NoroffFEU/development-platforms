@@ -16,7 +16,7 @@ Vue was created by Evan You, a Google software engineer, in 2013 and had its off
 
 Evan wanted to create a framework that was easy to understand and use, yet still powerful enough to handle complex applications. He was inspired by the simplicity and elegance of React's component-based architecture and Angular's two-way data binding, and set out to create a framework that combined the best of both worlds.
 
-#### Here is a timeline highlighting the major events:
+### Major event timeline
 
 - **2013:** Version 0.6 In December Evan You created the first version of Vue
 - **2014:** Version 0.8 First public release

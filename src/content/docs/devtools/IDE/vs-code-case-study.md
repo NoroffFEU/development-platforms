@@ -144,7 +144,7 @@ VS Code has built-in support for Node. js, TypeScript, and JavaScript and a feat
 
 You can find lots of code editor alternatives in the market right now.
 
-#### Here are some top alternatives to visual studio code:
+### Top alternatives
 
 - Atom
 - Webstorm
@@ -157,7 +157,7 @@ You can find lots of code editor alternatives in the market right now.
 
 But let's focus with two alternatives ( **Atom and Webstorm**) and compare those two with then vscode.
 
-### What is the difference between VS Code and Atom?
+### Differences between VS Code and Atom
 
 ![Vscode vs Atom](https://user-images.githubusercontent.com/95321157/232502911-85b6d9d8-07de-4eee-9f73-1ece70dcab2e.jpg)
 
@@ -197,7 +197,7 @@ Here are some of the pros and cons of Atom and VS Code:
 
 All in all, choosing between VS Code and Atom will depend on developers personal preferences and their specific needs for their projects. Both have pros and cons. VS Code is often considered more powerful and efficient than Atom due to its extensive features and better performance. But it's worth trying both code editors to see what works best for you as a developer.
 
-### What is the difference between VS Code and WebStorm?
+### Differences between VS Code and WebStorm
 
 ![Vscode vs WebStorm](https://user-images.githubusercontent.com/95321157/232600821-5f6779a6-591f-4224-8325-d9d1c4c70911.jpg)
 
