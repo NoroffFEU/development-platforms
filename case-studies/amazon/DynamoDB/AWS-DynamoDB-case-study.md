@@ -52,15 +52,41 @@ The list below includes but is not limited to some of the most important feature
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+In this section I will first take a look at what type of free tiers the two companies offer to their customers, followed by some comparisons into the technical aspects of the two databases.
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+### Pricing
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+|          |              DynamoDB Free Tier (Provisioned Capacity)                           |              Always Free NoSQL Database Service (Provisioned Capacity)                           |
+| --------------- | -------------------------------------------------- | -------------------------------------------------- |
+| Free Tier Time Limitation | The free tier is available for up to 12 months from the accounts activation date. | The Always Free services are available for an unlimited period of time. |
+| Write Capacity | 25 WCUs of provisioned capacity for tables using the DynamoDB Standard table class. | Write Capacity (Write Units) is 50 and cannot be changed. |
+| Read Capacity | 25 RCUs of provisioned capacity for tables using the DynamoDB Standard table class. | Read Capacity (Read Units) is 50 and cannot be changed. |
+| Storage | 25 GB of data storage for tables using the DynamoDB Standard table class. | Disk Storage is 25GB and cannot be changed. |
+| Replicated Write Cpacity | 25 rWCUs for global tables using the DynamoDB Standard table class deployed in two AWS Regions. | ❌ Oracle Does Not Have This Feature. |
+| Streams | 2.5 million stream read requests from DynamoDB Streams | ❌ Oracle Does Not Have This Feature. |
+| Data Transfer | 1 GB of data transfer out (15 GB for your first 12 months), aggregated across AWS services | ❌ Oracle Does Not Have This Feature. |
+
+
+### Technical
+
+|          |              AWS DynamoDB                           |              Oracle NoSQL Database                           |
+| --------------- | -------------------------------------------------- | -------------------------------------------------- |
+| Database Model | Document Store<br>Key-Value Store | Document Store<br>Key-Value Store<br>Relational DBMS (Primary Model)<br>Graph DBMS<br>RDF Store<br>Spatial DBMS |
+| License | Free tier for a limited amount of database operations. | Proprietary for Enterprise Edition. |
+| Cloud-Based Only | ✅ | ❌ |
+| Server Operating Systems | Hosted | Linux<br>Solaris SPARC/x86 |
+| Support Programming Languages | .Net<br>ColdFusion<br>Erlang<br>Groovy<br>Java<br>JavaScript<br>Perl<br>PHP<br>Python<br>Ruby | C<br>C#<br>Go<br>Java<br>JavaScript (Node.js)<br>Python |
+| Transaction Concept | ACID across one or more tables within a single AWS account and region. | ACID within a storage node (=shard). |
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+### Setting up DynamoDB local
+
+With the downloadable version of Amazon DynamoDB, you can develop and test applications without accessing the DynamoDB web service. Instead, the database is self-contained on your computer. When you're ready to deploy your application in production, you remove the local endpoint in the code, and then it points to the DynamoDB web service.
+
+Having this local version helps you save on throughput, data storage, and data transfer fees. In addition, you don't need an internet connection while you develop your application.
+
+1. [Download DynamoDB Local](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html#DynamoDBLocal.DownloadingAndRunning.title)
 
 ## Conclusion
 
@@ -71,7 +97,11 @@ This section can be used to summarize your findings. What are the main advantage
 - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
 - [Amazon DynamoDB - Features](https://aws.amazon.com/dynamodb/features/?pg=dynamodbt&sec=hs)
 - [Amazon DynamoDB - Documentation and Whitepapers](https://aws.amazon.com/dynamodb/resources/)
+- [Pricing for Provisioned Capacity](https://aws.amazon.com/dynamodb/pricing/provisioned/)
+- [AWS Free Tier FAQs](https://aws.amazon.com/free/free-tier-faqs/?audit=2019q1)
 - [Dynamo: Amazon's Highly Available Key-value Store - Giuseppe DeCandia](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
 - [Amazon’s DynamoDB — 10 years later](https://www.amazon.science/latest-news/amazons-dynamodb-10-years-later)
 - [Happy 10th Birthday, DynamoDB!](https://aws.amazon.com/blogs/aws/happy-birthday-dynamodb/)
+- [DynamoDB vs Oracle NoSQL - The Ultimate Comparison](https://dynobase.dev/dynamodb-vs-oracle/)
+- [System Properties Comparison Amazon DynamoDB vs. Oracle NoSQL](https://db-engines.com/en/system/Amazon+DynamoDB%3BOracle+NoSQL)
 
