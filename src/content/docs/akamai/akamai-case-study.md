@@ -1,5 +1,5 @@
 ---
-title: Akamai Case Study
+title: Akamai
 keywords: development-platforms, CDN Server, caching
 tags: Development Platforms, CDN, Server
 ---

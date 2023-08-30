@@ -1,12 +1,12 @@
 ---
-title: Google platforms Case Study
+title: Google Analytics / Tag Manager
 keywords: development platforms, google analytics, analytics, GA4, GTM, tracking, google tag manager
 tags: Development Platforms, google platforms, analytics
 ---
 
 ## Introduction
 
-This study mainly covers Google analytics, but will also touch on Google tag manager, as it is a closely related platform.
+This study mainly covers Google Analytics, but will also touch on Google Tag Manager, as it is a closely related platform.
 
 Google Analytics is an analysis tool used to gain insights and provide reports on web application user behaviour. Since Universal google analytics (UA) expires in July 2023 (Weber, 2023), this study will cover the already exciting successor, google analytics 4 (GA4).
 

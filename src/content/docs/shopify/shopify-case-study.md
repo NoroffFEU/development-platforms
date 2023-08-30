@@ -1,5 +1,5 @@
 ---
-title: Shopify Case Study
+title: Shopify
 author: bmsf
 tags: online shopping, ecommerce, platform
 ---
@@ -9,7 +9,6 @@ tags: online shopping, ecommerce, platform
 Shopify is a cloud-based e-commerce platform that allows businesses of all sizes to create, manage and promote their online stores. Founded in 2004, Shopify has become one of the leading e-commerce platforms in the world, with over 1.7 million businesses using the platform to sell their products and services online.
 
 ## Brief History
-
 
 - 2004: Shopify is founded in Ottawa, Canada by Tobias Lütke, Scott Lake, and Daniel Weinand.
 - 2006: Shopify launches its first online store.
@@ -44,7 +43,6 @@ However, Shopify does have some limitations compared to other e-commerce platfor
 - **Customization**: While Shopify's themes and templates are customizable, some businesses may find that they need more advanced customization options.
 - **Transaction Fees**: Shopify charges transaction fees for businesses that use third-party payment gateways, which can be a disadvantage for businesses with high sales volumes.
 - **Limited Design Options**: Some businesses may find that Shopify's themes and templates are limited in terms of design options and may require custom development to achieve a unique look and feel.
-
 
 ## Getting Started
 

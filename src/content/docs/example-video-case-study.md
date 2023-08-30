@@ -4,12 +4,12 @@ author: Example Author <ExampleUsernameA>, Example Author <ExampleUsernameB>
 tags: example, case study, platform
 ---
 
-<iframe src="https://www.youtube.com/embed/dQw4w9WgXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## References
 
 - [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
+- _Good Examples_ by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 

@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Case Study
+title: ServiceNow
 keyword: development platforms, cloud-based, analytics, workflow automation, integrations, mobile-application, security
 tags: Development Platforms, ServiceDesk, Integration, Analytics
 ---

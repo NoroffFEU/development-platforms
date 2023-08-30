@@ -1,5 +1,5 @@
 ---
-title: BaaS Starter Frontend Video
+title: BaaS Starter (Video)
 keywords: development platforms, Video Case Study, Web Based Services
 tags: Development Platforms, Video Case Study, Web Based Services, BaaS, Firebase
 ---
