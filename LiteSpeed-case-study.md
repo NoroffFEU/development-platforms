@@ -6,7 +6,8 @@ tags: litespeed, case study, development platform
 
 ## Introduction
 
-LiteSpeed is an Apache interchangable Web Server, that handles thousands of concurrent connections witha small memory footprint. It is high performance, esy to use, secure and it is easy to covert to from Apache, as it provides It's security features also makes it much less vulnerable to various attacks.
+LiteSpeed Web Server (LSWS) is a lightweight proprietary web server. It is Apache interchangable, that handles thousands of concurrent connections witha small memory footprint. It is high performance, esy to use, secure and it is easy to covert to from Apache, as it provides It's security features also makes it much less vulnerable to various attacks.
+LiteSpeed can replace an excisting Apache server without changing any other programs or operating system details. It also gets implemented without breaking anything.
 
 ## Brief History
 
@@ -21,35 +22,44 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+###Performance & Scalability
+LiteSpeed has superior performance in terms of raw speed and scalability. It is an ideal hosting platform for serving WordPress, Joomla and Drupal based websites as it easily increases PHP's performance and security. This is done through its unique event driven architecture. It can serve thousands of clients simultaneously with minimum use of server rescources such as memory and CPU. The unique code of LiteSpeed Web Server increases PHP performance as well as serving static websites faster than Apache. It can also handle sudden spikes in traffic as well as helping to manage against DDOS attacks without any DDOS mitigation hardware.
 
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
+###Security
+LiteSpeed is compatible with Apache's mod_security feature and has a built-in anti-DDOS capability. Customizable features such as per-IP connections and bandwith throttling, blocks IPs that makes too many connections or requests, or ask for too much bandwith. This will stop attackers before they overrun the server.
 
-Example feature table:
+###Support
+LiteSpeed has something called "zero downtime maintenance". This means that you can restart the server and update the software without compromizing your website's avaliability to users.
+
+###Cost effective
+LiteSpeed's licensing costs are quite low compared to any hardware upgrades required to run for instance Apache. The web servers unique features help reduce the support costs by providing an optimized, secure and stable hosting platform.
+
+###Cons
+LiteSpeed does not support Windows. This will eliminate it as a web server candidate for many companies.
+OpenLiteSpeed is an open source and free version of LiteSpeed but this version of LiteSpeed is not compatible with Apache.
+
+
+LiteSpeed Web Server feature table:
 
 | Feature | Description |
 | --- | --- |
-| Apache Drop-in replacement | This feature does something for a specific reason. |
+| Apache Drop-in replacement | Supports and runs Apache configuration files and mods, is easy to install and therefore can be used as a replacement for and already Apache run server. |
 | HTTP/2 Support | This feature does something for a specific reason. |
 | QUIC Support | This feature does something for a specific reason. |
-| Zero Downtime | This feature does something for a specific reason. |
+| Zero Downtime | Restart the server and update software without compromizing the website's avaliability to the user. |
 | Anti-DDoS Advances | This feature does something for a specific reason. |
 | Event-Driven Architecture | This feature does something for a specific reason. |
+| Hosting Control Panels | Can host control panels such as cPanel, Plesk, Interworx, VirtualAdmin and DirectAdmin |
 
  [Link To Features](https://www.litespeedtech.com/docs/webserver/introduction)
 
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+
+ 
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+LiteSpeed Web Server is compatible with Apache Web Server and it's features such as mod_rewrite, mod_security and .htaccess. LiteSpeed can also load the Apache configuration files, and doing so can work as a direct replacement for Apache.
+LiteSpeed is faster than Apache when serving PHP contents.
 
 ## Getting Started
 
@@ -63,6 +73,8 @@ This section can be used to summarize your findings. What are the main advantage
 
 - [Example.com](https://example.com)
 - [LiteSpeed Wiki](https://www.litespeedtech.com/support/wiki/doku.php)
+- [LiteSpeed article on Hivelocity](https://www.hivelocity.net/kb/what-is-litespeed/)
+- [LiteSpeed article on ElegantThemes](https://www.elegantthemes.com/blog/wordpress/what-is-litespeed-web-server-software)
 - *Good Examples* by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
