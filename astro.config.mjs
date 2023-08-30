@@ -25,9 +25,7 @@ export default defineConfig({
         { label: "Development Tools", collapsed: true, autogenerate: { directory: "devtools" } },
         { label: "Frameworks & Other tools", collapsed: true, autogenerate: { directory: "frameworks" } },
         { label: "GitHub", collapsed: true, autogenerate: { directory: "github" } },
-        // { label: "GitKraken", collapsed: true, autogenerate: { directory: "gitkraken" } },
         { label: "Google", collapsed: true, autogenerate: { directory: "google" } },
-        // { label: "IDE", collapsed: true, autogenerate: { directory: "ide" } },
         { label: "Microsoft", collapsed: true, autogenerate: { directory: "microsoft" } },
         {
           label: "Monitoring & Observability",
