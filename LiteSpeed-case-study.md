@@ -5,7 +5,7 @@ tags: litespeed, case study, development platform
 ---
 
 
-![Image of LiteSpeed Web Server homepage](/LiteSpeed_HeaderImage.png]
+![Image of LiteSpeed Web Server homepage](/LiteSpeed_HeaderImage.png)
 
 
 ## Introduction
