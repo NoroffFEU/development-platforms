@@ -52,12 +52,13 @@ Compared to other tools, Docker's broad adoption, features, and community suppor
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [Docker docs](https://docs.docker.com/get-started/)
+- [Docker](https://www.docker.com/)
+- [Docker hub](https://hub.docker.com/)
+- [Docker software](<https://en.wikipedia.org/wiki/Docker_(software)>)
+- [Docker , Inc.](https://en.wikipedia.org/wiki/Docker,_Inc.)
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [Learn Docker in 7 Easy Steps - Full Beginner's Tutorial by Fireship](https://www.youtube.com/watch?v=gAkwW2tuIqE)
+- [Top 3 Docker Alternatives to Consider in 2023 by BuildPiper](https://medium.com/buildpiper/top-3-docker-alternatives-to-consider-in-2023-712b1ca0cdd1)
