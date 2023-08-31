@@ -42,12 +42,13 @@ Pros and cons using Docker versus other containerization tools.
 ## Getting Started
 
 1. Install Docker desktop application.
-2. install Docker extension for VS code.
+2. install Docker extension for VS Code.
 3. Create an account for Docker Hub to accsess library for container images.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+In conclusion, Docker ensures seamless application performance across diverse environments by packaging software and dependencies. Its key features dockerfiles, images, and containers promote efficiency and uniform execution.
+Compared to other tools, Docker's broad adoption, features, and community support set it apart. Despite drawbacks, its capabilities and compatibility drive popularity.
 
 ## References
 
