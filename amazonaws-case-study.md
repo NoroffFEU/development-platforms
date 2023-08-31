@@ -1,24 +1,17 @@
 ---
-title: Example Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+title: Amazon AWS Case Study
+author: Kevin Rundberg <Kenyro>
+tags: amazon, aws, case study, platform
 ---
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+This is a case study of Amazon Web Services or AWS for short. AWS is a subsidiary of Amazon that provides on-demand cloud computing platforms and API's to indificuals, companies, and governments on a "pay-as-you-go" solution. AWS 
 
 ## Brief History
-
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 2002: Web services launched.
+- 2006: Amazon S3 cloud storage launched, founded by vice president Andy Jassy.
+- 2010: Amazon.com retail sites migrates to AWS
 
 ## Main Features
 
