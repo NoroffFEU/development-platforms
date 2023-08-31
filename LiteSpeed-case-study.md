@@ -119,10 +119,10 @@ In order for you to use LiteSpeed you have to pay a monthly fee. They have a fre
 
 ## References
 
-- [Example.com](https://example.com)
 - [LiteSpeed Wiki](https://www.litespeedtech.com/support/wiki/doku.php)
 - [How to install LiteSpeed](https://docs.litespeedtech.com/lsws/)
 - [LiteSpeed Web Server features](https://www.litespeedtech.com/products/litespeed-web-server/features)
 - [LiteSpeed article on Hivelocity](https://www.hivelocity.net/kb/what-is-litespeed/)
 - [LiteSpeed article on ElegantThemes](https://www.elegantthemes.com/blog/wordpress/what-is-litespeed-web-server-software)
 - [LiteSpeed article on Wikipedia](https://en.wikipedia.org/wiki/LiteSpeed_Web_Server)
+- [LiteSpeed vs Apache on Navicosoft](https://www.navicosoft.com/articles/litespeed-vs-apache-whats-the-best-choice-in-2022/#:~:text=Apache%20has%20a%20module%2Dbased,replacement%20to%20Apache%20almost%20everywhere.)
