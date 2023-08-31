@@ -41,7 +41,7 @@ Pros and cons using Docker versus other containerization tools.
 
 ## Getting Started
 
-1. Install Docker desktip application.
+1. Install Docker desktop application.
 2. install Docker extension for VS code.
 3. Create an account for Docker Hub to accsess library for container images.
 
