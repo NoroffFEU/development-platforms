@@ -53,12 +53,12 @@ In this case study, we'll go over Firebase's history, its key features, and its 
 ### Advantages of firebase
 
 **Free Plan**
-The availability of a free pllan called Spark on Firebase makes it a good choice for developers worldwide. 
+The availability of a free plan called Spark on Firebase makes it a good choice for developers worldwide. 
 You can easily sign in with an existing Google account and start developing your apps.
 
 Although this plan is free, it offers all the features required to build a functional app. Firebase users have 
 the option of upgrading to the blaze plan when they want to build apps with advanced features. The Blaze plan offers 
-all the futures to build sophisticated apps.
+all the features to build sophisticated apps.
 
 While upgrading from the Spark plan, you simply pay for the extra server resources used beyond the limits of the free plan.
 
