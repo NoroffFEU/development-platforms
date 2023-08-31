@@ -97,12 +97,14 @@ Both database providers offer free tiers for their services, below you can see t
 | Write Capacity | 25 WCUs of provisioned capacity for tables using the DynamoDB Standard table class. | Write Capacity (Write Units) is 50 and cannot be changed. |
 | Read Capacity | 25 RCUs of provisioned capacity for tables using the DynamoDB Standard table class. | Read Capacity (Read Units) is 50 and cannot be changed. |
 | Storage | 25 GB of data storage for tables using the DynamoDB Standard table class. | Disk Storage is 25GB and cannot be changed. |
-| Replicated Write Cpacity | 25 rWCUs for global tables using the DynamoDB Standard table class deployed in two AWS Regions. | ❌ Oracle Does Not Have This Feature. |
+| Replicated Write Cpacity | 25 rWCUs for global tables using the DynamoDB Standard table class deployed in two AWS Regions. | Electable source-replica replication per shard. Support distributed global deployment with Multi-region table feature |
 | Streams | 2.5 million stream read requests from DynamoDB Streams | ❌ Oracle Does Not Have This Feature. |
 | Data Transfer | 1 GB of data transfer out (15 GB for your first 12 months), aggregated across AWS services | ❌ Oracle Does Not Have This Feature. |
 
 
 ### Technical
+
+The table below shows some of the more technical comparisons of the two databases.
 
 |          |              AWS DynamoDB                           |              Oracle NoSQL Database                           |
 | --------------- | -------------------------------------------------- | -------------------------------------------------- |
@@ -110,18 +112,40 @@ Both database providers offer free tiers for their services, below you can see t
 | License | Free tier for a limited amount of database operations. | Proprietary for Enterprise Edition. |
 | Cloud-Based Only | ✅ | ❌ |
 | Server Operating Systems | Hosted | Linux<br>Solaris SPARC/x86 |
+| Support for SQL | ❌ | SQL-like DML and DDL Statements |
+| API's and other access methods | RESTful HTTP API | RESTful HTTP API |
 | Support Programming Languages | .Net<br>ColdFusion<br>Erlang<br>Groovy<br>Java<br>JavaScript<br>Perl<br>PHP<br>Python<br>Ruby | C<br>C#<br>Go<br>Java<br>JavaScript (Node.js)<br>Python |
 | Transaction Concept | ACID across one or more tables within a single AWS account and region. | ACID within a storage node (=shard). |
+| API's and other access methods | RESTful HTTP API | RESTful HTTP API |
 
-## Getting Started
+## Setting up AWS DynamoDB
 
-### Setting up DynamoDB local
+To use the DynamoDB service, you must have an AWS account. You're not charged for any AWS services that you sign up for unless you use them.
 
-With the downloadable version of Amazon DynamoDB, you can develop and test applications without accessing the DynamoDB web service. Instead, the database is self-contained on your computer. When you're ready to deploy your application in production, you remove the local endpoint in the code, and then it points to the DynamoDB web service.
+1. If you don't already have one - [Create a new AWS Account](https://portal.aws.amazon.com/billing/signup#/start/email).
+- - Follow the online instructions.<br>Part of the sign-up procedure involves receiving a phone call and entering a verification code on the phone keypad.<br>When you sign up for an AWS account, an AWS account root user is created. The root user has access to all AWS services and resources in the account. As a security best practice, [assign administrative access to an administrative user](https://docs.aws.amazon.com/singlesignon/latest/userguide/getting-started.html), and use only the root user to perform tasks that require root user access.
+2. [Get an AWS access key](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SettingUp.DynamoWebService.html#SettingUp.DynamoWebService.GetCredentials)
+- - Before you can access DynamoDB programmatically or through the AWS Command Line Interface (AWS CLI), you must have programmatic access. You don't need programmatic access if you plan to use the DynamoDB console only.
+3. [Configure your credentials](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SettingUp.DynamoWebService.html#SettingUp.DynamoWebService.ConfigureCredentials)
+- - Before you can access DynamoDB programmatically or through the AWS CLI, you must configure your credentials to enable authorization for your applications.<br>There are several ways to do this. For example, you can manually create the credentials file to store your access key ID and secret access key. You also can use the aws configure command of the AWS CLI to automatically create the file. Alternatively, you can use environment variables. For more information about configuring your credentials, see the programming-specific AWS SDK developer guide.<br>To install and configure the AWS CLI, see [Using the AWS CLI](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Tools.CLI.html).
 
-Having this local version helps you save on throughput, data storage, and data transfer fees. In addition, you don't need an internet connection while you develop your application.
+This should get you up and running with AWS DynamoDB Web service.
+I will include some important links for the docs files so that any interested party can have quick access to read material as they see fit.
 
-1. [Download DynamoDB Local](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html#DynamoDBLocal.DownloadingAndRunning.title)
+- [Accessing DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AccessingDynamoDB.html)
+- [Getting started with DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html)
+- [Getting started with DynamoDB and the AWS SDKs](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.html)
+- [Programming with DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.html)
+- [Working with DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithDynamo.html)
+- [In-memory acceleration with DynamoDB Accelerator (DAX)](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DAX.html)
+- [Data Modeling](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/data-modeling.html)
+- [NoSQL Workbench](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html)
+- [Code examples](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/service_code_examples.html)
+- [Security](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/security.html)
+- [Monitoring](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/monitoring.html)
+- [Best Practices](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/best-practices.html)
+- [Integrating with other AWS services](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/OtherServices.html)
+- [Troubleshooting Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Troubleshooting.html)
 
 ## Conclusion
 
