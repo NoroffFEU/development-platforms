@@ -86,8 +86,13 @@ OpenLiteSpeed is an open source and free version of LiteSpeed but this version o
 ## Market Comparison
 
 LiteSpeed Web Server is compatible with Apache Web Server and it's features such as mod_rewrite, mod_security and .htaccess. LiteSpeed can also load the Apache configuration files, and doing so can work as a direct replacement for Apache.
-LiteSpeed is faster than Apache when serving PHP contents.
+LiteSpeed is faster than Apache when serving PHP contents. Apache has to run alot of modules and it executes a new chain for each visitor. This is kept up for as long as the user is on the website regardless if there is a request for rescources or not.
+LiteSpeed operates differently by serving the content in streams instead of pieces from its compressed cache files in response to the user's browser request. This means tha it doesn't have to create new requests each time for the same or different user and knows how to handle requests from multi-users/browsers.
+Because of this caching LiteSpeed can be up to six times faster than Apache for stawtic content without draining the server resources.
+Apache is a good web server for Wordpress, but with LiteSpeed's ability to increase the server's PHP performance by 50% LiteSpeed will be perfect to host WoordPress sites.
 LiteSpeed was created to be used as an easy-to-use drop-in replacement for Apache. Though it does not support Windows, in copntrary to Apache. Therefore it is eliminated as a candidate for several companies, and so Apache is a better option still.
+Another difference is the pricing. LiteSpeed is a paid software while Apache is free.
+Apache has been a widely used web server for a number of years, but with the compatability of LiteSpeed on Apache servers and that it is more secure and can handle more with less, LiteSpeed is slowly gaining more popularity and is more widely used year by year.
 
 
 
@@ -107,6 +112,7 @@ LiteSpeed has set up an easy to read and concise guide on how to install and con
 LiteSpeed Web Server is a lightweight alternative to Apache Web Server. It uses the same configuration and mods as Apache and is an easy to replace option. It will also handle alot more connections while simultaniously using less memory and CPU. LiteSpeed is also alot faster than Apache in serving PHP contents.
 LSWS is also more cost effective and provides the ability to upgrade software without having the server to not be acessible for the users in the meantime.
 Though it has all these qualities that is better than Apache, LiteSpeed does not support Windows and so it will not be an eligible option for all the companies that are using Windows. So LiteSpeed are a better option as a web server for those that don't use windows, but not an option for most companies as those use Windows.
+I would personally choose LiteSpeed over Apache as it handles PHP in a way that use less resources than Apache and it is faster, especially for sites that uses PHP like WordPress. Also it is more secure than Apache with the built in Anti-DDoS, while in Apache you have security issues because of its permission for configuration madification to the individuals.
 In order for you to use LiteSpeed you have to pay a monthly fee. They have a free option in "OpenLiteSpeed", though this doesn't support Apache and is updated more rarely than the paid regular version. So if you are not using Windows it will be better and more stable to pay the anual fee for the regular one rather than using the free option.
 
 
