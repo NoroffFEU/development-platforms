@@ -55,7 +55,13 @@ Bluehosts shared hosting services is a cost-effective option that dosnt require 
 
 There are many hosting sites that offers shared hosting plans and services. They each come with different advantages and disadvantages.
 
-Bluehost is the official Wordpress recommendation and might be the preffered choise for wordpress users. They also have a 24/7 customer suppert. HostGator offers unlimited storage and unmetered bandwidth. DreamHost offers shared hosting plans, with a focus on security and unlimited traffic. While Bluehost typically comes with a standard 30-day guarantee, DreamHost has a 97-day Money back gurarantee, that gives you more time to evaluate their services without economical risk. Dreamhost also offers cloud hosting plans, which Bluehost no longer offers. Even though most shared hosting plans offers simular services, there are some differences, so it might be worth some resourch to find the hosting service that best suit your needs, preferances and prioreties.
+- HostGator: offers unlimited storage and unmetered bandwidth.
+  unmetered does not mean unlimited, but but a generous amount of resources for most small and medium-sized websites.
+  Hostgator also offers a 99.9% Uptime Guarantee.
+
+- DreamHost: offers shared hosting plans, with a focus on security and unlimited traffic. DreamHost employs firewalls to protect its servers from unauthorized access and malicious traffic. DreamHost often uses virtualization and containerization technologies to isolate websites and applications hosted on shared servers. This helps prevent one website's security issues from affecting others. They also employs monitoring systems to detect suspicious activeties and potential security threats.
+
+While Bluehost typically comes with a standard 30-day guarantee, DreamHost has a 97-day Money back gurarantee, that gives you more time to evaluate their services without economical risk. Dreamhost also offers cloud hosting plans, which Bluehost no longer offers. If you are storing especially sensitive data on your website, DreamHost might feel like a safer choise. If you´re an enthusiastic WordPress user Bluehost might be youre preferred hosting company. Even though most shared hosting plans offers simular services, there are some differences, so it might be worth some resourch to find the hosting service that best suit your needs, preferances and prioreties.
 
 ## Conclusion
 
