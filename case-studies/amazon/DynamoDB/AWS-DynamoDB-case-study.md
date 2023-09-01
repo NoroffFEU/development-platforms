@@ -130,7 +130,11 @@ To use the DynamoDB service, you must have an AWS account. You're not charged fo
 - - Before you can access DynamoDB programmatically or through the AWS CLI, you must configure your credentials to enable authorization for your applications.<br>There are several ways to do this. For example, you can manually create the credentials file to store your access key ID and secret access key. You also can use the aws configure command of the AWS CLI to automatically create the file. Alternatively, you can use environment variables. For more information about configuring your credentials, see the programming-specific AWS SDK developer guide.<br>To install and configure the AWS CLI, see [Using the AWS CLI](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Tools.CLI.html).
 
 This should get you up and running with AWS DynamoDB Web service.
-I will include some important links for the docs files so that any interested party can have quick access to read material as they see fit.
+
+### DynamoDB Documentation
+
+The docs files include an extensive range of step by step procedures thus fitting them all in here would be counterproductive, this is why.
+I will include some important links to the docs files so that any interested party can have quick access to read material as they see fit.
 
 - [Accessing DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AccessingDynamoDB.html)
 - [Getting started with DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStartedDynamoDB.html)
@@ -149,13 +153,24 @@ I will include some important links for the docs files so that any interested pa
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+AWS DynamoDB stands as a testament to the ever-evolving landscape of database technology, offering a versatile, scalable, and fully managed NoSQL solution. Its roots in Amazon's need to handle immense e-commerce data led to the development of a groundbreaking database system named "Amazon Dynamo." This innovation not only met Amazon's scaling requirements but also sparked discussions in the tech world about distributed databases, NoSQL, and database scalability.
+
+DynamoDB's journey from an internal system to an external service within AWS has been marked by continuous evolution and the incorporation of features that cater to a wide array of use cases. Developers and businesses have embraced it as a solution that liberates them from the complexities of infrastructure management.
+
+Key features like automatic scaling, data replication, fine-grained access control, and in-memory acceleration with DAX have played a pivotal role in DynamoDB's success. Its flexible schema, global and local secondary indexes, and support for streams and triggers with AWS Lambda make it adaptable to various applications, from mobile apps to real-time analytics.
+
+Additionally, DynamoDB offers multiple capacity modes, including provisioned capacity, allowing users to choose the most suitable model for their workloads. Provisioned capacity provides predictable performance and cost, making it an ideal choice for steady workloads.
+
+In this comprehensive overview, we've also delved into the market comparison between AWS DynamoDB and Oracle NoSQL Database, examining pricing models and technical aspects. DynamoDB's provisioned capacity pricing model ensures performance predictability, while Oracle NoSQL Database offers an always-free provisioned capacity model, although with certain limitations.
+
+In essence, AWS DynamoDB continues to be a significant player in the world of modern database solutions, providing a robust foundation for applications that demand high scalability, availability, and low-latency data access. Its evolution and feature-rich nature make it a compelling choice for developers and businesses alike.
 
 ## References
 
 - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
 - [Amazon DynamoDB - Features](https://aws.amazon.com/dynamodb/features/?pg=dynamodbt&sec=hs)
 - [Amazon DynamoDB - Documentation and Whitepapers](https://aws.amazon.com/dynamodb/resources/)
+- [AWS Documentation](https://docs.aws.amazon.com/index.html)
 - [Pricing for Provisioned Capacity](https://aws.amazon.com/dynamodb/pricing/provisioned/)
 - [AWS Free Tier FAQs](https://aws.amazon.com/free/free-tier-faqs/?audit=2019q1)
 - [Dynamo: Amazon's Highly Available Key-value Store - Giuseppe DeCandia](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
