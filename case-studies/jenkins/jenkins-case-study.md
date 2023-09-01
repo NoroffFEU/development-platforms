@@ -129,3 +129,8 @@ There isn't really a winner or loser in terms of CI tools, it's more of which to
 - [Pluralsight.com](https://www.pluralsight.com/resources/blog/cloud/comparing-github-actions-vs-jenkins-ci-showdown)
 - [Jenkins, macOS installer](https://www.jenkins.io/doc/book/installing/macos/)
 - ChatGPT
+
+
+## Additional Resources
+
+- [Youtube, the Full Course](https://www.youtube.com/watch?v=edQGrDWBlTA)
