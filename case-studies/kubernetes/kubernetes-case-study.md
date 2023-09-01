@@ -31,7 +31,7 @@ Features:
 | Feature | Description |
 | --- | --- |
 | Automated rollouts and rollbacks | Progressive rollouts and monitoring. Rollbacks if something goes wrong |
-| Service discovery and load balancing | Each Pod has unique IP adress and can load balance acroos |
+| Service discovery and load balancing | Each Pod has unique IP adress and can load balance across them |
 | Storage orchestration | Automatically mount storage system, local cloud or network |
 | Self-healing | Restarts failing containers and kills non-responding nodes |
 | Secret and configuration management | Deploy and update secrets and configuration without rebuilding image |
@@ -120,7 +120,7 @@ Networking the containers, and their secure communication is a comprehensive tas
 Operating teams depend on detailed monitoring data to ensure that the heallth of the infrastructure and the application itself is in good condition.
 
 In conclusion Kubernetes is an environment for enterprise scale application as it demands complex installation and operation resources.
-I would consider using Kubernetes when operating on a big scale, or an a business with quick growth.
+I would consider using Kubernetes when operating on a big scale, or in a business with quick growth.
 
 On the other hand, Docker seems to be the easier approach and give you the possibility to focus on building you app instead of managing it.
 Would consider using this to smaller production environments as it demands fewer resources to operate.
