@@ -190,9 +190,8 @@ work within the constraints of a Google supported ecosystem.
 
 
 ## References
-- {Wikipedia}(https://en.wikipedia.org/wiki/Firebase)
-- {Firebase - Back to the Basics}(https://www.youtube.com/watch?v=q5J5ho7YUhA)
-- {Firebase Features}(https://www.javatpoint.com/features-of-firebase)
-- {Firebase docs}(https://firebase.google.com/docs/)
-- {Back4app blog}(https://blog.back4app.com/firebase-advantages-and-disadvantages/)
-- {AWS Amplify vs Firebase}(https://existek.com/blog/aws-amplify-vs-firebase-whats-better/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Firebase)
+- [Firebase - Back to the Basics](https://www.youtube.com/watch?v=q5J5ho7YUhA)
+- [Firebase Features](https://www.javatpoint.com/features-of-firebase)
+- [Firebase docs](https://firebase.google.com/docs/)
+- [Back4app blog](https://blog.back4app.com/firebase-advantages-and-disadvantages/)
