@@ -59,3 +59,15 @@ Firebase faces competition from other BaaS platforms like AWS Amplify, Microsoft
 ## Conclusion
 
 Firebase, as a BaaS platform, has evolved from its roots as a real-time database service into a robust suite of tools for modern app development. Its ease of use, real-time capabilities, and serverless architecture make it an attractive choice for developers looking to build scalable, responsive, and feature-rich applications. However, potential vendor lock-in and escalating costs should be considered when choosing Firebase as the backend solution for an application. Ultimately, Firebase's success lies in its ability to empower developers to focus on creating exceptional user experiences while abstracting away much of the backend complexity.
+
+
+**Sources:**
+
+1. [Firebase Overview Video](https://www.youtube.com/watch?v=XHvWx1F3S4A)
+
+2. [Official Firebase Website](https://firebase.google.com/)
+
+3. [Firebase - Wikipedia](https://en.wikipedia.org/wiki/Firebase)
+
+4. [Firebase Realtime Database Video](https://www.youtube.com/watch?v=9kRgVxULbag)
+
