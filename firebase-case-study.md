@@ -34,7 +34,7 @@ In this case study, we'll go over Firebase's history, its key features, and its 
 - **Cloud Messaging:** Firebase allows us to deliver and receive messages in a more reliable way across platforms.
 
 - **Authentication:** Supports multiple methods including email/password, third-party providers, and phone number authentication.
-- 
+ 
 - **Realtime Database and Firestore:** are both NoSQL databases, with Firestore having more advanced querying capabilities and is generally more scalable.
 
 - **Machine Learning:** Is there to integrate machine learning models into your app.
@@ -52,7 +52,7 @@ In this case study, we'll go over Firebase's history, its key features, and its 
 
 ### Advantages of firebase
 
-**Free Plan**
+**Free Plan**  
 The availability of a free plan called Spark on Firebase makes it a good choice for developers worldwide. 
 You can easily sign in with an existing Google account and start developing your apps.
 
@@ -62,41 +62,41 @@ all the features to build sophisticated apps.
 
 While upgrading from the Spark plan, you simply pay for the extra server resources used beyond the limits of the free plan.
 
-**Faster App Development**
+**Faster App Development**  
 Firebase speeds up the development cycle by handling all backend needs, letting a front-end team bring an app to market quickly. 
 It offers pre-built services and a supportive community, cutting down on coding time and complexities.
 
-**Turnkey App Development Service**
+**Turnkey App Development Service**  
 Firebase provides tools that make app development faster and more straightforward. Such as database options of using Firestore and 
 Firestore Realtime Database. The platform covers all aspects of your app, from creation and deployment to monitoring. After launching 
 your app, Firebase also offers tools that allow you to engage with users so they can continue using your app.
 
-**Google Supports Firebase**
+**Google Supports Firebase**  
 One of the top advantages of Firebase is that it’s supported by Google, one of the leading technology giants in the world today.
 which has led to improved features and better security and stability. 
 
-**Enables Developers to Focus on Frontend Coding**
+**Enables Developers to Focus on Frontend Coding**  
 With Firebase handling backend tasks, developers are free to prioritize frontend features and improve user experience. 
 The platform's simplicity and standardized backend also speed up development, remove the need for boilerplate code, and make it 
 easier to train maintenance teams.
 
-**Serverless Platform**
+**Serverless Platform**  
 Firebase's serverless environment simplifies app scaling, eliminating the need for a specialized engineering team. You're only 
 charged for the resources you use, and the platform auto-scales without requiring your input, making DevOps and resource management more efficient.
 
-**Integrated Machine Learning Functions**
+**Integrated Machine Learning Functions**  
 Firebase lets you easily add machine learning to your apps. With built-in APIs, you can include features like barcode scanning, 
 image labeling, text identification, face detection, and many more.
 
-**Generates Traffic**
+**Generates Traffic**  
 Firebase provides features that allow you to navigate app indexing procedures so you can make your app visible on search.
 Such features help you increase your app’s ranking which gives more visibility and leads to more downloads and app usage. 
 
-**App Monitoring**
+**App Monitoring**  
 Firebase's Crashlytics feature helps you identify, solve, and fix stability issues in your app. It monitors all errors, 
 big or small, and provides detailed crash reports to show how they impact your users.
 
-**Top-Notch Security**
+**Top-Notch Security**  
 Firebase manages backup procedures efficiently, so you don’t have to bother about data loss. The secure Firebase server 
 environment secures your app and ensures your data is protected by making backups regularly. Blaze users can configure 
 automatic backup with the Realtime Database.
@@ -104,35 +104,35 @@ automatic backup with the Realtime Database.
 
 ### Disdvantages of firebase:
 
-**A Closed Source Platform**
+**A Closed Source Platform**  
 Firebase is not open-source, which limits developer control, disallowing code modifications. Although SDKs and libraries on GitHub offer 
 some workarounds, the platform doesn't support community contributions or self-hosting options for those not satisfied with the pricing.
 
-**Vendor Lock-In**
+**Vendor Lock-In**  
 The fact that Firebase users are locked in on the platform is a major disadvantage of using Firebase for app development projects.
 Because it makes it hard to move to another platform later.
 
-**Complex Pricing Model**
+**Complex Pricing Model**  
 Firebase's pricing can be complex and potentially expensive. While the free tier offers basic features, advanced functionalities 
 come at a cost. It's challenging to estimate final expenses due to the resource-based billing model. 
 
-**Not Available Globally**
+**Not Available Globally**  
 Since Firebase is an official Google product with its URL taking a Google subdomain, i.e, firebase.google.com, the service is blocked 
 in China and other countries that block Google services.
 
 Therefore, developers in such countries cannot use the Firebase platform to build and host their app backend. 
 
-**Do Not Support SQL Database**
+**Do Not Support SQL Database**  
 The two databases available on Firebase are NoSQL databases. In essence, Firebase and Realtime databases cannot support relational database structures.
 Although Firebase has added several features and upgrades to Firestore, running complex database queries is still challenging on the platform.
 
-**Handling of ACID properties**
+**Handling of ACID properties**  
 ACID properties in Firebase's Realtime Database can be complex compared to relational databases. Transactions require specific coding, 
 and data migration is slow and difficult. 
 
 The use of JSON which lacks SQL functions is a significant factor that makes Firebase databases complicated. 
 
-**Usage and Limits**
+**Usage and Limits**  
 While Firestore has excellent features like real-time database updates, offline query, and seamless scaling of the app, 
 the Firebase database still has some quotas such as:
 
@@ -143,20 +143,20 @@ the Firebase database still has some quotas such as:
 - Slow queries undermine database performance.
 - The query pattern is not very flexible.
 
-**Free Plan Support Basic Functions Only**
+**Free Plan Support Basic Functions Only**  
 The free Spark plan on Firebase offers basic app-building features, while advanced options like Machine Learning and Cloud Functions 
 are for premium Blaze users. Cloud Functions have a free quota that is restricted to Blaze users only, and charges apply after exceeding the free limit.
 
-**Restricted to Google Cloud**
+**Restricted to Google Cloud**  
 Firebase is hosted on Google Cloud, which means you can't use it with other cloud providers like AWS, Azure, or DigitalOcean. 
 This limits your options for potentially cheaper hosting. Firebase users do not have server-level access, which makes server customization difficult.
 
-**Lacks Dedicated Server and Enterprise Support**
+**Lacks Dedicated Server and Enterprise Support**  
 Firebase does not offer dedicated server plans and enterprise support, which can be an issue for certain users.
 While Firebase works excellently as a serverless platform, such a hosting approach might not be appropriate for projects 
 that need a higher level of customization on fully dedicated server clusters.
 
-**No GraphQL APIs**
+**No GraphQL APIs**  
 Firebase provides REST as the default API option while GraphQL is unavailable. However, you can create a workaround to implement GraphQL API on Firebase.
 
 
