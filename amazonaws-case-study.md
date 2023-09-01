@@ -1,17 +1,23 @@
 ---
 title: Amazon AWS Case Study
 author: Kevin Rundberg <Kenyro>
-tags: amazon, aws, case study, platform
+tags: amazon, aws, case study, platform, cloud computing
 ---
 
 ## Introduction
 
-This is a case study of Amazon Web Services or AWS for short. AWS is a subsidiary of Amazon that provides on-demand cloud computing platforms and API's to indificuals, companies, and governments on a "pay-as-you-go" solution. AWS 
+This is a case study of Amazon Web Services or AWS for short. AWS is a subsidiary of Amazon that provides on-demand cloud computing platforms and API's to individuals, companies, and governments on a "pay-as-you-go" solution.
 
 ## Brief History
-- 2002: Web services launched.
+- 2002: Web services launched, opening up the Amazon.com platform to all developers.
 - 2006: Amazon S3 cloud storage launched, founded by vice president Andy Jassy.
-- 2010: Amazon.com retail sites migrates to AWS
+- 2010: Amazon.com retail sites migrates to AWS.
+- 2012: AWS hosted first major annual conference, re:Invent. Netflix announces plans to migrate 100% of its infrastructure to AWS.
+- 2014: Launches its partner network (APN), which focused on helping AWS-based companies grow and scale the success of their business with close collaboration and best practices.
+- 2015: Amazon reports sales of $1.57 billion in the first quester of the year.
+- 2016: First quarter revenue of $2.57 billion, an 64% increase from the previous year.
+- 2018: Launches an autoscaling service.
+- 2019: AWS reported 37% yearly growth and accounted for 12% of Amazon's revenue.
 
 ## Main Features
 
