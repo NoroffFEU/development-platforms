@@ -162,7 +162,7 @@ Firebase provides REST as the default API option while GraphQL is unavailable. H
 
 ## Getting Started
 
-1. **Sign Up**: If you don’t have a Google account, you’ll need to create one. Then go to <u>[Firebase website](https://firebase.google.com/)</u>
+1. **Sign Up**: If you don’t have a Google account, you’ll need to create one. Then go to [Firebase website](https://firebase.google.com/)
 2. **Create a project**: Click on "create a project" to create a new project. And follow the on-screen instructions. 
 You'll need to give your project a name, select a Cloud Firestore location, and more. 
 3. After creating your new project, you can press the "Sign Up" button to sign up for firebase.
