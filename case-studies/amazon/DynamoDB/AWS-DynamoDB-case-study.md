@@ -30,6 +30,7 @@ The list below includes but is not limited to some of the most important feature
 
 |    Features      |              Description                           |
 | --------------- | -------------------------------------------------- |
+| Key-Value Store | In a Key-Value database data is organized as pairs, with a unique "key" serving as an identifier and the corresponding "value" storing the data. Keys and values can be simple or complex objects. Key-value databases, like Amazon DynamoDB, can easily scale horizontally by adding partitions, enabling them to handle immense amounts of data, unlike some other database types. For instance, DynamoDB automatically adds partitions to a table when needed for increased storage capacity. |
 | Managed NoSQL Database | DynamoDB allows you to easily scale up or down based on your application's needs, without requiring you to provision hardware. |
 | High Availability | It offers built-in high availability and data durability by automatically replicating data across multiple Availability Zones. |
 | Data Replication | DynamoDB supports global tables, enabling you to replicate data across multiple AWS regions for low-latency access from anywhere. |
@@ -174,6 +175,7 @@ In essence, AWS DynamoDB continues to be a significant player in the world of mo
 - [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
 - [Amazon DynamoDB - Features](https://aws.amazon.com/dynamodb/features/?pg=dynamodbt&sec=hs)
 - [Amazon DynamoDB - Documentation and Whitepapers](https://aws.amazon.com/dynamodb/resources/)
+- [What Is a Key-Value Database?](https://aws.amazon.com/nosql/key-value/)
 - [AWS Documentation](https://docs.aws.amazon.com/index.html)
 - [Pricing for Provisioned Capacity](https://aws.amazon.com/dynamodb/pricing/provisioned/)
 - [AWS Free Tier FAQs](https://aws.amazon.com/free/free-tier-faqs/?audit=2019q1)
