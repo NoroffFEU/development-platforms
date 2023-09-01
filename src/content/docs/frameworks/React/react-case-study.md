@@ -115,7 +115,7 @@ React has been designed from the start for gradual adoption. You can use as litt
     rays, we should treat them as immutable objects. Instead of mutating them, we should create new objects or arrays to update the state
 -   Immer is a library that can help us update objects and arrays in a more concise and mutable way.
 -   To share state between components, we should lift the state up to the closest parent component and pass it down as props to child components.
-    -The component that holds some state should be the one that updates it. If a child component needs to update some state, it should notify the parent component using a callback function passed down as a prop.
+-   The component that holds some state should be the one that updates it. If a child component needs to update some state, it should notify the parent component using a callback function passed down as a prop.
 
 ### Building Forms
 
@@ -147,7 +147,7 @@ React is a popular front-end library that provides several advantages over other
 
 **Easy to Learn:** React has a relatively low learning curve compared to other JavaScript frameworks because it is just a library and not a full-fledged framework. However, it requires knowledge of JavaScript and JSX syntax .
 
--   **Extensions:** React has many extentions that we can use to create full-fledged UI applications. It supports mobile app development and provides server-side rendering. React is extended with Flux, Redux, React Native, etc., which helps us to create good-looking UI.
+**Extensions:** React has many extentions that we can use to create full-fledged UI applications. It supports mobile app development and provides server-side rendering. React is extended with Flux, Redux, React Native, etc., which helps us to create good-looking UI.
 
 **Large Community Support:** React has a large community that provides support and resources for developers. It also has more third-party libraries and tools available than other JavaScript frameworks.
 
