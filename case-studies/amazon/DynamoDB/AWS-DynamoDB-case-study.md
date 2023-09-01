@@ -87,7 +87,9 @@ One of the drawbacks with provisoned capacity is excess capacity that can lead t
 | Total Monthly Billing | First Month: 391.60 USD<br>After: 44.26 USD  | 28.01 USD |
 | Total Price First Year | 922.72 USD  | 336.12 USD |
 
-ℹ️ **EDITORS NOTE**: The prices in the table are from the expected calculations provided by each website thus you should take into consideration that there might be some slight differences. ℹ️
+> ℹ️ **EDITORS NOTE**
+>
+> The prices in the table are from the expected calculations provided by each website thus you should take into consideration that there might be some slight differences.
 
 ### Free Tier Model
 
