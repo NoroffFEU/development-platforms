@@ -21,27 +21,35 @@ Shared hosting is when multiple websites share the resources of a single server.
 
 Bluehosts shared hosting services is a cost-effective option that dosnt require extensive resources or high level of costomization. With its one-click WordPress Installation feture it is easy to setup a WordPress website. You also get a free domain name the first year. If you have a small business or website, but you have limited resources and technical knowledge, Bluehost shared hosting services would be a easy, quick and affordable way to get your business or website up and running.
 
-Other features include:
+- **Streangth:**
 
-- **Free SSL Certificate:** for securing youre website.
+- User-friendly interface: Bluehost has an intuitive and userfriendly interface that makes it accesible for beginners to set up and manage their website.
 
-- **cPanel Control Panel** Bluehost utilizes cPanel - a industry-standard control panel to simplify the process of managing websites, domains, files, databases, and other server-related tasks.
+- cost-effictive: Bluehosts shared hosting plans are competitively priced and an attractive option for beginners and small businesses with limited resources. you also get a 30-day money-back guarantee allowing users to try the service with minimal risk.
 
-- **Security Features:** Bluehost incorporates security features like spam protection, site lock, and server monitoring to help protect your website from potential threats.
+- customer support: The fact that bluehost offers 24/7 customer support makes it very appealing to small businesses and beginners. they also offer customer support throug various channels such as email, phone and live chat.
 
-## Weaknesses
+- Wordpress Integration: Bluehost offers a one-click Wordpress installation and tailored hosting plans for WordPress websites.
 
-Security vulnerabilities:
-In shared hosting multiple websites share the same server. When other websites on the same server experience high traffic or resource demands, it can affect the performance or loading times of your website. Shared hosting also have limitations on server-lever customization. With shared hosting there is still a greater risk, then other hosting services, when it comes to security vulnerabilities, due to the fact that multiple websites share the same server. If one website on the server is compromised, it could potentially affect other websites as well.
+- Free SSL Certificate: for securing youre website.
 
-Scalability:
-businesses that host their websites through shared hosting shares CPU, RAM, and bandwidth with other websites. This sharing allows the hosting provider to offer more affordable plans, but it can also lead to limitations in terms of performance and scalability. If your once small business, suddenly grows and gets alot more traffic, it might be time to consider to change to a more advanced hosting option, like (VPS) virtual private server or a dedicated server. Bluehost, like most other hosting services, offers different hosting options to suit your needs.
+- cPanel Control Panel: Bluehost utilizes cPanel - a industry-standard control panel to simplify the process of managing websites, domains, files, databases, and other server-related tasks.
 
-Pricing:
-The Pricing can also be somewhat misleading. Many shared hosting plans offers attractive introductory pricing for the first term. Renewal pricing is, however useally higher than first terms.
+- Security Features: Bluehost incorporates security features like spam protection, site lock, and server monitoring to help protect your website from potential threats.
 
-Customization:
-Shared hosting comes with costomization limitations compaired to other more advanced hosting options like VPS or dedicated servers. since multiple websites share the same server resources the server configurations are set so accomodate the needs of a wide range of websites. Shared hosting environments might have limitations on what server modules and extentions can be innstalled. Shared hosting providers typically offer a predefined set of software applications that can be installed easily through control panels like cPanel. Installing custom software may not be allowed due to security and stability concerns. Server settings and configurations are standardized and you might not have access to modify server-level settings that could impact other users on the same server.
+- **Weaknesses:**
+
+- Security vulnerabilities:
+  In shared hosting multiple websites share the same server. When other websites on the same server experience high traffic or resource demands, it can affect the performance or loading times of your website. Shared hosting also have limitations on server-lever customization. With shared hosting there is still a greater risk, then other hosting services, when it comes to security vulnerabilities, due to the fact that multiple websites share the same server. If one website on the server is compromised, it could potentially affect other websites as well.
+
+- Scalability:
+  businesses that host their websites through shared hosting shares CPU, RAM, and bandwidth with other websites. This sharing allows the hosting provider to offer more affordable plans, but it can also lead to limitations in terms of performance and scalability. If your once small business, suddenly grows and gets alot more traffic, it might be time to consider to change to a more advanced hosting option, like (VPS) virtual private server or a dedicated server. Bluehost, like most other hosting services, offers different hosting options to suit your needs.
+
+- Pricing:
+  The Pricing can also be somewhat misleading. Many shared hosting plans offers attractive introductory pricing for the first term. Renewal pricing is, however useally higher than first terms.
+
+- Customization:
+  Shared hosting comes with costomization limitations compaired to other more advanced hosting options like VPS or dedicated servers. since multiple websites share the same server resources the server configurations are set so accomodate the needs of a wide range of websites. Shared hosting environments might have limitations on what server modules and extentions can be innstalled. Shared hosting providers typically offer a predefined set of software applications that can be installed easily through control panels like cPanel. Installing custom software may not be allowed due to security and stability concerns. Server settings and configurations are standardized and you might not have access to modify server-level settings that could impact other users on the same server.
 
 ## Market Comparison
 
