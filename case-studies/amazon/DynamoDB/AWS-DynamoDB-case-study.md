@@ -70,7 +70,9 @@ Some of the key points about provisioned capacity are:
 One of the drawbacks with provisoned capacity is excess capacity that can lead to over-provisioning which will result in unnecessary costs or provisioning too little capacity which can result in performance bottlenecks during high-demand periods.
 
 
-ℹ️ **EDITORS NOTE**: I would like to take this opportunity to apologize if some of the price comparisons are not quite correct in the table below, it was difficult to find and adjust the relevant values to compare with one another. ℹ️
+> ℹ️ **EDITORS NOTE**
+>
+> I would like to take this opportunity to apologize if some of the price comparisons are not quite correct in the table below, it was difficult to find and adjust the relevant values to compare with one another.
 
 
 
