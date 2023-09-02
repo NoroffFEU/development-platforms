@@ -61,21 +61,21 @@ This makes it much faster to boot and does not need [kernel](https://en.wikipedi
 
 ## Brief History 
 
-When Docker launched in 2013, it was a Linux-based kernel containerization technology. Only Linux user was using Docker before Docker partnered up with [Redhat](https://www.redhat.com/en), and This may be the most prosperous partnership Docker has made because this led to an even more extensive collaboration in docker history, [Microsoft](https://www.microsoft.com/) wants to make this technology ready for Windows users and Windows server before Microsoft made partnership with Docker [LinkedIn](https://www.linkedin.com/) so that Docker had grew by 160% present by 2016. By 2019, Docker and Microsoft released Docker to Windows and Windows servers. 
+When Docker launched in 2013, it was a Linux-based kernel containerization technology. Only Linux user was using Docker before Docker partnered up with [Redhat](https://www.redhat.com/en), and This may be the most prosperous partnership Docker has made because this led to an even more extensive collaboration in docker history, [Microsoft](https://www.microsoft.com/) wants to make this technology ready for Windows users and Windows server before Microsoft made a partnership with Docker [LinkedIn](https://www.linkedin.com/) so that Docker had grew by 160% present by 2016. By 2019, Docker and Microsoft released Docker to Windows and Windows servers. 
 
 
 
-- 2013 Docker and Red Hat Announced a collaboration around Fedora, Red Hat Enterprise, OpenShift
-- 2014 October Microsoft announced the intergration of the Docker engine into Windows Server, Support for Docker client in windows. 
-- November 2014: Docker container services ware announced for the Amazon elastic Computer cloud. 
-- 2014 November: Docker annonced a partership with Stratoscal.
-- 2014 December IBM anounced a partnershipt with Docker that enables Docker to integrate more to IBM cloud.
-- 2015 December: Oracle Cloud added Docker container support after acquiring SlackEngine.  
-- 2016 April: Windoc and independent software vendor released a port of open source project to windows, supporting windows 2012 R2 
-- 2016 May: Analysis of Linkedin profile mentoions showed Docker grew by 160% in 2016
-- 2019 May Announced the second verison of windows subsystem for link (WSL) from microsoft
-- 2019 aug Annoced a backport of WLS2 to windows from microsoft 
-- 2021 Aug: Docker Desktop from windows and MacOS is no longer fre for enterprise user 
+- 2013 Docker and Red Hat Announced a collaboration around Fedora, Red Hat Enterprise, and OpenShift.
+- In October 2014, Microsoft announced the integration of the Docker engine into Windows Server and support for Docker clients in Windows.
+- November 2014: Docker container services were announced for the Amazon Elastic Computer cloud. 
+- 2014 November: Docker announced a partnership with Stratoscal.
+- In December 2014, IBM announced a partnership with Docker that enables Docker to integrate more into the IBM cloud.
+- 2015 December: Oracle Cloud added Docker container support after acquiring SlackEngine. 
+- 2016 April: Windoc and an independent software vendor released a port of open source project to Windows, supporting Windows 2012 R2.
+- 2016 May: Analysis of LinkedIn profile mentions showed Docker grew by 160% in 2016.
+- 2019 May Announced the second version of Windows subsystem for the link (WSL) from Microsoft.
+- 2019 Aug Annoced a backport of WLS2 to Windows from Microsoft.
+- 2021 Aug: Docker Desktop from Windows and MacOS is no longer Free accessible for enterprise users.
 
 ## Features 
 
