@@ -35,20 +35,20 @@ folder:
     </li>
     <li><a href="#pros">Pros</a></li>
     <li><a href="#cons">Cons</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
     <li>
-        <a href="#getting-started-with-docker">Getting started with Docker</a>
+        <a href="#getting-started-with-docker">Getting Started with Docker</a>
         <ul>
             <li>
                 <a href="#installing">Installing</a>
                 <ul>
-                    <li><a href="#windows">Windows</a></li>
-                    <li><a href="#macos">MacOS</a></li>
+                    <li><a href="#windows-install-guide">WinWindows Install Guidedows</a></li>
+                    <li><a href="#macos-install-guide">MacOS Install Guide</a></li>
                 </ul>
-                <li><a href="#use-docker">Use Docker</a></li>
+                <li><a href="#using-docker">Using Docker</a></li>
             </li>
         </ul>
     </li>
+    <li><a href="#conclusion">Conclusion</a></li>
     <li><a href="#references">References</a></li>     
   </ol>
 
@@ -159,7 +159,7 @@ Docker is easy to maintain software update; because Docker is open source, they 
 
 * **Run-Cost**</br>It is usually cheaper to run docker containers than standard servers because docker tech has less memory, CPU, and HDD resources.
 
-## cons
+## Cons
 
 Docker has many benefits, but when it comes to security, this is the biggest drawback to using Docker because of the lightweight that Docker runs on single applications and dependencies. It would help if you thought more about security when using Docker. Black hat hacker has less to think about to find the venerability when it comes to docker container, so when you start learning Docker, you need to think about security.
 
@@ -171,25 +171,14 @@ Docker has many benefits, but when it comes to security, this is the biggest dra
 
 * **Interface**</br>Docker has better-using UI, but Containers using CLI are not an Operative System UI; they need to learn to use the Command line to use Docker 100% 
 
-## Conclusion 
+ 
 
-If you want to use Docker, you need to see if you have the neologies about Docker and security, or think in the long run, you need to cut costs or be willing to spend the time and money to learn Docker. The guard on the docker host has become more secure because of the many users docker has today. But think about what you want today: A virtual machine or out-of-the-box system hosting your application or data. You will need to think about what most are imported for your application. They are planning a security system for hosting with Docker. Docker has maintenance for workflow or hosting. Docker has a good place for an effective workflow for a team of developers. Docker has one of the biggest userbase Containerization platforms, so finding help and tutorials in the community is there for you.
-
-**Before start to use Docker engine**
-
-* **Risk Analyze**</br>Resource security and vulnerability are needed in dependence on the library that they want to use. 
-
-* **Image Risk**</br>Regarding using Docker, because of open source, everyone can make an Image, So the Best practice is to use the official Image because of security. 
-
-
-**Note from the author**</br>In this case study, I need to understand what Docker is and how it works and start learning it, so I have done one project. If you want to test it, visit my [GitHub](https://github.com/nexnic/Docker-NodeJS) repository or continue reading.  
-
-## Getting started with Docker 
+## Getting Started with Docker  
 
 ### Installing 
-To install Docker on Windows, you need Windows subsystem Linux enabled
+Before we install Docker Desktop, we need to read the requirements for your operative system, CPU-Supported.
 
-Using the Docker Desktop
+**CPU Support**
 
 | Platform  | x86_64 / amd64 | arm64 (Apple Silicon) |
 | --------- | -------------- | --------------------- |
@@ -197,52 +186,117 @@ Using the Docker Desktop
 | macOS  | ✅ | ✅ |
 | Linux  | ✅ ||
 
-#### Windows
+#### Windows Install Guide
 
-For install docker on windows need Windows subsystem Linux enable, [Read-more](https://docs.microsoft.com/en-us/windows/wsl/install-win10) And download docker install file [Download-here](https://docs.docker.com/desktop/install/windows-install/) and install it. 
 
-**Requierment** 
-* WLS version 1.1.3 or newer 
-* Windows 11 Home or Pro version 21H2
+To install Docker on Windows, you need to set up the Windows Subsystem Linux (WSL)[ Click here](https://docs.microsoft.com/en-us/windows/wsl/install-win10).  
+
+Download Docker from the official site [Click here](https://docs.docker.com/desktop/install/windows-install/)
+
+**Requirements** 
+* WSL version 1.1.3 or newer
+* Windows 11 Home or Pro version 21H2 
 * Windows 10 Home or Pro version 21H2
-* Turn on the WSL [Document](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-* Ram 4GB / Bios Virtualization support
+* 4GB Ram
+* Bios Virtualization support
 
-#### MacOS
+#### MacOS Install Guide
 
-**Requierment**
+Download Docker Desktop for Intel [Click here](https://desktop.docker.com/mac/main/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-amd64&_gl=1*6fk0e3*_ga*NzgwMzgzMDc3LjE2OTI1MjYwMjQ.*_ga_XJWPQMJYHQ*MTY5MzY1MDgwNy4yNS4xLjE2OTM2NTEzNDIuNjAuMC4w)
 
-*intel Chip*
-* OS much be Big sur or newer
-* Ram 4 Gb
-If you have VirtualBox version 4.3.30 
-Need to uninstall it
+Download Docker Desktop for Apple Silicon [Click Here ](https://desktop.docker.com/mac/main/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-arm64&_gl=1*vxin8h*_ga*NzgwMzgzMDc3LjE2OTI1MjYwMjQ.*_ga_XJWPQMJYHQ*MTY5MzY1MDgwNy4yNS4xLjE2OTM2NTEzNDIuNjAuMC4w)
 
-*Apple Silicon*
-* Os much be Big sur or newer
-* Ram 4 Gb
+**Requirements**
 
-### Use Docker 
-Okay, now you have installed Docker, we can test it out. I have made a Docker image to make it easier to understand how Docker works. You only need to download the Image from GitHub [here](https://github.com/nexnic/docker-api).
+**Intel**
+* OS Big Sur or Newe
+* 4Gb Ram
+Note Virtualbox has compatible problems with Docker Engine with VirtualBox Version 4.3.30. It would be best if you uninstalled it before installing Docker Desktop.
 
-When you have downloaded the repository, Open a terminal and go to the root folder of the repository. 
+**Apple Silicon**
+* OS Big Sur or Newer
+* 4GB Ram
+
+### Using Docker 
+Let us start using Docker now. We will need a Docker image to build a container. I have made one docker image for us to test out building a docker container; we will need to download it from The repository. 
+
+Link to [Repository](https://github.com/nexnic/Docker-NodeJS)
+
+When it is done downloading, Open up the Terminal and go to the repository's root folder. Name Docker-Nodejs. You will see files and folders inside the folder, but the most important file and folder is Dockerfile, the app folder.
+
+**Dockerfile**
+
+This file is the template for our Docker container. Please think of the docker container as a Box and fill it with the application we will run. In this case, we will need NodeJS; inside the Dockerfile, we are getting the dependable for a parent image from NodeJS to run this site. However, let us build this to templet to images so we can run it. 
+
+When we build this template image to the actual Docker image, we need to open the Terminal and go to the root folder where the Dockerfile is. 
+This is important. You can not build an Image from a subfolder; it needs to be where the Dockerfile is, or it will not build this Docker image. 
+
+**The command**
+**docker** (Callout to the Docker application)
+**build** (This is so Docker will know we will build an image.)
+**-t**(Tag This will tell Docker that we are going to name this Image)
+dot (the dot is so Docker will know that we have the Dockerfile templet we are going to build from)
+
+e.g - 1
+```
+docker build -t NameOfImage .
+```
+
+When Docker is done with building the Image, let us check after the Image.
+
+**The command** 
+**docker** (Callout to the docker engine)
+**images**(This is so the Docker will know to want the complete list of images)
+
+e.g - 2
 
 ```
-docker build -t name .
+docker images
 ```
+The result will look like this one.
+|------| ------|------|------|------|
+|REPOSITORY| TAG | IMAGE ID | CREATED | SIZE |
+| name | lastest| 5a13f03f8840 |  15 sec | 1.5GB |
 
-This will build the Image from this template. And if you look at your docker desktop, you see a new image inside. 
+Now, we are ready to run the Image to the Container since this Image can be accessed from the host machine. We will need to open the port for the Container. The default port that needs to be opened is 8000. If you want to change this, go to /app/index.js variable (PORT) to change the default port 
 
+**The Command**
+**docker**(Callout to the docker engine)
+**run**(This will tell Docker that we will run a container.)
+**-p**(This is like the tag, but we are telling Docker we will need a specific port open.)
+**Name** (This needs to be the same name used for building the Image.)
 
-Now, we are going to start it and make it to Container. 
+e.g - 3
+
 ```
 docker run -p 8000:8000 name
 ```
+When you run this Container, the Docker Engine will transfer the term to the container terminal output and input using REST-AP, but in this case, I have restricted the CLI only to read, not write to it. 
+You will get a confirmation inside the CLI when the application is up and running. 
 
-Now the server has started up, you will get a message from the server Inside the CLI.
+**Output**
 ```
 Server is Listen on Port:8000
 ```
+
+Now, we can open the default Browser and go and look at the [application](http://127.0.0.1:8000/
+). 
+
+**Input**
+```
+http://127.0.0.1:8000/
+```
+
+Docker is a good place for isolating the application and not having problems with team members or quality control testing it, where bugs are only found when they are testing it and can be replicated on another machine. 
+
+## Conclusion
+If you want to use Docker, you need to see if you have the neologies about Docker and security, or think in the long run, you need to cut costs or be willing to spend the time and money to learn Docker. The guard on the docker host has become more secure because of the many users docker has today. But think about what you want today: A virtual machine or out-of-the-box system hosting your application or data. You will need to think about what most are imported for your application. They are planning a security system for hosting with Docker. Docker has maintenance for workflow or hosting. Docker has a good place for an effective workflow for a team of developers. Docker has one of the biggest userbase Containerization platforms, so finding help and tutorials in the community is there for you.
+
+**Before starting to use the Docker engine**
+
+**Risk Analyze**<br>Resource security and vulnerability are needed in dependence on the library that they want to use. 
+
+**Image Risk**</br>Regarding using Docker, because of open source, everyone can make an Image, So the Best practice is to use the official Image because of security. 
 
 ## References 
 
