@@ -254,8 +254,8 @@ e.g - 2
 docker images
 ```
 The result will look like this one.
-|------| ------|------|------|------|
 |REPOSITORY| TAG | IMAGE ID | CREATED | SIZE |
+|------| ------|------|------|------|
 | name | lastest| 5a13f03f8840 |  15 sec | 1.5GB |
 
 Now, we are ready to run the Image to the Container since this Image can be accessed from the host machine. We will need to open the port for the Container. The default port that needs to be opened is 8000. If you want to change this, go to /app/index.js variable (PORT) to change the default port 
