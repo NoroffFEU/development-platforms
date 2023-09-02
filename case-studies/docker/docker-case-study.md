@@ -91,26 +91,26 @@ The Docker engine is Client-server Technology. This supports the tasks and workf
 
 Docker Engine uses a server with [daemon](https://en.wikipedia.org/wiki/Daemon_(computing)) process technology called Docker using REST-API and a client-side [CLI](https://en.wikipedia.org/wiki/Command-line_interface) (Command-line Interface) called Docker.
 
-#### Docker Enging Network
+#### Docker Engine Network
 
 The Docker engine provides a network driver to host and Bridge containers. 
-This is useful for hosting and connecting to a different network, and the Docker engine Has three other network models. 
+Docker Network helps host and connect to a different network, and the Docker engine Has three other network models. 
 
-* **Bridge**</br>the default network Docker0
+* **Bridge**</br>The Default network Docker0.
 
-* **None**</br>this is for connect to specific network, but this do not give the container to external network. 
+* **None**</br>None is for connecting to a specific network, but this does not have the container access to the external network. 
 
-* **Host**</br>this will add the container or containers to the host network, with no isolation between host machine and the container. 
+* **Host**</br>This will add the Container or containers to the host network with no isolation between the host machine and the Container.
 
 #### Docker Engine Storage 
 
-Docker Engine creates a data volume concurrently with the container image, including the data copied from the parent image. But the Docker engine comes with three different types of books:
+Docker Engine creates a data volume concurrently with the container image, including the data copied from the parent image. However, the Docker engine comes with three different types of books:
 
-* **Host volumes**</br>this is what are live in the file system.
+* **Host volumes**</br>Host Volumes are where and what is live on the file - system.
 
-* **Named volumes**</br>this is managed by docker on the disk where the volume is created and name. 
+* **Named volumes**</br>docker manages this on the disk where the volume is created and named.
 
-* **Anonymous Volumes**</br>This are similar to name volumes. 
+* **Anonymous Volumes**</br>This is similar to name volumes.
 
 ### Docker hub 
 
