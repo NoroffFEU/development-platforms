@@ -1,5 +1,5 @@
 ---
-title: Example Case Study
+title: Exampl Case Study
 author: Example Author <ExampleUsername>
 tags: example, case study, platform
 ---
