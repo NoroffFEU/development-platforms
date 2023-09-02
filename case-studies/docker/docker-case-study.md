@@ -161,11 +161,11 @@ Docker is easy to maintain software update; because Docker is open source, they 
 
 ## cons
 
-Docker has many benefits, but when it comes to security, this is the biggest drawback to using Docker because of the lightweight that Docker runs on single applications and dependencies. It would help if you thought more about security when using Docker. Black hat hacker has less to think about to find the venerability when it comes to docker container, so when you start learning Docker, you need to think about security. 
+Docker has many benefits, but when it comes to security, this is the biggest drawback to using Docker because of the lightweight that Docker runs on single applications and dependencies. It would help if you thought more about security when using Docker. Black hat hacker has less to think about to find the venerability when it comes to docker container, so when you start learning Docker, you need to think about security.
 
-* **Security**</br>Docker run a lightweight version, so there is less security on the default image.
+* **Security**</br>Docker runs a lightweight version, so there is less security on the default image.
 
-* **Learning curved**</br>Dockers do not have an out-of-the-run system; one must learn to set up and add security to use Docker. 
+* **Learning curved**</br>Dockers do not have an out-of-the-run system; one must learn to set up and add security to use Docker.
 
 * **Single application**</br>Docker container will only run most single applications when need to run more Container or use a Virtual Machine.
 
