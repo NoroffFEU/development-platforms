@@ -1,19 +1,21 @@
 ---
 title: DBaaS Case Study
 author: Sakon Patsamit
-tags: DBaas, case study, cloud database, cloud services
+tags: DBaaS, case study, cloud database, cloud services
 ---
 
 ## Introduction
 
-DBaaS or Database-as-a-service is a cloud computing service. In this case study we will dive into what DBaaS is and how it can be beneficial for a frontend developer.
+DBaaS or Database-as-a-service is a cloud based service that provides access to managed database environment. It simplifies the complexity of setting up, maintaining, and scaling databases. DBaaS eliminates the need for organizations to invest in dedicated hardware, administrators, or extensive infrastructure management. DbaaS is a powerful tool that empowers businesses to focus on their core operations while letting experienced cloud providers take care of the task of managing the database. In this case study we will dive into what DBaaS is and how it can be beneficial for a frontend developer.
 
 ## Brief History
 
 - Cloud computing is believed to have been invented by J.C.R Licklider in the 1960s.
 - 1983, CompuServe offered consumers a small amount of disk space that could be used to store any files that they chose to upload.
-- The very first DBaaS providers emerged in the early 2000s.
-- Was created as an alternative to on premise database systems.
+- In the early 2000s Amazon Web Services introduced Amazon RDS marking one of the earliest instances of a cloud-based DBaaS offering.
+- 2010s, DBaaS market experienced significant growth as cloud computing becomes more prevalent.
+- 2015, NoSQL databases gain popularity, and DBaaS providers began offering managed NoSQL database options.
+- 2017, Serverless computing architectures, like AWS Lambda and Azure Functions, further simplify database management by allowing developers to focus on code while abstracting database management tasks.
 
 ## Main Features
 
@@ -37,28 +39,54 @@ DBaaS (Database as a service) vs IaaS (Infrastructure as a Service).
 
 IaaS:
 
-Iaas functions similarly to a traditional software and database managemant. You retain hands-on control over every aspect of your infrastructure. The main difference is that a cloud server is used instead of a physical one.
+Infrastructure as a Service (IaaS) is a cloud computing model that provides virtualized computing resources over the internet. It allows businesses to rent IT infrastructure, such as storage and networking components. Users can deploy and manage their own operating systems, applications and software while the cloud providers handles the underlying hardware and infrastructure management.
 
-Drawback: You would be responsible for installing and maintaining all databases and software of the cloud server. The money you would save by not having an on-site data center could go to waste by having to keep your software stack up to date.
+Advantages of IaaS:
 
-DBaaS:
+- Full Control: Users have complete control over the operating system, applications, and software stack, enabling them to run a wide range of workloads.
 
-DbaaS providers build and maintain cloud database solutions for costumers.
+- Scalability: IaaS platforms offer scalability
 
-Drawback: Every change requested must be worked within the environment of the provider's cloud services.
+- Customization: Users can install and configure databases of their choice.
+
+- Compability: IaaS supports a wide range of operating systems and software.
+
+Disadvantages of IaaS:
+
+- Complexity: Managing the infrastructure requires a skilled IT staff which can be costly for the business in the long run.
+
+- Time consuming: Users are responsible for configuring and maintaining which can be time consuming.
+
+- Higher Costs: In the long run it can be costly because you need a staff to take care of everything.
+
+Advantages of DBaaS:
+
+- Simplicity: DBaaS abstracts infrastructure management, making it easier to set up and maintain databases without the need for extensive technical expertise.
+
+- Automated Maintance: DBaaS providers will take care of the maintance for you.
+
+- Security and Compliance: Leading DBaaS providers invest in robust security measures and compliance certifications, enhancing data protection.
+
+Disadvantages of DBaaS:
+
+- Limited Customization: Users have limited control over the database environment because every change has to go through the provider.
+
+- Performance Variability: In shared DbaaS environments, eprformance may vary depending on the other user's activities on the same infrastructure.
+
+In summary, IaaS offers greater flexibility and control over infrastructure components but comes with increases complexity and operational responsibilities. As a developer I would choose DBaaS as my provider because it gives me the opportunity to focus on developing. I want to be able to focus on my work so the DBaaS providers would be of great help.
 
 ## Advantages of DBaaS in frontend
 
 There is many advantages of using DBaaS when working in frontend.
 
-DBaaS providers handles the setup and maintance of the database infrastructure.
+DBaaS providers handles the setup and maintenance of the database infrastructure.
 It lets the developer focus primary on the development of the application rather than worrying about installation or configuration.
 
 The security aspect of application will be taken care of by the providers.
 
-As your frontend application grows and needs more database resources, DBaaS providers lets you scale up and down with minimal effort.
+As your front end application grows and needs more database resources, DBaaS providers lets you scale up and down with minimal effort.
 
-DBaaS solutions are typically designed to work with various programming languages and frameworks. Making it easy for the frontend developer to integrate them into their application.
+DBaaS solutions are typically designed to work with various programming languages and frameworks. Making it easy for the front end developer to integrate them into their application.
 
 ## Disadvantages of DBaaS in frontend
 
@@ -68,9 +96,9 @@ DBaaS solutions are typically designed to work with various programming language
 
 - Since your data is stored on servers managed by third parties, it can raise some privacy concerns.
 
-- Depending on the location of the DBaaS servers and frontend application, there can be latency issues that affects the applications performance.
+- Depending on the location of the DBaaS servers and front end application, there can be latency issues that affect the applications performance.
 
-- Some industries have strict data compliance and regulatory requirements. Using a DBaaS provider might restrict you to meet the clients requirements and needs.
+- Some industries have strict data compliance and regulatory requirements. Using a DBaaS provider might restrict you to meet the client's requirements and needs.
 
 ## Getting Started
 
@@ -78,11 +106,31 @@ To get started you would need to choose a DBaaS provider.
 
 Some of the best providers are:
 
-- Amazon DynamoDB
-- Cloud SQL
-- Oracle Database
-- Azure SQL Database
-- Amazon Relational Database Service (RDS)
+Amazon Web Services (AWS)
+
+- DBaaS service: Amazon RDS (Relational Database Service)
+
+Microsoft Azure
+
+- DBaaS Service: Azure SQL Database, Azure Database for MySQL, Azure Database for PostgreSQL, Azure Cosmos DB (NoSQL)
+
+Oracle Cloud
+
+- DBaaS Service: Oracle Autonomous Database, Oracle Database Cloud Service
+
+Firebase (by Google)
+
+- DBaaS Service: Firebase Realtime Database, Firestore (NoSQL)
+
+Getting Started with DBaaS:
+
+- Choose a provider that fits your specific budget and needs
+
+- Create an account with your chosen provider
+
+- Select a Database of your choice
+
+- Follow the steps of the chosen provider
 
 ## Conclusion
 
@@ -90,11 +138,11 @@ In this case study, we've explored the world of Database-as-a-Service (DBaaS) an
 
 DBaaS offers a range of features which we have highlighted. These features empowers frontend developers by simplifying database management, allowing them to focus on crafting their applications.
 
-However, like any technology solutions, DBaaS has its share of drawbacks. It can be costly, you have limited control over any sort of customization. There is some data privacy concerns and potensial latency issues, depending on the servers location.
+However, like any technology solutions, DBaaS has its share of drawbacks. It can be costly, you have limited control over any sort of customization. There is some data privacy concerns and potential latency issues, depending on the servers location.
 
-For developers looking to make us of DBaaS, it is essential to choose the right provider that aligns with your projects spesific requirements.
+For developers looking to make use of DBaaS, it is essential to choose the right provider that aligns with your projects specific requirements.
 
-In conclusion, DbaaS has revolutionized the way we manage and interact with databases in the cloud era. It is important to understand that there is upsides and downsides to any modern technology but researching and choosing the right providers that aligns with your project requirements can help developers to create innovative, efficent, and secure applications in today's dynamic digital landscape.
+In conclusion, DBaaS has revolutionized the way we manage and interact with databases in the cloud era. It is important to understand that there are upsides and downsides to any modern technology but researching and choosing the right providers that aligns with your project requirements can help developers to create innovative, efficient, and secure applications in today's dynamic digital landscape.
 
 ## References
 
