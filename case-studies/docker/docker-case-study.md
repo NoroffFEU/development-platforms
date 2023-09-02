@@ -79,8 +79,8 @@ When Docker launched in 2013, it was a Linux-based kernel containerization techn
 
 ## Features 
 
-* Docker Engine 
-* Docker Hub
+* Docker Engine
+* Docker HUB
 * Docker Image 
 * Docker Container 
     
