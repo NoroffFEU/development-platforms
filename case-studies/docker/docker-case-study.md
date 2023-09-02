@@ -54,10 +54,8 @@ folder:
 
 ## Introduction 
 
-**What is Docker Why use docker**
-
-Docker is one of the most popular containerizing technology companies. Still, the word Docker is can be referred to [Docker Inc.](https://www.docker.com/), the company it can also be used when it comes to [Docker Engine](https://docs.docker.com/engine/), running the virtualizing environment. Most have heard of virtualizing, and many will think about virtualizing a game or virtual environment. But if you have heard about [Virtual Machine](https://en.wikipedia.org/wiki/Virtual_machine), the docker engine is like this but with some changes. Docker shares the kernel with the host machine,
-This makes it much faster to boot and does not need [kernel](https://en.wikipedia.org/wiki/KERNAL) to run; Docker will then use fewer H/W resources to run. Docker takes the application and dependencies to run a Container, and the docker engine runs with [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) and [CLI](https://en.wikipedia.org/wiki/Command-line_interface) to let a user connect to the Container. For developer it's good development platform for building good workflow, Version Control on Software, like [NodeJS](https://en.wikipedia.org/wiki/Node.js), [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), [python](https://en.wikipedia.org/wiki/Python_(programming_language)), [MariaDB](https://en.wikipedia.org/wiki/MariaDB), [SQL](https://en.wikipedia.org/wiki/SQL). But not only developers use this platform, Cybersecurity resource, and base Platform. Docker is a good tool in the IT world today. Most Operative system, Client base, and server has support for Docker. Today, Docker has one of the world's most extensive Container image libraries on [Docker Hub](https://hub.docker.com/). 
+Docker is one of the most popular containerizing technology companies. Still, the word Docker can be referred to [Docker Inc.](https://www.docker.com/), the company it can also be used when it comes to [Docker Engine](https://docs.docker.com/engine/), running the virtualizing environment. Most have heard of virtualizing, and many will think about virtualizing a game or virtual environment. But if you have heard about [Virtual Machine](https://en.wikipedia.org/wiki/Virtual_machine), the docker engine is like this but with some changes. Docker shares the kernel with the host machine,
+This makes it much faster to boot and does not need [kernel](https://en.wikipedia.org/wiki/KERNAL) to run; Docker will then use fewer H/W resources to run. Docker takes the application and dependencies to run a Container, and the docker engine runs with [REST API](https://en.wikipedia.org/wiki/Representational_state_transfer) and [CLI](https://en.wikipedia.org/wiki/Command-line_interface) to let a user connect to the Container. For developer it's good development platform for building good workflow, Version Control on Software, like [NodeJS](https://en.wikipedia.org/wiki/Node.js), [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), [python](https://en.wikipedia.org/wiki/Python_(programming_language)), [MariaDB](https://en.wikipedia.org/wiki/MariaDB), [SQL](https://en.wikipedia.org/wiki/SQL). However, not only developers use this platform, Cybersecurity resources, and base Platform. Docker is a good tool in the IT world today. Most Operative system, Client base, and server has support for Docker. Today, Docker has one of the world's most extensive Container image libraries on [Docker Hub](https://hub.docker.com/). 
 
 
 
@@ -187,7 +185,7 @@ If you want to use Docker, you need to see if you have the neologies about Docke
 ## Getting started with Docker 
 
 ### Installing 
-DTo install Docker on Windows, you need Windows subsystem Linux enabled
+To install Docker on Windows, you need Windows subsystem Linux enabled
 
 Using the Docker Desktop
 
