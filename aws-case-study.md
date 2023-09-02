@@ -1,67 +1,47 @@
 ---
-title: Exampl Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+title: AWS Case Study
+author: Frithjof Falck <fof002>
+tags: aws, case study, cloud
 ---
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+Amazon Web Services (AWS) is a leading cloud computing platform that offers a wide range of cloud-based services to individuals, businesses, and organizations. This case study explores the history, main features, market comparison and how to get started with AWS.
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+AWS was launched by Amazon in 2006 to provide on-demand computing resources over the internet. Initially, it offered basic services like storage and computing. Over the years, AWS expanded to include databases, machine learning, artificial intelligence, analytics, and more. Today the service serves millions of customers worldwide, from startups to Fortune 500 companies.
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+AWS has many services. A few of them are:
 
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-
-Example feature table:
-
-| Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+- **Compute**: Services like Amazon EC2 (Elastic Compute Cloud) allow users to run virtual servers in the cloud.
+- **Storage**: Amazon S3 (Simple Storage Service) provides scalable and durable object storage, while Amazon EBS (Elastic Block Store) offers block storage.
+- **Databases**: AWS offers managed database services like Amazon RDS (Relational Database Service) and NoSQL databases like Amazon DynamoDB.
+- **Machine Learning**: AWS provides tools for machine learning and artificial intelligence, including Amazon SageMaker.
+- **Networking**: Amazon VPC (Virtual Private Cloud) enables users to create isolated networks, while AWS Direct Connect offers dedicated network connections.
+- **Analytics**: Services like Amazon Redshift and Amazon EMR (Elastic MapReduce) facilitate data analytics.
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+AWS has competition from other major cloud providers. Examples of these are Microsoft Azure and Google Cloud Platform (GCP). While Azure has a strong presence in the enterprise sector and GCP excels in data analytics and machine learning, AWS stands out with its extensive service portfolio and global data center network. AWS has a large and active user community for support and new ideas. 
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+How to get started with AWS:
+
+1. Visit the AWS website and sign up for an account.
+2. Select a region where you want to deploy your resources. AWS has multiple regions worldwide.
+3. Access the AWS Management Console and choose from the wide range of services based on your needs.
+4. Start using AWS services by creating virtual servers, storage, databases, and more.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+Amazon Web Services (AWS) has revolutionized the way businesses access and manage IT resources. With a rich history, many features, and a strong position in the market, AWS continues to be a top choice for cloud computing solutions. if you are a startups, a large enterprise, or an individual developer, AWS provides the scalability, reliability, and flexibility needed to drive innovation and growth.
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [AWS Official Website](https://aws.amazon.com/)
+- [AWS Documentation](https://docs.aws.amazon.com/)
+- [Gartner Magic Quadrant for Cloud Infrastructure and Platform Services](https://www.gartner.com/en/information-technology/research/magic-quadrant)
