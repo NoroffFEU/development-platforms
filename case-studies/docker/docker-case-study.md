@@ -81,10 +81,6 @@ When Docker launched in 2013, it was a Linux-based kernel containerization techn
 
 ## Features 
 
-What is Docker? Docker can refer to the Docker engine or the company Docker Inc. Docker is Containerization technology around the Docker engine. Still, we will cover what is underneath the Docker environment.
-
-**Features**
-
 * Docker Engine 
 * Docker Hub
 * Docker Image 
@@ -133,7 +129,7 @@ These three categories make it easier to find the right Image, which is essentia
 
 
 
-[Docker Hub image](https://hub.docker.com/search?q=)</br>
+[Docker Hub image](https://hub.docker.com/search?q=)
 [Docker hub prices](https://www.docker.com/pricing/)
  
 
