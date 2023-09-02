@@ -148,15 +148,16 @@ That is what we call the parent image.
 However, we need to make some layers; this can be set as a User and Password or adding an application to copy to the project.
 
 ## Pros 
-Docker is easy to maintain software update; because Docker is open source, they are plenty of help to get started using it., When it comes to the development platform, it is an excellent environment to develop the application when the developer does not need to install the application to run the development application. A Docker container will boot faster than a virtual machine and will not require much memory or hardware.
+Docker is easy to maintain software update; because Docker is open source, they are plenty of help to get started using it., When it comes to the development platform, it is an excellent environment to develop the application when the developer does not need to install it to run the development application. A Docker container will boot faster than a virtual machine and will not require much memory or hardware.
 
-* **Portability**</br>For faster deployment, you can use services Like GitHub and Docker Hub to share the repository,
+* **Portability**</br>For faster deployment, we can use services Like GitHub and Docker Hub to share the repository.
+
  
-* **Maintaining**</br>It's easier to maintain a Docker container than a virtual machine. The cost of having a docker container is less when it comes to Cost-Per-Person offense.
+* **Maintaining**</br>It is easier to maintain a Docker container than a virtual machine. The cost of having a docker container is less when it comes to Cost-Per-Person offense.
 
-* **Scalability**</br>Containers can be hosted on a single host, and this is why cloud services often use containerizing technology like Google. 
+* **Scalability**</br>Containers can hosted on a single host, and this is why cloud services often use containerizing technology like Google. 
 
-* **Run-Cost**</br>It is usually cheaper to run docker containers than standard servers because docker tech has less memory, CPU, and HDD resources to run. 
+* **Run-Cost**</br>It is usually cheaper to run docker containers than standard servers because docker tech has less memory, CPU, and HDD resources.
 
 ## cons
 
