@@ -114,12 +114,12 @@ Docker Engine creates a data volume concurrently with the container image, inclu
 
 ### Docker hub 
 
-Docker Hub is a register for images and containers where we can get official images. This is one of the more extensive registers of container images. But not all images are shared publicly. You can share private images there. But it's a different payment plan for this on the free version. You can share only in private. 
+Docker Hub is a register for images and containers where we can get official images. This is one of the more extensive registers of container images. Nevertheless, not all images are shared publicly. You can share private images there. However, there is a different payment plan for this on the free version. You can share only in private.
 
-Docker hub is using a Trust system and is called Trusted Content 
+Hub is using a Trust system called Trusted Content 
 These three categories make it easier to find the right Image, which is essential because of the security when developing and hosting a docker container. 
 
-**Name of the Categories** 
+**Categories** 
 
 1. Docker Official image
 2. Verified Publisher
