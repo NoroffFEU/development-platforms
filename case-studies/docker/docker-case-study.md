@@ -87,9 +87,9 @@ When Docker launched in 2013, it was a Linux-based kernel containerization techn
 
 ### Docker Engine 
 
-The Docker engine is Client-server Technology. This supports the tasks and workflow in building, shipping, and running the containerizing technology. 
+The Docker engine is Client-server Technology. This supports the tasks and workflow in building, shipping, and running the containerizing technology.  
 
-Docker Engine using a server with daemon ##Link to deamon# process technology called Docker using REST-API and a client-side CLI ## Link to CLI## (Command-line Interface) called Docker.
+Docker Engine uses a server with [daemon](https://en.wikipedia.org/wiki/Daemon_(computing)) process technology called Docker using REST-API and a client-side [CLI](https://en.wikipedia.org/wiki/Command-line_interface) (Command-line Interface) called Docker.
 
 #### Docker Enging Network
 
