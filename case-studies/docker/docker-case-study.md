@@ -135,16 +135,17 @@ These three categories make it easier to find the right Image, which is essentia
 ### Docker Image 
 
 Docker image Package of software that includes the Dependents and application.
-Using Dockerfile, we are setting the dependents' version and where the application is. So, think of the docker image as a template for the Container. 
+Using Dockerfile, we are setting the dependents' version and where the application is. So, think of the docker image as a template for the Container.
 
-The Dockerfile is called a Base Image, but when we use an image from NodeJS to import to the Dockerfile, the command FROM is called a Parent Image. But we often need to add some layers to the; this can be the setting of an open port or username.
+The Dockerfile is called a Base Image, but when we import an image from NodeJS to the Dockerfile, the command FROM is called a Parent Image. However, we often need to add multiple layers to the; this can be the setting of an open port or username.
 
-Docker image is a package of software that includes the dependents and application 
-Think of it like a Templet for a container. When we are started to use a Docker image, you can build yourself using Dockerfile or use a Docker image. 
+Docker image is a package of software that includes the dependents and applications. 
+Think of it like a Templet for a container. When we start using a Docker image, we use a Dockerfile to build template images. 
 
-Building a template from a Dockerfile is called a Base image, but you may need to get images from different vendors like NodeJS, Ubuntu, MariaDB, and MongoDB.
-This is called a Parent image. 
-But we need to make some layers; this can be set as a User and Password or adding an application to copy to the project. 
+Building a template from a Dockerfile is called a Base image, where we may need to get images from different vendors like NodeJS, Ubuntu, MariaDB, and MongoDB.
+
+That is what we call the parent image. 
+However, we need to make some layers; this can be set as a User and Password or adding an application to copy to the project.
 
 ## Pros 
 Docker is easy to maintain software update; because Docker is open source, they are plenty of help to get started using it., When it comes to the development platform, it is an excellent environment to develop the application when the developer does not need to install the application to run the development application. A Docker container will boot faster than a virtual machine and will not require much memory or hardware.
