@@ -18,51 +18,50 @@ This is a case study of Amazon Web Services or AWS for short. AWS is a subsidiar
 - 2016: First quarter revenue of $2.57 billion, an 64% increase from the previous year.
 - 2018: Launches an autoscaling service.
 - 2019: AWS reported 37% yearly growth and accounted for 12% of Amazon's revenue.
+- 2021: DISH Network announced it will develop and launch its 5G network on AWS
+- 2021: Spy agencies and government departments in the UK such as GCHQ, MI5, MI6 and the Ministry of Defence, have contracted AWS to host their classified materials.
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+Amazon Web Services provides an array of solutions in various industries. Its main purpose is cloud computing, meaning data can be stored and retrieved remotely. This is useful because you don't have to rely on
+having your own storage or server to manage data. Instead of relying on your own hardware, you "pay-as-you-go" by paying for the amount of traffic your company or service requires. This is beneficial as server traffic is an ever-changing variable, so the cost of the cloud storage is always coherrent with the need.
 
-You may use subheadings, tables or bullet points to structure your description:
+Features
+- Web Hosting
+- DevOps
+- E-commerce
+- And many more, these are just a few of the features relevant for this case study. A funny way to put is not what AWS offers, but what does it not offer?
 
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
 
-Example feature table:
-
-| Feature         | Description                                        |
-| --------------- | -------------------------------------------------- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+- Microsoft Azure:
+    - Advantages: Offers a wide range of services similar to AWS, Azure is known for its compatibility with Windows-based applications and integration with Microsoft products.
+    - Disadvantages: AWS has greater global presence with more data center regions.
+- Google Cloud Platform (GCP)
+    - Advantages: GCP is known for its data analytics and machine learning capabilities. It is stronger when it comes to big data processing and AI.
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+Sign Up: Visit the AWS website and sign up for an AWS account. You'll need to provide payment information, but AWS offers a free tier with limited resources for the first 12 months.
+
+Access the AWS Console: Once you have an account, you can access the AWS Management Console, where you can manage your resources, create and configure services, and access documentation and support.
+
+Choose a Region: AWS operates in multiple regions globally. Select the region closest to your target audience or where you want to deploy resources.
+
+Select Services: AWS offers a wide range of services. Depending on your needs, you can use services like EC2 for virtual machines, S3 for object storage, RDS for managed databases, and more.
+
+Start Building: AWS provides extensive documentation, tutorials, and developer resources to help you get started with building and deploying applications and services.
+
+Cost Management: Be mindful of your usage to avoid unexpected costs. AWS provides cost management tools and billing alerts to help you stay within your budget.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+The advantages of AWS include its extensive global infrastructure, a vast array of services, and a pay-as-you-go pricing model, which provides scalability and cost-efficiency. AWS's ability to cater to a wide range of industries, from web hosting to DevOps and e-commerce, makes it a versatile choice for businesses of all sizes.
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- https://www.linkedin.com/company/amazon-web-services
+- https://aws.amazon.com/
+- https://en.wikipedia.org/wiki/Amazon_Web_Services
