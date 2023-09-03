@@ -12,7 +12,8 @@ tags: kubernetes, case study, containerization
 | [Introduction](#introduction)                   |
 | [History](#history)                             |
 | [Features](#features)                           |
-| [Market comparison](#market-comparison)                           |
+| [Market comparison](#market-comparison)         |
+| [Getting started](#getting-started)             |
 | [Conclusion](#conclusion)                       |
 | [References](#references)                       |
 
@@ -26,6 +27,7 @@ Kubernetes (K8s) in an open-source container orchestration platform created to s
 - 2015: Kubernetes 1.0 was released.
 - 2016: The Helm package manager for Kubernetes was released.
 - 2018: By the number of commits, Kubernetes project was in 9th place in the list of GitHub projects. 
+- 2022: A survery of the cloud native community conducted by CNCF, found that 96% of organizations are either using or evaluating Kubernetes. The number of developers that are learning Kubernetes today are more than 5.6 million.
 
 ## Features
 
@@ -91,6 +93,7 @@ When choosing a container orchestration platform, we should consider the complex
 - [Kubernetes.io](https://kubernetes.io/)
 - [Documentation](https://kubernetes.io/docs/home/)
 - [Wikipedia History](https://en.wikipedia.org/wiki/Kubernetes)
+- [State of Kubernetes](https://www.splunk.com/en_us/blog/learn/state-of-kubernetes.html)
 - [Explained by IBM Technology](https://www.youtube.com/watch?v=aSrqRSk43lY)
 - [Docker Swarm Documentation](https://docs.docker.com/engine/swarm/)
 - [Amazon ECS Documentation](https://docs.aws.amazon.com/ecs/)
