@@ -41,6 +41,7 @@ Features
     - Disadvantages: AWS has greater global presence with more data center regions.
 - Google Cloud Platform (GCP)
     - Advantages: GCP is known for its data analytics and machine learning capabilities. It is stronger when it comes to big data processing and AI.
+    - Disadvantages: AWS has a larger market share and a more extensive service portfolio.
 
 ## Getting Started
 
