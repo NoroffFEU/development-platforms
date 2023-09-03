@@ -21,11 +21,6 @@ MongoDB was developed by a company called 10gen. The name "Mongo" stands for "Ex
 
 Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
 
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-
 MongoDB feature table:
 
 | Feature | Description |
@@ -34,9 +29,6 @@ MongoDB feature table:
 | Indexing | Fields in a MongoDB document can be indexed with primary and secondary indices or index. MongoDB offers a broad range of indices and features with language-specific sort orders that support complex access patterns to datasets. |
 | Replication | MongoDB replication is the process of creating a copy of the same data set in more than one MongoDB server to prevent vulnerabilities such as server crash, service interruptions, or even hardware failure. This greatly increased data availability and stability. |
 | Sharding | Sharding is a method for distributing or partitioning data across multiple machines by horizontally scaling. This is very usefull when one single machine can't handle the workload. Horizontal scaling refers to adding machines to share the data set and load. Horizontal scaling allows for near-limitless scaling to handle big data and intense workloads. |
-
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
 ## Market Comparison
 
