@@ -56,6 +56,33 @@ Amazon Web Services (AWS) offers Amazon ECS as a container orchestration service
 ### OpenShift
 Red Hat have developed a container platform called OpenShift. It builds onto Kubernetes but provides additional features and tools for managing and deploying applications. OpenShift offers extra security features, and emphasizes a developer-friendly experience. OpenShift provides tools for easier application deployment and management. Although OpenShift simplifies some aspects, it also introduces additional complexity due to the added features and customization options. It is suitable for organizations with specific needs and requirements since OneShift provides commercial support and features designed for enterprises.
 
+## Getting started
+To get started with K8s we first have to set up a development environment. Then we run the installation in the terminal. There are different ways to do this based on what operating system we are using:
+
+### Linux
+1. Open the terminal.
+2. Run these two commands in the following order:
+- `sudo apt-get update` (This updates your computer's information about available software.)
+- `sudo apt-get install -y kubectl` (This installs kubectl.)
+3. To check if it's installed, type `kubectl version --client`.
+
+### macOS
+1. Open the terminal.
+2. If we don't have it already, install a program called Homebrew by running this command:
+- `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
+3. Once Homebrew is installed, type `brew install kubectl`.
+4. To check if it's installed, type `kubectl version --client`.
+
+### Windows
+1. Download kubectl for Windows from this website: https://dl.k8s.io/release/stable.txt (Look for the latest stable version).
+2. Open a Command Prompt or PowerShell window.
+3. In the window, copy and paste this command, replacing `<VERSION>` with the version you downloaded:
+- `curl -LO https://dl.k8s.io/release/<VERSION>/bin/windows/amd64/kubectl.exe`
+4. Move the downloaded file to a folder that's in our computer's list of places to find programs.
+5. To check if it's installed, type `kubectl version --client`.
+
+A more detailed tutorial can be found [here](https://dev.to/stevenmcgown/kubernetes-for-dummies-5hmh).
+
 ## Conclusion
 When choosing a container orchestration platform, we should consider the complexity of our application, integration requirements, needs for scalability, our team's experience, and cloud provider preferences. K8s is known for having broad community support and extensive features. Although it is a popular choice, other tools like Docker Swarm, ECS and OpenShift can be more suitable in specific use cases.
 
