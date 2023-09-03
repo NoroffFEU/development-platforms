@@ -26,16 +26,16 @@ It offers great visual design and integration og standard frameworks allowing fo
 
 ## History
 
-Oct 2017: Wappler closed beta was released.
-Nov 2017: Wappler joined the 2017 Web Summit and was announced for the first time in public.
-Jan 2018: One of the first media articles about Wappler is published in the INN'twente Magazine.
-Feb 2018: Wappler closed it's crowdfunding campaign reaching 197% of it's initial goal.  
-May 2018: Wappler 1.0 is released after months of development at the TNW Conference in Amsterdam.
-May 2019: Wappler 2.0 is released with many improvements and new features.
-Jan 2020: Wappler was selected among the Top 25 game-changing innovators of the Blue Tulip awards.
-Jun 2020: Wappler 3.0 is released loaded with new exciting features like full NodeJS integration, a Visual Database Manager and Bootstrap 4 Theme Manaager.
-Jul 2021: Wappler 4.0 is released great features such as a New Modern UI, Stripe Integration, Bootstrap 5 integration, Realtime Data with Websockets and Apple Silicon M1 Native Support.
-Jul 2022: Wappler 5.0 released with a newly designed logo and brand identity.
+- Oct 2017: Wappler closed beta was released.
+- Nov 2017: Wappler joined the 2017 Web Summit and was announced for the first time in public.
+- Jan 2018: One of the first media articles about Wappler is published in the INN'twente Magazine.
+- Feb 2018: Wappler closed it's crowdfunding campaign reaching 197% of it's initial goal.
+- May 2018: Wappler 1.0 is released after months of development at the TNW Conference in Amsterdam.
+- May 2019: Wappler 2.0 is released with many improvements and new features.
+- Jan 2020: Wappler was selected among the Top 25 game-changing innovators of the Blue Tulip awards.
+  -Jun 2020: Wappler 3.0 is released loaded with new exciting features like full NodeJS integration, a Visual Database Manager and Bootstrap 4 Theme Manaager.
+- Jul 2021: Wappler 4.0 is released great features such as a New Modern UI, Stripe Integration, Bootstrap 5 integration, Realtime Data with Websockets and Apple Silicon M1 Native Support.
+- Jul 2022: Wappler 5.0 released with a newly designed logo and brand identity.
 
 ## Features
 
