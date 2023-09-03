@@ -83,7 +83,7 @@ Squid offers different plans depending on your needs, and a 7 days money back gu
 
 Squid does not offer ISP, residential or mobile proxies, or rotating proxies. Neither do they have dedicated proxies for Craigslist, Nike or Ticketmaster.
 It has less integrations compered to softwares like Varnish with only two compared to 12, and also less training possibilities with only online training.
-Ths newtwork is small too, with proxies in only ten countries compared to competitor Oxylabs 88.
+Ths network is small too, with proxies in only ten countries compared to competitor Oxylabs 88.
 
 ## Set up
 
