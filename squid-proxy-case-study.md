@@ -51,16 +51,26 @@ Authentication- supports different kinds of authorization. This allows administr
 Content filtering- can be set up to filter web content.
 Traffic optimization- can help optimize network traffic, reduce latency and improve overall network performance.
 
+For personal use this means that it can be used for things like private browsing the web, to watch TV shows or content online that is blocked in your area and to get better bandwidth for gaming.
+
+For businesses it can have many purposes like:
+
+-Being able to give your costumers better bandwith and server speed.
+-For better security for businesses databases.
+-To be able to have several accounts for social media channels like Facebook or Twitter without being blocked.
+-To improve SEO for the business website.
+-Better control over employees online activities at work, stopping them from visiting certain websites or
+monitoring the time spent online.
+
 ## Private and shared hosting
 
-What is the difference between private and shared hosting, you might ask, and why is it worth paying for private hosting?
-Main reason is security. If you have a shared hosting proxy you are at risk of viruses and DDos attacks, and your computer and data is at high risk.
-It is therefore always recommended to choose a private hosting plan.
-The other reason is that you get better bandwidth and speed for your proxies when you have a private hosting plan, because with a shared hosting plan there is many users using the same.
+The difference between private and shared hosting is price, security and speed.
+
+The most expensive hosting options are the private hosting plans, but they come with the benefits of more security and not having to worry about not getting enough bandwidth for your projects or getting blocked for actions made by others.
 
 ## Who uses Squid
 
-It is widely used, and some of the users include: enterprise networks, educational institutions and other environments where efficient caching, content control, data security and network optimization is important. ###
+It is widely used, and some of the users include: enterprise networks, educational institutions and other environments where efficient caching, content control, data security and network optimization is important.
 
 ## Strengths
 
@@ -73,6 +83,7 @@ Squid offers different plans depending on your needs, and a 7 days money back gu
 
 Squid does not offer ISP, residential or mobile proxies, or rotating proxies. Neither do they have dedicated proxies for Craigslist, Nike or Ticketmaster.
 It has less integrations compered to softwares like Varnish with only two compared to 12, and also less training possibilities with only online training.
+Ths newtwork is small too, with proxies in only ten countries compared to competitor Oxylabs 88.
 
 ## Set up
 
