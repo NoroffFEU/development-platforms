@@ -30,18 +30,23 @@ Making sure applications work the same way on different computers can be a chall
 
 ## Market Comparison
 
-Pros and cons using Docker versus other containerization tools.
+### Docker:
 
-| Aspect   | Docker                                                    | Podman                                      | Containerd                     | LXD                                       |
-| -------- | --------------------------------------------------------- | ------------------------------------------- | ------------------------------ | ----------------------------------------- |
-| **Pros** | - Widely used and established.                            | - Safer setup without a background service. | - Lightweight and fast.        | - Efficient for limited resources.        |
-|          | - Comes with lots of features.                            | - Doesn't need special access rights.       | - Simple interface.            | - Easy-to-use commands.                   |
-|          | - Has a big community and good documentation.             | - Familiar commands like Docker.            | - Works well with Kubernetes.  | - Works well with existing tools.         |
-|          |                                                           | - Supports different container formats.     | - Can be customized.           | - Offers advanced features.               |
-| **Cons** | - Uses a background service which can be a security risk. | - Not as feature-rich as Docker.            | - Fewer features than Docker.  | - More about system-level than app-level. |
-|          | - Requires special access rights.                         | - Smaller community.                        | - May not be as user-friendly. | - Not as versatile as Docker.             |
-|          | - Needs an internet connection for images.                |                                             |                                |                                           |
-|          | - Networking can be tricky.                               |                                             |                                |                                           |
+Docker is widely used and feature-rich, with strong community support. However, it relies on a background service wich could be a potential security risk, demands special access rights, requires an internet connection for image retrieval, and can be complex for networking.
+
+### Podman:
+
+Podman offers a safer setup without a background service, making it more secure. Its Docker-like commands ease the transition, and it supports various container formats. Yet, it lacks some features compared to Docker and has a smaller community, which could limit resources and support.
+
+### Containerd:
+
+Containerd is lightweight and efficient, ideal for Kubernetes setups. It's highly customizable but offers fewer features than Docker and could not be as user-friendly.
+
+### LXD:
+
+LXD is efficient for limited resources and excels at system-level virtualization. It has straightforward commands but is less versatile than Docker for diverse applications.
+
+In summary, Docker is feature-rich but comes with security and complexity concerns. Podman is safer and familiar but lacks some Docker features. Containerd is efficient but less feature-rich and user-friendly. LXD is efficient for resource-constrained environments but less versatile than Docker for various workloads. Choose based on your specific needs and priorities.
 
 ## Getting Started
 
@@ -55,7 +60,7 @@ To verify you installed Docker correctly, run:
 
 Docker has an extension for VS Code, that provides tools and features to make it easier to work with Docker containers directly in VS Code.
 
-1. Install Docker desktop application.
+1. Install Docker desktop application (macOS and Windows only).
 2. install Docker extension for VS Code.
 3. Create an account for Docker Hub to accsess library for container images.
 
@@ -76,3 +81,6 @@ Compared to other tools, Docker's broad adoption, features, and community suppor
 
 - [Learn Docker in 7 Easy Steps - Full Beginner's Tutorial by Fireship](https://www.youtube.com/watch?v=gAkwW2tuIqE)
 - [Top 3 Docker Alternatives to Consider in 2023 by BuildPiper](https://medium.com/buildpiper/top-3-docker-alternatives-to-consider-in-2023-712b1ca0cdd1)
+- [Podman docs](https://docs.podman.io/en/latest/Introduction.html)
+- [Containerd docs](https://github.com/containerd/containerd/blob/main/docs/getting-started.md)
+- [LXD docs](https://documentation.ubuntu.com/lxd/en/latest/.)
