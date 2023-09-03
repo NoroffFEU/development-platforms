@@ -41,6 +41,16 @@ Pros and cons using Docker versus other containerization tools.
 
 ## Getting Started
 
+Docker is available on macOS, Windows and Linux.
+On windows and macOS you can install the Docker Desktop application, which provides an interface for managing Docker containers.
+
+On Linux you interact with the Docker Engine directly and would need to install using a terminal.
+
+To verify you installed Docker correctly, run:
+`docker --version`
+
+Docker has an extension for VS Code, that provides tools and features to make it easier to work with Docker containers directly in VS Code.
+
 1. Install Docker desktop application.
 2. install Docker extension for VS Code.
 3. Create an account for Docker Hub to accsess library for container images.
