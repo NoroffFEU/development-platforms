@@ -6,7 +6,7 @@ tags: Docker, image, container, containerization, development platform
 
 ## Introduction
 
-Making sure applications work the same way on different computers can be a challenge. That is where Docker comes in. Docker packages software and its dependencies together into a standardized unit called a container, so it can run on any hardware and in various environments without causing compatibility issues.
+Making sure applications work the same way on different computers can be a challenge. That is where Docker comes in. Docker packages software and its dependencies together into a standardized unit called a container, so it can run on any hardware and in various environments without causing compatibility issues. Docker was created to adress the problem of software development, distribution, and deployment accross different environments and operating systems. Docker improves consistency, portability, scalability, and resource efficiency during software development.
 
 ## Brief History
 
