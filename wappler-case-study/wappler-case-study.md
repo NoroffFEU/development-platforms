@@ -71,13 +71,13 @@ Navigate to the Download section on the left and download the version suitable f
 
 Your download will start automatically.
 
-After your download and instal is finished, a login dialog appear. Click the Login with browser button to continue.
+After your download and install are finished, a login dialog will appear. Click the Login with browser button to continue.
 
 There are two options you can use to log in - using an email address or using community account;
 
-If you select to log in using your email , then a login code will be sent to your email so that you can log in. Here you need to use the same email you used for activating your license/free trial.
+If you select to log in using your email, then a login code will be sent to your email so that you can log in. Here you need to use the same email you used for activating your license/free trial.
 
-If you select to log in using your community account , you need to make sure that you connected it to your purchase.
+If you select to log in using your community account, you need to make sure that you connected it to your purchase.
 
 After logging in to Wappler, you can now use Wappler to start building and creating!
 
