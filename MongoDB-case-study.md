@@ -49,7 +49,7 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [MongoDB top 5 features](https://www.mongodb.com/what-is-mongodb/features)
-- [MongoDB wikipedia]([https://www.mongodb.com/what-is-mongodb/features](https://en.wikipedia.org/wiki/MongoDB#:~:text=History,-See%20also%3A%20MongoDB&text=The%20US%20software%20company%2010gen,its%20name%20to%20MongoDB%20Inc.)https://en.wikipedia.org/wiki/MongoDB#:~:text=History,-See%20also%3A%20MongoDB&text=The%20US%20software%20company%2010gen,its%20name%20to%20MongoDB%20Inc.)
+- [MongoDB wikipedia](https://en.wikipedia.org/wiki/MongoDB#:~:text=History,-See%20also%3A%20MongoDB&text=The%20US%20software%20company%2010gen,its%20name%20to%20MongoDB%20Inc.)
 ## Additional Resources
 
 - [More about Examples](https://example.com)
