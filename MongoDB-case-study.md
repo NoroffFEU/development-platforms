@@ -31,6 +31,9 @@ MongoDB feature table:
 | Sharding | Sharding is a method for distributing or partitioning data across multiple machines by horizontally scaling. This is very usefull when one single machine can't handle the workload. Horizontal scaling refers to adding machines to share the data set and load. Horizontal scaling allows for near-limitless scaling to handle big data and intense workloads. |
 | Database Triggers | Database Triggers allow you to execute server-side logic whenever a document is added, updated, or removed in a linked MongoDB Atlas cluster. Unlike SQL data triggers, which run on the database server, triggers run on a serverless compute layer that scales independently of the database server |
 
+### MongoDB editions
+MongoDB got three editions to choose from depending on your needs. You got MongoDB Community, MongoDB Enterprise and MongoDB Atlas. 
+
 ## Market Comparison
 
 This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
