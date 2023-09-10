@@ -38,7 +38,7 @@ MongoDB got three editions to choose from depending on your needs. There are Mon
 MongoDB Community is an open-source, free-to-use database which is best suited for startups or small projects where all the features the other editions provide is not needed.
 - Document-oriented data storage
 - Basic security features like authentication and authorization
-- 
+- Horizontal scalability through sharding
 
 #### MongoDB Enterprise
 MongoDB Enterprise is the subscription-based edition. This is best suited for enterprise-grade workloads and development projects.
