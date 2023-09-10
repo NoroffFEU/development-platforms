@@ -89,7 +89,7 @@ __Atlas UI__.
 6. Insert and view a document
 7. Load sample data
 
-   To get more info about how to do this steps follow [this link](https://www.mongodb.com/docs/atlas/getting-started/)
+To get more info about how to do this steps follow [this link](https://www.mongodb.com/docs/atlas/getting-started/)
 
 
 
