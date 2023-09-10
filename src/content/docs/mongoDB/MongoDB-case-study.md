@@ -68,7 +68,7 @@ Similarly, a self hosted tool and a cloud based tool with a similar purpose may 
 ### MongoDB Atlas
 There is two ways to get started with MongoDB Atlas.
 
-__Atlas CLI__.
+__Atlas CLI__
 1. Sign up for an Atlas account.
 2. Authenticate with the new Atlas account.
 3. Create one free database.
@@ -80,7 +80,7 @@ mongosh.
 
 To see a step-by-step guide you can follow [this link](https://www.mongodb.com/docs/atlas/cli/stable/atlas-cli-getting-started/)
 
-__Atlas UI__.
+__Atlas UI__
 1. Create an Atlas account
 2. Deploy a free cluster
 3. Add your connection IP address to your IP access list
@@ -95,13 +95,9 @@ To get more info about how to do this steps follow [this link](https://www.mongo
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+In this report we have learned about its history, What the different editions are. We have also learned how to get started with MongoDB. MongoDB is a versatile database, but it may not be the best choice for all scenarios. Use cases that demand strict ACID compliance, complex joins, or require a fixed schema may be better served by traditional relational databases.
 
 ## References
 
 - [MongoDB top 5 features](https://www.mongodb.com/what-is-mongodb/features)
 - [MongoDB wikipedia](https://en.wikipedia.org/wiki/MongoDB#:~:text=History,-See%20also%3A%20MongoDB&text=The%20US%20software%20company%2010gen,its%20name%20to%20MongoDB%20Inc.)
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
