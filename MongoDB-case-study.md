@@ -80,6 +80,17 @@ mongosh.
 
 To see a step-by-step guide you can follow [this link](https://www.mongodb.com/docs/atlas/cli/stable/atlas-cli-getting-started/)
 
+__Atlas UI__.
+1. Create an Atlas account
+2. Deploy a free cluster
+3. Add your connection IP address to your IP access list
+4. Create a database user for your cluster
+5. Connect to your cluster
+6. Insert and view a document
+7. Load sample data
+
+   To get more info about how to do this steps follow [this link](https://www.mongodb.com/docs/atlas/getting-started/)
+
 
 
 ## Conclusion
