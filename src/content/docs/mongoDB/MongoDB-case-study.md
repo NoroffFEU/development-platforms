@@ -55,14 +55,6 @@ MongoDB Atlas is a cloud based database designed to simplify database management
 - Support for multiple cloud providers (AWS, Azure, Google Cloud...)
 - Automated updates and maintenance
 
-## Market Comparison
-
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
-
 ## Getting Started
 
 ### MongoDB Atlas
