@@ -95,9 +95,11 @@ To get more info about how to do this steps follow [this link](https://www.mongo
 
 ## Conclusion
 
-In this report we have learned about its history, What the different editions are. We have also learned how to get started with MongoDB. MongoDB is a versatile database, but it may not be the best choice for all scenarios. Use cases that demand strict ACID compliance, complex joins, or require a fixed schema may be better served by traditional relational databases.
+In this report we have learned about its history, What the different editions are. We have also learned how to get started with MongoDB. MongoDB is a versatile database, but it may not be the best choice for all scenarios. If you are designing an application where you need high availability, clustering, fast performance this is the perfect choice. In use cases that demand strict ACID compliance, complex joins, or require a fixed schema may be better served by traditional relational databases.
 
 ## References
 
 - [MongoDB top 5 features](https://www.mongodb.com/what-is-mongodb/features)
 - [MongoDB wikipedia](https://en.wikipedia.org/wiki/MongoDB#:~:text=History,-See%20also%3A%20MongoDB&text=The%20US%20software%20company%2010gen,its%20name%20to%20MongoDB%20Inc.)
+- [Atlas CLI step-by-step guide](https://www.mongodb.com/docs/atlas/cli/stable/atlas-cli-getting-started/)
+- [Atlas UI guide](https://www.mongodb.com/docs/atlas/getting-started/)
