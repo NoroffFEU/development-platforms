@@ -34,11 +34,15 @@ MongoDB feature table:
 ### MongoDB editions
 MongoDB got three editions to choose from depending on your needs. There are MongoDB Community, MongoDB Enterprise and MongoDB Atlas.
 
-| Edition | Features |
-| --- | --- |
-| MongoDB Community | - Document-oriented data storage - Basic security features like authentication and authorization. |
-| Mongodb Enterprise |  |
-| Mongodb Atlat |  |
+
+
+#### MongoDB Community
+- Document-oriented data storage
+- Basic security features like authentication and authorization
+
+#### Mongodb Enterprise
+
+#### Mongodb Atlat
 
 ## Market Comparison
 
