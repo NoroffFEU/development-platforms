@@ -41,6 +41,11 @@ MongoDB Community is an open-source, free-to-use database which is best suited f
 - 
 
 #### MongoDB Enterprise
+MongoDB Enterprise is the subscription-based edition. This is best suited for enterprise-grade workloads and development projects.
+- Advanced security features like LDAP integration, auditing, and encryption at rest
+- Support for Kerberos authentication
+- Enhanced monitoring and management capabilities
+- Professional support with guaranteed response times
 
 #### MongoDB Atlas
 MongoDB Atlas is a cloud based database designed to simplify database management by handling infrastructure tasks, such as backups, scaling, and maintenance.
