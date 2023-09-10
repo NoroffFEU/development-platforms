@@ -31,7 +31,7 @@ MongoDB feature table:
 | Sharding | Sharding is a method for distributing or partitioning data across multiple machines by horizontally scaling. This is very usefull when one single machine can't handle the workload. Horizontal scaling refers to adding machines to share the data set and load. Horizontal scaling allows for near-limitless scaling to handle big data and intense workloads. |
 | Database Triggers | Database Triggers allow you to execute server-side logic whenever a document is added, updated, or removed in a linked MongoDB Atlas cluster. Unlike SQL data triggers, which run on the database server, triggers run on a serverless compute layer that scales independently of the database server |
 
-### MongoDB editions and how to get started
+### MongoDB editions
 MongoDB got three editions to choose from depending on your needs. There are MongoDB Community, MongoDB Enterprise and MongoDB Atlas.
 
 #### MongoDB Community
@@ -54,7 +54,6 @@ MongoDB Atlas is a cloud based database designed to simplify database management
 - Security features like encryption, authentication, and role-based access control
 - Support for multiple cloud providers (AWS, Azure, Google Cloud...)
 - Automated updates and maintenance
-  ##### Getting started
 
 ## Market Comparison
 
@@ -66,7 +65,10 @@ Similarly, a self hosted tool and a cloud based tool with a similar purpose may 
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+### MongoDB Atlas
+There is two ways to get started with MongoDB Atlas.
+
+Tog get started with by using __Atlas CLI__.
 
 ## Conclusion
 
