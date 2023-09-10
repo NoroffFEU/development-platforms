@@ -32,7 +32,13 @@ MongoDB feature table:
 | Database Triggers | Database Triggers allow you to execute server-side logic whenever a document is added, updated, or removed in a linked MongoDB Atlas cluster. Unlike SQL data triggers, which run on the database server, triggers run on a serverless compute layer that scales independently of the database server |
 
 ### MongoDB editions
-MongoDB got three editions to choose from depending on your needs. You got MongoDB Community, MongoDB Enterprise and MongoDB Atlas. 
+MongoDB got three editions to choose from depending on your needs. There are MongoDB Community, MongoDB Enterprise and MongoDB Atlas.
+
+| Edition | Features |
+| --- | --- |
+| MongoDB Community | -   |
+| Mongodb Enterprise |  |
+| Mongodb Atlat |  |
 
 ## Market Comparison
 
