@@ -35,13 +35,13 @@ MongoDB feature table:
 MongoDB got three editions to choose from depending on your needs. There are MongoDB Community, MongoDB Enterprise and MongoDB Atlas.
 
 #### MongoDB Community
-MongoDB Community is an open-source, free-to-use database which is best suited for startups or small projects where all the features the other editions provide is not needed.
+MongoDB Community is an open-source, free-to-use database which is best suited for startups or small projects where all the features the other editions provide is not needed. Can be self-hosted on your own servers or cloud infrastructure.
 - Document-oriented data storage
 - Basic security features like authentication and authorization
 - Horizontal scalability through sharding
 
 #### MongoDB Enterprise
-MongoDB Enterprise is the subscription-based edition. This is best suited for enterprise-grade workloads and development projects.
+MongoDB Enterprise is the subscription-based edition. This is best suited for enterprise-grade workloads and development projects. Can be own hosted on your own infrastructure or cloud servers.
 - Advanced security features like LDAP integration, auditing, and encryption at rest
 - Support for Kerberos authentication
 - Enhanced monitoring and management capabilities
