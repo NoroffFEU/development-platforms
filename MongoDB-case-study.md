@@ -36,8 +36,7 @@ MongoDB got three editions to choose from depending on your needs. There are Mon
 
 | Edition | Features |
 | --- | --- |
-| MongoDB Community | - Document-oriented data storage
-                      - Basic security features like authentication and authorization. |
+| MongoDB Community | - Document-oriented data storage - Basic security features like authentication and authorization. |
 | Mongodb Enterprise |  |
 | Mongodb Atlat |  |
 
