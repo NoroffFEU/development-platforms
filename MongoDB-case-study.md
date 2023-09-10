@@ -68,7 +68,7 @@ Similarly, a self hosted tool and a cloud based tool with a similar purpose may 
 ### MongoDB Atlas
 There is two ways to get started with MongoDB Atlas.
 
-Tog get started with by using __Atlas CLI__.
+__Atlas CLI__.
 
 ## Conclusion
 
