@@ -69,6 +69,16 @@ Similarly, a self hosted tool and a cloud based tool with a similar purpose may 
 There is two ways to get started with MongoDB Atlas.
 
 __Atlas CLI__.
+1. Sign up for an Atlas account.
+2. Authenticate with the new Atlas account.
+3. Create one free database.
+4. Load sample data into your Atlas database.
+5. Add your IP address to your project's IP access list.
+6. Create a MongoDB user for your Atlas database deployment.
+7. Connect to your new database deployment using the MongoDB Shell, 
+mongosh.
+
+
 
 ## Conclusion
 
