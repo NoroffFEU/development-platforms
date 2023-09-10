@@ -36,7 +36,7 @@ MongoDB got three editions to choose from depending on your needs. There are Mon
 
 | Edition | Features |
 | --- | --- |
-| MongoDB Community | -   |
+| MongoDB Community | -  Document-oriented data storage |
 | Mongodb Enterprise |  |
 | Mongodb Atlat |  |
 
