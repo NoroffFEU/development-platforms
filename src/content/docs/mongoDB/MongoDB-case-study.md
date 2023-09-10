@@ -6,7 +6,7 @@ tags: MongoDB, case study, NoSQL
 
 ## Introduction
 
-MongoDB was the first true "document style NoSQL" datastore to be released. It is still one of the most popular NoSQL databases. In this report we will be covering its history, applications, strengths and weaknesses, and a comparative analysis within the NoSQL database category.
+MongoDB was the first true "document style NoSQL" datastore to be released. It is still one of the most popular NoSQL databases. In this report we will be covering its history, applications, strengths and weaknesses.
 
 ## Brief History
 
