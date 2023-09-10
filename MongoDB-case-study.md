@@ -54,6 +54,7 @@ MongoDB Atlas is a cloud based database designed to simplify database management
 - Security features like encryption, authentication, and role-based access control
 - Support for multiple cloud providers (AWS, Azure, Google Cloud...)
 - Automated updates and maintenance
+  ##### Getting started
 
 ## Market Comparison
 
