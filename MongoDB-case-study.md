@@ -78,7 +78,7 @@ __Atlas CLI__.
 7. Connect to your new database deployment using the MongoDB Shell, 
 mongosh.
 
-To see a step-by-step guide you can visit [atlas-cli-getting-started](https://www.mongodb.com/docs/atlas/cli/stable/atlas-cli-getting-started/)
+To see a step-by-step guide you can follow [this link](https://www.mongodb.com/docs/atlas/cli/stable/atlas-cli-getting-started/)
 
 
 
