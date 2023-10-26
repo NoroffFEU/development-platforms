@@ -11,4 +11,4 @@ Supabase provides Postgres database, Authentication, instant APIs, Edge Function
 
 ## Pricing
 
-![Pricing](image.png)
+![Pricing](./img/pricing.png)
