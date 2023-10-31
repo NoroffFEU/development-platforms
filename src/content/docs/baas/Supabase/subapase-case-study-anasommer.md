@@ -11,15 +11,17 @@ Supabase provides Postgres database, Authentication, instant APIs, Edge Function
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 2020 January: Supabase is started by Paul Copplestone and Ant Wilson.
+- 2020 April: First update incl Postgres spin up, auto-generated API, query databases from dashboard and analyze queries.
+- 2020 May: New UI, auto-generated docs for APIs, table view for the database.
+- 2020 June: Migration to AWS, relational database UX, JSON editor and viewer, database backups, early version of Auth.
+- 2020 July: Auth, new Postgres extensions.
+- 2020 August: Email templates, custom SMTP server for Auth, TypeScript support.
+- 2020 December: Supabase Beta and receiving of $6M in funding.
+- 2021 March: Pricing (was entirely free before), storage, CLI, UI, workflows.
+- 2021 September: Supabase raised $30M Series A.
+- 2022 May: Supabase raised $80M Series B.
+- 2023 May: Supabase Vector and ChatGPT plugins that support Postgres and Supabase.
 
 ## Main Features
 
