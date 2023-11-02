@@ -34,5 +34,5 @@ Azure Artifacts is a tool that lets us handle all code and packages in one place
 
 ## References
 
-https://learn.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?toc=%2Fazure%2Fdevops%2Fget-started%2Ftoc.json&view=azure-devops
-https://learn.microsoft.com/en-us/azure/devops/user-guide/services?toc=%2Fazure%2Fdevops%2Fget-started%2Ftoc.json&view=azure-devops
+- https://learn.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?toc=%2Fazure%2Fdevops%2Fget-started%2Ftoc.json&view=azure-devops
+- https://learn.microsoft.com/en-us/azure/devops/user-guide/services?toc=%2Fazure%2Fdevops%2Fget-started%2Ftoc.json&view=azure-devops
