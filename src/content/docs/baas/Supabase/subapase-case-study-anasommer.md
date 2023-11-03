@@ -21,11 +21,11 @@ Supabase provides Postgres database, Authentication, instant APIs, Edge Function
 - 2021 March: Pricing (was entirely free before), storage, CLI, UI, workflows.
 - 2021 September: Supabase raised $30M Series A.
 - 2022 May: Supabase raised $80M Series B.
-- 2023 May: Supabase Vector and ChatGPT plugins that support Postgres and Supabase.
+- 2023 May: Supabase Vector and ChatGPT plugins that support Postgres and
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+Supabase is a completely free open-source. Supabase offers a range of features that enable developers to build modern applications efficiently. Here are some of the key features of Supabase:
 
 You may use subheadings, tables or bullet points to structure your description:
 
@@ -35,17 +35,13 @@ You may use subheadings, tables or bullet points to structure your description:
 
 Example feature table:
 
-| Feature         | Description                                        |
-| --------------- | -------------------------------------------------- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
+| Feature                  | Description                                                                                                                                                              |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Hosted Postgres database | Allows to store and manage application's data. Postgres is a powerful, reliable, and feature-rich relational database system with a proven track record in the industry. |
+| Example Feature          | This feature does something for a specific reason.                                                                                                                       |
+| Example Feature          | This feature does something for a specific reason.                                                                                                                       |
 
 You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
-
-## Pricing
-
-![Pricing](./img/pricing.png)
 
 ## Market Comparison
 
@@ -58,6 +54,10 @@ Similarly, a self hosted tool and a cloud based tool with a similar purpose may 
 ## Getting Started
 
 If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+
+## Pricing
+
+![Pricing](./img/pricing.png)
 
 ## Conclusion
 
