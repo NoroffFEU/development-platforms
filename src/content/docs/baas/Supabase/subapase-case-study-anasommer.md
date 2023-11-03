@@ -53,6 +53,9 @@ If applicable, describe how to get started with your chosen tool. By providing e
 
 ## Pricing
 
+Supabase offers a free tier that allows developers to try out the platform and build small-scale applications at no cost. The free tier includes a generous usage limit for database storage, API requests, authentication, and file storage.
+For large applications or higher usage requirements, Supabase offers paid plans with increased resource limits and additional features.
+
 ![Pricing](./img/pricing.png)
 
 ## Conclusion
