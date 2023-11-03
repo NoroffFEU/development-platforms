@@ -27,19 +27,11 @@ Supabase provides Postgres database, Authentication, instant APIs, Edge Function
 
 Supabase is a completely free open-source. Supabase offers a range of features that enable developers to build modern applications efficiently. Here are some of the key features of Supabase:
 
-You may use subheadings, tables or bullet points to structure your description:
-
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-
-Example feature table:
-
-| Feature                  | Description                                                                                                                                                              |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Hosted Postgres database | Allows to store and manage application's data. Postgres is a powerful, reliable, and feature-rich relational database system with a proven track record in the industry. |
-| Example Feature          | This feature does something for a specific reason.                                                                                                                       |
-| Example Feature          | This feature does something for a specific reason.                                                                                                                       |
+| Feature                          | Description                                                                                                                                                                                                                                                                                                                                  |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hosted Postgres database         | Allows to store and manage application's data. Postgres is a powerful, reliable, and feature-rich relational database system with a proven track record in the industry. Working with the Postgres tables inside Supabase takes a minimal understanding of SQL.                                                                              |
+| Authentication and Authorization | A robust authentication and authorization system that allows to secure the application and control user access. User registration, login and password recovery can be easily managed using Supabase's authentication API's. Access control rules can be defined to restrict access to specific resources based on user roles and permissions |
+| Auto-generated API's             | This feature does something for a specific reason.                                                                                                                                                                                                                                                                                           |
 
 You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
