@@ -56,6 +56,19 @@ Supabase can be integrated with popular front-end frameworks as React, Vue.js, a
 npm create vite@latest my-app -- --template react
 ```
 
+3. Install the Supabase client library. Navitage to the React app and install **supabase-js**.
+
+```bash
+cd my-app && npm install @supabase/supabase-js
+```
+
+4. Query data from the app. In **App.jsx**, create a Supabase client using your Project URL and public API (anon) key.
+5. Start the app, go to **http://localhost:5173** in a browser, and open the browser console and you should your app.
+
+```bash
+npm run dev
+```
+
 ## Pricing
 
 Supabase offers a free tier that allows developers to try out the platform and build small-scale applications at no cost. The free tier includes a generous usage limit for database storage, API requests, authentication, and file storage.
@@ -76,3 +89,4 @@ This section can be used to summarize your findings. What are the main advantage
 - [Supabase vs Firebase](https://supabase.com/alternatives/supabase-vs-firebase)
 - [Appwrite vs Supabase vs Firebase](https://medium.com/@tkarmakar27112000/appwrite-vs-supabase-vs-firebase-48d1dd79bdc2)
 - [Why You Should Use PocketBase for Your Next Project](https://dev.to/kalashin1/why-you-should-use-pocketbase-for-your-next-project-4dda)
+- [Use Supabase with React](https://supabase.com/docs/guides/getting-started/quickstarts/reactjs)
