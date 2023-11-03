@@ -41,15 +41,11 @@ Supabase is a completely free open-source. Supabase offers a range of features t
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+- Firebase and Supabase: Differ in several ways. Firebase is a NoSQL database, while Supabase is a relational database. The Firestone database, which lets to store "documents" is the core of Firebase.
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+Supabase can be integrated with popular front-end frameworks as React, Vue.js, and Angular.
 
 ## Pricing
 
@@ -67,3 +63,4 @@ This section can be used to summarize your findings. What are the main advantage
 - [Supabase Docs](https://supabase.com/docs)
 - [Introduction To Supabase](https://www.adservio.fr/post/introduction-to-supabase)
 - [Learn Supabase - freecodecamp full tutorial for beginners](https://www.youtube.com/watch?v=dU7GwCOgvNY)
+- [Firebase and Supabase: Key differences you need to know](https://www.red-gate.com/simple-talk/development/other-development/firebase-and-supabase-key-differences/#:~:text=Firebase%20is%20a%20NoSQL%20database,value%20documents%20may%20be%20present.)
