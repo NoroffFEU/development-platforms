@@ -21,7 +21,7 @@ Supabase provides Postgres database, Authentication, instant APIs, Edge Function
 - 2021 March: Pricing (was entirely free before), storage, CLI, UI, workflows.
 - 2021 September: Supabase raised $30M Series A.
 - 2022 May: Supabase raised $80M Series B.
-- 2023 May: Supabase Vector and ChatGPT plugins that support Postgres and
+- 2023 May: Supabase Vector and ChatGPT plugins that support Postgres and.
 
 ## Main Features
 
@@ -41,11 +41,20 @@ Supabase is a completely free open-source. Supabase offers a range of features t
 
 ## Market Comparison
 
-- Firebase and Supabase: Differ in several ways. Firebase is a NoSQL database, while Supabase is a relational database. The Firestone database, which lets to store "documents" is the core of Firebase.
+- Firebase and Supabase: Differ in several ways. Firebase is a NoSQL database, while Supabase is a relational database. The Firestone database, which lets to store "documents" is the core of Firebase. These are collections of key: value pairs where the value can be another sub-document. Supabase is open source. Firebase charges for reads, writes and deletes, Supabase charges based on the amount of data stored. Supabase outperforms Firebase by up to 4x on number of reads per second, and 3.1x on writes per second.
+- Appwrite and Supabase: Appwrite has a focus on APIs and is well-suited for developers who want to build APIs or integrate their applications with other APIs. Supabase offers a range of APIs and integrations with other technologies, it may not have as many pre-built integrations.
+- PocketBase and Supabase: Pocketbase is a single executable and can be self-hosted, very easy to set up. Since the PocketBase is self-hosted, there are no worries about vendor lock-in or issues when trying to migrate the data.
 
-## Getting Started
+## Getting Started Supabase with React
 
 Supabase can be integrated with popular front-end frameworks as React, Vue.js, and Angular.
+
+1. Create a new project in the Supabase Dashboard. After your project is ready, create a table in your Supabase database using the SQL Editor or UI in the Dashboard.
+2. Create a React app using a Vite template.
+
+```bash
+npm create vite@latest my-app -- --template react
+```
 
 ## Pricing
 
@@ -64,3 +73,6 @@ This section can be used to summarize your findings. What are the main advantage
 - [Introduction To Supabase](https://www.adservio.fr/post/introduction-to-supabase)
 - [Learn Supabase - freecodecamp full tutorial for beginners](https://www.youtube.com/watch?v=dU7GwCOgvNY)
 - [Firebase and Supabase: Key differences you need to know](https://www.red-gate.com/simple-talk/development/other-development/firebase-and-supabase-key-differences/#:~:text=Firebase%20is%20a%20NoSQL%20database,value%20documents%20may%20be%20present.)
+- [Supabase vs Firebase](https://supabase.com/alternatives/supabase-vs-firebase)
+- [Appwrite vs Supabase vs Firebase](https://medium.com/@tkarmakar27112000/appwrite-vs-supabase-vs-firebase-48d1dd79bdc2)
+- [Why You Should Use PocketBase for Your Next Project](https://dev.to/kalashin1/why-you-should-use-pocketbase-for-your-next-project-4dda)
