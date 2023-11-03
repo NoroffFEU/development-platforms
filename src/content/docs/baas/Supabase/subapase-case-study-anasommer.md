@@ -36,6 +36,8 @@ Supabase is a completely free open-source. Supabase offers a range of features t
 | Functions                        | Supabase provides support for serverless functions, allowing to write custom logic that runs on the server. This allows to create database functions that execute SQL queries or perform complex data operations. Additionally, Supabase offers edge functions, which allow to run serverless functions close to the users, reducing latency and improving performance. |
 | Storage                          | Supabase includes file storage capabilities, allowing to upload, store, and manage files associated with the application. The file storage integrates with popular cloud storage providers like Amazon S3 and uses Postgres to manage permissions and access control                                                                                                    |
 | AI & Vectors                     | Supabase offers an AI toolkit that allows to leverage machine learning models and embeddings in the application. Various AI-related tasks can be performed such as image recognition, natural language processing, and recommendation systems using the provided toolkit.                                                                                               |
+| Dashboard                        | Supabase provides a comprehensive dashboard that gives a centralized view of the application's data, authentication settings, APIs, functions, file storage, and more. The dashboard provides a user-friendly interface for managing and monitoring the project.                                                                                                        |
+| Example Feature                  | This feature does something for a specific reason.                                                                                                                                                                                                                                                                                                                      |
 
 ## Market Comparison
 
@@ -60,6 +62,5 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Supabase Docs](https://supabase.com/docs)
-- [Supabase: An Open Source Firebase Alternative](https://medium.com/@stackfoss/supabase-an-open-source-firebase-alternative-4075d2ca75e6)
 - [Introduction To Supabase](https://www.adservio.fr/post/introduction-to-supabase)
 - [Learn Supabase - freecodecamp full tutorial for beginners](https://www.youtube.com/watch?v=dU7GwCOgvNY)
