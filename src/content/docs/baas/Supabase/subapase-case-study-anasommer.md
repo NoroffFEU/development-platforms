@@ -34,6 +34,9 @@ Supabase is a completely free open-source. Supabase offers a range of features t
 | Auto-generated API's             | Supabase simplifies the process of building APIs for the application by automatically generating REST and GraphQL APIs based on the users database schema. It also enables seamless integration with front-end frameworks and libraries.                                                                                                     |
 
 | Realtime Subscriptions | Supabase supports realtime subscriptions, allowing to receive instant updates whenever data in the database changes. Subscription can be done using websockets and gives opportunity to receive real-time notofications for inserts, updates, and deletes. |
+| Example Feature | This feature does something for a specific reason. |
+| Example Feature | This feature does something for a specific reason. |
+| Example Feature | This feature does something for a specific reason. |
 
 ## Market Comparison
 
