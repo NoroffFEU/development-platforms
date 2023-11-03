@@ -57,12 +57,7 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [Supabase Docs](https://supabase.com/docs)
+- [Supabase: An Open Source Firebase Alternative](https://medium.com/@stackfoss/supabase-an-open-source-firebase-alternative-4075d2ca75e6)
+- [Introduction To Supabase](https://www.adservio.fr/post/introduction-to-supabase)
+- [Learn Supabase - freecodecamp full tutorial for beginners](https://www.youtube.com/watch?v=dU7GwCOgvNY)
