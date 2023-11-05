@@ -25,7 +25,7 @@ Supabase provides Postgres database, Authentication, instant APIs, Edge Function
 
 ## Main Features
 
-Supabase is a completely free open-source. Supabase offers a range of features that enable developers to build modern applications efficiently. Here are some of the key features of Supabase:
+Supabase is a completely free and open-source. Supabase offers a range of features that enable developers to build modern applications efficiently. Here are some of the key features of Supabase:
 
 | Feature                          | Description                                                                                                                                                                                                                                                                                                                                                             |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
