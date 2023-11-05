@@ -41,7 +41,7 @@ Supabase is a completely free and open-source. Supabase offers a range of featur
 
 ## Market Comparison
 
-- Firebase and Supabase: Differ in several ways. Firebase is a NoSQL database, while Supabase is a relational database. The Firestone database, which lets to store "documents" is the core of Firebase. These are collections of key: value pairs where the value can be another sub-document. Supabase is open source. Firebase charges for reads, writes and deletes, Supabase charges based on the amount of data stored. Supabase outperforms Firebase by up to 4x on number of reads per second, and 3.1x on writes per second.
+- Firebase and Supabase: Differ in several ways. Firebase is a NoSQL database, while Supabase is a relational database. The Firestone database, which lets users store "documents" is the core of Firebase. These are collections of key: value pairs where the value can be another sub-document. Supabase is open source. Firebase charges for reads, writes and deletes, Supabase charges based on the amount of data stored. Supabase outperforms Firebase by up to 4x on number of reads per second, and 3.1x on writes per second.
 - Appwrite and Supabase: Appwrite has a focus on APIs and is well-suited for developers who want to build APIs or integrate their applications with other APIs. Supabase offers a range of APIs and integrations with other technologies, it may not have as many pre-built integrations.
 - PocketBase and Supabase: Pocketbase is a single executable and can be self-hosted, very easy to set up. Since the PocketBase is self-hosted, there are no worries about vendor lock-in or issues when trying to migrate the data.
 
