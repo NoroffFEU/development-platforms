@@ -63,7 +63,7 @@ cd my-app && npm install @supabase/supabase-js
 ```
 
 4. Query data from the app. In **App.jsx**, create a Supabase client using your Project URL and public API (anon) key.
-5. Start the app, go to **http://localhost:5173** in a browser, and open the browser console and you should your app.
+5. Start the app, go to **http://localhost:5173** in a browser, and open the browser console and you should see your app.
 
 ```bash
 npm run dev
