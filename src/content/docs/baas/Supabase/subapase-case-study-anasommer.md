@@ -78,7 +78,7 @@ For large applications or higher usage requirements, Supabase offers paid plans 
 
 ## Conclusion
 
-Supabase is a powerful open source that offers a range of features for building modern full-stack applications. With its hosted Postgres database, authentication and authorization system, auto-generated APIs, realtime subscriptions, serverless functions, file storage, AI toolkit, and comprehensive dashboard. Supabase provides developers with a complete solution for building scalable and secure applications.
+Supabase is a powerful open source that offers a range of features for building modern full-stack applications. With its hosted Postgres database, authentication and authorization system, auto-generated APIs, realtime subscriptions, serverless functions, file storage, AI toolkit, and comprehensive dashboard, Supabase provides developers with a complete solution for building scalable and secure applications.
 
 ## Credits
 
