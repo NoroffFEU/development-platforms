@@ -6,4 +6,4 @@ tags: javascript, framework, react
 
 ## Introduction
 
-![React icon](/src/assets/frameworks/trpc/react_icon.png)
+<img src="/src/assets/frameworks/trpc/react_icon.png" alt="React" icon width="400" height="300">
