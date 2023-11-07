@@ -27,3 +27,36 @@ React is a JavaScript framework created by Facebook (now Meta) that is used to b
 
 - 2022: React 18 was released. Concurrent Mode, automatic batching, new Suspense features, transitions, client and server rendering APIs, new strict mode behaviors, and new hooks were introduced in this version.
 
+## Main Features
+Here are some React features:
+
+**Components:** Components are a crucial concept in React, they enable the division of the UI into self-contained, reusable parts.
+Functional Components are defined as JavaScript functions. They accept properties (props) as input and return a React element, typically in the form of HTML content. Example:
+````
+function Title(props) {
+  return <h1>{props.text}</h1>;
+}
+
+````
+
+**JSX:** JSX is an extension of the JavaScript language used by React to create user interfaces. It allows you to mix JavaScript code with HTML-like syntax, making it easier to write user interface components in a single code file.
+Example:
+````
+function Bnt(props) {
+  return (
+    <button onClick={props.onClick}>
+      {props.text}
+    </button>
+  );
+}
+````
+
+**Unidirectional Data Flow:** React enforces a unidirectional data flow, making it easier to understand how data changes in an application. Data flows from parent components to child components, reducing the risk of bugs and making the code more predictable.
+
+
+**Declarative UI:** React uses a declarative approach where developers specify how the UI should look at any given point, and React takes care of updating the actual DOM to match this description efficiently.
+
+
+**Virtual DOM:** React uses a virtual representation of the DOM to optimize updates. When data changes, React calculates the minimum required changes to the actual DOM, resulting in better performance. 
+
+
