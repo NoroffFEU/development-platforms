@@ -1,67 +1,93 @@
 ---
-title: Example Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+title: Vercel Case Study
+author: Magnus Pladsen <MagnusPladsen>
+tags: Vercel, case study, deployment, automation, hosting
 ---
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+Vercel, formerly ZEIT, is an american cloud platform designed to streamline the deployment process for web applications. It provides an efficient way for developers to host their projects, simplifying the complexities often associated with deployment. The company is also well known for creating the Next.js react framework.
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 2015: Guillermo Rauch founded Vercel as ZEIT.
+- 2016: Nicolás Garro joined ZEIT as the Founding Designer and Head of Design.
+- 2020: ZEIT was rebranded to Vercel.
+- 2021: Vercel raised $102 million and the company was valued at $2.5 billion November 2021.
+- 2021: In December Vercel acquired Turborepo.
+- 2022: In October Vercel acquired Splitbee.
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+Some of Vercel's features:
 
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
+- **Infrastructure and security:** Vercel utilizes an Edge Network for intelligent traffic routing near users, offering dynamic scalability while ensuring default security through isolated request handling and global content replication for stability.
+- **Instant deployment:** Vercel enables instant deployment by connecting directly to GIT repositories. When developers push new code trough GIT, Vercel automatically detects changes and deploys the updated version without manual intervention.
+- **The native Next.js platform:** Vercel's platform is made by the creators of Next.js, so Next.js applications will have multiple advantages when deployed to Vercel compared to other hosting solutions.
 
-Example feature table:
+Feature table:
 
-| Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+| Feature                     | Description                                      |
+|-----------------------------|--------------------------------------------------|
+| Infrastructure and security | Optimizes performance via global server network. |
+| Instant deployment          | Automatically deploys changes from Git repos.    |
+| The native Next.js platform | Many big advantages with Next.js applications.   |
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+Compared to other hosting platforms, Vercel stands out for its seamless integration with version control systems, automated deployment, and its focus on simplicity.
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+Next.js is a very popular react framework with big advantages over vanilla react, Vercel has many big advantages with Next.js applications that the competition does not have because the developers behind Vercel is the same as Next.js.
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+There are many advantages to using Vercel as your hosting platform:
+
+- Easy-to-use user interface
+- Easy integration with backend
+- Real-time collaboration with your teammates
+- Preview builds live and test automatically
+- Smart features like Edge functions, analytics, AI integrations
+- The Next.js native platform
+- Free domain name
+- Free for personal use with unlimited projects
+
+Of course as with everything there are some downsides:
+
+- Can be expensive for bigger and more used applications
+- Limited support for databases and backend services prevents them from creating more sophisticated applications
+- Interface and documentation to be overly complex, especially for beginners or non-technical users.
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+### 1.
+
+To get started with Vercel navigate to this link in your browser, [Get started](https://vercel.com/new).
+
+`https://vercel.com/new`
+
+### 2.
+
+Select a GIT provider and import and existing project from a GIT repository.
+
+### Alternative.
+
+Clone a template on the right side of the page. Then you will create an account and deploy a test template.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+Vercel packs a lot of great features that no other competitors have and has a really good free tier.
+
+My focus for this case study was mostly on using Vercel as a hosting platform for a private developer, since that is where most of my experience lies. 
+
+If someone where to only deploy an simple application without any extensive configuration, analytics or frequent redeploy i would also recommend Netlify. 
+
+But if you are interested in using any of Vercel´s features and for an example deploy a Next.js application i would greatly recommend using Vercel.
+
+I believe that the features and possibility of Vercel is outweighing some of the downsides like it's complex documentation and interface.
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [Vercel´s Wikipedia](https://en.wikipedia.org/wiki/Vercel)
+- [Vercel´s homepage](https://vercel.com/)
+- [What is Vercel and Why You Should Use It](https://www.getfishtank.com/blog/what-is-vercel)
+- [5 reasons why vercel is the best for application deployment](https://medium.com/nerd-for-tech/5-reasons-why-vercel-is-the-best-for-application-deployment-92009b17e601)
+- [Pros and cons for Vercel](https://www.getapp.com/development-tools-software/a/vercel/reviews/)
