@@ -120,3 +120,18 @@ React provides developers with the ability to craft lightweight applications enr
 
 **Cons of React:**
 React can present some challenges, as it is continuously evolving, requiring constant learning and adaptation. The use of JSX, while offering flexibility, can be perceived as confusing.
+
+
+## References
+
+- [The History of React.js on a Timeline](https://blog.risingstack.com/the-history-of-react-js-on-a-timeline/)
+- [React](https://react.dev)
+- [Frontend frameworks popularity](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190#stack-overflow-survey)
+- [Angular vs. React: A Complete Comparison Guide ](https://www.cuelogic.com/blog/what-are-the-differences-between-angular-and-react#:~:text=In%20Angular%20apps%2C%20a%20real,to%20update%20the%20entire%20tree.)
+- [Angular vs. React vs. Vue.js: Comparing performance](https://blog.logrocket.com/angular-vs-react-vs-vue-js-comparing-performance/#future-frameworks)
+
+## Additional Resources
+
+- [Course: Explore React with Javascript](https://cursos.alura.com.br/formacao-react-javascript)
+- [How A Small Team of Developers Created React at Facebook | React.js: The Documentary](https://youtu.be/8pDqJVdNa44?si=PGlrM6fjmTx5O93u)
+- [Chat GPT](https://chat.openai.com/)
