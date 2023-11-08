@@ -11,14 +11,14 @@ tags: development platform, containerzation, package, docker
 Docker is a tool that is used to automate the deployment of applications in lightweight containers so that applications can work efficiently in different environments in isolation.\
 Docker is a way to package software so it can run on any hardware.
 
-<div style="text-align:center">
+<div style="display:flex justify-content:space-between">
     <img src="https://pbs.twimg.com/media/FPKqqiFX0AMRBu4?format=png&name=small" alt="It works on my machine, then we will ship your machine. That is how Docker was born." width="50%" height="auto">
 </div>
 
 Docker fixes the problem, where the developer code works on his hardware, but does not work on other machines.\
 So you will never run into this situation with your software testers:
 
-<div style="text-align:center">
+<div style="display:flex justify-content:space-between">
     <img src="https://spectralops.io/wp-content/uploads/2023/08/Docker-Meme.jpg" alt="" width="50%" height="auto">
 </div>
 
@@ -44,17 +44,27 @@ So you will never run into this situation with your software testers:
 
 ## Features
 
-**Simplified Configuration**: Docker streamlines the process of configuring applications, leading to faster and more efficient setup.\
-**Segregated Application Run**: Docker ensures that applications are isolated in their own containers, avoiding conflicts and interferences.\
-**Productivity Boost**: Docker's approach reduces the complexity of development and deployment, enhancing overall efficiency.\
-**Docker Swarm Management**: Swarm, Docker's container clustering tool, facilitates easy scaling and management of containerized systems.\
-**Service State Control**: Docker services are designed to maintain and regulate a service's intended state, prioritizing availability and scalability.\
-**Load Balancing and Discovery**: The routing mesh feature in Docker provides an intelligent routing mechanism for balancing the load and discovering services within a Swarm.\
-**Security Protocols**: Docker prioritizes security by providing mechanisms like image scanning and secure container isolation to safeguard applications.\
-**System Scalability**: Docker allows for rapid adjustment in the scale of applications, ensuring they perform effectively under varying loads.\
-**Streamlined Software Deployment**: Docker promotes better software deployment practices with consistent environments and version tracking, minimizing release complications.\
-**Network Customization**: With Docker, creating software-defined networks is effortless, ensuring seamless inter-container communication across diverse settings.\
-**Application Size Efficiency**: Docker reduces the footprint of applications and their dependencies through containerization, optimizing the use of system resources.\
+**Simplified Configuration**: Docker streamlines the process of configuring applications, leading to faster and more efficient setup.
+
+**Segregated Application Run**: Docker ensures that applications are isolated in their own containers, avoiding conflicts and interferences.
+
+**Productivity Boost**: Docker's approach reduces the complexity of development and deployment, enhancing overall efficiency.
+
+**Docker Swarm Management**: Swarm, Docker's container clustering tool, facilitates easy scaling and management of containerized systems.
+
+**Service State Control**: Docker services are designed to maintain and regulate a service's intended state, prioritizing availability and scalability.
+
+**Load Balancing and Discovery**: The routing mesh feature in Docker provides an intelligent routing mechanism for balancing the load and discovering services within a Swarm.
+
+**Security Protocols**: Docker prioritizes security by providing mechanisms like image scanning and secure container isolation to safeguard applications.
+
+**System Scalability**: Docker allows for rapid adjustment in the scale of applications, ensuring they perform effectively under varying loads.
+
+**Streamlined Software Deployment**: Docker promotes better software deployment practices with consistent environments and version tracking, minimizing release complications.
+
+**Network Customization**: With Docker, creating software-defined networks is effortless, ensuring seamless inter-container communication across diverse settings.
+
+**Application Size Efficiency**: Docker reduces the footprint of applications and their dependencies through containerization, optimizing the use of system resources.
 
 ## Why would you use Docker?
 
@@ -95,21 +105,35 @@ So you will never run into this situation with your software testers:
 
 ## Some weaknesses you might consider before using Docker
 
-**Non-bare-metal Performance**: Containers incur a performance overhead due to additional layers such as overlay networking and container-to-host communication, falling short of bare-metal speeds.\
-**Fragmented Container Landscape**: Diverse container technologies may lack interoperability owing to competitive dynamics; for instance, OpenShift is tailored exclusively for Kubernetes.\
-**Challenges with Persistent Storage**: Container data can be ephemeral, risking data loss unless external storage solutions are implemented, which may add complexity.\
-**Limitations with GUI-based Applications**: Docker's architecture is primarily suited for headless server applications, as graphical user interfaces in containers face certain constraints.\
-**Selective Application Compatibility**: Docker excels with applications structured as microservices, but monolithic applications might not reap the same distribution benefits.\
-**Storage Integration Complexities**: Despite ongoing advancements, linking containers to persistent storage solutions demands intricate manual setup.\
-**Basic Monitoring Capabilities**: Docker provides elementary monitoring through its `stats` command; comprehensive analysis typically requires additional third-party tools.\
-**Unfulfilled Feature Enhancements**: Docker is actively developing features such as container self-inspection and improved file transfer capabilities, which are not yet standard.\
-**Data Vulnerability**: Establishing backup and recovery protocols for Docker involves manual intervention, casting doubts on its reliability for data resilience.\
-**Optimizing Application Speed**: Containers offer reduced overhead compared to VMs, but they can't match the performance of running directly on bare-metal hardware.\
-**Limited OS Compatibility**: Docker's design can introduce compatibility hurdles, as containers built for one operating system may not function seamlessly on another.\
-**Suboptimal for GUI Applications**: While feasible, operating GUI-centric applications in Docker is not ideal, given the platform's focus on command-line interface operations.\
-**Incomplete Security Solutions**: Docker's security model presents unique challenges that must be specifically addressed beyond traditional security practices.\
-**Pace of Evolution**: Docker's rapid development cycle can lead to a lag in the supporting ecosystem, creating documentation gaps and learning challenges.\
-**Adaptation Difficulty**: Engineers new to containerization may find Docker's learning curve steep, although more intuitive tools are available to ease the transition.\
+**Non-bare-metal Performance**: Containers incur a performance overhead due to additional layers such as overlay networking and container-to-host communication, falling short of bare-metal speeds.
+
+**Fragmented Container Landscape**: Diverse container technologies may lack interoperability owing to competitive dynamics; for instance, OpenShift is tailored exclusively for Kubernetes.
+
+**Challenges with Persistent Storage**: Container data can be ephemeral, risking data loss unless external storage solutions are implemented, which may add complexity.
+
+**Limitations with GUI-based Applications**: Docker's architecture is primarily suited for headless server applications, as graphical user interfaces in containers face certain constraints.
+
+**Selective Application Compatibility**: Docker excels with applications structured as microservices, but monolithic applications might not reap the same distribution benefits.
+
+**Storage Integration Complexities**: Despite ongoing advancements, linking containers to persistent storage solutions demands intricate manual setup.
+
+**Basic Monitoring Capabilities**: Docker provides elementary monitoring through its `stats` command; comprehensive analysis typically requires additional third-party tools.
+
+**Unfulfilled Feature Enhancements**: Docker is actively developing features such as container self-inspection and improved file transfer capabilities, which are not yet standard.
+
+**Data Vulnerability**: Establishing backup and recovery protocols for Docker involves manual intervention, casting doubts on its reliability for data resilience.
+
+**Optimizing Application Speed**: Containers offer reduced overhead compared to VMs, but they can't match the performance of running directly on bare-metal hardware.
+
+**Limited OS Compatibility**: Docker's design can introduce compatibility hurdles, as containers built for one operating system may not function seamlessly on another.
+
+**Suboptimal for GUI Applications**: While feasible, operating GUI-centric applications in Docker is not ideal, given the platform's focus on command-line interface operations.
+
+**Incomplete Security Solutions**: Docker's security model presents unique challenges that must be specifically addressed beyond traditional security practices.
+
+**Pace of Evolution**: Docker's rapid development cycle can lead to a lag in the supporting ecosystem, creating documentation gaps and learning challenges.
+
+**Adaptation Difficulty**: Engineers new to containerization may find Docker's learning curve steep, although more intuitive tools are available to ease the transition.
 
 ### [Start using Docker](https://docs.docker.com/)
 
