@@ -24,7 +24,8 @@ data retrieval for API calls.
 - May 2013: Redis was sponsored by pivotal Software[^4]
 - June 2015: Redis became funded by Redis Labs[^4]
 - October 2018: Release of Redis 5.0, and introduction of Redis Stream
-- June 2020: Salvatore Sanfilippo[^1] hands of the role of maintainer to Yossi Gottlieb[^2], and Oran Agra[^3] who now manage it with a light governance model[^5]
+- June 2020: Salvatore Sanfilippo[^1] hands of the role of maintainer to Yossi Gottlieb[^2], and Oran Agra[^3] who now 
+manage it with a light governance model[^5]
 
 ## Main Features
 
@@ -39,13 +40,16 @@ data retrieval for API calls.
 ### setting up the redis server
 
 to use redis you can either install it on your server or use a service like [redis Cloud](https://redis.com/try-free/). 
-Here we will be using docker to install the [redis server (link to the official redis image on docker hub)](https://hub.docker.com/_/redis), but if you want to do a more manual installation feel free to look at redis own documentation for instructions:
+Here we will be using docker to install the 
+[redis server (link to the official redis image on docker hub)](https://hub.docker.com/_/redis), but if you want to do a
+more manual installation feel free to look at redis own documentation for instructions:
 
 - [install redis on Linux](https://redis.io/docs/install/install-redis/install-redis-on-linux/)
 - [install redis on Mac](https://redis.io/docs/install/install-redis/install-redis-on-mac-os/)
 - [install redis on Windows](https://redis.io/docs/install/install-redis/install-redis-on-windows/)
 
-if you want to follow along this example and not have a docker running on your system please look here for installation instructions:
+if you want to follow along this example and not have a docker running on your system please look here for installation 
+instructions:
 
 - [install docker on Linux](https://docs.docker.com/desktop/install/linux-install/)
 - [install docker on Mac](https://docs.docker.com/desktop/install/mac-install/)
@@ -62,32 +66,43 @@ solution I don't know)
 in open your terminal and run the following command:
 
 ```shell
-$ docker run --name redis-test-server -p 6397:6397 -d redis:latest
+docker run --name redis-test-server -p 6379:6379 -d --rm redis:latest
 ```
 
 #### the installation command in step by step:
 
 - $  
 do not copy write this symbol in to the terminal.  
-This is meanly a convention telling the reader what level of authorization is needed `$` indicate that a regular user can use this command if you see a `#` then that command needs sudo/administrator privileges.  
+This is meanly a convention telling the reader what level of authorization is needed `$` indicate that a regular user 
+can use this command if you see a `#` then that command needs sudo/administrator privileges.  
 but nowadays, it is more common to always use `$` and prefix the command with `sudo` instead if it needs those privileges
 - docker  
 the name of program to run
 - run  
-tels docker to install this container if you already have a container you can use different subcommands like: start (starts container specified by name or id that is inactive), ps (lists the containers docker knows about), rm (removes container specified by name or id that is inactive), and many more [here is a complete list of docker subcommands](https://docs.docker.com/engine/reference/commandline/cli/#subcommands)
+tells docker to install this container if you already have a container you can use different subcommands like: 
+start (starts container specified by name or id that is inactive), ps (lists the containers docker knows about), 
+rm (removes container specified by name or id that is inactive), and many more 
+[here is a complete list of docker subcommands](https://docs.docker.com/engine/reference/commandline/cli/#subcommands)
 - --name  
 set the name we will use when accessing this docker container
 - -p  
-set the ports the pattern here is port-outside-container:port-inside-container so if port 6397 is already in use you can change the number before the colon to a number to any port between 1025 and 65535 that are not already in use (f.exs 1234:6397)
+set the ports the pattern here is port-outside-container:port-inside-container so if port 6397 is already in use you can
+change the number before the colon to a number to any port between 1025 and 65535 that are not already in use 
+(f.exs 1234:6397)
 - -d  
-this tels docker to start the server in the background so that we can use the terminal for other tings. if omitted we will see all the read and write logs appear in this terminal
+this tells docker to start the server in the background so that we can use the terminal for other tings. if omitted we 
+will see all the read and write logs appear in this terminal
+- --rm  
+this tells docker to remove the container after you stop it
 - redis:latest  
-here we say that the container we want to make is the one named redis and the :latest specify the version to use [for a list of available redis versions see here](https://hub.docker.com/_/redis/tags)
+here we say that the container we want to make is the one named redis and the :latest specify the version to use 
+[for a list of available redis versions see here](https://hub.docker.com/_/redis/tags)
 
 
 ### accessing the redis server
 
-first we will look at accessing the redis database from the command line. You do this by using redis-cli. As we are using docker to run redis.
+first we will look at accessing the redis database from the command line. You do this by using redis-cli. As we are 
+using docker to run redis.
 
 #### redis-cli
 
@@ -106,7 +121,9 @@ this stands for interactive terminal and means we want the to see and interact w
 - redis-test-server  
 the name of the server we want to execute commands on
 - redis-cli  
-the command we want to execute in the container. note that this command must be installed on the docker image, but need not be on the host machine. if you have not installed redis or redis-cli on your host machine all ready you are unlikely to find it there, but it is included on the docker image by default and so can be used in side the container
+the command we want to execute in the container. note that this command must be installed on the docker image, but need 
+not be on the host machine. if you have not installed redis or redis-cli on your host machine all ready you are unlikely
+to find it there, but it is included on the docker image by default and so can be used in side the container
 
 ##### interacting with the redis-cli
 
@@ -137,7 +154,7 @@ if the value was accepted it will return `OK`
 ```redis
 > get key
 ```
-if the key definded then it will return the value in this case like this `"value"`   
+if the key defined then it will return the value in this case like this `"value"`   
 other vice if the key undefined then it will return `(nil)`
 
 **if you want to set a string if the key is not already in use then use**
@@ -145,7 +162,8 @@ other vice if the key undefined then it will return `(nil)`
 ```redis
 > set key value2 nx
 ```
-in this case as "key" is allready set above it will return `(integer) 0` witch in this case is the same as `False` in javaScript.  
+in this case as "key" is already set above it will return `(integer) 0` witch in this case is the same as `False` in 
+javaScript.  
 
 if we used a different key like so:
 
@@ -153,7 +171,8 @@ if we used a different key like so:
 > set foo value2 nx
 ```
 
-assuming that foo has not been sett elsewhere it will return `(interger) 1` witch in this case is equal to `True` in javascript
+assuming that foo has not been sett elsewhere it will return `(interger) 1` witch in this case is equal to `True` in 
+javascript
 
 *Note:*  
 `set [your Key] "[your value]" nx` has a shorthand version like this: `setnx [your Key] "[your value]"`
@@ -172,12 +191,13 @@ when this is successful it will return `OK` if not then it will return `(nil)`
 ```
 
 on an acceptable commands redis will return `OK`  
-if you have more keys than values or one of your variables used a space without being wrapped in quotes then redis will return an error like this `(error) ERR wrong number of arguments for 'mset' command`.  
+if you have more keys than values or one of your variables used a space without being wrapped in quotes then redis will 
+return an error like this `(error) ERR wrong number of arguments for 'mset' command`.  
 
 *Note:*  
 `mset` will make multiple individual key/value sets these are in no way connected  
 
-**if you want to retreave multiple keys at once**
+**if you want to retrieve multiple keys at once**
 ```redis
 > mget key1 key foo notSet
 ```
@@ -212,7 +232,7 @@ the difference is when you then go to add new items to the list:
 
 in both cases it will return `(integer) x` were "x" is the number of items in the list
 
-**removing items for a list**
+**removing an item for a list**
 
 like with adding to a list removing also comes in two variants:
 
@@ -227,7 +247,7 @@ or
 that removes from the right/tail
 if successful it will return the value that has been removed if the list is empty it will return `(nil)`
 
-**removing multipe items**
+**removing multiple items**
 
 both `lpop` and `rpop` can have an optional number after the listName indicating how many to pop f.exs
 
@@ -274,8 +294,8 @@ if you do not want to see the first item, but from som later part of the list th
 this will return form the third item in the list until the end
 
 *Note:*  
-if you are trying to look at a list that is empty or are starting to look beyond where the list ends it will return `(empty array)`  
-but if part of what you are looking for exists it will give you the list matching your search.
+if you are trying to look at a list that is empty or are starting to look beyond where the list ends it will return 
+`(empty array)` but if part of what you are looking for exists it will give you the list matching your search.
 
 [for more commands for lists see here](https://redis.io/commands/?group=list)
 
@@ -290,8 +310,10 @@ to create or change a hash we use `hset` followed by the hash to add or change a
 ```
 
 *Note:*  
-if a value includes a space you need to wrap that in quotes or the `hset` thinks you are each space represents the end of one value or key  
-if the resulting number of keys and values are not the same you will get an error like this: `(error) ERR wrong number of arguments for 'hset' command` other vice you will receive something like this `(integer) x` where "x" is the number of key/value pairs
+if a value includes a space you need to wrap that in quotes or the `hset` thinks you are each space represents the end 
+of one value or key if the resulting number of keys and values are not the same you will get an error like this: 
+`(error) ERR wrong number of arguments for 'hset' command` other vice you will receive something like this `(integer) x`
+where "x" is the number of key/value pairs
 
 **getting one key from a hash**
 
@@ -302,7 +324,9 @@ to get only one value form a hash you use `hget` like this
 ```
 
 the expected resault in this case is `"foo"`, if the hashName is not defined or the keyName is not in use you get `(nil)`
-if you have used a name that is of a different type you get an error like this `(error) WRONGTYPE Operation against a key holding the wrong kind of value` and if you have added more than noe key you get this type of error: `(error) ERR wrong number of arguments for 'hget' command`
+if you have used a name that is of a different type you get an error like this 
+`(error) WRONGTYPE Operation against a key holding the wrong kind of value` and if you have added more than noe key you 
+get this type of error: `(error) ERR wrong number of arguments for 'hget' command`
 
 **getting more than noe filed form a hash**
 
@@ -313,7 +337,8 @@ to get more that noe field you do this:
 
 if there is at leased one key you get a list with the responses with either the value if the key exists or `(nil)`.  
 if the hash do not exist then you will get all `(nil)`  
-and if you have not added less than two arguments you get this type of error: `(error) ERR wrong number of arguments for 'hget' command`
+and if you have not added less than two arguments you get this type of error: 
+`(error) ERR wrong number of arguments for 'hget' command`
 in this case we will receive:
 ```
 1) "foo"
@@ -323,15 +348,166 @@ in this case we will receive:
 
 [for a complete list of hash commands see here](https://redis.io/commands/?group=hash)
 
+###### managing data
+
+**listing keys**
+
+to show a list of keys you use the `keys` keyword followed by a search pattern
+
+to get all keys you can use this:
+```redis
+> keys *
+```
+
+if you want something that get both every thing that ends in "name" then someting like this will do:
+```redis
+> keys *name
+```
+
+the data will be returned in a list like so:
+```
+1) firstname
+2) middlename
+3) lastname
+4) funnyname
+```
+
+if there is no match then the resault will be like this `(empty array)`
+
+[for more information on key searches see here](https://redis.io/commands/keys/)
+
+**delete data**
+
+to delete a key/value pair you use `del` like this
+
+```redis
+> del keyName
+```
+
+if the key existed you will get `(integer) 1` to indicate that the deletion where completed  
+if the key did not exist then you will get `(integer) 0` to indicate that something was wrong
+
+[for more information on del see here](https://redis.io/commands/del/)
+
+**delete after a set time**
+
+to set a ttl you use the `expire` key word followed by the key and then the time in seconds like this:
+
+```redis
+> expire keyName 60
+```
+
+this will remove the key "keyName" after one minute
+
+[for more information on expire see here](https://redis.io/commands/expire/)
+
 ##### using redis in nodeJs
 
-we will be using [the npm package ioredis](https://www.npmjs.com/package/ioredis?activeTab=readme) for manipulating the redis db
+we will be using [the npm package ioredis](https://www.npmjs.com/package/ioredis?activeTab=readme) for manipulating the 
+redis db
 
 [for more options in manipulating redis from code see here](https://redis.io/docs/connect/clients/)
 
-###### adding ioRedis to your project
+##### adding ioRedis to your project
 
+we will be using npm to install ioredis like so:
 
+```shell
+$ npm i ioredis
+```
+
+##### contacting the redis database
+
+```javascript
+import Redis from 'ioredis'
+
+// by default whis will look at localhost:6379
+const redis = new Redis()
+
+// if you have startd redis on addiferent port like 1234
+// then simpliy write the port number as the first argument like so
+const redisCustomPort = new Redis(1234)
+
+// if you have sett redis up on a differnt computer then you need to 
+// provide the portnumber and ip address or write it as a url
+const redisRemoteServerIpAddr = new Redis(6379, "198.51.100.0")
+const redisRemoteServerUrl = new Redis("example.com:6379")
+```
+
+##### using ioRedis in your project
+
+**ioRedis basic use**
+
+ioRedis follow a weary simple pattern with is this
+
+`redis.[commad in lowercase](arugumnts)`
+
+so if you want to add a string if the key is not already set you would do one of these:
+
+```javascript
+redis.set("mykey", "some value", "NX")
+
+redis.setnx("myKey", "the value")
+```
+
+or if you want to delete the key you could do this
+
+```javascript
+redis.del("myKey")
+```
+
+all the functions return promises witch you can handle in various ways if you like:
+```javascript
+// await
+const res = await redis.keys('*')
+console.log(res)
+
+// callback
+redis.set('myKey', 'the value', (err, res) => {
+  err
+    ? console.error(err)
+    : console.log(res)
+})
+
+// .then
+redis.get('myKey')
+  .then(res => console.log(res))
+
+// or simply ignore it
+redis.del('myKey')
+```
+
+**ioRedis pipeline**
+
+now if you are going to send multiple commands to redis it will save you some time and bandwidth by queueing them up
+in what's called a pipeline they will den be stored in memory until you call the exec function on the pipeline
+
+```javascript
+const pipeline = reids.pipeline();
+pipeline.set("myKey", "a value")
+
+const doingSomeTing = 2 * math.random() * 10
+
+pipeline.hset('hashName', 'foo', 'bar', 'baz', doingSomeTing)
+pipeline.hget('hashNmae', 'baz')
+pipeline.exec((outsideErr, outsideRes) => {
+  // outsideErr is always null and outsideRes is an array with the responses from the commands
+  
+  outsideRes.forEach((err, res) => {
+    if (err) {
+      console.error(err)
+    } else {
+      console.log(res)
+    }
+  })
+})
+
+// you can now continue to add to the que but remeber to end with a piplene.exec()
+```
+
+**for more info about ioredis:**
+- [npm page for ioRedis](https://www.npmjs.com/package/ioredis#quick-start)
+- [ioRedis examples on GitHub](https://github.com/redis/ioredis/tree/ec42c82ceab1957db00c5175dfe37348f1856a93/examples)
 
 ## Conclusion
 
@@ -352,7 +528,15 @@ API
 usually over the internet
 
 WSL
-: WSL or Windows subsystem for linux, is an optional terminal in the Windows operating system that allows for the use of tools developed to be used on linux.
+: WSL or Windows subsystem for linux, is an optional terminal in the Windows operating system that allows for the use
+of tools developed to be used on linux.
+
+npm 
+: npm or node package manager, is a method for getting and managing the dependencies for helper packages you use in 
+your code
+
+ttl
+: ttl or time to live, indicates how long until something is to be deleted
 
 ## References
 
@@ -378,4 +562,3 @@ WSL
 - sentinel
 - redis cluster
 - nodejs ioredis
-- cli
