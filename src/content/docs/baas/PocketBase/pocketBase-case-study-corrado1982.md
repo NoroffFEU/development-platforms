@@ -53,6 +53,12 @@ Then can access the Pocketbase admin dashboard UI at the following URL:
 
 ## Conclusion
 
+PocketBase is a very good alternative to Supabase and Firebase especially if you are looking at hosting it yourself (or you can use a free host like https://pockethost.io/). PocketBase is also open source so you are sure that the code is not controlled by some big tech firm. PocketBase is also extremely fast and reliable. It's going to save you hours of development time if your application requires a backend service and it keeps you glued to focusing on what matters. PocketBase is a great choice for small and midsize applications - SaaS, mobile api backend, intranet, etc.
+
+# Disvantages
+
+It scale only on a single server, aka. vertical. In 90% of the cases you may not need the complexity of managing a fleet of machines and services just to run your backend, but for bigger applications coiuld be a problem.
+
 This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
 
 ## References
