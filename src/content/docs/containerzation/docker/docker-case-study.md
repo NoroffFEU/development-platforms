@@ -42,34 +42,34 @@ So you will never run into this situation with your software testers:
 
 <ul>
 <li>
-**Simplified Configuration**: Docker streamlines the process of configuring applications, leading to faster and more efficient setup.
+<strong>Simplified Configuration</strong> : Docker streamlines the process of configuring applications, leading to faster and more efficient setup.
 </li>
 <li>
-**Segregated Application Run**: Docker ensures that applications are isolated in their own containers, avoiding conflicts and interferences.
+<strong>Segregated Application Run</strong> : Docker ensures that applications are isolated in their own containers, avoiding conflicts and interferences.
 </li>
 <li>
-**Productivity Boost**: Docker's approach reduces the complexity of development and deployment, enhancing overall efficiency.
+<strong>Productivity Boost</strong> : Docker's approach reduces the complexity of development and deployment, enhancing overall efficiency.
 </li>
 <li>
-**Service State Control**: Docker services are designed to maintain and regulate a service's intended state, prioritizing availability and scalability.
+<strong>Service State Control</strong> : Docker services are designed to maintain and regulate a service's intended state, prioritizing availability and scalability.
 </li>
 <li>
-**Load Balancing and Discovery**: The routing mesh feature in Docker provides an intelligent routing mechanism for balancing the load and discovering services within a Swarm.
+<strong>Load Balancing and Discovery</strong> : The routing mesh feature in Docker provides an intelligent routing mechanism for balancing the load and discovering services within a Swarm.
 </li>
 <li>
-**Security Protocols**: Docker prioritizes security by providing mechanisms like image scanning and secure container isolation to safeguard applications.
+<strong>Security Protocols</strong> : Docker prioritizes security by providing mechanisms like image scanning and secure container isolation to safeguard applications.
 </li>
 <li>
-**System Scalability**: Docker allows for rapid adjustment in the scale of applications, ensuring they perform effectively under varying loads.
+<strong>System Scalability</strong> : Docker allows for rapid adjustment in the scale of applications, ensuring they perform effectively under varying loads.
 </li>
 <li>
-**Streamlined Software Deployment**: Docker promotes better software deployment practices with consistent environments and version tracking, minimizing release complications.
+<strong>Streamlined Software Deployment</strong> : Docker promotes better software deployment practices with consistent environments and version tracking, minimizing release complications.
 </li>
 <li>
-**Network Customization**: With Docker, creating software-defined networks is effortless, ensuring seamless inter-container communication across diverse settings.
+<strong>Network Customization</strong> : With Docker, creating software-defined networks is effortless, ensuring seamless inter-container communication across diverse settings.
 </li>
 <li>
-**Application Size Efficiency**: Docker reduces the footprint of applications and their dependencies through containerization, optimizing the use of system resources.
+<strong>Application Size Efficiency</strong> : Docker reduces the footprint of applications and their dependencies through containerization, optimizing the use of system resources.
 </li>
 </ul>
 
@@ -112,35 +112,37 @@ So you will never run into this situation with your software testers:
 
 ## Some weaknesses you might consider before using Docker
 
-**Non-bare-metal Performance**: Containers incur a performance overhead due to additional layers such as overlay networking and container-to-host communication, falling short of bare-metal speeds.
-
-**Fragmented Container Landscape**: Diverse container technologies may lack interoperability owing to competitive dynamics; for instance, OpenShift is tailored exclusively for Kubernetes.
-
-**Challenges with Persistent Storage**: Container data can be ephemeral, risking data loss unless external storage solutions are implemented, which may add complexity.
-
-**Limitations with GUI-based Applications**: Docker's architecture is primarily suited for headless server applications, as graphical user interfaces in containers face certain constraints.
-
-**Selective Application Compatibility**: Docker excels with applications structured as microservices, but monolithic applications might not reap the same distribution benefits.
-
-**Storage Integration Complexities**: Despite ongoing advancements, linking containers to persistent storage solutions demands intricate manual setup.
-
-**Basic Monitoring Capabilities**: Docker provides elementary monitoring through its `stats` command; comprehensive analysis typically requires additional third-party tools.
-
-**Unfulfilled Feature Enhancements**: Docker is actively developing features such as container self-inspection and improved file transfer capabilities, which are not yet standard.
-
-**Data Vulnerability**: Establishing backup and recovery protocols for Docker involves manual intervention, casting doubts on its reliability for data resilience.
-
-**Optimizing Application Speed**: Containers offer reduced overhead compared to VMs, but they can't match the performance of running directly on bare-metal hardware.
-
-**Limited OS Compatibility**: Docker's design can introduce compatibility hurdles, as containers built for one operating system may not function seamlessly on another.
-
-**Suboptimal for GUI Applications**: While feasible, operating GUI-centric applications in Docker is not ideal, given the platform's focus on command-line interface operations.
-
-**Incomplete Security Solutions**: Docker's security model presents unique challenges that must be specifically addressed beyond traditional security practices.
-
-**Pace of Evolution**: Docker's rapid development cycle can lead to a lag in the supporting ecosystem, creating documentation gaps and learning challenges.
-
-**Adaptation Difficulty**: Engineers new to containerization may find Docker's learning curve steep, although more intuitive tools are available to ease the transition.
+<ul>
+  <li><strong>Non-bare-metal Performance</strong>: Containers incur a performance overhead due to additional layers such as overlay networking and container-to-host communication, falling short of bare-metal speeds.</li>
+  
+  <li><strong>Fragmented Container Landscape</strong>: Diverse container technologies may lack interoperability owing to competitive dynamics; for instance, OpenShift is tailored exclusively for Kubernetes.</li>
+  
+  <li><strong>Challenges with Persistent Storage</strong>: Container data can be ephemeral, risking data loss unless external storage solutions are implemented, which may add complexity.</li>
+  
+  <li><strong>Limitations with GUI-based Applications</strong>: Docker's architecture is primarily suited for headless server applications, as graphical user interfaces in containers face certain constraints.</li>
+  
+  <li><strong>Selective Application Compatibility</strong>: Docker excels with applications structured as microservices, but monolithic applications might not reap the same distribution benefits.</li>
+  
+  <li><strong>Storage Integration Complexities</strong>: Despite ongoing advancements, linking containers to persistent storage solutions demands intricate manual setup.</li>
+  
+  <li><strong>Basic Monitoring Capabilities</strong>: Docker provides elementary monitoring through its `stats` command; comprehensive analysis typically requires additional third-party tools.</li>
+  
+  <li><strong>Unfulfilled Feature Enhancements</strong>: Docker is actively developing features such as container self-inspection and improved file transfer capabilities, which are not yet standard.</li>
+  
+  <li><strong>Data Vulnerability</strong>: Establishing backup and recovery protocols for Docker involves manual intervention, casting doubts on its reliability for data resilience.</li>
+  
+  <li><strong>Optimizing Application Speed</strong>: Containers offer reduced overhead compared to VMs, but they can't match the performance of running directly on bare-metal hardware.</li>
+  
+  <li><strong>Limited OS Compatibility</strong>: Docker's design can introduce compatibility hurdles, as containers built for one operating system may not function seamlessly on another.</li>
+  
+  <li><strong>Suboptimal for GUI Applications</strong>: While feasible, operating GUI-centric applications in Docker is not ideal, given the platform's focus on command-line interface operations.</li>
+  
+  <li><strong>Incomplete Security Solutions</strong>: Docker's security model presents unique challenges that must be specifically addressed beyond traditional security practices.</li>
+  
+  <li><strong>Pace of Evolution</strong>: Docker's rapid development cycle can lead to a lag in the supporting ecosystem, creating documentation gaps and learning challenges.</li>
+  
+  <li><strong>Adaptation Difficulty</strong>: Engineers new to containerization may find Docker's learning curve steep, although more intuitive tools are available to ease the transition.</li>
+</ul>
 
 ### [Start using Docker](https://docs.docker.com/)
 
