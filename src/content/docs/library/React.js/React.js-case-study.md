@@ -100,10 +100,16 @@ In February, Relay and GraphQL were introduced at React.js Conf, offering effici
 
 - 2018: React v16.3.0 was released.
 
-- 2019: React introduced Hooks in version v16.8, offering a simpler and more functional approach to managing component state and lifecycle methods, enhancing the development experience.
+- ### 2019:
 
-- 2020: React Concurrent Mode, still in the experimental stages, aims to enhance user experience by enabling React to handle multiple tasks simultaneously, resulting in more responsive applications.
+- React introduced Hooks in version v16.8, offering a simpler and more functional approach to managing component state and lifecycle methods, enhancing the development experience.
+
+- ### 2020:
+
+- React Concurrent Mode, still in the experimental stages, aims to enhance user experience by enabling React to handle multiple tasks simultaneously, resulting in more responsive applications.
 
 - React Server Components are in research and development.
 
-- 2022: React v18.0 available on npm.
+- ### 2022:
+
+- React v18.0 available on npm.
