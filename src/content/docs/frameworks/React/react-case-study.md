@@ -95,3 +95,16 @@ According to research and statistics, React is the predominant choice among fron
 
 
 
+## Getting Started
+
+01) Install Node.js
+02) Install npm (Node.js package manager)
+03) Create a new React project 
+```
+npm create-react-app project-name
+```
+04) Start the React project
+```
+npm start
+```
+
