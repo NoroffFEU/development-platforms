@@ -61,37 +61,41 @@ function Bnt(props) {
 
 
 ## Market Comparison
-
 According to research and statistics, React is the predominant choice among front-end developers. However, there are notable alternatives, such as Vue and Angular, that also command a significant presence.
+
+![Alt Text](https://wallpapers.com/images/hd/react-angular-and-vue-zpzem4iudyd82cf8.jpg)
+
 
 1. **Learning Curve:**
    - React: React may have some initial complexity for beginners due to concepts like JSX and the need to set up tools like Webpack and understand component lifecycles. However, it offers a relatively manageable learning curve overall.
 
+   - Angular: Angular has a steeper learning curve due to its comprehensive and opinionated nature. It uses TypeScript, has a complex setup, and requires an understanding of various concepts like modules and decorators.
+
    - Vue: Vue is often considered more approachable for newcomers. Its single-file components with HTML, CSS, and JavaScript make it easier to grasp. Vue also provides clear and concise documentation.
 
-   - Angular: Angular has a steeper learning curve due to its comprehensive and opinionated nature. It uses TypeScript, has a complex setup, and requires an understanding of various concepts like modules and decorators.
+
 
 2. **Community:**
    - React: Since Facebook backs this technology, React has a strong developer community that provides a wealth of resources and support.
-  
-   - Vue:  Vue has a smaller community with limited resources and modules, but it is still supported by Evan You and the team.
  
    - Angular: Angular has a mature ecosystem, including a well-established community, offers extensive documentation, and is supported by Google.
+
+   - Vue:  Vue has a smaller community with limited resources and modules, but it is still supported by Evan You and the team.
 
 3. **Performance:**
    - React: React uses a virtual DOM to optimize updates and improve performance. It is highly efficient and suitable for large applications.
 
-   - Vue: Vue also uses a virtual DOM and offers good performance, contributing to its responsiveness and efficient rendering.
-
    - Angular: Angular uses the real DOM for its applications, which can impact performance and efficiency.
+
+   - Vue: Vue also uses a virtual DOM and offers good performance, contributing to its responsiveness and efficient rendering.
 
 
 4. **Adoption by Tech Giants:**
    - React: React is used by Facebook, Instagram, WhatsApp, and many other companies.
 
-   - Vue: Vue is used by Alibaba, Xiaomi, and others, but it's not as prevalent in tech giants as React.
-
    - Angular: Angular is maintained by Google and used by large enterprises like Microsoft, IBM, and Cisco.
+
+   - Vue: Vue is used by Alibaba, Xiaomi, and others, but it's not as prevalent in tech giants as React and Angular.
 
 
 
