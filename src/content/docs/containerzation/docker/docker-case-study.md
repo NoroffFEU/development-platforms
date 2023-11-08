@@ -40,27 +40,38 @@ So you will never run into this situation with your software testers:
 
 ## Features
 
+<ul>
+<li>
 **Simplified Configuration**: Docker streamlines the process of configuring applications, leading to faster and more efficient setup.
-
+</li>
+<li>
 **Segregated Application Run**: Docker ensures that applications are isolated in their own containers, avoiding conflicts and interferences.
-
+</li>
+<li>
 **Productivity Boost**: Docker's approach reduces the complexity of development and deployment, enhancing overall efficiency.
-
-**Docker Swarm Management**: Swarm, Docker's container clustering tool, facilitates easy scaling and management of containerized systems.
-
+</li>
+<li>
 **Service State Control**: Docker services are designed to maintain and regulate a service's intended state, prioritizing availability and scalability.
-
+</li>
+<li>
 **Load Balancing and Discovery**: The routing mesh feature in Docker provides an intelligent routing mechanism for balancing the load and discovering services within a Swarm.
-
+</li>
+<li>
 **Security Protocols**: Docker prioritizes security by providing mechanisms like image scanning and secure container isolation to safeguard applications.
-
+</li>
+<li>
 **System Scalability**: Docker allows for rapid adjustment in the scale of applications, ensuring they perform effectively under varying loads.
-
+</li>
+<li>
 **Streamlined Software Deployment**: Docker promotes better software deployment practices with consistent environments and version tracking, minimizing release complications.
-
+</li>
+<li>
 **Network Customization**: With Docker, creating software-defined networks is effortless, ensuring seamless inter-container communication across diverse settings.
-
+</li>
+<li>
 **Application Size Efficiency**: Docker reduces the footprint of applications and their dependencies through containerization, optimizing the use of system resources.
+</li>
+</ul>
 
 ## Why would you use Docker?
 
