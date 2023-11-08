@@ -18,6 +18,7 @@ for its minimalistic yet effective approach, and for being deployable via one si
 Pocketbase or tools similar to it provide a lot of great features,
 especially when it comes to CRUD-based operations.
 
+- Is Free!
 - Real-time relational database
 - Authentication file storage
 - Is entirely self-hostable
