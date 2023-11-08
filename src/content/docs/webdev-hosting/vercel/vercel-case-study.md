@@ -12,22 +12,19 @@ I will base this case study on being a solo developer using it for private or sm
 
 ## Brief History
 
-2015:   - Guillermo Rauch founded Vercel as ZEIT.
-
-2016:   - Nicolás Garro joined ZEIT as the Founding Designer and Head of Design.
-        - Next.js was released as an open-source project on GitHub
-
-2020:   - ZEIT was rebranded to Vercel.
-        - The first Next.js conference took place on October 27.
-        - Next.js Commerce v1 was introduced during the Next.js Conf 2020
-
-2021:   - Vercel raised $102 million and the company was valued at $2.5 billion November 2021.
-        - In December Vercel acquired Turborepo.
-
-2022:   - Vercel acquired Splitbee.
-
-2023:   - Vercel Postgres was introduced, a serverless PostgresAQL database integrated in Vercel
-        - Vercel introduced v0 AI driver creation of code and design
+| **Year** | **Milestone**                                                                          |
+|----------|----------------------------------------------------------------------------------------|
+| 2015     | Guillermo Rauch founded Vercel as ZEIT                                                 |
+| 2016     | Nicolás Garro joined ZEIT as the Founding Designer and Head of Design                  |
+|          | Next.js was released as an open-source project on GitHub                               |
+| 2020     | ZEIT was rebranded to Vercel                                                           |
+|          | The first Next.js conference took place on October 27                                  |
+|          | Next.js Commerce v1 was introduced during the Next.js Conf 2020                        |
+| 2021     | Vercel raised $102 million and the company was valued at $2.5 billion November 2021    |
+|          | In December Vercel acquired Turborepo                                                  |
+| 2022     | Vercel acquired Splitbee                                                               |
+| 2023     | Vercel Postgres was introduced, a serverless PostgresAQL database integrated in Vercel |
+|          | Vercel introduced v0 AI driver creation of code and design                             |
 
 ## Main Features
 
