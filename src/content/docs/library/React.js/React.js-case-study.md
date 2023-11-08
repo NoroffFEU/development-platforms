@@ -14,11 +14,17 @@ React is the most used library among developers over the years. React is not a f
 
 ## Brief History
 
-- 2011: React was created by Jordan Walke, a software engineer at Facebook. Initially, React was called FaxJS and was an early prototype of React.
+### 2011:
 
-- 2012: React was continued and adopted in the image-sharing service Instagram.
+- React was created by Jordan Walke, a software engineer at Facebook. Initially, React was called FaxJS and was an early prototype of React.
 
-- 2013: In 2013, React was open-sourced, allowing developers outside Facebook to use and contribute to the project. This move quickly attracted attention from the web development community.
+### 2012:
+
+- React was continued and adopted in the image-sharing service Instagram.
+
+### 2013:
+
+- In 2013, React was open-sourced, allowing developers outside Facebook to use and contribute to the project. This move quickly attracted attention from the web development community.
 
 - React pioneered the concept of the Virtual DOM in the same year, introducing a lightweight, in-memory representation of the browser's Document Object Model (DOM). This innovation significantly improved performance by reducing the need for direct manipulation of the DOM.
 
@@ -28,7 +34,9 @@ React is the most used library among developers over the years. React is not a f
 
 - In December, David Nolen introduced OM, a library based on React, which helped showcase React's superiority over other alternatives, furthering its acknowledgment and popularity.
 
-- 2014: React continued to gain popularity, particularly for enterprise adoption, emphasizing stability and reliability.
+### 2014:
+
+- React continued to gain popularity, particularly for enterprise adoption, emphasizing stability and reliability.
 
 - The #reactjsworldtour conferences were initiated to build a community of React enthusiasts and advocates.
 
@@ -48,17 +56,19 @@ React is the most used library among developers over the years. React is not a f
 
 - In December, PlanOut 0.5 was released, featuring a React-based PlanOut language editor and achieving feature parity with Facebook's internal version.
 
-- 2015: Early in the year, Flipboard released React Canvas, demonstrating React's versatility.
+### 2015:
+
+- Early in the year, Flipboard released React Canvas, demonstrating React's versatility.
 
 - React Native was introduced this year, bringing React's principles to mobile app development, enabling developers to create cross-platform mobile applications using React and native components.
 
 - In January Facebook unveiled the first version of React Native, enabling cross-platform mobile app development.
 
-- - Same month, Netflix expressed interest in React, signaling its growing adoption.
+- Same month, Netflix expressed interest in React, signaling its growing adoption.
 
-Airbnb also started using React for web development in early 2015.
+- Airbnb also started using React for web development in early 2015.
 
-In February, Relay and GraphQL were introduced at React.js Conf, offering efficient data-fetching mechanisms for React applications.
+- In February, Relay and GraphQL were introduced at React.js Conf, offering efficient data-fetching mechanisms for React applications.
 
 - In March, Facebook announced that React Native for iOS was open and available on GitHub, fostering community involvement.
 
@@ -68,7 +78,9 @@ In February, Relay and GraphQL were introduced at React.js Conf, offering effici
 
 - On September 14, React Native for Android was released, extending React Native's reach to the Android platform.
 
-- 2016: In February, React Conf 2016, held in San Francisco, provided a platform for important announcements and insights into React's future.
+### 2016:
+
+- In February, React Conf 2016, held in San Francisco, provided a platform for important announcements and insights into React's future.
 
 - Draft.js was introduced at React Conf by Isaac Salier-Hellendag, offering a rich text editor framework for React applications.
 
@@ -98,18 +110,20 @@ In February, Relay and GraphQL were introduced at React.js Conf, offering effici
 
 - In November, React v16.2.0 was released, featuring improved support for Fragments, a key aspect of React's architecture.
 
-- 2018: React v16.3.0 was released.
+### 2018:
 
-- ### 2019:
+- React v16.3.0 was released.
+
+### 2019:
 
 - React introduced Hooks in version v16.8, offering a simpler and more functional approach to managing component state and lifecycle methods, enhancing the development experience.
 
-- ### 2020:
+### 2020:
 
 - React Concurrent Mode, still in the experimental stages, aims to enhance user experience by enabling React to handle multiple tasks simultaneously, resulting in more responsive applications.
 
 - React Server Components are in research and development.
 
-- ### 2022:
+### 2022:
 
 - React v18.0 available on npm.
