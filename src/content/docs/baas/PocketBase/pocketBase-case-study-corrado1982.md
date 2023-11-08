@@ -17,14 +17,15 @@ for its minimalistic yet effective approach, and for being deployable via one si
 
 Pocketbase or tools similar to it provide a lot of great features,
 especially when it comes to CRUD-based operations.
-real-time relational database
-authentication file storage
-pocketbase is entirely self-hostable
-embedded database (SQLite) with realtime subscriptions
-built-in files and users management
-convenient Admin dashboard UI
-and simple REST-ish API
-easy to migrate
+
+- Real-time relational database
+- Authentication file storage
+- Is entirely self-hostable
+- Embedded database (SQLite) with realtime subscriptions
+- Built-in files and users management
+- Convenient Admin dashboard UI
+- Simple REST-ish API
+- Easy to migrate
 
 Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
 
@@ -32,7 +33,7 @@ Describe the primary purpose of the tool that you have selected. Which problems 
 | ------------------------------------------------ | ---------------------------------------------------------------------- |
 | Real-time relational database                    | Necessary to make a chat in your application.                          |
 | It’s based on the Go language                    | Which usually equates to being fast.                                   |
-| It’s based on the Go language                    | No RDMS, no NoSQL either.                                              |
+| It uses SQLite                                   | No RDMS, no NoSQL either.                                              |
 | Pocketbase lives inside a single executable file | This means that you don’t need an entire code base for a simple thing. |
 
 ## Market Comparison
@@ -43,6 +44,7 @@ Instead, PocketBase could be used as a Go or JS framework that enables you to bu
 ## Getting Started
 
 Download the archive here: https://pocketbase.io/docs/
+
 Once you've extracted the archive, you could start the application by running
 `sh ./pocketbase serve`  
 in the extracted directory.
