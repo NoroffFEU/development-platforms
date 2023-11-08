@@ -48,13 +48,13 @@ Download the archive here: https://pocketbase.io/docs/
 
 Once you've extracted the archive, you could start the application by running
 
-`sh ./pocketbase serve`
+```sh ./pocketbase serve```
 
 in the extracted directory.
 
 Then can access the Pocketbase admin dashboard UI at the following URL
 
-`sh http://127.0.0.1:8090/_/ `
+```sh http://127.0.0.1:8090/_/ ```
 
 ## Conclusion
 
