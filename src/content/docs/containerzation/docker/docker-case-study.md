@@ -8,21 +8,16 @@ tags: development platform, containerzation, package, docker
 
 ## Introduction
 
-<div>
 Docker is a tool that is used to automate the deployment of applications in lightweight containers so that applications can work efficiently in different environments in isolation.\
 Docker is a way to package software so it can run on any hardware.
 
-<div float="right">
-    <img src="https://pbs.twimg.com/media/FPKqqiFX0AMRBu4?format=png&name=small" alt="It works on my machine, then we will ship your machine. That is how Docker was born." width="50%" height="auto">
-</div>
-</div>
+<img src="https://pbs.twimg.com/media/FPKqqiFX0AMRBu4?format=png&name=small" alt="It works on my machine, then we will ship your machine. That is how Docker was born." width="50%" height="auto">
+
 Docker fixes the problem, where the developer code works on his hardware, but does not work on other machines.\
 So you will never run into this situation with your software testers:
-<div>
-<div float="right">
-    <img src="https://spectralops.io/wp-content/uploads/2023/08/Docker-Meme.jpg" alt="" width="50%" height="auto">
-</div>
-</div>
+
+<img src="https://spectralops.io/wp-content/uploads/2023/08/Docker-Meme.jpg" alt="" width="50%" height="auto">
+
 ## You preffer Video?
 
 -   [Docker in 100 seconds](https://www.youtube.com/watch?v=Gjnup-PuquQ)
