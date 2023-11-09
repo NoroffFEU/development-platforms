@@ -61,9 +61,7 @@ function Btn(props) {
 
 
 ## Market Comparison
-According to research and statistics, React is the predominant choice among front-end developers. However, there are notable alternatives, such as Vue and Angular, that also command a significant presence.
-
-![Alt Text](https://wallpapers.com/images/hd/react-angular-and-vue-zpzem4iudyd82cf8.jpg)
+According to research and statistics, React is the predominant choice among front-end developers. However, there are notable alternatives, such as Vue, Angular and Svelte that also command a significant presence.
 
 
 1. **Learning Curve:**
@@ -73,6 +71,7 @@ According to research and statistics, React is the predominant choice among fron
 
    - Vue: Vue is often considered more approachable for newcomers. Its single-file components with HTML, CSS, and JavaScript make it easier to grasp. Vue also provides clear and concise documentation.
 
+   - Svelte: Svelte has a low learning curve. Its templating syntax is similar to HTML and JavaScript, and it eliminates the need for a virtual DOM. Svelte’s documentation is very easy to follow and features a detailed in-built tutorial.
 
 
 2. **Community:**
@@ -82,6 +81,9 @@ According to research and statistics, React is the predominant choice among fron
 
    - Vue:  Vue has a smaller community with limited resources and modules, but it is still supported by Evan You and the team.
 
+   - Svelte: As a newer framework, Svelte currently has less support in terms of libraries, plugins, and integrations. However, it is gaining popularity.
+
+
 3. **Performance:**
    - React: React uses a virtual DOM to optimize updates and improve performance. It is highly efficient and suitable for large applications.
 
@@ -89,6 +91,8 @@ According to research and statistics, React is the predominant choice among fron
 
    - Vue: Vue also uses a virtual DOM and offers good performance, contributing to its responsiveness and efficient rendering.
 
+   - Svelte: The Svelte compiler reads the written code and compiles it into pure JavaScript, without utilizing a Virtual DOM. Its unique approach to reactivity is exceptionally performant compared to its counterparts.
+  
 
 4. **Adoption by Tech Giants:**
    - React: React is used by Facebook, Instagram, WhatsApp, and many other companies.
@@ -96,6 +100,8 @@ According to research and statistics, React is the predominant choice among fron
    - Angular: Angular is maintained by Google and used by large enterprises like Microsoft, IBM, and Cisco.
 
    - Vue: Vue is used by Alibaba, Xiaomi, and others, but it's not as prevalent in tech giants as React and Angular.
+
+   - Svelte: Svelte has a limited presence in this context. However, Apple utilizes it for the web version of Apple Music 
 
 
 
@@ -129,6 +135,7 @@ React can present some challenges, as it is continuously evolving, requiring con
 - [Frontend frameworks popularity](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190#stack-overflow-survey)
 - [Angular vs. React: A Complete Comparison Guide ](https://www.cuelogic.com/blog/what-are-the-differences-between-angular-and-react#:~:text=In%20Angular%20apps%2C%20a%20real,to%20update%20the%20entire%20tree.)
 - [Angular vs. React vs. Vue.js: Comparing performance](https://blog.logrocket.com/angular-vs-react-vs-vue-js-comparing-performance/#future-frameworks)
+- [Top 10 Big Companies Using Svelte](https://www.okupter.com/blog/companies-using-svelte#:~:text=Apple%20has%20brought%20Svelte%20to,a%20proud%20user%20of%20Svelte.)
 
 ## Additional Resources
 
