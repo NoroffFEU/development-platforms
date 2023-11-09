@@ -1,6 +1,6 @@
 ---
 title: Redis Case Study
-author: [Eirik Berget Haukeland (eirik-haukeland on GitHub)](https://github.com/Eirik-Haukeland)
+author: Eirik Berget Haukeland <eirik-haukeland>
 tags: redis, case study, platform, cashing
 ---
 
