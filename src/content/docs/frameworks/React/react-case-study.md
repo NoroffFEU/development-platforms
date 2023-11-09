@@ -42,7 +42,7 @@ function Title(props) {
 **JSX:** JSX is an extension of the JavaScript language used by React to create user interfaces. It allows you to mix JavaScript code with HTML-like syntax, making it easier to write user interface components in a single code file.
 Example:
 ````
-function Bnt(props) {
+function Btn(props) {
   return (
     <button onClick={props.onClick}>
       {props.text}
