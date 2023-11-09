@@ -296,7 +296,9 @@ React continues to evolve and improve with each new version. The React team acti
 
 Image:
 
-- [Iconfinder](![Alt text](image-1.png))
+- [Example.com](https://example.com)
+
+- [Iconfinder](https://www.iconfinder.com/icons/1174949/js_react_js_logo_react_react_native_icon)
 
 ## Additional Resources
 
