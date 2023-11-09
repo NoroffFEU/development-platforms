@@ -43,7 +43,7 @@ Instead, PocketBase could be used as a Go or JS framework that enables you to bu
 | PocketBase                              | Supabase              |
 | --------------------------------------- | --------------------- |
 | Faster because wrote with "go" lenguage | Wrote with TypeScript |
-| Easy to self host                       | More dissicult        |
+| Easy to self host                       | More difficult        |
 
 ## Getting Started
 
