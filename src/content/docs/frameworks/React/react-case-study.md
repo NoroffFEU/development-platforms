@@ -67,7 +67,7 @@ According to research and statistics, React is the predominant choice among fron
 
 
 1. **Learning Curve:**
-   - React: React may have some initial complexity for beginners due to concepts like JSX and the need to set up tools like Webpack and understand component lifecycles. However, it offers a relatively manageable learning curve overall.
+   - React: React may have some initial complexity for beginners due to concepts like JSX and the need to understand component lifecycles. However, it offers a relatively manageable learning curve overall.
 
    - Angular: Angular has a steeper learning curve due to its comprehensive and opinionated nature. It uses TypeScript, has a complex setup, and requires an understanding of various concepts like modules and decorators.
 
