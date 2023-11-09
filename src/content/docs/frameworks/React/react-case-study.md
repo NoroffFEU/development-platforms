@@ -32,16 +32,16 @@ Here are some React features:
 
 **Components:** Components are a crucial concept in React, they enable the division of the UI into self-contained, reusable parts.
 Functional Components are defined as JavaScript functions. They accept properties (props) as input and return a React element, typically in the form of HTML content. Example:
-````
+```js
 function Title(props) {
   return <h1>{props.text}</h1>;
 }
 
-````
+```
 
 **JSX:** JSX is an extension of the JavaScript language used by React to create user interfaces. It allows you to mix JavaScript code with HTML-like syntax, making it easier to write user interface components in a single code file.
 Example:
-````
+```js
 function Btn(props) {
   return (
     <button onClick={props.onClick}>
@@ -49,7 +49,7 @@ function Btn(props) {
     </button>
   );
 }
-````
+```
 
 **Unidirectional Data Flow:** React enforces a unidirectional data flow, making it easier to understand how data changes in an application. Data flows from parent components to child components, reducing the risk of bugs and making the code more predictable.
 
