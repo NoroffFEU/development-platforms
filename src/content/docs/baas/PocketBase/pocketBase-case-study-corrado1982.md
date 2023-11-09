@@ -28,8 +28,6 @@ especially when it comes to CRUD-based operations.
 - Simple REST-ish API
 - Easy to migrate
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
-
 | Feature                                          | Description                                                            |
 | ------------------------------------------------ | ---------------------------------------------------------------------- |
 | Real-time relational database                    | Necessary to make a chat in your application.                          |
@@ -42,13 +40,18 @@ Describe the primary purpose of the tool that you have selected. Which problems 
 PocketBase differs from the other similar backend solutions like Firebase, Supabase, Nhost, etc. and doesn't support running cloud functions.
 Instead, PocketBase could be used as a Go or JS framework that enables you to build your own custom app specific business logic and still have a portable backend at the end.
 
+| PocketBase                              | Supabase              |
+| --------------------------------------- | --------------------- |
+| Faster because wrote with "go" lenguage | Wrote with TypeScript |
+| Easy to self host                       | More dissicult        |
+
 ## Getting Started
 
 Download the archive here: https://pocketbase.io/docs/
 
 Once you've extracted the archive, you could start the application by running
 
-```sh 
+```sh
 ./pocketbase serve
 ```
 
@@ -56,9 +59,9 @@ in the extracted directory.
 
 Then can access the Pocketbase admin dashboard UI at the following URL
 
-```sh 
+```sh
 http://127.0.0.1:8090/_/
- ```
+```
 
 ## Conclusion
 
