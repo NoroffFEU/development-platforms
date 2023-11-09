@@ -37,14 +37,18 @@ the other is using clusters[^11] with cluster
 
 ## Market Comparison
 
-| subject           | redis | memcached | mongodb |
-|:------------------|-------|-----------|---------|
-| speed             |       |           |         |
-| reliability       |       |           |         |
-| scalability       |       |           |         |
-| High Availability |       |           |         |
+| subject           |                                            redis                                            |                       memcached                       |
+|:------------------|:-------------------------------------------------------------------------------------------:|:-----------------------------------------------------:|
+| Database Model    |                   key-value store, document store[^14], vector store[^15]                   |                    key-value store                    |
+| Speed             |                              in-memory store gives good speed                               |           in-memory store gives good speed            |
+| Scalability       |      you can scale redis by connecting multiple redis databases se sentinel or cluster      | all memcached instates are unaware of each other[^16] |
+| High Availability |                        you can configure HA with sentinel or cluster                        |                       no option                       |
+| persistence       | redis has a two options for pretense, but it can be times when it do not get stored in time |      there is some settings for presistens[^17]       |
 
 ## Getting Started
+
+In this section I will go over installing redis and some basic use with redis-cli and using a nodejs library call 
+ioredis.
 
 ### setting up the redis server
 
@@ -507,7 +511,11 @@ pipeline.exec((outsideErr, outsideRes) => {
 
 ## Conclusion
 
+In comparison to other popular caching tools Redis offers a lot of flexibility. 
 
+While redis offers a measure of persistence it should not be used as the primary database, as all the data must be in 
+memory it means that you must have increasingly large amount of RAM to hold the data. it must also be sead that there 
+are times when the database is not yet stored to file, and a failure at that time will resault in data loss
 
 ## Definitions
 
@@ -560,3 +568,7 @@ by subscribers[^9]
 [^11]: [link to cluster spec on redis.io](https://redis.io/docs/reference/cluster-spec/)
 [^12]: [link to persistence configuration on redis.io](https://redis.io/docs/management/persistence/)
 [^13]: [link to pubsub configuration on redis.io](https://redis.io/docs/interact/pubsub/)
+[^14]: [link to redis.io guide to use redis as a document database](https://redis.io/docs/get-started/document-database/)
+[^15]: [link to redis.io guide to use redis as a vector database](https://redis.io/docs/get-started/vector-database/)
+[^16]: [link to memcached documentation concerning server connectivity](https://github.com/memcached/memcached/wiki/Overview#servers-are-disconnected-from-each-other)
+[^17]: [link to memcached documentation concerning persistence](https://github.com/memcached/memcached/wiki/WarmRestart)
