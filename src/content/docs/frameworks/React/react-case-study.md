@@ -60,6 +60,16 @@ function Btn(props) {
 **Virtual DOM:** React uses a virtual representation of the DOM to optimize updates. When data changes, React calculates the minimum required changes to the actual DOM, resulting in better performance. 
 
 
+## Pros of React
+
+React provides developers with the ability to craft lightweight applications enriched with modern features in a significantly reduced timeframe. It offers a vast library of developer tools for enhanced productivity.
+
+
+## Cons of React
+React can present some challenges, as it is continuously evolving, requiring constant learning and adaptation. The use of JSX, while offering flexibility, can be perceived as confusing.
+
+
+
 ## Market Comparison
 According to research and statistics, React is the predominant choice among front-end developers. However, there are notable alternatives, such as Vue, Angular and Svelte that also command a significant presence.
 
