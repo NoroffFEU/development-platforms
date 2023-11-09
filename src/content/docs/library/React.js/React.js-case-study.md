@@ -303,7 +303,7 @@ Content React:
 - [Wikipedia](https://wikipedia.org/wiki/React)
 - [React.dev.learn](https://react.dev/learn)
 - [React blog](https://react.dev/blog)
-- [Feautures](https:/www.greeksforgeeks.org/what-are-the-features-of-reactjs/)
+- [Feautures](https:/www.geeksforgeeks.org/what-are-the-features-of-reactjs/)
 - [Feautures2](https://educative.io/answers/what-are-the-features-of-react)
 
 Angular:
