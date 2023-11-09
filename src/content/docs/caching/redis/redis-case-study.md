@@ -6,7 +6,7 @@ tags: redis, case study, platform, cashing
 
 ## Introduction
 
-Redis is an in-memory database with pupsub functionality. Typically, Redis used as a caching layer for data that would 
+Redis is an in-memory database with pupsub[^9] functionality. Typically, Redis used as a caching layer for data that would 
 otherwise be slow to get from disk/database therefore slow down api requests.
 
 ### Well known companies that uses Redis
