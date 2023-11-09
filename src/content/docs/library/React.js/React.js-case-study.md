@@ -132,24 +132,25 @@ React is the most used library among developers over the years. React is not a f
 
 The primary purpose of React is to simplify and improve the process of building user interfaces for web applications. React simplifies the development of complex web applications, offers a more predictable development process, and is supported by a thriving community, making it an invaluable tool for developers.
 
-| Feature                           | Description                                                                                                                                                                                                                           |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| JSX (JavaScript Syntax Extension) | JSX, is a syntax extension for JavaScript often used in the context of React. It allows developers to write HTML-like code within their JavaScript files, making it easier to define the structure and appearance of user interfaces. |
-| Virtual DOM                       | The Virtual DOM is a key optimization feature in React that improves the performance and efficiency of updating the user interface. It is an in-memory representation of the actual DOM elements in a web application.                |
-| One-way data binding              | One-way data binding is a concept that plays a significant role in how data is managed and displayed in React.                                                                                                                        |
-| Performance                       | Performance is a key concern in React applications, as it directly impacts how efficiently the user interface is rendered and updated.                                                                                                |
-| Extensions                        | React extensions encompass a wide range of libraries, tools, and technologies that can be integrated with React to extend its functionality and simplify common development tasks.                                                    |
-| Conditional statements            | Conditional statements in React allow developers to control the rendering of content or components based on dynamic conditions, enabling the creation of responsive and interactive user interfaces.                                  |
-| Components                        | Components are at the core of React's design philosophy, enabling developers to create modular, reusable, and maintainable user interfaces. .                                                                                         |
-| Simplicity                        | React places a strong emphasis on simplicity, which is one of the reasons it has gained widespread adoption and popularity among developers.                                                                                          |
+| Feature                           | Description                                                                                                                                                                                                                                                     |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| JSX (JavaScript Syntax Extension) | JSX, is a syntax extension for JavaScript often used in the context of React. It allows developers to write HTML-like code within their JavaScript files, making it easier to define the structure and appearance of user interfaces.                           |
+| Virtual DOM                       | The Virtual DOM is a key optimization feature in React that improves the performance and efficiency of updating the user interface. It is an in-memory representation of the actual DOM elements in a web application.                                          |
+| One-way data binding              | One-way data binding is a concept that plays a significant role in how data is managed and displayed in React.                                                                                                                                                  |
+| Performance                       | Performance is a key concern in React applications, as it directly impacts how efficiently the user interface is rendered and updated.                                                                                                                          |
+| Extensions                        | React extensions encompass a wide range of libraries, tools, and technologies that can be integrated with React to extend its functionality and simplify common development tasks.                                                                              |
+| Conditional statements            | Conditional statements in React allow developers to control the rendering of content or components based on dynamic conditions, enabling the creation of responsive and interactive user interfaces.                                                            |
+| Components                        | Components are at the core of React's design philosophy, enabling developers to create modular, reusable, and maintainable user interfaces. .                                                                                                                   |
+| Simplicity                        | React places a strong emphasis on simplicity, which is one of the reasons it has gained widespread adoption and popularity among developers.                                                                                                                    |
+| Declarative user interface        | The declarative user interface empowers the creation of dynamic and interactive user interfaces for websites and mobile applications. This characteristic enhances the readability and user-friendliness of React code, particularly when addressing bug fixes. |
 
-<!-- ## Market Comparison
+## Market Comparison
 
 This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
 
 If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison. -->
+Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
 
 <!-- ## Getting Started
 
