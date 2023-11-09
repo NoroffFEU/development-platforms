@@ -208,9 +208,19 @@ Community Size: While Vue.js has a strong and active community, it may not be as
 
 - Developers often choose React for its flexibility and its ability to be used with other libraries and tools, while Angular and Vue.js provide more built-in features and structure for larger and complex applications.
 
-<!-- ## Getting Started
+## Getting Started with React
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners. -->
+If you're new to React and want to start a new project, you can follow these steps:
+
+1. **Install Node.js**:
+
+   - Ensure you have Node.js installed on your computer. You can download and install it from the official website: [Node.js Download](https://nodejs.org/).
+
+2. **Install npm**:
+
+   - npm (Node Package Manager) comes bundled with Node.js. To check if you have it installed, open your terminal or command prompt and run:
+
+   npm -v
 
 <!-- ## Conclusion
 
