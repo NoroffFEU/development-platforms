@@ -33,6 +33,7 @@ manage it with a light governance model[^5]
 as it occurs, backup the entire database at an interval, if there has been a change, or do both[^12]
 - as well as two ways to handle synchronizing multiple redis databases and high availability called sentinel[^10] and
 the other is using clusters[^11] with cluster
+- Redis has the pubsub functionality[^13]
 
 ## Market Comparison
 
@@ -557,4 +558,5 @@ by subscribers[^9]
 [^9]: Definition for pubsub is from the wikipedia article on the subject [link to arkticle on pupsub](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
 [^10]: [link to sentinel client spec on redis.io](https://redis.io/docs/reference/sentinel-clients/ )
 [^11]: [link to cluster spec on redis.io](https://redis.io/docs/reference/cluster-spec/)
-[^12]: [link to persistence configuration on redis.io](https://redis.io/docs/reference/cluster-spec/)
+[^12]: [link to persistence configuration on redis.io](https://redis.io/docs/management/persistence/)
+[^13]: [link to pubsub configuration on redis.io](https://redis.io/docs/interact/pubsub/)
