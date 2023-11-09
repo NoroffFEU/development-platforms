@@ -290,14 +290,11 @@ React's learning curve can be challenging for newcomers to web development and J
 
 React continues to evolve and improve with each new version. The React team actively maintains and enhances the library. Future versions are likely to introduce additional features and optimizations, keeping React at the forefront of web development technologies.
 
-<!-- ## References
+## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ) -->
+- [Image](![Alt text](image.png))
 
-<!-- ## Additional Resources
+## Additional Resources
 
 - [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ) -->
+- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
