@@ -300,7 +300,7 @@ Content React:
 
 - [React.dev](https://react.dev/learn/describing-the-ui)
 - [Cegal](https://www.cegal.com/no/ordbok/react)
-- [Wikipedia](<https://wikipedia.org/wiki/React_(webrammeverk)>)
+- [Wikipedia](https://wikipedia.org/wiki/React)
 - [React.dev.learn](https://react.dev/learn)
 - [React blog](https://react.dev/blog)
 - [Feautures](https:/www.greeksforgeeks.org/what-are-the-features-of-reactjs/)
