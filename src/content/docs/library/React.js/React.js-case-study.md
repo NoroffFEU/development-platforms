@@ -1,7 +1,7 @@
 ---
 title: React.js
 author: Camilla Horneland <CamillaHorneland>
-tags: javascript, framework, react
+tags: javascript, libary, react
 ---
 
 ## Introduction
