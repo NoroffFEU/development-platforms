@@ -152,7 +152,7 @@ React is primarily a JavaScript library developed by Facebook for building user 
 It focuses on the view layer and allows developers to create user interfaces using a component-based architecture.
 React provides the core functionality for building UIs but relies on external libraries and tools for additional features like routing and state management.
 
-- Advantages:
+- #### Advantages:
 
 Component-Based: React's component-based architecture promotes reusability, maintainability, and a clear separation of concerns.
 Virtual DOM: The Virtual DOM helps optimize performance by minimizing direct DOM manipulation, resulting in faster updates.
@@ -160,7 +160,7 @@ Large Ecosystem: React has a vast ecosystem of libraries and tools, including st
 React Native: React can be used to build not only web applications but also native mobile apps using React Native, enabling code sharing between web and mobile projects.
 Community: React has a massive and active community, providing resources, tutorials, and support.
 
-- Disadvantages:
+- #### Disadvantages:
 
 Learning Curve: React's ecosystem, including build tools and state management, can have a steeper learning curve, especially for beginners.
 Configuration Overhead: Setting up a React project may involve more configuration and choices compared to some other frameworks.
@@ -172,14 +172,14 @@ Angular is a comprehensive front-end framework developed by Google.
 It includes a wide range of features and tools, such as routing, forms, dependency injection, and an integrated development environment (Angular CLI).
 Angular follows a more opinionated structure and offers a comprehensive solution for building web applications.
 
-- Advantages:
+- #### Advantages:
 
 Full Framework: Angular is a complete, full-fledged framework that provides solutions for routing, form handling, HTTP requests, and more out of the box.
 TypeScript: Angular is built with TypeScript, which offers strong typing and tools for better code quality.
 Dependency Injection: Angular's built-in dependency injection system simplifies the management of application services.
 Two-Way Data Binding: Angular offers two-way data binding, simplifying real-time updates of UI elements when the underlying data changes.
 
-- Disadvantages:
+- #### Disadvantages:
 
 Complexity: Angular can be seen as more complex due to its comprehensive feature set, which may be overkill for small to medium-sized projects.
 Learning Curve: Learning Angular can be challenging, especially for developers new to web development or JavaScript frameworks.
@@ -191,14 +191,14 @@ Vue.js is a progressive front-end framework that is often described as a combina
 Vue's core library focuses on the view layer, similar to React, but it provides optional packages for features like routing and state management.
 Vue.js is known for its simplicity and a more gradual learning curve.
 
-- Advantages:
+- #### Advantages:
 
 Ease of Learning: Vue.js is often praised for its gentle learning curve, making it accessible to newcomers and developers with varying levels of experience.
 Flexibility: Vue.js provides a flexible ecosystem, allowing you to incrementally adopt its features as needed, making it suitable for both small and large projects.
 Single-File Components: Vue's single-file components simplify component structure and allow for easy organization of HTML, JavaScript, and CSS.
 Great Documentation: Vue.js offers comprehensive and well-structured documentation, making it easy to find information and get started.
 
-- Disadvantages:
+- #### Disadvantages:
 
 Smaller Ecosystem: While Vue.js has a growing ecosystem, it is not as extensive as React's or Angular's.
 Less Built-In Features: Vue.js offers fewer built-in features compared to Angular, which might require you to rely on external libraries or write custom solutions for certain tasks.
