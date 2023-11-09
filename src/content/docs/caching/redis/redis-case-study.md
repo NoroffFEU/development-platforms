@@ -6,15 +6,14 @@ tags: redis, case study, platform, cashing
 
 ## Introduction
 
-Redis is a database living that store its data in a computers RAM. it is intended to be used
-for sort term storage of data to limit the amount of calls made to a database and to speed up
-data retrieval for API calls.
+Redis is an in-memory database with pupsub functionality. Typically, Redis used as a caching layer for data that would 
+otherwise be slow to get from disk/database therefore slow down api requests.
 
-### Well known Companies that uses Redis
+### Well known companies that uses Redis
 
 - GitHub[^7]
-- stackOverflow[^8]
-- trello[^6]
+- Stack Overflow[^8]
+- Trello[^6]
 
 [Here is a more complete list from techstecks.io](https://techstacks.io/tech/redis)
 
@@ -29,11 +28,20 @@ manage it with a light governance model[^5]
 
 ## Main Features
 
-
+- redis is an in-memory database an as a resault it is weary fast.
+- it has two different ways to back up the data that is stored in case of a failure where you can either backup each write
+as it occurs, backup the entire database at an interval, if there has been a change, or do both[^12]
+- as well as two ways to handle synchronizing multiple redis databases and high availability called sentinel[^10] and
+the other is using clusters[^11] with cluster
 
 ## Market Comparison
 
-
+| subject           | redis | memcached | mongodb |
+|:------------------|-------|-----------|---------|
+| speed             |       |           |         |
+| reliability       |       |           |         |
+| scalability       |       |           |         |
+| High Availability |       |           |         |
 
 ## Getting Started
 
@@ -55,24 +63,16 @@ instructions:
 - [install docker on Mac](https://docs.docker.com/desktop/install/mac-install/)
 - [install docker on Windows](https://docs.docker.com/desktop/install/windows-install/)
 
-*Note*: 
-you might need to have administration privileges if this is sett up simply prefix the 
-command with `sudo` on linux, mac or when using WSL. You will then be prompted for your 
-user password.  
-if you are on window and not using WSL then you need to restart the terminal as an
-administrator (I do not have experience developing on window so if there is a better 
-solution I don't know)
-
 in open your terminal and run the following command:
 
 ```shell
-docker run --name redis-test-server -p 6379:6379 -d --rm redis:latest
+$ docker run --name redis-test-server -p 6379:6379 -d --rm redis:latest
 ```
 
 #### the installation command in step by step:
 
 - $  
-do not copy write this symbol in to the terminal.  
+do not copy or write this symbol in to the terminal.  
 This is meanly a convention telling the reader what level of authorization is needed `$` indicate that a regular user 
 can use this command if you see a `#` then that command needs sudo/administrator privileges.  
 but nowadays, it is more common to always use `$` and prefix the command with `sudo` instead if it needs those privileges
@@ -87,47 +87,42 @@ rm (removes container specified by name or id that is inactive), and many more
 set the name we will use when accessing this docker container
 - -p  
 set the ports the pattern here is port-outside-container:port-inside-container so if port 6397 is already in use you can
-change the number before the colon to a number to any port between 1025 and 65535 that are not already in use 
+change the number before the colon to a number to any port from 1025 that are not already in use 
 (f.exs 1234:6397)
 - -d  
-this tells docker to start the server in the background so that we can use the terminal for other tings. if omitted we 
+this tells docker to start the container in the background so that we can use the terminal for other tings. if omitted we 
 will see all the read and write logs appear in this terminal
 - --rm  
 this tells docker to remove the container after you stop it
 - redis:latest  
-here we say that the container we want to make is the one named redis and the :latest specify the version to use 
-[for a list of available redis versions see here](https://hub.docker.com/_/redis/tags)
+This is the container we want to run, redis in this case, and :latest specify the version to use 
+[For a list of available redis versions see here.](https://hub.docker.com/_/redis/tags)
 
+### accessing the redis with redis-cli
 
-### accessing the redis server
-
-first we will look at accessing the redis database from the command line. You do this by using redis-cli. As we are 
-using docker to run redis.
-
-#### redis-cli
-
-to use redis-cli on a docker container enter this in to the terminal:
+As we are using docker to run redis. we will be using the redis-cli bundled with the docker container. 
+Then run the following in the terminal:
 
 ```shell
-docker exec -it redis-test-server redis-cli
+$ docker exec -it redis-test-server redis-cli
 ```
 
-##### the new instructions in command step by step:
+#### the new instructions in command step by step:
 
 - exec  
 this subcommand tells docker we want to execute a command inside the docker container
 - -it  
 this stands for interactive terminal and means we want the to see and interact with the terminal inside the container
 - redis-test-server  
-the name of the server we want to execute commands on
+the name of the container we want to execute commands on
 - redis-cli  
-the command we want to execute in the container. note that this command must be installed on the docker image, but need 
-not be on the host machine. if you have not installed redis or redis-cli on your host machine all ready you are unlikely
-to find it there, but it is included on the docker image by default and so can be used in side the container
+The command we want to execute in the container. Note that this command must be available inside the image. The redis 
+image comes with redis-cli bundled
 
-##### interacting with the redis-cli
 
-redis have multiple types in this study I will look at three:
+#### interacting with the redis-cli
+
+Redis has multiple types. In this study I will look at the following:
 
 - strings
 - lists
@@ -137,9 +132,9 @@ redis have multiple types in this study I will look at three:
 
 and go over some commands you can use on those types
 
-###### strings
+##### strings
 
-**to set a string value in the database use:**
+###### to set a string value in the database use:
 
 ```redis
 > set key value
@@ -149,7 +144,7 @@ the value will always be set to a string if you want to use a space in the value
  
 if the value was accepted it will return `OK`
 
-**to retrieve a string value use:**
+###### to retrieve a string value use:
 
 ```redis
 > get key
@@ -157,7 +152,7 @@ if the value was accepted it will return `OK`
 if the key defined then it will return the value in this case like this `"value"`   
 other vice if the key undefined then it will return `(nil)`
 
-**if you want to set a string if the key is not already in use then use**
+###### if you want to set a string if the key is not already in use then use
 
 ```redis
 > set key value2 nx
@@ -177,7 +172,7 @@ javascript
 *Note:*  
 `set [your Key] "[your value]" nx` has a shorthand version like this: `setnx [your Key] "[your value]"`
 
-**if you want to only set a variable if the key already is in use**
+###### if you want to only set a variable if the key already is in use
 
 ```redis
 > set foo "bar" xx
@@ -185,7 +180,7 @@ javascript
 
 when this is successful it will return `OK` if not then it will return `(nil)`
 
-**To set multiple values at once you can do that like this**
+###### To set multiple values at once you can do that like this
 ```redis
 > mset key1 "foo" key2 "bar" key3 "baz"
 ```
@@ -197,7 +192,7 @@ return an error like this `(error) ERR wrong number of arguments for 'mset' comm
 *Note:*  
 `mset` will make multiple individual key/value sets these are in no way connected  
 
-**if you want to retrieve multiple keys at once**
+###### if you want to retrieve multiple keys at once
 ```redis
 > mget key1 key foo notSet
 ```
@@ -212,18 +207,18 @@ return an error like this `(error) ERR wrong number of arguments for 'mset' comm
 
 [for more string command see here](https://redis.io/commands/?group=string)
 
-###### lists
+##### lists
 
-**making a list**
+###### making a list
 
 to make a list you can use noe of two commands:
 
 ```redis
-> lpush listeName value value2 value3 value4
+> lpush listName value value2 value3 value4
 ```
 or 
 ```redis
-> rpush listeName value value2 value3 value4
+> rpush listName value value2 value3 value4
 ```
 
 the difference is when you then go to add new items to the list:
@@ -232,31 +227,31 @@ the difference is when you then go to add new items to the list:
 
 in both cases it will return `(integer) x` were "x" is the number of items in the list
 
-**removing an item for a list**
+###### removing an item for a list
 
 like with adding to a list removing also comes in two variants:
 
 ```redis
-> lpop listeName
+> lpop listName
 ```
 that removes from the left/head of the list
 or
 ```redis
-> rpop listeName
+> rpop listName
 ```
 that removes from the right/tail
 if successful it will return the value that has been removed if the list is empty it will return `(nil)`
 
-**removing multiple items**
+###### removing multiple items
 
 both `lpop` and `rpop` can have an optional number after the listName indicating how many to pop f.exs
 
 ```redis
-> lpop listeName 2
+> lpop listName 2
 ```
 this will remove two items form the left/head of the list
 
-**moving items form one list to another**
+###### moving items form one list to another
 
 if you want to move an item between lists then you can use this command: `lmove` four arguments
 
@@ -266,29 +261,29 @@ if you want to move an item between lists then you can use this command: `lmove`
 - left or right. meaning place the item on the beginning (leftmost) or end (rightmost) side of the destination list
 
 ```redis
-> lmove listeName otherList left right
+> lmove listName otherList left right
 ```
 the above will move the first (leftmost) item in listName to the end (rightmost) of otherList
 
-**viewing the list**
+###### viewing the list
 
 to view the list you use `lrange`
 
 ```redis
-> lrange listeName 0 -1
+> lrange listName 0 -1
 ```
 
 this will return from the first item in the list to the last.
 if you only want to see the tree first it would look like this (keeping in mind that this is zero indexed)
 
 ```redis
-> lrange listeName 0 2
+> lrange listName 0 2
 ```
 
 if you do not want to see the first item, but from som later part of the list then you can do something like this
 
 ```redis
-> lrange listeName 2 -1
+> lrange listName 2 -1
 ```
 
 this will return form the third item in the list until the end
@@ -299,9 +294,9 @@ if you are trying to look at a list that is empty or are starting to look beyond
 
 [for more commands for lists see here](https://redis.io/commands/?group=list)
 
-###### hashes
+##### hashes
 
-**creating or updating hashes**
+###### creating or updating hashes
 
 to create or change a hash we use `hset` followed by the hash to add or change and the key, values to add/change 
 
@@ -315,7 +310,7 @@ of one value or key if the resulting number of keys and values are not the same 
 `(error) ERR wrong number of arguments for 'hset' command` other vice you will receive something like this `(integer) x`
 where "x" is the number of key/value pairs
 
-**getting one key from a hash**
+###### getting one key from a hash
 
 to get only one value form a hash you use `hget` like this
 
@@ -328,7 +323,7 @@ if you have used a name that is of a different type you get an error like this
 `(error) WRONGTYPE Operation against a key holding the wrong kind of value` and if you have added more than noe key you 
 get this type of error: `(error) ERR wrong number of arguments for 'hget' command`
 
-**getting more than noe filed form a hash**
+###### getting more than noe filed form a hash
 
 to get more that noe field you do this: 
 ``` redis
@@ -348,9 +343,9 @@ in this case we will receive:
 
 [for a complete list of hash commands see here](https://redis.io/commands/?group=hash)
 
-###### managing data
+##### managing data
 
-**listing keys**
+###### listing keys
 
 to show a list of keys you use the `keys` keyword followed by a search pattern
 
@@ -376,7 +371,7 @@ if there is no match then the resault will be like this `(empty array)`
 
 [for more information on key searches see here](https://redis.io/commands/keys/)
 
-**delete data**
+###### delete data
 
 to delete a key/value pair you use `del` like this
 
@@ -389,7 +384,7 @@ if the key did not exist then you will get `(integer) 0` to indicate that someth
 
 [for more information on del see here](https://redis.io/commands/del/)
 
-**delete after a set time**
+###### delete after a set time
 
 to set a ttl you use the `expire` key word followed by the key and then the time in seconds like this:
 
@@ -401,7 +396,7 @@ this will remove the key "keyName" after one minute
 
 [for more information on expire see here](https://redis.io/commands/expire/)
 
-##### using redis in nodeJs
+#### accessing the redis with nodeJs
 
 we will be using [the npm package ioredis](https://www.npmjs.com/package/ioredis?activeTab=readme) for manipulating the 
 redis db
@@ -436,7 +431,7 @@ const redisRemoteServerUrl = new Redis("example.com:6379")
 
 ##### using ioRedis in your project
 
-**ioRedis basic use**
+###### ioRedis basic use
 
 ioRedis follow a weary simple pattern with is this
 
@@ -477,7 +472,7 @@ redis.get('myKey')
 redis.del('myKey')
 ```
 
-**ioRedis pipeline**
+###### ioRedis pipeline
 
 now if you are going to send multiple commands to redis it will save you some time and bandwidth by queueing them up
 in what's called a pipeline they will den be stored in memory until you call the exec function on the pipeline
@@ -505,7 +500,7 @@ pipeline.exec((outsideErr, outsideRes) => {
 // you can now continue to add to the que but remeber to end with a piplene.exec()
 ```
 
-**for more info about ioredis:**
+###### for more info about ioredis:
 - [npm page for ioRedis](https://www.npmjs.com/package/ioredis#quick-start)
 - [ioRedis examples on GitHub](https://github.com/redis/ioredis/tree/ec42c82ceab1957db00c5175dfe37348f1856a93/examples)
 
@@ -527,10 +522,6 @@ API
 : API, or Application Programming Interface, is a standardized way for programs to share data
 usually over the internet
 
-WSL
-: WSL or Windows subsystem for linux, is an optional terminal in the Windows operating system that allows for the use
-of tools developed to be used on linux.
-
 npm 
 : npm or node package manager, is a method for getting and managing the dependencies for helper packages you use in 
 your code
@@ -538,15 +529,23 @@ your code
 ttl
 : ttl or time to live, indicates how long until something is to be deleted
 
+pupsub
+: pubsub or publish–subscribe is a messaging pattern where publishers categorize messages into classes that are received
+by subscribers[^9] 
+
 ## References
 
 - [wikipedia article on redis](https://en.wikipedia.org/wiki/Redis#History)
+- https://redis.io/docs
+- https://techstacks.io
+- https://www.npmjs.com/package/ioredis
+- https://hub.docker.com/_/redis
+- https://docs.docker.com
 
 ## Additional Resources
 
 - [Redis video tutorial series by Net Ninja](https://www.youtube.com/watch?v=8sHCdz_tOjk&list=PL4cUxeGkcC9h3V2eqhi8rRdIDJshP-b4P)
 
-## footnotes
 [^1]: Salvatore Sanfilippo (Antirez on Github). [link to Salvatore Sanfilippo's GitHub Profile](https://github.com/antirez)
 [^2]: Yossi Gottlieb (yossigo on GitHub). [link to Yossi Gottlieb's GitHub Profile](https://github.com/yossigo)
 [^3]: Oran Agra (oranagra on GitHub). [link to Oran Agra's GitHub Profile](https://github.com/oranagra)
@@ -555,10 +554,7 @@ ttl
 [^6]: [link to the tech stack trello uses](https://techstacks.io/stacks/trello/)
 [^7]: [link to GitHub tech stack](https://techstacks.io/stacks/github/)
 [^8]: [link to the tech stack used by StackOverflow](https://techstacks.io/stacks/stackoverflow/)
-
-
-
-## stikkord fra Emil
-- sentinel
-- redis cluster
-- nodejs ioredis
+[^9]: Definition for pubsub is from the wikipedia article on the subject [link to arkticle on pupsub](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
+[^10]: [link to sentinel client spec on redis.io](https://redis.io/docs/reference/sentinel-clients/ )
+[^11]: [link to cluster spec on redis.io](https://redis.io/docs/reference/cluster-spec/)
+[^12]: [link to persistence configuration on redis.io](https://redis.io/docs/reference/cluster-spec/)
