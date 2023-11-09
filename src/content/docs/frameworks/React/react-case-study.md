@@ -135,6 +135,7 @@ React can present some challenges, as it is continuously evolving, requiring con
 - [Frontend frameworks popularity](https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190#stack-overflow-survey)
 - [Angular vs. React: A Complete Comparison Guide ](https://www.cuelogic.com/blog/what-are-the-differences-between-angular-and-react#:~:text=In%20Angular%20apps%2C%20a%20real,to%20update%20the%20entire%20tree.)
 - [Angular vs. React vs. Vue.js: Comparing performance](https://blog.logrocket.com/angular-vs-react-vs-vue-js-comparing-performance/#future-frameworks)
+- [Svelte: what it is, how it works, and differences with React JS](https://www.alura.com.br/artigos/svelte-versus-react-quais-diferencas)
 - [Top 10 Big Companies Using Svelte](https://www.okupter.com/blog/companies-using-svelte#:~:text=Apple%20has%20brought%20Svelte%20to,a%20proud%20user%20of%20Svelte.)
 
 ## Additional Resources
