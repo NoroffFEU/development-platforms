@@ -107,15 +107,29 @@ According to research and statistics, React is the predominant choice among fron
 
 ## Getting Started
 
-01) Install Node.js
-02) Install npm (Node.js package manager)
-03) Create a new React project 
+Here are the main steps to start a React project.
+Before you begin, make sure you have Node.js installed on your system.
+
+**Step 1: Create a new Vite project**
+To create a new project, open your terminal and run the following command:
+```bash
+npx create-vite your-project-name --template react
 ```
-npm create-react-app project-name
+Replace _your-project-name_ with the name you want for your project.
+
+**Step 2: Navigate to the project directory**
+Once the project is created, navigate to the project directory:
+```bash
+cd your-project-name
 ```
-04) Start the React project
+
+**Step 3: Install dependencies**
+```bash
+npm i
 ```
-npm start
+**Step 4: Run the development server**
+```bash
+npm run dev
 ```
 
 ## Conclusion
