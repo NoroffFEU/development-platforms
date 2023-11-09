@@ -292,15 +292,35 @@ React continues to evolve and improve with each new version. The React team acti
 
 ## References
 
-- [Image](![Alt text](image.png))
-
 Image:
-
-- [Example.com](https://example.com)
 
 - [Iconfinder](https://www.iconfinder.com/icons/1174949/js_react_js_logo_react_react_native_icon)
 
+Content React:
+
+- [React.dev](https://react.dev/learn/describing-the-ui)
+- [Cegal](https://www.cegal.com/no/ordbok/react)
+- [Wikipedia](<https://wikipedia.org/wiki/React_(webrammeverk)>)
+- [React.dev.learn](https://react.dev/learn)
+- [React blog](https://react.dev/blog)
+- [Feautures](https:/www.greeksforgeeks.org/what-are-the-features-of-reactjs/)
+- [Feautures2](https://educative.io/answers/what-are-the-features-of-react)
+
+Angular:
+
+- [Angular.io](https://angular.io/)
+- [W3schools](https://www.w3schools.com/angular/)
+
+Vue:
+
+- [Vuejs](https://Vuejs.org/)
+- [W3schools](https://www.w3schools.com/vue/)
+
+Svelte:
+
+- [Svelte.dev](https://svelte.dev/)
+- [Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Svelte_getting_started)
+
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [chatGPT](https://chat.openai.com)
