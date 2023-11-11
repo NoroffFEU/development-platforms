@@ -6,47 +6,21 @@ tags: case study, baas, NHost
 
 ## Introduction
 
-Nhost is the open-source Firebase alternative with GraphQL and a development platform. Nhost is doing for the backend, what Netlify and Vercel are doing for the frontend.
-
-## Brief History
-
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+Nhost is a fully secured, open-source Firebase alternative with GraphQL and a backend platform service on the cloud. With NHost you can integrate any of your preferred frontend frameworks.
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
-
-You may use subheadings, tables or bullet points to structure your description:
-
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-
-Example feature table:
-
-| Feature         | Description                                        |
-| --------------- | -------------------------------------------------- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+- **Postgress database:** NHost comes with its own relational Postgres database.
+  You as a developer don't need to install and set up the database yourself. And you can manage it using NHost Database UI.
+- **Authentication service:** NHost comes with a authentication service that you can integrate with GraphQl API. With this service you can authenticate users with the security needed. Some of the authentication methods available: Email and password, phone number, facebook, Google.
+- **GraphQL API:** Developers can use the graphQl API to fetch and modify data( updating, deleting etc).
+- **NHOst storage:** With NHost storage users can upload and download files. Metadata and permissons(in hasura) are managed with the GraphQL API.
+  The files you can store can be of any type, document, media files etc.
+- **Serverless functions:** Developers can use NHost to deploy serverless functions. This can be used to handle form submissions without reloading the page often, handle event triggers, etc.
+  With NHost developers can deploy code with javascript(.js) or Typescript(.ts).
+- **Github integration:** With NHost you can automatically deploy you project when any changes are made, to a git repository. Right now GitHub is the only git provider supported.
 
 ## Market Comparison
-
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
 
 ## Getting Started
 
