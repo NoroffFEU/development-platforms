@@ -4,19 +4,20 @@ author: Sabina Kutniauske <saibia8>
 tags: appwrite, baas, backend, development, open-source
 ---
 
+<img src="/src/assets/baas/appwrite-logo.png" alt="Appwrite" icon width="250" height="250">
+
 ## Introduction
 
 Appwrite is an open source, self-hosted, backend-as-a-service (BaaS) platform for quickly building backend services for the web, mobile, and beyond. What sets Appwrite apart is its commitment to putting you in control of your data. This powerful tool lets you effortlessly include crucial elements like user `authentication`, `databases`, `functions`, and `storage` in your projects. 
 Appwrite is especially good when you want to focus on frontend development, and simply need a backend to perform common RESTful API tasks.<br>
-Whether it's a small project or a large-scale project, Appwrite makes the process not only efficient but also an exhilarating adventure in application development!  
+Whether it's a small project or a large-scale project, Appwrite makes the process not only efficient but also an exciting thrill in application development! 
 
 
 ## Brief History
 
-Regarding Appwrite, there's not a lot of information available, but we can outline some key points:
+Appwrite history highlights:
 
 - 2019: Founder & CEO Eldad Fux launches Appwrite as an open-source project.
-- 2019 september: Version 0.1.0 is released, marking the platform's early development milestones.
 - 2020: Appwrite gains momentum in the developer community for its simplicity and versatility.
 - 2021: Appwrite becomes known for its modular architecture and security features.
 - 2021 july: Appwrite introduces compatibility with additional coding languages, expanding its user base.
@@ -28,10 +29,10 @@ Regarding Appwrite, there's not a lot of information available, but we can outli
 
 ## Main Features
 
-Appwrite serves as a Backend-as-a-Service (BaaS) platform, designed to simplify and streamline backend development for web and mobile applications. Its primary purpose is to provide developers with a comprehensive set of features, allowing them to focus on building front-end functionality without the complexities of managing server infrastructure.
+The main goal of Appwrite is to provide developers with a comprehensive set of resources, allowing them to focus on building front-end applications without having to manage the server infrastructure.
 
 ### Key problems it solves:
-- **Backend Simplification:** Appwrite alleviates the burden of managing server-side infrastructure, database, and authentication, enabling developers to concentrate on creating user interfaces and application logic.
+- **Backend Simplification:** Appwrite reduces the burden of managing server-side infrastructure, databases, and authentication, allowing developers to focus on building user interfaces and application logic.
 
 - **Cross-Platform Compatibility:** It addresses the challenge of creating and maintaining backend services that work seamlessly across various platforms, including web and mobile applications.
 
@@ -43,11 +44,11 @@ Appwrite serves as a Backend-as-a-Service (BaaS) platform, designed to simplify 
 - **Scalability:** Appwrite's modular architecture and cloud compatibility make it scalable, adapting to the needs of both small projects and large-scale applications.
 
 - **Community Support:** The open-source community surrounding Appwrite provides a valuable resource for developers, offering support, sharing insights, and contributing to the platform's continuous improvement.
-hing for a specific reason. |
+hing for a specific reason.
 
 ## Market Comparison
 
-In comparing Appwrite, Supabase, and Firebase, each platform brings distinct advantages to developers. `Appwrite` stands out for its open-source nature and high customization, catering to those who prioritize community collaboration and flexibility. `Supabase`, built on PostgreSQL, offers a growing open-source alternative with robust real-time data support. `Firebase`, a well-established platform, excels in extensive documentation, a large community, and seamless integration with other Firebase services. The choice among these platforms depends on the specific needs and preferences of developers, considering factors such as customization, community support, and the nature of the project.
+Compared to Appwrite, Supabase, and Firebase, each platform brings unique benefits to developers. `Appwrite` stands out for its open-source nature and high customization, catering to those who prioritize community collaboration and flexibility. `Supabase`, built on PostgreSQL, offers a growing open-source alternative with robust real-time data support. `Firebase`, a well-established platform, excels in extensive documentation, a large community, and seamless integration with other Firebase services. The choice among these platforms depends on the specific needs and preferences of developers, considering factors such as customization, community support, and the nature of the project.
 
 ### Comparison table
 
@@ -75,28 +76,37 @@ To install Appwrite on your local machine, you need to ensure you have the follo
 
 - Appwrite requires Docker Compose Version 2. You can check ([Docker desktop](https://www.docker.com/products/docker-desktop/)) for Docker installation.
 
-- The minimum requirements to run Appwrite is as little as 1 CPU core and 2GB of RAM
+- The minimum requirements to run Appwrite is as little as 1 CPU core and 2GB of RAM.
 
 ### Steps
 
-1. Create your account (https://cloud.appwrite.io/register)
+1. Create your account ([Appwrite sign up](https://cloud.appwrite.io/register))
 
-2. Give the name for your first project.
+2. Name your first project.
 
-3. Choose from 2 given choices: a platform (web, flutter, apple, android) or integrate with your server (api key, webhook).
+3. Choose between two options:
+   - Develop on a platform (web, Flutter, Apple, Android).
+   - Integrate with your server using an API key or webhook.
 
-4. Next instalations steps depends from your choices and you will be guided by that. But lets say we will choose `web`, then: 
-1. name and hostname (The hostname should be localhost.).
-2. You can skip optional steps.
-3. Create React project. Create a Vite project.
+4. The next installation steps depend on your choices, and you will be guided accordingly. 
+
+Let's say we choose `web` and want to use `React`. Then, it will include the following steps: 
+   > You can skip optional steps.
+   1. **Create the name and hostname.** 
+   The hostname should be localhost.
+   
+   2. **Create React project.**
+Create a Vite project.
 ```bash
 npm create vite@latest my-app -- --template react && cd my-app
 ```
-4. Install Appwrite. Install the JavaScript Appwrite SDK.
+4. **Install Appwrite.**
+Install the JavaScript Appwrite SDK.
 ```bash
 npm install appwrite
 ```
-5. Import Appwrite. Find your project's ID in the Settings page.
+5. **Import Appwrite.**
+Find your project's ID in the Settings page.
 Create a new file src/lib/appwrite.js and add the following code to it, replace <YOUR_PROJECT_ID> with your project ID.
 ```bash
 import { Client, Account} from 'appwrite';
@@ -111,7 +121,8 @@ export const account = new Account(client);
 export { ID } from 'appwrite';
 ```
 
-6. Create a login page. Add the following code to src/App.jsx.
+6. **Create a login page.**
+Add the following code to src/App.jsx.
 ```bash
 import React, { useState } from 'react';
 import { account, ID } from './lib/appwrite';
@@ -168,23 +179,32 @@ const App = () => {
 
 export default App;
 ```
-7. All set. Run your project with and open Localhost on Port 3000 in your browser.
+7. **All set.**
+Run your project with and open Localhost on Port 3000 in your browser.
 ```bash 
 npm run dev -- --open --port 3000 
 ``` 
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+Appwrite has a bright future with its consistent growth, updates, and community engagement. It's known for making backend development easier for web and mobile apps. It scales well, offering strong functionality and real-time data support. While there's limited information and fewer integrations compared to some, Appwrite excels at simplifying backend tasks. It's great for businesses prioritizing cross-platform compatibility and real-time features.
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [Docs](https://appwrite.io/docs)
+- [Github](https://github.com/appwrite)
+- [React installation](https://appwrite.io/docs/quick-starts/react)
+- [Public beta announcement](https://appwrite.io/blog/post/public-beta)
+- [New brand](https://appwrite.io/blog/post/meet-the-new-appwrite)
+- [Brand assets](https://appwrite.io/assets)
+- [Introduction to Appwrite](https://medium.com/@h.makusota_24829/introduction-to-appwrite-618bb08ee3e4)
+- [ChatGPT - OpenAI](https://openai.com/chatgpt)
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ) -->
+- [Community](https://appwrite.io/community)
+- [Discord](https://discord.com/invite/GSeTUeA)
+- [Youtube](https://www.youtube.com/@Appwrite)
+- [Twitter / X](https://twitter.com/appwrite)
+
+
