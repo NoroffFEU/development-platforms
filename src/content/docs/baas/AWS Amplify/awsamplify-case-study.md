@@ -8,6 +8,7 @@ tags: Backend as a service (BaaS), AWS Amplify, File Storage, Authentication, Re
 
 AWS Amplify from Amazon is a tool that helps developers create secure and scalable apps more easy. It takes care of many technical aspects like user authentication, real-time data updates, and server functions, so developers can focus on making app features without worrying about difficult technical details.
 
+
 ## Brief History
 
 AWS Amplify was introduced in late 2017 and was emerged as a specialized platform within AWS (Amazon Web services). It aimed to streamline web and mobile applications development, offering services that made managing backend infrastructure a bit easier.
@@ -45,3 +46,20 @@ _Several core features is what amplify has as its strength_
 - **Learning Curve:** Has a learning curve for initial setup, can be challenging for some new users.
 
 
+## Comparison - AWS Amplify vs Firebase
+1. **Ecosystem:**
+   - AWS Amplify: Provided by Amazon Web Services, is deeply integrated with the AWS ecosystem. Its strength is extensive scalability, and flexible infrastructure.
+   - Firebase: Provided by Google, with strong integration with Google Cloud but not as vast as the AWS ecosystem. Is known for its simplicity and ease of use
+
+2. **Scalability and Flexibility:**
+   - AWS Amplify: Amplify has very good scalability, which is ideal for enterprise-level projects or for those who are seeking more customization for the backend infrastructure.
+   - Firebase: Firebase offers a more userfriendly and scalable platform, is better for smaller projects, startups, and developers who are looking for rapid integration with simpler configuration requirements.
+
+3. **Pricing and Cost Structure:**
+   - AWS Amplify: Amplify has a more complicated and usage-dependent pricing model.
+   - Firebase: Offers a more clear pricing model. including a free tier, has straight forward payment plans based on usage, which makes it better for smaller projects.
+  
+4. **Development Flexibility and Learning Curve:**
+   - AWS Amplify: Has very good customization and flexibility options, which might lead to a steeper learning curve, especially for newcomers to AWS or backend services
+   - Firebase: Is known for its userfriendly interface and simplified setup. Firebase also has a shorter learning curve than Amplify, making it better for beginners.
+   
