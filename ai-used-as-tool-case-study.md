@@ -21,4 +21,4 @@ Another big concern with the use of AI is security risks, lack of transparency, 
 ## References
 
 - [Medium.com](https://medium.com/towards-data-science/artificial-intelligence-is-just-a-tool-aab880f1bbdd) AI is just a tool
-- [trendmicro.com](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/exploiting-ai-how-cybercriminals-misuse-abuse-ai-and-ml) Exploting AI / misusing AI
+- [trendmicro.com](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/exploiting-ai-how-cybercriminals-misuse-abuse-ai-and-ml) Exploting AI / Misusing AI
