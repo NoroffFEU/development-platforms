@@ -11,8 +11,8 @@ Nhost is a fully secured, open-source Firebase alternative with GraphQL and a ba
 ## Main Features
 
 - **Postgress database:** NHost comes with its own relational Postgres database.
-  You as a developer don't need to install and set up the database yourself. And you can manage it using NHost Database UI.
-- **Authentication service:** NHost comes with a authentication service that you can integrate with GraphQl API. With this service you can authenticate users with the security needed. Some of the authentication methods available: Email and password, phone number, facebook, Google.
+  You as a developer don't need to install and set up the database yourself, you can manage it using NHost Database UI.
+- **Authentication service:** NHost comes with a authentication service that you can integrate with GraphQl API. With this service you can authenticate users with the security needed. Some of the authentication methods available: Email and password, phone number, facebook, Google, and many other options.
 - **GraphQL API:** Developers can use the graphQl API to fetch and modify data( updating, deleting etc).
 - **NHOst storage:** With NHost storage users can upload and download files. Metadata and permissons(in hasura) are managed with the GraphQL API.
   The files you can store can be of any type, document, media files etc.
@@ -20,13 +20,11 @@ Nhost is a fully secured, open-source Firebase alternative with GraphQL and a ba
   With NHost developers can deploy code with javascript(.js) or Typescript(.ts).
 - **Github integration:** With NHost you can automatically deploy you project when any changes are made, to a git repository. Right now GitHub is the only git provider supported.
 
-## Market Comparison
-
 ## Getting Started
 
-To get started using NHost you need to create an account with them first, You can easily sign up with your Github account, or by adding your email and a password.
+To get started using NHost you need to create an account with them first, You can sign up with your Github account, or by adding your email and a password.
 
-When your account is created you can start creating your project.
+When your account is created you can start on your project.
 
 **To create a project it will be required to add some information about it:**
 
@@ -38,16 +36,14 @@ When your account is created you can start creating your project.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+-NHost is at the time one of the smallest competitors on the baas marked, and with that comes the danger of the service shutting down like with parce. That is something to keep in mind when choosing a Baas for your project.
+
+- link to the story about parse(https://www.willowtreeapps.com/craft/parse-shutdown-what-it-means-and-what-you-can-do).
+
+-NHost has alot of the same features as other services like Firebase and Supabase, the main difference is that NHost is using a GraphQl database.So if your are into working with graphQL, then Nhost is an great alternative to Firebase, supabase and other Baas providers.
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- (https://docs.nhost.io/)
+- (https://medium.com/@realmrtrice/introduction-and-overview-of-nhost-f2a625eae053)
+-
