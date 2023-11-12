@@ -78,9 +78,9 @@ nginx -t
 nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
   
-- Check error logs wtih **cat /var/log/nginx/error.log** for troubleshooting like this example:
+- Check error logs wtih **cat  /var/log/nginx/error.log** for troubleshooting like this example:
 
-  root@your-root:~# cat /var/log/nginx/error.log
+  root@your-root:~# cat  /var/log/nginx/error.log
 
 
 ## Conclusion
