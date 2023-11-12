@@ -4,7 +4,7 @@ author: Sabina Kutniauske <saibia8>
 tags: appwrite, baas, backend, development, open-source
 ---
 
-<img src="/src/assets/baas/appwrite-logo.png" alt="Appwrite" width="50%" height="auto">
+<img src="/src/assets/baas/appwrite-logo.png" alt="Appwrite" width="100%" height="auto">
 
 ## Introduction
 
