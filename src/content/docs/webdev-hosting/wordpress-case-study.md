@@ -1,67 +1,110 @@
 ---
 title: Wordpress Case Study
 author: Renate Rasmussen <rrencat>
-tags: wordpress, case study, platform, specialised hosting 
+tags: wordpress, case study, platform, cms
 ---
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+WordPress is an open-source content management system (CMS), meaning that anyone can use and/or modify the software for free. It‘s written in PHP hypertext preprocessor language and paired with a MySQL or MariaDB database. It was originally created as a tool for publishing blogs, but has since evolved to support the making of more traditional websites/business websites, mailing lists, forums, portfolios, resumes, social networks, membership sites, eCommerce stores etc. As of October 2021, WordPress was used by 42,8% of the top 10 million websites on the internet. 
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- **2003:** First version, WordPress 0.7, was released by Matt Mullenweg and Mike Little.
+- **2004:** Wordpress 1.0, Search engine friendly permalinks, multiple categories, simple installations, upgrade capabilities, comment moderation, XFN support, and Atom support was added.
+- **2005:** Matt Mullenweg founded the company *Automattic*. Akismet comment spam filter for WordPress is created.
+- **2006:** The first WordCamp was held in San Francisco *(WordCamps are annual events that volunteers organize for users and developers to get together and discuss all things WordPress).*
+- **2007:** Automatic purchased Gravatar *(Gravatar are the avatars, or pictures you see next to your name when you interact on WordPress sites).* 
+- **2008:** Launch of the WordPress Theme Directory
+- **2009:** WordPress wins the Packt best Open Source CMS Awards.
+- **2010:** Version 3.0, includes the feature for custom post types.
+- **2011:** WordPress powers over 12% of the world’s websites.
+- **2013:** WordPress admin interface becomes responsive.
+- **2017:** User customizations can be saved as drafts or scheduled to be published in the future.
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+The open-source content management system, WordPress, is at its core, a tool that makes it easy for developers and non-developers to make and manage important aspects of websites (e.g. content) without knowing much or anything about programming. This means that building a website can be accessible to anyone, even people who aren’t developers.
 
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
+7 good reasons to use WordPress:
 
-Example feature table:
+**1. Free and open-source software**
 
-| Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
+WordPress is free for anyone to download. And being an open-source software means that WodPress is developed by a collection of contributers, but fear not, you don’t have to contribute by e.g. being a beta tester or a brand advocate if you don’t want to. 
 
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+**Note** that even though the software is free, you will most likely end up spending a little bit of money. WordPress is self-hosted so you will need hosting services.
+
+**2. It’s adaptable**
+
+When WordPress first was released it was originally created as a tool to publish blogs, but with the variaty of new releases over the years the platform has changed. Now, with the adaptions made to the software you can easily make pretty much anything you can think of with WordPress. 
+
+Here are a few examples:
+- Blogs
+- eCommerce sites
+- Business sites
+- Chatrooms
+- Non-profit websites (i.e. for collecting donations)
+- Portfolios
+- Job boards
+- Forums
+
+With WordPress you can easily make forums and eCommerce sites that function with simple plugins and themes.
+
+**Note:** Some plugins and themes require a small one-time fee.
+
+**3. Supports various media types**
+
+If you want to put a photo, gif, video or document on your website, WordPress supports most file types. 
+
+**Note:** Make sure to follow the rules and use legally media that is either owned by you, open for free download or usable when credits are given (this goes for all websites, not just WordPress).
+
+**4. Easy to Learn**
+
+The WordPress software is easy to use, anoyone could start playing around with the dashboard and then ten minutes in you’d have an understanding of the interface. There‘s also tons of blogs, forums, online courses, seminars, webinars, books etc. outlining the different aspects of the platform.  
+
+**5. Easy to manage**
+
+Website management typically involves: 
+
+- Making sure the server is okay.
+- Keeping checks on security.
+- Running backups.
+- Updating plugins, themes, and the WordPress software.
+- Managing spam.
+- Testing for functionality and broken links.
+- Making improvements in speed and SEO.
+
+You don’t personally check on the server, so it’s more about having a good host and seeing if the site is running at all times. Security and WordPress site backups are either handled with plugins or through a managed WordPress hosting plan. SEO, backups, speed, security, broken links, and spam can be managed using plugins. So apart from that, the only manual maintenance tasks you have to do is update plugins, themes, and WordPress itself. WordPress notifies you when updates are released and then you can make the updates whenever you see the warnings. It usually takes less than a minute for any updates.
+
+**6. Full ownership of the site**
+
+WordPress gives users full control over their website, everything from content and design to functionality. There’s also no restrictions on monetizing your site, so you can display ads, become an affiliate, sell products or services etc.
+
+**7. Multilingual**
+
+WordPress admin panel is available in over 70 languages, the software also has plenty of paid and free plugins for creating multilingual content.
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+| WordPress | Squarespace |
+| --- | --- |
+| Customizable with plugins, themes, REST API and third-party apps | "Built-in" features and integrations |
+| Free open-source CMS | Subscription all-in-one CMS |
+| The user is responsible for all maintenance | "Closed" environment = the platform manages all the updates and maintenance |
+| Big community with resources and tutorials | Dedicated support team with organized tutorials |
+| Editing in the backend | Drag-and-drop (“what you see is what you get”) editing |
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+The first step is to buy a domain name and a hosting plan. A domain functions as your website’s address online, whereas web hosting is responsible for storing your website files.
+
+On [WordPress](https://wordpress.org/download/) users can install the software manually or a lot of hosting services have automatic installation. Create your WordPress login details and connect your custom domain to the site. Once everything is done you can log in to the WordPress dashboard and start building your website.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+WordPress is a powerful and popular software available for both developers and non-developers who want to be able to fully customize their website/platform and have complete control on every aspect of their project. 
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [What is WordPress?](https://kinsta.com/knowledgebase/what-is-wordpress/)
+- [WordPress vs Squarespace](https://www.websitebuilderexpert.com/website-builders/comparisons/squarespace-vs-wordpress/)
