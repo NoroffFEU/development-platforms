@@ -8,11 +8,12 @@ tags: AI, case study, ML, coding, Javascript
 
 ## Brief history
 
- - 1940: the concept for ML/AI was in the mind of researchers
- - 1950: Early developments in the field of ML, which involved a combination of philosophy, mathematics and engineering
- - 1960: Generative AI was introduced in chatbots
+ - 1940: the concept for ML/AI was in the mind of researchers.
+ - 1950: Early developments in the field of ML, which involved a combination of philosophy, mathematics and engineering.
+ - 1960: Generative AI was introduced in chatbots.
  - 2000: Jerome Friedman's work created a more complex ML model, by comparing the results predicted by an algorithm to the actual results using this method an algrorithm could be trained to make more accurate predictions the next time.
- - 2014: AI being able to create convincingly real images, vidoes and audio of real people
+ - 2014: AI being able to create convincingly real images, vidoes and audio of real people.
+ - 2022: ChatGPT sees first light as it launched on november 30th 2022. chatGPT enables the users to refine and steer a conversation towards a desired lenght, format, style, level of detail and language.
 
 ## Articial intelligence and its uses
 
