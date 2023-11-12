@@ -22,6 +22,12 @@ some of the uses we can get with AI is
 
 When using working on a project, and you run into an error or a problem thats hard to solve. this is when using AI might be of a big help to you. you can either prompt what see into an IA like chatGPT or have a built-in AI help you figure out what the issue is, this is where we see the most use of AI as a tool. you can also take advantage of AI for when you're writing easy code snippets or a function you'll reuse. you can have it write the array or other functions that is often used.
 
+AI can also be used to learn about the product as an end-user, testing things a human wouldn't in end-to-end testing, it might be able to find bugs that would otherwise be overlooked. combing AI's predicability with a humans more chaotic behaviour could lead more bugs and errors being uncovered than relying only on humans or only AI. It can also be used for stress testing the app or web site, to see how it handles a large number of users interacting with said project.
+
+With all these new designer and art AI, you can also use this to your advantage when coming up with new design ideas by creating prototypes and mockups using prompts for your app or website. it can create many diffrent looks that you then can show to get input on, this being either from the product owner or an end user. in the same spirit the AI can also make placeholder designs and text, so you dont have to keep using Lorem Ipsum for everything. popular examples for designer/ark AI's are DALLE-2, Midjourney and Stable Diffusion
+
+
+
 ## Misuse of AI
 
 With how common and widespread AI is becoming, it is important to not misuse the powers you wield with it. a common factor where AI is in the danger of misuse, is the data it has been trained with, its decision making might be biased, the information can be outdated or an employer might look to replace their workers relying only on AI among other things.
@@ -44,3 +50,4 @@ Dangers of misuse with AI
 - [Medium.com](https://medium.com/towards-data-science/artificial-intelligence-is-just-a-tool-aab880f1bbdd) AI is just a tool
 - [trendmicro.com](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/exploiting-ai-how-cybercriminals-misuse-abuse-ai-and-ml) Exploting AI / Misusing AI
 - [forbes.com](https://www.forbes.com/sites/bernardmarr/2023/06/02/the-15-biggest-risks-of-artificial-intelligence/) the 15 biggest risks of AI
+- [Noroff Module 3 Machine learning](https://content.noroff.dev/development-platforms/machine-learning.html) Module 3 Machine learning
