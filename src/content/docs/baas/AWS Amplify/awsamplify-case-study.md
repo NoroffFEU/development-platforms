@@ -19,9 +19,9 @@ Since it was made, Amplify has continued to evolve and has expanded. It has inco
 ## Core Features
 
 - **Authentication:** Amplify provides built in authentication services, such as user sign up, sign in, and control to secure app data
-- **APIS and GraphQL:**
-- **Real-Time Data Synchronization:**
-- **Serverless Funcitons:**
-- **File Management:**
-- **Analytics:**
-- **Hosting and Deployment:**
+- **APIS and GraphQL:** Offers tools to create and manage APIS, supporting REST, GraphQL and WebSocket protocols for better data interaction
+- **Real-Time Data Synchronization:** Enables real-time updates and synchronization of data across clients, ensuring fast and consistent user experiences.
+- **Serverless Funcitons:** Can deploy serverless fucntions, allowing developers to make code without managing difficult infrastructure
+- **File Management:** Has secure and scalable file storage capabilities for managing user-generated content.
+- **Analytics:** Offers tools to see insight on app usage, user behavior, performance and app-optimization.
+- **Hosting and Deployment:** Has a simple hosting and deployment process supporting automated deployment of web applications.
