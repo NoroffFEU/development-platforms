@@ -6,7 +6,7 @@ tags: case study, baas, NHost
 
 ## Introduction
 
-Nhost is a fully secured, open-source Firebase alternative with GraphQL and a backend platform service on the cloud. With NHost you can integrate any of your preferred frontend frameworks.
+Nhost is a fully secured, open-source Firebase alternative with GraphQL and a backend platform service on the cloud.
 
 ## Main Features
 
@@ -36,11 +36,18 @@ When your account is created you can start on your project.
 
 ## Conclusion
 
-- NHost is at the time one of the smallest competitors on the baas marked, and with that comes the danger of the service shutting down like with parce. That is something to keep in mind when choosing a Baas for your project.
+NHost is at the time one of the smallest competitors on the baas marked, and with that comes the danger of the service shutting down like with parse. That is something to keep in mind when choosing a Baas for your project.
 
-- link to the story about parse(https://www.willowtreeapps.com/craft/parse-shutdown-what-it-means-and-what-you-can-do).
+link to the story about parse(https://www.willowtreeapps.com/craft/parse-shutdown-what-it-means-and-what-you-can-do).
 
-- NHost has alot of the same features as other services like Firebase and Supabase, the main difference is that NHost is using a GraphQl database.So if your are into working with graphQL, then Nhost is an great alternative to Firebase, supabase and other Baas providers.
+NHost has alot of the same features as other services like Firebase and Supabase, the main difference is that NHost is using a GraphQl database.So if your are into working with graphQL, then Nhost is an great alternative to Firebase, supabase and other Baas providers.
+
+With NHost you can integrate any of your preferred frontend frameworks, and the have made quickstart guides with:
+
+- Next.js
+- React
+- RedwoodJS
+- Vue
 
 ## References
 
