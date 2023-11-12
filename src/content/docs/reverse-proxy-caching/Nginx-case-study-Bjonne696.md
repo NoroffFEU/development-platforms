@@ -89,4 +89,4 @@ NGINX stands as a robust tool in web development, suitable for handling a variet
 ## References
 
 - [Nginx website](https://www.nginx.com/)
-- [Shopify Developer Documentation](https://nginx.org/en/docs/)
+- [Nginx Developer Documentation](https://nginx.org/en/docs/)
