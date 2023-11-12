@@ -28,13 +28,13 @@ It can still be installed as a part of Remote Development extension.
 | Security          | Dev Containers provide a layer of security by isolating development environments. Any changes made within the container do not affect the host system.                             |
 | Templates(Images) | Templates provide preconfigured settings and dependencies tailored to a specific languages.     
 
-# Notaable weaknesses
+#### Notaable weaknesses
 1. Dev Containers ties you to use both VSCode and Docker. It is currently being made available to other code editors, but the 1st class integration it has towards VSCode is so far unmatched. 
 2. The setup and learning curve of Dev Containers can be complex, especially for those without prior experience with Docker or similar containers. 
 
 
 ## Market Comparison
-# A short comparios between Dev Containers and Codespaces(Github): 
+#### A short comparison between Dev Containers and Codespaces(Github): 
 | Comparison | Description: |
 |---|---|
 | Use cases | Dev Containers are ideal for local development and those who prefer Visual Studio Code as their code editor. Codespaces are well-suited for collaborative development, remote work, and projects hosted on GitHub. |
