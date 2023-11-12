@@ -26,7 +26,7 @@ AI can also be used to learn about the product as an end-user, testing things a 
 
 With all these new designer and art AI, you can also use this to your advantage when coming up with new design ideas by creating prototypes and mockups using prompts for your app or website. it can create many diffrent looks that you then can show to get input on, this being either from the product owner or an end user. in the same spirit the AI can also make placeholder designs and text, so you dont have to keep using Lorem Ipsum for everything. popular examples for designer/ark AI's are DALLE-2, Midjourney and Stable Diffusion
 
-
+Another great use for AI, where it could be used to help users as in a chat function. you can use AI to solve most of the easy stuff, and then forward the users to an actual human if it encounters something its unable to solve. this way you dont have to swamp the human helpdesk with easy to solve problems, and the helpdesk will have more time to do other work or solve the problem the AI was not able to solve on its own.
 
 ## Misuse of AI
 
