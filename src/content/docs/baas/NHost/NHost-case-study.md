@@ -6,7 +6,7 @@ tags: case study, baas, NHost
 
 ## Introduction
 
-Nhost is a fully secured, open-source Firebase alternative with GraphQL and a backend platform service on the cloud.
+Nhost is a fully secured, open-source Firebase alternative with GraphQL and a backend platform service on the cloud. They provide developers with the general building blocks for the backend to create great websites and mobile apps.
 
 ## Main Features
 
