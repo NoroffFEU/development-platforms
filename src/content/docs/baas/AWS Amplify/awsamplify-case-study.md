@@ -62,4 +62,7 @@ _Several core features is what amplify has as its strength_
 4. **Development Flexibility and Learning Curve:**
    - AWS Amplify: Has very good customization and flexibility options, which might lead to a steeper learning curve, especially for newcomers to AWS or backend services
    - Firebase: Is known for its userfriendly interface and simplified setup. Firebase also has a shorter learning curve than Amplify, making it better for beginners.
+  
+## Credit
+Eivind Johnsen (John5en)
    
