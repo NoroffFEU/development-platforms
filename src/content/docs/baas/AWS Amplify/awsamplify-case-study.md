@@ -63,6 +63,19 @@ _Several core features is what amplify has as its strength_
    - AWS Amplify: Has very good customization and flexibility options, which might lead to a steeper learning curve, especially for newcomers to AWS or backend services
    - Firebase: Is known for its userfriendly interface and simplified setup. Firebase also has a shorter learning curve than Amplify, making it better for beginners.
   
+## Conclusion
+In conclusion AWS Amplify stands as a good BaaS solution. When it came out, it streamlined backend infrastructure and offered simple services to make developers avoid difficult and technical problems.
+
+AWS has a steep learning curve, and dependencies on the AWS ecosystem might be a problem for some. When comparing it to Firebase we can see the strength and weaknesses between the two, offering developers a good choice to pick between.
+
+Amplify remains a great tool, and it ensures developers can build secure and scalable apps.
+  
 ## Credit
 Eivind Johnsen (John5en)
+
+## Resources:
+- https://www.youtube.com/watch?v=ucmbO2lWC2A
+- https://aws.amazon.com/amplify/
+- https://firebase.google.com/
+- https://chat.openai.com/
    
