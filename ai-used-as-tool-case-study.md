@@ -29,8 +29,18 @@ Another big concern with the use of AI is security risks, lack of transparency, 
 
 Another big risk is the use of AI in hacking, where the AI will teach itself how to bruteforce passwords or in conjunction with other programs hack into someones user account from anything such as reddit, facebook and others. 
 
+Dangers of misuse with AI
+
+ - Privacy concerns
+ - Ethical dilemmas
+ - Dependence on AI
+ - Lack of Transparency
+ - Bias and discrimination
+ - Security risks
+
 
 ## References
 
 - [Medium.com](https://medium.com/towards-data-science/artificial-intelligence-is-just-a-tool-aab880f1bbdd) AI is just a tool
 - [trendmicro.com](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/exploiting-ai-how-cybercriminals-misuse-abuse-ai-and-ml) Exploting AI / Misusing AI
+- [forbes.com](https://www.forbes.com/sites/bernardmarr/2023/06/02/the-15-biggest-risks-of-artificial-intelligence/) the 15 biggest risks of AI
