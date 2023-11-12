@@ -71,8 +71,17 @@ Enabling SSL/TLS:
 
 Testing and Troubleshooting:
 
-- Test the configuration with **nginx -t**.
-- Check error logs in **/var/log/nginx/error.log** for troubleshooting.
+- Test the configuration with **nginx -t** command, if sucessfull it shoud return:
+
+root@your-root:~#
+nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+  
+- Check error logs wtih **cat /var/log/nginx/error.log** for troubleshooting like this example:
+
+  root@your-root:~# cat /var/log/nginx/error.log
+
 
 ## Conclusion
 
