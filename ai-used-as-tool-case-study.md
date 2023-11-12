@@ -6,6 +6,14 @@ tags: AI, case study, ML, coding, Javascript
 
 # AI used as a tool
 
+## Brief history
+
+ - 1940: the concept for ML/AI was in the mind of researchers
+ - 1950: Early developments in the field of ML, which involved a combination of philosophy, mathematics and engineering
+ - 1960: Generative AI was introduced in chatbots
+ - 2000: Jerome Friedman's work created a more complex ML model, by comparing the results predicted by an algorithm to the actual results using this method an algrorithm could be trained to make more accurate predictions the next time.
+ - 2014: AI being able to create convincingly real images, vidoes and audio of real people
+
 ## Articial ingelligence and its uses
 
 In this age, using AI to help create codes snippets is becoming more normal as they become more capable.
