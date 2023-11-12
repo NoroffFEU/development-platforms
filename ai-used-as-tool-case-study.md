@@ -16,3 +16,9 @@ When using working on a project, and you run into an error or a problem thats ha
 
 With how common and widespread AI is becoming, it is important to not misuse the powers you wield with it. a common factor where AI is in the danger of misuse, is the data it has been trained with, its decision making might be biased, the information can be outdated or an employer might look to replace their workers relying only on AI among other things.
 Another big concern with the use of AI is security risks, lack of transparency, privacy and probably the biggest of them all dependence on AI itself.
+
+
+## References
+
+- [Medium.com](https://medium.com/towards-data-science/artificial-intelligence-is-just-a-tool-aab880f1bbdd) AI is just a tool
+- [trendmicro.com](https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/exploiting-ai-how-cybercriminals-misuse-abuse-ai-and-ml) Exploting AI / misusing AI
