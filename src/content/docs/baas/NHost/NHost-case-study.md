@@ -22,7 +22,7 @@ Nhost is a fully secured, open-source Firebase alternative with GraphQL and a ba
 
 ## Getting Started
 
-To get started using NHost you need to create an account with them first, You can sign up with your Github account, or by adding your email and a password.
+To get started using NHost you need to create an account with them first. You can sign up with your Github account, or by adding your email and a password.
 
 When your account is created you can start on your project.
 
@@ -42,9 +42,9 @@ link to the story about parse(https://www.willowtreeapps.com/craft/parse-shutdow
 
 NHost has alot of the same features as other services like Firebase and Supabase, the main difference is that NHost is using a GraphQl database.
 
-So if your are into working with graphQL, then Nhost is an great alternative to Firebase, supabase and other Baas providers.
+So if your are into working with graphQL, then Nhost is an great alternative to Firebase, supabase or other Baas providers.
 
-With NHost you can integrate any of your preferred frontend frameworks, and the have made quickstart guides with:
+With NHost you can integrate any of your preferred frontend frameworks, and they have made quickstart guides with:
 
 - Next.js
 - React
