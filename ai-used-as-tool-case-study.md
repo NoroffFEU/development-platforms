@@ -1,3 +1,9 @@
+---
+title: AI used as a tool
+author: Morten Sandstedt
+tags: AI, case study, ML, coding, Javascript
+---
+
 # AI used as a tool
 
 ## Articial ingelligence and its uses
