@@ -25,3 +25,23 @@ Since it was made, Amplify has continued to evolve and has expanded. It has inco
 - **File Management:** Has secure and scalable file storage capabilities for managing user-generated content.
 - **Analytics:** Offers tools to see insight on app usage, user behavior, performance and app-optimization.
 - **Hosting and Deployment:** Has a simple hosting and deployment process supporting automated deployment of web applications.
+
+
+## Strengths
+_Several core features is what amplify has as its strength_
+
+- **Simple Backend Development:** Amplify makes backend tasks simple, enabling developers to focus more on frontend and core app functionalities
+- **User Authentication:** Has robust and easy built in authentication services for secure user management
+- **Real-Time Data Synchronization:** has real-time data updates across various app clients for better and consistent experiences.
+- **Scalability:** Provides scalable infrastructure, which means apps can grow without massive architectural changes
+- **Integrated Analytics:** has tools for app usage, user behavior insights and can aid in app optimization.
+
+## Weaknesses
+
+- **Limited Customization:** May have limitiations in customization for users that want specific customization.
+- **Complex Configuration:** Difficult configurations demands knowledge or deeper understanding of AWS and their services
+- **Dependent on AWS Ecosystem:** Deep integration limits flexibility for people with multi-cloud preferences or other non-AWS infrastructure
+- **Cost and Price:** has complex cost structure, which can be challenging during app scaling
+- **Learning Curve:** Has a learning curve for initial setup, can be challenging for some new users.
+
+
