@@ -40,7 +40,9 @@ NHost is at the time one of the smallest competitors on the baas marked, and wit
 
 link to the story about parse(https://www.willowtreeapps.com/craft/parse-shutdown-what-it-means-and-what-you-can-do).
 
-NHost has alot of the same features as other services like Firebase and Supabase, the main difference is that NHost is using a GraphQl database.So if your are into working with graphQL, then Nhost is an great alternative to Firebase, supabase and other Baas providers.
+NHost has alot of the same features as other services like Firebase and Supabase, the main difference is that NHost is using a GraphQl database.
+
+So if your are into working with graphQL, then Nhost is an great alternative to Firebase, supabase and other Baas providers.
 
 With NHost you can integrate any of your preferred frontend frameworks, and the have made quickstart guides with:
 
