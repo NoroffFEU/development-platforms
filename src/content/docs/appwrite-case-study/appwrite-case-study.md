@@ -70,7 +70,108 @@ In comparing Appwrite, Supabase, and Firebase, each platform brings distinct adv
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+### Installation of Appwrite
+To install Appwrite on your local machine, you need to ensure you have the following requirements:
+
+- Appwrite requires Docker Compose Version 2. You can check ([Docker desktop](https://www.docker.com/products/docker-desktop/)) for Docker installation.
+
+- The minimum requirements to run Appwrite is as little as 1 CPU core and 2GB of RAM
+
+### Steps
+
+1. Create your account (https://cloud.appwrite.io/register)
+
+2. Give the name for your first project.
+
+3. Choose from 2 given choices: a platform (web, flutter, apple, android) or integrate with your server (api key, webhook).
+
+4. Next instalations steps depends from your choices and you will be guided by that. But lets say we will choose `web`, then: 
+1. name and hostname (The hostname should be localhost.).
+2. You can skip optional steps.
+3. Create React project. Create a Vite project.
+```bash
+npm create vite@latest my-app -- --template react && cd my-app
+```
+4. Install Appwrite. Install the JavaScript Appwrite SDK.
+```bash
+npm install appwrite
+```
+5. Import Appwrite. Find your project's ID in the Settings page.
+Create a new file src/lib/appwrite.js and add the following code to it, replace <YOUR_PROJECT_ID> with your project ID.
+```bash
+import { Client, Account} from 'appwrite';
+
+export const client = new Client();
+
+client
+    .setEndpoint('https://cloud.appwrite.io/v1')
+    .setProject('<YOUR_PROJECT_ID>'); // Replace with your project ID
+
+export const account = new Account(client);
+export { ID } from 'appwrite';
+```
+
+6. Create a login page. Add the following code to src/App.jsx.
+```bash
+import React, { useState } from 'react';
+import { account, ID } from './lib/appwrite';
+
+const App = () => {
+  const [loggedInUser, setLoggedInUser] = useState(null);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [name, setName] = useState('');
+
+  async function login(email, password) {
+    await account.createEmailSession(email, password);
+    setLoggedInUser(await account.get());
+  }
+
+  return (
+    <div>
+      <p>
+        {loggedInUser ? `Logged in as ${loggedInUser.name}` : 'Not logged in'}
+      </p>
+
+      <form>
+        <input type="email" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} />
+        <input type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} />
+        <input type="text" placeholder="Name" value={name} onChange={e => setName(e.target.value)} />
+
+        <button type="button" onClick={() => login(email, password)}>
+          Login
+        </button>
+
+        <button
+          type="button"
+          onClick={async () => {
+            await account.create(ID.unique(), email, password, name);
+            login(email, password);
+          }}
+        >
+          Register
+        </button>
+
+        <button
+          type="button"
+          onClick={async () => {
+            await account.deleteSession('current');
+            setLoggedInUser(null);
+          }}
+        >
+          Logout
+        </button>
+      </form>
+    </div>
+  );
+};
+
+export default App;
+```
+7. All set. Run your project with and open Localhost on Port 3000 in your browser.
+```bash 
+npm run dev -- --open --port 3000 
+``` 
 
 ## Conclusion
 
