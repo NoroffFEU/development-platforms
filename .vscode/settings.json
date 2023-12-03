@@ -7,5 +7,6 @@
     "Xamarin",
     "esbuild",
     "tailwindcss"
-  ]
+  ],
+  "editor.inlineSuggest.showToolbar": "onHover"
 }
