@@ -111,7 +111,7 @@ According to research and statistics, React is the predominant choice among fron
 
    - Vue: Vue is used by Alibaba, Xiaomi, and others, but it's not as prevalent in tech giants as React and Angular.
 
-   - Svelte: Svelte has a limited presence in this context. However, Apple utilizes it for the web version of Apple Music 
+   - Svelte: Svelte has a limited presence in this context. However, Apple utilizes it for the web version of Apple Music.
 
 
 
