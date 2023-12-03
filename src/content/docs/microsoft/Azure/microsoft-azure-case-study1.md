@@ -1,6 +1,6 @@
 ---
 title: Microsoft Azure: A Case Study
-author: Joakim Kjøde
+author: Joakim Kjode
 ---
 
 ## Introduction
