@@ -46,7 +46,7 @@ It can be used with shared hosting VPS or dedicated hosting or a combination. It
 * **File management**:  Allows you to browse and manage the files on your servers, without tools such as putty or other remote SSH tools.
 * **Cron jobs/schedulers**: Lets you create and manage cron jobs with a built-in cron job editor.
 * **Backups**: Automatically create and store backups of your databases and servers.
-* **SSL certificate management**: Makes it easy to create and manage SSL certificates for your server, forge integrate with LetsEncrypt allowing you to obtain a free SSL certificate.
+* **SSL certificate management**: Makes it easy to create and manage SSL certificates for your server. Forge integrates with LetsEncrypt allowing you to obtain a free SSL certificate.
 * **User Isolation**: Can run each site on your server as a separate user thus preventing compromised sites from accessing other sites. 
 
 ## Getting Started
