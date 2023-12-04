@@ -60,7 +60,7 @@ Then you can deploy your application.
 ## Conclusion
 
 It fits for businesses of all sizes from small startups to large enterprises. 
-Or for the developer who just want to focus on development and not worrying about managing server.
+Or for the developer who just want to focus on development and not worry about managing a server.
 
 ## References
 
