@@ -28,7 +28,8 @@ Timeline of major milestones in the history of Laravel Forge:
 
 
 ## Main Features
-The main features of Laravel forge are to make it easy to provision and set up servers, deploy code, manage databases regardless of server hardware.
+The main features of Laravel forge are to make it easy to provision and set up servers, deploy code, and manage databases regardless of server hardware.
+
 It can be used with shared hosting VPS or dedicated hosting or a combination, it can be used as an application, database, or webserver amongst many more types.
 
 
