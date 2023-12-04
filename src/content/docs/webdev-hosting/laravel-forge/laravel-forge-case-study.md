@@ -44,7 +44,7 @@ It can be used with shared hosting VPS or dedicated hosting or a combination. It
 * **Deployment**: Easy deployment via Git or FTP, can even use GitHub Actions to deploy
 * **User management**:  Allows for the creation and management of user accounts for your servers.
 * **File management**:  Allows you to browse and manage the files on your servers, without tools such as putty or other remote SSH tools.
-* **Cron jobs/schedulers**: Lets you create and manage cron jobs with built-in cron job editor
+* **Cron jobs/schedulers**: Lets you create and manage cron jobs with a built-in cron job editor.
 * **Backups**: Automatically create and store backups of your databases and servers.
 * **SSL certificate management**: Makes it easy to create and manage SSL certificates for your server, forge integrate with LetsEncrypt allowing you to obtain a free SSL certificate.
 * **User Isolation**: Can run each site on your server as a separate user thus preventing compromised sites from accessing other sites. 
