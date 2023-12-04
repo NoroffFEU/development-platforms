@@ -8,7 +8,7 @@ tags: case study, platform laravel forge
 
 Laravel Forge is a cloud-based platform designed by Laravel framework creator Taylor Otwell, and it streamlines the management and the deployment of Laravel applications (PHP).
 
-While it primarily focus on laravel it also extends its capabilities to deploying other PHP applications such as WordPress or code from Git/GitHub/Bitbucket etc.
+While it primarily focus on Laravel, it also extends its capabilities to deploying other PHP applications such as WordPress or code from Git/GitHub/Bitbucket etc.
 It empowers developers to focus on coding and not on complex server stuff.
 
 
