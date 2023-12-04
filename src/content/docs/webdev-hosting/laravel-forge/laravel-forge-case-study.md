@@ -51,7 +51,7 @@ It can be used with shared hosting VPS or dedicated hosting or a combination. It
 
 ## Getting Started
 
-To get started you will need an account with laravel forge and a plan. You will then continue to provision your server. 
+To get started you will need an account with Laravel Forge and a plan. You will then continue to provision your server. 
 To provision your server, you will need to choose your provider and a server configuration (OS).
 Then Laravel Forge will automatically provision the server and install the required tools or/and software such as mysql/NGINX/apache.
 You can even provision a new WordPress or a phpMyAdmin.
