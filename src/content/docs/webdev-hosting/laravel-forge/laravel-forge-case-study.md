@@ -38,7 +38,7 @@ It can be used with shared hosting VPS or dedicated hosting or a combination. It
   * Application server: Everything you need to deploy a PHP application such as Laravel / WordPress / phpMyAdmin
   * Web Server: Server built to handle web traffic
   * Worker Server: Dedicated queue workers
-  * Database Servers: MySQL /MariaDB / Postgres
+  * Database Servers: MySQL / MariaDB / Postgres
   * Cache Servers: Redis or Memcached
 * **Cutting Edge**: Installs the newest Nginx, MySQL, Postgres, Redis and PHP and keeps it up to date.
 * **Deployment**: Easy deployment via Git or FTP, can even use GitHub Actions to deploy
