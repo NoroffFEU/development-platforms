@@ -60,7 +60,7 @@ If you want to put a photo, gif, video or document on your website, WordPress su
 
 **4. Easy to Learn**
 
-The WordPress software is easy to use, anoyone could start playing around with the dashboard and then ten minutes in you’d have an understanding of the interface. There‘s also tons of blogs, forums, online courses, seminars, webinars, books etc. outlining the different aspects of the platform.  
+The WordPress software is easy to use, anyone can start playing around with the dashboard and then ten minutes in you’d have an understanding of the interface. There are also tons of blogs, forums, online courses, seminars, webinars, books, etc outlining the different aspects of the platform.  
 
 **5. Easy to manage**
 
