@@ -11,7 +11,7 @@ WordPress is an open-source content management system (CMS), meaning that anyone
 ## Brief History
 
 - **2003:** First version, WordPress 0.7, was released by Matt Mullenweg and Mike Little.
-- **2004:** Wordpress 1.0, Search engine friendly permalinks, multiple categories, simple installations, upgrade capabilities, comment moderation, XFN support, and Atom support was added.
+- **2004:** Wordpress 1.0, search engine-friendly permalinks, multiple categories, simple installations, upgrade capabilities, comment moderation, XFN support, and Atom support was added.
 - **2005:** Matt Mullenweg founded the company *Automattic*. Akismet comment spam filter for WordPress is created.
 - **2006:** The first WordCamp was held in San Francisco *(WordCamps are annual events that volunteers organize for users and developers to get together and discuss all things WordPress).*
 - **2007:** Automatic purchased Gravatar *(Gravatar are the avatars, or pictures you see next to your name when you interact on WordPress sites).* 
