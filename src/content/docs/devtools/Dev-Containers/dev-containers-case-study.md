@@ -42,7 +42,7 @@ It can still be installed as a part of Remote Development extension.
 | Integration | Dev Containers are integrated with Visual Studio Code, while Codespaces are closely integrated with GitHub, making them an attractive choice for projects hosted on GitHub. |
 | Customization | Dev Containers provide more options in customizing development environments. Codespaces might have some restrictions. |
 
-In summary both provide you with great tools that streamlines the process of setting up and managing development enviorments. Which you should choose will depend on the needs of your project. While Dev Containers are primarily used for local development, Codespaces is a remote and collaborative enviorment. They both tie you to other tools. With Dev Containers you will be tied to VSCode and Docker, and Codespaces with tie you to Github. For a more custamizable enviornment, Dev Containers will be the better choice. 
+In summary, both provide you with great tools that streamline the process of setting up and managing development environments. Which you should choose will depend on the needs of your project. While Dev Containers are primarily used for local development, Codespaces is a remote and collaborative environment. They both tie you to other tools. With Dev Containers you will be tied to VSCode and Docker, and Codespaces will tie you to Github. For a more customizable environment, Dev Containers will be the better choice. 
 
 Note: Both are owned by Microsoft. 
 
