@@ -102,7 +102,7 @@ On [WordPress](https://wordpress.org/download/) users can install the software m
 
 ## Conclusion
 
-WordPress is a powerful and popular software available for both developers and non-developers who want to be able to fully customize their website/platform and have complete control on every aspect of their project. 
+WordPress is a powerful and popular software available for both developers and non-developers who want to be able to fully customize their website/platform and have complete control over every aspect of their project. 
 
 ## References
 
