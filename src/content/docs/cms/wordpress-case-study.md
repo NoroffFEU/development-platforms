@@ -6,7 +6,7 @@ tags: wordpress, case study, platform, cms
 
 ## Introduction
 
-WordPress is an open-source content management system (CMS), meaning that anyone can use and/or modify the software for free. It‘s written in PHP hypertext preprocessor language and paired with a MySQL or MariaDB database. It was originally created as a tool for publishing blogs, but has since evolved to support the making of more traditional websites/business websites, mailing lists, forums, portfolios, resumes, social networks, membership sites, eCommerce stores etc. As of October 2021, WordPress was used by 42,8% of the top 10 million websites on the internet. 
+WordPress is an open-source content management system (CMS), meaning that anyone can use and/or modify the software for free. It‘s written in PHP hypertext preprocessor language and paired with a MySQL or MariaDB database. It was originally created as a tool for publishing blogs, but has since evolved to support the making of more traditional websites/business websites, mailing lists, forums, portfolios, resumes, social networks, membership sites, eCommerce stores, etc. As of October 2021, WordPress was used by 42,8% of the top 10 million websites on the internet. 
 
 ## Brief History
 
