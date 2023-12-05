@@ -47,7 +47,7 @@ In summary, both provide you with great tools that streamline the process of set
 Note: Both are owned by Microsoft. 
 
 ## Getting Started
-This guide will show you how to open an existing project using one of templates provided by Dev Containers. 
+This guide will show you how to open an existing project using one of the templates provided by Dev Containers. 
 
 1. Install [VSCode](https://code.visualstudio.com/)
 2. Install [Docker](https://docs.docker.com/)
