@@ -36,7 +36,7 @@ WordPress is free for anyone to download. And being open-source software it mean
 
 **2. It’s adaptable**
 
-When WordPress first was released it was originally created as a tool to publish blogs, but with the variaty of new releases over the years the platform has changed. Now, with the adaptions made to the software you can easily make pretty much anything you can think of with WordPress. 
+When WordPress was first released it was originally created as a tool to publish blogs, but with the variety of new releases over the years the platform has changed. Now, with the adaptions made to the software you can easily make pretty much anything you can think of with WordPress. 
 
 Here are a few examples:
 - Blogs
