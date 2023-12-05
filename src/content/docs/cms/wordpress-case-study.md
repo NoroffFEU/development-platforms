@@ -26,7 +26,7 @@ WordPress is an open-source content management system (CMS), meaning that anyone
 
 The open-source content management system, WordPress, is, at its core, a tool that makes it easy for developers and non-developers to make and manage important aspects of websites (e.g. content) without knowing much or anything about programming. This means that building a website can be accessible to anyone, even people who aren’t developers.
 
-7 good reasons to use WordPress:
+### 7 good reasons to use WordPress:
 
 **1. Free and open-source software**
 
