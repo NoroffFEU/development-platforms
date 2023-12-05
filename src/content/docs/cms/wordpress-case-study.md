@@ -30,7 +30,7 @@ The open-source content management system, WordPress, is, at its core, a tool th
 
 **1. Free and open-source software**
 
-WordPress is free for anyone to download. And being an open-source software means that WodPress is developed by a collection of contributers, but fear not, you don’t have to contribute by e.g. being a beta tester or a brand advocate if you don’t want to. 
+WordPress is free for anyone to download. And being open-source software it means that WordPress is developed by a collection of contributors. But fear not, you don’t have to contribute (by e.g. being a beta tester or a brand advocate ) if you don’t want to. 
 
 **Note** that even though the software is free, you will most likely end up spending a little bit of money. WordPress is self-hosted so you will need hosting services.
 
