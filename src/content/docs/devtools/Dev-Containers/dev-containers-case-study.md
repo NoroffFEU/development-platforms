@@ -26,7 +26,7 @@ It can still be installed as a part of Remote Development extension.
 | Consistency       | Dev Containers standardize the development process, ensuring that the same tools and configurations are used.                                                                      |
 | Scalability       | Containers can be easily scaled and managed, making it convenient for projects with complex dependencies or multiple microservices.                                                |
 | Security          | Dev Containers provide a layer of security by isolating development environments. Any changes made within the container do not affect the host system.                             |
-| Templates(Images) | Templates provide preconfigured settings and dependencies tailored to a specific languages.     
+| Templates(Images) | Templates provide preconfigured settings and dependencies tailored to specific languages.     
 
 #### Notaable weaknesses
 1. Dev Containers ties you to use both VSCode and Docker. It is currently being made available to other code editors, but the 1st class integration it has towards VSCode is so far unmatched. 
