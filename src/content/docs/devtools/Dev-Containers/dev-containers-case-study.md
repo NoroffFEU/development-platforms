@@ -7,7 +7,7 @@ tags: devcontainers, containers, docker, VSCode, microsoft
 ## Introduction
 Dev Containers is a feature within Visual Studio Code, and is used in combination with Docker. It is a tool that streamlines the process of setting up and managing a development enviorment. It enables the developers to save all tools, dependencies, and configurations within a container, making it easy to share and maintain development enviornments across machines and team members.
 
-Combining Dev Containers with Docker enhances the development experience by simplifying environment setup, ensuring consistency, and providing a smooth workflow within Visual Studio Code. While Docker is a powerful containerization tool, Dev Containers make it more accessible and developer-friendly, particularly for those who prefer using Visual Studio Code
+Combining Dev Containers with Docker enhances the development experience by simplifying environment setup, ensuring consistency, and providing a smooth workflow within Visual Studio Code. While Docker is a powerful containerization tool, Dev Containers make it more accessible and developer-friendly, particularly for those who prefer using Visual Studio Code.
 
 ## Brief History
 As Dev Containers is a relatively new feature it's history is truly brief. The history of Dev Containers lay within the history of Remote Development, and was only recently separated and made into it's own extension. 
