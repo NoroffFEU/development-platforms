@@ -149,7 +149,7 @@ If the value was accepted it will return `OK`.
 get key
 ```
 If the key is defined then it will return the value, for example: `"value"`   
-other vice if the key undefined then it will return `(nil)`
+Otherwise if the key is undefined then it will return `(nil)`
 
 ###### If you want to set a string if the key is not already in use then use
 
