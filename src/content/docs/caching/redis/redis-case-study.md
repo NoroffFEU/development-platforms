@@ -28,7 +28,7 @@ manage it with a light governance model[^5].
 
 ## Main Features
 
-- Redis is an in-memory database an as a result it is very fast.
+- Redis is an in-memory database and as a result it is very fast.
 - It has two ways to persist the data that is stored in case of a failure[^12]:
   - Continuously on each write, as it occurs (AFO in the docs)
   - database snapshots at an interval (RDB in the docs)
