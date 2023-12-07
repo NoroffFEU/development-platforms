@@ -49,7 +49,15 @@ hing for a specific reason.
 
 ## Market Comparison
 
-Compared to Appwrite, Supabase, and Firebase, each platform brings unique benefits to developers. `Appwrite` stands out for its open-source nature and high customization, catering to those who prioritize community collaboration and flexibility. `Supabase`, built on PostgreSQL, offers a growing open-source alternative with robust real-time data support. `Firebase`, a well-established platform, excels in extensive documentation, a large community, and seamless integration with other Firebase services. The choice among these platforms depends on the specific needs and preferences of developers, considering factors such as customization, community support, and the nature of the project.
+Compared to Appwrite, Supabase, and Firebase, each platform brings unique benefits to developers.
+
+`Appwrite` stands out for its open-source nature and high customization, catering to those who prioritize community collaboration and flexibility.
+
+`Supabase`, built on PostgreSQL, offers a growing open-source alternative with robust real-time data support.
+
+`Firebase`, a well-established platform, excels in extensive documentation, a large community, and seamless integration with other Firebase services.
+
+The choice among these platforms depends on the specific needs and preferences of developers, considering factors such as customization, community support, and the nature of the project.
 
 ### Comparison table
 
