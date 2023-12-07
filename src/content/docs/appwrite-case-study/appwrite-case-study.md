@@ -10,6 +10,7 @@ tags: appwrite, baas, backend, development, open-source
 
 Appwrite is an open source, self-hosted, backend-as-a-service (BaaS) platform for quickly building backend services for the web, mobile, and beyond. What sets Appwrite apart is its commitment to putting you in control of your data. This powerful tool lets you effortlessly include crucial elements like user `authentication`, `databases`, `functions`, and `storage` in your projects. 
 Appwrite is especially good when you want to focus on frontend development, and simply need a backend to perform common RESTful API tasks.<br>
+
 Whether it's a small project or a large-scale project, Appwrite makes the process not only efficient but also an exciting thrill in application development! 
 
 
