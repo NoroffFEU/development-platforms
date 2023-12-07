@@ -46,7 +46,6 @@ The main goal of Appwrite is to provide developers with a comprehensive set of r
 - **Scalability:** Appwrite's modular architecture and cloud compatibility make it scalable, adapting to the needs of both small projects and large-scale applications.
 
 - **Community Support:** The open-source community surrounding Appwrite provides a valuable resource for developers, offering support, sharing insights, and contributing to the platform's continuous improvement.
-hing for a specific reason.
 
 ## Market Comparison
 
