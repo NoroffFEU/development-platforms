@@ -84,7 +84,7 @@ The name of the program to run.
 - run  
 Tells docker to install this container. [here is a complete list of docker subcommands.](https://docs.docker.com/engine/reference/commandline/cli/#subcommands)
 - --name  
-Set the name we will use when accessing this docker container.
+Sets the name we will use when accessing this docker container.
 - -p  
 Set the ports. The pattern here is port-outside-container:port-inside-container, so if port 6397 is already in use you can
 change the number before the colon to a number to any port from 1024 that are not already in use (e.g. 1234:6397).
