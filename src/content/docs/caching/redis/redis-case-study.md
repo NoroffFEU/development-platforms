@@ -189,7 +189,7 @@ If you have more keys than values or one of your variables used a space without 
 return an error like this `(error) ERR wrong number of arguments for 'mset' command`.  
 
 *Note:*  
-`mset` will make multiple individual key/value sets these are in no way connected.
+`mset` will make multiple individual key/value sets. These are in no way connected.
 
 ###### If you want to retrieve multiple keys at once
 ```redis
