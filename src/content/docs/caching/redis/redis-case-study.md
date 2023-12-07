@@ -165,7 +165,7 @@ If we used a different key like so:
 set foo value2 nx
 ```
 
-Assuming that foo has not been sett elsewhere it will return `(interger) 1` witch in this case is equal to `True` in 
+Assuming that foo has not been set elsewhere it will return `(interger) 1` witch in this case is equal to `True` in 
 javascript.
 
 *Note:*  
