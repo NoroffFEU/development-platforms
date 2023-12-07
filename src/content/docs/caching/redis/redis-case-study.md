@@ -94,7 +94,7 @@ will see all the read and write logs appear in this terminal.
 - --rm  
 This tells docker to remove the container after you stop it.
 - redis:latest  
-This is the container we want to run, Redis in this case, and :latest specify the version to use.
+This is the container we want to run, Redis in this case, and :latest specifies the version to use.
 
 [For a list of available Redis versions see here.](https://hub.docker.com/_/redis/tags)
 
