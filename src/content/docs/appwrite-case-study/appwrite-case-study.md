@@ -187,7 +187,13 @@ npm run dev -- --open --port 3000
 
 ## Conclusion
 
-Appwrite has a bright future with its consistent growth, updates, and community engagement. It's known for making backend development easier for web and mobile apps. It scales well, offering strong functionality and real-time data support. While there's limited information and fewer integrations compared to some, Appwrite excels at simplifying backend tasks. It's great for businesses prioritizing cross-platform compatibility and real-time features.
+Appwrite has a bright future with its consistent growth, updates, and community engagement.
+
+It's known for making backend development easier for web and mobile apps.
+
+It scales well, offering strong functionality and real-time data support.
+
+While there's limited information and fewer integrations compared to some, Appwrite excels at simplifying backend tasks. It's great for businesses prioritizing cross-platform compatibility and real-time features.
 
 ## References
 
