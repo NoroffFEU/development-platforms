@@ -71,7 +71,7 @@ instructions:
 - [Install Docker on Mac](https://docs.docker.com/desktop/install/mac-install/)
 - [Install Docker on Windows](https://docs.docker.com/desktop/install/windows-install/)
 
-In open your terminal and run the following command:
+Open your terminal and run the following command:
 
 ```shell
 docker run --name redis-test-server -p 6379:6379 -d --rm redis:latest
