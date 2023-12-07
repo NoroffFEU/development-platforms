@@ -80,7 +80,7 @@ docker run --name redis-test-server -p 6379:6379 -d --rm redis:latest
 #### The installation command in step by step
 
 - docker  
-The name of program to run.
+The name of the program to run.
 - run  
 Tells docker to install this container. [here is a complete list of docker subcommands.](https://docs.docker.com/engine/reference/commandline/cli/#subcommands)
 - --name  
