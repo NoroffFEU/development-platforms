@@ -24,11 +24,11 @@ Appwrite history highlights:
 - 2019: Founder & CEO Eldad Fux launches Appwrite as an open-source project.
 - 2020: Appwrite gains momentum in the developer community for its simplicity and versatility.
 - 2021: Appwrite becomes known for its modular architecture and security features.
-- 2021 july: Appwrite introduces compatibility with additional coding languages, expanding its user base.
-- 2022 june: Appwrite surpasses 10,000 stars on GitHub, underlining its continued growth and acceptance in the developer community.
-- 2023 may 02: Appwrite Cloud is announced in public beta.
-- 2023 september 22: Appwrite unveils a fresh brand identity.
-- 2023 november 09: The latest release, version 1.4.11, showcases ongoing development and improvements.
+- 2021 July: Appwrite introduces compatibility with additional coding languages, expanding its user base.
+- 2022 June: Appwrite surpasses 10,000 stars on GitHub, underlining its continued growth and acceptance in the developer community.
+- 2023 May 02: Appwrite Cloud is announced in public beta.
+- 2023 September 22: Appwrite unveils a fresh brand identity.
+- 2023 November 09: The latest release, version 1.4.11, showcases ongoing development and improvements.
 
 
 ## Main Features
