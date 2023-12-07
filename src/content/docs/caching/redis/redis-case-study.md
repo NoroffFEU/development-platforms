@@ -45,7 +45,7 @@ the other is using Redis cluster[^11].
 | Speed             |                                In-memory store gives good speed                                |                              In-memory store gives good speed                              |
 | Scalability       |       You can scale Redis by connecting multiple Redis databases se sentinel or cluster        |                   All memcached instates are unaware of each other[^16]                    |
 | High Availability |                       You can configure HA[^18] with sentinel or cluster                       |                                         No option                                          |
-| Persistence       | Redis has a two options for persistence, but it can be times when it do not get stored in time |                        There are some settings for persistence[^17]                        |
+| Persistence       | Redis has a two options for persistence, though sometimes the data is not stored in time |                        There are some settings for persistence[^17]                        |
 | When RAM full     |      Redis will give error messages on write commands. You can setup eviction rules[^19].      | When out of room Memcached will purge the older data in order of least recently used[^20]. |
 
 ## Getting Started
