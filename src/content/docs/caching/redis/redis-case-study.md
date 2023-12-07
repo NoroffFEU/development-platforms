@@ -156,7 +156,7 @@ Otherwise if the key is undefined then it will return `(nil)`
 ```redis
 set key value2 nx
 ```
-In this case as "key" is already set above it will return `(integer) 0` witch in this case is the same as `False` in 
+In this case as "key" is already set above it will return `(integer) 0` which in this case is the same as `False` in 
 javascript.  
 
 If we used a different key like so:
