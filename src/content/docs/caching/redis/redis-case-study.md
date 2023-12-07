@@ -148,7 +148,7 @@ If the value was accepted it will return `OK`.
 ```redis
 get key
 ```
-If the key defined then it will return the value in this case like this `"value"`   
+If the key is defined then it will return the value, for example: `"value"`   
 other vice if the key undefined then it will return `(nil)`
 
 ###### If you want to set a string if the key is not already in use then use
