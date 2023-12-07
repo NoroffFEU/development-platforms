@@ -23,7 +23,7 @@ otherwise be slow to get from a disk or database, therefore slowing down api req
 - May 2013: Redis was sponsored by Pivotal Software[^4].
 - June 2015: Redis became funded by Redis Labs[^4].
 - October 2018: Release of Redis 5.0, and introduction of Redis Stream.
-- June 2020: Salvatore Sanfilippo[^1] hands of the role of maintainer to Yossi Gottlieb[^2], and Oran Agra[^3] who now 
+- June 2020: Salvatore Sanfilippo[^1] hands off the role of maintainer to Yossi Gottlieb[^2] and Oran Agra[^3] who now 
 manage it with a light governance model[^5].
 
 ## Main Features
