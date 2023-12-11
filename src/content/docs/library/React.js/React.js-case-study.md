@@ -62,8 +62,6 @@ React is the most used library among developers over the years. React is not a f
 
 - React Native was introduced this year, bringing React's principles to mobile app development, enabling developers to create cross-platform mobile applications using React and native components.
 
-- In January Facebook unveiled the first version of React Native, enabling cross-platform mobile app development.
-
 - In the same month, Netflix expressed interest in React, signaling its growing adoption.
 
 - Airbnb also started using React for web development in early 2015.
@@ -246,12 +244,13 @@ If you're new to React and want to start a new project, you can follow these ste
      npm install -g npm
      ```
 
-3. **Create a New React Project**:
+3. **Create a New React Project with Vite**:
 
-   - To start a new React project, you can use the "Create React App" tool, which sets up a basic React application with all the necessary configurations and dependencies. Open your terminal and run:
+   - To start a new React project, you can use the "Vite" tool, which sets up a basic React application with all the necessary configurations and           dependencies. Open your terminal and run:
      ```
-     npx create-react-app project-name
+     npx create @vitejs/app project-name
      ```
+
      Replace `project-name` with the desired name of your project. This will create a new directory with the project files.
 
 4. **Navigate to Your Project**:
@@ -265,9 +264,10 @@ If you're new to React and want to start a new project, you can follow these ste
 
    - To launch your React project, run the following command:
      ```
-     npm start
+     npm install
+     npm run dev
      ```
-     This will start a development server, and your React application will be available at `http://localhost:3000` in your web browser.
+     This will start a development server, and your React application will be available at `http://localhost:3000` in your web      browser.
 
 6. **Edit and Build**:
 
