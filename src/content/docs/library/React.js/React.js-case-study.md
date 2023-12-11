@@ -64,7 +64,7 @@ React is the most used library among developers over the years. React is not a f
 
 - In January Facebook unveiled the first version of React Native, enabling cross-platform mobile app development.
 
-- Same month, Netflix expressed interest in React, signaling its growing adoption.
+- In the same month, Netflix expressed interest in React, signaling its growing adoption.
 
 - Airbnb also started using React for web development in early 2015.
 
