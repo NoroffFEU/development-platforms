@@ -104,7 +104,7 @@ React is the most used library among developers over the years. React is not a f
 
 - To resolve the license conflict, Facebook also released React version 16.0.0 under the MIT license, marking a significant change from the previous license controversy in 2014.
 
-- Same month, React, along with related projects such as Jest, Flow, and Immutable.js, underwent a relicensing process.
+- In the same month, React, along with related projects such as Jest, Flow, and Immutable.js, underwent a relicensing process.
 
 - In October, Netflix removed client-side React.js from their tech stack, showcasing the dynamic nature of technology adoption.
 
