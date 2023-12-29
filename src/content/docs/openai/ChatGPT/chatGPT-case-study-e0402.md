@@ -149,12 +149,13 @@ As far as software development is concerned, ChatGPT can write code faster than 
 
 ## Credits
 
-- Jonas Lødøen ([jonaslod](https://github.com/jonaslod))
+- Eirik Broll Stalheim ([e0402](https://github.com/e0402))
 
 ## References
 
 ### Original Material
 
+- [ChatGPT case study - github/jonaslod](https://github.com/NoroffFEU/development-platforms/blob/main/src/content/docs/openai/ChatGPT/chatGPT-case-study-jonaslod.md)
 - [ChatGPT - A case study - github/Melisa-Zorraindo](https://github.com/NoroffFEU/development-platforms/blob/main/case-studies/chatGPT-case-study-Melisa-Zorraindo.md)
 - [ChatGPT case study - github/akeek](https://github.com/NoroffFEU/development-platforms/blob/main/case-studies/chatGPT-case-study.md)
 
@@ -168,7 +169,6 @@ As far as software development is concerned, ChatGPT can write code faster than 
 - https://en.wikipedia.org/wiki/LLaMA
 - https://en.wikipedia.org/wiki/LaMDA#Bard
 
-## Screenshots
+### Additional sources
 
-1. Asking ChatGPT what it can assist with
-   <img width="380" alt="chatgpt-help-with" src="https://user-images.githubusercontent.com/95305401/231838625-72866f50-319a-4507-b73e-68076ac09276.PNG">
+- Asking ChatGPT-4 for info related to this topic.
