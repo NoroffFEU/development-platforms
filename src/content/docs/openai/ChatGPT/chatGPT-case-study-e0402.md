@@ -98,30 +98,75 @@ OpenAI have released an API for accessing the AI models they have developed. On 
 
 The API will return a text completion, from a given text prompt, attempting to match the pattern it was given. It can be "programmed" by providing some examples of what you'd like it to do. The API currently runs models with weights from the GPT-4 family.
 
-## Market Comparison
+### How it works
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+ChatGPT uses a deep neural network architecture called a Transformer, which was introduced in 2017. Transformers are designed to process sequential data, such as text, and are particularly well-suited to generating text that is coherent and grammatically correct. Since it is trained using a large amount of text data, it learns the statistical patterns and relationships that exist within human language. When a user inputs a prompt, ChatGPT uses this knowledge to generate a response that is relevant.
+It is worth mentioning, in regards to ChatGPT, that due to the sheer size and complexity of the algorithm, exactly how it works cannot be known.
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+## Strengths
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+ChatGPT can be used universally. It isn't limited to English speakers, supporting many different languages. Nor does it limit users by their intellect, given its ability to explain complex concepts in simple terms. Additionally, it can assist people in their everyday life by outlining meal plans or helping to organise their days, as well as it can aid in a variety of industries like journalism, education, business development, and software development. This makes it a very versatile tool.
 
-## Getting Started
+In the context of software development, its ability to increase a developer's productivity is its greatest strength. If the tool is used appropriately, it can help us be more efficient by decreasing the time we spend planning or reading how to do something. It is especially useful for students or developers in the early stage of their careers. Finding the answer that solves an issue requires knowledge of technical terms that students often forget or don't yet have - having the opportunity to explain the problem in simple terms is, therefore, a great advantage.
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+The above applies as well when learning to read and handle errors. Errors may look like gibberish at first and you have to learn to interpret them. Being provided with an explanation that beginner developers can understand more easily helps bridging that gap. Moreover, by freeing up senior developer time from this task, the learning timeline can be reduced significantly. Additionally, a senior developer's ability to effectively communicate information can vary greatly, and a skilled senior developer may not always be a skilled teacher.
 
-## Conclusion
+The variety of subjects it was trained in is also beneficial to developers. Not only is the bot able to help in several programming languages, but it's also able to answer questions about hosting services, cms, databases, and git, amongst others. This feature makes the bot also ideal for practising for interview questions. You can even ask it to be your interviewer: it will give you a set of questions, and if your answers are incomplete it will fill in for you.
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+The relevance of this tool to senior developers and systems architects lies in its capacity to accelerate the acquisition of new skills and offer a solid base for learning. Furthermore, it can also pinpoint areas of unfamiliarity, making it an attractive and valuable asset for these professionals who typically need to be updated on the latest advancements in their field.
+
+ChatGPT can be fine-tuned on specific tasks and datasets to improve its performance for particular use cases. This means that organisations can train ChatGPT to specialise in certain types of writing, such as legal or medical writing, or to incorporate domain-specific language and terminology.
+
+## Weaknesses
+
+Despite its many possible uses and strengths, this tool comes with a series of limitations that are important to take into account. One critical issue is its lack of factual correctness at times. The bot may provide answers that are factually incorrect, but in such an assertive manner it could be difficult for an untrained person to realise, also known as "hallucination". Moreover, it gives no references on where it took the data from. In order to avoid the spread of misinformation, users should double check the answers by consulting reliable sources of information in the subject matter. Additionally, it tends to be unpredictable and unstable. This means that users may avoid content moderation by repeatedly asking the same question in different ways.
+
+Due to the human trainers rewarding longer answers for their appearance of being more comprehensive, the bot tends to be excessively verbose. This doesn't always add quality to the responses since the same information is being repeated in different paragraphs with a slight change in phrasing. This is a major giveaway that might make it easy for a human to realise when a text has been written by an AI tool, and therefore not reliable for producing important texts for university or work.
+
+The model also presents limitations in terms of server capacity (more so with the free version, but also with the latest GPT-version, even with the paid subscription plan). It is at times unreachable due to the amount of people trying to use the service at the same time. ChatGPT, as well as other NLP systems are very resource-intensive and can be expensive to run and scale.
+
+A continuing challenge for OpenAI is training the next iteration of the model. They still need to make an effort to exclude any text that ChatGPT has generated since its release to avoid the risk of creating a feedback loop of misinformation. This is because ChatGTP may have received false information from users.
+
+Despite various new methods/software to detect content generated by AI,detection still remains challenging, especially wen content is generated by latest AI models. This might be seen as a strength by many, but it could also be exploited by some. Students might try to use ChatGPT to cheat on school work and exams, and it will be difficult for teachers to differentiate.
+
+Despite continous advancement, ChatGPT still lacks some human aspects, mainly creativity and the ability to create new ideas. All its output is generated based on existing text written by humans. It might be able to create original sentences, based on existing knowledge, but it is (currently) unable to create something new out of nothing.
+
+## Comparison
+
+ChatGPT is not the first chatbot on the market. Most companies' customer service departments offer their users the possibility to solve their problems in real-time by chatting with a bot. Some customer service chatbots are trained on a set of questions and answers. This results in less adaptability than ChatGPT. If the chatbot is presented with a complex question / task, and the chatbot is unable to assist, the user is usually transferred to a customer service employee. The chatbot's knowledge is limited to the task they're designed to carry out. For example, a bank chatbot can't help with debugging code and a shipping service chatbot cannot assist authors in writing essays. ChatGPT, however, is not constrained to a specific activity, as it was trained using a large amount of data in different topics and styles.
+
+ChatGPT is one of several NLP models that are capable of generating human-like text. Some of the other models that are commonly used for this purpose include Google's Meena, Microsoft's XiaoIce, and Facebook's Blender. Compared to these models, ChatGPT is generally considered to be more versatile and capable of generating text in a wider range of styles and genres. However, it also tends to generate more irrelevant or nonsensical responses than some of the other models. There have been some recent releases in 2023 as well, including Googles's LaMDA, Meta AI's LLaMA and Alpaca.
+
+## Summary
+
+ChatGPT has quickly made its impact on the modern world. It has many use cases and possibilities, but many have expressed their concern about ChatGPT and other AI tools replacing their jobs. As the technology improves, these models might be capable of better understanding irony, sarcasm, jokes, human emotions, and the nuances introduced by cultural differences. This would make them extremely powerful and suitable for sectors like psychiatry and medicine.
+
+Although technologies like ChatGPT can be utilised in a wide range of fields, it is still not able to mimic human creativity.
+
+As far as software development is concerned, ChatGPT can write code faster than a human, but not more reliably. It requires human supervision to ensure it's working as intended. Even if you ask the chatbot to automate testing, these tests may also contain bugs. Replacing a human proves not to be so easy after all. Instead, this type of technology is most useful to boost productivity - to assist human beings in their daily tasks. It is obviously more efficient to ask a question and obtain a response in seconds than to post it on [stackoverflow](https://stackoverflow.com/) and wait for other developers to read our code and provide an answer. It is also easier to read one response than sift through dozens of pages from a Google search. This is why replacing an entire staff with bots is unlikely to happen in the near future.
+
+## Credits
+
+- Jonas Lødøen ([jonaslod](https://github.com/jonaslod))
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+### Original Material
 
-## Additional Resources
+- [ChatGPT - A case study - github/Melisa-Zorraindo](https://github.com/NoroffFEU/development-platforms/blob/main/case-studies/chatGPT-case-study-Melisa-Zorraindo.md)
+- [ChatGPT case study - github/akeek](https://github.com/NoroffFEU/development-platforms/blob/main/case-studies/chatGPT-case-study.md)
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+### Articles
+
+- https://platform.openai.com/docs/models/overview
+- https://openai.com/blog/chatgpt
+- https://openai.com/blog/openai-api
+- https://en.wikipedia.org/wiki/GPT-4
+- https://en.wikipedia.org/wiki/Auto-GPT
+- https://en.wikipedia.org/wiki/LLaMA
+- https://en.wikipedia.org/wiki/LaMDA#Bard
+
+## Screenshots
+
+1. Asking ChatGPT what it can assist with
+   <img width="380" alt="chatgpt-help-with" src="https://user-images.githubusercontent.com/95305401/231838625-72866f50-319a-4507-b73e-68076ac09276.PNG">
