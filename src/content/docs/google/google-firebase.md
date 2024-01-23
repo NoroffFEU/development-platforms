@@ -30,7 +30,7 @@ Firebase provides a NoSQL-cloud database that allows developers to store and syn
 
 ### - Authentication
 
-This simplifies the pricess of user authentication, offering various sign-in methods such as email/password, social media logins and more. It integrates seamlessly with firebase services and provides secure authentication.
+This simplifies the process of user authentication, offering various sign-in methods such as email/password, social media logins and more. It integrates seamlessly with firebase services and provides secure authentication.
 
 ### - Cloud Firestore
 
@@ -200,9 +200,9 @@ You have now set up your basic Firebase project, and deployed a web app using Fi
 
 ## Conclusion
 
-In conclution, Google Firebase stands at the forefront of backend development, also making it easier for other developers with lesser knowlegde about backend to improve their apps and websites. Firebase provides a versitale toolkit, and its array of services like Realtime Database, Cloud Functions and Firebase Hosting, empowers developers to focus on crafting, rather than managing complex infrastructure. As Firebase continues to evolve, its integration with Google services and acuisition of key technologies like Fabric and Crashlytics further solidity its position in the developers ecosystem.
+In conclution, Google Firebase stands at the forefront of backend development, also making it easier for other developers with lesser knowlegde about backend to improve their apps and websites. Firebase provides a versitale toolkit, and its array of services like Realtime Database, Cloud Functions and Firebase Hosting, empowers developers to focus on crafting, rather than managing complex infrastructure. As Firebase continues to evolve, its integration with Google services and acuisition of key technologies like Fabric and Crashlytics further solidify its position in the developers ecosystem.
 
-Google Firebase is perfect wether you are a skilled developer, or a newcomer. It offers a user-friendly interface, robust and clear documentation and a vibrant community. This combination makes it an ideal choice for projects of all scales and complexities. Take advantage of the rich ecosystem, experiment with features and leverage the power of Firebase to bring life into your ideas.
+Google Firebase is perfect whether you are a skilled developer, or a newcomer. It offers a user-friendly interface, robust and clear documentation and a vibrant community. This combination makes it an ideal choice for projects of all scales and complexities. Take advantage of the rich ecosystem, experiment with features and leverage the power of Firebase to bring life into your ideas.
 
 ## References
 
