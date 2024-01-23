@@ -6,6 +6,12 @@ tags: Development Platforms, google platforms, firebase, cloud storage, hosting,
 
 ## Introduction
 
+James Tamplin and Andrew Lee once created a startup called Evolve, wanting to give developers the ability to intergrate live-chat to their websites. This later evolved into Firebase, wich have become one of the larges BaaS and is currently used by almost 50.000 customers. Companies like Amazon Web Series, Nexstar, Home Depot and NCR Corporation uses Google Firebase to host their websites. Most companies that uses Firebase are small-sized companies with 0-9 employee's, so Firebase is the perfect product for startups an smaller buisnesses.
+
+Google Firebase is a dynamic and feature-rich backend platform, empowering developers to build robust and safe web and mobile applications. From its inception as an independed startup, Firebase has evolved into a comprehensive backend-as-a-service (BaaS) solution.
+
+Firebase offers a varity of services, ranging from Realtime Database, Authentication, Cloud functions and Hosting. Firebase was acquired by Google in 2014, and has since then expanded its capapillities. Intregrating services as analitics, cloud storage and more. Firebase is in a position to become the "go-to" platform for modern app development.
+
 ## Brief History
 
 - 2011 - Evolve is established as a startup by James Tamplin and Andrew Lee, an app that provided the integration of online chat on a website.
@@ -194,6 +200,10 @@ You have now set up your basic Firebase project, and deployed a web app using Fi
 
 ## Conclusion
 
+In conclution, Google Firebase stands at the forefront of backend development, also making it easier for other developers with lesser knowlegde about backend to improve their apps and websites. Firebase provides a versitale toolkit, and its array of services like Realtime Database, Cloud Functions and Firebase Hosting, empowers developers to focus on crafting, rather than managing complex infrastructure. As Firebase continues to evolve, its integration with Google services and acuisition of key technologies like Fabric and Crashlytics further solidity its position in the developers ecosystem.
+
+Google Firebase is perfect wether you are a skilled developer, or a newcomer. It offers a user-friendly interface, robust and clear documentation and a vibrant community. This combination makes it an ideal choice for projects of all scales and complexities. Take advantage of the rich ecosystem, experiment with features and leverage the power of Firebase to bring life into your ideas.
+
 ## References
 
 - [wikipedia.com](https://en.wikipedia.org/wiki/Firebase)
@@ -204,4 +214,5 @@ You have now set up your basic Firebase project, and deployed a web app using Fi
 
 - [firebase.google.com](https://firebase.google.com/docs?hl=en&authuser=0&_gl=1*gl42xn*_ga*MTA1NTczODU1NS4xNzA2MDE0MTQ5*_ga_CW55HF8NVT*MTcwNjAxNDE0OC4xLjEuMTcwNjAxNDMzMC42MC4wLjA.)
 
-## Additional Resources
+- [6sense.com](https://6sense.com/tech/application-development/google-firebase-market-share)
+  _Market Share of Google Firebase_, Justine Lyon
