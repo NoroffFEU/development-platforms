@@ -216,3 +216,8 @@ Google Firebase is perfect whether you are a skilled developer, or a newcomer. I
 
 - [6sense.com](https://6sense.com/tech/application-development/google-firebase-market-share)
   _Market Share of Google Firebase_, Justine Lyon
+
+## Additional Resources
+
+- [Firebase Documentation](https://firebase.google.com/docs?hl=en&authuser=0&_gl=1*1hayfxm*_ga*MTA1NTczODU1NS4xNzA2MDE0MTQ5*_ga_CW55HF8NVT*MTcwNjAxNDE0OC4xLjEuMTcwNjAxNTMwMS42MC4wLjA.)
+- [Firebase - Ultimate Beginner's Guide](https://www.google.com/search?rlz=1C1GCEA_enNO1053NO1053&sca_esv=600752817&cs=1&sxsrf=ACQVn0_hi0803-6A7eehcOi5YCGmRwHUWg:1706019732591&q=How+to+use+Firebase&sa=X&ved=2ahUKEwiGjIjh2vODAxVG7LsIHf64DLQQpboHegQIARAA&biw=1257&bih=1303&dpr=1#fpstate=ive&vld=cid:801c55ec,vid:9kRgVxULbag,st:0)
