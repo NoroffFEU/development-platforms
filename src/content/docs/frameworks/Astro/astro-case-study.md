@@ -32,6 +32,7 @@ Astro components
 
 - **Official website:** https://astro.build/
 - **Official website / press:** https://astro.build/press/
+- **First blog posts:** https://astro.build/blog/introducing-astro/
 - **Github:** https://github.com/withastro/astro
 - **DEV Community:** https://dev.to/sm0ke/astro-framework-resources-free-starters-3jae
 - **LogRocket:** https://blog.logrocket.com/astro-adoption-guide/
