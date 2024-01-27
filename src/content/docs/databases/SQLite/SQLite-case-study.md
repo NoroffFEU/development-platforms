@@ -107,6 +107,84 @@ SQLite is widely used in various types of applications due to its simplicity, re
 
 - **Data Analysis and Reporting**: SQLite can be used for lightweight data analysis and reporting, especially in scenarios where portability and ease of use are important.
 
+#### Example: Creating a SQLite Database in Node.js
+
+```javascript
+const sqlite3 = require("sqlite3").verbose();
+const db = new sqlite3.Database(":memory:", (err) => {
+  if (err) {
+    return console.error(err.message);
+  }
+  console.log("Connected to the in-memory SQLite database.");
+});
+
+db.close((err) => {
+  if (err) {
+    return console.error(err.message);
+  }
+  console.log("Close the database connection.");
+});
+```
+
+This example demonstrates how to create an in-memory SQLite database in a Node.js application. The sqlite3 package is used to interact with SQLite.
+
+#### Example: Creating a Table and Inserting Data
+
+```javascript
+const sqlite3 = require("sqlite3").verbose();
+const db = new sqlite3.Database(":memory:");
+
+db.serialize(() => {
+  db.run("CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, email TEXT)")
+    .run(
+      `INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com')`
+    )
+    .run(
+      `INSERT INTO users (name, email) VALUES ('Bob', 'bob@example.com')`,
+      function (err) {
+        if (err) {
+          return console.error(err.message);
+        }
+        console.log(`A row has been inserted with rowid ${this.lastID}`);
+      }
+    );
+});
+
+db.close();
+```
+
+In this example, a table named `users` is created with columns for `id`, `name`, and `email`. Then, two rows of data are inserted into the table.
+
+#### Example: Querying Data
+
+```javascript
+const sqlite3 = require("sqlite3").verbose();
+const db = new sqlite3.Database(":memory:");
+
+db.serialize(() => {
+  db.run("CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, email TEXT)")
+    .run(
+      `INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com')`
+    )
+    .run(`INSERT INTO users (name, email) VALUES ('Bob', 'bob@example.com')`);
+
+  db.all("SELECT * FROM users", [], (err, rows) => {
+    if (err) {
+      throw err;
+    }
+    rows.forEach((row) => {
+      console.log(row);
+    });
+  });
+});
+
+db.close();
+```
+
+This example shows how to query data from the `users` table. The `db.all` method is used to retrieve all rows from the table, and the results are printed to the console.
+
+These examples demonstrate the basic operations of creating a database, creating a table, inserting data, and querying data in a Node.js application using SQLite. SQLite's simplicity and ease of use make it ideal for a wide range of applications, including server-side applications with Node.js.
+
 ### Conclusion
 
 SQLite's wide range of applications demonstrates its versatility and effectiveness as a database management system. Whether you're developing a mobile app, a desktop application, an embedded system, or simply need a lightweight database for testing, SQLite offers a robust, reliable, and easy-to-use solution.
@@ -168,3 +246,7 @@ These references provide a wealth of information for anyone looking to deepen th
 SQLite's ease of use, efficiency, and versatility make it a powerful tool for developers across various domains. Its small size and self-contained nature are particularly suited for applications where simplicity and minimal overhead are key. As technology evolves, SQLite's role as a reliable database solution is likely to grow.
 
 Whether you're a beginner or an experienced developer, SQLite offers a unique set of features that cater to a wide range of needs. Understanding its capabilities and limitations is key to leveraging its strengths in your applications.
+
+```
+
+```
