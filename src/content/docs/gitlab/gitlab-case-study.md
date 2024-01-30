@@ -53,13 +53,15 @@ Let's take a look at some comparisons between GitLab and it's biggest counterpar
 
 ## Conclusion
 
-GitLab seems in every way like a more premium offering than competitors, it delivers a full suite fo useful tools for he whole development process while still remaining free for the average open source user. Things like self-hosting and CI/CD tools makes it an easy choice for those seeking the DevOps development cycle. It does however not go without it's own set of downsides, like it's significantly slower UI and it's lack of some of the enterprise-level software development features.
+GitLab seems in every way like a more premium offering than competitors, it delivers a full suite fo useful tools for he whole development process while still remaining free for the average open source user. Things like self-hosting and CI/CD tools makes it an easy choice for those seeking the DevOps development cycle. It does however not go without it's own set of downsides, like it's significantly slower UI, lack of some enterprise-level software development features and a steeper price tag for enterprises.
 
 ## Author
 Sindre Strømsæther Derås ( [ESPR07](https://github.com/ESPR07) )
+
 ## References
 
 - [GitLab Homepage](https://gitlab.com)
 - [GitLab Handbook](https://handbook.gitlab.com/)
 - [Wikipedia](https://en.wikipedia.org/wiki/GitLab)
 - [Amazon AWS](https://aws.amazon.com/?nc2=h_lg)
+- [GitHub Article from another student](/github/github-case-study)
