@@ -6,21 +6,19 @@ tags: astro, javascript framework, component-based, static site generation
 
 ## Introduction
 
-In an ever evolving industry that is web development, several innovative frameworks has seen the light of day with a mission to improve performance optimization without compromising on user experience and developer convenience. Among these is Astro, which stands out as a revolutionary front-runner. Astro is developed with the modern web in mind and introduces a unique approach to building fast and efficient websites that is also developer friendly. At its core, Astro has a component based architecture, similar to other popular frameworks like React and Vue.js, yet it differs in its concept of partial hydration, a techique that dramatically reduces the amount of JavaScript sent to the browser. Astro renders its components to static HTML at build time, which ensures very fast load times.
+In an ever evolving industry that is web development, several innovative frameworks has seen the light of day with a mission to improve performance optimization without compromising on user experience and developer convenience. Among these is Astro, which version 1.0 released in May 2022 and already stands out as a revolutionary front-runner. Astro is developed with the modern web in mind and introduces a unique approach to building fast and efficient websites that is also developer friendly. At its core, Astro has a component based architecture, similar to other popular frameworks like React and
+Vue.js, yet it differs in its concept of partial hydration, a techique that dramatically reduces the amount of JavaScript sent to the browser. Astro renders its components to static HTML at build time, which ensures very fast load times.
 
 This case study delves into Astros features, its potential impact on the future of web development and how it balances speed, functionality and ease of use by positioning itself as a front-runner in the next generation of web development tools.
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 2019: Initial concept and development of Astro begins. The team begins exploring ideas to improve web development performance.
+- February 2021: Astro is publicly announced and released in its first beta version. The release introduces the idea of a static site generator (SSG) with a focus on performance and partial hydration (reducing amount of JS sent to the browser).
+- July 2021: Astro v0.18 is released which included better integration with other JavaScript frameworks, a reworked CLI and better developer experience.
+- October 2021: Astro v0.21 is released which included improved build optimizations, enhanced CSS and image handling and more support for component frameworks.
+- May 2022: Astro reaches an important milestone with the release of v1.0. This major release solidified its core features and offered enhanced stability, better performance and even better developer convencience.
+- 2023: Astro has a continued development and community growth and it keeps evolving with regular updates, solidifying its position in the world of web development.
 
 ## Main Features
 
