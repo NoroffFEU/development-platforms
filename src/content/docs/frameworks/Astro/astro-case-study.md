@@ -18,7 +18,7 @@ This case study delves into Astros features, its potential impact on the future 
 - July 2021: Astro v0.18 is released which included better integration with other JavaScript frameworks, a reworked CLI and better developer experience.
 - October 2021: Astro v0.21 is released which included improved build optimizations, enhanced CSS and image handling and more support for component frameworks.
 - May 2022: Astro reaches an important milestone with the release of v1.0. This major release solidified its core features and offered enhanced stability, better performance and even better developer convencience.
-- 2023: Astro has a continued development and community growth and it keeps evolving with regular updates, solidifying its position in the world of web development.
+- 2024: Astro has a continued development and community growth and it keeps evolving with regular updates, solidifying its position in the world of web development.
 
 ## Main Features
 
