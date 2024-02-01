@@ -4,11 +4,7 @@ keywords: Development Platforms, Case Study, Database, Datastore
 tags: MySQL, Retional database, Open-source
 ---
 
-![MySQL Logo](https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png?20080127184102)
-![MongoDB Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/512px-MongoDB_Logo.svg.png) 
-![Redis Logo](https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png)
-
-## Intro
+## Introduction
 
 Managing databases, selecting the appropriate system is pivotal for efficient data handling. This document provides a succinct analysis of MySQL, MongoDB, and Redis, highlighting crucial factors such as data model, scalability, and performance. By thoroughly evaluating their respective strengths and limitations, stakeholders can make decisions tailored to the requirements of their projects.
 
