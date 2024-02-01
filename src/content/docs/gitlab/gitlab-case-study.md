@@ -20,9 +20,14 @@ GitLab stands as a feature rich web-based development platform, offering a suite
 - 2018: Started focusing on DevOps offerings.
 - 2023: GitLab becomes an AI-driven [DevSecOps](https://aws.amazon.com/what-is/devsecops/) solution with GitLab version 16.0.
 
+## What is GitLab?
+GitLab is a web-based platform that provides a set of tools for version control (using Git), continuous integration, and continuous delivery. It is used for managing source code repositories, tracking changes in code, collaborating with team members, and automating software development processes.
+
+GitLab is available in different editions, including a free and open-source Community Edition, as well as paid versions with additional features for larger teams and enterprises. Users can choose to self-host GitLab on their own infrastructure or use GitLab's cloud-based service. Overall, GitLab is widely used in the software development community for its comprehensive set of tools and features that facilitate collaboration and automation in the development lifecycle.
+
 ## Main Features
 
-GitLab does most of the things that we are already familiar with in other development platforms like GitHub, BitBucket and SourceForge just to mention a few. However, the key difference is that GitLab provides us with a set of tools that is tailored for [DevOps](https://about.gitlab.com/topics/devops/) development. These tools help efficiency in development and helps developers catch mistakes early. Some of the key features that GitLab provides are:
+GitLab does most of the things that we are already familiar with in other development platforms like GitHub, BitBucket and SourceForge just to mention a few. However, the key difference is that GitLab provides us with a set of tools that is tailored for [DevOps](https://about.gitlab.com/topics/devops/) development. These tools help efficiency in development and ensuring developers catch mistakes early. Some of the key features that GitLab provides are:
 
 
 | Feature | Description |
@@ -53,7 +58,7 @@ Let's take a look at some comparisons between GitLab and it's biggest counterpar
 
 ## Conclusion
 
-GitLab seems in every way like a more premium offering than competitors, it delivers a full suite fo useful tools for he whole development process while still remaining free for the average open source user. Things like self-hosting and CI/CD tools makes it an easy choice for those seeking the DevOps development cycle. It does however not go without it's own set of downsides, like it's significantly slower UI, lack of some enterprise-level software development features and a steeper price tag for enterprises.
+GitLab seems in every way like a more premium offering than competitors, it delivers a full suite of useful tools for the whole development process while still remaining free for the average open source user. Things like self-hosting and CI/CD tools makes it an easy choice for those seeking the DevOps development cycle. It does however not go without it's own set of downsides, like it's significantly slower UI, lack of some enterprise-level software development features and a steeper price tag for enterprises.
 
 ## Author
 Sindre Strømsæther Derås ( [ESPR07](https://github.com/ESPR07) )
