@@ -177,3 +177,7 @@ As far as software development is concerned, ChatGPT can write code faster than 
 ### Additional sources
 
 - Asking ChatGPT-4 for info related to this topic.
+
+### Further Research
+
+- Explore the importance of prompts for effective use of ChatGPT
