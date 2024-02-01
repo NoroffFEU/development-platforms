@@ -1,7 +1,7 @@
 ---
 title: MySQL, MongoDB, Redis
 keywords: Development Platforms, Case Study, Database, Datastore 
-tags: MySQL, Retional database, Open-source, Non-relational, NoSQL
+tags: MySQL, Retional database, Open-source, Non-relational, NoSQL, In-memory, Cashing
 ---
 
 ## Introduction
@@ -23,6 +23,12 @@ Managing databases, selecting the appropriate system is pivotal for efficient da
 - 2015: Released MongoDB version 3.0 with WiredTiger Storage Engine.
 - 2016-2022: New releases every year during this period.
 - 2022: MongoDB released version 6.0 with significant updates, including Atlas Serverless instances and the Atlas Data API.
+
+### Redis
+- 2009: Salvatore Sanfilippo indeed developed Redis as an open-source in-memory storage solution.
+- 2013: Redis gained popularity as a distributed, in-memory key-value database, cache, and message broker.
+- 2015: Redis continued to be widely adopted by various companies.
+- 2023: Redis version 7.2.3, the most stable release, is launched on November 1st, enhancing its features and stability.
 
 
 ## Main Features
@@ -57,8 +63,21 @@ MongoDB is an open-source, cross-platform NoSQL database designed for scalabilit
 | **Multi-language Support:** Provides official drivers for multiple programming languages, facilitating seamless multi-language support. | **Troubleshooting Challenges:** Can pose difficulties in troubleshooting due to limited community support. |
 | **Comprehensive:** Provides extensive functionality for data analysis and reporting. | **Query Language Complexity:** MongoDB's query language (MQL) can present challenges in comprehension. |
 | **Developer-friendly:** Prioritizes ease-of-use and productivity for developers. | **Data Consistency:** The absence of native transactions may result in inconsistencies.|
-	
 
+
+### Redis
+Redis, short for Remote Dictionary Server, is an open-source, high-performance, in-memory data structure store. It serves as a versatile tool, operating as a caching solution, database, and message broker. Renowned for its rapid read and write operations, Redis supports various data structures like strings, lists, and sets. Its in-memory storage approach ensures unparalleled speed, making it ideal for real-time applications, caching, and distributed systems.
+
+| Pros                                                        | Cons                                                      |
+| ------------------------------------------------------------| --------------------------------------------------------- |
+| **High Preformance:** Offers lightning-fast speeds, making it perfect for real-time applications. | **Memory Intensive:** Requires significant memory resources. |
+| **Scalability:** Scales effortlessly, handling increased data and user loads. | **No Native Transactions:** Lack of native transaction support affects data consistency. |
+| **Low Latency:** Ensures low latency, enabling quick data retrieval and response. | **Limited Querying:** Limited querying capabilities. |
+| **Data Structures:** Supports various data structures, offering flexibility in operations. | **Single-threaded:** Its single-threaded nature may limit performance. |
+| **Persistence:** Provides persistence options for data durability and recovery. | **Use Case Limitations:** Not suitable for all use cases. |
+| **Pub/Sub Messaging:** Provides efficient publish/subscribe functionality for seamless real-time communication. | **Disk Persistence Impact:** Disk persistence can impact performance. |
+| **Built-in Replication:** includes integrated replication, ensuring data redundancy and fault tolerance. | **Learning Curve:** May pose a learning curve for users unfamiliar with its intricacies. |
+| **Versatility:** Flexible, catering to diverse use cases such as caching, session management, and analytics. | **Persistence Complexity:** Configuring persistence can be complex. |
 
 
 ## Marked Comparison
@@ -66,6 +85,7 @@ MongoDB is an open-source, cross-platform NoSQL database designed for scalabilit
 ## Gettting Started
 
 ## Conclusion
+MySQL, MongoDB, and Redis each bring distinct strengths tailored to varying use cases. MySQL stands out for its adeptness with structured data and relational queries, while MongoDB excels in handling unstructured data and horizontal scaling. Meanwhile, Redis offers unparalleled speed, making it ideal for caching and real-time applications, although it may encounter challenges with large datasets or intricate queries. Ultimately, selecting among these database systems hinges on the specific needs, scalability requirements, and performance priorities of your application.
 
 ## References
 - https://en.wikipedia.org/wiki/MySQL
@@ -73,3 +93,8 @@ MongoDB is an open-source, cross-platform NoSQL database designed for scalabilit
 - https://en.wikipedia.org/wiki/MongoDB
 - https://www.geeksforgeeks.org/which-database-you-should-learn/
 - https://www.mobulous.com/blog/top-best-database-for-web-applications/
+- https://www.expertappdevs.com/blog/best-database-for-web-apps
+- https://redis.io/ 
+- https://en.wikipedia.org/wiki/Redis
+- https://www.ibm.com/topics/redis
+- https://github.com/NoroffFEU/development-platforms/pull/153/files
