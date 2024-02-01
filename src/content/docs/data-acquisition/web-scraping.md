@@ -6,23 +6,21 @@ tags: Web scraping,  Nodejs, Python, AI Training
 
 ## Introduction
 
-Web Scraping refers to different methods used for extracting data from a website. This information is collected and then exported into a format that is more useful for the user. While web scraping can be done manually by software user, the term typically refers to a automated process implemented using a bot or a web crawler.
-It is a form of copying which specified data is gathered and copied from the web, typically to a local database or a spreadsheet for analysis.
-Web scraping became vastly used with the rise of search engines for indexing web pages and making the content searchable, its also used by of companies in the private sector for price comparison, industry statists and lead generation
-
-In later years web scraping has become more popular in the artificial intelligence industry, where it can be used for AI training and data augmentation
+Web scraping encompasses various techniques for extracting data from websites, often automated through bots or web crawlers. It involves gathering information from web pages and transforming it into a more useful format. Initially employed for indexing web content by search engines, it has found diverse applications in market research, competitive intelligence, and AI training.
 
 ## Brief History
 
-- 1993: The first web robot called the World Wide Web Wanderer was created, which was intended to only measure the size of the internet
-- 1994 to 2000: With the rise of search engines, companies like google and yahoo created efficient web scraping techniques to crawl and index web pages.
-- 2020: Web scraping is used for machine learning, and AI Training
+- 1993: The first web robot, the World Wide Web Wanderer, emerged, primarily for measuring internet size.
+- 1994 to 2000: Search engine giants like Google and Yahoo developed efficient web scraping methods for web page indexing.
+- 2020: Web scraping gained traction in machine learning and AI training.
 
-## What is web scraping
+## Understanding Web Scraping
 
-Web Scraping is the process of using software and bots to extract content and data from a website, It involves using software programs or scripts to access web pages, retrieve the desired information, and then parse and extract the relevant data. This data can include text, images, links, tables, and other types of content available on the web.
+Web Scraping is the process of collecting data from a website. It involves using software programs or scripts to access web pages, retrieve the desired information, and then parse and extract the relevant data.One of the key distinctions of web scraping lies in its ability to delve beyond the surface content visible to users. Instead of merely copying what is displayed on the screen, web scrapers dig into the underlying HTML structure of web pages. This allows them to extract various types of data, including text, images, links, tables, and more, regardless of how they are formatted or presented on the site.
+
+Moreover, advanced web scraping techniques encompass the rendering of entire websites, including dynamic elements such as JavaScript-generated content and CSS-styled layouts. By emulating the behavior of web browsers, modern web scrapers can interact with dynamic elements, ensuring comprehensive data extraction.
 Unlike scraping which only copies pixels displayed on screen, web scraping extract underlying HTML code and send it to the user. More advanced web scrapers will render the entire site including CSS and Javascript elements.
-Web scraping is used in a variety of businesses that rely on data harvesting.
+Web scraping serves multiple purposes such as market research, competitive analysis, lead generation, and machine learning.
 
 Some legal use cases includes:
 
@@ -42,48 +40,57 @@ Some illegal use cases includes:
 
 ## Legality
 
-The legality of web scraping varies across the world. Web scraping may be against the terms of service of some websites. But web scraping itself is legal in several countries such as Denmark and Norway
+The legality of web scraping varies globally, with some websites prohibiting it in their terms of service. However, it remains legal in several countries like Denmark and Norway.
 
-## Web scraping tools
+## Web scraping with AI
 
-In order to gather data from sources such as websites you need to perform web scraping. Traditional web scraping methods used programming languages such as Python, NodeJs and C# to fetch and parse then needed data. But with the rise of more modern changing design and dynamic content of websites, traditional web scraper tools
-often break. With the rises of AI, AI powered web scraping tools are created that can handle scraping continually changing websites, ensuring more resilient data extraction. AI tools can significantly improve the efficiency and effectiveness of web scraping, and can create the software used for scraping, analyze and sort the data received from the web scraping process. AI have given people and businesses the tools to scrape vast amount of data without having or employing people with tec and programming skills.
+Traditional web scraping methods used programming languages such as Python, NodeJs and C# to fetch and parse then desired data, but these methods often face challenges with evolving website designs and dynamic content. AI-powered solutions address these issues, offering resilience and efficiency in data extraction. AI tools automate data gathering, analysis, and processing, reducing user effort while enhancing accuracy. They find applications across social media, e-commerce, and various industries.
 
-Example of AI tools for web scraping:
+For example in a social media app like Facebook, AI tools can help with generate leads, plan advertising campaigns and analyse your competitors with the data it scraped.
+In e-commerce you can use AI tools to scrape your competitors, and to find out what their are doing, how is their prices, learn som their success and apply their best practises to your website.
+
+### Strengths of AI Tools
+
+- **Improved Accuracy and Adaptive learning** AI Models can recognise when they`re not retrieving the correct data and recalibrate their approach accordingly.
+- **Real-time Adaptation** With websites continually updating and changing their structures, AI tools can adapt in real time and ensuring the continuous flow of data.
+- **Data Classification** AI Tools can classify the scraped data into predefined categories, adding structure to the raw data.
+- **CAPTCHA Solving** Some AI Tools can recognise and tackle CAPTCHA challenges
+- **User Behaviour Mimicking** AI can simulate human browsing behaviors aids in avoiding detection.
+- **No-code / Low-code Platforms** Many AI Scraping tools require minimal coding, making web scraping accessible to a broader audience.
+
+### Drawbacks of AI Tools
+
+- **Length Limit** A common problem when using AI to scrape and process data is the query length limitation. the ChatGPT-3.5 for example has a limit of 4096 tokens per input.
+- **AI can be wrong** AI's inability to think critically can lead to incorrect interpretations
+
+### Example of AI tools for web scraping:
 
 - **ChatGpt:** ChatGPT is free, and can create the script and analyse the data with the url provided by the user.
 - **AIWebscraper Pro:** Utilizes AI algorithms for fast, accurate data extraction, real-time adaptation to changing website structures, and integration with various databases.
 - **Browse AI:** Extract data from any website and turn it into a spreadsheet or an API with No-Code
 
-### Strengths of AI Tools
-
-- **Improved Accuracy and Adaptive learning** AI Models can recognise when they`re not retrieving the correct data and recalibrate their approach accordingly.
-- **Real-time Adaptation** WIth websites continually updating and changing their structures, AI tools can adapt in real time and ensuring the continuous flow of data.
-- **Data Classification** AI Tools can classify the scraped data into predefined categories, adding structure to the raw data.
-- **CAPTCHA Solving** Some AI Tools can recognise and solve CAPTCHAs, and common anti scraping measure.
-- **User Behaviour Mimicking** AI can simulate human like browser behaviour, making it harder for websites to detect the scraping bot.
-- **No-code / Low-code Platforms** Many AI Scraping tools require minimal coding, making web scraping accessible to a broader audience.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
-
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+- Choose a target website
+- Provide clear instructions to ChatGPT for writing a Python web scraper using BeautifulSoup.
+- Give it Your URL as a target.
+- Write the output. For example: "output : Save all the prices and titles for the games in a CSV file.
+- Remember to give it additional instructions on handling character encoding and remove undesirable symbols in your CSV file.
+- Install the BeautifulShop library, and request library, and run the generated code
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+Web scraping with AI streamlines data gathering and analysis, enhancing efficiency and accuracy. While AI tools offer automation and speed, human oversight remains crucial for mitigating potential errors. Collaboration between AI and human expertise ensures effective web scraping outcomes.
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [Web scraping with AI](https://scrape-it.cloud/blog/web-scraping-with-ai#conclusion-and-takeaways)
+- [Web scraping with AI, The future of market research ](https://www.brandveda.in/blog/web-scraping-with-artificial-intelligence-the-future-of-market-research)
+- [AI-Powered Web Scraping ](https://research.aimultiple.com/ai-web-scraping/)
+- [Web Scraping](https://en.wikipedia.org/wiki/Web_scraping#)
+-
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [How to Use ChatGPT for Web Scraping in 2024](https://oxylabs.io/blog/chatgpt-web-scraping)
+- [ChatGPT Web Scraping in 2024: Tips & Applications](https://research.aimultiple.com/chatgpt-web-scraping/)
