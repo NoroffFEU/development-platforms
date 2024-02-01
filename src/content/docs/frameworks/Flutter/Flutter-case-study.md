@@ -18,4 +18,6 @@ tags: Development Platforms, Flutter, Framework, open source, applications
 
 ## Sources
 
-## Tools & Step by step guide
+## Tools
+
+## Credits & acknowledgments
