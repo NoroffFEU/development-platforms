@@ -12,4 +12,3 @@ tags: bootstrap, case study, css, css-frameworks, frameworks, tutorials
 - [Bootstrap (front-end framework)](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
 - [What is a Bootstrap and how does it work?](https://www.techtarget.com/whatis/definition/bootstrap)
 - [What is Bootstrap? Pros and Cons Of This Framework](https://hackr.io/blog/what-is-bootstrap-framework)
-
