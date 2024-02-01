@@ -4,9 +4,9 @@ keywords: Development Platforms, Case Study, Database, Datastore
 tags: MySQL, Retional database, Open-source
 ---
 
-![MySQL Logo] (https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png?20080127184102)
-![MongoDB Logo] (https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/512px-MongoDB_Logo.svg.png) 
-![Redis Logo] (https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png)
+![MySQL Logo](https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png?20080127184102)
+![MongoDB Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/512px-MongoDB_Logo.svg.png) 
+![Redis Logo](https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png)
 
 ## Intro
 
@@ -20,11 +20,6 @@ Managing databases, selecting the appropriate system is pivotal for efficient da
 - 1998 to 2008: Several production releases, establishing itself as a popular open-source relational database management system (RDBMS).
 - 2010: Oracle's acquisition of Sun Microsystems triggers MySQL fork into MariaDB, alongside MySQL Server 5.5 enhancements.
 - 2018: MySQL Server 8.0 announces major features like the NoSQL Document Store and improved sorting.
-
-### MongoDB
-
-
-### Redis
 
 
 ## Main Features
@@ -52,5 +47,5 @@ MySQL is a leading Relational Database Management System (RDBMS) utilizing Struc
 ## Conclusion
 
 ## References
-https://en.wikipedia.org/wiki/MySQL
-https://medium.com/@bhavithach8/why-mysql-is-so-popular-a4483971800d
+- https://en.wikipedia.org/wiki/MySQL
+- https://medium.com/@bhavithach8/why-mysql-is-so-popular-a4483971800d
