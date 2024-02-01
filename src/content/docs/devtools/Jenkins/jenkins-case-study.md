@@ -6,10 +6,15 @@ tags: jenkins, case study, devOps, CI, hudson
 
 ## Introduction
 
-Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software.
+Jenkins is a self-contained, open-source automation server which can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software.
+
 It plays a pivotal role in automating repetitive tasks, ensuring code quality, and expediting the software development lifecycle.
+
 Jenkins can be installed through native system packages, Docker, or even run standalone by any machine with a Java Runtime Environment (JRE) installed.
-It was built for continuous integration purposes. Jenkins supports plugins, which allow Jenkins to be extended to meet specific needs of individual projects.
+
+It was built for continuous integration purposes. The main principle underlying CI is that developers should integrate their code changes into a shared repository as often as possible. Each task is performed in a branch, and when that branch is ready to be merged into the main branch, a pull request is created. This allows other team members to review the code changes and ensure that the code is ready to be merged into the main branch. The process of merging code into the main branch can be described as Integration as you integrate the code changes into the main branch.
+
+Jenkins supports plugins, which allow Jenkins to be extended to meet specific needs of individual projects.
 
 ## Brief History
 
@@ -64,7 +69,7 @@ Continuous Integration and Continuous Delivery (CI/CD) are integral components o
 | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ease of Use: Travis CI is known for its simplicity and ease of use, making it beginner-friendly.                     | Limited Concurrency: Free plans have limitations on concurrency, potentially impacting build times for larger projects.                             |
 | GitHub Integration: Seamlessly integrates with GitHub repositories, automatically triggering builds on code changes. | Configuration Complexity: As projects grow in complexity, managing configurations in Travis CI may become less straightforward compared to Jenkins. |
-| Managed Service: Travis CI is a cloud-based, managed service, reducing the infrastructure management burden.         |
+| Managed Service:  Travis CI is a cloud-based, managed service, reducing the infrastructure management burden.         |  |
 
 ### CircleCI
 
@@ -72,7 +77,7 @@ Continuous Integration and Continuous Delivery (CI/CD) are integral components o
 | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | Parallelism and Concurrency: CircleCI provides excellent support for parallelism and concurrency, improving build times. | Pricing: CircleCI can be relatively more expensive for larger teams or projects with high concurrency needs.      |
 | Docker Support: Strong integration with Docker, facilitating containerized builds and deployments.                       | Learning Curve: Similar to Jenkins, there may be a learning curve, especially when configuring complex pipelines. |
-| Configuration as Code: Pipeline configuration is done using YAML, promoting version control and easier collaboration.    |
+| Configuration as Code: Pipeline configuration is done using YAML, promoting version control and easier collaboration.    | |
 
 Choosing the right CI/CD tool depends on various factors, including project requirements, team expertise, and preferences. Jenkins, with its extensibility and community support, remains a robust choice. GitLab CI/CD provides an integrated solution for those using GitLab, while Travis CI and CircleCI offer simplicity and efficiency with different focuses on GitHub integration and parallelism. Each tool has its strengths and weaknesses, and the optimal choice depends on the specific needs and priorities of the development team.
 
@@ -80,83 +85,74 @@ Choosing the right CI/CD tool depends on various factors, including project requ
 
 The simplest way to install Jenkins on Windows is to use the Jenkins Windows installer. That program will install Jenkins as a service using a 64 bit JVM chosen by the user. Keep in mind that to run Jenkins as a service, the account that runs Jenkins must have permission to login as a service.
 
-#### Prerequisites
+### Prerequisites
 
 Minimum hardware requirements:
 
-256 MB of RAM
+1. 256 MB of RAM
 
-1 GB of drive space (although 10 GB is a recommended minimum if running Jenkins as a Docker container)
+2. 1 GB of drive space (although 10 GB is a recommended minimum if running Jenkins as a Docker container)
 
 Recommended hardware configuration for a small team:
 
-4 GB+ of RAM
+1. 4 GB+ of RAM
 
-50 GB+ of drive space
+2. 50 GB+ of drive space
 
-##### Installing Jenkins on Windows:
+#### Installing Jenkins on Windows
 
-1.  Download Jenkins:
+1. Download Jenkins:
 
-![](https://www.jenkins.io/doc/book/resources/tutorials/windows-install.png)
+![Jenkins Installation](https://www.jenkins.io/doc/book/resources/tutorials/windows-install.png)
 
-Go to the Jenkins official website: https://www.jenkins.io/download/.
+Go to the Jenkins official website: <https://www.jenkins.io/download/>.
 Download the Windows installer (jenkins.msi file).
-
 2. Run the Installer:
 
-![](https://www.jenkins.io/doc/book/resources/tutorials/windows-installation-progress.png)
+![Installation Progress](https://www.jenkins.io/doc/book/resources/tutorials/windows-installation-progress.png)
 
-Double-click on the downloaded jenkins.msi file to start the installation process.
+Double-click on the downloaded jenkins.msi file to start the installation process
 Follow the on-screen instructions in the Jenkins installer.
-
-3.  Choose Installation Directory:
+3. Choose Installation Directory:
 
 Select the installation directory for Jenkins. The default is usually fine, but you can choose a different directory if needed.
+4. Configure Jenkins Service:
 
-4.  Configure Jenkins Service:
-
-![](https://www.jenkins.io/doc/book/resources/tutorials/windows-jenkins-service.png)
+![Jenkins Service](https://www.jenkins.io/doc/book/resources/tutorials/windows-jenkins-service.png)
 
 During the installation, you will be asked to configure Jenkins as a Windows service. Choose the option to install Jenkins as a service.
 You may also choose whether Jenkins should start automatically when Windows starts.
-
-5.  Complete Installation:
+5. Complete Installation:
 
 Complete the installation process by following the prompts.
+6. Access Jenkins:
 
-6.  Access Jenkins:
-
-Once the installation is complete, Jenkins should be accessible through a web browser. By default, Jenkins runs on http://localhost:8080.
+Once the installation is complete, Jenkins should be accessible through a web browser. By default, Jenkins runs on <http://localhost:8080>.
 
 ![Introduction](~/assets/databases/jenkins.png)
+7. Unlock Jenkins:
 
-7.  Unlock Jenkins:
-
-Open a web browser and go to http://localhost:8080.
+Open a web browser and go to <http://localhost:8080>.
 Follow the on-screen instructions to unlock Jenkins. The initial unlock password can be found in the installation directory, typically in a file named initialAdminPassword.
-
-8.  Install Plugins:
+8. Install Plugins:
 
 After unlocking Jenkins, you will be prompted to install plugins. Choose the option to install suggested plugins. This will install the essential plugins for Jenkins.
-
-9.  Create an Admin User:
+9. Create an Admin User:
 
 Set up an admin user for Jenkins.
-
 10. Start Using Jenkins:
 
 Once the setup is complete, you can start using Jenkins for your CI/CD tasks.
 
-Always refer to the official Jenkins documentation (https://www.jenkins.io/doc/book/using/) for any specific details or changes. Keep in mind that the installation steps may vary slightly depending on the version of Jenkins you are installing, so it's a good idea to check the documentation for the version you download.
+Always refer to the official Jenkins documentation (<https://www.jenkins.io/doc/book/using/>) for any specific details or changes. Keep in mind that the installation steps may vary slightly depending on the version of Jenkins you are installing, so it's a good idea to check the documentation for the version you download.
 
 ## Conclusion
 
-An exemplary illustration of DevOps in action is the utilization of a tool called Jenkins. this tool facilitates enhanced collaboration and communication between software development and IT operations teams within organizations. It aligns with the overarching goal of DevOps aiming to automate the software development process and streamline the release of new features and updates to customers, thereby reducing turnaround time.
+In conclusion, Jenkins’ role in the CI/CD landscape has been pivotal. Its extensive plugin ecosystem, large and active community support, and high degree of flexibility make it a go-to choice for many development teams.
 
-The adoption of CI/CD involves consistently integrating code changes into a shared repository, automating the testing, building, and deployment process, and monitoring code performance and stability. These applications underscore Jenkins' significance as a crucial tool for developers in today's software development landscape. 
+Jenkins excels in providing a customizable environment that caters to the diverse needs of different projects and workflows. The ability to define jobs through a web interface or Jenkinsfiles, coupled with integration capabilities with various version control systems and build tools, makes it a powerful tool for continuous integration, delivery, and deployment. While Jenkins doesn’t eliminate the need to create scripts for individual steps, it does give you a quicker and more robust way to integrate your entire chain of build, test, and deployment tools than you could easily build yourself.
 
-While many tools perform similar functions to Jenkins, what sets Jenkins apart is its open-source nature, signifying it as freely available software. Additionally, Jenkins offers a plethora of plugins, providing developers with diverse options to achieve their objectives. Jenkins is considered highly reliable for DevOps testing snd ensures high-quality product development without the need to monitor the entire deployment process like other CI/CD tools. This makes it more unique and competitive in the market.
+However, it's important to acknowledge that Jenkins is not without its challenges. The learning curve, especially for newcomers, may be steep, and resource-intensive requirements can pose scalability concerns for larger projects. The user interface design, while functional, might be considered less intuitive compared to some of the more modern CI/CD tools.
 
 In essence, Jenkins continues to be a reliable choice for organizations that prioritize customization, extensibility, and community support in their CI/CD processes. As development practices evolve, Jenkins evolves with them, addressing its weaknesses and remaining a cornerstone for those seeking a flexible and adaptable automation solution. Ultimately, the decision to use Jenkins should be based on the specific requirements and preferences of the development team and the nature of the projects they undertake.
 
@@ -168,5 +164,4 @@ In essence, Jenkins continues to be a reliable choice for organizations that pri
 - [What Is Jenkins? Working, Uses, Pipelines, and Features](https://www.spiceworks.com/tech/devops/articles/what-is-jenkins/)
 - [What is Jenkins? The CI server explained](https://www.infoworld.com/article/3239666/what-is-jenkins-the-ci-server-explained.html)
 - [CI/CD Tools Comparison: Jenkins, TeamCity, Bamboo, Travis CI, and More](https://www.altexsoft.com/blog/cicd-tools-comparison/)
-- [GitLab vs. Jenkins: Which Is the Best CI/CD Tool in 2023?](https://www.spiceworks.com/tech/devops/articles/gilab-vs-jenkins/#:~:text=Jenkins%20is%20considered%20highly%20reliable,and%20competitive%20in%20the%20market.)
 - [Installing Jenkins](https://www.jenkins.io/doc/book/installing/windows/)
