@@ -61,7 +61,7 @@ Dreamhost is, as mentioned above, also mentioned by Wordpress as an example host
 
 ## Conclusion
 
-WP Engine is a great hosting service for Wordpress if you want to feel secure and taken care of. Having 24/7 expert customer support is very important if you want to make sure that everything is as it should be at all times. Also, the high level of security and automatic updates can give you much more time to sit back and do what you are supposed to do, without worrying too much about the security. There are positives and negatives with all hosting services, and it's hard to say that one is better than the other. The biggest negative with WP Engine seems to be the pricing. If you can afford it, I think it will be worth it, given the time you don't need to think about the security, speed and overall well-being of your Wordpress website.
+WP Engine is a great hosting service for Wordpress if you want to feel secure and taken care of. Having 24/7 expert customer support is very important if you want to make sure that everything is as it should be at all times. Also, the high level of security, continous backup and automatic updates can give you much more time to sit back and do what you are supposed to do, without worrying too much about the security. There are positives and negatives with all hosting services, and it's hard to say that one is better than the other. The biggest negative with WP Engine seems to be the pricing. If you can afford it, I think it will be worth it, given the time you don't need to think about the security, speed and overall well-being of your Wordpress website.
 
 ## References
 
