@@ -1,3 +1,9 @@
+---
+title: Tanstack Query
+author: Kyrre Gjerstad
+tags: tanstack, tanstack-query, state management, asynchronous, data fetching, caching
+---
+
 # Tanstack Query
 
 ## Notes
@@ -7,6 +13,86 @@
 - TRPC is based on Tanstack Query
 - Simplifies handling of data fetching, loading, caching, errors, and invalidation
 - Open source, MIT license
+
+Tanner Linsley has been involved in open source for about 10 years. First as a consumer and then as a contributor, as he wanted to give something back.
+The idea for react query came from wanting to move away from Redux in favour of something less manual. React hooks allowed for a good API to create this. Inspired by a library called [Draqula](https://github.com/vadimdemedes/draqula). You can see the similarity of the API design there already, with the useQuery hook returning `{data, isLoading, error}`. Draqula felt like a lightweight [Apollo](https://www.apollographql.com/docs/react/).
+
+Originally created as an internal tool for [Nozzle](https://www.youtube.com/watch?v=JhXlIHPIljQ&t=2s), creating a data fetching specific API with Redux store. When open sourcing it, the Redux store got swapped to a custom built store, designed to handle data fetching and caching. Built in a "headless" way, and framework agnostic.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=tanstack/query&type=Date)](https://star-history.com/#tanstack/query&Date)
+
+### V1
+
+26/02/2020
+
+The first version of React Query was released on February 26th, 2020. It was a very basic, yet powerful, library that provided a new way of managing asynchronous state in React. It was designed to be a drop-in replacement for your existing data fetching libraries and state management solutions. It introduced a simple, yet powerful, useQuery hook that provided a consistent way to fetch, cache, and update asynchronous data in your application.
+
+- Introduced a new way of managing asynchronous state in React.
+- Provided a drop-in replacement for existing data fetching libraries and state management solutions.
+- Introduced a simple, yet powerful, useQuery hook for fetching, caching, and updating asynchronous data.
+
+### V2
+
+22/06/2020
+Refining the core foundation.
+
+- Introduced the `idle` state
+- Added the boolean status indicators we know and love: `{ isLoading, isSuccess, isError }`
+
+### V3
+
+08/10/2020
+SSR and Scalability
+
+In V3 brought in SSR support, flexible cache configurations, and innovative features like bi-directional infinite queries and data selectors. The introduction of the `useQueries` hook for parallel queries, enhanced mutation support, and the integration of devtools directly into the package.
+
+- Improved cache configuration for scalability and testability.
+- Advanced support for SSR, accommodating complex rendering strategies.
+- Implemented bi-directional scrolling capabilities for infinite queries.
+- Introduced data selectors for query result transformation.
+- Added useQueries hook for executing variable-length parallel queries.
+- Expanded mutation support with retry, offline handling, and replay functionalities.
+- Extended library's core logic and observability beyond React components.
+- Integrated devtools directly into the main package for enhanced debugging.
+- Introduced experimental cache persistence features.
+
+### V4
+
+17/07/2022
+Rebranding and Framework Agnosticism
+
+A significant update where ReactQuery got rebranded to **TanstackQuery** and restructured to a monorepo. This change allowed for the extension of its core functionalities to other frameworks beyond React, such as Vue, Svelte, and Solid, by using framework-specific adapters while sharing a common core logic.
+
+- Transitioned to Tanstack Query and adopted a monorepo structure to support multiple frameworks.
+- Emphasized true asynchronous state management and improved offline capabilities.
+- Introduced a new network mode for better handling of online/offline states.
+- Implemented stable persisters (SyncStoragePersister, AsyncStoragePersister) for query cache synchronization.
+- Ensured compatibility with React 18, leveraging concurrent features.
+- Activated tracked queries by default for optimized render performance.
+- Streamlined API and addressed inconsistencies for a better developer experience.
+
+### V5
+
+17/10/2023
+Version 5 further built on the foundations laid by version 4, aiming to make the library smaller, more intuitive, and consistent.
+
+- Simplification and unification of API usage.
+- Renaming loading states to pending, removing callbacks from useQuery.
+- Introduction of simplified optimistic updates, shareable mutation state through the useMutationState hook, and first-class support for React's suspense feature.
+- Experimental support for streaming with React Server Components in Next.js
+- Improved infinite queries, and a revamped, framework-agnostic Query Devtools.
+- New plugin for fine-grained persistence.
+- queryOptions API to facilitate sharing and type-safety of query definitions​​.
+
+---
+
+Tanner's Programming principles:
+
+- Ergonomic
+- Simple
+- Forgiving
+- Customizable
+- Flexible
 
 ## Introduction
 
@@ -66,3 +152,7 @@
 - Official documentation
 - GitHub repository
 - Community resources
+
+---
+
+[TanStack (react-query) in-depth look at suspenseful hooks with Tanner Linsley, the creator!](https://www.youtube.com/watch?v=JhXlIHPIljQ&t=2s)
