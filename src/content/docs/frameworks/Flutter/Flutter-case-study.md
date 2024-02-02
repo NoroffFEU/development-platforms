@@ -36,12 +36,18 @@ While its not considered a feature it is a strong command-line tool used to diag
 
 ## Weaknesses
 
+Like every other tool, Flutter also has weaknesses. Applications built with flutter tend to be larger than those built with native tools. This can be a concern when aiming to minimize download sizes. You will also meet limited third-party libraries. Flutter is growing but all things considered it is still a new framework so libraries might seem limited compared to other well established frameworks. It being new also speaks for its establishment in larger corporations which also will be limited but ever growing.
+The dart programming language can be challenging for some developers and there might be a steep learning curve.
+Flutter faces web development inefficiencies with loading speeds and SEO. The limited WebView support can be a pain point for developers aiming for nuanced web interactions.
+
 ## Summary
 
 ## Sources
 
-- What is Flutter (2024) Obtained from https://aws.amazon.com/what-is/flutter/#:~:text=Flutter%20is%20an%20open%20source,platforms%20with%20a%20single%20codebase.
-- A complete guide to Flutter architecture (2022) obtained from https://blog.logrocket.com/complete-guide-flutter-architecture
+- [What is Flutter (2024)](https://aws.amazon.com/what-is/flutter/#:~:text=Flutter%20is%20an%20open%20source,platforms%20with%20a%20single%20codebase)
+- [A complete guide to Flutter architecture (2022)](https://blog.logrocket.com/complete-guide-flutter-architecture)
+- [Flutter: Advantages, Disadvantages and Future Scopes (2023)](https://www.geeksforgeeks.org/flutter-advantages-disadvantages-and-future-scopes/)
+- [When Not to Use Flutter: Complete List of Cases](https://blog.flutter.wtf/when-not-to-use-flutter)
 
 ## Tools
 
