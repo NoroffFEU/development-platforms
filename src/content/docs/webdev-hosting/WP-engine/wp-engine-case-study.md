@@ -6,7 +6,7 @@ tags: Web hosting, development platform, Wordpress hosting, case study
 
 ## Introduction
 
-WP Engine is a managed web hosting service, optimized and specialized for Wordpress websites and apps. It is known for it's high quality customer support that is available 24/7, and for being one of the most trusted Wordpress platforms.
+WP Engine is a managed web hosting service, optimized and specialized for Wordpress websites and apps. It is known for being one of the most trusted Wordpress platforms, with many hosting plan options and 24/7 support service.
 
 ## Brief History
 
@@ -43,38 +43,34 @@ Another issue that Cohen had back in the day and wanted to solve was speed and p
 | + Daily backup          | x Only for Wordpress                          |
 | + Always updated        |                                               |
 
-<!-- ## Market Comparison
+## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+### Hostinger
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+Hostinger is one of the other most popular hosting services for Wordpress. It is naturally more appealing at first sight than WP Engine when you look at the pricing. Hostinger offers high quality hosting plans, but at a much lower cost than WP Engine.
+Hostinger offers an email account in their plans, which you will not get at all with WP Engine. They also have their own Hostinger website builder included.
+Both Hostinger and WP Engine are good at being available and giving quality customer service. However, you will not have the ability to get any phone support by Hostinger, which can be a crucial point at the time when you actually need it. Also, not every hosting plan has a Windows option.
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+### Bluehost
 
-## Getting Started
+Bluehost is, along with Dreamhost, one of the hosting services for Wordpress that is mentioned by Wordpress itselves as examples of hosting services you can use. Bluehost can give you domain and email, which you will not get from WP Engine. They can also be compared to WP Engine when it comes to good customer service and great hosting plans. What you will not get from Bluehost is cloud hosting or Windows-based servers.
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+### Dreamhost
+
+Dreamhost is, as mentioned above, also mentioned by Wordpress as an example hosting service. They can be compared to WP Engine when it comes to great security, and good hosting plan options. They have unlimited monthly data transfers, unlimited websites and domain-management tools. But as with Hostinger, there is no telephone support available. They also lack Windows-based servers and email in the Shared Starter plan.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool? -->
+WP Engine is a great hosting service for Wordpress if you want to feel secure and taken care of. Having 24/7 expert customer support is very important if you want to make sure that everything is as it should be at all times. Also, the high level of security and automatic updates can give you much more time to sit back and do what you are supposed to do, without worrying too much about the security. There are positives and negatives with all hosting services, and it's hard to say that one is better than the other. The biggest negative with WP Engine seems to be the pricing. If you can afford it, I think it will be worth it, given the time you don't need to think about the security, speed and overall well-being of your Wordpress website.
 
 ## References
 
 - [WP Engine homepage](https://wpengine.com/)
 - [WP Engine blogpost for company history](https://wpengine.com/blog/why-and-how-wordpress-works-for-us/)
 - [Five for the future post about WP Engine](https://wordpress.org/five-for-the-future/pledge/wp-engine/)
-- [PCmag - pros and cons web hosting services](https://uk.pcmag.com/web-hosting-services/40427/wp-engine-web-hosting)
+- [PCmag - pros and cons WP Engine](https://uk.pcmag.com/web-hosting-services/40427/wp-engine-web-hosting)
 - [Everipedia for company history](https://everipedia.org/wiki/lang_en/WP_Engine)
 - [WP Engine blog review](https://themeisle.com/blog/wp-engine-review-for-wordpress/)
 - [digital.com - WP Engine review](https://digital.com/wpengine-review/)
-
-<!-- - [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ) -->
-
-<!-- ## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ) -->
+- [PCmag - best hosting services for Wordpress](https://uk.pcmag.com/web-hosting-services/46170/the-best-wordpress-web-hosting-services-for-2020#hostinger-web-hosting-28468)
+- [Wordpress hosting examples](https://wordpress.org/hosting/)
