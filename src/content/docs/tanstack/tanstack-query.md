@@ -21,9 +21,37 @@ Originally created as an internal tool for [Nozzle](https://www.youtube.com/watc
 
 [![Star History Chart](https://api.star-history.com/svg?repos=tanstack/query&type=Date)](https://star-history.com/#tanstack/query&Date)
 
-### V1
+## Introduction
 
-26/02/2020
+- Overview of Tanstack Query
+- Why do we need Tanstack Query?
+- What problems does it solve?
+
+## History
+
+### Origins
+
+The idea for Tanstack Query was conceived out of the need for a better way to manage asynchronous state in React applications. Tanner Linsley, the creator of the library, wanted to simplify the process of fetching, caching, and updating data in his applications. He was inspired by the React hooks API and the simplicity of the `useState` and `useEffect` hooks, and wanted to create a similar experience for data fetching.
+
+The name "Tanstack Query" is derived from Tanner's last name, "Linsley", and the term "stack", which refers to the technology stack of a software application. The library was initially developed as an internal tool for Tanner's company, Nozzle, and was later open-sourced to the public.
+
+### Philosophy
+
+Tanstack Query was designed with several core principles in mind:
+
+- **Ergonomic**: The library should be easy to use and integrate into existing React applications.
+- **Simple**: The API should be straightforward and intuitive, with minimal boilerplate code required.
+- **Forgiving**: The library should handle common use cases and edge cases gracefully, without requiring complex workarounds.
+- **Customizable**: Users should be able to customize and extend the library to suit their specific needs.
+- **Flexible**: The library should be adaptable to a wide range of data fetching scenarios and application requirements.
+
+These principles have guided the development of Tanstack Query and have shaped its design and feature set.
+
+### Timeline
+
+#### V1: The Beginning
+
+**26/02/2020**
 
 The first version of React Query was released on February 26th, 2020. It was a very basic, yet powerful, library that provided a new way of managing asynchronous state in React. It was designed to be a drop-in replacement for your existing data fetching libraries and state management solutions. It introduced a simple, yet powerful, useQuery hook that provided a consistent way to fetch, cache, and update asynchronous data in your application.
 
@@ -31,18 +59,16 @@ The first version of React Query was released on February 26th, 2020. It was a v
 - Provided a drop-in replacement for existing data fetching libraries and state management solutions.
 - Introduced a simple, yet powerful, useQuery hook for fetching, caching, and updating asynchronous data.
 
-### V2
+#### V2: Refining The Core Foundation
 
-22/06/2020
-Refining the core foundation.
+**22/06/2020**
 
 - Introduced the `idle` state
 - Added the boolean status indicators we know and love: `{ isLoading, isSuccess, isError }`
 
-### V3
+#### V3: SSR and Scalability
 
-08/10/2020
-SSR and Scalability
+**08/10/2020**
 
 In V3 brought in SSR support, flexible cache configurations, and innovative features like bi-directional infinite queries and data selectors. The introduction of the `useQueries` hook for parallel queries, enhanced mutation support, and the integration of devtools directly into the package.
 
@@ -56,10 +82,9 @@ In V3 brought in SSR support, flexible cache configurations, and innovative feat
 - Integrated devtools directly into the main package for enhanced debugging.
 - Introduced experimental cache persistence features.
 
-### V4
+#### V4: Rebranding and Framework Agnosticism
 
-17/07/2022
-Rebranding and Framework Agnosticism
+**17/07/2022**
 
 A significant update where ReactQuery got rebranded to **TanstackQuery** and restructured to a monorepo. This change allowed for the extension of its core functionalities to other frameworks beyond React, such as Vue, Svelte, and Solid, by using framework-specific adapters while sharing a common core logic.
 
@@ -71,9 +96,10 @@ A significant update where ReactQuery got rebranded to **TanstackQuery** and res
 - Activated tracked queries by default for optimized render performance.
 - Streamlined API and addressed inconsistencies for a better developer experience.
 
-### V5
+#### V5: Simplification and Unification
 
-17/10/2023
+**17/10/2023**
+
 Version 5 further built on the foundations laid by version 4, aiming to make the library smaller, more intuitive, and consistent.
 
 - Simplification and unification of API usage.
@@ -85,20 +111,6 @@ Version 5 further built on the foundations laid by version 4, aiming to make the
 - queryOptions API to facilitate sharing and type-safety of query definitions​​.
 
 ---
-
-Tanner's Programming principles:
-
-- Ergonomic
-- Simple
-- Forgiving
-- Customizable
-- Flexible
-
-## Introduction
-
-- Overview of Tanstack Query
-- Why do we need Tanstack Query?
-- What problems does it solve?
 
 ## Getting started
 
