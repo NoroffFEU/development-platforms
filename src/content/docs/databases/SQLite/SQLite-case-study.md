@@ -2,6 +2,7 @@
 title: SQLite
 keywords: development platforms, SQLite project, Structured Query Language,
 tags: development platforms, SQLite project, Structured Query Language,
+author: Max Martinsen <MaxMartinsen>
 ---
 
 # Introduction
