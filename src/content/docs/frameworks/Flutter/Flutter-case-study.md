@@ -36,9 +36,23 @@ While its not considered a feature it is a strong command-line tool used to diag
 
 ## Weaknesses
 
-Like every other tool, Flutter also has weaknesses. Applications built with flutter tend to be larger than those built with native tools. This can be a concern when aiming to minimize download sizes. You will also meet limited third-party libraries. Flutter is growing but all things considered it is still a new framework so libraries might seem limited compared to other well established frameworks. It being new also speaks for its establishment in larger corporations which also will be limited but ever growing.
-The dart programming language can be challenging for some developers and there might be a steep learning curve.
-Flutter faces web development inefficiencies with loading speeds and SEO. The limited WebView support can be a pain point for developers aiming for nuanced web interactions.
+Like every other tool, Flutter also has weaknesses. Applications built with Flutter tend to be larger than those built with native tools, which can be a concern when aiming to minimize download sizes. This issue is particularly significant in markets with users on limited data plans or devices with constrained storage capabilities.
+
+Additionally, the ecosystem, while rapidly growing, still lacks the breadth of third-party libraries and tools available in more mature frameworks such as Android and iOS. This can lead to increased development time as developers might need to build more solutions from scratch.
+
+Flutter's establishment in larger corporations is also evolving. Given its relatively new presence in the tech landscape, some large enterprises may be hesitant to adopt Flutter due to perceived risks or the lack of widespread precedent in their industry, though this is gradually changing as Flutter's adoption grows.
+
+The Dart programming language, which Flutter uses, can present a steep learning curve for developers not already familiar with it. While Dart is designed to be easy to pick up for those with experience in object-oriented languages, the transition may require significant time and effort for developers or teams accustomed to different programming environments.
+
+Flutter faces specific challenges in web development, particularly concerning loading speeds and search engine optimization (SEO). The framework's approach to rendering web content can lead to inefficiencies that impact the performance of web applications, making it less suitable for content-heavy websites where SEO is crucial. Moreover, the limited support for WebView can restrict developers aiming to achieve nuanced web interactions, affecting the functionality and user experience of apps requiring embedded web content.
+
+Implementing platform-specific features presents another challenge in Flutter. While the framework offers an extensive set of widgets and tools for creating apps that feel native on both Android and iOS, achieving the exact platform-specific behaviour or integrating with certain platform-specific APIs can involve additional complexities and development effort.
+
+Performance is another area where Flutter apps, particularly those with complex UIs or heavy animations, may face challenges, especially on older devices. Developers may need to undertake specific performance optimizations to ensure smooth operation across a wide range of devices.
+
+Despite these challenges, the strength and responsiveness of Flutter's growing community, along with support from Google and other contributors, offer significant resources and support to developers. This vibrant ecosystem helps mitigate some of the challenges associated with adopting Flutter, making it an increasingly popular choice for cross-platform development.
+
+By understanding these weaknesses within the broader context of Flutter's capabilities and the evolving technology landscape, developers and organizations can make more informed decisions about when and how to use Flutter for their projects.
 
 ## Summary
 
