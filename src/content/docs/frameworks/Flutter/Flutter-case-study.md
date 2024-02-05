@@ -38,6 +38,8 @@ Flutter comes with an extensive widget catalog, like styling, layouts and themes
 
 While its not considered a feature it is a strong command-line tool used to diagnose the development environment. You can use Flutter Doctor to check the status of your installation, identify missing dependencies and provide guidance to resolve issues. When you run the flutter doctor command it checks your system for required dependencies such as the Flutter SDK, Dart SDK, Android studio and more. If there are any issues it also guides you on how to fix them and even provide links to installation guides or advice you to run specific commands in the terminal. It also verifies that you are connected to your devices or emulators which are crucial for testing. Regularly running "flutter doctor" is a good practice to ensure that your development environment is healthy and up to date.
 
+![Flutter Doctor response](https://i.stack.imgur.com/3lmBs.png)
+
 ## Strengths
 
 "Flutters rise to fame is not without reason" - When not to use Flutter
@@ -77,4 +79,6 @@ By understanding these weaknesses within the broader context of Flutter's capabi
 
 ## Tools
 
-## Credits & acknowledgments
+## Credits
+
+- Mikael Selstad (Miksel90)
