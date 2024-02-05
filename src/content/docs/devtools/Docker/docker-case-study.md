@@ -102,11 +102,31 @@ The last step is to open your browser and navigate to "http://localhost:3000". I
 ![alt text](../../../../assets/docker/docker-result-in-browser.png)
 
 
+
+
 ### Conclution
 
 In conclution, Docker's case study highlights the power of containerization in addressing real-world software development challenges. 
 By containerizing applications, Docker has not only streamlined the development process but also bridged the gap between development and production environments.
-The case study of creating a simple Node.js application and containerizing it with Docker illustrates the practical benefits of Docker: reduced setup time, consistency across environments, and ease of deployment. The example in this case study is to show how easy it can be to use Docker, how it takes an image and conainerize it. 
+The case study of creating a simple Node.js application and containerizing it with Docker illustrates the practical benefits of Docker: reduced setup time, consistency across environments, and ease of deployment. The example in this case study is to show how easy it can be to use Docker, how it takes an image and conainerize it.
+
+### References
+
+https://www.techtarget.com/searchitoperations/feature/The-history-of-Dockers-climb-in-the-container-management-market
+
+https://www.docker.com/
+https://www.docker.com/resources/what-container/
+
+TeckWorld with Nana:
+https://www.youtube.com/watch?v=pg19Z8LL06w&t=748s
+
+IBM Technology: Containerization explained
+https://www.youtube.com/watch?v=0qotVMX-J5s
+
+
+
+
+
 
 
 
