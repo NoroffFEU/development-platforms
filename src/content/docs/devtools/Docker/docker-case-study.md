@@ -19,13 +19,13 @@ In this case study I will be writing about the benefit of using Docker by focusi
 
 ### Main features
 
-##Docker Container
+#### Docker Container
 
 Docker is designed to simplify both the development and deployment processes by leveraging the power of containers. These containers encapsulate your application, along with all necessary files, such as code, configuration files, frameworks, and dependencies, into a single, cohesive unit. This approach significantly reduces development and setup time, especially in a local environment.
 
 To put it in perspective, consider a scenario where a team of developers is working with a variety of fifteen different dependencies and three libraries each. Traditionally, every developer would need to install all these dependencies and libraries in their local environment, a process complicated further by variations in operating systems. Docker, however, streamlines this process: every piece of the project is packaged into a container, making it easily accessible to every team member, irrespective of their OS. This means all dependencies and libraries are immediately available, right out of the "box" or, more accurately, the container.
 
-## Docker Image
+#### Docker Image
 
 To successfully containerize an application, you need to make a Dockerfile. The Dockerfile contains all the commands for building a Docker image. Images are essentially  blueprints for creating the docker container. The Docker image has everything you need for building the application: The code, runtime, environment variables and configuration files. The images enable an application to run in a variety of environments consistently because the image encapsulates everything the software needs to operate. 
 When running an image it becomes a Docker container. In summary we can say that Docker images are the building blocks of Docker containers. They package the application and its environment into a neat, portable unit, making it easy to share, distribute, and deploy applications across different systems and platforms. 
@@ -44,4 +44,58 @@ Here is some of the competitors:
 
 ### Getting started
 Install Docker by going to docker.com in your browser. Then pick the installation for your OS.
-![alt text](../../../../assets/docker/image.png)        
+![alt text](../../../../assets/docker/image.png) 
+
+Once installed, open a terminal or command prompt and run the following command to check that Docker is installed and running.
+If Docker is installed correctly you will get Docker followed by the version number and build
+```bash
+docker --version
+```
+
+
+Now we are going to create a simple node.js app. First we will create a directory for the project and navigate into it by writing this in the terminal:
+
+```bash
+mkdir node-app-test
+cd node-app-test
+```
+Then we make a js file named server.js in the folder (directory) we just made:
+
+![alt text](../../../../assets/docker/docker-serverJs-file.png)
+This simple web server will respond "Hello world" to any request
+
+Next we make our Dockerfile in the same directory as "server.js". This is where we make the commands for our Docker image.
+![alt text](../../../../assets/docker/docker-dockerfile.png)
+
+Explanation of the commands:
+- FROM is where you specify the base image, in this case a node image with the node version "node 14"
+- WORKDIR decides witch app directory it will be running from
+- COPY is writen two times, the first time to make sure every dependecy from your package.json is copied to the image, and the second time to copy all the local code to the image
+- RUN runs the instalation of the production dependecies
+- ENV HOST. ENV PORT and EXPOSE are commands that makes sure that it works on all network interfaces so that it can be mapped to the host OS
+- CMD runs the web service on container startup 
+
+Now that we have made a Dockerfile we can build the Docker image by typing in this command in the terminal:
+
+```bash
+docker build -t node-app-test .
+```
+After the image is built you can run your container by writing: 
+
+```bash
+docker run -p 3000:3000 node-app-test
+```
+Here is a screenshot of what your terminal will look like if you have followed all the steps
+![alt text](../../../../assets/docker/docker-run-port.png)
+the last command is highlighted
+
+The last step is to open your browser and navigate to "http://localhost:3000". If it worked you will get a dark screen that sais "Hello World"
+![alt text](../../../../assets/docker/docker-result-in-browser.png)
+
+
+### Conclution
+By containerizing applications, Docker has not only streamlined the development process but also bridged the gap between development and production environments.
+The case study of creating a simple Node.js application and containerizing it with Docker illustrates the practical benefits of Docker: reduced setup time, consistency across environments, and ease of deployment. The example in this case study is to show how easy it can be to use Docker, how it takes an image and conainerize it. 
+
+
+
