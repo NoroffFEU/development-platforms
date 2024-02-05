@@ -41,11 +41,13 @@ Docker has been, and is still one of the most used application when it comes to 
 This is also due to that Docker has a big open source community.
 
 Here is some of the competitors:
-- Kubernetis is one of Dockers biggest copetitors, but at the same time it they are very commonly used together. You can use both seperatly.
+- Kubernetis is one of Dockers biggest copetitors, but at the same time they are very commonly used together. You can use both seperatly.
 - Podman has most simularities with Docker because they both use images and containers. Podman aso uses somthing called pods, build on kubernetis
 
 
-### Getting started
+### Getting started with Docker
+
+The purpose of this walkthrough is to give an introduction to how to use docker, so that the user gets an understanding on how the image and containerization works.
 
 **Step 1**
 
