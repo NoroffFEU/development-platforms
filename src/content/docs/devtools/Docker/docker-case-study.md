@@ -46,8 +46,13 @@ Here is some of the competitors:
 
 
 ### Getting started
+
+**Step 1**
+
 Install Docker by going to docker.com in your browser. Then pick the installation for your OS.
-![alt text](../../../../assets/docker/image.png) 
+![alt text](../../../../assets/docker/image.png)
+
+**Step 2**
 
 Once installed, open a terminal or command prompt and run the following command to check that Docker is installed and running.
 If Docker is installed correctly you will get Docker followed by the version number and build
@@ -56,6 +61,7 @@ If Docker is installed correctly you will get Docker followed by the version num
 docker --version
 ```
 
+**Step 3**
 
 Now we are going to create a simple node.js app. First we will create a directory for the project and navigate into it by writing this in the terminal:
 
@@ -63,29 +69,40 @@ Now we are going to create a simple node.js app. First we will create a director
 mkdir node-app-test
 cd node-app-test
 ```
+
+**Step 4**
+
 Then we make a js file named server.js in the folder (directory) we just made:
 
 ![alt text](../../../../assets/docker/docker-serverJs-file.png)
+
 This simple web server will respond "Hello world" to any request
+
+**Step 5**
 
 Next we make our Dockerfile in the same directory as "server.js". This is where we make the commands for our Docker image.
 
 ![alt text](../../../../assets/docker/docker-dockerfile.png)
 
-**Explanation of the commands**:
+Explanation of the commands:
 
 - FROM is where you specify the base image, in this case a node image with the node version "node 14"
 - WORKDIR decides witch app directory it will be running from
 - COPY is writen two times, the first time to make sure every dependecy from your package.json is copied to the image, and the second time to copy all the local code to the image
 - RUN runs the instalation of the production dependecies
 - ENV HOST. ENV PORT and EXPOSE are commands that makes sure that it works on all network interfaces so that it can be mapped to the host OS
-- CMD runs the web service on container startup 
+- CMD runs the web service on container startup
+
+**Step 6**
 
 Now that we have made a Dockerfile we can build the Docker image by typing in this command in the terminal:
 
 ```bash
 docker build -t node-app-test .
 ```
+
+**Step 7**
+
 After the image is built you can run your container by writing: 
 
 ```bash
@@ -97,7 +114,9 @@ Here is a screenshot of what your terminal will look like if you have followed a
 
 the last command is highlighted
 
-The last step is to open your browser and navigate to "http://localhost:3000". If it worked you will get a dark screen that sais "Hello World"
+**Step 8**
+
+The last step is to open your browser and navigate to "http://localhost:3000". If it worked you will get a dark screen that say "Hello World"
 
 ![alt text](../../../../assets/docker/docker-result-in-browser.png)
 
