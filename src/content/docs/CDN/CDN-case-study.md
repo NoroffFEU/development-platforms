@@ -6,6 +6,7 @@ tags: CDN, case study, networking, technology
 
 ## Introduction
 
+![Features](~/assets/CDN/4084.jpg)
 A CDN (content delivery network) stands as an essential component in the modern state of the internet and has become an industry standard, the case study aims to explore what a CDN is, a brief history of CDNs, problem statement, main features and objectives with a CDN, a typical CDN user, CDNs market consumption, advantages, and disadvantages of a content delivery network and why it became so popular in the modern world.
 
 ## Brief history
@@ -24,6 +25,7 @@ This is a small bullet point list of important milestones after 2007
 ## What is a Content delivery network?
 
 A content delivery network is a collection of servers around the world that are connected to a main server often called the origin server. The servers are strategically placed geographically across different countries and continents, and these servers are called POP (point of presence) servers or edge servers. The main function of these servers is to cache information such as HTML, JavaScript, CSS, and video content closer to the end user so loading time, performance, and reliability are improved, whereas a non-CDN network may take 5 seconds to load heavy website content to an end-user on the other side of the world a CDN network may have a pop server only a few miles from the end user that has cached heavy images and stylesheets so the loading time may be reduced to only 1 second.
+![Features](~/assets/CDN/OJ8XXP0.jpg)
 
 ## Problem statement
 
@@ -77,3 +79,6 @@ https://www.akamai.com/company/company-history
 https://medium.com/globant/content-delivery-networks-explained-5a1feaa224c8
 https://timelines.issarice.com/wiki/Timeline_of_content_delivery_networks
 https://www.belugacdn.com/global-content-delivery-networks/
+
+pictures:https://www.freepik.com/free-vector/infographic-template-design_1014000.htm#query=worldwide%20web%20servers&position=5&from_view=search&track=ais&uuid=6232b29b-aca7-47b1-8b29-dd71d65a109d
+https://www.freepik.com/free-vector/network-database-concept_1531128.htm#query=CDN&position=5&from_view=search&track=ais&uuid=f7924549-4722-4062-9653-237cad9d0396
