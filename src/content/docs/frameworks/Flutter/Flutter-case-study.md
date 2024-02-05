@@ -14,7 +14,7 @@ Flutter is an open-source UI software development toolkit created by Google, and
 
 ### Dart
 
-Flutter uses the open source language Dart, which is also developed by Google. Dart is designed to be efficient, east to learn and highly suitable for making UI's. Dart supports both JIT (just-In-Time) and AOT (Ahead-of-Time) compilation, allowing the dev team to use hot reload for rapid development and produce native code for production. Dart seems extensive at first but after learning the architecture of the code it was quite simple and easy to learn, it also has extensions and IDE support in VSC.
+Flutter uses the open source language Dart, which is also developed by Google. Dart is designed to be efficient, east to learn and highly suitable for making UI's. Dart supports both JIT (just-In-Time) and AOT (Ahead-of-Time) compilation, allowing the dev team to use hot reload for rapid development and produce native code for production. Dart is an object-oriented language meaning everything is an object, including numbers, functions, and null. Dart is designed to build quality UI's using simple, scalable code, it also has extensions and IDE support in VSC.
 
 ### Hot Reload
 
@@ -31,6 +31,8 @@ A widget is a fundamental building block in flutter and includes visual elements
 - Stateful Widgets are the parts of the app that can change and react to what the user does. Like a button that changes color when you press it.
 
 Flutter comes with an extensive widget catalog, like styling, layouts and themes.
+
+![Flutter Widget Hierarchy](https://static.javatpoint.com/tutorial/flutter/images/flutter-widgets.png)
 
 ### Flutter Doctor
 
