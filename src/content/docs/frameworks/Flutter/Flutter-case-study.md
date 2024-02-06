@@ -14,7 +14,7 @@ Flutter is an open-source UI software development toolkit created by Google, and
 
 ### Dart
 
-Flutter uses the open source language Dart, which is also developed by Google. Dart is designed to be efficient, east to learn and highly suitable for making UI's. Dart supports both JIT (just-In-Time) and AOT (Ahead-of-Time) compilation, allowing the dev team to use hot reload for rapid development and produce native code for production. Dart is an object-oriented language meaning everything is an object, including numbers, functions, and null. Dart is designed to build quality UI's using simple, scalable code, it also has extensions and IDE support in VSC.
+Flutter utilizes the open-source language Dart, developed by Google as well. Dart is designed for efficiency, ease of learning, and a high suitability for crafting user interfaces (UIs). It supports both Just-In-Time (JIT) and Ahead-of-Time (AOT) compilation, enabling development teams to leverage hot reload for rapid development cycles and compile native code for production environments. As an object-oriented language, Dart treats everything as an object, including numbers, functions, and even null. Its architecture aims to facilitate the construction of quality UIs through simple, scalable code and is complemented by extensions and Integrated Development Environment (IDE) support in Visual Studio Code (VSC).
 
 ### Hot Reload
 
