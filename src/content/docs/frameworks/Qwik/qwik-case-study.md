@@ -99,7 +99,7 @@ According to the [2022 State of JavaScript survey](https://2022.stateofjs.com/en
 As seen in the table, Qwik has a retention rate of 85% in 2022, which is impressive for a framework that was released only two years ago. This indicates that Qwik is gaining traction and is being adopted by developers.
 And looking at the usage in 2022, Qwik has a 2% usage rate, which is also impressive for a framework that was released only two years ago.
 
-<img src="./qwik-vs-others.png" alt="Qwik versus other frameworks">
+<img src="/public/qwik-vs-others.png" alt="Qwik versus other frameworks">
 (Screenshot from Manu Martinez-Almeida'S - <a href="https://www.youtube.com/watch?v=bvSlEweRyjE&list=PLq_6N4Z1G7mSAh_v9jfVUcu_R1vOM5Nob" title="See the full video on youtube" target="_blank">Qwik: Performance is a Human Design Issue | ViteConf 2023</a>)
 
 The bigger and more complex the app or site, the more JS is shipped to the client.
