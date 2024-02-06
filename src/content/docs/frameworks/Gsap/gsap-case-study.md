@@ -16,19 +16,33 @@ With the ability to animate virtually everything Javascript can interact with, l
 
 GSAP offers a versatile set of features that often make it a preferred choice for developers in the realm of web animation. Some of GSAP's main features include:
 
-**- Framework-agnostic:**
+#### Animation capabilities:
+
+**- Tweening:** 
+Tweening is a technique for creating smooth transitions between two keyframes by creating  intermediate frames between two defined states of an object or element. 
+
+**- Timeline:** 
+Timeline is a tool that let's the user control multiple tweens in a sequence, specifying when each animation should start and its duration. 
+
+**- Easing:**
+GSAP has a variety of easing functions. Easing controls the acceleration and deceleration of an animation over time, allowing the user to add smoothness and a more natural flow of motion.
+
+**- Staggering:**
+Staggering is a technique that uses delays between the start times of individual animations. It adds a timed offset to each element's animation, creating a sequential effect.
+
+#### Framework-agnostic:
 
 Developers can easily incorporate GSAP into their projects, whether they are using React, Angular, Vue.js, or other frameworks, without encountering major integration issues. GSAP uses zero dependencies, making it adaptable across various web development environments.
 
-**- Cross-browser compatibility:**
+#### Cross-browser compatibility:
 
 GSAP is compatible with all modern browsers, ensuring consistent behavior for animations regardless of the browser being used.
 
-**- Performance:**
+#### Performance:
 
 GSAP is optimized for performance and is one of the fastest animation tools on the planet. It has a lightweight core library and uses a modular approach for the plugins, meaning you can use them all together or independently, depending on the project's needs. This modular structure allows users to include only the specific features they require, minimizing the file size and optimizing performance.  
 
-**- Responsive and accessible**
+#### Responsive and accessible
 
 The gsap.matchMedia() feature allows users to create responsive and accessible animations. By taking into account user preferences, such as those related to reduced motion, it also contributes to a more inclusive and user-friendly experience.
 
@@ -60,11 +74,43 @@ GSAP allows developers to create custom animation sequences and manipulate eleme
 
 **- Framer Motion:**
 
-Framer Motion utilizes a more React-friendly syntax. Developers familiar with React will find it easier to integrate animation using Framer Motion's motion components and animation properties.
+Framer Motion utilizes a more React-friendly syntax. Developers familiar with React will find it easier to integrate animation using Framer Motion's motion components and animation properties. 
+Here is an example of how you would animate a box moving 200px horizontally using Framer Motion. 
+
+```
+import { motion } from 'framer-motion';
+
+const FramerMotionExample = () => {
+  return (
+    <motion.div
+      initial={{ x: 0 }}
+      animate={{ x: 200 }}
+      transition={{ duration: 1 }}
+      style={{ width: 50, height: 50, background: 'blue' }}
+    >
+    </motion.div>
+  );
+};
+```
 
 **- GSAP:**
 
-GSAP uses method-based syntax, where developers use methods like gsap.to() to animate elements. While powerful, it may have a steeper learning curve for those less familiar with JavaScript animation libraries.
+GSAP uses method-based syntax, where developers use methods like gsap.to() to animate elements. While powerful, it may have a steeper learning curve for those less familiar with JavaScript animation libraries. Here is an example of how you would animate a box moving 200px horizontally using GSAP with React. 
+
+```
+import { gsap } from 'gsap';
+
+const GSAPExample = () => {
+  useEffect(() => {
+    gsap.to('.box', { x: 200, duration: 1 });
+  }, []);
+
+  return (
+    <div className="box" style={{ width: 50, height: 50, background: 'blue' }}>
+    </div>
+  );
+};
+```
 
 #### Performance and size
 
@@ -72,5 +118,9 @@ Both libraries have default frame rates of 60FPS, ensuring the animations will p
 
 <br>
 
-"In conclusion, the choice between GSAP and Framer Motion comes down to the project requirements and the developer's preference. Framer Motion excels in simplicity and React integration, making it ideal for smaller projects or those focused on React. On the other hand, GSAP's versatility and broader framework support make it a great option for both smaller projects and more complex animations across various frameworks. Both are regarded as easy to learn and have active communities.
+In conclusion, the choice between GSAP and Framer Motion comes down to the project requirements and the developer's preference. Framer Motion excels in simplicity and React integration, making it ideal for smaller projects or those focused on React. On the other hand, GSAP's versatility and broader framework support make it a great option for both smaller projects and more complex animations across various frameworks. Both are regarded as easy to learn and have active communities.
+
+## Plugins
+
+One of the main features of GSAP is it's library of plugins. 
 
