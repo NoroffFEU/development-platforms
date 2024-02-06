@@ -6,11 +6,11 @@ tags: Development Platforms, Flutter, Framework, open source, applications
 
 ## Introduction
 
-Flutter is a dynamic, open-source framework developed and championed by the technological experts at Google. For developers specializing in front-end development, Flutter serves as a comprehensive toolkit designed for crafting the intricate tapestry of an application's user interface, utilizing the magic of a single, streamlined codebase. Since its inception in 2018, Flutter has significantly evolved beyond its original mobile orientation, extending its capabilities to support application development across six diverse platforms. This includes the familiar landscapes of iOS and Android, as well as the expansive realms of the web, Windows, macOS, and Linux. As such, Flutter represents a versatile tool that inspires a wide-ranging coding odyssey.
+Originally from Google's technology labs, Flutter emerges as a dynamic and open-source framework. Aimed at developers focused on front-end development, it offers a comprehensive toolkit designed for designing an application's user interface, utilizing a single codebase. Since its launch in 2018, Flutter has significantly evolved beyond its original mobile orientation, extending its capabilities to support application development across six different platforms. This includes the landscapes of iOS and Android, as well as apllications for the  web, Windows, macOS, and Linux. As such, Flutter represents a versatile tool that inspires a wide-ranging coding.
 
 ## Brief History
 
-Flutter, an innovative open-source framework, first sprouted its wings in the fertile grounds of Google's development ecosystem. The seeds of Flutter were sown to address the challenges developers face in crafting seamless and visually appealing user interfaces across various platforms. Flutter made its inaugural appearance in 2018, primarily as a tool tailored for mobile app development. Under the guiding hand of Google, Flutter quickly gained traction, captivating developers with its promise of a unified codebase for multiple platforms.
+Flutter is an innovative open-source framework, it was designed to solve the challenges of creating seamless, visually engaging user interfaces for multiple platforms. Flutter made its appearance in 2018, primarily as a tool tailored for mobile app development. With support form Google, Flutter quickly gained traction, captivating developers with its promise of a unified codebase for multiple platforms.
 
 As the Flutter community thrived and the framework matured, a remarkable evolution unfolded. No longer confined to the mobile domain, Flutter expanded its reach to embrace a broader spectrum of platforms. This expansion marked a pivotal moment in Flutter's history, as it not only extended support to iOS and Android but also ventured into the expansive territories of the web, Windows, macOS, and Linux.
 
@@ -18,7 +18,7 @@ The journey of Flutter is a testament to its adaptability and the collaborative 
 
 ## About & Features
 
-Flutter is an open-source UI software development toolkit created by Google, and is used by developers to build an application's UI for multiple platforms using a single codebase. According to Amazon Web Services, Flutter simplifies the process of creating consistent, appealing UIs for an application across the platforms it supports. Which means that even though Flutter embraces different platforms, it still originates from a single codebase. One can consider Flutter as both native app development and cross-platform development. Flutter gives you the opportunity to make applications for iOS, Android, Web, Windows, macOS, Linux and IoT-devices using a single codebase.
+Flutter stands out as an open-source toolkit for UI development, enabling the creation of multi-platform applications from a singular code framework. Flutter simplifies the process of creating consistent, appealing UIs for an application across the platforms it supports. Which means that even though Flutter embraces different platforms, it still originates from a single codebase. One can consider Flutter as both native app development and cross-platform development. Flutter gives you the opportunity to make applications for iOS, Android, Web, Windows, macOS, Linux and IoT-devices using a single codebase.
 
 ### Dart
 
