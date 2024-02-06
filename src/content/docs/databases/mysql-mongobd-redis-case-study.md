@@ -82,6 +82,51 @@ Redis, short for Remote Dictionary Server, is an open-source, high-performance, 
 
 ## Marked Comparison
 
+### MySQL vs. Redis vs. MongoDB
+
+#### Data Model and Schema Flexibility:
+- `MySQL:` Relational database with a rigid schema requiring predefined table structures.
+- `MongoDB:` Flexible document-based NoSQL database allowing dynamic schema and nested data structures.
+- `Redis:` Schema-less, key-value store suitable for caching and real-time applications.
+
+#### Scalability:
+- `MySQL:` Scales vertically by adding more resources to the existing server; limited horizontal scalability.
+- `MongoDB:` Horizontally scalable, supports sharding for distributing data across multiple nodes.
+- `Redis:` Horizontally scalable, handles increased data and user loads effortlessly.
+  
+#### Performance:
+- `MySQL:` High performance for structured data and complex queries with proper indexing.
+- `MongoDB:` Offers quick storage and retrieval of complex data, suitable for high-throughput applications.
+- `Redis:` Lightning-fast speed due to in-memory storage, ideal for real-time applications and caching.
+
+#### Data Integrity and Transactions:
+- `MySQL:` Strong support for ACID transactions, ensuring data consistency and reliability.
+- `MongoDB:` Provides eventual consistency by default, supports multi-document transactions in recent versions.
+- `Redis:` Lacks native transaction support, which may impact data consistency.
+
+#### Use Cases:
+- `MySQL:` Well-suited for structured data, transactional applications, and relational queries.
+- `MongoDB:` Best for unstructured or semi-structured data, document storage, and horizontal scalability.
+- `Redis:` Ideal for caching, real-time analytics, session management, and distributed systems.
+
+#### Developer Experience and Learning Curve:
+- `MySQL:` Widely adopted, extensive documentation, and mature ecosystem; familiar SQL interface.
+- `MongoDB:` Developer-friendly with JSON-like documents, but may have a learning curve for those accustomed to SQL.
+- `Redis:` Simple and easy-to-use, with straightforward commands and minimal configuration.
+
+#### Resource Utilization:
+- `MySQL:` Moderate resource usage, requires disk storage for data persistence.
+- `MongoDB:` Consumes significant storage due to document-oriented model, requires adequate disk space.
+- `Redis:` Memory-intensive due to in-memory storage, may require careful memory management.
+
+`MySQL` is well-suited for structured data and relational queries, prioritizing data integrity and transactional support. However, it may face challenges with very large datasets and lacks some advanced features found in other systems.
+
+`MongoDB` excels in handling unstructured data and offers seamless scalability, making it ideal for rapidly changing data schemas or high write throughput requirements. Its schema-less design simplifies storage and querying of diverse data structures, albeit with a learning curve for SQL users.
+
+`Redis` is exceptionally fast and versatile, catering to real-time applications, caching, and distributed systems. Despite its low latency and efficient data retrieval, its in-memory storage can be memory-intensive and its single-threaded nature may limit performance in certain scenarios.
+
+Ultimately, the choice among MySQL, MongoDB, and Redis hinges on the specific needs of your application. MySQL is optimal for data integrity and transactional support, MongoDB for unstructured data and scalability, and Redis for speed and versatility, particularly in real-time and caching scenarios.
+
 ## Gettting Started
 
 ## Conclusion
@@ -98,3 +143,7 @@ MySQL, MongoDB, and Redis each bring distinct strengths tailored to varying use 
 - https://en.wikipedia.org/wiki/Redis
 - https://www.ibm.com/topics/redis
 - https://github.com/NoroffFEU/development-platforms/pull/153/files
+- https://aws.amazon.com/compare/the-difference-between-redis-and-mongodb/
+- https://www.mongodb.com/compare/mongodb-mysql
+- https://www.influxdata.com/comparison/redis-vs-sqlserver/
+
