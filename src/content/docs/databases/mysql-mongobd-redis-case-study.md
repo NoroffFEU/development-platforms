@@ -130,6 +130,16 @@ In conclusion, when deciding between MySQL, MongoDB, and Redis, it all boils dow
 
 ## Gettting Started
 
+### MySQL
+To get started with MySQL you can download and install the latest version from the [official website](https://dev.mysql.com/). Follow the instructions [how to get started]( https://dev.mysql.com/doc/mysql-getting-started/en)
+
+### MongoDB
+To get started with MongoDB you can download and install the latest version from the [official website](https://www.mongodb.com/). Follow the instructions on from this [video](https://www.mongodb.com/docs/manual/tutorial/getting-started/)
+
+### Redis
+To get started with Redis you can download and install the latest version from the [official website](https://redis.io/docs/install/). Follow the instructions [how to get started](https://redis.io/docs/install/install-redis/)
+
+
 ## Conclusion
 MySQL, MongoDB, and Redis each bring distinct strengths tailored to varying use cases. MySQL stands out for its adeptness with structured data and relational queries, while MongoDB excels in handling unstructured data and horizontal scaling. Meanwhile, Redis offers unparalleled speed, making it ideal for caching and real-time applications, although it may encounter challenges with large datasets or intricate queries. Ultimately, selecting among these database systems hinges on the specific needs, scalability requirements, and performance priorities of your application.
 
