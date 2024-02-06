@@ -22,7 +22,7 @@ Flutter is an open-source UI software development toolkit created by Google, and
 
 ### Dart
 
-Flutter uses the open source language Dart, which is also developed by Google. Dart is designed to be efficient, east to learn and highly suitable for making UI's. Dart supports both JIT (just-In-Time) and AOT (Ahead-of-Time) compilation, allowing the dev team to use hot reload for rapid development and produce native code for production. Dart seems extensive at first but after learning the architecture of the code it was quite simple and easy to learn, it also has extensions and IDE support in VSC.
+Flutter utilizes the open-source language Dart, developed by Google as well. Dart is designed for efficiency, ease of learning, and a high suitability for crafting user interfaces (UIs). It supports both Just-In-Time (JIT) and Ahead-of-Time (AOT) compilation, enabling development teams to leverage hot reload for rapid development cycles and compile native code for production environments. As an object-oriented language, Dart treats everything as an object, including numbers, functions, and even null. Its architecture aims to facilitate the construction of quality UIs through simple, scalable code and is complemented by extensions and Integrated Development Environment (IDE) support in Visual Studio Code (VSC).
 
 ### Hot Reload
 
@@ -40,9 +40,13 @@ A widget is a fundamental building block in flutter and includes visual elements
 
 Flutter comes with an extensive widget catalog, like styling, layouts and themes.
 
+![Flutter Widget Hierarchy](https://static.javatpoint.com/tutorial/flutter/images/flutter-widgets.png)
+
 ### Flutter Doctor
 
 While its not considered a feature it is a strong command-line tool used to diagnose the development environment. You can use Flutter Doctor to check the status of your installation, identify missing dependencies and provide guidance to resolve issues. When you run the flutter doctor command it checks your system for required dependencies such as the Flutter SDK, Dart SDK, Android studio and more. If there are any issues it also guides you on how to fix them and even provide links to installation guides or advice you to run specific commands in the terminal. It also verifies that you are connected to your devices or emulators which are crucial for testing. Regularly running "flutter doctor" is a good practice to ensure that your development environment is healthy and up to date.
+
+![Flutter Doctor response](https://i.stack.imgur.com/3lmBs.png)
 
 ## Strengths
 
@@ -83,4 +87,6 @@ By understanding these weaknesses within the broader context of Flutter's capabi
 
 ## Tools
 
-## Credits & acknowledgments
+## Credits
+
+- Mikael Selstad (Miksel90)
