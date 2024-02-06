@@ -6,7 +6,7 @@ tags: Development Platforms, Flutter, Framework, open source, applications
 
 ## Introduction
 
-Originally from Google's Innovative technology labs, Flutter emerges as a dynamic and open-source framework. Aimed at developers focused on front-end development, it offers a comprehensive toolkit designed for crafting the intricate tapestry of an application's user interface, utilizing the magic of a single, streamlined codebase. Since its inception in 2018, Flutter has significantly evolved beyond its original mobile orientation, extending its capabilities to support application development across six diverse platforms. This includes the familiar landscapes of iOS and Android, as well as the expansive realms of the web, Windows, macOS, and Linux. As such, Flutter represents a versatile tool that inspires a wide-ranging coding odyssey.
+Originally from Google's technology labs, Flutter emerges as a dynamic and open-source framework. Aimed at developers focused on front-end development, it offers a comprehensive toolkit designed for designing an application's user interface, utilizing a single codebase. Since its launch in 2018, Flutter has significantly evolved beyond its original mobile orientation, extending its capabilities to support application development across six different platforms. This includes the landscapes of iOS and Android, as well as apllications for the  web, Windows, macOS, and Linux. As such, Flutter represents a versatile tool that inspires a wide-ranging coding.
 
 ## Brief History
 
