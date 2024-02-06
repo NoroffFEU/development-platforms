@@ -78,11 +78,19 @@ On the one hand, Strapi seems to be the most flexible and most customisable of t
 
 There are of course numerous other tools that allow developers to create their own APIs (like Netlify CMS, Butter CMS, Umbraco CMS, Firebase, AppWrite, Parse, AWS Amplify and countless others). But many of these fall into the Backend as a service (BaaS) category, which means they go beyond merely CMS functionalities. For that reason, they should not be directly compared to products that primarily advertise themselves as headless CMS platforms.
 
-## Use case: creating an API
+## Use case: creating an API with Strapi
 
-It's time to see Strapi in action. In this demonstration, a simple API designed to serve clients with academic articles will be created. Each entry will consist of fields like title, authors, publication date, body, references and so on. There are many ways of creating a Strapi API. One of them is by integrating Strapi with PostgreSQL database. First, make sure you have both NodeJS and npm installed in your development environment. Then, follow the steps:
+It's time to see Strapi in action. First, make sure you have both NodeJS and npm installed in your development environment. 
 
-### Installing PostgreSQL
+Let's dive into the practical side of Strapi by creating an API. There are many ways of creating a Strapi API, and one effective method involves integrating Strapi with a PostgreSQL database. Another approach is installing Strapi using the Quickstart option, which doesn't require a connection to PostgreSQL. This approach is perfect for quickly setting up an API without the need for a specific database backend.
+
+Regardless of these two methods, each entry in the API will include essential fields such as title, authors, publication date, body, references, and more. Let's get started on building a API with Strapi! Below, we'll explore two demonstrations illustrating how to create a simple API.
+
+### 1. Strapi with PostgreSQL
+
+In this demonstration, we'll guide you through the process of installing Strapi alongside PostgreSQL. We'll focus on creating an API tailored to serve clients with academic articles. This tutorial will cover the installation steps and showcase the configuration needed to set up your API efficiently.
+
+#### Installing PostgreSQL
 
 1. Download PosgreSQL. Go to https://www.postgresql.org, and download the version that corresponds to your operating system.
 2. Install PostgreSQL. An installation wizard will be prompted. Follow the steps and select the default options.
@@ -92,7 +100,7 @@ It's time to see Strapi in action. In this demonstration, a simple API designed 
 6. Once the installation is complete, open the application called PGAdmin. This is where you will actually create the database. You may need to enter your password again.
 7. Right-click on "Databases" and click on "Create". Give it a name and save. Your database will have been created under the "Databases" folder.
 
-### Installing Strapi
+#### Installing Strapi with PostgreSQL
 
 8. Now it's time to start using Strapi. Create a folder where you would like to install it.
 9. In the command line, type `npx create-strapi-app project-name`. Make sure you run this command inside the folder where you wish to install it. Here you can give your project any name you like. For demonstration purposes, the project name will be `fff`. So the full command to be execute is `npx create-strapi-app fff`.
@@ -132,13 +140,20 @@ It's time to see Strapi in action. In this demonstration, a simple API designed 
 27. To add new content via the Strapi interface, go to "Content manager", select the desired content-type and click on "Create new entry". For example, to create your first article, fill all the necessary fields and click "Save". After the entry is save, it is necessary to "Publish" it, so it becomes available via the API. Try to add a few articles. Once they are ready, we will be able to start using the API.
 28. To check whether your database has been correctly updated with the newly added information, you can go back to the PGAdmin application. Open the database, click on "Schema" and then on "Tables". A new table named "articles" will be available. Right-click that table and go to "View data" and a list of updated items will be displayed.
 
-### Accessing the API data
+#### Accessing the API data
 
 29. It's time to check whether the API is already available. Go to http://localhost:1337/api/articles. Nothing is displayed yet (403 status). That's because the API has net yet been set to public. To do that, go back to Strapi's dashboard and click on "Settings".
 30. Under the "Users & Permissions Plugin" area, click on "Roles". Then click on "Public".
 31. Under permissions, you will be able to edit the public access to the different content-types you have created. In our case, let's click on "Articles". Tick the "find" and "findOne" boxes. Then click on save. This enable the API users to access individual endpoints for each article.
 32. Now, if you repeat step 29 (or refresh the page), the API data will be correctly displayed. It is ready to be consumed in our local development environment.
 33. The API will continue to be available for as long as the `npm run develop` command keeps running in your terminal. In order to interrupt the process, exit the process (by pressing "control C", for example). After refreshing the page, the API will no longer be available. To make it locally available again, run the command `npm run develop` one more time.
+
+### 2. Strapi using the Quickstart option
+
+In this tutorial, we'll walk through the process of installing and using Strapi to create endpoints for the online shoe store "ShoeDays", created only for demonstration. Using the Quickstart option, we will set up Strapi and create endpoints for each individual product in the ShoeDays store.
+
+
+
 
 ### Deploying the API
 
