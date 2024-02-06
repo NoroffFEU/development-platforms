@@ -10,7 +10,7 @@ Originally from Google's technology labs, Flutter emerges as a dynamic and open-
 
 ## Brief History
 
-Flutter, an innovative open-source framework, it was designed to solve the intricate challenges of creating seamless, visually engaging user interfaces for multiple platforms. Flutter made its inaugural appearance in 2018, primarily as a tool tailored for mobile app development. Under the guiding hand of Google, Flutter quickly gained traction, captivating developers with its promise of a unified codebase for multiple platforms.
+Flutter is an innovative open-source framework, it was designed to solve the challenges of creating seamless, visually engaging user interfaces for multiple platforms. Flutter made its appearance in 2018, primarily as a tool tailored for mobile app development. With support form Google, Flutter quickly gained traction, captivating developers with its promise of a unified codebase for multiple platforms.
 
 As the Flutter community thrived and the framework matured, a remarkable evolution unfolded. No longer confined to the mobile domain, Flutter expanded its reach to embrace a broader spectrum of platforms. This expansion marked a pivotal moment in Flutter's history, as it not only extended support to iOS and Android but also ventured into the expansive territories of the web, Windows, macOS, and Linux.
 
