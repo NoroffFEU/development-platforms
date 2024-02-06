@@ -11,16 +11,16 @@ A CDN (content delivery network) stands as an essential component in the modern 
 
 ## Brief history
 
-in the 1990s a problem that was foreseen was that when the internet grew and more people tried to access the same websites at the same time there would be a bottleneck happening that would cause long waiting times and sometimes the website would crash, and this problem became a reality in the late 1990s. In the mid-1990s the first content delivery network was developed and the first commercial CDN was introduced in 1998 by Akamai as a more efficient way to deliver content on the Internet. In the early 2000s new CDN providers followed, and companies such as Limelight network, CacheFly, Cloudflare, and many others started to appear, around 2003/2004 an increasing demand for audio and video started the next phase for CDNs and streaming was possible since CDNs offered a massively increased bandwidth, YouTube was released in 2005 and Netflix started streaming short time after in 2007 other streaming services followed soon after.
+In the 1990s a problem that was foreseen was that when the internet grew and more people tried to access the same websites at the same time there would be a bottleneck happening that would cause long waiting times and sometimes the website would crash, and this problem became a reality in the late 1990s. In the mid-1990s the first content delivery network was developed and the first commercial CDN was introduced in 1998 by Akamai as a more efficient way to deliver content on the Internet. In the early 2000s new CDN providers followed, and companies such as Limelight network, CacheFly, Cloudflare, and many others started to appear. Around 2003/2004 an increasing demand for audio and video started the next phase for CDNs and streaming was possible since CDNs offered a massively increased bandwidth, YouTube was released in 2005 and Netflix started streaming short time after in 2007 other streaming services followed soon after.
 
 This is a small bullet point list of important milestones after 2007
 
-- **In 2008** amazon launched a CDN integrated with their web service.
-- **In 2011** AT&T launched their new cloud-based CDN
+- **In 2008** Amazon launched a CDN integrated with their web service.
+- **In 2011** AT&T launched their new cloud-based CDN.
 - **In 2012** JSDelivr launched a free open-source project.
-- **In 2012** Netflix got its in-house CDN after an increase in streaming
-- **In 2014** apple got their in-house CDN
-- **In 2015** BelugaCDN launched a new type of CDN price model a type of "pay as you go" driving costs lower
+- **In 2012** Netflix got its in-house CDN after an increase in streaming.
+- **In 2014** Apple got their in-house CDN.
+- **In 2015** BelugaCDN launched a new type of CDN price model a type of "pay as you go" driving costs lower.
 
 ## What is a Content delivery network?
 
@@ -50,19 +50,19 @@ there are multiple advantages and disadvantages to a content delivery network
 ### Advantages
 
 1. They give faster loading time. Since the server structure of a CDN is created to have servers closer to the user the response time is often faster, and the loading time is decreased.
-2. more users can access the information at once. Since information is cached on servers around the globe a CDN can handle higher traffic than one server or one datacenter could.
-3. cost efficient. Hosting cost for plans with CDN functionality is often lower compared to how much bandwidth a client is given, the bandwidth is flexible and can handle changes in bandwidth in real-time.
-4. security. CDN services offer some advantages both implemented and some by the design of a CDN, for example since CDNs can distribute traffic to many different servers and can handle a lot of traffic they are less impacted by Distributed denial-of-service (DDoS) attacks, some CDN services also offer firewalls and other security measures.
+2. More users can access the information at once. Since information is cached on servers around the globe a CDN can handle higher traffic than one server or one datacenter could.
+3. Cost efficient. Hosting cost for plans with CDN functionality is often lower compared to how much bandwidth a client is given, the bandwidth is flexible and can handle changes in bandwidth in real-time.
+4. Security. CDN services offer some advantages both implemented and some by the design of a CDN, for example since CDNs can distribute traffic to many different servers and can handle a lot of traffic they are less impacted by Distributed denial-of-service (DDoS) attacks, some CDN services also offer firewalls and other security measures.
 
 ### Disadvantages
 
-1. it can be complicated. Managing and monitoring a website or service that uses a CDN can be complicated and a CDN user may have problems with caching issues, CDN settings, and other related issues.
-2. lack of control. When using a CDN third-party provider the customer may face downtime or performance issues on the CDN provider's end that the customer has no control over.
-3. outdated cache. Some information is not suitable for caching such as some dynamic content, especially content that is updated almost in real-time such as stock data, CDNs don't work optimally in these cases compared to other networking models.
+1. It can be complicated. Managing and monitoring a website or service that uses a CDN can be complicated and a CDN user may have problems with caching issues, CDN settings, and other related issues.
+2. Lack of control. When using a CDN third-party provider the customer may face downtime or performance issues on the CDN provider's end that the customer has no control over.
+3. Outdated cache. Some information is not suitable for caching such as some dynamic content, especially content that is updated almost in real-time such as stock data, CDNs don't work optimally in these cases compared to other networking models.
 
 ## Market comparison
 
-While content delivery networks are now the most widely used network technology there are others with their own use, for example, peer-to-peer (P2P). unlike a traditional content delivery network these networks use client resources to grow the network, this network structure is mainly used for downloading and uploading files with some users sharing files while other retrieves them, this form of networking is cheap to maintain since users contribute to the network with their resources, the most known example of a P2P network is BitTorrent where the network is dependent on users sharing to transfer data. Another network configuration that is more common than P2P is using only one localized data center or server, the main difference compared to CDN is that instead of one main data center and other POP servers placed around the world, localized hosting is only one data center or server this is often used for small localized websites and application where traffic is not massive and the geographical distance to the user is not expected to be far.
+While content delivery networks are now the most widely used network technology there are others with their own use, for example, peer-to-peer (P2P). Unlike a traditional content delivery network these networks use client resources to grow the network, this network structure is mainly used for downloading and uploading files with some users sharing files while other retrieves them, this form of networking is cheap to maintain since users contribute to the network with their resources, the most known example of a P2P network is BitTorrent where the network is dependent on users sharing to transfer data. Another network configuration that is more common than P2P is using only one localized data center or server, the main difference compared to CDN is that instead of one main data center and other POP servers placed around the world, localized hosting is only one data center or server this is often used for small localized websites and application where traffic is not massive and the geographical distance to the user is not expected to be far.
 
 ## Conclusion
 
