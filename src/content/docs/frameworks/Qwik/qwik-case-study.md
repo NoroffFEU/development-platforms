@@ -132,7 +132,7 @@ Knowledge of modern web development concepts is beneficial, but not mandatory.
 To get started with Qwik locally, you need the following:
 
 - [Node.js v16.8](https://nodejs.org/en/download/) or higher
-- Your favorite IDE ([vscode](https://code.visualstudio.com/) recommended)
+- Your favourite IDE ([vscode](https://code.visualstudio.com/) recommended)
 
 #### Installation and setup:
 
@@ -219,6 +219,6 @@ Qwik is a forward-thinking framework, addressing the needs of modern web applica
 A 20m 44s video by Manu Martinez-Almeida from ViteConf 2023
 - [Building a Sample App with Qwik](https://qwik.builder.io/tutorial/)
 - [A first look at Qwik - the HTML-first framework](https://www.builder.io/blog/introducing-qwik-framework)
-- [Qwik Framework Deep-Dive Full Course with Misko Hevery](https://www.youtube.com/watch?v=dc6mUwXnyqE) A 3hr 20 min deep dive into Qwik with Misko Hevery (The Creator of Angular & now Qwik)
+- [Qwik Framework Deep-Dive Full Course with Misko Hevery](https://www.youtube.com/watch?v=dc6mUwXnyqE) A 3hr 20 min deep dive into Qwik with Misko Hevery (The Creator of Angular and now Qwik)
 
 Rune Unhjem on [GitHub](https://github.com/runeunhjem), Published: 2024-02-16
