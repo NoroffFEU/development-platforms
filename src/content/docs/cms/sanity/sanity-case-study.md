@@ -17,12 +17,6 @@ Sanity.io: Sanity.io differentiates itself with real-time collaboration features
 
 Contentful: Contentful is known for its robust set of tools for enterprise-scale projects. It provides a user-friendly interface for content creators to manage content without needing technical skills. Moreover, Contentful supports multi-language content for international audiences.
 
-## Comparison with Competitors
-
-Sanity.io is one of a large library of CMS providers. In this section, we compare Sanity with two of their more popular competitors, Strapi and Contentful.
-
-All three platforms share a content-first approach, providing flexibility to developers by allowing them to use their preferred programming languages and frameworks. They all focus on delivering content across multiple channels.
-
 In the world of CMS there is a vast amount of options. Each with unique features that set them apart. The choice between these platforms depends on the specific needs and circumstances of the project. Each platform has its own strengths and weaknesses, and potential users should consider these factors when deciding which CMS is the right fit for their needs.
 
 ## Sources
