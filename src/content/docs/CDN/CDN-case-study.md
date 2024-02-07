@@ -37,7 +37,7 @@ As talked about in the brief history section, a major problem with the state of 
 
 ## Main feature and objectives
 
-The main feature of a content delivery network is the ability to cache content in servers and data centers close to the end user, these servers are connected to the main/origin server. This feature was directly connected to the problem statement explained in the section above and greatly improved performance and connection speed for the users since the user could access cached content from a server close by. The problem with servers crashing because of too much traffic also greatly improved for sites and applications using a content delivery network since the traffic was divided into many different serves instead of only one data center or server.
+The main feature of a content delivery network is the ability to cache content in servers and data centers close to the end user, these servers are connected to the main/origin server. This feature was directly connected to the problem statement explained in the section above. And greatly improved performance and connection speed for the users since the user could access cached content from a server close by. The problem with servers crashing because of too much traffic also greatly improved for sites and applications using a content delivery network, since the traffic was divided into many different serves instead of only one data center or server.
 
 ## CDN users
 
@@ -45,14 +45,14 @@ www.imperva.com writes that over half of sites on the internet now use CDN techn
 
 ## Advantages and disadvantages
 
-there are multiple advantages and disadvantages to a content delivery network
+There are multiple advantages and disadvantages to a content delivery network
 
 ### Advantages
 
 1. They give faster loading time. Since the server structure of a CDN is created to have servers closer to the user the response time is often faster, and the loading time is decreased.
-2. More users can access the information at once. Since information is cached on servers around the globe a CDN can handle higher traffic than one server or one datacenter could.
+2. More users can access the information at once. Since information is cached on servers around the globe, a CDN can handle higher traffic than one server or one datacenter could.
 3. Cost efficient. Hosting cost for plans with CDN functionality is often lower compared to how much bandwidth a client is given, the bandwidth is flexible and can handle changes in bandwidth in real-time.
-4. Security. CDN services offer some advantages both implemented and some by the design of a CDN, for example since CDNs can distribute traffic to many different servers and can handle a lot of traffic they are less impacted by Distributed denial-of-service (DDoS) attacks, some CDN services also offer firewalls and other security measures.
+4. Security. CDN services offer some advantages both implemented and some by the design of a CDN, for example since CDNs can distribute traffic to many different servers and can handle a lot of traffic, they are less impacted by Distributed denial-of-service (DDoS) attacks, some CDN services also offer firewalls and other security measures.
 
 ### Disadvantages
 
@@ -62,11 +62,11 @@ there are multiple advantages and disadvantages to a content delivery network
 
 ## Market comparison
 
-While content delivery networks are now the most widely used network technology there are others with their own use, for example, peer-to-peer (P2P). Unlike a traditional content delivery network these networks use client resources to grow the network, this network structure is mainly used for downloading and uploading files with some users sharing files while other retrieves them, this form of networking is cheap to maintain since users contribute to the network with their resources, the most known example of a P2P network is BitTorrent where the network is dependent on users sharing to transfer data. Another network configuration that is more common than P2P is using only one localized data center or server, the main difference compared to CDN is that instead of one main data center and other POP servers placed around the world, localized hosting is only one data center or server this is often used for small localized websites and application where traffic is not massive and the geographical distance to the user is not expected to be far.
+While content delivery networks are now the most widely used network technology there are others with their own use, for example, peer-to-peer (P2P). Unlike a traditional content delivery network these networks use client resources to grow the network. P2P network structure is mainly used for downloading and uploading files with some users sharing files while other retrieves them, this form of networking is cheap to maintain since users contribute to the network with their resources. The most known example of a P2P network is BitTorrent where the network is dependent on users sharing to transfer data. Another network configuration that is more common than P2P is using only one localized data center or server. The main difference compared to CDN is that instead of one main data center and other POP servers placed around the world, localized hosting is only one data center or server this is often used for small localized websites and application where traffic is not massive and the geographical distance to the user is not expected to be far.
 
 ## Conclusion
 
-Content delivery network is a crucial part of the modern internet, without them the high traffic and fast speeds required for big global websites and streaming video content would not be possible, and its technology is changing fast. Starting in the 90s with only a few servers around the world that could cache static files like HTML, CSS, and images to the present day where servers are scattered all around the world that are capable of dynamic and static caching, mobile optimization, security improvements, and cloud integration and almost half of all websites using CDN technology. Content delivery networks have their advantages and disadvantages and are not suitable for every networking task or networking demand out there but in the future users all over the world can expect to see an expansion to CDNs. New technology is often built around a CDN structure with the goals of improving the speed, performance, security, and reliability of the current content delivery networks and content delivery technology.
+Content delivery network is a crucial part of the modern internet, without them the high traffic and fast speeds required for big global websites and streaming video content would not be possible. Its technology is changing fast, Starting in the 90s with only a few servers around the world that could cache static files like HTML, CSS, and images. To the present day where servers are scattered all around the world that are capable of dynamic and static caching, mobile optimization, security improvements, and cloud integration and almost half of all websites using CDN technology. Content delivery networks have their advantages and disadvantages and are not suitable for every networking task or networking demand out there, but in the future users all over the world can expect to see an expansion to CDNs. New technology is often built around a CDN structure with the goals of improving the speed, performance, security, and reliability of the current content delivery networks and content delivery technology.
 
 ### Sources
 
