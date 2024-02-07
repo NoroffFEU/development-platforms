@@ -13,14 +13,15 @@ A CDN (content delivery network) stands as an essential component in the modern 
 
 In the 1990s a problem that was foreseen was that when the internet grew and more people tried to access the same websites at the same time there would be a bottleneck happening that would cause long waiting times and sometimes the website would crash, and this problem became a reality in the late 1990s. In the mid-1990s the first content delivery network was developed and the first commercial CDN was introduced in 1998 by Akamai as a more efficient way to deliver content on the Internet. In the early 2000s new CDN providers followed, and companies such as Limelight network, CacheFly, Cloudflare, and many others started to appear. Around 2003/2004 an increasing demand for audio and video started the next phase for CDNs and streaming was possible since CDNs offered a massively increased bandwidth, YouTube was released in 2005 and Netflix started streaming short time after in 2007 other streaming services followed soon after.
 
-This is a small bullet point list of important milestones after 2007
+This is a small bullet point list of some of the important milestones after 2007
 
 - **In 2008** Amazon launched a CDN integrated with their web service.
 - **In 2011** AT&T launched their new cloud-based CDN.
-- **In 2012** JSDelivr launched a free open-source project.
+- **In 2012** JSDelivr launched a free CDN for open-source project.
 - **In 2012** Netflix got its in-house CDN after an increase in streaming.
 - **In 2014** Apple got their in-house CDN.
 - **In 2015** BelugaCDN launched a new type of CDN price model a type of "pay as you go" driving costs lower.
+- **In 2023** Ai optimization, many big CDN providers has integrated Ai to predict traffic and implemented Ai real time decision making.
 
 ## What is a Content delivery network?
 
@@ -79,6 +80,7 @@ https://www.akamai.com/company/company-history
 https://medium.com/globant/content-delivery-networks-explained-5a1feaa224c8
 https://timelines.issarice.com/wiki/Timeline_of_content_delivery_networks
 https://www.belugacdn.com/global-content-delivery-networks/
+https://www.linkedin.com/pulse/evolution-cdn-technology-2024-blazingcdn-rppvf/
 
 pictures:https://www.freepik.com/free-vector/infographic-template-design_1014000.htm#query=worldwide%20web%20servers&position=5&from_view=search&track=ais&uuid=6232b29b-aca7-47b1-8b29-dd71d65a109d
 https://www.freepik.com/free-vector/network-database-concept_1531128.htm#query=CDN&position=5&from_view=search&track=ais&uuid=f7924549-4722-4062-9653-237cad9d0396
