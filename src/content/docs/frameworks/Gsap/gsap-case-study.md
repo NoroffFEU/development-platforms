@@ -122,5 +122,25 @@ In conclusion, the choice between GSAP and Framer Motion comes down to the proje
 
 ## Plugins
 
-One of the main features of GSAP is it's library of plugins. 
+One of the main features of GSAP is it's library of plugins. A plugin extends the capabilities of GSAP's core, allowing the core library to maintain a relatively small size. It also let's developers only use these features when they are needed. Some of the plugins are only accessible with a paid membership. 
+
+Some of the plugins are:
+
+#### ScrollTrigger
+
+The ScrollTrigger plugin allow developers to create scroll-driven animations. By defining trigger points based on scroll positions, animations can be precisely timed and triggered as users scroll through a website. This can be used to create parallax effects, reveal content on scroll and more. 
+
+#### SplitText 
+
+The SplitText plugin create animations by breaking text elements into individual characters, words, or lines. This can be used to create effects like letter-by-letter animations, text reveals and typewriter effects.
+
+#### Draggable 
+
+The Draggable plugin enables interactive drag-and-drop interfaces and draggable elements. This can be used to create components such as sliders, draggable cards and much more.
+
+GSAP offer many more plugins and the library is still expanding.
+
+## Installation
+
+GSAP can be easily installed in your project via CDN link or NPM. CDN is recommended for smaller projects, and 
 
