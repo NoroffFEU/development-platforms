@@ -49,7 +49,7 @@ Originally from Google's technology labs, Flutter emerges as a dynamic and open-
   The Flutter community remained active, contributing to the ecosystem with libraries, tutorials, and resources for developers.
 
 - Beyond 2022, Flutter is expected to continue evolving, with Google and the community driving its development forward to meet the needs of modern application development across various platforms.
-  The journey of Flutter is a testament to its adaptability and the collaborative spirit of the developer community. What began as a solution for mobile app challenges has blossomed into a versatile framework, empowering developers to create stunning 
+  The journey of Flutter is a testament to its adaptability and the collaborative spirit of the developer community. What began as a solution for mobile app challenges has blossomed into a versatile framework, empowering developers to create stunning
   and consistent user experiences across various platforms. With each iteration, Flutter continues to shape the landscape of cross-platform development, leaving an indelible mark on the history of modern software engineering.
 
 ## About & Features
@@ -132,4 +132,6 @@ At the moment it is for Windows only:
 
 ## Credits
 
-- Mikael Selstad (Miksel90)
+- Mikael Selstad, [Miksel90](https://github.com/Miksel90)
+- Hans Marius Andreassen, [Spookyrumble](https://github.com/Spookyrumble)
+- Adrian Mikkelsen Johannessen, [AdrianMikk](https://github.com/AdrianMikk)
