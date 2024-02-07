@@ -6,11 +6,9 @@ tags: Development Platforms, Flutter, Framework, open source, applications
 
 ## Introduction
 
-Flutter is a dynamic, open-source framework developed and championed by the technological experts at Google. For developers specializing in front-end development, Flutter serves as a comprehensive toolkit designed for crafting the intricate tapestry of an application's user interface, utilizing the magic of a single, streamlined codebase. Since its inception in 2018, Flutter has significantly evolved beyond its original mobile orientation, extending its capabilities to support application development across six diverse platforms. This includes the familiar landscapes of iOS and Android, as well as the expansive realms of the web, Windows, macOS, and Linux. As such, Flutter represents a versatile tool that inspires a wide-ranging coding odyssey.
+Originally from Google's technology labs, Flutter emerges as a dynamic and open-source framework. Aimed at developers focused on front-end development, it offers a comprehensive toolkit designed for designing an application's user interface, utilizing a single codebase. Since its launch in 2018, Flutter has significantly evolved beyond its original mobile orientation, extending its capabilities to support application development across six different platforms. This includes the landscapes of iOS and Android, as well as apllications for the web, Windows, macOS, and Linux. As such, Flutter represents a versatile tool that inspires a wide-ranging coding.
 
 ## Brief History
-
-Here's a brief history of Flutter year by year:
 
 - 2015:
   Flutter project was started by Google.
@@ -50,15 +48,16 @@ Here's a brief history of Flutter year by year:
   Google and the Flutter team focused on improving stability, performance, and developer experience through regular updates and releases.
   The Flutter community remained active, contributing to the ecosystem with libraries, tutorials, and resources for developers.
 
-Beyond 2022, Flutter is expected to continue evolving, with Google and the community driving its development forward to meet the needs of modern application development across various platforms.
+- Beyond 2022, Flutter is expected to continue evolving, with Google and the community driving its development forward to meet the needs of modern application development across various platforms.
+  The journey of Flutter is a testament to its adaptability and the collaborative spirit of the developer community. What began as a solution for mobile app challenges has blossomed into a versatile framework, empowering developers to create stunning and consistent user experiences across various platforms. With each iteration, Flutter continues to shape the landscape of cross-platform development, leaving an indelible mark on the history of modern software engineering.
 
 ## About & Features
 
-Flutter is an open-source UI software development toolkit created by Google, and is used by developers to build an application's UI for multiple platforms using a single codebase. According to Amazon Web Services, Flutter simplifies the process of creating consistent, appealing UIs for an application across the platforms it supports. Which means that even though Flutter embraces different platforms, it still originates from a single codebase. One can consider Flutter as both native app development and cross-platform development. Flutter gives you the opportunity to make applications for iOS, Android, Web, Windows, macOS, Linux and IoT-devices using a single codebase.
+Flutter is an an open-source toolkit for UI development, enabling the creation of multi-platform applications from a singular code framework. Flutter simplifies the process of creating consistent, appealing UIs for an application across the platforms it supports. It can be viewed as both native app development and cross-platform development. Flutter applications can directly communicate with the native code, allowing developers to harness native capabilities of the device or platform, combined with the efficiency and versatility of cross-platform development. Flutter provides the opportunity to build applications for iOS, Android, Web, Windows, macOS, Linux and IoT-devices.
 
 ### Dart
 
-Flutter uses the open source language Dart, which is also developed by Google. Dart is designed to be efficient, east to learn and highly suitable for making UI's. Dart supports both JIT (just-In-Time) and AOT (Ahead-of-Time) compilation, allowing the dev team to use hot reload for rapid development and produce native code for production. Dart seems extensive at first but after learning the architecture of the code it was quite simple and easy to learn, it also has extensions and IDE support in VSC.
+Flutter utilizes the open-source language Dart, developed by Google as well. Dart is designed for efficiency, ease of learning, and a high suitability for crafting user interfaces (UIs). It supports both Just-In-Time (JIT) and Ahead-of-Time (AOT) compilation, enabling development teams to leverage hot reload for rapid development cycles and compile native code for production environments. As an object-oriented language, Dart treats everything as an object, including numbers, functions, and even null. Its architecture aims to facilitate the construction of quality UIs through simple, scalable code and is complemented by extensions and Integrated Development Environment (IDE) support in Visual Studio Code (VSC).
 
 ### Hot Reload
 
@@ -76,9 +75,13 @@ A widget is a fundamental building block in flutter and includes visual elements
 
 Flutter comes with an extensive widget catalog, like styling, layouts and themes.
 
+![Flutter Widget Hierarchy](https://static.javatpoint.com/tutorial/flutter/images/flutter-widgets.png)
+
 ### Flutter Doctor
 
 While its not considered a feature it is a strong command-line tool used to diagnose the development environment. You can use Flutter Doctor to check the status of your installation, identify missing dependencies and provide guidance to resolve issues. When you run the flutter doctor command it checks your system for required dependencies such as the Flutter SDK, Dart SDK, Android studio and more. If there are any issues it also guides you on how to fix them and even provide links to installation guides or advice you to run specific commands in the terminal. It also verifies that you are connected to your devices or emulators which are crucial for testing. Regularly running "flutter doctor" is a good practice to ensure that your development environment is healthy and up to date.
+
+![Flutter Doctor response](https://i.stack.imgur.com/3lmBs.png)
 
 ## Strengths
 
@@ -110,6 +113,13 @@ By understanding these weaknesses within the broader context of Flutter's capabi
 
 ## Summary
 
+## Examples
+
+Flutter can be used for many things. Like creating this little game.
+At the moment it is for Windows only:
+
+[Link to game pre-release](https://github.com/Spookyrumble/Flutter-game/releases/tag/Beta)
+
 ## Sources
 
 - [What is Flutter (2024)](https://aws.amazon.com/what-is/flutter/#:~:text=Flutter%20is%20an%20open%20source,platforms%20with%20a%20single%20codebase)
@@ -119,4 +129,6 @@ By understanding these weaknesses within the broader context of Flutter's capabi
 
 ## Tools
 
-## Credits & acknowledgments
+## Credits
+
+- Mikael Selstad (Miksel90)
