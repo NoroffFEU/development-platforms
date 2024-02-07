@@ -1,11 +1,9 @@
 ![c823e53b3a1a7b0d36a9](https://github.com/Miksel90/development-platforms/assets/113434165/a4622638-22ee-4e8e-a7c8-ae86b5a8f8c0)
 
 ---
-
 title: Flutter
 keywords: development platforms, Flutter, Framework, open source, applications
 tags: Development Platforms, Flutter, Framework, open source, applications
-
 ---
 
 ## Introduction
