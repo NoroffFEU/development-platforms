@@ -30,7 +30,7 @@ WP Engine has a large variety of hosting plans, making it resourceful for most w
 **Security and backup:** WP Engine offers a platform-level protection to detect threaths and block attacks, and updates Wordpress and PHP automatically to always make sure to be on top of security. They also use a multi-factor password authentication and activity logs. On top of this , you will always have a daily backup of everything, so you should feel safe both about your private security and your website's security at all times.
 
 **Great speed and performance:**
-Another issue that Cohen had back in the day and wanted to solve was speed and performance. WP Engine use EverCache technology to reduce load on the server while boosting the page speed. They also make sure that you are always up to date when it comes to all types of updates, so that the latest version of everything is running. They also use a free fully-managed
+Another issue that Cohen had back in the day and wanted to solve was speed and performance. WP Engine use EverCache technology to reduce load on the server while boosting the page speed. They also make sure that you are always up to date when it comes to all types of updates, so that the latest version of everything is running. They also use a free fully-managed CDN.
 
 ## Strengths and weaknesses
 
