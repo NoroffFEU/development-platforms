@@ -23,7 +23,7 @@ Here's a brief history of Flutter year by year:
 - 2017:
   Flutter Alpha releases continued, with improvements and updates.
   Google started to gain attention from developers and the community began to grow.
-  Flutter's hot reload feature, allowing developers to see changes instantly, gained popularity.
+  Flutter's hot reload feature, allowing developers to see changes instantly gained popularity.
 
 - 2018:
   Google announced the first stable release of Flutter at the Flutter Live event in December.
