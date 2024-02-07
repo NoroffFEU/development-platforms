@@ -10,6 +10,48 @@ Flutter is a dynamic, open-source framework developed and championed by the tech
 
 ## Brief History
 
+Here's a brief history of Flutter year by year:
+
+- 2015:
+  Flutter project was started by Google.
+  Initially known as the "Sky" project, it aimed to provide a framework for building high-performance, high-fidelity applications for mobile platforms.
+
+- 2016:
+  Google announced the first alpha version of Flutter at the Dart Developer Summit.
+  The focus was primarily on mobile platforms, particularly iOS and Android.
+
+- 2017:
+  Flutter Alpha releases continued, with improvements and updates.
+  Google started to gain attention from developers and the community began to grow.
+  Flutter's hot reload feature, allowing developers to see changes instantly, gained popularity.
+
+- 2018:
+  Google announced the first stable release of Flutter at the Flutter Live event in December.
+  Flutter 1.0 was officially released, marking it as ready for production use.
+  Flutter gained traction among developers and companies for its cross-platform capabilities and fast development cycle.
+
+- 2019:
+  Flutter continued to evolve rapidly, with regular updates and improvements.
+  Google I/O 2019 saw the announcement of Flutter for web, enabling developers to build web applications using Flutter.
+  Flutter Interact 2019 introduced various new features and improvements, including support for macOS and embedding into existing apps.
+
+- 2020:
+  Flutter continued to gain popularity, with a growing community and adoption by companies worldwide.
+  Google announced Flutter 1.20 with performance enhancements, new widgets, and tooling improvements.
+  Flutter's desktop support became more robust, enabling developers to build applications for Windows, Linux, and macOS.
+
+- 2021:
+  Flutter 2.0 was announced at Google I/O 2021, with major updates including support for web and desktop as stable platforms.
+  Google emphasized Flutter's ability to target multiple platforms with a single codebase, making it a compelling choice for cross-platform development.
+  Flutter's ecosystem continued to expand, with the introduction of new packages, plugins, and tools to enhance development workflows.
+
+- 2022 (up to January):
+  Flutter's growth and adoption continued, with an increasing number of companies and developers using it for their projects.
+  Google and the Flutter team focused on improving stability, performance, and developer experience through regular updates and releases.
+  The Flutter community remained active, contributing to the ecosystem with libraries, tutorials, and resources for developers.
+
+Beyond 2022, Flutter is expected to continue evolving, with Google and the community driving its development forward to meet the needs of modern application development across various platforms.
+
 ## About & Features
 
 Flutter is an open-source UI software development toolkit created by Google, and is used by developers to build an application's UI for multiple platforms using a single codebase. According to Amazon Web Services, Flutter simplifies the process of creating consistent, appealing UIs for an application across the platforms it supports. Which means that even though Flutter embraces different platforms, it still originates from a single codebase. One can consider Flutter as both native app development and cross-platform development. Flutter gives you the opportunity to make applications for iOS, Android, Web, Windows, macOS, Linux and IoT-devices using a single codebase.
