@@ -18,7 +18,7 @@ The journey of Flutter is a testament to its adaptability and the collaborative 
 
 ## About & Features
 
-Flutter is an an open-source toolkit for UI development, enabling the creation of multi-platform applications from a singular code framework. Flutter simplifies the process of creating consistent, appealing UIs for an application across the platforms it supports.  It can be viewed as both native app development and cross-platform development. Flutter applications can directly communicate with the native code, allowing developers to harness native capabilities of the device or platform, combined with the efficiency and versatility of cross-platform development. Flutter provides the opportunity to build applications for iOS, Android, Web, Windows, macOS, Linux and IoT-devices.
+Flutter is an an open-source toolkit for UI development, enabling the creation of multi-platform applications from a singular code framework. Flutter simplifies the process of creating consistent, appealing UIs for an application across the platforms it supports. It can be viewed as both native app development and cross-platform development. Flutter applications can directly communicate with the native code, allowing developers to harness native capabilities of the device or platform, combined with the efficiency and versatility of cross-platform development. Flutter provides the opportunity to build applications for iOS, Android, Web, Windows, macOS, Linux and IoT-devices.
 
 ### Dart
 
@@ -77,6 +77,13 @@ Despite these challenges, the strength and responsiveness of Flutter's growing c
 By understanding these weaknesses within the broader context of Flutter's capabilities and the evolving technology landscape, developers and organizations can make more informed decisions about when and how to use Flutter for their projects.
 
 ## Summary
+
+## Examples
+
+Flutter can be used for many things. Like creating this little game.
+At the moment it is for Windows only:
+
+[Link to game pre-release](https://github.com/Spookyrumble/Flutter-game/releases/tag/Beta)
 
 ## Sources
 
