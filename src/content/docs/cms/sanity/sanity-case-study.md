@@ -2,7 +2,7 @@
 
 Sanity.io is a platform that enables companies of all sizes to create remarkable digital experiences. It provides a single source of truth for content, aiding in the development of innovative digital campaigns. Sanity.io’s strengths lie in its excellent integration with popular programming languages and frameworks, providing a seamless experience for developers. Its powerful image pipeline and support for GraphQL make it a versatile tool for content management. Additionally, it boasts a large library of official and custom plugins, further enhancing its capabilities.
 
-One of the main weaknesses is the lack of multi-language support, which is only available through plugins. This could potentially limit its usability for global teams. Additionally, with a high number of requests and responses, a paid tariff becomes necessary, which could be a barrier for smaller organizations. The time to set up a project can be a bit slower than some of the competitors. Lastly, there’s a dependency on Sanity.io when developing data for a website, which could limit flexibility.
+One of the main weaknesses is the lack of multi-language support, which is only available through plugins. This could potentially limit its usability for global teams. Additionally, with a high number of requests and responses, a paid tariff becomes necessary, which could be a barrier for smaller organizations. The time to set up a project can be slower than some of the competitors. Lastly, there’s a dependency on Sanity.io when developing data for a website, which could limit flexibility.
 
 ## Comparison with Competitors
 
