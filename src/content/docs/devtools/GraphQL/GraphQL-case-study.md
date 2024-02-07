@@ -8,38 +8,40 @@ It's important to note that GraphQL is not a database technology but rather a qu
 
 ### 2012
 
--Facebook develops and starts using GraphQL internally for their native mobile apps, aiming to address the inefficiencies of traditional REST APIs, especially in the context of mobile application development.
+* Facebook develops and starts using GraphQL internally for their native mobile apps, aiming to address the inefficiencies of traditional REST APIs, especially in the context of mobile application development.
 
 ### 2015
 
--Facebook publicly discusses GraphQL for the first time at React.js Conf. Despite its initial association with React, it becomes clear over time that GraphQL is not limited to React developers.
--Facebook open-sources GraphQL, marking the beginning of its journey as a community-driven project. The move to open source allows for wider adoption and contribution from developers across different technologies.
+* Facebook publicly discusses GraphQL for the first time at React.js Conf. Despite its initial association with React, it becomes clear over time that GraphQL is not limited to React developers.
+* Facebook open-sources GraphQL, marking the beginning of its journey as a community-driven project. The move to open source allows for wider adoption and contribution from developers across different technologies.
 
 ### 2016
 
--GraphQL sees adoption by major companies beyond Facebook, including GitHub. This marks the beginning of GraphQL's popularity in the tech industry, as more organizations recognize its benefits over traditional REST APIs.
+* GraphQL sees adoption by major companies beyond Facebook, including GitHub. This marks the beginning of GraphQL's popularity in the tech industry, as more organizations recognize its benefits over traditional REST APIs.
 
 ### 2019
 
--GraphQL transitions to a neutrally governed project under the Linux Foundation, separating its technical governance from the financial and policy governance handled by the GraphQL Foundation. This change emphasizes its open, community-driven nature.
--The GraphQL Foundation, comprising representatives from dozens of companies, provides oversight, ensuring the project's continued growth and adoption across different sectors.
+* GraphQL transitions to a neutrally governed project under the Linux Foundation, separating its technical governance from the financial and policy governance handled by the GraphQL Foundation. This change emphasizes its open, community-driven nature.
+* The GraphQL Foundation, comprising representatives from dozens of companies, provides oversight, ensuring the project's continued growth and adoption across different sectors.
 
 ### 2020
 
--The announcement of the formation of the Technical Steering Committee (TSC) during a GraphQL Working Group (WG) meeting. The TSC is expected to guide the technical direction of GraphQL, further solidifying its structure and governance.
+* The announcement of the formation of the Technical Steering Committee (TSC) during a GraphQL Working Group (WG) meeting. The TSC is expected to guide the technical direction of GraphQL, further solidifying its structure and governance.
 
 ## Main Features
 
 ### Declarative Data Fetching
 
-GraphQL's approach to "declarative data fetching" stands out significantly from traditional REST API's by giving the client the power to query exactly for the data you need, in one single request. This stands out in contrast to to REST, where data usually is fetched through predefined endpoints that returns fixed data structures. This difference leads to that GraphQL can reduce both over-fetching and under-fetching of data, which optimizes the network performance and increases the user experience. 
+GraphQL's approach to "declarative data fetching" stands out significantly from traditional REST API's by giving the client the power to query exactly for the data you need, in one single request. This stands out in contrast to to REST, where data usually is fetched through predefined endpoints that returns fixed data structures. This difference leads to that GraphQL can reduce both over-fetching and under-fetching of data, which optimizes the network performance and increases the user experience.
 
 #### Example of Declarative Data Fetching with GraphQL
 
-Let's say you have an application that needs user information. With GraphQL you can specify what information you need, for example the users name and email. 
+Let's say you have an application that needs user information. With GraphQL you can specify what information you need, for example the users name and email.
 
 #### GraphQL Example
+
 Information stored on the database
+
 ```ruby
 {
   "users": [
@@ -56,6 +58,7 @@ Information stored on the database
 ```
 
 The GraphQL query
+
 ```ruby
 query {
   user(id: "1") {
@@ -65,7 +68,8 @@ query {
 }
 ```
 
-The server will process this and return: 
+The server will process this and return:
+
 ```ruby
 {
   "data": {
@@ -77,15 +81,18 @@ The server will process this and return:
 }
 ```
 
-This shows you how GraphQL lets you fetch the exact information you need, even though it is more data stored for the user. 
+This shows you how GraphQL lets you fetch the exact information you need, even though it is more data stored for the user.
 
 #### REST API Example
-Fetch request 
+
+Fetch request
+
 ```ruby
 GET /api/users/1
 ```
 
-The response from the database would look like this: 
+The response from the database would look like this:
+
 ```ruby
 {
   "id": "1",
@@ -98,18 +105,20 @@ The response from the database would look like this:
 ```
 
 #### Pros by using GraphQL's Declarative Data Fetching
-==Efficiency== By allowing clients to specify exactly what they need, will GraphQL reduce unnecessary network traffic and increase the application's performance. 
 
-==Flexibility== Clients can adjust queries based on it's specifically needs without having to wait for backend-changes to expose new endpoints. 
+**Efficiency** By allowing clients to specify exactly what they need, will GraphQL reduce unnecessary network traffic and increase the application's performance.
 
-==Increased User Experience== Quicker data loading and less bandwidth usage leads to a smoother and more responsive **U**ser e**X**perience. 
+**Flexibility** Clients can adjust queries based on it's specifically needs without having to wait for backend-changes to expose new endpoints.
+
+**Increased User Experience** Quicker data loading and less bandwidth usage leads to a smoother and more responsive **U**ser e**X**perience.
 
 #### Cons by using GraphQL's Declarative Data Fetching
-==Complexity in Query Handling== GraphQL requires detailed schemas and resolvers, which increases the backend-complexity and requires a deep understanding for efficient data-fetching.
 
-==Performance Issues with Complex Queries== Complex Queries in GraphQL can lead to N+1 issues and over-fetching, that wil require optimization techniques to avoid performance degradation. However, GraphQL provides solutions such as batching and caching to effectively manage these issues.
+**Complexity in Query Handling** GraphQL requires detailed schemas and resolvers, which increases the backend-complexity and requires a deep understanding for efficient data-fetching.
 
-==Security Issues== GraphQL's flexibility introduces challenges with rate limiting and protection from malicious queries. It's important to implement GraphQL-specific security tools and best practices for query depth and complexity analysis to mitigate these risks.
+**Performance Issues** with Complex Queries== Complex Queries in GraphQL can lead to N+1 issues and over-fetching, that wil require optimization techniques to avoid performance degradation. However, GraphQL provides solutions such as batching and caching to effectively manage these issues.
+
+**Security Issues** GraphQL's flexibility introduces challenges with rate limiting and protection from malicious queries. It's important to implement GraphQL-specific security tools and best practices for query depth and complexity analysis to mitigate these risks.
 
 ### Single Endpoint
 
