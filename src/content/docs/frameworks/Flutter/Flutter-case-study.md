@@ -132,6 +132,6 @@ At the moment it is for Windows only:
 
 ## Credits
 
-- Mikael Selstad, [Miksel90](https://github.com/Miksel90)
-- Hans Marius Andreassen, [Spookyrumble](https://github.com/Spookyrumble)
-- Adrian Mikkelsen Johannessen, [AdrianMikk](https://github.com/AdrianMikk)
+- **Mikael Selstad** - GitHub: [Miksel90](https://github.com/Miksel90)
+- **Hans Marius Andreassen** - GitHub [Spookyrumble](https://github.com/Spookyrumble)
+- **Adrian Mikkelsen Johannessen** - GitHub [AdrianMikk](https://github.com/AdrianMikk)
