@@ -18,7 +18,7 @@ The journey of Flutter is a testament to its adaptability and the collaborative 
 
 ## About & Features
 
-Flutter is an an open-source toolkit for UI development, enabling the creation of multi-platform applications from a singular code framework. Flutter simplifies the process of creating consistent, appealing UIs for an application across the platforms it supports. Which means that even though Flutter embraces different platforms, it still originates from a single codebase. One can view Flutter as both native app development and cross-platform development. Flutter applications can directly communicate with the native code, allowing developers to harness native capabilities of the device or platform, combined with the efficiency and versatility of cross-platform development. Flutter provides the opportunity to build applications for iOS, Android, Web, Windows, macOS, Linux and IoT-devices using a singular codebase.
+Flutter is an an open-source toolkit for UI development, enabling the creation of multi-platform applications from a singular code framework. Flutter simplifies the process of creating consistent, appealing UIs for an application across the platforms it supports.  It can be viewed as both native app development and cross-platform development. Flutter applications can directly communicate with the native code, allowing developers to harness native capabilities of the device or platform, combined with the efficiency and versatility of cross-platform development. Flutter provides the opportunity to build applications for iOS, Android, Web, Windows, macOS, Linux and IoT-devices.
 
 ### Dart
 
