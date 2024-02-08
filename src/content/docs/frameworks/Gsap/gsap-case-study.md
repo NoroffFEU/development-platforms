@@ -140,7 +140,55 @@ The Draggable plugin enables interactive drag-and-drop interfaces and draggable 
 
 GSAP offer many more plugins and the library is still expanding.
 
-## Installation
+## Getting Started
 
-GSAP can be easily installed in your project via CDN link or NPM. CDN is recommended for smaller projects, and 
+GSAP can be installed in your project various methods. Here's how to install it via CDN link and npm.
 
+#### CDN
+
+Simply put the CDN link in a script tag in your HTML file. This method is quick and convenient for smaller projects that doesn't rely on many plugins. 
+
+```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"</script>
+
+```
+
+If you wanted to add the scrollTrigger plugin you would add a second script tag like this:
+
+```
+<script
+ src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js">
+</script>
+
+```
+
+#### npm
+
+Open your terminal and run the following command:
+
+```
+npm install gsap
+
+```
+
+Once installed, you can import GSAP into your JavaScript file:
+
+```
+import { gsap } from "gsap";
+
+```
+
+If you want to add a plugin you would import it like this. Here we use scrollTrigger as an example.
+
+```
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+```
+
+After installation you are ready to use GSAP animations. 
+
+## Conclusion
+
+In conclusion, GSAP is a powerful and versatile tool for creating interactive and dynamic animations. 
