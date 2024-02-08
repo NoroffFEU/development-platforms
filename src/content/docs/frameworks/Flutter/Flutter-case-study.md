@@ -1,10 +1,11 @@
-![c823e53b3a1a7b0d36a9](https://github.com/Miksel90/development-platforms/assets/113434165/a4622638-22ee-4e8e-a7c8-ae86b5a8f8c0)
-
 ---
 title: Flutter
 keywords: development platforms, Flutter, Framework, open source, applications
 tags: Development Platforms, Flutter, Framework, open source, applications
 ---
+
+![c823e53b3a1a7b0d36a9](https://github.com/Miksel90/development-platforms/assets/113434165/a4622638-22ee-4e8e-a7c8-ae86b5a8f8c0)
+
 
 ## Introduction
 
@@ -78,13 +79,17 @@ A widget is a fundamental building block in flutter and includes visual elements
 
 Flutter comes with an extensive widget catalog, like styling, layouts and themes.
 
-![Flutter Widget Hierarchy](https://static.javatpoint.com/tutorial/flutter/images/flutter-widgets.png)
+_Flutter widget flow example:_
+
+![Flutter Widget Hierarchy](/src/assets/frameworks/flutter/flutter-widgets.png)
 
 ### Flutter Doctor
 
 While its not considered a feature it is a strong command-line tool used to diagnose the development environment. You can use Flutter Doctor to check the status of your installation, identify missing dependencies and provide guidance to resolve issues. When you run the flutter doctor command it checks your system for required dependencies such as the Flutter SDK, Dart SDK, Android studio and more. If there are any issues it also guides you on how to fix them and even provide links to installation guides or advice you to run specific commands in the terminal. It also verifies that you are connected to your devices or emulators which are crucial for testing. Regularly running "flutter doctor" is a good practice to ensure that your development environment is healthy and up to date.
 
-![Flutter Doctor response](https://i.stack.imgur.com/3lmBs.png)
+_Flutter Doctor example:_
+
+![Flutter Doctor response](/src/assets/frameworks/flutter/flutter_doctor.png)
 
 ## Strengths
 
@@ -135,5 +140,5 @@ At the moment it is for Windows only:
 ## Credits
 
 - **Mikael Selstad** - GitHub: [Miksel90](https://github.com/Miksel90)
-- **Hans Marius Andreassen** - GitHub [Spookyrumble](https://github.com/Spookyrumble)
-- **Adrian Mikkelsen Johannessen** - GitHub [AdrianMikk](https://github.com/AdrianMikk)
+- **Hans Marius Andreassen** - GitHub: [Spookyrumble](https://github.com/Spookyrumble)
+- **Adrian Mikkelsen Johannessen** - GitHub: [AdrianMikk](https://github.com/AdrianMikk)
