@@ -29,18 +29,19 @@ Over the years, the Sanity team has continued to improve and expand the platform
 
 ## About Sanity 
 
-### Increasing free resources in Sanity
 
-Sanity provides two APIs:
+
+[Sanity provides two APIs](https://www.sanity.io/docs/api-cdn):
 
 1.	api.sanity.io: the live, uncached API. This is the default and will always give you the freshest data, but requests will be slower because they need to reach our back end on every request. Requests are also more costly because they will trigger more computation on our servers.
 2.	apicdn.sanity.io: the CDN-distributed, cached API, which is an opt-in feature that will give you very fast responses to requests that have been cached. We encourage most users to use this API for their front-ends if you expose your API to end users. For static builds you are better off using the live uncached API, to always get the latest version.
 To use the API CDN, simply use apicdn.sanity.io instead of api.sanity.io. Most clients provide a use CDN option that makes this switch seamless.
 
+### Increasing free resources in Sanity
 
-Today we can use 20 frameworks, being React and Next.js the more popular.    
-You do not need to use php, Sanity uses Groq which is Sanity’s open-source query language.  It is possible to use graphQL if preferred. 
-When adding images to projects it’s possible to use a plug in, a powerful pipeline that  can take care of resizing, storage, deletion. 
+Today we can use [20 frameworks](https://www.sanity.io/exchange/frameworks), being React and Next.js the more popular.    
+You do not need to use php, Sanity uses [Groq](https://www.sanity.io/docs/groq) which is Sanity’s open-source query language.  It is possible to use graphQL if preferred. 
+When adding images to projects it’s possible to use the [image-url plugin](https://www.sanity.io/docs/image-type), a powerful pipeline that  can take care of resizing, storage, deletion. 
 
 The amount of plugins and tools is also increasing, 210 available per today. Sanity names some “must-haves” plugins:  
 -	Scheduled publishing, to organize upcoming releases. 
@@ -54,9 +55,9 @@ The amount of plugins and tools is also increasing, 210 available per today. San
 
 Structured Content 101helps keeping a clean and organized content. It is content broken down into small pieces. This provides information that the machine can understand and use in all kinds of ways. 
 
-Real time update-This feature is helpful when collaborators make changes and those are updated in real time. 
+[Real time](https://www.sanity.io/docs/realtime-updates) update is a helpful feature when collaborators make changes and those are updated in real time. 
 
-Presenting and previewing content.This gives the possibility of previewing content changes before publishing.  This is a useful tool when getting feedback and approval, minimizing errors.  
+[Presenting and previewing](https://www.sanity.io/docs/presenting-and-previewing-content) content.This gives the possibility of previewing content changes before publishing.  This is a useful tool when getting feedback and approval, minimizing errors.  
 Composable content allows shaping data from independent but interconnected documents. Drasj documents can co-exist with published versions of the same document. 
 Perspectives let you run queries “draft” and run a preview of the changes before  drafts publishes. This can help to avoid conflicts, and accidental publications. 
 
