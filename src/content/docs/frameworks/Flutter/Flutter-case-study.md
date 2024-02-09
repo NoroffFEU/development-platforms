@@ -1,9 +1,7 @@
 ---
-
 title: Flutter
 keywords: development platforms, Flutter, Framework, open source, applications
 tags: Development Platforms, Flutter, Framework, open source, applications
-
 ---
 
 ![c823e53b3a1a7b0d36a9](https://github.com/Miksel90/development-platforms/assets/113434165/a4622638-22ee-4e8e-a7c8-ae86b5a8f8c0)
@@ -126,7 +124,6 @@ This study provides an overview of Flutter, a framework developed by Google for 
 
 Flutter uses Dart, an open-source language also developed by Google, known for its efficiency and ease of learning. Dart's architecture supports both Just-In-Time and Ahead-of-Time compilation, facilitating faster development cycles and efficient production environments.
 
-
 Strengths of Flutter include its fast coding capabilities, and its ability to produce apps that feel native to both Android and iOS from a single codebase. Flutter's comprehensive toolkit and the backing by Google have contributed to its popularity among developers.
 
 This study also outlines some weaknesses of Flutter, such as the larger app sizes compared to native tools and the Dart programming language's learning curve. While Flutter's ecosystem is rapidly growing, it still lacks in third-party libraries that are available to more mature platforms. Web development with Flutter faces challenges like loading speeds and SEO effectiveness. Implementing platform-specific features can also be more complex in Flutter compared to native development.
@@ -139,8 +136,9 @@ Flutter Featured Stories:
 
 - [Flutter.com](https://flutter.dev/showcase)
 
-Flutter can be used more things. Like creating this little game.
-At the moment it is for Windows only:
+Flutter can be used for more things, like creating this little game.
+
+_At the moment the game is for Windows only:_
 
 - [Link to game pre-release](https://github.com/Spookyrumble/Flutter-game/releases/tag/Beta)
 
