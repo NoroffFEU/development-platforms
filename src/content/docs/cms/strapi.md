@@ -150,99 +150,100 @@ In this demonstration, we'll guide you through the process of installing Strapi 
 
 ### 2. Strapi using the Quickstart option
 
-In this tutorial, we'll walk through the process of installing and using Strapi to create endpoints for the online shoe store "ShoeDays", created only for demonstration. Using the Quickstart option, we will set up Strapi and create endpoints for each individual product in the ShoeDays store.
+In this tutorial, we'll explore the practical steps of setting up and utilizing Strapi to construct API endpoints. Our focus will be on creating a backend for an fictive online shoe store named "ShoeDays.", created only for this demos purpose. Through Strapi's Quickstart option, we'll swiftly install Strapi and proceed to define dedicated endpoints for each product in the ShoeDays inventory. This walkthrough provides a hands-on experience in Strapi's efficiency for API development.
 
 #### Installing Strapi with the terminal 
-1. Open your terminal and navigate to your directory where you want to install the project
-2. Create a project folder creating a directory with 'mkdir' and the name of your project folder
-3. 'cd' to enter inside this folder to create a folder we will name "backend"
-4. Create a Strapi project by typing 'npx create-strapi-app' and name the project 'backend'
+1. Begin by opening your terminal and navigating to the directory where you intend to install your project.
+
+2. Once in the desired directory, create a new folder for your project using the 'mkdir' command followed by the desired name.
+
+3. Enter the newly created folder by using the 'cd' command. Within this folder, create a subdirectory named "backend" to house your Strapi project.
+
+4. Initiate the creation of a Strapi project by executing the command 'npx create-strapi-app' and specifying the project name as 'backend'.
 ![img of terminal](/src/assets/cms/strapi/image.png)
-5. Choose installation type Quickstart
-6. Strapi will automatically fire up a local dev server where you will need to authenticate to a admin user 
+
+5. Upon completion, Strapi will automatically launch a local development server. Access the Strapi welcome page via your web browser and proceed to authenticate as an admin user. 
 ![img of strapi welcome page](/src/assets/cms/strapi/image-1.png)
-8. In your Terminal, cancel the local server 'ctrl + C' , then 'cd' into the 'backend' folder and type 'code .' to open the directory in VS Code.
+
+8. Once authenticated, return to your terminal and terminate the local server by pressing 'ctrl + C'. Then, navigate into the 'backend' folder and open it in VS Code using the command 'code .'.
 ![img of terminal creating a folder](/src/assets/cms/strapi/image-2.png)	
-9. To restart the server and restore access to the Strapi admin panel, open a new terminal in VSCode and type 'run npm develop'
+
+9. To restart the server and regain access to the Strapi admin panel, open a new terminal window in VSCode and execute the command 'npm run develop'.
 ![img of terminal accessing the server](/src/assets/cms/strapi/image-3.png)
 
 #### Adding content in Strapi to fetch API endpoints
-1. In the admin panel on the left side menu you have 'Plugins' > 'Content-Types Builder' 
-Content-Type-Builder: A blueprint for the content describing the contents fields and datatypes
-2. 'Create new Collection type' > 
+1. Within the Strapi admin panel, navigate to 'Plugins' > 'Content-Types Builder'.
+Content-Type-Builder: is a blueprint for the content describing the contents fields and datatypes.
+
+2. Click on 'Create new Collection type' to initiate the creation of a new content type.
 ![img of strapi create new collection type](/src/assets/cms/strapi/image-4.png)
 
-3. Click > "Add another field to this collection type"
+3. Next, select "Add another field to this collection type" to begin defining the fields for your collection.
 ![img of adding another filed to collection type](/src/assets/cms/strapi/image-5.png)
 
-4.We will now typically add fields that capture relevant information about each shoe product
+4.Begin by adding fields that capture relevant information about each shoe product, such as Name ('Text' field), Description ('Text' field), Price ('Number' field), Gender ('Enumeration' field), and Image ('Media' field).
 ![img of adding fields to each product](/src/assets/cms/strapi/image-6.png)
 
-Name ('Text' field), Description('Text' field), Price('Number' field), Gender('Enumeration' field), image ('Media' field)
-5. Add 'name' > Type: 'Short text'
+5. Add the 'Name' field with the type 'Short text'.
 ![img of setting values to each product](/src/assets/cms/strapi/image-7.png)
 
-6. Set Advanced settings > Default value > Required field > Unique Field
+6. Configure the advanced settings by setting a default value, marking it as a required field, and making it unique.
 ![img of setting required and unique field to product](/src/assets/cms/strapi/image-8.png)
 
-7. Add Description > Type: 'Long text'
+7. Proceed to add the 'Description' field with the type 'Long text'.
 ![img of adding description to product](/src/assets/cms/strapi/image-9.png)
 
-8. 	Add 'Enumeration field' > name 'Gender' > add Values
+8. 	Add an 'Enumeration field' named 'Gender' and define its values.
 ![img of adding enumeration field to product](/src/assets/cms/strapi/image-10.png)
 
-9. In Advanced settings > Set Default Value > Unisex
+9. Configure the advanced settings for the 'Gender' field by setting a default value, such as 'Unisex'.
 ![img of adding default value to product](/src/assets/cms/strapi/image-11.png)
 
-10. Add 'Media' field > name Image > Type: Multiple media
+10. Include a 'Media' field named 'Image' with the type 'Multiple media'.
 ![img of adding media field to product ](/src/assets/cms/strapi/image-12.png)
 
-11. In 'Advanced settings' > select allowed types of media 
+11. Specify the allowed types of media in the 'Advanced settings' for the 'Image' field.
 ![img of selecting allowed media type to product](/src/assets/cms/strapi/image-13.png)
 
-12. Add 'number' field > Name 'price' > Number format 'decimal'
+12. Add a 'Number' field named 'Price' with the number format set to 'Decimal'.
 ![img of adding number field and price format to product](/src/assets/cms/strapi/image-14.png)
 
-13.	Save the collection type, and Strapi will save and refresh the server. 
+13.	Once all fields are configured, save the collection type. Strapi will automatically save and refresh the server.
 ![img of saving collection type](/src/assets/cms/strapi/image-15.png)
-On the Strapi Dashboard, go to 'Content Manager' > 'Collection Types' > 'product'
 
-#### Creating products using Custom Set Fields
-1. 	We are now going to create the products using our custom set fields.
-Create a new entry > 'Create new entry'
+14. To access the newly created collection type, navigate to 'Content Manager' > 'Collection Types' > 'product' on the Strapi Dashboard.
+
+#### Creating products with Custom Fields
+1. Now, let's proceed to create products using our custom set fields.
+Create a new entry by selecting 'Create new entry'.
+
+2. Fill in the required fields such as name(*), description, gender, price, and image. Don't forget to add Alternative text for the image.
 ![Alt text](/src/assets/cms/strapi/image-16.png)
-	Insert name(*), descrition, gender, price and image. Remember to add Alternative text 
 
-2. 	Now we have created our products with id, name, description, gender, price and image ready to be fetched, rendered and displayed on the frontend using react 
+3. 	Once all product details are entered, proceed to save the entry.
 ![Alt text](/src/assets/cms/strapi/image-17.png)
 
-3. When we created a new 'Content-type' for our products, Strapi created that endpoint to access into our backend project and generated our 'product' folder inside the api-folder. Here we can find the config folder containing our routes file
+3. Upon creating a new 'Content-type' for our products, Strapi automatically generates corresponding endpoints in our backend project. These endpoints are located within the 'product' folder inside the 'api' directory. Additionally, you can find the configuration file for these routes in the 'config' folder.
 
 ### Testing the endpoints in Postman
-Using Postman as the frontend
-Postman (insert more info about Postman)
-Free tool to test restful API endpoints. 
+Postman is a versatile tool used for testing RESTful API endpoints. In this section, we will utilize Postman as our frontend to interact with the API endpoints generated by our backend in Strapi. We'll create an authenticated user role in Strapi and use token-based access generated in Postman to perform CRUD operations. This will allow us to test the functionality of our endpoints effectively.
 
-1. 	Create a new collection, in this example we will name the collection 'ShoeDays' > create a New HTTP request 
+1. 	Begin by creating a new collection in Postman. For this example, let's name the collection 'ShoeDays' and create a New HTTP request.
 ![img of creating a new collection in Postman](/src/assets/cms/strapi/image-18.png)
 
-2. 	Send a GET request to http://localhost:1337/product . You will receive a 403 error. This because Strapi automatically protects content-types from public
+2. 	Send a GET request to http://localhost:1337/product. You may receive a 403 error initially because Strapi automatically protects content-types from public access.
 ![img of receiving a 403 error after sending a GET request](/src/assets/cms/strapi/image-19.png)
 
-3. 	Save the request as 'all products' in a collection folder named ex. strapi
+3. 	Save the request as 'all products' within a collection folder named 'Strapi'.
 ![img of saving the GET request in a strapi folder](/src/assets/cms/strapi/image-20.png)
 
-4. 	Now we need to get access to the content-type product endpoints. Go back to strapi dashboard > General > Settings > Users & Permissions Plugin > Roles 
+4. 	To gain access to the product endpoints, navigate back to the Strapi dashboard and go to General > Settings > Users & Permissions Plugin > Roles.
 ![img of setting roles in Strapi](/src/assets/cms/strapi/image-21.png)
 
-5. Under 'Permissions' we want to make accessible when making a request. By default the data that is not checked will return error when fetching from the frontend. 
-Check the boxes: 
-- 'find': makes unauthorized/unauthenticated users able to make a request to get a list of all the products (/products)
-'findOne': makes unauthorized/unauthenticated users able to make a request to get a single product (/:id) 
+5. Under 'Permissions', ensure that 'find' and 'findOne' are checked to grant unauthorized/unauthenticated users access to fetch data. 
 ![img of checking the boxes find and findOne](/src/assets/cms/strapi/image-22.png)
 
-6. 	Return to Postman:
-	Click send and you will get all the products in the json response
+6. 	Return to Postman and resend the request. You should now receive a JSON response containing all products.
 ![img of returning json response in Postman](/src/assets/cms/strapi/image-23.png)
 
 7. 	To get the single product, we need to get it by its :id
@@ -252,45 +253,36 @@ Save the request in the 'Strapi' collection as 'single product'
 
 #### 	Using Postman as frontend to test authenticated requests
 
-By default Strapi does not allow unauthicated/unauthorized users to fetch CREATE, PUT and DELETE requests, this has to be manually set in Strapi. 
+By default, Strapi restricts unauthorized users from performing CREATE, PUT, and DELETE requests. Let's set up authentication in Strapi and test authenticated requests using Postman. As this project is focused on showcasing the functionality of a authenticated role within the system, we will not create additional roles, such as typical buyer roles, since the scope of this project is limited.
 	
-  1. In Strapi go to Settings > Users & Permissions plugin > Roles > Authenticated > Permissions > Product and click 'Select all"
+  1. In Strapi, navigate to Settings > Users & Permissions Plugin > Roles > Authenticated > Permissions > Product. Select all options to grant permissions.
 ![img of selecting all options for Roles permissions in Strapi](/src/assets/cms/strapi/image-25.png)
 
-2. 	Settings > roles > + Add new role
+2. 	Create a new role by clicking on '+ Add new role' in the Roles section.
 ![img of setting new role in Strapi](/src/assets/cms/strapi/image-26.png)
 
-3. 	Create a new role ex 'auth' for in this case the "authenticated users can CRUD and publish content", meaning in this project we are only creating a user equal to a seller that can
-create, read, update, delete and publish products. In this project I will not create a typical registration form for users equal to buyers as this project is limited. 
+3. 	Create a role named 'auth' for authenticated users, allowing them to CRUD and publish content.
 ![img of creating a auth role in Strapi](/src/assets/cms/strapi/image-27.png)
 
-4. 	To authenticate as the auth role we need to create a user on strapi and test that user on the front end in Postman
-In the Strapi Dashboard under Content-manager > Collection types > User we will create a new entry   
+4. Create a new user in Strapi under Content-manager > Collection types > User. Ensure to set the role as 'Authenticated' and confirm the user. 
 ![img of creating a new entry in Strapi](/src/assets/cms/strapi/image-28.png)
 
-5. 	Create an entry by setting username, email and password. To let the admin access the CRUD confirmed must be set to 'true', and role to 'Authenticated'.
+5. 	Save the request in the 'Strapi' collection folder.
 ![img of setting default values to role in Strapi](/src/assets/cms/strapi/image-29.png)
 
-6. To test if the user has permission to delete a product, we will test it using Postman as the frontend. 
-Log the admin user from the frontend by sending a request to a specific authenticated endpoint from strapi
-In Postman > Create a new HTTP GET request > http://localhost:1337/api/auth/local
-	
-The username and password needs to be sent in the request body > raw > json so strapi can authenticate the admin user
+6. Log in to Postman as the admin user by sending a request to the authenticated endpoint (ex, http://localhost:1337/api/auth/local) with the username and password included in the request body.
 ![img of setting id and password in raw JSON in Postman](/src/assets/cms/strapi/image-30.png)
 
-7. 	Save the request in the 'Strapi' collection folder
+7. 	Save the request in the 'Strapi' collection folder.
 ![img of saving the request as admin in Postman](/src/assets/cms/strapi/image-31.png)
 
-8. 	When sending this request we receive a response from strapi with details from the admin user that is logged in:
-JWT > lets strapi authenticate the user on the backend using the json web token > the user is allowed to CRUD
-User id, username, email 
+8. 	Upon sending the request, you will receive a JWT token in the response, allowing you to authenticate as the admin user for CRUD operations.
 ![img of receiving the jwt as response in Postman](/src/assets/cms/strapi/image-32.png)
 
-9. Testing the authentication with jwt token
-Create a new HTTP DELETE request to a single product by it's id > http://localhost:1337/api/products/1 
-Set 'Auth' > 'Type' dropdown menu > 'Bearer Token' > paste the jwt token in 'Token' and send request
+9. Test authentication by creating a new HTTP DELETE request to a single product by it's id > http://localhost:1337/api/products/1. Set the authentication type to 'Bearer Token' and paste the JWT token in the Token field.
 ![img of inserting token and receiving data](/src/assets/cms/strapi/image-33.png)
-You will now have access as the auth role to display and edit the products by CRUD. 
+
+10. You can now access and manage products through authenticated requests using Postman.
 
 
 
@@ -324,11 +316,17 @@ A few notes on how to use this API:
 
 ## Summary
 
-This article has covered one of the many possible ways of getting started with Strapi APIs. This service is one of the most popular choices among developers who wish to create and maintain their APIs without necessarily resorting to in-depth knowledge on backend technologies. Ease of use has made Strapi a sensible alternative for developers who wish to work with headless CMS projects -- without having to rely on legacy platforms like Wordpress. This article has only served as an introduction to the topic, however. There is, of course, a lot more to explore and discover. It is very likely that, sooner or later, you will encounter Strapi APIs in your future projects.
+This article has covered one of the many possible ways of getting started with Strapi APIs. This service is one of the most popular choices among developers who wish to create and maintain their APIs without necessarily resorting to in-depth knowledge on backend technologies. Ease of use has made Strapi a sensible alternative for developers who wish to work with headless CMS projects -- without having to rely on legacy platforms like Wordpress. 
+
+This article has also provided a simple walkthrough of one of many potential pathways for getting started with Strapi. Throughout the walkthroughs, readers were guided through the process of setting up Strapi, creating custom content types, and testing endpoints using Postman. Strapi's user-friendly interface and flexibility make it an attractive option for developers seeking to create and maintain APIs without extensive backend knowledge, particularly for headless CMS projects. 
+
+This article has only served as an introduction to the topic, however. There is, of course, a lot more to explore and discover. It is very likely that, sooner or later, you will encounter Strapi APIs in your future projects.
 
 ## Credits
 
 Henri Kugler ([@NehGuk](https://github.com/NehGuk))
+
+Karen Jo Fiksdahl ([@KarenJoo](https://github.com/KarenJoo))
 
 ## References
 
