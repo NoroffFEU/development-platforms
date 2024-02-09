@@ -8,7 +8,7 @@ tags: sanity, case study, development platforms, CMS
 
 ## Authors
 
-- Ana Cascante:
+- Ana Cascante:[AnaCascante](https://github.com/AnaCascante)
 - Eirik Kirkeli:
 - Pablo Garza: [Pgarza-dev](https://github.com/Pgarza-dev)
 
