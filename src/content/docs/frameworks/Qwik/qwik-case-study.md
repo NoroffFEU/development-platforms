@@ -199,8 +199,7 @@ While Qwik focuses on Component API, Qwik City contains API to support the compo
 - [env variables](https://qwik.dev/docs/env-variables/): API to manage reading environment variables, commonly used for keys, in a platform-independent way.
 - Supports both Server Side Rendering (SSR) for fully dynamic sites as well as Static Site Generation (SSG) to be hosted on static web servers and CDNs.
 
-###### Qwik City is also being called a <i>meta-framework</i> for Qwik.
-###### It is to Qwik, what [Next.js](https://nextjs.org/) is to React, what [Nuxt](https://nuxt.com/) is to Vue, [SvelteKit](https://kit.svelte.dev/) to Svelte and [Analog](https://analogjs.org/) is to Angular.
+##### Qwik City is also being called a <i>meta-framework</i> for Qwik. It is to Qwik, what [Next.js](https://nextjs.org/) is to React, what [Nuxt](https://nuxt.com/) is to Vue, [SvelteKit](https://kit.svelte.dev/) to Svelte and [Analog](https://analogjs.org/) is to Angular.
 
 ## Conclusion
 
