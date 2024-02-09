@@ -1,7 +1,7 @@
 ---
 title: Strapi
-keywords: development platforms, cms, strapi
-tags: development platforms, cms, strapi
+keywords: development platforms, cms, strapi, postman, API
+tags: development platforms, cms, strapi, postman, API
 ---
 
 ## Introduction
