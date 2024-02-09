@@ -8,7 +8,6 @@ tags: Development Platforms, Flutter, Framework, open source, applications
 
 ![c823e53b3a1a7b0d36a9](https://github.com/Miksel90/development-platforms/assets/113434165/a4622638-22ee-4e8e-a7c8-ae86b5a8f8c0)
 
-
 ## Introduction
 
 Originally from Google's technology labs, Flutter emerges as a dynamic and open-source framework. Aimed at developers focused on front-end development, it offers a comprehensive toolkit designed for designing an application's user interface, utilizing a single codebase. Since its launch in 2018, Flutter has significantly evolved beyond its original mobile orientation, extending its capabilities to support application development across six different platforms. This includes the landscapes of iOS and Android, as well as applications for the web, Windows, macOS, and Linux. As such, Flutter represents a versatile tool that inspires a wide-ranging coding.
@@ -151,8 +150,44 @@ At the moment it is for Windows only:
 - [A complete guide to Flutter architecture (2022)](https://blog.logrocket.com/complete-guide-flutter-architecture)
 - [Flutter: Advantages, Disadvantages and Future Scopes (2023)](https://www.geeksforgeeks.org/flutter-advantages-disadvantages-and-future-scopes/)
 - [When Not to Use Flutter: Complete List of Cases (2024)](https://blog.flutter.wtf/when-not-to-use-flutter)
+- [Flutter documentation](https://docs.flutter.dev/)
 
 ## Tools
+
+- **Flutter SDK**
+
+  The Flutter SDK contains everything you need to build apps with Flutter, including the Dart SDK. It's regularly updated, so ensure you have the latest version.
+
+  - [Flutter SDK documentation](https://docs.flutter.dev/get-started/install)
+
+- **IDE**
+
+  While you can use any text editor to write Flutter apps, integrated development environments like Android Studio, IntelliJ, or Visual Studio Code are recommended for their Flutter and Dart plugins, which offer code completion, widget editing assists, run & debug support.
+
+  - [Android Studio download](https://developer.android.com/studio)
+  - [IntelliJ download](https://www.jetbrains.com/idea/download/?section=windows)
+  - [Visual Studio Code download](https://code.visualstudio.com/download)
+
+- **Android SDK**
+
+  The Android SDK provides the necessary tools to build, test, and debug apps for Android.
+  The easiest way to install the Android SDK is by installing Android Studio. During the installation, ensure you select the option to install the Android SDK and Android Studio IDE will manage the SDK versions for you.
+  You can download the command-line tools from the Android developer site and manage the SDK installations manually.
+
+- **Dart Plugin**
+
+  For syntax highlighting, code analysis, and more, ensure you have the Dart plugin installed in your IDE.
+
+- **Flutter Plugin**
+
+  Installs the Flutter-specific additions to your IDE, enabling Flutter Doctor, Flutter-specific code completion, widget editing assists.
+  For VSC the Flutter plugin will also install Dart.
+
+- **Compatible Devices**
+
+  - An Android or iOS device for running and testing your app. You can also use an emulator or simulator.
+  - Have Android Studio installed to use the Android Emulator.
+  - Use a web browser of your choice to run and debug web applications.
 
 ## Credits
 
