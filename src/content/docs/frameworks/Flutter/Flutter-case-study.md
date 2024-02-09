@@ -122,7 +122,6 @@ This study provides an overview of Flutter, a framework developed by Google for 
 
 Flutter uses Dart, an open-source language also developed by Google, known for its efficiency and ease of learning. Dart's architecture supports both Just-In-Time and Ahead-of-Time compilation, facilitating faster development cycles and efficient production environments.
 
-The study goes into the architecture of Flutter, emphasizing its widget-based design where everything, from buttons to layout, is a widget.
 
 Strengths of Flutter include its fast coding capabilities, and its ability to produce apps that feel native to both Android and iOS from a single codebase. Flutter's comprehensive toolkit and the backing by Google have contributed to its popularity among developers.
 
