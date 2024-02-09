@@ -100,7 +100,7 @@ As seen in the table, Qwik has a retention rate of 85% in 2022, which is impress
 And looking at the usage in 2022, Qwik has a 2% usage rate, which is also impressive for a framework that was released only two years ago.
 
 <img src="/public/qwik-vs-others.png" alt="Qwik versus other frameworks">
-(Screenshot from Manu Martinez-Almeida'S - <a href="https://www.youtube.com/watch?v=bvSlEweRyjE&list=PLq_6N4Z1G7mSAh_v9jfVUcu_R1vOM5Nob" title="See the full video on youtube" target="_blank">Qwik: Performance is a Human Design Issue | ViteConf 2023</a>)
+(Screenshot from Manu Martinez-Almeida's - <a href="https://www.youtube.com/watch?v=bvSlEweRyjE&list=PLq_6N4Z1G7mSAh_v9jfVUcu_R1vOM5Nob" title="See the full video on youtube" target="_blank">Qwik: Performance is a Human Design Issue | ViteConf 2023</a>)
 
 The bigger and more complex the app or site, the more JS is shipped to the client.
 Qwik is designed to address this problem by shipping only the necessary code to the client, resulting in faster load times and better performance.
@@ -132,7 +132,7 @@ Knowledge of modern web development concepts is beneficial, but not mandatory.
 To get started with Qwik locally, you need the following:
 
 - [Node.js v16.8](https://nodejs.org/en/download/) or higher
-- Your favourite IDE ([vscode](https://code.visualstudio.com/) recommended)
+- Your favourite IDE ([VS Code](https://code.visualstudio.com/) recommended)
 
 #### Installation and setup:
 
@@ -199,7 +199,8 @@ While Qwik focuses on Component API, Qwik City contains API to support the compo
 - [env variables](https://qwik.dev/docs/env-variables/): API to manage reading environment variables, commonly used for keys, in a platform-independent way.
 - Supports both Server Side Rendering (SSR) for fully dynamic sites as well as Static Site Generation (SSG) to be hosted on static web servers and CDNs.
 
-###### Qwik City is also being called a <i>meta-framework</i> for Qwik. It is to Qwik, what [Next.js](https://nextjs.org/) is to React, what [Nuxt](https://nuxt.com/) is to Vue, [SvelteKit](https://kit.svelte.dev/) to Svelte and [Analog](https://analogjs.org/) is to Angular.
+###### Qwik City is also being called a <i>meta-framework</i> for Qwik.
+###### It is to Qwik, what [Next.js](https://nextjs.org/) is to React, what [Nuxt](https://nuxt.com/) is to Vue, [SvelteKit](https://kit.svelte.dev/) to Svelte and [Analog](https://analogjs.org/) is to Angular.
 
 ## Conclusion
 
@@ -221,4 +222,4 @@ A 20m 44s video by Manu Martinez-Almeida from ViteConf 2023
 - [A first look at Qwik - the HTML-first framework](https://www.builder.io/blog/introducing-qwik-framework)
 - [Qwik Framework Deep-Dive Full Course with Misko Hevery](https://www.youtube.com/watch?v=dc6mUwXnyqE) A 3hr 20 min deep dive into Qwik with Misko Hevery (The Creator of Angular and now Qwik)
 
-Rune Unhjem on [GitHub](https://github.com/runeunhjem), Published: 2024-02-16
+Rune Unhjem on [GitHub](https://github.com/runeunhjem) | Published: 2024-02-16
