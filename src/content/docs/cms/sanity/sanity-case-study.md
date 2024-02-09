@@ -124,6 +124,8 @@ In the world of CMS there is a vast amount of options. Each with unique features
    - Import your schema in `schemas/index.js`.
    - Save and run command `npm run dev` and open in [http://localhost:3333](http://localhost:3333).
 
+   ![preview image of sanity studio layout](images/sanity-studio-layout.png)
+
 4. **View Your Content**
 
    - View your content by clicking on the three-dotted menu in the upper right corner of the documentation form.
@@ -139,7 +141,9 @@ In the world of CMS there is a vast amount of options. Each with unique features
 
 1. **Finding Your Project ID and Dataset Name**
 
-   - To fetch your data you will need your PROJECT ID and DATASET NAME. You can find these via [sanity.io/manage](sanity.io/manage).
+![preview of project ID location](images/sanity-projectID.jpg)
+
+- To fetch your data you will need your PROJECT ID and DATASET NAME. You can find these via [sanity.io/manage](sanity.io/manage).
 
 2. **Connecting with HTML & JavaScript**
 
@@ -147,8 +151,10 @@ In the world of CMS there is a vast amount of options. Each with unique features
 
 3. **Adding Your URL to the Cross-Origins Resource Sharing (CORS) Settings**
 
-   - Add the URL from Codesandbox in the preview pane i.e., `https://[RANDOMLY_GENERATED_LETTERS].csb.app/`.
-   - In [sanity](https://www.sanity.io/manage) go to the API tab in project settings and then to _CORS Origins_ paste the URL from Codesandbox into the URL field, and hit save (you don’t need to “Allow credentials”).
+![preview of CORS input field](images/sanity-cors-origins.jpg)
+
+- Add the URL from Codesandbox in the preview pane i.e., `https://[RANDOMLY_GENERATED_LETTERS].csb.app/`.
+- In [sanity](https://www.sanity.io/manage) go to the API tab in project settings and then to _CORS Origins_ paste the URL from Codesandbox into the URL field, and hit save (you don’t need to “Allow credentials”).
 
 4. **Prepare Your Query and API URL**
 
@@ -300,6 +306,8 @@ In the world of CMS there is a vast amount of options. Each with unique features
 - If not logged into sanity.io, you will be prompted to log in using the same credentials you used to create your sanity profile.
 
 ## CREATE A NEW DOCUMENT TYPE
+
+![preview of create new document icon](images/sanity-create-document-type.jpg)
 
 - In the Studio, click on the “+” button in the left-hand sidebar to create a new document type.
 - Name the document type “Pet”.
