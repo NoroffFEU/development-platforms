@@ -156,6 +156,28 @@ SQL injection attacks are a common threat to any application interfacing with da
 - **Regular Backups:** Maintain regular backups of the database to prevent data loss from corruption, hardware failures, or security breaches.
 - **Audit Trails:** Keep detailed logs of database access and changes. Audit trails can help in detecting unauthorized access and understanding the impact of any security incidents.
 
+## Advanced Features of SQLite
+
+SQLite is not only a lightweight and easy-to-use database management system but also supports a range of advanced features that extend its capabilities far beyond basic data storage. This section explores some of these advanced features, including full-text search, window functions, and the JSON1 extension, providing readers with a deeper understanding of what SQLite is capable of.
+
+### Full-Text Search (FTS)
+
+SQLite offers an optional full-text search (FTS) module that allows users to perform complex queries against text data. These queries can include words or phrases, prefix searches, and even natural language processing. FTS is incredibly useful for applications that require efficient search capabilities over large text datasets, such as document stores, email clients, or any application with a search feature for textual data.
+
+- **FTS5:** The latest version of the full-text search module, FTS5, provides several improvements over its predecessors, including enhanced performance, more flexible querying syntax, and the ability to customize the tokenizer.
+
+### Window Functions
+
+Window functions are a powerful feature in SQL that allow users to perform calculations across a set of rows that are related to the current row. This is particularly useful for tasks that involve comparisons or aggregations across rows, such as calculating running totals, averages, or ranking data. SQLite's support for window functions, introduced in version 3.25.0, brings it in line with other major SQL databases, enabling more complex analytical queries.
+
+### JSON1 Extension
+
+The JSON1 extension adds comprehensive JSON support to SQLite, allowing users to store, query, and manipulate JSON data directly within the database. This feature is invaluable for applications that use JSON for data interchange or need to store semi-structured data. With the JSON1 extension, users can:
+
+- Store JSON data in its native format.
+- Use JSON functions to extract elements from JSON objects or arrays.
+- Transform data between JSON and tabular formats.
+
 ## How to Get Started with SQLite
 
 There are two ways to start working with the system:
