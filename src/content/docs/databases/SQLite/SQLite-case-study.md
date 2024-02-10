@@ -26,6 +26,46 @@ Thanks to the properties of SQLite, it is used:
 
 SQLite requires no administration and works on mobile devices, game consoles, TVs, drones, cameras, car multimedia systems, etc. The DBMS uses many programs: Firefox, Chrome, Safari, Skype, XnView, AIMP, Dropbox, Viber, and others.
 
+## SQLite Architecture
+
+SQLite is an embedded relational database, and its structure includes several key components.
+
+### Database File
+
+The entire SQLite database is stored in one file on disk. It has a .sqlite or .db extension and contains all the tables, indexes, schema, and data. It can be copied, moved, and backed up like a regular file.
+
+### Tables
+
+The database contains one or more tables that are used to store data. They are defined by a schema that includes column names, data types, and other restrictions.
+
+![SQLite Table Example](https://i.ibb.co/SsfRbyy/SQlite-2.webp)
+
+This example creates a Users table with three columns: ID, Name, and Age.
+
+### Columns
+
+Tables are made up of columns, each with its own name and data type. Columns are used to store specific attributes of data. In the example above, ID is a numeric column, and Name and Age are text and numeric columns, respectively.
+
+### Rows
+
+They appear beside the rows of data in the table. One entry contains the values for the skin section of the table. For example, an entry in the Users table might look like this:
+
+![SQLite Row Example](https://i.ibb.co/VjSg3PR/SQlite-3.webp)
+
+Each row in the table represents an individual user with a unique ID, name, and age.
+
+### Indexes
+
+SQLite allows you to create indexes to speed up data retrieval. These are special data structures that are stored in the database and allow you to quickly find records by certain columns. They are typically created on columns that are frequently used in search operations.
+
+### SQL Queries
+
+To work with data in SQLite, the SQL language (Structured Query Language) is used. Using SQL queries, you can perform operations of adding, changing, deleting, and selecting data from tables.
+
+### Transactions
+
+The database supports transactions, which allow a group of operations to be performed as a single unit. Transactions ensure data integrity and can be aborted if an error occurs.
+
 ## How SQLite Works
 
 Most DBMSs use a client-server architecture: data is stored and processed on the server, and queries are sent to it by the client. The “client” is the part of the program with which the user interacts. A “server” can be a separate process on the same computer (the so-called daemon), or a third-party device, as is the case with websites.
