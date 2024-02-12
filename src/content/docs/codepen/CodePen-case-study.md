@@ -4,6 +4,10 @@ author: Annette Bjørk <Queenen>
 tags: codepen, case study, web development
 ---
 
+
+![CodePen Logo](https://i.ibb.co/bFVgb9C/codepen-wordmark-display-inside-white-10x.png)
+
+
 ## Introduction
 
 CodePen is an online platform that enables users to share, experiment with, and demonstrate HTML, CSS, and JavaScript code snippets. It serves as a dynamic playground for developers, designers, and learners to explore new concepts, collaborate with peers, and showcase their creations. Projects on CodePen are openly available for viewing, modifying, and drawing inspiration, fostering an environment ripe for interaction through likes, comments, and remixes. This platform caters to a broad spectrum of needs, from concept testing and debugging to portfolio and resume presentation, boasting a substantial global user base that epitomizes a community where innovation and cooperation thrive.
@@ -28,6 +32,8 @@ CodePen is an online platform that enables users to share, experiment with, and 
 | Preprocessor Support | Supports popular preprocessors like Sass, LESS, and Babel, optimizing development workflows.                   |
 | Collections          | Permits users to organize Pens into thematic collections for streamlined access and display.                   |
 | Embedding            | Provides embedding options for Pens, Projects, or Collections, enriching content with interactive elements.    |
+
+![CodePen Interface](https://assets.codepen.io/t-1/project-editor-with-search_1.png?width=1800&format=auto&quality=96)
 
 ## Market Comparison
 
@@ -61,10 +67,13 @@ CodePen serves as a multifaceted platform for developers at every level, offerin
 > 
 - Pierre F.
 
+## Conclusion
 
-## Future Outlook and Trends
+CodePen has grown a lot since it started in 2012, becoming a key place for web developers, designers, and learners to share and test their ideas. It's known for its friendly community, easy-to-use tools, and support for the latest web technologies. Over the years, CodePen has added cool features like the Embed Editor and a new homepage layout to make finding and sharing work even easier.
 
-As web development continuously evolves, CodePen is well-positioned to lead, adapting to emerging technologies and user needs. Its commitment to enhancing the user experience and fostering a supportive community indicates a promising future for this platform.
+Stories from people like Josh Rutherford and Francesca Costa show how CodePen can help turn a hobby into a career by letting users showcase their skills. Feedback from the CodePen community highlights how much people love using the site for everything from quick tests to big projects.
+
+Looking to the future, CodePen is ready to keep growing and adapting. As new web technologies emerge, CodePen plans to keep making its platform better for everyone. With its focus on a great user experience and a supportive community, CodePen is set to stay at the top of the game for web development.
 
 ## References
 
