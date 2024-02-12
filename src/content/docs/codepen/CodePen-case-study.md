@@ -51,15 +51,15 @@ CodePen serves as a multifaceted platform for developers at every level, offerin
 
 > "A must-have for any front-end developer. CodePen enables quick concept creation for projects and skill practice. It supports frameworks like React and tools such as Pug and Sass. The community is also a great source of inspiration for creative CSS projects!" 
 > 
-> - William Addens
+- William Addens
 
 > "CodePen is awesome. It's an essential tool for any front-end developer, allowing the testing of concepts and ideas before implementation in a live environment."
 > 
-> - Alan
+ - Alan
 
 > "An excellent platform. I've created more than 70 pens to date, with one surpassing 110,000 views! It's a real playground for testing all kinds of code snippets. Thanks, CodePen ^^" 
 > 
-> - Pierre F.
+- Pierre F.
 
 
 ## Future Outlook and Trends
