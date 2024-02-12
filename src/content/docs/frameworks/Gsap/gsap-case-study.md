@@ -22,7 +22,7 @@ GSAP offers a versatile set of features that often make it a preferred choice fo
 Tweening is a technique for creating smooth transitions between two keyframes by creating  intermediate frames between two defined states of an object or element. 
 
 **- Timeline:** 
-Timeline is a tool that let's the user control multiple tweens in a sequence, specifying when each animation should start and its duration. 
+Timeline is a tool that lets the user control multiple tweens in a sequence, specifying when each animation should start and its duration. 
 
 **- Easing:**
 GSAP has a variety of easing functions. Easing controls the acceleration and deceleration of an animation over time, allowing the user to add smoothness and a more natural flow of motion.
@@ -48,7 +48,7 @@ The gsap.matchMedia() feature allows users to create responsive and accessible a
 
 ## GSAP vs Framer Motion
 
-Framer motion is a react based animation library. When it comes to choosing the right animation library, GSAP and Framer Motion stand out as popular choices for developers. Let's compare these two libraries based on some important factors:
+Framer motion is a react based animation library. When it comes to choosing the right animation library, GSAP and Framer Motion stand out as popular choices for developers. Lets compare these two libraries based on some important factors:
 
 #### Framework support
 
@@ -122,7 +122,7 @@ In conclusion, the choice between GSAP and Framer Motion comes down to the proje
 
 ## Plugins
 
-One of the main features of GSAP is it's library of plugins. A plugin extends the capabilities of GSAP's core, allowing the core library to maintain a relatively small size. It also let's developers only use these features when they are needed. Some of the plugins are only accessible with a paid membership. 
+One of the main features of GSAP is it's library of plugins. A plugin extends the capabilities of GSAP's core, allowing the core library to maintain a relatively small size. It also lets developers only use these features when they are needed. Some of the plugins are only accessible with a paid membership. 
 
 Some of the plugins are:
 
@@ -149,7 +149,7 @@ GSAP can be installed in your project various methods. Here's how to install it 
 Simply put the CDN link in a script tag in your HTML file. This method is quick and convenient for smaller projects that doesn't rely on many plugins. 
 
 ```
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 
 ```
 
@@ -164,7 +164,7 @@ If you wanted to add the scrollTrigger plugin you would add a second script tag 
 
 #### npm
 
-Open your terminal and run the following command:
+Open your terminal in your project directory and run the following command:
 
 ```
 npm install gsap
