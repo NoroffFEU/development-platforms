@@ -21,6 +21,7 @@ export default defineConfig({
         { label: "Amazon", collapsed: true, autogenerate: { directory: "amazon" } },
         { label: "BaaS", collapsed: true, autogenerate: { directory: "baas" } },
         { label: "CMS", collapsed: true, autogenerate: { directory: "cms" } },
+        { label: "CDN", collapsed: true, autogenerate: { directory: "cdn" } },
         { label: "Databases", collapsed: true, autogenerate: { directory: "databases" } },
         { label: "Development Tools", collapsed: true, autogenerate: { directory: "devtools" } },
         { label: "Frameworks & Other tools", collapsed: true, autogenerate: { directory: "frameworks" } },
