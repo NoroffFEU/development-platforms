@@ -1,7 +1,16 @@
 ---
-title: Comparing databases: MySQL, MongoDB, Redis
-keywords: Development Platforms, Case Study, Database 
-tags: Relational database, NoSQL, In-memory, MySQL, MongoDB, Redis
+title: "Comparing databases: MySQL, MongoDB, Redis"
+keywords:
+  - Development Platforms
+  - Case Study
+  - Database
+tags:
+  - Relational database
+  - NoSQL
+  - In-memory
+  - MySQL
+  - MongoDB
+  - Redis
 ---
 
 ## Introduction
