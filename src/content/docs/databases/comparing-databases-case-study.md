@@ -6,7 +6,9 @@ tags: Relational database, NoSQL, In-memory, MySQL, MongoDB, Redis, Open-source
 
 ## Introduction
 
-Managing databases, selecting the appropriate system is pivotal for efficient data handling. This document provides a succinct analysis of MySQL, MongoDB, and Redis, highlighting crucial factors such as data model, scalability, and performance. By thoroughly evaluating their respective strengths and limitations, stakeholders can make decisions tailored to the requirements of their projects.
+Database Management Systems (DBMS) play a vital role in modern information technology by organising and managing structured data efficiently. In this document we will learn about fundamental concepts such as what database is, ACID properties, different types of databases like relational, NoSQL, and in-memory databases.
+
+Comparing different data stores like MySQL, MongoDB, and Redis focusing on key aspects such as data model, scalability, and performance, which play a crucial part in effective data management. By understanding the strengths and weaknesses of each, stakeholders can make informed decisions, ensuring smooth operations and optimal performance for their projects.
 
 ## Main Features
 
