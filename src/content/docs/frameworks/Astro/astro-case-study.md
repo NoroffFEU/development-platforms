@@ -9,11 +9,11 @@ tags: astro, javascript framework, component-based, static site generation
 In an ever evolving industry that is web development, several innovative frameworks has seen the light of day with a mission to improve performance optimization without compromising on user experience and developer convenience. Among these is Astro, which version 1.0 released in May 2022 and already stands out as a revolutionary front-runner. Astro is developed with the modern web in mind and introduces a unique approach to building fast and efficient websites that is also developer friendly. At its core, Astro has a component based architecture, similar to other popular frameworks like React and
 Vue.js, yet it differs in its concept of partial hydration, a techique that dramatically reduces the amount of JavaScript sent to the browser. Astro renders its components to static HTML at build time, which ensures very fast load times.
 
-This case study delves into Astros features, its potential impact on the future of web development and how it balances speed, functionality and ease of use by positioning itself as a front-runner in the next generation of web development tools.
+This case study looks into Astros features, its potential impact on the future of web development and how it balances performance, functionality and ease of use by positioning itself as a front-runner in the next generation of web development tools.
 
 ## Brief History
 
-- **February 2021:** Astro is publicly announced and released in its first beta version. The release introduces the idea of a static site generator (SSG) with a focus on performance and partial hydration (reducing amount of JS sent to the browser).
+- **February 2021:** Astro is publicly announced and released in its first beta version. The release introduces the idea of a static site generator with a focus on performance and partial hydration (reducing amount of JS sent to the browser).
 
 - **November 2021:** Astro v0.21 is released which included improved build optimizations, enhanced CSS and image handling and more support for component frameworks.
 
@@ -99,7 +99,7 @@ Below is a comparison between Astro and Next.js, what their advantages and disad
 
 #### Summary
 
-Both Astro and Next.js offers great features for web development, but they cater to slightly different niches. If you are looking into making a mostly static site like a blog or portfolio where performance is crucial, Astro is a great fantastic choice. On the other hand, if you want a more dynamic web application backed by a robust ecosystem and community support, Next.js offers a more built-in solution for building your desired web application. The choice between these two frameworks comes down to specific project requirements, performance priorities and developer preferences.
+Both Astro and Next.js offers great features for web development, but they cater to slightly different niches. If you are looking into making a mostly static site like a blog or portfolio where performance is crucial, Astro is a great choice. On the other hand, if you want a more dynamic web application backed by a robust ecosystem and community support, Next.js offers a more built-in solution for building your desired web application. The choice between these two frameworks comes down to specific project requirements, performance priorities and developer preferences.
 
 ### Cloud-based vs. Self-hosted
 
@@ -138,7 +138,7 @@ Next, `cd` into your new project directory to begin using Astro. Make sure to in
 
 #### Project Structure
 
-Take a moment to explore the structure of your new Astro project. You will find multiple directories and files as described below:
+This is the structure of your new Astro project. You will find multiple directories and files as described below:
 
 - `src/` Contains your project's source code.
 - `src/pages/` Your website's pages. Astro uses these files to generate your site.
