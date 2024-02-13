@@ -14,8 +14,11 @@ This case study delves into Astros features, its potential impact on the future 
 ## Brief History
 
 - **February 2021:** Astro is publicly announced and released in its first beta version. The release introduces the idea of a static site generator (SSG) with a focus on performance and partial hydration (reducing amount of JS sent to the browser).
+
 - **November 2021:** Astro v0.21 is released which included improved build optimizations, enhanced CSS and image handling and more support for component frameworks.
+
 - **May 2022:** Astro reaches an important milestone with the release of v1.0. This major release solidified its core features and offered enhanced stability, better performance and even better developer convencience.
+
 - **2024:** Astro has a continued development and community growth and it keeps evolving with regular updates, solidifying its position in the world of web development.
 
 ## Main Features
@@ -45,9 +48,11 @@ Below is a comparison between Astro and Next.js, what their advantages and disad
 - **Astro**
 
   - **Built for performance:** Astro's architecture is optimized for delivering the fastest possible website by default. It does this with being a static site generator and with partial hydration (see Main Features for more info on partial hydration).
+
   - **Zero-JS by default:** Astro generates static sites with zero JavaScript on the initial load by default. This enhances load times and SEO.
 
 - **Next.js**
+
   - **Optimized for universal rendering:** While Next.js can produce highly optimized sites, its strength lies in server-side rendering and static site generation with automatic image optimization, code splitting and more. This, however, can lead to more JavaScript on the initial load compared to Astro's zero-JS by default.
 
 #### Developer Convenience and Flexibility
@@ -55,10 +60,13 @@ Below is a comparison between Astro and Next.js, what their advantages and disad
 - **Astro**
 
   - **Front-end agnostic:** One of Astro's primary features is its ability to use components from multiple frameworks like React, Vue.js and Svelte in the same project without the need to ship said frameworks' runtime in the browser. This flexibility allows developers to use their preferred framework components on one and the same project.
+
   - **Markdown support:** Astro has great support for Markdown, which allows developers to add dynamic components within Markdown files easily.
 
 - **Next.js**
+
   - **Built-in development environment:** Next.js offers a more integrated approach with a focus on React. It provides features like API routes which allows developers to build full-stack applications within the same project.
+
   - **"Fast refresh:** Next.js offers a great developer experience with features like fast refresh which makes it easier to develop and debug applications.
 
 #### Ecosystem and Community
@@ -66,10 +74,13 @@ Below is a comparison between Astro and Next.js, what their advantages and disad
 - **Astro**
 
   - **Growing ecosystem:** Although Astro's ecosystem is growing, it is still smaller compared to Next.js. This means it might be fewer resources, plugins etc. from the community.
+
   - **Active development:** Astro is under active development with new features and improvements being added frequently. The community is enthusiastic and growing, which bodes well for the framework's future.
 
 - **Next.js**
+
   - **Mature ecosystem:** Next.js has a large, mature ecosystem with an active community. There are a long list of resources, plugins etc. available which makes it easier to find solutions to potential issues or challenges.
+
   - **Backed by Vercel:** The framework is backed by Vercel which ensures active development and cloud deployment solutions. This provides a seamless deployment-to-deployment pipeline.
 
 #### Use Cases
@@ -77,10 +88,13 @@ Below is a comparison between Astro and Next.js, what their advantages and disad
 - **Astro**
 
   - **Ideal for static sites:** Astro is a great choice for projects where performance is important and the primary content is static. This includes blogs, portfolios, documentation sites etc.
+
   - **Learning resources:** Astro's documentation and learning resources are evolving despite already being pretty comprehensive. The framework is straightforward to pick up for developers familiar with JavaScript and component-based frameworks like React.
 
 - **Next.js**
+
   - **Versatile web applications:** Next.js is a robust solution for building just about any kind of web application from static sites to fully dynamic applications that require server-side rendering and API integration.
+
   - **Enterprise adoption:** With its mature ecosystem and large community, Next.js was a wide array of comprehensive features which makes it a good choice for many enterprise-level applications.
 
 #### Summary
@@ -94,10 +108,13 @@ Astro is a modern, open-source framework for building fast, static websites with
 - **Self-hosted (using Astro)**
 
   - **Advantages:** Full control over hosting environment. This can potentially lower costs and it provides more flexibility.
+
   - **Disadvantages:** Requires setup and maintenance of hosting infrastructure, which can increase its complexity.
 
 - **Cloud-based solutions (e.g. Vercel, Netlify)**
+
   - **Advantages:** Simplified deployment process with scalable infrastructure and build-in CI/CD pipelines.
+
   - **Disadvantages:** Less control over the hosting environment. This can potentially increase costs as it is scaled with usage.
 
 ## Getting Started with Astro
