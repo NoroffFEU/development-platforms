@@ -27,7 +27,15 @@ GitLab is available in different editions, including a free and open-source Comm
 
 ## Main Features
 
-GitLab does most of the things that we are already familiar with in other development platforms like GitHub, BitBucket and SourceForge just to mention a few. However, the key difference is that GitLab provides us with a set of tools that is tailored for [DevOps](https://about.gitlab.com/topics/devops/) development. These tools help efficiency in development and ensuring developers catch mistakes early. Some of the key features that GitLab provides are:
+One of GitLab's strengths lies in its ability to seamlessly integrate various stages of the development process, from planning and coding to testing and deployment. By providing a cohesive ecosystem of tools, GitLab empowers developers to work more efficiently and collaboratively. For instance, its robust version control system allows for smooth code management and collaboration, while its issue tracking and project management features facilitate organized and transparent development workflows.
+
+Moreover, GitLab's emphasis on automation and continuous integration/continuous deployment (CI/CD) further enhances development efficiency. By automating repetitive tasks and implementing CI/CD pipelines, GitLab helps developers catch errors early in the development cycle, enabling faster iteration and deployment of high-quality code.
+
+Additionally, GitLab's extensibility through integrations and customizable workflows enables teams to tailor the platform to their specific needs. Whether it's integrating with third-party tools or configuring custom automation scripts, GitLab provides flexibility to adapt to diverse development environments and requirements.
+
+In essence, while GitLab shares commonalities with other platforms, its specialized focus on DevOps and its suite of tailored tools make it a preferred choice for teams looking to streamline their development processes and deliver high-quality software efficiently. 
+
+These tools help efficiency in development and ensuring developers catch mistakes early. Some of the key features that GitLab provides are:
 
 
 | Feature | Description |
@@ -53,12 +61,16 @@ Let's take a look at some comparisons between GitLab and it's biggest counterpar
 | Issue Tracking | Integrated Kanban board, issue tracking and project management | Robust issue tracking and GitHub Projects for managing projects | 
 | Security Features | Security scanning, container scanning and code analysis | Dependency scanning, secret scanning and code scanning |
 | Container Registry | Integrated container registry in the platform for both [Docker](https://aws.amazon.com/docker/) images and other formats | Host and Manage [Docker](https://aws.amazon.com/docker/) images |
-| Community and Open Source | For Open Source projects and has a strong community | Large active community and it's widely used for open source |
+| Community and Open Source | For Open Source projects and has a smaller community | Large active community and it's widely used for open source |
 | User Interface | Feature rich and extensive, can be harder to learn | Clean, user-friendly and easy to use 
 
 ## Conclusion
 
-GitLab seems in every way like a more premium offering than competitors, it delivers a full suite of useful tools for the whole development process while still remaining free for the average open source user. Things like self-hosting and CI/CD tools makes it an easy choice for those seeking the DevOps development cycle. It does however not go without it's own set of downsides, like it's significantly slower UI, lack of some enterprise-level software development features and a steeper price tag for enterprises.
+GitLab stands out as a premier choice among its competitors, boasting a comprehensive suite of tools that cater to the entire development lifecycle. What sets GitLab apart is its commitment to providing robust features while maintaining accessibility, particularly for the open-source community. With capabilities ranging from self-hosting to powerful CI/CD tools, GitLab simplifies the adoption of DevOps practices, making it an intuitive choice for teams looking to streamline their development workflows.
+
+However, like any platform, GitLab isn't immune to shortcomings. Users may encounter frustrations with its slower user interface, which can impede productivity, especially in fast-paced development environments. Additionally, while GitLab offers an impressive array of features, some enterprise-level functionalities may be lacking, posing challenges for organizations with complex development needs. Moreover, for enterprises seeking comprehensive support and scalability, GitLab's pricing structure may present a significant investment.
+
+Despite these drawbacks, GitLab remains a top contender in the realm of collaborative software development, thanks to its balance of functionality, accessibility, and versatility. By continually addressing user feedback and enhancing its capabilities, GitLab maintains its position as a cornerstone tool for modern development teams.
 
 ## Author
 Sindre Strømsæther Derås ( [ESPR07](https://github.com/ESPR07) )
