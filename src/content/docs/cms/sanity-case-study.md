@@ -1,54 +1,40 @@
 ---
-title: Example Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+title: Sanity Case Study
+author: Andreas Yager <AndreasYager>
+tags: sanity, case study, development platform, cms
 ---
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+Sanity describe themselves as "a modern headless CMS (Content Management System). Sanity uses structured content to endlessly re-use content across any channel and a composable approach to help businesses connect to any third-party technology, data source, and front end framework."
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+
+- 2016: First round of funding
+- Nov 2017: Became publicly available 
+- Dec 2022: Sanity Studio V3 is released
+
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+- **Sanity Studio:** This is Sanity.io's content editing interface. It is open-source, allowing customization to suit different project requirements. It serves as a central hub for managing and structuring content efficiently, adaptable to various content management needs.
+- **Sanity API:** The API supports integration with a range of technologies, facilitating content synchronization and access. It's designed to enhance the efficiency of content usage across different platforms, supporting innovative content strategies.
+- **Content Lake:** Sanity.io stores content as structured JSON, which aids in easy retrieval and management. This feature is particularly useful for handling large volumes of content and ensuring consistent content delivery across multiple platforms.
 
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
+These features are aimed at addressing the challenges in content management, such as scalability, flexibility, and integration with various technologies, thereby offering a comprehensive solution for content creators and developers.
 
-Example feature table:
-
-| Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+While many headless CMS platforms offer similar core funcionalities of delivering scructed data in JSON format, they vary in regards to pricing, hosting, dev experience, and customizability. The choice of suitable CMS depends on personal preferences as well as project needs. Sanity prioritises flexiblity, scalability and customization. 
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+
+Sanity provides thorough documentation describing how to get started. The user may choose to follow a step-by-step guide, a video, or start with a template:
+
+(https://www.sanity.io/docs/getting-started-with-sanity)
 
 ## Conclusion
 
@@ -56,8 +42,8 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
+- www.sanity.io/docs/
+- www.sanity.io/blog/
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
