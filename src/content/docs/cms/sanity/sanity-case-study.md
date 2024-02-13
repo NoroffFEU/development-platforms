@@ -29,9 +29,7 @@ Over the years, the Sanity team has continued to improve and expand the platform
 
 ## About Sanity 
 
-
-
-[Sanity provides two APIs](https://www.sanity.io/docs/api-cdn):
+Sanity provides two APIs[Ref:1]:
 
 1.	api.sanity.io: the live, uncached API. This is the default and will always give you the freshest data, but requests will be slower because they need to reach our back end on every request. Requests are also more costly because they will trigger more computation on our servers.
 2.	apicdn.sanity.io: the CDN-distributed, cached API, which is an opt-in feature that will give you very fast responses to requests that have been cached. We encourage most users to use this API for their front-ends if you expose your API to end users. For static builds you are better off using the live uncached API, to always get the latest version.
@@ -39,11 +37,11 @@ To use the API CDN, simply use apicdn.sanity.io instead of api.sanity.io. Most c
 
 ### Increasing free resources in Sanity
 
-Today we can use [20 frameworks](https://www.sanity.io/exchange/frameworks), being React and Next.js the more popular.    
-You do not need to use php, Sanity uses [Groq](https://www.sanity.io/docs/groq) which is Sanity’s open-source query language.  It is possible to use graphQL if preferred. 
-When adding images to projects it’s possible to use the [image-url plugin](https://www.sanity.io/docs/image-type), a powerful pipeline that  can take care of resizing, storage, deletion. 
+Today we can use 20 frameworks[Ref.:2], being React and Next.js the more popular.    
+You do not need to use php, Sanity uses Groq[Ref.:3] which is Sanity’s open-source query language.  It is possible to use graphQL if preferred. 
+When adding images to projects it’s possible to use the image-url plugin[Ref.:4], a powerful pipeline that  can take care of resizing, storage, deletion. 
 
-The amount of plugins and tools is also increasing, 210 available per today. Sanity names some “must-haves” plugins:  
+The amount of plugins and tools is also increasing, 210 available per today. Sanity names some “must-haves” plugins [Ref.:5] :  
 -	Scheduled publishing, to organize upcoming releases. 
 -	Media browser, a way of managing and organizing assets. 
 -	Vision (GROQ playground, for testing GROQ queries). 
@@ -55,10 +53,10 @@ The amount of plugins and tools is also increasing, 210 available per today. San
 
 Structured Content 101helps keeping a clean and organized content. It is content broken down into small pieces. This provides information that the machine can understand and use in all kinds of ways. 
 
-[Real time](https://www.sanity.io/docs/realtime-updates) update is a helpful feature when collaborators make changes and those are updated in real time. 
+Real time[Ref.:6] update is a helpful feature when collaborators make changes and those are updated in real time. 
 
-[Presenting and previewing](https://www.sanity.io/docs/presenting-and-previewing-content) content.This gives the possibility of previewing content changes before publishing.  This is a useful tool when getting feedback and approval, minimizing errors.  
-Composable content allows shaping data from independent but interconnected documents. Drasj documents can co-exist with published versions of the same document. 
+Presenting and previewing[Ref.:7]content.This gives the possibility of previewing content changes before publishing.  This is a useful tool when getting feedback and approval, minimizing errors.  
+Composable content allows shaping data from independent but interconnected documents. Draft documents can co-exist with published versions of the same document. 
 Perspectives let you run queries “draft” and run a preview of the changes before  drafts publishes. This can help to avoid conflicts, and accidental publications. 
 
 
@@ -79,9 +77,7 @@ You can descover much more on reference docs
 
 
 
-
-
-# Sanity.io Case Study
+# Sanity.io Case Study <!-- change the title of this section, move the first paragraph to the section above-->
 
 Sanity.io is a platform that enables companies of all sizes to create remarkable digital experiences. It provides a single source of truth for content, aiding in the development of innovative digital campaigns. Sanity.io’s strengths lie in its excellent integration with popular programming languages and frameworks, providing a seamless experience for developers. Its powerful image pipeline and support for GraphQL make it a versatile tool for content management. Additionally, it boasts a large library of official and custom plugins, further enhancing its capabilities.
 
@@ -379,6 +375,19 @@ export const schemaTypes = [pet];
 - Sanity offers a wide range of templates that can offer a pre-made setup for projects. For a full overview refer to [Sanity Templates](https://www.sanity.io/templates).
 
 ## References
+- [Ref.:1](https://www.sanity.io/docs/api-cdn)
+
+- [Ref.:2](https://www.sanity.io/exchange/frameworks)
+
+- [Ref.:3](https://www.sanity.io/docs/groq)
+
+- [Ref.:4](https://www.sanity.io/docs/image-type)
+
+- [Ref.:5](https://www.sanity.io/plugins)
+
+- [Ref.:6](https://www.sanity.io/docs/realtime-updates)
+
+- [Ref.:7](https://www.sanity.io/docs/presenting-and-previewing-content)
 
 - [Sanity.io](https://www.sanity.io/)
 
