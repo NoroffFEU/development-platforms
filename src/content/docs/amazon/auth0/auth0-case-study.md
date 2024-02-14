@@ -64,6 +64,5 @@ Auth0 excels with its user-centric design, commitment to security, and scalabili
 
 - Auth0 Official Website and Documentation
 - Gartner Magic Quadrant for Access Management, 2020
-- The Example Podcast, Episode 1
 - TechCrunch Article on Okta's Acquisition of Auth0, 2021
 - Auth0 Blog by Okta, 2024
