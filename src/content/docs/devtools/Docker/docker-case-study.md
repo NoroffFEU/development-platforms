@@ -1,8 +1,10 @@
 ---
-title: Example Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+title: Docker Case Study
+author: Christel Østerbøe <Christelmarita>
+tags: example, case study, platform, docker, devtool
 ---
+
+![Docker logomark in white](~/assets/devtools/docker/04-light-blue-docker-logo.svg)
 
 ## Introduction
 
