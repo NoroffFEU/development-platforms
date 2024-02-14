@@ -10,14 +10,14 @@ Auth0 has emerged as a pivotal player in the Identity and Access Management (IAM
 
 ## Brief History
 
-- 2013: Auth0 is co-founded by Matias Woloski and Eugenio Pace, aiming to simplify authentication for developers and businesses.
-- 2014: With its developer-centric approach, Auth0 sees rapid adoption, particularly among startups needing quick and secure authentication.
-- 2015: The company introduces new extensibility features, including Auth0 Rules, which allow custom code execution during authentication transactions.
-- 2016: Auth0 launches its first major machine learning features for anomaly detection, enhancing security against automated attacks.
-- 2017: The company surpasses 2,000 enterprise customers, reflecting a growing demand for its user-centric and developer-friendly platform.
-- 2018: Introduction of the Auth0 Marketplace, expanding its ecosystem with a wide range of integrations and partner contributions.
-- 2020: Acknowledged as a leader in the Gartner Magic Quadrant for Access Management, Auth0 cements its reputation in the IAM space.
-- 2021: Auth0 is acquired by Okta for $6.5 billion, solidifying a shared vision to provide secure, frictionless access to any application.
+- **2013:** Auth0 is co-founded by Matias Woloski and Eugenio Pace, aiming to simplify authentication for developers and businesses.
+- **2014:**  With its developer-centric approach, Auth0 sees rapid adoption, particularly among startups needing quick and secure authentication.
+- **2015:**  The company introduces new extensibility features, including Auth0 Rules, which allow custom code execution during authentication transactions.
+- **2016:**  Auth0 launches its first major machine learning features for anomaly detection, enhancing security against automated attacks.
+- **2017:**  The company surpasses 2,000 enterprise customers, reflecting a growing demand for its user-centric and developer-friendly platform.
+- **2018:**  Introduction of the Auth0 Marketplace, expanding its ecosystem with a wide range of integrations and partner contributions.
+- **2020:**  Acknowledged as a leader in the Gartner Magic Quadrant for Access Management, Auth0 cements its reputation in the IAM space.
+- **2021:**  Auth0 is acquired by Okta for $6.5 billion, solidifying a shared vision to provide secure, frictionless access to any application.
 
 ## Main Features
 
