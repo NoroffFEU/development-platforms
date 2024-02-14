@@ -37,17 +37,17 @@ Before delving into the history of containers, it's important to understand the 
 
 Docker solves several common problems in software development and offers unique features which makes it a valuable tool for developers:
 
--**Fast,consistent delivery of applications**:
+- **Fast,consistent delivery of applications**:
 
 Docker enables work in standardized environments using local containers which provide your application and services, they are also great for continuous integration and continuous delivery (CI/CD) workflows.
 
 - **Responsive deployment and scaling**
 
-Docker containers can run on on physical and virtual machines, on cloud providers and in a mixture of environments.
+Docker containers can run on physical and virtual machines, on cloud providers and in a mixture of environments.
 
 Developers can also dynamically manage workloads scaling up and down applications based on the needs.
 
--**Running more workloads on the same hardware**:
+- **Running more workloads on the same hardware**:
 
 Thanks to Docker software engineers can use more of server capacity, which is perfect when you don't have access to huge amount of resources.
 
@@ -102,7 +102,7 @@ You can download and install Docker on multiple platforms.
     3. When the installations is done, select Close to complete the installation process
 
 - **Docker Desktop on Linux**
-    1. Download the correct package and install it with the corresponnding package manager:
+    1. Download the correct package and install it with the corresponding package manager:
     [Install on Debian](https://docs.docker.com/desktop/install/debian/)
     [Install on Fedora](https://docs.docker.com/desktop/install/fedora/)
     [Install on Ubuntu](https://docs.docker.com/desktop/install/ubuntu/)
@@ -117,17 +117,17 @@ There are a few alternative containerization tools that can be used instead of D
 
 [LXC](https://linuxcontainers.org/) is a set of low-level container management tools that are part of a Linux  open-source project. 
 
-Both Docker and LXC provide containerization capabilities, but Docker offers a more extensive set of tools and additional features for image management, security and deployment. LXC, on the other hand, may be preferred when low-level control over the container environment is required. Another difference is that with LXC a developer can run more than one process in a container, whereas Docker is designed only one process in each container.
+Both Docker and LXC provide containerization capabilities, but Docker offers a more extensive set of tools and additional features for image management, security and deployment. LXC, on the other hand, may be preferred when low-level control over the container environment is required. Another difference is that with LXC a developer can run more than one process in a container, whereas Docker is designed to run only one process in each container.
 
 - **Hyper-V**
 
-[Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/)is a vitualization tool developed by Microsoft that allows users to create and manage virtual machines on Windows-based systems.
+[Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/about/) is a virtualization tool developed by Microsoft that allows users to create and manage virtual machines on Windows-based systems.
 
 Among the advantages of Hyper-V one can name greater portability than traditional containers and better security as a result of increased isolation. But Hyper-V and Docker serve different virtualization needs, with Hyper-V being suitable for running isolated virtual machines with different operating systems, while Docker is designed for building and deploying cloud-native applications using containerization. 
 
 - **Podman**
 
-[Podman](https://podman.io/) is an open-source containerization tool that provides a daemonless and rootless alternative to Docker, allowing users to manage containers and pods without requiring a central daemon process. Its command-line interface is practically identical to Docker's(for example, ```podman start```, which just like in Docker starts one or more containers), which makes it easy for Docker users to transition to Podman. 
+[Podman](https://podman.io/) is an open-source containerization tool that provides a daemonless and rootless alternative to Docker, allowing users to manage containers and pods without requiring a central daemon process. Its command-line interface is practically identical to Docker's (for example, `podman start`, which just like in Docker starts one or more containers), which makes it easy for Docker users to transition to Podman. 
 
 The key difference between the two is that Podman functions without a central daemon. Instead, it uses a client-server model similar to Git, where commands interact directly with the container runtime. The rootless character of Podman provides better security and isolation. Additionally, unlike Docker, it doesn't require root privileges to manage containers. 
 
