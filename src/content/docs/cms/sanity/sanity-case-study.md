@@ -4,13 +4,17 @@ keywords: sanity, case study, headless CMS, content management system, developer
 tags: sanity, case study, development platforms, CMS
 ---
 
-# Sanity CMS Case Study
-
 ## Authors
 
-- Ana Cascante:[AnaCascante](https://github.com/AnaCascante)
+- Ana Cascante: [AnaCascante](https://github.com/AnaCascante)
 - Eirik Kirkeli: [Knirkeli](https://github.com/Knirkeli)
 - Pablo Garza: [Pgarza-dev](https://github.com/Pgarza-dev)
+
+# Sanity.io Case Study
+
+This Case Study introduces Sanity.io as a platform that enables companies of all sizes to create remarkable digital experiences. It provides a single source of truth for content, aiding in the development of innovative digital campaigns. Sanity.io’s strengths lie in its excellent integration with popular programming languages and frameworks, providing a seamless experience for developers. Its powerful image pipeline and support for GraphQL make it a versatile tool for content management. Additionally, it boasts a large library of official and custom plugins, further enhancing its capabilities.
+
+One of the main weaknesses is the lack of multi-language support, which is only available through plugins. This could potentially limit its usability for global teams. Additionally, with a high number of requests and responses, a paid tariff becomes necessary, which could be a barrier for smaller organizations. The time to set up a project can be slower than some of the competitors. Lastly, there’s a dependency on Sanity.io when developing data for a website, which could limit flexibility.
 
 ## Introduction
 
@@ -22,66 +26,77 @@ Over the years, the Sanity team has continued to improve and expand the platform
 
 ## History
 
-**2015**: Development of Sanity CMS begins by co-founders Even Westvang, Simen Svale Skogsrud, and Magnus Holm.
-**2017**: Official launch of Sanity CMS platform as a headless CMS solution by Sanity.io.
-**2018**: Continued refinement and expansion of Sanity CMS features to meet evolving user needs.
-**2019**: Further enhancements and improvements to Sanity CMS platform, focusing on developer-friendliness and customization.
+- **2015**: Development of Sanity CMS begins by co-founders Even Westvang, Simen Svale Skogsrud, and Magnus Holm.
+- **2017**: Official launch of Sanity CMS platform as a headless CMS solution by Sanity.io.
+- **2018**: Continued refinement and expansion of Sanity CMS features to meet evolving user needs.
+- **2019**: Further enhancements and improvements to Sanity CMS platform, focusing on developer-friendliness and customization.
 
-## About Sanity 
+## About Sanity
 
-Sanity provides two APIs[Ref:1]:
+Sanity provides two APIs [_ref:1_](https://www.sanity.io/docs/api-cdn)
 
-1.	api.sanity.io: the live, uncached API. This is the default and will always give you the freshest data, but requests will be slower because they need to reach our back end on every request. Requests are also more costly because they will trigger more computation on our servers.
-2.	apicdn.sanity.io: the CDN-distributed, cached API, which is an opt-in feature that will give you very fast responses to requests that have been cached. We encourage most users to use this API for their front-ends if you expose your API to end users. For static builds you are better off using the live uncached API, to always get the latest version.
-To use the API CDN, simply use apicdn.sanity.io instead of api.sanity.io. Most clients provide a use CDN option that makes this switch seamless.
+1. To access the live, uncached API, use `api.sanity.io`. This API provides the freshest data but may result in slower requests as each request needs to reach the backend. Additionally, requests made to this API are more computationally expensive on our servers.
+2. apicdn.sanity.io: The CDN-distributed, cached API is an optional feature that provides fast responses to cached requests. We recommend using this API for front-end applications that expose the API to end users. However, for static builds, it is recommended to use the live uncached API to ensure the latest version of the data.
 
-### Increasing free resources in Sanity
+To use the API CDN, simply replace `api.sanity.io` with `apicdn.sanity.io`. Most clients offer a seamless option to switch to the CDN.
 
-Today we can use 20 frameworks[Ref.:2], being React and Next.js the more popular.    
-You do not need to use php, Sanity uses Groq[Ref.:3] which is Sanity’s open-source query language.  It is possible to use graphQL if preferred. 
-When adding images to projects it’s possible to use the image-url plugin[Ref.:4], a powerful pipeline that  can take care of resizing, storage, deletion. 
+### Increasing Free Resources in Sanity
 
-The amount of plugins and tools is also increasing, 210 available per today. Sanity names some “must-haves” plugins [Ref.:5] :  
--	Scheduled publishing, to organize upcoming releases. 
--	Media browser, a way of managing and organizing assets. 
--	Vision (GROQ playground, for testing GROQ queries). 
--	Image URL, to customize and optimize images
--	The official Sanity toolkit for Next.js, to integrate content from Sanity
--	Content Graph View, to see changes in real-time
+Sanity CMS offers a growing number of resources to enhance your development experience. Currently, there are 20 frameworks supported, with React and Next.js being the most popular choices [_ref:2_](https://www.sanity.io/exchange/frameworks). Unlike traditional CMS platforms, Sanity does not require the use of PHP. Instead, it utilizes Groq, an open-source query language developed by Sanity [_ref:3_](https://www.sanity.io/docs/groq). However, if you prefer GraphQL, it is also possible to integrate it with Sanity.
 
-### Some features in Sanity: 
+When it comes to managing images in your projects, Sanity provides the image-url plugin [_ref:4_](https://www.sanity.io/docs/image-type). This powerful pipeline takes care of resizing, storage, and deletion, making it easier to handle images efficiently.
 
-Structured Content 101helps keeping a clean and organized content. It is content broken down into small pieces. This provides information that the machine can understand and use in all kinds of ways. 
+Furthermore, the number of plugins and tools available in Sanity continues to grow, with 210 options currently available. Some notable "must-have" plugins recommended by Sanity include:
 
-Real time[Ref.:6] update is a helpful feature when collaborators make changes and those are updated in real time. 
+- Scheduled publishing: Organize and plan upcoming releases effectively.
+- Media browser: Manage and organize your assets seamlessly.
+- Vision (GROQ playground): Test and experiment with GROQ queries.
+- Image URL: Customize and optimize images according to your needs.
+- Official Sanity toolkit for Next.js: Integrate content from Sanity into your Next.js projects effortlessly.
+- Content Graph View: Visualize real-time changes in your content graph.
 
-Presenting and previewing[Ref.:7]content.This gives the possibility of previewing content changes before publishing.  This is a useful tool when getting feedback and approval, minimizing errors.  
-Composable content allows shaping data from independent but interconnected documents. Draft documents can co-exist with published versions of the same document. 
-Perspectives let you run queries “draft” and run a preview of the changes before  drafts publishes. This can help to avoid conflicts, and accidental publications. 
+## Key Features of Sanity CMS
 
+The following key features of Sanity CMS contribute to its flexibility, efficiency, and developer-friendly nature, making it a powerful choice for content management and digital experiences.
 
-When creating documents or editing published documents, a draft is create. Drafts keeps changes separated from published documents until those changes are good to go. 
-When drafts are published they become available on the public APIs and Strong references are important to avoid confusion with other documentation. 
-Sometimes we may want to get changes published right away, without using drafts. This is possible including liveEdit: true in the shema definition: 
+### Structured Content 101
 
-```
+Sanity CMS allows you to break down content into small, structured pieces, making it easier for machines to understand and utilize the information in various ways.
+
+### Real-time Updates
+
+Collaborators can make changes to content, and these changes are instantly updated in real-time, ensuring seamless collaboration and efficient workflow.
+
+### Presenting and Previewing Content
+
+Sanity CMS provides the ability to preview content changes before publishing, allowing for feedback, approval, and error minimization. This feature is particularly useful in ensuring content accuracy and quality.
+
+### Composable Content
+
+With Sanity CMS, you can shape data from independent but interconnected documents. Draft documents can coexist with published versions, providing flexibility and control over content creation and management.
+
+### Perspectives
+
+Sanity CMS allows you to run queries in a "draft" mode and preview the changes before publishing. This helps to avoid conflicts and accidental publications, ensuring a smooth and error-free content publishing process.
+
+### Drafts and Strong References
+
+When creating or editing documents, Sanity CMS keeps changes separated from published documents until they are ready to be published. This ensures that drafts are not accidentally published and provides clarity and organization in the content management process.
+
+### Live Editing
+
+In certain cases where immediate publishing is desired, Sanity CMS allows for live editing by including the `liveEdit: true` option in the schema definition. This enables real-time updates to be directly reflected in the public APIs.
+
+Example ⬇️:
+
+```javascript
 export default {
-  name: 'author',
-  title: 'Author',
-  type: 'document',
-  liveEdit: true,
-  …
+  name: "author",
+  title: "Author",
+  type: "document",
+  liveEdit: true, // This enables live editing
+};
 ```
-
-You can descover much more on reference docs 
-
-
-
-# Sanity.io Case Study <!-- change the title of this section, move the first paragraph to the section above-->
-
-Sanity.io is a platform that enables companies of all sizes to create remarkable digital experiences. It provides a single source of truth for content, aiding in the development of innovative digital campaigns. Sanity.io’s strengths lie in its excellent integration with popular programming languages and frameworks, providing a seamless experience for developers. Its powerful image pipeline and support for GraphQL make it a versatile tool for content management. Additionally, it boasts a large library of official and custom plugins, further enhancing its capabilities.
-
-One of the main weaknesses is the lack of multi-language support, which is only available through plugins. This could potentially limit its usability for global teams. Additionally, with a high number of requests and responses, a paid tariff becomes necessary, which could be a barrier for smaller organizations. The time to set up a project can be slower than some of the competitors. Lastly, there’s a dependency on Sanity.io when developing data for a website, which could limit flexibility.
 
 ## Comparison with Competitors
 
@@ -104,7 +119,7 @@ In the world of CMS there is a vast amount of options. Each with unique features
 
 ### SANITY SETUP WITH HTML & JAVASCRIPT
 
-1. **run in your command line**
+1. **Run in your command line**
 
    - `npm create sanity@latest -- --template clean --create-project "Sanity Project" --dataset production`
    - This command will create a new project with the name "Sanity Project" and a dataset called "production".
@@ -115,27 +130,30 @@ In the world of CMS there is a vast amount of options. Each with unique features
 
    - `cd sanity-project`
    - `npm run dev`
-   - Open locally in [local host](http://localhost:3333)
+   - Open locally in [http://localhost:3333](http://localhost:3333)
 
 3. **Create Schema**
 
-   - The schemas folder is where you add your document types and define their fields.
-   - File layout:
-     ```
-     ├── README.md
-     ├── node_modules
-     ├── package-lock.json
-     ├── package.json
-     ├── sanity.cli.js
-     ├── sanity.config.js
-     ├── schemas
-     │   └── index.js
-     └── static
-     ```
+   The schemas folder is where you add your document types and define their fields.
+
+   ```
+   // Example of File layout
+   ├── README.md
+   ├── node_modules
+   ├── package-lock.json
+   ├── package.json
+   ├── sanity.cli.js
+   ├── sanity.config.js
+   ├── schemas
+   │   └── index.js
+   └── static
+   ```
+
    - Open the schema folder and create a new file `example.js`.
-   - This is an example of a pet schema that you can use to create a pet document type. Add the following code to `example.js`:
+   - This is an example of a pet schema that you can use to create a pet document type. Add the following code to `example.js`
 
      ```javascript
+     // example.js
      export default {
        name: "pet",
        title: "Pet",
@@ -174,7 +192,9 @@ In the world of CMS there is a vast amount of options. Each with unique features
    - Import your schema in `schemas/index.js`.
    - Save and run command `npm run dev` and open in [http://localhost:3333](http://localhost:3333).
 
-   ![preview image of sanity studio layout](images/sanity-studio-layout.png)
+**EXAMPLE OF YOUR SANITY STUDIO LAYOUT ⬇️**
+
+![preview image of sanity studio layout](images/sanity-studio-layout.png)
 
 4. **View Your Content**
 
@@ -185,7 +205,7 @@ In the world of CMS there is a vast amount of options. Each with unique features
    - You can use HTML and JavaScript to query your Sanity project’s API and retrieve your document from the production dataset that it lives in.
    - Refer to steps in _HTML/JavaScript setup_.
    - Frameworks like Next.js, Nuxt.js, and SvelteKit can also be used.
-   - Next.js setup refers to _SANITY EXAMPLE SET UP WITH NEXT JS 14_.
+   - Next.js setup: refer to _SANITY EXAMPLE SET UP WITH NEXT JS 14_.
 
 ## HTML & JavaScript SETUP
 
@@ -199,19 +219,19 @@ In the world of CMS there is a vast amount of options. Each with unique features
 
    - Sanity provides its own Codesandbox that will give you a boilerplate code that you can use to fetch your data using a few lines of JavaScript inside the `<script>` element.
 
-3. **Adding Your URL to the Cross-Origins Resource Sharing (CORS) Settings**
+3. **Adding your URL to the Cross-Origins Resource Sharing (CORS) Settings**
 
 ![preview of CORS input field](images/sanity-cors-origins.jpg)
 
 - Add the URL from Codesandbox in the preview pane i.e., `https://[RANDOMLY_GENERATED_LETTERS].csb.app/`.
-- In [sanity](https://www.sanity.io/manage) go to the API tab in project settings and then to _CORS Origins_ paste the URL from Codesandbox into the URL field, and hit save (you don’t need to “Allow credentials”).
+- In [sanity.io/manage](https://www.sanity.io/manage) go to the API tab in project settings and then to _CORS Origins_ paste the URL from Codesandbox into the URL field, and hit save (you don’t need to “Allow credentials”).
 
 4. **Prepare Your Query and API URL**
 
-   - Through [sanity](https://www.sanity.io/docs) documentation you can use a minimalist example, you’ll construct this URL using the project ID, the dataset name, a query, and Sanity’s URL endpoint for content queries.
-   - HTML snippet:
+   - Through [sanity.io/docs](https://www.sanity.io/docs) documentation you can use a minimalist example, you’ll construct this URL using the project ID, the dataset name, a query, and Sanity’s URL endpoint for content queries.
 
      ```html
+     // Example of HTML snippet
      <script>
        let PROJECT_ID = "YOUR_PROJECT_ID";
        let DATASET = "production";
@@ -258,13 +278,17 @@ In the world of CMS there is a vast amount of options. Each with unique features
        .catch((err) => console.error(err));
      ```
 
-### HTML/JAVASCRIPT SETUP RECAP
+### HTML & JAVASCRIPT SETUP RECAP
 
-[x] Created a project.
-[x] Set up Sanity Studio using our CLI.
-[x] Created a schema using a code editor.
-[x] Added some content via the Studio, that now lives in the Content Lake.
-[x] Connected a front-end that fetches and displays this content.
+✓ Created a project.
+
+✓ Set up Sanity Studio using our CLI.
+
+✓ Created a schema using a code editor.
+
+✓ Added some content via the Studio, that now lives in the Content Lake.
+
+✓ Connected a front-end that fetches and displays this content.
 
 ## SANITY EXAMPLE SET UP WITH NEXT JS 14 | TYPESCRIPT | REACT | TAILWIND CSS
 
@@ -282,26 +306,27 @@ In the world of CMS there is a vast amount of options. Each with unique features
 
 - to open locally run command `npm run dev`
 
-## SANITY SETUP
+### SANITY SETUP
 
-**run in your command line**
+**Run in your command line**
 
 - `npm create sanity@latest -- --template clean --create-project "Sanity Project" --dataset production`
 - This command will create a new project with the name "Sanity Project" and a dataset called "production". The name of the project can be anything you want.
 - Next create an account if you do not already have one.
 
-## IN THE TERMINAL
+### IN THE TERMINAL
 
 - Would you like to add configuration files for a Sanity project in this Next.js folder? [N]
 - Project output path: _path to your Next.js project_
 - Would you like to use TypeScript? [Y]
 - Package manager to use for installing dependencies: [NPM]
 
-## CREATE SCHEMA
+### CREATE SCHEMA
 
 - This is an example of a pet schema that you can use to create a pet document type. Add the following code to your`example.js`:
 
   ```javascript
+  // example.js
   export default {
     name: "pet",
     title: "Pet",
@@ -347,20 +372,23 @@ In the world of CMS there is a vast amount of options. Each with unique features
   };
   ```
 
-## START SANITY DEV SERVER / SANITY STUDIO
+### START SANITY DEV SERVER / SANITY STUDIO
 
-- In the terminal run:
+In the terminal run:
+
 - `cd sanity-project`
 - `npm run dev`
-- Open locally in [local host](http://localhost:3333)
+- Open locally in [http://localhost:3333](http://localhost:3333)
 - If not logged into sanity.io, you will be prompted to log in using the same credentials you used to create your sanity profile.
 
-## CREATE A NEW DOCUMENT TYPE
+### CREATE A NEW DOCUMENT TYPE
+
+In your Studio click on the “+” button in the left-hand sidebar to create a new document type.
 
 ![preview of create new document icon](images/sanity-create-document-type.jpg)
 
-- In the Studio, click on the “+” button in the left-hand sidebar to create a new document type.
-- Name the document type “Pet”.
+Name the document type “Pet”.
+
 - In your code editor you must import your schema in `schemas/index.js`.
 
 ```javascript
@@ -374,27 +402,28 @@ export const schemaTypes = [pet];
 
 - Sanity offers a wide range of templates that can offer a pre-made setup for projects. For a full overview refer to [Sanity Templates](https://www.sanity.io/templates).
 
-## References
-- [Ref.:1](https://www.sanity.io/docs/api-cdn)
+#### _References:_
 
-- [Ref.:2](https://www.sanity.io/exchange/frameworks)
+- _ref: 1_ [https://www.sanity.io/docs/api-cdn](https://www.sanity.io/docs/api-cdn)
 
-- [Ref.:3](https://www.sanity.io/docs/groq)
+- _ref: 2_ [https://www.sanity.io/exchange/frameworks](https://www.sanity.io/exchange/frameworks)
 
-- [Ref.:4](https://www.sanity.io/docs/image-type)
+- _ref: 3_ [https://www.sanity.io/docs/groq](https://www.sanity.io/docs/groq)
 
-- [Ref.:5](https://www.sanity.io/plugins)
+- _ref: 4_ [https://www.sanity.io/docs/image-type](https://www.sanity.io/docs/image-type)
 
-- [Ref.:6](https://www.sanity.io/docs/realtime-updates)
+- _ref: 5_ [https://www.sanity.io/plugins](https://www.sanity.io/plugins)
 
-- [Ref.:7](https://www.sanity.io/docs/presenting-and-previewing-content)
+- _ref: 6_ [https://www.sanity.io/docs/realtime-updates](https://www.sanity.io/docs/realtime-updates)
 
-- [Sanity.io](https://www.sanity.io/)
+- _ref: 7_ [https://www.sanity.io/docs/presenting-and-previewing-content](https://www.sanity.io/docs/presenting-and-previewing-content)
 
-- [YouTube](https://www.youtube.com/watch?v=TRCnAcdxP0M&list=PLRzQpWc3zNPkrIwaz1qfTMx0IGSfCFPKX)
+- _ref: 8_ [Sanity.io](https://www.sanity.io/)
 
-- [Strapi vs Contentful vs Sanity Comparison — Restack](https://www.restack.io/docs/strapi-knowledge-strapi-vs-contentful-vs-sanity)
+- _ref: 9_ [YouTube](https://www.youtube.com/watch?v=TRCnAcdxP0M&list=PLRzQpWc3zNPkrIwaz1qfTMx0IGSfCFPKX)
 
-- [Exploring Headless CMS: Sanity Vs Contentful Vs Strapi | Tarka Labs Blog](https://blog.tarkalabs.com/exploring-headless-cms-f94466b765a2)
+- _ref: 10_ [Strapi vs Contentful vs Sanity Comparison — Restack](https://www.restack.io/docs/strapi-knowledge-strapi-vs-contentful-vs-sanity)
 
-- [Top 20 Questions about Sanity CMS — Represent Web Agency](https://www.represent.no/articles/frequently-asked-questions-about-sanity-cms)
+- _ref: 11_ [Exploring Headless CMS: Sanity Vs Contentful Vs Strapi | Tarka Labs Blog](https://blog.tarkalabs.com/exploring-headless-cms-f94466b765a2)
+
+- _ref: 12_ [Top 20 Questions about Sanity CMS — Represent Web Agency](https://www.represent.no/articles/frequently-asked-questions-about-sanity-cms)
