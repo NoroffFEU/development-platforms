@@ -264,16 +264,14 @@ In conclusion, choosing the right data store depends on a project specific requi
 - [Couchbase - In-Memory Database](https://www.couchbase.com/resources/concepts/in-memory-database/)
 - [Relational vs. Non-Relational Database Pros and Cons](https://aloa.co/blog/relational-vs-non-relational-database-pros-cons)
 - [NoSQL](https://aws.amazon.com/nosql/)
-- https://en.wikipedia.org/wiki/MySQL
-- https://medium.com/@bhavithach8/why-mysql-is-so-popular-a4483971800d
-- https://en.wikipedia.org/wiki/MongoDB
-- https://www.geeksforgeeks.org/which-database-you-should-learn/
-- https://www.mobulous.com/blog/top-best-database-for-web-applications/
-- https://www.expertappdevs.com/blog/best-database-for-web-apps
-- https://redis.io/
-- https://en.wikipedia.org/wiki/Redis
-- https://www.ibm.com/topics/redis
-- https://github.com/NoroffFEU/development-platforms/pull/153/files
-- https://aws.amazon.com/compare/the-difference-between-redis-and-mongodb/
-- https://www.mongodb.com/compare/mongodb-mysql
-- https://www.influxdata.com/comparison/redis-vs-sqlserver/
+- [MySQL](https://en.wikipedia.org/wiki/MySQL)
+- [Why MySQL is so Popular](https://medium.com/@bhavithach8/why-mysql-is-so-popular-a4483971800d)
+- [MongoDB](https://en.wikipedia.org/wiki/MongoDB)
+- [What is MongoDB](https://www.ibm.com/topics/mongodb?mhsrc=ibmsearch_a&mhq=mongodb)
+- [Top Best Database for Web Applications](https://www.mobulous.com/blog/top-best-database-for-web-applications/)
+- [Best Database for Web Apps](https://www.expertappdevs.com/blog/best-database-for-web-apps)
+- [Redis](https://redis.io/)
+- [Redis](https://www.ibm.com/topics/redi)
+- [The Difference Between Redis and MongoDB](https://aws.amazon.com/compare/the-difference-between-redis-and-mongodb/)
+- [MongoDB vs MySQL](https://www.mongodb.com/compare/mongodb-mysql)
+
