@@ -86,9 +86,7 @@ You can write SQL code in SQLite3: the utility will send a request to the kernel
 
 SQL is a query language that experts use to issue commands to manage a database.
 
-SQLite is a DBMS software that supports this language. A person working with SQLite will use the SQL query language to access the database. But the DBMS itself is much broader than just a wrapper for the language, and provides many other functions.
-
-You can read more about SQL in the article.
+SQLite is a DBMS software that supports this language. A person working with SQLite will use the SQL query language to access the database. But the DBMS itself is much broader than just a wrapper for the language and provides many other functions.
 
 ### Benefits of SQLite
 
