@@ -1,7 +1,11 @@
+// REVIEW BRANCH FOR SANITY CMS CASE STUDY
+
 ---
+
 Title: Sanity CMS Case Study.
 Keywords: sanity, headless CMS, content management system
 Tags: Sanity, development platforms, headless CMS, content management
+
 ---
 
 ## Authors
@@ -24,12 +28,6 @@ Over the years, the Sanity team has continued to improve and expand the platform
 - **2017**: Official launch of Sanity CMS platform as a headless CMS solution by Sanity.io.
 - **2018**: Continued refinement and expansion of Sanity CMS features to meet evolving user needs.
 - **2019**: Further enhancements and improvements to Sanity CMS platform, focusing on developer-friendliness and customization.
-
-## Sanity.io Case Study
-
-This Case Study introduces Sanity.io as a platform that enables companies of all sizes to create remarkable digital experiences. It provides a single source of truth for content, aiding in the development of innovative digital campaigns. Sanity.io’s strengths lie in its excellent integration with popular programming languages and frameworks, providing a seamless experience for developers. Its powerful image pipeline and support for GraphQL make it a versatile tool for content management. Additionally, it boasts a large library of official and custom plugins, further enhancing its capabilities.
-
-One of the main weaknesses is the lack of multi-language support, which is only available through plugins. This could potentially limit its usability for global teams. Additionally, with a high number of requests and responses, a paid tariff becomes necessary, which could be a barrier for smaller organizations. The time to set up a project can be slower than some of the competitors. Lastly, there’s a dependency on Sanity.io when developing data for a website, which could limit flexibility.
 
 ## Sanity API
 
@@ -101,6 +99,14 @@ export default {
 };
 ```
 
+## Strengths
+
+This Case Study introduces Sanity.io as a platform that enables companies of all sizes to create remarkable digital experiences. It provides a single source of truth for content, aiding in the development of innovative digital campaigns. Sanity.io’s strengths lie in its excellent integration with popular programming languages and frameworks, providing a seamless experience for developers. Its powerful image pipeline and support for GraphQL make it a versatile tool for content management. Additionally, it boasts a large library of official and custom plugins, further enhancing its capabilities.
+
+## Weaknesses
+
+One of the main weaknesses is the lack of multi-language support, which is only available through plugins. This could potentially limit its usability for global teams. Additionally, with a high number of requests and responses, a paid tariff becomes necessary, which could be a barrier for smaller organizations. The time to set up a project can be slower than some of the competitors. Lastly, there’s a dependency on Sanity.io when developing data for a website, which could limit flexibility.
+
 ## Comparison with Competitors
 
 Sanity.io is one of a large library of CMS providers. In this case study we have chosen to look a bit closer and compare sanity with two of their more popular competitors, Strapi and Contentful.
@@ -124,16 +130,29 @@ In the world of CMS there is a vast amount of options. Each with unique features
 
 1. **Run in your command line**
 
-   - `npm create sanity@latest -- --template clean --create-project "Sanity Project" --dataset production`
-   - This command will create a new project with the name "Sanity Project" and a dataset called "production".
-   - Create an account.
-   - Choose the output path.
+   ```
+   npm create sanity@latest -- --template clean --create-project "Sanity Project" --dataset production
+   ```
+
+   ✓ This command will create a new project with the name "Sanity Project" and a dataset called "production".
+
+   ✓ Create an account.
+
+   ✓ Choose the output path.
 
 2. **Run Sanity Studio locally**
 
-   - `cd sanity-project`
-   - `npm run dev`
-   - Open locally in [http://localhost:3333](http://localhost:3333)
+   ```bash
+   cd sanity-project
+   ```
+
+   ```bash
+   npm run dev
+   ```
+
+   ```
+   Open locally in [http://localhost:3333](http://localhost:3333)
+   ```
 
 3. **Create Schema**
 
@@ -214,9 +233,9 @@ In the world of CMS there is a vast amount of options. Each with unique features
 
 1. **Finding Your Project ID and Dataset Name**
 
-![preview of project ID location](images/sanity-projectID.jpg)
+   - To fetch your data you will need your PROJECT ID and DATASET NAME. You can find these via [sanity.io/manage](sanity.io/manage).
 
-- To fetch your data you will need your PROJECT ID and DATASET NAME. You can find these via [sanity.io/manage](sanity.io/manage).
+![preview of project ID location](images/sanity-projectID.jpg)
 
 2. **Connecting with HTML & JavaScript**
 
@@ -224,26 +243,26 @@ In the world of CMS there is a vast amount of options. Each with unique features
 
 3. **Adding your URL to the Cross-Origins Resource Sharing (CORS) Settings**
 
-![preview of CORS input field](images/sanity-cors-origins.jpg)
+   - Add the URL from Codesandbox in the preview pane i.e., `https://[RANDOMLY_GENERATED_LETTERS].csb.app/`.
+   - In [sanity.io/manage](https://www.sanity.io/manage) go to the API tab in project settings and then to _CORS Origins_ paste the URL from Codesandbox into the URL field, and hit save (you don’t need to “Allow credentials”).
 
-- Add the URL from Codesandbox in the preview pane i.e., `https://[RANDOMLY_GENERATED_LETTERS].csb.app/`.
-- In [sanity.io/manage](https://www.sanity.io/manage) go to the API tab in project settings and then to _CORS Origins_ paste the URL from Codesandbox into the URL field, and hit save (you don’t need to “Allow credentials”).
+![preview of CORS input field](images/sanity-cors-origins.jpg)
 
 4. **Prepare Your Query and API URL**
 
-   - Through [sanity.io/docs](https://www.sanity.io/docs) documentation you can use a minimalist example, you’ll construct this URL using the project ID, the dataset name, a query, and Sanity’s URL endpoint for content queries.
+   Through [sanity.io/docs](https://www.sanity.io/docs) documentation you can use a minimalist example, you’ll construct this URL using the project ID, the dataset name, a query, and Sanity’s URL endpoint for content queries.
 
-     ```html
-     // Example of HTML snippet
-     <script>
-       let PROJECT_ID = "YOUR_PROJECT_ID";
-       let DATASET = "production";
-       let QUERY = encodeURIComponent('*[_type == "pet"]');
+   ```html
+   // Example of HTML snippet
+   <script>
+     let PROJECT_ID = "YOUR_PROJECT_ID";
+     let DATASET = "production";
+     let QUERY = encodeURIComponent('*[_type == "pet"]');
 
-       // Compose the URL for your project's endpoint and add the query
-       let URL = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
-     </script>
-     ```
+     // Compose the URL for your project's endpoint and add the query
+     let URL = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
+   </script>
+   ```
 
 5. **Fetching Your Content**
 
@@ -307,7 +326,11 @@ In the world of CMS there is a vast amount of options. Each with unique features
 
 ### OPEN VSCODE
 
-- to open locally run command `npm run dev`
+To open locally run command
+
+```
+npm run dev
+```
 
 ### SANITY SETUP
 
