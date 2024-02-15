@@ -35,10 +35,6 @@ CodePen is an online platform that enables users to share, experiment with, and 
 
 ![CodePen Interface](https://assets.codepen.io/t-1/project-editor-with-search_1.png?width=1800&format=auto&quality=96)
 
-## Market Comparison
-
-CodePen distinguishes itself with its vibrant community, intuitive interface, and broad feature set, making it a preferred platform over competitors like JSFiddle and JS Bin. It shines in its support for modern front-end frameworks and real-time code previews, ideal for prototyping and project sharing. However, the platform's extensive feature set might overwhelm beginners, and access to advanced features necessitates a Pro subscription, a potential disadvantage against simpler or free alternatives. Yet, CodePen's unique combination of community engagement and development tools makes it an indispensable resource for web developers and educators alike.
-
 ## Collaboration Tools
 
 CodePen's collaboration tools are specifically designed to facilitate teamwork and educational opportunities, allowing users to jointly work on projects in real-time. These tools foster feedback, knowledge sharing, and collaborative problem-solving, crucial for both educational settings and professional development.
@@ -47,25 +43,41 @@ CodePen's collaboration tools are specifically designed to facilitate teamwork a
 
 CodePen serves as a multifaceted platform for developers at every level, offering a wealth of resources for prototyping, teaching, job searching, and networking. It encourages a vibrant ecosystem for web development innovation, providing endless inspiration and experimentation opportunities.
 
+## CodePen's Strengths
+
+| Feature              | Description                                                                                                    |
+| -------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Easy to use        | CodePen provides a user-friendly interface, making it easy for developers, designers, and learners to write, test, and showcase code snippets without needing to set up a local development environment. |
+| Community and Collaboration  | CodePen fosters a vibrant community where users can share their work, collaborate on projects, and provide feedback to one another, creating opportunities for learning and networking.        |
+| Instant Feedback | With its live preview feature, CodePen provides instant feedback, allowing users to see the results of their code changes in real-time, which is beneficial for rapid prototyping and debugging.                  |
+| Accessibility          | Since CodePen is a web-based platform, it can be accessed from any device with an internet connection, making it convenient for users to work on their projects from anywhere.                  |
+| Educational Resource            | CodePen serves as a valuable educational resource for beginners to learn HTML, CSS, and JavaScript, as well as for experienced developers to explore new techniques and trends in web development.    |
+
+## CodePen's Weaknesses
+
+| Feature              | Description                                                                                                    |
+| -------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Limited Functionality        | While CodePen offers a wide range of features, its functionality may be limited compared to fully-fledged code editors or integrated development environments (IDEs), especially for complex projects requiring advanced tools and configurations. |
+| Dependency on Internet Connection  | Since CodePen is a cloud-based platform, users rely on a stable internet connection to access their projects and work on them, which may be inconvenient in areas with poor connectivity.        |
+| Privacy Concerns | Privacy concerns may arise among users due to CodePen projects being publicly accessible by default, prompting apprehensions regarding the protection of intellectual property rights, particularly for sensitive or proprietary projects. However, as a CodePen Pro user, you gain the ability to customize these settings accordingly.                  |
+| Subscription Costs          | While CodePen offers a free tier with basic features, some advanced functionalities are only available through paid subscription plans, which may be a barrier for users with limited budgets or resources.                  |
+| Limited Version Control            | CodePen's version control capabilities are limited compared to dedicated version control systems like Git, which may make it challenging for users to track changes and collaborate on larger projects effectively.    |
+
+## Market Comparison
+
+CodePen distinguishes itself with its vibrant community, intuitive interface, and broad feature set, making it a preferred platform over competitors like JSFiddle and JS Bin. It shines in its support for modern front-end frameworks and real-time code previews, ideal for prototyping and project sharing. However, the platform's extensive feature set might overwhelm beginners, and access to advanced features necessitates a Pro subscription, a potential disadvantage against simpler or free alternatives. Yet, CodePen's unique combination of community engagement and development tools makes it an indispensable resource for web developers and educators alike.
+
 ## Success Stories
 
 [Josh Rutherford](https://blog.codepen.io/2013/08/23/josh-rutherford-gets-a-job-on-codepen/)'s transition from Arkansas to San Francisco exemplifies the transformative potential of showcasing talent on CodePen. With no formal web development experience, his CodePen profile's skillful display caught his future employer's attention, leading to a successful recruitment.
 
 [Francesca Costa](https://forum.freecodecamp.org/t/joined-in-april-got-a-job-as-a-junior-front-end-developer/147388) began her front-end development journey through [freeCodeCamp](https://www.freecodecamp.org/). Developing several projects on CodePen to bolster her portfolio, she leveraged these accomplishments when applying for an internship, ultimately securing employment through her proactive engagement with CodePen.
 
-## User Feedback and Testimonials
+## Getting Started
 
-> "A must-have for any front-end developer. CodePen enables quick concept creation for projects and skill practice. It supports frameworks like React and tools such as Pug and Sass. The community is also a great source of inspiration for creative CSS projects!" 
-> 
-- William Addens
-
-> "CodePen is awesome. It's an essential tool for any front-end developer, allowing the testing of concepts and ideas before implementation in a live environment."
-> 
- - Alan
-
-> "An excellent platform. I've created more than 70 pens to date, with one surpassing 110,000 views! It's a real playground for testing all kinds of code snippets. Thanks, CodePen ^^" 
-> 
-- Pierre F.
+1. Visit [Codepen's Official Website](https://codepen.io/pen/).
+2. Write your HTML, CSS and JS in their respective tabs.
+3. See the live changes at the bottom of the page.
 
 ## Conclusion
 
