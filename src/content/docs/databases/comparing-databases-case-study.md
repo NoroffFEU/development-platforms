@@ -56,12 +56,12 @@ The relational model separates logical data structures from physical storage, al
 
 The relational database management system (RDBMS) provides an interface between the users, applications and the database.
 
-| Pros                                                 | Cons                                                 |
-| ---------------------------------------------------- | ---------------------------------------------------- |
-| Data is easily structured into categories            | Scaling is more difficult with growing data          |
-| Data is consistent in input and meaning              | Updates to schema are complicated and time-consuming |
-| Relationships are easily defined between data points | Indexes can take up a lot of space                   |
-| SQL makes it easy to query and update data           |                                                      |
+| Pros                                                  | Cons                                                  |
+| ----------------------------------------------------- | ----------------------------------------------------- |
+| Data is easily structured into categories.            | Scaling is more difficult with growing data.          |
+| Data is consistent in input and meaning.              | Updates to schema are complicated and time-consuming. |
+| Relationships are easily defined between data points. | Indexes can take up a lot of space.                   |
+| SQL makes it easy to query and update data.           |                                                       |
 
 ### NoSQL
 
@@ -76,11 +76,11 @@ NoSQL database stores data within one data structure, such as JSON document, for
 3. Wide-column store: Organizes data in columns, allowing users to access specific columns without allocating additional memory for irrelevant data. It tries to improve key-value and document stores weaknesses, but it can be a more complex system to mange.
 4. Graph store: It stores data from a knowledge graph, where data elements are stored as nodes (object), edges (relationship between nodes), and properties.
 
-| Pros                                            | Cons                                                         |
-| ----------------------------------------------- | ------------------------------------------------------------ |
-| Data is not confined to structured group        | Data may not be consistent                                   |
-| Perform functions allow for greater flexibility | Data integrity can be compromised if not managed correctly   |
-| Data and analysis are more dynamic              | No “universal” language can lead to difficulty querying data |
+| Pros                                             | Cons                                                          |
+| ------------------------------------------------ | ------------------------------------------------------------- |
+| Data is not confined to structured group.        | Data may not be consistent.                                   |
+| Perform functions allow for greater flexibility. | Data integrity can be compromised if not managed correctly.   |
+| Data and analysis are more dynamic.              | No “universal” language can lead to difficulty querying data. |
 
 ### In-Memory Database
 
@@ -90,11 +90,11 @@ In-memory database provides faster access to their content than disk-based syste
 
 Developers would choose an in-memory database primarily for performance reasons. These databases offer many useful data structures, simplifying and optimizing data manipulation.
 
-| Pros                                                                      | Cons                                                         |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| Allows faster query responses and real-time data processing               | RAM is more expensive than disk storage                      |
-| Easily scales to manage large volumes                                     | RAM is volatile; if the server is down, data is lost         |
-| Offers data durability and reliability, even though it’s stored in memory | There is a limit to how big an individual system's memory is |
+| Pros                                                                       | Cons                                                          |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| Allows faster query responses and real-time data processing.               | RAM is more expensive than disk storage.                      |
+| Easily scales to manage large volumes.                                     | RAM is volatile; if the server is down, data is lost.         |
+| Offers data durability and reliability, even though it’s stored in memory. | There is a limit to how big an individual system's memory is. |
 
 ### MySQL
 
@@ -243,7 +243,7 @@ Follow the instructions [how to get started](https://redis.io/docs/install/insta
 
 The choice between relational, NoSQL, and in-memory databases, and more specifically data stores, such as MySQL, MongoDB, and Redis depends on the specific requirements of the project. Each database type and data store has its own advantages and disadvantages.
 
-Relational databases provides structured data and consistency, but may face challenges with scaling. NoSQL databases offer flexibility and scalability, but may compromise data consistency. In-memory databases provide speed and real-time processing, while it may risk data loss in the event of server failure
+Relational databases provides structured data and consistency, but may face challenges with scaling. NoSQL databases offer flexibility and scalability, but may compromise data consistency. In-memory databases provide speed and real-time processing, while it may risk data loss in the event of server failure.
 
 MySQL is optimal for data integrity and transactional support, MongoDB for unstructured data and scalability, and Redis for speed and versatility, particularly in real-time and caching scenarios.
 
@@ -274,4 +274,3 @@ In conclusion, choosing the right data store depends on a project specific requi
 - [Redis](https://www.ibm.com/topics/redi)
 - [The Difference Between Redis and MongoDB](https://aws.amazon.com/compare/the-difference-between-redis-and-mongodb/)
 - [MongoDB vs MySQL](https://www.mongodb.com/compare/mongodb-mysql)
-
