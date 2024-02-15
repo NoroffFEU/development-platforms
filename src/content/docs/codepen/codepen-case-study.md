@@ -65,7 +65,7 @@ CodePen serves as a multifaceted platform for developers at every level, offerin
 
 ## Market Comparison
 
-CodePen distinguishes itself with its vibrant community, intuitive interface, and broad feature set, making it a preferred platform over competitors like JSFiddle and JS Bin. It shines in its support for modern front-end frameworks and real-time code previews, ideal for prototyping and project sharing. However, the platform's extensive feature set might overwhelm beginners, and access to advanced features necessitates a Pro subscription, a potential disadvantage against simpler or free alternatives. Yet, CodePen's unique combination of community engagement and development tools makes it an indispensable resource for web developers and educators alike.
+CodePen distinguishes itself with its vibrant community, intuitive interface, and broad feature set, making it a preferred platform over competitors like [JSFiddle](https://jsfiddle.net/) and [JS Bin](https://jsbin.com/). It shines in its support for modern front-end frameworks and real-time code previews, ideal for prototyping and project sharing. However, the platform's extensive feature set might overwhelm beginners, and access to advanced features necessitates a Pro subscription, a potential disadvantage against simpler or free alternatives. Yet, CodePen's unique combination of community engagement and development tools makes it an indispensable resource for web developers and educators alike.
 
 ## Success Stories
 
@@ -91,9 +91,10 @@ Looking to the future, CodePen is ready to keep growing and adapting. As new web
 
 - CodePen: <https://codepen.io>
 - CodePen Blog: <https://blog.codepen.io>
+- JS Fiddle: <https://jsfiddle.net/>
+- JS bin: <https://jsbin.com/>
 - freeCodeCamp: <https://freecodecamp.org/>
 - freeCodeCamp Forum: <https://forum.freecodecamp.org/>
-- Trustpilot: <https://trustpilot.com/>
 
 ## Additional Resources
 
