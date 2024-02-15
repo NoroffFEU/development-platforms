@@ -22,7 +22,7 @@ React's status as a preferred framework for modern web applications and React Ho
 
 ## Main Features
 
-***What are the problems and What does React Hooks solve?***
+***What are the problems and What do React Hooks solve?***
 | Problems                                | Solutions                                                     |
 | -------------------------------------- | ------------------------------------------------------------ |
 | Complexity of State Management         | `useState` Hook simplifies state management in functional components. |
@@ -32,26 +32,23 @@ React's status as a preferred framework for modern web applications and React Ho
 | Class Boilerplate                      | Functional components with Hooks eliminate class-related boilerplate, resulting in cleaner code. |
 | Prop Drilling                          | Context API combined with `useContext` Hook helps avoid prop drilling, making it easier to share state across components. |
 | Code Duplication                       | Custom Hooks promote the reuse of logic without the need for inheritance or complex patterns, reducing code duplication. |
-| Functional Components Preferred        | The introduction of hooks makes functional components more powerful and preferred over class components. |
-| Complexity in Understanding Components | Use Hooks to split components based on related logic, offering better code organization and understandability. |
 | Classes Create Confusion and Barriers to Learning | Replace classes with Hooks to simplify the mental model, reduce learning barriers, and eliminate binding complexities. |
-| Code Maintenance Challenges and Limited Optimizations | Adopt Hooks for better code maintenance, improved optimization potential, and enhanced tool compatibility.     |
 
 There are two types of Hooks: 
-- **Built-in Hooks:** These are APIs like `useState()` provide function components with the capability to seamlessly integrate with all of React's features.
+- **Built-in Hooks:** These APIs like `useState()` provide function components with the capability to seamlessly integrate with all of React's features.
 
 
-- **Custom Hooks:** These are functions we create to use the built-in Hooks and share reusable logic across different components.
+- **Custom Hooks:** These are functions to use the built-in Hooks and share reusable logic across different components.
 
-React version 18 came with 15 built-in hooks, and you can achieve similar functionality to a class-based component.
+React version 18 came with 15 built-in hooks, achieving similar functionality to a class-based component.
 
 ***1. `useState`*** Allows the addition of state to functional components.
 ```jsx
 import { useState } from 'react';
 
 function MyComponent() {
-  const [age, setAge] = useState(28);
-  const [name, setName] = useState('Taylor');
+  const [age, setAge] = useState(36);
+  const [name, setName] = useState('Yen');
   const [todos, setTodos] = useState(() => createTodos());
   // ...
 ```
@@ -203,7 +200,7 @@ const MyInput = forwardRef(function MyInput(props, ref) {
 ```jsx
 import { useInsertionEffect } from 'react';
 
-// Inside your CSS-in-JS library
+// Inside CSS-in-JS library
 function useCSS(rule) {
   useInsertionEffect(() => {
     // ... inject <style> tags here ...
@@ -267,11 +264,32 @@ Similarly, a self hosted tool and a cloud based tool with a similar purpose may 
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+**1. Prerequisites:**
+
+To begin the journey with React Hooks, it's essential to have a foundational understanding of the following: 
+- **HTML/CSS:** Fundamental web development knowledge.
+- **JavaScript (ES6+):** Basics of JavaScript, especially arrow functions, destructuring, and classes.
+- **React:** Familiarity with React basic concepts like components, state, and props, and preferably using React version 16.8 or a later release, as this is when Hooks were introduced.
+
+
+**2. Set Up a React Project:**
+
+If a React project does not exist yet, starting by either using Create React App to create a new one or by adding React to an existing project.
+
+```bash
+npx create-react-app my-react-hooks-app
+cd my-react-hooks-app
+```
+React Hooks is an integral part of the latest React version, available out of the box. It is exclusively supported for versions starting from 16.8. Thus, installing Hooks is synonymous with upgrading to the most recent React version.
+
+**3. Explore React Hooks:**
+Begin by familiarizing with built-in hooks through practical examples and create initial custom hook. Alternatively, experiment with integrating Hooks into specific components within current React project, allowing to leverage their benefits without the need to rewrite any existing code. 
+
+
 ## Rules of Hooks
 There is a consolidated set of dos and don'ts for working with React Hooks:
 ### ✅ Dos:
-1. Call Hooks at the top level in the body of a function component.
+1. Call Hooks at the top level in the body of a React function component. 
 
 ```jsx
 // Correct
@@ -429,8 +447,7 @@ function ValidComponent() {
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
-
+In summary, React Hooks simplify state management, making development smoother and promoting code reuse. Their easy integration and widespread adoption showcase their effectiveness in simplifying front-end development. React Hooks signify a significant shift towards a more elegant and functional approach for creating scalable user interfaces.
 
 
 ## References
