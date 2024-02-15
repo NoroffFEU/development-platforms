@@ -1,9 +1,11 @@
 // REVIEW BRANCH FOR SANITY CMS CASE STUDY
 
 ---
+
 Title: Sanity CMS Case Study.
 Keywords: sanity, headless CMS, content management system
 Tags: Sanity, development platforms, headless CMS, content management
+
 ---
 
 ## Authors
@@ -35,7 +37,7 @@ One of the main weaknesses is the lack of multi-language support, which is only 
 
 ## Sanity API
 
-**Sanity provides two APIs** 
+**Sanity provides two APIs**
 
 When accessing the Sanity CMS API, you have two options to choose from based on your specific needs.
 
@@ -126,16 +128,29 @@ In the world of CMS there is a vast amount of options. Each with unique features
 
 1. **Run in your command line**
 
-   - `npm create sanity@latest -- --template clean --create-project "Sanity Project" --dataset production`
-   - This command will create a new project with the name "Sanity Project" and a dataset called "production".
-   - Create an account.
-   - Choose the output path.
+   ```
+   npm create sanity@latest -- --template clean --create-project "Sanity Project" --dataset production
+   ```
+
+   ✓ This command will create a new project with the name "Sanity Project" and a dataset called "production".
+
+   ✓ Create an account.
+
+   ✓ Choose the output path.
 
 2. **Run Sanity Studio locally**
 
-   - `cd sanity-project`
-   - `npm run dev`
-   - Open locally in [http://localhost:3333](http://localhost:3333)
+   ```bash
+   cd sanity-project
+   ```
+
+   ```bash
+   npm run dev
+   ```
+
+   ```
+   Open locally in [http://localhost:3333](http://localhost:3333)
+   ```
 
 3. **Create Schema**
 
