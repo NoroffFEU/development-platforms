@@ -1,11 +1,7 @@
-// REVIEW BRANCH FOR SANITY CMS CASE STUDY
-
 ---
-
 Title: Sanity CMS Case Study.
 Keywords: sanity, headless CMS, content management system
 Tags: Sanity, development platforms, headless CMS, content management
-
 ---
 
 ## Authors
