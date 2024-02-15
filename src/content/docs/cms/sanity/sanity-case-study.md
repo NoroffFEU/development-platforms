@@ -1,7 +1,7 @@
 ---
-title: Sanity CMS
-keywords: sanity, case study, headless CMS, content management system, developer-friendly, customizable
-tags: sanity, case study, development platforms, CMS
+Title: Sanity CMS Case Study.
+Keywords: sanity, headless CMS, content management system
+Tags: Sanity, development platforms, headless CMS, content management
 ---
 
 ## Authors
@@ -9,12 +9,6 @@ tags: sanity, case study, development platforms, CMS
 - Ana Cascante: [AnaCascante](https://github.com/AnaCascante)
 - Eirik Kirkeli: [Knirkeli](https://github.com/Knirkeli)
 - Pablo Garza: [Pgarza-dev](https://github.com/Pgarza-dev)
-
-# Sanity.io Case Study
-
-This Case Study introduces Sanity.io as a platform that enables companies of all sizes to create remarkable digital experiences. It provides a single source of truth for content, aiding in the development of innovative digital campaigns. Sanity.io’s strengths lie in its excellent integration with popular programming languages and frameworks, providing a seamless experience for developers. Its powerful image pipeline and support for GraphQL make it a versatile tool for content management. Additionally, it boasts a large library of official and custom plugins, further enhancing its capabilities.
-
-One of the main weaknesses is the lack of multi-language support, which is only available through plugins. This could potentially limit its usability for global teams. Additionally, with a high number of requests and responses, a paid tariff becomes necessary, which could be a barrier for smaller organizations. The time to set up a project can be slower than some of the competitors. Lastly, there’s a dependency on Sanity.io when developing data for a website, which could limit flexibility.
 
 ## Introduction
 
@@ -31,20 +25,29 @@ Over the years, the Sanity team has continued to improve and expand the platform
 - **2018**: Continued refinement and expansion of Sanity CMS features to meet evolving user needs.
 - **2019**: Further enhancements and improvements to Sanity CMS platform, focusing on developer-friendliness and customization.
 
-## About Sanity
+## Sanity.io Case Study
 
-Sanity provides two APIs [_ref:1_](https://www.sanity.io/docs/api-cdn)
+This Case Study introduces Sanity.io as a platform that enables companies of all sizes to create remarkable digital experiences. It provides a single source of truth for content, aiding in the development of innovative digital campaigns. Sanity.io’s strengths lie in its excellent integration with popular programming languages and frameworks, providing a seamless experience for developers. Its powerful image pipeline and support for GraphQL make it a versatile tool for content management. Additionally, it boasts a large library of official and custom plugins, further enhancing its capabilities.
 
-1. To access the live, uncached API, use `api.sanity.io`. This API provides the freshest data but may result in slower requests as each request needs to reach the backend. Additionally, requests made to this API are more computationally expensive on our servers.
-2. apicdn.sanity.io: The CDN-distributed, cached API is an optional feature that provides fast responses to cached requests. We recommend using this API for front-end applications that expose the API to end users. However, for static builds, it is recommended to use the live uncached API to ensure the latest version of the data.
+One of the main weaknesses is the lack of multi-language support, which is only available through plugins. This could potentially limit its usability for global teams. Additionally, with a high number of requests and responses, a paid tariff becomes necessary, which could be a barrier for smaller organizations. The time to set up a project can be slower than some of the competitors. Lastly, there’s a dependency on Sanity.io when developing data for a website, which could limit flexibility.
+
+## Sanity API
+
+**Sanity provides two APIs** 
+
+When accessing the Sanity CMS API, you have two options to choose from based on your specific needs.
+
+The first option is the live, uncached API, `api.sanity.io`. This API provides the freshest data but may result in slower requests as each request needs to reach the backend. Additionally, requests made to this API are more computationally expensive on our servers.
+
+The second option is `apicdn.sanity.io`, which is the CDN-distributed, cached API. This optional feature provides fast responses to cached requests. We recommend using this API for front-end applications that expose the API to end users. However, for static builds, it is recommended to use the live uncached API to ensure the latest version of the data.
 
 To use the API CDN, simply replace `api.sanity.io` with `apicdn.sanity.io`. Most clients offer a seamless option to switch to the CDN.
 
-### Increasing Free Resources in Sanity
+## Increasing Free Resources in Sanity
 
-Sanity CMS offers a growing number of resources to enhance your development experience. Currently, there are 20 frameworks supported, with React and Next.js being the most popular choices [_ref:2_](https://www.sanity.io/exchange/frameworks). Unlike traditional CMS platforms, Sanity does not require the use of PHP. Instead, it utilizes Groq, an open-source query language developed by Sanity [_ref:3_](https://www.sanity.io/docs/groq). However, if you prefer GraphQL, it is also possible to integrate it with Sanity.
+Sanity CMS offers a growing number of resources to enhance your development experience. Currently, there are 20 frameworks supported, with React and Next.js being the most popular choices. Unlike traditional CMS platforms, Sanity does not require the use of PHP. Instead, it utilizes Groq, an open-source query language developed by Sanity. However, if you prefer GraphQL, it is also possible to integrate it with Sanity.
 
-When it comes to managing images in your projects, Sanity provides the image-url plugin [_ref:4_](https://www.sanity.io/docs/image-type). This powerful pipeline takes care of resizing, storage, and deletion, making it easier to handle images efficiently.
+When it comes to managing images in your projects, Sanity provides the image-url plugin. This powerful pipeline takes care of resizing, storage, and deletion, making it easier to handle images efficiently.
 
 Furthermore, the number of plugins and tools available in Sanity continues to grow, with 210 options currently available. Some notable "must-have" plugins recommended by Sanity include:
 
@@ -402,7 +405,7 @@ export const schemaTypes = [pet];
 
 - Sanity offers a wide range of templates that can offer a pre-made setup for projects. For a full overview refer to [Sanity Templates](https://www.sanity.io/templates).
 
-#### _References:_
+#### _#References:_
 
 - _ref: 1_ [https://www.sanity.io/docs/api-cdn](https://www.sanity.io/docs/api-cdn)
 
