@@ -113,7 +113,7 @@ You can download and install Docker on multiple platforms.
 
 Now that everything is set up, let's look at how Docker works in practice. In order to create a container you need command `docker container create` and at least one argument (the image). The most popular ones in 2024 according to Google are Alpine, BusyBox and Ubuntu, but we´ll be using hello-world Docker image in this demonstration, which just contains a text file with the text "Hello, World".
 
-- <img src="static/create.png" alt="Docker create command example" width=100%></img>
+- <img src="static/create.png" alt="Docker create command example" width=70%></img>
 
 Below the command you can see the container ID, which is unique and helps a developer interact with the created container. 
 
@@ -141,7 +141,7 @@ It's important to highlight that this command only stops the container, but does
 
 If we run the command `docker ps -a` again, we can make sure that there is no more container with this ID.
 
-<img src="static/pc-a.png" alt="Another Docker pc -a command example" width=70%></img>
+<img src="static/ps-a.png" alt="Another Docker ps -a command example" width=70%></img>
 
 ## Market Comparison
 
