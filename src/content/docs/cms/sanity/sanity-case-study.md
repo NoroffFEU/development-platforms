@@ -4,6 +4,8 @@ Keywords: sanity, headless CMS, content management system
 Tags: Sanity, development platforms, headless CMS, content management
 ---
 
+![alt text](images/sanityicon.256x52.png)
+
 ## Authors
 
 - Ana Cascante: [AnaCascante](https://github.com/AnaCascante)
@@ -456,3 +458,5 @@ In conclusion, Sanity, with its adaptability, scalability, and developer-friendl
 - [Exploring Headless CMS: Sanity Vs Contentful Vs Strapi | Tarka Labs Blog](https://blog.tarkalabs.com/exploring-headless-cms-f94466b765a2)
 
 - [Top 20 Questions about Sanity CMS — Represent Web Agency](https://www.represent.no/articles/frequently-asked-questions-about-sanity-cms)
+
+- [Icon Sanity](https://iconduck.com/icons/94861/sanity)
