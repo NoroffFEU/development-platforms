@@ -295,6 +295,7 @@ cd my-react-hooks-app
 React Hooks is an integral part of the latest React version, available out of the box. It is exclusively supported for versions starting from 16.8. Thus, installing Hooks is synonymous with upgrading to the most recent React version.
 
 **3. Explore React Hooks:**
+
 Begin by familiarizing with built-in hooks through practical examples and create initial custom hook. Alternatively, experiment with integrating Hooks into specific components within current React project, allowing to leverage their benefits without the need to rewrite any existing code. 
 
 
