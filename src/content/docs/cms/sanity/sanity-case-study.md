@@ -147,7 +147,7 @@ In the world of CMS there is a vast amount of options. Each with unique features
    ```
 
    ```
-   Open locally in [http://localhost:3333](http://localhost:3333)
+   Open locally in [http://localhost:3333](http://localhost:3333) // This may vary depending on your local server.
    ```
 
 3. **Create Schema**
@@ -208,7 +208,7 @@ In the world of CMS there is a vast amount of options. Each with unique features
      ```
 
    - Import your schema in `schemas/index.js`.
-   - Save and run command `npm run dev` and open in [http://localhost:3333](http://localhost:3333).
+   - Save and run command `npm run dev` and open in [http://localhost:3333](http://localhost:3333) // This may vary depending on your local server.
 
 **EXAMPLE OF YOUR SANITY STUDIO LAYOUT ⬇️**
 
@@ -400,7 +400,7 @@ In the terminal run:
 
 - `cd sanity-project`
 - `npm run dev`
-- Open locally in [http://localhost:3333](http://localhost:3333)
+- Open locally in [http://localhost:3333] // This may vary depending on your local server.
 - If not logged into sanity.io, you will be prompted to log in using the same credentials you used to create your sanity profile.
 
 ### CREATE A NEW DOCUMENT TYPE
@@ -433,26 +433,26 @@ In conclusion, Sanity, with its adaptability, scalability, and developer-friendl
 
 #### _#References:_
 
-- _ref: 1_ [https://www.sanity.io/docs/api-cdn](https://www.sanity.io/docs/api-cdn)
+- [https://www.sanity.io/docs/api-cdn](https://www.sanity.io/docs/api-cdn)
 
-- _ref: 2_ [https://www.sanity.io/exchange/frameworks](https://www.sanity.io/exchange/frameworks)
+- [https://www.sanity.io/exchange/frameworks](https://www.sanity.io/exchange/frameworks)
 
-- _ref: 3_ [https://www.sanity.io/docs/groq](https://www.sanity.io/docs/groq)
+- [https://www.sanity.io/docs/groq](https://www.sanity.io/docs/groq)
 
-- _ref: 4_ [https://www.sanity.io/docs/image-type](https://www.sanity.io/docs/image-type)
+- [https://www.sanity.io/docs/image-type](https://www.sanity.io/docs/image-type)
 
-- _ref: 5_ [https://www.sanity.io/plugins](https://www.sanity.io/plugins)
+- [https://www.sanity.io/plugins](https://www.sanity.io/plugins)
 
-- _ref: 6_ [https://www.sanity.io/docs/realtime-updates](https://www.sanity.io/docs/realtime-updates)
+- [https://www.sanity.io/docs/realtime-updates](https://www.sanity.io/docs/realtime-updates)
 
-- _ref: 7_ [https://www.sanity.io/docs/presenting-and-previewing-content](https://www.sanity.io/docs/presenting-and-previewing-content)
+- [https://www.sanity.io/docs/presenting-and-previewing-content](https://www.sanity.io/docs/presenting-and-previewing-content)
 
-- _ref: 8_ [Sanity.io](https://www.sanity.io/)
+- [Sanity.io](https://www.sanity.io/)
 
-- _ref: 9_ [YouTube](https://www.youtube.com/watch?v=TRCnAcdxP0M&list=PLRzQpWc3zNPkrIwaz1qfTMx0IGSfCFPKX)
+- [YouTube](https://www.youtube.com/watch?v=TRCnAcdxP0M&list=PLRzQpWc3zNPkrIwaz1qfTMx0IGSfCFPKX)
 
-- _ref: 10_ [Strapi vs Contentful vs Sanity Comparison — Restack](https://www.restack.io/docs/strapi-knowledge-strapi-vs-contentful-vs-sanity)
+- [Strapi vs Contentful vs Sanity Comparison — Restack](https://www.restack.io/docs/strapi-knowledge-strapi-vs-contentful-vs-sanity)
 
-- _ref: 11_ [Exploring Headless CMS: Sanity Vs Contentful Vs Strapi | Tarka Labs Blog](https://blog.tarkalabs.com/exploring-headless-cms-f94466b765a2)
+- [Exploring Headless CMS: Sanity Vs Contentful Vs Strapi | Tarka Labs Blog](https://blog.tarkalabs.com/exploring-headless-cms-f94466b765a2)
 
-- _ref: 12_ [Top 20 Questions about Sanity CMS — Represent Web Agency](https://www.represent.no/articles/frequently-asked-questions-about-sanity-cms)
+- [Top 20 Questions about Sanity CMS — Represent Web Agency](https://www.represent.no/articles/frequently-asked-questions-about-sanity-cms)
