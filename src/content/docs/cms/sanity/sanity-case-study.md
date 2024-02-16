@@ -56,7 +56,7 @@ Furthermore, the number of plugins and tools available in Sanity continues to gr
 
 The following key features of Sanity CMS contribute to its flexibility, efficiency, and developer-friendly nature, making it a powerful choice for content management and digital experiences.
 
-### Structured Content 101
+### Structured Content
 
 Sanity CMS allows you to break down content into small, structured pieces, making it easier for machines to understand and utilize the information in various ways.
 
