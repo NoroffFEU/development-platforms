@@ -255,12 +255,24 @@ function AppContainer() {
 
 
 ## Market Comparison
+This is a brief comparison focusing on key aspects influencing the choice between React Hooks and Class Components in React development. Each factor addresses the need for simplicity in syntax, code readability, reusability, and the learning curve. By evaluating these elements, developers can make decisions based on their project requirements and familiarity with React paradigms.
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+***1. Simplicity of Syntax:***
+- React Hooks: provide a more concise and readable syntax for state management and side effects.
+- Class Components: involve more boilerplate code, leading to potential verbosity.
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+***2. Code Readability:***
+- React Hooks: promote cleaner and more readable code with the encapsulation of logic in modular hooks.
+- Class Components: may become less readable as logic grows, particularly in larger components.
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+***3. Reusability:***
+- Custom Hooks: facilitate the reusability of logic across components, encouraging a modular and DRY (Don't Repeat Yourself) approach.
+- Class Components: offer reusablity which often relies on higher-order components (HOCs), which can introduce nesting and additional complexity.
+
+***4. Learning Curve:***
+- React Hooks: generally have a lower learning curve, making it more accessible for developers new to React.
+- Class Components: may have a steeper learning curve, especially for those new to JavaScript classes.
+
 
 ## Getting Started
 
