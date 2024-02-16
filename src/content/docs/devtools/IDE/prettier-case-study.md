@@ -79,25 +79,25 @@ Prettier is easy to adopt, lowering the barrier for programmers to start using i
 
 ## References
 
-James Long (2017) _A Prettier JavaScript Formatter_. Available at: https://archive.jlongster.com/A-Prettier-Formatter (03.02.2024)
+James Long (2017) _A Prettier JavaScript Formatter_. Available at: https://archive.jlongster.com/A-Prettier-Formatter (Accessed: 03.02.2024)
 
-James Long/Christopher Chedeau (2017) _Releasing Prettier 1.0_. Available at: https://archive.jlongster.com/prettier-1.0
+James Long/Christopher Chedeau (2017) _Releasing Prettier 1.0_. Available at: https://archive.jlongster.com/prettier-1.0 (Accessed: 05.02.2024)
 
-Christopher Chedeau (2017) _Prettier 1.4: TypeScript and CSS support_. Available at: https://prettier.io/blog/2017/06/03/1.4.0
+Christopher Chedeau (2017) _Prettier 1.4: TypeScript and CSS support_. Available at: https://prettier.io/blog/2017/06/03/1.4.0 (Accessed: 05.02.2024)
 
-Tomasz Kozon (2024) _Prettier_. Available at: https://boringowl.io/en/tag/prettier
+Tomasz Kozon (2024) _Prettier_. Available at: https://boringowl.io/en/tag/prettier (Accessed: 06.02.2024)
 
-Editor Integration (no date) _Editor Integration_. Available at: https://prettier.io/docs/en/editors.html
+Editor Integration (no date) _Editor Integration_. Available at: https://prettier.io/docs/en/editors.html (Accessed: 06.02.2024)
 
-Kamaldeen Lawal (2023) _Alternatives to Prettier – Popular Code Linting and Formatting Tools_. Available at: https://www.freecodecamp.org/news/alternatives-to-prettier/
+Kamaldeen Lawal (2023) _Alternatives to Prettier – Popular Code Linting and Formatting Tools_. Available at: https://www.freecodecamp.org/news/alternatives-to-prettier/ (Accessed: 08.02.2024)
 
-Christopher Chedeau (2024). _No title_. Message on X. Available at: The appendix of this document.
+Christopher Chedeau (2024). _No title_. Message on X. Available at: The appendix of this document. (Accessed: 10.02.2024)
 
-Joel Olawanle (2023) _Top 30 VS Code Extensions for Enhanced Programming Experience_. Available at: https://kinsta.com/blog/vscode-extensions/
+Joel Olawanle (2023) _Top 30 VS Code Extensions for Enhanced Programming Experience_. Available at: https://kinsta.com/blog/vscode-extensions/ (Accessed: 10.02.2024)
 
-Theodore Kelechukwu Onyejiaku (2024) _How to set up Prettier and automatic formatting on VS Code_. Available at: https://www.educative.io/answers/how-to-set-up-prettier-and-automatic-formatting-on-vs-code
+Theodore Kelechukwu Onyejiaku (2024) _How to set up Prettier and automatic formatting on VS Code_. Available at: https://www.educative.io/answers/how-to-set-up-prettier-and-automatic-formatting-on-vs-code (Accessed: 11.02.2024)
 
-Sumit Kumar Singh (2023) _ESLint vs Prettier_. Available at: https://javascript.plainenglish.io/eslint-vs-prettier-387408e9be5f
+Sumit Kumar Singh (2023) _ESLint vs Prettier_. Available at: https://javascript.plainenglish.io/eslint-vs-prettier-387408e9be5f (Accessed: 12.02.2024)
 
 ## Appendix
 
