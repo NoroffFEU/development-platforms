@@ -119,7 +119,7 @@ Below the command you can see the container ID, which is unique and helps a deve
 
 It's also important to mention that the `docker container create` command creates a container, but doesn't start it. In order to start it, you need to run `docker container start` plus the ID of the container. 
 
-- ![Docker start command](/Ekaterina/Desktop/start.png "Docker start command example")
+- ![Docker start command](...../static/images/start.png "Docker start command example")
 
 The fact that we got the container ID again means that Docker managed to start the container successfully.
 
@@ -137,7 +137,7 @@ In order to stop a container we need to run command `docker stop` plus the conta
 
 It's important to highlight that this command only stops the container, but doesn't delete it. In order to remove a container use command `docker rm` plus the ID (or the three character shortcut).
 
-- ![Docker remove command](/Ekaterina/Desktop/remove.png "Docker remove command example")
+- ![Docker remove command](/static/images/remove.png "Docker remove command example")
 
 If we run the command `docker ps -a` again, we can make sure that there is no more container with this ID.
 
