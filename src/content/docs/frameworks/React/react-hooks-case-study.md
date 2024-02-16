@@ -74,20 +74,11 @@ function ChatRoom({ roomId }) {
 
 ***3. `useContext`*** Accesses the value of a React context within a functional component.
 ```jsx
-import { useState, createContext } from "react";
-import ReactDOM from "react-dom/client";
+import { useContext } from 'react';
 
-const UserContext = createContext()
-function Component1() {
-  const [user, setUser] = useState("Jesse Hall");
-
-  return (
-    <UserContext.Provider value={user}>
-      <h1>{`Hello ${user}!`}</h1>
-      <Component2 user={user} />
-    </UserContext.Provider>
-  );
-}
+function MyComponent() {
+  const theme = useContext(ThemeContext);
+  // ...
 ```
 
 ***4. `useReducer`*** Allows for custom state logic, similar to the `useState` Hook.
