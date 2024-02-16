@@ -113,33 +113,35 @@ You can download and install Docker on multiple platforms.
 
 Now that everything is set up, let's look at how Docker works in practice. In order to create a container you need command `docker container create` and at least one argument (the image). The most popular ones in 2024 according to Google are Alpine, BusyBox and Ubuntu, but we´ll be using hello-world Docker image in this demonstration, which just contains a text file with the text "Hello, World".
 
-- ![Docker create command](http://Ekaterina/Desktop/create.png "Docker create command example")
+- <img src="static/create.png" width=100%></img>
 
 Below the command you can see the container ID, which is unique and helps a developer interact with the created container. 
 
 It's also important to mention that the `docker container create` command creates a container, but doesn't start it. In order to start it, you need to run `docker container start` plus the ID of the container. 
 
-- ![Docker start command](...../static/images/start.png "Docker start command example")
+- <img src="static/start.png" width=100%></img>
 
 The fact that we got the container ID again means that Docker managed to start the container successfully.
 
 There is also a shortcut command `docker container run` which combines `create` and `start` in one command. 
 
-- ![Docker run command](/Ekaterina/Desktop/run.png "Docker run command example")
+- <img src="static/run.png" width=100%></img>
 
 If we run `docker ps -a` command which shows us all the existing containers, we will see that we have a new hello-world container with a new ID.
 
-- ![Docker ps command](/Ekaterina/Desktop/ps.png "Docker ps command example")
+- <img src="static/ps.png" width=100%></img>
 
 In order to stop a container we need to run command `docker stop` plus the container ID (you can use the first three characters of the ID as a shortcut).
 
-- ![Docker stop command](/Ekaterina/Desktop/stop.png "Docker stop command example")
+- <img src="static/stop.png" width=100%></img>
 
 It's important to highlight that this command only stops the container, but doesn't delete it. In order to remove a container use command `docker rm` plus the ID (or the three character shortcut).
 
-- ![Docker remove command](/static/images/remove.png "Docker remove command example")
+- <img src="static/remove.png" width=100%></img>
 
 If we run the command `docker ps -a` again, we can make sure that there is no more container with this ID.
+
+<img src="static/pc-a.png" width=100%></img>
 
 ## Market Comparison
 
