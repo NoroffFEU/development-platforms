@@ -141,8 +141,6 @@ It's important to highlight that this command only stops the container, but does
 
 If we run the command `docker ps -a` again, we can make sure that there is no more container with this ID.
 
-- ![Docker ps-a command](/Ekaterina/Desktop/ps-a.png "Docker ps -a command example")
-
 ## Market Comparison
 
 There are a few alternative containerization tools that can be used instead of Docker, but not all of them can be used as a full alternative, but just as an alternative to certain components of Docker, and therefore address only specific parts of Docker's functionality. The most interesting tools among them are:
