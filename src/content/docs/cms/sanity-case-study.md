@@ -6,15 +6,19 @@ tags: sanity, case study, development platform, cms
 
 ## Introduction
 
-Sanity describe themselves as "a modern headless CMS (Content Management System). Sanity uses structured content to endlessly re-use content across any channel and a composable approach to help businesses connect to any third-party technology, data source, and front end framework."
+Sanity describe themselves as "a modern headless CMS (Content Management System). Sanity uses structured content to endlessly re-use content across any channel and a composable approach to help businesses connect to any third-party technology, data source, and front end framework."  It allows for extensive reusability across different platforms and integrates smoothly with a variety of technologies and front-end frameworks. This flexibility makes Sanity.io a versatile choice for businesses looking to manage their digital content effectively in today's rapidly changing technological landscape.
+
+
 
 ## Brief History
 
 
-- 2016: First round of funding
+- 2016: Founded in Norway by Magnus Kongsli Hillestad, Even Westvang, Øyvind Rostad, and Simen Svale Skogsrud
 - Nov 2017: Became publicly available 
-- Dec 2022: Sanity Studio V3 is released
+- 2019: Sanity partners with Heavybit Inc and opens office in San Francisco, California
+- 2022: Released Sanity Studio V3
 
+Sanity.io, as a relatively new company, has shown a strong commitment to growth and innovation in the CMS sector.
 
 ## Main Features
 
@@ -31,23 +35,16 @@ While many headless CMS platforms offer similar core funcionalities of deliverin
 
 ## Getting Started
 
-
 Sanity provides thorough documentation describing how to get started. The user may choose to follow a step-by-step guide, a video, or start with a template:
 
 (https://www.sanity.io/docs/getting-started-with-sanity)
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+In conclusion, Sanity.io stands out as a modern headless CMS, notable for its flexibility, scalability, and customization. Its strengths lie in its open-source content editing interface (Sanity Studio), robust API integration, and efficient Content Lake for content management. These features make it ideal for projects that demand versatile content management and technology integration. However, its high customization level might be daunting for users looking for simpler solutions, and the need for developer involvement could be a challenge for those with limited technical expertise. Despite these limitations, the future of Sanity.io appears promising, with a focus on evolving with new technologies and enhancing both user and developer experiences. 
 
 ## References
 
 - www.sanity.io/docs/
 - www.sanity.io/blog/
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
