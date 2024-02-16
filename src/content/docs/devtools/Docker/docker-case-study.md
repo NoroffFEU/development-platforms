@@ -109,6 +109,40 @@ You can download and install Docker on multiple platforms.
     [Install on Arch](https://docs.docker.com/desktop/install/archlinux/)
     2. Open the application menu in Gnome/KDE Desktop and search for Docker Desktop and select it to start Docker
 
+## Docker Demonstration 
+
+Now that everything is set up, let's look at how Docker works in practice. In order to create a container you need command `docker container create` and at least one argument (the image). The most popular ones in 2024 according to Google are Alpine, BusyBox and Ubuntu, but we´ll be using hello-world Docker image in this demonstration, which just contains a text file with the text "Hello, World".
+
+- ![Docker create command](http://Ekaterina/Desktop/create.png)
+
+Below the command you can see the container ID, which is unique and helps a developer interact with the created container. 
+
+It's also important to mention that the `docker container create` command creates a container, but doesn't start it. In order to start it, you need to run `docker container start` plus the ID of the container. 
+
+- ![Docker start command](http://Ekaterina/Desktop/start.png)
+
+The fact that we got the container ID again means that Docker managed to start the container successfully.
+
+There is also a shortcut command `docker container run` which combines `create` and `start` in one command. 
+
+- ![Docker run command](http://Ekaterina/Desktop/run.png)
+
+If we run `docker ps -a` command which shows us all the existing containers, we will see that we have a new hello-world container with a new ID.
+
+- ![Docker ps command](http://Ekaterina/Desktop/ps.png)
+
+In order to stop a container we need to run command `docker stop` plus the container ID (you can use the first three characters of the ID as a shortcut).
+
+- ![Docker stop command](http://Ekaterina/Desktop/stop.png)
+
+It's important to highlight that this command only stops the container, but doesn't delete it. In order to remove a container use command `docker rm` plus the ID (or the three character shortcut).
+
+- ![Docker remove command](http://Ekaterina/Desktop/remove.png)
+
+If we run the command `docker ps -a` again, we can make sure that there is no more container with this ID.
+
+- ![Docker ps-a command](http://Ekaterina/Desktop/ps-a.png)
+
 ## Market Comparison
 
 There are a few alternative containerization tools that can be used instead of Docker, but not all of them can be used as a full alternative, but just as an alternative to certain components of Docker, and therefore address only specific parts of Docker's functionality. The most interesting tools among them are:
