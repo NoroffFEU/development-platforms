@@ -3,7 +3,36 @@
 | Title | Author | Tags |
 | ----- | ------ | ---- |
 | ANN and AI in use with Whisper and GPT | Siw Elin Årolilja Iversen | AI, ANN, Whisper, GPT |
-| | | |
+
+# Table of contents
+
+[Introduction](#introduction)
+- [Terminology](#terminology)
+- [Brief history](#brief-history)
+
+[Utilizing AI with GPT and Whisper](#utilizing-ai-with-gpt-and-whisper)
+- [Installation guide for GPT](#installation-guide-for-gpt)
+
+[AI as a tool for hearing- and vision-impaired users](#ai-as-a-tool-for-hearing--and-vision-impaired-users)
+- [Installing Whisper](#installing-whisper)
+- [Command line usage](#command-line-usage)
+
+[Using Whisper with GPT](#using-whisper-with-gpt)
+[Strengths and drawbacks](#strengths-and-drawbacks-of-chatgpt-and-whisper)
+- [Strengths](#strengths)
+- [GPT](#chatgpt)
+- [Whisper](#whisper)
+- [Drawbacks](#drawbacks)
+- [GPT](#chatgpt-1)
+- [Whisper](#whisper-1)
+
+[Summary and conclusion](#summary-and-conclusion)
+
+[Sources](#sources)
+
+[Additional resources](#additional-resources)
+- [Whisper example](#whisper-example)
+
 
 # Artifical Neural Network in use with AI
 
@@ -32,8 +61,9 @@ Artificial Neural Networks (ANN) represents a fundamental component of both Mach
 First, AI does not have consciousness, and without consciousness one can say that the AI does not make intelligent decisions. AI, due to its nature from ML is logical-driven decision-making platform. The AI model is based on algorithms and data made by humans, and current modern AI is based on chance, luck, and guesswork algorithms to create a plausible response to the respondent. Despite these limitations, AI holds immense potential across various domains and platforms, such as automating routine tasks to assisting in complex problem-solving, AI systems are transforming the development industry and revolutionizing the way we interact with technology. By harnessing the power of ANN within AI frameworks, researchers and developers can continue to push the boundaries of what is possible.
 
 One of the leading AI tools in use today is OpenAI’s ChatGPT, which stands for Generative Pre-trained Transformer. Developers now have the option to integrate ChatGPT. This integration allows for various uses, including assisting customers with support and services even before they are connected to live customer support agents. For instance, it can help understand customer queries, offer relevant product recommendations, or troubleshoot common issues. Ultimately, this enhances user experience by providing personalized assistance and reducing wait times for support.
-
 According to OpenAI, their API may be used to virtually any task one may need, such as: grammar correction, parse unstructured data, natural language to SQL and explain code, to name a few functions.
+
+### Installation guide for GPT
 Installing the API is quick and easy, and the developer may pick between three different options such as curl, Python and Node.js. Here I will use Node.js as an example:
 
 The installation of the ChatGPT-assistant is simple itself:
