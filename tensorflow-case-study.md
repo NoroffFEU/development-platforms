@@ -60,7 +60,7 @@ Despite being in a competitive field, it may very well be the best all round mac
 ## References
 
 - [opendatascience.com](https://opendatascience.com/how-tensorflow-came-to-be-the-most-important-library-in-machine-learning/)
-- [tensorflow.org/](https://www.tensorflow.org/learn)
+- [tensorflow.org](https://www.tensorflow.org/learn)
 
 ## Additional Resources
 
