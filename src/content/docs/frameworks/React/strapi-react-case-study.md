@@ -43,11 +43,14 @@ Through Strapi's Quickstart option, we'll swiftly install Strapi and proceed to 
 
 2. Once in the desired directory, create a new folder for your project using the 'mkdir' command followed by the desired name. In this demo we will call the project folder 'strapi-react-app'. 
 
-3. Enter the newly created folder by using the 'cd' command. Within this folder, create a subdirectory named "backend" to house your Strapi project.
+3. Create a strapi project by typing 'npx create-strapi-app' and name the project 'backend'.
+
+![img of terminal](/src/assets/frameworks/strapi-react/strapi-img/image.png)
+
 
 4. Initiate the creation of a Strapi project by executing the command 'npx create-strapi-app' and specifying the project name as 'backend'.
 
-![img of mkdir terminal](/src/assets/frameworks/strapi-react/strapi-img/image-0.png)
+![img of terminal](/src/assets/frameworks/strapi-react/strapi-img/image-0.png)
 
 5. Upon completion, Strapi will automatically launch a local development server. Access the Strapi welcome page via your web browser and proceed to authenticate as an admin user. 
 
