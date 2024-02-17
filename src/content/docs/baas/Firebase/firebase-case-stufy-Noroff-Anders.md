@@ -30,6 +30,10 @@ Firebase's featuere set is quite extensive and includes the following features:
 | Feature | Description |
 | --- | --- |
 | Realtime Database| - Cloud-hosted NoSQL database that allow you to store and sync data in realtime. Realtime syncing allows users to easily get their data from any device.<br> - Allows building serverless apps. Firebase ships with mobile and web SDKs that allow you to build apps without managing servers. <br> - When an device goes offline Realtime SDK's use local cache to serve and store changes  |
+| Authentication | Allows for easy secure authentication. With firebase auth you can use the normal email and password login, or for example google facebook, twitter, and other login options |
+| Cloud Messaging | -Provides an connection beetween server and device for sending and receiving message at no cost <br> - Advanced message targeting allows for targeting a predefined segment. For instance  You can also target message to devices that are subscrivet to a topic <br> Firebase messagin allows for customized notication messages that can be sent instantly. These are fully integrated with google analytics for monitoring effectiveness and engagement. |
+| Hosting | Firebase can host your web apps without any infrastructure management needed. |
+| Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
 
