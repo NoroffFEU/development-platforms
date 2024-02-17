@@ -33,7 +33,9 @@ Prettier supports various programming languages, including JavaScript, HTML, CSS
 
 ## Market Comparison
 
-There are several alternatives to Prettier Code Formatter, and some of these include ESLint, JsFmt, StandardJS, +EditorConfig, and JSBeautifier. Here, I will take a closer look at the differences between Prettier and ESLint.
+There are several alternatives to Prettier Code Formatter, and some of these include ESLint, JsFmt, StandardJS, +EditorConfig, and JSBeautifier.
+
+### A closer look at the differences between Prettier and ESLint.
 
 Both Prettier and ESLint are popular code formatters, but they serve different purposes.
 
