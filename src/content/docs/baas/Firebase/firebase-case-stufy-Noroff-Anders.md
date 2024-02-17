@@ -29,7 +29,7 @@ Firebase's featuere set is quite extensive and includes the following features:
  ### Build features
 | Feature | Description |
 | --- | --- |
-| Realtime Database| - Cloud-hosted NoSQL database that allow you to store and sync data in realtime. Realtime syncing allows users to easily get their data from any device. - Allows building serverless apps. Firebase ships with mobile and web SDKs that allow you to build apps without managing servers. - When an device goes offline Realtime SDK's use local cache to serve and store changes  |
+| Realtime Database| - Cloud-hosted NoSQL database that allow you to store and sync data in realtime. Realtime syncing allows users to easily get their data from any device.<br> - Allows building serverless apps. Firebase ships with mobile and web SDKs that allow you to build apps without managing servers. <br> - When an device goes offline Realtime SDK's use local cache to serve and store changes  |
 | Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
 
