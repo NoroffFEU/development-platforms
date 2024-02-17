@@ -32,7 +32,13 @@ Firebase's featuere set is quite extensive and includes the following features:
 | Realtime Database| - Cloud-hosted NoSQL database that allow you to store and sync data in realtime. Realtime syncing allows users to easily get their data from any device.<br> - Allows building serverless apps. Firebase ships with mobile and web SDKs that allow you to build apps without managing servers. <br> - When an device goes offline Realtime SDK's use local cache to serve and store changes  |
 | Authentication | Allows for easy secure authentication. With firebase auth you can use the normal email and password login, or for example google facebook, twitter, and other login options |
 | Cloud Messaging | -Provides an connection beetween server and device for sending and receiving message at no cost <br> - Advanced message targeting allows for targeting a predefined segment. For instance  You can also target message to devices that are subscrivet to a topic <br> Firebase messagin allows for customized notication messages that can be sent instantly. These are fully integrated with google analytics for monitoring effectiveness and engagement. |
-| Hosting | Firebase can host your web apps without any infrastructure management needed. |
+| Hosting | Firebase can host your web apps without any infrastructure management needed. Hosting features such as domain management, No cost SSL certificat and effective scalability makes this a great product for front end devs. |
+| Cloud Storage | Allows for storing and serving user-generated content. Cloud storage also allows for easy scaling if needed  |
+| Machine Learning | With firebase machine learning you can train your own model or  start with an existing tensorflow model. Wiith AI things such as an chatbot or image classification model can improve your apps. |
+
+### Monitor features
+| Google Analytics| Analytics tool for data collecition such as users stats, crash reports and google ads to help you get the data you need for making the best improvements to your apps |
+| Firebase crashlytics|  |
 | Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
