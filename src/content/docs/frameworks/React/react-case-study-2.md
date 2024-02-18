@@ -40,15 +40,15 @@ React has emerged as a cornerstone in modern web development, offering developer
 
 - **Components:** Components are one of the core concepts of React. They are the foundation upon which you build user interfaces. They serve as self-contained and reusable units of UI elements. Each component operates independently, containing its own functionality and rendering HTML output.
 
-```bash
-    function Greeting(props) {
- return <h1>Hello, {props.name}</h1>;
-}
-```
+  ```bash
+  function Greeting(props) {
+  return <h1>Hello, {props.name}</h1>;
+  }
+  ```
 
 - **JSX:** JSX is a syntax extension for JavaScript that React uses so it lets you write HTML-like markup inside a JavaScript file.
 
-  ```js
+  ```bash
   const element = <h1>Hello, world!</h1>;
   ```
 
@@ -56,53 +56,54 @@ React has emerged as a cornerstone in modern web development, offering developer
 
 ## Market Comparison
 
-    React holds the leading position in the JavaScript framework market, closely followed by Vue.js and Angular. In this comparison, I'll explore the similarities and differences among them, and delve into what sets React apart as the most popular framework.
+React holds the leading position in the JavaScript framework market, closely followed by Vue.js and Angular. In this comparison, I'll explore the similarities and differences among them, and delve into what sets React apart as the most popular framework.
 
-    - **Similarities:**
+- **Similarities:**
 
-        - **Single-Page-Application (SPA) Support: They all support the development og single-page applications, providing tools and features to create fast and responsive user experience.
+  - **Single-Page-Application (SPA) Support:** They all support the development og single-page applications, providing tools and features to create fast and responsive user experience.
 
-        - **Component-Based Architecture:** All of the above mentioned frameworks follow a component based architecture allowing developers to build applications by composing reusable and independent components.
+  - **Component-Based Architecture:** All of the above mentioned frameworks follow a component based architecture allowing developers to build applications by composing reusable and independent components.
 
-        - **Virtual DOM:** React, Vue.js, and Angular utilize a virtual DOM mechanism to optimize performance by reducing unnecessary DOM manipulations.
+  - **Virtual DOM:** React, Vue.js, and Angular utilize a virtual DOM mechanism to optimize performance by reducing unnecessary DOM manipulations.
 
-    - **Differences:**
+- **Differences:**
 
-        - **Learning curve:** Angular, unlike React and Vue.js, tends to have a steeper learning curve primarily because of its comprehensive feature set and deep integration with TypeScript. In contrast, React and Vue.js are more lightweight and flexible libraries that focus primarily on the view layer of applications. They provide simpler APIs and offer greater freedom in terms of architectural choices, which can make them easier for beginners to pick up.
+  - **Learning curve:** Angular, unlike React and Vue.js, tends to have a steeper learning curve primarily because of its comprehensive feature set and deep integration with TypeScript. In contrast, React and Vue.js are more lightweight and flexible libraries that focus primarily on the view layer of applications. They provide simpler APIs and offer greater freedom in terms of architectural choices, which can make them easier for beginners to pick up.
 
-        - **Size and performance:** Vue.js is known for its small size and dast performance, while Angular file can be larger, and React´s performance can vary depending on how it is optimized.
+  - **Size and performance:** Vue.js is known for its small size and dast performance, while Angular file can be larger, and React´s performance can vary depending on how it is optimized.
 
-        - **Syntax and Templating**: React uses JSX for templating, Vue.js offers a combination of HTML templates and JavaScript, while Angular relies on TypeScript and HTML templates with its own syntax.
+  - **Syntax and Templating**: React uses JSX for templating, Vue.js offers a combination of HTML templates and JavaScript, while Angular relies on TypeScript and HTML templates with its own syntax.
 
-        - **Tools and Resources:** React is backed by Facebook, Vue.js by an independent community, and Angular by Google. Each framework has its own ecosystem of tools, libraries, and resources.
+  - **Tools and Resources:** React is backed by Facebook, Vue.js by an independent community, and Angular by Google. Each framework has its own ecosystem of tools, libraries, and resources.
 
-    - **What Makes React Most Popular**
+- **What Makes React Most Popular**
 
-    Since we already stated that it is the most popular framework, here are a few reasons that compliment that fact:
+Since we already stated that it is the most popular framework, here are a few reasons that compliment that fact:
 
-        - As we have already mentioned, React´s declarative syntax makes it easier to understand and write code, leading to improved developer productivity.
+    - As we have already mentioned, React´s declarative syntax makes it easier to understand and write code, leading to improved developer productivity.
 
-        - Large Ecosystem and Community: React has a vast Ecosystem of libraries, tools and resources supported by a vibrant community, providing solutions to various development needs.
+    - Large Ecosystem and Community: React has a vast Ecosystem of libraries, tools and resources supported by a vibrant community, providing solutions to various development needs.
 
-        - Reacts lightweight core and flexible architecture allow developers to adapt it to different project requirements and scale applications efficiently.
+    - Reacts lightweight core and flexible architecture allow developers to adapt it to different project requirements and scale applications efficiently.
 
-        - Since it is developed and maintained by Facebook, it has regular updates and improvements, as well as a strong support system.
+    - Since it is developed and maintained by Facebook, it has regular updates and improvements, as well as a strong support system.
 
 ## Getting Started
 
 To have React in your project you will need to follow these steps. First, you have to ensure that you have Node.js installed on your device. If that is correct, than do the following:
 
-    1. In your terminal type:
-    ``` bash
-        npx create-react-app your-app-name .
-    ```
+1. In your terminal type:
 
-    Dot in the end will create a folder in directory you are currently on. Replace your-app-name with the actuall name.
+   ```bash
+       npx create-react-app your-app-name .
+   ```
 
-    2. After it has been succesfully installed(it takes about two minutes), to get started type in your terminal:
-    ``` bash
-    npm start
-    ```
+   Dot in the end will create a folder in directory you are currently on. Replace your-app-name with the actuall name.
+
+2. After it has been succesfully installed(it takes about two minutes), to get started type in your terminal:
+   ```bash
+   npm start
+   ```
 
 ## Conclusion
 
