@@ -126,16 +126,17 @@ async function getCities(db) {
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+Firebase, as a Backend-as-a-Service (BaaS) platform, has established itself as a powerful tool for app developers, offering a comprehensive suite of features ranging from authentication to real-time databases and cloud hosting. Its seamless integration with other Google services and robust infrastructure make it a reliable choice for building and scaling applications. Developers can focus on crafting their app's frontend without worrying about backend maintenance, thanks to Firebase's user-friendly interface and extensive documentation.
 
+However, Firebase is not without its drawbacks. Its reliance on a NoSQL database may pose challenges for applications requiring complex relational queries. Additionally, while Firebase offers a generous free tier, costs can escalate as projects scale, potentially leading to budgetary concerns. Moreover, the proprietary nature of Firebase raises the issue of vendor lock-in, limiting flexibility and autonomy for developers.
+
+Looking ahead, Firebase continues to evolve and expand its offerings, catering to both mobile and web developers alike. With the integration of machine learning capabilities and ongoing improvements in performance monitoring and analytics, Firebase remains a competitive player in the BaaS market.
+
+In summary, Firebase is a valuable tool for developers seeking a robust and scalable backend solution, particularly for smaller to medium-sized projects. However, developers should carefully weigh the platform's advantages and limitations against their project requirements and long-term objectives to make an informed decision.
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- https://firebase.google.com/products-build
+- https://www.geeksforgeeks.org/firebase-introduction/
+- https://medium.com/@thesagarkale/firebase-vs-supabase-2c2541ae9bd
+- https://firebase.google.com/docs/web/setup
 
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
