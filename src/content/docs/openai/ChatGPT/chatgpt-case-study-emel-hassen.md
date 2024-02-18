@@ -14,7 +14,7 @@ ChatGPT, stems from the robust GPT-3 model, it is specialized in variant finely 
 
 This ChatGPT timeline history will focus on the history of OpenAI labs and the history of ChatGPT spesifically. There is additional history on the developments of AI and natural language processes that is not covered here that stems back to the mid ninteen hundreds. 
 
-- 2015: ChatGPT was founded by OpenAI, an artificial intelligence research lab.
+- 2015: OpenAI, an artificial intelligence research lab, was founded.
 
 - June 16, 2016: OpenAI publishes research on generative models.
 
@@ -27,6 +27,8 @@ This ChatGPT timeline history will focus on the history of OpenAI labs and the h
 - November 2020: The initial prototype launch year. OpenAI releases ChatGPT, a chatbot based on GPT-3.5.
 
 - February 2021: Launch of ChatGPT Plus 
+
+- November 30, 2022: OpenAI introduces ChatGPT, that uses GPT-3.5 language technology. It comprehends numerous languages and can generate contextually relevant responses. However, its proficiency depends on the data it is trained on, indicating its finite capabilities.
 
 - February 2023: ChatGBT became the fastest-growing consumer software application in history, gaining over 100 million users and contributing to the growth of OpenAI's valuation to $29 billion.
 
@@ -71,7 +73,7 @@ aaa
 
 ## References
 
-- [Example.com](https://example.com)
+- [timeline](https://www.officetimeline.com/blog/artificial-intelligence-ai-and-chatgpt-history-and-timelines)
 - _Good Examples_ by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
