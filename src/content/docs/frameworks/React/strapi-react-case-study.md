@@ -194,11 +194,55 @@ In this part of the case study, we'll cover how to fetch the product endpoints w
 
 9. Create two new folders in the src folder:
 
-- Components: For Navbar and Header components.
+- Components: For Navbar.js.
 
 - Pages: For Category.js, Homepage.js, and ProductDetails.js. Only Homepage and ProductDetails will be covered; Category is for relational data and will not be addressed.
 
 ![alt text](image-8.png)
 
+10. After installing the ES7 React extension, utilize React snippets for each page. To begin, type 'rfc' (short for React functional component) at the top of the page and press enter. This will create a React Functional Component and automatically import React from 'react'.
+
+![alt text](image-9.png)
+
+### Creating the Navbar
+For the components, we'll begin by creating the navbar, which will be displayed at the top of every page. Please note that this walkthrough will not include specific styling, as the demo app does not focus on design or UX.
+
+1. To enable the use of URL link tags in React, we need to install React Router DOM, which also allows us to set up routes inside the root.
+
+![alt text](image-10.png)
+
+2. Create a new file named Navbar.js in the components folder and type 'rfc' followed by Enter.
+
+- Insert the className 'navbar'.
+- Set up a link to the homepage to establish the link until we set up the router.
+
+![alt text](image-11.png)
+
+###  Setting up the Routes
+Now that React Router DOM is installed, we can proceed to set up the routes for the pages inside the App.js file.
+
+1. Import these files into App.js:
+- BrowserRouter from react-router-dom.
+- All our created .js pages, including the Navbar, from the components folder.
+- Configure the router accordingly.
+
+![alt text](image-12.png)
+
+### Working Simultaneously with Frontend and Backend
+To streamline development, we will divide the terminal into three sections:
+
+- node Backend: Running Strapi on a separate port.
+- node Frontend: Running the React framework on a separate port.
+- Zsh Backend: This terminal is dedicated to backend operations, where we will continuously save commits.
+
+![alt text](image-13.png)
+
+To navigate between the frontend and backend directories in the terminal, use 'cd ..' to return to the root of the strapi-react-app project, then use 'cd' followed by the folder name to enter either the frontend or backend folder.
+
+![alt text](image-14.png)
+
+The structure of the strapi-react-app project includes a backend folder connected to Strapi, where the Collection type Product we recently created is stored inside the src/api folder and managed by Strapi. Additionally, there's a frontend folder connected to React.
+
+![alt text](image-15.png)
 
 
