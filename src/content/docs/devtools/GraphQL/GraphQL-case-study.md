@@ -110,13 +110,13 @@ The response from the database would look like this:
 
 **Flexibility** Clients can adjust queries based on it's specifically needs without having to wait for backend-changes to expose new endpoints.
 
-**Increased User Experience** Quicker data loading and less bandwidth usage leads to a smoother and more responsive **U**ser e**X**perience.
+**Increased User Experience** Quicker data loading and less bandwidth usage leads to a smoother and more responsive user experience.
 
 #### Cons by using GraphQL's Declarative Data Fetching
 
 **Complexity in Query Handling** GraphQL requires detailed schemas and resolvers, which increases the backend-complexity and requires a deep understanding for efficient data-fetching.
 
-**Performance Issues** with Complex Queries== Complex Queries in GraphQL can lead to N+1 issues and over-fetching, that wil require optimization techniques to avoid performance degradation. However, GraphQL provides solutions such as batching and caching to effectively manage these issues.
+**Performance Issues** with Complex Queries Complex Queries in GraphQL can lead to N+1 issues and over-fetching, that wil require optimization techniques to avoid performance degradation. However, GraphQL provides solutions such as batching and caching to effectively manage these issues.
 
 **Security Issues** GraphQL's flexibility introduces challenges with rate limiting and protection from malicious queries. It's important to implement GraphQL-specific security tools and best practices for query depth and complexity analysis to mitigate these risks.
 
@@ -125,7 +125,7 @@ The response from the database would look like this:
 In the core of GraphQL's design philosophy lies the principle of a "single endpoint". This concept is crucial for understanding how GraphQL simplifies interactions between clients and servers compared to traditional API approaches. By employing a single endpoint for all data transfers and manipulations, GraphQL offers a more powerful and flexible solution for web and app developers.
 
 **What is Single Endpoint?**
-A "single endpoint" refers to the practice where all communication between the client and the server—no matter the query, mutation, or subscription—goes through a single URL. This stands in contrast to REST-based APIs, where different endpoints represent different data resources or operations.
+A "single endpoint" refers to the practice where all communication between the client and the server, no matter the query, mutation, or subscription goes through a single URL. This stands in contrast to REST-based APIs, where different endpoints represent different data resources or operations.
 
 **How Does it Work?**
 When a client wants to fetch or manipulate data, it sends an HTTP request (usually a POST request) to the GraphQL server's endpoint. This request contains a specific query or mutation which describes exactly what data the client wants to fetch or what operation to be executed. The server analyzes the request, executes necessary operations, and returns the data in a format specified by the request.
@@ -225,4 +225,3 @@ As developers and companies continue to seek more efficient, scalable solutions 
 - https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e/
 - https://www.reddit.com/r/graphql/
 - https://stackoverflow.com/
-
