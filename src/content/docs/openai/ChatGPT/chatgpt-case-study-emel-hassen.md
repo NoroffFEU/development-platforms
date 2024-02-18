@@ -1,7 +1,7 @@
 ---
 title: OpenAI ChatGPT Case Study
-author: Emel Jemal Hassen <Emel-JH>
-tags: openai, chatgpt, natural language processing, ai, ml, machine learning, artificial inteligence, chat bot, text bot, natural language processing, NLP, GPT, deevlopment platform
+author: Emel Hassen <[Emel-H](https://github.com/Emel-H)>
+tags: OpenAI, ChatGPT, Natural language processing, AI, ML, Machine learning, Artificial inteligence, Chat bot, Text bot, NLP, GPT, Development platforms
 ---
 
 ## Introduction
@@ -50,13 +50,14 @@ Some of the direct cometitors to chatGPT are Google's Meena, Microsoft's XiaoIce
 
 ## Getting Started
 
-To get started you simply go to the offical page of ChatGPT by OpenAI [ChatGPT](https://chat.openai.com/). You chose a plan and login with your users. Then you can now start using the engine by engaging with a chat. 
+To get started you simply go to the offical page of ChatGPT by OpenAI [ChatGPT](https://chat.openai.com/). You chose a plan and login with your users. Then you can now start using the engine by engaging with a chat.
 
 ## Conclusion
 
 ChatGPT shows the progress that has been made in the field of natural language processing. It is a great tool to create documentation and can help developers generate code snippets as well as debug their code. It has its limitations and can sometimes contain errors in its answers, but still proves to be a great way to get a head start on things and push forward solutions. It is especially useful to beginners learning the trade. It is also setting a new standard and way of thinking about the use of generative AI in everyday tasks.
 
 ## References
+
 - [ChatGPT] (https://chat.openai.com/)
 - [Wikipedia page](https://en.wikipedia.org/wiki/ChatGPT)
 - [Timeline](https://www.officetimeline.com/blog/artificial-intelligence-ai-and-chatgpt-history-and-timelines)
