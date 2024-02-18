@@ -10,7 +10,7 @@ This case study will focus on ChatGPT, which stands for chat generative pre-trai
 
 ## Brief History
 
-This ChatGPT timeline history will focus on the history of OpenAI labs and the history of ChatGPT spesifically. There is additional history on the developments of AI and natural language processes that is not covered here that stems back to the mid ninteen hundreds.
+This ChatGPT timeline history will focus on the history of OpenAI labs and the history of ChatGPT spesifically. There is additional history on the developments of AI and natural language processes that is not covered here that stems back to the mid ninteen hundreds. this is covered well in here for anyone interested [case study by Jonaslod](https://github.com/NoroffFEU/development-platforms/blob/main/src/content/docs/openai/ChatGPT/chatGPT-case-study-jonaslod.md)
 
 - 2015: OpenAI, an artificial intelligence research lab, was founded.
 
@@ -58,7 +58,7 @@ ChatGPT shows the progress that has been made in the field of natural language p
 
 ## References
 
-- [ChatGPT] (https://chat.openai.com/)
+- [ChatGPT](https://chat.openai.com)
 - [Wikipedia page](https://en.wikipedia.org/wiki/ChatGPT)
 - [Timeline](https://www.officetimeline.com/blog/artificial-intelligence-ai-and-chatgpt-history-and-timelines)
 - [Jonaslod chatgpt casestudy](https://github.com/NoroffFEU/development-platforms/blob/main/src/content/docs/openai/ChatGPT/chatGPT-case-study-jonaslod.md)
