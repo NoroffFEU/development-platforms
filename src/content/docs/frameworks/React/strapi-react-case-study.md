@@ -288,4 +288,27 @@ To retrieve product data from Strapi, send a GET request to http://localhost:133
 
 ![alt text](image-19.png)
 
+### Fetch the product data from the API endpoint
+We will now fetch our product data from the API endpoint in Homepage.js.
+
+1. Importing Libraries: Import react from react, useFetch from hooks, and Link from react-router-dom.
+
+2. Creating the Product Card: Define a template for each product called ProductCard.
+3. Product Card Structure: Inside ProductCard, create two div components:
+- "image-container": Display the product image with alternative text.
+- "card-content": Show the product name, description, and price.
+
+4.Fetching Product Data: Utilize the useFetch hook to request information about all the products from the server.
+
+5. Loading and Error Handling: Display a loading message while waiting for the server response. If an error occurs, show an error message instead.
+
+6. Displaying Products: After receiving the product data, iterate through each product and display it using the ProductCard template.
+
+7. Sending Users to Product Pages: Include a link in each product card. Clicking the link navigates users to a page with more details about the product.
+
+![alt text](image-20.png)
+
+In our Shoedays app, we can utilize the developer tool to inspect the data received from the fetch request. Here, you'll notice that the image is stored as data.
+
+![alt text](image-21.png)
 
