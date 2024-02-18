@@ -50,7 +50,7 @@ Some of the direct cometitors to chatGPT are Google's Meena, Microsoft's XiaoIce
 
 ## Getting Started
 
-To get started you simply go to the offical page of ChatGPT by OpenAI [ChatGPT](https://chat.openai.com/). You chose a plan and login with your users. Then you can now start using the engine by engaging with a chat.
+To get started you simply go to the offical page of ChatGPT by OpenAI [ChatGPT](https://chat.openai.com/). You chose a plan and login with your users. You can then start using the engine by engaging with a chat. There are countless YouTube videos and tutorials on how to best use this as a developer tool that I believe are useful to have a look at for inspiration. 
 
 ## Conclusion
 
