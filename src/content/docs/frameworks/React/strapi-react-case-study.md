@@ -35,7 +35,9 @@ This case study is not delving too deeply into Strapi or React concepts, as you 
 ### Goal of this tutorial
 The goal of this case study is to guide you through the integration of Strapi with React. Please note that while this tutorial covers the setup of the 'Shoedays' demo app, the focus is not on the responsiveness or styling of the app itself, but rather on creating endpoints for our products and fetching them in our demo application. 
 
-## Strapi set up using the Quickstart option
+## Backend set up with Strapi
+
+### Strapi set up using the Quickstart option
 Through Strapi's Quickstart option, we'll swiftly install Strapi and proceed to define dedicated endpoints for each product in the ShoeDays inventory. This walkthrough provides a hands-on experience in Strapi's efficiency for API development.
 
 ### Installing Strapi with the terminal
@@ -136,14 +138,15 @@ When we established a new 'Content-type' for our products, Strapi automatically 
 
 
 
-
+## Summary and Next steps
 With our backend up and running, we can fetch data via Strapi's REST API endpoints and test them using Postman. Now, we'll pivot to building the frontend of our fictitious e-commerce app.
 
 Here's a quick rundown of our next steps:
 
     Create a Repository on GitHub: We'll start by setting up a GitHub repository for our project.
 
-    Set Up Development Servers: We'll use react-scripts start for our frontend and a separate server for our Strapi backend. This setup facilitates hot reloading and streamlines frontend development.
+    Set Up Development Servers: We'll use react-scripts start for our frontend and a separate server for our Strapi backend. 
 
-    Configure Proxying or CORS Settings: To enable seamless communication between the frontend and backend during development, we'll configure proxying or CORS settings.
+
+## Frontend integration with React
 
