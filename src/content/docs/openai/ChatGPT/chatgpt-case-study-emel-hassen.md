@@ -1,18 +1,16 @@
 ---
 title: OpenAI ChatGPT Case Study
 author: Emel Jemal Hassen <Emel-JH>
-tags: openai, chatgpt, natural language, ai, ml, machine learning, artificial inteligence, chat bot
+tags: openai, chatgpt, natural language processing, ai, ml, machine learning, artificial inteligence, chat bot, text bot, natural language processing, NLP, GPT, deevlopment platform
 ---
 
 ## Introduction
 
-In this case study I will write about ChatGPT. ChatGPT, which stands for chat generative pre-trained transformer, is a chatbot made by OpenAI and publically launched on November 30, 2022.
-
-ChatGPT, stems from the robust GPT-3 model, it is specialized in variant finely tuned for engaging and dynamic conversational interactions. The journey began with the pre-training of GPT-3 on a vast and diverse dataset, enabling it to grasp intricate language patterns. Subsequently, through a meticulous fine-tuning process, ChatGPT emerged, tailored to excel in generating contextually relevant and coherent responses in conversation. The model's development involved iterative feedback loops, with users actively contributing insights during the research preview phase. As a result, ChatGPT has become a cutting-edge tool, showcasing the fusion of advanced neural network architecture and real-world user input. Its introduction has not only marked a significant stride in language generation but also opened new possibilities for applications across various domains.
+This case study will focus on ChatGPT, which stands for chat generative pre-trained transformer. It is a chatbot made by OpenAI and publically launched on November 30, 2022. ChatGPT, stems from the robust GPT-3 model, it is specialized in variant finely tuned for engaging and dynamic conversational interactions. The journey began with the pre-training of GPT-3 on a vast and diverse dataset, enabling it to grasp intricate language patterns. Subsequently, through a alot of fine-tuning, ChatGPT emerged, tailored to excel in generating contextually relevant and coherent responses in conversations. The model's development involved iterative feedback loops, with users actively contributing insights during the research preview phase. As a result, ChatGPT has become a cutting-edge tool, showcasing the fusion of advanced neural network architecture and real-world user input. Its introduction has not only marked a significant stride in language generation but also opened new possibilities for applications across various domains.
 
 ## Brief History
 
-This ChatGPT timeline history will focus on the history of OpenAI labs and the history of ChatGPT spesifically. There is additional history on the developments of AI and natural language processes that is not covered here that stems back to the mid ninteen hundreds. 
+This ChatGPT timeline history will focus on the history of OpenAI labs and the history of ChatGPT spesifically. There is additional history on the developments of AI and natural language processes that is not covered here that stems back to the mid ninteen hundreds.
 
 - 2015: OpenAI, an artificial intelligence research lab, was founded.
 
@@ -26,7 +24,7 @@ This ChatGPT timeline history will focus on the history of OpenAI labs and the h
 
 - November 2020: The initial prototype launch year. OpenAI releases ChatGPT, a chatbot based on GPT-3.5.
 
-- February 2021: Launch of ChatGPT Plus 
+- February 2021: Launch of ChatGPT Plus
 
 - November 30, 2022: OpenAI introduces ChatGPT, that uses GPT-3.5 language technology. It comprehends numerous languages and can generate contextually relevant responses. However, its proficiency depends on the data it is trained on, indicating its finite capabilities.
 
@@ -36,44 +34,30 @@ This ChatGPT timeline history will focus on the history of OpenAI labs and the h
 
 - March 2023: OpenAI releases GPT-4, designed for producing safer and more useful responses. The same month, The Future of Life Institute published an open letter calling all AI labs to pause training of powerful AI systems for six months, citing risks to society and humanity.
 
-- September 2023: OpenAI reveals DALL-E 3, an advanced version of its image generator, which is integrated into ChatGPT. This allows ChatGPT users to generate images through the chatbot. 
-
+- September 2023: OpenAI reveals DALL-E 3, an advanced version of its image generator, which is integrated into ChatGPT. This allows ChatGPT users to generate images through the chatbot.
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+The ChatGPT chat bot produces human-like text in several languages, making it suitable for writing essays, poems, bedtime stories, news articles, and even scientific abstracts. Although limited to the data its trained on and might not be reliable at all times, ChatGPT is still able to mimic language perfectly. It can also improve grammar, explain complex ideas in simple terms, and solve mathematical problems, making it a suitable tool for students who need assistance with their assignments.
 
-You may use subheadings, tables or bullet points to structure your description:
-
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-
-Example feature table:
-
-| Feature         | Description                                        |
-| --------------- | -------------------------------------------------- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+As for its relevance for developers, ChatGPt has the ability to generate code in various programming languages. it is able t generate snippets in JavaScript, Java, Python, C++, C#, and Ruby. It is worth noting that the code generated can be buggy and is not always reliable of accurate. Hence, the process requires a human developer debug and give further instructions to ChatGPT. None the less, the bot has proven to be an exceptional debugging assistant tool. Since resolving code issues involves a lot of time spent on reading documentation, Google searches, and StackOverflow, ChatGPT can significantly increase developers productivity by providing possible solutions in a matter of seconds.
 
 ## Market Comparison
 
-aaa
+ChatGPT is certainly not the only chatbot out there nor is it the only natural language processor. it is quite common that alot of service desks and support functions for companiees today use bots to handle the frequently asked request and refer to a service desk when they cannot reply. those bots are usually trained on a set of questions related to the comany and can be very limited in comparison to chatgpts capabilities.
+
+Some of the direct cometitors to chatGPT are Google's Meena, Microsoft's XiaoIce, and Facebook's Blender. In comparison, ChatGPT is generally considered to be more versatile and capable of generating text in a wider range of styles and genres. But, it also tends to generate more irrelevant or nonsensical responses than some of the other models.
 
 ## Getting Started
 
-aaa
+To get started you simply go to the offical page of ChatGPT by OpenAI [ChatGPT](https://chat.openai.com/). You chose a plan and login with your users. Then you can now start using the engine by engaging with a chat. 
 
 ## Conclusion
 
-aaa
+ChatGPT shows the progress that has been made in the field of natural language processing. It is a great tool to create documentation and can help developers generate code snippets as well as debug their code. It has its limitations and can sometimes contain errors in its answers, but still proves to be a great way to get a head start on things and push forward solutions. It is especially useful to beginners learning the trade. It is also setting a new standard and way of thinking about the use of generative AI in everyday tasks.
 
 ## References
-
-- [timeline](https://www.officetimeline.com/blog/artificial-intelligence-ai-and-chatgpt-history-and-timelines)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [ChatGPT] (https://chat.openai.com/)
+- [Wikipedia page](https://en.wikipedia.org/wiki/ChatGPT)
+- [Timeline](https://www.officetimeline.com/blog/artificial-intelligence-ai-and-chatgpt-history-and-timelines)
+- [Jonaslod chatgpt casestudy](https://github.com/NoroffFEU/development-platforms/blob/main/src/content/docs/openai/ChatGPT/chatGPT-case-study-jonaslod.md)
