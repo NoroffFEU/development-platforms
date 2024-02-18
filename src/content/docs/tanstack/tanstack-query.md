@@ -208,8 +208,6 @@ The source code for the example can be found in the following GitHub repository:
 
 ## Comparison with other libraries
 
-Comparing TanStack Query with other popular state management and data fetching libraries, such as SWR, Redux, Apollo, and MobX, can help you understand the strengths and weaknesses of each library and when to use one over the other.
-
 ### SWR
 
 SWR is a popular data fetching library for React, developed by Vercel. It provides a simple and efficient way to fetch and cache data in React applications, with a focus on revalidation and reactivity. SWR is similar to TanStack Query in that it provides a hook-based API for fetching and caching data, but it has a different approach to caching and revalidation. SWR uses a stale-while-revalidate strategy to keep data fresh and up-to-date, while TanStack Query uses a more traditional cache-and-invalidate approach. Compared to TanStack Query, SWR might have limitations in terms of query cancellation and advanced caching strategies. It's more suited for simpler use cases and might not scale as well for complex data-fetching scenarios.
