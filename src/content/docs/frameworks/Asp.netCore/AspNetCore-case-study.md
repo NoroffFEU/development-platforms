@@ -1,23 +1,25 @@
 ---
-title: Example Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+title: ASP.NET CORE Case Study
+author: Jarle Tollaksne <Jarle302>
+tags: backend, case study, .net
 ---
 
 ## Introduction
 
 This is a case study for looking into how one creates a web application using asp.net core specifically using the MVC pattern. 
 
-## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+## ASP.NET Core: Key Milestones
+
+- **2014**: Microsoft embraces open-source development, announcing the .NET Compiler Platform ("Roslyn") and launching the .NET Foundation.
+- **2016**: Release of ASP.NET Core 1.0, a major overhaul introducing a cross-platform, unified framework for web development.
+- **2017**: ASP.NET Core 2.0 debuts, enhancing compatibility with .NET Framework and .NET Standard, simplifying the transition for existing .NET developers.
+- **2018**: ASP.NET Core 2.1 introduces SignalR, Razor Class Libraries, and Identity UI; followed by 2.2, which adds endpoint routing and health checks.
+- **2019**: ASP.NET Core 3.0 brings support for C# 8, Windows desktop apps, and performance improvements, marking a significant update.
+- **2020**: Launch of .NET 5.0, transitioning to a unified .NET platform, streamlining the naming and further integrating ASP.NET.
+- **2021**: .NET 6.0, an LTS release, introduces minimal APIs and other enhancements, focusing on performance and productivity.
+- **2022**: .NET 7 continues to build on .NET 6’s foundations, emphasizing refinements and expanding features.
+- **2023**: .NET 8 released
 
 ## Main Features
 
@@ -311,3 +313,4 @@ Udemy:
 - https://www.udemy.com/course/ultimate-csharp-masterclass/
 - https://www.udemy.com/course/asp-net-core-true-ultimate-guide-real-project/
 
+https://www.ryadel.com/en/asp-net-core-revolution-history-summary-through-years-2016-2019/
