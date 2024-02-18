@@ -23,6 +23,7 @@ Therefore this article will cover how to:
 This initial phase starts with creating a project on Firebase website (https://console.firebase.google.com/) and giving it a name. In this case, it will be called “Auctions”. While naming the project, a unique ID will be assigned to the developer's project.
 
 BILDE
+<img width="1440" alt="Skjermbilde 2024-02-08 kl  21 45 40" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/a1b1ea98-c22c-4de3-a431-fee8974da008">
 
 Following, the developer will be sent to the project’s dashboard.
 
