@@ -345,6 +345,19 @@ By implementing the described steps, we can now display the data associated with
 ![alt text](image-25.png)
 
 ## Summary 
+In this case study, we seamlessly integrated Strapi, a headless CMS, with React to establish a RESTful API and frontend interface for showcasing product details. 
 
-## Resources
+Beginning with Strapi, we configured RESTful API endpoints, managed data, and validated functionality using Postman. Transitioning to the frontend, we leveraged React to efficiently fetch and exhibit product data retrieved from the Strapi backend. 
+
+Employing React hooks such as useState, useEffect, and useParams facilitated state management and data fetching. Our approach prioritized practical implementation over React fundamentals, utilizing tools like the terminal, VSCode, and Strapi Admin Panel for enhanced development efficiency. Through this process, we successfully linked the frontend and backend of our Shoedays app, ensuring smooth functionality and laying the groundwork for future enhancements and expansions.
+
+## Credits
+Karen Jo Fiksdahl <KarenJoo> (https://github.com/KarenJoo)
+
+## References
+- [Strapi's official documentation](https://docs.strapi.io/developer-docs/latest/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project)
+- [NetNinja Full react Tutorial](https://www.youtube.com/watch?v=4Ntd414raYc&list=PL4cUxeGkcC9h6OY8_8Oq6JerWqsKdAPxn&index=1&t=8s)
+- [NetNinja Strapi crash course](https://www.youtube.com/playlist?list=PL4cUxeGkcC9h6OY8_8Oq6JerWqsKdAPxn)
+- [Kinsta.com React Errors](https://kinsta.com/knowledgebase/attempted-import-error-switch-is-not-exported-from-react-router-dom/)
+- [Forum.strapi.io No image in the API response](https://forum.strapi.io/t/no-image-in-the-api-response/13281) 
 
