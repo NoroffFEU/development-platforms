@@ -4,9 +4,7 @@ author: Kyrre Gjerstad
 tags: tanstack, tanstack query, react query, state management, asynchronous, data fetching, caching
 ---
 
-# TanStack Query
-
-## Overview
+## Introduction
 
 TanStack Query, formerly known as React Query, is a JavaScript library designed to improve the handling of asynchronous data handling in web applications, without directly handling data fetching. It allows developers to use their preferred fetching methods, such as the native fetch API or Axios, and focuses on managing the data lifecycle. Offering a declarative alternative to traditional state management solutions like Redux, TanStack Query is framework-agnostic making it suitable for any JavaScript framework, though it was initially tailored for React.
 Features such as automatic refetching, caching, query invalidation, and prefetching has made it a popular choice for developers looking to simplify their data fetching and state management needs.
