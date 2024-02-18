@@ -246,7 +246,7 @@ addDoc(collection(db, “Auctions”), {
 
 <img width="1440" alt="Skjermbilde 2024-02-15 kl  21 34 28" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/ff84329c-7f8d-4454-8c20-ca88cbefe138">
 
-n both cases, after adding the data to the collection, an ID will be created. It is possible to get this auto-generated ID in the terminal by adding the following code:
+In both cases, after adding the data to the collection, an ID will be created. It is possible to get this auto-generated ID in the terminal by adding the following code:
 
 ```js
 .then(docRef => {
