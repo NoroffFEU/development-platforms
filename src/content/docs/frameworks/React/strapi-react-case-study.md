@@ -136,8 +136,6 @@ When we established a new 'Content-type' for our products, Strapi automatically 
 
 ![alt text](/src/assets/frameworks/strapi-react/strapi-img/image-21.png)
 
-
-
 ## Summary and Next steps
 With our backend up and running, we can fetch data via Strapi's REST API endpoints and test them using Postman. Now, we'll pivot to building the frontend of our fictitious e-commerce app.
 
@@ -147,32 +145,31 @@ Here's a quick rundown of our next steps:
 
     Set Up Development Servers: We'll use react-scripts start for our frontend and a separate server for our Strapi backend. 
 
-
 ## Frontend integration with React
 In this part of the case study, we'll cover how to fetch the product endpoints we created in Strapi using React and display them on the demo app 'Shoedays.' This section won't delve into the basics of React, as those are covered in the existing React case study. Due to the length constraints of the case study, we'll focus solely on a walkthrough of fetching all the products from Strapi, excluding relational data. For this part, we'll utilize tools such as the terminal for creating a project directory for the frontend, VSCode, Strapi and Postman for testing purposes.
 
 ### Setting Up the Frontend Environment: Initial Steps
 1. Navigate to the project directory named 'strapi-react-app' in your terminal, where the 'backend' folder is installed.
 
-![alt text](image.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image.png)
 
 2. Change directory into the 'frontend' folder and open it in VSCode using the command 'code .'
 
-![alt text](image-1.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-1.png)
 
 3. Create a new branch from the 'main' branch as the working branch. For example, name it 'dev' for the development branch.
 
-![alt text](image-2.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-2.png)
 
 4. Install React Scripts by running the command npm install react-scripts in the Git CLI. This installs the necessary scripts and configurations for developing and building React applications.
 
-![alt text](image-3.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-3.png)
 
 5. Check the available scripts commands in your package.json file. During development, you'll often want to preview the web application in a browser.
 
     To start the local development server, run: npm run start
 
-![alt text](image-4.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-4.png)
 
 6. Clean Up the Project Setup and delete the following files:
             
@@ -182,15 +179,15 @@ In this part of the case study, we'll cover how to fetch the product endpoints w
 - reportWebVitals.js: Web vitals reporting will not be covered in this demo.
 - setupTest.js: Jest environment testing will not be covered in this demo.
 
-![alt text](image-5.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-5.png)
 
 7. Remove all imports inside App.js as we deleted these files, and remove the content within the "header" tag.
 
-![alt text](image-6.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-6.png)
 
 8. Install the extension: ES/React/Redux/GraphQL/React-Native snippets to access React.js snippets.
 
-![alt text](image-7.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-7.png)
 
 9. Create two new folders in the src folder:
 
@@ -198,25 +195,25 @@ In this part of the case study, we'll cover how to fetch the product endpoints w
 
 - Pages: For Category.js, Homepage.js, and ProductDetails.js. Only Homepage and ProductDetails will be covered; Category is for relational data and will not be addressed.
 
-![alt text](image-8.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-8.png)
 
 10. After installing the ES7 React extension, utilize React snippets for each page. To begin, type 'rfc' (short for React functional component) at the top of the page and press enter. This will create a React Functional Component and automatically import React from 'react'.
 
-![alt text](image-9.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-9.png)
 
 ### Creating the Navbar
 For the components, we'll begin by creating the navbar, which will be displayed at the top of every page. Please note that this walkthrough will not include specific styling, as the demo app does not focus on design or UX.
 
 1. To enable the use of URL link tags in React, we need to install React Router DOM, which also allows us to set up routes inside the root.
 
-![alt text](image-10.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-10.png)
 
 2. Create a new file named Navbar.js in the components folder and type 'rfc' followed by Enter.
 
 - Insert the className 'navbar'.
 - Set up a link to the homepage to establish the link until we set up the router.
 
-![alt text](image-11.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-11.png)
 
 ###  Setting up the Routes
 Now that React Router DOM is installed, we can proceed to set up the routes for the pages inside the App.js file.
@@ -226,7 +223,7 @@ Now that React Router DOM is installed, we can proceed to set up the routes for 
 - All our created .js pages, including the Navbar, from the components folder.
 - Configure the router accordingly.
 
-![alt text](image-12.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-12.png)
 
 ### Working Simultaneously with Frontend and Backend
 To streamline development, we will divide the terminal into three sections:
@@ -235,15 +232,15 @@ To streamline development, we will divide the terminal into three sections:
 - node Frontend: Running the React framework on a separate port.
 - Zsh Backend: This terminal is dedicated to backend operations, where we will continuously save commits.
 
-![alt text](image-13.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-13.png)
 
 To navigate between the frontend and backend directories in the terminal, use 'cd ..' to return to the root of the strapi-react-app project, then use 'cd' followed by the folder name to enter either the frontend or backend folder.
 
-![alt text](image-14.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-14.png)
 
 The structure of the strapi-react-app project includes a backend folder connected to Strapi, where the Collection type Product we recently created is stored inside the src/api folder and managed by Strapi. Additionally, there's a frontend folder connected to React.
 
-![alt text](image-15.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-15.png)
 
 ### Fetching Data from Backend Endpoints
 
@@ -263,7 +260,7 @@ The structure of the strapi-react-app project includes a backend folder connecte
 - Fetching Data with useEffect:
         Employ the useEffect hook to fetch data upon component mounting or when the URL changes.
 
-![alt text](image-16.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-16.png)
 
 2. Inside the useEffect:
 Define an asynchronous function fetchData to fetch data from the specified URL.
@@ -275,18 +272,18 @@ Define an asynchronous function fetchData to fetch data from the specified URL.
 - Returning State Variables: Return an object containing loading, error, and data state variables from the hook.
 - Exporting the Hook: Export the useFetch hook to make it available for use in other components.
 
-![alt text](image-17.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-17.png)
 
 ## Populating Media Fields in Strapi
 When utilizing Strapi as our content management system to store product information, we rely on the populate parameter in our API requests. This parameter enables us to explicitly specify the fields we wish to populate in our query response. 
 
 Strapi's documentation provides guidance on retrieving media fields associated with our products by incorporating "?populate=*" in our request.
 
-![alt text](image-18.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-18.png)
 
 To retrieve product data from Strapi, send a GET request to http://localhost:1337/api/products. However, to include the media field, you must send a GET request to http://localhost:1337/api/products?populate=*. Once populated, we'll utilize this endpoint to fetch the data in homepage.js.
 
-![alt text](image-19.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-19.png)
 
 ### Fetch the product data from the API endpoint
 We will now fetch our product data from the API endpoint in Homepage.js.
@@ -306,21 +303,21 @@ We will now fetch our product data from the API endpoint in Homepage.js.
 
 7. Sending Users to Product Pages: Include a link in each product card. Clicking the link navigates users to a page with more details about the product.
 
-![alt text](image-20.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-20.png)
 
 In our Shoedays app, we can utilize the developer tool to inspect the data received from the fetch request. Here, you'll notice that the image is stored as data.
 
-![alt text](image-21.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-21.png)
 
 ## Fetching Single Product by ID
 Having retrieved all products from our API endpoint on the homepage, we'll now focus on fetching a single product on the ProductDetails.js page.
 When a user selects a product card on the homepage, they'll be directed to the individual product details page. Here, we'll demonstrate fetching product ID 7.
 
-![alt text](image-22.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-22.png)
 
 In the Strapi admin panel, we can easily access and manage individual product endpoints. We'll focus on product ID 7, "Trendstep Streetstyle," demonstrating how to fetch and display it in the ProductDetails.js page when the user clicks on the product card with ID 7.
 
-![alt text](image-23.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-23.png)
 
 To facilitate the display of the selected single product, several steps are taken within the ProductDetails component:
 
@@ -338,11 +335,11 @@ To facilitate the display of the selected single product, several steps are take
 
 - Displaying "Buy Now" Button: A "Buy Now" button is displayed to facilitate potential purchase action for the product.
 
-![alt text](image-24.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-24.png)
 
 By implementing the described steps, we can now display the data associated with the product ID 7, the "Trendstep Streetstyle" shoe. Additionally, upon successful retrieval of the product data, we log this information in the console for further analysis or debugging purposes.
 
-![alt text](image-25.png)
+![alt text](/src/assets/frameworks/strapi-react/react-img/image-25.png)
 
 ## Summary 
 In this case study, we seamlessly integrated Strapi, a headless CMS, with React to establish a RESTful API and frontend interface for showcasing product details. 
