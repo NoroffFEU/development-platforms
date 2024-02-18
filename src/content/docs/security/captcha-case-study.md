@@ -114,4 +114,4 @@ I believe CAPTCHAs are great as a method to filter out simple bots, especially c
 
 [4] “How CAPTCHAs Work | What Does CAPTCHA Mean? | Cloudflare.” Cloudflare, www.cloudflare.com/learning/bots/how-captchas-work/.
 
-[5] “How Can Bots Be Prevented?” Approov.io, approov.io/blog/how-can-bots-be-prevented.
+[5] “How Can Bots Be Prevented?” Approov.io, www.approov.io/blog/how-can-bots-be-prevented.
