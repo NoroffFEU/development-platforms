@@ -299,8 +299,9 @@ To check if the chosen document ID was successfully added to the database, the d
 
 and run **index.js** in the terminal or or check the project on Firebase desktop to verify the results:
 
-BILDE
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-15 kl  23 01 12" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/32ba876c-3c74-41d4-a867-5370d0c12be0">
+
+<img width="1440" alt="Skjermbilde 2024-02-15 kl  23 12 50" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/704bcd0e-b58f-456e-a236-78702412adbf">
 
 The table below summarize these two methods:
 
@@ -374,7 +375,8 @@ const db = getFirestore(app);
 
 Finally, the query to Cloud Firestore can be executed. Depending on the type of replacement, the syntax will vary. If the document is to be replaced entirely, the **setDoc() method** will take two arguments: **doc()** and **data{}**. **doc()** will take three arguments: the **database** (db), the name of the **collection** the developer wants to update (e.g., Users), and the **document ID**, which can be found in the developer's Cloud Firestore on the Firebase website:
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  10 37 18" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/bf0fa4a7-c226-4eb3-be9e-02dea78a34b5">
+
 
 The code should have this structure:
 
@@ -390,8 +392,10 @@ setDoc(doc(db, "Users", "B5NLkVBxPG6iNpnFlNT8"), {
 
 After running this code using **node index.js** in the terminal, the changes should be reflected in the developer's Cloud Firestore on the Firebase website.
 
-BILDE
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  10 39 37" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/007c2f77-eb4b-47ed-a2d4-d6e40755f547">
+
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  10 41 35" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/d727004e-f4e1-42f5-a8c0-ef01859f1f64">
+
 
 In the case when the document will be replaced only partially, **setDoc()** will take three arguments: **doc()**, **data{}**, and **{merge: true}**. The **doc()** arguments will be the same as above—representing the **database** (db), the name of the **collection** the developer wants to update (e.g., Users), and the **document ID** that can be found in the developer's Cloud Firestore on the Firebase website. Additionally, the developer can add a new key-value pair if they wish (e.g., NumberOfAuctions: 3). The code should have this structure:
 
