@@ -298,7 +298,7 @@ We will now fetch our product data from the API endpoint in Homepage.js.
 - "image-container": Display the product image with alternative text.
 - "card-content": Show the product name, description, and price.
 
-4.Fetching Product Data: Utilize the useFetch hook to request information about all the products from the server.
+4. Fetching Product Data: Utilize the useFetch hook to request information about all the products from the server.
 
 5. Loading and Error Handling: Display a loading message while waiting for the server response. If an error occurs, show an error message instead.
 
@@ -311,4 +311,40 @@ We will now fetch our product data from the API endpoint in Homepage.js.
 In our Shoedays app, we can utilize the developer tool to inspect the data received from the fetch request. Here, you'll notice that the image is stored as data.
 
 ![alt text](image-21.png)
+
+## Fetching Single Product by ID
+Having retrieved all products from our API endpoint on the homepage, we'll now focus on fetching a single product on the ProductDetails.js page.
+When a user selects a product card on the homepage, they'll be directed to the individual product details page. Here, we'll demonstrate fetching product ID 7.
+
+![alt text](image-22.png)
+
+In the Strapi admin panel, we can easily access and manage individual product endpoints. We'll focus on product ID 7, "Trendstep Streetstyle," demonstrating how to fetch and display it in the ProductDetails.js page when the user clicks on the product card with ID 7.
+
+![alt text](image-23.png)
+
+To facilitate the display of the selected single product, several steps are taken within the ProductDetails component:
+
+- Extracting Product ID: The useParams hook from React Router is employed to extract the product ID from the URL parameters.
+
+- Fetching Product Data: The useFetch custom hook is utilized to fetch product data from the API by appending the extracted product ID to the endpoint URL.
+
+- Initializing State Variables: State variables (loading, error, data, and product) are initialized using the useState hook to manage the fetching process and component rendering.
+
+- Updating Product State: An useEffect hook is utilized to update the product state once the data is successfully loaded.
+
+- Conditional Rendering: Conditional rendering is implemented to display loading indicators, error messages, or product content based on the fetch status.
+
+- Rendering Product Details: Once the data is successfully fetched and loaded, the product details are rendered, including the product name, description, price, and an image if available.
+
+- Displaying "Buy Now" Button: A "Buy Now" button is displayed to facilitate potential purchase action for the product.
+
+![alt text](image-24.png)
+
+By implementing the described steps, we can now display the data associated with the product ID 7, the "Trendstep Streetstyle" shoe. Additionally, upon successful retrieval of the product data, we log this information in the console for further analysis or debugging purposes.
+
+![alt text](image-25.png)
+
+## Summary 
+
+## Resources
 
