@@ -4,6 +4,10 @@ author: Vladimira Dmitrovic <vanya992>
 tags: react, javascript, framework
 ---
 
+# React Case Study
+
+[https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif]
+
 ## Introduction
 
 React has emerged as a cornerstone in modern web development, offering developers a declarative, efficient, and flexible framework for constructing dynamic user interfaces. With its component-based architecture, React enables the seamless composition of intricate UIs from modular, reusable building blocks. Initially developed to meet Facebook's internal needs, React has gained prominence across industry giants such as Instagram, Airbnb, Netflix, and Uber Eats, solidifying its position as the preferred choice for developing high-performance web applications."
