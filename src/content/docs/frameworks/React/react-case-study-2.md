@@ -80,13 +80,13 @@ React holds the leading position in the JavaScript framework market, closely fol
 
 Since we already stated that it is the most popular framework, here are a few reasons that compliment that fact:
 
-    - As we have already mentioned, React´s declarative syntax makes it easier to understand and write code, leading to improved developer productivity.
+- As we have already mentioned, React´s declarative syntax makes it easier to understand and write code, leading to improved developer productivity.
 
-    - Large Ecosystem and Community: React has a vast Ecosystem of libraries, tools and resources supported by a vibrant community, providing solutions to various development needs.
+- Large Ecosystem and Community: React has a vast Ecosystem of libraries, tools and resources supported by a vibrant community, providing solutions to various development needs.
 
-    - Reacts lightweight core and flexible architecture allow developers to adapt it to different project requirements and scale applications efficiently.
+- Reacts lightweight core and flexible architecture allow developers to adapt it to different project requirements and scale applications efficiently.
 
-    - Since it is developed and maintained by Facebook, it has regular updates and improvements, as well as a strong support system.
+- Since it is developed and maintained by Facebook, it has regular updates and improvements, as well as a strong support system.
 
 ## Getting Started
 
