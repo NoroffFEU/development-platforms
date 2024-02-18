@@ -106,9 +106,9 @@ I believe CAPTCHAs are great as a method to filter out simple bots, especially c
 
 ### References
 
-[1] “Understanding CAPTCHA: History, Usage, and Effectiveness.” DEV Community, 22 Dec. 2023, dev.to/adityapratapbh1/understanding-captcha-history-usage-and-effectiveness-4jd7.
+[1] “Understanding CAPTCHA: History, Usage, and Effectiveness.” DEV Community, 22 Dec. 2023, www.dev.to/adityapratapbh1/understanding-captcha-history-usage-and-effectiveness-4jd7.
 
-[2] Yüksel, Emre. “A Brief History of CAPTCHA.” Medium, 29 Mar. 2022, medium.com/@emreeyukseel/a-brief-history-of-captcha-5918bb8fe311.
+[2] Yüksel, Emre. “A Brief History of CAPTCHA.” Medium, 29 Mar. 2022, www.medium.com/@emreeyukseel/a-brief-history-of-captcha-5918bb8fe311.
 
 [3] “What Does CAPTCHA Mean? | CAPTCHA Types & Examples | Imperva.” Learning Center, www.imperva.com/learn/application-security/what-is-captcha/.
 
