@@ -351,6 +351,8 @@ Beginning with Strapi, we configured RESTful API endpoints, managed data, and va
 
 Employing React hooks such as useState, useEffect, and useParams facilitated state management and data fetching. Our approach prioritized practical implementation over React fundamentals, utilizing tools like the terminal, VSCode, and Strapi Admin Panel for enhanced development efficiency. Through this process, we successfully linked the frontend and backend of our Shoedays app, ensuring smooth functionality and laying the groundwork for future enhancements and expansions.
 
+To take the app and skills further, you can add more features using React, make it more personalized with Strapi, and improve performance with technologies like GraphQL or Redux. For deployment, consider platforms like Netlify or Vercel for hosting your React frontend, while Strapi supports various databases including SQL databases like MySQL, PostgreSQL, and SQLite, alongside NoSQL databases like MongoDB. 
+
 ## Credits
 Karen Jo Fiksdahl <KarenJoo> (https://github.com/KarenJoo)
 
