@@ -245,4 +245,35 @@ The structure of the strapi-react-app project includes a backend folder connecte
 
 ![alt text](image-15.png)
 
+### Fetching Data from Backend Endpoints
+
+1. To retrieve product data from the Strapi REST API, we'll utilize a custom hook for improved reusability. The useFetch hook simplifies data fetching, while managing loading and error states.
+
+- Create a New Hooks Folder:
+        Within the frontend project's src folder, create a new directory named 'hooks'.
+- Importing React Hooks:
+        Import the useEffect and useState hooks from the React library.
+
+- Defining the useFetch Hook:
+        Develop a custom useFetch hook that accepts a URL parameter.
+
+- Setting State Variables:
+        Initialize state variables data, error, and loading using the useState hook.
+
+- Fetching Data with useEffect:
+        Employ the useEffect hook to fetch data upon component mounting or when the URL changes.
+
+![alt text](image-16.png)
+
+2. Inside the useEffect:
+Define an asynchronous function fetchData to fetch data from the specified URL.
+- Setting Loading State: Set the loading state to true before starting the data fetch operation.
+- Fetching Data from API:Utilize the fetch API to make a GET request to the specified URL and parse the JSON response.
+- Setting Data State: Upon successful fetch, update the data state with the fetched data extracted from the response.
+- Setting Error State: If an error occurs during fetch, update the error state with the error object.
+- Setting Loading State: Set the loading state to false after fetching or encountering an error.
+- Returning State Variables: Return an object containing loading, error, and data state variables from the hook.
+- Exporting the Hook: Export the useFetch hook to make it available for use in other components.
+
+![alt text](image-17.png)
 
