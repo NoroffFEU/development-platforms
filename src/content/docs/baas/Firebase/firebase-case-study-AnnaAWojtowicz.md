@@ -54,13 +54,14 @@ Installing the Firebase NPM package involves applying the first snippet of code 
 **npm i firebase** or **npm install firebase**.
 As a result, a folder (**node_modules**) and two files (**package-lock.json** and **package.json**) should be created in the project.
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-12 kl  12 45 39" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/0c85a303-30ec-4ac7-add3-1de8eec2d4c6">
+
 
 ### Connecting Firebase project from the Firebase dashboard and the node project
 
 Connecting the Firebase project involves creating a JavaScript file in the program editor and pasting the code provided by Firebase during the app registration for the web. As mentioned earlier, this code can also be found in the project's settings.
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-12 kl  13 11 13" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/6d8de2ad-6d11-414a-8494-cddda497bf34">
 
 ### Running the app
 
@@ -73,7 +74,8 @@ As mentioned before, JS SDK is modular, so there is a need to add the following 
 to be able to import this code `import { initializeApp } from "firebase/app";`
 in **index.js**.
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-12 kl  13 33 07" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/e5c21472-719b-4405-8eac-44d01446386f">
+
 
 To check if the app is running, the developer should add
 
@@ -89,7 +91,8 @@ node index.js
 
 in the terminal.
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-12 kl  14 08 02" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/89040bda-9be2-4f55-8c92-c8597e284585">
+
 
 ### JS SDK and modular bundlers
 
