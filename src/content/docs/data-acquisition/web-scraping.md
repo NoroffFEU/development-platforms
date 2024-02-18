@@ -79,7 +79,7 @@ In the healthcare sector, AI facilitates the analysis of medical research papers
 ## Getting Started
 
 - Choose a target website
-- Locate the element selector of what you want to scrape. example: A <h2> tag with the product name, and <p> tag with the price.
+- Locate the element selector of what you want to scrape. example: A h2 tag with the product name, and p tag with the price.
 - Tell ChatGPT to write a Python web scraper using the BeautifulSoup library.
 - Give it Your URL as a target.¨
 - Write the CSS selectors of the HTML elements you copied earlier.
