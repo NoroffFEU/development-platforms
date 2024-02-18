@@ -33,16 +33,18 @@ Following, the developer will be sent to the project’s dashboard.
 
 ### Registering an app for web
 
-Under the name of the project, the developer is supposed to choose a Web-button and on the next page give the project a nickname (in this case “My web app auctions”).
+Under the name of the project, the developer is supposed to choose a Web-button and on the next page give the project a nickname (in this case *My web app auctions*).
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-12 kl  14 06 37" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/fa33c848-b609-4004-b1a7-f72cb4581f63">
+
 
 The next step involves adding the Firebase SDK code to your JS-code. While not mandatory, integrating the Firebase SDK is the recommended and convenient way to connect your project to Firebase services. The developer can access the SDK code during the initial setup of Firebase in the web app or later through the Firebase console site (Firebase Project -> Wins! auctions -> My web app auctions -> gear icon -> project settings -> Your apps).
 
 It's crucial to note the importance of iterating with Firebase via the REST API, especially in cases involving programming languages and tools that lack official SDK support from Google. This flexibility allows developers to use Firebase seamlessly, regardless of the development stack they are using.
 
-BILDE
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-09 kl  12 57 42" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/c672e7a0-9ea6-4cd6-a92a-ec16847bda9e">
+
+<img width="1440" alt="Skjermbilde 2024-02-09 kl  13 08 44" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/8e01385b-4055-455d-9401-d669c76ae8ee">
 
 As seen in the last picture, there are various options for configuring the SDK setup. In this particular case, the SDK setup will be configured with NPM, necessitating the installation of Node.js beforehand.
 
