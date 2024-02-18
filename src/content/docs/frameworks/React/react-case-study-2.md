@@ -6,7 +6,7 @@ tags: react, javascript, framework
 
 # React Case Study
 
-[React Logo gif](https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif)
+![React Logo gif](https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif)
 
 ## Introduction
 
