@@ -770,6 +770,10 @@ The table below summarize these two methods:
 </table>
 (Firebase j, u.a.)
 
+## Summary
+The article discusses building a web app with auctions using Firebase as a Backend as a Service (BaaS). It guides developers through creating a Firebase project, adding a web app, and connecting it to Cloud Firestore. The new, modular approach of Firebase is emphasized, allowing developers to import only needed modules for efficient app performance. The article covers essential steps, such as organizing data, adding Cloud Firestore, and using methods like addDoc(), setDoc(), updateDoc(), deleteDoc(), getDoc(), and getDocs() for data manipulation and retrieval. It provides practical examples and highlights considerations for optimal data usage.
+
+
 ## Sources:
 
 Firebase (u.a.). _Using module bundlers with Firebase_. Retrieved 18.02.2024 from: [https://firebase.google.com/docs/web/module-bundling?authuser=0&hl=en](https://firebase.google.com/docs/web/module-bundling?authuser=0&hl=en);
