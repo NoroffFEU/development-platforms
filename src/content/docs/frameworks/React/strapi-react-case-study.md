@@ -149,4 +149,56 @@ Here's a quick rundown of our next steps:
 
 
 ## Frontend integration with React
+In this part of the case study, we'll cover how to fetch the product endpoints we created in Strapi using React and display them on the demo app 'Shoedays.' This section won't delve into the basics of React, as those are covered in the existing React case study. Due to the length constraints of the case study, we'll focus solely on a walkthrough of fetching all the products from Strapi, excluding relational data. For this part, we'll utilize tools such as the terminal for creating a project directory for the frontend, VSCode, Strapi and Postman for testing purposes.
+
+### Setting Up the Frontend Environment: Initial Steps
+1. Navigate to the project directory named 'strapi-react-app' in your terminal, where the 'backend' folder is installed.
+
+![alt text](image.png)
+
+2. Change directory into the 'frontend' folder and open it in VSCode using the command 'code .'
+
+![alt text](image-1.png)
+
+3. Create a new branch from the 'main' branch as the working branch. For example, name it 'dev' for the development branch.
+
+![alt text](image-2.png)
+
+4. Install React Scripts by running the command npm install react-scripts in the Git CLI. This installs the necessary scripts and configurations for developing and building React applications.
+
+![alt text](image-3.png)
+
+5. Check the available scripts commands in your package.json file. During development, you'll often want to preview the web application in a browser.
+
+    To start the local development server, run: npm run start
+
+![alt text](image-4.png)
+
+6. Clean Up the Project Setup and delete the following files:
+            
+- src/App.css: As all CSS will be stored in the index.css folder.
+- src/App.test.js: Testing will not be covered in this demonstration.
+- src/logo.svg: The React logo is unnecessary.
+- reportWebVitals.js: Web vitals reporting will not be covered in this demo.
+- setupTest.js: Jest environment testing will not be covered in this demo.
+
+![alt text](image-5.png)
+
+7. Remove all imports inside App.js as we deleted these files, and remove the content within the "header" tag.
+
+![alt text](image-6.png)
+
+8. Install the extension: ES/React/Redux/GraphQL/React-Native snippets to access React.js snippets.
+
+![alt text](image-7.png)
+
+9. Create two new folders in the src folder:
+
+- Components: For Navbar and Header components.
+
+- Pages: For Category.js, Homepage.js, and ProductDetails.js. Only Homepage and ProductDetails will be covered; Category is for relational data and will not be addressed.
+
+![alt text](image-8.png)
+
+
 
