@@ -28,14 +28,15 @@ Webpack is a powerful and widely used module bundler for JavaScript applications
 
 - **Module Bundling:** At its heart, Webpack combines multiple JavaScript files into a single bundle. This consolidation reduces the number of server requests and can significantly improve load times and overall website performance. Also, by automating the process of putting all these files together, the developer can spend more time coding and less time on setup tasks. It also helps avoid mistakes that can happen when trying to manually manage lots of files, making the whole process of building a website smoother and more straightforward.
 
-- **Entry:** and Output: Webpack requires at least one entry point to understand where to start building the dependency graph. The entry property specifies the entry file where the bundling process starts. The output property, on the other hand, determines where to output the bundled files and what to name them. This process ensures that Webpack compiles and outputs the files as specified by the developer.
+- **Entry and Output:** Webpack requires at least one entry point to understand where to start building the dependency graph. The entry property specifies the entry file where the bundling process starts. The output property, on the other hand, determines where to output the bundled files and what to name them. This process ensures that Webpack compiles and outputs the files as specified by the developer.
 
 - **Loaders:** By default, Webpack is designed to natively process only JSON and JavaScript files. Loaders are used to process different types of files and convert them into modules that can be included in your final bundle. Loaders can transform files and assets such as CSS, images, and HTML, allowing you to incorporate them seamlessly into your project.
 
 - **Plugins:** Plugins are like special add-ons that give Webpack extra abilities. They enhance your bundles, organize your files more efficiently, and can even insert important information your code needs to run properly. Essentially, they're custom tools that help shape Webpack to meet your project's specific requirements perfectly.
 
 - **Code Splitting:** This feature allows you to split your code into various bundles that can be loaded on demand or in parallel. It's particularly useful for improving the initial load time of your application by only loading the necessary code when it's needed.
-  Tree Shaking: Tree shaking is a technique used to eliminate unused code from the final bundle. By only including the code that's used, Webpack ensures that the bundle is as lean and efficient as possible.
+
+- **Tree Shaking:** Tree shaking is a technique used to eliminate unused code from the final bundle. By only including the code that's used, Webpack ensures that the bundle is as lean and efficient as possible.
 
 - **Mode:** Webpack's "mode" feature allows developers to specify the build environment to optimize the bundling process—either development, production, or none. In production mode, Webpack minimizes the bundle to reduce load times. In development mode, it focuses on faster rebuilds and more detailed error messages, making debugging easier.
 
