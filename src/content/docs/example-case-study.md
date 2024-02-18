@@ -11,6 +11,7 @@ This is a template for a written case study, please note that this is only a sug
 ## Brief History
 
 You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
+
 - 1990: Examples are invented by John Doe.
 - 1991: Examples are first used in Example Project.
 - 1996: Example Project is released to the public.
@@ -24,14 +25,15 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
 
 You may use subheadings, tables or bullet points to structure your description:
+
 - **Example Feature:** This feature does something for a specific reason.
 - **Example Feature:** This feature does something for a specific reason.
 - **Example Feature:** This feature does something for a specific reason.
 
 Example feature table:
 
-| Feature | Description |
-| --- | --- |
+| Feature         | Description                                        |
+| --------------- | -------------------------------------------------- |
 | Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
@@ -57,7 +59,7 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
+- _Good Examples_ by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
