@@ -6,11 +6,6 @@ tags: tanstack, tanstack query, react query, state management, asynchronous, dat
 
 # TanStack Query
 
-## Introduction
-
-- Why do we need TanStack Query?
-- What problems does it solve?
-
 ## Overview
 
 TanStack Query, formerly known as React Query, is a JavaScript library designed to improve the handling of asynchronous data handling in web applications, without directly handling data fetching. It allows developers to use their preferred fetching methods, such as the native fetch API or Axios, and focuses on managing the data lifecycle. Offering a declarative alternative to traditional state management solutions like Redux, TanStack Query is framework-agnostic making it suitable for any JavaScript framework, though it was initially tailored for React.
@@ -33,37 +28,13 @@ TanStack Query was designed with these core principles in mind:
 - **Forgiving**: The library should handle common use cases and edge cases gracefully, without requiring complex workarounds.
 - **Customizable**: Users should be able to customize and extend the library to suit a wide range of data fetching scenarios and application requirements.
 
-### Timeline
+### Milestones
 
-#### V1
-
-**26/02/2020**
-
-The first version of React Query was released on February 26th, 2020. It was a very basic, yet powerful, library that provided a new way of managing asynchronous state in React. It was designed to be a drop-in replacement for your existing data fetching libraries and state management solutions. It introduced a simple, yet powerful, useQuery hook that provided a consistent way to fetch, cache, and update asynchronous data in your application.
-
-#### V2
-
-**22/06/2020**
-
-V2 introduced the idle state and added the boolean status indicators we know and love: `{ isLoading, isSuccess, isError }`. It also introduced the `useMutation` hook for handling data mutations, and the `useQueryClient` hook for accessing the query client instance from anywhere in your application.
-
-#### V3
-
-**08/10/2020**
-
-V3 brought in SSR support, flexible cache configurations, and innovative features like bi-directional infinite queries and data selectors. The introduction of the `useQueries` hook for parallel queries, enhanced mutation support, and the integration of devtools directly into the package.
-
-#### V4
-
-**17/07/2022**
-
-A significant update where **ReactQuery** got rebranded to **TanStack Query** and restructured to a monorepo. This change allowed for the extension of its core functionalities to other frameworks beyond React, such as Vue, Svelte, and Solid, by using framework-specific adapters while sharing a common core logic. It also introduced a new plugin system, improved TypeScript support, and a new query key serialization system.
-
-#### V5
-
-**17/10/2023**
-
-Version 5 further built on the foundations laid by version 4, aiming to make the library smaller, more intuitive, and consistent. It introduced a new, simplified API and improved TypeScript support. It also added experimental support for streaming with React Server Components in Next.js, improved infinite queries, and a revamped, framework-agnostic Query Devtools. The new plugin system allowed for fine-grained persistence and the queryOptions API facilitated sharing and type-safety of query definitions. The introduction of simplified optimistic updates, shareable mutation state through the useMutationState hook, and first-class support for React's suspense feature.
+- **V1 Release (26/02/2020):** Marked the debut of React Query, introducing the useQuery hook, providing a seamless way to fetch, cache, and update data.
+- **V2 Enhancements (22/06/2020):** Introduced boolean status indicators (isLoading, isSuccess, isError), the useMutation hook for data mutations, and useQueryClient for query client access.
+- **V3 Advancements (08/10/2020):** Brought SSR support, flexible caching, bi-directional infinite queries, and the useQueries hook for parallel queries.
+- **Rebranding to TanStack Query (17/07/2022):** With V4, React Query became TanStack Query, extending its core to support multiple frameworks beyond React, enhancing TypeScript support, and introducing a new plugin system.
+- **V5 Innovations (17/10/2023):** Focused on streamlining the API, improving TypeScript integration, and introducing features like optimistic updates and first-class support for React's suspense, emphasizing a smaller, more intuitive library.
 
 ---
 
@@ -161,9 +132,15 @@ const FetchWithUseQuery = () => {
 
 The result is a more concise and readable component that handles loading and error states, as well as cancellation of ongoing fetch requests, without the need for manual cleanup. The useQuery hook handles all of this for you, and more. Of course, both of these examples could be further improved and abstracted, but the point is to illustrate the difference in complexity and ergonomics between the two approaches.
 
+---
+
 ## Getting started
 
-This will guide you through the process of installing TanStack Query and using the `useQuery` hook to fetch and cache data in a basic React application using Typescript.
+This section will guide you through setting up TanStack Query in a TypeScript-based React application, demonstrating how to use the `useQuery` hook for data fetching and caching.
+
+### Setting Up the Project
+
+Initialize a new React TypeScript project and install TanStack Query:
 
 ```bash
 npm create vite@latest tanstack-query -- --template react-ts
@@ -171,7 +148,9 @@ cd tanstack-query
 npm i @tanstack/react-query
 ```
 
-Next, you need to wrap your application with the `QueryClientProvider` and provide a `QueryClient` instance to it. This will make the client available to all components in your application.
+### Configuring TanStack Query
+
+Wrap your application with `QueryClientProvider` to make the `QueryClient` available throughout your app. The `QueryClient` manages queries and their caching:
 
 ```tsx
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
@@ -188,11 +167,13 @@ export const App = () => {
 };
 ```
 
-Now, you can use the `useQuery` hook to fetch and cache data in your components. The following example demonstrates how to use the `useQuery` hook to fetch and display a list of todo items from an API.
+### Fetching Data with `useQuery`
+
+Use the useQuery hook to fetch and cache data in your components. In this example, getTodos is a function that fetches a list of todo items from an API:
 
 ```tsx
 import { useQuery } from '@tanstack/react-query';
-import { getTodos } from './api';
+import { getTodos } from './api'; // Assume this is an async function fetching todos
 
 const TodoList = () => {
   const queryClient = useQueryClient();
@@ -215,6 +196,10 @@ const TodoList = () => {
   );
 };
 ```
+
+- `queryKey` uniquely identifies the query across your application and can be used for refetching, caching, and sharing query results.
+- `queryFn` is the function that fetches your data. It should return a promise that resolves to the data.
+- The `useQuery` hook automatically manages the loading and error states, making your component cleaner and more concise.
 
 For a full example of a basic React Todo app using TanStack Query, see the following StackBlitz project. The project includes a simple API for fetching and updating todo items, and demonstrates how to use the useQuery and useMutation hooks to fetch and update data, using optimistic updates and error handling.
 
@@ -242,6 +227,20 @@ Axios Hooks provide a simple way to fetch data using Axios inside React componen
 ### tRPC
 
 tRPC is a TypeScript-first framework for building scalable and type-safe APIs. It provides a way to define and consume APIs in a type-safe manner, with a focus on type safety and developer experience. tRPC uses TanStack Query under the hood to provide a way to fetch and cache data from tRPC APIs. It's a great choice for projects written fully in typescript and structured in a mono-repo, where the backend and frontend are closely coupled and share the same TypeScript types. For smaller projects, tRPC might be overkill, and TanStack Query can be used directly to fetch and cache data from any API.
+
+---
+
+| Feature                    | TanStack Query           | SWR                            | RTK Query                        | Axios Hooks             | tRPC                       |
+| -------------------------- | ------------------------ | ------------------------------ | -------------------------------- | ----------------------- | -------------------------- |
+| **Data Fetching**          | Hook-based, flexible API | Hook-based, revalidation focus | Redux-centric, comprehensive API | Simple, Axios-based API | Type-safe, RPC-style API   |
+| **Caching**                | ✅ customizable          | ✅ Stale-while-revalidate      | ✅                               | ❌                      | ✅                         |
+| **Query Invalidation**     | ✅                       | ✅                             | ✅                               | ❌                      | ✅                         |
+| **Re-fetching Strategies** | ✅ Configurable          | ✅ Stale-while-revalidate      | ✅ Polling, conditional fetching | ❌                      | ✅ Configurable            |
+| **Optimistic Updates**     | ✅                       | ⛔ Limited support             | ✅                               | ❌                      | ✅                         |
+| **Type-Safe**              | ✅                       | ✅                             | ✅                               | ✅                      | ✅                         |
+| **Framework Agnosticism**  | ✅                       | ❌                             | ❌                               | ❌                      | ✅                         |
+| **Learning Curve**         | Moderate                 | Low                            | Moderate to high                 | Low                     | Moderate to high           |
+| **Use Case**               | Broad, flexible          | Simple to moderate scenarios   | Redux-based projects             | Simple fetching needs   | TypeScript based monorepos |
 
 ## Conclusion
 
