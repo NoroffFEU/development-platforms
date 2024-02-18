@@ -227,9 +227,11 @@ addDoc(collection(db, "Users"), {
 
 To add this data to the Cloud Firestore database, the developer needs to change permissions in the **Rules** tab to **true**, then run **index.js** in the terminal, and finally, refresh the collection.
 
-BILDE
-BILDE
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-15 kl  21 19 47" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/23d029c1-583a-4260-9242-0b94655789ce">
+
+<img width="1440" alt="Skjermbilde 2024-02-15 kl  21 29 21" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/a04d74e9-7eda-422e-9d3f-e8e13d82f09d">
+
+<img width="1438" alt="Skjermbilde 2024-02-15 kl  21 29 06" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/41b25e62-76bf-46b4-bbc7-94e12cde35f3">
 
 If the developer wants to add data to an existing collection in Firestore Database, such as the **Users** collection, the added data will be appended to it. However, if the developer wishes to create a new collection with data, Firestore Database will dynamically create the collection and place the data into it. In this case, a new collection named **Auctions** will be created, and the specified data will be added to it:
 
@@ -240,8 +242,9 @@ addDoc(collection(db, “Auctions”), {
 });
 ```
 
-BILDE
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-15 kl  21 33 56" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/e8602e94-e6d7-4484-9e2f-266716128905">
+
+<img width="1440" alt="Skjermbilde 2024-02-15 kl  21 34 28" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/ff84329c-7f8d-4454-8c20-ca88cbefe138">
 
 n both cases, after adding the data to the collection, an ID will be created. It is possible to get this auto-generated ID in the terminal by adding the following code:
 
@@ -256,7 +259,8 @@ n both cases, after adding the data to the collection, an ID will be created. It
 
 (Tamil 2024).
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-15 kl  22 33 56" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/c80742e2-c420-480c-b7d4-7d9cb74ee6e0">
+
 
 #### setDoc() method
 
