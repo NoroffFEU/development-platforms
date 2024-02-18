@@ -277,3 +277,15 @@ Define an asynchronous function fetchData to fetch data from the specified URL.
 
 ![alt text](image-17.png)
 
+## Populating Media Fields in Strapi
+When utilizing Strapi as our content management system to store product information, we rely on the populate parameter in our API requests. This parameter enables us to explicitly specify the fields we wish to populate in our query response. 
+
+Strapi's documentation provides guidance on retrieving media fields associated with our products by incorporating "?populate=*" in our request.
+
+![alt text](image-18.png)
+
+To retrieve product data from Strapi, send a GET request to http://localhost:1337/api/products. However, to include the media field, you must send a GET request to http://localhost:1337/api/products?populate=*. Once populated, we'll utilize this endpoint to fetch the data in homepage.js.
+
+![alt text](image-19.png)
+
+
