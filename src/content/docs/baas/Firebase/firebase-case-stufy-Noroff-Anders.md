@@ -48,6 +48,8 @@ Firebase is not the only BaaS platform on the market. There are several other pl
 on their home page.
 
 ### Firebase vs Supabase
+
+
 Supabase:
 
     Open-source: Supabase is an open-source platform, meaning its source code is freely available for anyone to use, modify, and distribute.
