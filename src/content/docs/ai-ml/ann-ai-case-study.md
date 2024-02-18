@@ -1,60 +1,63 @@
-
+# Artifical Neural Network in use with AI
 
 | Title | Author | Tags |
 | ----- | ------ | ---- |
 | ANN and AI in use with Whisper and GPT | Siw Elin Årolilja Iversen | AI, ANN, Whisper, GPT |
 
-# Table of contents
+## Table of contents
 
 [Introduction](#introduction)
+
 - [Terminology](#terminology)
 - [Brief history](#brief-history)
 
 [Utilizing AI with GPT and Whisper](#utilizing-ai-with-gpt-and-whisper)
+
 - [Installation guide for GPT](#installation-guide-for-gpt)
 
 [AI as a tool for hearing- and vision-impaired users](#ai-as-a-tool-for-hearing--and-vision-impaired-users)
+
 - [Installing Whisper](#installing-whisper)
 - [Command line usage](#command-line-usage)
 
 [Using Whisper with GPT](#using-whisper-with-gpt)
 [Strengths and drawbacks](#strengths-and-drawbacks-of-chatgpt-and-whisper)
+
 - [Strengths](#strengths)
 - [GPT](#chatgpt)
 - [Whisper](#whisper)
 - [Drawbacks](#drawbacks)
-- [GPT](#chatgpt-1)
-- [Whisper](#whisper-1)
+- [GPT](#of-chatgpt)
+- [Whisper](#of-whisper)
 
 [Summary and conclusion](#summary-and-conclusion)
 
 [Sources](#sources)
 
 [Additional resources](#additional-resources)
+
 - [Whisper example](#whisper-example)
-
-
-# Artifical Neural Network in use with AI
 
 ## Introduction
 
-Artificial Neural Networks (ANN) represents a fundamental component of both Machine Learning (ML) and Artificial Intelligence (AI) scientific research. These models draw inspiration from the structure and functionality of biological neural networks in the human brain. ANN is widely used in diverse fields, such as pattern recognition, prediction, and optimization. ANN also plays a crucial role in the broader exploration of Artificial General Intelligence (AGI). In the research field of ANN human cognition and philosophy has been used to explore the possible limits of the neural network. 
+Artificial Neural Networks (ANN) represents a fundamental component of both Machine Learning (ML) and Artificial Intelligence (AI) scientific research. These models draw inspiration from the structure and functionality of biological neural networks in the human brain. ANN is widely used in diverse fields, such as pattern recognition, prediction, and optimization. ANN also plays a crucial role in the broader exploration of Artificial General Intelligence (AGI). In the research field of ANN human cognition and philosophy has been used to explore the possible limits of the neural network.
 
 ### Terminology
+
 - **Artificial Intelligence (AI)**: AI refers to the simulation of human intelligence in machines that are programmed to mimic human actions and cognitive functions such as learning, problem-solving, and decision-making.
 - **Machine Learning (ML)**: ML is a subset of AI that focuses on developing algorithms that allow computers to learn from and make predictions or decisions based on data. It involves creating models that improve automatically through experience.
 - **Deep Learning (DL)**: Deep learning is a subfield of machine learning that uses artificial neural networks with multiple layers to model and process complex patterns in large amounts of data. It has shown remarkable success in tasks such as image recognition, natural language processing, and speech recognition.
-- Artificial General Intelligence (AGI)** refers to AI systems that possess the ability to understand, learn, and apply knowledge across a wide range of tasks similar to human intelligence. Unlike narrow AI, which is designed for specific tasks, AGI aims to exhibit general cognitive abilities comparable to those of humans.
+- **Artificial General Intelligence (AGI)** refers to AI systems that possess the ability to understand, learn, and apply knowledge across a wide range of tasks similar to human intelligence. Unlike narrow AI, which is designed for specific tasks, AGI aims to exhibit general cognitive abilities comparable to those of humans.
 - **Artificial Neural Networks (ANN)** is a computational model inspired by the structure and function of biological neural networks in the human brain. It consists of interconnected nodes, or artificial neurons, organized in layers. Each neuron receives input signals, processes them through an activation function, and produces an output signal that may serve as input to subsequent neurons.
 
 ### Brief history
 
--	1940s-1950s: Foundations of AI laid; McCulloch-Pitts neuron proposed.
--	1950s-1960s: Perceptrons developed by Rosenblatt.
--	1970s-1980s: AI Winter; backpropagation algorithm introduced.
--	1990s-2000s: Deep learning emerges, dominates; CNNs and RNNs excel.
--	2010s: GPT series released, revolutionizing natural language processing.
--	2020s: Continued AI advancements; focus on ethics and societal impacts.
+- 1940s-1950s: Foundations of AI laid; McCulloch-Pitts neuron proposed.
+- 1950s-1960s: Perceptrons developed by Rosenblatt.
+- 1970s-1980s: AI Winter; backpropagation algorithm introduced.
+- 1990s-2000s: Deep learning emerges, dominates; CNNs and RNNs excel.
+- 2010s: GPT series released, revolutionizing natural language processing.
+- 2020s: Continued AI advancements; focus on ethics and societal impacts.
 
 ## Utilizing AI with GPT and Whisper
 
@@ -64,6 +67,7 @@ One of the leading AI tools in use today is OpenAI’s ChatGPT, which stands for
 According to OpenAI, their API may be used to virtually any task one may need, such as: grammar correction, parse unstructured data, natural language to SQL and explain code, to name a few functions.
 
 ### Installation guide for GPT
+
 Installing the API is quick and easy, and the developer may pick between three different options such as curl, Python and Node.js. Here I will use Node.js as an example:
 
 The installation of the ChatGPT-assistant is simple itself:
@@ -71,7 +75,8 @@ The installation of the ChatGPT-assistant is simple itself:
 `npm install --save openai`
 
 Example prompt to test the artificial assistant:
-```
+
+```markdown
 import OpenAI from "openai";
 const openai = new OpenAI();
 
@@ -94,12 +99,13 @@ In this code snippet we can see that the developer has given ChatGPT a role and 
 Utilizing an artificial intelligent assistant on websites may have its uses, it may be used to auto-complete search terms and give search suggestions to customers, enhancing their experience. It may also be used to show similar products related to the specific items they’re searching for.
 
 ## AI as a tool for hearing- and vision-impaired users
-AI is a powerful tool for people with disabilities such as hearing- and/or vision impairments. It may be used to transcribe from speech to written text for the hearing-impaired user. 
-Whisper is a popular tool for this usage. According to OpenAI: 
 
->“We’ve trained and are open-sourcing a neural net called Whisper that approaches human level robustness and accuracy on English speech recognition.” 
+AI is a powerful tool for people with disabilities such as hearing- and/or vision impairments. It may be used to transcribe from speech to written text for the hearing-impaired user.
+Whisper is a popular tool for this usage. According to OpenAI:
 
-Whisper is a tool that utilizes ANN and is currently understanding about 90+ languages. It can translate from different languages into English, and it can also transcribe speech-to-text. However, Whisper has its drawbacks that it needs to be installed locally on the machine, with using Python or similar programming languages, which may be a bit difficult to start to use for new users that are not used to programming. In educational settings or live events, Whisper API can be employed to provide real-time captioning for individuals with hearing impairments. For instance, during a lecture or conference, Whisper API can transcribe the speaker's speech into text displayed on screens or transmitted directly to users' devices, allowing them to follow along with the conversation or presentation. 
+>“We’ve trained and are open-sourcing a neural net called Whisper that approaches human level robustness and accuracy on English speech recognition.”
+
+Whisper is a tool that utilizes ANN and is currently understanding about 90+ languages. It can translate from different languages into English, and it can also transcribe speech-to-text. However, Whisper has its drawbacks that it needs to be installed locally on the machine, with using Python or similar programming languages, which may be a bit difficult to start to use for new users that are not used to programming. In educational settings or live events, Whisper API can be employed to provide real-time captioning for individuals with hearing impairments. For instance, during a lecture or conference, Whisper API can transcribe the speaker's speech into text displayed on screens or transmitted directly to users' devices, allowing them to follow along with the conversation or presentation.
 
 ### Installing Whisper
 
@@ -110,7 +116,7 @@ To install OpenAI's Whisper.
 
 Installing rust and ffmpeg on Windows and Mac
 
-```
+```markdown
 # on MacOS using Homebrew (https://brew.sh/)
 brew install ffmpeg
 
@@ -123,6 +129,7 @@ scoop install ffmpeg
 # installing rust
 pip install setuptools-rust
 ```
+
 #### Command line usage
 
 The following command will transcribe speech in audio files, using the `medium` model:
@@ -151,11 +158,11 @@ result = model.transcribe("audio.mp3")
 print(result["text"])
 ```
 
-The `transcribe()` method «listens» to the file then transcribes the audio. 
+The `transcribe()` method «listens» to the file then transcribes the audio.
 
 Example usage of `whisper.detect_language()` and `whisper.decode()`:
 
-```
+```markdown
 import whisper
 
 model = whisper.load_model("base")
@@ -186,29 +193,36 @@ Whisper and ChatGPT collaborate to enhance AI applications, with Whisper's speec
 Furthermore, Whisper's transcriptions contribute to the improvement of ChatGPT's language understanding over time, facilitating more accurate responses. Their collaboration allows for multimodal input processing, accommodating users' preferred modes of communication and enhancing overall user experience. In summary, Whisper and ChatGPT work together to make AI interactions more flexible and inclusive, leveraging Whisper's speech-to-text capabilities to enhance ChatGPT's functionalities.
 
 ## Strengths and drawbacks of ChatGPT and Whisper
+
 ### Strengths
+
 #### ChatGPT
--	Natural language understanding: ChatGPT excels in generating human-like text responses, suitable for various conversational applications.
--	Versatility: It can be applied to tasks like text summarization, grammar correction, and natural language to SQL conversion.
--	Ease of integration: Simple integration through APIs for languages like Python and Node.js.
+
+- Natural language understanding: ChatGPT excels in generating human-like text responses, suitable for various conversational applications.
+- Versatility: It can be applied to tasks like text summarization, grammar correction, and natural language to SQL conversion.
+- Ease of integration: Simple integration through APIs for languages like Python and Node.js.
 
 #### Whisper
--	Accurate speech recognition: Provides human-level accuracy in English speech recognition, enhancing accessibility for hearing-impaired users.
--	Multi-language support: Supports over 90 languages, facilitating diverse applications.
--	Real-time captioning: Enables real-time captioning in educational and live event settings.
+
+- Accurate speech recognition: Provides human-level accuracy in English speech recognition, enhancing accessibility for hearing-impaired users.
+- Multi-language support: Supports over 90 languages, facilitating diverse applications.
+- Real-time captioning: Enables real-time captioning in educational and live event settings.
 
 ### Drawbacks
-#### ChatGPT
--	Lack of context awareness: May produce irrelevant or inaccurate outputs due to limited context understanding.
--	Dependency on training data: Performance relies heavily on the quality and diversity of training data, potentially leading to biased responses.
--	Potential for misuse: Without oversight, can generate misinformation or unethical content, posing risks to users.
 
-#### Whisper
--	Complex installation: Requires local installation, which may be challenging for non-technical users.
--	Limited integration: Integration options are more restricted compared to ChatGPT.
--	Privacy concerns: Despite data deletion policies, privacy concerns may arise during transcription processes.
+#### of ChatGPT
 
-# Summary and conclusion
+- Lack of context awareness: May produce irrelevant or inaccurate outputs due to limited context understanding.
+- Dependency on training data: Performance relies heavily on the quality and diversity of training data, potentially leading to biased responses.
+- Potential for misuse: Without oversight, can generate misinformation or unethical content, posing risks to users.
+
+#### of Whisper
+
+- Complex installation: Requires local installation, which may be challenging for non-technical users.
+- Limited integration: Integration options are more restricted compared to ChatGPT.
+- Privacy concerns: Despite data deletion policies, privacy concerns may arise during transcription processes.
+
+## Summary and conclusion
 
 Artificial Neural Networks (ANN) are fundamental to Machine Learning (ML) and Artificial Intelligence (AI), inspired by how our brains work. They're used in various tasks like recognizing patterns, making predictions, and optimizing processes. ANN-powered tools like ChatGPT and Whisper are great examples. ChatGPT helps with different tasks using natural language, while Whisper does real-time captioning for people with hearing impairments.
 
@@ -216,8 +230,7 @@ ANNs have their pros and cons. They're versatile and accurate but also raise pri
 
 Overall, ANN technology keeps pushing AI forward, changing industries and how we interact with machines. ChatGPT and Whisper show how ANN can improve user experiences in different ways.
 
-
-# Sources
+## Sources
 
 [**Introducing ChatGPT and Whisper API.** (2023).](https://openai.com/blog/introducing-chatgpt-and-whisper-apis (fetched 08.02.2024.))
 
@@ -230,7 +243,7 @@ Overall, ANN technology keeps pushing AI forward, changing industries and how we
 [**Whisper Installation.** (2023).](https://github.com/openai/whisper?tab=readme-ov-file (fetched 16.02.2024))
 
 ## Additional resources
+
 ### Whisper example
+
 [**Whisper installation and usage of audio-transcript.** (2023).](https://www.youtube.com/watch?v=J94DAKH3rM8 (fetched 16.02.2023))
-
-
