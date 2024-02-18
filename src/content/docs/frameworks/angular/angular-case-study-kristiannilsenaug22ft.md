@@ -11,12 +11,33 @@ In this case study, we explore Google Angular, a popular front-end framework mai
 
 ## Brief History
 
-- 2010: AngularJS, the first version of Angular, is released by Google.
-- 2016: Angular 2 is released, marking a significant overhaul from AngularJS with a focus on modern web development practices.
-- 2017: Angular team announces Angular 4, followed by a new versioning scheme aligning with Semantic Versioning.
-- 2019: Angular team releases Angular 8, introducing Ivy, the new rendering engine for Angular applications, promising better performance and smaller bundle sizes.
-- 2020: Angular 10 is released, focusing on improvements to Angular Material, the official component library for Angular applications.
-- 2022: Angular continues to evolve, with regular updates and improvements to the framework, maintaining its position as one of the leading front-end development tools.
+## Brief History
+
+- Angular 2.0 was announced at the ng-Europe conference on 22–23 October 2014. The drastic changes in the 2.0 version created considerable controversy among developers.
+- Angular 2 moved from Alpha to Developer Preview on April 30, 2015, and moved to Beta in December 2015. The first release candidate was published in May 2016, with the final version released on September 14, 2016.
+- On December 13, 2016, Angular 4 was announced, with the final version released on March 23, 2017.
+- Angular 5 was announced on November 1, 2017, introducing support for progressive web apps, a build optimizer, and improvements related to Material Design.
+- Angular 6, released on May 4, 2018, focused more on the toolchain and making it easier to move quickly with Angular in the future.
+- Angular 7, released on October 18, 2018, introduced updates regarding Application Performance, Angular Material & CDK, Virtual Scrolling, and improved accessibility.
+- Angular 8, released on May 28, 2019, introduced features like Differential loading for all application code, Dynamic imports for lazy routes, Web workers, TypeScript 3.4 support, and Angular Ivy as an opt-in preview.
+- Angular 9, released on February 6, 2020, brought improved build times and enabling AOT on by default.
+
+### 2020 Releases
+- Angular 10, released on June 24, 2020, introduced a New Date Range Picker (Material UI library) among other enhancements.
+- Angular 11, released on November 11, 2020, focused on performance improvements and new features.
+
+### 2021 Releases
+- Angular 12, released on May 12, 2021, deprecated support for Internet Explorer 11.
+- Angular 13, released on November 4, 2021, brought various enhancements and updates.
+
+### 2022 Releases
+- Angular 14, released on June 2, 2022, introduced Typed forms, standalone components, and new primitives in the Angular CDK (component dev kit).
+- Angular 15, released on November 16, 2022, brought further enhancements to the framework.
+
+### 2023 Releases
+- Angular 16, released on May 3, 2023, introduced Partial hydration for Angular Universal's Server-side rendering, experimental Jest support, and an Esbuild-based build system for development servers.
+- Angular 17, released on November 8, 2023, introduced the new Application builder, a new syntax for control flow, a reworked learning and documentation website, and more.
+
 
 
 ## Main Features
