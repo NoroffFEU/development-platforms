@@ -1,6 +1,6 @@
 ---
 title: Case Study IntelliCode , VSCode Extension
-author: Example Haider Fahim Hashem (haider_fahm@hotmail.com)
+author: Example Haider Fahim Hashem (haifah35385@stud.noroff.no)
 tags: IntelliCode, VSCode extension, Case study
 ---
 
@@ -88,6 +88,6 @@ What is intellicode? (https://www.partech.nl/nl/publicaties/2021/06/introduction
 
 How Intellicode works: (https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-whole-line-completions?view=vs-2022)
 
-Installiation guide: (https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+Installation guide: (https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
 Type less, code more with IntelliCode completions, Mark Wilson-Thomas Principal Program Manager: (https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/)
