@@ -414,8 +414,9 @@ setDoc(
 
 After running this code using **node index.js** in the terminal and updating the developer's Cloud Firestore on the Firebase website, the changes will be implemented.
 
-BILDE
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  10 54 51" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/659c2254-3c32-4aee-bb76-d3f96e495d67">
+
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  10 55 16" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/c2a23879-8e82-4c00-9b05-1d0c34536039">
 
 It is crucial to mention here that this method allows the developer to replace old key-value pairs with new ones, but it will not permit the changing of the key once it is first created—only the value can be modified.
 
@@ -425,15 +426,18 @@ The **updateDoc() method** is the second approach to updating data in Cloud Fire
 
 The first step in using this method to update data is to import and initialize Firebase, documents, and the **updateDoc() method**. This method takes two arguments: **doc()** and **data{}**. The **doc()**, in turn, requires three arguments: the **database** (db), the name of the **collection** the developer wants to update (e.g., Users), and the **document ID** that can be found in the developer's Cloud Firestore on the Firebase website.
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  14 04 26" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/813e585c-e6eb-4da9-8da5-d38fe1ea721e">
+
 
 In this example, the developer will update the document w9Tr1IjYoXeaTHqdKv9X from **Users** collections. The registered user, Ola Nordmann will have his credits reduced and added new key-value pairs, namely, avatar with the link to the image and the number of auctions he participated in. Hence the code will look like this:
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  14 06 48" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/7c9456fc-df33-4a27-93b4-9c90318a48b3">
+
 
 And the updated database will look like this:
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  14 09 02" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/45485ebb-7d9e-4aa1-8350-adfe5774588f">
+
 
 The table below summarize these two methods:
 
@@ -549,7 +553,7 @@ const db = getFirestore();
 
 This method, **updateDoc()**, will take two arguments: **doc()** and **data{}**. The **doc()**, in turn, will require three arguments: the **database** (db), the name of the **collection** (e.g., Users), and finally, the **document ID** that can be found in the developer's Cloud Firestore on the Firebase website.
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  10 55 16" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/eadbebb2-e1c7-4c05-90c5-99d610ba4e06">
 
 Concerning the **data{}**, the syntax for deleting a field will be as follows:
 
@@ -559,11 +563,12 @@ key: deleteField();
 
 In a practical example, if the developer wanted to delete the _avatar_ key and its value from the database, the code would look like this:
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  18 49 39" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/469d0c75-a14c-4823-9861-f4b3b79eec1e">
 
 The updated database without _avatar_ key and its value:
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  18 49 58" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/50e8c329-c24e-4d2d-9ec5-17b99ec3d18d">
+
 
 #### deleteDoc() method
 
@@ -581,15 +586,15 @@ const db = getFirestore();
 
 This method, **deleteDoc()**, will take only one argument: **doc()**. The **doc()** will require three arguments: the **database** (db), the name of the **collection** (e.g., Users), and finally, the **document ID** that can be found in the developer's Cloud Firestore on the Firebase website.
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  14 09 02" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/a212e175-f42e-4d3e-93bf-ac75a9a4a1b6">
 
 In a practical example, if the developer wanted to delete the entire document marked with ID _w9Tr1IjYoXeaTHqdKv9X_ from the database, the code would look like this:
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  19 30 03" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/a2276a2b-0134-497f-970f-28bd3d29e605">
 
 After running **node index.js** in the terminal, the updated database would look as follows:
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-16 kl  19 30 37" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/ac9ababe-cf57-42e5-bbaa-6bd7b528ad8c">
 
 The table below summarize these two methods:
 
@@ -679,11 +684,12 @@ const db = getFirestore();
 
 This method, **getDoc()**, will take only one argument: **doc()**. The **doc()**, will require three arguments: the **database** (db), the name of the **collection** (e.g., Users), and finally, the **document ID** that can be found in the developer's Cloud Firestore on the Firebase website.
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-17 kl  10 10 59" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/e5e669cf-6a61-498c-9db8-9b51bc53f842">
 
 In a practical example, this method has been awaited and assigned to _kariData_ and then returned as object and shown in the terminal after running **node index.js**:
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-17 kl  12 44 04" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/d025f13c-7be0-4544-9c17-f6012bf68b56">
+
 
 #### getDocs() method
 
@@ -701,9 +707,7 @@ const db = getFirestore();
 
 Next step is to use the method itself. **getDocs()** takes one argument - **collection()**, and **collection()** takes two arguments: the **database** and the name of the **collection** that the developer wants to fetch. In a practical example it will be the _Auctions_ collection:
 
-BILDE
-
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-17 kl  13 09 05" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/4a6452f0-2a38-4218-93fa-e5cd088fa22a">
 
 ```js
 const auctionsData = await getDocs(collection(db, "Auctions"));
@@ -720,7 +724,8 @@ auctionsData.forEach((doc) => {
 
 Running **node index.js** in the terminal should provide the developer with the data from the _Auctions_ collection:
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-17 kl  13 17 06" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/02e76d84-231e-46f1-81c2-d69fb4f0ef13">
+
 
 The table below summarize these two methods:
 
