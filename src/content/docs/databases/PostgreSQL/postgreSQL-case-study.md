@@ -25,9 +25,7 @@ PostgreSQL, previously known as Postgres, is a open-source object-relational dat
   - 2017: PostgreSQL version 10.0 is released with a feautre called native partitioning. This feature makes PostgreSQL great at handling alot of information from big datasets. This feature made PostgreSQL more efficient at sorting through data.
   - 2020: Version 13 of PostgreSQL is released and it contains alot of new features for perfomance improvement and heightened security.
 
-## Main Features
-
-**Example feature table:**
+## Main Features: PostgreSQL
 
 | **Feature**                      | **Description**                                                                              |
 | -------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -61,10 +59,10 @@ PostgreSQL, previously known as Postgres, is a open-source object-relational dat
 
 2. **Configuration and Setup:**
 
-   - Following the installation you will be asked to set up a superuser account, your superuser information is important to remember.
+   - Following the installation you will be asked to set up a SuperUser account, your SuperUser information is important to remember.
 
 3. **Connect to PostgreSQL:**
-   - For detailed steps on connecting to PostgreSQL using the terminal or pgAdmin, please visit [PostgreSQL Tutorial - Connect to PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/).
+   - For detailed steps on connecting to PostgreSQL using the terminal or pgAdmin, please take a look at [PostgreSQL Tutorial - Connect to PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/).
 
 ## Conclusion
 
@@ -72,7 +70,7 @@ In conclusion, PostgreSQL is a strong, dependable, robust and adaptable open-sou
 
 ### Key Findings:
 
-- **Flexibility and Stability:** PostgreSQL ensures flexibility, and works best for typical applications who handles alot of structred information, requiring high safety and fast searching. However it can still be very adapatble and flexible, so its highly usable for a wide range of use cases. Its stable performance and reliability make it go-to choice for alot of developers.
+- **Flexibility and Stability:** PostgreSQL ensures flexibility, and works best for typical applications who handles alot of structred information, requiring high safety and fast searching. However it can still be very adapatble and flexible, so its highly usable for a wide range of use cases. Its stable performance and reliability make it go-to choice for alot of developers and programmers.
 
 - **Advanced Features:** Over the years, PostgreSQL has evolved and added features to meet the needs of its developers and users. These include built-in replication, native partitioning, and regular updates for better performance and increased security.
 
@@ -90,7 +88,7 @@ In conclusion, PostgreSQL is a strong, dependable, robust and adaptable open-sou
 
 ### Main Use Cases:
 
-- **Structured Information:** PostgreSQL excels in applications requiring structured information. It is best for projects with easily sortable and structured data in small to large-scale databases.
+- **Structured Information:** PostgreSQL excels in applications using and storing structured information. It is best for projects with easily sortable and structured data in small to large-scale databases.
 
 - **Unstructured Data:** PostgreSQL might not be the best choice for applications using unstructured, live changing data. Like for example in banking, or streamings services. In projects like these I would rather reccomend MongoDB or similar databases.
 
@@ -111,3 +109,5 @@ PostgreSQL has been constantly getting better and improving since it started. It
 - [PostgreSQL Tutorial - Connect to PostgreSQL](https://www.postgresqltutorial.com/postgresql-getting-started/connect-to-postgresql-database/)
 
 ## Additional Resources
+
+- There are no additional resources.
