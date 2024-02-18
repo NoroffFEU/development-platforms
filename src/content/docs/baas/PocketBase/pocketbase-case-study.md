@@ -113,7 +113,7 @@ You could find all available commands and their options by running:
 
 ### Create your first collection
 
-1. Access the [Admin UI](http://127.0.0.1:8090/_/) (the first time you will be asked to create an admin account).
+1. Access the _Admin UI_ (the first time you will be asked to create an admin account).
 
 2. Navigate to _Collections_ and click on _New Collection_.
 
