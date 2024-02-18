@@ -14,73 +14,60 @@ Microsoft and Apple started in the mid-1970s, a time full of new ideas and innov
 
 On the other side, Apple began in 1976 with Steve Jobs, Steve Wozniak, and Ronald Wayne. They were all about bringing together hardware and software in ways that changed how we think about technology. The Macintosh computer in 1984 and the iPhone in 2007 are just a couple of examples of how Apple has always been at the forefront, constantly expanding with things like the iPad and Apple Watch.
 
-### Microsoft
+## Microsoft's Historical Milestones
 
-- 1975: Founded by Bill Gates and Paul Allen.
-- 1985: Launches Windows 1.0, entering the operating system market.
-- 1990s: Dominates the PC operating system market with Windows.
-- 2001: Introduces Xbox, marking its entry into the gaming industry.
-- 2013: Acquires Nokia's mobile business, attempting to expand into mobile phones.
-- 2016: Acquires LinkedIn, expanding its presence in social networking and professional services.
+1975: Foundation by Bill Gates and Paul Allen.
+1985: Introduction of Windows 1.0.
+2001: Xbox launch, marking Microsoft's entry into gaming.
+2013: Acquisition of Nokia's mobile business.
+2016: LinkedIn acquisition, expanding into social networking.
 
-### Apple
+## Apple's Historical Milestones
 
-- 1976: Founded by Steve Jobs, Steve Wozniak, and Ronald Wayne.
-- 1984: Launches the Macintosh, revolutionizing personal computing.
-- 2001: Introduces the iPod, changing the music industry.
-- 2007: Unveils the iPhone, transforming the smartphone market.
-- 2010: Releases the iPad, creating the tablet market.
-- 2014: Launches Apple Watch, entering the wearables market.
+1976: Founded by Steve Jobs, Steve Wozniak, and Ronald Wayne.
+1984: Launch of the Macintosh, revolutionizing computing.
+2001: iPod introduction, changing the music industry.
+2007: iPhone unveiling, transforming smartphones.
+2010: iPad release, creating the tablet market.
+2014: Launch of the Apple Watch, entering wearables.
 
-## Microsofts Key Features
+## Microsoft’s Key Features
 
-Windows OS: The heart of many PCs around the world, making computers easier to use for everyone.
-Xbox: A gaming console that brings immersive games to life.
-LinkedIn: Connects professionals across the globe, now under Microsoft's wing.
-Azure: A cloud service that lets businesses run and grow their operations online.
-Apple's Key Features:
+Windows OS: Powers countless PCs globally, simplifying computing.
+Xbox: A leading gaming platform that offers immersive experiences.
+LinkedIn: A professional networking site connecting millions worldwide.
+Azure: Cloud services that enable businesses to scale and innovate.
 
-iPhone: A smartphone that combines calling, internet, and tons of apps in one.
-Macintosh (Mac): A computer known for its sleek design and powerful performance.
-iPad: A tablet that bridges the gap between laptops and smartphones.
-Apple Watch: A smartwatch that tracks your health and keeps you connected.
-Both companies have shaped the tech world with their innovations, each bringing their unique strengths to the table. Microsoft excels in software and cloud services, while Apple is known for its integrated hardware and software approach that offers a seamless user experience.
+## Apple’s Key Features
 
-- **Cloud Computing (Azure):** Offers a wide range of cloud services.
-- **Productivity Software (Office Suite):** The standard in productivity software.
-- **Windows OS:** The most used PC operating system worldwide.
-- **Gaming (Xbox):** A leading platform in the gaming industry.
-- **Hardware (Surface):** High-quality laptops and 2-in-1 devices.
-
-### Apple
-
-- **iPhone & iPad:** Leaders in their respective markets for smartphones and tablets.
-- **Mac Computers:** Known for their design and integration with Apple's software.
-- **Apple Watch:** The leading product in wearable technology.
-- **Services:** Expanding business in iCloud, Apple Music, Apple TV+, and the App Store.
+iPhone: A game-changing smartphone that combines communication, internet, and apps.
+Mac: A computer line known for sleek design and powerful performance.
+iPad: A device bridging the gap between laptops and smartphones.
+Apple Watch: A smartwatch focusing on health and connectivity.
 
 ## Market Comparison
 
-The competition between Microsoft and Apple highlights their different approaches to technology and market strategy. Microsoft's strength lies in software, cloud computing, and productivity solutions, targeting a broad market from individual consumers to large enterprises. Apple, on the other hand, focuses on integrating hardware and software to create an ecosystem of products that emphasize design, user experience, and customer loyalty.
-
-## Getting Started
-
-To explore Microsoft's offerings, start with their [Azure cloud services](https://azure.microsoft.com) or the [Office 365 suite](https://office.com). For Apple, consider experiencing the ecosystem through an [iPhone](https://www.apple.com/iphone/), [MacBook](https://www.apple.com/macbook/), or [Apple Watch](https://www.apple.com/watch/).
+The rivalry between Microsoft and Apple highlights different tech and market strategies. Microsoft excels in software, cloud computing, and productivity solutions for a broad audience. In contrast, Apple focuses on creating an integrated ecosystem of products emphasizing design, user experience, and loyalty.
 
 ## Conclusion
 
-Microsoft and Apple continue to lead the technology industry with their innovative products and strategies. While Microsoft excels in software and cloud services, Apple dominates in creating an integrated ecosystem of hardware and services. Both companies have their strengths and weaknesses, but their continued emphasis on innovation suggests a promising future for their technologies.
+Microsoft and Apple are still at the top in the tech world because of their new ideas and products. Microsoft is really good at making software and cloud services, and Apple is great at making all its devices work together smoothly. They both keep coming up with new things, showing that technology has a bright future ahead.
 
 ## References
 
-- [Microsoft Official Website](https://microsoft.com)
-- [Apple Official Website](https://apple.com)
-- [Tecktarget] https://www.techtarget.com/searchmobilecomputing/definition/iPhone?fbclid=IwAR2_RyLIhBtja9JJlieSKDFGXlYswbhsAOZGSss4ifmHo7YCNNXYm7bCnKw
-  []
-- _Steve Jobs_ by Walter Isaacson, 2011
-- _The Innovators_ by Walter Isaacson, 2014
+[Microsoft Official Site](https://news.microsoft.com/facts-about-microsoft/)
+[Microsoft-official Site - About the company](https://www.microsoftalumni.com/s/1769/19/home.aspx?sid=1769&gid=2)
+[Microsoft site - future plans](https://news.microsoft.com/source/)
+[Microsoft-official-site] https://news.microsoft.com/facts-about-microsoft/
+[Microsoft site - inovation](https://www.microsoft.com/en-us/research/)
+[My least favorit site wikipedia](https://no.wikipedia.org/wiki/Microsoft)
+[SNL(Store norske leksikon)](https://snl.no/Microsoft)
 
-## Additional Resources
+[Apple Britannica](https://www.britannica.com/topic/Apple-Inc)
+[Tecktarget] (https://www.techtarget.com/searchmobilecomputing/definition/iPhone?fbclid=IwAR2_RyLIhBtja9JJlieSKDFGXlYswbhsAOZGSss4ifmHo7YCNNXYm7bCnKw
+)
 
-- [Microsoft-offcial-site] https://news.microsoft.com/facts-about-microsoft/
-- [Exploring Apple's Ecosystem](https://www.apple.com)
+## Video resorses
+
+https://www.youtube.com/watch?v=6kIReB8tYwM
+https://www.youtube.com/watch?v=FTr8rgWQ7o4
