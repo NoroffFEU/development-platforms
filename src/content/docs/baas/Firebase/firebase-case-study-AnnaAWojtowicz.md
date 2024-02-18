@@ -1,3 +1,9 @@
+---
+title: How to use Firebase when creating a website with auctions
+author: Anna Wojtowicz
+tags: Firebase, web app, Cloud Firestore, database, NoSQL, Firebase JS SDK, BaaS, addDoc() method, setDoc() method, updateDoc() method, deleteDoc() method, getDoc() method, getDocs() method
+---
+
 # Case: How to use Firebase when creating a website with auctions.
 
 Firebase is an example of a platform that provides back-end solutions for both front- and back-end developers (in other words a BaaS - Backend as a Service). This platform is especially convenient for front-end developers without back-end skills to build and develop applications.
