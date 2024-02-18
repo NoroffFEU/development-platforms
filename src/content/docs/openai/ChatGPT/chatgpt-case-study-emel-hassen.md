@@ -49,6 +49,12 @@ As for its relevance for developers, ChatGPt has the ability to generate code in
 **Debugging**
 ChatGPT has proven to be an exceptional debugging assistant tool. Since resolving code issues involves a lot of time spent on reading documentation, Google searches, and StackOverflow, ChatGPT can significantly increase developers productivity by providing possible solutions in a matter of seconds.
 
+| Feature | Description |
+| --- | --- |
+| Documentation | using the natural langage capabilities to help geenrate reports and documentation |
+| Code generation | can genrate code ofr web and desktop development in various programming languages |
+| Debugging | can use its ability to understand programming languages to debug code |
+
 ## Market Comparison
 
 ChatGPT is certainly not the only chatbot out there nor is it the only natural language processor. it is quite common that alot of service desks and support functions for companiees today use bots to handle the frequently asked request and refer to a service desk when they cannot reply. those bots are usually trained on a set of questions related to the comany and can be very limited in comparison to chatgpts capabilities.
