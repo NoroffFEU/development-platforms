@@ -231,89 +231,128 @@ SQLite is widely used in various types of applications due to its simplicity, re
 
 - **Data Analysis and Reporting**: SQLite can be used for lightweight data analysis and reporting, especially in scenarios where portability and ease of use are important.
 
-#### Example: Creating a SQLite Database in Node.js
+## Setting Up SQLite with Node.js: A Detailed Guide
+
+This guide demonstrates how to integrate SQLite into a Node.js application, from setting up the project to performing basic database operations.
+
+### Step 1: Project Setup
+
+1. **Create a New Directory**: Start by creating a new directory for your project and navigate into it:
+
+   ```bash
+   mkdir sqlite_node_demo
+   cd sqlite_node_demo
+   ```
+
+2. **Initialize a Node.js Project**: Initialize a new Node.js project by running:
+
+   ```bash
+   npm init -y
+   ```
+
+   This command creates a `package.json` file with default values.
+
+3. **Install SQLite3**: Install the `sqlite3` package, a Node.js wrapper for SQLite:
+
+   ```bash
+   npm install sqlite3
+   ```
+
+### Step 2: Connecting to an SQLite Database
+
+Create a file named `database.js` to handle database connections and operations.
+
+1. **Import sqlite3 and Open a Database Connection**:
+
+   ```javascript
+   const sqlite3 = require("sqlite3").verbose();
+
+   // Connect to an in-memory database
+   const db = new sqlite3.Database(":memory:", (err) => {
+     if (err) {
+       return console.error(err.message);
+     }
+     console.log("Connected to the in-memory SQLite database.");
+   });
+   ```
+
+2. **Close the Database Connection**:
+
+   Ensure to close the database connection when it's no longer needed:
+
+   ```javascript
+   db.close((err) => {
+     if (err) {
+       return console.error(err.message);
+     }
+     console.log("Closed the database connection.");
+   });
+   ```
+
+### Step 3: Creating a Table
+
+To create a table named `users`, add the following code to `database.js`:
 
 ```javascript
-const sqlite3 = require("sqlite3").verbose();
-const db = new sqlite3.Database(":memory:", (err) => {
-  if (err) {
-    return console.error(err.message);
-  }
-  console.log("Connected to the in-memory SQLite database.");
-});
-
-db.close((err) => {
-  if (err) {
-    return console.error(err.message);
-  }
-  console.log("Close the database connection.");
-});
-```
-
-This example demonstrates how to create an in-memory SQLite database in a Node.js application. The sqlite3 package is used to interact with SQLite.
-
-#### Example: Creating a Table and Inserting Data
-
-```javascript
-const sqlite3 = require("sqlite3").verbose();
-const db = new sqlite3.Database(":memory:");
-
-db.serialize(() => {
-  db.run("CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, email TEXT)")
-    .run(
-      `INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com')`
-    )
-    .run(
-      `INSERT INTO users (name, email) VALUES ('Bob', 'bob@example.com')`,
-      function (err) {
-        if (err) {
-          return console.error(err.message);
-        }
-        console.log(`A row has been inserted with rowid ${this.lastID}`);
-      }
-    );
-});
-
-db.close();
-```
-
-In this example, a table named `users` is created with columns for `id`, `name`, and `email`. Then, two rows of data are inserted into the table.
-
-#### Example: Querying Data
-
-```javascript
-const sqlite3 = require("sqlite3").verbose();
-const db = new sqlite3.Database(":memory:");
-
-db.serialize(() => {
-  db.run("CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, email TEXT)")
-    .run(
-      `INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com')`
-    )
-    .run(`INSERT INTO users (name, email) VALUES ('Bob', 'bob@example.com')`);
-
-  db.all("SELECT * FROM users", [], (err, rows) => {
+db.run(
+  "CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, email TEXT)",
+  (err) => {
     if (err) {
-      throw err;
+      // Table already created
+      console.error(err.message);
+    } else {
+      console.log("Table created");
     }
-    rows.forEach((row) => {
-      console.log(row);
-    });
+  }
+);
+```
+
+### Step 4: Inserting Data
+
+Insert data into the `users` table with:
+
+```javascript
+const insertData = `INSERT INTO users (name, email) VALUES (?, ?)`;
+db.run(insertData, ["Alice", "alice@example.com"], (err) => {
+  if (err) {
+    return console.log(err.message);
+  }
+  console.log("A row has been inserted");
+});
+```
+
+### Step 5: Querying Data
+
+Retrieve data from the `users` table:
+
+```javascript
+db.all("SELECT * FROM users", [], (err, rows) => {
+  if (err) {
+    throw err;
+  }
+  rows.forEach((row) => {
+    console.log(row.name);
   });
 });
-
-db.close();
 ```
 
-This example shows how to query data from the `users` table. The `db.all` method is used to retrieve all rows from the table, and the results are printed to the console.
+### Full Example in `database.js`
 
-These examples demonstrate the basic operations of creating a database, creating a table, inserting data, and querying data in a Node.js application using SQLite. SQLite's simplicity and ease of use make it ideal for a wide range of applications, including server-side applications with Node.js.
+Combine all the snippets above into a single `database.js` file, ensuring to structure the operations logically and close the database connection at the end of your operations.
+
+### Running Your Node.js Application
+
+Execute your script with Node.js to see the output:
+
+```bash
+node database.js
+```
+
+This script will connect to an SQLite database, create a table, insert data, and query that data—all within an in-memory database that gets cleared once the script finishes execution.
 
 ### Conclusion
 
-SQLite's wide range of applications demonstrates its versatility and effectiveness as a database management system. Whether you're developing a mobile app, a desktop application, an embedded system, or simply need a lightweight database for testing, SQLite offers a robust, reliable, and easy-to-use solution.
-
-By understanding the strengths and limitations of SQLite, developers can make informed decisions about when and how to use it in their projects. Its ease of deployment, minimal setup, and cross-platform compatibility make SQLite a go-to choice for many developers around the world.
+This guide covered the basics of setting up SQLite in a Node.js environment, including creating a database connection, defining a table, inserting data, and querying that data. For persistent storage, consider using a file-based database by replacing `:memory:` with a file path in the `sqlite3.Database` constructor.
 
 ## Additional Resources
 
