@@ -6,6 +6,7 @@ tags: openai, chatgpt, natural language, ai, ml, machine learning, artificial in
 
 ## Introduction
 
+hello
 In this case study I will write about ChatGPT. ChatGPT, which stands for chat generative pre-trained transformer, is a chatbot made by OpenAI and launched on November 30, 2022.
 
 Based on a large language model, it enables users to refine and steer a conversation towards a desired length, format, style, level of detail, and language. Successive prompts and replies, known as prompt engineering, are considered at each conversation stage as a context.
