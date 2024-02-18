@@ -43,13 +43,13 @@ In comparison to other code completion tools available for Visual Studio Code, s
 
 ## IntelliCode vs TabNine
 
-# IntelliCode
+## IntelliCode
 
 - Advantage: IntelliCode stands out for its advanced AI algorithms, which analyze coding patterns from thousands of open-source projects to provide personalized recommendations tailored to individual coding habits. This personalized approach enhances productivity and reduces the time spent searching for the right code snippet.
 
 - Disadvantage: However, IntelliCode may occasionally provide suggestions that are not entirely relevant or accurate, especially in complex or less common coding scenarios.
 
-# TabNine
+## TabNine
 
 - Advantage: TabNine excels in providing fast and contextually relevant code completions based on the current coding context. Its support for multiple programming languages and fast performance enhances developer productivity, allowing for quick and efficient coding.
 
@@ -79,3 +79,15 @@ IntelliCode revolutionizes the coding experience in Visual Studio Code by levera
 
 
 ## References
+
+The IntelliCode story 2018-2022: (https://www.linkedin.com/pulse/intellicode-story-2018-2022-david-obando)
+
+IntelliCode: AI-assisted code development in Visual Studio: (https://learn.microsoft.com/en-us/visualstudio/ide/intellicode-visual-studio?view=vs-2022)
+
+What is intellicode? (https://www.partech.nl/nl/publicaties/2021/06/introduction-to-intellicode-in-visual-studio#)
+
+How Intellicode works: (https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-whole-line-completions?view=vs-2022)
+
+Installiation guide: (https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+
+Type less, code more with IntelliCode completions, Mark Wilson-Thomas Principal Program Manager: (https://devblogs.microsoft.com/visualstudio/type-less-code-more-with-intellicode-completions/)
