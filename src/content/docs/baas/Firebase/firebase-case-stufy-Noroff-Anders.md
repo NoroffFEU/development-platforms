@@ -23,7 +23,7 @@ Firebase is a great tool for developers who want to focus on building their app,
 
 ## Main Features
 
-Firebase's featuere set is quite extensive and includes the following features:
+Firebase's featuere set is quite extensive and includes the following features. I found the most relevant features for a front-end developer to know about.
 
 
  ### Build features
@@ -38,24 +38,89 @@ Firebase's featuere set is quite extensive and includes the following features:
 
 ### Monitor features
 | Google Analytics| Analytics tool for data collecition such as users stats, crash reports and google ads to help you get the data you need for making the best improvements to your apps |
-| Firebase crashlytics|  |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
+| crashlytics| real time crash reporting alows for quick bug fixing. With crashlytics you get a timeline of all the events leading up to a crash makes for easy reproducing of the problem. |
+| Performance Monitoring  | Monitor your app performance. Performance Monitoring gives you insight to where improvements might be need to optamize your app  |
 
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+Firebase is not the only BaaS platform on the market. There are several other platforms that offer similar services. Some of the most popular alternatives to Firebase include supabase, AWS Amplify, and Back4App. In this section, I will compare Firebase to supabase as it is a popular alternative to Firebase and is advertising as an open source alternative to Firebase 
+on their home page.
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+### Firebase vs Supabase
+Supabase:
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+    Open-source: Supabase is an open-source platform, meaning its source code is freely available for anyone to use, modify, and distribute.
+
+    PostgreSQL: Supabase uses PostgreSQL as its underlying database, offering powerful relational database features that are well-suited for complex queries and transactions.
+
+    Flexibility: Users have greater flexibility and control over their applications with Supabase. They can self-host their applications or deploy them to various cloud providers.
+
+    Growing platform: As a newer platform, Supabase is continually evolving and adding features. While it may not be as feature-complete as Firebase, it's rapidly gaining traction and community support.
+
+    Cost: Supabase is generally more cost-effective, especially for larger projects, as it doesn't have the same scalability costs associated with proprietary cloud services.
+
+Firebase:
+
+    Proprietary service: Firebase is a proprietary platform developed by Google. While this means it's not open-source, it benefits from Google's infrastructure and resources.
+
+    NoSQL database: Firebase utilizes a NoSQL database, which excels at handling large volumes of unstructured or semi-structured data. However, it may not be ideal for applications requiring complex relational queries.
+
+    Reliability and scalability: Backed by Google's infrastructure, Firebase offers high reliability and scalability, making it suitable for large-scale applications with high traffic volumes.
+
+    Comprehensive feature set: Firebase provides a comprehensive set of features for app development, including real-time database, authentication, cloud storage, hosting, and more.
+
+    Vendor lock-in: Using Firebase may entail a risk of vendor lock-in, as developers become dependent on Google's ecosystem and services.
+
+In summary, Supabase offers flexibility, cost-effectiveness, and powerful database capabilities, making it a compelling choice for developers seeking control and customization. On the other hand, Firebase provides reliability, scalability, and a comprehensive suite of features, albeit with the potential drawback of vendor lock-in.
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+Since its relevant for front end developers, here is an example of how to get started with Firebase in your javascript project:
+
+
+Step 1: Create a Firebase Project and register you project with Firebase. You can do this by going to the Firebase console and clicking on "Add Project". Then follow the instructions to register your project.
+
+step 2: Install the SDK and initialize Firebase
+
+you can install the SDK by typing the following command in your CLI: ```npm install firebase ```
+Then you can initialize Firebase in your project by adding the following code to your project:
+
+``` import { initializeApp } from 'firebase/app';
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+  //...
+};
+
+const app = initializeApp(firebaseConfig);
+```
+
+step 3: Access Firebase in your app
+
+```
+import { initializeApp } from 'firebase/app';
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+// Follow this pattern to import other Firebase services
+// import { } from 'firebase/<service>';
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+  //...
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+// Get a list of cities from your database
+async function getCities(db) {
+  const citiesCol = collection(db, 'cities');
+  const citySnapshot = await getDocs(citiesCol);
+  const cityList = citySnapshot.docs.map(doc => doc.data());
+  return cityList;
+}
+```
+
 
 ## Conclusion
 
