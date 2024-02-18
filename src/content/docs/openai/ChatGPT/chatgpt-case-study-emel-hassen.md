@@ -52,9 +52,9 @@ ChatGPT has proven to be an exceptional debugging assistant tool. Since resolvin
 ### Summary table
 | Feature | Description |
 | --- | --- |
-| Documentation | using the natural langage capabilities to help geenrate reports and documentation |
-| Code generation | can genrate code ofr web and desktop development in various programming languages |
-| Debugging | can use its ability to understand programming languages to debug code |
+| Documentation | Using the natural language capabilities to help geenrate reports and documentation |
+| Code generation | Can genrate code ofr web and desktop development in various programming languages |
+| Debugging | Can use its ability to understand programming languages to debug code |
 
 ## Market Comparison
 
