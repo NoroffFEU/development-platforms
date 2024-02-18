@@ -151,22 +151,31 @@ Firestore Database supports various data types (FireBase e, u.a.), organized as 
 
 To create a collection, the developer needs to navigate to the Firestore Database in the **Build** section of the Firebase project. This is where they can organize and manage collections, each containing individual documents to store data.
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  14 16 59" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/25955817-fa0b-4a3c-8355-b67c66a88931">
 
 After clicking on **Create Database**, the developer will need to choose the location of the database and set security rules. In this case, the security rules can be initially set to **Start in test mode** and can be later adjusted to production mode as needed. Once the configuration is complete, clicking on **Create** will initialize the database creation process.
 
-BILDE
-BILDE
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  14 20 22" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/60313193-73e1-41c7-9d36-e19fbc005e5a">
+
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  14 21 01" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/7c02d352-63be-4dcb-b4ba-25ff3961493c">
+
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  14 30 08" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/d7bba2b0-d94a-4aa6-9bdf-d2923ef43fe9">
+
 
 Creating a new collection is intuitive and straightforward. In the **Data** tab, after clicking on **Start collection**, the developer names the collection and can begin adding key-value pairs while specifying the data type. Clicking on **Auto-ID** generates a unique **document ID**, facilitating easy access to the chosen document.
 
-BILDE
-BILDE
-BILDE
-BILDE
-BILDE
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  14 41 00" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/69066162-421c-4d8a-865e-96e0d2d15aa8">
+
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  14 43 50" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/d109eb40-74a4-45c8-aba5-0efdf552d74f">
+
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  14 59 19" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/f5499474-22d2-4411-a45e-111f42dd1aed">
+
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  14 59 28" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/92f10ca9-0080-445f-b4a6-1641607954b5">
+
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  15 00 38" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/38860832-cb32-43af-b59d-c72e8ab14d62">
+
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  15 00 52" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/a7cbc18b-65e1-4519-8611-914dda0944b9">
+
 
 Additionally, as seen in the last screenshot, there is the option to create new collections and add documents or sub-collections by clicking on **Start collection** in the right column. Furthermore, developers can edit existing collections. It's crucial to note that databases can be designed and organized in various ways, depending on the project's needs and optimal data usage. While the process may seem straightforward initially, effective planning and strategies are necessary to minimize unnecessary data and enhance data retrieval speed. More information on this issue can be found in Firebase Documentation (Firebase f, u.a.).
 
