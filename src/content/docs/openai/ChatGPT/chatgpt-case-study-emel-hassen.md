@@ -1,6 +1,6 @@
 ---
 title: OpenAI ChatGPT Case Study
-author: Emel Hassen <[Emel-H](https://github.com/Emel-H)>
+author: Emel Hassen [Emel-H](https://github.com/Emel-H)
 tags: OpenAI, ChatGPT, Natural language processing, AI, ML, Machine learning, Artificial inteligence, Chat bot, Text bot, NLP, GPT, Development platforms
 ---
 
