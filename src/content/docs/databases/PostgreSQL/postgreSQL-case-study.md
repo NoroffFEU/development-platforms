@@ -94,7 +94,9 @@ In conclusion, PostgreSQL is a strong, dependable, robust and adaptable open-sou
 
 ### PostgreSQL's Future:
 
-PostgreSQL has been constantly getting better and improving since it started. It is now a very big and reliable database management system with a strong, supportive community and a large number of contributors who are dedicated to contiunuing its improvement and development. With ongoing development and a commitment to meeting user needs, PostgreSQL seems to remain as an essential tool for managing data in the future aswell as today. looks to me like its future is very bright.
+PostgreSQL has been constantly getting better and improving since it started. It is now a very big and reliable database management system with a strong, supportive community and a large number of contributors who are dedicated to contiunuing its improvement and development. With ongoing development and a commitment to meeting user needs, PostgreSQL seems to remain as an essential tool for managing data in the future aswell as today.
+
+It looks to me like its future is very bright.
 
 ## References
 
