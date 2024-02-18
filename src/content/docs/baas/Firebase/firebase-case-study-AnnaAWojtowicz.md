@@ -356,6 +356,7 @@ user: “Runar Nordmann”
 <td><pre lang="js">user get auto-generated document ID or self decides the name of it (e.i.”RunarNordmannAuctions”)</pre></td>
 </tr>
 </table>
+(Firebase h, u.a.)
 
 ### Updating data in Cloud Firestore
 
@@ -534,6 +535,7 @@ can replace a value, but not the key of existing key-value pair
 </pre></td>
 </tr>
 </table>
+(Firebase h, u.a.)
 
 ### Deleting data in Cloud Firestore
 
@@ -665,6 +667,7 @@ password: “12345678”
 <td><pre lang="js">deletes the entire document with all key-value pairs</pre></td>
 </tr>
 </table>
+(Firebase i, u.a.)
 
 ### Getting the data from Cloud Firestore
 
@@ -765,6 +768,7 @@ The table below summarize these two methods:
 <td><pre lang="js">fetches the whole collection</pre></td>
 </tr>
 </table>
+(Firebase j, u.a.)
 
 ## Sources:
 
@@ -784,18 +788,20 @@ Firebase f (u.a.). _Choose a data structure_ .Retrieved 18.02.2024 from: [https:
 
 Firebase g (u.a.). _Add data to Cloud Firestore_ .Retrieved 18.02.2024 from: [https://firebase.google.com/docs/firestore/manage-data/add-data](https://firebase.google.com/docs/firestore/manage-data/add-data);
 
+Firebase h (u.a.).*Add data to Cloud Firestore*. Retrieved 18.02.2024 from: [https://firebase.google.com/docs/firestore/manage-data/add-data](https://firebase.google.com/docs/firestore/manage-data/add-data);
+
+Firebase i (u.a.).*Delete data from Cloud Firestore*. Retrieved 18.02.2024 from: [https://firebase.google.com/docs/firestore/manage-data/delete-data](https://firebase.google.com/docs/firestore/manage-data/delete-data);
+
+Firebase j (u.a.).*Get data with Cloud Firestore*. Retrieved 18.02.2024 from: [https://firebase.google.com/docs/firestore/query-data/get-data](https://firebase.google.com/docs/firestore/query-data/get-data);
+
 Mdn Web Docs (u.a.). _Tree-shaking_. Retrieved 18.02.2024 from: [https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking);
 
 Noroff (u.a.) _Semester Project 2 brief_. Retrieved 18.02.2024 from: [​​https://content.noroff.dev/semester-project-2/brief.html](​​https://content.noroff.dev/semester-project-2/brief.html);
 
-Tamil.R (01.2024) _The Complete Firebase & JavaScript Beginner's Friendly Guide_.Retrieved 18.02.2024 from: [https://www.udemy.com/course/javascript-firebase-build-full-stack-web-apps-faster/learn/lecture/32562582#reviews](https://www.udemy.com/course/javascript-firebase-build-full-stack-web-apps-faster/learn/lecture/32562582#reviews);
+Tamil.R (01.2024) _The Complete Firebase & JavaScript Beginner's Friendly Guide_.Retrieved 18.02.2024 from: [https://www.udemy.com/course/javascript-firebase-build-full-stack-web-apps-faster/learn/lecture/32562582#reviews](https://www.udemy.com/course/javascript-firebase-build-full-stack-web-apps-faster/learn/lecture/32562582#reviews).
 
-Retrieved 18.02.2024 from: []();
 
-Retrieved 18.02.2024 from: []();
 
-Retrieved 18.02.2024 from: []();
 
-Retrieved 18.02.2024 from: []();
 
-.
+
