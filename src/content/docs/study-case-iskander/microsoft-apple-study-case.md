@@ -30,7 +30,7 @@ This case study explores the technological advancements and strategies of two le
 
 ## Main Features
 
-### Microsoft
+### Microsoft.
 
 - **Cloud Computing (Azure):** Offers a wide range of cloud services.
 - **Productivity Software (Office Suite):** The standard in productivity software.
