@@ -107,7 +107,7 @@ Every Firebase Project is essentially a Google Cloud Project, although not every
 
 With the introduction of Firebase 9, a modular approach has been implemented. This means that developers can now import only the modules (resources and services) they need for their app. As a result, the app will run faster since it avoids including unnecessary elements.
 
-BILDE
+![chart over services provided by Firebase](https://firebase.google.com/static/docs/projects/images/firebase-projects-hierarchy_projects-apps-resources.png?authuser=0)
 
 (Firebase a, u.a.).
 
@@ -117,7 +117,8 @@ One of the most crucial services provided by Firebase is **Cloud Firestore**. Th
 
 It's essential to note the cost associated with using Cloud Firestore. Firebase offers some free-of-charge usage of Cloud Firestore, making it a useful solution for developers testing their Auctions projects. However, as the project scales, there may be a need to purchase additional quota to ensure its smooth operation. Further details regarding limitations and pricing can be found in the documentation (Firebase c, u.a.), with usage monitoring available in the **Usage tab** of the project.
 
-BILDE
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  15 20 23" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/74730f53-e110-445b-88e4-a1d5c3bc643d">
+
 
 ### Adding Cloud Firestore to the project
 
@@ -135,8 +136,11 @@ const db = getFirestore(app);
 
 (Firebase d, u.a.) to **index.js** in the project.
 
-BILDE
-BILDE
+
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  12 25 47" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/8daf67ed-cdee-4c9f-8189-573df1dce052">
+
+<img width="1440" alt="Skjermbilde 2024-02-14 kl  12 56 27" src="https://github.com/AnnaAWojtowicz/development-platforms/assets/87201797/119d4792-043a-40ac-abc8-5cd8c8bdfcbc">
+
 
 ### Organising data
 
