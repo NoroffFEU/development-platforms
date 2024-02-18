@@ -27,33 +27,37 @@ As stated, Remix is built on top of React Router and can be said to be four thin
 3. A server framework.
 4. A browser framework.
 
-The purpose of Remix is to be a JavaScript full-stack framework. It can take care of routing, data fetching, and rendering on the server and the client. It is not a Static Site Generator(SSG) framework like Next.js and other modern JavaScript frameworks. Remix, by default, renders the page on the server on the first request. Once Remix has served the document to the browser, it "hydrates" the page with the browser build's JavaScript modules. Co-creator of Remix, Michael Jackson, has said "Remix is basically all of our opinions about web development, built on top of React Router". It takes a lot of inspiration from old PHP frameworks and also from Ruby on Rails.
+The purpose of Remix is to be a JavaScript full-stack framework. It can take care of routing, data fetching, and rendering on the server and the client. It is not a Static Site Generator(SSG) framework like Next.js and other modern JavaScript frameworks. Remix, by default, renders the page on the server on the first request. Once Remix has served the document to the browser, it "hydrates" the page with the browser build's JavaScript modules. Co-creator of Remix, Michael Jackson, has said <em>"Remix is basically all of our opinions about web development, built on top of React Router". It takes a lot of inspiration from old PHP frameworks and also from Ruby on Rails.</em> Ref: [thenewstack.io - Remix takes on Next.js in Battle of the React Frameworks](https://thenewstack.io/remix-takes-on-next-js-in-battle-of-the-react-frameworks/)
 
 ### Primary Purpose
 
 The goal of Remix is to ease the development of web applications that are fast, scalable and easy to maintain. It streamlines many aspects of web development, from routing and data loading to server-side rendering and caching.
 
-### Problems it solves
+### Strengths
 
-<strong>Performance:</strong>
-Remix is designed to optimize performance out of the box. It does this by supporting features like automatic code splitting and efficient data loading patterns, which help in reducing the load time of web applications.
+<strong>Performance:</strong> Remix is designed to optimize performance out-of-the-box. It does this by supporting features like automatic code splitting and efficient data loading patterns, which help in reducing the load time of web applications.
 
-<strong>Developer Experience:</strong>
-With a focus on conventions and simplicity, Remix reduces the boilerplate code required to get started with a new project. It offers a simple approach to routing, data fetching, and form handling, which simplifies the development process.
+<strong>Developer Experience:</strong> Remix reduces the boilerplate code needed to get started with a new project. It offers a simple approach to routing, data fetching, and form handling, which simplifies the development process.
 
-<strong>Enhanced User Experience:</strong>
-By supporting server-side rendering (SSR), Remix allows developers to build applications that are not only fast but also SEO-friendly. This enhances the overall user experience, as users benefit from quick, interactive pages.
+<strong>Enhanced User Experience:</strong> By supporting server-side rendering (SSR), developers can build applications that are not just fast but also SEO-friendly. This enhances the overall user experience, as users benefit from fast, interactive pages.
 
-<strong>Integration with the Web Platform:</strong>
-Remix embraces the web platform, using standard browser features and APIs to manage navigation, caching, and data management. This reduces reliance on client-side JavaScript, leading to more performant and accessible applications.
+<strong>Integration with the Web Platform:</strong> Remix embraces the web platform and web standards, using standard browser features and APIs to manage navigation, caching, and data management.
+
+## Weaknesses
+
+<strong>Small community: </strong> Compared to other more mature frameworks, Remix still has a relatively small community.
+
+<strong>No SSG: </strong> Remix does not offer Static Site Generation out-of-the-box, so it may not be as suitable for smaller blog type web apps or landing pages.
 
 ### Unique features
 
-<strong>Nested Routing:</strong> Remix supports nested routing. This feature allows developers to better organize their applications.
+<strong>Nested Routing:</strong> Remix supports nested routing, that allows developers to better organize their applications.
 
-<strong>Data Loading:</strong> Remix provides a unique approach to data loading and mutations, allowing developers to load and manipulate data close to where it's displayed or used in the UI. This improves data management and synchronization across the application.
+<strong>Data Loading:</strong> Remix provides a unique approach to data loading and mutations.
 
-<strong>Error Handling:</strong> Remix has built-in error boundaries that make handling errors at different levels of the application easy, which improves reliability and user experience.
+<strong>Error Handling:</strong> Remix has built-in error boundaries that make handling errors at different levels of the application easy.
+
+<strong>Form handling: </strong> Remix has a built-in Form component that simplifies form handling.
 
 ## Market Comparison
 
@@ -61,7 +65,10 @@ It makes sense to compare Remix to Next.js since both are JavaScript frameworks 
 
 ### Remix vs. Next.js
 
-Both frameworks offer excellent support for SSR, which gives better performance and SEO. Next.js has Static-Site-Generation(SSG) functionality which Remix does not have out of the box, but it can be enabled using a package like [remix-ssg](https://github.com/jacob-ebey/remix-ssg), or by clever use of caching. Next.js has been acclaimed for its ease of use and developer-friendly features. Remix, however, focuses on improving the developer experience by offering a more integrated approach to routing, data fetching, and form handling, which can reduce boilerplate code. Next.js has a wide ecosystem and has been around longer, which might offer more plugins and integrations. Remix is praised for it's focus on web standards and the tie between server and frontend may make more backend focused developers feel more at home.
+Both frameworks offer excellent support for SSR, which gives better performance and SEO. Next.js has Static-Site-Generation(SSG) functionality which Remix does not have out-of-the-box, but it can be enabled using a package like [remix-ssg](https://github.com/jacob-ebey/remix-ssg), or by clever use of caching.
+Next.js has been acclaimed for its ease of use and developer-friendly features. Remix, however, focuses on improving the developer experience by offering a more integrated approach to routing, data fetching, and form handling, which can reduce boilerplate code.
+Next.js has a wide ecosystem and has been around longer, which might offer more plugins and integrations.
+Remix is praised for it's focus on web standards and the tie between server and frontend may make more backend focused developers feel more at home.
 
 ## Getting Started
 
@@ -316,9 +323,9 @@ export default Example;
 
 ## Conclusion
 
-Remix is a fresh new take on React development with it's server-side focus. Since it it's built on the [Web Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) it enables Remix to run on any Node.js server. It can be deployed to Vercel, Netlify, etc. And also non-Node.js environments like [Cloudfare Workers](https://workers.cloudflare.com/) and [Deno Deploy](https://deno.com/deploy/docs). This gives you more freedom to chose your production environment compared to the "main competitor" Next.js.
+Remix is a fresh new take on React development with it's server-side focus. Since it it's built on the [Web Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) it enables Remix to run on any Node.js server. It can be deployed to Vercel, Netlify, etc, and also non-Node.js environments. This gives you more freedom of choice for your production environment compared to the "main competitor" Next.js.
 
-Compared to Next.js, Remix has a smaller community and therefore it may be harder to find resources to help in learning it, but it's gaining traction and is owned by Shopify which gives it the financial backing it needs to be a big player in the world of React frameworks in the years to come.
+Compared to Next.js, Remix has a smaller community and therefore it may be harder to find resources to help in learning it, but it's gaining traction and is owned by Shopify which gives it the financial backing it needs to be a big player in the world of React frameworks in the years to come. Shopify has also stated that <em>Remix is now the recommended way to build Admin apps on Shopify.</em> Ref: [Shopify](https://shopify.engineering/shopifys-platform-is-the-web-platform)
 
 ## Credit(s)
 
@@ -327,8 +334,11 @@ Author - Kim Rune Møller [GitHub: kimrm](https://github.com/kimrm)
 ## References
 
 - [Remix website](https://remix.run)
+- [Remix docs](https://remix.run/docs/en/main)
+- [Shopify](https://shopify.engineering/shopifys-platform-is-the-web-platform)
 - [thenewstack.io - Remix takes on Next.js in Battle of the React Frameworks](https://thenewstack.io/remix-takes-on-next-js-in-battle-of-the-react-frameworks/)
 
 ## Additional Resources
 
 - [Remix 30m tutorial](https://remix.run/docs/en/main/start/tutorial)
+- [Remix vs. Next.js](https://remix.run/blog/remix-vs-next)
