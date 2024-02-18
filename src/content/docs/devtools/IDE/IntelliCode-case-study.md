@@ -30,13 +30,10 @@ IntelliCode is an AI-powered extension for Visual Studio Code developed by Micro
 
 ## Main Features
 
-| Feature | Description |
-
-| --- | --- |
-| Intelligent Code Completion | Analyzes code and suggests contextually relevant completions. |
-| Personalized Recommendations | Learns from coding habits to provide tailored suggestions. |
-| Multi-language Support | Supports various programming languages, including JavaScript, TypeScript, Python, Java, and C#. |
-| Model Training | Allows developers to train custom models using their codebase for improved suggestions. |
+- **Intelligent Code Completion :** Analyzes code and suggests contextually relevant completions.
+- **Personalized Recommendations :** Learns from coding habits to provide tailored suggestions. 
+- **Multi-language Support :** Supports various programming languages, including JavaScript, TypeScript, Python, Java, and C#.
+- **Model Training :** Allows developers to train custom models using their codebase for improved suggestions.
 
 
 
