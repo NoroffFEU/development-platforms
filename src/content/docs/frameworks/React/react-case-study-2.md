@@ -14,21 +14,21 @@ React has emerged as a cornerstone in modern web development, offering developer
 
 ## Brief History
 
-    - 2011: Conceived by Jordan Walke, a software engineer at Meta (formerly Facebook)
+- 2011: Conceived by Jordan Walke, a software engineer at Meta (formerly Facebook)
 
-    - 2012: Deployed on Facebook's News Feed, marking its initial real-world usage
+- 2012: Deployed on Facebook's News Feed, marking its initial real-world usage
 
-    - 2013: Open-sourced, fostering a vibrant community and widespread adoption
+- 2013: Open-sourced, fostering a vibrant community and widespread adoption
 
-    - 2015: Introduction of React Native, facilitating cross-platform native app development
+- 2015: Introduction of React Native, facilitating cross-platform native app development
 
-    - 2017: Launch of React Fiber, a rewrite of the reconciliation algorithm, enhancing performance and concurrency capabilities
+- 2017: Launch of React Fiber, a rewrite of the reconciliation algorithm, enhancing performance and concurrency capabilities
 
-    - 2017 (later): Release of React 16.0, refining the framework's features and performance
+- 2017 (later): Release of React 16.0, refining the framework's features and performance
 
-    - 2020: Introduction of React 17, focusing on stability and minor improvements without altering the developer-facing API significantly
+- 2020: Introduction of React 17, focusing on stability and minor improvements without altering the developer-facing API significantly
 
-    - 2022: Unveiling of React 18, featuring a groundbreaking concurrent renderer, automatic batching, and enhanced support for server-side rendering with suspense
+- 2022: Unveiling of React 18, featuring a groundbreaking concurrent renderer, automatic batching, and enhanced support for server-side rendering with suspense
 
 ## Main Features
 
