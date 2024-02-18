@@ -15,7 +15,7 @@ The term "embedded" means that the DBMS does not use a client-server paradigm. T
 
 ## Brief History
 
-SQLite, conceived by D. Richard Hipp in the spring of 2000, was designed to fulfill the need for a lightweight, open-source database that could be embedded into applications without the complexities of a full-fledged database system. Its development was driven by the desire for a simpler alternative to heavier database solutions, with the goal of providing an accessible, reliable, and efficient database engine that could be used in various environments, from small-scale applications to large projects.
+SQLite, conceived by D. Richard Hipp in the spring of 2000, was designed to full-fill the need for a lightweight, open-source database that could be embedded into applications without the complexities of a full-fledged database system. Its development was driven by the desire for a simpler alternative to heavier database solutions, to provide an accessible, reliable, and efficient database engine that could be used in various environments, from small-scale applications to large projects.
 
 ### Key Milestones:
 
@@ -95,7 +95,7 @@ You can work with SQLite as a library or through SQLite3.
 
 SQLite3 is a console utility for working with SQLite from DBMS developers. It starts and works on the command line, in the operating system console. You can download versions for Windows, Mac OS, and Linux.
 
-In terms of functionality, SQLite3 is a client program for client-server applications. With its help, you can enter and send queries to the database: create, modify, get or delete a table. The difference is that it does not access a separate server process, but rather the SQLite engine built into the application.
+In terms of functionality, SQLite3 is a client program for client-server applications. With its help, you can enter and send queries to the database: create, modify, get, or delete a table. The difference is that it does not access a separate server process, but rather the SQLite engine built into the application.
 
 You can write SQL code in SQLite3: the utility will send a request to the kernel, and receive and display the result.
 
@@ -103,7 +103,7 @@ You can write SQL code in SQLite3: the utility will send a request to the kernel
 
 SQL is a query language that experts use to issue commands to manage a database.
 
-SQLite is a DBMS software that supports this language. A person working with SQLite will use the SQL query language to access the database. But the DBMS itself is much broader than just a wrapper for the language and provides many other functions.
+SQLite is a DBMS software that supports this language. A person working with SQLite will use the SQL query language to access the database. However, the DBMS itself is much broader than just a wrapper for the language and provides many other functions.
 
 ### Benefits of SQLite
 
@@ -153,7 +153,7 @@ Ensuring the security of data stored within SQLite databases is paramount for de
 
 SQLite databases are stored as plain files and do not include encryption by default. However, securing sensitive data is crucial:
 
-- **SQLite Encryption Extension (SEE):** An official extension provided by the SQLite developers that adds 256-bit AES encryption to SQLite databases.
+- **SQLite Encryption Extension (SEE):** An official extension provided by SQLite developers that adds 256-bit AES encryption to SQLite databases.
 - **SQLCipher:** An open-source extension to SQLite that provides transparent 256-bit AES encryption of database files. It's widely used and supported across multiple platforms.
 
 Implementing database encryption is essential for applications handling sensitive information, ensuring that data at rest is protected from unauthorized access.
@@ -183,7 +183,7 @@ SQLite offers an optional full-text search (FTS) module that allows users to per
 
 ### Window Functions
 
-Window functions are a powerful feature in SQL that allow users to perform calculations across a set of rows that are related to the current row. This is particularly useful for tasks that involve comparisons or aggregations across rows, such as calculating running totals, averages, or ranking data. SQLite's support for window functions, introduced in version 3.25.0, brings it in line with other major SQL databases, enabling more complex analytical queries.
+Window functions are a powerful feature in SQL that allows users to perform calculations across a set of rows that are related to the current row. This is particularly useful for tasks that involve comparisons or aggregations across rows, such as calculating running totals, averages, or ranking data. SQLite's support for window functions, introduced in version 3.25.0, brings it in line with other major SQL databases, enabling more complex analytical queries.
 
 ### JSON1 Extension
 
@@ -199,9 +199,9 @@ There are two ways to start working with the system:
 
 1. **Connect the DBMS as a Library**: You can integrate SQLite into your application by connecting it as a library to any programming language that supports it. The APIs used may vary between languages and frameworks. Some programming languages, such as Python, have built-in support for SQLite. SQLite is also included in operating systems like various mobile OS and Windows 10.
 
-2. **Use SQLite3 Utility**: SQLite3 is a command-line utility for interacting with SQLite databases, provided by the developers of SQLite. It's available for Windows, Mac OS, and Linux. Using SQLite3, you can perform various database operations like creating, modifying, querying, or deleting tables and data. This utility is especially useful for those who prefer working with databases through a command-line interface.
+2. **Use SQLite3 Utility**: SQLite3 is a command-line utility for interacting with SQLite databases, provided by the developers of SQLite. It's available for Windows, Mac OS, and Linux. Using SQLite3, you can perform various database operations like creating, modifying, querying, or deleting tables and data. This utility is handy for those who prefer working with databases through a command-line interface.
 
-SQLite3 allows you to write and execute SQL queries directly, interacting with the SQLite engine embedded in your application. It's a versatile tool for managing SQLite databases in a simple and efficient manner.
+SQLite3 allows you to write and execute SQL queries directly, interacting with the SQLite engine embedded in your application. It's a versatile tool for managing SQLite databases simply and efficiently.
 
 ### Learning and Documentation
 
@@ -231,7 +231,7 @@ SQLite is widely used in various types of applications due to its simplicity, re
 
 - **Data Analysis and Reporting**: SQLite can be used for lightweight data analysis and reporting, especially in scenarios where portability and ease of use are important.
 
-## Setting Up SQLite with Node.js: A Detailed Guide
+## Setting Up SQLite with Node.js
 
 This guide demonstrates how to integrate SQLite into a Node.js application, from setting up the project to performing basic database operations.
 
@@ -338,7 +338,7 @@ db.all("SELECT * FROM users", [], (err, rows) => {
 
 ### Full Example in `database.js`
 
-Combine all the snippets above into a single `database.js` file, ensuring to structure the operations logically and close the database connection at the end of your operations.
+Combine all the snippets above into a single `database.js` file, ensuring to structure of the operations logically and close the database connection at the end of your operations.
 
 ### Running Your Node.js Application
 
@@ -382,7 +382,7 @@ Staying current with the latest versions of SQLite is important. New versions of
 
 SQLite's combination of ease of use, efficiency, and versatility makes it an invaluable tool for a wide range of applications. Its small footprint and self-contained nature make it particularly suitable for environments where simplicity and minimal overhead are key. As technology continues to evolve, SQLite's role as a reliable, go-to database solution is likely to grow even further.
 
-Whether you're a novice just starting out in the world of database management or an experienced developer looking for a lightweight yet powerful solution, SQLite offers a unique set of features that can cater to a diverse range of needs.
+Whether you're a novice just starting in the world of database management or an experienced developer looking for a lightweight yet powerful solution, SQLite offers a unique set of features that can cater to a diverse range of needs.
 
 Remember, the key to effectively utilizing SQLite lies in understanding its capabilities and limitations. By doing so, you can leverage its strengths to build robust, efficient, and scalable applications.
 
