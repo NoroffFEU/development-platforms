@@ -1,6 +1,6 @@
 ---
 title: Astro
-author: Jean Christofer Dahl [<Jean-Christoffer>](https://github.com/Jean-Christoffer)
+author: Jean Christofer Dahl (https://github.com/Jean-Christoffer)
 tags: framework, server-side, Astro
 ---
 
