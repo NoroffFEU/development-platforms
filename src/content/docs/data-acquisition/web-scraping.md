@@ -48,13 +48,13 @@ The legality of web scraping varies globally, with some websites prohibiting it 
 
 AI-powered web scraping involves leveraging advanced techniques like artificial intelligence, machine learning algorithms, and natural language processing to automate data extraction from websites. Traditional methods, which relied on programming languages such as Python, NodeJs, and C#, often encountered challenges with evolving website designs, dynamic content, and the management of large data volumes.
 
-The adoption of AI in data extraction represents a transition from manual, labor-intensive practices to a streamlined, automated approach. These AI algorithms function as intelligent agents, proficient in processing and interpreting vast amounts of web-based information with remarkable accuracy and speed. Machine learning algorithms further enhance AI's ability to identify patterns within datasets, continually adapting and learning from the data they encounter.
+The adoption of AI in data extraction represents a transition from manual, labour-intensive practices to a streamlined, automated approach. These AI algorithms function as intelligent agents, proficient in processing and interpreting vast amounts of web-based information with remarkable accuracy and speed. Machine learning algorithms further enhance AI's ability to identify patterns within datasets, continually adapting and learning from the data they encounter.
 
 NLP techniques empower AI systems to comprehend human language, facilitating the extraction of valuable textual data from unstructured web content. This advancement enables businesses to glean insights from previously untapped sources, while computer vision capabilities enable machines to interpret visual data, including images and videos. This empowers AI models to extract pertinent information from multimedia sources, offering a more comprehensive understanding of the data.
 
-The integration of AI-supported data acquisition has catalyzed transformative changes across various industries. E-commerce companies utilize AI to monitor competitors' pricing strategies and product offerings, enabling swift decision-making to maintain competitiveness. Similarly, AI-driven sentiment analysis of market data from sources like news and social media empowers traders and investors to optimize investment strategies in real-time.
+The integration of AI-supported data acquisition has catalysed transformative changes across various industries. E-commerce companies utilize AI to monitor competitors' pricing strategies and product offerings, enabling swift decision-making to maintain competitiveness. Similarly, AI-driven sentiment analysis of market data from sources like news and social media empowers traders and investors to optimize investment strategies in real-time.
 
-In the healthcare sector, AI facilitates the analysis of medical research papers and journals, accelerating the identification of emerging trends and breakthroughs for enhanced patient care. For example, AI-powered tools in e-commerce enable businesses to scrape competitor data, analyzing pricing strategies and identifying successful practices to apply to their own operations, thereby fostering growth and competitiveness.
+In the healthcare sector, AI facilitates the analysis of medical research papers and journals, accelerating the identification of emerging trends and breakthroughs for enhanced patient care. For example, AI-powered tools in e-commerce enable businesses to scrape competitor data, analysing pricing strategies and identifying successful practices to apply to their own operations, thereby fostering growth and competitiveness.
 
 ### Strengths of AI Tools
 
@@ -79,7 +79,7 @@ In the healthcare sector, AI facilitates the analysis of medical research papers
 ## Getting Started
 
 - Choose a target website
-- Locate the element selector of what you want to scrape. example: A h2 tag with the product name, and p tag with the price.
+- Locate the element selector of what you want to scrape. example: A <h2> tag with the product name, and <p> tag with the price.
 - Tell ChatGPT to write a Python web scraper using the BeautifulSoup library.
 - Give it Your URL as a target.¨
 - Write the CSS selectors of the HTML elements you copied earlier.
@@ -100,7 +100,6 @@ The advancement of AI-powered tools surpasses older techniques, despite the chal
 - [Web scraping with AI, The future of market research ](https://www.brandveda.in/blog/web-scraping-with-artificial-intelligence-the-future-of-market-research)
 - [AI-Powered Web Scraping ](https://research.aimultiple.com/ai-web-scraping/)
 - [Web Scraping](https://en.wikipedia.org/wiki/Web_scraping#)
--
 
 ## Additional Resources
 
