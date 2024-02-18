@@ -20,7 +20,7 @@ Astro's big feature is that it builds web pages using only HTML and CSS, without
 
 ### Astro islands
 
-Astro Islands is a concept where components that need to be interactive are split into their own "island". Each island can work independently. For example, if you want an image carousel and a header on the same page but they won't impact each other's performance. It's up to you to tell Astro how the JavaScript should be loaded. You can instruct Astro to wait to load the JavaScript for the carousel until it's in view, and the JavaScript for the header, for example, could be loaded after the rest of the page, which is kept fast and light without JavaScript, is loaded.
+Astro Islands is a concept where components that need to be interactivity are split into their own "island". Each island can work independently. For example, if you want an image carousel and a header on the same page without impacting each other's performance, you need to tell Astro how the JavaScript should be loaded. You can instruct Astro to load the JavaScript for the carousel until it's in view, While the header can have its Javascript loaded after the rest of the page is loaded. This keeps your page light and fast while improving both UX and SEO.
 
 ![example](./example.png)
 
