@@ -6,7 +6,7 @@ tags: react, javascript, framework
 
 # React Case Study
 
-[https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif]
+[React Logo gif](https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif)
 
 ## Introduction
 
@@ -111,7 +111,7 @@ React is like the superstar of front-end web development. It gives developers am
 
 ## References
 
-- [React](https://react.dev);
+- [React](https://react.dev)
 - [React for Front-end Developers](https://www.educative.io)
 - [Difference between React and Angular](https://www.ailoitte.com/blog/difference-between-react-and-angular/)
 - [Difference between React and Vue.js](https://youtu.be/dQw4w9WgXcQ)
