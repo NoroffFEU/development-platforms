@@ -38,9 +38,16 @@ This ChatGPT timeline history will focus on the history of OpenAI labs and the h
 
 ## Main Features
 
-The ChatGPT chat bot produces human-like text in several languages, making it suitable for writing essays, poems, bedtime stories, news articles, and even scientific abstracts. Although limited to the data its trained on and might not be reliable at all times, ChatGPT is still able to mimic language perfectly. It can also improve grammar, explain complex ideas in simple terms, and solve mathematical problems, making it a suitable tool for students who need assistance with their assignments.
+In this section I will focus on three main features that developers can benefit from. This is to limit the focus of teh case study as this tool can be used beyond that context.
 
-As for its relevance for developers, ChatGPt has the ability to generate code in various programming languages. it is able t generate snippets in JavaScript, Java, Python, C++, C#, and Ruby. It is worth noting that the code generated can be buggy and is not always reliable of accurate. Hence, the process requires a human developer debug and give further instructions to ChatGPT. None the less, the bot has proven to be an exceptional debugging assistant tool. Since resolving code issues involves a lot of time spent on reading documentation, Google searches, and StackOverflow, ChatGPT can significantly increase developers productivity by providing possible solutions in a matter of seconds.
+**Documentation**
+The ChatGPT chat bot produces human-like text in several languages, making it suitable for writing essays, poems, bedtime stories, news articles, and even scientific abstracts. Although limited to the data its trained on and might not be reliable at all times, ChatGPT is still able to mimic language perfectly. It can also improve grammar, explain complex ideas in simple terms, and solve mathematical problems. Ultimately making the tool great for report and documentation generation.
+
+**Code generation**
+As for its relevance for developers, ChatGPt has the ability to generate code in various programming languages. it is able t generate snippets in JavaScript, Java, Python, C++, C#, and Ruby. It is worth noting that the code generated can be buggy and is not always reliable of accurate. Hence, the process requires a human developer debug and give further instructions to ChatGPT. 
+
+**Debugging**
+ChatGPT has proven to be an exceptional debugging assistant tool. Since resolving code issues involves a lot of time spent on reading documentation, Google searches, and StackOverflow, ChatGPT can significantly increase developers productivity by providing possible solutions in a matter of seconds.
 
 ## Market Comparison
 
