@@ -21,7 +21,7 @@ Netlify is a website that takes use of cloud-hosting and primarly focuses on the
 
 - 2018: This year the founder and former CEO of Github had predicted that with Netlify you would be able to build large scale, fully featured web apps with the framework that they would get in their possesion 4 years later called Jamstack. This statament from the former Github CEO would later become true.
 
-- 2021: Netlify had offically announced that they had accquired a big asset that would be helpful for the company moving forward, this asset was a startup called "FeaturePeek" which was a Y Combinator and Matrix Partners backed startup that would let developers preview their front-end content. Later the same year they also aquired "SignalFire-backed OneGraph" which made it so that they could create various apps with apis through GraphQL composition
+- 2021: Netlify had offically announced that they had accquired a big asset that would be helpful for the company moving forward, this asset was a startup called "FeaturePeek" which was a Y Combinator and Matrix Partners backed startup that would let developers preview their front-end content. Later the same year they also aquired "SignalFire-backed OneGraph" which made it so that they could create various apps with apis through GraphQL composition.
 
 - 2022: This year Netlify had announced that they got hold of an open source service
   called "Quirrel", which was a service used for managing and scheduling functions and jobs that were serverless. Later that year they also announced the possesion of a compeetitor company, Jamstack Framworks and Gatsby.
@@ -32,17 +32,17 @@ Netlify as mentioned above is a cloud-hosting website that takes its focus on ma
 
 This following section describes some of the most important features of Netlify:
 
-- Easy Hosting and Deployment: One of the most important features of Netlify is the hosting and deployment. Netlify really simplifies the whole process of hosting and deploying by taking good use of Git repositorie integration which makes it really easy for developers too deploy their projects with just a few clicks.
+- Easy Hosting and Deployment: One of the most important features of Netlify is the hosting and deployment. Netlify really simplifies the whole process of hosting and deploying by taking good use of Git repositorie integration which makes it really easy for developers to deploy their projects with just a few clicks.
 
 - Serverless Functions: Another great and important feature in Netlify is something called serverless functions, which gives developers the ability to execute server-side logic without managing any infrastructure at all.
 
 - Forms Handling: This feature really simplifies the need to collect information from the users by adding a built in form processing functionality. This also allows developers to collect this data without using any form for backend code.
 
 - Git interegation: As mentioned earlier another core feature for Netlify is the Git interegation which lets developers deploy sites directly from platforms like GitHub, GitLab, and Bitbucket.
-- Collaboration and Team Workflow: Netlify also has a few features that are also really great for team collaborations and workflow such as deployment prewviews and role-based access control.
+- Collaboration and Team Workflow: Netlify also has a few features that are also really great for team collaborations and workflow such as deployment previews and role-based access control.
 
-- Continuous Deployment: Netlify has feature that supports continuous deployment, by
-  connecting your repository Netlify will automatically build, deploy and update the site whenever changes are made.
+- Continuous Deployment: Netlify has a feature that supports continuous deployment, by
+  connecting your repository, Netlify will automatically build, deploy and update the site whenever changes are made.
 
 - Analytics and Monitoring: This feature is really awesome it lets you track your monitor traffic, site performance and gives you good insight into user behavior. Its essetiantly a tool that´ll help developers get better performance, optimazation and user experience.
 
@@ -52,10 +52,10 @@ This following section describes some of the most important features of Netlify:
 
 - Serverless Functions: With Serverless Functions it gives developers the ability to execute server-side logic without managing infrastructure.
 
-- Continuous Deployment: Netlify supports continuous deployment by
-  connecting your repository Netlify will automatically build, deploy and update the site whenever changes are made.
+- Continuous Deployment: Netlify supports continuous deployment, by
+  connecting your repository, Netlify will automatically build, deploy and update the site whenever changes are made.
 
-- Developer-Friendly: Netlify is very used-friendly and really easy to dive in to with all the documentation, tutorials and resources that are available for develeopers. And by doing this its lets developers get started quickly and makes troubleshooting a lot easier aswell.
+- Developer-Friendly: Netlify is very user-friendly and really easy to dive in too with all the documentation, tutorials and resources that are available for developers. And by doing this it lets developers get started quickly and makes troubleshooting a lot easier aswell.
 
 ## Weaknesses
 
@@ -72,31 +72,31 @@ This following section describes some of the most important features of Netlify:
 
 If compared to a more flexible and advanced hosting website like Heroku, I would say that Netlify excels and shines the most when it comes to hosting static websites and fast deployment while offering great features such as Git Intergrations, Forms Handling and serverless functions.
 
-While on the other hand we have heroku, which is pretty much a lot like Netlify besides the fact that its more advance and more flexible. Heroku provides good support for applications that takes use of full-stack web applications with server-side logic and databases.
+While on the other hand we have heroku, which is pretty much a lot like Netlify besides the fact that its more advanced and more flexible. Heroku provides good support for applications that takes use of full-stack web applications with server-side logic and databases.
 
-So all in all, the choice you make depends on what requirements you’re after, if youre a develeoper you gotta analazye both options and choose based on what will benefit you the most.
+So all in all, the choice you make depends on what requirements you’re after, if you’re a developer you gotta analazye both options and choose based on what will benefit you the most.
 
 ## Getting Started
 
-Getting started with Netlify is really easy and only take a few steps:
+Getting started with Netlify is really easy and only takes a few steps:
 
 1.  Create a Netlify Account:
     - In order to publish and deploy your website you need to first make an account. Go to (https://www.netlify.com/) and sign-up for an account.
 2.  Connect to Git Repository:
     - When logged in, click on "Sites" on the left dashboard.
-    - Then Click on "Add new site" on right side and hit the "Import an existing project"
+    - Then Click on "Add new site" on the right side and hit the "Import an existing project"
     - Choose your Git provider (such as GitHub, GitLab, or Bitbucket) and authorize Netlify to access your repositories.
     - Then select the repository that contains your website code.
 3.  Deploy Your Site:
-    - After choosing youre repository, scroll all the way down and hit the big green
+    - After choosing your repository, scroll all the way down and hit the big green
       button at the bottom for deployment. It usually take about 20-30 seconds to deploy.
     - When ready click on the provided link up top and everything should be deployed.
 
 ## Conclusion
 
-In conclusion, Netlify is the leading hosting website that stands out the most when it comes to hosting websites, applications and deploying particularly because of how good the free basic plan really is, you get alot of helpful features as a developer. And with its user-friendly interface and seamless Git integration, theres no suprise of why Netlify is one of best and leading in its market. And its because of this that i think Netlify will grow and be even more successful than they currently are.
+In conclusion, Netlify is the leading hosting website that stands out the most when it comes to hosting websites, applications and deploying. Particularly because of how good the free basic plan really is, you get alot of helpful features as a developer. And with its user-friendly interface and seamless Git integration, theres no suprise of why Netlify is one of best and leading in its market. And its because of this that i think Netlify will grow and be even more successful than they currently are.
 
-Overall, the main use cases for Netlify revole around hosting and deploying, most of which are static websites and applications, and its a sold choice to go for. This is something that i would personally reccomend, since its so simplistic its very easy to navigate and set-up.
+Overall, the main use cases for Netlify revolve around hosting and deploying, most of which are static websites and applications, and its a sold choice to go for. This is something that i would personally reccomend, since its so simplistic its very easy to navigate and set-up.
 
 ## References
 
