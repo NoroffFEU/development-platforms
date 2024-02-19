@@ -1,7 +1,7 @@
 ---
 title: Netlify
-author: Example Author <Sugal Aden>
-tags: example, case study, platform
+author: Author <Sugal Aden>
+tags: case study
 ---
 
 ## Introduction
