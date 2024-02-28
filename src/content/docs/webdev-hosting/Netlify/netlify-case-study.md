@@ -70,9 +70,10 @@ This following section describes some of the most important features of Netlify:
 
 ## Market Comparison
 
-If compared to a more flexible and advanced hosting website like Heroku, I would say that Netlify excels and shines the most when it comes to hosting static websites and fast deployment while offering great features such as Git Intergrations, Forms Handling and serverless functions.
+When comparing Netlify to a more flexible and advanced hosting platform like Heroku, Netlify excels and shines the most in hosting static websites and fast deployment while offering great features such as Git integrations, form handling, and serverless functions.
 
-While on the other hand we have heroku, which is pretty much a lot like Netlify besides the fact that its more advanced and more flexible. Heroku provides good support for applications that takes use of full-stack web applications with server-side logic and databases.
+In comparison, we have Heroku, which offers similar functionalities to Netlify but with added advanced features and flexibility.
+Heroku provides good support for applications that make use of full-stack web applications with server-side logic and databases.
 
 So all in all, the choice you make depends on what requirements you’re after, if you’re a developer you gotta analazye both options and choose based on what will benefit you the most.
 
