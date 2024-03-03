@@ -1,5 +1,5 @@
 ---
-title: Web Scraping
+title: Web Scraping with AI
 author: Fredrik Skjager Tokle <Tokle89>
 tags: Web scraping,  Nodejs, Python, AI Training
 ---
@@ -85,25 +85,21 @@ First i found and copied the css selector containing the teachers names and titl
 
 I Then descriped the following task go chat GPT:
 
-``Write a web scraper using Python and BeautifulSoup.
-  Sample Target:  https://www.noroff.no/en/contact/staff/53-academic
-  Rationale: Scrape the name and title of all the persons on the target page.
-  CSS selector are as follows:
-  selector: li.cat-list-row0:nth-child(1) > div:nth-child(1)
-  The name is in a nesten a tag in this div.  and the title is in this div
-  Output: save all the names and titles on a MD file
-  Additional Instructions: Handle character encoding and remove undesirable symbols in the output MD.
-``
+`Write a web scraper using Python and BeautifulSoup.`
+` Sample Target:  https://www.noroff.no/en/contact/staff/53-academic`
+` Rationale: Scrape the name and title of all the persons on the target page.`
+`CSS selector are as follows: selector: li.cat-list-row0:nth-child(1) > div:nth-child(1)`
+` The name is in a nested a tag in this div.  and the title is in this div`
+` Output: save all the names and titles on a MD file`
+`Additional Instructions: Handle character encoding and remove undesirable symbols in the output MD.`
 
 I then copied the code provied into my PY file in vscode:
 ![web-scraping2](https://github.com/Tokle89/development-platforms/assets/94007467/c9bc456e-0479-4fe0-acc0-154a10932cf9)
 
-Then i installed the BeautifulSoup and request libaries by running `` pip install requests beautifulsoup4`` in the terminal
+Then i installed the BeautifulSoup and request libaries by running ` pip install requests beautifulsoup4` in the terminal
 
 After the code has run, it created a MD file containing all the names and titles of the teachers on the selected web page.
 ![web-scraping3](https://github.com/Tokle89/development-platforms/assets/94007467/a1c3866f-5965-4dd4-9093-266354a76f78)
-
-
 
 ## Conclusion
 
