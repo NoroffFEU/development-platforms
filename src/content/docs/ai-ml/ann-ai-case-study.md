@@ -1,8 +1,14 @@
 # Artifical Neural Network in use with AI
 
-| Title | Author | Tags |
-| ----- | ------ | ---- |
-| ANN and AI in use with Whisper and GPT | Siw Elin Årolilja Iversen | AI, ANN, Whisper, GPT |
+---
+title: Artifical Neural Network in use with AI
+
+author: Siw Elin Årolilja Iversen <psijii>
+
+tags: ann, ai, chatgpt, whisper
+
+---
+
 
 ## Table of contents
 
