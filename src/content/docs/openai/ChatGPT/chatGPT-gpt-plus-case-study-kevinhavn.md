@@ -54,11 +54,33 @@ Sora is still in early development, and openAI are taking several important safe
 
 ## Getting Started
 
-To start using ChatGPT, head on over to the [OpenAI website](https://www.openai.com). After logging in, chatGPT comes pre-populated with some prompts. Otherwise, simply ask whatever you'd like, and the AI will reply momentarily.
+To get started using ChatGPT itself, head on over to the [OpenAI website](https://www.openai.com). After logging in, chatGPT comes pre-populated with some prompts. Otherwise, simply ask whatever you'd like, and the AI will reply momentarily.
+
+To get started with using the newer GPT-4 version, you'll need to click the dropdown menu to at the top left of the page, and select GPT-4. This should prompt you to subscribe to GPT Plus, after which you'll have access to all the included features.
+
+After ensuring you've selected GPT-4, to access the DALL-E 3 integration you can make a prompt such as "draw an image of a central processing unit", or "make a depiction of a server rack".
+
+Access to the Custom GPTs can be found in the left-hand sidebar of the website. Simply click "Explore GPTs" and "Create" in the top-right corner, where you'll be prompted by OpenAI's "GPT Builder" which will ask questions regarding the user's expectations, purposes and requirements for this custom GPT. You can also toggle the code analysis, browser search, and image generation features for this custom GPT here.
 
 ## Conclusion
 
 The ChatGPT Plus subscription has a lot to offer. A better ChatGPT with things like custom GPTs, and DALL-E 3, adds a lot of useability for a lot of people - which will most likely increase as openAI add more technologies to the ecosystem. However, a negative for quite a lot of people is that the pricing can be quite steep at 20$ a month as of writing, with the Plus subscription also having a limit of how many prompts can be sent to ChatGPT 4.0 every day - the prompt is 40 messages every 3 hours. There's also a wait list for the initial subscription to chatGPT plus, as a result of the immense popularity the service is seeing.
+
+### Cons
+
+- Subscription can be steep, at $20 per month as of writing in march 2024.
+- Easy to hit limit to how many messages can use GPT 4.0
+- Many areas see a limited increase in capabilities compared to GPT 3.5
+- Can be slower in responses than GPT 3.5, seemingly when the AI model is under heavy load.
+
+### Pros
+
+- More capable GPT model
+- Easily created custom-tailored GPTs for personal use
+- Dall-E 3 integration for image generation
+- Multimodality, allowing user to communicate with GPT model using images and audio in addition to text.
+- Browser lookup, allowing the AI to present you with up-to date information on a wide variety of subjects present on the internet.
+- Code analysis, allowing the AI model to run code, and give detailed feedback.
 
 ## References
 
