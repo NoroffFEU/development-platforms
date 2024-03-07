@@ -183,7 +183,7 @@ export const Counter = component$(() => {
 });
 ```
 
-This code snippet demonstrates the creation of a simple counter component using Qwik, a modern web framework designed for efficiency and speed, especially in terms of loading times. Here's a breakdown of what each part of the snippet does:
+This code snippet demonstrates the creation of a simple counter component using Qwik, a here's a breakdown of what each part of the snippet does:
 
 1. **Import Statements**: The first line imports `component$` and `useStore$` from the `@builder.io/qwik` package. `component$` is a function used to define a component, and `useStore$` is a hook for creating a reactive state store.
 
