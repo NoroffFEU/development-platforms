@@ -45,7 +45,7 @@ The main feature of a content delivery network is the ability to cache content i
 This is a step by step guide on how to use bootstrap CSS with CDN on a new HTML document
 
 1. First start by creatig a new HTML document, Bootstrap requires HTML5 doctype.
-2. in the `<head>` tag of the HTML file add a `<link>` tag, this link tag is what is going to import Bootsrap using a CDN. for this example JSdelivr is used copy and paste this link and place it in the `<head>` of the HTML document:
+2. 2. In the `<head>` tag of the HTML file, add a `<link>` tag. This link tag is what is going to import Bootstrap using a CDN. For this example, JSdelivr is used to copy and paste this link and place it in the `<head>` of the HTML document:
 
 ```html
 <link
