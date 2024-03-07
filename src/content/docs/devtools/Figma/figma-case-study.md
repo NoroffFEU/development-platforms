@@ -70,11 +70,39 @@ When comparing Figma to its competitors, such as Adobe XD and Sketch, several di
 
 To get started with Figma:
 
-Sign up for a free account on the Figma website.
-Begin a new project from the dashboard.
-Utilize templates or start from scratch to design UI/UX elements.
-Invite team members for collaboration using their email addresses.
-Explore the plugin library to enhance your design workflow.
+- Sign Up for a Free Account
+    - Navigate to the Figma website.
+    - Choose the "Sign up" option and follow the prompts to create your free account. You can sign up using an email address or by connecting a Google account for convenience.
+
+![Figma Sign Up Page](~/assets/figma/figma_start_page.png)
+
+- Starting a New Project
+After logging in, you'll find yourself on the Figma dashboard. Look for the "New File" option to start your project. This can either be a new design file or a FigJam file for brainstorming sessions.
+
+![Figma New Project](~/assets/figma/new_project.png)
+
+- Choosing Templates
+Figma offers a variety of templates for different design needs, ranging from UI kits to wireframes. You can choose one of these to kickstart your project, or opt for a blank canvas to bring your unique ideas to life from scratch.
+
+![Figma Exploring](~/assets/figma/figma_explore.png)
+
+- Designing UI/UX Elements
+Use Figma's vector tools, shape tools, and pen tool to design wireframes, mockups, or high-fidelity UI elements. Leverage the constraints and auto-layout features for responsive design.
+
+- Team Collaboration
+Collaboration is at the heart of Figma's design philosophy. Use the "Share" button found at the top-right corner of your project interface to invite team members. Simply enter their email addresses to send an invitation, allowing them to view or edit the project based on the permissions you set.
+
+![Figma Sharing](~/assets/figma/figma_share.png)
+
+- Utilizing Plugins
+Explore Figma’s plugin library to find tools that can streamline your design process. Plugins can help with a wide range of tasks, from organizing layers to generating dummy content.
+Here are a few plugins that are invaluable to the design process:
+
+    - Autoflow: Simplifies the process of creating flow diagrams by easily drawing connections between frames.
+    - Content Reel: Allows designers to drag and drop text, images, and icons into their designs, streamlining the population of realistic content.
+    - Unsplash: Integrates directly with Unsplash's vast collection of free images, letting you insert professional photos into your designs.
+    - Iconify: Provides access to a wide array of icons from various icon sets, all within Figma without the need to import from external libraries.
+    - A11y - Color Contrast Checker: Helps ensure that your designs comply with WCAG accessibility standards by checking the color contrast ratios.
 
 ## Conclusion
 
