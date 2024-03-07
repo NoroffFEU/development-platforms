@@ -33,6 +33,7 @@ export default defineConfig({
           autogenerate: { directory: "monitoring-observability" },
         },
         { label: "OpenAI", collapsed: true, autogenerate: { directory: "openai" } },
+        { label: "TanStack", collapsed: true, autogenerate: { directory: "tanstack" } },
         { label: "ServiceNow", collapsed: true, autogenerate: { directory: "servicenow" } },
         { label: "Shopify", collapsed: true, autogenerate: { directory: "shopify" } },
         { label: "UX Monitoring", collapsed: true, autogenerate: { directory: "ux-monitoring" } },
