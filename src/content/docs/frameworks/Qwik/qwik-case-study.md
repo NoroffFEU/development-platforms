@@ -183,6 +183,41 @@ export const Counter = component$(() => {
 });
 ```
 
+This code snippet demonstrates the creation of a simple counter component using Qwik, a modern web framework designed for efficiency and speed, especially in terms of loading times. Here's a breakdown of what each part of the snippet does:
+
+1. **Import Statements**: The first line imports `component$` and `useStore$` from the `@builder.io/qwik` package. `component$` is a function used to define a component, and `useStore$` is a hook for creating a reactive state store.
+
+    ```bash
+    import { component$, useStore$ } from "@builder.io/qwik";
+    ```
+
+2. **Counter Component Definition**: The `Counter` constant is assigned to a component defined by the `component$` function. This function takes a callback function that defines the component's functionality.
+
+    ```bash
+    export const Counter = component$(() => {
+    ```
+
+3. **State Initialization with `useStore$`**: Inside the component, `useStore$` is used to create a reactive state object named `state` with a single property `count` initialized to 0. This state is reactive, meaning the component will re-render when `count` changes.
+
+    ```bash
+    const state = useStore$({ count: 0 });
+    ```
+
+4. **Component's Return (JSX)**: The function returns JSX that defines the component's UI. It renders a button element. The button's label displays the current count, and it has an `onClick$` event listener that increments `count` when the button is clicked.
+
+    ```bash
+    return (
+      <button onClick$={() => state.count++}>
+        Count is: {state.count}
+      </button>
+    );
+    ```
+
+5. **Incrementing the Count**: The `onClick$` listener is a Qwik-specific syntax for event listeners that efficiently updates the `count` state whenever the button is clicked, causing the component to re-render and display the updated count.
+
+In summary, this code snippet creates a Qwik component that renders a button. Clicking the button increments a counter displayed on the button itself. The example showcases the use of reactive state within Qwik components, enabling interactive UIs with minimal boilerplate.
+
+
 ## Qwik City
 
 While Qwik focuses on Component API, Qwik City contains API to support the component with common server-focused features:
