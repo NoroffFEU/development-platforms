@@ -38,3 +38,8 @@ Remember to like, share, and subscribe for more tutorials on database management
 - Official SQLite Documentation: [SQLite.org](https://www.sqlite.org/docs.html)
 - SQLite Tutorial for Beginners: [Link to Tutorial](https://www.sqlitetutorial.net)
 - SQLite Forum for Community Support: [SQLite Forum](https://sqlite.org/forum/forum)
+
+**References**
+
+- AI Voice Generator & Text to Speech : [ElevenLabs](https://elevenlabs.io/)
+- Online graphic design tool. : [Canva](https://www.canva.com/)
