@@ -43,3 +43,5 @@ Remember to like, share, and subscribe for more tutorials on database management
 
 - AI Voice Generator & Text to Speech : [ElevenLabs](https://elevenlabs.io/)
 - Online graphic design tool. : [Canva](https://www.canva.com/)
+
+---
