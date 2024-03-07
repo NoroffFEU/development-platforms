@@ -76,10 +76,10 @@ This is a step by step guide on how to use bootstrap CSS with CDN on a new HTML 
 </html>
 ```
 
-4. Bootstrap CSS should now be implemented to test if Bootstrap CSS is implemented correctly copy and paste this code:
+4. Bootstrap CSS should now be implemented to test if Bootstrap CSS is implemented correctly copy and paste this code in the `<body>` tag which is shown below:
 
 ```html
-<h1 class="bg-primary">My First Heading</h1>
+<body><h1 class="bg-primary">My First Heading</h1></body
 ```
 
 now open a live server and look at the Heading, if the background is blue Bootstrap was successfully implemented if the background of the Heading is not blue Bootstrap CSS was not implemented correctly.
