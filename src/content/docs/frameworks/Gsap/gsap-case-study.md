@@ -192,3 +192,12 @@ After installation you are ready to use GSAP animations.
 ## Conclusion
 
 In conclusion, GSAP is a powerful and versatile tool for creating interactive and dynamic animations. With its great performance and library of plugins, it allows designers and developers to create engaging websites effortlessly.
+
+## References 
+
+- https://gsap.com
+- https://github.com/greensock/GSAP
+- https://egghead.io/podcasts/jack-doyle-creator-of-greensock
+- https://www.webbae.net/post/gsap-vs-webflow-for-website-animations
+- https://semaphoreci.com/blog/react-framer-motion-gsap
+- https://www.digidop.fr/en/tools/gsap
