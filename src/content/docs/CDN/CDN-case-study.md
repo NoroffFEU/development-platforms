@@ -38,7 +38,51 @@ As talked about in the brief history section, a major problem with the state of 
 
 ## Main feature and objectives
 
-The main feature of a content delivery network is the ability to cache content in servers and data centers close to the end user. These servers are connected to the main/origin server. This feature was directly connected to the problem statement explained in the section above. And greatly improved performance and connection speed for the users since the user could access cached content from a server close by. The problem with servers crashing because of too much traffic also greatly improved for sites and applications using a content delivery network, since the traffic was divided into many different servers instead of only one data center or server. Most of the modern internet uses CDN but does it make a difference? A world without CDNs could not support the massive demand for bandwidth. Stylesheets, images, and other content would take longer to load because of longer geographical distances and overwhelming traffic, websites would be more vulnerable to some types of cyber-attacks. Video and audio streaming would also be close to impossible at the scale used today with applications like Netflix and YouTube. On the other hand, a world with CDNs allows for some great websites and applications for shopping, entertainment, development, and much more. An example of this is Bootstrap. Bootstrap is a CSS framework and can easily be imported to HTML to access its many classes. Bootstrap uses a CDN to cache its stylesheets, JavaScript, and images all over the globe so accessibility and loading time are as good as possible. The Bootstrap CDN handles over 70 billion requests a month and without the content delivery network structure, delivering this kind of content to so many requests at the speed Bootstrap is able to, would be complicated. For developers interested in using the bootstrap CDN a link in the HTML page is required. For example: `https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css`.
+The main feature of a content delivery network is the ability to cache content in servers and data centers close to the end user. These servers are connected to the main/origin server. This feature was directly connected to the problem statement explained in the section above. And greatly improved performance and connection speed for the users since the user could access cached content from a server close by. The problem with servers crashing because of too much traffic also greatly improved for sites and applications using a content delivery network, since the traffic was divided into many different servers instead of only one data center or server. Most of the modern internet uses CDN but does it make a difference? A world without CDNs could not support the massive demand for bandwidth. Stylesheets, images, and other content would take longer to load because of longer geographical distances and overwhelming traffic, websites would be more vulnerable to some types of cyber-attacks. Video and audio streaming would also be close to impossible at the scale used today with applications like Netflix and YouTube. On the other hand, a world with CDNs allows for some great websites and applications for shopping, entertainment, development, and much more. An example of this is Bootstrap. Bootstrap is a CSS framework and can easily be imported to HTML to access its many classes. Bootstrap uses a CDN to cache its stylesheets, JavaScript, and images all over the globe so accessibility and loading time are as good as possible. The Bootstrap CDN handles over 70 billion requests a month and without the content delivery network structure, delivering this kind of content to so many requests at the speed Bootstrap is able to, would be complicated. For developers interested in using the bootstrap CDN a link in the HTML page is required.
+
+## Application example
+
+This is a step by step guide on how to use bootstrap CSS with CDN on a new HTML document
+
+1. First start by creatig a new HTML document, Bootstrap requires HTML5 doctype.
+2. in the `<head>` tag of the HTML file add a `<link>` tag, this link tag is what is going to import Bootsrap using a CDN. for this example JSdelivr is used copy and paste this link and place it in the `<head>` of the HTML document:
+
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous"
+/>
+```
+
+3. The HTML page should look something like this:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap CDN example</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body></body>
+</html>
+```
+
+4. Bootstrap CSS should now be implemented to test if Bootstrap CSS is implemented correctly copy and paste this code:
+
+```html
+<h1 class="bg-primary">My First Heading</h1>
+```
+
+now open a live server and look at the Heading, if the background is blue Bootstrap was successfully implemented if the background of the Heading is not blue Bootstrap CSS was not implemented correctly.
 
 ## CDN users
 
