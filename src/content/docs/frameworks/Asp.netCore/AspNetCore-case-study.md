@@ -35,7 +35,7 @@ ASP.NET Core provides an opinionated framework for creating web applications. It
 
 ## Market Comparison
 
-Instead of having and extensive comparison how asp.net core compares to many of the popular frameworks like Laravel, Spring, Django and Express.js. I have decided to solely compare it to express.js since i expect that to be the most likely backend framework front end developers are familiar with. 
+Instead of providing an extensive comparison of how ASP.NET Core compares to many popular frameworks like Laravel, Spring, Django, and Express.js, the decision has been made to solely compare it to Express.js. This choice is based on the expectation that Express.js is the backend framework most likely to be familiar to frontend developers.
 
 | Feature                | ASP.NET Core                                     | Express.js                                     |
 |------------------------|--------------------------------------------------|------------------------------------------------|
