@@ -23,7 +23,7 @@ This is a case study for looking into how one creates a web application using as
 
 ## Main Features
 
-Asp.net core provides a opinionated framework for creating web applications, it has built in security and helps developers follow best practices by making it easier to seperate conserns. which may help keep code decoupled, easier to test and change. It also comes with some built in functionality that improves the developer experience and code quality. 
+ASP.NET Core provides an opinionated framework for creating web applications. It has built-in security and helps developers follow best practices by making it easier to separate concerns, which may help keep code decoupled, easier to test, and change. It also comes with some built-in functionality that improves the developer experience and code quality. 
 
 - **Model binding:** automates the process of converting HTTP requests into .NET objects. It maps data from HTTP requests (including query strings, form values, route data, and JSON bodies) to action method parameters. Making it so you can use the properties you expect as parameters in your controllers, instead of manually having to extract them from the request. 
   
