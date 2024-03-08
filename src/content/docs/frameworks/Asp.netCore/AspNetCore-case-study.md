@@ -1,7 +1,7 @@
 ---
 title: ASP.NET Core Case Study
 author: Jarle Tollaksen <Jarle302>
-tags: backend, case study, .net
+tags: backend, case study, .NET
 ---
 
 ## Introduction
