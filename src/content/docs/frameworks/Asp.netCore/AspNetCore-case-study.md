@@ -6,7 +6,7 @@ tags: backend, case study, .net
 
 ## Introduction
 
-This is a case study for looking into how one creates a web application using asp.net core specifically using the MVC pattern. 
+This is a case study for looking into how one creates a web application using ASP.NET CORE specifically using the MVC pattern. 
 
 
 ## ASP.NET Core: Key Milestones
@@ -55,8 +55,8 @@ Instead of providing an extensive comparison of how ASP.NET Core compares to man
 
 ## Example of how you can build with ASP.NET CORE 
 
--  I recommend first installing visual studio(not to be confused with visual studio code) which is an ide with good support for .net. 
-- Create a new project chose ASP.NET CORE EMPTY(makes it so we can create folder on a need to do basis instead of drowning in unknown files and folders).
+-  First install Visual Studio(not to be confused with Visual Studio Code) which is an IDE with good support for .net. 
+- Create a new project chose ASP.NET CORE EMPTY(makes it so we can create folder on a need to do basis instead of getting lost in the confusion of having to many unknown files and folders).
 - Add the following boilerplate code to your Program.cs file   
 ```c#
 using yourInterfaceFolderName;
@@ -85,7 +85,7 @@ namespace yourProjectName
 
 ```
 ### Create a new folder called Models
-Inside the folder create a new class. I will be making User.cs as my example. 
+Inside the folder create a new class. In this example  User.cs is used. 
 
 ### This is the code for User.cs
 ```c#
@@ -144,7 +144,7 @@ namespace eksempel.Controllers
             // 'user' is populated by model binding from the incoming request.
 
         {
-            if (!ModelState.IsValid) { return BadRequest("baddest request"); }
+            if (!ModelState.IsValid) { return BadRequest("bad request"); }
             return Ok(user);
         }
 
