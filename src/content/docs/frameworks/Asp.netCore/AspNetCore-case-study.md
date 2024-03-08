@@ -1,12 +1,12 @@
 ---
-title: ASP.NET CORE Case Study
+title: ASP.NET Core Case Study
 author: Jarle Tollaksen <Jarle302>
 tags: backend, case study, .net
 ---
 
 ## Introduction
 
-This is a case study for looking into how one creates a web application using ASP.NET CORE specifically using the MVC pattern. 
+This is a case study for looking into how one creates a web application using ASP.NET Core specifically using the MVC pattern. 
 
 
 ## ASP.NET Core: Key Milestones
@@ -53,10 +53,10 @@ Instead of providing an extensive comparison of how ASP.NET Core compares to man
 
 
 
-## Example of how you can build with ASP.NET CORE 
+## Example of how you can build with ASP.NET Core 
 
--  First install Visual Studio(not to be confused with Visual Studio Code) which is an IDE with good support for .net. 
-- Create a new project chose ASP.NET CORE EMPTY(makes it so we can create folder on a need to do basis instead of getting lost in the confusion of having to many unknown files and folders).
+-  First install Visual Studio (not to be confused with Visual Studio Code) which is an IDE with good support for .net. 
+- Create a new project chose ASP.NET Core EMPTY(makes it so we can create folder on a need to do basis instead of getting lost in the confusion of having to many unknown files and folders).
 - Add the following boilerplate code to your Program.cs file   
 ```c#
 using yourInterfaceFolderName;
@@ -264,7 +264,7 @@ The benefit here, is that just by changing the object implementing the interface
             // 'user' is populated by model binding from the incoming request.
 
         {
-            if (!ModelState.IsValid) { return BadRequest("baddest request"); }
+            if (!ModelState.IsValid) { return BadRequest("bad request"); }
             return Ok(user);
         }
 
@@ -303,7 +303,7 @@ Will send the statuscode 200  and the fields provided in the request.
 
 ## Conclusion
 
-I hope this has given you as a reader a glimpse into how the workflow for creating something with ASP.NET CORE would be. Due to being opinionated it takes more time to write than for example express, but at the same time it provides structure and modularity which one could argue is a strength of frameworks like ASP.NET CORE. 
+I hope this has given you as a reader a glimpse into how the workflow for creating something with ASP.NET Core would be. Due to being opinionated it takes more time to write than for example express, but at the same time it provides structure and modularity which one could argue is a strength of frameworks like ASP.NET Core. 
 
 ## References
 
@@ -311,6 +311,6 @@ Chat GPT
 
 Udemy: 
 - https://www.udemy.com/course/ultimate-csharp-masterclass/
-- https://www.udemy.com/course/asp-net-core-true-ultimate-guide-real-project/
+- https://www.udemy.com/course/asp-net-Core-true-ultimate-guide-real-project/
 
-https://www.ryadel.com/en/asp-net-core-revolution-history-summary-through-years-2016-2019/
+https://www.ryadel.com/en/asp-net-Core-revolution-history-summary-through-years-2016-2019/
