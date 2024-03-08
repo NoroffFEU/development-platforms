@@ -47,7 +47,7 @@ TensorFlow has a few well known competitive machine learning tools like PyTorch 
 
 ## Getting Started
 
-To get started with using TensorFlow I would suggest heading over to their website page dedicated to getting started [tensorflow.org/learn](https://www.tensorflow.org/learn). There are tutorials on the foundations of TensorFlow, how to get started with TensorFlow with JavaScript for Web, for mobile devices, Edge, Tpu and Raspberry Pi.
+To begin using TensorFlow, it's recommended to visit their dedicated webpage for beginners at [tensorflow.org/learn](https://www.tensorflow.org/learn). Here, you'll find tutorials covering the fundamentals of TensorFlow, along with guides on getting started with TensorFlow using JavaScript for web, mobile devices, edge computing, TPUs, and Raspberry Pi.
 
 I would give you a simple setup guide, but as you can see, it all depends on your preferred programming language and your project's intended device.
 
