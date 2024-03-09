@@ -47,9 +47,61 @@ TensorFlow has a few well known competitive machine learning tools like PyTorch 
 
 ## Getting Started
 
-To begin using TensorFlow, it's recommended to visit their dedicated webpage for beginners at [tensorflow.org/learn](https://www.tensorflow.org/learn). Here, you'll find tutorials covering the fundamentals of TensorFlow, along with guides on getting started with TensorFlow using JavaScript for web, mobile devices, edge computing, TPUs, and Raspberry Pi.
+To begin using TensorFlow, it's recommended to visit their dedicated webpage for beginners at [tensorflow.org/learn](https://www.tensorflow.org/learn). Here, you'll find tutorials covering the fundamentals of TensorFlow, and [tensorflow.org](https://www.tensorflow.org/js/tutorials/setup) to get started with TensorFlow using JavaScript for web, mobile devices, edge computing, TPUs, and Raspberry Pi.
 
-I would give you a simple setup guide, but as you can see, it all depends on your preferred programming language and your project's intended device.
+Here is a quick step-by-step guide to get started with TensorFlow using JavaScript for Web.
+
+- Step 1
+    Create an HTML File:
+      Open your preferred text editor and create a new file called index.html.
+
+- Step 2
+    Add TensorFlow.js Script Tag:
+      Paste the following code into your index.html file:
+
+        ```
+          <!DOCTYPE html>
+        <html lang="en-US">
+          <head>
+            <meta charset="utf-8" />
+            <title>TensorFlow.js browser example</title>
+        
+            <!-- Load TensorFlow.js from a script tag -->
+            <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+          </head>
+          <body>
+            <h1>TensorFlow.js example</h1>
+            <h2>Open the console to see the results.</h2>
+            <script>
+            // Define a model for linear regression. The script tag makes `tf` available
+            // as a global variable.
+            const model = tf.sequential();
+            model.add(tf.layers.dense({units: 1, inputShape: [1]}));
+        
+            model.compile({loss: 'meanSquaredError', optimizer: 'sgd'});
+        
+            // Generate some synthetic data for training.
+            const xs = tf.tensor2d([1, 2, 3, 4], [4, 1]);
+            const ys = tf.tensor2d([1, 3, 5, 7], [4, 1]);
+        
+            // Train the model using the data.
+            model.fit(xs, ys, {epochs: 10}).then(() => {
+              // Use the model to do inference on a data point the model hasn't seen before:
+              model.predict(tf.tensor2d([5], [1, 1])).print();
+              // Open the browser devtools to see the output
+            });
+            </script>
+          </body>
+        </html>
+        ```
+
+- Step 3
+    Run the Example:
+      Save the index.html file and open it in your default web browser.
+
+- Step 4
+    View Output:
+      Open the browser console to see the output of the script and refresh the page to see a new prediction.
 
 ## Conclusion
 
@@ -60,7 +112,8 @@ Despite being in a competitive field, it may very well be the best all round mac
 ## References
 
 - [opendatascience.com](https://opendatascience.com/how-tensorflow-came-to-be-the-most-important-library-in-machine-learning/)
-- [tensorflow.org/learn](https://www.tensorflow.org/learn)
+- [tensorflow.org](https://www.tensorflow.org/learn)
+- [tensorflow.org](https://www.tensorflow.org/js/tutorials/setup)
 
 ## Additional Resources
 
