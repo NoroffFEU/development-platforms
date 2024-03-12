@@ -23,13 +23,17 @@ _"Astro is a web framework that takes the best from the early internet (think HT
 
 This case study looks into Astro's features, its potential impact on the future of web development and how it balances performance, functionality and ease of use by positioning itself as a front-runner in the next generation of web development tools.
 
-## Brief History
+## History of Astro
+
+Astro is an MIT-licensed open source build tool, and the company behind it, "The Astro Technology Company", was established in 2019 by Fred Schott. Astro as a development tool was created by Fred Schott, Nate Moore and a group of other contributors. It first released in beta, June 8, 2021, and launched its official 1.0 release on August 9, 2022.
+
+### Timeline
 
 - **February 2021:** Astro is publicly announced and released in its first beta version. The release introduces the idea of a static site generator with a focus on performance and partial hydration (reducing amount of JS sent to the browser).
 
 - **November 2021:** Astro v0.21 is released which included improved build optimizations, enhanced CSS and image handling and more support for component frameworks.
 
-- **May 2022:** Astro reaches an important milestone with the release of v1.0. This major release solidified its core features and offered enhanced stability, better performance and even better developer convenience.
+- **August 2022:** Astro reaches an important milestone with the release of v1.0. This major release solidified its core features and offered enhanced stability, better performance and even better developer convenience.
 
 - **2024:** Astro has a continued development and community growth and it keeps evolving with regular updates, solidifying its position in the world of web development.
 
