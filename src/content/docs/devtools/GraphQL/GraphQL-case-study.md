@@ -42,7 +42,7 @@ Let's say you have an application that needs user information. With GraphQL you 
 
 Information stored on the database
 
-```ruby
+```graphql
 {
   "users": [
     {
@@ -59,7 +59,7 @@ Information stored on the database
 
 The GraphQL query
 
-```ruby
+```graphql
 query {
   user(id: "1") {
     name
@@ -70,7 +70,7 @@ query {
 
 The server will process this and return:
 
-```ruby
+```json
 {
   "data": {
     "user": {
@@ -87,13 +87,13 @@ This shows you how GraphQL lets you fetch the exact information you need, even t
 
 Fetch request
 
-```ruby
+```
 GET /api/users/1
 ```
 
 The response from the database would look like this:
 
-```ruby
+```json
 {
   "id": "1",
   "name": "John Doe",
@@ -133,13 +133,13 @@ When a client wants to fetch or manipulate data, it sends an HTTP request (usual
 **Example**
 Endpoint:
 
-```ruby
+```graphql
 POST /graphql
 ```
 
 The Query:
 
-```ruby
+```JavaScript
 query GetArticleWithCommentsAndAuthor {
   article(id: "123") {
     title
@@ -174,7 +174,7 @@ The implementation of subscriptions requires the server to support the WebSocket
 
 Example:
 
-```ruby
+```graphql
 type Subscription {
   messageAdded: Message
 }
@@ -205,6 +205,68 @@ Error handling in GraphQL is built into the response structure, allowing clients
 **Open Source and Collaboration:** GraphQL's status as an open-source project encourages collaboration and contribution from developers worldwide. Many aspects of GraphQL, including its specification, reference implementations, and associated tools, are developed and maintained by an open-source community. This collaborative approach ensures continuous improvement and innovation within the ecosystem.
 
 **Extensive Library Support:** GraphQL benefits from extensive support across many programming languages and platforms, ensuring developers can integrate GraphQL into their existing projects with minimal friction.
+
+## Practical Demonstration: Fetching and Displaying Data with GraphQL
+
+### Setup and Query
+
+To demonstrate data fetching with GraphQl, let's assume we have a GraphQL server running with the following simple schema:
+
+```graphql
+type Query {
+  user(id: ID!): User
+}
+
+type User {
+  id: ID
+  name: String
+  email: String
+}
+```
+
+To fetch details for a user with an ID of "1", the GraphQL query would be:
+
+```graphql
+query {
+  user(id: "1") {
+    name
+    email
+  }
+}
+```
+
+While a real-world implementation would typically involve a GraphQL client library, such as Apollo Client for React applications, to fetch and display this data, the essence of making a request to a GraphQL API with JavaScript can be abstracted as follows:
+
+1.**Create the Query:** Define what data you want to fetch (in this case, the user's name and email).
+
+2. **Send the Query to the GraphQL Server:** This is usually done via an HTTP POST request, where the query is sent in the request body.
+
+3. **Process the Response:** The server returns a JSON object containing the requested data, which can then be displayed in the application.
+
+```JavaScript
+const query = `
+  query {
+    user(id: "1") {
+      name
+      email
+    }
+  }
+`;
+
+fetch('https://your-graphql-endpoint.com/graphql', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({ query })
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error('Error fetching data:', error));
+
+```
+
+After fetching the data, you can display the user's name and email in your application's UI. This simplified example illustrates the power of GraphQL in fetching precisely the data you need and promptly displaying it to the user, providing an efficient and optimized user experience.
 
 ## Conclusion
 
