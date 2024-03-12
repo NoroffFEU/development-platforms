@@ -62,6 +62,8 @@ Astro components are defined as building blocks in any Astro Project, identifiab
   <figcaption>Figure 1: File with the .astro file extension</figcaption>
 </figure>
 
+&nbsp;
+
 The core concept of components is that they **do not render on the client**, but rather at build-time or on-demand using server-side rendering (SSR). This approach ensures that the components are pre-rendered for the client using the website, leading to faster page loads and improved performance.
 
 Components are not limited to small sections of code and can be entire web pages. In an Astro project, what would typically be an .html file becomes an .astro file. These .astro files can also contain additional components.
@@ -72,10 +74,14 @@ This modular approach is comparable to other development practices. An example i
   <figcaption>Figure 2: Example of how to import and use components in Astro</figcaption>
 </figure>
 
+&nbsp;
+
 <figure>
   <img src="/static/images/astro/astro-example2.png" alt="Two images, one Header component and one Footer component">
   <figcaption>Figure 3: A Header component (left) and a Footer component (right)</figcaption>
 </figure>
+
+&nbsp;
 
 **Let's take a look at the images above to demonstrate this**
 
@@ -95,6 +101,7 @@ Because we isolate parts of the code with components, we can target HTML element
   <img src="/static/images/astro/astro-example3.png" alt="Example of added styles and interactivity to a component">
   <figcaption>Figure 4: Example of added styles and interactivity to a component</figcaption>
 </figure>
+
 &nbsp;
 
 In our example (Figure 4), we have applied light styling to the header element and its child navigation list items using SCSS syntax. For interactivity, we loop over the list-items, and apply color changes upon mouse hover events.
