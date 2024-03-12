@@ -1,15 +1,27 @@
 ---
 title: Astro
-author: Mathias B. Herholdt <MHerholdt94>
-tags: astro, javascript framework, component-based, static site generation
+authors: Mathias B. Herholdt <MHerholdt94>, Bjørnar Heian Langved <blangved>
+tags: astro, javascript framework, component-based, static site generation, development platforms
+---
+
+![Astro logo](https://cdn.buttercms.com/xrVbfdR5TBy4iTaY4xl7 "Astro logo with spacey background")
+
+### _"There’s a simple secret to building a faster website — just ship less."_
+
+**- Fred Schott & Nate Moore (Founders of Astro)**
+
 ---
 
 ## Introduction
 
 In an ever evolving industry that is web development, several innovative frameworks has seen the light of day with a mission to improve performance optimization without compromising on user experience and developer convenience. Among these is Astro, which version 1.0 released in May 2022 and already stands out as a revolutionary front-runner. Astro is developed with the modern web in mind and introduces a unique approach to building fast and efficient websites that is also developer friendly. At its core, Astro has a component based architecture, similar to other popular frameworks like React and
-Vue.js, yet it differs in its concept of partial hydration, a techique that dramatically reduces the amount of JavaScript sent to the browser. Astro renders its components to static HTML at build time, which ensures very fast load times.
+Vue.js, yet it differs in its concept of partial hydration, a technique that dramatically reduces the amount of JavaScript sent to the browser. Astro renders its components to static HTML at build time, which ensures very fast load times.
 
-This case study looks into Astros features, its potential impact on the future of web development and how it balances performance, functionality and ease of use by positioning itself as a front-runner in the next generation of web development tools.
+**In Astro's own words:**
+
+_"Astro is a web framework that takes the best from the early internet (think HTML and CSS) and puts it to work in a next-gen architecture to make every Astro site, and the whole web, faster. Whereas most frameworks today are designed for web apps, Astro is built for content-rich sites where performance matters most. Pull content from anywhere, deploy everywhere, and let's build the web we want, together."_
+
+This case study looks into Astro's features, its potential impact on the future of web development and how it balances performance, functionality and ease of use by positioning itself as a front-runner in the next generation of web development tools.
 
 ## Brief History
 
@@ -17,7 +29,7 @@ This case study looks into Astros features, its potential impact on the future o
 
 - **November 2021:** Astro v0.21 is released which included improved build optimizations, enhanced CSS and image handling and more support for component frameworks.
 
-- **May 2022:** Astro reaches an important milestone with the release of v1.0. This major release solidified its core features and offered enhanced stability, better performance and even better developer convencience.
+- **May 2022:** Astro reaches an important milestone with the release of v1.0. This major release solidified its core features and offered enhanced stability, better performance and even better developer convenience.
 
 - **2024:** Astro has a continued development and community growth and it keeps evolving with regular updates, solidifying its position in the world of web development.
 
@@ -168,7 +180,7 @@ Astro emerges as a revolutionary framework in the world of web development with 
 - Docs: [Astro Documentation](https://docs.astro.build/en/getting-started/)
 - Blog: [Astro 0.21](https://astro.build/blog/astro-021-release/)
 - Blog: [Astro 1.0](https://astro.build/blog/astro-1/)
-- Article: [What Is Astro? An Introcution to the Popular Static Site Generator](https://kinsta.com/blog/astro-js/)
+- Article: [What Is Astro? An Introduction to the Popular Static Site Generator](https://kinsta.com/blog/astro-js/)
 - Article: [Astro: everything you need to know about this increasingly popular framework](https://www.devinterface.com/en/blog/astro-everything-about-framework)
 - Video: [Astro just Launched... Could it be the ultimate web framework?](https://youtu.be/gxBkghlglTg?si=5czwlxVZjeDtm0sE)
 
