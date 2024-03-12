@@ -271,17 +271,17 @@ If you found yourself intrigued after reading this case study on Astro, we'd rec
 ## References
 
 - Website: [Astro Official Website](https://astro.build/)
+- Website: [Official Website / Press](https://astro.build/press/)
+- Website: [Crunchbase - Organization Info](https://www.crunchbase.com/organization/astro-0f1c)
+- Repository: [GitHub Repo](https://github.com/withastro/astro)
 - Docs: [Astro Documentation](https://docs.astro.build/en/getting-started/)
+- Blog: [Introducing Astro](https://astro.build/blog/introducing-astro/)
 - Blog: [Astro 0.21](https://astro.build/blog/astro-021-release/)
 - Blog: [Astro 1.0](https://astro.build/blog/astro-1/)
+- Blog: [Islands Architecture](https://jasonformat.com/islands-architecture/)
 - Article: [What Is Astro? An Introduction to the Popular Static Site Generator](https://kinsta.com/blog/astro-js/)
 - Article: [Astro: everything you need to know about this increasingly popular framework](https://www.devinterface.com/en/blog/astro-everything-about-framework)
+- Article: [Astro Framework - Resources & Free Starters](https://dev.to/sm0ke/astro-framework-resources-free-starters-3jae)
+- Article: [Astro adoption guide: Overview, examples, and alternatives](https://blog.logrocket.com/astro-adoption-guide/)
+- Article: [Astro: The All-In-One Web Framework](https://www.linkedin.com/pulse/astro-all-in-one-web-framework-codingmart-technologies/)
 - Video: [Astro just Launched... Could it be the ultimate web framework?](https://youtu.be/gxBkghlglTg?si=5czwlxVZjeDtm0sE)
-
-## Additional Resources
-
-- Blog: [Why Microsoft Chose Astro to Build Their Fluent 2 Design System](https://astro.build/case-studies/microsoft/)
-- Video: [Astro in 100 Seconds](https://youtu.be/dsTXcSeAZq8?si=NhU3a9MKYKzG5UOW)
-- Podcast: [Astro 2.0 with Ben Holmes](https://open.spotify.com/episode/1e9wRcZehVo1bVmODewQt4?si=f06a4ef50c6a4579)
-- Podcast: [Astro 3.0 with Matthew Phillips and Ben Holmes](https://open.spotify.com/episode/0aUdfZzOjtz2j97xPISaOx?si=26e278e90643448c)
-- Podcast: [Astro 4.0 with Elian Van Cutsem](https://open.spotify.com/episode/5pWvBCukkWpvJNkhUOfTlI?si=6ea17d4f26ce4dcf)
