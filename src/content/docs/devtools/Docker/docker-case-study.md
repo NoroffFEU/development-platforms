@@ -7,7 +7,7 @@
 
 ### Introduction
 
-In this case study I will be writing about the benefit of using Docker by focusing on Docker image and containerizing applications.
+This case study explores the advantages of using Docker, with a specific emphasis on Docker images and containerizations
 
 ### Brief History
 
@@ -30,8 +30,9 @@ To put it in perspective, consider a scenario where a team of developers is work
 
 **Docker Image**
 
-To successfully containerize an application, you need to make a Dockerfile. The Dockerfile contains all the commands for building a Docker image. Images are essentially  blueprints for creating the docker container. The Docker image has everything you need for building the application: The code, runtime, environment variables and configuration files. The images enable an application to run in a variety of environments consistently because the image encapsulates everything the software needs to operate. 
-When running an image it becomes a Docker container. In summary we can say that Docker images are the building blocks of Docker containers. They package the application and its environment into a neat, portable unit, making it easy to share, distribute, and deploy applications across different systems and platforms. 
+Creating a Docker image is a fundamental step in containerizing an application, and it all begins with crafting a Dockerfile. This file contains the essential instructions for building a Docker image, serving as a blueprint for constructing a Docker container. Think of Docker images as comprehensive packages – they include the application's code, runtime, environment variables, and configuration files. By encapsulating everything the software needs to operate, Docker images provide a consistent environment for applications to run across various systems.
+
+When an image is executed, it transforms into a Docker container. In essence, Docker images serve as the foundational elements of Docker containers, packaging applications and their environments into portable units. This portability facilitates easy sharing, distribution, and deployment of applications across diverse systems and platforms. Now, let's delve into the process of crafting a Dockerfile, the key to shaping these powerful Docker images.
 
 How to start using docker and make an image into a container will be described and displayed with pictures in this case study
 
@@ -47,7 +48,7 @@ Here is some of the competitors:
 
 ### Getting started with Docker
 
-The purpose of this walkthrough is to give an introduction to how to use docker, so that the user gets an understanding on how the image and containerization works.
+The purpose of this walkthrough is to give an introduction on how to use docker, so that the user gets an understanding on how the image and containerization works.
 
 **Step 1**
 
@@ -65,7 +66,7 @@ docker --version
 
 **Step 3**
 
-Now we are going to create a simple node.js app. First we will create a directory for the project and navigate into it by writing this in the terminal:
+Now create a simple node.js app. First create a directory for the project and navigate into it by writing this in the terminal:
 
 ```bash
 mkdir node-app-test
@@ -74,7 +75,7 @@ cd node-app-test
 
 **Step 4**
 
-Then we make a js file named server.js in the folder (directory) we just made:
+Then create a js file named server.js in the folder (directory) you just made:
 
 ![alt text](../../../../assets/docker/docker-serverJs-file.png)
 
@@ -82,7 +83,7 @@ This simple web server will respond "Hello world" to any request
 
 **Step 5**
 
-Next we make our Dockerfile in the same directory as "server.js". This is where we make the commands for our Docker image.
+Next create a Dockerfile in the same directory as "server.js". This is where you make the commands for your Docker image.
 
 ![alt text](../../../../assets/docker/docker-dockerfile.png)
 
@@ -97,7 +98,7 @@ Explanation of the commands:
 
 **Step 6**
 
-Now that we have made a Dockerfile we can build the Docker image by typing in this command in the terminal:
+Now that you have made a Dockerfile, you can build the Docker image by typing in this command in the terminal:
 
 ```bash
 docker build -t node-app-test .
