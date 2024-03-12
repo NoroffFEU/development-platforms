@@ -57,9 +57,13 @@ Astro is an MIT-licensed open source build tool, and the company behind it, "The
 
 Astro components are defined as building blocks in any Astro Project, identifiable by their .astro file extension.
 
-<img src="/static/images/astro/astro_extension.png" alt="Example of an Astro extension in VS Code" width="30%">
+<!-- <img src="/static/images/astro/astro_extension.png" alt="Example of an Astro extension in VS Code" width="30%"> -->
+
+<img src="../../../../../static/images/astro/astro_extension.png" alt="Example of an Astro extension in VS Code" width="30%">
 
 _Figure 1: File with the .astro file extension_
+
+&nbsp;
 
 The core concept of components is that they **do not render on the client**, but rather at build-time or on-demand using server-side rendering (SSR). This approach ensures that the components are pre-rendered for the client using the website, leading to faster page loads and improved performance.
 
@@ -70,9 +74,13 @@ This modular approach is comparable to other development practices. An example i
 
 _Figure 2: Example of how to import and use components in Astro_
 
+&nbsp;
+
 <img src="/static/images/astro/astro-example2.png" alt="Two images, one Header component and one Footer component" width="100%">
 
 _Figure 3: A Header component (left) and a Footer component (right)_
+
+&nbsp;
 
 **Let's take a look at the images above to demonstrate this**
 
@@ -91,6 +99,8 @@ Because we isolate parts of the code with components, we can target HTML element
 <img src="/static/images/astro/astro-example3.png" alt="Example of added styles and interactivity to a component" width="100%">
 
 _Figure 4: Example of added styles and interactivity to a component_
+
+&nbsp;
 
 In our example (Figure 4), we have applied light styling to the header element and its child navigation list items using SCSS syntax. For interactivity, we loop over the list-items, and apply color changes upon mouse hover events.
 
@@ -126,6 +136,8 @@ Turning any regular Astro component into an interactive island, only requires a 
 
 ![Astro logo](https://res.cloudinary.com/wedding-website/image/upload/v1596766231/islands-architecture-1.png "Astro islands")
 _Source: [Islands Architecture: Jason Miller](https://jasonformat.com/islands-architecture/ "Article about Astro islands")_
+
+&nbsp;
 
 We can think of islands as "mini-apps" or "widgets" on the website. They work in isolation inside an Astro project, or more precisely, in isolation from other islands. Imagine a website with different sections of content like the image above. The banner on top, the sidebar visible for larger displays, or the image carousel; all of these are perfect as islands. However, using different directives could be smart since they may not always be displayed or interacted with right away. The banner is high priority, and `client:load` should be ideal. The sidebar will probably only be visible by larger devices, so `client:visible` or `client:media` might be more appropriate. The image carousel is probably a bit further down on the page (and maybe not visible right away), so `client:visible` could be perfect, allowing other content gets higher priority during page load.
 
