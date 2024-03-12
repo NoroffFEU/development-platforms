@@ -57,15 +57,15 @@ Astro is an MIT-licensed open source build tool, and the company behind it, "The
 
 Astro components are defined as building blocks in any Astro Project, identifiable by their .astro file extension.
 
-<img src="../../../../../static/images/astro_extension.png" alt="Astro extension in VS Code" width="25%">
+<img src="/static/images/astro/astro_extension.png" alt="Astro extension in VS Code" width="25%">
 
 The core concept of components is that they **do not render on the client**, but rather at build-time or on-demand using server-side rendering (SSR). This approach ensures that the components are pre-rendered for the client using the website, leading to faster page loads and improved performance.
 
 Components are not limited to small sections of code and can be entire web pages. In an Astro project, what would typically be an .html file becomes an .astro file. These .astro files can also contain additional components.
 This modular approach is comparable to other development practices. An example is a Javascript file that you chose to modularize into smaller fractions of code. These fractions are exported from their source files, and then imported into a central file.
 
-<img src="../../../../../static/images/astro-example1.png" alt="Astro example 1" width="50%">
-<img src="../../../../../static/images/astro-example2.png" alt="Astro example 2" width="80%">
+<img src="/static/images/astro/astro-example1.png" alt="Astro example 1" width="50%">
+<img src="/static/images/astro/astro-example2.png" alt="Astro example 2" width="80%">
 
 **Let's take a look at the images above to demonstrate this**
 
@@ -76,7 +76,7 @@ In larger projects with multiple pages, the same header and footer components ca
 
 This is, of course, an overly simplified example of using Astro components (but a valid one), since these examples contain nothing but a little static HTML. In a real-life scenario, these sections of code would probably contain some styling, various scripts for interactivity, dynamic navigation changes, and more.
 
-<img src="../../../../../static/images/astro-example3.png" alt="Astro example 3" width="80%">
+<img src="/static/images/astro/astro-example3.png" alt="Astro example 3" width="80%">
 
 **So let's have a look at that:**
 
