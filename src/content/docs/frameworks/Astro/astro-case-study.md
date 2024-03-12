@@ -57,26 +57,21 @@ Astro is an MIT-licensed open source build tool, and the company behind it, "The
 
 Astro components are defined as building blocks in any Astro Project, identifiable by their .astro file extension.
 
-<img src="/static/images/astro/astro_extension.png" alt="Example of an Astro extension in VS Code">
-
-_Figure 1: File with the .astro file extension_
-
-&nbsp;
+![Example of an Astro extension in VS Code](/static/images/astro/astro_extension.png "File Extension")
+<br />_Figure 1: File with the .astro file extension_
 
 The core concept of components is that they **do not render on the client**, but rather at build-time or on-demand using server-side rendering (SSR). This approach ensures that the components are pre-rendered for the client using the website, leading to faster page loads and improved performance.
 
 Components are not limited to small sections of code and can be entire web pages. In an Astro project, what would typically be an .html file becomes an .astro file. These .astro files can also contain additional components.
 This modular approach is comparable to other development practices. An example is a Javascript file that you chose to modularize into smaller fractions of code. These fractions are exported from their source files, and then imported into a central file.
 
-<img src="/static/images/astro/astro-example1.png" alt="Example of how to import and use components in Astro">
-
-_Figure 2: Example of how to import and use components in Astro_
+&nbsp;
+![Example of how to import and use components in Astro](/static/images/astro/astro-example1.png "Example 1")
+<br />_Figure 2: Example of how to import and use components in Astro_
 
 &nbsp;
-
-<img src="/static/images/astro/astro-example2.png" alt="Two images, one Header component and one Footer component">
-
-_Figure 3: A Header component (left) and a Footer component (right)_
+![Two images, one Header component and one Footer component](/static/images/astro/astro-example2.png "Example 2")
+<br />_Figure 3: A Header component (left) and a Footer component (right)_
 
 &nbsp;
 
@@ -94,9 +89,9 @@ This is, of course, an overly simplified example of using Astro components (but 
 Components also include support for `<style>` and `<script>` tags directly within .astro files. This allows for various languages and tools, such as SCSS —a CSS pre-processor that uses SASS syntax, or even JavaScript frameworks like React or Vue within script tags.
 Because we isolate parts of the code with components, we can target HTML elements directly without needing to rely on class names or IDs, providing a more straightforward approach to styling and scripting.
 
-<img src="/static/images/astro/astro-example3.png" alt="Example of added styles and interactivity to a component">
-
-_Figure 4: Example of added styles and interactivity to a component_
+&nbsp;
+![Example of added styles and interactivity to a component](../../../../../static/images/astro/astro-example3.png "Example 3")
+<br />_Figure 4: Example of added styles and interactivity to a component_
 
 &nbsp;
 
@@ -132,8 +127,9 @@ Turning any regular Astro component into an interactive island, only requires a 
 
 `client:only:` Skips server-side rendering entirely, directly rendering components in the browser. Essential for integrating client-specific frameworks like React or Vue, ensuring compatibility and performance.
 
-![Astro logo](https://res.cloudinary.com/wedding-website/image/upload/v1596766231/islands-architecture-1.png "Astro islands")
-_Source: [Islands Architecture: Jason Miller](https://jasonformat.com/islands-architecture/ "Article about Astro islands")_
+&nbsp;
+![Island Architecture](https://res.cloudinary.com/wedding-website/image/upload/v1596766231/islands-architecture-1.png "Astro islands")
+<br />_Source: [Islands Architecture: Jason Miller](https://jasonformat.com/islands-architecture/ "Article about Astro islands")_
 
 &nbsp;
 
