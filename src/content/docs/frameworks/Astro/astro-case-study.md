@@ -51,6 +51,22 @@ Astro is an MIT-licensed open source build tool, and the company behind it, "The
 
 - **Easy deployment:** Astro is designed to be serverless-first. This makes it very easy to deploy on platforms like Netlify.
 
+## Components and Islands
+
+### Components
+
+Astro components are defined as building blocks in any Astro Project, identifiable by their .astro file extension.
+
+<img src="../../../../../static/images/astro_extension.png" alt="Astro extension in VS Code" width="25%">
+
+The core concept of components is that they **do not render on the client**, but rather at build-time or on-demand using server-side rendering (SSR). This approach ensures that the components are pre-rendered for the client using the website, leading to faster page loads and improved performance.
+
+Components are not limited to small sections of code and can be entire web pages. In an Astro project, what would typically be an .html file becomes an .astro file. These .astro files can also contain additional components.
+This modular approach is comparable to other development practices. An example is a Javascript file that you chose to modularize into smaller fractions of code. These fractions are exported from their source files, and then imported into a central file.
+
+<img src="../../../../../static/images/astro/astro-example1.png" alt="Astro example 1" width="100%">
+<img src="../../../../../static/images/astro/astro-example2.png" alt="Astro example 2" width="100%">
+
 ## Market Comparison
 
 Astro stands out for its innovative approach to web development, and while it faces competition from some more established and popular frameworks like Next.js and Gatsby, its unique features and flexibility gives it an advantage on a few points. The choice between using Astro or another framework often comes down to specific project requirements and the desired balance between performance and features.
