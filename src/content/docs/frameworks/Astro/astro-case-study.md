@@ -58,9 +58,7 @@ Astro is an MIT-licensed open source build tool, and the company behind it, "The
 Astro components are defined as building blocks in any Astro Project, identifiable by their .astro file extension.
 
 <img src="/static/images/astro/astro_extension.png" alt="Example of an Astro extension in VS Code" width="30%">
-&nbsp;
-<sup>Figure 1: File with the .astro file extension</sup>
-<br>
+<sub>Figure 1: File with the .astro file extension</sub>
 
 The core concept of components is that they **do not render on the client**, but rather at build-time or on-demand using server-side rendering (SSR). This approach ensures that the components are pre-rendered for the client using the website, leading to faster page loads and improved performance.
 
@@ -68,14 +66,10 @@ Components are not limited to small sections of code and can be entire web pages
 This modular approach is comparable to other development practices. An example is a Javascript file that you chose to modularize into smaller fractions of code. These fractions are exported from their source files, and then imported into a central file.
 
 <img src="/static/images/astro/astro-example1.png" alt="Example of how to import and use components in Astro" width="100%">
-&nbsp;
-<sup>Figure 2: Example of how to import and use components in Astro</sup>
-<br>
+<sub>Figure 2: Example of how to import and use components in Astro</sub>
 
 <img src="/static/images/astro/astro-example2.png" alt="Two images, one Header component and one Footer component" width="100%">
-&nbsp;
-<sup>Figure 3: A Header component (left) and a Footer component (right)</sup>
-<br>
+<sub>Figure 3: A Header component (left) and a Footer component (right)</sub>
 
 **Let's take a look at the images above to demonstrate this**
 
@@ -92,9 +86,7 @@ Components also include support for `<style>` and `<script>` tags directly withi
 Because we isolate parts of the code with components, we can target HTML elements directly without needing to rely on class names or IDs, providing a more straightforward approach to styling and scripting.
 
 <img src="/static/images/astro/astro-example3.png" alt="Example of added styles and interactivity to a component" width="100%">
-&nbsp;
-<sup>Figure 4: Example of added styles and interactivity to a component</sup>
-<br>
+<sub>Figure 4: Example of added styles and interactivity to a component</sub>
 
 In our example (Figure 4), we have applied light styling to the header element and its child navigation list items using SCSS syntax. For interactivity, we loop over the list-items, and apply color changes upon mouse hover events.
 
