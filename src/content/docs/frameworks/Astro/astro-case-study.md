@@ -1,12 +1,12 @@
 ---
 title: Astro
-authors: Mathias B. Herholdt <MHerholdt94>, Bjørnar Heian Langved <blangved>
+authors: Mathias B. Herholdt <MHerholdt94> & Bjørnar Heian Langved <blangved>
 tags: astro, javascript framework, component-based, static site generation, development platforms
 ---
 
 ![Astro logo](https://cdn.buttercms.com/xrVbfdR5TBy4iTaY4xl7 "Astro logo with spacey background")
 
-### _"There’s a simple secret to building a faster website — just ship less."_
+> ### _"There’s a simple secret to building a faster website — just ship less."_
 
 **- Fred Schott & Nate Moore (Founders of Astro)**
 
@@ -57,15 +57,22 @@ Astro is an MIT-licensed open source build tool, and the company behind it, "The
 
 Astro components are defined as building blocks in any Astro Project, identifiable by their .astro file extension.
 
-<img src="/static/images/astro/astro_extension.png" alt="Astro extension in VS Code" width="30%">
+<img src="/static/images/astro/astro_extension.png" alt="Example of an Astro extension in VS Code" width="30%">
+<br>
+<sup>Figure 1: File with the .astro file extension</sup>
 
 The core concept of components is that they **do not render on the client**, but rather at build-time or on-demand using server-side rendering (SSR). This approach ensures that the components are pre-rendered for the client using the website, leading to faster page loads and improved performance.
 
 Components are not limited to small sections of code and can be entire web pages. In an Astro project, what would typically be an .html file becomes an .astro file. These .astro files can also contain additional components.
 This modular approach is comparable to other development practices. An example is a Javascript file that you chose to modularize into smaller fractions of code. These fractions are exported from their source files, and then imported into a central file.
 
-<img src="/static/images/astro/astro-example1.png" alt="Astro example 1" width="100%">
-<img src="/static/images/astro/astro-example2.png" alt="Astro example 2" width="100%">
+<img src="/static/images/astro/astro-example1.png" alt="Example of how to import and use components in Astro" width="100%">
+<br>
+<sup>Figure 2: Example of how to import and use components in Astro</sup>
+
+<img src="/static/images/astro/astro-example2.png" alt="Two images, one Header component and one Footer component" width="100%">
+<br>
+<sup>Figure 3: A Header component (left) and a Footer component (right)</sup>
 
 **Let's take a look at the images above to demonstrate this**
 
@@ -76,14 +83,16 @@ In larger projects with multiple pages, the same header and footer components ca
 
 This is, of course, an overly simplified example of using Astro components (but a valid one), since these examples contain nothing but a little static HTML. In a real-life scenario, these sections of code would probably contain some styling, various scripts for interactivity, dynamic navigation changes, and more.
 
-<img src="/static/images/astro/astro-example3.png" alt="Astro example 3" width="100%">
-
 **So let's have a look at that:**
 
 Components also include support for `<style>` and `<script>` tags directly within .astro files. This allows for various languages and tools, such as SCSS —a CSS pre-processor that uses SASS syntax, or even JavaScript frameworks like React or Vue within script tags.
 Because we isolate parts of the code with components, we can target HTML elements directly without needing to rely on class names or IDs, providing a more straightforward approach to styling and scripting.
 
-In our example, we have applied light styling to the header element and its child navigation list items using SCSS syntax. For interactivity, we loop over the list-items, and apply color changes upon mouse hover events.
+<img src="/static/images/astro/astro-example3.png" alt="Example of added styles and interactivity to a component" width="100%">
+<br>
+<sup>Figure 4: Example of added styles and interactivity to a component</sup>
+
+In our example (Figure 4), we have applied light styling to the header element and its child navigation list items using SCSS syntax. For interactivity, we loop over the list-items, and apply color changes upon mouse hover events.
 
 Besides working with HTML, CSS, and Javascript in an isolated "environment", which could result in easier management, these components will also be pre-rendered for the browser, resulting in faster load times, and the user is not relying on Javascript, since this in now converted to static HTML.
 
@@ -116,7 +125,8 @@ Turning any regular Astro component into an interactive island, only requires a 
 `client:only:` Skips server-side rendering entirely, directly rendering components in the browser. Essential for integrating client-specific frameworks like React or Vue, ensuring compatibility and performance.
 
 ![Astro logo](https://res.cloudinary.com/wedding-website/image/upload/v1596766231/islands-architecture-1.png "Astro islands")
-Source: [Islands Architecture: Jason Miller](https://jasonformat.com/islands-architecture/ "Article about Astro islands")
+<br>
+<sup>Source: [Islands Architecture: Jason Miller](https://jasonformat.com/islands-architecture/ "Article about Astro islands")</sup>
 
 We can think of islands as "mini-apps" or "widgets" on the website. They work in isolation inside an Astro project, or more precisely, in isolation from other islands. Imagine a website with different sections of content like the image above. The banner on top, the sidebar visible for larger displays, or the image carousel; all of these are perfect as islands. However, using different directives could be smart since they may not always be displayed or interacted with right away. The banner is high priority, and `client:load` should be ideal. The sidebar will probably only be visible by larger devices, so `client:visible` or `client:media` might be more appropriate. The image carousel is probably a bit further down on the page (and maybe not visible right away), so `client:visible` could be perfect, allowing other content gets higher priority during page load.
 
