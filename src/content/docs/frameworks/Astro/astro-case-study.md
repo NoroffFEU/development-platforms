@@ -1,6 +1,6 @@
 ---
 title: Astro
-authors: Mathias B. Herholdt <MHerholdt94> & Bjørnar Heian Langved <blangved>
+authors: Mathias B. Herholdt <devholdt> & Bjørnar Heian Langved <blangved>
 tags: astro, javascript framework, component-based, static site generation, development platforms
 ---
 
