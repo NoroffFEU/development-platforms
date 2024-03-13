@@ -29,11 +29,17 @@ Astro is an MIT-licensed open source build tool, and the company behind it, "The
 
 ### Timeline
 
-- **February 2021:** Astro is publicly announced and released in its first beta version. The release introduces the idea of a static site generator with a focus on performance and partial hydration (reducing amount of JS sent to the browser).
+- **June 2021:** Astro is publicly announced and released in its first beta version. The release introduces the idea of a static site generator with a focus on performance and partial hydration (reducing amount of JS sent to the browser).
 
 - **November 2021:** Astro v0.21 is released which included improved build optimizations, enhanced CSS and image handling and more support for component frameworks.
 
 - **August 2022:** Astro reaches an important milestone with the release of v1.0. This major release solidified its core features and offered enhanced stability, better performance and even better developer convenience.
+
+- **January 2023:** Astro 2.0 sees the light of day, introducing complete type-safety for Markdown and MDX with built-in parsing, as well as automatic TypeScript generation. This release was a game-changer for anyone working with Markdown on the web.
+
+- **August 2023:** Astro 3.0 launches, bringing with it features once exclusive to JavaScript-driven Single Page Applications (SPAs), such as seamless view transitions and the ability to persist stateful elements during page navigation.
+
+- **December 2023:** Astro 4.0 comes to fruition, packed with new APIs, faster build times, revamped documentation, and an innovative development tool designed to enhance your local dev environment in new and exciting ways.
 
 - **2024:** Astro has a continued development and community growth and it keeps evolving with regular updates, solidifying its position in the world of web development.
 
@@ -293,6 +299,7 @@ If you found yourself intrigued after reading this case study on Astro, we'd rec
 - Blog: [Introducing Astro](https://astro.build/blog/introducing-astro/)
 - Blog: [Astro 0.21](https://astro.build/blog/astro-021-release/)
 - Blog: [Astro 1.0](https://astro.build/blog/astro-1/)
+- Blog: [Astro 2.0](https://astro.build/blog/astro-2/)
 - Blog: [Islands Architecture](https://jasonformat.com/islands-architecture/)
 - Article: [What Is Astro? An Introduction to the Popular Static Site Generator](https://kinsta.com/blog/astro-js/)
 - Article: [Astro: everything you need to know about this increasingly popular framework](https://www.devinterface.com/en/blog/astro-everything-about-framework)
