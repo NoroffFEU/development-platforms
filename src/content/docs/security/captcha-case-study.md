@@ -88,6 +88,25 @@ By seeing which IP is trying to login over and over and failing, can be a sign o
 
 This is great for certain scenarios, but you can always have a VPN or something similar to bypass this issue.
 
+## How to implement CAPTCHA
+
+In order to implement CAPTCHA you need to follow the following steps:
+
+1. You need a google account to use reCAPTCHA [6]
+2. Go to the link https://www.google.com/recaptcha/admin/create#list [6]
+3. Fill in your CAPTCHA type [6]
+4. Register your website [6]
+5. Save the site key and secret key [6]
+6. Add your reCAPTCHA to your javascript and your HTML [6]
+
+You need to use the google reCAPTCHA api.js with your specific site key. Under you can see the code snippet for adding your site reCAPTCHA.
+
+```html
+// Replace YOUR_SITE_KEY with site key provided by Google // Snippet is taken
+from [6]
+<script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY"></script>
+```
+
 ## Summary
 
 CAPTCHA is a system which is used to prevent bots from registering fake accounts, commenting fake comments on media, or skewing the votes on a poll. CAPTCHA come in three different methods of:
@@ -115,3 +134,5 @@ I believe CAPTCHAs are great as a method to filter out simple bots, especially c
 [4] “How CAPTCHAs Work | What Does CAPTCHA Mean? | Cloudflare.” Cloudflare, www.cloudflare.com/learning/bots/how-captchas-work/.
 
 [5] “How Can Bots Be Prevented?” Approov.io, www.approov.io/blog/how-can-bots-be-prevented.
+
+[6] “How to Implement CAPTCHAs or ReCAPTCHAs?” DEV Community, 6 Jan. 2023, dev.to/codeofrelevancy/how-to-implement-captchas-or-recaptchas-2i17.
