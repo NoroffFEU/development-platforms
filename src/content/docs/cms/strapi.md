@@ -56,7 +56,19 @@ Strapi has, of course, some weaknesses too. For some projects, the following top
 
 ## Market Comparison
 
-There are at least two ways of comparing Strapi with similar products: (a) analysing how it differs from more traditional CMS platforms like Wordpress (WP), Drupal and Joomla; and (b) analysing how it differs from more modern products that perform similar roles, even though these may not be strictly equivalent in terms of functionalities.
+There are at least two ways of comparing Strapi with similar products: 
+
+1. Analysing how it differs from more traditional CMS platforms like Wordpress (WP), Drupal and Joomla
+2. Analysing how it differs from more modern products that perform similar roles, even though these may not be strictly equivalent in terms of functionalities.
+
+January 16th 2024 [Medium.com](https://medium.com/@weframe.tech/strapi-vs-directus-vs-payload-headless-cms-comparison-2024-cf86502acf24) made an not sponsored article  of a comprehensive comparison of the best headless CMS options in 2024. Weframe Tech and experts in Jamstack and headless commerce chose to highlight the top three Directus, Payload and Strapi. All three Payload ,Strapi and Directus CMS are free and open source, unless you choose to use their respective cloud hosting services. 
+
+|Headless CMS |Directus |Strapi |Payload
+|---------------|-----------------------|--------------|-----------|
+| Github Metrics | 24.4k stars | 58.3k stars | 16.7k stars 
+| Requirements |CPU: 1+ cores, Memory: 1GB+, Disk: 2GB+ |CPU: 2+ cores, Memory: 4GB+, Disk: 32GB+ |CPU: 2+ cores, Memory: 4 GB+, Disk: 8GB+
+| Database support |Postgres, MySQL,Sqlite3, CockroachDB |Postgres, MySQL, MariaDB, SQLite|Postgres, MongoDB
+
 
 ### Strapi vs. Traditional CMS platforms
 
@@ -346,3 +358,4 @@ Karen Jo Fiksdahl ([@KarenJoo](https://github.com/KarenJoo))
 - [Cloudinary's Official website](https://strapi.io/blog/add-cloudinary-support-to-your-strapi-application)
 - [Render's official website](https://render.com)
 - [Farming for the future](https://map.farmingforthefuture.site)
+- [Strapi vs Directus vs Payload, Headless CMS Comparison 2024](https://medium.com/@weframe.tech/strapi-vs-directus-vs-payload-headless-cms-comparison-2024-cf86502acf24) 
