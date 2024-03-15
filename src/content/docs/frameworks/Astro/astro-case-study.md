@@ -63,7 +63,7 @@ Astro is an MIT-licensed open source build tool, and the company behind it, "The
 
 Astro components are defined as building blocks in any Astro Project, identifiable by their .astro file extension.
 
-![Example of an Astro extension in VS Code](/static/images/astro/astro_extension.png "File Extension")
+![Example of an Astro extension in VS Code](~/assets/frameworks/astro/astro_extension.png "File Extension")
 <br />_Figure 1: File with the .astro file extension_
 
 The core concept of components is that they **do not render on the client**, but rather at build-time or on-demand using server-side rendering (SSR). This approach ensures that the components are pre-rendered for the client using the website, leading to faster page loads and improved performance.
@@ -72,11 +72,11 @@ Components are not limited to small sections of code and can be entire web pages
 This modular approach is comparable to other development practices. An example is a Javascript file that you chose to modularize into smaller fractions of code. These fractions are exported from their source files, and then imported into a central file.
 
 &nbsp;
-![Example of how to import and use components in Astro](/static/images/astro/astro-example1.png "Example 1")
+![Example of how to import and use components in Astro](~/assets/frameworks/astro/astro-example1.png "Example 1")
 <br />_Figure 2: Example of how to import and use components in Astro_
 
 &nbsp;
-![Two images, one Header component and one Footer component](/static/images/astro/astro-example2.png "Example 2")
+![Two images, one Header component and one Footer component](~/assets/frameworks/astro/astro-example2.png "Example 2")
 <br />_Figure 3: A Header component (left) and a Footer component (right)_
 
 &nbsp;
@@ -96,7 +96,7 @@ Components also include support for `<style>` and `<script>` tags directly withi
 Because we isolate parts of the code with components, we can target HTML elements directly without needing to rely on class names or IDs, providing a more straightforward approach to styling and scripting.
 
 &nbsp;
-![Example of added styles and interactivity to a component](../../../../../static/images/astro/astro-example3.png "Example 3")
+![Example of added styles and interactivity to a component](~/assets/frameworks/astro/astro-example3.png "Example 3")
 <br />_Figure 4: Example of added styles and interactivity to a component_
 
 &nbsp;
