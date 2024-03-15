@@ -1,10 +1,8 @@
-
-| Attribute  | Details                                                      |
-|------------|--------------------------------------------------------------|
-| Title      | Docker case study                                            |
-| Author     | Eirik Michielsen <EM-90>                                     |
-| Tags       | docker, docker image, containerize, container, deployment, development, environment |
-
+---
+title: Docker case study 
+author: Eirik Michielsen <EM-90> 
+tags: docker, docker image, containerize, container, deployment, development, environment
+---
 
 ### Introduction
 
