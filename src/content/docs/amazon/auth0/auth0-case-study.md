@@ -24,7 +24,7 @@ Auth0 has emerged as a pivotal player in the Identity and Access Management (IAM
 Auth0 provides a suite of features designed to simplify the implementation of authentication and authorization:
 
 - **Universal login:** One login experience across all applications, reducing friction for end-users and security concerns.
-- **Multi-factor Authentication (MFA):** TAn additional security layer that requires multiple forms of verification.
+- **Multi-factor Authentication (MFA):** An additional security layer that requires multiple forms of verification.
 - **Single Sign-On (SSO):** Enables users to access multiple applications with a single set of credentials.
 - **Adaptive MFA:** Leveraging machine learning, Auth0's Adaptive MFA adjusts authentication requirements based on the user's risk profile and behavior.
 - **B2B and B2C Solutions:** Auth0 addresses both business-to-business and business-to-consumer scenarios, providing flexibility for complex identity configurations.
