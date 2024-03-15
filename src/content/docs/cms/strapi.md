@@ -54,7 +54,7 @@ Strapi has, of course, some weaknesses too. For some projects, the following top
 - Strapi does not have a native hosting environment yet, although they have recently announced StrapiCloud, as a tool which will fill this gap in the future.
 - Strapi is rapidly evolving and that means it is frequently updated. Some of these updates may be disruptive, as they implement breaking changes that may compromise some projects.
 
-## Comparison
+## Market Comparison
 
 There are at least two ways of comparing Strapi with similar products: (a) analysing how it differs from more traditional CMS platforms like Wordpress (WP), Drupal and Joomla; and (b) analysing how it differs from more modern products that perform similar roles, even though these may not be strictly equivalent in terms of functionalities.
 
