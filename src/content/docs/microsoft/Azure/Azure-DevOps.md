@@ -90,3 +90,6 @@ Azure DevOps, a comprehensive development suite, boasts several advantages. Its 
 - https://www.jetbrains.com/teamcity/learn/
 - https://learn.microsoft.com/en-us/azure/devops/user-guide/services?view=azure-devops. 
 
+
+## TODO
+ 1: add some walkthrough about getting started with Azure as a DevOps tool using a JavaScript project
