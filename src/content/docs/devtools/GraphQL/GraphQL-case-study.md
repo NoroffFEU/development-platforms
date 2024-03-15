@@ -1,3 +1,9 @@
+---
+title: GraphQL Case Study
+author: Emil Halvorsen <emilrh91>
+tags: graphql, api, web-development
+---
+
 ## Introduction to GraphQL
 
 GraphQL offers a robust alternative to traditional REST API methodologies. This query language enables developers to perform declarative data fetching, where clients can specify exactly what data they need from an API, thereby streamlining the interaction between clients and servers.
@@ -139,7 +145,7 @@ POST /graphql
 
 The Query:
 
-```JavaScript
+```graphql
 query GetArticleWithCommentsAndAuthor {
   article(id: "123") {
     title
@@ -243,7 +249,7 @@ While a real-world implementation would typically involve a GraphQL client libra
 
 3. **Process the Response:** The server returns a JSON object containing the requested data, which can then be displayed in the application.
 
-```JavaScript
+```js
 const query = `
   query {
     user(id: "1") {
