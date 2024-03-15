@@ -1,7 +1,10 @@
-# Case Study on DALL·E
+---
+title: Case Study on DALL·E
+author: Ole Kristian Rasmussen <Olekrr>
+tags: DALL·E, AI, generative art, case study
+---
 
-**Author:** [Ole Kristian Rasmussen] <[Olekrr]>  
-**Tags:** DALL·E, AI, generative art, case study
+# Case Study on DALL·E
 
 ## Introduction
 
