@@ -68,7 +68,9 @@ January 16th 2024 [Medium.com](https://medium.com/@weframe.tech/strapi-vs-direct
 | Github Metrics | 24.4k stars | 58.3k stars | 16.7k stars 
 | Requirements |CPU: 1+ cores, Memory: 1GB+, Disk: 2GB+ |CPU: 2+ cores, Memory: 4GB+, Disk: 32GB+ |CPU: 2+ cores, Memory: 4 GB+, Disk: 8GB+
 | Database support |Postgres, MySQL,Sqlite3, CockroachDB |Postgres, MySQL, MariaDB, SQLite|Postgres, MongoDB
+| Admin app | Vue | React | React
 
+If you search for terms like “CMS for developers,” “Next CMS,” or “best headless CMS,” you’ll likely find Strapi appearing on the first page ahead of Directus or payload cms. The contrast in popularity is quite evident according to Medium.com. Even though Directus has been in existence for longer than Strapi, having its roots in the PHP version prior to v9, Strapi seems to have taken the lead in a big way. This success can perhaps be attributed to their marketing department as they was presented as the future as an improved alternative to WordPress.
 
 ### Strapi vs. Traditional CMS platforms
 
@@ -307,12 +309,12 @@ By default, Strapi restricts unauthorized users from performing CREATE, PUT, and
 
 The Strapi API which has been created by following the steps above will only be available in your local environment. Deploying the API to make it publicly available requires another sequence of procedures –- like integrating your newly-created API with a remote server and a remote database. There are many ways of doing that. While deployment strategies are not the main intent of this article, a sample API has been deployed, for demonstration purposes, by using the following method:
 
-a) Creating a Strapi project, similarly to what has been done in the previous chapters;
-b) Installing the Cloudinary Strapi plugin;
-c) Using Render.com to host a PostgreSQL database;
-d) Connecting Render.com to a Github repository containing the Strapi project.
+1. Creating a Strapi project, similarly to what has been done in the previous chapters;
+2. Installing the Cloudinary Strapi plugin;
+3. Using Render.com to host a PostgreSQL database;
+4. Connecting Render.com to a Github repository containing the Strapi project.
 
-A detailed guide on how to implement these steps can be found on this [online tutorial](https://www.youtube.com/watch?v=akvItcWW81g)). The result has been a functional live API deployed at:
+A detailed guide on how to implement these steps can be found on this [online tutorial](https://www.youtube.com/watch?v=akvItcWW81g). The result has been a functional live API deployed at:
 
 `https://fff-api.onrender.com/api/articles`
 
