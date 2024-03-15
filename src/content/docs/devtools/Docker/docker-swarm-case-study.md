@@ -1,27 +1,30 @@
-| Attribute  | Details                                                      |
-|------------|--------------------------------------------------------------|
-| Title      | Docker swarm case study                                            |
-| Author     | Malene Ivy Olsen                                   |
-| Tags       | docker, container, containerization, swarm, container orchestration, kubernetes | <br/>
-<br/>
+---
+title: Docker Swarm
+author: Malene Olsen <maleneivy>
+tags: docker, container, containerization, swarm, container orchestration, kubernetes
+---
+
 
 # Docker Swarm - container orchestration tool
 [Acronyms used in the text](#acronyms-used)
 ## Introduction
-This case study aims to compare Docker and Kubernetes, the two key technologies in containerization and orchestration. I'll begin by introducing Docker, an essential tool for containerization, to set the groundwork for understanding container orchestration tools. <br/>
-Then I'll dive into comparison of Docker Swarm and Kubernetes to help students/beginners understand these important tools in modern software development. 
+This case study aims to compare Docker and Kubernetes, the two key technologies in containerization and orchestration. Wil will begin by introducing Docker, an essential tool for containerization, to set the groundwork for understanding container orchestration tools.
+
+Then we will dive into comparison of Docker Swarm and Kubernetes to help students/beginners understand these important tools in modern software development. 
 
 ## Containerization
-A container works as a self-contained environment that holds all of the necessary components for running an application. It provides an isolated environment for running applications and services. <br/>
-Containerization enables teams to package applications, dependencies and configurations into container images. This simplifies the development of microservices, which are small, independent software components that focus on specific tasks within a larger application. <br/>
+A container works as a self-contained environment that holds all of the necessary components for running an application. It provides an isolated environment for running applications and services.
+
+Containerization enables teams to package applications, dependencies and configurations into container images. This simplifies the development of microservices, which are small, independent software components that focus on specific tasks within a larger application.
 
 ### Container Key Milestones
 ![Container key milestones after 2013](../../../../assets/devtools/docker/docker-history-timeline.jpg)
-In 1979, the concept of containers first emerged. This was 34 years before Docker surfaced in 2013. <br/>
+In 1979, the concept of containers first emerged. This was 34 years before Docker surfaced in 2013.
+
 Docker revolutionized the way containers were created, deployed, and managed, making them more accessible and easier to use for developers and operators alike. Kubernetes grew in popularity after its appearance in 2014 and today, in the world of container orchestration, the two leading platforms are Docker Swarm and Kubernetes. 
 
 ## Docker Overview
-**Docker** is an open platform designed for creating, deploying, and managing containers and is the standard way to build applications for millions of developers today.<br/>
+**Docker** is an open platform designed for creating, deploying, and managing containers and is the standard way to build applications for millions of developers today.
 To set up a Docker environment, you'll need to download the application Docker Desktop, which provides you an integrated environment for building, testing and deployment of application on your local machine. Docker Desktop includes Docker Engine, CLI, Docker Compose and other useful tools for managing Docker containers and images.
 
 ### Docker Architecture
@@ -29,15 +32,19 @@ Docker works on a client-server architecture where the Docker client communicate
 
 ![Image of docker architecture](../../../../assets/devtools/docker/docker-architecture.jpg)
 
-The Docker client is a command-line interface (CLI) tool that allows users to interact with the Docker daemon. <br/>
-It accepts commands from users and sends them to the Docker daemon for execution. These commands can include instructions for managing containers, images, networks, and volumes. <br/>
+The Docker client is a command-line interface (CLI) tool that allows users to interact with the Docker daemon.
+
+It accepts commands from users and sends them to the Docker daemon for execution. These commands can include instructions for managing containers, images, networks, and volumes.
+
 The Docker daemon, in turn, processes these commands, performs the necessary actions, and communicates the results back to the client. This communication between the client and daemon occurs through a REST API, which can operate over UNIX sockets for local communication or network interfaces for remote communication.
 
-The registry serves as a centralized repository for storing Docker images, functioning much like a digital library. Think of it as a virtual catalog where users can discover and download images that suit their needs. <br/>
+The registry serves as a centralized repository for storing Docker images, functioning much like a digital library. Think of it as a virtual catalog where users can discover and download images that suit their needs.
+
 **Docker Hub**, for instance, is a well-known public registry where users can find a diverse array of images contributed by various communities and individuals. 
 
 ### Image and container
-A container image is like a digital box that holds all the stuff your app needs to work. Inside, you'll find the code, tools, and settings required for your app to run smoothly. <br/>
+A container image is like a digital box that holds all the stuff your app needs to work. Inside, you'll find the code, tools, and settings required for your app to run smoothly.
+
 When you use Docker, this box becomes magical! It can be moved and used on different computers without any hassle. This means that you don't have to worry about what installed software there is on each computer. When you open this digital box, it turns into a container, which is what actually runs your app. 
 
 People often mix up images and containers, but they're actually two different parts of Docker. To sum it up; the image is like the package, and the container is what runs when you open the package. A single image can create multiple containers.
@@ -48,26 +55,28 @@ To build your own image, you'll need to compose a Dockerfile, creating a straigh
 Some common Dockerfile instructions:
 * **FROM**: Specifies the base image to use for the new image. 
 * **COPY**: Copies files/directories from the host machine into the image.
-* **RUN**: Executes commands withing the image.
+* **RUN**: Executes commands within the image.
 * **EXPOSE**: Container will listen on port 3000 on runtime.
 * **CMD** Specifies the default command to run when a container is started from the image. 
 
 ### Demonstration: build an image and run container
-I'll be demonstrating Dockers [welcome-to-docker](https://github.com/docker/welcome-to-docker) repo on Github. 
-1. Install Docker Desktop on [Mac](https://docs.docker.com/desktop/install/mac-install/), [Windows](https://docs.docker.com/desktop/install/windows-install/) or [Linus](https://docs.docker.com/desktop/install/linux-install/). <br/> I am using a Mac, so this demonstration is for Mac users. 
+Let's take a look at Dockers [welcome-to-docker](https://github.com/docker/welcome-to-docker) repo on Github. 
+1. Install Docker Desktop on [Mac](https://docs.docker.com/desktop/install/mac-install/), [Windows](https://docs.docker.com/desktop/install/windows-install/) or [Linus](https://docs.docker.com/desktop/install/linux-install/). 
+We will continue with the Mac installation instructions.
 
-2. Make sure to make a folder where you can try this out. Open terminal and navigate to your folder before you clone the repo with this command: <br/>
-   ```
+1. Make sure to make a folder where you can try this out. Open terminal and navigate to your folder before you clone the repo with this command: 
+
+   ```sh
    git clone https://github.com/docker/welcome-to-docker
    ```
-3. Navigate yourself to the new folder with this command: <br/>
-    ```
+2. Navigate yourself to the new folder with this command: 
+    ```sh
     cd welcome-to-docker
     ```
-4. Open the sample application in your IDE(code editor), and look at the sample Docker file. read the comments. 
+3. Open the sample application in your IDE(code editor), and look at the sample Docker file. read the comments. 
 ![Alt text](../../../../assets/devtools/docker/dockerfile-example.png)
-5. Build your first image. The -t flag tags your image with the name "my-first-image" and the . lets Docker know where to find the Dockerfile. 
-   ```
+1. Build your first image. The -t flag tags your image with the name "my-first-image" and the . lets Docker know where to find the Dockerfile. 
+   ```sh
    docker build -t my-first-image .
    ```
    Now you can see the image in Docker Desktop. 
@@ -77,13 +86,15 @@ Run container by pressing on the "play" button you see under Actions, and fill i
 You have now a running container, view it live by selecting the link below the container's name. 
 
 ### Multi-container applications
-Multi-container applications are software that consist of multiple containers working together, where each container performs a specific task or function. <br/>
+Multi-container applications are software that consist of multiple containers working together, where each container performs a specific task or function.
+
 In a web application for instance; you might have separate containers for the web server, application and database server. These containers work together to serve web pages, process requests and store data. 
 
 **Docker Compose** is a tool that allows developers to specify the services, networks and volumes required for their application in a single YAML file. It makes development and testing faster and simpler when managing complex applications with lots of linked containers 
 
 ### Container orchestration
-Container orchestration manages the dynamic lifecycle of containers, with automating tasks such as provisioning, deployment, scaling, resource allocation, load balancing and health monitoring.  It's essential for DevOps teams to integrate containers into CI/CD workflows, because of its many benefits, such as faster delivery, lower costs and improved efficiency. <br/>
+Container orchestration manages the dynamic lifecycle of containers, with automating tasks such as provisioning, deployment, scaling, resource allocation, load balancing and health monitoring.  It's essential for DevOps teams to integrate containers into CI/CD workflows, because of its many benefits, such as faster delivery, lower costs and improved efficiency.
+
 There are two types of container orchestration: self-built and managed. I have picked two of the most popular tools to compare to each other.
 
 
@@ -102,14 +113,14 @@ The swarm manager node receives commands from the clients and assigns them to th
 To create a swarm:
 
 *  Create the node that will become the swarm manager. (Initialize a swarm)
-    ```
+    ```sh
     docker swarm init
     ```
 
     If you want to do multi node swarm, you'll need multiple machines, either virtual or physical. 
 
 * You can check the swarm info, to check all the info about your Docker install, all the containers, images and swarms you have installed. You can also get the id of the swarm: 
-    ``` 
+    ```sh
     docker info
     ```
 
@@ -119,11 +130,13 @@ Kubernetes is another popular container orchestration tool and is rich on featur
 ### Kubernetes Architecture
 ![Alt text](../../../../assets/devtools/docker/kubernetes-architecture.jpg)
 
-As we can see in the diagram above, the Kubernetes architecture consist of two components which are the Control Pane and the Kubernetes Node. <br/>
+As we can see in the diagram above, the Kubernetes architecture consist of two components which are the Control Pane and the Kubernetes Node.
+
 The Control Pane manages the cluster's operation and Kubernetes Node executes the tasks by the control pane.
 
 ## Choosing container orchestration tools
-Developers should always evaluate them in context of their specific needs. In this case study I've taken to consideration these criteria<br/>
+Developers should always evaluate them in context of their specific needs. In this case study I've taken to consideration these criteria
+
 
 | Criteria            | Kubernetes                               | Docker Swarm                            |
 |--------------------|------------------------------------------|-----------------------------------------|
@@ -143,14 +156,17 @@ Developers should always evaluate them in context of their specific needs. In th
 
 * **CLI**: There is no need to install an additional command line tool with Docker Swarm, unlike Kubernetes, which requires kubectl command line tool to work with the cluster.
 
-* **Container Runtime**: A container runtime is a program that runs and manages containers, ensuring they have what they need to run smoothly on a system. <br/>
-Kubernetes is more flexible and supports any container runtime that implements its Container Runtime Interface, while Docker Swarm only supports Docker containers. Kubernetes did support Docker as a container runtime earlier, but removed this support in the late 2021. 
-
-* **Ecosystem**: Ecosystem is a wide range of additional tools, plugins, community input and integrations that improves and expand the core platform. This includes third-party applications, development frameworks, monitoring solutions, networking plugins, storage drivers, security tools and more. <br/>
-Kubernetes offers a large ecosystem with many plugins and tools, while Docker Swarm is more limited, but growing. 
+* **Container Runtime**: A container runtime is a program that runs and manages containers, ensuring they have what they need to run smoothly on a system.
   
-* **Load Balancing**: Docker Swarm offers an automatic load balancing mechanism, ensuring seamless communication and interaction between containers within the Docker Swarm cluster. The load balancing functionality is built-in, requiring minimal configuration. <br/>
-In contrast, Kubernetes provides a more customizable approach to load balancing. It allows you to define and configure load balancers based on your specific requirements. While this requires some manual setup, it grants you greater control over the load balancing configuration within the Kubernetes cluster.
+  Kubernetes is more flexible and supports any container runtime that implements its Container Runtime Interface, while Docker Swarm only supports Docker containers. Kubernetes did support Docker as a container runtime earlier, but removed this support in the late 2021. 
+
+* **Ecosystem**: Ecosystem is a wide range of additional tools, plugins, community input and integrations that improves and expand the core platform. This includes third-party applications, development frameworks, monitoring solutions, networking plugins, storage drivers, security tools and more.
+  
+  Kubernetes offers a large ecosystem with many plugins and tools, while Docker Swarm is more limited, but growing. 
+  
+* **Load Balancing**: Docker Swarm offers an automatic load balancing mechanism, ensuring seamless communication and interaction between containers within the Docker Swarm cluster. The load balancing functionality is built-in, requiring minimal configuration.
+  
+  In contrast, Kubernetes provides a more customizable approach to load balancing. It allows you to define and configure load balancers based on your specific requirements. While this requires some manual setup, it grants you greater control over the load balancing configuration within the Kubernetes cluster.
 
 * **Learning Curve**: Kubernetes has more features and has therefore a more complex learning curve than Docker Swarm, which is designed to be lightweight.
 
