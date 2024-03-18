@@ -42,7 +42,7 @@ If the site or app is relatively simple, using a headless CMS might make the job
 
 ## Market alternatives and their standout features
 
-According to GPT-4, there are currently over 80 different providers of headless CMS to choose from. Far too many to include in this study, but here are some of the most popular, and their most important features.
+These are some of the most popular providers of headless CMS, as per winter 2024.
 
 **Decap CMS:** 
 Formerly known as Netlify CMS, Decap supports different Git platform APIs. It works with a host of static site generators, and offers authorization through Github, Gitlab, or Bitbucket and JSON web tokens, providing a secure and convenient way to manage access to the CMS.
