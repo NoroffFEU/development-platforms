@@ -42,6 +42,73 @@ Astro lets you mix your favorite tools like React, Svelte, Vue, and many more on
 
 - Learning Curve: New ideas like partial hydration and "Islands" might take some time to fully understand and get used to.
 
+## Getting Started
+
+Here are the main steps to start a new Astro project using npm.
+Before you begin, ensure you have Node.js installed on your system.
+
+## Step 1: Create a new Astro project
+
+To create a new project, open your terminal and run the following command:
+
+```bash
+npm create astro@latest
+```
+
+### Step 1.2: installation guide
+
+You will be prompted with the following:
+
+```bash
+Need to install the following packages:
+create-astro@version_number
+```
+
+Type "y" for yes and press Enter to continue.
+
+### Step 1.3: installation guide
+
+Enter the directory where you wish to install the project and press Enter.
+
+### Step 1.4: installation guide
+
+You will be asked if you would like to start with a clean project or with example files. Choose the option that suits you and press Enter.
+
+### Step 1.5: installation guide
+
+Decide if you want to use TypeScript. If yes, you will have the option to choose how strict the typing should be in the next step.
+
+### Step 1.6: installation guide
+
+When prompted to install dependencies, press yes or no based on your preference.
+
+### Step 1.7: installation guide
+
+Choose whether to initialize a new Git repository.
+
+## Step 2: Navigate to the project directory
+
+Once the project is created, navigate to the project directory:
+
+```bash
+cd your-project-name
+```
+## Step 3: Install dependencies
+
+if you chose not to install dependencies in the previous step run the following command
+
+```bash
+npm i
+```
+
+## Step 4: Run locally
+
+run the following command and have fun!
+
+```bash
+npm run dev
+```
+
 ## Summary
 
 Astro is a fresh new addition to web development, focusing on speed, flexibility, and better user experience. While it is relatively new, it will be exciting to see how it evolves in the future. As the community grows, I anticipate it will become an even stronger tool. Astro presents an intriguing option for developers. However, it raises the question: do we really need another framework in web development, or do the constant additions of new frameworks highlight underlying problems with JavaScript and today's web development practices? Something to think about!
