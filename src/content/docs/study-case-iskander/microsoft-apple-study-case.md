@@ -47,24 +47,49 @@ Apple Watch: A smartwatch focusing on health and connectivity.
 
 ## Market Comparison
 
-The competition between Microsoft and Apple highlights their different approaches to technology and market strategy. Microsoft's strength lies in software, cloud computing, and productivity solutions, targeting a broad market from individual consumers to large enterprises. Apple, on the other hand, focuses on integrating hardware and software to create an ecosystem of products that emphasize design, user experience, and customer loyalty.
-
-## Getting Started
-
-To explore Microsoft's offerings, start with their [Azure cloud services](https://azure.microsoft.com) or the [Office 365 suite](https://office.com). For Apple, consider experiencing the ecosystem through an [iPhone](https://www.apple.com/iphone/), [MacBook](https://www.apple.com/macbook/), or [Apple Watch](https://www.apple.com/watch/).
+The rivalry between Microsoft and Apple highlights different tech and market strategies. Microsoft excels in software, cloud computing, and productivity solutions for a broad audience. In contrast, Apple focuses on creating an integrated ecosystem of products emphasizing design, user experience, and loyalty.
 
 ## Conclusion
 
-Microsoft and Apple continue to lead the technology industry with their innovative products and strategies. While Microsoft excels in software and cloud services, Apple dominates in creating an integrated ecosystem of hardware and services. Both companies have their strengths and weaknesses, but their continued emphasis on innovation suggests a promising future for their technologies.
+Microsoft and Apple are still at the top in the tech world because of their new ideas and products. Microsoft is really good at making software and cloud services, and Apple is great at making all its devices work together smoothly. They both keep coming up with new things, showing that technology has a bright future ahead.
+
+## Development Platforms Comparison
+
+## Microsoft Azure vs. Apple iCloud
+
+Microsoft and Apple not only compete in consumer electronics and software but also offer robust development platforms that cater to developers and businesses. Microsoft Azure and Apple iCloud represent their foray into cloud computing, providing developers with the tools needed to build, deploy, and manage applications across a global network.
+
+## Microsoft Azure
+
+Microsoft Azure is a comprehensive cloud platform offering over 200 products and cloud services designed to help bring new solutions to life—to solve today’s challenges and create the future. Azure supports a range of operating systems, programming languages, frameworks, databases, and devices, allowing developers to run Linux containers with Docker integration, build apps with JavaScript, Python, .NET, PHP, Java, and more. Azure’s strength lies in its flexibility, scalability, and vast array of services that include but are not limited to AI, machine learning, Internet of Things (IoT), and analytics.
+
+## Apple iCloud
+
+Apple iCloud, on the other hand, is deeply integrated into Apple’s ecosystem, providing seamless storage and synchronization of documents, photos, and other data across all Apple devices. For developers, iCloud’s CloudKit offers a way to store users’ data in Apple’s cloud, making it available across devices while maintaining privacy and security. CloudKit provides automatic syncing and high availability of apps’ data, making it particularly useful for app developers looking to enhance the user experience by leveraging Apple’s cloud storage capabilities.
+
+## Conclusion
+
+Microsoft and Apple continue to lead technological innovation, shaping the future with their development platforms, Microsoft Azure and Apple iCloud. These platforms highlight their distinct approaches: Microsoft's versatility and breadth in services versus Apple's emphasis on integration and user experience. Their competition drives technological advancement, benefiting not just their ecosystems but the broader tech landscape. As they evolve, they underscore the critical role of development platforms in fostering innovation, supporting developers, and enhancing our digital lives.
 
 ## References
 
-- [Microsoft Official Website](https://microsoft.com)
-- [Apple Official Website](https://apple.com)
-- _Steve Jobs_ by Walter Isaacson, 2011
-- _The Innovators_ by Walter Isaacson, 2014
+[Microsoft Official Site](https://news.microsoft.com/facts-about-microsoft/)
+[Microsoft-official Site - About the company](https://www.microsoftalumni.com/s/1769/19/home.aspx?sid=1769&gid=2)
+[Microsoft site - future plans](https://news.microsoft.com/source/)
+[Microsoft-official-site] https://news.microsoft.com/facts-about-microsoft/
+[Microsoft site - inovation](https://www.microsoft.com/en-us/research/)
+[My least favorit site wikipedia](https://no.wikipedia.org/wiki/Microsoft)
+[SNL(Store norske leksikon)](https://snl.no/Microsoft)
 
-## Additional Resources
+[Apple Britannica](https://www.britannica.com/topic/Apple-Inc)
+[Tecktarget] (https://www.techtarget.com/searchmobilecomputing/definition/iPhone?fbclid=IwAR2_RyLIhBtja9JJlieSKDFGXlYswbhsAOZGSss4ifmHo7YCNNXYm7bCnKw
+)
+[Microsoft-azure](https://no.wikipedia.org/wiki/Microsoft_Azure)
+[Azuru-icloud](https://www.trustradius.com/compare-products/apple-icloud-vs-azure-backup#pricing)
+[Azuru-vs-icloud](https://www.g2.com/compare/apple-icloud-vs-microsoft-entra-id)
+(https://blog.internxt.com/onedrive-vs-icloud/)
 
-- [Microsoft's Productivity Tools](https://office.com)
-- [Exploring Apple's Ecosystem](https://www.apple.com)
+## Video resorses
+
+https://www.youtube.com/watch?v=6kIReB8tYwM
+https://www.youtube.com/watch?v=FTr8rgWQ7o4
