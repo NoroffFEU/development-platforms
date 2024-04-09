@@ -6,9 +6,9 @@ appropriate for your topic.
 
 ---
 
-title: Example Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+title: CodeSandbox Case Study
+author: Alexander Weidemann <Zaracki>, Cecilie Sunde <cecsun>, Charlotte Valset <CharlotteValset>
+tags: codesandbox, case study, platform
 
 ---
 
