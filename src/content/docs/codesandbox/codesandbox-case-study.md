@@ -82,8 +82,7 @@ In summary, while both CodeSandbox and CodePen serve as valuable tools for web d
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool.
-By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+![codeSandbox Getting started](~/assets/codesandbox/codesandbox-getting_started.png)
 
 ## Conclusion
 
