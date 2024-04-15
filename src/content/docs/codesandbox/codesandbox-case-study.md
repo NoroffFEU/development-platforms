@@ -1,9 +1,10 @@
-![CodeSandbox Logo](https://s3.us-east-1.amazonaws.com/olvy-production/media/organisation_07f4644d-d1ae-4461-9b30-91125a25f422/images/bdc631ef-a7c9-44d0-aa1e-5d809776ff7d.webp)
+---
 title: CodeSandbox Case Study
 author: Alexander Weidemann <Zaracki>, Cecilie Sunde <cecsun>, Charlotte Valset <CharlotteValset>
 tags: codesandbox, case study, platform, IDE
-
 ---
+
+![CodeSandbox Logo](https://s3.us-east-1.amazonaws.com/olvy-production/media/organisation_07f4644d-d1ae-4461-9b30-91125a25f422/images/bdc631ef-a7c9-44d0-aa1e-5d809776ff7d.webp)
 
 ## Introduction
 
