@@ -52,15 +52,7 @@ Example feature table:
 | GitHub App | The integration between CodeSandbox and Github allows you to instantly run every pull request and include all the review tooling you need to accelerate the review process. |
 | Context-Aware AI assistant: Boxy (Available to all Pro subscribers) | CodeSandbox has created an AI coding companion called Boxy to make development more accessible and to increase your state of flow. Boxy can assist you directly through the app preview and provide you with explanations and insights, as well as generate new code for your project that is tailored to your specific context within CodeSandbox.  |
 | Pre-configured environments | You can configure and run containers in any development environment in CodeSandbox with Dev Containers. Dev Containers allows you to customize your own container using Dockerfile, or you can use existing container images to set up your development environment. With Dev Containers you can enhance your environment by adding features on top of the container, and you can also use Docker Compose or a Dockerfile to run additional services.  |
-| Powerful DevTools | CodeSandbox allows you to add as many DevTools as you want, and with DevTools you can create shortcuts to run any command. DevTools are useful for debugging, testing, and developing, and you can share their content as they are collaborative by default.
-
-Available DevTools:
-- Preview
-- Task
-- Terminal
-- VM resource usage
-- Debug (Chrome DevTools)
- |
+| Powerful DevTools | CodeSandbox allows you to add as many DevTools as you want, and with DevTools you can create shortcuts to run any command. DevTools are useful for debugging, testing, and developing, and you can share their content as they are collaborative by default. |
 | Low Code Tooling (Available to Team Pro subscribers) | CodeSandbox wants to empower everyone to contribute and bring code beyond the development team. Their codebase is within reach of every single team member, including members with other skills like Product, Design and Marketing. Any team member can get a preview of development work, easily make changes and commit them with low-code tools. |
 | VS Code Extension | VS Code extensions is beneficial for collaboration, and it allows all your team members to follow your steps on VS Code without leaving the Web Editor. You can choose if you want to use the CodeSandbox editor for VS Code, or you can do all your work in VS Code without accessing CodeSandbox on the web. The CodeSandbox GitHub App will let you review PRs directly from VS Code while connected to CodeSandbox, where every PR will have a link to open the branch in VS Code. |
 | Online Code Editor | CodeSandbox has a web editor with a variety of templates, frameworks and playgrounds that allows you to code anything right from your browser, from prototypes to full-scale projects. |
