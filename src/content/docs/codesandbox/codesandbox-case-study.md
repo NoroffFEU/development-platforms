@@ -23,14 +23,14 @@ the most important information in the most effective way.
 
 You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
 
-2017 - CodeSandbox, an online code editor, was founded in the Netherlands by Ives van Hoorne and Bas Buursma.
-2018 - CodeSandbox announces two new features Dashboard and Teams and makes CodeSandbox Live free for everyone.
-2019 - CodeSandbox secures $2.4M in seed funding led by Kleiner Perkins, and has over 2 million projects created, while attracting over 1.2 million visitors every month.
-2020 - CodeSandbox raised a new $12.7M led by EQT Ventures, with support from existing investors. Introducing early access to Team Pro, a collaborative feature to code together or get feedback.
-2021 - CodeSandbox acquires Play.js making it free and integrated in CodeSandbox.
-2022 - CodeSandbox announces Projects a rewrite of CodeSandbox from the ground up. It integrates tightly with git and VSCode, and can run any project of any size.
-2023 - CodeSandbox announces the support of PHP development environments in CodeSandbox and introduces the Beta release of Boxy, its AI coding assistant.
-2024 - CodeSandbox introduces CodeSandbox CDE, making cloud-based coding accessible to everyone, and achieves a milestone of 3 million registered users.
+- **2017**: CodeSandbox, an online code editor, was founded in the Netherlands by Ives van Hoorne and Bas Buursma.
+- **2018**: CodeSandbox announces two new features Dashboard and Teams and makes CodeSandbox Live free for everyone.
+- **2019**: CodeSandbox secures $2.4M in seed funding led by Kleiner Perkins, and has over 2 million projects created, while attracting over 1.2 million visitors every month.
+- **2020**: CodeSandbox raised a new $12.7M led by EQT Ventures, with support from existing investors. Introducing early access to Team Pro, a collaborative feature to code together or get feedback.
+- **2021**: CodeSandbox acquires Play.js making it free and integrated in CodeSandbox.
+- **2022**: CodeSandbox announces Projects a rewrite of CodeSandbox from the ground up. It integrates tightly with git and VSCode, and can run any project of any size.
+- **2023**: CodeSandbox announces the support of PHP development environments in CodeSandbox and introduces the Beta release of Boxy, its AI coding assistant.
+- **2024**: CodeSandbox introduces CodeSandbox CDE, making cloud-based coding accessible to everyone, and achieves a milestone of 3 million registered users.
 
 ## Main Features
 
