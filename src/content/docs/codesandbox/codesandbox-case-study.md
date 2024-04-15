@@ -47,7 +47,7 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 - **2023**: Support for PHP development environments in **CodeSandbox** is announced.
 
   - **VS Code** support for SandBoxes is announced.
-  - **GO** support is integrated.
+  - **GO** language support is integrated.
   - The beta release of **Boxy**, an AI coding assistant for **CodeSandbox** is announced.
 
 ## Main Features
