@@ -84,11 +84,15 @@ What does the future look like for this tool?
 - JS Fiddle: <https://jsfiddle.net/>
 - Repl.it: <https://replit.com/>
 - Glitch: <https://glitch.com/>
-
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- https://codesandbox.io/features
+- https://codesandbox.io/blog/how-we-clone-a-running-vm-in-2-seconds
+- https://codesandbox.io/docs/learn/integrations/github-app
+- https://codesandbox.io/blog/meet-boxy-ai-coding-assistant
+- https://codesandbox.io/docs/tutorial/getting-started-with-dev-containers
+- https://codesandbox.io/docs/learn/devboxes/devtools
+- https://codesandbox.io/blog/everyone-can-commit
+- https://codesandbox.io/docs/learn/editors/vscode/overview
+- https://codesandbox.io/d
 
 ## Additional Resources
 
