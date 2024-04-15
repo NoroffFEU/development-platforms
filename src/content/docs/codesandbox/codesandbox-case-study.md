@@ -108,6 +108,12 @@ What does the future look like for this tool?
 
 ## References
 
+- CodeSandbox <https://codesandbox.io>
+- CodePen: <https://codepen.io>
+- JS Fiddle: <https://jsfiddle.net/>
+- Repl.it: <https://replit.com/>
+- Glitch: <https://glitch.com/>
+
 - [Example.com](https://example.com)
 - _Good Examples_ by John Doe, 1990
 - The Example Podcast, Episode 1
