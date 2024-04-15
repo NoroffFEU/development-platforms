@@ -23,13 +23,14 @@ the most important information in the most effective way.
 
 You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
 
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+2017 - CodeSandbox, an online code editor, was founded in the Netherlands by Ives van Hoorne and Bas Buursma.
+2018 - CodeSandbox announces two new features Dashboard and Teams and makes CodeSandbox Live free for everyone.
+2019 - CodeSandbox secures $2.4M in seed funding led by Kleiner Perkins, and has over 2 million projects created, while attracting over 1.2 million visitors every month.
+2020 - CodeSandbox raised a new $12.7M led by EQT Ventures, with support from existing investors. Introducing early access to Team Pro, a collaborative feature to code together or get feedback.
+2021 - CodeSandbox acquires Play.js making it free and integrated in CodeSandbox.
+2022 - CodeSandbox announces Projects a rewrite of CodeSandbox from the ground up. It integrates tightly with git and VSCode, and can run any project of any size.
+2023 - CodeSandbox announces the support of PHP development environments in CodeSandbox and introduces the Beta release of Boxy, its AI coding assistant.
+2024 - CodeSandbox introduces CodeSandbox CDE, making cloud-based coding accessible to everyone, and achieves a milestone of 3 million registered users.
 
 ## Main Features
 
