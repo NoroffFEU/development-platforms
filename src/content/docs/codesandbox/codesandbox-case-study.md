@@ -17,27 +17,51 @@ the most important information in the most effective way.
 
 You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
 
-- **2017**: CodeSandbox, an online code editor, was founded in the Netherlands by Ives van Hoorne and Bas Buursma.
-- **2018**: CodeSandbox announces two new features Dashboard and Teams and makes CodeSandbox Live free for everyone.
-- **2019**: CodeSandbox secures $2.4M in seed funding led by Kleiner Perkins, and has over 2 million projects created, while attracting over 1.2 million visitors every month.
-- **2020**: CodeSandbox raised a new $12.7M led by EQT Ventures, with support from existing investors. Introducing early access to Team Pro, a collaborative feature to code together or get feedback.
-- **2021**: CodeSandbox acquires Play.js making it free and integrated in CodeSandbox.
-- **2022**: CodeSandbox announces Projects a rewrite of CodeSandbox from the ground up. It integrates tightly with git and VSCode, and can run any project of any size.
-- **2023**: CodeSandbox announces the support of PHP development environments in CodeSandbox and introduces the Beta release of Boxy, its AI coding assistant.
-- **2024**: CodeSandbox introduces CodeSandbox CDE, making cloud-based coding accessible to everyone, and achieves a milestone of 3 million registered users.
+- **2017**: Founded in the Netherlands by **Ives van Hoorne** and **Bas Buursma**. **CodeSandbox** is an online code editor with a focus on sharing projects in React.
+
+  - At the end of 2017 GitHub Commiting & Opening PRs was announced and implemented.
+
+- **2018**: **CodeSandbox Live** is announced allowing for live collaboration and sharing with others.
+
+  - **Dashboard** is introduced allowing for personal organization of files by putting them in directories.
+  - **Teams** is introduced allowing for an even easier way to collaborate with shared directories and live collaboration.
+  - **CodeSandbox Live** is revealed to be free for everyone.
+
+- **2019**: **CodeSandbox** secures $2.4M in seed funding led by **Kleiner Perkins**, and has over 2 million projects created, while attracting over 1.2 million visitors every month.
+
+  - **CodeSandbox v3** is announced, introducing support for **VS Code Extensions**. In response, they have redesigned their editor to integrate better with this code editor, giving a more cohesive experience.
+
+- **2020**: **CodeSandbox** raised a new $12.7M led by **EQT Ventures**, with support from existing investors.
+
+  - **Team Pro** is announced, a collaborative feature to code together or get feedback.
+
+- **2021**: The acquisition of **Play.js** is announced, making it free and integrated in **CodeSandbox**.
+
+  - **Play.js Live** is introduced, allowing users to edit sandboxes in real-time from their iPad or iPhone and collaborate with anyone from **CodeSandbox**.
+
+- **2022**: **CodeSandbox Projects** is announced as a ground-up rewrite of **CodeSandbox**, tightly integrated with **Git** and **VS Code**.
+
+  - **CodeSandbox** for iOS is released, allowing iPhone and iPad users to access the cloud development platform from a native iOS IDE.
+  - **CodeSandbox GitHub App** is announced, allowing for a live development environment for every pull request.
+
+- **2023**: Support for PHP development environments in **CodeSandbox** is announced.
+
+  - **VS Code** support for SandBoxes is announced.
+  - **GO** support is integrated.
+  - The beta release of **Boxy**, an AI coding assistant for **CodeSandbox** is announced.
 
 ## Main Features
 
 | Feature                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| microVMs                                                     | CodeSandbox keeps your code running on fast microVMs that resume any development environment within 2 seconds. CodeSandbox runs your project and turns it into a link you can share with anyone. By following the link everyone can see your running code, and with “fork” they can get a copy within 2 seconds so they can easily contribute back.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| microVMs                                                            | CodeSandbox keeps your code running on fast microVMs that resume any development environment within 2 seconds. CodeSandbox runs your project and turns it into a link you can share with anyone. By following the link everyone can see your running code, and with “fork” they can get a copy within 2 seconds so they can easily contribute back.                                                                                                                                    |
 | GitHub App                                                          | The integration between CodeSandbox and Github allows you to instantly run every pull request and include all the review tooling you need to accelerate the review process.                                                                                                                                                                                                                                                                                                            |
 | Context-Aware AI assistant: Boxy (Available to all Pro subscribers) | CodeSandbox has created an AI coding companion called Boxy to make development more accessible and to increase your state of flow. Boxy can assist you directly through the app preview and provide you with explanations and insights, as well as generate new code for your project that is tailored to your specific context within CodeSandbox.                                                                                                                                    |
 | Pre-configured environments                                         | You can configure and run containers in any development environment in CodeSandbox with Dev Containers. Dev Containers allows you to customize your own container using Dockerfile, or you can use existing container images to set up your development environment. With Dev Containers you can enhance your environment by adding features on top of the container, and you can also use Docker Compose or a Dockerfile to run additional services.                                  |
-| Powerful DevTools                                                   | CodeSandbox allows you to add as many DevTools as you want, and with DevTools you can create shortcuts to run any command. DevTools are useful for debugging, testing, and developing, and you can share their content as they are collaborative by default. <br/> <br/> Available DevTools: <br/> - Preview <br/> - Task <br/> - Terminal <br/> - VM resource usage <br/> - Debug (Chrome DevTools)                                                                                                                                                                                                                           |
+| Powerful DevTools                                                   | CodeSandbox allows you to add as many DevTools as you want, and with DevTools you can create shortcuts to run any command. DevTools are useful for debugging, testing, and developing, and you can share their content as they are collaborative by default. <br/> <br/> Available DevTools: <br/> - Preview <br/> - Task <br/> - Terminal <br/> - VM resource usage <br/> - Debug (Chrome DevTools)                                                                                   |
 | Low Code Tooling (Available to Team Pro subscribers)                | CodeSandbox wants to empower everyone to contribute and bring code beyond the development team. Their codebase is within reach of every single team member, including members with other skills like Product, Design and Marketing. Any team member can get a preview of development work, easily make changes and commit them with low-code tools.                                                                                                                                    |
 | VS Code Extension                                                   | VS Code extensions is beneficial for collaboration, and it allows all your team members to follow your steps on VS Code without leaving the Web Editor. You can choose if you want to use the CodeSandbox editor for VS Code, or you can do all your work in VS Code without accessing CodeSandbox on the web. The CodeSandbox GitHub App will let you review PRs directly from VS Code while connected to CodeSandbox, where every PR will have a link to open the branch in VS Code. |
-| Online Code Editor                                                  | CodeSandbox has a web editor with a variety of templates, frameworks and playgrounds that allows you to code anything right from your browser, from prototypes to full-scale projects.                                                                         
+| Online Code Editor                                                  | CodeSandbox has a web editor with a variety of templates, frameworks and playgrounds that allows you to code anything right from your browser, from prototypes to full-scale projects.                                                                                                                                                                                                                                                                                                 |
 
 ## Market Comparison
 
