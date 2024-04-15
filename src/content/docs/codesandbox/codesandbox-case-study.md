@@ -50,6 +50,20 @@ You may use a bullet point list or subheadings to structure a timeline of your c
   - **GO** language support is integrated.
   - The beta release of **Boxy**, an AI coding assistant for **CodeSandbox** is announced.
 
+## Brief History (New)
+
+- **2017**: Founded in the Netherlands by **Ives van Hoorne** and **Bas Buursma**. **CodeSandbox** is an online code editor with a focus on sharing projects in React.
+
+- **2018**: **CodeSandbox Live** is announced, enabling live collaboration and sharing. Dashboard and Teams features are introduced for enhanced organization and collaboration.
+- **2019**: Secures $2.4M in seed funding led by **Kleiner Perkins** and surpasses 2 million projects created.
+  - **CodeSandbox v3** is announced, introducing support for **VS Code Extensions**.
+- **2020**: Raises $12.7M in funding led by **EQT Ventures**, with support from existing investors and introduces **Team Pro** for collaborative coding across your team.
+- **2021**: The acquisition of **Play.js** leads to its integration into **CodeSandbox**, alongside the introduction of **Play.js Live** for real-time collaboration from iPhone or Ipad.
+- **2022**: **CodeSandbox Projects** is announced, featuring tight integration with **Git** and **VS Code**.
+  - **CodeSandbox** for **iOS** and **CodeSandbox GitHub App** is released.
+- **2023**: Support for PHP development environments, **VS Code** support for Sandboxes, and integration of **GO** language support are announced.
+  - The beta release of **Boxy**, an AI coding assistant for **CodeSandbox** is also released.
+
 ## Main Features
 
 | Feature                                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
