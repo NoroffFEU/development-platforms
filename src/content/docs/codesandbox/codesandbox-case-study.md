@@ -7,8 +7,8 @@ appropriate for your topic.
 ---
 
 title: CodeSandbox Case Study
-author: Alexander Weidemann <Zaracki>, Cecilie Sunde <cecsun>, Charlotte Valset <CharlotteValset>
-tags: codesandbox, case study, platform
+authors: Alexander Weidemann <Zaracki>, Cecilie Sunde <cecsun>, Charlotte Valset <CharlotteValset>
+tags: codesandbox, case study, platform, IDE
 
 ---
 
@@ -55,16 +55,30 @@ You may find this online tool useful for creating tables: https://www.tablesgene
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages
-of your chosen tool to other similar tools. You may use subheadings,
-tables or bullet points to structure your description.
+In the competitive landscape of online integrated development environments (IDEs), CodeSandbox stands out as a specialized platform for web development. Its primary competitors include CodePen, JSFiddle, Repl.it, and Glitch.
 
-If you are writing about an open source tool, it may be a good idea
-to compare it to similar proprietary tools. Likewise, if you are writing
-about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+CodeSandbox distinguishes itself by focusing specifically on web development, offering pre-configured environments for various frameworks and libraries commonly used in front-end and back-end development. This specialization makes it an attractive choice for developers looking for a comprehensive solution tailored to their needs.
 
-Similarly, a self hosted tool and a cloud based tool with a
-similar purpose may make for a good comparison.
+**Strengths and Weaknesses**
+
+One of CodeSandbox's key strengths lies in its comprehensive feature set. It provides support for multiple files, dependencies management, live previews, built-in terminals, and collaboration tools, all within a simple and intuitive interface. Additionally, CodeSandbox seamlessly integrates with version control systems like Azure DevOps, GitHub, GitLab, and Bitbucket, allowing developers to import existing projects or save work directly to repositories.
+
+Despite its strengths, CodeSandbox may have a learning curve for new users, particularly those unfamiliar with its feature set. Additionally, the platform's performance may be impacted by the complexity of projects, particularly those with numerous dependencies.
+
+**CodeSandbox vs CodePen**
+
+CodePen and CodeSandbox are both online platforms designed to help developers write, share, and collaborate on web development projects. While they share similarities, there are some key differences between them:
+
+| Feature               | CodeSandbox                                                                                                                                                                                                                                                                   | CodePen                                                                                                                                                                                                                                        |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Focus                 | Offers a more comprehensive development environment that supports full-stack web development. It provides pre-configured environments for various frameworks and libraries, allowing developers to work on more complex projects, including both front-end and back-end code. | Primarily focuses on creating and sharing front-end web development projects, such as HTML, CSS, and JavaScript code snippets. It's often used for creating visual demos, prototypes, and small projects.                                      |
+| Environment           | Provides a complete development environment with support for multiple files, dependencies, and configurations. It's better suited for developing and testing entire applications, including those built with frameworks like React, Vue.js, Angular, etc.                     | Centered around crafting standalone code snippets or small projects, the platform lacks the robust environment needed for full application development.                                                                                        |
+| Dependency Management | Provides robust dependency management through package managers like npm and Yarn. It offers pre-configured environments for popular frameworks and libraries, allowing developers to add dependencies and manage project configurations.                                      | Allows users to include external libraries and frameworks via CDN links or by importing projects from GitHub repositories.                                                                                                                     |
+| Integration           | Integrates with version control systems like GitHub, making it easier to import existing projects or save work directly to repositories.                                                                                                                                      | Integrates with various front-end development tools and services, allowing users to easily embed pens into websites or share them on social media.                                                                                             |
+| Collaboration         | Offers features geared towards team collaboration, such as real-time editing and sharing of entire projects.                                                                                                                                                                  | Supports collaboration to some extent.                                                                                                                                                                                                         |
+| Community             | Cultivates an active community centered around full-stack web development and application building. Developers collaborate on projects, exchange insights, and provide support, contributing to a vibrant ecosystem of web development enthusiasts.                           | Has an engaged community where developers share their creations, offer feedback, and collaborate on various projects. Its community often thrives on creativity and front-end design, with a focus on visually appealing demos and prototypes. |
+
+In summary, while both CodeSandbox and CodePen serve as valuable tools for web developers, their differences lie in their focus, environment, collaboration features, and integration capabilities. CodePen is often used for creating and sharing code snippets and small front-end projects, while CodeSandbox offers a more comprehensive development environment suitable for full-stack web development.
 
 ## Getting Started
 
