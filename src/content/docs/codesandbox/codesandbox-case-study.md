@@ -8,7 +8,7 @@ tags: codesandbox, case study, platform, IDE
 
 ## Introduction
 
-CodeSandbox offers a fully collaborative cloud development environment for teams to share, code and collaborate across multiple devices. The core vision of CodeSandbox is to empower users to start coding instantly with minimal prior knowledge.
+CodeSandbox offers a fully collaborative cloud development environment for teams to code, share and collaborate across multiple devices. The core vision of CodeSandbox is to empower users to start coding instantly with minimal prior knowledge, while also providing a platform to easily discover examples.
 
 In addition to its collaborative functions, CodeSandbox makes the development process easier by offering an extensive library of pre-configured templates, libraries and frameworks. This allows users to start coding without spending much time setting up environments.
 
