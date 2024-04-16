@@ -62,6 +62,7 @@ You may use a bullet point list or subheadings to structure a timeline of your c
   - **CodeSandbox** for **iOS** and **CodeSandbox GitHub App** is released.
 - **2023**: Support for PHP development environments, **VS Code** support for Sandboxes, and integration of **GO** language support are announced.
   - The beta release of **Boxy**, an AI coding assistant for **CodeSandbox** is also released.
+- **2024**: **CodeSandbox** introduces **CodeSandbox CDE**, making their cloud-based coding accessible to everyone, and achieves a milestone of 3 million registered users.
 
 ## Main Features
 
