@@ -8,10 +8,7 @@ tags: codesandbox, case study, platform, IDE
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion.
-Your selected topic may or may not conform to this structure. As a content author or
-editor you should use your discretion and structure each document in order to convey
-the most important information in the most effective way.
+CodeSandbox offers a fully collaborative cloud development environment for teams to share, code and collaborate across multiple devices. The core vision of CodeSandbox is to empower users to start coding instantly with minimal prior knowledge.
 
 ## Brief History
 
