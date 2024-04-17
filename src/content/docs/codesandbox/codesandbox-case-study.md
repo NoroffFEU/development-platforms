@@ -110,10 +110,12 @@ CodeSandbox and Replit are both online platforms designed to help developers wri
   ![CodeSandbox, Start coding](~/assets/codesandbox/codesandbox-start_coding.png)
 
 ## Conclusion
+CodeSandbox is a specialized platform for web development that offers pre-configured environments for various frameworks and libraries, which makes this platform an attractive choice for developers. The main advantages of CodeSandbox is their 24/7 collaborative cloud development environments suitable for full-stack web development, followed by their comprehensive set of features. Although CodeSandbox offers an extensive set of features suitable for all development, this may also be one of their disadvantages as the learning curve may be steep for new users with less development knowledge when getting to know all the different features.
 
-This section can be used to summarize your findings.
-What are the main advantages and disadvantages of your chosen tool?
-What are the main use cases for this tool? What are the main limitations of this tool?
+The main use case for CodeSandbox is that it allows you to resume any development environment within 2 seconds. CodeSandbox includes all the review tooling you need to accelerate the review process. Another use case for this platform is that it allows you to start coding instantly and add as many devtools as you want for your development. CodeSandbox offers an online code editor for developers to learn and experiment with different templates, frameworks etc.  
+
+
+What are the main limitations of this tool?
 What does the future look like for this tool?
 
 ## References
