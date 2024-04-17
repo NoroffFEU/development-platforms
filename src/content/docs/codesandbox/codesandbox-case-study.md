@@ -46,13 +46,13 @@ In the competitive landscape of online integrated development environments (IDEs
 
 CodeSandbox distinguishes itself by focusing specifically on web development, offering pre-configured environments for various frameworks and libraries commonly used in front-end and back-end development. This specialization makes it an attractive choice for developers looking for a comprehensive solution tailored to their needs.
 
-## Strengths and Weaknesses
+**Strengths and Weaknesses**
 
 One of CodeSandbox's key strengths lies in its comprehensive feature set. It provides support for multiple files, dependencies management, live previews, built-in terminals, and collaboration tools, all within a simple and intuitive interface. It seamlessly integrates with version control systems like Azure DevOps, GitHub, GitLab, and Bitbucket, allowing developers to import existing projects or save work directly to repositories.
 
 Despite its strengths, CodeSandbox may have a learning curve for new users with less development knowledge, mainly those unfamiliar with its feature set. The platform's performance may be impacted by the complexity of projects, particularly those with numerous dependencies.
 
-## CodeSandbox vs Replit
+### CodeSandbox vs Replit
 
 CodeSandbox and Replit are both online platforms designed to help developers write, share, and collaborate on web development projects. While they share similarities, there are some key differences between them:
 
@@ -67,7 +67,47 @@ CodeSandbox and Replit are both online platforms designed to help developers wri
 
 ## Getting Started
 
-![codeSandbox Getting started](~/assets/codesandbox/codesandbox-getting_started.png)
+### Importing repository from GitHub
+
+- **Sign in**
+
+  ![CodeSandbox, Sign in](~/assets/codesandbox/codesandbox-sign_in.png)
+
+- **Select "Import repository"**
+
+  ![CodeSandbox, Getting started](~/assets/codesandbox/codesandbox-getting_started.png)
+
+- **Locate chosen repository**
+
+- **Project setup**
+
+  - Step 1: Configure microVM environment
+
+    ![CodeSandbox, Project setup - step 1](~/assets/codesandbox/codesandbox-step1.png)
+
+  - Step 2: Define tasks
+
+    ![CodeSandbox, Project setup - step 2](~/assets/codesandbox/codesandbox-step2.png)
+
+  - Step 3: Set environment variables
+
+    ![CodeSandbox, Project setup - step 3](~/assets/codesandbox/codesandbox-step3.png)
+
+  - Step 4: Install GitHub App
+
+    ![CodeSandbox, Project setup - step 4](~/assets/codesandbox/codesandbox-step4.png)
+
+  - Step 5: Preferences
+
+    ![CodeSandbox, Project setup - step 5](~/assets/codesandbox/codesandbox-step5.png)
+
+  - Step 6: Review and run your setup
+
+    ![CodeSandbox, Project setup - step 6](~/assets/codesandbox/codesandbox-step6.png)
+
+- **Start coding!**
+
+  ![CodeSandbox, Start coding](~/assets/codesandbox/codesandbox-start_coding.png)
 
 ## Conclusion
 
