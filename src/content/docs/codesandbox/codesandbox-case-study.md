@@ -46,7 +46,7 @@ In the competitive landscape of online integrated development environments (IDEs
 
 CodeSandbox distinguishes itself by focusing specifically on web development, offering pre-configured environments for various frameworks and libraries commonly used in front-end and back-end development. This specialization makes it an attractive choice for developers looking for a comprehensive solution tailored to their needs.
 
-**Strengths and Weaknesses**
+### Strengths and Weaknesses
 
 One of CodeSandbox's key strengths lies in its comprehensive feature set. It provides support for multiple files, dependencies management, live previews, built-in terminals, and collaboration tools, all within a simple and intuitive interface. It seamlessly integrates with version control systems like Azure DevOps, GitHub, GitLab, and Bitbucket, allowing developers to import existing projects or save work directly to repositories.
 
