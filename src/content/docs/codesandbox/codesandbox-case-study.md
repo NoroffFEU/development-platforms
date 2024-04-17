@@ -126,12 +126,10 @@ What does the future look like for this tool?
 - Replit: <https://replit.com/>
 - Glitch: <https://glitch.com/>
 - https://codesandbox.io/features
-- https://codesandbox.io/blog/how-we-clone-a-running-vm-in-2-seconds
+- https://codesandbox.io/blog
 - https://codesandbox.io/docs/learn/integrations/github-app
-- https://codesandbox.io/blog/meet-boxy-ai-coding-assistant
 - https://codesandbox.io/docs/tutorial/getting-started-with-dev-containers
 - https://codesandbox.io/docs/learn/devboxes/devtools
-- https://codesandbox.io/blog/everyone-can-commit
 - https://codesandbox.io/docs/learn/editors/vscode/overview
 - https://codesandbox.io/d
 
