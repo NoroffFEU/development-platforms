@@ -4,7 +4,7 @@ author: KristianNilsenAug22FT
 tags: google angular, case study, front-end development
 ---
 
-![image](https://github.com/KristianNilsenAug22FT/development-platforms/assets/114563561/1325d3b0-de67-4fc3-821d-f088be602a3d)
+![image](~/assets/frameworks/angular/angular.png)
 
 The official Angular logo is available for download on their webpage and are provided under CC BY 4.0.
 
