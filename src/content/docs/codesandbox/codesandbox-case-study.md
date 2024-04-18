@@ -60,12 +60,19 @@ CodeSandbox and Replit are both online platforms designed to help developers wri
 | :-------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |         Focus         | Offers a comprehensive development environment that supports full-stack web development. It provides pre-configured environments for various frameworks and libraries, allowing developers to work on more complex projects, including both front-end and back-end code. | Focuses on providing a versatile coding environment for a wide range of programming languages and projects. While it also supports web development, it caters to a broader audience, including students, educators, and hobbyists, making it suitable for various use cases beyond just web development. |
 |      Environment      | Provides a complete development environment with support for multiple files, dependencies, and configurations. It's better suited for developing and testing entire applications, including those built with frameworks like React, Vue.js, Angular, etc.                | Offers a flexible coding environment with support for various programming languages and frameworks. It provides a simple and intuitive interface for writing and running code online, making it accessible to users of all skill levels.                                                                 |
-| Dependency Management | Provides robust dependency management through package managers like npm and Yarn. It offers pre-configured environments for popular frameworks and libraries, allowing developers to add dependencies and manage project configurations.                                 | Also offers dependency management features, allowing users to install and manage dependencies for their projects. It provides support for a wide range of programming languages and packages, making it easy to get started with new projects.                                                           |
+| Dependency Management | Provides robust dependency management through package managers like npm and Yarn. It offers pre-configured environments for popular frameworks and libraries, allowing developers to add dependencies and manage project configurations.                                 | Replit offers dependency management features, allowing users to install and manage dependencies for their projects. They also provide support for a wide range of programming languages and packages, making it easy to get started with new projects.                                                   |
 |      Integration      | Integrates with version control systems like Azure DevOps, GitHub, GitLab, and Bitbucket, making it easier to import existing projects or save work directly to repositories.                                                                                            | Replit seamlessly integrates with Git, enabling project imports from GitHub and built-in version control for easy collaboration and change tracking.                                                                                                                                                     |
 |     Collaboration     | Offers features geared towards team collaboration, such as real-time editing and sharing of entire projects.                                                                                                                                                             | Facilitates real-time editing and sharing of projects and offers multiplayer coding sessions, enabling multiple users to code together simultaneously.                                                                                                                                                   |
-|       Community       | Cultivates an active community centered around full-stack web development and application building. Developers collaborate on projects, exchange insights, and provide support, contributing to a vibrant ecosystem of web development enthusiasts.                      | Similarly fosters a strong community, with a focus on education, learning, and collaboration. It provides resources for teachers and students, encourages collaboration among users, and hosts coding challenges and events to engage the community.                                                     |
+|       Community       | Cultivates an active community centred around full-stack web development and application building. Developers collaborate on projects, exchange insights, and provide support, contributing to a vibrant ecosystem of web development enthusiasts.                       | Similarly fosters a strong community with a focus on education, learning, and collaboration. It provides resources for teachers and students, encourages collaboration among users, and hosts coding challenges and events to engage the community.                                                      |
 
 ## Getting Started
+
+When entering CodeSandbox, you have two options:
+
+1. **Try for Free**: Create a Devbox/Sandbox, choose an environment template, and start coding as a not-logged-in user.
+2. **Sign In**: You can sign in with GitHub, Google, Apple, or SSO (Single Sign-On).
+
+As a logged-in user, you can additionally import repositories from Github (using Terminal you can also import from GitLab, Bitbucket and Azure DevOps) and CodeSandbox will automatically scan the package.json to detect and suggest the best configuration, or you can set up a custom environment using the built-in Dev Container integration.
 
 ### Importing repository from GitHub
 
@@ -75,9 +82,9 @@ CodeSandbox and Replit are both online platforms designed to help developers wri
 
 - **Select "Import repository"**
 
-  ![CodeSandbox, Getting started](~/assets/codesandbox/codesandbox-getting_started.png)
+  ![CodeSandbox, Project choices](~/assets/codesandbox/codesandbox-project_choices.png)
 
-- **Locate chosen repository**
+- **Locate the repository**
 
 - **Project setup**
 
@@ -123,22 +130,20 @@ What does the future look like for this tool?
 ## References
 
 - CodeSandbox <https://codesandbox.io>
+- CodeSandbox <https://codesandbox.io/d>
 - CodeSandbox <https://codesandbox.io/?from-app=1>
+- CodeSandbox <https://codesandbox.io/features>
+- CodeSandbox <https://codesandbox.io/blog>
 - CodeSandbox <https://codesandbox.io/docs/faq>
+- CodeSandbox <https://codesandbox.io/docs/learn/integrations/github-app>
+- CodeSandbox <https://codesandbox.io/docs/tutorial/getting-started-with-dev-containers>
+- CodeSandbox <https://codesandbox.io/docs/learn/devboxes/devtools>
+- CodeSandbox <https://codesandbox.io/docs/learn/editors/vscode/overview>
 - CodePen: <https://codepen.io>
 - StackBlitz: <https://stackblitz.com//>
 - Replit: <https://replit.com/>
 - Glitch: <https://glitch.com/>
-- https://codesandbox.io/features
-- https://codesandbox.io/blog
-- https://codesandbox.io/docs/learn/integrations/github-app
-- https://codesandbox.io/docs/tutorial/getting-started-with-dev-containers
-- https://codesandbox.io/docs/learn/devboxes/devtools
-- https://codesandbox.io/docs/learn/editors/vscode/overview
-- https://codesandbox.io/d
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://www.youtube.com/watch?v=aSDSpRxkTnY)
 - [Getting started with CodeSandbox, tutorial YouTube](https://www.youtube.com/watch?v=aSDSpRxkTnY)
