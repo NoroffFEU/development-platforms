@@ -1,7 +1,7 @@
 ---
-Title: Case Study of Prettier Code Formatter, a VSCode Extension
-Author: Roar Falch Hanssen (roahan10771@stud.noroff.no)
-Tags: Prettier Code Formatter, VSCode extension, Case study
+title: Prettier Code Formatter
+author: Roar Falch Hanssen (roahan10771@stud.noroff.no)
+tags: Prettier Code Formatter, VSCode extension, Case study
 ---
 
 ## Introduction
