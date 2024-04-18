@@ -67,12 +67,12 @@ CodeSandbox and Replit are both online platforms designed to help developers wri
 
 ## Getting Started
 
-When entering CodeSandbox, you have two options:
+When entering CodeSandbox, there are two options:
 
 1. **Try for Free**: Create a Devbox/Sandbox, choose an environment template, and start coding as a not-logged-in user.
-2. **Sign In**: You can sign in with GitHub, Google, Apple, or SSO (Single Sign-On).
+2. **Sign In**: Sign in with GitHub, Google, Apple, or SSO (Single Sign-On).
 
-As a logged-in user, you can additionally import repositories from Github (using Terminal you can also import from GitLab, Bitbucket and Azure DevOps) and CodeSandbox will automatically scan the package.json to detect and suggest the best configuration, or you can set up a custom environment using the built-in Dev Container integration.
+Logged-in users can additionally import repositories from Github (using Terminal they can also import from GitLab, Bitbucket and Azure DevOps) and CodeSandbox will automatically scan the package.json to detect and suggest the best configuration, or they can set up a custom environment using the built-in Dev Container integration.
 
 ### Importing repository from GitHub
 
@@ -120,12 +120,10 @@ As a logged-in user, you can additionally import repositories from Github (using
 
 CodeSandbox is a specialized platform for web development that offers pre-configured environments for various frameworks and libraries, which makes this platform an attractive choice for developers. The main advantages of CodeSandbox is their 24/7 collaborative cloud development environments suitable for full-stack web development, followed by their comprehensive set of features. Although CodeSandbox offers an extensive set of features suitable for all development, this may also be one of their disadvantages as the learning curve may be steep for new users with less development knowledge when getting to know all the different features.
 
-The main use case for CodeSandbox is that it allows you to resume any development environment within 2 seconds. CodeSandbox includes all the review tooling you need to accelerate the review process. Another use case for this platform is that it allows you to start coding instantly and add as many devtools as you want for your development. CodeSandbox offers an online code editor for developers to learn and experiment with different templates, frameworks etc.
+The main use case for CodeSandbox is that it allows the user to resume any development environment within 2 seconds. CodeSandbox includes all the review tooling needed to accelerate the review process. Another use case for this platform is that it allows users to start coding instantly and add as many devtools as they want for the development. CodeSandbox offers an online code editor for developers to learn and experiment with different templates, frameworks etc.
 
 As CodeSandbox runs entirely from the browser, it encounters potential limitations
 because of its browser based development environments. These include potential slow performance when dealing with large projects, interruption due to loss of internet connection when working individually or collaboratively and limited support for niche libraries.
-
-What does the future look like for this tool?
 
 ## References
 
@@ -146,4 +144,5 @@ What does the future look like for this tool?
 
 ## Additional Resources
 
+- ChatGPT <https://chat.openai.com/>
 - [Getting started with CodeSandbox, tutorial YouTube](https://www.youtube.com/watch?v=aSDSpRxkTnY)
