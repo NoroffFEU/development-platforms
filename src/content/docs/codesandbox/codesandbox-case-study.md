@@ -4,7 +4,7 @@ author: Alexander Weidemann <Zaracki>, Cecilie Sunde <cecsun>, Charlotte Valset 
 tags: codesandbox, case study, platform, IDE
 ---
 
-![CodeSandbox Logo](~/assets/codesandbox/codesandbox-logo.png)
+![CodeSandbox Logo](~/assets/codesandbox/codesandbox-logo.jpg)
 
 ## Introduction
 
