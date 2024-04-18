@@ -144,5 +144,5 @@ because of its browser based development environments. These include potential s
 
 ## Additional Resources
 
-- ChatGPT <https://chat.openai.com/>
 - [Getting started with CodeSandbox, tutorial YouTube](https://www.youtube.com/watch?v=aSDSpRxkTnY)
+- ChatGPT <https://chat.openai.com/>
