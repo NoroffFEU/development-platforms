@@ -20,7 +20,7 @@ In addition to its collaborative functions, CodeSandbox makes the development pr
 - **2019**: Secures $2.4M in seed funding led by **Kleiner Perkins** and surpasses 2 million projects created.
   - **CodeSandbox v3** is announced, introducing support for **VS Code Extensions**.
 - **2020**: Raises $12.7M in funding led by **EQT Ventures**, with support from existing investors and introduces **Team Pro** for collaborative coding across your team.
-- **2021**: The acquisition of **Play.js** leads to its integration into **CodeSandbox**, alongside the introduction of **Play.js Live** for real-time collaboration from iPhone or Ipad.
+- **2021**: The acquisition of **Play.js** leads to its integration into **CodeSandbox**, alongside the introduction of **Play.js Live** for real-time collaboration from iPhone or iPad.
 - **2022**: **CodeSandbox Projects** is announced, featuring tight integration with **Git** and **VS Code**.
   - **CodeSandbox** for **iOS** and **CodeSandbox GitHub App** is released.
 - **2023**: Support for PHP development environments, **VS Code** support for Sandboxes, and integration of **GO** language support are announced.
