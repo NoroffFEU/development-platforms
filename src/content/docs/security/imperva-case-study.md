@@ -4,8 +4,6 @@ author: Andreas Ulvund <Ulvounth>
 tags: Imperva, cybersecurity, case study, data protection, application security
 ---
 
-![download](https://github.com/Ulvounth/FootballScore/assets/98667510/66dbdc3a-c3bb-4558-816e-b5ef728e562d)
-
 ## Introduction
 
 Imperva, a premier cybersecurity firm, provides crucial data management, security, and compliance solutions to organizations. By leveraging cutting-edge technologies, Imperva enables businesses to safeguard sensitive information and protect against cyber threats while ensuring compliance with regulatory requirements. This report explores Imperva's offerings, detailing its history, applications, and a comparative analysis with its competitors to elucidate its position in the cybersecurity market.
