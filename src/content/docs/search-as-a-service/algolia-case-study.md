@@ -16,12 +16,21 @@ I will now adress key events in the platforms history, some of its main function
 
 - **October 2012**: Algolia is founded by Nicolas Dessaigne and Julien Lemoine based in Paris, France. Originally only focused on offline sarch for mobile phones.
 - **March 2014**: Selected as part of Y Combinator's startup accelerator class, which lead to expanding from 2 data centers in Europe to a third in Singapore and with further big investments sice, to over 70 in different regions all over the world.
+- **2017-2020**: Continues expanding globally and launches new products and features, like personalization capabilities, analytics tools and integration with other big dev frameworks and platforms.
+
+- **Now**: Algolia focuses on expanding market presence, serving a wider range of customers.
 
 ## Main Features
 
 ## Market Comparison
 
-Google: Sitelinks Search Box, No Site Links Search and Custom Search
+Search-as-a-service is becoming a large market, expanding with the development of Artificial Inteligence. We can split the market in two categories. Standalone SaaS companies, which include Algolia, Elastic and Solr, and cloud providers offering search solutions, like Amazon and Azure Cognitive Search.
+
+**Standalone**
+
+**Cloud Providers**
+
+Elastic, Solr, Azure cognitive search
 
 ## Using Algolia
 
