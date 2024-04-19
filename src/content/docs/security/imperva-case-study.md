@@ -14,13 +14,13 @@ Imperva's history is marked by innovation and strategic acquisitions, which have
 
 - **2002:** Imperva is founded by Shlomo Kramer, Amichai Shulman, and Mickey Boodaei.
 - **2004:** Launch of SecureSphere, an advanced web application firewall.
-- **2011:** Imperva goes public on the NYSE.
+- **2011:** Imperva goes public on the New York Stock Exchange(NYSE).
 - **2014:** Acquisition of Incapsula, expanding services in DDoS protection and CDN.
 - **2017:** Imperva launches Camouflage Data Masking to enhance data privacy.
 - **2018:** Thoma Bravo acquires Imperva in a deal valuing it at $2.1 billion.
 - **2019:** Introduction of Sonar, integrating services for cloud and data security.
 - **2021:** Imperva acquires API security company CloudVector.
-- **2023:** Thoma Bravo completes sale of Imperva to Thales in an all-cash transaction that values the company at approximately $3.6 billion.
+- **2023:** Thoma Bravo completes sale of Imperva to Thales Group in an all-cash transaction that values the company at approximately $3.6 billion.
 
 ## Main Features
 
