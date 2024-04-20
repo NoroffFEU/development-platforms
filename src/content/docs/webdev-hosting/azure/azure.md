@@ -1,23 +1,34 @@
 ---
 title: Azure Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+author: ArneBHuset/Arne Bjelde Hustivet
+tags: Microsoft Azure, case study, platform, webhosting
 ---
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+Microsoft Azure, most often refered to as Azure, is a cloud computing platform, created by Microsoft. Im broad terms, Azures offers tools and services to help businesses and individuals manage and enahance their digital operations. The platform consists of more then 200 products meant for building, testing, deploying and managing applications and services, all utilizng cloud technology. In this case study, we will dive deeper into the this technology, it's history, background, features and market comparison. We wil also dive into how to utlize and setup the technology.  
 
 ## Brief History
 
 You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 2008: Microsoft Azure is announced as a competitor to Amazon EC2 and Google App Engine.
+- 2010: Azure becomes commercially available.
+- 2011: The concept of "infrastrucutre as a service" (IaaS) is introduced, allowing users to run virtual machines on the cloud. 
+- 2012: Windows Azure Websites was annonced, allowing developers to build sites using ASP.NET, PHP, Node.js or Pyhthon and easily deploy them to the cloud. 
+- 2014: Windows Azure was rebranded Microsoft Azure to reflect the growing capabilities beyond Windows. 
+- 2016: Azure stack is announced, allowing organizations to run Azure services from the own data centers. 
+- 2017: Axure Comsos DB, a globally distributed, multi-model databse service was announced. 
+- 2018: Azure kubernetes services (AKS) was announced, offering managed Kubernetes on Azure. Confidential computing was made available, adding new data security technologies. 
+- 2019: Microsoft announced Azure Blockchain Service, making it simpler to deploy secure blockchain networks
+- 2020: New AI-driven data analytics platform called Azure Synapse Analaytics was introduced. 
+- 2021: Microsoft Mesh was announced, offering mixed realtiy capabilities integrated with Azure. 
+- 2022: Azure OpenAI was launched. Integrating AI models like GPT-3 into its cloud offering
+- 2023: More advanced AI and machine learning tools are made available. Increased efforts in Azures sustainability efforts, including tools to measure and manage carbon emissions. 
+- 2024: Ongoing plans to moce Azure's global infrastrucutre towards, and further integrating is with quantom computing technologies. 
+
+## Bacground
+
+To understand Microsfot Azure, one has to understand the term "cloud" in corrolation with computer science. 
 
 ## Main Features
 
@@ -56,7 +67,7 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## References
 
-- [Example.com](https://example.com)
+- https://www.forbes.com/sites/janakirammsv/2020/02/03/a-look-back-at-ten-years-of-microsoft-azure/
 - *Good Examples* by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
