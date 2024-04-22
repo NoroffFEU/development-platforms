@@ -1,12 +1,14 @@
 ---
-title: Travis-CI Case Study
-author: Morten Ramfjord, ramsnes
-tags: travisci, travis, travis-ci
+Title: Travis-CI Case Study
+Author: Morten Ramfjord, github.com/Ramsnes
+Tags: travisci, travis, travis-ci
 ---
 
 ## Introduction
 
 Travis-CI is a hosted, open sourced continuous integration (CI) platform. Developers' software builds, tests, deployments and infrastructures are set up and managed by Travis-CI.
+
+---
 
 ## Brief History and platform information
 
@@ -22,9 +24,13 @@ Travis CI has some impressive statistics as a developer platform. They have:
 - Almost 1 million active open source projects
 - Over 300.000 active projects use Travis CI
 
+---
+
 ## Main Features
 
 The primary purpose of Travis CI is to help test and deploy developers' software builds. Utilizing Travis CI's service and their tools makes the process more reliable and less time-consuming for the client, thus improving the development process.
+
+---
 
 ### Features
 
@@ -76,6 +82,8 @@ The primary purpose of Travis CI is to help test and deploy developers' software
 **(IMG: How Travis CI works and its architecture)**
 
 ![Untitled](https://www.devopsschool.com/blog/wp-content/uploads/2024/01/image-95.png)
+
+---
 
 ## Applications
 
