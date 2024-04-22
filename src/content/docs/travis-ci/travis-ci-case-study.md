@@ -181,16 +181,25 @@ rvm:
 
 Note: For use of Travis CI via other options than GitHub, or changing programming language visit: https://docs.travis-ci.com/user/tutorial/
 
+---
+
 ## Conclusion
 
 Travis-CI offers a robust and user-friendly CI platform, especially for open-source projects. Its extensive features and ease of use make it a valuable tool for developers of all experience levels. By integrating with various programming languages, frameworks, and deployment platforms, Travis-CI streamlines the development process, reduces manual work, and ultimately improves software quality. While there are other CI tools available, as mentioned in the comparison section, Travis-CI stands out for its focus on simplicity and ease-of-use. If one is looking for a reliable and efficient way to automate your software builds and deployments, Travis-CI is a strong candidate to consider.
+
+---
 
 ## References
 
 - [Travis CI website - History and statistics](https://www.travis-ci.com/about-us/)
 
 - [Travis CI docs - Tutorial](https://docs.travis-ci.com/user/tutorial/)
-- [Idera website - acquisition ](https://www.ideracorp.com/pressreleases/acquires-travis-ci)
+
+- [Idera website - Acquisition ](https://www.ideracorp.com/pressreleases/acquires-travis-ci)
+
+- [Devopsschool website - 10 use cases ](https://www.ideracorp.com/pressreleases/acquires-travis-ci)
+
+-
 
 ## Additional Resources
 
