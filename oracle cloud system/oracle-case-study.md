@@ -53,3 +53,35 @@ Oracle cloud computing system offers a wide range of advantages making it a good
 5. **Cost Effectiveness**: Oracle cloud offers a flexible pricing mode which include pay-as-you-go and subscription-based options. This allow organisations to optimize their cloud spending depending on their usage patterns. Oracle also provide tools and services that help users monitor and manage their cloud cost effectively.
 
 6. **Customer Support Service**: Oracle offers enterprice-grade support and services to its cloud customers including 24/7 technical support, service-level agreements (SLAs) and consulting serives. This enables organizations to have access to the expertise and resources they need for their business cloud services.
+
+
+## Disadvantages of Oracle Cloud Platform
+
+Despite the wide range of positive side the oracle cloud system has, the platform still has a few disadvantages;
+
+1. **Complexity in learning**: The oracle cloud platform can be very complex for new users to the cloud technologies to learn. Due to it wide range of services it offers, developers and administrators are required to take some time to learn and practice it.
+
+2. **Limited Regional Availability**: Oracle still faces some geographical coverage problem as it hasn't been able to expand it data centers in many different zones as it competitors like AWS, Azure; this could act as a limitation for it business making users to opt for other cloud platforms.
+
+3. **Costly**: Oracle cloud offers a flexible pricing policy which makes enterprices pay as their organizations grow. This serves as a limitation for fast growing organizations as they tend to inquire very high costs for the oracle cloud service as their workloads increases.
+
+4. **Focus on Enterprice Customers**: Oracle cloud is well known for it focus on enterprice customers which makes it less suitable for new and smaller businesses looking for a cost-effective cloud system.
+
+## Comparison between Oracle cloud, AWS (Amazon Web Service) and Azure (Microsoft Azure) cloud systems.
+
+The table below gives a brief differentiations amongst the three cloud systems based on their features and services provided.
+
+| Features                | Oracle Cloud                                                  | AWS                                   | AZURE                        |
+|-------------------------|---------------------------------------------------------------|---------------------------------------|------------------------------|
+| **Compute Services**    | Oracle cloud infrastructure(IaaS), Oracle virtual machines VMs| Amazon EC2 (Elastic compute cloud) AWS Lamda, AWS Batch| Azure virtual machines, Azure Functions, Azure Batch |
+| **Storage Services**  | Oracle cloud storage, object storage, Block storage | Amazon S3(Simple storage service), Amazon EBS(elastic block storage) | Azure Blob storage, Azure Disk storage. |
+| **Database Services** | Oracle Autonomous database, Oracle Database cloud service | Amazon RDS(Relational Database Service), Amazon DynamoDB | Azure SQL Database, Azure Cosmos DB, Azure Database for MySQL |
+| **Networking Services** | Virtual cloud network(VCN), Load Balancer, VPN | Amazon VPC(Virtual private cloud), AWS Direct Connect | Azure virtual network, Azure Load Balancer, Azure VPN Gateway |
+| **Security and Identity** | Identity cloud service, Key Management, Security Monitoring | AWS Identity and Access Management(IAM), AWS key Management Service(KMS) | Azure Active Directory, Azure Key Vault, Azure Security center |
+| **Development Tools** | Oracle Development cloud, Oracle Cloud SDKs | Aws CodeCommit, AWS CodeBuild, AWS CodeDeploy | Azure DevOps, Azure SDKs, Visual Studio Code, Azure CLI |
+| **Analytics and AI** | Oracle Analytics cloud, Oracle AI Platform | Amazon Redshift, Amazon EMR(Elastic MapReduce), AWS AI/ML Services | Azure Functions, Azure Logic Apps, Azure API Management |
+| **Enterprice Application** | Oracle ERP Cloud, Oracle HCM Cloud, Oracle CX Cloud | AWS SaaS Offerings (Amazon WorkMail, Amazon Chime) | Azure SaaS Offerings (Office 365, Dynamics 365) |
+| **Pricing** | Flexible pricing options, pay-as-you-go mode | Pay-as-you-go mode, Reserved Instances, Savings Plans | Pay-as-you-go pricing, Reserved Instances, Azure Hybrid Benefit |
+| **Geographical Coverage** | Global presence with data centers in many regions | Global presence with data centers in multiple regions | Global presence with data centers in multiple regions |
+| **Market Share** | Smaller market share compared to AWS and Azure | Largest market share in the cloud industry | Second-largest market share, strong presence in enterprices |
+| **Customer Focus** | Traditional enterprice customers, ERP and database workloads | Wide range of customers from startups to enterprices | Strong enterprice focus, integration with microsoft products |
