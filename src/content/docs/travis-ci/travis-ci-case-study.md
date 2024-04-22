@@ -1,6 +1,6 @@
 ---
 Title: Travis-CI Case Study
-Author: Morten Ramfjord, github.com/Ramsnes
+Author: Morten Ramfjord, Ramsnes
 Tags: travisci, travis, travis-ci
 ---
 
@@ -29,8 +29,6 @@ Travis CI has some impressive statistics as a developer platform. They have:
 ## Main Features
 
 The primary purpose of Travis CI is to help test and deploy developers' software builds. Utilizing Travis CI's service and their tools makes the process more reliable and less time-consuming for the client, thus improving the development process.
-
----
 
 ### Features
 
@@ -130,11 +128,13 @@ There are many CI-tools at disposal in the market. A comparisation of Travis CI 
 | User-friendly interface      | Advanced interface      | Flexible deployment options             |
 | Accessable learning curve    | Steep learning curve    | Wider range of third party choices      |
 
-**Platforms utilized**
+### Platforms utilized
 
 | Travis CI                        | Jenkins                                                     | CircleCI                                              |
 | -------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------- |
 | Heroku, GitHub Pages, and AWS S3 | Windows, Linux, macOS and misc. Unix-like operating systems | AWS, Google Cloud, and Azure, Slack, GitHub, and Jira |
+
+---
 
 ## Getting Started with Travis CI using GitHub
 
@@ -206,10 +206,3 @@ Travis-CI offers a robust and user-friendly CI platform, especially for open-sou
 - [Idera website - Acquisition ](https://www.ideracorp.com/pressreleases/acquires-travis-ci)
 
 - [Devopsschool website - 10 use cases ](https://www.ideracorp.com/pressreleases/acquires-travis-ci)
-
--
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
