@@ -128,19 +128,55 @@ There are many CI-tools at disposal in the market. A comparisation of Travis CI 
 | -------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------- |
 | Heroku, GitHub Pages, and AWS S3 | Windows, Linux, macOS and misc. Unix-like operating systems | AWS, Google Cloud, and Azure, Slack, GitHub, and Jira |
 
-## Getting Started with Travis CI
+## Getting Started with Travis CI using GitHub
 
-**Visit the website and familiarise yourself**
+1. **Sign up and begin your connection**
 
-- https://www.travis-ci.com/
+- Visit the website and familiarise yourself
 
-  **Sign in to your active GitHub account**
+```
+https://www.travis-ci.com/
+```
 
-  - https://app.travis-ci.com/signin
+- Sign in to your active GitHub account
+
+```
+https://app.travis-ci.com/signin
+```
+
+- Choose what build-repository you would like to test
+
+- Click “Authorize Travis CI” to grant access to your repositories
+
+- Select “Activate” on the desired repository on your Travis CI dashboard
+
+2. **Configure .travis.yml-file**
+
+- the .travis.yml-file instructs Travis CI how to act during a build
+- The following example is a Ruby project built with version 2.2:
+  .travis.yml:
+
+```
+language: ruby
+rvm:
+ - 2.2
+ - jruby
+```
+
+3. **Add the .travis.yml file to git, commit, and push to trigger a Travis CI build:**
+   `git add .`
+   `git commit -m "Message"`
+   `git push origin <<branch-name>>`
+   Note: Travis CI needs to have a .travis.yml-file commited to run.
+
+4. **Give access to Travis CI when prompted after sign-in via GitHub**
+   This will give the prompt: "This application will be able to read and write all public and private repository data."
+
+Note: For use of Travis CI via other options than GitHub, or changing programming language visit: https://docs.travis-ci.com/user/tutorial/
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+Travis-CI offers a robust and user-friendly CI platform, especially for open-source projects. Its extensive features and ease of use make it a valuable tool for developers of all experience levels. By integrating with various programming languages, frameworks, and deployment platforms, Travis-CI streamlines the development process, reduces manual work, and ultimately improves software quality. While there are other CI tools available, Travis-CI stands out for its focus on simplicity and open-source integration. If you're looking for a reliable and efficient way to automate your software builds and deployments, Travis-CI is a strong option to consider.
 
 ## References
 
