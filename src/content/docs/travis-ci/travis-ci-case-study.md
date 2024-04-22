@@ -115,8 +115,6 @@ There are many CI-tools at disposal in the market. A comparisation of Travis CI 
 
 ### Travis CI vs. Jenkins vs. Circle CI
 
-**Comparisation**
-
 | Travis CI                    | Jenkins                 | CircleCI                                |
 | ---------------------------- | ----------------------- | --------------------------------------- |
 | Simple setup configurability | Complex configurability | Additional configuration and setup time |
@@ -132,4 +130,26 @@ There are many CI-tools at disposal in the market. A comparisation of Travis CI 
 
 ## Getting Started with Travis CI
 
-**Visit the website**: https://www.travis-ci.com/
+**Visit the website and familiarise yourself**
+
+- https://www.travis-ci.com/
+
+  **Sign in to your active GitHub account**
+
+  - https://app.travis-ci.com/signin
+
+## Conclusion
+
+This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+
+## References
+
+- [Example.com](https://example.com)
+- _Good Examples_ by John Doe, 1990
+- The Example Podcast, Episode 1
+- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+
+## Additional Resources
+
+- [More about Examples](https://example.com)
+- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
