@@ -28,7 +28,35 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 
 ## Bacground
 
-To understand Microsfot Azure, one has to understand the term "cloud" in corrolation with computer science. 
+To understand Microsfot Azure, one has to understand the term cloud computing in corrolation with computer science. 
+
+Cloud computing includes several computing services, including servers, storage, databases, networking, software analytics and intelligence organized over the internet instead of local datacenters and servers. Utilizing cloud echnology have proven benefitial in several aspects.
+
+COST
+Companies that have moved to cloud solutions have a lower IT cost, seeing as they dont need to buy hardware and software for onsite datacenters. 
+
+SCALEABILITY
+It is far easier to scale your software and business more rapidly using the cloud. One can easily adjust the amount of computing power, storage and bandwith needed, for the right need. 
+
+SPEED
+The speed of cloud computing has significnatly accelerated the pace of technological innovation. This is due to the possability to quickly iterate on applications more quickly without having to change hardware. 
+
+PERFORMANCE
+Cloud computing services are regurarly updated to the latest generation. This ensures the fastest available commuting power. 
+
+SECURITY
+Most cloud technologies have implemented policies and systems designed to ensure that data, apps and infrastructure is protected from threats. 
+
+
+Not all cloud soltions are the same. We can differ between public-, private-, and hybrid clouds. Microsoft Azure is an example of a public cloud, delivering computing resources for customers but managed and owned by Microsoft themselves. A private cloud however, would be a cloud deployed and maintained from a private datacentre. THe main benefit from this would be more control of the cloud environment and the possability fo higher levels of security. The hybrid ooption would be a combination of these two. 
+
+Furthermore, we can differ between four types of cloud services:
+IaaS
+PaaS
+Serverless
+Saas
+
+https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
 
 ## Main Features
 
