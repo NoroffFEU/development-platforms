@@ -85,3 +85,9 @@ The table below gives a brief differentiations amongst the three cloud systems b
 | **Geographical Coverage** | Global presence with data centers in many regions | Global presence with data centers in multiple regions | Global presence with data centers in multiple regions |
 | **Market Share** | Smaller market share compared to AWS and Azure | Largest market share in the cloud industry | Second-largest market share, strong presence in enterprices |
 | **Customer Focus** | Traditional enterprice customers, ERP and database workloads | Wide range of customers from startups to enterprices | Strong enterprice focus, integration with microsoft products |
+
+## Resources
+
+1. [Oracle Cloud Service](https://www.oracle.com/)
+2. [AWS Cloud Service](https://aws.amazon.com/)
+3. [Azure Cloud Service](https://azure.microsoft.com/)
