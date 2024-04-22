@@ -1,16 +1,19 @@
 ---
 title: Railway Case Study 
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+author: Musaab Abdalla <MusaabAbdalla>
+tags: railway, case study, platform
 ---
+
+![Railway Logo](~/assets/railway/railway-logo.png)
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+Railway is a Platform as a Service (PaaS) that enhances software development by enabling quick deployment and easy scaling of applications. The platform incorporates integrated tools for continuous integration and continuous deployment (CI/CD), which help developers set up their infrastructure, develop locally, and then deploy efficiently to the cloud. This integration simplifies the entire development workflow.
 
 ## Brief History
 
 You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
+
 - 1990: Examples are invented by John Doe.
 - 1991: Examples are first used in Example Project.
 - 1996: Example Project is released to the public.
@@ -23,10 +26,12 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 
 Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
 
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
+| Feature                                                                                                                                                                                                                                                                                                                       | Description  |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Instant deployment                                                   | Railway.app offers secure and rapid deployment services for any project. As you make project iterations, the deployment process accelerates. Plus, with Railway.app's automatic build feature, you can say goodbye to CI.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Microservices-Based Infrastructure                                   | The architecture is designed based on your program's microservice specifications, allowing seamless scalability as your application grows. Whether you need to add a database, a cron job, or any other online service, the infrastructure expands accordingly to accommodate the evolving needs of your Railway App program.                                                                                                                                                                                                                                                                                                                              |
+|                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
 Example feature table:
 
@@ -36,7 +41,7 @@ Example feature table:
 | Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
 
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+You may find this online tool useful for creating tables: <https://www.tablesgenerator.com/markdown_tables>
 
 ## Market Comparison
 
@@ -57,7 +62,7 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
+- **Good Examples** by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
