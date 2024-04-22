@@ -150,6 +150,8 @@ https://app.travis-ci.com/signin
 
 - Select “Activate” on the desired repository on your Travis CI dashboard
 
+---
+
 2. **Configure .travis.yml-file**
 
 - the .travis.yml-file instructs Travis CI how to act during a build
@@ -163,11 +165,16 @@ rvm:
  - jruby
 ```
 
+---
+
 3. **Add the .travis.yml file to git, commit, and push to trigger a Travis CI build:**
-   `git add .`
-   `git commit -m "Message"`
-   `git push origin <<branch-name>>`
+   ```git add .
+   git commit -m "Message"
+   git push origin <<branch-name>>
+   ```
    Note: Travis CI needs to have a .travis.yml-file commited to run.
+
+---
 
 4. **Give access to Travis CI when prompted after sign-in via GitHub**
    This will give the prompt: "This application will be able to read and write all public and private repository data."
@@ -176,14 +183,14 @@ Note: For use of Travis CI via other options than GitHub, or changing programmin
 
 ## Conclusion
 
-Travis-CI offers a robust and user-friendly CI platform, especially for open-source projects. Its extensive features and ease of use make it a valuable tool for developers of all experience levels. By integrating with various programming languages, frameworks, and deployment platforms, Travis-CI streamlines the development process, reduces manual work, and ultimately improves software quality. While there are other CI tools available, Travis-CI stands out for its focus on simplicity and open-source integration. If you're looking for a reliable and efficient way to automate your software builds and deployments, Travis-CI is a strong option to consider.
+Travis-CI offers a robust and user-friendly CI platform, especially for open-source projects. Its extensive features and ease of use make it a valuable tool for developers of all experience levels. By integrating with various programming languages, frameworks, and deployment platforms, Travis-CI streamlines the development process, reduces manual work, and ultimately improves software quality. While there are other CI tools available, as mentioned in the comparison section, Travis-CI stands out for its focus on simplicity and ease-of-use. If one is looking for a reliable and efficient way to automate your software builds and deployments, Travis-CI is a strong candidate to consider.
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [Travis CI website - History and statistics](https://www.travis-ci.com/about-us/)
+
+- [Travis CI docs - Tutorial](https://docs.travis-ci.com/user/tutorial/)
+- [Idera website - acquisition ](https://www.ideracorp.com/pressreleases/acquires-travis-ci)
 
 ## Additional Resources
 
