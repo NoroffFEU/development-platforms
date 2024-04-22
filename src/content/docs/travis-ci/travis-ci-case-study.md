@@ -130,9 +130,9 @@ There are many CI-tools at disposal in the market. A comparisation of Travis CI 
 
 ### Platforms utilized
 
-| Travis CI                        | Jenkins                                                     | CircleCI                                              |
-| -------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------- |
-| Heroku, GitHub Pages, and AWS S3 | Windows, Linux, macOS and misc. Unix-like operating systems | AWS, Google Cloud, and Azure, Slack, GitHub, and Jira |
+| Travis CI                        | Jenkins                                               | CircleCI                                              |
+| -------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+| Heroku, GitHub Pages, and AWS S3 | Windows, Linux, macOS and miscellaneous Unix-like OS' | AWS, Google Cloud, and Azure, Slack, GitHub, and Jira |
 
 ---
 
