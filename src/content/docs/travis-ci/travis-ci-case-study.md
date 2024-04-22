@@ -50,7 +50,7 @@ The primary purpose of Travis CI is to help test and deploy developers' software
 
 3. **Scalability and Flexibility:**
 
-- **Flexible Configuration:** Adapt Travis CI to your project needs with custom scripts, plugins, and environment variables.
+- **Flexible Configuration:** Adapt Travis CI to your project with custom scripts, plugins, and environment variables.
 - **Parallel Builds:** Run multiple builds concurrently for large projects or complex testing scenarios.
 - **Multiple Execution Platforms:** Execute builds on Linux, macOS, and Windows platforms for optimal compatibility.
 
@@ -108,3 +108,28 @@ TestRail, Ranorex, and Kiuwan. They focus on different aspects of the testing pr
   A test automation tool. It allows testers to automate repetitive testing tasks. This can save a lot of time and help to ensure that tests are run consistently.
 - **Kiuwan:**
   An application security testing tool. It helps developers identify and fix security vulnerabilities in their code - important for ensuring that software is safe to use.
+
+## Market Comparison
+
+There are many CI-tools at disposal in the market. A comparisation of Travis CI to Jenkins- and Circle CI:
+
+### Travis CI vs. Jenkins vs. Circle CI
+
+**Comparisation**
+
+| Travis CI                    | Jenkins                 | CircleCI                                |
+| ---------------------------- | ----------------------- | --------------------------------------- |
+| Simple setup configurability | Complex configurability | Additional configuration and setup time |
+| Ease of use                  | Extensibility           | Flexible cloud terms                    |
+| User-friendly interface      | Advanced interface      | Flexible deployment options             |
+| Accessable learning curve    | Steep learning curve    | Wider range of third party choices      |
+
+**Platforms utilized**
+
+| Travis CI                        | Jenkins                                                     | CircleCI                                              |
+| -------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------- |
+| Heroku, GitHub Pages, and AWS S3 | Windows, Linux, macOS and misc. Unix-like operating systems | AWS, Google Cloud, and Azure, Slack, GitHub, and Jira |
+
+## Getting Started with Travis CI
+
+**Visit the website**: https://www.travis-ci.com/
