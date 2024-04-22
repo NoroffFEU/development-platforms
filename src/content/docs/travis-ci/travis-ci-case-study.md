@@ -30,16 +30,23 @@ The primary purpose of Travis CI is to help test and deploy developers' software
 
 1. **Automated Build and Testing:**
 
-- **Trigger Builds** automatically launch builds upon code pushes, ensuring immediate feedback and updates, as seen in the “Stage” section in the image at the end of this section.
-- **Parallel Testing** run tests concurrently for faster build times and efficient resource utilization.
-- **Caching** reduce unnecessary rebuilds by caching tested dependencies and build artifacts.
-- **Support for Diverse Languages and Frameworks achieves** seamless integration with various languages like Python, Ruby, Java, JavaScript, and popular frameworks like Django, Rails, Spring Boot, and React.
+- **Trigger Builds** 
+  Automatically launch builds upon code pushes, ensuring immediate feedback and updates, as seen in the “Stage” section in the image at the end of this section.
+- **Parallel Testing**
+  Run tests concurrently for faster build times and efficient resource utilization and delegation.
+- **Caching**
+  Reduce unwanted rebuilds by caching tested dependencies- and build artifacts.
+- **Support for Diverse Languages and Frameworks achieves** 
+  Seamless integration with a variety of languages, like Python, Ruby, Java, JavaScript, and frameworks like Django, Rails, Spring Boot, and React.
 
 2. **Continuous Integration and Delivery (CI/CD):**
 
-- **Environments and Stages:** Define build stages (e.g., build, test, deploy) and configure separate environments for development, staging, and production.
-- **Deployment Integration:** Utilize built-in integrations with deployment platforms like Heroku, AWS, and Google Cloud Platform for automated deployments.
-- **Rollbacks and Recovery:** Implement rollback mechanisms to easily revert to previous versions in case of issues.
+- **Environments and Stages:** 
+  Define build stages (build, test, deploy) and configure separate environments for development, staging, and production.
+- **Deployment Integration:** 
+  Utilize built-in integrations with deployment platforms like Heroku, AWS, and Google Cloud Platform for automated deployments.
+- **Rollbacks and Recovery:** 
+  Implement rollback mechanisms to revert to previous versions in case of issues.
 
 3. **Scalability and Flexibility:**
 
@@ -68,4 +75,36 @@ The primary purpose of Travis CI is to help test and deploy developers' software
 
 **(IMG: How Travis CI works and its architecture)**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/318f5ea4-8b91-4f1b-8aa5-b572bbc78372/e031bd86-5e08-4f69-b9ab-ba89e18a8364/Untitled.png)
+![Untitled](https://www.devopsschool.com/blog/wp-content/uploads/2024/01/image-95.png)
+
+## Applications
+
+### Software development tools utilized
+
+Ruby on Rails, Ember.js, OpenSSL, Puppet and Logstash.
+
+These are all software development tools that address different parts of the development process:
+
+- **Ruby on Rails:**
+  A full-stack web application framework. It is a popular choice for web development because it provides a lot of functionality out of the box.
+- **Ember.js:**  
+  JavaScript framework, known for its ease of use and its ability to create complex UIs.
+- **OpenSSL:**
+  A toolkit that implements a variety of cryptographic functions and protocols. It is used for a wide range of security purposes, including encrypting communications, verifying digital signatures, and authenticating users.
+- **Puppet:**
+  A infrastructure automation tool. It allows you to automate the configuration and management of computer systems. Puppet is a popular choice for managing large deployments of servers.
+- **Logstash:**
+  A data processing pipeline. It allows you to collect data from a variety of sources, transform it into a common format, and then send it to a central repository for analysis.
+
+### Testing tools utilized
+
+The testing tools included from Ideras division are:
+
+TestRail, Ranorex, and Kiuwan. They focus on different aspects of the testing process:
+
+- **TestRail:**
+  A test case management tool. It helps testers create, manage, and track test cases. This can include things like writing test steps, assigning tests to testers, and tracking the results of tests.
+- **Ranorex:**
+  A test automation tool. It allows testers to automate repetitive testing tasks. This can save a lot of time and help to ensure that tests are run consistently.
+- **Kiuwan:**
+  An application security testing tool. It helps developers identify and fix security vulnerabilities in their code - important for ensuring that software is safe to use.
