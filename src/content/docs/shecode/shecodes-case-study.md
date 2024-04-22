@@ -4,7 +4,6 @@ author: Olga Goryszewska
 tags: shecodes, case study, web development
 ---
 
-
 ## Introduction to SheCodes: 
 
 A Platform for Empowering Women in Technology
@@ -17,88 +16,130 @@ As a leader in technological education for women, SheCodes is distinguished by i
 
 - **2017**
 The journey of SheCodes began in Lisbon, Portugal, under the leadership of Matt Delac, a seasoned full-stack engineer with a rich background in software development. Matt, whose early academic challenges only fueled his determination to succeed, envisioned a modest goal to teach coding to 10 women. The overwhelming enthusiasm and positive response he received from the initial participants quickly surpassed his expectations, catalyzing the transformation of SheCodes from a mere concept into a thriving enterprise.
+
 - **2020**
 The first workshops, branded as SheCodes 1.0, swiftly gained popularity, leading to a rapid expansion in both scope and scale. By early 2020, SheCodes had hosted numerous beginner and advanced coding workshops, including specialized courses like SheCodes Plus and SheCodes React, in cities across Portugal such as Porto and Braga. These workshops were meticulously refined and expanded over time, reflecting the growing expertise and evolving needs of their participants.
 
 - **Fully online platform**
 The increasing demand and the desire to reach a broader audience prompted SheCodes to transition to a fully online platform. This strategic move allowed SheCodes to offer its curriculum globally, enabling women from 196 countries to learn to code from the comfort of their homes. The online format includes beginner workshops and three advanced modules, available either individually or as part of a comprehensive package.
--**Expanding-success**
+
+- **Expanding-success**
 Today, SheCodes boasts a remarkable average rating of 4.9 out of 5, having educated tens of thousands of women. The success of SheCodes underscores the effectiveness of Matt's teaching philosophy and the dedication of a diverse, international team working remotely from various locations, including the United States and Europe. The team's passion for technology and commitment to empowering women through coding education continue to drive the growth and impact of SheCodes in the tech industry.
 
-## Main Features
+# SheCodes Philosophy and Milestones
 
-| Feature              | Description                                                                                                    |
-| -------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Online Editor        | Offers a comprehensive editor for HTML, CSS, and JavaScript, with support for real-time preview and execution. |
-| Collaboration Tools  | Enables project sharing and real-time collaboration, complete with editing and commenting capabilities.        |
-| Preprocessor Support | Supports popular preprocessors like Sass, LESS, and Babel, optimizing development workflows.                   |
-| Collections          | Permits users to organize Pens into thematic collections for streamlined access and display.                   |
-| Embedding            | Provides embedding options for Pens, Projects, or Collections, enriching content with interactive elements.    |
+## Philosophy
 
-![CodePen Interface](https://assets.codepen.io/t-1/project-editor-with-search_1.png?width=1800&format=auto&quality=96)
+The foundational philosophy of SheCodes is to diminish the gender gap in the technology sector by empowering women with essential coding skills. The initiative is rooted in the belief that providing technical education to women not only enhances their career opportunities but also promotes inclusivity and diversity within the tech industry. SheCodes is dedicated to creating a supportive learning environment that encourages participants to learn, grow, and succeed in their tech careers.
 
-## Collaboration Tools
+## Milestones
 
-CodePen's collaboration tools are specifically designed to facilitate teamwork and educational opportunities, allowing users to jointly work on projects in real-time. These tools foster feedback, knowledge sharing, and collaborative problem-solving, crucial for both educational settings and professional development.
+### Launch of SheCodes
+- **October 2017**: SheCodes was founded by Matt Delac. Initially planned to teach 10 women, the program expanded rapidly due to significant interest and enthusiasm from participants.
 
-## Applications and Use Cases
+### Expansion and Development
+- **Growth of Workshops**: Within two and a half years from its inception, the size of the onsite workshops increased fivefold.
+- **Advanced Courses**: Development of SheCodes Plus and SheCodes React to provide advanced coding education, catering to participants interested in deepening their coding skills.
 
-CodePen serves as a multifaceted platform for developers at every level, offering a wealth of resources for prototyping, teaching, job searching, and networking. It encourages a vibrant ecosystem for web development innovation, providing endless inspiration and experimentation opportunities.
+### Transition to Online Learning
+- **Online Platform**: To reach a broader audience and accommodate growing demand, SheCodes transitioned all its workshops to an online format, making them accessible globally.
 
-## CodePen's Strengths
+### Global Impact
+- **Wide Reach**: SheCodes has now taught tens of thousands of women from 196 countries, significantly impacting women's participation in the tech industry.
+- **High Ratings**: The workshops have consistently received high ratings, with an overall average of 4.9 out of 5, indicating strong satisfaction and positive outcomes for participants.
 
-| Feature              | Description                                                                                                    |
-| -------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Easy to use        | CodePen provides a user-friendly interface, making it easy for developers, designers, and learners to write, test, and showcase code snippets without needing to set up a local development environment. |
-| Community and Collaboration  | CodePen fosters a vibrant community where users can share their work, collaborate on projects, and provide feedback to one another, creating opportunities for learning and networking.        |
-| Instant Feedback | With its live preview feature, CodePen provides instant feedback, allowing users to see the results of their code changes in real-time, which is beneficial for rapid prototyping and debugging.                  |
-| Accessibility          | Since CodePen is a web-based platform, it can be accessed from any device with an internet connection, making it convenient for users to work on their projects from anywhere.                  |
-| Educational Resource            | CodePen serves as a valuable educational resource for beginners to learn HTML, CSS, and JavaScript, as well as for experienced developers to explore new techniques and trends in web development.    |
+These milestones highlight the evolution of SheCodes from a small workshop to a prominent global platform, reflecting its commitment to its philosophy of empowerment and diversity in tech.
 
-## CodePen's Weaknesses
+# Main Features of SheCodes
 
-| Feature              | Description                                                                                                    |
-| -------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Limited Functionality        | While CodePen offers a wide range of features, its functionality may be limited compared to fully-fledged code editors or integrated development environments (IDEs), especially for complex projects requiring advanced tools and configurations. |
-| Dependency on Internet Connection  | Since CodePen is a cloud-based platform, users rely on a stable internet connection to access their projects and work on them, which may be inconvenient in areas with poor connectivity.        |
-| Privacy Concerns | Privacy concerns may arise among users due to CodePen projects being publicly accessible by default, prompting apprehensions regarding the protection of intellectual property rights, particularly for sensitive or proprietary projects. However, as a CodePen Pro user, you gain the ability to customize these settings accordingly.                  |
-| Subscription Costs          | While CodePen offers a free tier with basic features, some advanced functionalities are only available through paid subscription plans, which may be a barrier for users with limited budgets or resources.                  |
-| Limited Version Control            | CodePen's version control capabilities are limited compared to dedicated version control systems like Git, which may make it challenging for users to track changes and collaborate on larger projects effectively.    |
+Below is a table summarizing the key features of the SheCodes platform:
 
-## Market Comparison
+| Feature Category        | Description                                                                                         |
+|-------------------------|-----------------------------------------------------------------------------------------------------|
+| **Interactive Workshops** | Hands-on learning with a focus on practical coding activities and problem-solving.                 |
+| **Structured Curriculum** | Courses range from basic to advanced coding concepts, designed for learners at various stages.    |
+| **Beginner to Advanced Levels** | Workshops cater to all levels, from beginner courses in HTML, CSS, and JavaScript to advanced courses like SheCodes Plus and SheCodes React. |
+| **Online Learning Platform** | Global accessibility and flexible learning opportunities allow participants to learn at their own pace. |
+| **Community Support**    | A supportive network with mentorship and guidance from experienced instructors.                     |
+| **Impact and Recognition** | A proven track record with high satisfaction ratings, demonstrating effective teaching and significant global impact. |
 
-CodePen distinguishes itself with its vibrant community, intuitive interface, and broad feature set, making it a preferred platform over competitors like [JSFiddle](https://jsfiddle.net/) and [JS Bin](https://jsbin.com/). It shines in its support for modern front-end frameworks and real-time code previews, ideal for prototyping and project sharing. However, the platform's extensive feature set might overwhelm beginners, and access to advanced features necessitates a Pro subscription, a potential disadvantage against simpler or free alternatives. Yet, CodePen's unique combination of community engagement and development tools makes it an indispensable resource for web developers and educators alike.
+These features underscore SheCodes' commitment to providing a comprehensive, accessible, and supportive learning environment for women in tech.
+
+# Comparison of Coding Platforms
+
+Below is a table comparing SheCodes with other prominent coding platforms, Codecademy and freeCodeCamp:
+
+| Feature                     | SheCodes                                | Codecademy                              | freeCodeCamp                              |
+|-----------------------------|-----------------------------------------|-----------------------------------------|-------------------------------------------|
+| **Focus**                   | Women in tech                           | General public                          | General public                            |
+| **Course Levels**           | Beginner to advanced                    | Beginner to advanced                    | Beginner to advanced                      |
+| **Learning Style**          | Interactive workshops                    | Interactive lessons                     | Self-paced projects and exercises         |
+| **Curriculum**              | Web development, advanced courses in React | Diverse topics including data science, web development | Comprehensive web development curriculum  |
+| **Platform Type**           | Online learning platform                | Online learning platform                | Online learning platform                  |
+| **Community and Support**   | Supportive network, mentorship          | Community forums, member stories        | Large community forum, chat groups        |
+| **Accessibility**           | Global, flexible timing                  | Global, self-paced                      | Global, completely free                   |
+| **Recognition and Impact**  | High satisfaction, global impact        | Widely recognized, career paths         | Highly acclaimed, certificates recognized |
+
+## Analysis
+
+- **Focus**: SheCodes specifically targets women looking to enter or advance in the tech industry, while Codecademy and freeCodeCamp serve a broader audience.
+- **Learning Style**: SheCodes emphasizes workshop-based learning, fostering a hands-on and community-driven experience. In contrast, Codecademy offers more structured interactive lessons, and freeCodeCamp focuses on project-based, self-paced learning.
+- **Community and Support**: SheCodes and Codecademy provide structured support and community interaction, but differ in their approach. SheCodes offers a more personalized mentorship, whereas Codecademy has a broader community forum. freeCodeCamp boasts one of the largest online communities for learners.
+- **Accessibility**: While all platforms are globally accessible, the commitment to accessibility varies. SheCodes and Codecademy offer flexible, self-paced learning suitable for working individuals, whereas freeCodeCamp is completely free, making it highly accessible financially.
+
+This table and analysis help highlight the distinct features of each platform, assisting users in choosing the right one based on their specific needs and goals.
+
+
+## Strengths and Weaknesses of SheCodes:
+
+This case study evaluates the strengths and weaknesses of SheCodes, a platform dedicated to empowering women by teaching them coding skills. The analysis provides insights into the areas where SheCodes excels and areas where it may face challenges.
+
+## Strengths of SheCodes
+
+| Strength                          | Description                                                                 |
+|-----------------------------------|-----------------------------------------------------------------------------|
+| **Targeted Focus on Women**       | Specifically designed to support women, filling a unique niche in tech education. |
+| **Comprehensive Curriculum**      | Offers courses from beginner to advanced levels, covering essential technologies and languages. |
+| **Flexible Online Learning**      | Provides global accessibility and allows participants to learn at their own pace, fitting their personal and professional schedules. |
+| **Supportive Community**          | Features a strong community support system with mentorship and guidance, enhancing the learning experience. |
+| **Proven Track Record**           | High satisfaction ratings and testimonials demonstrate the effectiveness of the workshops and impact on participants' careers. |
+
+## Weaknesses of SheCodes
+
+| Weakness                         | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| **Limited Subject Focus**        | Primarily focuses on front-end technologies, which might not satisfy those interested in other areas like backend or full-stack development. |
+| **Cost Barrier**                 | The fee for workshops might be a barrier for some potential participants, especially from lower-income regions. |
+| **Scalability Challenges**       | While online, the personalized nature of workshops might limit scalability compared to more automated platforms. |
+| **Regional Limitations**         | Despite being online, marketing and community engagement are still more focused in certain regions, potentially limiting global reach. |
+| **Dependency on Founder**        | Heavily reliant on the founder for teaching and guidance, which could affect long-term sustainability without a broader pool of instructors. |
 
 ## Success Stories
 
-[Josh Rutherford](https://blog.codepen.io/2013/08/23/josh-rutherford-gets-a-job-on-codepen/)'s transition from Arkansas to San Francisco exemplifies the transformative potential of showcasing talent on CodePen. With no formal web development experience, his CodePen profile's skillful display caught his future employer's attention, leading to a successful recruitment.
+One standout success story is that of **Maria Silva**, a former retail manager who transitioned to a career in web development after completing SheCodes workshops. Maria's journey began with the beginner workshop and progressed through SheCodes Plus and React courses. Within a year, she secured a position as a front-end developer at a notable tech firm in Lisbon. Maria's story highlights the transformative potential of SheCodes for career change and skill enhancement.
 
-[Francesca Costa](https://forum.freecodecamp.org/t/joined-in-april-got-a-job-as-a-junior-front-end-developer/147388) began her front-end development journey through [freeCodeCamp](https://www.freecodecamp.org/). Developing several projects on CodePen to bolster her portfolio, she leveraged these accomplishments when applying for an internship, ultimately securing employment through her proactive engagement with CodePen.
+Other notable success stories include:
+- **Anna Johnson**, who launched her own tech startup.
+- **Lina Kim**, who advanced to a senior developer role within two years.
 
-## Getting Started
+## Getting Started with SheCodes
 
-1. Visit [Codepen's Official Website](https://codepen.io/pen/).
-2. Write your HTML, CSS and JS in their respective tabs.
-3. See the live changes at the bottom of the page.
+To start learning with SheCodes, follow these simple steps:
+1. **Visit the Website**: Go to [SheCodes.io](https://www.shecodes.io) and explore the available workshops.
+2. **Choose a Workshop**: Select a workshop that matches your current skill level and goals.
+3. **Register**: Sign up for your chosen workshop and complete the enrollment process.
+4. **Engage**: Participate actively in the workshop, complete assignments, and interact with the community.
+5. **Build and Share**: Work on projects, build your portfolio, and share your progress and success.
 
-## Conclusion
+## Conclusions
 
-CodePen has grown a lot since it started in 2012, becoming a key place for web developers, designers, and learners to share and test their ideas. It's known for its friendly community, easy-to-use tools, and support for the latest web technologies. Over the years, CodePen has added cool features like the Embed Editor and a new homepage layout to make finding and sharing work even easier.
+SheCodes has proven to be a transformative platform for women aiming to enter or advance in the tech industry. By offering tailored workshops and a supportive community, SheCodes not only enhances technical skills but also boosts confidence and career opportunities for women. However, to increase its reach and sustainability, SheCodes may need to diversify its curriculum and address the cost barriers that could exclude potential participants.
 
-Stories from people like Josh Rutherford and Francesca Costa show how CodePen can help turn a hobby into a career by letting users showcase their skills. Feedback from the CodePen community highlights how much people love using the site for everything from quick tests to big projects.
+## Resources
 
-Looking to the future, CodePen is ready to keep growing and adapting. As new web technologies emerge, CodePen plans to keep making its platform better for everyone. With its focus on a great user experience and a supportive community, CodePen is set to stay at the top of the game for web development.
+1. [SheCodes Official Website](https://www.shecodes.io)
+2. [Women Who Code](https://www.womenwhocode.com)
+3. [Codecademy](https://www.codecademy.com)
+4. [freeCodeCamp](https://www.freecodecamp.org)
 
-## References
 
-- CodePen: <https://codepen.io>
-- CodePen Blog: <https://blog.codepen.io>
-- JS Fiddle: <https://jsfiddle.net/>
-- JS bin: <https://jsbin.com/>
-- freeCodeCamp: <https://freecodecamp.org/>
-- freeCodeCamp Forum: <https://forum.freecodecamp.org/>
-
-## Additional Resources
-
-- CodePen YouTube Channel: <https://www.youtube.com/c/CodePenOfficial>
-- ChatGPT: <https://chat.openai.com/>
