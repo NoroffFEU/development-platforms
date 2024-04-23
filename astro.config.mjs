@@ -21,6 +21,7 @@ export default defineConfig({
         { label: "Amazon", collapsed: true, autogenerate: { directory: "amazon" } },
         { label: "BaaS", collapsed: true, autogenerate: { directory: "baas" } },
         { label: "CDN", collapsed: true, autogenerate: { directory: "cdn" } },
+        { label: "CircleCI", collapsed: true, autogenerate: { directory: "circleci" } },
         { label: "CMS", collapsed: true, autogenerate: { directory: "cms" } },
         { label: "CodePen", collapsed: true, autogenerate: { directory: "codepen" } },
         { label: "Databases", collapsed: true, autogenerate: { directory: "databases" } },
