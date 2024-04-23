@@ -28,54 +28,63 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 
 ## Bacground
 
-To understand Microsfot Azure, one has to understand the term cloud computing in corrolation with computer science. 
+To understand Microsfot Azure, one has to understand the term cloud computing in corrolation with computer science. Cloud computing includes several computing services, including servers, storage, databases, networking, software analytics and intelligence organized over the internet instead of local datacenters and servers. Utilizing cloud echnology have proven benefitial in several aspects.
 
-Cloud computing includes several computing services, including servers, storage, databases, networking, software analytics and intelligence organized over the internet instead of local datacenters and servers. Utilizing cloud echnology have proven benefitial in several aspects.
-
-COST
+**COST**
 Companies that have moved to cloud solutions have a lower IT cost, seeing as they dont need to buy hardware and software for onsite datacenters. 
 
-SCALEABILITY
+**SCALEABILITY**
 It is far easier to scale your software and business more rapidly using the cloud. One can easily adjust the amount of computing power, storage and bandwith needed, for the right need. 
 
-SPEED
+**SPEED**
 The speed of cloud computing has significnatly accelerated the pace of technological innovation. This is due to the possability to quickly iterate on applications more quickly without having to change hardware. 
 
-PERFORMANCE
+**PERFORMANCE**
 Cloud computing services are regurarly updated to the latest generation. This ensures the fastest available commuting power. 
 
-SECURITY
+S**ECURITY**
 Most cloud technologies have implemented policies and systems designed to ensure that data, apps and infrastructure is protected from threats. 
-
 
 Not all cloud soltions are the same. We can differ between public-, private-, and hybrid clouds. Microsoft Azure is an example of a public cloud, delivering computing resources for customers but managed and owned by Microsoft themselves. A private cloud however, would be a cloud deployed and maintained from a private datacentre. THe main benefit from this would be more control of the cloud environment and the possability fo higher levels of security. The hybrid ooption would be a combination of these two. 
 
 Furthermore, we can differ between four types of cloud services:
-IaaS
-PaaS
-Serverless
-Saas
+**IaaS - Infrastrucutre as a service**
+Most basic solution. Customer would rent the IT infrastructure, servers and virtual machines from a cloud provider. 
 
-https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+**PaaS - Platforms as a serivce**
+Supplies an on demand environment for developing, testing, delivering and managing softwware applications. It is designed to make it easier for developers to quickly create web or mobile apps, without worrying about the underlying infrastrucutre. 
+
+**Serverless - Software as a service**
+A method of delivering software applications over the internet, on demand. Cloud providers host and manage the software application and the underlying infrastructure.  
+
+**Saas - Serverless computing**
+Similar to PaaS, serveless computing allows for builing app functionalities wihtout spending time on servers and infrastructure. THe cloud provider handels all of this.
+
 
 ## Main Features
+ 
+FEATURES INCLUDED IN MICROSOFT AZURE INCLUDE
+**Creating cloud-native applications**
+ Using computing technologies like containers, Kubernetes, microservice archtecture, API-driven communicatons and DevOps. 
+ **Store, back up, and recover data** 
+ Azure provice scaleable cloud storage for data objects, file systems, and databases with services like Azure Blob Storage, Azure File Storage and Azure SQL database. 
+ **Networking**
+ Azure faciliates for the creation of private networks thorugh services like Azure virtual networks, Azure ExpressROute and Azure DNS.
+**IoT** 
+Azure IoT Hub and Azure Sphere are designed to support IoT applications, providing tools to securly connect, monitor and manage IoT assets. 
+**Utilize intellingent data capture and LLM models**
+to make more informed decisions and allow for AI-powered features in applications. 
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+Azure would most likely be utlized by fullstack and backend developers. However, it's popularity and broad application makes it relevant for frontend-developers aswell. Some direct exampels include:
+**Webhosting with azure App services** 
+**Static website hosting in Azure Blob Storage**
+**API Management**
+**Serverless computing with Azure Functions**
+**Real-time features with Azure SignalIR service**
+**Developement and deplyoment pipeline**
+**Authentication and authorization**
 
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
 
-Example feature table:
-
-| Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
 ## Market Comparison
 
@@ -96,9 +105,8 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - https://www.forbes.com/sites/janakirammsv/2020/02/03/a-look-back-at-ten-years-of-microsoft-azure/
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+
 
 ## Additional Resources
 
