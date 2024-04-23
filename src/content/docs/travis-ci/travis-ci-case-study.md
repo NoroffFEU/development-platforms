@@ -123,7 +123,7 @@ There are many CI-tools at disposal in the market. A comparisation of Travis CI 
 
 | Travis CI                    | Jenkins                 | CircleCI                                |
 | ---------------------------- | ----------------------- | --------------------------------------- |
-| Simple setup configurability | Complex configurability | Additional configuration and setup time |
+| Simple setup configurability | Complex configurability | Advanced configurability and setup time |
 | Ease of use                  | Extensibility           | Flexible cloud terms                    |
 | User-friendly interface      | Advanced interface      | Flexible deployment options             |
 | Accessable learning curve    | Steep learning curve    | Wider range of third party choices      |
@@ -135,6 +135,12 @@ There are many CI-tools at disposal in the market. A comparisation of Travis CI 
 | Heroku, GitHub Pages, and AWS S3 | Windows, Linux, macOS and miscellaneous Unix-like OS' | AWS, Google Cloud, and Azure, Slack, GitHub, and Jira |
 
 ---
+
+In short, the different profiled platforms comparable to TravisCI has the following strenghts that separates them:
+
+- **Travis CI** is a good option for those getting started with CI/CD, especially for open-source projects on GitHub.
+- **Jenkins** is ideal for complex setups and customization but requires more configuration effort.
+- **CircleCI** offers a balance between ease of use and flexibility, with good cloud support and third-party integrations.
 
 ## Getting Started with Travis CI using GitHub
 
