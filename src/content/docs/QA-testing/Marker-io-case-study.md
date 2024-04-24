@@ -4,7 +4,6 @@ author: Frederik Rustad <FredDev>
 tags: Development Platforms, Marker.io, QA Testing
 ---
 
-User
 ## Introduction
 
 Marker.io is a visual feedback and bug reporting tool primarily used by web development and design teams. It allows users to capture screenshots, annotate them with comments and drawings, and then send them directly to project management or issue tracking tools like Jira, Trello, GitHub, or Asana.
