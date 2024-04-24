@@ -12,22 +12,9 @@ Railway is a Platform as a Service (PaaS) that enhances software development by 
 
 ## Brief History
 
-Railway.app, founded in 2020 by Jake Cooper, is designed to simplify application deployments and infrastructure management for developers. It offers a user-friendly platform that competes with platform as as service (Paas) like Heroku by focusing on accessibility and ease of management. 
+Railway.app, founded in 2020 by Jake Cooper, is designed to simplify application deployments and infrastructure management for developers. It offers a user-friendly platform that competes with platform as as service (Paas) like Heroku by focusing on accessibility and ease of management.
 
 ## Main Features
-
-| Feature             | Description                                                           |
-|---------------------|-----------------------------------------------------------------------|
-| **Quick Deployment**| Railway.app allows users to deploy their applications quickly and easily by connecting directly to the deployment source, such as GitHub. The platform automatically generates an OCI compliant image based on the source code from the deployment source. Additionally, users can use Docker images directly from Docker Hub or the GitHub Container Registry. This streamlined process ensures that applications are deployed swiftly and efficiently without any complicated setup or configuration.               |
-| **Scalability**     |
-                
-| **CI/CD Integration**| Built-in continuous integration and deployment tools.                |
-| **Efficient Operations**| Maintain application performance without high costs.                |
-| **Database Integration**| Simple setup for databases like Postgres and Redis.                 |
-| **User Interface**  | Use the Command Palette for efficient project management.            |
-| **Templates**       | Access a variety of ready-to-use templates for quick project starts. |
-| **CLI Tool**        | Link local development environments with Railway's cloud.            |
-| **Developer Support**| Features like metrics dashboard and usage-based pricing.            |
 
 | Feature                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Description |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -40,24 +27,55 @@ Railway.app, founded in 2020 by Jake Cooper, is designed to simplify application
 |  **CLI Tool**                                    | The Railway Command Line Interface (CLI) provides a method for users to interact with their Railway projects directly from the command line. This tool allows for streamlined management and control of project components, enhancing productivity and efficiency.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Developer Support**                            | Railway provides support through its Help Station platform, which serves a community of over 500,000 users and developers. The platform includes a dedicated section for Pro users, offering Private Threads where they can receive guaranteed responses directly from the Railway support team. This setup ensures both general and prioritized support, catering to the diverse needs of its user base.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 
-
-You may find this online tool useful for creating tables: <https://www.tablesgenerator.com/markdown_tables>
-
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+Railway.app's strength lies in its simplicity and efficient resource management, making it a strong contender in the modern PaaS market. This platform is especially beneficial for developers seeking quick deployment and scalability. It is well-suited for those who work primarily within the GitHub ecosystem and prefer a straightforward, no-frills user interface.
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+Heroku is the perfect service to compare with Railway.app. It has long been recognized as a pioneering platform in the cloud PaaS market, known for its robust support for a variety of programming languages and extensive integrations. It simplifies application deployment by automating many of the underlying processes and offers a wide array of add-ons through its Heroku Elements marketplace. Acquired by Salesforce, it also benefits from integrating a broad range of enterprise-level tools and services.
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+Comparatively, Railway.app is a newer entrant that has drawn inspiration from Heroku but focuses on simplifying the PaaS experience even further. In comparison, Heroku offers a mature, feature-rich environment for developers. In contrast, Railway.app emphasizes ease of use and streamlined workflows, which are particularly attractive for projects requiring quick setup and deployment. Additionally, Railway.app's integration with GitHub and its innovative approach to scaling and real-time metrics provide a modern twist to the traditional PaaS model, making it a compelling option for developers prioritizing efficiency and simplicity.
+
+### Railway vs Heroku
+
+Here's a comparative table outlining key aspects between Railway and Heroku, two popular PaaS solutions:
+| Feature                   | Railway.app                             | Heroku                                  |
+|---------------------------|-----------------------------------------|-----------------------------------------|
+| **Deployment**            | Quick and efficient deployment directly from GitHub | Easy deployment with Git integration    |
+| **User Interface**        | Simple, intuitive UI; direct database management from the web | More complex UI with a wide range of add-ons |
+| **Scaling**               | Supports both vertical and horizontal scaling automatically | Supports easy scaling, though sometimes requires manual adjustment |
+| **Integration**           | Deep integration with GitHub, supports a variety of databases | Extensive integration options with Salesforce ecosystem and other third-party services |
+| **Development Environment**| Seamlessly syncs with GitHub for continuous updates | Container-based approach with a strong focus on developer tools |
+| **Pricing**               | Pay-as-you-go with a generous free tier | Free tier available; paid plans start at a higher threshold |
+| **Technology Support**    | Supports multiple technologies and languages, streamlined for modern development practices | Supports a wide array of programming languages and frameworks |
+| **Community and Support** | Growing community with robust documentation and support | Large, well-established community with extensive documentation and support networks |
 
 ## Getting Started
 
 If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
 
+### Deploy a Node.js app to Railway
+
+1. **Start new project**
+![Railway, Start new Project](~/assets/railway/railway-step-1.jpg)
+
+2. **Select deploy from Github repo**
+![Railway, Start new Project](~/assets/railway/railway-step-2.jpg)
+
+3. **Login to Github Account**
+![Railway, Start new Project](~/assets/railway/railway-step-3.jpg)
+
+4. **Select a repo that contains your web app**
+![Railway, Start new Project](~/assets/railway/railway-step-4.jpg)
+
+5. **Select Deploy Now**
+![Railway, Start new Project](~/assets/railway/railway-step-5.jpg)
+
+6. **Generate a Domain**
+![Railway, Start new Project](~/assets/railway/railway-step-6.jpg)
+
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+In conclusion, Railway.app represents a significant advancement in the Platform as a Service (PaaS) market, facilitating rapid application deployment and robust scalability. Its integration with continuous integration and deployment tools, along with support for multiple programming languages, positions it as a versatile platform suitable for various development projects. Despite its recent entry into the market, Railway.app promises substantial potential for growth and improvement. As it continues to develop, it may increasingly serve as a viable alternative to more established platforms, particularly for developers seeking efficiency and ease of use in their deployment processes.
 
 ## References
 
