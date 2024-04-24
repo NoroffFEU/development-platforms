@@ -87,16 +87,25 @@ Azure would most likely be utlized by fullstack and backend developers. However,
 
 
 ## Market Comparison
+Although Microsoft Azure is one of the leading cloud computing services, it is altso competing big-tech and their solutions like Amazon Web Serivces (AWS), Google Cloud Platform (GCP), Kamatera and Alibaba cloud to name a few. 
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+One of the main benefits Microsoft Azure offers, is easy integration with the full microsoft ecosystem. Seeing a so many businesses allready use Microsoft, it makes it easier for them to adopt Azure aswell. 
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+Some of the downsides of Microsoft Azure are the complexity of it's systems and how the pricing may vary btween different services. 'an article by Hosting Sprout suggests that one might get an inital impression of Azure beeing afordable, but it the businesses scale, the prices get's quite high. Also, technical service is a paid service which will drastically increase the users monthly costs. 
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+In an article by Hosting Sprout, The hosting platform Kamatera is ranked as the number 1 alternative to Azure. Simplicity, ease of use. Allthough beeing a more simpified alterantive, they provide many of the same solutions with great customer support. 
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+In this example of how one would utlize Microsfot Azure, is have looked at it from a frontend perspective, specifically for hosting an app. 
+
+After creating an acount and setting up an appropraite subscription, the next step would be to create a new app service in the Azure portal. This will be the platform for deploying and managing the web application. Selecting both runtime stack, like Node.js or Python, and selecting the region closest to your user base comes next.
+
+After developing your web application locally and ensuring it is able to interact with backend services. 
+
+The code and application can then be depolyed using Azure DevOps (GitHub can also be used) to deploy to the Azure App Serivce, where enironment variabels such as APIkey can be configured. 
+
+After deployment, utlize Azures tools to monitor and track the performance of the application. If scaling is needed, the Azure auto-scale feature allows for this on demand. 
 
 ## Conclusion
 
@@ -104,8 +113,9 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## References
 
-- https://www.forbes.com/sites/janakirammsv/2020/02/03/a-look-back-at-ten-years-of-microsoft-azure/
+- https://www.forbes.com/sites/janakirammsv/2020/02/03 a-look-back-at-ten-years-of-microsoft-azure/
 https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+-https://www.hostingsprout.com/microsoft-azure-alternatives/#:~:text=Top%2010%20Best%20Microsoft%20Azure%20Alternatives%20and%20Competitors,for%20Unmanaged%20Clouds%20...%206%206.%20InterServer%20
 
 
 ## Additional Resources
