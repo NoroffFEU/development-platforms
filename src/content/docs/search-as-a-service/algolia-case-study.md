@@ -1,6 +1,6 @@
 ---
 title: Case Study on Algolia
-author: Ole Kristian Rasmussen <Olekrr>
+author: Niklas Christian Storm Ferling
 tags: Algolia, search, algorithm, case study
 ---
 
@@ -24,7 +24,15 @@ I will now adress key events in the platforms history, some of its main function
 
 As the name suggests, Algolia provides search functionality using algorithms and AI to enhance performance. Their main focus is speed and relevance, which is what makes them a SaaS market leader. It works as an API you can implement on your website to get a more advanced search box than just matching search string with product names and describtions. It works by combining samantic search with keyword search.
 
-It uses AI to relate queries to multiple categories and dynamically re-order what shows up first depending on trends, previous searches and global events. Even detect synonyms which can be matched to what the customer is actually trying to find, even if they don't know exactly what they are searching for.
+It uses AI to relate queries to multiple categories and dynamically re-order what shows up first depending on trends, previous searches and global events. Even detect synonyms which can be matched to what the customer is actually trying to find, even with different vocabulary.
+
+- **Query Categorization**: A word may mean more than one thing and can relate to multiple categories. The example used on their website: "Burgundy" can be a region, a wine or a color. Using AI, Algolias search engine will predict the most likely category to show given the context.
+
+- **Dynamic Re-ranking**: Different items, articles or posts may be more or less relevant depending on trends and global events. With machine learning, you are more likely to get content that is trending and on the agenda higher up in the search results.
+
+- **Personalization**: Every user is different, so to optimize relevance, Algolia utilizes user data to build a user profile that takes things like pages viewed, products added to cart, posts liked, etc into account when deciding what to show on each search. This means that three people searching the same query can get three different results that are personalized to their user profile.
+
+- **AI Synonyms**: This ties in with personalization, in the sence that everyone has their own vocabulary and language that can be hard to decode. Algolia uses AI algorithms to dynamically suggest synonyms for keyword search.
 
 ## Market Comparison
 
