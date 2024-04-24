@@ -24,14 +24,23 @@ Fast-forward to today, Marker.io has evolved into a feedback solution for enterp
 ## Features
 
 **Integration** Can integrate to collect feedback with GitHub, GitLab, Trello, Jira and many more.
+
 **Widget Overview** takes screenshot that the user can annontate, edit and contains the feedback form.
+
 **Installation Methods** can be done with a snippet code directly to the code if you have access, CMS plugin (for Wordpress, Squarespace, Drupal and more), Browser extention or NPM package.
+
 **Session replay** offers a contextual understanding of the users report, leading uip to their feedback submition. You can watch the last 30 seconds (or more) before the reporter submitted their feedback.
+
 **Metadata** displays the feedback users technical data such as OS, Browser type, Resolution, Viewport, Pixel Ratio and Zoom.
+
 **Communication** is saved in the feedback page and the integrated platform if there is any.
+
 **Status Sync** closing issues in tool will automatically resolve and notify the feedback reporter and the integrated platform. ( can be disabled per project basis )
+
 **Team Collaboration** Enable team members to comment and collaborate directly within the context of the feedback or bug report.
+
 **Guest Reporting** Allows non-team members to submit feedback without needing an account, ideal for client or user testing phases.
+
 **Template Customization** Customize templates for bug report forms or feedback to include relevant fields, making the reporting process standardized and efficient.
 
 ## Pros
