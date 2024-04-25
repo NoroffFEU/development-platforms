@@ -79,7 +79,7 @@ The primary purpose of Travis CI is to help test and deploy developers' software
 
 **(IMG: How Travis CI works and its architecture)**
 
-![Untitled](https://www.devopsschool.com/blog/wp-content/uploads/2024/01/image-95.png)
+![Untitled](https://www.devopsschool.com/blog/wp-content/uploads/2024/01/image-95.png) <br>
 _Travis CI works and Architecture (www.devopsschool.com)_
 
 ---
