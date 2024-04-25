@@ -74,6 +74,8 @@ You can now make your search UI using Algolia's library or pre-built widgets and
 
 ## Conclusion
 
+We have now explored Algolia, an AI-powered Search-as-a-service with functionality for both B2B and retail e-commerce. Algolia mainly focuses on making the search functionality and ease of use as best as possible, instead of integration with other platforms and services. The choice between Algolia and its competitors will ultimately come down to needs and preferences, but I hope you are now a bit wiser in your decision.
+
 ## References
 
 https://en.wikipedia.org/wiki/Algolia
