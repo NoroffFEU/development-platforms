@@ -51,26 +51,30 @@ Here's a comparative table outlining key aspects between Railway and Heroku, two
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+Getting started with Railway is easy, and creating a new account is unnecessary. Here is a simple guide on how to deploy a web application to Railway:
 
-### Deploy a Node.js app to Railway
+### Start new project
 
-1. **Start new project**
 ![Railway, Start new Project](~/assets/railway/railway-step-1.jpg)
 
-2. **Select deploy from Github repo**
+### Select deploy from Github repo
+
 ![Railway, Start new Project](~/assets/railway/railway-step-2.jpg)
 
-3. **Login to Github Account**
+### Login to Github Account
+
 ![Railway, Start new Project](~/assets/railway/railway-step-3.jpg)
 
-4. **Select a repo that contains your web app**
+### Select a repo that contains your web app
+
 ![Railway, Start new Project](~/assets/railway/railway-step-4.jpg)
 
-5. **Select Deploy Now**
+### Select Deploy Now
+
 ![Railway, Start new Project](~/assets/railway/railway-step-5.jpg)
 
-6. **Generate a Domain**
+### Generate a Domain
+
 ![Railway, Start new Project](~/assets/railway/railway-step-6.jpg)
 
 ## Conclusion
@@ -79,12 +83,8 @@ In conclusion, Railway.app represents a significant advancement in the Platform 
 
 ## References
 
-- [Example.com](https://example.com)
-- **Good Examples** by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+1. [Railway Official Website](https://railway.app)
+2. [Railway Official Documentaion](https://docs.railway.app/)
+3. [Heroku vs Railway](https://blog.back4app.com/heroku-vs-railway-which-is-the-best/)
+4. [Heroku Official Website](https://www.heroku.com/)
+5. [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
