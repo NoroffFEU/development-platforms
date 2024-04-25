@@ -36,7 +36,7 @@ It uses AI to relate queries to multiple categories and dynamically re-order wha
 
 ## Market Comparison
 
-Search-as-a-service is becoming a large market, expanding with the development of Artificial Inteligence. We can split the market in two categories. Standalone SaaS companies, which include Algolia, Elastic and Solr, and cloud providers offering search solutions, like Amazon and Azure Cognitive Search.
+Search-as-a-service is becoming a large market, expanding with the development of Artificial Inteligence. We can split the market in two categories. Standalone SaaS companies, which include Algolia, Elasticsearch and Solr, and cloud providers offering search solutions, like Amazon and Azure Cognitive Search.
 
 **Standalone**
 
@@ -60,13 +60,17 @@ This goes hand in hand with the pricing model, which is typically pay-as-you-go,
 
 As described, there are several pros and cons with both solutions. As I see it, if you want the most efficient search system provider, you would go with the specialized standalone companies. But if you just want a working system on your site, and are already using a cloud provider for storage, then the simple answer would be your cloud provider. All in all, as with most development platforms, it depends on your needs, which should most likely be covered by one or more platform solution. For the sake of this case study, we eill continue exploring the standalone market, comparing some of Algolias biggest competitors.
 
-**Elastic**
+**Elasticsearch and Solr**: When researching for this study case, these two competitors keept poping up as alternative search-as-a-service products. Although it is hard to tell which is bigger or is used on more websites, they are comparible in size and service.
 
-**Solr**
+The main difference I found on these solutions, is that Elasticsearch and Solr are open-source engines built on top of Apache Lucene. This makes the product more transparent to developers, allowing for more flexibility and customization, as well as more readily available community support.
 
 ## Using Algolia
 
-## Usage Politics
+Getting started with Algolia is made really simple thanks to their focus on ease of use.
+
+First you want to sign up on Algolias websitem, and select a plan that fit you needs. Next, integrate Algolia's SDK or plugin to your custom website, or Wordpress, Shopify etc. Once this is done, you will need to index your content to make it searchable. You can use the dashboard or API to configure indexing- and search settings.
+
+You can now make your search UI using Algolia's library or pre-built widgets and it should be up and running. Now remains testing to see if relevant content is displayed when using the search functionality, and scale as needed.
 
 ## Conclusion
 
