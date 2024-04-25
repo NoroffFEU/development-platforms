@@ -84,3 +84,17 @@ Give your project a name, check the options, then click Create Project. A `confi
 
 - 4. Commit and Run Your Config
 Click Commit and Run. This will create a `.circleci/config.yml` file at the root of your repository on a new branch called `circleci-project-setup`. You can also choose Review Configuration File if you would rather check or make changes to the config file before committing.
+
+### Conclusion
+
+CircleCI's platform seems to become more and more attractive to companies as the development continues, it's used by everything from new start ups all the way up to some of the largest companies. The advancements of CircleCI have contributed to increased efficiency, accelerated development cycles, and improved collaboration within our development environment. As it seems CircleCI will continue to deliver improvements to our development processes, collaboration and overall software delivery.
+
+### References
+
+<https://circleci.com/> - CircleCI homepage
+
+<https://circleci.com/docs/> - CircleCI's docs
+
+<https://circleci.com/docs/about-circleci/> - About section from CircleCI's docs
+
+<https://circleci.com/blog/what-is-a-ci-cd-pipeline/> - Video on how CI/CD pipelines work
