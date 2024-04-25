@@ -4,12 +4,13 @@ author: Stian Busengdal <Fadecap>
 tags: devops, ci, circleci
 ---
 
+![CircleCI Process](./src/content/docs/circleci/circlecilogo.png "CircleCI Process")
 
-## Overview
+### Overview
 
 **CircleCI** is a continuous integration and continuous delivery (CI/CD) platform that automates the software development process, allowing developers to focus on writing code rather than managing infrastructure. It can integrate with GitHub, Bitbucket, and other version control systems to automate the build, test, and deployment processes. This means developers can focus more on writing code and delivering value to users.
 
-## History of CircleCI
+### History of CircleCI
 
 **2011**: Founded by Paul Biggar and Allen Rohner to automate build, test, and deployment workflows.
 
@@ -21,29 +22,23 @@ tags: devops, ci, circleci
 
 **2021-Present**: Launched CircleCI 3.0, focusing on performance, scalability, and developer experience.
 
-## Main Features of CircleCI
+### Main Features of CircleCI
 
-#### 1. Automated Workflows
+- **Automated Workflows**: CircleCI automates build, test, and deployment processes, reducing manual tasks and improving efficiency.
+  
+- **Standardized Environments**: CircleCI ensures consistent build environments and configurations across projects, leveraging Docker support for reproducible builds.
+  
+- **Scalability and Flexibility**: CircleCI's cloud-based platform scales easily to support growing projects and teams, offering flexible pricing and resource optimization.
+  
+- **Comprehensive Testing**: CircleCI integrates with popular testing frameworks to run automated tests, enhancing code quality and reliability.
+  
+- **Extensive Integrations**: CircleCI integrates seamlessly with GitHub, Bitbucket, AWS, Google Cloud, and more, streamlining the development workflow and enhancing collaboration.
 
-CircleCI automates build, test, and deployment processes, reducing manual tasks and improving efficiency.
+**Here we can see how the process of CircleCI works:**
 
-#### 2. Standardized Environments
+![CircleCI Process](./src/content/docs/circleci/circleci.png "CircleCI Process")
 
-CircleCI ensures consistent build environments and configurations across projects, leveraging Docker support for reproducible builds.
-
-#### 3. Scalability and Flexibility
-
-CircleCI's cloud-based platform scales easily to support growing projects and teams, offering flexible pricing and resource optimization.
-
-#### 4. Comprehensive Testing
-
-CircleCI integrates with popular testing frameworks to run automated tests, enhancing code quality and reliability.
-
-#### 5. Extensive Integrations
-
-CircleCI integrates seamlessly with GitHub, Bitbucket, AWS, Google Cloud, and more, streamlining the development workflow and enhancing collaboration.
-
-## Pros and Cons of CircleCI
+### Pros and Cons of CircleCI
 
 | **Pros** | **Cons** |
 |----------|----------|
@@ -53,7 +48,7 @@ CircleCI integrates seamlessly with GitHub, Bitbucket, AWS, Google Cloud, and mo
 | - Comprehensive Testing and Validation | - Performance and Resource Utilization |
 | - Extensive Integrations and Ecosystem | - Support and Documentation |
 
-### Pros
+#### Pros
 
 - **User-Friendly Interface**: Intuitive design for easy CI/CD pipeline management.
   
@@ -65,7 +60,7 @@ CircleCI integrates seamlessly with GitHub, Bitbucket, AWS, Google Cloud, and mo
   
 - **Extensive Integrations**: Wide range of integrations with popular tools and services, enhancing collaboration and workflow.
 
-### Cons
+#### Cons
 
 - **Learning Curve**: New developers may face challenges in understanding and configuring CircleCI effectively.
   
@@ -76,3 +71,16 @@ CircleCI integrates seamlessly with GitHub, Bitbucket, AWS, Google Cloud, and mo
 - **Performance**: Ongoing monitoring and maintenance needed for optimal performance and resource utilization.
   
 - **Support**: Accessing timely support and navigating complex scenarios may require additional assistance and collaboration.
+
+### Installation
+
+- 1. To start building on CircleCI, we first need to ***Sign up***. Sign up with your preferred email address and connect your Github, Bitbucket or GitLab account
+
+- 2. Create a Project
+In the CircleCI web app, select Projects from the sidebar. Click Create Project, then select the repository you would like to connect from the dropdown. If you don’t see these options, use the org selector in the top left corner to find the correct organization.
+
+- 3. Generate Config
+Give your project a name, check the options, then click Create Project. A `config.yml` file is generated for you based on the languages and frameworks used in your project.
+
+- 4. Commit and Run Your Config
+Click Commit and Run. This will create a `.circleci/config.yml` file at the root of your repository on a new branch called `circleci-project-setup`. You can also choose Review Configuration File if you would rather check or make changes to the config file before committing.
