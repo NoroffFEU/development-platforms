@@ -116,6 +116,8 @@ TestRail, Ranorex, and Kiuwan. They focus on different aspects of the testing pr
 - **Kiuwan:**
   An application security testing tool. It helps developers identify and fix security vulnerabilities in their code - important for ensuring that software is safe to use.
 
+  ***
+
 ## Market Comparison
 
 There are many CI-tools at disposal in the market. A comparisation of Travis CI to Jenkins- and Circle CI:
@@ -134,8 +136,6 @@ There are many CI-tools at disposal in the market. A comparisation of Travis CI 
 | Travis CI                        | Jenkins                                               | CircleCI                                              |
 | -------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
 | Heroku, GitHub Pages, and AWS S3 | Windows, Linux, macOS and miscellaneous Unix-like OS' | AWS, Google Cloud, and Azure, Slack, GitHub, and Jira |
-
----
 
 In short, the different profiled platforms comparable to TravisCI has the following strenghts that separates them:
 
@@ -167,8 +167,6 @@ https://app.travis-ci.com/signin
 
 - Select “Activate” on the desired repository on your Travis CI dashboard
 
----
-
 2. **Configure .travis.yml-file**
 
 - the .travis.yml-file instructs Travis CI how to act during a build
@@ -182,16 +180,14 @@ rvm:
  - jruby
 ```
 
----
-
 3. **Add the .travis.yml file to git, commit, and push to trigger a Travis CI build:**
+
    ```git add .
    git commit -m "Message"
    git push origin <<branch-name>>
    ```
-   Note: Travis CI needs to have a .travis.yml-file commited to run.
 
----
+   Note: Travis CI needs to have a .travis.yml-file commited to run.
 
 4. **Give access to Travis CI when prompted after sign-in via GitHub**
    This will give the prompt: "This application will be able to read and write all public and private repository data."
