@@ -143,6 +143,8 @@ In short, the different profiled platforms comparable to TravisCI has the follow
 - **Jenkins** is ideal for complex setups and customization but requires more configuration effort.
 - **CircleCI** offers a balance between ease of use and flexibility, with good cloud support and third-party integrations.
 
+---
+
 ## Getting Started with Travis CI using GitHub
 
 1. **Sign up and begin your connection**
