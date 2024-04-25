@@ -23,7 +23,7 @@ Microsoft Azure, most often refered to as Azure, is a cloud computing platform, 
 - 2021: Microsoft Mesh was announced, offering mixed realtiy capabilities integrated with Azure. 
 - 2022: Azure OpenAI was launched. Integrating AI models like GPT-3 into its cloud offering
 - 2023: More advanced AI and machine learning tools are made available. Increased efforts in Azures sustainability efforts, including tools to measure and manage carbon emissions. 
-- 2024: Ongoing plans to move Azure's global infrastrucutre towards, and further integrating is with quantom computing technologies. 
+- 2024: Ongoing plans to move Azure's global infrastructure towards, and further integrating it with quantom computing technologies. 
 
 ## Bacground
 
@@ -117,9 +117,9 @@ After the trained model is finished, it can be deployed to a web service on Azur
 
 ## Conclusion
 
-In this case study, we have looked at what Microsfot Azure is, it's history and it's core techonolgy. Azure is a cloud platform offering different tools for different digital operations. Since it's commercial release in 2010, Azure has grown to be one of the lead providers of cloud solutions, having a indsutry advantage of beein easily integrated with the microsoft eco-system. In the later years, AI and machinlearning technologies have been added for different purposes. 
+In this case study, we have looked at what Microsfot Azure is, it's history and it's core technology. Azure is a cloud platform, offering different tools for different digital operations. Since it's commercial release in 2010, Azure has grown to be one of the lead providers of cloud solutions, having a indsutry advantage of beein easily integrated with the microsoft eco-system. In the later years, AI and machinelearning capabilities have been added for different purposes. 
 
-Azures cloud technologies allows customers to get rid of much of their own hardware, and use centralized hardware and datacenteres owned by Microsoft instead. This makes it easier to only pay for exactly what you need, and scale accroding to your changing business needs.  
+Azures cloud technologies allows customers to get rid of much of their own hardware, and use centralized hardware and datacenteres owned by Microsoft instead. This makes it easier to only pay for exactly what you need, and scale according to your changing business needs.  
 
 Although the use of Azure is most relevant for fullstack- and backend developers, it might be beneficial for frontend developers who are looking to deploy and host an app using the Azure portal and implement machine learning algorithms which can dynamically controll the displayed content on the frontend-side. 
 
@@ -131,8 +131,8 @@ Although the use of Azure is most relevant for fullstack- and backend developers
 | Forbes, 2020 | https://www.forbes.com/sites/janakirammsv/2020/02/03 a-look-back-at-ten-years-of-microsoft-azure/|
 | Microsoft | https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/ |
 | Hosting Sprout, 2024 | https://www.hostingsprout.com/microsoft-azure-alternatives/#:~:text=Top%2010%20Best%20Microsoft%20Azure%20Alternatives%20and%20Competitors for%20Unmanaged%20Clouds%20...%206%206.%20InterServer%20 |
-| Microsfot | https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-azure-ml-in-a-day?view=azureml-api-2 |
+| Microsoft | https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-azure-ml-in-a-day?view=azureml-api-2 |
 | Microsoft | https://learn.microsoft.com/en-us/azure/developer/intro/hosting-apps-on-azure|
 
 ## Additional Resources
-ChatGPT was used as a support for this case study. 
+ChatGPT was used as support for this case study. 
