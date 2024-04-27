@@ -34,13 +34,13 @@ The primary purpose of Travis CI is to help test and deploy developers' software
 
 1. **Automated Build and Testing:**
 
-- **Trigger Builds** 
+- **Trigger Builds:** 
   Automatically launch builds upon code pushes, ensuring immediate feedback and updates, as seen in the “Stage” section in the image at the end of this section.
-- **Parallel Testing**
+- **Parallel Testing:**
   Run tests concurrently for faster build times and efficient resource utilization and delegation.
-- **Caching**
+- **Caching:**
   Reduce unwanted rebuilds by caching tested dependencies- and build artifacts.
-- **Support for Diverse Languages and Frameworks achieves** 
+- **Support for Diverse Languages and Frameworks achieves:** 
   Seamless integration with a variety of languages, like Python, Ruby, Java, JavaScript, and frameworks like Django, Rails, Spring Boot, and React.
 
 2. **Continuous Integration and Delivery (CI/CD):**
@@ -92,8 +92,7 @@ These are all software development tools that address different parts of the dev
 
 - **Ruby on Rails:**
   A full-stack web application framework. It is a popular choice for web development because it provides a lot of functionality out of the box.
-- **Ember.js:**  
-  JavaScript framework, known for its ease of use and its ability to create complex UIs.
+- **Ember.js:** A JavaScript framework, known for its ease of use and its ability to create complex UIs.
 - **OpenSSL:**
   A toolkit that implements a variety of cryptographic functions and protocols. It is used for a wide range of security purposes, including encrypting communications, verifying digital signatures, and authenticating users.
 - **Puppet:**
@@ -168,7 +167,7 @@ https://app.travis-ci.com/signin
 2. **Configure .travis.yml-file**
 
 - the .travis.yml-file instructs Travis CI how to act during a build
-- The following example is a Ruby project built with version 2.2:
+  The following example is a Ruby project built with version 2.2:
   .travis.yml:
 
 ```
