@@ -77,10 +77,8 @@ The primary purpose of Travis CI is to help test and deploy developers' software
 - **Extensive Integrations:** Connect with countless tools and services you already use in your development workflow.
 - **Active Community:** Benefit from a vibrant community of developers and contribute to the platform’s open-source codebase.
 
-**(IMG: How Travis CI works and its architecture)**
-
 ![Untitled](https://www.devopsschool.com/blog/wp-content/uploads/2024/01/image-95.png) <br>
-_Travis CI works and Architecture (www.devopsschool.com)_
+_How Travis CI works and Architecture (www.devopsschool.com)_
 
 ---
 
