@@ -1,44 +1,47 @@
 ---
-title: Example Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+title: Docker Case Study
+author: Sondre Lie <Sondre198>
+tags: Docker, case study, platform
 ---
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+Docker is an open-source platform designed to simplify the process of building, deploying, and managing applications within containers. The platform was originally released in 2013, Docker has since become a leading tool in the world of software development, enabling developers to package applications and their dependencies into lightweight, portable containers.
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 2010: Solomon Hykes founds dotCloud, a platform-as-a-service (PaaS) company that later becomes the foundation for Docker.
+- 2013: Docker is officially launched by Solomon Hykes and his team at dotCloud. The project is open-sourced, and due to their innovative approach to containerization they gain popularity in the tech industry.
+- 2014: Docker, Inc. is founded as a company to support and commercialize Docker. The company raises significant funding and quickly gains attention in the tech industry.
+- 2015: Docker Engine 1.0 is released, marking the first stable version of Docker. This release solidifies Docker's position as a leading containerization technology, attracting a growing community of developers and organizations.
+- 2016: Docker introduces Docker Datacenter, a comprehensive enterprise container management platform designed to streamline the deployment and management of containers at scale. Docker Datacenter includes features such as container orchestration, security, and centralized management.
+- 2017: Docker announces support for Kubernetes, an open-source container orchestration tool originally developed by Google. This move reflects Docker's commitment to providing choice and flexibility to users, allowing them to leverage Kubernetes alongside Docker's native orchestration tools.
+- 2019: Docker Desktop is released, providing developers with an easy-to-use interface for building, testing, and deploying containers on their local machines. Docker Desktop supports Windows, macOS, and Linux, making it accessible to a wide range of developers.
+- 2020: Docker announces Docker Hub rate limits, introducing changes to its container image distribution policies. Additionally, Docker introduces the Docker Subscription Service, offering commercial support and additional features for organizations using Docker in production environments.
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+- **Simplified Application Packaging:** Docker simplifies the process of packaging applications and their dependencies into lightweight, portable containers. This allows developers to encapsulate their applications, including the code, runtime, system tools, libraries, and settings, into a single package that can run consistently across different environments.
+- **Consistent Development Environments:** Docker provides a consistent environment for developing and testing applications. By using Docker containers, developers can ensure that their applications run the same way on their local machines as they do in production, eliminating the "it works on my machine" problem.
+- **Isolation and Security:** Docker containers offer isolation at the application level, ensuring that changes made to one container do not affect others. This isolation enhances security by reducing the attack surface and minimizing the impact of potential vulnerabilities..
+- **Resource Efficiency:** Docker containers are lightweight and start quickly, making efficient use of system resources. Unlike traditional virtual machines, which require a separate operating system for each instance, Docker containers share the host operating system kernel, resulting in faster startup times and reduced overhead.
+- **Scalability and Portability:** Docker enables developers to easily scale their applications by deploying multiple containers across different hosts or cloud environments. Docker containers are portable and can run on any platform that supports Docker, providing flexibility and consistency across development, testing, and production environments.
+- **DevOps Integration:** Docker integrates seamlessly with DevOps practices, enabling continuous integration (CI) and continuous deployment (CD) pipelines. Developers can automate the build, test, and deployment processes using Docker containers, streamlining the development lifecycle and improving productivity.
 
-You may use subheadings, tables or bullet points to structure your description:
+Unique Aspects of Docker:
 
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
+Docker's containerization technology is based on open standards and leverages features of the Linux kernel, making it highly efficient and interoperable.
+Docker Hub, Docker's cloud-based registry service, provides a centralized repository for sharing and distributing container images, fostering collaboration and reuse among developers.
+Docker's ecosystem includes a rich set of tools and services, such as Docker Compose for defining multi-container applications, Docker Swarm for container orchestration, and Docker Desktop for local development environments.
 
-Example feature table:
+How Docker Benefits Developers:
 
-| Feature         | Description                                        |
-| --------------- | -------------------------------------------------- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
+Docker enables developers to focus on building and shipping code without worrying about differences in environments or dependencies.
+Docker accelerates the development process by providing a consistent and reproducible environment for testing and debugging.
+Docker facilitates collaboration among development teams by standardizing development environments and sharing containerized applications via Docker Hub.
+Docker simplifies the deployment of applications by abstracting away infrastructure details and providing tools for automating deployment workflows.
 
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+Overall, Docker is a versatile tool that addresses a wide range of challenges in software development and deployment, making it invaluable to developers seeking to streamline their workflows and deliver high-quality applications more efficiently.
 
 ## Market Comparison
 
