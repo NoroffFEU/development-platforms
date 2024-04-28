@@ -1,8 +1,8 @@
-# Redis Case Study: Enabling Real-Time Data Solutions Across Industries
-
-**Author:** Tord Åke Larsson
-**GitHub Username:** lordaake
-**Tags:** redis, case study, in-memory database, technology, implementation guide
+---
+title: Redis Case Study
+author: Tord Åke Larsson <lordaake>
+tags: redis, case study, in-memory database, technology, implementation guide
+---
 
 ## Introduction
 
