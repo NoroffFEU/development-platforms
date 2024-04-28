@@ -71,11 +71,10 @@ Docker simplifies software development and deployment by leveraging containeriza
 
 ## References
 
-- (https://docker.com) - Docker Home Page
--
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- https://docker.com - Docker Home Page
+- https://www.docker.com/company/ - Docker About Us page
+- https://www.docker.com/why-docker/ - Why Docker page
+- https://en.wikipedia.org/wiki/Docker_(software) - Docker Wikipedia
+- https://www.linkedin.com/pulse/heres-brief-history-docker-ashadozzaman-shvou-hdimc - Brief history of Docker
+- https://www.youtube.com/watch?v=rIrNIzy6U_g - 100+ Docker Concepts you Need to Know
+- https://youtu.be/pg19Z8LL06w?si=V0D-fBvV-dBfQ2Bt - Docker Crash Course for Absolute Beginners
