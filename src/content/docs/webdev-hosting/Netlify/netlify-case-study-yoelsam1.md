@@ -71,7 +71,7 @@ By following these steps, you can quickly set up and deploy your web project usi
 
 ## Conclusion
 
-In conclusion, Netlify is a powerful platform for hosting and deploying modern web projects. Its intuitive interface, extensive feature set, and strong integration with version control systems make it a top choice for developers and teams looking to streamline their development workflow. While there are alternatives in the market, Netlify's combination of simplicity and functionality sets it apart as a leading solution for web hosting and deployment.
+In conclusion, Netlify is a powerful platform for hosting and deploying modern web projects. Its intuitive interface, extensive feature set, and strong integration with version control systems make it a top choice for developers and teams looking to streamline their development workflow. While there are alternatives in the market, Netlify's combination of simplicity and functionality sets it apart as a leading solution for web hosting and deployment..
 
 ## References
 
