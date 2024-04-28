@@ -71,9 +71,8 @@ Docker simplifies software development and deployment by leveraging containeriza
 
 ## References
 
-- [docker.com](https://docker.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
+- (https://docker.com) - Docker Home Page
+-
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
 ## Additional Resources
