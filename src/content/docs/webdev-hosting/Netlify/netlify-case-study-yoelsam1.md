@@ -1,7 +1,7 @@
----
 title: Netlify Case Study
 author: Yoelsam1
 tags: netlify, case study, platform
+
 ---
 
 ## Introduction
@@ -33,15 +33,15 @@ Netlify offers several key features for developers and teams:
 
 1. **Ease of Use**: Netlify's user-friendly interface and seamless integration with version control systems like Git make it easy for developers to deploy and manage their web projects without complex setup or configuration. This ease of use sets Netlify apart from other platforms that may require more technical expertise to get started.
 
-2. **Serverless Functions**: Netlify's built-in support for serverless functions allows developers to easily create and deploy backend logic without managing server infrastructure, providing greater flexibility and scalability for web applications. This feature gives Netlify an edge over platforms that lack native support for serverless architecture.
+2. **Serverless Functions**: According to [Netlify's documentation](https://docs.netlify.com/functions/overview/), Netlify's built-in support for serverless functions allows developers to easily create and deploy backend logic without managing server infrastructure, providing greater flexibility and scalability for web applications. This feature gives Netlify an edge over platforms that lack native support for serverless architecture.
 
-3. **Forms Handling**: Netlify's forms handling feature enables developers to collect form submissions on static sites without the need for server-side code, simplifying the process of capturing user data and interactions. This functionality is a valuable addition compared to platforms that require external services or custom solutions for forms handling.
+3. **Forms Handling**: Netlify's forms handling feature, as described in the [Netlify Forms Handling Guide](https://www.netlify.com/docs/form-handling/), enables developers to collect form submissions on static sites without the need for server-side code, simplifying the process of capturing user data and interactions. This functionality is a valuable addition compared to platforms that require external services or custom solutions for forms handling.
 
-4. **Global CDN**: Netlify's global content delivery network ensures fast and reliable content delivery to users worldwide, improving website performance and user experience. This feature is essential for reaching a global audience and sets Netlify apart from platforms that may have limited or regionalized CDN coverage.
+4. **Global CDN**: Netlify's global content delivery network ensures fast and reliable content delivery to users worldwide, improving website performance and user experience. According to the [Netlify documentation](https://docs.netlify.com/), this feature is essential for reaching a global audience and sets Netlify apart from platforms that may have limited or regionalized CDN coverage.
 
 5. **Branch Previews**: Netlify automatically creates preview environments for every branch in a Git repository, allowing developers to test changes before merging them into the main codebase, enhancing collaboration and reducing the risk of errors. This feature streamlines the development process and distinguishes Netlify from platforms that lack robust support for continuous integration and deployment workflows.
 
-6. **Identity and Authentication**: Netlify provides built-in authentication and identity management capabilities, allowing developers to secure access to their web projects and manage user authentication with ease. This integrated solution simplifies security management compared to platforms that require third-party authentication services or custom authentication implementations.
+6. **Identity and Authentication**: Netlify provides built-in authentication and identity management capabilities, allowing developers to secure access to their web projects and manage user authentication with ease. According to [Netlify's documentation](https://docs.netlify.com/), this integrated solution simplifies security management compared to platforms that require third-party authentication services or custom authentication implementations.
 
 ### Negative Comparisons:
 
