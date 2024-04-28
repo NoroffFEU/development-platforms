@@ -8,7 +8,7 @@ tags: Railway, case study, Platform as a service, Cloud Computing
 
 ## Introduction
 
-Railway is a Platformm as a Service ([PaaS](https://cloud.google.com/learn/what-is-paas)) that enhances software development by enabling quick deployment and easy scaling of applications. The platform incorporates integrated tools for continuous integration and continuous deployment ([CI/CD](https://about.gitlab.com/topics/ci-cd/)), which help developers set up their infrastructure, develop locally, and then deploy efficiently to the cloud. This integration simplifies the entire development workflow.Additionally, Railway supports a diverse range of programming languages such as Java, PHP, Python, Swift, and Go, allowing for rapid deployment of applications to the cloud in just minutes.
+Railway is a Platform as a Service ([PaaS](https://cloud.google.com/learn/what-is-paas)) that enhances software development by enabling quick deployment and easy scaling of applications. The platform incorporates integrated tools for continuous integration and continuous deployment ([CI/CD](https://about.gitlab.com/topics/ci-cd/)), which help developers set up their infrastructure, develop locally, and then deploy efficiently to the cloud. This integration simplifies the entire development workflow.Additionally, Railway supports a diverse range of programming languages such as Java, PHP, Python, Swift, and Go, allowing for rapid deployment of applications to the cloud in just minutes.
 
 ## Brief History
 
@@ -98,7 +98,7 @@ In conclusion, Railway represents a significant advancement in the Platform as a
 ## References
 
 1. [Railway Official Website](https://railway.app)
-2. [Railway Official Documentaion](https://docs.railway.app/)
+2. [Railway Official Documentation](https://docs.railway.app/)
 3. [Heroku vs Railway](https://blog.back4app.com/heroku-vs-railway-which-is-the-best/)
 4. [Heroku Official Website](https://www.heroku.com/)
 5. [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/)
