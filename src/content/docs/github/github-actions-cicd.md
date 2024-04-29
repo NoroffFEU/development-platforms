@@ -80,7 +80,7 @@ Azure DevOps is often seen as a more mature service with a wider range of featur
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+To start with GitHub Actions, you'll need to create a .github/workflows directory in your GitHub repository. Inside this directory, you create YAML files that define your workflows. You can start simple with a basic file that runs a few commands every time you push changes to your repository. Over time, you can expand your workflows to automate more complex tasks like building, testing, and deploying your code. GitHub provides preconfigured starter workflows to help you get started quickly, and these can be customized to suit your project's needs. For detailed steps and more information, you can check the GitHub Docs on [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart).
 
 ## Conclusion
 
