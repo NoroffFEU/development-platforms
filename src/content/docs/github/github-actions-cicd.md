@@ -90,8 +90,8 @@ This section can be used to summarize your findings. What are the main advantage
 
 - https://web.archive.org/web/20160409191635/http://www.startlin.es/timelines/github/
 - https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- https://docs.github.com/en/actions/guides
+
 
 ## Additional Resources
 
