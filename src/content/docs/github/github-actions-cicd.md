@@ -1,6 +1,6 @@
 ---
 title: GitHub Actions
-author: Mariusz Rozycki <MariuszRozycki>
+author:  Mariusz Rozycki
 tags: CI/CD, GitHub Actions, GitHub
 ---
 
