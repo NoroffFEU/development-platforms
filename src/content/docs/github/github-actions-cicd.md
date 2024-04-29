@@ -82,6 +82,26 @@ Azure DevOps is often seen as a more mature service with a wider range of featur
 
 To start with GitHub Actions, you'll need to create a .github/workflows directory in your GitHub repository. Inside this directory, you create YAML files that define your workflows. You can start simple with a basic file that runs a few commands every time you push changes to your repository. Over time, you can expand your workflows to automate more complex tasks like building, testing, and deploying your code. GitHub provides preconfigured starter workflows to help you get started quickly, and these can be customized to suit your project's needs. For detailed steps and more information, you can check the GitHub Docs on [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart).
 
+### Starting with GitHub Actions involves a few key steps:
+
+1. Create a Workflow File: In your GitHub repository, add a new file in the `.github/workflows` directory.
+2. Choose a Trigger: Decide when your workflow should run, such as on a `push` or `pull_request` event to your repository.
+3. Define Jobs: Set up the jobs that should run in your workflow.
+4. Specify Steps: Inside each job, define the steps to execute, such as running scripts or using actions.
+
+Here’s a basic example of a workflow file that logs messages:
+
+```name: Example Workflow
+on: [push]
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Log a message
+      run: echo Hello, world!
+```
+
+
 ## Conclusion
 
 This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
