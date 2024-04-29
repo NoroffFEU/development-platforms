@@ -31,20 +31,7 @@ GitHub Actions is a part of GitHub so it's necessary to write some words about G
 
 ## Main Features
 
-GitHub Actions is a powerful feature within GitHub that enhances automation capabilities directly within repositories. The main features of GitHub Actions:
-
-- **Automation of Workflows:** 
-- **Customizable Workflows:** 
-- **Hosted Runners:** 
-- **Marketplace Integration:** 
-- **CI/CD Support:** 
-- **Community and Sharing:** 
-- **Secrets and Encrypted Keys:** 
-- **Example Feature:** This feature does something for a specific reason.
-
-These features make GitHub Actions a versatile tool for developers looking to automate their development and deployment workflows directly within GitHub. For more detailed information and guidance on setting up GitHub Actions, you can visit the documentation: https://docs.github.com/en/actions/guides 
-
-Example feature table:
+GitHub Actions is a powerful feature within GitHub that enhances automation capabilities directly within repositories. <br> The main features of GitHub Actions:
 
 | Feature | Description |
 | --- | --- |
@@ -57,15 +44,39 @@ Example feature table:
 | Secrets and Encrypted Keys: | It supports secrets management, allowing user to store sensitive information like API keys or access tokens securely in the GitHub environment. |
 | Example Feature | This feature does something for a specific reason. |
 
+These features make GitHub Actions a versatile tool for developers looking to automate their development and deployment workflows directly within GitHub. For more detailed information and guidance on setting up GitHub Actions, you can visit the documentation: https://docs.github.com/en/actions/guides 
+
 You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+I choose the following two platforms: GitHub Actions && Azure Pipelines because they are both owned by Microsoft. <br> 
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+Azure DevOps and GitHub have their own automation and CI/CD (continuous integration and continuous delivery) tools: Azure Pipelines and GitHub Actions.
+Both of these tools allow you to create workflows for building, testing, publishing, releasing, and deploying code. They also have similarities in terms of workflow setup.
+In both cases, configuration files are saved in YAML format and stored in the code repository. Workflows consist of one or more tasks, and each of these tasks contains one or more individual steps or commands.
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+Task and step structures in Azure Pipelines are very similar to those in GitHub actions.
+
+However, there are many differences between these two tools.
+
+| GitHub Actions | Azure Pipelines |
+| --- | --- |
+| Is specific to GitHub. | Can be used with many source control systems. |
+| Can be used to automate code review, branch management, or program sorting. |  Is primarily used for automating CI/CD workflows. |
+| Manages only self-hosted runners in groups. | Supports environments, deployment groups, and agent pools. |
+| Selects self-hosted runners with labels. | Allows the selection of self-hosted agents with capabilities. |
+| Doesn't have supports for approvals and gates. | Supports approvals and gates. |
+| Only offers webhooks. | Has service connections and webhooks to orchestrate connections to external services in pipelines. |
+| GitHub Actions only has secret variables tied to the code repository or organization. | To aid configuration management in pipelines, Azure has variables and variable groups, both secret and plaintext. |
+| Doesn't have Secure Files feature. | Offers a Secure Files feature. |
+| GitHub Actions requires separating stages into different YAML workflow files. | Supports stages defined in the YAML file to create deployment workflows. |
+| Requires explicit configuration, and the YAML structure cannot be omitted. | User can omit part of the structure in job definitions. For a single job, user don’t need to define the job itself, can simply define its steps. |
+| Doesn't offer customization of pipeline run name or build number. | The pipeline run name or build number can be customized. |
+| Only a single action can be placed in a GitHub repository. | Azure Pipelines extensions can bundle multiple tasks. |
+
+
+Azure DevOps is often seen as a more mature service with a wider range of features for CI/CD. It also blends more smoothly with enterprise-level tools. On the other hand, GitHub Actions is newer and still proving itself, but it's generally viewed as more user-friendly.
 
 ## Getting Started
 
@@ -78,7 +89,7 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - https://web.archive.org/web/20160409191635/http://www.startlin.es/timelines/github/
-- *Good Examples* by John Doe, 1990
+- https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
