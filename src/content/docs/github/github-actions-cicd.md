@@ -92,7 +92,7 @@ To start with GitHub Actions, you'll need to create a .github/workflows director
 Here’s a basic example of a workflow file that logs messages:
 
 ```name: Example Workflow
-on: [push]
+on: workflow_dispatch
 jobs:
   say_hello:
     runs-on: ubuntu-latest
