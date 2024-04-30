@@ -1,7 +1,7 @@
+---
 title: Netlify Case Study
 author: Yoelsam1
 tags: netlify, case study, platform
-
 ---
 
 ## Introduction
