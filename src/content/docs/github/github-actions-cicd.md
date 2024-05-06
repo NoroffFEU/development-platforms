@@ -6,7 +6,7 @@ tags: CI/CD, GitHub Actions, GitHub
 
 # Developer Platforms: GitHub - GitHub Actions
 ## Introduction
-GitHub Actions is a perfect example of a modern development platform that allows us to automate processes throughout the software lifecycle, including testing, building, and deploying applications. Preparing this case study is not only to help  understand GitHub Actions in more depth, but also to demonstrate my research and technical skills. This case study includes video demonstrations and configuration scripts that show how GitHub Actions can realistically be used in a development project. To describe GitHub Actions I used mostly GitHub Actions documentation: https://docs.github.com/en/actions/guides
+GitHub Actions is a perfect example of a modern development platform that allows us to automate processes throughout the software lifecycle, including testing, building, and deploying applications. Preparing this case study is not only to help  understand GitHub Actions in more depth, but also to demonstrate my research and technical skills. This case study includes demonstrations and configuration scripts that show how GitHub Actions can realistically be used in a development project. To describe GitHub Actions I used mostly GitHub Actions documentation: https://docs.github.com/en/actions/guides
 
 ## Brief History
 
