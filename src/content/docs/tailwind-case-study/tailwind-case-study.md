@@ -1,6 +1,5 @@
-
 ---
-title: Tailwind CSS: Revolutionizing Frontend Development
+title: Tailwind css
 author: Bavy Ado <Bavy89>
 tags: tailwind-css, frontend, css-framework, case-study
 ---
