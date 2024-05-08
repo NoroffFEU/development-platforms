@@ -59,8 +59,7 @@ Tailwind CSS has revolutionized frontend development by offering a flexible and 
 
 ## References
 
-- [Tailwind CSS Official Website](https://tailwindcss.com)
-- ["Utility-First CSS with Tailwind CSS" by Adam Wathan](https://www.youtube.com/watch?v=6zIuAyLZPH0)
+-(https://tailwindcss.com)
 
 ## Additional Resources
 
