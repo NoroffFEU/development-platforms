@@ -42,11 +42,13 @@ To get started with Tailwind CSS, follow these steps:
    ```bash
    npm install tailwindcss
 
-Create a Tailwind configuration file (tailwind.config.js) to customize settings.
+2. Create a Tailwind configuration file (tailwind.config.js) to customize settings.
 
-Include Tailwind CSS in your project:
+3. Include Tailwind CSS in your project:
+   <link href="https://cdn.tailwindcss.com" rel="stylesheet">
 
-Start using Tailwind utility classes in your HTML markup to style elements.
+
+4. Start using Tailwind utility classes in your HTML markup to style elements.
 
 
 ## Conclusion
