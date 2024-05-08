@@ -45,10 +45,12 @@ To get started with Tailwind CSS, follow these steps:
 2. Create a Tailwind configuration file (tailwind.config.js) to customize settings.
 
 3. Include Tailwind CSS in your project:
+
+   -[link href="https://cdn.tailwindcss.com" rel="stylesheet")
    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
 
 
-4. Start using Tailwind utility classes in your HTML markup to style elements.
+6. Start using Tailwind utility classes in your HTML markup to style elements.
 
 
 ## Conclusion
