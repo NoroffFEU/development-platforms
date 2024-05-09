@@ -6,11 +6,14 @@ tags: CI/CD, GitHub Actions, GitHub
 
 # Developer Platforms: GitHub - GitHub Actions
 ## Introduction
+
+### What GitHub is in general?
 Before we will get to know what GitHub Actions are we should write what GitHub is. 
 According GitHub webside and Wikipedia - GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. Headquartered in California, it has been a subsidiary of Microsoft since 2018.
 
-It is commonly used to host open source software development projects. As of January 2023, GitHub reported having over 100 million developers and more than 420 million repositories, including at least 28 million public repositories. It is the world's largest source code host as of June 2023.
+It is commonly used to host open source software development projects. As of January 2023, GitHub reported having over 100 million developers and more than 420 million repositories, including at least 28 million public repositories. It is the world's largest source code host as of June 2023. [Wikipedia][1]
 
+### What is a GitHub Actions?
 GitHub Actions is a perfect example of a modern development platform that allows us to automate processes throughout the software lifecycle, including testing, building, and deploying applications. Preparing this case study is not only to help  understand GitHub Actions in more depth, but also to demonstrate my research and technical skills. This case study includes demonstrations and configuration scripts that show how GitHub Actions can realistically be used in a development project. To describe GitHub Actions I used mostly GitHub Actions documentation: https://docs.github.com/en/actions/guides
 
 ## Brief History
@@ -249,6 +252,7 @@ GitHub Actions is a versatile CI/CD tool that enables automated workflows within
 
 ## References
 
+[1] https://en.wikipedia.org/wiki/GitHub
 - https://web.archive.org/web/20160409191635/http://www.startlin.es/timelines/github/
 - https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool
 - https://docs.github.com/en/actions/guides
@@ -305,4 +309,6 @@ GitHub Actions makes it easier to integrate DevOps practices into the daily work
 
 ## 5.	The future of GitHub Actions:
 -	Speculate on future trends and developments of GitHub Actions as DevOps and automation grow in popularity.
+
+
 
