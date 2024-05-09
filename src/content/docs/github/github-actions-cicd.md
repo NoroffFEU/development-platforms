@@ -1,6 +1,6 @@
 ---
 title: GitHub Actions
-author:  MariuszRozycki https://github.com/MariuszRozycki
+author:  Mariusz Rozycki, 
 tags: CI/CD, GitHub Actions, GitHub
 ---
 
@@ -85,7 +85,7 @@ However, there are many differences between these two tools.
 | Only a single action can be placed in a GitHub repository. | Azure Pipelines extensions can bundle multiple tasks. |
 
 
-Azure DevOps is often seen as a more mature service with a wider range of features for CI/CD. It also blends more smoothly with enterprise-level tools. On the other hand, GitHub Actions is newer and still proving itself, but it's generally viewed as more user-friendly.
+Azure DevOps is often seen as a more mature service with a wider range of features for CI/CD. It also blends more smoothly with enterprise-level tools. On the other hand, GitHub Actions is newer and still proving itself, but it's generally viewed as more user-friendly. [Read origin][4]
 
 ## How does GitHub Actions work?
 
@@ -157,6 +157,7 @@ Workflows are located in the .github/workflows directory within a repository, an
 
 ##### Example of Workflows, Jobs and Steps 
 ![image](https://github.com/MariuszRozycki/development-platforms/assets/55709542/81b6aede-9646-41e3-abfa-1f75631f4def)
+[Image created by Mariusz Rozycki, but based on the GitHub Action video-course][5]
 
 #### Example Workflow:
 #### In the example below, if you want to use e.g. Jest tests in GitHub Actions *.yaml files, you must first properly configure your package.json file to install e.g. Jest or other testing software. Otherwise GitHub Actions fails.
@@ -252,66 +253,24 @@ jobs:
 
 GitHub Actions is a versatile CI/CD tool that enables automated workflows within GitHub. By defining workflows in YAML files, you can customize your automation processes to suit your project's requirements, leveraging GitHub’s powerful ecosystem.
 
+## Author
+[author]: https://github.com/MariuszRozycki
+
 ## References
 
+- 1: [Wikipedia GitHub][1]
+- 2: [GitHub Actions docs][2]
+- 3: [History of GitHub][3]
+- 4: [Azure DevOps vs GitHub Actions][4]
+- 5: [GitHub Actions video-course on Udemy][5]
+
 [1]: https://en.wikipedia.org/wiki/GitHub
-[2]: https://docs.github.com/en/actions/guides
+[2]: https://docs.github.com/en/actions
 [3]: https://web.archive.org/web/20160409191635/http://www.startlin.es/timelines/github/
-- https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool
-- https://docs.github.com/en/actions/guides
+[4]: https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool
 
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+[5]: https://www.udemy.com/share/107osk3@XAK0id0CKVwvV4C0_p-XyWRsmkYqDP7gjbp8Ww0VbxZVAZO1VHO2NB9DdL6zt8rWwg==/
 ------------------------
-
-# Developer Platforms: GitHub Actions
-
-GitHub Actions is a perfect example of a modern development platform that allows us to automate processes throughout the software lifecycle, including testing, building, and deploying applications. Preparing this case study is not only to help  understand GitHub Actions in more depth, but also to demonstrate my research and technical skills. This case study includes video demonstrations and configuration scripts that show how GitHub Actions can realistically be used in a development project. To describe GitHub Actions I used mostly GitHub Actions documentation: https://docs.github.com/en/actions/guides
-
-## 1.	Introduction to GitHub Actions:
-###	What GitHub Actions are and how they are integrated with GitHub, a code hosting and version control platform?
-
-GitHub Actions is a functionality offered by the GitHub platform that allows to automate, customize and execute development processes directly in GitHub repositories. It is a tool for continuous integration (CI) and continuous deployment (CD) of software that enables automatic execution of scripts (so-called actions) in response to various events in the repository.
-
-#### Key features of GitHub Actions:
-##### A .Workflow Automation: 
-- GitHub Actions allows you to create workflows that are defined in YAML files in the repository. Workflows can be triggered by various events on GitHub, for example push to a branch, creation of a pull request, release of a new version or time-scheduled events (cron jobs).
-
-##### B. Flexibility: 
-- Users can create their own actions (scripts) or use existing actions created by the GitHub community and available on the GitHub Marketplace. This gives you a lot of freedom in adapting CI/CD processes to the specific needs of the project.
-
-##### C. GitHub Integration: 
-- As a tool built into GitHub, Actions are strongly integrated with other GitHub features such as GitHub Issues, Pull Requests, and GitHub Pages. This makes it easier to manage the entire software lifecycle in one place.
-
-##### D. Container support: 
-- GitHub Actions supports running tasks in Docker containers, which allows for even greater control over the environment in which actions and workflows run.
-
-##### E. Security: 
-- Mechanisms such as secrets allow for the safe storage and use of sensitive data (e.g. API keys, passwords) that are needed for the operation of scripts and integration with external services.
-
-#### How does integration with GitHub work?
-GitHub Actions is an integral part of GitHub, which means that all actions and workflows are managed and run directly from the GitHub UI or via configuration files placed in repositories. Users can easily monitor the results of each running workflow, view logs, manage notifications, and debug issues without leaving the GitHub platform.
-
-GitHub Actions makes it easier to integrate DevOps practices into the daily work of development teams, enabling the automation of testing, building and deploying applications in a much more efficient and controlled way.
-<br>
-<br>
-<br>
-
-## 2.	Basic functions and capabilities:
--	GitHub Actions allows users to create workflows that automatically run when certain events occur in the repository (e.g. push, pull request).
--	List common tasks that can be automated using GitHub Actions, such as building applications, testing, deploying to servers or the cloud.
-
-## 3.	Usage examples:
--	Present a specific example or case study showing how GitHub Actions was used to automate CI/CD processes in a software project.
-
-## 4.	Advantages and disadvantages:
--	Strengths of GitHub Actions such as GitHub integration, ease of setup, scalability, as well as weaknesses which may include limitations in available tools, cost for very large projects, etc.
-
-## 5.	The future of GitHub Actions:
--	Speculate on future trends and developments of GitHub Actions as DevOps and automation grow in popularity.
-
-
-
