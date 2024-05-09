@@ -1,10 +1,11 @@
 ---
 title: GitHub Actions
-author:  Mariusz Rozycki, 
+author:  Mariusz Rozycki 
 tags: CI/CD, GitHub Actions, GitHub
 ---
 
 # Developer Platforms: GitHub - GitHub Actions
+## Author: [Mariusz Rozycki][author]
 ## Introduction
 
 ### What GitHub is in general?
@@ -66,8 +67,7 @@ Both of these tools allow you to create workflows for building, testing, publish
 In both cases, configuration files are saved in YAML format and stored in the code repository. Workflows consist of one or more tasks, and each of these tasks contains one or more individual steps or commands.
 
 Task and step structures in Azure Pipelines are very similar to those in GitHub actions.
-
-However, there are many differences between these two tools.
+##### However, there are many differences between these two tools:
 
 | GitHub Actions | Azure Pipelines |
 | --- | --- |
@@ -254,6 +254,8 @@ jobs:
 GitHub Actions is a versatile CI/CD tool that enables automated workflows within GitHub. By defining workflows in YAML files, you can customize your automation processes to suit your project's requirements, leveraging GitHub’s powerful ecosystem.
 
 ## Author
+[Mariusz Rozycki][author]
+  
 [author]: https://github.com/MariuszRozycki
 
 ## References
@@ -271,6 +273,8 @@ GitHub Actions is a versatile CI/CD tool that enables automated workflows within
 
 
 ## Additional Resources
+I used [ChatGPT4][chatGpt4] to improve and construct better content.
 
 [5]: https://www.udemy.com/share/107osk3@XAK0id0CKVwvV4C0_p-XyWRsmkYqDP7gjbp8Ww0VbxZVAZO1VHO2NB9DdL6zt8rWwg==/
+[chatGpt4]: https://chatgpt.com/
 ------------------------
