@@ -14,7 +14,7 @@ According GitHub webside and Wikipedia - GitHub is a developer platform that all
 It is commonly used to host open source software development projects. As of January 2023, GitHub reported having over 100 million developers and more than 420 million repositories, including at least 28 million public repositories. It is the world's largest source code host as of June 2023. [Wikipedia][1]
 
 ### What is a GitHub Actions?
-GitHub Actions is a perfect example of a modern development platform that allows us to automate processes throughout the software lifecycle, including testing, building, and deploying applications. Preparing this case study is not only to help  understand GitHub Actions in more depth, but also to demonstrate my research and technical skills. This case study includes demonstrations and configuration scripts that show how GitHub Actions can realistically be used in a development project. To describe GitHub Actions I used mostly GitHub Actions documentation: https://docs.github.com/en/actions/guides
+GitHub Actions is a perfect example of a modern development platform that allows us to automate processes throughout the software lifecycle, including testing, building, and deploying applications. Preparing this case study is not only to help  understand GitHub Actions in more depth, but also to demonstrate my research and technical skills. This case study includes demonstrations and configuration scripts that show how GitHub Actions can realistically be used in a development project. To describe GitHub Actions I used mostly [GitHub Actions documentation][2].
 
 ## Brief History
 
@@ -36,6 +36,8 @@ GitHub Actions is a part of GitHub so it's necessary to write some words about G
 - On February 28, 2018, GitHub fell victim to the third-largest distributed denial-of-service (DDoS) attack in history, with incoming traffic reaching a peak of about 1.35 terabits per second.
 - On June 19, 2018, GitHub expanded its GitHub Education by offering free education bundles to all schools.
 
+  To create content this section I used informations from website [History of GitHub][3] and [Wikipedia][1]. 
+
 
 ## Main Features
 
@@ -52,7 +54,7 @@ GitHub Actions is a powerful feature within GitHub that enhances automation capa
 | Secrets and Encrypted Keys: | It supports secrets management, allowing user to store sensitive information like API keys or access tokens securely in the GitHub environment. |
 | Example Feature | This feature does something for a specific reason. |
 
-These features make GitHub Actions a versatile tool for developers looking to automate their development and deployment workflows directly within GitHub. For more detailed information and guidance on setting up GitHub Actions, you can visit the documentation: https://docs.github.com/en/actions/guides 
+These features make GitHub Actions a versatile tool for developers looking to automate their development and deployment workflows directly within GitHub. For more detailed information and guidance on setting up GitHub Actions, you can visit the [documentation][2]. 
 
 
 ## Market Comparison
@@ -253,7 +255,8 @@ GitHub Actions is a versatile CI/CD tool that enables automated workflows within
 ## References
 
 [1]: https://en.wikipedia.org/wiki/GitHub
-- https://web.archive.org/web/20160409191635/http://www.startlin.es/timelines/github/
+[2]: https://docs.github.com/en/actions/guides
+[3]: https://web.archive.org/web/20160409191635/http://www.startlin.es/timelines/github/
 - https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool
 - https://docs.github.com/en/actions/guides
 
