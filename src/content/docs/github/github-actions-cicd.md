@@ -46,7 +46,6 @@ GitHub Actions is a powerful feature within GitHub that enhances automation capa
 
 These features make GitHub Actions a versatile tool for developers looking to automate their development and deployment workflows directly within GitHub. For more detailed information and guidance on setting up GitHub Actions, you can visit the documentation: https://docs.github.com/en/actions/guides 
 
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
 ## Market Comparison
 
@@ -78,11 +77,117 @@ However, there are many differences between these two tools.
 
 Azure DevOps is often seen as a more mature service with a wider range of features for CI/CD. It also blends more smoothly with enterprise-level tools. On the other hand, GitHub Actions is newer and still proving itself, but it's generally viewed as more user-friendly.
 
+## How does GitHub Actions work?
+
+GitHub Actions is a CI/CD (Continuous Integration/Continuous Deployment) platform that allows you to automate your software workflows directly within GitHub repositories. 
+Here’s an overview of how GitHub Actions works:
+#### 1. Workflow:
+- A workflow is an automated process made up of one or more jobs.
+- Workflows are defined using YAML syntax in .yml files stored in the .github/workflows directory of a GitHub repository.
+- Each workflow file specifies the sequence of actions to be executed.
+#### 2. Events:
+  ##### Workflows are triggered by events, which can be:
+- Repository Events: push, pull_request, release, etc.
+- Scheduled Events: cron syntax for periodic scheduling.
+- Manual Triggers: Triggered manually via the GitHub UI.
+  ##### Example:
+  ```yaml
+  on:
+  push:
+    branches:
+      - main
+  ```
+#### 3. Jobs:
+- A workflow consists of one or more jobs.
+- Jobs are a set of steps executed sequentially or in parallel.
+- Each job runs on a separate runner (virtual machine).
+#### 4. Runners:
+##### Hosted Runners:
+- Provided by GitHub, with pre-installed software.
+- Ubuntu, Windows, macOS operating systems are available.
+##### Self-Hosted Runners:
+- You can set up and manage your own runners.
+- Allows for greater customization.
+  ##### Example of specifying a runner:
+  ```yaml
+  jobs:
+  build:
+    runs-on: ubuntu-latest
+  ```
+  #### 5. Steps:
+- A job consists of multiple steps.
+- Steps execute commands or actions.
+##### Example of steps in a job:
+```yaml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+      - name: Run tests
+        run: npm test
+```
+#### 6. Actions:
+- Actions are reusable commands that can be used as steps in a job.
+- You can use community actions or create your own.
+##### Example using an action:
+```yaml
+- name: Set up Node.js
+  uses: actions/setup-node@v3
+  with:
+    node-version: '20'
+```
+### What is workflow?
+A workflow is a customizable automated process that can execute one or more jobs. Workflows are specified using a YAML file placed in your repository and are triggered by events in the repository, manually, or according to a set schedule.
+
+Workflows are located in the .github/workflows directory within a repository, and you can have several workflows, each performing a distinct set of tasks. For instance, one workflow might build and test pull requests, another could deploy your application whenever a release is created, and a third might add a label whenever a new issue is opened.
+
+##### Example of Workflows, Jobs and Steps 
+![image](https://github.com/MariuszRozycki/development-platforms/assets/55709542/81b6aede-9646-41e3-abfa-1f75631f4def)
+
+#### Example Workflow:
+##### Here’s a complete example of a GitHub Actions workflow:
+```yaml
+# .github/workflows/ci.yml
+name: CI Workflow
+
+# Trigger the workflow on push or pull request events
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the repository code
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      # Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Run tests
+      - name: Run tests
+        run: npm test
+```
+
 ## Getting Started
 
 To start with GitHub Actions, you'll need to create a .github/workflows directory in your GitHub repository. Inside this directory, you create YAML files that define your workflows. You can start simple with a basic file that runs a few commands every time you push changes to your repository. Over time, you can expand your workflows to automate more complex tasks like building, testing, and deploying your code. GitHub provides preconfigured starter workflows to help you get started quickly, and these can be customized to suit your project's needs. For detailed steps and more information, you can check the GitHub Docs on [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart).
-
-![image](https://github.com/MariuszRozycki/development-platforms/assets/55709542/81b6aede-9646-41e3-abfa-1f75631f4def)
 
 
 ### Starting with GitHub Actions involves a few key steps:
