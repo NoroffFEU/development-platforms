@@ -6,6 +6,11 @@ tags: CI/CD, GitHub Actions, GitHub
 
 # Developer Platforms: GitHub - GitHub Actions
 ## Introduction
+Before we will get to know what GitHub Actions are we should write what GitHub is. 
+According GitHub webside and Wikipedia - GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. Headquartered in California, it has been a subsidiary of Microsoft since 2018.
+
+It is commonly used to host open source software development projects. As of January 2023, GitHub reported having over 100 million developers and more than 420 million repositories, including at least 28 million public repositories. It is the world's largest source code host as of June 2023.
+
 GitHub Actions is a perfect example of a modern development platform that allows us to automate processes throughout the software lifecycle, including testing, building, and deploying applications. Preparing this case study is not only to help  understand GitHub Actions in more depth, but also to demonstrate my research and technical skills. This case study includes demonstrations and configuration scripts that show how GitHub Actions can realistically be used in a development project. To describe GitHub Actions I used mostly GitHub Actions documentation: https://docs.github.com/en/actions/guides
 
 ## Brief History
@@ -149,7 +154,7 @@ Workflows are located in the .github/workflows directory within a repository, an
 ![image](https://github.com/MariuszRozycki/development-platforms/assets/55709542/81b6aede-9646-41e3-abfa-1f75631f4def)
 
 #### Example Workflow:
-#### If you want to use e.g. Jest tests in GitHub Actions *.yaml files, you must first properly configure your package.json file to install e.g. Jest or other testing software. Otherwise GitHub Actions fails.
+#### In the example below, if you want to use e.g. Jest tests in GitHub Actions *.yaml files, you must first properly configure your package.json file to install e.g. Jest or other testing software. Otherwise GitHub Actions fails.
 ##### Here’s a complete example of a GitHub Actions workflow:
 ```yaml
 # .github/workflows/ci.yml
