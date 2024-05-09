@@ -149,6 +149,7 @@ Workflows are located in the .github/workflows directory within a repository, an
 ![image](https://github.com/MariuszRozycki/development-platforms/assets/55709542/81b6aede-9646-41e3-abfa-1f75631f4def)
 
 #### Example Workflow:
+#### If you want to use e.g. Jest tests in GitHub Actions *.yaml files, you must first properly configure your package.json file to install e.g. Jest or other testing software. Otherwise GitHub Actions fails.
 ##### Here’s a complete example of a GitHub Actions workflow:
 ```yaml
 # .github/workflows/ci.yml
