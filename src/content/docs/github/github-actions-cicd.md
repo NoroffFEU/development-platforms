@@ -82,6 +82,9 @@ Azure DevOps is often seen as a more mature service with a wider range of featur
 
 To start with GitHub Actions, you'll need to create a .github/workflows directory in your GitHub repository. Inside this directory, you create YAML files that define your workflows. You can start simple with a basic file that runs a few commands every time you push changes to your repository. Over time, you can expand your workflows to automate more complex tasks like building, testing, and deploying your code. GitHub provides preconfigured starter workflows to help you get started quickly, and these can be customized to suit your project's needs. For detailed steps and more information, you can check the GitHub Docs on [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart).
 
+![image](https://github.com/MariuszRozycki/development-platforms/assets/55709542/81b6aede-9646-41e3-abfa-1f75631f4def)
+
+
 ### Starting with GitHub Actions involves a few key steps:
 
 1. Create a Workflow File: In your GitHub repository, add a new file in the `.github/workflows` directory.
