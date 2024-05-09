@@ -252,7 +252,7 @@ GitHub Actions is a versatile CI/CD tool that enables automated workflows within
 
 ## References
 
-[1] https://en.wikipedia.org/wiki/GitHub
+[1]: https://en.wikipedia.org/wiki/GitHub
 - https://web.archive.org/web/20160409191635/http://www.startlin.es/timelines/github/
 - https://datascientest.com/en/azure-devops-vs-github-actions-which-is-the-best-ci-cd-tool
 - https://docs.github.com/en/actions/guides
