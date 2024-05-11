@@ -273,7 +273,7 @@ GitHub Actions is a versatile CI/CD tool that enables automated workflows within
 
 
 ## Additional Resources
-I used [ChatGPT4][chatGpt4] to improve and construct better content.
+I used [ChatGPT4][chatGpt4] to improve grammar and better sentence structure
 
 [5]: https://www.udemy.com/share/107osk3@XAK0id0CKVwvV4C0_p-XyWRsmkYqDP7gjbp8Ww0VbxZVAZO1VHO2NB9DdL6zt8rWwg==/
 [chatGpt4]: https://chatgpt.com/
