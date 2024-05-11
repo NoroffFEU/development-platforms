@@ -9,10 +9,9 @@ tags: CI/CD, GitHub Actions, GitHub
 ## Introduction
 
 ### What GitHub is in general?
-Before we will get to know what GitHub Actions are we should write what GitHub is. 
-According GitHub webside and Wikipedia - GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. Headquartered in California, it has been a subsidiary of Microsoft since 2018.
+Before we explore GitHub Actions, let's first understand what GitHub itself is. According to the GitHub website and Wikipedia, GitHub is a platform for developers that enables them to create, store, manage, and share their code. It utilizes Git software, offering Git’s distributed version control along with features like access control, bug tracking, requests for software features, task management, continuous integration, and project wikis. Located in California, GitHub has been part of Microsoft since 2018.
 
-It is commonly used to host open source software development projects. As of January 2023, GitHub reported having over 100 million developers and more than 420 million repositories, including at least 28 million public repositories. It is the world's largest source code host as of June 2023. [Wikipedia][1]
+GitHub is widely used for hosting open-source software development projects. As of January 2023, GitHub boasted over 100 million developers and more than 420 million repositories, with at least 28 million of these being public. As of June 2023, it is considered the largest host of source code in the world. [Wikipedia][1]
 
 ### What is a GitHub Actions?
 GitHub Actions is a perfect example of a modern development platform that allows us to automate processes throughout the software lifecycle, including testing, building, and deploying applications. Preparing this case study is not only to help  understand GitHub Actions in more depth, but also to demonstrate my research and technical skills. This case study includes demonstrations and configuration scripts that show how GitHub Actions can realistically be used in a development project. To describe GitHub Actions I used mostly [GitHub Actions documentation][2].
