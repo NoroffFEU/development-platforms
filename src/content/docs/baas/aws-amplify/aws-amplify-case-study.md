@@ -4,7 +4,7 @@ author: Johan Lossius <JohanLossius>
 tags: aws-amplify, case-study, baas, backend-as-a-service, cloud, aws, amazon-web-services, development-platforms
 ---
 
-### Why did I choose to do a case study on AWS Amplify?
+# Why did I choose to do a case study on AWS Amplify?
 **Feel free to skip reading this part if only interested in the product specs.**
 
 For learning purposes I wanted to take on a summer project in the summer of 2024.
@@ -53,9 +53,8 @@ So for what it's worth; here's my case study on AWS Amplify.
 
 # Introduction
 *"We built Amplify to make it easy for frontend developers to build full-stack apps."*
-- Product Manager at AWS sharing purpose of Amplify
 
-[Source](https://youtu.be/UfYWGYbmV3s?si=EFwshYVCHHFK12Uj&t=156)
+[Source: Product Manager at AWS sharing purpose of Amplify](https://youtu.be/UfYWGYbmV3s?si=EFwshYVCHHFK12Uj&t=156)
 
 AWS Amplify is a fully managed service built on top of AWS, Amazon Web Services, designed to abstract away the complexity of backend features and other AWS services with an additional layer. A user friendly interface to configure your backend and infrastructure services. So that you can focus on the frontend part of your work, while having AWS Amplify manage your backend processes etc.
 It provides a wide range of services to build fullstack web and mobile apps, such as authenthication, storage, APIs, hosting, etc.
