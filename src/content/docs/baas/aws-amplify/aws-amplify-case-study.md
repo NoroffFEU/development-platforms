@@ -5,7 +5,7 @@ tags: aws-amplify, case-study, baas, backend-as-a-service, cloud, aws, amazon-we
 ---
 
 ## Context: Why did I choose to do a case study on AWS Amplify?
-Feel free to skip reading this part if only interested in the product specs.
+**Feel free to skip reading this part if only interested in the product specs.**
 
 For learning purposes I wanted to take on a summer project in the summer of 2024.
 Specifically by building an old school forum, because I have always loved them.
