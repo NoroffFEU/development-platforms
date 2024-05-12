@@ -34,7 +34,7 @@ AWS Amplify: Amplify seemed to be the best alternative here, since AWS has put i
 
 For pricing; AppWrite is the only free solution although I would have to pay for web hosting myself. All the other solutions have either a freemium solution, or pay as you go pricing plan. Since the prices didn't seem too overwhelming for any of the solutions from the getgo and for a relatively simple solution, I decided to pick the BaaS that seemed a better fit without weighting the pricing too much.
 
-### Hypothesis for case study on AWS Amplify:
+**Hypothesis for case study on AWS Amplify:**
 Due to GDPR compliance and rich functionality for AWS Amplify, it seemed like the best option to use for the summer project since I'd rather invest my time and energy into something that  has long term potential.
 However, feature complexity might kill my progress since I will also have a steep learning curve on the frontend for technologies like React, Vite, etc.
 So I will use this case study to clarify whether my hypothesis is correct; is AWS Amplify really the best option for a newbie frontend developer, also wanting to build a viable long term solution?
