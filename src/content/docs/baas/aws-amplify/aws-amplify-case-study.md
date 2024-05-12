@@ -4,7 +4,7 @@ author: Johan Lossius <JohanLossius>
 tags: aws-amplify, case-study, baas, backend-as-a-service, cloud, aws, amazon-web-services, development-platforms
 ---
 
-## Why did I choose to do a case study on AWS Amplify?
+### Why did I choose to do a case study on AWS Amplify?
 **Feel free to skip reading this part if only interested in the product specs.**
 
 For learning purposes I wanted to take on a summer project in the summer of 2024.
@@ -42,7 +42,8 @@ So I will use this case study to clarify whether my hypothesis is correct; is AW
 Or will it put a full stop to my summer project plans if utilized, due to time constraints, steep learning curve, and potentially other challenges?
 
 
-## Purpose: For whom is this AWS Amplify case study intended?
+**Purpose: For whom is this AWS Amplify case study intended?**
+
 This case study is intended for anyone considering whether to build their tech product with AWS Amplify.
 And particularly for newbeginners in development, since this product case study was written from the perspective of someone having never used a BaaS, very limited frontend development experience, and no backend experience.
 I want to emphazise that reading a case study from someone having very little prior knowledge about a product can also be an advantage, since advanced users of f.ex. BaaS solutions, will know every in and out of the products and technology in general, and so what they might take for granted and describe as simple, might actually be highly complex.
@@ -50,7 +51,7 @@ While a newbeginner will answer the so-called silly questions - that could be hi
 
 So for what it's worth; here's my case study on AWS Amplify.
 
-## Introduction
+# Introduction
 *"We built Amplify to make it easy for frontend developers to build full-stack apps."*
 - Product Manager at AWS sharing purpose of Amplify
 
@@ -60,7 +61,7 @@ AWS Amplify is a fully managed service built on top of AWS, Amazon Web Services,
 It provides a wide range of services to build fullstack web and mobile apps, such as authenthication, storage, APIs, hosting, etc.
 It is designed to increase speed and ease of prototyping and building for developers that want to spend less time with backend, infrastructure, configurations and various other not-directly-frontend-related necessities of a fullstack app.
 
-## Brief history & background
+# Brief history & background
 AWS Amplify was launched on the 26th of November 2017 by AWS, Amazon, and has been experiencing continuous upgrades and enhancements since then.
 
 Amazon were the pioners of the public cloud as we know it today. Based on their e-commerce business they innovated for the tech industry by creating these common hosted infrastructure services. Originally intended for internal use for Amazon, they quickly realized that this was a huge business opportunity, seeing that most other companies would benefit from the product as well.
@@ -95,7 +96,7 @@ From November 2017 and until now AWS Amplify has been enhancing their product wi
 
 On the 6th of May 2024, AWS officially launched "Amplify Gen 2", or "Generation 2" for broad public use. AWS has gathered feedback from their users over the years, and rethinked their end-to-end developer experience. 
 
-## Gen 1 vs. Gen 2 Amplify
+# Gen 1 vs. Gen 2 Amplify
 In Amplify Gen 1 you would setup your backend through the console. The main way Gen 2 distinguishes itself is by allowing developers to setup their backend and app requirements purely in Typescript, including data models, business logic, authorization rules, etc.
 
 Effectively allowing frontend Typescript developers to become fullstack developers, covering everything from UI to databases, while using AWS Amplify, as illustrated here:
@@ -113,7 +114,7 @@ Great!
 
 [Release of Gen 2](https://aws.amazon.com/blogs/mobile/amplify-gen2-ga/)
 
-## Strengths
+# Strengths
 **1. Access to most of AWS's vast ecosystem of services, while being shielded from its complexity.**
 
 AWS can be intimidating due to the hundreds of services that are acessible through the platform, and can prevent new developers from daring to even start using AWS.
@@ -150,7 +151,7 @@ AWS has been around for a long time and Amazon is the largest cloud vendor, and 
 
 [Official GitHub repo for Amplify documentation](https://github.com/aws-amplify/docs)
 
-## Weaknesses
+# Weaknesses
 **1. Potential for pricing surprizes**
 
 Although Amplify has a reasonable pricing for simple apps and products with limited users and resource usage, you might experience surprizes in the pricing model.
@@ -185,26 +186,26 @@ From the same source as above, it is being reported that Amplify often changes a
 Often it is adapting to the continuous changes of a system that require the greatest mental energy expenditure - and not learning or building the system itself.
 Speaking particularly from gaming experience. Playing a game that was updated every week with hundreds of moving parts was almost impossible to learn unless you actively studied the game for several hours weekly - and not just playing it. Depending on the severity and how deep the changes are - the worst case scenario of a system update to Amplify breaking your whole app is quite intimidating, since it means you'll never be able to leave your app and do something else, but always have to maintain it or pay someone to do it.
 
-## Market comparisons
+# Market comparisons
 I found a great summary of AWS Amplify as compared with Supabase, AppWrite, and Firebase. Instead of reinventing the wheel, I'll just link to it here:
 
 [AWS Amplify vs. Firebase vs. Supabase vs. AppWrite](https://aaron-russell.co.uk/blog/firebase-vs-supabase-vs-aws-amplify-vs-appwrite/)
 
-## Developer experience for newbies
+# Developer experience for newbies
 Instead of writing a lot about this before I've actually tried to work on Amplify, I'll leave this section open until after I've tried it.
 
 The assumption is that it will work very well for a relatively simple forum app, where the main app requirements are authentication, storage, posting, commenting, and various other forum functionality.
 
 Although I do expect some complexity and having to wrestle with some documentation and console setup in the beginning.
 
-## Conclusion
+# Conclusion
 AWS Amplify seems like a complete product that will cater well to your needs as a BaaS, while also providing a high level of security, scalability, and various other necessary backend and infrastructure services to run a professional app these days. Some of the main strengths are rapid development and prototyping, simple setup, and GDPR compliance; while some of the weaknesses are its complexity due to rich feature functionality, steep learning curve, consistent changes, and sometimes unpredictable pricing. If you have a lot of app requirements, you might also find yourself having to build some functionality in Amplify, and some on AWS directly, that might require extra work and configuration, which could be worth looking into before you begin your project.
 
 Also, it should not be underestimated the value of Gen 2 Amplify, being able to copy paste Typescript code to setup your entire infrastructure in AWS, instead of fumbling around with complex setups in the console. As this Gen 2 is allowed to be developed further, we might see a new surge of Amplify being adopted across the industry due to being able to control complex backend and cloud services with pure code.
 
 As far as this case study is concerned it appears as the right path forward to use Amplify to build my web app, because I would rather accept a bit more complexity and feature functionality, while working on a platform that has long term potential, instead of starting in a dead end on a platform that is not GDPR compliant from the getgo, or an open source technology where I would have to learn relational databases etc. from scratch. I believe Amplify can provide about 99% of what a regular app would need, and it would be unrealistic to expect anything to work a 100% without any individual effort to be needed, anyway.
 
-## References
+# References
 - [AWS re:Invent 2023 - The next-generation application-building experience from AWS Amplify, presented by two of AWS' Product Managers](https://youtu.be/UfYWGYbmV3s?si=DU7mBzUvgAIG0wJ2)
 - [What is AWS Amplify? Pros and cons?](https://beabetterdev.com/2021/09/22/what-is-aws-amplify/)
 - [AWS on Wikipedia](https://en.wikipedia.org/wiki/Amazon_Web_Services)
