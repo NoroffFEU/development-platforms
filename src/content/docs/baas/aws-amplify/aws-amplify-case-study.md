@@ -13,7 +13,7 @@ A simple, yet highly functional forum.
 That potentially could be used in real life afterwards, also for business purposes.
 As a newbie frontend developer without any prior backend experience, I needed to choose the right backend product to help me achieve those goals.
 
-**And so the following concerns were considered:**
+**And so the following concerns were considered in my pre case study research, to find a technology to further explore:**
 
 **1. Simplicity & ease of use**
 
