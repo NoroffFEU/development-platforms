@@ -87,7 +87,7 @@ On the 6th of May 2024, AWS officially launched "Gen 2" for broad public use. AW
 
 Effectively allowing frontend Typescript developers to become fullstack developers, covering everything from UI to databases, while using AWS Amplify, as illustrated here:
 
-![Fullstack Typescript illustration with Gen 2 AWS Amplify](src/content/docs/baas/aws-amplify/image-1.png)
+![Fullstack Typescript illustration with Gen 2 AWS Amplify](src/assets/baas/aws-amplify/johanlossius/image-1.png)
 
 This will allow for a much more seamless developer experience, by being able to setup various functionality with just copy paste of a few lines of code or the click of a few buttons, such as:
 - Setup and deploy standard React and Vite frontend project with just a few clicks
@@ -136,7 +136,7 @@ It is for the same reason that Firebase is not GDPR compliant, since its auth se
 Amplify however, running on AWS's vast data centre resources across the world, has servers scattered around Europe as well, allowing for GDPR compliance.
 
 [Server localizations source AWS](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)
-![Server localizations in Europe for AWS](src/content/docs/baas/aws-amplify/image.png)
+![Server localizations in Europe for AWS](src/assets/baas/aws-amplify/johanlossius/image.png)
 
 6. Strong community support & documentation
 
