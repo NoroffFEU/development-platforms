@@ -4,7 +4,7 @@ author: Johan Lossius <JohanLossius>
 tags: aws-amplify, case-study, baas, backend-as-a-service, cloud, aws, amazon-web-services, development-platforms
 ---
 
-## Context: Why did I choose to do a case study on AWS Amplify?
+## Why did I choose to do a case study on AWS Amplify?
 **Feel free to skip reading this part if only interested in the product specs.**
 
 For learning purposes I wanted to take on a summer project in the summer of 2024.
@@ -52,8 +52,9 @@ So for what it's worth; here's my case study on AWS Amplify.
 
 ## Introduction
 *"We built Amplify to make it easy for frontend developers to build full-stack apps."*
+- Product Manager at AWS sharing purpose of Amplify
 
-Source: [Product Manager at AWS sharing purpose of Amplify](https://youtu.be/UfYWGYbmV3s?si=EFwshYVCHHFK12Uj&t=156)
+[Source](https://youtu.be/UfYWGYbmV3s?si=EFwshYVCHHFK12Uj&t=156)
 
 AWS Amplify is a fully managed service built on top of AWS, Amazon Web Services, designed to abstract away the complexity of backend features and other AWS services with an additional layer. A user friendly interface to configure your backend and infrastructure services. So that you can focus on the frontend part of your work, while having AWS Amplify manage your backend processes etc.
 It provides a wide range of services to build fullstack web and mobile apps, such as authenthication, storage, APIs, hosting, etc.
@@ -83,12 +84,15 @@ Based on a culture of innovation, making bold bets, as well as a visionary found
 AWS was continually improved, upgraded and developed since its official release, with new services and product offerings added in the period between 2006 and 2017.
 
 **26th of November 2017: Official release of AWS Amplify**
+
 The continued development of AWS eventually culminating in the launch of AWS Amplify on the 26th of November 2017.
 
 **2017-2024: Evolution of Amplify**
+
 From November 2017 and until now AWS Amplify has been enhancing their product with continuous updates to add new and improve their existing functionality, adding functionality such as CLI, Hosting, Admin UI, etc.
 
 **6th of May 2024: Broad launch of Amplify Gen 2**
+
 On the 6th of May 2024, AWS officially launched "Amplify Gen 2", or "Generation 2" for broad public use. AWS has gathered feedback from their users over the years, and rethinked their end-to-end developer experience. 
 
 ## Gen 1 vs. Gen 2 Amplify
@@ -144,7 +148,7 @@ Amplify however, running on AWS's vast data centre resources across the world, h
 
 AWS has been around for a long time and Amazon is the largest cloud vendor, and has strong community support amongst developers over the world.
 
-[GitHub repo for Amplify documentation](https://github.com/aws-amplify/docs)
+[Official GitHub repo for Amplify documentation](https://github.com/aws-amplify/docs)
 
 ## Weaknesses
 **1. Potential for pricing surprizes**
