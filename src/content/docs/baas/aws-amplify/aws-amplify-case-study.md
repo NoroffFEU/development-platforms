@@ -34,7 +34,7 @@ AWS Amplify: Amplify seemed to be the best alternative here, since AWS has put i
 
 For pricing; AppWrite is the only free solution although I would have to pay for web hosting myself. All the other solutions have either a freemium solution, or pay as you go pricing plan. Since the prices didn't seem too overwhelming for any of the solutions from the getgo and for a relatively simple solution, I decided to pick the BaaS that seemed a better fit without weighting the pricing too much.
 
-### Hypothesis for case study on AWS Amplify:
+### Hypothesis for case study on AWS Amplify
 
 Due to GDPR compliance and rich functionality for AWS Amplify, it seemed like the best option to use for the summer project since I'd rather invest my time and energy into something that  has long term potential.
 However, feature complexity might kill my progress since I will also have a steep learning curve on the frontend for technologies like React, Vite, etc.
@@ -65,7 +65,7 @@ AWS Amplify was launched on the 26th of November 2017 by AWS, Amazon, and has be
 
 Amazon were the pioners of the public cloud as we know it today. Based on their e-commerce business they innovated for the tech industry by creating these common hosted infrastructure services. Originally intended for internal use for Amazon, they quickly realized that this was a huge business opportunity, seeing that most other companies would benefit from the product as well.
 
-### Milestones for Amplify's evolution:
+### Milestones for Amplify's evolution
 **5th of July 1994: Founding of Amazon by Jeff Bezos, the mother company behind AWS Amplify.**
 
 Jeff Bezos wanted to take part in the internet revolution that unfolded upon the world in the 1990s, and he decided to focus on selling books online.
