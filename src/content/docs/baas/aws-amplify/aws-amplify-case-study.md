@@ -15,26 +15,26 @@ As a newbie frontend developer without any prior backend experience, I needed to
 
 **And so the following concerns were considered in my pre case study research, to find a technology to further explore:**
 
-**1. Simplicity & ease of use**
+**- Simplicity & ease of use**
 
 Firebase seemed like the best choice in terms of simplicity and out of the box usefulness, without prior experience. AWS Amplify and Supabase also seemed user friendly based on simple configuration and use. Although Supabase uses a relational database, that would have a steeper learning curve than NoSQL-databases. And for AWS Amplify users report feature complexity and more time consuming infrastructure management over time.
 
-**2. Feasibility**
+**- Feasibility**
 
 All of the considered BaaS-es seemed to be feasible technologies for building a simple forum. The only question was my skill, learning curve, and time frame for actually using them. As well as which technology I actually wanted to invest my time in for the long term usefulness.
 
-**3. GDPR compliance**
+**- GDPR compliance**
 
 Firebase: A few Google searches clarified that the auth. solution of Firebase is not GDPR compliant, due to US servers for the authentication. And so that would create a lot of complexity for users based in Norway and Europe.
 AppWrite: I also considered AppWrite because then I would set up my own server, located in Norway, but that would require quite a bit of manual work of learning Docker, setting up the server myself, etc. And having no prior experience with that, it seemed risky to get stuck in these backend requirements.
 Supabase: GDPR compliance seemed unavailable due to being HQ-ed in Singapore.
 AWS Amplify: Amplify seemed to be the best alternative here, since AWS has put in extensive work in making their solution GDPR compliant. And since AWS Amplify can be customized by using most of the AWS ecosystem, this seemed like the safest route in terms of GDPR compliance, although more complex generally.
 
-**4. Pricing**
+**- Pricing**
 
 For pricing; AppWrite is the only free solution although I would have to pay for web hosting myself. All the other solutions have either a freemium solution, or pay as you go pricing plan. Since the prices didn't seem too overwhelming for any of the solutions from the getgo and for a relatively simple solution, I decided to pick the BaaS that seemed a better fit without weighting the pricing too much.
 
-### Hypothesis for case study on AWS Amplify:
+**Hypothesis for case study on AWS Amplify:**
 
 Due to GDPR compliance and rich functionality for AWS Amplify, it seemed like the best option to use for the summer project since I'd rather invest my time and energy into something that  has long term potential.
 However, feature complexity might kill my progress since I will also have a steep learning curve on the frontend for technologies like React, Vite, etc.
@@ -42,7 +42,7 @@ So I will use this case study to clarify whether my hypothesis is correct; is AW
 Or will it put a full stop to my summer project plans if utilized, due to time constraints, steep learning curve, and potentially other challenges?
 
 
-### Purpose: For whom is this AWS Amplify case study intended?
+**Purpose: For whom is this AWS Amplify case study intended?**
 
 This case study is intended for anyone considering whether to build their tech product with AWS Amplify.
 And particularly for newbeginners in development, since this product case study was written from the perspective of someone having never used a BaaS, very limited frontend development experience, and no backend experience.
