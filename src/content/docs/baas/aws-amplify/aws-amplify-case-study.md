@@ -35,6 +35,7 @@ AWS Amplify: Amplify seemed to be the best alternative here, since AWS has put i
 For pricing; AppWrite is the only free solution although I would have to pay for web hosting myself. All the other solutions have either a freemium solution, or pay as you go pricing plan. Since the prices didn't seem too overwhelming for any of the solutions from the getgo and for a relatively simple solution, I decided to pick the BaaS that seemed a better fit without weighting the pricing too much.
 
 **Hypothesis for case study on AWS Amplify:**
+
 Due to GDPR compliance and rich functionality for AWS Amplify, it seemed like the best option to use for the summer project since I'd rather invest my time and energy into something that  has long term potential.
 However, feature complexity might kill my progress since I will also have a steep learning curve on the frontend for technologies like React, Vite, etc.
 So I will use this case study to clarify whether my hypothesis is correct; is AWS Amplify really the best option for a newbie frontend developer, also wanting to build a viable long term solution?
@@ -51,6 +52,7 @@ So for what it's worth; here's my case study on AWS Amplify.
 
 ## Introduction
 *"We built Amplify to make it easy for frontend developers to build full-stack apps."*
+
 Source: [Product Manager at AWS sharing purpose of Amplify](https://youtu.be/UfYWGYbmV3s?si=EFwshYVCHHFK12Uj&t=156)
 
 AWS Amplify is a fully managed service built on top of AWS, Amazon Web Services, designed to abstract away the complexity of backend features and other AWS services with an additional layer. A user friendly interface to configure your backend and infrastructure services. So that you can focus on the frontend part of your work, while having AWS Amplify manage your backend processes etc.
@@ -63,30 +65,30 @@ AWS Amplify was launched on the 26th of November 2017 by AWS, Amazon, and has be
 Amazon were the pioners of the public cloud as we know it today. Based on their e-commerce business they innovated for the tech industry by creating these common hosted infrastructure services. Originally intended for internal use for Amazon, they quickly realized that this was a huge business opportunity, seeing that most other companies would benefit from the product as well.
 
 ### Milestones for Amplify's evolution:
-**- 5th of July 1994: Founding of Amazon by Jeff Bezos, the mother company behind AWS Amplify.**
+**5th of July 1994: Founding of Amazon by Jeff Bezos, the mother company behind AWS Amplify.**
 
 Jeff Bezos wanted to take part in the internet revolution that unfolded upon the world in the 1990s, and he decided to focus on selling books online.
 He chose to locate the company in the city of Seattle, in Washington, because it was located geographically close to a book distribution center, as well as in the same city as Microsoft's headquarter for great supply of technology engineering expertise.
 
-**- Year 2000: Merchant.com**
+**Year 2000: Merchant.com**
 
 Amazon.com begins to work on merchant.com, an e-commerce platform intended for use by other large retailers. In the process, Amazon realize that they need to decouple their code better, with cleaner interfaces and access APIs. Around the same time, the company also realize the need to build infrastructure-as-a-service internally, to improve the speed of development and not have it bottlenecked by infrastructure availability. This paved the way for the eventual release of AWS.
 
-**- 14th of March 2006: Launch of AWS**
+**14th of March 2006: Launch of AWS**
 
 Based on a culture of innovation, making bold bets, as well as a visionary founder, Amazon were able to launch AWS officially in March of 2006. This was made possible by their continued research and development of the AWS product in the early 2000s, as necessitated by their rapidly growing e-commerce business.
 
-**- March 2006 to November 2017: Evolution of AWS**
+**March 2006 to November 2017: Evolution of AWS**
 
 AWS was continually improved, upgraded and developed since its official release, with new services and product offerings added in the period between 2006 and 2017.
 
-**- 26th of November 2017: Official release of AWS Amplify**
+**26th of November 2017: Official release of AWS Amplify**
 The continued development of AWS eventually culminating in the launch of AWS Amplify on the 26th of November 2017.
 
-**- 2017-2024: Evolution of Amplify**
+**2017-2024: Evolution of Amplify**
 From November 2017 and until now AWS Amplify has been enhancing their product with continuous updates to add new and improve their existing functionality, adding functionality such as CLI, Hosting, Admin UI, etc.
 
-**- 6th of May 2024: Broad launch of Amplify Gen 2**
+**6th of May 2024: Broad launch of Amplify Gen 2**
 On the 6th of May 2024, AWS officially launched "Amplify Gen 2", or "Generation 2" for broad public use. AWS has gathered feedback from their users over the years, and rethinked their end-to-end developer experience. 
 
 ## Gen 1 vs. Gen 2 Amplify
@@ -99,6 +101,7 @@ Effectively allowing frontend Typescript developers to become fullstack develope
 This will allow for a much more seamless developer experience, by being able to setup various functionality with just copy paste of a few lines of code or the click of a few buttons, such as:
 - Setup and deploy standard React and Vite frontend project with just a few clicks
 - Let AWS run your auth with less than 10 lines of code
+
 
 To be honest, I wasn't aware that AWS had just launched their Gen 2 until the end of this case study, and how significant it will be, which is quite exciting, to be honest.
 Going forward more and more code will be available for boilerplate configuration for Amplify, to avoid complex console operations that require a lot of trying and failing, reading documentation, etc. Instead probably a lot of copy paste recipes will be created and shared for configurating custom Amplify projects in 1-2-3.
@@ -140,6 +143,7 @@ Amplify however, running on AWS's vast data centre resources across the world, h
 **6. Strong community support & documentation**
 
 AWS has been around for a long time and Amazon is the largest cloud vendor, and has strong community support amongst developers over the world.
+
 [GitHub repo for Amplify documentation](https://github.com/aws-amplify/docs)
 
 ## Weaknesses
@@ -156,6 +160,7 @@ Together with AWS's vast platform of services naturally comes feature complexity
 It is for the same reason that Firebase, being a more fully integrated all-in-one Backend-as-a-Service, often is experienced as simpler and easier to learn.
 However, since Amplify is maintained by the largest cloud vendor in the world, has been around for 6+ years, and there are over 10 000 commits on the official AWS Amplify documentation GitHub repo as per the 12th of May 2024, there will most likely be plenty of people having gone through similar problems as yourself.
 It should still be noted that Amplify is widely regarded to have a steeper learning curve, particularly for newbeginners, due to its feature complexity and wider range of services.
+
 [Source](https://aaron-russell.co.uk/blog/firebase-vs-supabase-vs-aws-amplify-vs-appwrite/)
 
 **3. Not really learning AWS**
@@ -167,6 +172,7 @@ But at the same time - that's why you started using Amplify in the first place, 
 
 From other reviews I can see developers reporting that you might find some services unavailable through Amplify, and that trying to customize your app by using services outside of the Amplify service, is complicated for unexperienced developers. You'll need to learn some other technology with its own learning curve.
 Using Amplify also leads to vendor lock-in since you are building on a solution that is proprietary for AWS and Amplify. That means should you encounter some road block at some point in the future that you are not comfortable solving with the AWS ecosystem, you'll likely have to rewrite a large portion of your app.
+
 [Source](https://inhire.io/blog/aws-amplify-is-it-really-worth-using-it-as-a-production-solution/)
 
 **5. Hard to maintain due to consistent change**
