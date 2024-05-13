@@ -37,6 +37,7 @@ export default defineConfig({
         },
         { label: "OpenAI", collapsed: true, autogenerate: { directory: "openai" } },
         { label: "Reverse Proxy", collapsed: true, autogenerate: { directory: "reverse-proxy" } },
+        { label: "Security", collapsed: true, autogenerate: { directory: "security" } },
         { label: "ServiceNow", collapsed: true, autogenerate: { directory: "servicenow" } },
         { label: "Shopify", collapsed: true, autogenerate: { directory: "shopify" } },
         { label: "TanStack", collapsed: true, autogenerate: { directory: "tanstack" } },
