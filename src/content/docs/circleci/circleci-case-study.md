@@ -6,11 +6,11 @@ tags: devops, ci, circleci
 
 ![CircleCI Process](./src/content/docs/circleci/circlecilogo.png "CircleCI Process")
 
-### Overview
+### Introduction
 
 **CircleCI** is a continuous integration and continuous delivery (CI/CD) platform that automates the software development process, allowing developers to focus on writing code rather than managing infrastructure. It can integrate with GitHub, Bitbucket, and other version control systems to automate the build, test, and deployment processes. This means developers can focus more on writing code and delivering value to users.
 
-### History of CircleCI
+### Brief History
 
 **2011**: Founded by Paul Biggar and Allen Rohner to automate build, test, and deployment workflows.
 
@@ -72,10 +72,44 @@ tags: devops, ci, circleci
   
 - **Support**: Accessing timely support and navigating complex scenarios may require additional assistance and collaboration.
 
+### Market Comparison - CircleCI vs Competitors
+
+#### - 1. Jenkins
+- Jenkins is an open-source automation server widely used for CI/CD pipelines.
+    
+    - **Strengths:**
+        - Highly customizable with a vast plugin ecosystem
+        - Large community support and documentation
+
+    - **Weaknesses:**
+        - Steeper learning curve compared to hosted solutions like CircleCI
+        - Requires self-hosting and maintenance
+
+#### - 2. GitLab CI/CD
+- GitLab offer a built-in CI/CD platform as part of its DevOps lifecycle management suite
+
+    - **Strengths**
+        - Tight integration with GitLab's version control and project management features
+        - Single platform for the entire DevOps lifecycle
+
+    - **Weaknesses:**
+        - Complex setup for organizations not already using GitLab
+        - Limited flexibility to standalone CI/CD solutions like CircleCI
+
+#### - 3. Travis CI
+- Travis CI is a cloud-based CI/CD service known for its simplicity and ease of use
+
+    - **Strengths:**
+        - Easy setup and configuration, suitable for smaller teams and projects
+        - Direct integration with GitHub repositories
+
+    - **Weaknesses:**
+        - Limited scalability and customization options compared to CircleCI
+        - Pricing structure may become less cost-effective for large projects
+
 ### Getting started
 
-## For GitHub users
-- 1. To start building on CircleCI, we first need to ***Sign up***. Sign up with your preferred email address and connect your Github, Bitbucket or GitLab account
+- 1. To start building on CircleCI, we first need to ***Sign up*** at https://circleci.com/signup/ . Sign up with your preferred email address and connect your Github, Bitbucket or GitLab account
 
 - 2. Create a Project
 In the CircleCI web app, select Projects from the sidebar. Click Create Project, then select the repository you would like to connect from the dropdown. If you don’t see these options, use the org selector in the top left corner to find the correct organization.
