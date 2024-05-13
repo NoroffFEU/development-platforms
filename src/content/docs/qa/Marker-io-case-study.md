@@ -32,6 +32,7 @@ Fast-forward to today, Marker.io has evolved into a feedback solution for enterp
 **Session replay** offers a contextual understanding of the users report, leading uip to their feedback submition. You can watch the last 30 seconds (or more) before the reporter submitted their feedback.
 
 **Metadata** displays the feedback users technical data such as OS, Browser type, Resolution, Viewport, Pixel Ratio and Zoom.
+![Meta Data](../../../assets/marker-io/metadata.PNG)
 
 **Communication** is saved in the feedback page and the integrated platform if there is any.
 
