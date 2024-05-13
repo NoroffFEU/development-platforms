@@ -67,6 +67,53 @@ Despite the wide range of positive side the oracle cloud system has, the platfor
 
 4. **Focus on Enterprise Customers**: Oracle cloud is well known for it focus on enterprise customers which makes it less suitable for new and smaller businesses looking for a cost-effective cloud system.
 
+
+## Getting started with Oracle platform
+
+You can follow these few steps to get started with the Oracle platform:
+
+# Important note when creating an account.
+
+**Interested in joining Applications forums**
+- Customers must have an Oracle Cloud Applications license. please select the product(s) your company has licensed.
+- Partners must be involved in an Oracle Cloud Application implementation at a customer site.
+- Your Oracle Account must reference a corporate email domain (not gmail.com, yahoo.com etc).
+
+**Interested in joining Infrastructure forums only?**
+- The licensing, implementation and corporate email requirements do not apply.
+
+1. **Create an Oracle Cloud Account** 
+- We can go to the Oracle Cloud website (https://www.oracle.com/cloud/) and sign up for an account if you are not yet a member; you will be required to put in some personal information and payment details.
+
+- Once registered, you will have access to the oracle cloud console where you can manage the resources and services.
+
+2. **Explore the oracle cloud console** 
+- Once login to your oracle cloud, take some time to explore the different services available in the console such as the Storage, Database, Networking, Developer Services and more.
+
+3. **Understanding the Pricing an Billing**
+- Familiarize yourself with the pricing and billing structure of oracle cloud platform which is found in the oracle cloud console website.
+- Set up billing alerts and budget limits to monitor your usage and avoid unexpected charges.
+
+4. **Choose your Services** 
+- Based on your requirement and enterprises standard, choose your oracle cloud service amongst the different services offered by oracle.
+- Consider starting with some basic services like Compute instances or Object Storage to get familiar with the platform.
+
+5. **Provision Resources**
+- Once you have choose between the different services offered b oracle, you can provision resources within oracle such as creating a virtual machine(compute instances), setting up a storage system, operating on Databases, deploying applications and more.
+
+6. **Explore Documentation and Tutorials**
+- Oracle offers a wide range of documentation, tutorials and getting started guidelines to it users for all the different cloud services.
+- Take advantage of these resources to learn how to effectively and efficiently explore the services you have chosen for your requirements.
+
+7. **Join the Community**
+- Oracle has different communities where in users can join to ask questions, share ideas and gain experiences from other users.
+- once a member, you can join these communities, participate in forums, attend webinars to learn from others and stay updated on the latest changes and developments in the oracle cloud platform.
+
+8. **Start Building and Experimenting**
+- When you must have register and be a member in the oracle cloud platform, familiarise yourself with the basics, start building and experimenting the different oracle cloud services.
+- You can set up virtual machine, development environments, analyze data, explore the AI and machine learning capabilities, deploy applications and many more.
+
+
 ## Comparison between Oracle cloud, AWS (Amazon Web Service) and Azure (Microsoft Azure) cloud systems.
 
 The table below gives a brief differentiations amongst the three cloud systems based on their features and services provided.
