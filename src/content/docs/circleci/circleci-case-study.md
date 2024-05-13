@@ -74,7 +74,7 @@ tags: devops, ci, circleci
 
 ### Market Comparison - CircleCI vs Competitors
 
-#### - 1. Jenkins
+####  1. Jenkins
 - Jenkins is an open-source automation server widely used for CI/CD pipelines.
     
     - **Strengths:**
@@ -85,7 +85,7 @@ tags: devops, ci, circleci
         - Steeper learning curve compared to hosted solutions like CircleCI
         - Requires self-hosting and maintenance
 
-#### - 2. GitLab CI/CD
+####  2. GitLab CI/CD
 - GitLab offer a built-in CI/CD platform as part of its DevOps lifecycle management suite
 
     - **Strengths**
@@ -96,7 +96,7 @@ tags: devops, ci, circleci
         - Complex setup for organizations not already using GitLab
         - Limited flexibility to standalone CI/CD solutions like CircleCI
 
-#### - 3. Travis CI
+####  3. Travis CI
 - Travis CI is a cloud-based CI/CD service known for its simplicity and ease of use
 
     - **Strengths:**
