@@ -4,7 +4,7 @@ author: Stian Busengdal <Fadecap>
 tags: devops, ci, circleci
 ---
 
-![CircleCI Process](./src/content/docs/circleci/circlecilogo.png "CircleCI Process")
+![CircleCI Process](../../../assets/circleci/circlecilogo.png "CircleCI Process")
 
 ### Introduction
 
@@ -36,7 +36,7 @@ tags: devops, ci, circleci
 
 **Here we can see how the process of CircleCI works:**
 
-![CircleCI Process](./src/content/docs/circleci/circleci.png "CircleCI Process")
+![CircleCI Process](../../../assets/circleci/circleci.png "CircleCI Process")
 
 ### Pros and Cons of CircleCI
 
