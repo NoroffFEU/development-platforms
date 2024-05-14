@@ -35,6 +35,7 @@ export default defineConfig({
           collapsed: true,
           autogenerate: { directory: "monitoring-observability" }
         },
+        { label: "Node", collapsed: true, autogenerate: { directory: "node" }},
         { label: "OpenAI", collapsed: true, autogenerate: { directory: "openai" } },
         { label: "Railway", collapsed: true, autogenerate: { directory: "railway" } },
         { label: "Reverse Proxy", collapsed: true, autogenerate: { directory: "reverse-proxy" } },
