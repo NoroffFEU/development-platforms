@@ -32,7 +32,7 @@ cPanel is web hosting service developed by cPanel, L.L.C.. cPanel was written by
 
 ## cPanel's Strengths
 
-| Feature                 | Description                                                                                                                                                 |
+| Strength                | Description                                                                                                                                                 |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | User friendy            | The GUI of cPanel is intuitive, and simplifies more advanced tasks                                                                                          |
 | Everything in one place | cPanel has most of the services you need, in one place                                                                                                      |
@@ -42,7 +42,7 @@ cPanel is web hosting service developed by cPanel, L.L.C.. cPanel was written by
 
 ## cPanel's Weaknesses
 
-| Feature                       | Description                                                                                          |
+| Weakness                      | Description                                                                                          |
 | ----------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Cost                          | Its fairly expensive compared to other providers                                                     |
 | Limited customization         | Since cPanel has so many features and has focus on user-friendy, it has limitations on customization |
