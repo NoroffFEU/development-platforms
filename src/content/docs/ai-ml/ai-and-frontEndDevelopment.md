@@ -50,9 +50,9 @@ Key tips
 
 ### Code generation and optimization
 
-AI coding assistants are a game-changer for front-end development – and software development in general. They’re already widely adopted, too – according to a GitHub survey, 92% of software engineers are already using them. And there’s a good reason why they use it – AI coding assistants can significantly speed up tasks like: Code refactoring, Code generation and Writing code documentation.
+AI coding assistants are game changers for front-end development and software development in general. They are already widely adopted, too. According to a GitHub survey, 92% of software engineers are already using them. And there’s a good reason why they use it, AI coding assistants can significantly speed up tasks like Code refactoring, Code generation and Writing code documentation.
 
-AI tools work by turning natural language prompts into coding suggestions and offering intelligent code completion. They will help automate repetitive tasks and work more efficiently. And they can be easily integrated into integrated development environment (IDE). The AI suggestions are based on context and the style conventions of the code.
+AI tools work by turning natural language prompts into coding suggestions and offering intelligent code completion. They will help automate repetitive tasks and work more efficiently. And they can be easily integrated into integrated development environments (IDE). The AI suggestions are based on context and the style conventions of the code.
 
 AI tools to use are Amazon CodeWhisperer, CodiumAI, Github Copilot and Tabnine.
 
@@ -62,6 +62,18 @@ Key tips
 - **Automate repetitive tasks:** Use AI coding assistants to automate repetitive, routine tasks so you can focus more of your precious time on solving more complex issues.
 
 ### Improving accessibility and user experience (UX)
+
+1.3 billion people i.e. 16% of the world population, that’s how many people in the world have significant disabilities. That is why building accessible web apps and developing an accessible UI in your application is so important.
+
+AI tools can improve applications accessibility and UX significantly. Innovative ways AI tools can improve web applications' accessibility and UX can be Voice AI for real-time translation, Voice shopping, Virtual dressing rooms, Image assistance.
+Further more AI tools can be used to improve the existing web app without having to integrate new AI models and technologies. AI tools like Userway can help do an accessibility audit of a web application, it can check if it complies with the latest WCAG guidelines. It can even optimize the code to be more inclusive and usable.
+
+AI tools to use are Userway and Testim
+
+Key tips
+- **Use AI tools to test the UI:** AI tools like Testim will help developers find errors and identify issues with the web application's UI.
+- **Test with real users:** – Make sure that any changes made with AI are tested with real users before fully implementing them in production.
+- **Use AI for accessibility audits:** – Use AI tools like Userway to make sure your web app complies with accessibility guidelines.
 
 ### Automated testing and bug detection
 
