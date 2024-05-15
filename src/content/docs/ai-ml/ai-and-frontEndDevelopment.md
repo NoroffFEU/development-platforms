@@ -43,7 +43,7 @@ AI tools can automate and speed up the design process. Front-end developers can 
 
 AI tools to use are Uizard and Anima.
 
-Key tips
+Key tips:
 - **Use AI prototyping tools:** AI tools like Uizard will help you create prototypes quickly, saving you a lot of time and thus accelerate web and application development.
 - **Stay updated about new AI tools:** AI tools are rapidly evolving, so make sure to stay updated about new developments and tools.
 - **Test and iterate on AI designs:** Rigorously test AI designs with real users and iterate based on their feedback.
@@ -56,7 +56,7 @@ AI tools work by turning natural language prompts into coding suggestions and of
 
 AI tools to use are Amazon CodeWhisperer, CodiumAI, Github Copilot and Tabnine.
 
-Key tips
+Key tips:
 - **Create customized code templates:** AI tools can be used to create customized code templates based on the coding style and project requirements.
 - **Use AI to refactor code:** AI tools can help refactor and optimize the existing code, improving its efficiency and maintainability.
 - **Automate repetitive tasks:** Use AI coding assistants to automate repetitive, routine tasks so you can focus more of your precious time on solving more complex issues.
@@ -65,12 +65,13 @@ Key tips
 
 1.3 billion people i.e. 16% of the world population, that’s how many people in the world have significant disabilities. That is why building accessible web apps and developing an accessible UI in your application is so important.
 
-AI tools can improve applications accessibility and UX significantly. Innovative ways AI tools can improve web applications' accessibility and UX can be Voice AI for real-time translation, Voice shopping, Virtual dressing rooms, Image assistance.
+AI tools can improve applications accessibility and UX significantly. Some of the innovative ways AI tools can be used to improve web applications' accessibility and UX are: Voice AI for real-time translation, Voice shopping, Virtual dressing rooms, Image assistance.
+
 Further more AI tools can be used to improve the existing web app without having to integrate new AI models and technologies. AI tools like Userway can help do an accessibility audit of a web application, it can check if it complies with the latest WCAG guidelines. It can even optimize the code to be more inclusive and usable.
 
 AI tools to use are Userway and Testim
 
-Key tips
+Key tips:
 - **Use AI tools to test the UI:** AI tools like Testim will help developers find errors and identify issues with the web application's UI.
 - **Test with real users:** – Make sure that any changes made with AI are tested with real users before fully implementing them in production.
 - **Use AI for accessibility audits:** – Use AI tools like Userway to make sure your web app complies with accessibility guidelines.
