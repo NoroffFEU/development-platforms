@@ -2,7 +2,7 @@
 
 ## The History of MySQL:
 
-MySQL has a fascinating history that begins in the mid-1990s. It was initially developed by a Swedish company called MySQL AB, founded by David Axmark, Allan Larsson, and Michael "Monty" Widenius. Their vision was to develop a powerful, reliable, and user-friendly database that could be accessible to everyone, regardless of the size of the business or budget.
+MySQL has a fascinating history that begins in Sweden in the year of 1995. It was initially developed by a Swedish company called MySQL AB, founded by David Axmark, Allan Larsson, and Michael "Monty" Widenius. Their vision was to develop a powerful, reliable, and user-friendly database that could be accessible to everyone, regardless of the size of the business or budget.
 
 MySQL was originally released as a small, lightweight database intended for web applications. One of the key features of MySQL was its open-source model, which allowed developers from around the world to contribute to its development and improvement.
 
@@ -11,11 +11,13 @@ In 2008, MySQL AB was acquired by Sun Microsystems, which later became part of O
 However, MySQL remained one of the most popular database solutions on the market, and its reliability and performance ensured its continued use in a wide range of applications and industries.
 
 How to Use MySQL:
-MySQL is a relational database that uses SQL (Structured Query Language) to handle queries and manipulate data. Here are some basic steps to get started with MySQL:
+MySQL is a relational database that uses SQL (Structured Query Language) to handle queries and manipulate data. It is available for a variety of platforms, including Windows, macOS, and Linux. 
+
+Here are some basic steps to get started with MySQL:
 
 #### Installation: 
 
-- Begin by installing the MySQL server on your computer. It is available for a variety of platforms, including Windows, macOS, and Linux.
+- Begin by installing the MySQL server on your computer.
 
 - Creating a Database: After installation, you can use MySQL's client tools, such as MySQL Workbench or MySQL Command Line Client, to create a new database using the SQL command CREATE DATABASE.
 
