@@ -39,16 +39,27 @@ The world of front-end development is always changing. As AI changes how website
 
 ### Automated design and layout
 
-AI tools can automate and speed up the design process. Using AI tools a Front-end developer is able to create a good-looking prototype or mockup in minutes. It can also turn low-fidelity wireframes into high-fidelity prototypes. Other AI tools can automatically generate code from the designs.
+AI tools can automate and speed up the design process. Front-end developers can use AI tools to create a good-looking prototype or mockup designs in minutes. AI tools can also turn low-fidelity wireframes into high-fidelity prototypes. Other AI tools can automatically analyze layouts and styling and generate code matching the design.
 
 AI tools to use are Uizard and Anima.
 
 Key tips
-- **Use AI prototyping tools:** AI tools like Uizard will help you create prototypes quickly, saving you a lot of time
-- **Stay updated about new AI tools:** AI tools are rapidly evolving, so make sure you stay updated about new developments and tools
-- **Test and iterate on AI designs:** rigorously test AI designs with real users and iterate based on their feedback
+- **Use AI prototyping tools:** AI tools like Uizard will help you create prototypes quickly, saving you a lot of time and thus accelerate web and application development.
+- **Stay updated about new AI tools:** AI tools are rapidly evolving, so make sure to stay updated about new developments and tools.
+- **Test and iterate on AI designs:** Rigorously test AI designs with real users and iterate based on their feedback.
 
 ### Code generation and optimization
+
+AI coding assistants are a game-changer for front-end development – and software development in general. They’re already widely adopted, too – according to a GitHub survey, 92% of software engineers are already using them. And there’s a good reason why they use it – AI coding assistants can significantly speed up tasks like: Code refactoring, Code generation and Writing code documentation.
+
+AI tools work by turning natural language prompts into coding suggestions and offering intelligent code completion. They will help automate repetitive tasks and work more efficiently. And they can be easily integrated into integrated development environment (IDE). The AI suggestions are based on context and the style conventions of the code.
+
+AI tools to use are Amazon CodeWhisperer, CodiumAI, Github Copilot and Tabnine.
+
+Key tips
+- **Create customized code templates:** AI tools can be used to create customized code templates based on the coding style and project requirements.
+- **Use AI to refactor code:** AI tools can help refactor and optimize the existing code, improving its efficiency and maintainability.
+- **Automate repetitive tasks:** Use AI coding assistants to automate repetitive, routine tasks so you can focus more of your precious time on solving more complex issues.
 
 ### Improving accessibility and user experience (UX)
 
