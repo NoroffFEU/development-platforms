@@ -5,6 +5,13 @@ tags: CI/CD, GitHub Actions, GitHub
 ---
 
 # Developer Platforms: GitHub - GitHub Actions
+<img src="https://github.com/MariuszRozycki/development-platforms/assets/55709542/6e5e5372-404f-434b-acb9-3bfe3a8eb00a" alt="GitHub logo" width="200" height="200"> <img src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4" alt="GitHub Actions Logo" width="200" height="200">
+<br>
+[GitHub logo][6]
+[GitHub Actions logo][7]
+
+
+
 ## Author: [Mariusz Rozycki][author]
 ## Introduction
 
@@ -276,4 +283,6 @@ I used [ChatGPT4][chatGpt4] to improve grammar and better sentence structure.
 
 [5]: https://www.udemy.com/share/107osk3@XAK0id0CKVwvV4C0_p-XyWRsmkYqDP7gjbp8Ww0VbxZVAZO1VHO2NB9DdL6zt8rWwg==/
 [chatGpt4]: https://chatgpt.com/
+[6]: https://private-user-images.githubusercontent.com/55709542/331172537-6e5e5372-404f-434b-acb9-3bfe3a8eb00a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU4NTcwMzIsIm5iZiI6MTcxNTg1NjczMiwicGF0aCI6Ii81NTcwOTU0Mi8zMzExNzI1MzctNmU1ZTUzNzItNDA0Zi00MzRiLWFjYjktM2JmZTNhOGViMDBhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE2VDEwNTIxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAyN2VjMjk4NzgzNDYwYjVhOTUyNWI4Mzk5NWVkYzllZTgzMTljOWMyODFiNDM5ZGMyOGUwMDEyZThlNjE5Y2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2rXEgY6jse3RfyJ1Rpwwe7dh04NTi3h_BoK6RvSvUQk
+[7]: https://avatars.githubusercontent.com/u/44036562?s=200&v=4
 ------------------------
