@@ -91,7 +91,7 @@ Key tips:
 
 ### Real-time personalization
 
-65% of users would stop using a product if their experience is not personalized. That is why personalization is the so important in web app development. And AI tools can take it to the next level with real-time personalization. 
+According to a report from Twilio Segment, 66% of users would stop using a product if their experience is not personalized. That is why personalization is so important in web app development. And AI tools can take it to the next level with real-time personalization. 
 
 AI models analyze the data collected from each user to give them personalized experiences in real time. Developers do not have to build a complex AI model from scratch. There are a number of pre-trained AI models for personalization on the market.
 
