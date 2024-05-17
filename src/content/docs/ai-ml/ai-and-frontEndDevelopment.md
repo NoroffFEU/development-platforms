@@ -69,7 +69,7 @@ AI tools can improve applications accessibility and UX significantly. Some of th
 
 Further more AI tools can be used to improve the existing web app without having to integrate new AI models and technologies. AI tools like Userway can help do an accessibility audit of a web application, it can check if it complies with the latest WCAG guidelines. It can even optimize the code to be more inclusive and usable.
 
-AI tools to use are Userway and Testim
+AI tools to use are Userway and Testim.
 
 Key tips:
 - **Use AI tools to test the UI:** AI tools like Testim will help developers find errors and identify issues with the web application's UI.
@@ -78,7 +78,29 @@ Key tips:
 
 ### Automated testing and bug detection
 
+Quality assurance (QA) and thorough testing are so important – and front-end development is no exception. AI tools can automate various testing methods: Unit testing, Integration testing, Regression testing, Performance testing and so on.
+
+These tools can identify test scenarios, make test scripts, and then run the tests autonomously, without human intervention. And since they run 24/7, developers will be notified immediately on bug detection. Some other AI tools can help detect potential bugs and vulnerabilities in the codebase before even it gets to the QA stage.
+
+Some of the top automated testing and bug detecting AI tools to use are: TestCraft, TestProject, TestSigma, CodeQL and Synk.
+
+Key tips:
+- **Optimize test cases with AI:** Use AI to analyze historical test data and optimize test cases, which will eliminate redundancy.
+- **Use AI for visual testing:** AI tools like Applitools can help find UI issues standard automated tests might miss.
+- **Integrate AI tools from the start:** If AI tools are integrated at the start of the development cycle, it will save time and resources by detecting bugs and issues early.
+
 ### Real-time personalization
+
+65% of users would stop using a product if their experience is not personalized. That is why personalization is the so important in web app development. And AI tools can take it to the next level with real-time personalization. 
+
+AI models analyze the data collected from each user to give them personalized experiences in real time. Developers do not have to build a complex AI model from scratch. There are a number of pre-trained AI models for personalization on the market.
+
+Popular real-time personalization AI tool is Amazon Personalize.
+
+Key tips:
+- **Use pre-trained AI models:** Pre-trained AI models like Amazon Personalize are a simpler and cheaper way to get real-time personalization than AI models trained from scratch.
+- **Collect high-quality user data:** make sure that the user data you use to train AI personalization models satisfies data quality standards.
+- **Regularly update your AI model:** make sure to regularly update and re-train your AI model with fresh data to optimize its performance and prevent model drift.
 
 You may use subheadings, tables or bullet points to structure your description:
 - **Example Feature:** This feature does something for a specific reason.
