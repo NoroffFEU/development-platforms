@@ -1,7 +1,7 @@
 ---
 title: Travis-CI Case Study
 author: Morten Ramfjord, Ramsnes
-Tags: travisci, travis, travis-ci
+tags: travisci, travis, travis-ci
 ---
 
 ## Introduction
