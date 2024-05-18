@@ -120,6 +120,18 @@ Not all AI models are created equal, and some may not take into account the spec
 
 Implementing and utilizing AI technology requires specific skills and knowledge, which may not be readily available to all Front-end developers.
 
+## Front-End Development as a career
+
+Artificial Intelligence (AI) has been making waves in countless industries, and web development is no exception, AI is making big strides here as well. With the potential to revolutionise the way websites are created and maintained, the field of front-end development is changing and many worry AI will take over. 
+
+| Front-End Developer Skills | AI’s Limitations |
+| --- | --- |
+| Technical expertise in HTML, CSS, and JavaScript | Lacks deep understanding of complex front-end technologies |
+| Creative thinking and design | Unable to replicate human creativity and innovative design |
+| Problem-solving skills | May make inaccurate assumptions or produce nonsensical results |
+| Adaptability to unique project requirements | Struggles with handling large-scale, real-world projects with unique codebases |
+| Understanding of user-centric design | Lacks the ability to prioritize user needs and experiences |
+
 You may use subheadings, tables or bullet points to structure your description:
 - **Example Feature:** This feature does something for a specific reason.
 - **Example Feature:** This feature does something for a specific reason.
