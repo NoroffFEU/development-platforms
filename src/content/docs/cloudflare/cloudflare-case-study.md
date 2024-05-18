@@ -76,5 +76,5 @@ It limitations are limited control of the CDN configuration and websites may be 
 - [geeksforgeeks.org/what-is-cloudflare/](https://www.geeksforgeeks.org/what-is-cloudflare/)
 - [geeksforgeeks.org/difference-between-cloudflare-and-aws-cloudfront/](https://www.geeksforgeeks.org/difference-between-cloudflare-and-aws-cloudfront/)
 - [cloud.folio3.com/blog/amazon-cloudfront-vs-cloudflare/](https://cloud.folio3.com/blog/amazon-cloudfront-vs-cloudflare/)
-- [https://www.cloudflare.com/learning/cdn/what-is-a-cdn/] (https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+- [https://www.cloudflare.com/learning/cdn/what-is-a-cdn/](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
 
