@@ -15,14 +15,14 @@ Xcode has been a main tool in shaping the landscape of app development for Apple
 - October 23rd, 2003: Apple releases Xcode as the official IDE for macOS
 - 2007-2008: Release of iPhones, Xcode allowed developers to target iPhone OS using the iPhone SDK. Interface builder integrated into Xcode.
 - June 2nd, 2014: Swift programmming language unveiled, tightly integrated with Xcode. Playground support integrated.
-- June 3rd, 2019: Release of frameowork SwiftUI. Revolutionizing UI development with declarative syntax.
+- June 3rd, 2019: Release of framework SwiftUI. Revolutionizing UI development with declarative syntax.
 
 ## Main Features
 Xcode is used to develop software for platforms macOS, iOS, iPadOS, watchOS, tvOS and visionOS. It provides all the required tools to design, create and publish apps for Apple's platforms.
 Some of the main features of Xcode are:
 | Feature | Description |
 | --- | --- |
-| Interface builder | Allows developers to design user interfaces visually, with drag-and-drog tools and real-time previews. This enables developers to easily create intuitive, stunning and user friendly interfaces.
+| Interface builder | Allows developers to design user interfaces visually, with drag-and-drop tools and real-time previews. This enables developers to easily create intuitive, stunning and user friendly interfaces.
 | Debugging tools | Xcode offers a comprehensive set of debugging tools, including breakpoints, LLDB debugger and Instruments. These tools allow developers to efficiently identify and resolve issues in their code; ensuring stability and reliability of their apps. 
 | Simulator | Xcode includes built in iOS and macOS simulators for testing apps across different environments and devices. This allows developers to test their apps in different scensarios, such as different screen sizes to different OS versions, without needing physical devices.
 | Version Control | Git is integrated in Xcode, providing version control capabilities within the IDE. This allows multiple developers to work on the same project simultaneously, while also keeping track of changes and effectively managing conflicts.
@@ -36,8 +36,8 @@ Like many other development platforms, Xcode comes with its strengths and weakne
 
 ### Weaknesses
 - Only supports the development of Apple apps: Xcode is primarily designed for developing apps for Apple's platforms only. Its usefulness is limited for developers who need to build cross-platform apps or integrate technologies that are not related to Apple.
-- Can be resource intensive: As Xcode is a complex and feature-rich integrated development environement, it may be resource intensive, particularly on older or less powerful hardware. As a result, sluggish performances and slow build times may occur for large projects.
-- Steep learning curve: Despite the user-friendly interface being accessible to developers of all levels, mastering Xcode's extensive feature set can take time and effort. Beginners may feel overwhelmed as patience and persistence is imortant in order to be proficient.
+- Can be resource intensive: As Xcode is a complex and feature-rich integrated development environment, it may be resource intensive, particularly on older or less powerful hardware. As a result, sluggish performances and slow build times may occur for large projects.
+- Steep learning curve: Despite the user-friendly interface being accessible to developers of all levels, mastering Xcode's extensive feature set can take time and effort. Beginners may feel overwhelmed as patience and persistence is important in order to be proficient.
 
 ## Market Comparison
 Compared to its counterparts like for instance Android Studio and Visual Studio, Xcode offers native integration with Apple's ecosystem. Some counterparts worth mentioning are:
