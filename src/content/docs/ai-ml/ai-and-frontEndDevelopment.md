@@ -146,7 +146,7 @@ AI is revolutionizing how websites are made and developers can take advantage of
 
 Limited Decision-Making Capability, Risk of Biased Data, Model Size Limitations and Steep learning curve are some of the limitations posed by AI.
 
-Even with AI growing fast, front-end development’s future is bright. AI tools will boost developer skills and productivity. AI will change front-end work, but won’t replace human skills. Good front-end developers really know about design and solving issues. They use their creativity to make great things. Working with AI, developers can do even cooler stuff in web design. in short, developers and AI tools complement each other.
+Even with AI growing fast, front-end development’s future as a career is bright. AI tools will boost developer skills and productivity. AI will change front-end work, but won’t replace human skills. Good front-end developers really know about design and solving issues. They use their creativity to make great things. Working with AI, developers can do even cooler stuff in web design. In short, developers and AI tools complement each other, not replace one another.
 
 ## References
 
