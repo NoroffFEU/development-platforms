@@ -50,7 +50,7 @@ However, if you are looking for more control, customization, and better SEO opti
 
 In conclusion, Shopify is perfect for beginners due to its simplicity and ease of use, but WooCommerce is the superior option for those who want to take their e-commerce site to the next level.
 
-## Getting started 
+## Getting started with WooCommerce
 
 1. Choose a hosting provider
 2. Install WordPress
