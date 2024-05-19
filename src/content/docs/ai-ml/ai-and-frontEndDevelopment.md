@@ -150,12 +150,12 @@ Even with AI growing fast, front-end development’s future as a career is brigh
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- The End of Front-End Development (https://www.joshwcomeau.com/blog/the-end-of-frontend-development/)
+- 5 ways to use AI in front-end development (https://decode.agency/article/ai-front-end-development/)
+- How AI Is Automating Front-End Development (https://nilead.com/article/how-ai-is-automating-front-end-development)
+- Revolutionizing User Experience with AI in Frontend Development (https://www.linkedin.com/pulse/frontendfriday-revolutionizing-user-experience-ai-frontend-thota-zuqcf)
+- How AI is Transforming Front-End Development (https://www.skillreactor.io/blog/ai-transforming-front-end-development/)
+- The Evolution of Frontend Development (https://link.money/blog/the-evolution-of-frontend-development)
+- AI in Web Development: Exploring the Prospects and Challenges (https://www.linkedin.com/pulse/ai-web-development-exploring-prospects-challenges-technocrat)
+- A very brief history of artificial intelligence (https://technologyquotient.freshfields.com/post/102ip8m/a-very-brief-history-of-artificial-intelligence)
+- Report from Twilio Segment (https://venturebeat.com/ai/92-of-businesses-use-ai-driven-personalization-but-consumer-confidence-is-divided/)
