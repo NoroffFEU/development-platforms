@@ -44,7 +44,10 @@ export default defineConfig({
         { label: "TanStack", collapsed: true, autogenerate: { directory: "tanstack" } },
         { label: "UX Monitoring", collapsed: true, autogenerate: { directory: "ux-monitoring" } },
         { label: "Web Development & Hosting", collapsed: true, autogenerate: { directory: "webdev-hosting" } }
-      ]
+      ],
+      components: {
+        PageTitle: './src/components/CustomPageTitle.astro'
+      }
     })
   ],
 
