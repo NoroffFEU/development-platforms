@@ -59,6 +59,78 @@ To dive into Tailwind CSS, follow these steps:
 
 2.  Start leveraging Tailwind utility classes in your HTML markup to style elements.
 
+Step-by-Step Guide
+---------------
+
+1\. Setting Up Your Project
+
+First, you'll need an HTML file and a way to include Tailwind CSS in your project. The simplest way to do this is by using a CDN (Content Delivery Network).
+
+Create an index.html file and include the Tailwind CSS CDN link in the <head> section:
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tailwind CSS Demo</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="min-h-screen bg-orange-300 flex items-center justify-center">
+
+        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+
+            <h1 class="text-2xl font-bold mb-4">Hello Noroff!</h1>
+
+            <p class="text-gray-700">This is a simple demonstration of Tailwind CSS.</p>
+
+            <button type="button" class="mt-5 text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Button</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+2\. Understanding the Classes
+
+min-h-screen: Makes the div take at least the full height of the viewport.
+
+bg-gray-100: Sets a light gray background color.
+
+flex items-center justify-center: Centers the content both vertically and horizontally using Flexbox.
+
+bg-white: Sets the background color of the inner div to white.
+
+p-6: Adds padding of 1.5rem (24px) to all sides.
+
+rounded-lg: Rounds the corners with a large radius.
+
+shadow-lg: Adds a large shadow around the div.
+
+text-center: Centers the text inside the div.
+
+text-2xl font-bold mb-4: Sets the text to 2xl size, makes it bold, and adds a margin bottom of 1rem (16px).
+
+text-gray-700: Sets the text color to a dark gray.
+
+3\. Running the Demo
+
+To see the Tailwind CSS styles in action, open the index.html file in your web browser. You should see a centered card with a heading, paragraph, and a button.
+
+
 In Summary
 ----------
 
