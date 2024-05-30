@@ -61,8 +61,9 @@ To dive into Tailwind CSS, follow these steps:
 
 Step-by-Step Guide
 ---------------
+<br><br>
 
-1\. Setting Up Your Project
+**1\. Setting Up Your Project**
 
 First, you'll need an HTML file and a way to include Tailwind CSS in your project. The simplest way to do this is by using a CDN (Content Delivery Network).
 
@@ -89,15 +90,16 @@ Create an index.html file and include the Tailwind CSS CDN link in the <head> se
 </body>
 </html>
 ```
+<br>
 
-It should look something like this
 ![Example Image](https://raw.githubusercontent.com/Bavy89/images/main/Images/Sk%C3%A4rmbild%202024-05-30%20193834.png?token=GHSAT0AAAAAACRYTTCMPFGJKGEHYYBRGDVAZSYXIOA)
 
 
+<br><br>
 
 
 
-2\. Understanding the Classes
+**2\. Understanding the Classes**
 
 min-h-screen: Makes the div take at least the full height of the viewport.
 
@@ -118,8 +120,9 @@ text-center: Centers the text inside the div.
 text-2xl font-bold mb-4: Sets the text to 2xl size, makes it bold, and adds a margin bottom of 1rem (16px).
 
 text-gray-700: Sets the text color to a dark gray.
+<br><br>
 
-3\. Running the Demo
+**3\. Running the Demo**
 
 To see the Tailwind CSS styles in action, open the index.html file in your web browser. You should see a centered card with a heading, paragraph, and a button.
 
