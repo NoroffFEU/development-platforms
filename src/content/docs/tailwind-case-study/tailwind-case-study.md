@@ -91,7 +91,7 @@ Create an index.html file and include the Tailwind CSS CDN link in the <head> se
 ```
 
 It should look something like this
-![Example Image]([https://example.com/image.jpg](https://raw.githubusercontent.com/Bavy89/images/main/Images/Sk%C3%A4rmbild%202024-05-30%20193834.png?token=GHSAT0AAAAAACRYTTCMPFGJKGEHYYBRGDVAZSYXIOA))
+![Example Image](https://raw.githubusercontent.com/Bavy89/images/main/Images/Sk%C3%A4rmbild%202024-05-30%20193834.png?token=GHSAT0AAAAAACRYTTCMPFGJKGEHYYBRGDVAZSYXIOA)
 
 
 
