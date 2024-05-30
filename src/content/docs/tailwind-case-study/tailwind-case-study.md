@@ -68,41 +68,10 @@ First, you'll need an HTML file and a way to include Tailwind CSS in your projec
 
 Create an index.html file and include the Tailwind CSS CDN link in the <head> section:
 
-<!DOCTYPE html>
 
-<html lang="en">
 
-<head>
 
-    <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Tailwind CSS Demo</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <div class="min-h-screen bg-orange-300 flex items-center justify-center">
-
-        <div class="bg-white p-6 rounded-lg shadow-lg text-center">
-
-            <h1 class="text-2xl font-bold mb-4">Hello Noroff!</h1>
-
-            <p class="text-gray-700">This is a simple demonstration of Tailwind CSS.</p>
-
-            <button type="button" class="mt-5 text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Button</button>
-
-        </div>
-
-    </div>
-
-</body>
-
-</html>
 
 2\. Understanding the Classes
 
