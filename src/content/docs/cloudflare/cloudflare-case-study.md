@@ -23,7 +23,7 @@ Cloudflare is a content delivery network (CDN) and cloud security platform that 
 
 ## Main Features
 
-The main feature for using Clodflare is to use the network reasorces provided by Cloudflare to get the content and services closer to the user visiting your site. 
+The main feature of using Cloudflare is to leverage the network resources provided by Cloudflare to deliver content and services closer to the users visiting your site.
 
 | Features| Description |
 |---|---|
@@ -39,9 +39,7 @@ The main feature for using Clodflare is to use the network reasorces provided by
 
 ## Market Comparison
 
-Compared to other content delivery networks Cloudflare stands out because of the speed, easy to use and the security.
-
-### Cloudflare vs Amazon CloudFront 
+Comparison between Amazon Cloudfront and Cloudflare 
 
 | Feature  | Amazon Cloudfront |Cloudflare|
 |---|---|---|
@@ -49,7 +47,7 @@ Compared to other content delivery networks Cloudflare stands out because of the
 |Performance|	Low-latency content delivery for improved user experience|Faster page loads with content caching and optimization|
 |Security|Provides SSL/TLS encryption and integrates with AWS WAF|Offers DDoS protection, WAF, SSL/TLS encryption, and more|
 | Scalability  | Automatically scaling for trafic spikes | Handles traffic fluctuations with load balancing |
-| Accessiblity| Can only be accessed thorugh configured URLs  | No need for specific URLs |
+| Accessiblity| Can only be accessed through configured URLs  | No need for specific URLs |
 | Pricing Model  | Pricing based on data transfer and requests | Offers free and paid plans with various levels of features |
 | Usage | User interface with a steep learing curve for user not familiar with AWS | Easy to use, friendly interface |
  
