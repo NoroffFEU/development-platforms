@@ -1,4 +1,10 @@
-![cPanel Logo Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/CPanel_logo.svg/1280px-CPanel_logo.svg.png)
+title: cPanel Case Study
+author: Atle R. Hjelmseth <atlehjelmseth>
+tags: cPanel
+
+## ![cPanel Logo Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/CPanel_logo.svg/1280px-CPanel_logo.svg.png)
+
+---
 
 ## Introduction
 
