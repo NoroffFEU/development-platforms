@@ -259,11 +259,6 @@ jobs:
 
 GitHub Actions is a versatile CI/CD tool that enables automated workflows within GitHub. By defining workflows in YAML files, you can customize your automation processes to suit your project's requirements, leveraging GitHub’s powerful ecosystem.
 
-## Author
-[Mariusz Rozycki][author]
-  
-[author]: https://github.com/MariuszRozycki
-
 ## References
 
 - 1: [Wikipedia GitHub][1]
