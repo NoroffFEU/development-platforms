@@ -72,8 +72,7 @@ Azure DevOps and GitHub have their own automation and CI/CD (continuous integrat
 Both of these tools allow you to create workflows for building, testing, publishing, releasing, and deploying code. They also have similarities in terms of workflow setup.
 In both cases, configuration files are saved in YAML format and stored in the code repository. Workflows consist of one or more tasks, and each of these tasks contains one or more individual steps or commands.
 
-Task and step structures in Azure Pipelines are very similar to those in GitHub actions.
-##### However, there are many differences between these two tools:
+#### Task and step structures in Azure Pipelines are very similar to those in GitHub actions. <br> However, there are many differences between these two tools:
 
 | GitHub Actions | Azure Pipelines |
 | --- | --- |
