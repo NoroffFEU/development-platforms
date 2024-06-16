@@ -1,8 +1,8 @@
 # Case Study: Google Firebase
 ---
 title: Google Analytics / Tag Manager
-keywords: development platforms, google analytics, analytics, GA4, GTM, tracking, google tag manager
-tags: Development Platforms, google platforms, analytics
+keywords: development platforms, google analytics, analytics, GA4, GTM, tracking, google tag manager,Firebase, QucikTask
+tags: Development Platforms, google platforms, analytics,Firebase, QucikTask
 ---
 
 ## Introduction
