@@ -1,7 +1,8 @@
+# Case Study: Google Firebase
 ---
-title: Firebase
-keywords: <add some tags>
-tags: <add some tags>
+title: Quick Task a case study of Firebase usage
+keyword: Firebase, QucikTask
+tags: Firebase, QucikTask
 ---
 
 ## Introduction
