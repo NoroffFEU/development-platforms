@@ -1,3 +1,4 @@
+# Case Study: Google Firebase
 ---
 title: Google Analytics / Tag Manager
 keywords: development platforms, google analytics, analytics, GA4, GTM, tracking, google tag manager
