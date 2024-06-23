@@ -1,8 +1,18 @@
 ---
-const { title, author, draft } = Astro.props.entry.data;
+const { title, author } = Astro.props.entry.data;
 ---
 
-<header>
-  <h1>{title}</h1>
+<h1 id="_top">{title}</h1>
+{author && (
   <em>Author: {author}</em>
-</header>
+)}
+
+<style>
+  h1 {
+    margin-top: 1rem;
+    font-size: var(--sl-text-h1);
+    line-height: var(--sl-line-height-headings);
+    font-weight: 600;
+    color: var(--sl-color-white);
+  }
+</style>
