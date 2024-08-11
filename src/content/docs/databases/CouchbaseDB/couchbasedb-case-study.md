@@ -1,7 +1,7 @@
 ---
-title: Example Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+title: CouchbaseDB Case Study
+author: Bekzat Bagdat <BekzatBagdat>
+tags: couchbasedb, case study, dbaas, nosql, json document database
 ---
 
 ## Introduction
