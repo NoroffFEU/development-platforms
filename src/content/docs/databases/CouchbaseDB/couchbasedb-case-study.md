@@ -6,7 +6,7 @@ tags: couchbasedb, case study, dbaas, nosql, json document database
 
 ## Introduction
 
-CouchbaseDB is a open source NoSql, json document database, offering high-performance, flexibility, scalability, and speed. It achieves its high performance by using in-memory caching, which allows it to be much faster than other known relational databases such as MySQL,and PostgreSQL. It also performs signifincatly faster than other NoSQL databases like MongoDB.
+CouchbaseDB is a open source NoSql, json document database, offering high-performance, flexibility, scalability, and speed. It achieves its high performance by using in-memory caching, which allows it to be much faster than other known relational databases such as MySQL,and PostgreSQL. It also performs significantly faster than other NoSQL databases like MongoDB.
 
 ## Brief History
 
