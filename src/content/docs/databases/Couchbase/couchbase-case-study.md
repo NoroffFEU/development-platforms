@@ -8,6 +8,8 @@ tags: couchbase, case study, dbaas, nosql, json document database
 
 Couchbase is a open source NoSql, json document database, offering high-performance, flexibility, scalability, and speed. It achieves its high performance by using in-memory caching, which allows it to be much faster than other known relational databases such as MySQL,and PostgreSQL. It also performs significantly faster than other NoSQL databases like MongoDB.
 
+![Couchbase Logo](https://raw.githubusercontent.com/docker-library/docs/00543c65b06a7f8f54aa4f7908f7d91705d8ddec/couchbase/logo.png)
+
 ## Brief History
 
 You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
@@ -58,7 +60,8 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## References
 
-- [Example.com](https://example.com)
+- [Couchbase Logo](https://raw.githubusercontent.com/docker-library/docs/00543c65b06a7f8f54aa4f7908f7d91705d8ddec/couchbase/logo.png)
+  [Example.com](https://example.com)
 - _Good Examples_ by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
