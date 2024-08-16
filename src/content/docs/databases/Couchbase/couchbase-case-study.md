@@ -6,21 +6,15 @@ tags: couchbase, case study, dbaas, nosql, json document database
 
 ## Introduction
 
-Couchbase is a open source NoSql, json document database, offering high-performance, flexibility, scalability, and speed. It achieves its high performance by using in-memory caching, which allows it to be much faster than other known relational databases such as MySQL,and PostgreSQL. It also performs significantly faster than other NoSQL databases like MongoDB.
+Couchbase is a open source NoSql json document database, that offers high-performance, flexibility, scalability, and speed. It achieves its high performance by using in-memory caching, which allows it to be much faster than other known relational databases such as MySQL,and PostgreSQL. It also performs significantly faster than other NoSQL databases like MongoDB. Couchbase also uses N1QL which is a query language that is similar to SQL, which makes it easier for people who are already familiar with SQL, where as MongoDB uses its own unique query language called MongoDB query language (MQL).
 
 ![Couchbase Logo](https://raw.githubusercontent.com/docker-library/docs/00543c65b06a7f8f54aa4f7908f7d91705d8ddec/couchbase/logo.png)
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 2009: NorthScale and CouchOne Inc was founded. CouchOne Inc developed and provided financial support for Apache CouchDB, a open source, document database.
+- 2010: NorthScale got $5 million in funding from Accel Partners and North Bridge Venture Partners, and a $10 million investment by Mayfield Fund, and later same year NorthScale was renamed to Membase.
+- 2011: Membase and CouchOne merged together and became CouchBase Inc. Goal with CouchBase Inc was to build NoSQL document-oriented database system, which is easily scalable, and high-performing.
 
 ## Main Features
 
@@ -61,6 +55,7 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Couchbase Logo](https://raw.githubusercontent.com/docker-library/docs/00543c65b06a7f8f54aa4f7908f7d91705d8ddec/couchbase/logo.png)
+- [En.wikipedia.org](https://en.wikipedia.org/wiki/Couchbase,_Inc.)
   [Example.com](https://example.com)
 - _Good Examples_ by John Doe, 1990
 - The Example Podcast, Episode 1
