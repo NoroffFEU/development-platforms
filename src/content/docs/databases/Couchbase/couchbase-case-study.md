@@ -55,7 +55,7 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Couchbase Logo](https://raw.githubusercontent.com/docker-library/docs/00543c65b06a7f8f54aa4f7908f7d91705d8ddec/couchbase/logo.png)
-- [En.wikipedia.org](https://en.wikipedia.org/wiki/Couchbase,_Inc.)
+- [Wikipedia CouchBase, Inc](https://en.wikipedia.org/wiki/Couchbase,_Inc.)
   [Example.com](https://example.com)
 - _Good Examples_ by John Doe, 1990
 - The Example Podcast, Episode 1
