@@ -21,13 +21,20 @@ Couchbase is a open source NoSql JSON document database platform, that offers hi
 Couchbase is a powerful NoSQL database platform, offering its own unique advantages, and making database management as easy and cost-efficient as possible. Here is the main features of this database system:
 
 - **SQL++:** Use of SQL-like query language to work with JSON data. This shortens learning curve for developers already familiar with SQL, and let them use the flexibility and speed of JSON with along with their SQL-skills. SQL++ also includes JOIN operations, which is often not present in other NoSQL database systems.
+
 - **Key-value:** Saving data as items with unique key, and value. The value can be either binary or JSON, and will be identified by a unique key, this can be defined by the developer or application when the item is saved. This allows for as efficient as possible data-lookup.
+
 - **Full-text search:** Use of Integrated JSON search, that gives the developers ability to perform powerful searches without the need for any third-party software. Developers/Users can find content in the database by criterias such as text, latitude, longitude, and vector embeddings. Text search indexes are predefined to make the search faster than traditional field-based database scans.
-- **Real-time Analytics:** Ablility to perform complex BI and fast, low latency analtytical queries on the data. Since modern adaptive applications require operational and transactional data to create streamlined experience, the apps needs to work in real-time. Couchbase solve this problem by converging operational data and real-time analytics in one platform.
+
+- **Real-time Analytics:** Ablility to perform complex BI and fast, low latency analtytical queries on the data. Since modern adaptive applications require operational and transactional data to create streamlined experience, the apps needs to work in real-time. Couchbase solve this problem by converging operational data and real-time analytics in one platform.'
+
 - **Eventing:** Couchbase offers eventing service that offers capabilities such as real-time data mutation management, alert setting, and data change propagation without the need for third-party tool installment. This improves business workflows using an event-condition-action model, and reduces costs and technical barriers.
+
 - **Cross Data Center Replication (XDCR):** a feature of Couchbase that automaticlly replicates data across data center, cloud regions and cloud providers. This ensures data recovery in case of a disaster, allows data to be as close as possible to the user, improves the speed, performance, and ensures that the data keeps being available even if one of the centers is down.
 
-## Couchbase Capella (DBaaS)
+## Couchbase Overview
+
+- **c**
 
 ## Market Comparison
 
