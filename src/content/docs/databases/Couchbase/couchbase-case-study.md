@@ -1,12 +1,12 @@
 ---
 title: Couchbase Case Study
 author: Bekzat Bagdat <BekzatBagdat>
-tags: couchbase, case study, dbaas, nosql, json document database
+tags: couchbase, case study, dbaas, nosql, json document database platform, database system
 ---
 
 ## Introduction
 
-Couchbase is a open source NoSql json document database, that offers high-performance, flexibility, scalability, and speed. It achieves its high performance by using in-memory caching, which allows it to be much faster than other known relational databases such as MySQL,and PostgreSQL. It also performs significantly faster than other NoSQL databases like MongoDB. Couchbase also uses N1QL which is a query language that is similar to SQL, which makes it easier for people who are already familiar with SQL, where as MongoDB uses its own unique query language called MongoDB query language (MQL).
+Couchbase is a open source NoSql JSON document database platform, that offers high-performance, flexibility, scalability, and speed. It achieves its high performance by using in-memory caching, which allows it to be much faster than other known relational databases such as MySQL,and PostgreSQL. It also performs significantly faster than other NoSQL databases like MongoDB. Couchbase also uses N1QL which is a query language that is similar to SQL, which makes it easier for people who are already familiar with SQL, where as MongoDB uses its own unique query language called MongoDB query language (MQL).
 
 ![Couchbase Logo](https://raw.githubusercontent.com/docker-library/docs/00543c65b06a7f8f54aa4f7908f7d91705d8ddec/couchbase/logo.png)
 
@@ -18,23 +18,16 @@ Couchbase is a open source NoSql json document database, that offers high-perfor
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+Couchbase is a powerful NoSQL database platform, offering its own unique advantages, and making database management as easy and cost-efficient as possible. Here is the main features of this database system:
 
-You may use subheadings, tables or bullet points to structure your description:
+- **SQL++:** Use of SQL-like query language to work with JSON data. This shortens learning curve for developers already familiar with SQL, and let them use the flexibility and speed of JSON with along with their SQL-skills. SQL++ also includes JOIN operations, which is often not present in other NoSQL database systems.
+- **Key-value:** Saving data as items with unique key, and value. The value can be either binary or JSON, and will be identified by a unique key, this can be defined by the developer or application when the item is saved. This allows for as efficient as possible data-lookup.
+- **Full-text search:** Use of Integrated JSON search, that gives the developers ability to perform powerful searches without the need for any third-party software. Developers/Users can find content in the database by criterias such as text, latitude, longitude, and vector embeddings. Text search indexes are predefined to make the search faster than traditional field-based database scans.
+- **Real-time Analytics:** Ablility to perform complex BI and fast, low latency analtytical queries on the data. Since modern adaptive applications require operational and transactional data to create streamlined experience, the apps needs to work in real-time. Couchbase solve this problem by converging operational data and real-time analytics in one platform.
+- **Eventing:** Couchbase offers eventing service that offers capabilities such as real-time data mutation management, alert setting, and data change propagation without the need for third-party tool installment. This improves business workflows using an event-condition-action model, and reduces costs and technical barriers.
+- **Cross Data Center Replication (XDCR):** a feature of Couchbase that automaticlly replicates data across data center, cloud regions and cloud providers. This ensures data recovery in case of a disaster, allows data to be as close as possible to the user, improves the speed, performance, and ensures that the data keeps being available even if one of the centers is down.
 
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-
-Example feature table:
-
-| Feature         | Description                                        |
-| --------------- | -------------------------------------------------- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+## Couchbase Capella (DBaaS)
 
 ## Market Comparison
 
@@ -44,24 +37,23 @@ If you are writing about an open source tool, it may be a good idea to compare i
 
 Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
 
-## Getting Started
-
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
-
 ## Conclusion
 
 This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
 
 ## References
 
-- [Couchbase Logo](https://raw.githubusercontent.com/docker-library/docs/00543c65b06a7f8f54aa4f7908f7d91705d8ddec/couchbase/logo.png)
 - [Wikipedia CouchBase, Inc](https://en.wikipedia.org/wiki/Couchbase,_Inc.)
-  [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [What is Couchbase](https://developer.couchbase.com/what-is-couchbase/)
+- [SQL++](https://www.couchbase.com/sqlplusplus/)
+- [SQL++: Couchbase Database Query Language](https://www.couchbase.com/products/n1ql/)
+- [Couchbase documentation: Data](https://docs.couchbase.com/server/current/learn/data/data.html)
+- [Full-Text Search](https://www.couchbase.com/products/full-text-search/)
+- [JSON Analytics From JSON Experts](https://www.couchbase.com/products/analytics/)
+- [Eventing Service From Couchbase](https://www.couchbase.com/products/eventing/)
+- [Cross Data Center Replication](https://www.couchbase.com/products/xdcr/)
+- [Understanding Cross Data Center Replication (XDCR) – Part 1](https://www.couchbase.com/blog/understanding-xdcr-part-1/)
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [Couchbase Logo](https://raw.githubusercontent.com/docker-library/docs/00543c65b06a7f8f54aa4f7908f7d91705d8ddec/couchbase/logo.png)
