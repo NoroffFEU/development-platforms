@@ -1,5 +1,5 @@
 ---
-title: Convex: A Real-Time Serverless Database Platform
+title: "Convex: A Real-Time Serverless Database Platform"
 author: Martins Siksnis <msiksnis>
 tags: Convex, Serverless, Database, Real-Time
 ---
