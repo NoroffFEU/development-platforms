@@ -34,7 +34,7 @@ Couchbase is a powerful NoSQL database platform, offering its own unique advanta
 
 - **Cross Data Center Replication (XDCR):** a feature of Couchbase that automaticlly replicates data across data center, cloud regions and cloud providers. This ensures data recovery in case of a disaster, allows data to be as close as possible to the user, improves the speed, performance, and ensures that the data keeps being available even if one of the centers is down.
 
-## Couchbase Database as-a-Service Overview
+## Couchbase Services
 
 Couchbase offers 4 services:
 
