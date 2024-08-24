@@ -1,7 +1,7 @@
-# Sanity CMS
+| title      | by                                                  | tags                      |
+|------------|-----------------------------------------------------|---------------------------|
+| Sanity CMS | Kristian Hagesæter, Martine Midttveit & Maik dos Santos | CMS, Sanity, Headless CMS |
 
-**By**: Kristian Hagesæter, Martine Midttveit & Maik dos Santos.  
-**Tags**: CMS, Sanity, Headless CMS.
 
 ## Introduction
 
