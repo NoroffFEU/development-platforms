@@ -24,6 +24,8 @@ Couchbase is a powerful NoSQL database platform, offering its own unique advanta
 
 - **Key-value:** Saving data as items with unique key, and value. The value can be either binary or JSON, and will be identified by a unique key, this can be defined by the developer or application when the item is saved. This allows for as efficient as possible data-lookup.
 
+- **In-cache Memory:** The most used data and indexes are cached in-memory for faster reads, writes are also performed in-memory and can be replicated, presisted synchronously or asynchronously, which ensures consistency.
+
 - **Full-text search:** Use of Integrated JSON search, that gives the developers ability to perform powerful searches without the need for any third-party software. Developers/Users can find content in the database by criterias such as text, latitude, longitude, and vector embeddings. Text search indexes are predefined to make the search faster than traditional field-based database scans.
 
 - **Real-time Analytics:** Ablility to perform complex BI and fast, low latency analtytical queries on the data. Since modern adaptive applications require operational and transactional data to create streamlined experience, the apps needs to work in real-time. Couchbase solve this problem by converging operational data and real-time analytics in one platform.'
@@ -32,9 +34,14 @@ Couchbase is a powerful NoSQL database platform, offering its own unique advanta
 
 - **Cross Data Center Replication (XDCR):** a feature of Couchbase that automaticlly replicates data across data center, cloud regions and cloud providers. This ensures data recovery in case of a disaster, allows data to be as close as possible to the user, improves the speed, performance, and ensures that the data keeps being available even if one of the centers is down.
 
-## Couchbase Overview
+## Couchbase Database as-a-Service Overview
 
-- **c**
+Couchbase offers 4 services:
+
+- **Couchbase Capella:** which is a fully managed cloud Database-as-a-Service.
+- **Couchbase Server:** which is a self-hosted database server which can be downloaded and installed in various operation systems such as Windows, Linux and Mac.
+- **Couchbase Mobile** which is a runs as a standalone embedded database on mobile, desktop, and edge devices.
+- **Autonoumous Operator:** which is used to run easily within Kubernetes, that provides a Couchbase specific API for managing database clusters.
 
 ## Market Comparison
 
@@ -60,6 +67,7 @@ This section can be used to summarize your findings. What are the main advantage
 - [Eventing Service From Couchbase](https://www.couchbase.com/products/eventing/)
 - [Cross Data Center Replication](https://www.couchbase.com/products/xdcr/)
 - [Understanding Cross Data Center Replication (XDCR) – Part 1](https://www.couchbase.com/blog/understanding-xdcr-part-1/)
+- [Couchbase Overview](https://www.couchbase.com/content/capella/capella_architecture_whitepaper%20)
 
 ## Additional Resources
 
