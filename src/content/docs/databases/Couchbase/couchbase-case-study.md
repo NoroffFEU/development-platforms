@@ -46,7 +46,7 @@ Couchbase is a powerful NoSQL database platform, offering its own unique advanta
 
 ## Couchbase Applications in the Industry
 
--**E-Commerce** Couchbase's high-performance, ensures that customers get fast, engaging, and reliable shopping experience .
+- **E-Commerce** Couchbase's high-performance, ensures that customers get fast, engaging, and reliable shopping experience .
 
 - **Energy & Utilities** Couchbase is highly reliable and responsive even in remote locations with poor connectivity.
 
@@ -54,15 +54,15 @@ Couchbase is a powerful NoSQL database platform, offering its own unique advanta
 
 - **Gaming** Couchbase can give millions of gamers reponsive and personalized experiences across different devices, by maintaining 100% uptime and scale in real time.
 
--**Media & Entertainment** Couchbase's high performance and scalability, is perfect for use in this industry.
+- **Media & Entertainment** Couchbase's high performance and scalability, is perfect for use in this industry.
 
--**Government** Couchbase can be used to deliver public services using a single platform that connect citizens to their munipalities and governments.
+- **Government** Couchbase can be used to deliver public services using a single platform that connect citizens to their munipalities and governments.
 
--**Healthcare** Couchbase is highly scaleable, high-performant and reliable, which is crucial in this field.
+- **Healthcare** Couchbase is highly scaleable, high-performant and reliable, which is crucial in this field.
 
--**High Tech** Couchbase can be used to build highly engaging, reponsive and scalable AI-powered applications.
+- **High Tech** Couchbase can be used to build highly engaging, reponsive and scalable AI-powered applications.
 
--**Manufacturing & Logistics** Couchbase ensures that field employees get a reliable application that operates fast from anywhere, regardless of the network connectivity.
+- **Manufacturing & Logistics** Couchbase ensures that field employees get a reliable application that operates fast from anywhere, regardless of the network connectivity.
 
 ## Strengths and Weaknesses
 
