@@ -1,6 +1,6 @@
 ---
 title: Blazor Framework, Core Case Study
-Authors: Weronika Martinsen <WeronikaMartinsen> (https://github.com/WeronikaMartinsen)
+Author: Weronika Martinsen <WeronikaMartinsen> (https://github.com/WeronikaMartinsen)
 Tags: Blazor, .NET, WebAssembly, SPA, Development Framework
 ---
 
