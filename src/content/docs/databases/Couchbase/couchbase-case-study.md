@@ -68,13 +68,16 @@ Couchbase is a powerful NoSQL database platform, offering its own unique advanta
 
 ### Strengths:
 
+- **In-Memory Database (IMDB):** Data is stored in the RAM, which speeds up data access and reduces proccessing times, which significantly reduces response latency. This also results in high scalability, making it easier to manage large data volumes.
+- **Data Model:** data model is based on JSON, which means its simple, lightweight, and readable. It supports data types like numbers, strings, embetted documents and arrays. It provides greater flexibility compared to other relational databases, by storing JSON documents with various schemas. It also allows to express many-to-many relationships without the need for a reference or junction table.
+- **High-performance & scalability:** Couchbase is high-performing and scalable, which is good for real-time applications
+
+### Weaknesses:
+
+- **In-Memory Database (IMDB):** First weaknesses of In-Memory Database is that RAM can become expensive compared to disk storage, especially when maintaining large amounts of data in memory. Another disadvantage of IMDBs is that if the power is lost, so is the data, but Couchbase provides replication and presistence mechanisms that will endsure that the data presists on disk or replicate over the network to prevent data loss. Also there is hardware limitations problem that limit how much individual system can have, but this can be overcomed by using horizzontal scaling that is provided by Couchbase DBaaS.
+- **Steep Learning Curve:** Couchbase's advanced features and configuration options can be hard to learn for developers with little experience in NoSQL databases. -**Limited SQL Support:** CouchBase's SQL-like query language (N1QL) does not provide same level of SQL support as traditional relational databases, this can be a challenge teams that are used to work with regular SQL.
+
 ## Market Comparison
-
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
 
 ## Conclusion
 
@@ -95,6 +98,9 @@ This section can be used to summarize your findings. What are the main advantage
 - [Couchbase Overview](https://www.couchbase.com/content/capella/capella_architecture_whitepaper%20)
 - [Couchbase Use-Cases](https://www.couchbase.com/use-cases/)
 - [Couchbase NoSql Database for retail](https://www.couchbase.com/use-cases/retail-and-ecommerce/)
+- [What Is an In-Memory Database?](https://www.couchbase.com/resources/concepts/in-memory-database/)
+- [The Couchbase Data Model Documentation](https://docs.couchbase.com/server/current/learn/data/document-data-model.html)
+- [Couchbase Server Overview](https://www3.technologyevaluation.com/solutions/61613/couchbase-sevrer)
 
 ## Additional Resources
 
