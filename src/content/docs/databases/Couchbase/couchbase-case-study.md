@@ -77,7 +77,30 @@ Couchbase is a powerful NoSQL database platform, offering its own unique advanta
 - **In-Memory Database (IMDB):** First weaknesses of In-Memory Database is that RAM can become expensive compared to disk storage, especially when maintaining large amounts of data in memory. Another disadvantage of IMDBs is that if the power is lost, so is the data, but Couchbase provides replication and presistence mechanisms that will endsure that the data presists on disk or replicate over the network to prevent data loss. Also there is hardware limitations problem that limit how much individual system can have, but this can be overcomed by using horizzontal scaling that is provided by Couchbase DBaaS.
 - **Steep Learning Curve:** Couchbase's advanced features and configuration options can be hard to learn for developers with little experience in NoSQL databases. -**Limited SQL Support:** CouchBase's SQL-like query language (N1QL) does not provide same level of SQL support as traditional relational databases, this can be a challenge teams that are used to work with regular SQL.
 
-## Market Comparison
+## Market Comparison (Couchbase and MongoDB)
+
+Both Couchbase and MongoDB is NoSQL databases that has its own strengths and unique features.
+Here is a comparasion between these two:
+
+### Data Model
+
+- **Couchbase:** Flexible schema-less data model, documents are stored as key-value pairs, supports formats such as JSON, XML or binary.
+- **MongoDB:** Dynmaic schema, agile and flexible data models, BSON (Binary JSON) as default data storage format.
+
+### Scalability and Performance
+
+- **Couchbase:** Horizontal scalability, data distrubution across multiple nodes through its distributed architecture and automatic data sharding, ensuring high availability and fault tolarance. High-performance due to efficient data caching mechanism and a highly scalable data storage engine.
+- **MongoDB:** Horizontal scalability, data distrubution across multiple nodes, also supporting sharding, but needs manual configuration and management. Emphasizes on flexibility and developer productivity, by providing features such as rich secondary indexes and powerful aggregation pipelines for complex data manipulations.
+
+### Querying language and indexing capabilities
+
+- **Couchbase:** N1QL, a SQL-like query language on JSON documents, supports ad-hoc queries and joins, provides a flexible indexing mechanism to engance query performance.
+- **MongoDB:** MQL, MongoDB own query language designed to work with JSON documents. Provides rich sets of operators, functions, supports indexing, including single-field indexes, compound indexes, and text indexes.
+
+### Use Cases and Industry
+
+- **Couchbase:** Best used where high performance, scalability and low-latency data access is required. Couchbase is often used in real-time analytics content management systems, customer data platforms and application that demand fast response times. Used in industries such as gaming, e-commerce, and telecommunications.
+- **MongoDB:** Best used in cases where flexibility and scalability is required. MongoDB is document-oriented, which makes it a popular choice for content management systems, social networks, Internet of Things (IoT) platforms, for applications that need agile development and frequent schema changes. Used in industries such as finance, healthcare, and media.
 
 ## Conclusion
 
@@ -101,6 +124,7 @@ This section can be used to summarize your findings. What are the main advantage
 - [What Is an In-Memory Database?](https://www.couchbase.com/resources/concepts/in-memory-database/)
 - [The Couchbase Data Model Documentation](https://docs.couchbase.com/server/current/learn/data/document-data-model.html)
 - [Couchbase Server Overview](https://www3.technologyevaluation.com/solutions/61613/couchbase-sevrer)
+- [Couchbase vs MongoDB: A Comprehensive Comparison of Leading NoSQL Databases](https://www.sprinkledata.com/blogs/couchbase-vs-mongodb-a-comprehensive-comparison-of-leading-nosql-databases)
 
 ## Additional Resources
 
