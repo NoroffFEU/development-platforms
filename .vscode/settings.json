@@ -1,12 +1,14 @@
 {
-  "cSpell.language": "en-GB",
-  "cSpell.words": [
-    "roadmap",
-    "Neiman",
-    "Noom",
-    "Xamarin",
-    "esbuild",
-    "tailwindcss"
-  ],
-  "liveServer.settings.port": 5502
+    "cSpell.language": "en-GB",
+    "cSpell.words": [
+        "Decap",
+        "esbuild",
+        "Hygraph",
+        "Neiman",
+        "Noom",
+        "roadmap",
+        "tailwindcss",
+        "Xamarin"
+    ],
+    "liveServer.settings.port": 5502
 }
