@@ -104,7 +104,7 @@ Here is a comparasion between these two:
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+Couchbase is a NoSQL database platform, that offers high-performance and scalability, and low-latency. It has in-memory caching, it uses SQL-like query language (N1QL) on JSON document which includes JOIN operations, which often not seen in other NoSQL databases. Couchbase suits for applications where real-time processings are important, like gaming, telecommunication and e-commerce. Downsides of Couchbase is steep learning curve, limited SQL support, and costs the In-memory Databases can bring.
 
 ## References
 
