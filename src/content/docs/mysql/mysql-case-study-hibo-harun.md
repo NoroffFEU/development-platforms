@@ -14,14 +14,15 @@ This is a case study about the widely known and used open source relational data
 
 ## Brief History of MYSQL
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 1995: MYSQL was created by the Swedish software company MYSQL AB, led by co-founders David Axmark, Allan Larsson & Michael “Monty” Widenius. 
+- 2000: MYSQL was released under the GNU General Public License, making it readily available as open-source software. This move significantly boosted the database's popularity. 
+- 2003: MYSQL AB successfully raised $19.5 million in venture capital, which helped accelerate the development and adoption of the database. This year they also saw 4 million installations and 30,000 downloads per day. 
+- 2008: MYSQL AB was acquired by Sun Microsystems for approximately $1 billion.
+- 2010: Oracle Corporation acquired Sun Microsystems, including MYSQL. This acquisition raised concerns in the open-source community for the future of MYSQL. 
+- 2010: In response to Oracle acquiring MYSQL and out of concern, the open-source community forked the MYSQL database and created a new open-source management system based on its predecessor called MariaDB.  
+- 2013: The first release of MYSQL 5.6 was made available, and it introduced performance enhancements, scalable improvements and increased security features. 
+- 2021: MYSQL 8.0 became widely adopted, offering advanced features such as support for NOSQL documents stores, better performance optimisation and improved developer productivity. 
+
 
 ## Main Features
 
