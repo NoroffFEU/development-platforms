@@ -1,7 +1,9 @@
 # Netlify Environment Variables Case Study
-
-**Author:** Kristine Tyrholm  
-**Tags:** Netlify, Environment Variables, Web Development, Deployment
+---
+title: Netlify Environment Variables Case Study
+author: Kristine Tyrholm <IceGreenGalactic>
+tags: netlify, environment, variables, web development, deployment, case study
+---
 
 ## Introduction
 
