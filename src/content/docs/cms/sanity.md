@@ -156,6 +156,21 @@ npm run dev
 
 Click the link, and it will open Sanity Studio in the browser.
 
+
+### Deployment
+In order to **deploy** you need to install the Sanity CLI
+
+```
+npm i -g sanity@latest
+```
+```
+npm run build
+```
+```
+npm run deploy
+```
+
+
 ### Other helpful commands
 
 To open the documentation in a browser
