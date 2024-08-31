@@ -1,6 +1,6 @@
-### Title: GitHub Case Study Report
-### Author: Roselyne Johansen
-#### Tags: Github, Git, Version Control, Devops, Collaboration 
+title: GitHub Case Study Report
+author: Roselyne Johansen
+tags: Github, Git, Version Control, Devops, Collaboration 
 
 #### 1. **Introduction to GitHub**
 GitHub is a leading development platform that provides version control using Git. Founded in 2008 by Tom Preston-Werner, Chris Wanstrath, PJ Hyett, and Scott Chacon, GitHub has grown into the world's largest community of developers. It allows users to host and review code, manage projects, and build software in collaboration with others.
