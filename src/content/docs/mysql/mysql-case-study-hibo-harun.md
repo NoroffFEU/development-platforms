@@ -162,9 +162,11 @@ Both MYSQL and MariaDB offer powerful relation database management solutions, bu
 
 ## Getting Started with MYSQL
 
-1. **Visit the Website**: [dev.mysql.com](https://dev.mysql.com/doc/refman/8.0/en/installing.html)
-2. **Choose your operating system**: MacOS, Linux, Microsoft Windows etc.
-3. **Continue following the mannuel** Continue following the manuel on (https://dev.mysql.com/doc/refman/8.0/en/installing.html)
+1. **Visit the Website:** Go to [dev.mysql.com](https://dev.mysql.com).
+2. **Choose Your Operating System:** Select the appropriate version for your operating system (macOS, Linux, Windows, etc.).
+3. **Download and Install:** Follow the download and installation prompts for your chosen operating system.
+4. **Set Up MySQL:** After installation, you may need to set a root password and configure basic settings.
+5. **Follow the Official Manual:** For detailed instructions, refer to the [MySQL Installation Guide](https://dev.mysql.com/doc/refman/8.0/en/installing.html).
 
 ## Conclusion
 
