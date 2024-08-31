@@ -1,7 +1,7 @@
 ---
 title: Alpine.js JavaScript Framework Case Study
 author: Karl P. Nordgaard <karnor>
-tags: javascript, case study, framework, markup
+tags: javascript, case study, framework, markup, static site, development platforms
 ---
 
 ![Alpine logo](https://miro.medium.com/v2/resize:fit:1200/1*3aWJhi_YCN0AaFw9HpngpQ.jpeg 'Alpine logo')
@@ -26,13 +26,41 @@ Alpine.js was created by Caleb Porzio and was first released in early 2020. The 
 ## Main Features
 
 | Feature         | Description                                        |
-| --------------- | -------------------------------------------------- |
+| :--------------- | :-------------------------------------------------- |
 | Lightweight | Alpine.js is very small in size (around 10kB minified and gzipped), making it an excellent choice for projects where performance is critical and load times need to be minimized. |
 | Declarative Syntax | It uses a declarative syntax that allows you to specify behavior directly in your HTML, which makes it easy to read and maintain. |
 | Reactivity | Alpine.js offers reactive data binding, allowing the UI to automatically update in response to changes in the underlying data. |
 | Component-Based | It supports the creation of reusable components, which can help to organize and simplify the structure of your web applications. |
 | Minimalist | Unlike more comprehensive frameworks, Alpine.js provides only the essentials, reducing the complexity and overhead associated with using a full-featured JavaScript framework. |
 | Ease of Integration | Alpine.js can be easily integrated into existing projects without a build step or any complex configuration, making it a great choice for enhancing static sites or adding interactivity to server-rendered applications. |
+
+## Alpine UI Components
+
+Alpine.js UI components are reusable pieces of code that combine HTML, JavaScript, and CSS to create interactive elements for web applications. These components use Alpine.js directives to manage state, handle user interactions, and dynamically update the DOM, making it easy to add functionality like modals, dropdowns, and accordions without writing extensive JavaScript.
+
+#### Popular Alpine.js UI Component Libraries
+
+| Component Library | Description | Usage |
+| :--- | :--- | :--- |
+| Alpine Components | A collection of pre-built UI components specifically designed for Alpine.js, including modals, dropdowns, carousels, and more. These components are easy to integrate and customize, helping developers quickly add interactivity to their web pages. | Simply copy the HTML structure and include Alpine.js directives to use these components in your projects. |
+| Alpine Tailwind | A library that combines Alpine.js with Tailwind CSS to provide a set of responsive, interactive UI components. This combination leverages Tailwind's utility-first CSS framework and Alpine's simplicity to create beautiful, functional components. | Use Tailwind CSS classes alongside Alpine.js directives to build modular and visually appealing UIs. |
+| Alpine Toolbox | A set of utility components and plugins designed to extend Alpine.js with additional functionality. Alpine Toolbox includes components for form validation, animations, data fetching, and more. | These utilities can be included in your project to enhance the capabilities of Alpine.js, allowing for more complex interactions and features. |
+
+> [!NOTE]  
+> Alpine Components is a paid library. While it offers a robust set of features and components, it requires a purchase to access the full range of its functionalities.
+
+#### Example Images
+
+Below are example images of Alpine Components in action:
+
+1. **Modal Component**:  
+   ![Dropdown Component](https://i.postimg.cc/8PQs4Z4P/CGwi-LWu4-Ri-Gg3-KFbq-Dnvcw.png)
+
+2. **Dropdown Component**:  
+   ![Dropdown Component](https://i.postimg.cc/wMFP1fTc/j76p-Fae-Slea-Xz-Jp93sl-Sg.png)
+
+3. **Accordion Component**:  
+   ![Accordion Component](https://i.postimg.cc/7Z5cLNv0/image.png)
 
 ## Market Comparison
 
@@ -42,9 +70,58 @@ If you are writing about an open source tool, it may be a good idea to compare i
 
 Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
 
-## Getting Started
+## Getting Started with Alpine.js
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+Setting up Alpine.js in your project is simple and can be done in a couple of different ways. Here, we’ll cover the two most common methods: using a CDN and installing via npm. These approaches will help you get Alpine.js up and running quickly, whether you’re working on a small static site or a larger project with build tools.
+
+#### 1. Adding Alpine.js with CDN
+
+The fastest and easiest way to get started with Alpine.js is to include it directly in your HTML using a Content Delivery Network (CDN). This method requires no additional setup or tools.
+
+1. Add the following <script> tag to the <head> of your HTML file. Replace 3.x.x with the latest version number if needed.
+
+```
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+```
+2. Once the script is included, you can start using Alpine.js directly in your HTML. Here’s a simple example:
+
+```
+<div x-data="{ open: false }">
+    <button @click="open = !open">Toggle</button>
+    <div x-show="open">
+        <p>Hello, Alpine.js!</p>
+    </div>
+</div>
+```
+
+#### 2. Installing Alpine.js via npm
+
+If you’re using a build tool like Webpack, Vite, or Parcel, installing Alpine.js via npm is a great choice. This method allows you to manage dependencies and bundle your JavaScript files as part of a larger project.
+
+1. Run the following command in your project directory to install Alpine.js via npm:
+
+```
+npm install alpinejs
+```
+2. In your main JavaScript file, import Alpine.js and initialize it:
+
+```
+import Alpine from 'alpinejs';
+
+window.Alpine = Alpine;
+Alpine.start();
+```
+
+3. You can now use Alpine.js directives in your HTML just as you would when using the CDN. For example:
+
+```
+<div x-data="{ open: false }">
+    <button @click="open = !open">Toggle</button>
+    <div x-show="open">
+        <p>Hello, Alpine.js!</p>
+    </div>
+</div>
+```
 
 ## Conclusion
 
