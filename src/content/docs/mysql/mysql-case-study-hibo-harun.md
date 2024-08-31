@@ -1,6 +1,6 @@
 ---
 title: MYSQL
-author: Hibo Harun 
+author: Hibo Harun
 tags: mysql, case study, databases
 ---
 
@@ -8,21 +8,18 @@ tags: mysql, case study, databases
 
 A relational database trusted by developers for its speed, scalability, and open-source flexibility.
 
-
 This is a case study about the widely known and used open source relational database management system MYSQL. The now world renowned database was founded by the Swedish company MYSQL AB in the 1990´s. More specifically in 1995 by the co-founders, Swedes David Axmark & Allan Larsson and the Finnish Michael “Monty” Widenius. It is said that the creation of MYSQL was a direct response to the lack of reliable, open-source database options at the time. Although MYSQL was not the first open-source database to be created and certainly not the last, MYSQL is the first RDBMS to gain widespread popularity, particularly in the context of web applications.
-
 
 ## Brief History of MYSQL
 
-- 1995: MYSQL was created by the Swedish software company MYSQL AB, led by co-founders David Axmark, Allan Larsson & Michael “Monty” Widenius. 
-- 2000: MYSQL was released under the GNU General Public License, making it readily available as open-source software. This move significantly boosted the database's popularity. 
-- 2003: MYSQL AB successfully raised $19.5 million in venture capital, which helped accelerate the development and adoption of the database. This year they also saw 4 million installations and 30,000 downloads per day. 
+- 1995: MYSQL was created by the Swedish software company MYSQL AB, led by co-founders David Axmark, Allan Larsson & Michael “Monty” Widenius.
+- 2000: MYSQL was released under the GNU General Public License, making it readily available as a open-source software. This move significantly boosted the database's popularity.
+- 2003: MYSQL AB successfully raised $19.5 million in venture capital, which helped accelerate the development and adoption of the database. This year they also saw 4 million installations and 30,000 downloads per day.
 - 2008: MYSQL AB was acquired by Sun Microsystems for approximately $1 billion.
-- 2010: Oracle Corporation acquired Sun Microsystems, including MYSQL. This acquisition raised concerns in the open-source community for the future of MYSQL. 
-- 2010: In response to Oracle acquiring MYSQL and out of concern, the open-source community forked the MYSQL database and created a new open-source management system based on its predecessor called MariaDB.  
-- 2013: The first release of MYSQL 5.6 was made available, and it introduced performance enhancements, scalable improvements and increased security features. 
-- 2021: MYSQL 8.0 became widely adopted, offering advanced features such as support for NOSQL documents stores, better performance optimisation and improved developer productivity. 
-
+- 2010: Oracle Corporation acquired Sun Microsystems, including MYSQL. This acquisition raised concerns in the open-source community for the future of MYSQL.
+- 2010: In response to Oracle acquiring MYSQL and out of concern, the open-source community forked the MYSQL database and created a new open-source management system based on its predecessor called MariaDB.
+- 2013: The first release of MYSQL 5.6 was made available, and it introduced performance enhancements, scalable improvements and increased security features.
+- 2021: MYSQL 8.0 became widely adopted, offering advanced features such as support for NOSQL documents stores, better performance optimisation and improved developer productivity.
 
 ## Main Features
 
@@ -31,10 +28,12 @@ MySQL is a relational database management system (RDBMS) designed to store, mana
 ## Problems MySQL Solves
 
 - **Efficient Data Management:**
+
   - **Problem:** Managing large volumes of structured data efficiently and securely.
   - **Solution:** MySQL provides a robust platform for organizing data into tables and relations, allowing for efficient data retrieval, storage, and updates.
 
 - **High Performance for Web Applications:**
+
   - **Problem:** Handling high traffic and heavy loads in web-based applications.
   - **Solution:** MySQL is optimized for performance, making it a popular choice for web servers where speed and scalability are critical. It supports large-scale databases with quick response times.
 
@@ -45,10 +44,12 @@ MySQL is a relational database management system (RDBMS) designed to store, mana
 ## Unique Aspects of MySQL
 
 - **Open-Source Flexibility:**
+
   - **Description:** MySQL is available under the GNU General Public License, allowing developers to use, modify, and distribute the software freely.
   - **Benefit:** This flexibility supports a wide range of use cases, from small personal projects to enterprise-level applications, and allows for community-driven development and innovation.
 
 - **Cross-Platform Compatibility:**
+
   - **Description:** MySQL runs on various operating systems, including Linux, Windows, and macOS.
   - **Benefit:** Developers can deploy MySQL on different platforms without worrying about compatibility issues, making it versatile for diverse development environments.
 
@@ -58,27 +59,27 @@ MySQL is a relational database management system (RDBMS) designed to store, mana
 
 ## Feature Table
 
-| Feature                   | Description                                                                                 |
-| ------------------------- | ------------------------------------------------------------------------------------------- |
-| **Open-Source Flexibility** | MySQL can be freely used, modified, and distributed, supporting a wide range of use cases. |
-| **Cross-Platform Compatibility** | MySQL runs on various operating systems, providing versatility for different environments. |
-| **Extensive Language Support**  | MySQL supports multiple programming languages, making it easy to integrate with various workflows. |
+| Feature                          | Description                                                                                        |
+| -------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Open-Source Flexibility**      | MySQL can be freely used, modified, and distributed, supporting a wide range of use cases.         |
+| **Cross-Platform Compatibility** | MySQL runs on various operating systems, providing versatility for different environments.         |
+| **Extensive Language Support**   | MySQL supports multiple programming languages, making it easy to integrate with various workflows. |
 
 ## Usefulness to Developers
 
 - **Ease of Use:**
+
   - **Description:** MySQL is known for its straightforward setup and configuration, making it accessible even to those new to database management.
   - **Benefit:** Developers can quickly set up and start using MySQL, reducing the time needed to learn and deploy the system.
 
 - **Scalability:**
+
   - **Description:** MySQL can handle both small applications and large, complex databases.
   - **Benefit:** As a project grows, MySQL can scale with it, allowing developers to continue using the same database as their needs expand.
 
 - **Strong Community and Support:**
   - **Description:** MySQL has a large, active community and is backed by Oracle Corporation, providing extensive documentation, tutorials, and forums for support.
   - **Benefit:** Developers can easily find solutions to problems, access a wealth of resources, and benefit from continuous updates and improvements.
-
-
 
 # Market Comparison: MySQL vs. MariaDB
 
@@ -89,10 +90,12 @@ MySQL and MariaDB are both popular open-source relational database management sy
 ## Key Differences
 
 - **Ownership and Development:**
+
   - **MySQL:** Acquired by Oracle Corporation in 2010. Development is now managed by Oracle.
   - **MariaDB:** Created by the original MySQL developers as a community-driven fork. It is maintained by the MariaDB Foundation.
 
 - **Licensing:**
+
   - **MySQL:** Dual-licensed under the GPL and a commercial license.
   - **MariaDB:** Released under the GPL, with a strong commitment to open-source principles.
 
@@ -102,16 +105,17 @@ MySQL and MariaDB are both popular open-source relational database management sy
 
 ## Comparison Table
 
-| Feature                        | MySQL                               | MariaDB                            |
-| ------------------------------ | ----------------------------------- | ---------------------------------- |
-| **Ownership**                 | Oracle Corporation                  | MariaDB Foundation                  |
-| **License**                   | Dual-licensed (GPL and commercial)  | Open-source (GPL)                   |
-| **Performance Enhancements**  | Improved performance in recent versions | Includes more aggressive optimizations and additional storage engines |
-| **Community Contributions**   | Contributions are managed by Oracle | Strong focus on community-driven development |
+| Feature                      | MySQL                                   | MariaDB                                                               |
+| ---------------------------- | --------------------------------------- | --------------------------------------------------------------------- |
+| **Ownership**                | Oracle Corporation                      | MariaDB Foundation                                                    |
+| **License**                  | Dual-licensed (GPL and commercial)      | Open-source (GPL)                                                     |
+| **Performance Enhancements** | Improved performance in recent versions | Includes more aggressive optimizations and additional storage engines |
+| **Community Contributions**  | Contributions are managed by Oracle     | Strong focus on community-driven development                          |
 
 ## Advantages and Disadvantages
 
 - **MySQL:**
+
   - **Advantages:**
     - **Enterprise Support:** Backed by Oracle, offering robust support and integration with other Oracle products.
     - **Wide Adoption:** Broadly used and well-documented with a large user base.
@@ -131,6 +135,7 @@ MySQL and MariaDB are both popular open-source relational database management sy
 ## Use Cases and Suitability
 
 - **MySQL:**
+
   - **Best for:** Enterprises needing robust, well-supported RDBMS solutions with integration into Oracle's ecosystem.
   - **Examples:** Large-scale web applications, corporate data management systems.
 
@@ -141,6 +146,7 @@ MySQL and MariaDB are both popular open-source relational database management sy
 ## Known Companies Using These Databases
 
 - **MySQL:**
+
   - **Facebook:** Uses MySQL to manage its vast amount of user data and support high traffic volumes.
   - **Twitter:** Utilizes MySQL for storing and managing tweet data and user profiles.
 
@@ -150,25 +156,19 @@ MySQL and MariaDB are both popular open-source relational database management sy
 
 ## Summary
 
-Both MYSQL and MariaDB offer powerful relation database management solutions, but they cater to different needs and preferences. MYSQL benefits from strong enterprise support and integration with other Oracle products, making it suitable for large organizations with specific requirements. In contrast, MariaDB emphasizes open-source flexibility and community-driven innovation, appealing to developers and organizations that prioritize transparency and advanced features. 
+Both MYSQL and MariaDB offer powerful relation database management solutions, but they cater to different needs and preferences. MYSQL benefits from strong enterprise support and integration with other Oracle products, making it suitable for large organizations with specific requirements. In contrast, MariaDB emphasizes open-source flexibility and community-driven innovation, appealing to developers and organizations that prioritize transparency and advanced features.
 
+## Getting Started with MYSQL
 
-## Getting Started
-
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+1. **Visit the Website**: [dev.mysql.com](https://dev.mysql.com/doc/refman/8.0/en/installing.html)
+2. **Choose your operating system**: MacOS, Linux, Microsoft Windows etc.
+3. **Continue following the mannuel** Continue following the manuel on (https://dev.mysql.com/doc/refman/8.0/en/installing.html)
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+In conclusion, MySQL is a relational database trusted by developers for its speed, scalability, and open-source flexibility. Originally created in 1995 by the Swedish software company MySQL AB, it has since become one of the most widely used databases globally. This case study examined core features of MySQL, including its open-source flexibility, cross-platform compatibility, and extensive language support. We also explored MySQL’s history and how MariaDB emerged in response to Oracle Corporation's acquisition of MySQL in 2010. The open-source community forked MySQL to create MariaDB, ensuring the continuation of its community-driven and accessible nature. While MySQL and MariaDB share a common origin and many similarities, they differ in aspects such as licensing, ownership, and community contributions.
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [Plantet MYSQL](https://planet.mysql.com/entry/?id=23788)
+- [MYSQL WIKIPEDIA](https://en.wikipedia.org/wiki/MySQL)
