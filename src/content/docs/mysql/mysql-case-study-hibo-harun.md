@@ -3,6 +3,7 @@ title: MYSQL
 author: Hibo Harun
 tags: mysql, case study, databases
 ---
+![mysql logo](https://github.com/user-attachments/assets/8966fb34-94b6-44a2-b4f6-26f03fe9a673)
 
 ## Introduction to MYSQL
 
