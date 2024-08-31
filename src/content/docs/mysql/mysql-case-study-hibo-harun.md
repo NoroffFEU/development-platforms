@@ -1,7 +1,7 @@
 ---
-title: MYSQL
-author: Hibo Harun
-tags: mysql, case study, databases
+Title: MYSQL
+Author: Hibo Harun
+Tags: mysql, case study, databases
 ---
 <img src="https://github.com/user-attachments/assets/8966fb34-94b6-44a2-b4f6-26f03fe9a673" alt="MySQL logo" width="400"/>
 
