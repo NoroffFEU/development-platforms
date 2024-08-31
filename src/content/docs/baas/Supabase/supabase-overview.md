@@ -48,7 +48,7 @@ Supabase's real-time functionality, built on top of PostgreSQL's LISTEN/NOTIFY f
 ### Code Example (JavaScript)
 
 ```javascript
-import { createClient ] from '@supabase/supabase-js'
+import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient('YOUR_SUPABASE_URL', 'YOUR_SUPABASE_ANON_KEY')
 
