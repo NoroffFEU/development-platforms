@@ -51,8 +51,7 @@ Step 10: Fetching Content
 -	Example REST API request: http://localhost/your-site/wp-json/wp/v2/posts
 -	Example WPGraphQL query:
 
----
-{
+|{
   posts {
     nodes {
       title
@@ -60,8 +59,7 @@ Step 10: Fetching Content
       date
     }
   }
-}
----
+}|
 
 Deploying WordPress as a Headless CMS
 Step 11: Choose a Hosting Provider
