@@ -111,4 +111,19 @@ Ultimately, the choice of using WordPress as a headless CMS should be driven by 
 
 As web development continues to evolve, WordPress’s ability to adapt and integrate with modern technologies ensures its relevance, providing a robust and flexible foundation for innovative digital experiences.
 
+## References: 
+
+- https://www.cloudways.com/blog/headless-wordpress-cms/ 
+- https://www.valuecoders.com/blog/technologies/what-is-strapi/ 
+- https://medium.com/@wearegap/unlocking-the-potential-of-wordpress-as-a-headless-cms-476f1d6c799a 
+- https://contentsnare.com/wordpress-history/ 
+- https://developer.wordpress.org/rest-api/ 
+- https://codex.wordpress.org/Main_Page 
+- https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/
+- https://wordpress.org/plugins/enable-cors/
+- https://developer.wordpress.org/advanced-administration/before-install/howto-install/
+
+## Additional References: 
+
+- Chat GPT (https://chatgpt.com/)
 
