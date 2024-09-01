@@ -121,3 +121,9 @@ In these scenarios, WordPress as an API offers flexibility, scalability, and the
 •	Use Case: Disney uses WordPress as a headless CMS for some of its marketing sites, enabling them to push content to various platforms, including websites, mobile apps, and digital signage, all from a central content management system. This approach ensures that their content is consistent and up to date across different platforms.
 3. BBC America
 •	Use Case: BBC America uses WordPress as a headless CMS to manage its content, which is then delivered via APIs to different platforms, including websites and mobile apps. This allows them to provide a seamless and integrated experience for their users across multiple devices.
+
+## Strengths and Weaknesses:
+
+### Strengths: The biggest benefit of using headless WordPress CMS is the flexibility. It gives you the freedom to pick and design any front end for your product, using your choice of technology. This allows you to make your website faster, more responsive, and tailored to your needs. By separating your front and back end, you also get a more secure website. 
+
+### Weaknesses: A headless CMS is more complex and requires more experience and time than a traditional WordPress setup. You also might miss out on WordPress's integrated features and have to reinvent the features yourself. Managing two separate systems can be tiring for smaller teams or newbies. You’ll have to handle updates, compatibility checks, and fixes for both the CMS and the front end. 
