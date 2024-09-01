@@ -16,36 +16,50 @@ The REST API has been instrumental in maintaining WordPress's relevance in an in
 ## How WordPress as an API Works:
 
 In this demonstration, we will set up WordPress as a headless CMS to serve content via its REST API. This setup allows developers to use WordPress solely for content management while leveraging any technology or framework for the front end. The example will guide you through installing WordPress, setting up the necessary plugins, and configuring the REST API to deliver content.
-Installing WordPress
+
+### Installing WordPress
+
 Step 1: Download WordPress
 -	Go to WordPress.org and download the latest version of WordPress.
+
 Step 2: Set Up a Local Server
+
 -	Install a local server environment like XAMPP, MAMP, or WAMP on your machine. This will provide the necessary PHP and MySQL support.
 -	Unzip the WordPress files and place them in the htdocs folder (XAMPP) or the equivalent directory for your environment.
+
 Step 3: Create a Database
 -	Open phpMyAdmin and create a new database for your WordPress installation.
+
 Step 4: Install WordPress
 -	Go to http://localhost/your-folder-name/ in your browser and follow the on-screen instructions to install WordPress.
 -	Use the database details you created in the previous step.
-Setting Up Plugins for Headless WordPress
+
+### Setting Up Plugins for Headless WordPress
+
 Step 5: Install Required Plugins
 -	WPGraphQL (optional): If you prefer using GraphQL instead of REST API (installed by default), install the WPGraphQL plugin.
 -	Advanced Custom Fields (ACF): Install and activate ACF, especially if your content model requires custom fields.
 -	ACF to REST API: Install and activate this plugin to expose ACF fields via the REST API.
-Configuring WordPress as a Headless CMS
+
+### Configuring WordPress as a Headless CMS
+
 Step 6: Configure Permalinks
 -	Go to Settings > Permalinks in the WordPress dashboard, and select a user-friendly permalink structure (e.g., Post name).
+
 Step 7: Create Content Types
 -	Go to Custom Fields > Add New to create custom fields that your content will use, such as title, author, publication date, etc.
 -	Assign these fields to your posts, pages, or custom post types as needed.
+
 Step 8: Expose Content via REST API
 -	By default, WordPress exposes content types like posts, pages, and custom post types via the REST API. You can access these at http://localhost/your-site/wp-json/wp/v2/posts.
 -	If using WPGraphQL, you can access your content via GraphQL queries at http://localhost/your-site/graphql.
  
-Creating and Managing Content
+### Creating and Managing Content
+
 Step 9: Add Content
 -	Create new posts, pages, or custom post types in the WordPress dashboard. These will automatically be exposed via the REST API.
 -	Use ACF fields to structure your content, which will then be available in the API responses.
+
 Step 10: Fetching Content
 -	Use fetch, axios, or similar tools in your frontend application to retrieve content from the API endpoints.
 -	Example REST API request: http://localhost/your-site/wp-json/wp/v2/posts
@@ -61,25 +75,31 @@ Step 10: Fetching Content
   }
 }|
 
-Deploying WordPress as a Headless CMS
+### Deploying WordPress as a Headless CMS
+
 Step 11: Choose a Hosting Provider
 -	Deploy your WordPress installation on a hosting provider that supports PHP and MySQL, such as SiteGround, Bluehost, or a custom VPS.
+
 Step 12: Manage API Access
 -	Ensure that your API is secure, especially if deploying a public-facing API. Use plugins like JWT Authentication to secure your endpoints.
+
 Step 13: Set Up CORS
 -	Configure Cross-Origin Resource Sharing (CORS) if your frontend and backend are hosted on different domains.
 -	Add the following to your .htaccess or server configuration:
 
----
+
 Header set Access-Control-Allow-Origin "*"
 Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
 Header set Access-Control-Allow-Headers "Content-Type"
----
 
-Accessing and Using the API
+
+### Accessing and Using the API
+
 Step 14: Access the API
 -	Retrieve your content through the REST API at http://your-domain.com/wp-json/wp/v2/posts or through GraphQL at http://your-domain.com/graphql.
+
 Step 15: Frontend Integration
 -	Build your frontend with any modern framework like React, Vue, or Angular. Use the API endpoints to dynamically load and display content.
+
 Step 16: Deploying Frontend
 -	Host your frontend on platforms like Netlify, Vercel, or your preferred hosting service.
