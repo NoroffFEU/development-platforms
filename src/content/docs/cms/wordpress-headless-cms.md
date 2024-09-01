@@ -32,8 +32,8 @@ In this demonstration, we will set up WordPress as a headless CMS to serve conte
 7.	Create Custom Fields: Use ACF to create and assign custom fields to your posts or pages.
 8.	Access Content via API:
 
-       	REST API: http://localhost/your-site/wp-json/wp/v2/posts
-    	GraphQL: http://localhost/your-site/graphql
+    - REST API: http://localhost/your-site/wp-json/wp/v2/posts
+    - GraphQL: http://localhost/your-site/graphql
 
 ### Creating and Managing Content:
 9.	Add Content: Create posts or pages, which will be automatically exposed via the API.
@@ -52,8 +52,8 @@ Header set Access-Control-Allow-Headers "Content-Type"
 
 ###  Accessing and Using the API:
 14.	Access the API:
-    	REST: http://your-domain.com/wp-json/wp/v2/posts
-    	GraphQL: http://your-domain.com/graphql
+    - REST: http://your-domain.com/wp-json/wp/v2/posts
+    - GraphQL: http://your-domain.com/graphql
 15.	Integrate Frontend: Build your frontend with React, Vue, or Angular, and fetch content from the API.
 16.	Deploy Frontend: Host your frontend on Netlify, Vercel, or another service.
 
