@@ -75,6 +75,7 @@ Step 10: Fetching Content
     }
   }
 }
+```
 
 ### Deploying WordPress as a Headless CMS
 
@@ -88,11 +89,11 @@ Step 13: Set Up CORS
 -	Configure Cross-Origin Resource Sharing (CORS) if your frontend and backend are hosted on different domains.
 -	Add the following to your .htaccess or server configuration:
 
-
+```graphql
 Header set Access-Control-Allow-Origin "*"
 Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
 Header set Access-Control-Allow-Headers "Content-Type"
-
+```
 
 ### Accessing and Using the API
 
