@@ -1,5 +1,6 @@
 # Sanity Case Study
 
+**Title** Sanity
 **Author:** Krista Kaza
 
 ## Introduction
