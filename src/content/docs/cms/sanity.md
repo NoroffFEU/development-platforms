@@ -1,3 +1,8 @@
+---
+title: "Sanity Case Study"
+author: "Krista Kaza"
+---
+
 # Sanity Case Study
 
 **Title** Sanity
@@ -133,35 +138,29 @@ Sanity and Contentful are both leading headless Content Management Systems (CMS)
 
 To start using Sanity CMS, create a free Sanity account at [sanity.io](https://www.sanity.io). Initiate a new project by running the following command:
 
-```bash
 npm create sanity@latest
+
 # With other package managers:
+
 yarn create sanity@latest
 pnpm create sanity@latest
 
-Get started here with the step-by-step guide: https://www.sanity.io/docs/getting-started-with-sanity
-Check out the docs: https://www.sanity.io/docs/sanity-studio
-plugins: https://www.sanity.io/plugins
-and get running!
-
-
+- **Step-by-Step Guide:** [Get started here with the step-by-step guide](https://www.sanity.io/docs/getting-started-with-sanity)
+- **Documentation:** [Check out the docs](https://www.sanity.io/docs/sanity-studio)
+- **Plugins:** [Explore available plugins](https://www.sanity.io/plugins)
 
 ## Conclusion
 
 Sanity is a powerful and flexible headless CMS, known for its high degree of customization, particularly through Sanity Studio, and its innovative support for structured content via the Content Lake. These features make it an excellent choice for projects requiring complex content management and real-time collaboration. However, its steep learning curve and potential cost escalation for larger projects can be significant drawbacks, especially for teams without extensive technical expertise. Despite these limitations, Sanity’s continuous development and strong developer focus suggest a promising future, particularly as demand for scalable, customizable CMS solutions continues to grow.
 
-
 ## References
 
-- Ikius, “What is Sanity.io?”, n.d. Internet: https://ikius.com/blog/sanity-io. [Accessed: 24-Aug-2024].
-- Net Solutions, “Contentful vs Sanity: A Comprehensive Comparison in 2024”, 2024. Internet: https://www.netsolutions.com/insights/contentful-vs-sanity/. [Accessed: 24-Aug-2024].
-- Lemon Hive, "Development with Sanity CMS", n.d. Internet: https://www.lemonhive.com/technologies/sanity. [Accessed: 24-Aug-2024].
-- Sanity.io, “Sanity”, n.d. Internet: https://github.com/sanity-io/sanity?tab=readme-ov-file. [Accessed: 24-Aug-2024].
-- Jamstack, “Sanity”, n.d. Internet: https://jamstack.org/headless-cms/sanity/. [Accessed: 24-Aug-2024].
-- Sanity.io, “2020 in Review”, 2020. Internet: https://www.sanity.io/blog/2020-in-review. [Accessed: 24-Aug-2024].
-- Sanity.io, “2021: A Year in Review”, 2021. Internet: https://www.sanity.io/blog/2021-a-year-in-review. [Accessed: 24-Aug-2024].
-- Sanity.io, “2018: In Review”, 2018. Internet: https://www.sanity.io/blog/2018-in-review. [Accessed: 24-Aug-2024].
-- Crunchbase, “Sanity”, n.d. Internet: https://www.crunchbase.com/organization/sanity. [Accessed: 24-Aug-2024].
-
-
-```
+- Ikius, “What is Sanity.io?”, n.d. Internet: [https://ikius.com/blog/sanity-io](https://ikius.com/blog/sanity-io). [Accessed: 24-Aug-2024].
+- Net Solutions, “Contentful vs Sanity: A Comprehensive Comparison in 2024”, 2024. Internet: [https://www.netsolutions.com/insights/contentful-vs-sanity/](https://www.netsolutions.com/insights/contentful-vs-sanity/). [Accessed: 24-Aug-2024].
+- Lemon Hive, "Development with Sanity CMS", n.d. Internet: [https://www.lemonhive.com/technologies/sanity](https://www.lemonhive.com/technologies/sanity). [Accessed: 24-Aug-2024].
+- Sanity.io, “Sanity”, n.d. Internet: [https://github.com/sanity-io/sanity?tab=readme-ov-file](https://github.com/sanity-io/sanity?tab=readme-ov-file). [Accessed: 24-Aug-2024].
+- Jamstack, “Sanity”, n.d. Internet: [https://jamstack.org/headless-cms/sanity/](https://jamstack.org/headless-cms/sanity/). [Accessed: 24-Aug-2024].
+- Sanity.io, “2020 in Review”, 2020. Internet: [https://www.sanity.io/blog/2020-in-review](https://www.sanity.io/blog/2020-in-review). [Accessed: 24-Aug-2024].
+- Sanity.io, “2021: A Year in Review”, 2021. Internet: [https://www.sanity.io/blog/2021-a-year-in-review](https://www.sanity.io/blog/2021-a-year-in-review). [Accessed: 24-Aug-2024].
+- Sanity.io, “2018: In Review”, 2018. Internet: [https://www.sanity.io/blog/2018-in-review](https://www.sanity.io/blog/2018-in-review). [Accessed: 24-Aug-2024].
+- Crunchbase, “Sanity”, n.d. Internet: [https://www.crunchbase.com/organization/sanity](https://www.crunchbase.com/organization/sanity). [Accessed: 24-Aug-2024].
