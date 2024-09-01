@@ -31,8 +31,9 @@ o	ACF to REST API: To expose ACF fields in the REST API.
 6.	Set Permalinks: Go to Settings > Permalinks, and select "Post name" for a clean URL structure.
 7.	Create Custom Fields: Use ACF to create and assign custom fields to your posts or pages.
 8.	Access Content via API:
-        - 	REST API: http://localhost/your-site/wp-json/wp/v2/posts
-        -	GraphQL: http://localhost/your-site/graphql
+
+       	REST API: http://localhost/your-site/wp-json/wp/v2/posts
+    	GraphQL: http://localhost/your-site/graphql
 
 ### Creating and Managing Content:
 9.	Add Content: Create posts or pages, which will be automatically exposed via the API.
