@@ -48,6 +48,7 @@ Beyond its real-time capabilities, RethinkDB features a flexible query language,
 *Advantages of RethinkDB*
 - Real-time Push: RethinkDB natively pushes updates to clients in real-time without needing complex infrastructure.
 - Ease of Use for Real-time Apps: Simplifies building real-time applications with less effort compared to MongoDB, which requires additional tools like Kafka or Change Streams for similar functionality.
+
 *Advantages of MongoDB*
 - Wider Adoption: MongoDB has a larger user base and ecosystem, making it easier to find community support, drivers, and integrations.
 - More Generalized: While RethinkDB is specialized for real-time apps, MongoDB serves a broader range of applications across different industries.
