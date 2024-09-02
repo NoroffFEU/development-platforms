@@ -1,4 +1,3 @@
-# Netlify Environment Variables Case Study
 ---
 title: Netlify Environment Variables Case Study
 author: Kristine Tyrholm <IceGreenGalactic>
@@ -108,7 +107,5 @@ Netlify’s approach to managing environment variables provides a secure, flexib
 - [Netlify Environment Variables and Functions](https://docs.netlify.com/configure-builds/environment-variables/)
 - [Netlify Blog](https://www.netlify.com/blog/)
 - [Vercel Environment Variables Documentation](https://vercel.com/docs/projects/environment-variables#environment-variables)
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)  
+- [GitHub Pages Documentation](https://docs.github.com/en/pages)
 - [Wikipedia Netlify](https://en.wikipedia.org/wiki/Netlify)
-
-
