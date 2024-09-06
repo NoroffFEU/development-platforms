@@ -70,7 +70,7 @@ By default, Next.js uses Server Components. This allows you to automatically imp
 
 ## When To Use Which
 
-It can be confusing on when to use which, so there is a chart from official nextJS docs:
+It can be confusing on when to use which, so there is a chart from official Next.js docs:
 
 <img src="./Images/client-vs-server-components.png" width="600">
 
