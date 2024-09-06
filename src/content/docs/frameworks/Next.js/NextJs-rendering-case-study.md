@@ -33,7 +33,7 @@ Client-side rendering happens when a user requests a webpage. The server sends t
 
 The primary downside to client-side rendering is that the amount of JavaScript required tends to grow as an application grows, which can impact a page's INP ('Interaction to Next Paint'). This becomes especially difficult with the addition of new JavaScript libraries, polyfills, and third-party code, which compete for processing power and must often be processed before a page's content can render. Another disadvantage are poor Search Engine Optimization (SEO) , as crawlers have hard time crawling client rendered content.
 
-_How to use client-side components in Next.JS_
+_How to use client-side components in Next.js_
 
 Making a component render on the client side is as simple as adding the following line **to the top of the file** that you want to make client component.
 
