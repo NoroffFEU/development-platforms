@@ -6,7 +6,7 @@ tags: nextJS, frameworks, SEO, rendering, client, server.
 ## Introduction
 
 One of the core decisions web developers must make is where to implement logic and rendering in their application. This can be difficult because there are so many ways to build a website.
-Rendering converts the code you write into user interfaces. React and Next.js allow you to create hybrid web applications where parts of your code can be rendered on the server or the client. In Next.JS, you can choose where you want your components to be rendered: on the server side or on the client side. This study will help you understand the differences between these rendering environments, strategies, and runtimes.
+Rendering converts the code you write into user interfaces. React and Next.js allow you to create hybrid web applications where parts of your code can be rendered on the server or the client. In Next.js, you can choose where you want your components to be rendered: on the server side or on the client side. This study will help you understand the differences between these rendering environments, strategies, and runtimes.
 
 ### What are these?
 
