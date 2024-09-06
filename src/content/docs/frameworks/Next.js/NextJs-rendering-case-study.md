@@ -64,7 +64,7 @@ API calls when passing data to lower-level components.
 
 When it comes to interactivity, server components can be slower and less interactive than client components. You also can only use React hooks from a client component.
 
-_How to use server-side components in Next.JS_
+_How to use server-side components in Next.js_
 
 By default, Next.js uses Server Components. This allows you to automatically implement server rendering with no additional configuration, and you can opt into using Client Components when needed.
 
