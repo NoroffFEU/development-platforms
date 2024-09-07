@@ -10,7 +10,7 @@ In the fast-paced world of web development, Backend-as-a-Service (BaaS) platform
 
 ## Brief History
 
-* **2020:** Subabase is launched with the goal of providing an open-source, self-hosted alternative to Firebase.
+* **2020:** Supabase is launched with the goal of providing an open-source, self-hosted alternative to Firebase.
 * **2021-Present:** Supabase experiences rapid growth and adoption, gaining recognition for its developer-friendly approach and robust features.
 * **Ongoing:** The Supabase team continues to actively develop and enhance the platform, adding new features and improving existing ones.
  
