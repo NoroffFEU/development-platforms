@@ -1,8 +1,7 @@
-# Prismic Case Study
-
-**Author**: Anja Kvernenes <Feycalion>  
-**Tags**: prismic, case study, platform
-
+---
+title: Prismic Case Study
+author: Anja Kvernenes <Feycalion>  
+tags: prismic, case study, platform
 ---
 
 ## Introduction
