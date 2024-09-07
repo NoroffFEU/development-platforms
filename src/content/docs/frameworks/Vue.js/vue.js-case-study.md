@@ -1,6 +1,6 @@
 ---
 title: Vue.js
-author: Lars Halvor Vikse Kallåk,<br/> Fernanda Pereira Gomes
+author: Lars Halvor Vikse Kallåk, Fernanda Pereira Gomes
 tags: javascript, framework, vue, react
 ---
 
