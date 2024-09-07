@@ -76,7 +76,7 @@ Here are some three great examples of how a developer can use ChatGPT as an assi
 
 2. Explaining code: ChatGPT can also be used to explain codes. Provide the code snippet one wants to explain by pasting the code directly into the chat interface. ChatGPT will then generate responses based on its understanding of the code and the questions asked. It can provide explanations, describe the functionality of different parts of the code, offer insights into best practices, or even suggest improvements. Here is a screenshot of an example:
 
-<img src="../../../../assets/openai/example1.png"> 
+![ChatGPT example](~/assets/openai/example1.png)
 
 3. Project Management and Planning: ChatGPT can also be used to assist developers with project management tasks, including organizing tasks, setting deadlines, or prioritizing features. Developers can interact with ChatGPT to create project plans, generate task lists, or even brainstorm ideas for project implementation.
 

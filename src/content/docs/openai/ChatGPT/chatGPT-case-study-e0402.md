@@ -172,7 +172,7 @@ As far as software development is concerned, ChatGPT can write code faster than 
 ## Screenshots
 
 1. Asking ChatGPT what it can assist with
-   <img width="380" alt="Overview of what ChatGPT 4 can help with" src="https://private-user-images.githubusercontent.com/100483961/298409842-79692acd-aa40-4612-add1-f1f83f1eecd7.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU4Njk2NTYsIm5iZiI6MTcwNTg2OTM1NiwicGF0aCI6Ii8xMDA0ODM5NjEvMjk4NDA5ODQyLTc5NjkyYWNkLWFhNDAtNDYxMi1hZGQxLWYxZjgzZjFlZWNkNy5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDEyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDAxMjFUMjAzNTU2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzIwZGE0MTFkODIzNjFkOTBjNWIxMjNlZTViZjEyZTNlZWM2NjA0OGUyNzc2OTBjNjE2MjAyZDA1YTdmNWVmNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.gLhhr-SEXTb8_L8_rSP6w-AAJkQji5CpYRBjtPJLWFg">
+![Overview of what ChatGPT 4 can help with](https://user-images.githubusercontent.com/95305401/231838625-72866f50-319a-4507-b73e-68076ac09276.PNG)
 
 ### Additional sources
 
