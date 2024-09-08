@@ -14,7 +14,7 @@ The first bigger companies that started using Three.js was Google Search and app
 ## Brief History
 
 - 2002: The idea of Three.js was started by Ricardo Cabello(Mr.doob) with his involvement with the demoscene. (The demoscene is an computer art subculture focused on producing self-contained programs that produce audiovisual presentations)
-- 2009: The project was ported to JavaScript from ActionScript. (it was called Three.as before porting over to javascript)
+- 2009: The project was ported to JavaScript from ActionScript. (it was called Three.as before porting over to JavaScript)
 - 2010: Three.js was first released by Cabello with three different renderes (DOM, SVG and HTML canvas).
 - 2011: WebGL 1.0 was released and Joshua Koo came on board and made his first Three.js demo displaying 3D text.
 - 2012: Three.js gained popularity with their newly released official website, which included documentation and examples.
@@ -42,25 +42,25 @@ Lights and Shadows: Supports different lighting and shadow casting allowing to c
 ### Three.js feature table:
 
 | Scenes Graph | Two spatial objects rotate around each other, mimicking the Sun-Earth system, showcasing how scene graphs can represent complex spatial relationships |
-https://threejs.org/manual/examples/scenegraph-sun-earth.html
+[(https://threejs.org/manual/examples/scenegraph-sun-earth.html)]
 
 | Camera Controls | Two objects placed at the center scene with ability to zoom in and out, demonstrating how camera perspective controls work in 3D space.|
-https://threejs.org/manual/examples/cameras-perspective.html
+[(https://threejs.org/manual/examples/cameras-perspective.html)]
 
 | Renderers | Example of rendering animation using skinning and blending, showing how renders handle different animation techniques in Three.js. |
-https://threejs.org/examples/#webgo_animation_skinning_blending
+[(https://threejs.org/examples/#webgo_animation_skinning_blending)]
 
 | Geometry | Six geometric objects levitate in synchronized pace and direction demonstrating various types of parametric geometry available in Three.js. |
-https://threejs.org/examples/#webgl_geometries_parametric
+[(https://threejs.org/examples/#webgl_geometries_parametric)]
 
 | Materials | A large object is divided into different colors which change at the set pace. The texture also changes, interacting with light to demonstrate the dynamic capabilities of materials. |
-https://threejs.org/examples/#webgl_framebuffer_texture
+[(https://threejs.org/examples/#webgl_framebuffer_texture)]
 
 | Animation System | This example represents an animation system using dynamics, instancing, showing various movements and interactions in 3D space.|
-https://threejs.org/examples/#webgl_instancing_dynamic
+[(https://threejs.org/examples/#webgl_instancing_dynamic)]
 
 | Lights and Shadows| An object creates shadows as it interacts with lights and moves demonstrating the effects of lighting and shadows in a 3D environement. |
-https://threejs.org/examples/#webgl_geometry_csg
+[(https://threejs.org/examples/#webgl_geometry_csg)]
 
 [medium.com] [codeparrot.ai] [threejs.org]
 
@@ -76,7 +76,7 @@ PlayCanvas, a third competitor, claims to have excellent cross-platform compatib
 
 One of Three.js’ main strengths appears to be the great documentation provided by the developers and also its large number of official plugins and tutorials [slant.co].
 
-###The following table compares Three.js with its main competitors across various key points:
+The following table compares Three.js with its main competitors across various key points:
 
 | Three.js     | Babylon.js | Whitestorm | PlayCanvas |
 | ------------ | ---------- | ---------- | ---------- |
@@ -97,7 +97,8 @@ One of Three.js’ main strengths appears to be the great documentation provided
 | License: N   | License: N | License: N | License: Y |
 
 Y = Yes, N = No
-\*Three.js does not include its own physics engine, but is fully compatible with external physics frameworks for JavaScript, as explained in this article: "https://en.threejs-university.com/2021/08/24/using-physics-in-three-js-with-ammo-jsintroduction/" [threejs-university.com].
+
+\*Three.js does not include its own physics engine, but is fully compatible with external physics frameworks for JavaScript, as explained in this article: "[(https://en.threejs-university.com/2021/08/24/using-physics-in-three-js-with-ammo-jsintroduction/)]" [threejs-university.com].
 
 \*\* When comparing Three with Babylon, the level of fidelity seems a little lower.
 
@@ -108,8 +109,6 @@ NB: PlayCanvas Offers a free license, as long as the project-size is kept below 
 ### Market Comparison Conclusion
 
 Each of the aforementioned frameworks has its own strengths and weaknesses when compared to each other. The choice of which framework to use for displaying three-dimensional content to an audience is ultimately up to you. However, Three.js is a strong contender due to its large community, free-to-use features, and official plugins.
-
-## Getting Started
 
 ## Getting started and setting up the project.
 
@@ -136,13 +135,13 @@ Frameworks like Three.js provide users with numerous opportunities to create cap
 
 ## References
 
-- [threejs.org](https://threejs.org)
-- [vitejs.dev](https://vitejs.dev/)
-- [slant.co](https://www.slant.co/options/11349/~whitestorm-js-review)
-- [babylon.js] (https://www.babylonjs.com/)
-- [threejs-university.com](https://en.threejs-university.com/2021/08/24/using-physics-in-three-js-with-ammo-jsintroduction/)
-- [playcanvas.com](https://playcanvas.com/)
-- [github.com](https://github.com/mrdoob/three.js/issues/1960)
-- [medium.com](https://medium.com/@CodeWithMasood/getting-started-with-three-js-codewithmasood-e74890a8b959)
-- [codeparrot.ai](https://codeparrot.ai/blogs/exploring-threejs-for-3d-web-development)
-- [wikipedia.org](https://en.m.wikipedia.org/wiki/Three.js)
+- [threejs.org][(https://threejs.org)]
+- [vitejs.dev][(https://vitejs.dev/)]
+- [slant.co][(https://www.slant.co/options/11349/~whitestorm-js-review)]
+- [babylon.js][(https://www.babylonjs.com/)]
+- [threejs-university.com][(https://en.threejs-university.com/2021/08/24/using-physics-in-three-js-with-ammo-jsintroduction/)]
+- [playcanvas.com][(https://playcanvas.com/)]
+- [github.com][(https://github.com/mrdoob/three.js/issues/1960)]
+- [medium.com][(https://medium.com/@CodeWithMasood/getting-started-with-three-js-codewithmasood-e74890a8b959)]
+- [codeparrot.ai][(https://codeparrot.ai/blogs/exploring-threejs-for-3d-web-development)]
+- [wikipedia.org][(https://en.m.wikipedia.org/wiki/Three.js)]
