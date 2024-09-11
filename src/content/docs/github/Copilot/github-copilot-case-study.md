@@ -23,10 +23,8 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 
 GitHub Copilot is an AI-powered coding assistant developed by GitHub in collaboration with OpenAI. Its main features include:
 
-![image](https://github.com/user-attachments/assets/636f5513-1475-4563-8ba5-b2f744ffc56d)
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/636f5513-1475-4563-8ba5-b2f744ffc56d" alt="Screenshot of copilot autocomplete" width="600"/>
+  <img src="https://github.com/user-attachments/assets/636f5513-1475-4563-8ba5-b2f744ffc56d" alt="Screenshot of copilot autocomplete"/>
 </p>
 
 | Feature | Description |
