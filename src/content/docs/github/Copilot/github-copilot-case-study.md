@@ -23,7 +23,7 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 
 GitHub Copilot is an AI-powered coding assistant developed by GitHub in collaboration with OpenAI. Its main features include:
 
-Example feature table:
+![image](https://github.com/user-attachments/assets/636f5513-1475-4563-8ba5-b2f744ffc56d)
 
 | Feature | Description |
 | --- | --- |
@@ -32,7 +32,7 @@ Example feature table:
 | Copilot in the CLI | A chat-like interface in the terminal, where you can ask questions about the command line. You can ask Copilot to provide command suggestions or explanations of commands. |
 | Copilot pull request summaries (Copilot Enterprise only) | AI-generated summaries of the changes that were made in a pull request, which files they impact, and what a reviewer should focus on when they conduct their review. |
 
-![image](https://github.com/user-attachments/assets/636f5513-1475-4563-8ba5-b2f744ffc56d)
+
 
 
 ## Market Comparison
