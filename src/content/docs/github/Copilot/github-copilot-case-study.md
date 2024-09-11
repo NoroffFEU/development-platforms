@@ -25,6 +25,10 @@ GitHub Copilot is an AI-powered coding assistant developed by GitHub in collabor
 
 ![image](https://github.com/user-attachments/assets/636f5513-1475-4563-8ba5-b2f744ffc56d)
 
+<p align="center">
+  <img src="[URL_TO_YOUR_SCREENSHOT](https://github.com/user-attachments/assets/636f5513-1475-4563-8ba5-b2f744ffc56d)" alt="Description of screenshot" width="600"/>
+</p>
+
 | Feature | Description |
 | --- | --- |
 | Code completion | Autocomplete-style suggestions from Copilot in supported IDEs (Visual Studio Code, Visual Studio, JetBrains IDEs, Azure Data Studio, and Vim/Neovim). |
