@@ -1,7 +1,7 @@
 ---
 Title: drupal case study
 Author: siril o. vaular <sirvau>
-Tags: cms, case study, drupal, platform, marked comparison, wordPress
+Tags: cms, case study, drupal, platform, marked comparison, wordpress
 ---
 
 ## Introduction about Drupal
