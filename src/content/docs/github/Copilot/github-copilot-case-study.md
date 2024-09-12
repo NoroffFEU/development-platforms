@@ -10,14 +10,14 @@ Github copilot is a code completion tool intergrating AI learning into the codin
 
 ## Brief History
 
-- 2020 (June): OpenAI released GPT-3, a powerful LLM (large language model). This sparked excitement in the developer community. At GitHub, this marked the beginning of the journey toward building Copilot, focusing on code generation (automatically generating programming code) as a key application.
-- 2021 (June 29): GitHub announced GitHub Copilot in a technical preview, available to a limited audience in the Visual Studio Code development environment.
-- 2021 (August): OpenAI released the [Codex model](https://openai.com/index/openai-codex/), which was built in partnership with GitHub. OpenAI introduced it as the underlying model for GitHub Copilot and as an API available for developers to use directly. This model was a descendant of GPT-3 and trained on billions of lines of public code. In addition to natural language outputs, it also understands and generates code across multiple programming languages.
-- 2021 (October 27): GitHub released the GitHub Copilot Neovim plugin as an open-source project for public use.
-- 2021 (October 29): GitHub Copilot was made available as a plugin in the JetBrains marketplace, allowing users of JetBrains IDEs to integrate the tool into their development environment.
-- 2022 (March 29): GitHub released GitHub Copilot as an extension for Visual Studio 2022  IDE (Integrated Development Environment). This allowed developers (in the technical preview) using Visual Studio 2022 to access GitHub Copilot's AI-powered code completion features directly within their development environment.
-- 2022: (June 21): Full-scale release. GitHub Copilot is now available to individual developers as a subscription-based AI pair programmer service.
-- 2023 (March): GitHub [Copilot X](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience/) was announced. This expansion include an adoption of OpenAI's new GPT-4 model and introducing new features, such as chat and voice for Copilot, bringing Copilot to pull requests, the command line, and docs.
+- **2020 (June)** - OpenAI released GPT-3, a powerful LLM (large language model). This sparked excitement in the developer community. At GitHub, this marked the beginning of the journey toward building Copilot, focusing on code generation (automatically generating programming code) as a key application.
+- **2021 (June)** - GitHub announced GitHub Copilot in a technical preview, available to a limited audience in the Visual Studio Code development environment.
+- **2021 (August)** - OpenAI released the [Codex model](https://openai.com/index/openai-codex/), which was built in partnership with GitHub. OpenAI introduced it as the underlying model for GitHub Copilot and as an API available for developers to use directly. This model was a descendant of GPT-3 and trained on billions of lines of public code. In addition to natural language outputs, it also understands and generates code across multiple programming languages.
+- **2021 (October)** - GitHub released the GitHub Copilot Neovim plugin as an open-source project for public use.
+- **2021 (October)** - GitHub Copilot was made available as a plugin in the JetBrains marketplace, allowing users of JetBrains IDEs to integrate the tool into their development environment.
+- **2022 (March) - GitHub released GitHub Copilot as an extension for Visual Studio 2022  IDE (Integrated Development Environment). This allowed developers (in the technical preview) using Visual Studio 2022 to access GitHub Copilot's AI-powered code completion features directly within their development environment.
+- **2022 (June)** - Full-scale release. GitHub Copilot is now available to individual developers as a subscription-based AI pair programmer service.
+- **2023 (March)** - GitHub [Copilot X](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience/) was announced. This expansion include an adoption of OpenAI's new GPT-4 model and introducing new features, such as chat and voice for Copilot, bringing Copilot to pull requests, the command line, and docs.
 -  To explore the complete history and stay updated on the latest releases, visit the official GitHub Copilot changelog at: [GitHub Copilot Changelog](https://github.blog/changelog/label/copilot/).
 
 ## Main Features
