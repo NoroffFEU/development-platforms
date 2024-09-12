@@ -56,10 +56,15 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## References
 
-- [Example.com](https://example.com)
+- [GitHub Blog - Inside GitHub: Working with the LLMs behind GitHub Copilot](https://github.blog/ai-and-ml/github-copilot/inside-github-working-with-the-llms-behind-github-copilot/)![bilde](https://github.com/user-attachments/assets/43d49f69-a7a9-405c-88a3-edceada078b5)
+- [Wkipedia - GitHub Copilot](https://en.wikipedia.org/wiki/GitHub_Copilot)
+- [OpenAI Codex](https://openai.com/index/openai-codex/)
+- [SD Times - GitHub Copilot now available in Visual Studio 2022](https://sdtimes.com/softwaredev/github-copilot-now-available-in-visual-studio-2022/)
+- [GitHub Blog - GitHub Copilot X: The AI-powered developer experience](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience/)
+- [GitHub Copilot Changelog](https://github.blog/changelog/label/copilot/)
+  
 - *Good Examples* by John Doe, 1990
 - The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
 ## Additional Resources
 
