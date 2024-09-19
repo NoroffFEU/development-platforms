@@ -48,7 +48,50 @@ Similarly, a self hosted tool and a cloud based tool with a similar purpose may 
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+This guide will show you how to get started with GitHub Copilot in Visual Studio Code. If you're using JetBrains IDE or Visual Studio, you can refer to the GitHub Copilot documentation here:
+- [JetBrains IDE GitHub Copilot Documentation](https://docs.github.com/en/copilot/quickstart?tool=jetbrains)
+- [Visual Studio GitHub Copilot Documentation](https://docs.github.com/en/copilot/quickstart?tool=visualstudio)
+
+### Get access to GitHub Copilot in Visual Studio Code
+1. **Subscribe or get free access (students)**
+   - To sign up for GitHub Copilot, start a free trial by selecting Copilot Individual from [this link](https://github.com/features/copilot#pricing).
+   - **Verified students** can get free access by providing proof of student status. To apply, visit [GitHub Education](https://github.com/education) and click **Join GitHub Education**.
+     Follow the instructions to update your GitHub account settings with the necessary information.
+
+2. **Necessary Setup
+   Before you install the GitHub Copilot Extension make sure you have the **latest version** of **Visual Studio Code**.
+   To find out you can open VS Code, click on **Help** in the top menu, and select **"Check for updates"**. This will tell you if you're using the latest version or if a new version is available for update.
+   You can also check the [Visual Studio Code release notes](https://code.visualstudio.com/updates/v1_93) or [Visual Studio Code download page](https://code.visualstudio.com/Download) to find the latest
+   version.
+
+3. **Install GitHub Copilot Extension in Visual Studio Code**
+   Open the **Extensions: Marketplace** and search for GitHub Copilot.
+   Install the extension:
+   **image is coming**
+   **image is coming**
+
+   After that is installed, Copilot will prompt you to sign in to GitHUb:
+   **image is coming**
+
+   After signing in to GitHub, check the **Copilot status** in Visual Studio Code. Open VS Code and look for the GitHub Copilot icon in the lower-right corner of the status bar. This icon indicates that
+   GitHub Copilot is active:
+   **image is coming**
+
+   Click the GitHub Copilot icon to open the Copilot status. The Copilot status should show **Ready**:
+   **image is coming**
+
+### How to use GitHub Copilot (key features)
+
+
+   
+
+   
+
+   
+
+
+
+
 
 ## Conclusion
 
@@ -62,6 +105,13 @@ This section can be used to summarize your findings. What are the main advantage
 - [SD Times - GitHub Copilot now available in Visual Studio 2022](https://sdtimes.com/softwaredev/github-copilot-now-available-in-visual-studio-2022/)
 - [GitHub Blog - GitHub Copilot X: The AI-powered developer experience](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience/)
 - [GitHub Copilot Changelog](https://github.blog/changelog/label/copilot/)
+- [GitHub Docs - Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart?tool=vscode)
+- [Visual Studio Docs - Set up GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/setup)
+- [YouTube Video Tutorial - Get Started with GitHub Copilot in VS Code](https://www.youtube.com/watch?v=Fi3AJZZregI)
+
+
+
+- 
   
 - *Good Examples* by John Doe, 1990
 - The Example Podcast, Episode 1
