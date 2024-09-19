@@ -74,18 +74,23 @@ This guide will show you how to get started with GitHub Copilot in Visual Studio
 3. **Install GitHub Copilot Extension in Visual Studio Code**  
    Open the **Extensions: Marketplace** and search for GitHub Copilot.
    Install the extension:
-   **image is coming**
-   **image is coming**
 
-   After that is installed, Copilot will prompt you to sign in to GitHUb:  
-   **image is coming**
+   ![install-copilot-extension](https://github.com/user-attachments/assets/00cb882d-e6d9-44b8-af7f-6e40739ab686)
+     
+   ![install-copilot-extension-step2](https://github.com/user-attachments/assets/5dcc43fe-2a8a-4e5b-888c-3f8d775956a5)
+
+   After that is installed, Copilot will prompt you to sign in to GitHUb:
+     
+   ![sign-in-with-github-1](https://github.com/user-attachments/assets/689c8204-7b91-4c7d-a830-87baad61e256)
 
    After signing in to GitHub, check the **Copilot status** in Visual Studio Code. Open VS Code and look for the GitHub Copilot icon in the lower-right corner of the status bar. This icon indicates that
-   GitHub Copilot is active:  
-   **image is coming**
+   GitHub Copilot is active:
+     
+ ![copilot-icon-status-bar](https://github.com/user-attachments/assets/26ea980f-c39a-4487-b277-7acc78e1bbcf)
 
    Click the GitHub Copilot icon to open the Copilot status. The Copilot status should show **Ready**:  
-   **image is coming**
+     
+   ![status-ready](https://github.com/user-attachments/assets/461fab17-8d17-45d5-9612-50934604cc07)
 
 ### How to use GitHub Copilot (key features)
 
