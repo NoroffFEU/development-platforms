@@ -24,9 +24,7 @@ Github copilot is a code completion tool intergrating AI learning into the codin
 
 GitHub Copilot is an AI-powered coding assistant developed by GitHub in collaboration with OpenAI. Its main features include:
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/636f5513-1475-4563-8ba5-b2f744ffc56d" alt="Screenshot of copilot autocomplete"/>
-</p>
+
 
 | Feature | Description |
 | --- | --- |
@@ -34,6 +32,16 @@ GitHub Copilot is an AI-powered coding assistant developed by GitHub in collabor
 | Copilot Chat | A chat interface that lets you ask coding-related questions. GitHub Copilot Chat is available in GitHub.com (Copilot Enterprise only), in GitHub Mobile, and in supported IDEs (Visual Studio Code, Visual Studio, and JetBrains IDEs). Copilot Enterprise users can also use skills with Copilot Chat. |
 | Copilot in the CLI | A chat-like interface in the terminal, where you can ask questions about the command line. You can ask Copilot to provide command suggestions or explanations of commands. |
 | Copilot pull request summaries (Copilot Enterprise only) | AI-generated summaries of the changes that were made in a pull request, which files they impact, and what a reviewer should focus on when they conduct their review. |
+| Copilot text completion (beta) (Copilot Enterprise only) | AI-generated text completion to help you write pull request descriptions quickly and accurately. |
+| Copilot knowledge bases (Copilot Enterprise only) | Create and manage collections of documentation to use as context for chatting with Copilot. When you ask a question in Copilot Chat in GitHub.com or in VS Code, you can specify a knowledge base as the context for your question. |
+
+### Code Completion example: 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/636f5513-1475-4563-8ba5-b2f744ffc56d" alt="Screenshot of copilot autocomplete"/>
+</p>
+This makes it less timeconsuming to add code in your project as you progress since copilot gives examples of what you may want.
+
+### Copilot chat example:
 
 
 
