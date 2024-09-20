@@ -157,4 +157,5 @@ As far as software development is concerned, ChatGPT can write code faster than 
 ## Screenshots
 
 1. Asking ChatGPT what it can assist with
-   <img width="380" alt="chatgpt-help-with" src="https://user-images.githubusercontent.com/95305401/231838625-72866f50-319a-4507-b73e-68076ac09276.PNG">
+
+![chatgpt-help-with](https://user-images.githubusercontent.com/95305401/231838625-72866f50-319a-4507-b73e-68076ac09276.PNG)
