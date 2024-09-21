@@ -81,28 +81,63 @@ This guide will show you how to get started with GitHub Copilot in Visual Studio
    Open the **Extensions: Marketplace** and search for GitHub Copilot.
    Install the extension:
      
-   <img src="https://github.com/user-attachments/assets/00cb882d-e6d9-44b8-af7f-6e40739ab686" alt="install-copilot-extension" style="width: 650px;">  
-   <img src="https://github.com/user-attachments/assets/5dcc43fe-2a8a-4e5b-888c-3f8d775956a5" alt="install-copilot-extension" style="width: 650px;">
+   <img src="https://github.com/user-attachments/assets/00cb882d-e6d9-44b8-af7f-6e40739ab686" alt="install-copilot-extension" style="width: 600px;">  
+   <img src="https://github.com/user-attachments/assets/5dcc43fe-2a8a-4e5b-888c-3f8d775956a5" alt="install-copilot-extension" style="width: 600px;">
      
    After that is installed, Copilot will prompt you to sign in to GitHUb:
 
-   <img src="https://github.com/user-attachments/assets/689c8204-7b91-4c7d-a830-87baad61e256" alt="install-copilot-extension" style="width: 650px;">
+   <img src="https://github.com/user-attachments/assets/689c8204-7b91-4c7d-a830-87baad61e256" alt="install-copilot-extension" style="width: 600px;">
      
    After signing in to GitHub, check the **Copilot status** in Visual Studio Code. Open VS Code and look for the GitHub Copilot icon in the lower-right corner of the status bar. This icon indicates that
    GitHub Copilot is active:
 
-   <img src="https://github.com/user-attachments/assets/26ea980f-c39a-4487-b277-7acc78e1bbcf" alt="install-copilot-extension" style="width: 650px;">
+   <img src="https://github.com/user-attachments/assets/26ea980f-c39a-4487-b277-7acc78e1bbcf" alt="install-copilot-extension" style="width: 600px;">
      
    Click the GitHub Copilot icon to open the Copilot status. The Copilot status should show **Ready**:
 
-   <img src="https://github.com/user-attachments/assets/461fab17-8d17-45d5-9612-50934604cc07" alt="install-copilot-extension" style="width: 650px;">  
+   <img src="https://github.com/user-attachments/assets/461fab17-8d17-45d5-9612-50934604cc07" alt="install-copilot-extension" style="width: 600px;">  
 
 ### How to use GitHub Copilot (key features)
 
+#### Get code completion suggestions
+- **Automatic code suggestions**:</br>
+  To get code suggestions from Copilot all you need to do is type code in your editor and Copilot automatically presents you code suggestions, to help you code more effectively.
+  Below you see a simple example.
+  If you write `<!DOCTYPE>`, Copilot will recognize that the next tag to add is the `<html>` tag. You'll see the suggestion from Copilot in gray, and you can press the **Tab** key to accept it.
 
-   
+  <img src="https://github.com/user-attachments/assets/234fe114-292f-431c-a426-ff4729461912" alt="install-copilot-extension" style="width: 300px;">  
 
-   
+- **Use comments to get code suggestions**:</br>
+  Below are examples of how GitHub Copilot provides code suggestions in HTML, CSS, or JS files based on comments:
+
+  <img src="https://github.com/user-attachments/assets/80c1c93a-3faf-424e-9528-2d5e97b7b3ad" alt="install-copilot-extension" style="width: 600px;">
+
+- **Navigate between multiple suggestions**:</br>
+  When GitHub Copilot suggests code in grey, there are often multiple options available. To view different suggestions, hover over the suggestion in the editor, and a control panel will appear.
+  You can then use the arrow keys to navigate between the previous and next suggestions.
+
+  <img src="https://github.com/user-attachments/assets/fa264992-369a-45a0-8e60-872935e7f27a" alt="install-copilot-extension" style="width: 600px;">
+
+  Click **Accept** on the suggestion that best fits your needs.</br>
+  You can also click the ellipsis to the right in the panel and select **Open GitHub Copilot**. A new window will open in VS Code, displaying all the different solutions or suggestions.
+  It may take a few seconds for Copilot to synthesize the available options before they are fully visible.
+
+#### Use Copilot inline chat
+- **Improve existing code**: Copilot's inline chat is excellent for refactoring or improving existing code. With the inline chat you can ask Copilot for assistance in the moment, without switching context. 
+  The Copilot Chat extension is automatically installed along with the GitHub Copilot extension.  
+
+- **To use the inline chat**, press `Ctrl + I` on your keyboard, and a chat interface will appear in your editor. You can use this chat to ask questions about your code. 
+  Copilot will return a response directly in the editor. Select **Accept** or press `Ctrl + Enter` to apply the proposed code changes.
+- **Highlighting code**: To provide Copilot with more context about your request, you can highlight a range of code or text in the editor before pressing `Ctrl + I`.
+
+  <img src="https://github.com/user-attachments/assets/5e249ebe-8ac3-44a3-bbf6-c323e9acc931" alt="install-copilot-extension" style="width: 600px;">
+
+#### Copilot Chat for general programming questions
+
+
+
+
+     
 
    
 
@@ -117,19 +152,15 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [GitHub Blog - Inside GitHub: Working with the LLMs behind GitHub Copilot](https://github.blog/ai-and-ml/github-copilot/inside-github-working-with-the-llms-behind-github-copilot/)
+- [GitHub Blog - GitHub Copilot X: The AI-powered developer experience](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience/)
 - [Wkipedia - GitHub Copilot](https://en.wikipedia.org/wiki/GitHub_Copilot)
 - [OpenAI Codex](https://openai.com/index/openai-codex/)
 - [SD Times - GitHub Copilot now available in Visual Studio 2022](https://sdtimes.com/softwaredev/github-copilot-now-available-in-visual-studio-2022/)
-- [GitHub Blog - GitHub Copilot X: The AI-powered developer experience](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience/)
 - [GitHub Copilot Changelog](https://github.blog/changelog/label/copilot/)
 - [GitHub Docs - Quickstart for GitHub Copilot](https://docs.github.com/en/copilot/quickstart?tool=vscode)
 - [Visual Studio Docs - Set up GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/setup)
 - [YouTube Video Tutorial - Get Started with GitHub Copilot in VS Code](https://www.youtube.com/watch?v=Fi3AJZZregI)
-
-
-
-- 
-  
+- [Visual Studio Code - Docs - Getting started with GitHUb Copilot in VS Code](https://code.visualstudio.com/docs/copilot/getting-started)
 - *Good Examples* by John Doe, 1990
 - The Example Podcast, Episode 1
 
