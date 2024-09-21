@@ -43,6 +43,8 @@ This makes it less timeconsuming to add code in your project as you progress sin
 
 ### Copilot chat example:
 
+  ![image](https://github.com/user-attachments/assets/11363817-3df6-414d-8941-2d7238f84aac)
+
 
 
 
