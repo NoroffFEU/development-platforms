@@ -42,10 +42,12 @@ GitHub Copilot is an AI-powered coding assistant developed by GitHub in collabor
 This makes it less timeconsuming to add code in your project as you progress since copilot gives examples of what you may want.
 
 ### Copilot chat example:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/11363817-3df6-414d-8941-2d7238f84aac"/>
+</p>
+The chat function is a great feature that gives you an ai prompt inside the vsc editor and can provide assistance to you project at will.
 
-  ![image](https://github.com/user-attachments/assets/11363817-3df6-414d-8941-2d7238f84aac)
-
-
+Copilot is designed to improve productivity, reduce repetitive tasks, and enhance learning for developers of all skill levels.
 
 
 ## Market Comparison
