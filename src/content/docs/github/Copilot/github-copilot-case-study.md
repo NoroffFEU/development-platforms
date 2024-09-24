@@ -221,5 +221,9 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [Tabnine](https://www.tabnine.com/get-free-90-day-trial/?utm_term=tabnine&utm_campaign=%5BUS%5D+%7C+%5Ben%5D+%7C+%5Bdesktop%5D+%7C+%5BSearch:Brand%5D+%7C+%5BTabnine%5D&utm_source=adwords&utm_medium=ppc&hsa_acc=4311736126&hsa_cam=21073527735&hsa_grp=159292934283&hsa_ad=713438295761&hsa_src=g&hsa_tgt=kwd-915660947489&hsa_kw=tabnine&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwxsm3BhDrARIsAMtVz6MjGPO6-iw23omcaUwOxTGDUUIpC-ED_OTEzzI9an5t2Fv8nMmp1FMaApaAEALw_wcB)
+- [Replit Ghostwriter](https://www.programai.co/?gad_source=1&gclid=Cj0KCQjwo8S3BhDeARIsAFRmkOOokZLt_LUXT3cBR3fYAMMU45tCfbhmfJb_TX9CtczEVtFSnugGR4gaAgwNEALw_wcB)
+- [Codeium](https://codeium.com/)
+- [Amazon Codewhisperer](https://docs.aws.amazon.com/codewhisperer/latest/userguide/what-is-cwspr.html)
+- [Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+  
