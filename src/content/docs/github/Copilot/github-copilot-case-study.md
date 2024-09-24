@@ -36,16 +36,16 @@ GitHub Copilot is an AI-powered coding assistant developed by GitHub in collabor
 | Copilot knowledge bases (Copilot Enterprise only) | Create and manage collections of documentation to use as context for chatting with Copilot. When you ask a question in Copilot Chat in GitHub.com or in VS Code, you can specify a knowledge base as the context for your question. |
 
 ### Code Completion example: 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/636f5513-1475-4563-8ba5-b2f744ffc56d" alt="Screenshot of copilot autocomplete"/>
-</p>
+
+<img src="https://github.com/user-attachments/assets/636f5513-1475-4563-8ba5-b2f744ffc56d" alt="Screenshot of copilot autocomplete" style="width: 600px;"/>
+
 This makes it less timeconsuming to add code in your project as you progress since copilot gives examples of what you may want.
 
 ### Copilot chat example:
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/11363817-3df6-414d-8941-2d7238f84aac"/>
-</p>
-The chat function is a great feature that gives you an ai prompt inside the vsc editor and can provide assistance to you project at will.
+
+<img src="https://github.com/user-attachments/assets/11363817-3df6-414d-8941-2d7238f84aac" style="width: 600px;"/>
+
+The chat function is a great feature that gives you an ai prompt inside the vsc editor and can provide assistance to your project at will.
 
 Copilot is designed to improve productivity, reduce repetitive tasks, and enhance learning for developers of all skill levels.
 
@@ -129,7 +129,7 @@ This guide will show you how to get started with GitHub Copilot in Visual Studio
    <img src="https://github.com/user-attachments/assets/00cb882d-e6d9-44b8-af7f-6e40739ab686" alt="install-copilot-extension" style="width: 600px;">  
    <img src="https://github.com/user-attachments/assets/5dcc43fe-2a8a-4e5b-888c-3f8d775956a5" alt="install-copilot-extension" style="width: 600px;">
      
-   After that is installed, Copilot will prompt you to sign in to GitHUb:
+   After that is installed, Copilot will prompt you to sign in to GitHub:
 
    <img src="https://github.com/user-attachments/assets/689c8204-7b91-4c7d-a830-87baad61e256" alt="install-copilot-extension" style="width: 600px;">
      
