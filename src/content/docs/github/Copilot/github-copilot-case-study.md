@@ -45,7 +45,7 @@ This makes it less timeconsuming to add code in your project as you progress sin
 
 <img src="https://github.com/user-attachments/assets/11363817-3df6-414d-8941-2d7238f84aac" style="width: 600px;"/>
 
-The chat function is a great feature that gives you an ai prompt inside the vsc editor and can provide assistance to your project at will.
+The chat function is an excellent feature that offers an AI prompt within the VSC editor, providing on-demand assistance for your project.
 
 Copilot is designed to improve productivity, reduce repetitive tasks, and enhance learning for developers of all skill levels.
 
