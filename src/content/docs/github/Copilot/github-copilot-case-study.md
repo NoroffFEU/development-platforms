@@ -56,52 +56,62 @@ This a comparison of GitHub Copilot against the alternatives, focusing on key fa
 
 ### Tabnine vs. GitHub Copilot
 
-[![Tabnine](https://github.com/user-attachments/assets/414366e1-e193-48b9-9e51-9875e9fe4913)](https://www.tabnine.com/get-free-90-day-trial/?utm_term=tabnine&utm_campaign=%5BUS%5D+%7C+%5Ben%5D+%7C+%5Bdesktop%5D+%7C+%5BSearch:Brand%5D+%7C+%5BTabnine%5D&utm_source=adwords&utm_medium=ppc&hsa_acc=4311736126&hsa_cam=21073527735&hsa_grp=159292934283&hsa_ad=713438295761&hsa_src=g&hsa_tgt=kwd-915660947489&hsa_kw=tabnine&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwo8S3BhDeARIsAFRmkOMcafCSEVhPm9gye_aBRZel-NaUK6zn83y4QQjOruSA-Us-RWxohycaAmUkEALw_wcB)
+<a href="https://www.tabnine.com/get-free-90-day-trial/?utm_term=tabnine&utm_campaign=%5BUS%5D+%7C+%5Ben%5D+%7C+%5Bdesktop%5D+%7C+%5BSearch:Brand%5D+%7C+%5BTabnine%5D&utm_source=adwords&utm_medium=ppc&hsa_acc=4311736126&hsa_cam=21073527735&hsa_grp=159292934283&hsa_ad=713438295761&hsa_src=g&hsa_tgt=kwd-915660947489&hsa_kw=tabnine&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwo8S3BhDeARIsAFRmkOMcafCSEVhPm9gye_aBRZel-NaUK6zn83y4QQjOruSA-Us-RWxohycaAmUkEALw_wcB">
+  <img src="https://github.com/user-attachments/assets/414366e1-e193-48b9-9e51-9875e9fe4913" alt="Tabnine" style="width: 600px;">
+</a>
 
- - Language Support: Both tools support a wide range of languages, but Copilot may have an edge in terms of the depth of its understanding, thanks to its underlying Codex model.
- - Integration: Tabnine integrates with most IDEs (e.g., VS Code, JetBrains, Sublime Text), just like Copilot, which is mainly focused on Visual Studio Code and JetBrains IDEs.
- - AI Model: Copilot uses the Codex model, which is a powerful, transformer-based model by OpenAI, providing more nuanced suggestions, especially for natural language to code translation. Tabnine, while still robust, 
+ - **Language Support:** Both tools support a wide range of languages, but Copilot may have an edge in terms of the depth of its understanding, thanks to its underlying Codex model.
+ - **Integration:** Tabnine integrates with most IDEs (e.g., VS Code, JetBrains, Sublime Text), just like Copilot, which is mainly focused on Visual Studio Code and JetBrains IDEs.
+ - **AI Model:** Copilot uses the Codex model, which is a powerful, transformer-based model by OpenAI, providing more nuanced suggestions, especially for natural language to code translation. Tabnine, while still robust, 
    often relies on smaller models or a local-first approach, so it may not have as advanced reasoning capabilities as Copilot.
- - Privacy: Tabnine offers a local model option for privacy-conscious developers, while Copilot processes code suggestions on Microsoft/Cloud servers. Tabnine is better for teams with strict data privacy requirements.
- - Strength: Copilot shines with its natural language to code capabilities, while Tabnine is more privacy-focused with flexible deployment options.
+ - **Privacy:** Tabnine offers a local model option for privacy-conscious developers, while Copilot processes code suggestions on Microsoft/Cloud servers. Tabnine is better for teams with strict data privacy requirements.
+ - **Strength:** Copilot shines with its natural language to code capabilities, while Tabnine is more privacy-focused with flexible deployment options.
 
 ### Replit Ghostwriter vs. GitHub Copilot
 
-[![image](https://github.com/user-attachments/assets/3bd184ce-7c0e-458b-a129-7f31687e9a87)](https://www.programai.co/?gad_source=1&gclid=Cj0KCQjwo8S3BhDeARIsAFRmkOOokZLt_LUXT3cBR3fYAMMU45tCfbhmfJb_TX9CtczEVtFSnugGR4gaAgwNEALw_wcB)
+<a href="https://www.programai.co/?gad_source=1&gclid=Cj0KCQjwo8S3BhDeARIsAFRmkOOokZLt_LUXT3cBR3fYAMMU45tCfbhmfJb_TX9CtczEVtFSnugGR4gaAgwNEALw_wcB">
+  <img src="https://github.com/user-attachments/assets/3bd184ce-7c0e-458b-a129-7f31687e9a87" alt="Replit ghostwriter" style="width: 600px;">
+</a>
 
- - Language Support: Copilot supports more languages, while Ghostwriter is deeply integrated with the Replit environment and supports languages that are typically used in this space, like Python, JavaScript, and HTML/CSS.
- - Integration: Ghostwriter is tightly integrated within the Replit online IDE, offering cloud-based coding, whereas Copilot is a plugin for more traditional IDEs like VS Code.
- - AI Model: GitHub Copilot (Codex) tends to have more advanced code generation capabilities, but Ghostwriter's integration with Replit makes it a great tool for quick, cloud-based coding and education.
- - Strength: Copilot is better suited for larger, more complex projects in various IDEs. Ghostwriter is better for users who prefer a lightweight, browser-based environment.
+ - **Language Support:** Copilot supports more languages, while Ghostwriter is deeply integrated with the Replit environment and supports languages that are typically used in this space, like Python, JavaScript, and HTML/CSS.
+ - **Integration:** Ghostwriter is tightly integrated within the Replit online IDE, offering cloud-based coding, whereas Copilot is a plugin for more traditional IDEs like VS Code.
+ - **AI Model:** GitHub Copilot (Codex) tends to have more advanced code generation capabilities, but Ghostwriter's integration with Replit makes it a great tool for quick, cloud-based coding and education.
+ - **Strength:** Copilot is better suited for larger, more complex projects in various IDEs. Ghostwriter is better for users who prefer a lightweight, browser-based environment.
 
 ### Codeium vs. GitHub Copilot
 
-[![image](https://github.com/user-attachments/assets/6b8fac51-ae64-40b8-b76f-c065753d82f7)](https://codeium.com/)
+<a href="https://codeium.com/">
+  <img src="https://github.com/user-attachments/assets/6b8fac51-ae64-40b8-b76f-c065753d82f7" alt="Codeium" style="width: 600px;">
+</a>
 
- - Language Support: Codeium offers wide language support, comparable to Copilot, although Copilot may cover a broader range of languages in more depth.
- - Integration: Codeium works with popular IDEs like VS Code and JetBrains, just like Copilot, so integration is nearly on par.
- - AI Model: Codeium is designed to be fast and responsive, and although it is still developing, Codex (Copilot’s model) is generally more robust and powerful.
- - Cost: Codeium is completely free, whereas GitHub Copilot is a paid service.
- - Strength: Codeium is great for developers looking for a free solution with many similar features to Copilot, although Copilot may provide more refined suggestions.
+ - **Language Support:** Codeium offers wide language support, comparable to Copilot, although Copilot may cover a broader range of languages in more depth.
+ - **Integration:** Codeium works with popular IDEs like VS Code and JetBrains, just like Copilot, so integration is nearly on par.
+ - **AI Model:** Codeium is designed to be fast and responsive, and although it is still developing, Codex (Copilot’s model) is generally more robust and powerful.
+ - **Cost:** Codeium is completely free, whereas GitHub Copilot is a paid service.
+ - **Strength:** Codeium is great for developers looking for a free solution with many similar features to Copilot, although Copilot may provide more refined suggestions.
 
 ### Amazon CodeWhisperer vs. GitHub Copilot
 
-[![image](https://github.com/user-attachments/assets/f2e38fa2-3573-4f6c-91db-1fa379036794)](https://docs.aws.amazon.com/codewhisperer/latest/userguide/what-is-cwspr.html)
+<a href="https://docs.aws.amazon.com/codewhisperer/latest/userguide/what-is-cwspr.html">
+  <img src="https://github.com/user-attachments/assets/f2e38fa2-3573-4f6c-91db-1fa379036794" alt="Amazon codewhisperer" style="width: 600px;">
+</a>
 
- - Language Support: CodeWhisperer supports fewer languages than Copilot, primarily focusing on languages and frameworks tied to AWS development (e.g., Python, Java, JavaScript).
- - Integration: CodeWhisperer integrates tightly with AWS environments like Lambda and CodeCommit, whereas Copilot integrates with broader IDEs such as VS Code.
- - AI Model: Both tools offer strong AI-assisted code completion, but Copilot’s Codex model offers a deeper understanding of natural language queries. CodeWhisperer includes security scanning for vulnerabilities, which 
+ - **Language Support:** CodeWhisperer supports fewer languages than Copilot, primarily focusing on languages and frameworks tied to AWS development (e.g., Python, Java, JavaScript).
+ - **Integration:** CodeWhisperer integrates tightly with AWS environments like Lambda and CodeCommit, whereas Copilot integrates with broader IDEs such as VS Code.
+ - **AI Model:** Both tools offer strong AI-assisted code completion, but Copilot’s Codex model offers a deeper understanding of natural language queries. CodeWhisperer includes security scanning for vulnerabilities, which 
    Copilot lacks.
- - Strength: CodeWhisperer is ideal for developers working with AWS infrastructure, especially those looking for integrated security checks. Copilot is more versatile for general development across multiple platforms.
+ - **Strength:** CodeWhisperer is ideal for developers working with AWS infrastructure, especially those looking for integrated security checks. Copilot is more versatile for general development across multiple platforms.
 
 ### IntelliCode (Microsoft) vs. GitHub Copilot
 
-[![image](https://github.com/user-attachments/assets/371fbf09-7b61-46a4-90bb-57124570add2)](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+<a href="https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode">
+  <img src="https://github.com/user-attachments/assets/371fbf09-7b61-46a4-90bb-57124570add2" alt="intellicode" style="width: 600px;">
+</a>
 
- - Language Support: IntelliCode focuses more on Microsoft-supported languages (C#, TypeScript, Python), whereas Copilot supports a wider variety of languages.
- - Integration: IntelliCode is natively integrated into Visual Studio and VS Code, just like Copilot. However, Copilot supports more IDEs (e.g., JetBrains).
- - AI Model: IntelliCode offers AI-assisted code suggestions but doesn’t provide the same natural language to code translation as Copilot, which excels at transforming comments and prompts into code.
- - Strength: IntelliCode is perfect for developers using Microsoft tools extensively, while Copilot is better for those wanting more advanced, flexible AI suggestions across different languages and frameworks.
+ - **Language Support:** IntelliCode focuses more on Microsoft-supported languages (C#, TypeScript, Python), whereas Copilot supports a wider variety of languages.
+ - **Integration:** IntelliCode is natively integrated into Visual Studio and VS Code, just like Copilot. However, Copilot supports more IDEs (e.g., JetBrains).
+ - **AI Model:** IntelliCode offers AI-assisted code suggestions but doesn’t provide the same natural language to code translation as Copilot, which excels at transforming comments and prompts into code.
+ - **Strength:** IntelliCode is perfect for developers using Microsoft tools extensively, while Copilot is better for those wanting more advanced, flexible AI suggestions across different languages and frameworks.
 
 ## Getting Started
 
