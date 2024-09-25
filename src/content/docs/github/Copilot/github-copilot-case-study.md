@@ -3,6 +3,12 @@ title: Github Copilot case study
 author: Bjørn Håvard and Elise
 tags: Github Copilot, Machine learning, AI
 ---
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Brief History](#brief-history)
+3. [Main Features](#main-features)
+4. [Market Comparison](#market-comparison)
+5. [Getting Started](#getting-started)
 
 ## Introduction
 
@@ -56,7 +62,7 @@ This a comparison of GitHub Copilot against the alternatives, focusing on key fa
 
 ### Tabnine vs. GitHub Copilot
 
-<a href="https://www.tabnine.com/get-free-90-day-trial/?utm_term=tabnine&utm_campaign=%5BUS%5D+%7C+%5Ben%5D+%7C+%5Bdesktop%5D+%7C+%5BSearch:Brand%5D+%7C+%5BTabnine%5D&utm_source=adwords&utm_medium=ppc&hsa_acc=4311736126&hsa_cam=21073527735&hsa_grp=159292934283&hsa_ad=713438295761&hsa_src=g&hsa_tgt=kwd-915660947489&hsa_kw=tabnine&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwo8S3BhDeARIsAFRmkOMcafCSEVhPm9gye_aBRZel-NaUK6zn83y4QQjOruSA-Us-RWxohycaAmUkEALw_wcB">
+  <a href="https://www.tabnine.com/get-free-90-day-trial/?utm_term=tabnine&utm_campaign=%5BUS%5D+%7C+%5Ben%5D+%7C+%5Bdesktop%5D+%7C+%5BSearch:Brand%5D+%7C+%5BTabnine%5D&utm_source=adwords&utm_medium=ppc&hsa_acc=4311736126&hsa_cam=21073527735&hsa_grp=159292934283&hsa_ad=713438295761&hsa_src=g&hsa_tgt=kwd-915660947489&hsa_kw=tabnine&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwo8S3BhDeARIsAFRmkOMcafCSEVhPm9gye_aBRZel-NaUK6zn83y4QQjOruSA-Us-RWxohycaAmUkEALw_wcB">
   <img src="https://github.com/user-attachments/assets/414366e1-e193-48b9-9e51-9875e9fe4913" alt="Tabnine" style="width: 600px;">
 </a>
 
@@ -157,48 +163,62 @@ This guide will show you how to get started with GitHub Copilot in Visual Studio
 #### Get code completion suggestions
 - **Automatic code suggestions**:</br>
   To get code suggestions from Copilot all you need to do is type code in your editor and Copilot automatically presents you code suggestions, to help you code more effectively.
-  Below you see a simple example.
-  If you write `<!DOCTYPE>`, Copilot will recognize that the next tag to add is the `<html>` tag. You'll see the suggestion from Copilot in gray, and you can press the **Tab** key to accept it.
-
-  <img src="https://github.com/user-attachments/assets/234fe114-292f-431c-a426-ff4729461912" alt="install-copilot-extension" style="width: 300px;">  
+  Below you see two simple examples.
+  If you press enter after the `<title>` tag, Copilot will recognize that the next tag to add is the `<link>` tag. Or as the second example show, Copilot will add a pharagraph after the `<h1>`.
+  You'll see the suggestions from Copilot in grey, and you can press the **Tab** key to accept it.
+    
+  <img src="https://github.com/user-attachments/assets/9d0133e9-813e-43ca-a198-8bdf4275c869" alt="automatic-suggestions" style="width: 600px;"> 
 
 - **Use comments to get code suggestions**:</br>
   Below are examples of how GitHub Copilot provides code suggestions in HTML, CSS, or JS files based on comments:
 
-  <img src="https://github.com/user-attachments/assets/80c1c93a-3faf-424e-9528-2d5e97b7b3ad" alt="install-copilot-extension" style="width: 600px;">
-
+  <img src="https://github.com/user-attachments/assets/fd6eeb5a-75c2-4a6b-82a2-c9696111433b" alt="suggestions-based-on-comments" style="width: 600px;">
+    
 - **Navigate between multiple suggestions**:</br>
   When GitHub Copilot suggests code in grey, there are often multiple options available. To view different suggestions, hover over the suggestion in the editor, and a control panel will appear.
   You can then use the arrow keys to navigate between the previous and next suggestions.
 
-  <img src="https://github.com/user-attachments/assets/fa264992-369a-45a0-8e60-872935e7f27a" alt="install-copilot-extension" style="width: 600px;">
+  <img src="https://github.com/user-attachments/assets/cff91c49-57ae-4f8e-a10c-4538d49f0e15" alt="navigate-suggestions-in-control-panel" style="width: 600px;">  
 
   Click **Accept** on the suggestion that best fits your needs.</br>
-  You can also click the ellipsis to the right in the panel and select **Open GitHub Copilot**. A new window will open in VS Code, displaying all the different solutions or suggestions.
+
+  You can also click the ellipsis to the right in the panel and select **Open GitHub Copilot** or press `Ctrl + Enter`. A new window will open in VS Code, displaying all the different solutions or suggestions.
   It may take a few seconds for Copilot to synthesize the available options before they are fully visible.
+
+  <img src="https://github.com/user-attachments/assets/904ad6f2-6c53-452c-9ad7-a618db9aeb3f" alt="suggestion-window" style="width: 500px;">
+
 
 #### Use Copilot inline chat
 - **Improve existing code**: Copilot's inline chat is excellent for refactoring or improving existing code. With the inline chat you can ask Copilot for assistance in the moment, without switching context. 
   The Copilot Chat extension is automatically installed along with the GitHub Copilot extension.  
 
-- **To use the inline chat**, press `Ctrl + I` on your keyboard, and a chat interface will appear in your editor. You can use this chat to ask questions about your code. 
+- **To use the inline chat**, press `Ctrl + I` on your keyboard, and a chat interface will appear in your editor. You can use this chat to ask questions about your code.
+
+  <img src="https://github.com/user-attachments/assets/0bb16f87-d12a-4c41-a779-fd2e988d718f" alt="inline-chat-panel" style="width: 500px;">  
+
+  <img src="https://github.com/user-attachments/assets/bc32fb61-e333-43c1-8973-70d3f8bcff21" alt="inline-chat-panel-with-question" style="width: 500px;"> 
+
   Copilot will return a response directly in the editor. Select **Accept** or press `Ctrl + Enter` to apply the proposed code changes.
+
+  <img src="https://github.com/user-attachments/assets/36228173-9b6a-4f92-9d40-bc0d18a2807f" alt="inline-chat-panel-with-answer" style="width: 500px;">
+
 - **Highlighting code**: To provide Copilot with more context about your request, you can highlight a range of code or text in the editor before pressing `Ctrl + I`.
-
-  <img src="https://github.com/user-attachments/assets/5e249ebe-8ac3-44a3-bbf6-c323e9acc931" alt="install-copilot-extension" style="width: 600px;">
-
-#### Copilot Chat for general programming questions
-
-
-
-
-     
-
    
+#### Copilot Chat for general programming questions
+- If you have general programming questions, Copilot Chat is a great tool for learning and exploring.
+  The chat opens on the side, so it won’t interrupt your coding, and it keeps track of all your questions.
+- You can access the Chat view from the Activity Bar or by pressing `Ctrl+Alt+I`.
 
+  <img src="https://github.com/user-attachments/assets/c568d067-6a30-4969-81f8-9794af270795" alt="copilot-general-chat" style="width: 500px;">  
 
+- Simply type your question into the chat input field and press `Enter` to submit your request to Copilot.
 
+  <img src="https://github.com/user-attachments/assets/a149cabb-99b8-4226-9a65-1b83e7f07eda" alt="copilot-general-chat-question-and-answer" style="width: 500px;">  
 
+- The chat response will include both text and a code block.
+  The code block supports IntelliSense, allowing you to get information about methods and symbols by hovering over them or going to their definition.
+
+- For more details on how to get the most out of the general chat and inline chat, visit [Copilot Chat Tutorial](https://code.visualstudio.com/docs/copilot/getting-started-chat) in VS Code Docs
 
 ## Conclusion
 
