@@ -9,6 +9,7 @@ tags: Github Copilot, Machine learning, AI
 3. [Main Features](#main-features)
 4. [Market Comparison](#market-comparison)
 5. [Getting Started](#getting-started)
+6. [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -222,7 +223,16 @@ This guide will show you how to get started with GitHub Copilot in Visual Studio
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+GitHub Copilot is a fantastic tool that makes coding more efficient and is particularly well-suited for repetitive tasks as well as for learning and exploring topics within programming. The combination of code completion, inline chat assistance, and a general chat for more exploratory and general questions allows you to stay focused where you are, instead of switching platforms and programs when problems and questions arise.
+
+In many ways, GitHub Copilot has revolutionized the development process, making developers more productive by allowing them to spend more time on complex problems rather than writing hundreds of lines of streamlined and repetitive code. It helps reduce the time spent looking up syntax or documentation. For beginners, Copilot can act as a teacher, offering code suggestions that can be studied and learned from, especially in combination with the chat function. It will help beginners learn best practices and common patterns in programming. A major advantage is that GitHub Copilot works on several different IDEs, like Visual Studio Code, JetBrains, and Neovim, while also understanding many different programming languages. It is especially good at converting natural language into code, improving overall code quality, and reducing errors.
+
+On the other hand, there are also some drawbacks. GitHub Copilot is trained on publicly available code, meaning one must be very aware of the risk of plagiarizing existing copyrighted code. It also has its limitations, especially in terms of data privacy, as it relies on cloud-based servers for code generation, which may not appeal to teams with strict security requirements.
+
+There is also a risk that developers might rely too much on AI-generated code from Copilot. So, while it is a great tool for streamlining programming, it is still important for the developer to have a deep understanding of the code they write. Over-reliance on Copilot could lead to a decline in coding skills, reducing the ability to think critically and solve problems. The suggestions Copilot provides are good but not always perfect. It is essential for developers to remain vigilant and carefully review the generated code to ensure accuracy.
+
+The future of GitHub Copilot looks bright. What we are seeing now is only the beginning, and after just a short time of use, it’s easy to see that this is a tool that is here to stay. As AI models continue to improve, we can expect even more advanced tools in the future that will handle more complex tasks. Everything from debugging to full-scale project management is something we can expect.
+
 
 ## References
 
@@ -236,8 +246,7 @@ This section can be used to summarize your findings. What are the main advantage
 - [Visual Studio Docs - Set up GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/setup)
 - [YouTube Video Tutorial - Get Started with GitHub Copilot in VS Code](https://www.youtube.com/watch?v=Fi3AJZZregI)
 - [Visual Studio Code - Docs - Getting started with GitHUb Copilot in VS Code](https://code.visualstudio.com/docs/copilot/getting-started)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
+- [Medium - The Future of Coding: How GitHub Copilot AI is Transforming Software Development](https://medium.com/@thavinduwrites/the-future-of-coding-how-github-copilot-ai-is-transforming-software-development-565a3d78c88c)
 
 ## Additional Resources
 
