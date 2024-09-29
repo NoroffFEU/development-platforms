@@ -27,6 +27,8 @@ Github copilot is a code completion tool intergrating AI learning into the codin
 - **2023 (March)** - GitHub [Copilot X](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience/) was announced. This expansion include an adoption of OpenAI's new GPT-4 model and introducing new features, such as chat and voice for Copilot, bringing Copilot to pull requests, the command line, and docs.
 -  To explore the complete history and stay updated on the latest releases, visit the official GitHub Copilot changelog at: [GitHub Copilot Changelog](https://github.blog/changelog/label/copilot/).
 
+
+
 ## Main Features
 
 GitHub Copilot is an AI-powered coding assistant developed by GitHub in collaboration with OpenAI. Its main features include:
@@ -256,3 +258,7 @@ The future of GitHub Copilot looks bright. What we are seeing now is only the be
 - [Amazon Codewhisperer](https://docs.aws.amazon.com/codewhisperer/latest/userguide/what-is-cwspr.html)
 - [Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
   
+## Authors
+
+- Elise Aurtande
+- Bjørn Håvard Steinnes
