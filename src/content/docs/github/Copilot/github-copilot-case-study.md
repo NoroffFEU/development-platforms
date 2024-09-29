@@ -13,6 +13,9 @@ tags: Github Copilot, Machine learning, AI
 
 ## Introduction
 
+<img src="https://github.com/user-attachments/assets/ee091dbc-c378-44e6-b0f9-432857f36edb" style="width: 600px;" />
+
+
 Github copilot is a code completion tool intergrating AI learning into the coding platform. Developed by Github and OpenAi for autocompleting bits of code to assist developers in Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments. A helpful tool for developers that makes it easier to type in large amounts of code in a faster way. 
 
 ## Brief History
