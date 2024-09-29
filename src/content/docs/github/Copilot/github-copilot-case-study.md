@@ -1,6 +1,6 @@
 ---
 title: Github Copilot case study
-author: Bjørn Håvard and Elise
+author: Bjørn Håvard Steinnes and Elise Aurtande
 tags: Github Copilot, Machine learning, AI
 ---
 ## Table of Contents
