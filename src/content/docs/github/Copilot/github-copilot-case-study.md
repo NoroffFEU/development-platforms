@@ -263,5 +263,5 @@ The future of GitHub Copilot looks bright. What we are seeing now is only the be
   
 ## Authors
 
-- Elise Aurtande
-- Bjørn Håvard Steinnes
+- [Elise Aurtande](https://github.com/EliseAur)
+- [Bjørn Håvard Steinnes](https://github.com/bjornhaavard)
