@@ -13,7 +13,7 @@ tags: Github Copilot, Machine learning, AI
 
 ## Introduction
 
-<img src="https://github.com/user-attachments/assets/ee091dbc-c378-44e6-b0f9-432857f36edb" style="width: 600px;" />
+<img src="https://github.com/user-attachments/assets/ee091dbc-c378-44e6-b0f9-432857f36edb" alt="Screenshot of copilot" style="width: 600px;" />
 
 
 Github copilot is a code completion tool intergrating AI learning into the coding platform. Developed by Github and OpenAi for autocompleting bits of code to assist developers in Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments. A helpful tool for developers that makes it easier to type in large amounts of code in a faster way. 
@@ -55,7 +55,7 @@ This makes it less timeconsuming to add code in your project as you progress sin
 
 ### Copilot chat example:
 
-<img src="https://github.com/user-attachments/assets/11363817-3df6-414d-8941-2d7238f84aac" style="width: 600px;"/>
+<img src="https://github.com/user-attachments/assets/11363817-3df6-414d-8941-2d7238f84aac" alt="Screenshot of copilot chat" style="width: 600px;"/>
 
 The chat function is an excellent feature that offers an AI prompt within the VSC editor, providing on-demand assistance for your project.
 
