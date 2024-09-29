@@ -148,21 +148,21 @@ This guide will show you how to get started with GitHub Copilot in Visual Studio
    Open the **Extensions: Marketplace** and search for GitHub Copilot.
    Install the extension:
      
-   <img src="https://github.com/user-attachments/assets/00cb882d-e6d9-44b8-af7f-6e40739ab686" alt="install-copilot-extension" style="width: 600px;">  
-   <img src="https://github.com/user-attachments/assets/5dcc43fe-2a8a-4e5b-888c-3f8d775956a5" alt="install-copilot-extension" style="width: 600px;">
+   <img src="https://github.com/user-attachments/assets/00cb882d-e6d9-44b8-af7f-6e40739ab686" alt="install-copilot-extension-step-1" style="width: 600px;">  
+   <img src="https://github.com/user-attachments/assets/5dcc43fe-2a8a-4e5b-888c-3f8d775956a5" alt="install-copilot-extension-step-2" style="width: 600px;">
      
    After that is installed, Copilot will prompt you to sign in to GitHub:
 
-   <img src="https://github.com/user-attachments/assets/689c8204-7b91-4c7d-a830-87baad61e256" alt="install-copilot-extension" style="width: 600px;">
+   <img src="https://github.com/user-attachments/assets/689c8204-7b91-4c7d-a830-87baad61e256" alt="sign-in-to-github" style="width: 600px;">
      
    After signing in to GitHub, check the **Copilot status** in Visual Studio Code. Open VS Code and look for the GitHub Copilot icon in the lower-right corner of the status bar. This icon indicates that
    GitHub Copilot is active:
 
-   <img src="https://github.com/user-attachments/assets/26ea980f-c39a-4487-b277-7acc78e1bbcf" alt="install-copilot-extension" style="width: 600px;">
+   <img src="https://github.com/user-attachments/assets/26ea980f-c39a-4487-b277-7acc78e1bbcf" alt="check-copilot-status-step-1" style="width: 600px;">
      
    Click the GitHub Copilot icon to open the Copilot status. The Copilot status should show **Ready**:
 
-   <img src="https://github.com/user-attachments/assets/461fab17-8d17-45d5-9612-50934604cc07" alt="install-copilot-extension" style="width: 600px;">  
+   <img src="https://github.com/user-attachments/assets/461fab17-8d17-45d5-9612-50934604cc07" alt="check-copilot-status-step-2" style="width: 600px;">  
 
 ### How to use GitHub Copilot (key features)
 
