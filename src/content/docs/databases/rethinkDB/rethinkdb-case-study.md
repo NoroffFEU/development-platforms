@@ -1,6 +1,7 @@
 ---
 title: rethinkDB Case Study
 author: Aashild L. Rasmussen <aa096>
+tags: Development platforms, Case Study, rethinkDB, NoSQL 
 ---
 
 ## Introduction
