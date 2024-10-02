@@ -90,6 +90,8 @@ To add bootstrap to yout project just follow this guide.
 
 ### Option 1: CDN Link
 
+Ideal for prototyping or when you don't need to customize Bootstrap.
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -108,7 +110,9 @@ To add bootstrap to yout project just follow this guide.
 
 ### Option 2: install using npm
 
-You need to install node.js for this to work (link included in the "Additional Resources" section)
+This method is best for when you want to customize Bootstrap.
+
+You need to install node.js for this to work (link included in the "Additional Resources" section).
 
 First create a package.json by using this command in your project directory:
 
@@ -122,7 +126,7 @@ After the package.json is created use this command to install Bootstrap:
 npm install bootstrap
 ```
 
-The import Bootstrap into your main JavaScript file:
+Then import Bootstrap into your main JavaScript file:
 
 ```javascript
 import "bootstrap";
@@ -149,4 +153,6 @@ Bootstrap is great for beginners because of the great documentation with many ex
 
 - [Get started with Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [Package Managers](https://getbootstrap.com/docs/5.3/getting-started/download/#package-managers)
+- [Bootstrap and Webpack](https://getbootstrap.com/docs/5.3/getting-started/webpack/)
+- [Webpack (older version)](https://getbootstrap.com/docs/4.0/getting-started/webpack/)
 - [Download Node.js](https://nodejs.org/en/download/package-manager)
