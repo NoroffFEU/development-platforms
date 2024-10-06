@@ -1,9 +1,9 @@
 
-#Title: A case study of Astro 🚀
+# Title: A case study of Astro 🚀
 Author: Anine Teigland, github.com/AniTei
 
 
-##Introduction
+## Introduction
 
 This is the course assignment for the course Development Platforms at Noroff, fall 2024. It is a case study looking at the tool Astro. I first heard of Astro while paging through stories on Instagram. One of the accounts I follow had put out something about building websites with Astro. This made me curious, and I figured this assignment would be perfect for exploring this tool further.
 
