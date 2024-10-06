@@ -22,23 +22,23 @@ Astro is a relatively new tool, so it’s history is also relatively short. I ha
 - 2021, June 08, Fred Schott and Nate Moore publish the blogpost Introducing Astro: Ship Less JavaScript, (on astro.build).
 - 2022, April 04, Fred Scott and Nate Moore publish the blogpost Astro 1.0 Beta Release. The beta version (on astro.build). They write:
 	- It should be impossible (or at least very difficult) to build a slow site in Astro. By default, Astro helps you build sites that ship zero JavaScript to the browser. Astro’s built-in component syntax generates static HTML as much as possible, only sending down JavaScript for any interactive parts of your page. 
-We designed Astro’s language syntax to be simple, with the hope that anyone could pick it up regardless of background or skill level.
-The web deserves a framework-agnostic foundation, Astro supports all of the popular UI frameworks
+	- We designed Astro’s language syntax to be simple, with the hope that anyone could pick it up regardless of background or skill level.
+	- The web deserves a framework-agnostic foundation, Astro supports all of the popular UI frameworks
 - 2022, August 09, Fred Schott publishes the blogpost Astro 1.0. (on astro.build)
-Astro renders your entire site to static HTML during the build. The result is a fully static website with all JavaScript removed from the final page. […] just static HTML that loads as fast as possible in the browser […].
+	- Astro renders your entire site to static HTML during the build. The result is a fully static website with all JavaScript removed from the final page. […] just static HTML that loads as fast as possible in the browser […].
 - 2023, January 24, Astro 2.0
-Hybrid rendering. Hybrid rendering gives you the choice to prerender certain pages without giving up your deployed server. Prerendering builds pages ahead-of-time so that all of those requests load instantly.
+	- Hybrid rendering. Hybrid rendering gives you the choice to prerender certain pages without giving up your deployed server. Prerendering builds pages ahead-of-time so that all of those requests load instantly.
 - 2023, August 30, Astro 3.0
-Image optimization is now stable in Astro 3.0 and available in all projects. (Also highlighted by Kramer 2024)
-View Transitions, new platform APIs that unlock native browser transition effects between pages. Historically this has only been possible in Single Page Applications (SPAs).
+	- Image optimization is now stable in Astro 3.0 and available in all projects. (Also highlighted by Kramer 2024)
+	- View Transitions, new platform APIs that unlock native browser transition effects between pages. Historically this has only been possible in Single Page Applications (SPAs).
 - 2023, December 05, Astro 4.0
-Dev tool bar
-Redesigned documentation
-Here we see the developer experience being prioritized, this has been a focus from the first beta version, (framework-agnostic, simple syntax not demanding great background skills,) this is a continuation of prioritizing developer experience.   
+	- Dev tool bar
+	- Redesigned documentation
+	- Here we see the developer experience being prioritized, this has been a focus from the first beta version, (framework-agnostic, simple syntax not demanding great background skills,) this is a continuation of prioritizing developer experience.   
 -2024, September 17, Astro 5.0 Beta Release
-Astro 5.0 introduces the Astro Content Layer
-Server islands are a new primitive coming to Astro 5 allowing you to defer the rendering of dynamic content until after the initial page load.
-In Astro 5, it is now easier […] to create a website with both static, cached, performant pages and rendered on-demand, dynamic pages.
+	- Astro 5.0 introduces the Astro Content Layer
+	- Server islands are a new primitive coming to Astro 5 allowing you to defer the rendering of dynamic content until after the initial page load.
+	- In Astro 5, it is now easier […] to create a website with both static, cached, performant pages and rendered on-demand, dynamic pages.
 - Currently: the the most recent version is 4.15.11, and the 5.0 Beta version has been released
 
 To summarize Astro started as a simple tool for making static websites, but has grown to do a lot more, similar to other tools like Next.js (Kramer, 2024).
