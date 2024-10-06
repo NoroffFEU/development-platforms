@@ -150,19 +150,19 @@ https://github.com/withastro/astro
 Astro Docs:
 https://docs.astro.build/en/getting-started/
 
-Cook, K. (2022, February 12) Why I Switched To Astro But You Probably Shouldn’t. Web Dev Simplified, YouTube. https://jwn.gr/posts/migrating-from-gatsby-to-astro/ 
+Cook, K. (2022, February 12)* Why I Switched To Astro But You Probably Shouldn’t.* Web Dev Simplified, YouTube. https://jwn.gr/posts/migrating-from-gatsby-to-astro/ 
 
-Kramer, N. (2024, Mars 27) Get to know Astro: The web framework for content-driven websites. daily.dev. https://daily.dev/blog/get-to-know-astro-the-web-framework-for-content-driven-websites
+Kramer, N. (2024, Mars 27) *Get to know Astro: The web framework for content-driven websites.* daily.dev. https://daily.dev/blog/get-to-know-astro-the-web-framework-for-content-driven-websites
 
-MacManus, R. (2024, March 07) Astro’s Journey from Static Site Generator to Next.js Rival. Thenewstack. https://thenewstack.io/astros-journey-from-static-site-generator-to-next-js-rival/ 
+MacManus, R. (2024, March 07) *Astro’s Journey from Static Site Generator to Next.js Rival.* Thenewstack. https://thenewstack.io/astros-journey-from-static-site-generator-to-next-js-rival/ 
  
-Ohans, E. (2023, November 17) Astro adoption guide: Overview, examples, and alternatives. LogRocket. https://blog.logrocket.com/astro-adoption-guide  
+Ohans, E. (2023, November 17) *Astro adoption guide: Overview, examples, and alternatives.* LogRocket. https://blog.logrocket.com/astro-adoption-guide  
 
-Palmowski, M (2023, June 14, updated October 19) What is Astro? An Introduction to the Popular Static Site Generator. Kinsta. https://kinsta.com/blog/astro-js/
+Palmowski, M (2023, June 14, updated October 19) *What is Astro? An Introduction to the Popular Static Site Generator.* Kinsta. https://kinsta.com/blog/astro-js/
 
-Schott F. and Edelstein, B. (2021, June 25) Founder Friday: Fred Schott of Astro. PodRocket. https://open.spotify.com/episode/1EfcigVHrOxsEMmbsjo56f
+Schott F. and Edelstein, B. (2021, June 25) *Founder Friday: Fred Schott of Astro.* PodRocket. https://open.spotify.com/episode/1EfcigVHrOxsEMmbsjo56f
 
-Sharif, M. (2024, updated September 01) What is Astro? A Step-by-Step Tutorial for Beginners in 2024. Themefisher. https://themefisher.com/astro-js-introduction
+Sharif, M. (2024, updated September 01) *What is Astro? A Step-by-Step Tutorial for Beginners in 2024.* Themefisher. https://themefisher.com/astro-js-introduction
 
 Wenger, J. (2024, September 10), *From Gatsby gridlock to Astro bliss: my personal site redesign.* jwn.gr https://jwn.gr/posts/migrating-from-gatsby-to-astro/ 
 
