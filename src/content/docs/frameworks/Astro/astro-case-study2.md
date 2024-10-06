@@ -164,7 +164,7 @@ Schott F. and Edelstein, B. (2021, June 25) Founder Friday: Fred Schott of Astro
 
 Sharif, M. (2024, updated September 01) What is Astro? A Step-by-Step Tutorial for Beginners in 2024. Themefisher. https://themefisher.com/astro-js-introduction
 
-Wenger, J. (2024, September 10), From Gatsby gridlock to Astro bliss: my personal site redesign. jwn.gr https://jwn.gr/posts/migrating-from-gatsby-to-astro/ 
+Wenger, J. (2024, September 10), *From Gatsby gridlock to Astro bliss: my personal site redesign.* jwn.gr https://jwn.gr/posts/migrating-from-gatsby-to-astro/ 
 
 
 ## Additional Resources
