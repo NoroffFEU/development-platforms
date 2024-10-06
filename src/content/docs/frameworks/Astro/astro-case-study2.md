@@ -39,7 +39,7 @@ Here we see the developer experience being prioritized, this has been a focus fr
 Astro 5.0 introduces the Astro Content Layer
 Server islands are a new primitive coming to Astro 5 allowing you to defer the rendering of dynamic content until after the initial page load.
 In Astro 5, it is now easier […] to create a website with both static, cached, performant pages and rendered on-demand, dynamic pages.
--Currently: the the most recent version is 4.15.11, and the 5.0 Beta version has been released
+- Currently: the the most recent version is 4.15.11, and the 5.0 Beta version has been released
 
 To summarize Astro started as a simple tool for making static websites, but has grown to do a lot more, similar to other tools like Next.js (Kramer, 2024).
 
