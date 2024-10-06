@@ -21,7 +21,7 @@ Astro is a relatively new tool, so it’s history is also relatively short. I ha
 - Earliest private Beta: Astro is built by the team of open source developers behind Snowpack and Skypack, with additional contributions from the community. (Schott and Edelstein, 2021; astro.build/blog/introducing-astro/). Astro is also built on Snowpack. 
 - 2021, June 08, Fred Schott and Nate Moore publish the blogpost Introducing Astro: Ship Less JavaScript, (on astro.build).
 - 2022, April 04, Fred Scott and Nate Moore publish the blogpost Astro 1.0 Beta Release. The beta version (on astro.build). They write:
-It should be impossible (or at least very difficult) to build a slow site in Astro. By default, Astro helps you build sites that ship zero JavaScript to the browser. Astro’s built-in component syntax generates static HTML as much as possible, only sending down JavaScript for any interactive parts of your page. 
+	- It should be impossible (or at least very difficult) to build a slow site in Astro. By default, Astro helps you build sites that ship zero JavaScript to the browser. Astro’s built-in component syntax generates static HTML as much as possible, only sending down JavaScript for any interactive parts of your page. 
 We designed Astro’s language syntax to be simple, with the hope that anyone could pick it up regardless of background or skill level.
 The web deserves a framework-agnostic foundation, Astro supports all of the popular UI frameworks
 - 2022, August 09, Fred Schott publishes the blogpost Astro 1.0. (on astro.build)
