@@ -150,7 +150,7 @@ https://github.com/withastro/astro
 Astro Docs:
 https://docs.astro.build/en/getting-started/
 
-Cook, K. (2022, February 12)* Why I Switched To Astro But You Probably Shouldn’t.* Web Dev Simplified, YouTube. https://jwn.gr/posts/migrating-from-gatsby-to-astro/ 
+Cook, K. (2022, February 12) *Why I Switched To Astro But You Probably Shouldn’t.* Web Dev Simplified, YouTube. https://jwn.gr/posts/migrating-from-gatsby-to-astro/ 
 
 Kramer, N. (2024, Mars 27) *Get to know Astro: The web framework for content-driven websites.* daily.dev. https://daily.dev/blog/get-to-know-astro-the-web-framework-for-content-driven-websites
 
