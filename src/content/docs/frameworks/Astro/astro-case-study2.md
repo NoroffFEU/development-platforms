@@ -9,12 +9,12 @@ This is the course assignment for the course Development Platforms at Noroff, fa
 
 In this case study I will be going over the history of Astro briefly. I will also present some of its main features, what it actually does, and why it’s useful. I will also compare it to some of the other tools on the market that are similar, or aim to solve some of the same problems. I have also included how to get started. Finally there is a conclusion summarizing the case study, as well as some of my thoughts on this assignment.
 
-###What is Astro?
+### What is Astro?
 Before moving on to the details, I have included a short paragraph of what Astro actually is. 
 
 In short Astro is a website build tool, it is a JavaScript web framework for building content-driven websites. It aims to improve the developer experience (DX), while creating a lightweight output. It achieves this by improving website performance by rendering components on the server, sending lightweight HTML to the browser without unnecessary JavaScript overhead. Astro is also free, and an open-source software. (astro.build; https://github.com/withastro/astro) 
 
-##Brief history
+## Brief history
 
 Astro is a relatively new tool, so it’s history is also relatively short. I have chosen to structure its history around the different versions released. 
 
@@ -44,29 +44,29 @@ Currently: the the most recent version is 4.15.11, and the 5.0 Beta version has 
 To summarize Astro started as a simple tool for making static websites, but has grown to do a lot more, similar to other tools like Next.js (Kramer, 2024).
 
 
-##Main features
+## Main features
 
 Like previously mentioned the main problem Astro seeks to solve is websites being slow and heavy. By using server side rendering, turning Javascript into static HTML, Astro makes content focused websites fast and light. This is accomplished with features like island architecture, partial/ gradual hydration, less JavaScript, it is also framework-agnostic. I will describe these features more closely. There are also more features like components, view transitions, image optimization, hybrid rendering, themes, and more, but I will not be going into more detail for them because of the scope of this assignment.
 
 
-###Zero JavaScript by Default
+### Zero JavaScript by Default
 
 Astro uses what they call zero JavaScript by default, this means that components don’t render on the client, but to HTML using server-side rendering (MacManus). In other words, the webpage is created ahead of time, and therefore don’t need JavaScript to work, this way pages can show up super fast(Kramer, 2024). You can still use JavaScript to create the website, but the default for Astro is to deploy the site with zero JavaScript, having transcribed it (Palmowski, 2023). The result is exceptionally fast loading, making it ideal for static site generation, while still allowing for dynamic content when needed (Sharif, 2024).
 
 
-###Island architecture
+### Island architecture
 
 The island architecture can be said to be the heart of Astros design, allowing developers to create components that can be rendered as HTMS, but that also can be enhanced with JavaScript (Sharif, 2024). These components can be based on something created in a UI-framework, and Astro turns it into an island (Palmowski, 2023). These islands lets you add bits of interactivity to your pages over time, you can choose to make some parts interactive. This keeps things lightweight, because only the parts that need to be interactive will use JavaScript (Kramer, 2024). In other words, you get the best of both worlds. 
 
-###Framework-agnostic
+### Framework-agnostic
 
 As already mentioned islands can be based on something created in a UI-framework. What framework is up to the user though, and this possibility for the user to choose, is what makes Astro agnostic in terms of UI-framework. This means you can make use of components already written in other frameworks (MacManus), this allows developers to leverage existing expertise because of an adaptable development environment(Sharif). It is also possible to use multiple frameworks at once (Palmowski). Frameworks mentioned are React, Vue, Svelte, Solid, Tailwind, MDX (MacManus; Sharif).
 
-###SEO
+### SEO
 
 There has also been speculation on wether Astro improves SEO, but I have not been able to find anything definite, the speculations imply fast HTML-based sites aid SEO, but how search engines find and display results is also not set in stone (MacManus, Ohans, Sharif).
 
-###DX
+### DX
 
 In addition to these features (and others not elaborated on here), the creators of Astro has had a user centered approach from the start. They have not only focused on what the software can do, but how it feels using it. 
 
@@ -75,17 +75,17 @@ In their first blogpost they quote Jeff Atwood «A well-designed system makes it
 In my time learning about Astro, several blogposts, podcasts, and videos, has mentioned DX (see for example Ohans, MacManus, yt?), that is the experience of the developer. This was a new term for me, but I can definitely appreciate the idea of a software not only being able to do specific things, but also making the doing feel simple for the developer. Several sources pointing out the developer experience has been one of the impressions that has stuck with me.
 
 
-##Market comparison
+## Market comparison
 
 
-###Next
+### Next
 
 In several of the sources I have used, Astro is compared to Next.js, sometimes as an afterthought, and sometimes thoroughly and systematically. Both Astro and Next are open-source projects with significant communities connected to them, and modern JavaScript frameworks designed for creating performant user interfaces. An obvious place they differ is that Astro started out as a static site generator, and Next began as a framework for building rich applications with state management capabilities. While they have both changed over the years, considering the outset, might help us make a choice when deciding on what to use for a specific project and its needs. (Ohans, 2023).
 
 The main difference is maybe that Next requires JavaScript and Astros default is Zero JavaScript. Astro also has its island architecture and partial hydration. And while Astro is UI-famework agnostic, Next uses primarily React. Astro is the fastest growing of the two, but Next is still the biggest one, and has been around for longer. 
 
 
-###Gatsby
+### Gatsby
 
 Gatsby and Astro have in common that they are both static site generators. Where Gatsby and Astro differ is in how they handle rendering and interactivity: Gatsby generates static HTML at build time, then hydrates into a Single Page Application (SPA) using React, with navigations being handled in JavaScript.  Astro is designed as a Multi-Page Application (MPA) by default, shipping minimal JavaScript and delivering static HTML via full page reloads. (Wenger, 2024)
 
@@ -94,12 +94,12 @@ One of the first videos I watched on Astro was Why I Switched To Astro But You P
 A quick googling of Astro vs Gatsby gives mostly results telling about transitioning from Gatsby to Astro. While this in itself is no proof of one being better than the other, it seems to be a tendency that users are not quite happy with Gatsby, and Astro stands out as a good alternative. 
 
 
-###Others
+### Others
 
 Other tools mentioned in comparison to Astro are Nuxt.js, Remix, SvelteKit, Jekyll, and Wordpress.
 
 
-##Getting started
+## Getting started
 
 In order to use Astro you need to install it and set it up. The documentation is very helpful, but I will go over the basics here. 
 
@@ -130,7 +130,7 @@ You can also start a new astro project based on an official example or the main 
 
 
 
-##Conclusion
+## Conclusion
 
 When starting this case study, my knowledge about Astro was very limited, This project started with me stumbling upon an unfamiliar tool in someones instagram stories, and has led me to more curiosity. 
 
@@ -139,7 +139,7 @@ In conclusion Astro is a framework that has gained many users through the last c
 I also think they have a good focus with having the developer in mind, not just what the software can do, but how it feels for the developer to make it do something. Several sources pointing out the developer experience has been one of the factors that has made me want to explore the tool further, in a more practical way, in the future.
 
 
-##Resources
+## Resources
 
 Astro website:
 https://astro.build/
@@ -167,7 +167,7 @@ Sharif, M. (2024, updated September 01) What is Astro? A Step-by-Step Tutorial f
 Wenger, J. (2024, September 10), From Gatsby gridlock to Astro bliss: my personal site redesign. jwn.gr https://jwn.gr/posts/migrating-from-gatsby-to-astro/ 
 
 
-##Additional Resources
+## Additional Resources
 
 Follow the development of astro on their blog:
 https://astro.build/blog 
