@@ -1,3 +1,9 @@
+---
+title: Astro Case Study
+author: Anine Teigland <AniTei>
+tags: astro, frameworks
+---
+
 
 # Title: A case study of Astro 🚀
 Author: Anine Teigland, github.com/AniTei
