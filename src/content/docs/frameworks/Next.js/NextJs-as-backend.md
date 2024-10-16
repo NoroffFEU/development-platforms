@@ -169,6 +169,124 @@ By visiting `/api/graphql`, developers can interact with the GraphQL server, sen
 
 A comparison between GraphQL and REST in the context of Next.js reveals that GraphQL's flexibility makes it a suitable choice for applications requiring highly customized data fetching.
 
+### Middleware
+
+Middleware in Next.js allows developers to run custom code before a request is completed, providing a flexible way to handle requests, responses, and route changes. Middleware is often used for tasks like authentication, logging, and rewriting URLs before they reach the endpoint. In Next.js, middleware can be used in conjunction with API Routes or on specific pages to control access or modify behavior at runtime.
+
+#### Examples of Middleware Use Cases
+
+- Authentication: Middleware can be used to verify if a user is authenticated before allowing access to certain pages or API routes. This ensures that unauthorized users cannot access restricted content.
+
+- Logging: Middleware can log details about incoming requests, such as request URLs and headers, which can be useful for debugging or analytics.
+
+- URL Rewrites: Middleware can dynamically modify incoming requests by rewriting URLs, allowing for more flexible routing without modifying the existing codebase.
+
+To create middleware in Next.js, you can create a `middleware.js` file in the root of your project or in a specific directory:
+
+```javascript
+// File: middleware.js
+import { NextResponse } from "next/server";
+
+export function middleware(req) {
+	const url = req.nextUrl;
+	if (url.pathname.startsWith("/admin")) {
+		const token = req.cookies.get("token");
+		if (!token) {
+			return NextResponse.redirect("/login");
+		}
+	}
+	return NextResponse.next();
+}
+```
+
+In this example, the middleware checks if the request is trying to access a path that starts with `/admin`. If the user does not have a valid token, they are redirected to the login page.
+
+### API Middleware
+
+API Middleware in Next.js allows for better modularization and reusability across multiple API routes. Middleware functions can be executed before the main logic of an API route, enabling developers to handle tasks such as authentication, validation, or rate limiting in a consistent way across different endpoints.
+
+#### Examples of API Middleware Use Cases
+
+- Authentication: Protect specific API routes by ensuring that only authenticated users can access them.
+
+- Data Validation: Ensure that incoming requests contain valid data before allowing further processing. This prevents malformed or incorrect data from being processed by the main logic.
+
+- Rate Limiting: Prevent abuse by limiting the number of requests a user can make to certain endpoints within a defined time frame.
+
+API Middleware can be added to API routes in Next.js by using reusable middleware functions, which can be imported and applied to different endpoints as needed.
+
+**Code Example**:
+
+```javascript
+// File: middleware/validateData.js
+export function validateData(req, res, next) {
+	const { name, price } = req.body;
+	if (!name || !price) {
+		res.status(400).json({ error: "Product name and price are required" });
+	} else {
+		next();
+	}
+}
+
+// File: pages/api/products.js
+import { validateData } from "../../middleware/validateData";
+
+export default function handler(req, res) {
+	if (req.method === "POST") {
+		validateData(req, res, () => {
+			// Main logic after validation
+			const newProduct = { id: Date.now(), ...req.body };
+			res.status(201).json(newProduct);
+		});
+	} else {
+		res.status(405).json({ error: "Method Not Allowed" });
+	}
+}
+```
+
+In this example, the `validateData` middleware checks if the required fields (`name` and `price`) are present in the request body. If the validation passes, the `next()` function is called to proceed with the main logic of the API route. This approach helps to maintain clean and modular code, promoting reusability across different API endpoints.
+
+### Custom Server
+
+Next.js allows developers to create a Custom Server to gain full control over the server-side logic and routing. By default, Next.js comes with its own server, which handles requests and renders pages, but for more complex use cases, a custom server can be beneficial. Using a custom server allows for advanced routing, adding custom middleware, or integrating with additional server frameworks.
+
+With a custom server, you can integrate solutions such as Express or Fastify to handle more complex server-side requirements that are beyond the scope of Next.js API Routes.
+
+#### Example of Custom Server with Express
+
+```javascript
+// File: server.js
+const express = require("express");
+const next = require("next");
+
+const dev = process.env.NODE_ENV !== "production";
+const app = next({ dev });
+const handle = app.getRequestHandler();
+
+app.prepare().then(() => {
+	const server = express();
+
+	// Custom route
+	server.get("/p/:id", (req, res) => {
+		const actualPage = "/post";
+		const queryParams = { id: req.params.id };
+		app.render(req, res, actualPage, queryParams);
+	});
+
+	// Default Next.js request handler
+	server.all("*", (req, res) => {
+		return handle(req, res);
+	});
+
+	server.listen(3000, (err) => {
+		if (err) throw err;
+		console.log("> Ready on http://localhost:3000");
+	});
+});
+```
+
+In this example, the custom server uses Express to manage requests. A custom route is created for paths like `/p/:id`, which renders the post page with query parameters. The custom server provides greater flexibility compared to the default Next.js server, allowing developers to implement additional features and custom behaviors.
+
 ### Database Integration
 
 One of the core strengths of Next.js as a backend framework is its ability to connect to various databases. Developers can integrate databases like MongoDB or PostgreSQL with ease, using ORMs like Mongoose or Prisma to simplify database operations.
@@ -310,6 +428,54 @@ export default async function handler(req, res) {
 ```
 
 In this example, Prisma is used to interact with a PostgreSQL database. The API route handles both `GET` and `POST` requests to fetch all products or add a new product, respectively.
+
+### Incremental Static Regeneration (ISR)
+
+Incremental Static Regeneration (ISR) allows you to update static pages after they have been built, providing a way to keep content fresh without requiring a full rebuild of the application. ISR combines the benefits of static site generation—fast loading and pre-rendered pages—with the flexibility of dynamically updating content.
+
+With ISR, pages are statically generated at build time and then updated incrementally based on a revalidation period. This means that content can be updated without having to rebuild the entire site, making it an ideal solution for pages that change frequently, such as blogs, product catalogs, or news sites.
+
+#### Example of ISR Usage
+
+Consider an e-commerce website that has a product catalog. Using ISR, the product pages can be initially generated as static pages during the build. If the product information changes (e.g., price updates or new stock), ISR allows those pages to be revalidated after a set interval, such as every 60 seconds, ensuring that users always see up-to-date content.
+
+To use ISR in a Next.js page, you can specify the `revalidate` property in `getStaticProps`:
+
+```javascript
+export async function getStaticProps() {
+	const productData = await fetchProductData();
+
+	return {
+		props: {
+			product: productData,
+		},
+		revalidate: 60, // Revalidate the page every 60 seconds
+	};
+}
+```
+
+In this example, the page will be statically generated during the build, and then Next.js will regenerate it in the background whenever a user visits the page after the 60-second revalidation window has expired. This approach helps balance performance with keeping content fresh, providing a great user experience.
+
+### Preview Mode
+
+Preview Mode in Next.js allows developers to bypass the static generation of a page to display unpublished or draft content. This feature is particularly useful when integrating with content management systems (CMS) where editors need to see changes before publishing them to live users. By enabling preview mode, the server dynamically renders content based on unpublished data, allowing for a complete preview experience.
+
+#### Example of Using Preview Mode
+
+To enable preview mode, you can use the `res.setPreviewData()` method inside an API route to activate the preview for the user. Once preview mode is enabled, subsequent requests to the application will bypass the static cache, enabling dynamic rendering.
+
+```javascript
+// File: pages/api/preview.js
+export default function handler(req, res) {
+	// Enable Preview Mode
+	res.setPreviewData({});
+	// Redirect user to the home page (or any other page)
+	res.writeHead(307, { Location: "/" });
+	res.end();
+}
+```
+
+In this example, the `setPreviewData()` function enables preview mode, and the user is redirected to the specified page, which will now render dynamic, unpublished content. To exit preview mode, developers can use the `res.clearPreviewData()` method to disable it.
 
 ### Serverless Functions
 
@@ -519,7 +685,7 @@ For an e-commerce site, you could use SWR to manage product data fetching on the
 
 _SWR (Stale-While-Revalidate) is a data fetching library developed by Vercel that provides a simple and lightweight approach to data fetching, caching, and revalidation. It ensures that users see the most up-to-date information by revalidating data in the background, which makes interactions smoother and enhances the overall user experience._
 
-For instance, when users browse products, SWR can be used to efficiently fetch and cache product data, ensuring that browsing remains smooth even during high-traffic times. On the server side, Next.js can use server-side props (getServerSideProps) to ensure that product information, such as inventory levels, is always up-to-date.
+For instance, when users browse products, SWR can be used to efficiently fetch and cache product data, ensuring that browsing remains smooth even during high-traffic times. On the server side, Next.js can use server-side props (`getServerSideProps`) to ensure that product information, such as inventory levels, is always up-to-date. `getServerSideProps` is a function that allows you to fetch data on each request, making it ideal for pages that need to display dynamic data that changes frequently. Similarly, `getStaticProps` can be used to fetch data at build time for pages that don't need to update frequently, which helps in achieving faster load times by serving pre-rendered content.
 
 **Code Example**:
 
@@ -770,3 +936,5 @@ Developers should consider Next.js when they need a seamless integration of fron
 8. Datadog. "Datadog Monitoring Documentation." [https://docs.datadoghq.com/](https://docs.datadoghq.com/)
 9. AWS. "AWS Lambda Documentation." [https://docs.aws.amazon.com/lambda/latest/dg/welcome.html](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
 10. Google Cloud. "Google Cloud Platform Documentation." [https://cloud.google.com/docs](https://cloud.google.com/docs)
+11. Socket.IO. "Socket.IO Documentation." [https://socket.io/docs/](https://socket.io/docs/)
+12. MDN Web Docs. "Server-Sent Events." [https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
