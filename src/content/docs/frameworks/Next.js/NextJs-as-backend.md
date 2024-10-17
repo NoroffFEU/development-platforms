@@ -1,7 +1,7 @@
 ---
 title: Next.js as a Backend
 author: Torgeir Helgesen Riseth <@tTownTom>
-tags: next.js, backend, api, server, serverless, edge computing, authentication, authorization, database, deployment, scaling
+tags: next.js, backend, api, server, serverless, edge computing, authentication, authorization, deployment, scaling
 ---
 
 ![Next.js logo](https://www.0xkishan.com/_next/image?url=%2Fblogs%2Fnextjs%2Fhero.png&w=3840&q=75)
@@ -38,17 +38,17 @@ Below we will be exploring these topics closer. Each feature will be examined in
 
 ### Building APIs with Next.js
 
-#### REST APIs
-
-Next.js allows developers to create RESTful endpoints using API Routes, making it simple to add backend functionality without needing an additional server framework. API Routes can be organized by following best practices, including creating modular endpoints, using middleware for request processing, and centralizing error handling. Middleware can manage operations like authentication, validation, and logging, making API development more manageable.
-
 Next.js follows a specific folder/file structure for creating API endpoints. All API routes are placed under the `/pages/api` directory, and each file within this directory corresponds to a unique endpoint. For instance, creating a file called `products.js` in the `/pages/api` folder will make the endpoint accessible at `/api/products`.
 
 This file-based routing system significantly simplifies the process of creating new backend routes compared to traditional backend frameworks, where routes must often be manually defined in the server code. In Next.js, developers can easily add new API endpoints by creating a new file, and the corresponding route is automatically configured based on the file's location.
 
 Compared to traditional backend frameworks like Express.js, where defining routes often involves a combination of custom route logic and middleware, Next.js's file-based routing offers a more intuitive and scalable approach for full-stack applications. This makes Next.js particularly appealing for projects that need rapid iteration and simpler route management.
 
-Dynamic routing adds further flexibility. To create dynamic endpoints like `/users/<id>`, Next.js allows developers to use square brackets in filenames to indicate dynamic segments. For example, a file named `[id].js` within the `/pages/api/users` directory creates an endpoint accessible at `/api/users/<id>`. This dynamic file can then use the req.query object to access the value of the `id` parameter, enabling developers to handle requests for specific user IDs. This makes handling unique resource identifiers straightforward without needing additional route definitions in server configuration.
+Dynamic routing adds further flexibility. To create dynamic endpoints like `/users/<id>`, Next.js allows developers to use square brackets in filenames to indicate dynamic segments. For example, a file named `[id].js` within the `/pages/api/users` directory creates an endpoint accessible at `/api/users/<id>`. This dynamic file can then use the `req.query` object to access the value of the `id` parameter, enabling developers to handle requests for specific user IDs. This makes handling unique resource identifiers straightforward without needing additional route definitions in server configuration.
+
+#### REST APIs
+
+Next.js allows developers to create RESTful endpoints using API Routes, making it simple to add backend functionality without needing an additional server framework. API Routes can be organized by following best practices, including creating modular endpoints, using middleware for request processing, and centralizing error handling. Middleware can manage operations like authentication, validation, and logging, making API development more manageable.
 
 **Code Example:**
 
@@ -192,6 +192,37 @@ Consider an e-commerce website that has a product catalog. Using ISR, the produc
 ##### getServerSideProps
 
 On the server side, Next.js can use `getServerSideProps` to ensure that product information, such as inventory levels, is always up-to-date. `getServerSideProps` is a function that allows you to fetch data on each request, making it ideal for pages that need to display dynamic data that changes frequently. This function runs on the server at request time and provides fresh data to the page before it is rendered.
+
+**Code Example**:
+
+```javascript
+export async function getServerSideProps(context) {
+	// Fetch product data from an API or database
+	const res = await fetch(
+		`https://api.example.com/products/${context.params.id}`
+	);
+	const product = await res.json();
+
+	// Pass data to the page via props
+	return {
+		props: { product },
+	};
+}
+
+function ProductPage({ product }) {
+	return (
+		<div>
+			<h1>{product.name}</h1>
+			<p>{product.description}</p>
+			<p>Price: ${product.price}</p>
+		</div>
+	);
+}
+
+export default ProductPage;
+```
+
+In this example, `getServerSideProps` is used to fetch product data from an external API. The data is then passed to the `ProductPage` component as props, ensuring that the page always displays the latest product information.
 
 ##### getStaticProps
 
@@ -499,15 +530,9 @@ Developers should consider Next.js when they need a seamless integration of fron
 
 ## References
 
-1. Rauch, Guillermo. "Next.js - The React Framework." Vercel, [https://nextjs.org/](https://nextjs.org/)
-2. Vercel. "Serverless Functions Documentation." Vercel, [https://vercel.com/docs/concepts/functions/serverless-functions](https://vercel.com/docs/concepts/functions/serverless-functions)
-3. Apollo GraphQL. "Apollo Server Documentation." [https://www.apollographql.com/docs/apollo-server/](https://www.apollographql.com/docs/apollo-server/)
-4. Prisma. "Prisma Documentation." [https://www.prisma.io/docs/](https://www.prisma.io/docs/)
-5. NextAuth.js. "NextAuth.js Documentation." [https://next-auth.js.org/getting-started/introduction](https://next-auth.js.org/getting-started/introduction)
-6. SWR. "SWR Documentation." [https://swr.vercel.app/](https://swr.vercel.app/)
-7. LogRocket. "LogRocket Documentation." [https://logrocket.com/docs/](https://logrocket.com/docs/)
-8. Datadog. "Datadog Monitoring Documentation." [https://docs.datadoghq.com/](https://docs.datadoghq.com/)
-9. AWS. "AWS Lambda Documentation." [https://docs.aws.amazon.com/lambda/latest/dg/welcome.html](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
-10. Google Cloud. "Google Cloud Platform Documentation." [https://cloud.google.com/docs](https://cloud.google.com/docs)
-11. Socket.IO. "Socket.IO Documentation." [https://socket.io/docs/](https://socket.io/docs/)
-12. MDN Web Docs. "Server-Sent Events." [https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events)
+1. Next.js official documentation [https://nextjs.org/](https://nextjs.org/)
+2. Vercel documentation [https://vercel.com/docs/c](https://vercel.com/docs/)
+3. Apollo Server documentation [https://www.apollographql.com/docs/apollo-server/](https://www.apollographql.com/docs/apollo-server/)
+4. NextAuth.js documentation." [https://next-auth.js.org/getting-started/introduction](https://next-auth.js.org/getting-started/introduction)
+5. GraphQL documentation [https://graphql.org/](https://graphql.org/)
+6. SendGrid API documentation [https://sendgrid.com/docs/](https://sendgrid.com/docs/)
