@@ -533,6 +533,6 @@ Developers should consider Next.js when they need a seamless integration of fron
 1. Next.js official documentation [https://nextjs.org/](https://nextjs.org/)
 2. Vercel documentation [https://vercel.com/docs/c](https://vercel.com/docs/)
 3. Apollo Server documentation [https://www.apollographql.com/docs/apollo-server/](https://www.apollographql.com/docs/apollo-server/)
-4. NextAuth.js documentation." [https://next-auth.js.org/getting-started/introduction](https://next-auth.js.org/getting-started/introduction)
+4. NextAuth.js documentation [https://next-auth.js.org/getting-started/introduction](https://next-auth.js.org/getting-started/introduction)
 5. GraphQL documentation [https://graphql.org/](https://graphql.org/)
 6. SendGrid API documentation [https://sendgrid.com/docs/](https://sendgrid.com/docs/)
