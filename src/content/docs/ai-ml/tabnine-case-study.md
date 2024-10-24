@@ -33,3 +33,32 @@ AI tools are transforming how we write code, and Tabnine has become a go-to assi
 - **February 2024:** Tabnine unveils personalized code recommendations through local code awareness, along with recommendations for engineering teams using integrations with their global codebase.
 
 - **April 2024:** Tabnine releases the option for users to select the underlying AI model that powers their development chat agent, offering custom models from Tabnine as well as third-party models from Mistral and OpenAI.
+
+## **Main Features**
+
+Tabnine is designed to help developers code faster and more accurately. Here are some of its main features:
+
+- **AI-Powered Code Completions:**  
+  Tabnine uses machine learning to offer code completions and suggestions in real-time as you type. This feature is helpful for reducing boilerplate code and speeding up coding tasks.
+
+- **Privacy and Local Model Training:**  
+  One of Tabnine's standout features is the ability to train AI models locally on your machine, ensuring that sensitive codebases remain private and secure. This makes it a popular choice for enterprises with strict security requirements.
+
+- **Team-Based Custom Models:**  
+  Tabnine allows teams to create shared models based on their specific coding practices. This feature helps maintain coding standards and improve collaboration across projects.
+
+- **Multi-Language Support:**  
+  Tabnine supports a wide range of programming languages, including JavaScript, Python, Java, Go, C++, and more, making it versatile for developers in different fields.
+
+- **IDE Integration:**  
+  Tabnine integrates with major IDEs such as Visual Studio Code, IntelliJ IDEA, Sublime Text, Atom, and others, providing seamless AI-driven assistance in a variety of development environments.
+
+### **Feature Table**
+
+| Feature                     | Description                                                                      |
+| --------------------------- | -------------------------------------------------------------------------------- |
+| AI-Powered Code Completions | Offers intelligent code suggestions in real-time, reducing manual coding effort. |
+| Privacy and Local Model     | Allows local model training to keep codebases private, ensuring security.        |
+| Team-Based Custom Models    | Enables teams to create shared AI models for consistent code quality.            |
+| Multi-Language Support      | Supports multiple languages, including Python, JavaScript, Java, and more.       |
+| IDE Integration             | Seamlessly integrates with major IDEs for an uninterrupted coding experience.    |
