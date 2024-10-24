@@ -62,3 +62,39 @@ Tabnine is designed to help developers code faster and more accurately. Here are
 | Team-Based Custom Models    | Enables teams to create shared AI models for consistent code quality.            |
 | Multi-Language Support      | Supports multiple languages, including Python, JavaScript, Java, and more.       |
 | IDE Integration             | Seamlessly integrates with major IDEs for an uninterrupted coding experience.    |
+
+## **Strengths and Weaknesses of Tabnine**
+
+### **Strengths**
+
+1. **Privacy and Security:**
+   - One of Tabnine's biggest strengths is its strong focus on privacy. It offers the ability to train AI models locally, which ensures that sensitive codebases remain private. This is especially beneficial for enterprises with strict data security requirements.
+
+2. **Wide Language and IDE Support:**
+   - Tabnine supports a wide range of programming languages and integrates with many popular IDEs, including Visual Studio Code, IntelliJ IDEA, Sublime Text, Atom, and Neovim. This versatility makes it accessible to developers across different fields and environments.
+
+3. **Customization for Teams:**
+   - Tabnine allows teams to create custom AI models that reflect their internal coding standards. This feature promotes consistent code quality and can be tailored to fit a team’s unique workflow.
+
+4. **Speed and Efficiency:**
+   - With Tabnine’s AI-driven suggestions, developers can significantly speed up coding tasks, especially when it comes to writing boilerplate code or tackling repetitive coding patterns.
+
+5. **Strong Community and Continuous Improvement:**
+   - Tabnine has an active user base and community, providing regular feedback that helps improve the product. The company is continuously updating its AI models and features, keeping up with the latest advances in AI technology.
+
+### **Weaknesses**
+
+1. **Accuracy and Context Sensitivity:**
+   - Although Tabnine is efficient in suggesting code, it sometimes struggles with complex, context-specific tasks. This can lead to inaccurate suggestions, particularly in large and complex codebases where understanding context is critical.
+
+2. **Limited Free Features:**
+   - The free version of Tabnine offers only basic AI capabilities, which might not be sufficient for developers working on complex projects. Advanced features, such as more accurate completions and custom models, are locked behind paid plans.
+
+3. **AI Dependence:**
+   - Like many AI-based tools, Tabnine’s effectiveness depends on the quality of the training data. It might not always adapt well to niche languages or custom coding standards if not properly trained with relevant data.
+
+4. **Integration Complexity in Some Environments:**
+   - While Tabnine integrates with many IDEs, setting up custom features or local model training can be complex and may require technical knowledge, which could be a barrier for some users.
+
+5. **Reliance on Internet Connection for Cloud-Based Features:**
+   - Although local training is available, some of Tabnine’s advanced features rely on cloud-based models, which require a stable internet connection. This can be a limitation for developers working in offline environments or with limited internet access.
