@@ -68,15 +68,19 @@ Tabnine is designed to help developers code faster and more accurately. Here are
 ### **Strengths**
 
 1. **Privacy and Security:**
+
    - One of Tabnine's biggest strengths is its strong focus on privacy. It offers the ability to train AI models locally, which ensures that sensitive codebases remain private. This is especially beneficial for enterprises with strict data security requirements.
 
 2. **Wide Language and IDE Support:**
+
    - Tabnine supports a wide range of programming languages and integrates with many popular IDEs, including Visual Studio Code, IntelliJ IDEA, Sublime Text, Atom, and Neovim. This versatility makes it accessible to developers across different fields and environments.
 
 3. **Customization for Teams:**
+
    - Tabnine allows teams to create custom AI models that reflect their internal coding standards. This feature promotes consistent code quality and can be tailored to fit a team’s unique workflow.
 
 4. **Speed and Efficiency:**
+
    - With Tabnine’s AI-driven suggestions, developers can significantly speed up coding tasks, especially when it comes to writing boilerplate code or tackling repetitive coding patterns.
 
 5. **Strong Community and Continuous Improvement:**
@@ -85,20 +89,23 @@ Tabnine is designed to help developers code faster and more accurately. Here are
 ### **Weaknesses**
 
 1. **Accuracy and Context Sensitivity:**
+
    - Although Tabnine is efficient in suggesting code, it sometimes struggles with complex, context-specific tasks. This can lead to inaccurate suggestions, particularly in large and complex codebases where understanding context is critical.
 
 2. **Limited Free Features:**
+
    - The free version of Tabnine offers only basic AI capabilities, which might not be sufficient for developers working on complex projects. Advanced features, such as more accurate completions and custom models, are locked behind paid plans.
 
 3. **AI Dependence:**
+
    - Like many AI-based tools, Tabnine’s effectiveness depends on the quality of the training data. It might not always adapt well to niche languages or custom coding standards if not properly trained with relevant data.
 
 4. **Integration Complexity in Some Environments:**
+
    - While Tabnine integrates with many IDEs, setting up custom features or local model training can be complex and may require technical knowledge, which could be a barrier for some users.
 
 5. **Reliance on Internet Connection for Cloud-Based Features:**
    - Although local training is available, some of Tabnine’s advanced features rely on cloud-based models, which require a stable internet connection. This can be a limitation for developers working in offline environments or with limited internet access.
-
 
 ## **Market Comparison**
 
@@ -107,43 +114,97 @@ Here is a detailed comparison of Tabnine with its main competitor, GitHub Copilo
 ## **Tabnine vs GitHub Copilot**
 
 ### **1. Privacy**
-   - **Tabnine:** A key strength of Tabnine is its emphasis on privacy and security. It allows for local model training, meaning that sensitive code can remain entirely on your machine without being shared with cloud servers. This makes it an attractive option for enterprises and teams that handle confidential information or adhere to strict privacy policies.
-   - **GitHub Copilot:** Copilot uses a cloud-based AI model powered by OpenAI's Codex, which requires sending code snippets to the cloud for processing. While GitHub has implemented measures to protect user data, some organizations may still have concerns about the privacy implications, especially when working with proprietary codebases.
+
+- **Tabnine:** A key strength of Tabnine is its emphasis on privacy and security. It allows for local model training, meaning that sensitive code can remain entirely on your machine without being shared with cloud servers. This makes it an attractive option for enterprises and teams that handle confidential information or adhere to strict privacy policies.
+- **GitHub Copilot:** Copilot uses a cloud-based AI model powered by OpenAI's Codex, which requires sending code snippets to the cloud for processing. While GitHub has implemented measures to protect user data, some organizations may still have concerns about the privacy implications, especially when working with proprietary codebases.
 
 ### **2. Customization**
-   - **Tabnine:** Offers a high level of customization, particularly for teams. Organizations can create team-specific AI models that reflect internal coding standards, best practices, and preferences. These models can be trained locally to adapt to a specific codebase, making Tabnine a flexible choice for teams who want to standardize code quality.
-   - **GitHub Copilot:** Copilot does not currently support custom models, meaning that it relies on a general-purpose AI trained on a vast amount of public code. This makes it quick to use without any setup, but it may not adapt well to a team's specific coding style or needs.
+
+- **Tabnine:** Offers a high level of customization, particularly for teams. Organizations can create team-specific AI models that reflect internal coding standards, best practices, and preferences. These models can be trained locally to adapt to a specific codebase, making Tabnine a flexible choice for teams who want to standardize code quality.
+- **GitHub Copilot:** Copilot does not currently support custom models, meaning that it relies on a general-purpose AI trained on a vast amount of public code. This makes it quick to use without any setup, but it may not adapt well to a team's specific coding style or needs.
 
 ### **3. Integration**
-   - **Tabnine:** Is known for its versatility in supporting a wide range of IDEs and code editors, including Visual Studio Code, IntelliJ IDEA, Sublime Text, Atom, and Neovim. This flexibility allows developers to use Tabnine across different environments, making it ideal for teams working in diverse tech stacks.
-   - **GitHub Copilot:** Has deep integration with Visual Studio Code and GitHub, making it a natural choice for developers already using these platforms. It leverages GitHub's ecosystem for tasks like pull request reviews and code suggestions, but its availability in other IDEs is more limited compared to Tabnine.
+
+- **Tabnine:** Is known for its versatility in supporting a wide range of IDEs and code editors, including Visual Studio Code, IntelliJ IDEA, Sublime Text, Atom, and Neovim. This flexibility allows developers to use Tabnine across different environments, making it ideal for teams working in diverse tech stacks.
+- **GitHub Copilot:** Has deep integration with Visual Studio Code and GitHub, making it a natural choice for developers already using these platforms. It leverages GitHub's ecosystem for tasks like pull request reviews and code suggestions, but its availability in other IDEs is more limited compared to Tabnine.
 
 ### **4. Supported Programming Languages**
-   - **Tabnine:** Supports a wide array of programming languages, including JavaScript, Python, Java, C++, Rust, and many others. Its language support is broad, making it useful for developers who work in multiple languages or want a single tool that covers a variety of projects.
-   - **GitHub Copilot:** While Copilot also supports many programming languages, it tends to be more focused on popular languages like JavaScript, Python, and TypeScript. The quality of suggestions may vary with less common languages, where Tabnine's local customization might offer an advantage.
+
+- **Tabnine:** Supports a wide array of programming languages, including JavaScript, Python, Java, C++, Rust, and many others. Its language support is broad, making it useful for developers who work in multiple languages or want a single tool that covers a variety of projects.
+- **GitHub Copilot:** While Copilot also supports many programming languages, it tends to be more focused on popular languages like JavaScript, Python, and TypeScript. The quality of suggestions may vary with less common languages, where Tabnine's local customization might offer an advantage.
 
 ### **5. Code Quality and Contextual Understanding**
-   - **Tabnine:** Uses a combination of deep learning models and a semantic approach to understand the context of code. It has a strong ability to offer code completions that are contextually relevant, and team-specific models can further enhance this by learning from a particular codebase.
-   - **GitHub Copilot:** Powered by OpenAI's Codex, Copilot is designed to provide high-quality suggestions based on patterns from a vast amount of public code. It excels at autocompleting standard patterns and boilerplate code but may struggle with more specific or contextually nuanced scenarios.
+
+- **Tabnine:** Uses a combination of deep learning models and a semantic approach to understand the context of code. It has a strong ability to offer code completions that are contextually relevant, and team-specific models can further enhance this by learning from a particular codebase.
+- **GitHub Copilot:** Powered by OpenAI's Codex, Copilot is designed to provide high-quality suggestions based on patterns from a vast amount of public code. It excels at autocompleting standard patterns and boilerplate code but may struggle with more specific or contextually nuanced scenarios.
 
 ### **6. Cost and Licensing**
-   - **Tabnine:** Offers a range of subscription plans, from a free tier with basic features to paid plans with advanced capabilities. It provides competitive pricing for individual developers, teams, and enterprises. Tabnine’s pricing is typically more flexible, allowing users to choose between cloud-based or local model training options.
-   - **GitHub Copilot:** Charges a fixed monthly or annual fee, with different rates for individual developers and organizations. It’s generally simpler to get started with, as there is no need for local setup or custom models, but customization options are more limited.
+
+- **Tabnine:** Offers a range of subscription plans, from a free tier with basic features to paid plans with advanced capabilities. It provides competitive pricing for individual developers, teams, and enterprises. Tabnine’s pricing is typically more flexible, allowing users to choose between cloud-based or local model training options.
+- **GitHub Copilot:** Charges a fixed monthly or annual fee, with different rates for individual developers and organizations. It’s generally simpler to get started with, as there is no need for local setup or custom models, but customization options are more limited.
 
 ### **7. Ease of Use and Setup**
-   - **Tabnine:** Offers a straightforward setup process, especially for cloud-based usage. However, teams looking to take advantage of local model training or custom team models may need to invest time in configuration and setup. This can be a barrier for less experienced developers or teams without dedicated support.
-   - **GitHub Copilot:** Is known for its easy integration with Visual Studio Code. Users can start receiving AI-driven suggestions immediately after installing the extension. There’s no need for additional configuration, making it highly accessible for beginners and professionals alike.
+
+- **Tabnine:** Offers a straightforward setup process, especially for cloud-based usage. However, teams looking to take advantage of local model training or custom team models may need to invest time in configuration and setup. This can be a barrier for less experienced developers or teams without dedicated support.
+- **GitHub Copilot:** Is known for its easy integration with Visual Studio Code. Users can start receiving AI-driven suggestions immediately after installing the extension. There’s no need for additional configuration, making it highly accessible for beginners and professionals alike.
 
 ### **8. AI Dependence and Adaptability**
-   - **Tabnine:** The AI’s adaptability is one of its strengths, as it can be trained locally to reflect specific coding environments. This makes it an excellent choice for long-term projects where AI-driven code suggestions should evolve with the project.
-   - **GitHub Copilot:** Being based on a generalized model, Copilot may not adapt as well to niche projects or specialized coding styles. However, it offers immediate out-of-the-box support for a wide variety of scenarios and is well-suited for standard coding practices.
+
+- **Tabnine:** The AI’s adaptability is one of its strengths, as it can be trained locally to reflect specific coding environments. This makes it an excellent choice for long-term projects where AI-driven code suggestions should evolve with the project.
+- **GitHub Copilot:** Being based on a generalized model, Copilot may not adapt as well to niche projects or specialized coding styles. However, it offers immediate out-of-the-box support for a wide variety of scenarios and is well-suited for standard coding practices.
 
 ### **9. Offline Capability**
-   - **Tabnine:** With local training options, Tabnine can operate in environments with limited or no internet connectivity. This is beneficial for developers who work in secure or isolated networks.
-   - **GitHub Copilot:** Requires an internet connection for its AI to function, as all code suggestions are processed in the cloud.
+
+- **Tabnine:** With local training options, Tabnine can operate in environments with limited or no internet connectivity. This is beneficial for developers who work in secure or isolated networks.
+- **GitHub Copilot:** Requires an internet connection for its AI to function, as all code suggestions are processed in the cloud.
 
 ### **Summary**
-   - **Tabnine:** Is a flexible, privacy-conscious, and customizable AI assistant that caters well to both individual developers and enterprise teams. Its ability to offer local training and integrate with a wide range of IDEs makes it a strong choice for organizations with specific needs.
-   - **GitHub Copilot:** Provides a seamless and easy-to-use AI assistant with a strong focus on cloud integration, particularly within the GitHub and Visual Studio ecosystem. It is ideal for developers seeking a quick setup and broad code suggestion capabilities without needing extensive customization.
 
-   While GitHub Copilot is the primary competitor, there are other notable AI-assisted coding tools in the market, including [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/), [Replit Ghostwriter](https://replit.com/site/ghostwriter), and [Microsoft IntelliCode](https://visualstudio.microsoft.com/services/intellicode/).
+- **Tabnine:** Is a flexible, privacy-conscious, and customizable AI assistant that caters well to both individual developers and enterprise teams. Its ability to offer local training and integrate with a wide range of IDEs makes it a strong choice for organizations with specific needs.
+- **GitHub Copilot:** Provides a seamless and easy-to-use AI assistant with a strong focus on cloud integration, particularly within the GitHub and Visual Studio ecosystem. It is ideal for developers seeking a quick setup and broad code suggestion capabilities without needing extensive customization.
+
+While GitHub Copilot is the primary competitor, there are other notable AI-assisted coding tools in the market, including [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/), [Replit Ghostwriter](https://replit.com/site/ghostwriter), and [Microsoft IntelliCode](https://visualstudio.microsoft.com/services/intellicode/).
+
+## **Getting Started with Tabnine**
+
+Getting started with Tabnine is simple:
+
+1. **Install Tabnine in your IDE:** Go to the extension marketplace or plugin section of your preferred IDE, search for "Tabnine," and install it.
+2. **Set Up an Account:** Create a free or paid Tabnine account to access advanced features and customization options.
+3. **Configure Settings:** Adjust settings for privacy (local model training), language preferences, and team-based features if needed.
+4. **Start Coding:** Begin typing, and Tabnine will offer real-time code suggestions based on your code context.
+
+## **Integrating Tabnine with Visual Studio Code**
+
+Tabnine is designed to integrate seamlessly with Visual Studio Code, making it a flexible tool for developers working across various platforms and languages. Here's a closer look at how Tabnine integrates with VS Code:
+
+### **Visual Studio Code (VS Code)**
+
+- **Installation:** Installing Tabnine in VS Code is simple. Users can go to the Extensions Marketplace, search for "Tabnine," and install it with a single click. Tabnine is then enabled automatically, ready to provide AI-assisted code completions.
+- **Customization:** In VS Code, users have the flexibility to customize Tabnine's settings directly from the editor. This includes adjusting privacy settings for local model training, language preferences, and the behavior of AI completions.
+- **Productivity Tips:** For VS Code users, Tabnine supports multiple programming languages and provides quick completions, allowing developers to speed up common coding tasks.
+
+### **Customization in Visual Studio Code**
+
+- **Local Model Training:** Tabnine allows developers to train AI models locally within VS Code, which is especially important for teams dealing with sensitive codebases. This ensures that no code leaves the local environment, maintaining a high level of privacy.
+- **Settings Synchronization:** Visual Studio Code supports the synchronization of settings across machines, allowing developers to maintain a consistent coding environment with Tabnine's features enabled.
+
+### **General Tips for Using Tabnine Effectively in VS Code**
+
+- **Use Shortcuts:** VS Code has specific shortcuts to accept Tabnine's code suggestions, making it faster to incorporate completions without taking your hands off the keyboard.
+- **Adjust AI Preferences:** Developers can fine-tune Tabnine's behavior, from adjusting the suggestion frequency to enabling or disabling certain languages, depending on their current project needs.
+- **Explore Team-Based Features:** For teams using VS Code, setting up shared models and enabling team features can help standardize code quality and improve collaboration.
+
+### **Other Supported IDEs**
+
+While this guide focuses on Visual Studio Code, it's worth noting that Tabnine is compatible with a wide range of other Integrated Development Environments (IDEs). Some of the most popular IDEs supported by Tabnine include:
+
+- **IntelliJ IDEA and JetBrains IDEs** (e.g., PyCharm, WebStorm, PhpStorm)
+- **Sublime Text**
+- **Atom**
+- **Neovim**
+
+This versatility allows developers to use Tabnine across different platforms and environments, making it a flexible AI assistant no matter which development tool you prefer.
+
+![Tabnine supported idf's](~/assets/ai-ml/Tabnine/idfs.png)
+_Supported idf's for Tabnine_
