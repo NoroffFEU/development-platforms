@@ -208,3 +208,45 @@ This versatility allows developers to use Tabnine across different platforms and
 
 ![Tabnine supported idf's](~/assets/ai-ml/Tabnine/idfs.png)
 _Supported idf's for Tabnine_
+
+
+## **Pricing and Subscription Plans**
+
+Tabnine offers a variety of pricing options to accommodate individual developers and large enterprises. Each plan is designed to provide access to different levels of AI capabilities and customization options. Here's a breakdown of the current subscription plans available:
+
+### 1. Free Plan
+
+- **Overview:** Tabnine's free plan is aimed at individual developers or small-scale projects who want to explore AI-assisted coding. It provides access to basic AI-driven code completions without any cost.
+- **Key Features:**
+  - Access to standard AI completions.
+  - Limited local AI model capabilities.
+  - Basic multi-language support.
+- **Best For:** Individual developers and students looking to try out AI coding assistance.
+
+### 2. Pro Plan
+
+- **Overview:** The Pro plan is designed for individual developers seeking enhanced AI capabilities, including access to more advanced models and better suggestions.
+- **Cost:** Typically around $12/month or $10/month if billed annually.
+- **Key Features:**
+  - Access to advanced AI-driven completions with more accuracy.
+  - Priority support for code completions and updates.
+  - More customization options, including fine-tuning the AI's behavior.
+- **Best For:** Individual developers who need more sophisticated AI assistance for their projects.
+
+### 3. Enterprise Plan
+
+- **Overview:** The Enterprise plan is designed for large organizations that have specific needs around privacy, security, and large-scale AI integration. This plan provides the highest level of customization and control over Tabnine’s AI.
+- **Cost:** Custom pricing based on organization size and requirements.
+- **Key Features:**
+  - All Pro plan features, plus:
+    - Dedicated account manager and priority support.
+    - Custom AI models tailored to the organization's specific coding practices.
+    - Advanced privacy features, including full support for local model training and data privacy.
+    - Integration with internal systems and enterprise-level deployment options.
+- **Best For:** Large enterprises and organizations with complex development environments and strict privacy standards.
+
+### **General Notes on Pricing**
+
+- Tabnine's pricing is designed to be flexible and scalable, allowing developers to start with a free plan and upgrade as their needs evolve.
+- Annual billing provides discounts, making it more cost-effective for long-term use.
+- Enterprises can benefit from customized solutions, especially if they need to train AI models locally to keep sensitive code secure.
