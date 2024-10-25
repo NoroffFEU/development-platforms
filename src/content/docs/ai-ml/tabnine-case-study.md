@@ -163,6 +163,8 @@ Here is a detailed comparison of Tabnine with its main competitor, GitHub Copilo
 - **Tabnine:** Is a flexible, privacy-conscious, and customizable AI assistant that caters well to both individual developers and enterprise teams. Its ability to offer local training and integrate with a wide range of IDEs makes it a strong choice for organizations with specific needs.
 - **GitHub Copilot:** Provides a seamless and easy-to-use AI assistant with a strong focus on cloud integration, particularly within the GitHub and Visual Studio ecosystem. It is ideal for developers seeking a quick setup and broad code suggestion capabilities without needing extensive customization.
 
+If you want to know more about Github Copilot, check out their [official website](https://copilot.github.com/). Alternatively, you can read a more in-depth analysis of GitHub Copilot in one of our case studies here at Noroff Case Studies.
+
 While GitHub Copilot is the primary competitor, there are other notable AI-assisted coding tools in the market, including [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/), [Replit Ghostwriter](https://replit.com/site/ghostwriter), and [Microsoft IntelliCode](https://visualstudio.microsoft.com/services/intellicode/).
 
 ## **Getting Started with Tabnine in Visual Studio Code**
