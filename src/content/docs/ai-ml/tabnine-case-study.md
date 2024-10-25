@@ -261,3 +261,15 @@ To achieve this, Tabnine is leveraging enterprise-grade tools like **Tabnine Cha
 ## **Conclusion**
 
 Tabnine is a powerful AI-driven code assistant that caters to both individual developers and large enterprises. Its emphasis on privacy and local model training makes it a standout choice for teams that handle sensitive data, while its wide language and IDE support make it accessible to developers across many fields. However, its customization options may require some setup, especially for team-based usage. Overall, Tabnine is a reliable choice for those seeking an alternative to cloud-based AI coding assistants like GitHub Copilot.
+
+
+## **References**
+
+- [Tabnine Official Website](https://www.tabnine.com)
+- [Tabnine Docs](https://docs.tabnine.com/main)
+- [Tabnine on Wikipedia](https://en.wikipedia.org/wiki/Tabnine)
+
+## **Additional Resources**
+
+- [Tabnine on Youtube](https://www.youtube.com/@TabnineAI)
+- [Tabnine on Github](https://github.com/codota/TabNine)
