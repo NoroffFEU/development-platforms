@@ -165,35 +165,47 @@ Here is a detailed comparison of Tabnine with its main competitor, GitHub Copilo
 
 While GitHub Copilot is the primary competitor, there are other notable AI-assisted coding tools in the market, including [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/), [Replit Ghostwriter](https://replit.com/site/ghostwriter), and [Microsoft IntelliCode](https://visualstudio.microsoft.com/services/intellicode/).
 
-## **Getting Started with Tabnine**
+## **Getting Started with Tabnine in Visual Studio Code**
 
-Getting started with Tabnine is simple:
+Getting started with Tabnine is simple, especially if you're using Visual Studio Code (VS Code), one of the most popular code editors for developers. Below is a step-by-step guide to installing, setting up, and customizing Tabnine in VS Code:
 
-1. **Install Tabnine in your IDE:** Go to the extension marketplace or plugin section of your preferred IDE, search for "Tabnine," and install it.
-2. **Set Up an Account:** Create a free or paid Tabnine account to access advanced features and customization options.
-3. **Configure Settings:** Adjust settings for privacy (local model training), language preferences, and team-based features if needed.
-4. **Start Coding:** Begin typing, and Tabnine will offer real-time code suggestions based on your code context.
+1. **Install Tabnine in VS Code:**  
+   Open Visual Studio Code, navigate to the Extensions Marketplace, and search for "Tabnine." Click **Install** to add the extension to your editor. Once installed, Tabnine is enabled automatically, ready to provide AI-assisted code completions.
+   
+   ![Tabnine install](~/assets/ai-ml/Tabnine/install.png)
 
-## **Integrating Tabnine with Visual Studio Code**
+2. **Set Up an Account:**  
+   Create a Tabnine account, either free or paid, to unlock advanced features and customization options. Signing up will give you access to more precise AI-driven completions and team-based features.
+   
+   ![Tabnine signup](~/assets/ai-ml/Tabnine/signup.png)
 
-Tabnine is designed to integrate seamlessly with Visual Studio Code, making it a flexible tool for developers working across various platforms and languages. Here's a closer look at how Tabnine integrates with VS Code:
+3. **Configure Settings in VS Code:**  
+   Adjust Tabnine's settings directly in Visual Studio Code to match your preferences. You can tweak privacy settings for local model training, set language preferences, and enable team-based customizations. These options are accessible in the extension settings or via the Tabnine icon in the status bar.
 
-### **Visual Studio Code (VS Code)**
-
-- **Installation:** Installing Tabnine in VS Code is simple. Users can go to the Extensions Marketplace, search for "Tabnine," and install it with a single click. Tabnine is then enabled automatically, ready to provide AI-assisted code completions.
-- **Customization:** In VS Code, users have the flexibility to customize Tabnine's settings directly from the editor. This includes adjusting privacy settings for local model training, language preferences, and the behavior of AI completions.
-- **Productivity Tips:** For VS Code users, Tabnine supports multiple programming languages and provides quick completions, allowing developers to speed up common coding tasks.
+4. **Start Coding:**  
+   Begin typing, and Tabnine will offer real-time code suggestions based on the code context. These suggestions aim to speed up your workflow and enhance productivity by completing lines of code and providing intelligent hints.
+   
+   ![Tabnine codesnippet1](~/assets/ai-ml/Tabnine/codesnippet1.png)
+   ![Tabnine codesnippet2](~/assets/ai-ml/Tabnine/codesnippet2.png)
 
 ### **Customization in Visual Studio Code**
 
-- **Local Model Training:** Tabnine allows developers to train AI models locally within VS Code, which is especially important for teams dealing with sensitive codebases. This ensures that no code leaves the local environment, maintaining a high level of privacy.
-- **Settings Synchronization:** Visual Studio Code supports the synchronization of settings across machines, allowing developers to maintain a consistent coding environment with Tabnine's features enabled.
+- **Local Model Training:**  
+  Tabnine allows developers to train AI models locally within VS Code, which is especially useful for teams handling sensitive codebases. This ensures that no code leaves your local environment, maintaining a high level of privacy.
+  
+- **Settings Synchronization:**  
+  Visual Studio Code supports settings synchronization across devices, allowing you to maintain a consistent coding environment with Tabnine's features enabled on any machine.
 
 ### **General Tips for Using Tabnine Effectively in VS Code**
 
-- **Use Shortcuts:** VS Code has specific shortcuts to accept Tabnine's code suggestions, making it faster to incorporate completions without taking your hands off the keyboard.
-- **Adjust AI Preferences:** Developers can fine-tune Tabnine's behavior, from adjusting the suggestion frequency to enabling or disabling certain languages, depending on their current project needs.
-- **Explore Team-Based Features:** For teams using VS Code, setting up shared models and enabling team features can help standardize code quality and improve collaboration.
+- **Use Shortcuts:**  
+  VS Code has specific shortcuts to accept Tabnine's code suggestions, making it faster to incorporate completions without interrupting your coding flow.
+  
+- **Adjust AI Preferences:**  
+  Fine-tune Tabnine's behavior by adjusting the suggestion frequency, enabling or disabling specific languages, and customizing completion style according to your project's needs.
+  
+- **Explore Team-Based Features:**  
+  For teams using VS Code, shared models and team features help standardize code quality and improve collaboration. This is especially useful in larger projects where consistency is key.
 
 ### **Other Supported IDEs**
 
