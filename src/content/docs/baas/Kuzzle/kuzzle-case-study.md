@@ -38,7 +38,7 @@ Kuzzle provides real-time capabilities, allowing developers to push updates to c
 - **Data Persistence:**
  Kuzzle supports data persistence, enabling applications to store and retrieve data efficiently using a NoSQL database (such as MongoDB).
 
-- **User Management:**_
+- **User Management:**
  It includes built-in user authentication and management, supporting various authentication methods and role-based access control.
 
 - **API Generation:**
