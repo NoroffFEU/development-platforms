@@ -10,7 +10,7 @@ Claude.ai is a family of foundational AI models made by Anthropic. Is has, as of
 
 ## Brief History
 
-- 2021: Anthropic is founded by ex OpenAi-employees.
+- 2021: Anthropic is founded by ex OpenAi-employees, most notably the siblings Daniela Amodei and Dario Amodei.
 - 2023: Claude, the initial version of the language model was released in March(2 version, Claude and Claude instant).
 - 2023: In July, Claude 2 was released. More tokens, as well as extra abilities regarding reading, summarizing and assisting with tasks from PDF and other documents was included.
 - 2024: Claude 2.1 was released in January. They doubled the number of tokens Claude was able to handle, as well as decreased the likelihood of false statements.
