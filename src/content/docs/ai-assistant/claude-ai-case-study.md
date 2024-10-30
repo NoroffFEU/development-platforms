@@ -6,19 +6,17 @@ tags: claude.ai, case study, ai
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+Claude.ai is a family of foundational AI models made by Anthropic. Is has, as of October 2024, 3 main models(Haiku, Sonnet, Opus). We'll go more in-depth on what separates the three further in to the document.
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 2021: Anthropic is founded by ex OpenAi-employees.
+- 2023: Claude, the initial version of the language model was released in March(2 version, Claude and Claude instant).
+- 2023: In July, Claude 2 was released. More tokens, as well as extra abilities regarding reading, summarizing and assisting with tasks from PDF and other documents was included.
+- 2024: Claude 2.1 was released in January. They doubled the number of tokens Claude was able to handle, as well as decreased the likelihood of false statements.
+- 2024: Claude 3 introduced the three models, Haiku, Sonnet and Opus with its release in March.
+- 2024: Claude 3.5 Sonnet is released to the public in June.
+- 2024: In October, 3.5 Haiku, as well as an upgraded 3.5 Sonnet is released.
 
 ## Main Features
 
