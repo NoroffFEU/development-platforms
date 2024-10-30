@@ -14,10 +14,15 @@ Kuzzle is a generic backend offering the basic building blocks common to every a
 
 You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
 
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- 2015: Kuzzle has been founded.
+- 2016: Kuzzle launched as an open-source project.
+- 2017 - 2018: Kuzzle expands its focus on real-time and IoT applications. Gaining traction within the industries requiring complex data management (Smart city infrastructure & Healthcare). 
+- 2019: The release of Kuzzle v2.
+- 2020: Expansion of IoT and enterprise capabilities
+- 2021: Update on SDK and client libraries for a smoother integration across multiple platforms. 
+- Security updates and the encouragement of community contributions. 
+- 2023 - Present: Expanded protocol support
+- Enterprise offerings
+- Ai and Machine Learning integrations. 
+
+
