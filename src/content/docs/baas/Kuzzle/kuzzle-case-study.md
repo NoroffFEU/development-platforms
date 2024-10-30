@@ -4,7 +4,7 @@ author: Bart van den Berg <Barvand>
 tags: Kuzzle, BAAS, PAAS,
 ---
 
-![Kuzzle logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_5XXCL4TXCgG3qVJc3gc69_OnjhIOoxLboQ&s)
+[!Kuzzle logo](https://user-images.githubusercontent.com/7868838/103797784-32337580-5049-11eb-8917-3fcf4487644c.png)
 
 ## Introduction
 
