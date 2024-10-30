@@ -20,21 +20,14 @@ Vercel Edge Middleware provides developers with the ability to run code before a
 
 Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
 
-You may use subheadings, tables or bullet points to structure your description:
+- **Request Interception:** Vercel Edge Middleware allows developers to intercept and modify incoming HTTP requests before they reach the application. This enables powerful use cases like authentication, bot protection, redirects, and request rewriting.
+- **Serverless Execution:** Edge Middleware functions are executed at the edge of Vercel's network, closest to the user, providing low-latency and high-performance request handling.
 
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
+- **Flexible Matching:** Middleware functions can be selectively executed based on detailed request matching patterns, such as URL path, query parameters, headers, and more.
 
-Example feature table:
+- **Integrated Analytics:** Edge Middleware functions have access to detailed analytics and monitoring, allowing developers to gain insights into request patterns and middleware performance.
 
-| Feature         | Description                                        |
-| --------------- | -------------------------------------------------- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+- **Language Agnostic:** Middleware functions can be written in various languages supported by Vercel, including JavaScript, TypeScript, Go, and Rust.
 
 ## Market Comparison
 
@@ -46,7 +39,22 @@ Similarly, a self hosted tool and a cloud based tool with a similar purpose may 
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+To get started with Vercel Edge Middleware:
+
+1. **Create a Middleware File**: In your Vercel project, create a new file named `middleware.ts` (or `middleware.js` for JavaScript) in the root directory.
+2. **Define Your Middleware Function**: In the middleware file, export a function that will handle the request processing. For example :
+
+import { NextResponse } from 'next/server';
+
+export async function middleware(req: NextRequest) {
+// Intercept and modify the request
+const response = NextResponse.next();
+response.headers.set('X-Custom-Header', 'custom-value');
+return response;
+}
+
+3. **Configure Middleware Matching**: In your Vercel project settings, navigate to the "Edge Functions" section and configure the matching rules for your middleware function.
+4. **Deploy Your Project**: Deploy your Vercel project, and your middleware function will start executing at the edge for incoming requests that match the configured rules.
 
 ## Conclusion
 
@@ -54,8 +62,8 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
+- [Edge Middleware overview](https://vercel.com/docs/functions/edge-middleware)
+
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
