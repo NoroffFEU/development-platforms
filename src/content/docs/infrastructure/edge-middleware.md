@@ -44,14 +44,7 @@ To get started with Vercel Edge Middleware:
 1. **Create a Middleware File**: In your Vercel project, create a new file named `middleware.ts` (or `middleware.js` for JavaScript) in the root directory.
 2. **Define Your Middleware Function**: In the middleware file, export a function that will handle the request processing. For example :
 
-import { NextResponse } from 'next/server';
-
-export async function middleware(req: NextRequest) {
-// Intercept and modify the request
-const response = NextResponse.next();
-response.headers.set('X-Custom-Header', 'custom-value');
-return response;
-}
+![Example Image](../../../assets/infrastructure/middleware%20.png)
 
 3. **Configure Middleware Matching**: In your Vercel project settings, navigate to the "Edge Functions" section and configure the matching rules for your middleware function.
 4. **Deploy Your Project**: Deploy your Vercel project, and your middleware function will start executing at the edge for incoming requests that match the configured rules.
