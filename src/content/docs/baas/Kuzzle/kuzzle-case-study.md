@@ -29,22 +29,22 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 ## Main Features
 Kuzzle is a powerful backend solution designed for building scalable and real-time applications. Its main features include:
 
-- **Strong**__Real-time Data Management:__ 
+- **Real-time Data Management:**
 Kuzzle provides real-time capabilities, allowing developers to push updates to clients instantly using WebSockets or HTTP.
 
-- **Strong**__Advanced Search:__
+- **Advanced Search:**
  It offers advanced search functionalities, including full-text search, geospatial queries, and filtering options.
 
-- **Strong**__Data Persistence:__
+- **Data Persistence:**
  Kuzzle supports data persistence, enabling applications to store and retrieve data efficiently using a NoSQL database (such as MongoDB).
 
-- **Strong**__User Management:__
+- **User Management:**_
  It includes built-in user authentication and management, supporting various authentication methods and role-based access control.
 
-- **Strong**__API Generation:__ 
+- **API Generation:**
 Kuzzle automatically generates RESTful and WebSocket APIs, simplifying the integration process for front-end applications.
 
-- **Strong**__Plugins and Extensibility:__ The platform is highly extensible, allowing developers to create plugins to extend its functionality.
+- **Plugins and Extensibility:** The platform is highly extensible, allowing developers to create plugins to extend its functionality.
 
-- **Strong**__Cross-Platform:__
+- **Cross-Platform:**
  Kuzzle can be used with various front-end frameworks and libraries, making it flexible for different application architectures.
