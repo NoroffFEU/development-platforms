@@ -36,7 +36,7 @@ Kuzzle provides real-time capabilities, allowing developers to push updates to c
  It offers advanced search functionalities, including full-text search, geospatial queries, and filtering options.
 
 - **Data Persistence:**
- Kuzzle supports data persistence, enabling applications to store and retrieve data efficiently using a NoSQL database (such as MongoDB).
+ Kuzzle supports data persistence, enabling applications to store and retrieve data efficiently using a NoSQL database.
 
 - **User Management:**
  It includes built-in user authentication and management, supporting various authentication methods and role-based access control.
@@ -48,3 +48,22 @@ Kuzzle automatically generates RESTful and WebSocket APIs, simplifying the integ
 
 - **Cross-Platform:**
  Kuzzle can be used with various front-end frameworks and libraries, making it flexible for different application architectures.
+
+
+## Use cases
+- **Real-Time Web and mobile applications**
+With the use of WebSockets Kuzzle is able to create real time chat applications where messages and notifications need to appear instantly across multiple devices. 
+- **E Commerce Platforms**: 
+Kuzzle can be used for inventory tracking and real time stock tracking, making it ideal for Ecommerce purposes. 
+- **Geo tracking**
+Due to the real time data can be used for tracking of vehicles.
+
+- **General use case**
+Kuzzle serves as a flexible and powerful backend solution particularly well-suited for applications involving tracking, monitoring, and real-time data synchronization. For all use cases please visit [Kuzzle use cases](https://kuzzle.io/use-case/)
+
+
+
+
+### References
+ https://blog.back4app.com/kuzzle-alternatives/
+ https://kuzzle.io
