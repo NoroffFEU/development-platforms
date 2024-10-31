@@ -30,6 +30,11 @@ One of the main reasons the version works really good while having it as a pair 
 
 ![Screenshot](../../../assets/claude-ai/claude-SC.png)
 
+Like mentioned earlier, Claude.ai have an extensive library of knowledge in programming languages, and have Full-stack capabilities.
+Since its fairly recent data update, it writes and suggests clean and well-structured code, as well as follow the best practices in the different languages.
+
+Some limitations are there; Claude.ai can not run or test the code it writes. It also does not have the ability to access external APIs or databases.
+
 ## Market Comparison
 
 This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
