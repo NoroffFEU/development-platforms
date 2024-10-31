@@ -173,12 +173,12 @@ Getting started with Tabnine is simple, especially if you're using Visual Studio
 
 1. **Install Tabnine in VS Code:**  
    Open Visual Studio Code, navigate to the Extensions Marketplace, and search for "Tabnine." Click **Install** to add the extension to your editor. Once installed, Tabnine is enabled automatically, ready to provide AI-assisted code completions.
-   
+
    ![Tabnine install](~/assets/ai-ml/Tabnine/install.png)
 
 2. **Set Up an Account:**  
    Create a Tabnine account, either free or paid, to unlock advanced features and customization options. Signing up will give you access to more precise AI-driven completions and team-based features.
-   
+
    ![Tabnine signup](~/assets/ai-ml/Tabnine/signup.png)
 
 3. **Configure Settings in VS Code:**  
@@ -186,15 +186,15 @@ Getting started with Tabnine is simple, especially if you're using Visual Studio
 
 4. **Start Coding:**  
    Begin typing, and Tabnine will offer real-time code suggestions based on the code context. These suggestions aim to speed up your workflow and enhance productivity by completing lines of code and providing intelligent hints.
-   
+
    ![Tabnine codesnippet1](~/assets/ai-ml/Tabnine/codesnippet1.png)
    ![Tabnine codesnippet2](~/assets/ai-ml/Tabnine/codesnippet2.png)
+   ![Tabnine codesnippet3](~/assets/ai-ml/Tabnine/codesnippet3.png)
 
 ### **Customization in Visual Studio Code**
 
 - **Local Model Training:**  
   Tabnine allows developers to train AI models locally within VS Code, which is especially useful for teams handling sensitive codebases. This ensures that no code leaves your local environment, maintaining a high level of privacy.
-  
 - **Settings Synchronization:**  
   Visual Studio Code supports settings synchronization across devices, allowing you to maintain a consistent coding environment with Tabnine's features enabled on any machine.
 
@@ -202,10 +202,8 @@ Getting started with Tabnine is simple, especially if you're using Visual Studio
 
 - **Use Shortcuts:**  
   VS Code has specific shortcuts to accept Tabnine's code suggestions, making it faster to incorporate completions without interrupting your coding flow.
-  
 - **Adjust AI Preferences:**  
   Fine-tune Tabnine's behavior by adjusting the suggestion frequency, enabling or disabling specific languages, and customizing completion style according to your project's needs.
-  
 - **Explore Team-Based Features:**  
   For teams using VS Code, shared models and team features help standardize code quality and improve collaboration. This is especially useful in larger projects where consistency is key.
 
@@ -222,7 +220,6 @@ This versatility allows developers to use Tabnine across different platforms and
 
 ![Tabnine supported idf's](~/assets/ai-ml/Tabnine/idfs.png)
 _Supported idf's for Tabnine_
-
 
 ## **Pricing and Subscription Plans**
 
@@ -265,7 +262,6 @@ Tabnine offers a variety of pricing options to accommodate individual developers
 - Annual billing provides discounts, making it more cost-effective for long-term use.
 - Enterprises can benefit from customized solutions, especially if they need to train AI models locally to keep sensitive code secure.
 
-
 ## **The Future of Tabnine**
 
 Tabnine envisions a future where AI-driven agents play a central role in the software development process, working closely with human developers to handle tasks throughout the entire development lifecycle. One of the most exciting projects in progress is the "Jira-to-code" AI agent, which aims to transform simple specifications from Atlassian Jira into fully functioning applications. Tabnine's goal is to create AI agents that are concise, personalized, reliable, inquisitive, and self-aware.
@@ -275,7 +271,6 @@ To achieve this, Tabnine is leveraging enterprise-grade tools like **Tabnine Cha
 ## **Conclusion**
 
 Tabnine is a powerful AI-driven code assistant that caters to both individual developers and large enterprises. Its emphasis on privacy and local model training makes it a standout choice for teams that handle sensitive data, while its wide language and IDE support make it accessible to developers across many fields. However, its customization options may require some setup, especially for team-based usage. Overall, Tabnine is a reliable choice for those seeking an alternative to cloud-based AI coding assistants like GitHub Copilot.
-
 
 ## **References**
 
