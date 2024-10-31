@@ -20,23 +20,15 @@ Claude.ai is a family of foundational AI models made by Anthropic. Is has, as of
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+- **Written content:** As most AI chatbots, Claude.ai is good at helping you write in text form. Everything from short messages to longer style content like a novel or a screenplay. Claude can also be a good tool to use when summarizing longer articles and such.
+- **Image Analyzing:** Claude can be used to analyze an image, like for example chart data from a picture, or interpreting what is on the image in question.
+- **Programming:** Claude is exceptionally good at being a "pair programmer". It knows all the major programming languages, but really excels at Python.
+- **Brainstorming:** The chatbot can also be used to act as a brainstorming partner, to help further the creativity of the user, while also providing different viewpoints for example.
 
-You may use subheadings, tables or bullet points to structure your description:
+While being a fully usable general AI chatbot, especially Claude.ai 3.5 Sonnet is exceptionally good with code, which is the main focus of this case study. The 3.5 Sonnet is trained on data up until April 2024 as of the writing of this text.
+One of the main reasons the version works really good while having it as a pair programmer or a helper of sorts, is because of the interface. Please have a look this screenshot where Claude was asked to make some quick example code to preview how the interface is.
 
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-
-Example feature table:
-
-| Feature         | Description                                        |
-| --------------- | -------------------------------------------------- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+![Screenshot](../../../assets/claude-ai/claude-SC.png)
 
 ## Market Comparison
 
