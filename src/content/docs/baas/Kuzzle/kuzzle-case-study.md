@@ -32,7 +32,7 @@ Kuzzle is a powerful backend solution designed for building scalable and real-ti
 - **Data storage and access:**
 Kuzzle provides real-time capabilities, allowing developers to push updates to clients instantly using WebSockets or HTTP.
 Kuzzle's Realtime Engine allows you to do Pub/Sub in dedicated communication channels called rooms.
-[Kuzzle pub/sub system](https://docs.kuzzle.io/core/2/assets/pub-sub-C0Ps9Vp_.png)
+![Kuzzle pub/sub system](https://docs.kuzzle.io/core/2/assets/pub-sub-C0Ps9Vp_.png)
 
 - **Advanced Search:**
  It offers advanced search functionalities, including full-text search, geospatial queries, and filtering options.
