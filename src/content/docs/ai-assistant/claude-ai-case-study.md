@@ -45,7 +45,12 @@ The obvious competitors that has the most relevancy in this study are the follow
 
 ## Good-to-knows
 
-When starting to use Claude.ai 3.5 Sonnet, you get
+When starting to use Claude.ai 3.5 Sonnet, you get some number of messages. The actual number will vary, though, based on actual demand of the service. You will be noticed when you have reached the daily quota. The next morning, your free quota will be reset to give you a number of new free prompts.
+
+If you wish to get more usage out of Claude.ai, there is a paid subscription service, that gives you at least 5 times the usage compared to their free service.
+In addition to the extra usage, with the Claude.ai pro plan, you get priority during high-demand periods, early access to new features, you get access to the model selector and you get access to their Projects and Knowledge bases.
+
+The pro version costs $20 per month plus applicable taxes from the region you are from.
 
 ## Conclusion
 
