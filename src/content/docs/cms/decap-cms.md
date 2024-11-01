@@ -4,6 +4,8 @@ keywords: Decap, Content Management Systems, CMS, Netlify
 tags: cms, decap, netlify
 ---
 
+![og-image](https://github.com/user-attachments/assets/535751a5-4b32-47f8-a32f-110d3fdc4cfa)
+
 # Decap CMS case study
 
 ## Introduction
