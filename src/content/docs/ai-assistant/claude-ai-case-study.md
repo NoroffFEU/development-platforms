@@ -37,15 +37,15 @@ Some limitations are there; Claude.ai can not run or test the code it writes. It
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+The obvious competitors that has the most relevancy in this study are the following;
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+- OpenAIs GPT-4o: This is probably the most known AI chatbot, and it has updated data from October 2023. As part of OpenAIs network of chatbot, this would probably be to go-to option for most people not specifically working with coding, although it also is good at being a pair programmer, or a sparring partner of sorts.
+- Google Gemini 1.5 Pro: Updated with data up until November 2023. While also being, like GPT, fairly good at coding, Gemini is most notable in delivering high-quality language understanding and delivering good performances in content creation and data analysis.
+- Mistral: Mistral 7B v0.3, which is the latest version of Mistral have a updated database up until mid-2024. Mistral excels in being extremely capable multilingualy, as well as in code generation and mathematical reasoning.
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+## Good-to-knows
 
-## Getting Started
-
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+When starting to use Claude.ai 3.5 Sonnet, you get
 
 ## Conclusion
 
