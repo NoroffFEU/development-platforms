@@ -1,8 +1,14 @@
 ---
-
-Title: A Case Study of Jenkins: Automating CI/CD Pipelines
-Author: Fredrik Mohag Håkansson <@FredrikMohag>
-Tags: Jenkins, CI/CD, DevOps, Automation, Continuous Integration, Pipeline
+title: "A Case Study of Jenkins: Automating CI/CD Pipelines"
+author: "Fredrik Mohag Håkansson"
+tags:
+  - Jenkins
+  - CI/CD
+  - DevOps
+  - Automation
+  - Continuous Integration
+  - Pipeline
+---
 
 ## Introduction
 
@@ -86,7 +92,7 @@ Heavy Resource Usage:
 Jenkins can be a bit of a resource hog, especially when running large or multiple builds. This can lead to performance issues if your infrastructure isn’t up to snuff, particularly on older machines.
 
 UI and UX Limitations:  
- Many users find Jenkins’ interface a bit dated and not as user-friendly as some newer CI/CD tools. Navigating its settings and configuring pipelines can feel clunky, especially for new users.
+Many users find Jenkins’ interface a bit dated and not as user-friendly as some newer CI/CD tools. Navigating its settings and configuring pipelines can feel clunky, especially for new users.
 
 Plugin Compatibility and Stability:
 While having so many plugins is a plus, it can also lead to compatibility headaches. Some community-developed plugins may not be updated regularly, which can cause issues in your Jenkins environment.
