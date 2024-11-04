@@ -68,8 +68,10 @@ Kuzzle's diverse capabilities make it suitable for a wide range of applications,
 ## High profile use cases
 
  **Kuzzle IoT was chosen as the data and IoT platform for the Finistère Smart Connect project to connect 270 municipalities and communities to be the first territory connected on a departmental scale.**
+
  Kuzzle IoT connects and supervises 270 smart territories in real time thanks to more than 475,000 sensors and equipment connected to a territorial hypervisor.
  ![connected devices and buildings](image.png)
+ For more information ![Smart city case study](https://kuzzle.io/success-stories/smart-city-sdef/)
 
 ### References
 
