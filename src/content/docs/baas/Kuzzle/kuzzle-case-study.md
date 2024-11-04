@@ -75,7 +75,7 @@ Kuzzle's diverse capabilities make it suitable for a wide range of applications,
 
  For more information: ![Smart city case study](https://kuzzle.io/success-stories/smart-city-sdef/)
 
-## Kuzzle vs Firebase & AWS Amplify
+## Market comparison Firebase & AWS Amplify
 
 | Feature                  | Kuzzle                                   | Firebase                                    | AWS Amplify                               |
 |--------------------------|------------------------------------------|---------------------------------------------|-------------------------------------------|
