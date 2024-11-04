@@ -12,7 +12,7 @@ Next.js, initially recognized as a frontend framework, has evolved significantly
 
 ## Brief History
 
-- 2016: Next.js is introduced by Vercel as a React-based framework.
+- 2016: Next.js is introduced by [Vercel](https://vercel.com/) as a React-based framework.
 - 2016: Initial focus is on server-side rendering (SSR) and static site generation (SSG).
 - 2016: Aimed to solve challenges related to building SEO-friendly and performance-optimized web applications.
 - 2018–2020: Major updates expand Next.js into a more versatile tool.
@@ -42,7 +42,7 @@ Next.js follows a specific folder/file structure for creating API endpoints. All
 
 This file-based routing system significantly simplifies the process of creating new backend routes compared to traditional backend frameworks, where routes must often be manually defined in the server code. In Next.js, developers can easily add new API endpoints by creating a new file, and the corresponding route is automatically configured based on the file's location.
 
-Compared to traditional backend frameworks like Express.js, where defining routes often involves a combination of custom route logic and middleware, Next.js's file-based routing offers a more intuitive and scalable approach for full-stack applications. This makes Next.js particularly appealing for projects that need rapid iteration and simpler route management.
+Compared to traditional backend frameworks like [Express.js](https://expressjs.com/), where defining routes often involves a combination of custom route logic and middleware, Next.js's file-based routing offers a more intuitive and scalable approach for full-stack applications. This makes Next.js particularly appealing for projects that need rapid iteration and simpler route management.
 
 Dynamic routing adds further flexibility. To create dynamic endpoints like `/users/<id>`, Next.js allows developers to use square brackets in filenames to indicate dynamic segments. For example, a file named `[id].js` within the `/pages/api/users` directory creates an endpoint accessible at `/api/users/<id>`. This dynamic file can then use the `req.query` object to access the value of the `id` parameter, enabling developers to handle requests for specific user IDs. This makes handling unique resource identifiers straightforward without needing additional route definitions in server configuration.
 
@@ -100,7 +100,7 @@ This example shows the handling of different CRUD operations, showing how Next.j
 
 #### GraphQL APIs
 
-In addition to REST, Next.js can also be used to implement GraphQL APIs. By integrating Apollo Server Micro, developers can set up a GraphQL server directly within the Next.js project. This integration allows for defining schemas, implementing resolvers, and querying data with the flexibility of GraphQL.
+In addition to REST, Next.js can also be used to implement GraphQL APIs. By integrating [Apollo Server Micro](https://www.apollographql.com/docs/apollo-server/v3/integrations/middleware#apollo-server-micro), developers can set up a GraphQL server directly within the Next.js project. This integration allows for defining schemas, implementing resolvers, and querying data with the flexibility of GraphQL.
 
 **Code Example**:
 
@@ -268,7 +268,7 @@ In this example, the `setPreviewData()` function enables preview mode, and the u
 
 ### Serverless Functions
 
-With serverless architecture, Next.js has the ability to scale dynamically based on demand. Serverless functions, deployed on platforms like Vercel or AWS Lambda, make it possible to execute backend code without maintaining a dedicated server. The term 'serverless' can be misleading, as there is still a server involved; however, the key difference is that developers do not need to manage or maintain the server infrastructure. The server management, scaling, and provisioning are handled automatically by the platform, allowing developers to focus purely on the code logic.
+With serverless architecture, Next.js has the ability to scale dynamically based on demand. Serverless functions, deployed on platforms like Vercel or [AWS Lambda](https://aws.amazon.com/lambda/), make it possible to execute backend code without maintaining a dedicated server. The term 'serverless' can be misleading, as there is still a server involved; however, the key difference is that developers do not need to manage or maintain the server infrastructure. The server management, scaling, and provisioning are handled automatically by the platform, allowing developers to focus purely on the code logic.
 
 #### Examples of Serverless Functions in E-commerce
 
@@ -280,7 +280,7 @@ With serverless architecture, Next.js has the ability to scale dynamically based
 
 **Code Example**:
 
-To create a serverless function that sends user notifications when a product is back in stock, you can use Vercel and an email API like SendGrid. Here's an example of how to implement this in JavaScript:
+To create a serverless function that sends user notifications when a product is back in stock, you can use Vercel and an email API like [SendGrid](https://sendgrid.com/). Here's an example of how to implement this in JavaScript:
 
 ```javascript
 // File: pages/api/notifyBackInStock.js
@@ -394,13 +394,13 @@ export default async function handler(req) {
 }
 ```
 
-In this example, the edge function is deployed using Vercel's edge runtime, and it handles adding items to the shopping cart, stored on MongoDB. The function checks the request method, processes the product ID and quantity, and updates the cart accordingly. By running this function at the edge, the latency is reduced, providing a quicker response time for users regardless of their geographical location.
+In this example, the edge function is deployed using Vercel's edge runtime, and it handles adding items to the shopping cart, stored on [MongoDB](https://www.mongodb.com/). The function checks the request method, processes the product ID and quantity, and updates the cart accordingly. By running this function at the edge, the latency is reduced, providing a quicker response time for users regardless of their geographical location.
 
 ### Authentication and Authorization
 
 Implementing secure user authentication is a key aspect of any application, and Next.js offers multiple solutions. Developers can integrate Auth0 or NextAuth.js to handle secure user authentication and OAuth integration. Additionally, developers can also implement JWT-based authentication using API Routes to protect endpoints and manage user sessions. Best practices for security, including the use of HTTPS, environment variables for sensitive data, and limiting user permissions, ensure that the application remains secure.
 
-NextAuth.js is a powerful authentication library designed specifically for Next.js, making it an ideal choice for seamless integration. It supports multiple authentication providers, including Google, Facebook, GitHub, and custom email/password setups, offering great flexibility for developers.
+[NextAuth.js](https://next-auth.js.org/) is a powerful authentication library designed specifically for Next.js, making it an ideal choice for seamless integration. It supports multiple authentication providers, including Google, Facebook, GitHub, and custom email/password setups, offering great flexibility for developers.
 
 _Note that NextAuth.js can be used outside of Next.js as well, but it is particularly well-suited for Next.js projects due to its tight integration with the framework._
 
@@ -468,7 +468,7 @@ In this example, NextAuth.js is used to set up Google and GitHub as authenticati
 
 ### Deployment and Scaling
 
-The deployment of a Next.js application with backend functionality can be done on various platforms, including Vercel, AWS, and Google Cloud. Vercel, the creator of Next.js, offers the most seamless deployment process for Next.js applications. To deploy on Vercel, developers simply connect their GitHub, GitLab, or Bitbucket repository to Vercel, and with a few clicks, the application is automatically deployed.
+The deployment of a Next.js application with backend functionality can be done on various platforms, including Vercel, AWS, and [Google Cloud](https://cloud.google.com/). Vercel, the creator of Next.js, offers the most seamless deployment process for Next.js applications. To deploy on Vercel, developers simply connect their GitHub, GitLab, or Bitbucket repository to Vercel, and with a few clicks, the application is automatically deployed.
 
 #### Vercel Integration Benefits
 
@@ -478,7 +478,7 @@ Vercel provides a highly optimized environment for deploying Next.js application
 
 Vercel handles serverless functions and automatic scalability, making it easy to manage heavy backend workloads without manual scaling or infrastructure management. The platform’s serverless functions are deployed globally, ensuring that backend logic is executed close to the user, which helps reduce latency and improve response times. Additionally, Vercel's edge network allows developers to deploy edge functions that run at locations closer to users, providing ultra-low latency for critical operations.
 
-Vercel's scalability works by automatically adjusting the number of serverless function instances based on incoming traffic. When demand increases, Vercel will spin up additional instances of serverless functions to handle the increased load, ensuring that performance remains consistent. Similarly, during low-traffic periods, Vercel scales down to reduce costs. This auto-scaling mechanism allows developers to focus on their code without worrying about resource allocation and infrastructure bottlenecks. Monitoring and performance optimization tools such as LogRocket, Datadog, or Vercel's built-in analytics help maintain and improve application performance.
+Vercel's scalability works by automatically adjusting the number of serverless function instances based on incoming traffic. When demand increases, Vercel will spin up additional instances of serverless functions to handle the increased load, ensuring that performance remains consistent. Similarly, during low-traffic periods, Vercel scales down to reduce costs. This auto-scaling mechanism allows developers to focus on their code without worrying about resource allocation and infrastructure bottlenecks. Monitoring and performance optimization tools such as [LogRocket](https://logrocket.com/), [Datadog](https://www.datadoghq.com/), or Vercel's built-in analytics help maintain and improve application performance.
 
 ## Strengths and Weaknesses
 
@@ -511,7 +511,7 @@ Compared to Express.js, which is a minimalistic backend framework, Next.js offer
 | **NestJS**     | Modular architecture, TypeScript, enterprise-level features                            | Large-scale applications needing robust architecture                                          |
 | **Nuxt.js**    | Vue-based, SSR/SSG support, easy integration with Vue ecosystem                        | Projects where Vue is preferred, needing SSR/SSG capabilities                                 |
 
-When considering other backend solutions beyond JavaScript frameworks, .NET is a powerful and mature framework used for building robust backend applications. .NET, particularly ASP.NET Core, provides enterprise-level features, excellent performance, and integration with Microsoft's ecosystem, which is ideal for large-scale applications and those that require advanced security features. While .NET is more complex to learn compared to Next.js, it excels in scenarios where high-throughput services are needed, and integration with existing Microsoft services or on-premises solutions is a priority. Unlike Next.js, which focuses on combining front-end and back-end capabilities into a single platform, .NET is more specialized for backend development, providing fine-grained control over the server environment and performance optimizations.
+When considering other backend solutions beyond JavaScript frameworks, .NET is a powerful and mature framework used for building robust backend applications. .NET, particularly [ASP.NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet), provides enterprise-level features, excellent performance, and integration with Microsoft's ecosystem, which is ideal for large-scale applications and those that require advanced security features. While .NET is more complex to learn compared to Next.js, it excels in scenarios where high-throughput services are needed, and integration with existing Microsoft services or on-premises solutions is a priority. Unlike Next.js, which focuses on combining front-end and back-end capabilities into a single platform, .NET is more specialized for backend development, providing fine-grained control over the server environment and performance optimizations.
 
 | Feature         | Next.js                                                      | .NET (ASP.NET Core)                                                          |
 | --------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------- |
@@ -531,7 +531,7 @@ Developers should consider Next.js when they need a seamless integration of fron
 ## References
 
 1. Next.js official documentation [https://nextjs.org/](https://nextjs.org/)
-2. Vercel documentation [https://vercel.com/docs/c](https://vercel.com/docs/)
+2. Vercel documentation [https://vercel.com/docs/](https://vercel.com/docs/)
 3. Apollo Server documentation [https://www.apollographql.com/docs/apollo-server/](https://www.apollographql.com/docs/apollo-server/)
 4. NextAuth.js documentation [https://next-auth.js.org/getting-started/introduction](https://next-auth.js.org/getting-started/introduction)
 5. GraphQL documentation [https://graphql.org/](https://graphql.org/)
