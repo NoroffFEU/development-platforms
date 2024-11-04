@@ -72,8 +72,33 @@ Kuzzle's diverse capabilities make it suitable for a wide range of applications,
  Kuzzle IoT connects and supervises 270 smart territories in real time thanks to more than 475,000 sensors and equipment connected to a territorial hypervisor.
 
  ![connected devices and buildings](image.png)
- 
- For more information ![Smart city case study](https://kuzzle.io/success-stories/smart-city-sdef/)
+
+ For more information: ![Smart city case study](https://kuzzle.io/success-stories/smart-city-sdef/)
+
+## Kuzzle vs Firebase & AWS Amplify
+
+| Feature                  | Kuzzle                                   | Firebase                                    | AWS Amplify                               |
+|--------------------------|------------------------------------------|---------------------------------------------|-------------------------------------------|
+| **Core Focus**           | Real-time backend for IoT, mobile, and web apps | Backend-as-a-Service (BaaS) with real-time capabilities | Full-stack development platform with backend services |
+| **Database**             | Elasticsearch (NoSQL)                    | Firestore (NoSQL), Realtime Database       | DynamoDB, Aurora, and others (supports multiple databases) |
+| **Real-Time Capabilities** | Strong real-time with Pub/Sub          | Real-time Database, Firestore (limited)     | WebSocket support, AppSync (GraphQL-based) |
+| **User Authentication**  | Built-in with role-based access control  | Firebase Authentication                     | Cognito for user management and authentication |
+| **Search**               | Advanced search with full-text and geospatial queries | Limited full-text search, no native geospatial | Limited search capabilities               |
+| **API Support**          | REST, WebSocket, MQTT (custom plugins)   | REST, WebSocket (limited)                   | REST, GraphQL, WebSocket                  |
+| **Extensibility**        | Plugin system for custom functionality   | Limited (Firebase Extensions)               | Highly extensible with AWS services       |
+| **Data Storage and Persistence** | Persistent storage via Elasticsearch | Persistent storage via Firestore or Realtime Database | Persistent storage with various AWS databases |
+| **Scalability**          | Scalable (requires server setup)         | Highly scalable with Google infrastructure  | Highly scalable with AWS infrastructure   |
+| **Pricing**              | Enterprise plans, open-source options    | Pay-as-you-go with free tier               | Pay-as-you-go, based on AWS usage         |
+| **Open Source**          | Yes                                      | No                                          | No                                        |
+| **Ideal Use Cases**      | IoT, smart cities, real-time tracking, and geospatial applications | Mobile/web apps, simple real-time apps     | Enterprise-level, full-stack applications |
+| **Community and Support**| Active community, enterprise support available | Large community, extensive documentation    | AWS support plans, extensive resources    |
+| **Serverless Support**   | No (requires dedicated server)           | Yes (fully serverless)                      | Yes (supports serverless architecture)    |
+
+### Kuzzle vs Firebase vs AWS Amplify
+
+- **Kuzzle:** Suited for complex, real-time, and IoT applications with advanced data handling needs.
+- **Firebase:** Optimized for quick deployment of mobile and web applications, especially for developers seeking a managed, straightforward backend.
+- **AWS Amplify:** Ideal for scalable, serverless applications that need to leverage the broader AWS ecosystem, particularly for full-stack development.
 
 ### References
 
