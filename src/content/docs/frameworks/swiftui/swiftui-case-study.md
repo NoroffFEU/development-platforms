@@ -1,12 +1,12 @@
 ---
     Title: SwiftUI
-    Author: Jon Are Haveråen-BRattås <jonhavbra87>
+    Author: Jon Are Haveråen-Brattås <jonhavbra87>
     Tags: Development Platforms, SwiftUI, Native UI, Apple Ecosystem
 ---
 
 ## Introduction
 
-![SwiftUI logo](src/assets/frameworks/SwiftUI/swiftUI.png)
+![SwiftUI logo](src/assets/frameworks/swiftui/swiftUI.png)
 
 SwiftUI is a modern user interface framework introduced by Apple for building applications across the Apple ecosystem—iOS, macOS, watchOS, and tvOS. It adopts a declarative approach similar to frameworks like React, allowing developers to describe the UI and let the framework handle the transitions. SwiftUI makes it easier to create consistent, beautiful user experiences with minimal code, thanks to its tight integration with Xcode and Swift.
 
@@ -14,7 +14,7 @@ The approach of SwiftUI allow developers to build complex UI using simple syntax
 
 ## Brief History
 
-- 2014: Swift 1.0 is publicly announced at WWDC.
+- 2014: Swift programming language is publicly announced at WWDC.
 
 - 2019: Introduction of SwiftUI as a declarative UI tool.
 
@@ -97,7 +97,7 @@ In Xcode, the live preview feature allows developers to instantly see the effect
 In SwiftUI, state management is essential for handling and maintaining the current state of user interfaces in an efficient and declarative manner. Using property wrappers like @State, @Binding, and @ObservedObject, developers can create, share, and respond to changes in UI state seamlessly. @State is used for managing local state within a view, while @Binding allows for sharing state between parent and child views. For more complex cases, @ObservedObject and @EnvironmentObject are used for handling data that needs to be shared more broadly. This approach keeps the UI synchronized with data changes, resulting in a dynamic, reactive application. You can read more about managing state in SwiftUI
 
 **Native Performance:**
-**_AppKit_**
+_AppKit_
 
     AppKit is the framework used for building macOS applications. It’s a collection of tools and components that help developers create the user interface for desktop applications—things like buttons, menus, and windows. SwiftUI can integrate with AppKit by using NSViewRepresentable and NSViewControllerRepresentable to include AppKit components inside a SwiftUI layout. This means that if there’s something specific that SwiftUI can't do on its own, you can still use AppKit features to complete your app (AppKit Integration).
 
