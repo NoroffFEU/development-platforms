@@ -1,7 +1,7 @@
 ---
-    Title: SwiftUI
-    Author: Jon Are Haveråen-Brattås <jonhavbra87>
-    Tags: Development Platforms, SwiftUI, Native UI, Apple Ecosystem
+    title: SwiftUI
+    author: Jon Are Haveråen-Brattås <jonhavbra87>
+    tags: Development Platforms, SwiftUI, Native UI, Apple Ecosystem
 ---
 
 ## Introduction
