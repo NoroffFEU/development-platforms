@@ -15,9 +15,11 @@ It's open source and built with features that simplify complex database manageme
 
 "Our mission is to radically simplify the way developers work with data. Your database can do more than store rows and columns in a table. We want to remove the glue out of your stack and provide a connected data platform that works with the tools you love."
 
-## Brief History
+### Purpose
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
+"Our purpose as a company is to make databases a joy to use for everyone building an app today, not just a select few."
+
+## Brief History
 
 - 2021: founded by Monica Sarbu, who previously held leadership roles in the tech industry, including at Elastic.
 - 2022: Beta version launched, introducing its core serverless database features, which focused on ease of integration for developers and serverless scalability
@@ -26,14 +28,6 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 - 2024: They have several features in Beta live on their site, including PR based workflow, Usage metrics and Vector search.
 
 ## Main Features
-
-- **Branching:** Create a new branch of your data to work on new features or experiments without affecting the main branch.|
-- **Collaboration:** Xata supports collaborative features that help teams work on the same data in real-time.
-- **Developer-Friendly API:** No need for extensive SQL knowledge
-- **Serverless Architecture:** Xata automatically handles scaling and performance optimization, allowing developers to avoid manual database server management
-- **Full-Text Search:** | Powered by Elasticsearch, customizable to make it extremely easy to build a powerful search experience in your app
-- **Integrations:** GitHub, Vercel and Netlify integrations makes Xata the perfect pairing for preview deployment workflows.
-- **Tutorials:** Xata provides a packed [blog](https://xata.io/blog), [YouTube channel](https://www.youtube.com/@xataio) and great [Docs](https://xata.io/docs) to get you started.
 
 | Feature                      | Description                                                                                                                                                        |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -57,20 +51,23 @@ You may use a bullet point list or subheadings to structure a timeline of your c
 
 ## Getting Started
 
-I# Install the CLI globally
-npm install -g @xata.io/cli
+### Install the CLI globally
 
-# Authenticate the CLI to your account
+`npm install -g @xata.io/cli`
 
-xata auth login
+### Authenticate the CLI to your account
 
-# Initialize xata in your project directory
+`xata auth login`
 
-xata init
+### Initialize xata in your project directory
 
-# Pull down schema changes and generate typings
+`xata init`
 
-xata pull
+### Pull down schema changes and generate typings
+
+`xata pull`
+
+Always check if the start-up guide is up-to-date, visiting the [Xata Docs](https://xata.io/docs)
 
 ## Conclusion
 
@@ -84,6 +81,9 @@ When looking for a platform offering a free plan I landed on the fairly new alte
 - Flexible data model, ideal for apps needing both structure and flexibility
 - Real-time collaborations, allowing multiple users working on the same data
 - Branching, allowing users to create isolated environments for testing, staging or development, similar to Git.
+- User-friendly API
+- Query ChatGPT against your data, OpenAI embedded in your database bu default.
+- Start free, pay as you grow
 
 ### Limitations
 
@@ -95,7 +95,9 @@ When looking for a platform offering a free plan I landed on the fairly new alte
 
 - [Xata.io](https://xata.io/)
 - [Xata introduction](https://youtu.be/gXuyYIV_dmc?si=PE4bpb8MnE3xX6lm)
+- [Xata Pricing](https://xata.io/pricing)
 
 ## Additional Resources
 
 - [Xata Product Walkthrough](https://youtu.be/-KNRS2fIWdA?si=vSJjSepU7EOEyjQE)
+- [Xata GitHub](https://github.com/xataio)
