@@ -100,6 +100,9 @@ Getting started with Firebase is straightforward, especially for beginners. Fire
 For a web project, install Firebase using npm:
 ```bash
 npm install firebase
+..
+
+------------------------------------------------------------------------
 
 ## Conclusion
 
