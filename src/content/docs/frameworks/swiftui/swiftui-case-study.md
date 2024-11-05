@@ -8,7 +8,7 @@
 
 ![SwiftUI logo](src/assets/frameworks/swiftui/swiftUI.png)
 
-SwiftUI is a modern user interface framework introduced by Apple for building applications across the Apple ecosystem—iOS, macOS, watchOS, and tvOS. It adopts a declarative approach similar to frameworks like React, allowing developers to describe the UI and let the framework handle the transitions. SwiftUI makes it easier to create consistent, beautiful user experiences with minimal code, thanks to its tight integration with Xcode and Swift.
+SwiftUI is a modern user interface framework introduced by Apple for building applications across the Apple ecosystem—iOS, macOS, watchOS, and tvOS. It adopts a declarative approach - similar to frameworks like React, allowing developers to describe the UI and let the framework handle the transitions. SwiftUI makes it easier to create consistent, beautiful user experiences with minimal code, thanks to its tight integration with Xcode and Swift.
 
 The approach of SwiftUI allow developers to build complex UI using simple syntax. In Xcode there is a live preview that developers easy can iterate quickly, making it a powerful framework building small and large-scale applications for Apple devices.
 
@@ -98,19 +98,19 @@ In SwiftUI, state management is essential for handling and maintaining the curre
 
 **Native Performance:**
 
-**AppKit**
+_AppKit_
 
     AppKit is the framework used for building macOS applications. It’s a collection of tools and components that help developers create the user interface for desktop applications—things like buttons, menus, and windows. SwiftUI can integrate with AppKit by using NSViewRepresentable and NSViewControllerRepresentable to include AppKit components inside a SwiftUI layout. This means that if there’s something specific that SwiftUI can't do on its own, you can still use AppKit features to complete your app (AppKit Integration).
 
-**UIKit**
+_UIKit_
 
     UIKit is the framework used for building apps for iOS and iPadOS. It provides all the basic building blocks for creating apps on iPhones and iPads, like buttons, labels, lists, and more. SwiftUI can use UIViewRepresentable and UIViewControllerRepresentable to bring UIKit views and controllers into a SwiftUI app. This is really useful if you have older UIKit code or if there are certain features that SwiftUI doesn’t have yet but UIKit does (UIKit Integration).
 
-**WatchKit**
+_WatchKit_
 
     WatchKit is the framework used to create apps for the Apple Watch. It helps developers build the small, glanceable interfaces that work best on the watch screen. SwiftUI can work alongside WatchKit by including WatchKit components into SwiftUI apps through the WKInterfaceObjectRepresentable protocol. This means that even when building apps for Apple Watch, you can combine both SwiftUI and WatchKit to make sure all the special features and capabilities are covered (WatchKit Integration).
 
-**Technology-Specific Views**
+_Technology-Specific Views_
 
     Technology-specific views are parts of SwiftUI that are designed specifically for certain Apple platforms. These views are tailored to make the most of what each device can do. For example, macOS might have features like NSView, while watchOS might use WKInterfaceObject. This helps developers create platform-appropriate experiences and ensures that their apps look and work well on every Apple device, even if the capabilities of each device are a bit different (Technology-Specific Views).
 
@@ -122,6 +122,45 @@ So to get the max out of SwiftUI, a developer can use:
 - Technology-specific views to make the most out of device-specific features.
 
 This allows SwiftUI to interact smoothly with other parts of Apple's ecosystem, giving developers the ability to leverage the best features from older, established frameworks while building their user interfaces in a modern, consistent way.
+
+## How it works
+
+SwiftUI works by combining view modifiers and state management to create dynamic user interfaces efficiently.
+
+**View Modifiers**
+
+In SwiftUI, view modifiers are a crutial part of how you customize the appearance and behavior of views. A view modifier is essentially a function that returns a modified version of the original view, allowing developers to chain multiple modifications in a clean and readable way. For example, if you want to add padding, change the background color, or round the corners of a view, you can do all of that using view modifiers. Here’s a simple example:
+
+```swift
+Text("Hello, SwiftUI!")
+    .padding()
+    .background(Color.blue)
+    .cornerRadius(10)
+```
+
+In this snippet, the view modifiers .padding(), .background(Color.blue), and .cornerRadius(10) are applied to a Text view to adjust its style. The use of these modifiers allows developers to layer changes to a view without creating deeply nested code, resulting in a more readable and maintainable structure. Modifiers help make SwiftUI incredibly expressive, which is key in maintaining declarative UI principles.
+
+**State Management**
+
+State management in SwiftUI allows developers to control the flow of data and how the UI responds when this data changes. It is implemented using property wrappers that ensure the interface remains synchronized with the underlying data:
+
+    @State: This is used for local, mutable state within a view. When the value of a @State property changes, the UI automatically updates to reflect the change. It's great for managing small state changes, like button taps or toggling switches.
+
+```swift
+    @State private var isOn: Bool = false
+
+    var body: some View {
+        Toggle("Switch", isOn: $isOn)
+    }
+```
+
+    @Binding: Used for passing data between parent and child views. With @Binding, you can share the same state between multiple views, ensuring they stay in sync. If the value changes in one view, all views reflecting that state update automatically.
+
+    @ObservedObject and @EnvironmentObject: These wrappers are used for more complex or shared data models. @ObservedObject is used for managing objects that can be shared across multiple views, while @EnvironmentObject is particularly useful for global app state that many views need to access.
+
+In combination, view modifiers and state management make SwiftUI a powerful tool for building responsive user interfaces with less boilerplate code. The declarative syntax means that rather than explicitly instructing how to update the UI, you simply describe what the UI should look like in each state, and SwiftUI takes care of updating the view whenever the data changes.
+
+Together, these components allow SwiftUI to offer a streamlined and intuitive approach to building user interfaces, making it possible to focus on the declarative flow of data rather than the intricacies of UI state handling. This results in apps that are responsive, easy to maintain, and have a consistent user experience.
 
 ## Getting Started
 
