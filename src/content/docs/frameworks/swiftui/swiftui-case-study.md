@@ -101,19 +101,19 @@ In SwiftUI, state management is essential for handling and maintaining the curre
 
 _AppKit_
 
-AppKit is the framework used for building macOS applications. It’s a collection of tools and components that help developers create the user interface for desktop applications—things like buttons, menus, and windows. SwiftUI can integrate with AppKit by using NSViewRepresentable and NSViewControllerRepresentable to include AppKit components inside a SwiftUI layout. This means that if there’s something specific that SwiftUI can't do on its own, you can still use AppKit features to complete your app (AppKit Integration).
+AppKit is the framework used for building macOS applications. It’s a collection of tools and components that help developers create the user interface for desktop applications—things like buttons, menus, and windows. SwiftUI can integrate with AppKit by using NSViewRepresentable and NSViewControllerRepresentable to include AppKit components inside a SwiftUI layout. This means that if there’s something specific that SwiftUI can't do on its own, you can still use AppKit features to complete your app.
 
 _UIKit_
 
-UIKit is the framework used for building apps for iOS and iPadOS. It provides all the basic building blocks for creating apps on iPhones and iPads, like buttons, labels, lists, and more. SwiftUI can use UIViewRepresentable and UIViewControllerRepresentable to bring UIKit views and controllers into a SwiftUI app. This is really useful if you have older UIKit code or if there are certain features that SwiftUI doesn’t have yet but UIKit does (UIKit Integration).
+UIKit is the framework used for building apps for iOS and iPadOS. It provides all the basic building blocks for creating apps on iPhones and iPads, like buttons, labels, lists, and more. SwiftUI can use UIViewRepresentable and UIViewControllerRepresentable to bring UIKit views and controllers into a SwiftUI app. This is really useful if you have older UIKit code or if there are certain features that SwiftUI doesn’t have yet but UIKit does.
 
 _WatchKit_
 
-WatchKit is the framework used to create apps for the Apple Watch. It helps developers build the small, glanceable interfaces that work best on the watch screen. SwiftUI can work alongside WatchKit by including WatchKit components into SwiftUI apps through the WKInterfaceObjectRepresentable protocol. This means that even when building apps for Apple Watch, you can combine both SwiftUI and WatchKit to make sure all the special features and capabilities are covered (WatchKit Integration).
+WatchKit is the framework used to create apps for the Apple Watch. It helps developers build the small, glanceable interfaces that work best on the watch screen. SwiftUI can work alongside WatchKit by including WatchKit components into SwiftUI apps through the WKInterfaceObjectRepresentable protocol. This means that even when building apps for Apple Watch, you can combine both SwiftUI and WatchKit to make sure all the special features and capabilities are covered.
 
 _Technology-Specific Views_
 
-Technology-specific views are parts of SwiftUI that are designed specifically for certain Apple platforms. These views are tailored to make the most of what each device can do. For example, macOS might have features like NSView, while watchOS might use WKInterfaceObject. This helps developers create platform-appropriate experiences and ensures that their apps look and work well on every Apple device, even if the capabilities of each device are a bit different (Technology-Specific Views).
+Technology-specific views are parts of SwiftUI that are designed specifically for certain Apple platforms. These views are tailored to make the most of what each device can do. For example, macOS might have features like NSView, while watchOS might use WKInterfaceObject. This helps developers create platform-appropriate experiences and ensures that their apps look and work well on every Apple device, even if the capabilities of each device are a bit different.
 
 So to get the max out of SwiftUI, a developer can use:
 
@@ -180,15 +180,15 @@ Start coding and you can always see your changes in the "simulator".
 
 ## Conclusion
 
+I think SwiftUI is an elegant, powerful tool for building UI across the Apple ecosystem. It´s providing developers with a simple and declarative way to create responsive and visually appealing applications. Its features like Live Preview in Xcode and cross-platform support across iOS, macOS, watchOS, and tvOS make it highly efficient and enjoyable for developers. However, SwiftUI is still evolving, and some complex or platform-specific features may require falling back on older frameworks like UIKit or AppKit, which can be a bit challenging to manage. Despite these limitations, I think SwiftUI remains a powerful tool that simplifies UI development and delivers a consistent, high-quality user experience for Apple devices.
+
 ## References
 
 - [Apple Developer Site](https://developer.apple.com/swift/)
 - [Apple Developer Documentation](https://developer.apple.com/documentation/swift)
 - [Swift GitHub](https://github.com/swiftlang/swift)
 - [SwiftUI vs React Native](https://blog.devteam.space/swiftui-vs-react-native/)
-- [SwiftUI vs Angular Comparison](https://www.cuelogic.com/blog/angular-vs-swiftui)
 - [History of SwiftUI](<https://en.wikipedia.org/wiki/Swift_(programming_language)>)
-- [Next.js and SvelteKit Comparisons](https://blog.logrocket.com/next-js-vs-sveltekit/)
 
 ## Additional Resources
 
