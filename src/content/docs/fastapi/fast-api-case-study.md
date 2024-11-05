@@ -75,5 +75,120 @@ app = FastAPI()
 @app.get("/items/")
 async def read_item(skip: int = 0, limit: int = 10):
     return {"skip": skip, "limit": limit}
-
 ```
+
+**2. Path Parameters**
+
+Path parameters are values embedded in the URL path.
+
+```python
+@app.get("/users/{user_id}")
+async def read_user(user_id: int):
+    return {"user_id": user_id}
+```
+
+**3. Data Validation with Pydantic**
+
+Use Pydantic models to validate the data sent in a request body.
+
+```python
+from pydantic import BaseModel
+
+class Item(BaseModel):
+    name: str
+    price: float
+    is_offer: bool = None
+
+@app.post("/items/")
+async def create_item(item: Item):
+    return {"item_name": item.name, "item_price": item.price}
+```
+
+**4. Asynchronous Task Example**
+
+FastAPI supports async/await for handling asynchronous tasks, which is useful for IO-bound tasks like API calls or database queries.
+
+```python
+import asyncio
+
+@app.get("/delayed-response/")
+async def delayed_response():
+    await asyncio.sleep(5)  # Simulates a delay
+    return {"message": "This response was delayed by 5 seconds"}
+```
+
+**5. Basic Authentication with OAuth2**
+
+A simple example using OAuth2 with a password flow.
+
+```python
+from fastapi.security import OAuth2PasswordBearer
+from fastapi import Depends
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+
+@app.get("/protected/")
+async def protected_route(token: str = Depends(oauth2_scheme)):
+    return {"token": token}
+```
+
+### Market Comparison
+
+FastAPI compared with other frameworks:
+
+- **FastAPI vs Flask**: Flask is known for simplicity, but FastAPI provides higher performance with asynchronous support and built-in documentation.
+- **FastAPI vs Django Rest Framework (DRF)**: DRF is robust and feature-rich for large projects, but FastAPI is lighter and often faster, especially for microservices and asynchronous tasks.
+
+| Framework               | Key Strengths                    | Limitations                        |
+|-------------------------|----------------------------------|------------------------------------|
+| FastAPI                 | Performance, easy documentation, async support | Less known than Flask or DRF       |
+| Flask                   | Simplicity, lightweight         | No built-in async support          |
+| Django Rest Framework   | Robust, extensive functionality | Complex, slower than FastAPI       |
+
+### Getting Started with FastAPI
+
+To help you get started with FastAPI, here is a simple walkthrough:
+
+**Step 1: Install FastAPI**
+
+Install FastAPI and an ASGI server like `uvicorn`:
+
+```bash
+pip install fastapi
+pip install uvicorn
+```
+
+**Step 2: Create a Basic FastAPI Application**
+
+Create a simple FastAPI app with the following code:
+
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+async def read_root():
+    return {"message": "Hello, FastAPI!"}
+```
+
+**Step 3: Run the Application**
+
+Run the app with uvicorn:
+
+```bash
+uvicorn main:app --reload
+```
+
+Visit `http://127.0.0.1:8000` in your browser to see your API in action.
+
+### Conclusion
+
+In conclusion, FastAPI stands out as a powerful framework for developing high-performance, scalable APIs. Its asynchronous capabilities, built-in documentation, and type safety make it a strong choice for developers. FastAPI is ideal for a variety of use cases, including RESTful APIs, microservices, and real-time applications. As FastAPI continues to grow in popularity, it is becoming an essential tool in modern web development.
+
+### References
+
+- [FastAPI Documentation](https://fastapi.tiangolo.com/)
+- [FastAPI GitHub Repository](https://github.com/tiangolo/fastapi)
+- *FastAPI Explained* by Sebastián Ramírez
+- IBM Developer Blog: [Why Use FastAPI for Your Next Project](https://developer.ibm.com/articles/why-use-fastapi/)
