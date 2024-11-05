@@ -96,12 +96,6 @@ Getting started with Firebase is straightforward, especially for beginners. Fire
 2. Register your app by providing a nickname and setting up Firebase Hosting if needed.
 3. Firebase will generate configuration code for your app. Copy this code, as you’ll use it to initialize Firebase in your project.
 
-### Step 3: Install Firebase SDK
-For a web project, install Firebase using npm:
-
-```bash
-npm install firebase
-
 
 ## Conclusion
 
