@@ -100,11 +100,11 @@ In SwiftUI, state management is essential for handling and maintaining the curre
 
 _AppKit_
 
-    AppKit is the framework used for building macOS applications. It’s a collection of tools and components that help developers create the user interface for desktop applications—things like buttons, menus, and windows. SwiftUI can integrate with AppKit by using NSViewRepresentable and NSViewControllerRepresentable to include AppKit components inside a SwiftUI layout. This means that if there’s something specific that SwiftUI can't do on its own, you can still use AppKit features to complete your app (AppKit Integration).
+AppKit is the framework used for building macOS applications. It’s a collection of tools and components that help developers create the user interface for desktop applications—things like buttons, menus, and windows. SwiftUI can integrate with AppKit by using NSViewRepresentable and NSViewControllerRepresentable to include AppKit components inside a SwiftUI layout. This means that if there’s something specific that SwiftUI can't do on its own, you can still use AppKit features to complete your app (AppKit Integration).
 
 _UIKit_
 
-    UIKit is the framework used for building apps for iOS and iPadOS. It provides all the basic building blocks for creating apps on iPhones and iPads, like buttons, labels, lists, and more. SwiftUI can use UIViewRepresentable and UIViewControllerRepresentable to bring UIKit views and controllers into a SwiftUI app. This is really useful if you have older UIKit code or if there are certain features that SwiftUI doesn’t have yet but UIKit does (UIKit Integration).
+UIKit is the framework used for building apps for iOS and iPadOS. It provides all the basic building blocks for creating apps on iPhones and iPads, like buttons, labels, lists, and more. SwiftUI can use UIViewRepresentable and UIViewControllerRepresentable to bring UIKit views and controllers into a SwiftUI app. This is really useful if you have older UIKit code or if there are certain features that SwiftUI doesn’t have yet but UIKit does (UIKit Integration).
 
 _WatchKit_
 
@@ -112,7 +112,7 @@ WatchKit is the framework used to create apps for the Apple Watch. It helps deve
 
 _Technology-Specific Views_
 
-    Technology-specific views are parts of SwiftUI that are designed specifically for certain Apple platforms. These views are tailored to make the most of what each device can do. For example, macOS might have features like NSView, while watchOS might use WKInterfaceObject. This helps developers create platform-appropriate experiences and ensures that their apps look and work well on every Apple device, even if the capabilities of each device are a bit different (Technology-Specific Views).
+Technology-specific views are parts of SwiftUI that are designed specifically for certain Apple platforms. These views are tailored to make the most of what each device can do. For example, macOS might have features like NSView, while watchOS might use WKInterfaceObject. This helps developers create platform-appropriate experiences and ensures that their apps look and work well on every Apple device, even if the capabilities of each device are a bit different (Technology-Specific Views).
 
 So to get the max out of SwiftUI, a developer can use:
 
@@ -144,7 +144,7 @@ In this snippet, the view modifiers .padding(), .background(Color.blue), and .co
 
 State management in SwiftUI allows developers to control the flow of data and how the UI responds when this data changes. It is implemented using property wrappers that ensure the interface remains synchronized with the underlying data:
 
-    @State: This is used for local, mutable state within a view. When the value of a @State property changes, the UI automatically updates to reflect the change. It's great for managing small state changes, like button taps or toggling switches.
+@State: This is used for local, mutable state within a view. When the value of a @State property changes, the UI automatically updates to reflect the change. It's great for managing small state changes, like button taps or toggling switches.
 
 ```swift
     @State private var isOn: Bool = false
@@ -154,9 +154,9 @@ State management in SwiftUI allows developers to control the flow of data and ho
     }
 ```
 
-    @Binding: Used for passing data between parent and child views. With @Binding, you can share the same state between multiple views, ensuring they stay in sync. If the value changes in one view, all views reflecting that state update automatically.
+@Binding: Used for passing data between parent and child views. With @Binding, you can share the same state between multiple views, ensuring they stay in sync. If the value changes in one view, all views reflecting that state update automatically.
 
-    @ObservedObject and @EnvironmentObject: These wrappers are used for more complex or shared data models. @ObservedObject is used for managing objects that can be shared across multiple views, while @EnvironmentObject is particularly useful for global app state that many views need to access.
+@ObservedObject and @EnvironmentObject: These wrappers are used for more complex or shared data models. @ObservedObject is used for managing objects that can be shared across multiple views, while @EnvironmentObject is particularly useful for global app state that many views need to access.
 
 In combination, view modifiers and state management make SwiftUI a powerful tool for building responsive user interfaces with less boilerplate code. The declarative syntax means that rather than explicitly instructing how to update the UI, you simply describe what the UI should look like in each state, and SwiftUI takes care of updating the view whenever the data changes.
 
