@@ -97,19 +97,20 @@ In Xcode, the live preview feature allows developers to instantly see the effect
 In SwiftUI, state management is essential for handling and maintaining the current state of user interfaces in an efficient and declarative manner. Using property wrappers like @State, @Binding, and @ObservedObject, developers can create, share, and respond to changes in UI state seamlessly. @State is used for managing local state within a view, while @Binding allows for sharing state between parent and child views. For more complex cases, @ObservedObject and @EnvironmentObject are used for handling data that needs to be shared more broadly. This approach keeps the UI synchronized with data changes, resulting in a dynamic, reactive application. You can read more about managing state in SwiftUI
 
 **Native Performance:**
-_AppKit_
+
+**AppKit**
 
     AppKit is the framework used for building macOS applications. It’s a collection of tools and components that help developers create the user interface for desktop applications—things like buttons, menus, and windows. SwiftUI can integrate with AppKit by using NSViewRepresentable and NSViewControllerRepresentable to include AppKit components inside a SwiftUI layout. This means that if there’s something specific that SwiftUI can't do on its own, you can still use AppKit features to complete your app (AppKit Integration).
 
-**_UIKit_**
+**UIKit**
 
     UIKit is the framework used for building apps for iOS and iPadOS. It provides all the basic building blocks for creating apps on iPhones and iPads, like buttons, labels, lists, and more. SwiftUI can use UIViewRepresentable and UIViewControllerRepresentable to bring UIKit views and controllers into a SwiftUI app. This is really useful if you have older UIKit code or if there are certain features that SwiftUI doesn’t have yet but UIKit does (UIKit Integration).
 
-**_WatchKit_**
+**WatchKit**
 
     WatchKit is the framework used to create apps for the Apple Watch. It helps developers build the small, glanceable interfaces that work best on the watch screen. SwiftUI can work alongside WatchKit by including WatchKit components into SwiftUI apps through the WKInterfaceObjectRepresentable protocol. This means that even when building apps for Apple Watch, you can combine both SwiftUI and WatchKit to make sure all the special features and capabilities are covered (WatchKit Integration).
 
-**_Technology-Specific Views_**
+**Technology-Specific Views**
 
     Technology-specific views are parts of SwiftUI that are designed specifically for certain Apple platforms. These views are tailored to make the most of what each device can do. For example, macOS might have features like NSView, while watchOS might use WKInterfaceObject. This helps developers create platform-appropriate experiences and ensures that their apps look and work well on every Apple device, even if the capabilities of each device are a bit different (Technology-Specific Views).
 
