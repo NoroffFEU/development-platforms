@@ -6,7 +6,7 @@
 
 ## Introduction
 
-![SwiftUI logo](src/assets/frameworks/swiftui/swiftUI.png)
+![SwiftUI logo](../../../../assets/frameworks/swiftui/swiftUI.png)
 
 SwiftUI is a modern user interface framework introduced by Apple for building applications across the Apple ecosystem—iOS, macOS, watchOS, and tvOS. It adopts a declarative approach - similar to frameworks like React, allowing developers to describe the UI and let the framework handle the transitions. SwiftUI makes it easier to create consistent, beautiful user experiences with minimal code, thanks to its tight integration with Xcode and Swift.
 
@@ -83,7 +83,7 @@ struct ContentView: View {
 ```
 
 The outcome would look like this in "live preview" inside Xcode:
-![SwiftUI code example](src/assets/frameworks/SwiftUI/code-example-swiftui.png)
+![SwiftUI code example](../../../../assets/frameworks/swiftui/code-example-swiftui.png)
 
 In this code we got a ContentView. This is a way SwiftUI make it´s magic. You simply just write what you want to be on the screen. In my example I got an Zstack, that is layer stack, and I tell that to have a background color of blue. inside the ZStack there is a VStack. That is a Vertical Stack, meaning it is a container for vertical content. Inside the CStack there is an image ans a text (vertically alligned) and after those there are HStack (Horizontally Stack). The HStack includes a button with text and styling.
 
@@ -108,7 +108,7 @@ _UIKit_
 
 _WatchKit_
 
-    WatchKit is the framework used to create apps for the Apple Watch. It helps developers build the small, glanceable interfaces that work best on the watch screen. SwiftUI can work alongside WatchKit by including WatchKit components into SwiftUI apps through the WKInterfaceObjectRepresentable protocol. This means that even when building apps for Apple Watch, you can combine both SwiftUI and WatchKit to make sure all the special features and capabilities are covered (WatchKit Integration).
+WatchKit is the framework used to create apps for the Apple Watch. It helps developers build the small, glanceable interfaces that work best on the watch screen. SwiftUI can work alongside WatchKit by including WatchKit components into SwiftUI apps through the WKInterfaceObjectRepresentable protocol. This means that even when building apps for Apple Watch, you can combine both SwiftUI and WatchKit to make sure all the special features and capabilities are covered (WatchKit Integration).
 
 _Technology-Specific Views_
 
@@ -174,7 +174,7 @@ To create a new project, open your Xcode program and "create new project"
 **Step 2: Navigate to the project directory**
 Choose for witch platform you want to build. IOS, WatchOS, App Playground etc.
 
-\*_Step 3: Start coding_
+**Step 3: Start coding**
 Start coding and you can always see your changes in the "simulator".
 
 ## Conclusion
