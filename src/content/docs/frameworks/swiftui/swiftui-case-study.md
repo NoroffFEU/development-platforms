@@ -83,7 +83,8 @@ struct ContentView: View {
 ```
 
 The outcome would look like this in "live preview" inside Xcode:
-![SwiftUI code example](../../../../assets/frameworks/swiftui/code-example-swiftui.png)
+
+<img src="../../../../assets/frameworks/swiftui/code-example-swiftui.png" alt="SwiftUI code example" height="200" style="width: auto;">
 
 In this code we got a ContentView. This is a way SwiftUI make it´s magic. You simply just write what you want to be on the screen. In my example I got an Zstack, that is layer stack, and I tell that to have a background color of blue. inside the ZStack there is a VStack. That is a Vertical Stack, meaning it is a container for vertical content. Inside the CStack there is an image ans a text (vertically alligned) and after those there are HStack (Horizontally Stack). The HStack includes a button with text and styling.
 
