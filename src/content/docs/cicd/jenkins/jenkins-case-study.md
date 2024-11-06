@@ -1,6 +1,6 @@
 ---
-title: A Case Study of Jenkins: Automating CI/CD Pipelines
-author: Fredrik Mohag Håkansson <@FredrikMohag>
+title: "A Case Study of Jenkins: Automating CI/CD Pipelines"
+author: "Fredrik Mohag Håkansson <@FredrikMohag>"
 tags:
   - Jenkins
   - CI/CD
