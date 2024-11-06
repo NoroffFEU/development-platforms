@@ -38,7 +38,7 @@ Pipeline as Code:
 Jenkins lets you define your build, test, and deployment workflows in code using something called Jenkins Pipeline. You can use a flexible syntax (either declarative or scripted) to create complex automation workflows that can be version-controlled right alongside your application code. The Jenkinsfile, which is just a text file with your pipeline code, helps keep everything organized and transparent.
 
 Plugin Ecosystem:
-One of Jenkins’ biggest selling points is its huge library of plugins—over 1,500! This means you can customize Jenkins to meet your project’s specific needs, whether that involves integrating with certain testing tools, cloud providers, or deployment frameworks.
+One of Jenkins’ biggest selling points is its huge library of plugins—over 1800! This means you can customize Jenkins to meet your project’s specific needs, whether that involves integrating with certain testing tools, cloud providers, or deployment frameworks.
 
 Distributed Builds:
 Need to speed up your build and test cycles? Jenkins has your back with support for distributed builds across multiple machines. This is super helpful for large projects that require extensive testing.
@@ -67,7 +67,7 @@ GitHub Actions has become a strong contender with CI/CD features built right int
 Here are some reasons why Jenkins stands out:
 
 Flexibility and Customization:
-Jenkins is incredibly adaptable, with a huge range of plugins (over 1,800!) that support various programming languages and tools. This means you can tailor Jenkins to fit your project’s unique workflows.
+Jenkins is incredibly adaptable, with a huge range of plugins (over 1800!) that support various programming languages and tools. This means you can tailor Jenkins to fit your project’s unique workflows.
 
 Large and Active Community:
 As a well-established open-source tool, Jenkins has a vibrant community. This means lots of new plugins, bug fixes, and a wealth of documentation and support are always at your fingertips.
