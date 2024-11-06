@@ -4,6 +4,10 @@ author: "Sigurd Vaaler <Voidwaker>"
 tags: fastapi, api development, python, web framework, backend, asynchronous programming
 ---
 
+![FastAPI Logo](https://raw.githubusercontent.com/tiangolo/fastapi/master/docs/img/logo-margin/logo-teal.png)
+
+
+
 ### Introduction
 
 In this case study, we’ll explore why FastAPI has become a popular choice for developers looking to create high-performance APIs quickly and efficiently. FastAPI stands out with its asynchronous capabilities, built-in documentation, and ease of use, making it a go-to tool for building scalable web applications.
