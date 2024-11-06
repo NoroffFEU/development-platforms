@@ -4,7 +4,7 @@ author: "Sigurd Vaaler <Voidwaker>"
 tags: fastapi, api development, python, web framework, backend, asynchronous programming
 ---
 
-![FastAPI Logo](https://raw.githubusercontent.com/tiangolo/fastapi/master/docs/img/logo-margin/logo-teal.png)
+![FastAPI Logo](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png)
 
 
 
