@@ -149,7 +149,7 @@ agent any
     post {
         always {
             archiveArtifacts artifacts: '**/build/libs/*.jar', allowEmptyArchive: true
-            junit 'build/test-results/**/*.xml'
+            junit '**/build/test-results/**/*.xml'
         }
         success {
             echo 'Pipeline succeeded!'
