@@ -8,7 +8,7 @@ tags: Kuzzle, BAAS, PAAS,
 
 ## Introduction
 
-Kuzzle is a versatile backend platform providing essential building blocks for various applications. By offering standardized features ready for use, Kuzzle allows developers to focus on building high-value, specialized business functionalities, rather than re-creating standard features in every new application.
+Kuzzle is a robust and flexible backend platform designed to support the development of complex, real-time applications. It provides developers with essential tools and services, enabling them to focus on building unique business logic without the need to recreate common backend functionalities. Whether you're developing IoT systems, smart city infrastructure, or large-scale enterprise applications, Kuzzle offers out-of-the-box features such as real-time data synchronization, advanced search capabilities, and secure user management. By offering scalability, extensibility, and high performance, Kuzzle is well-suited for applications that require both reliability and flexibility.
 
 ## Brief History
 
@@ -17,7 +17,7 @@ The following timeline highlights Kuzzle's development milestones:
 - 2015: Kuzzle has been founded.
 - 2016: Kuzzle launched as an open-source project.
 - 2017 - 2018: Kuzzle expands its focus on real-time and IoT applications. Gaining traction within the industries requiring complex data management (Smart city infrastructure & Healthcare).
-- 2019: The release of Kuzzle v2.
+- 2019: The release of Kuzzle v2. V2 introduced enchanced real-time capabilities, improved API management, a more extensible plugin system, robust security features, and expanded protocol support, making Kuzzle even more powerful and flexible.
 - 2020: Expansion of IoT and enterprise capabilities
 - 2021: Update on SDK and client libraries for a smoother integration across multiple platforms.
 - Security updates and the encouragement of community contributions.
@@ -77,6 +77,8 @@ Kuzzle's diverse capabilities make it suitable for a wide range of applications,
 
 ## Market comparison Firebase & AWS Amplify
 
+When choosing a backend platform, it's essential to consider the specific needs for your project. Below is a comparison of Kuzzle, Firebase and AWS Amplify.
+
 | Feature                  | Kuzzle                                   | Firebase                                    | AWS Amplify                               |
 |--------------------------|------------------------------------------|---------------------------------------------|-------------------------------------------|
 | **Core Focus**           | Real-time backend for IoT, mobile, and web apps | Backend-as-a-Service (BaaS) with real-time capabilities | Full-stack development platform with backend services |
@@ -94,13 +96,17 @@ Kuzzle's diverse capabilities make it suitable for a wide range of applications,
 | **Community and Support**| Active community, enterprise support available | Large community, extensive documentation    | AWS support plans, extensive resources    |
 | **Serverless Support**   | No (requires dedicated server)           | Yes (fully serverless)                      | Yes (supports serverless architecture)    |
 
-### Kuzzle vs Firebase vs AWS Amplify
+## Conclusion
 
-- **Kuzzle:** Suited for complex, real-time, and IoT applications with advanced data handling needs.
-- **Firebase:** Optimized for quick deployment of mobile and web applications, especially for developers seeking a managed, straightforward backend.
-- **AWS Amplify:** Ideal for scalable, serverless applications that need to leverage the broader AWS ecosystem, particularly for full-stack development.
+- **Kuzzle** is ideal for developers working on real-time, IoT, or complex applications requiring advanced data management. It’s particularly suited for industries like smart cities and healthcare.
+  
+- **Firebase** excels in rapid development, especially for mobile and web apps that don’t require complex backends. It’s a go-to choice for simple, serverless applications.
+  
+- **AWS Amplify** is perfect for enterprise-level applications needing high scalability and integration with the broader AWS ecosystem, but it may be overkill for smaller projects.
+
 
 ### References
 
-https://blog.back4app.com/kuzzle-alternatives/
-https://kuzzle.io
+- [Blog from back4app regarding Kuzzle alternatives](https://blog.back4app.com/kuzzle-alternatives/)
+- [Kuzzle](https://kuzzle.io)
+- [Kuzzle docs](https://docs.kuzzle.io/core/2/guides/introduction/what-is-kuzzle/)
