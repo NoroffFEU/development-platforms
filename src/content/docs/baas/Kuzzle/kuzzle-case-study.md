@@ -71,9 +71,6 @@ Kuzzle IoT was selected as the data and IoT platform for the **Finistère Smart 
 
 With **475,000+ connected sensors** and equipment, Kuzzle IoT monitors these smart territories in real-time through a territorial hypervisor, enabling data-driven decision-making and smarter urban management.
 
-![connected devices and buildings](image.png)  
-*Real-time data monitoring across 270 smart municipalities powered by 475,000+ sensors.*
-
 For detailed insights on how Kuzzle IoT powers the Smart City transformation, check out our [**Smart City Case Study**](https://kuzzle.io/success-stories/smart-city-sdef/).
 
 
