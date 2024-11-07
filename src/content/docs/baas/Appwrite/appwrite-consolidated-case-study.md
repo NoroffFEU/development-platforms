@@ -2313,5 +2313,5 @@ The Appwrite community on Discord provides valuable support and resources, foste
 - [Upcoming Features](https://unsplash.com/photos/a-black-and-white-photo-of-a-sign-that-says-coming-soon-oRk4Ep65tRc)  
   _Photo by Huma Kabakci on Unsplash_
 
-- [Market Potential](https://unsplash.com/photos/a-black-and-white-photo-of-a-building-in-new-york-city-b-vIBgWR_BA)
+- [Market Potential](https://unsplash.com/photos/a-black-and-white-photo-of-a-building-in-new-york-city-b-vIBgWR_BA)    
   _Photo by Bradley Andrews B on Unsplash_
