@@ -191,13 +191,6 @@ Getting started with Tabnine is simple, especially if you're using Visual Studio
    ![Tabnine codesnippet2](~/assets/ai-ml/Tabnine/codesnippet2.png)
    ![Tabnine codesnippet3](~/assets/ai-ml/Tabnine/codesnippet3.png)
 
-### **Customization in Visual Studio Code**
-
-- **Local Model Training:**  
-  Tabnine allows developers to train AI models locally within VS Code, which is especially useful for teams handling sensitive codebases. This ensures that no code leaves your local environment, maintaining a high level of privacy.
-- **Settings Synchronization:**  
-  Visual Studio Code supports settings synchronization across devices, allowing you to maintain a consistent coding environment with Tabnine's features enabled on any machine.
-
 ### **General Tips for Using Tabnine Effectively in VS Code**
 
 - **Use Shortcuts:**  
@@ -218,8 +211,8 @@ While this guide focuses on Visual Studio Code, it's worth noting that Tabnine i
 
 This versatility allows developers to use Tabnine across different platforms and environments, making it a flexible AI assistant no matter which development tool you prefer.
 
-![Tabnine supported idf's](~/assets/ai-ml/Tabnine/idfs.png)
-_Supported idf's for Tabnine_
+![Tabnine supported ide's](~/assets/ai-ml/Tabnine/ides.png)
+_Supported ide's for Tabnine_
 
 ## **Pricing and Subscription Plans**
 
