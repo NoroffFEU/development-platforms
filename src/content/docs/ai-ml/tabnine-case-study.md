@@ -121,7 +121,7 @@ Here is a detailed comparison of Tabnine with its main competitor, GitHub Copilo
 ### **2. Customization**
 
 - **Tabnine:** Offers a high level of customization, particularly for teams. Organizations can create team-specific AI models that reflect internal coding standards, best practices, and preferences. These models can be trained locally to adapt to a specific codebase, making Tabnine a flexible choice for teams who want to standardize code quality.
-- **GitHub Copilot:** Copilot does not currently support custom models, meaning that it relies on a general-purpose AI trained on a vast amount of public code. This makes it quick to use without any setup, but it may not adapt well to a team's specific coding style or needs.
+- **GitHub Copilot:** GitHub Copilot has recently introduced support for custom models, allowing organizations to fine-tune Copilot based on their proprietary codebases and coding practices. This feature provides teams with the ability to adapt Copilot to specific coding styles and internal standards. Additionally, Copilot supports models from multiple providers, offering flexibility in choosing the model that best fits the team's needs. This makes Copilot a more versatile tool, capable of both quick, out-of-the-box use and deeper customization for enterprise environments.
 
 ### **3. Integration**
 
