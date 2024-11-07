@@ -4,7 +4,7 @@ author: Stian Lilleng <StianL82>
 tags: Tabnine, AI, machine learning, AI in coding, code assistant, productivity tools, code automation, case study
 ---
 
-![Tabnine Page](~/assets/ai-ml/Tabnine/tabnine-main.png)
+![Tabnine Page](/src/assets/ai-ml/Tabnine/tabnine-main.png)
 
 ## **Introduction**
 
@@ -174,12 +174,12 @@ Getting started with Tabnine is simple, especially if you're using Visual Studio
 1. **Install Tabnine in VS Code:**  
    Open Visual Studio Code, navigate to the Extensions Marketplace, and search for "Tabnine." Click **Install** to add the extension to your editor. Once installed, Tabnine is enabled automatically, ready to provide AI-assisted code completions.
 
-   ![Tabnine install](~/assets/ai-ml/Tabnine/install.png)
+   ![Tabnine install](/src/assets/ai-ml/Tabnine/install.png)
 
 2. **Set Up an Account:**  
    Create a Tabnine account, either free or paid, to unlock advanced features and customization options. Signing up will give you access to more precise AI-driven completions and team-based features.
 
-   ![Tabnine signup](~/assets/ai-ml/Tabnine/signup.png)
+   ![Tabnine signup](/src/assets/ai-ml/Tabnine/signup.png)
 
 3. **Configure Settings in VS Code:**  
    Adjust Tabnine's settings directly in Visual Studio Code to match your preferences. You can tweak privacy settings for local model training, set language preferences, and enable team-based customizations. These options are accessible in the extension settings or via the Tabnine icon in the status bar.
@@ -187,9 +187,9 @@ Getting started with Tabnine is simple, especially if you're using Visual Studio
 4. **Start Coding:**  
    Begin typing, and Tabnine will offer real-time code suggestions based on the code context. These suggestions aim to speed up your workflow and enhance productivity by completing lines of code and providing intelligent hints.
 
-   ![Tabnine codesnippet1](~/assets/ai-ml/Tabnine/codesnippet1.png)
-   ![Tabnine codesnippet2](~/assets/ai-ml/Tabnine/codesnippet2.png)
-   ![Tabnine codesnippet3](~/assets/ai-ml/Tabnine/codesnippet3.png)
+   ![Tabnine codesnippet1](/src/assets/ai-ml/Tabnine/codesnippet1.png)
+   ![Tabnine codesnippet2](/src/assets/ai-ml/Tabnine/codesnippet2.png)
+   ![Tabnine codesnippet3](/src/assets/ai-ml/Tabnine/codesnippet3.png)
 
 ### **General Tips for Using Tabnine Effectively in VS Code**
 
@@ -211,7 +211,7 @@ While this guide focuses on Visual Studio Code, it's worth noting that Tabnine i
 
 This versatility allows developers to use Tabnine across different platforms and environments, making it a flexible AI assistant no matter which development tool you prefer.
 
-![Tabnine supported ide's](~/assets/ai-ml/Tabnine/ides.png)
+![Tabnine supported ide's](/src/assets/ai-ml/Tabnine/ides.png)
 _Supported ide's for Tabnine_
 
 ## **Pricing and Subscription Plans**
