@@ -65,15 +65,17 @@ Kuzzle's diverse capabilities make it suitable for a wide range of applications,
 - **All use cases**
   Kuzzle offers robust backend solutions well-suited for applications requiring real-time tracking, monitoring, and data synchronization. For a comprehensive list of use cases, visit Kuzzle use cases.[Kuzzle use cases](https://kuzzle.io/use-case/)
 
-## High profile use cases
+### **High-Profile Use Cases: Kuzzle IoT in Action**
 
- **Kuzzle IoT was chosen as the data and IoT platform for the Finistère Smart Connect project to connect 270 municipalities and communities to be the first territory connected on a departmental scale.**
+Kuzzle IoT was selected as the data and IoT platform for the **Finistère Smart Connect project**, connecting 270 municipalities across the region. This initiative marks the first department-wide smart territory network in France.
 
- Kuzzle IoT connects and supervises 270 smart territories in real time thanks to more than 475,000 sensors and equipment connected to a territorial hypervisor.
+With **475,000+ connected sensors** and equipment, Kuzzle IoT monitors these smart territories in real-time through a territorial hypervisor, enabling data-driven decision-making and smarter urban management.
 
- ![connected devices and buildings](image.png)
+![connected devices and buildings](image.png)  
+*Real-time data monitoring across 270 smart municipalities powered by 475,000+ sensors.*
 
- For more information: ![Smart city case study](https://kuzzle.io/success-stories/smart-city-sdef/)
+For detailed insights on how Kuzzle IoT powers the Smart City transformation, check out our [**Smart City Case Study**](https://kuzzle.io/success-stories/smart-city-sdef/).
+
 
 ## Market comparison Firebase & AWS Amplify
 
@@ -103,7 +105,6 @@ When choosing a backend platform, it's essential to consider the specific needs 
 - **Firebase** excels in rapid development, especially for mobile and web apps that don’t require complex backends. It’s a go-to choice for simple, serverless applications.
   
 - **AWS Amplify** is perfect for enterprise-level applications needing high scalability and integration with the broader AWS ecosystem, but it may be overkill for smaller projects.
-
 
 ### References
 
