@@ -95,7 +95,7 @@ tags: case study, platform, BaaS, Backend-as-a-Service, backend, database, authe
 
 ## 1a-Overview-of-Appwrite
 
-![Appwrite Logo](../../assets/baas/appwrite/jbr/appwrite_white_logo.png)
+![Appwrite Logo](../../../../assets/baas/appwrite/jbr/appwrite_white_logo.png)
 
 ### What is Appwrite?
 
@@ -123,7 +123,7 @@ By providing a comprehensive, easy-to-use, and secure backend solution, Appwrite
 
 ## 1b-Target-Audience
 
-![Target Audience](../../assets/baas/appwrite/jbr/target-audience.jpg)
+![Target Audience](../../../../assets/baas/appwrite/jbr/target-audience.jpg)
 
 ### Who is Appwrite built for?
 
@@ -149,7 +149,7 @@ In conclusion, Appwrite is built for developers, startups, and enterprises seeki
 
 ## 1c-Category
 
-![Category](../../assets/baas/appwrite/jbr/category.webp)
+![Category](../../../../assets/baas/appwrite/jbr/category.webp)
 
 Appwrite primarily fits into the **Backend-as-a-Service (BaaS)** category. The platform provides an extensive suite of backend services, such as user authentication, database management, file storage, and cloud functions, all integrated as Docker microservices. By packaging these backend capabilities, Appwrite allows developers to focus on building applications rather than managing the server infrastructure, aligning with the core principles of BaaS [17](#references), [18](#references).
 
@@ -174,7 +174,7 @@ Appwrite is best categorized as a **Backend-as-a-Service (BaaS)** platform. Its 
 
 ## 1d-Open-Source-Nature
 
-![Open-Source](../../assets/baas/appwrite/jbr/open-source.webp)
+![Open-Source](../../../../assets/baas/appwrite/jbr/open-source.webp)
 
 ### Appwrite's Open-Source Background and Its Importance to the Developer Community
 
@@ -212,7 +212,7 @@ Appwrite’s open-source background is crucial for its growing adoption within t
 
 ## 2a-Founding-and-Launch
 
-![Founding and Launch](../../assets/baas/appwrite/jbr/founding.webp)
+![Founding and Launch](../../../../assets/baas/appwrite/jbr/founding.webp)
 
 ### When was Appwrite founded and by whom?
 
@@ -224,7 +224,7 @@ Appwrite’s early contributors also included Bradley Schofield, who joined at 1
 
 ## 2b-Evolution
 
-![Evolution](../../assets/baas/appwrite/jbr/evolution.jpg)
+![Evolution](../../../../assets/baas/appwrite/jbr/evolution.jpg)
 
 ### Key Milestones in Appwrite's Development Over the Years
 
@@ -264,7 +264,7 @@ Throughout its development, Appwrite has maintained its open-source roots, hirin
 
 ## 2c-Community-Growth
 
-![Community Growth](../../assets/baas/appwrite/jbr/community-growth.jpg)
+![Community Growth](../../../../assets/baas/appwrite/jbr/community-growth.jpg)
 
 ### How has the developer community evolved around Appwrite?
 
@@ -296,7 +296,7 @@ The participation in events like Hacktoberfest has been especially influential. 
 
 ## 2d-Funding-and-Partnerships
 
-![Funding and Partnerships](../../assets/baas/appwrite/jbr/funding.jpg)
+![Funding and Partnerships](../../../../assets/baas/appwrite/jbr/funding.jpg)
 
 Appwrite has raised a total of $37 million across two funding rounds. The most recent and largest was a $27 million Series A round held on April 5, 2022, led by Tiger Global Management, with participation from Bessemer Venture Partners, Flybridge, and other investors. This funding enabled Appwrite to accelerate the development of its platform, grow its developer community, and introduce new features aimed at both individual developers and enterprise users [35](#references).
 
@@ -310,7 +310,7 @@ Appwrite also benefits from the support of several notable angel investors, incl
 
 ## 3a-Database-Management
 
-![Databases](../../assets/baas/appwrite/jbr/databases.png)
+![Databases](../../../../assets/baas/appwrite/jbr/databases.png)
 
 ### How Appwrite Handles Database Interactions (SQL/NoSQL Support, Built-in Database Features)
 
@@ -350,7 +350,7 @@ Appwrite is continuously evolving, with plans for more advanced database feature
 
 ## 3b-User-Authentication
 
-![User Authentication](../../assets/baas/appwrite/jbr/auth.png)
+![User Authentication](../../../../assets/baas/appwrite/jbr/auth.png)
 
 ### Authentication Options, User Roles, and Security Measures in Appwrite
 
@@ -398,7 +398,7 @@ Appwrite provides a comprehensive suite of authentication options, a flexible RB
 
 ## 3c-File-Storage
 
-![File Storage](../../assets/baas/appwrite/jbr/storage.png)
+![File Storage](../../../../assets/baas/appwrite/jbr/storage.png)
 
 Appwrite provides a robust file storage service, offering features for file management, cloud integration, and access control. The file storage capabilities include uploading and managing various file types such as images, documents, and videos through SDKs for different programming languages. Each upload creates a new version, enabling version control and rollback, while custom metadata can be attached to files for categorization and retrieval based on attributes like tags or custom fields [45](#references).
 
@@ -412,7 +412,7 @@ Appwrite's combination of versatile file management, scalable cloud integration 
 
 ## 3d-Cloud-Functions
 
-![Cloud Functions](../../assets/baas/appwrite/jbr/cloud.jpg)
+![Cloud Functions](../../../../assets/baas/appwrite/jbr/cloud.jpg)
 
 ### How Appwrite supports serverless functions and custom backend logic:
 
@@ -426,7 +426,7 @@ Appwrite's built-in features, such as the NoSQL database, authentication, and st
 
 ## 3e-Real-Time-and-Webhooks
 
-![Real-Time and Webhooks](../../assets/baas/appwrite/jbr/webhooks.png)
+![Real-Time and Webhooks](../../../../assets/baas/appwrite/jbr/webhooks.png)
 
 ### Real-Time Data Handling and Webhook Support for Notifications and Integration
 
@@ -442,7 +442,7 @@ Appwrite also facilitates user engagement through messaging capabilities, enabli
 
 ## 3f-Appwrite-SDKs
 
-![SDKs](../../assets/baas/appwrite/jbr/sdk.png)
+![SDKs](../../../../assets/baas/appwrite/jbr/sdk.png)
 
 ### Appwrite's Available SDKs for Different Programming Languages
 
@@ -526,7 +526,7 @@ Appwrite SDKs include utility classes that simplify tasks like ID generation, qu
 
 ## 3g-API-Endpoints
 
-![API Endpoints](../../assets/baas/appwrite/jbr/apiEndpoints.png)
+![API Endpoints](../../../../assets/baas/appwrite/jbr/apiEndpoints.png)
 
 ### REST API Usage and GraphQL Support
 
@@ -538,7 +538,7 @@ In comparing REST and GraphQL, REST is suitable for scenarios with predefined en
 
 ## 3h-Cross-Platform-Support
 
-![Functions](../../assets/baas/appwrite/jbr/functions.png)
+![Functions](../../../../assets/baas/appwrite/jbr/functions.png)
 
 ### Coverage for Mobile, Web, and Desktop Applications
 
@@ -592,7 +592,7 @@ Appwrite’s support for mobile, web, and desktop applications through consisten
 
 ## 4a-Database
 
-![Databases](../../assets/baas/appwrite/jbr/databases.png)
+![Databases](../../../../assets/baas/appwrite/jbr/databases.png)
 
 The Appwrite database is a NoSQL-like document-based system built on top of MariaDB, designed to provide developers with a robust platform for managing application data. It supports flexible schemas, powerful querying capabilities, and fine-grained access control, making it suitable for various use cases such as dynamic content applications, user-specific data storage, and real-time communication tools. Here's an in-depth look at its overview, configuration, use cases, and benefits:
 
@@ -691,7 +691,7 @@ Appwrite provides a REST API and SDKs for various programming languages, making 
 
 ## 4b-User-Authentication
 
-![User Authentication](../../assets/baas/appwrite/jbr/auth.png)
+![User Authentication](../../../../assets/baas/appwrite/jbr/auth.png)
 
 ### Configuration
 
@@ -726,7 +726,7 @@ Appwrite’s authentication features provide a comprehensive, secure, and adapta
 
 ## 4c-Performance-Metrics
 
-![Performance](../../assets/baas/appwrite/jbr/performance.jpg)
+![Performance](../../../../assets/baas/appwrite/jbr/performance.jpg)
 
 Appwrite's performance benchmarks reveal a robust backend solution with scalability, resource efficiency, and low response times. This makes it suitable for handling high loads, supporting numerous concurrent connections, and maintaining fast, reliable operations across various application environments.
 
@@ -766,7 +766,7 @@ In summary, Appwrite offers strong performance metrics, competitive scalability,
 
 ## 5a-Installation-Process
 
-![Installation](../../assets/baas/appwrite/jbr/install.png)
+![Installation](../../../../assets/baas/appwrite/jbr/install.png)
 
 ### Steps for Setting Up Appwrite Locally or via Cloud Services
 
@@ -798,7 +798,7 @@ Appwrite supports versatile installation methods, catering to both local and clo
 
 ## 5b-Deployment-Options
 
-![Cloud](../../assets/baas/appwrite/jbr/cloud.jpg)
+![Cloud](../../../../assets/baas/appwrite/jbr/cloud.jpg)
 
 ### Self-Hosting with Docker
 
@@ -824,7 +824,7 @@ Appwrite Cloud, the official managed hosting service from Appwrite, simplifies i
 
 ## 5c-Configuration-and-Customization
 
-![Config](../../assets/baas/appwrite/jbr/config.jpg)
+![Config](../../../../assets/baas/appwrite/jbr/config.jpg)
 
 ### How to Customize and Configure Appwrite for Specific Needs
 
@@ -868,7 +868,7 @@ Through thoughtful customization across these components, Appwrite can be tailor
 
 ## 5d-Appwrite-Console
 
-![Dashboard](../../assets/baas/appwrite/jbr/dashboard.png)
+![Dashboard](../../../../assets/baas/appwrite/jbr/dashboard.png)
 
 ### Overview of the Appwrite Console and its UI for Managing Applications
 
@@ -914,7 +914,7 @@ The Appwrite Console offers developers a cohesive, versatile UI that simplifies 
 
 ## 6a-Common-Use-Cases
 
-![Use-Cases](../../assets/baas/appwrite/jbr/commonUse.jpg)
+![Use-Cases](../../../../assets/baas/appwrite/jbr/commonUse.jpg)
 
 Appwrite, as an open-source Backend-as-a-Service (BaaS), supports numerous backend functionalities such as authentication, real-time database updates, secure file storage, and serverless functions. These capabilities make it highly versatile across different application domains, including social media platforms, e-commerce sites, and content management systems (CMS).
 
@@ -944,7 +944,7 @@ Appwrite’s BaaS model provides a robust foundation for developers to create hi
 
 ## 6b-Popular-Integrations
 
-![Messaging](../../assets/baas/appwrite/jbr/messaging.png)
+![Messaging](../../../../assets/baas/appwrite/jbr/messaging.png)
 
 ### Third-party services commonly integrated with Appwrite:
 
@@ -968,7 +968,7 @@ Appwrite, as an open-source Backend-as-a-Service (BaaS), can be seamlessly integ
 
 ## 6c-Industries-and-Verticals
 
-![Industries](../../assets/baas/appwrite/jbr/industries.jpg)
+![Industries](../../../../assets/baas/appwrite/jbr/industries.jpg)
 
 ### Specific industries where Appwrite excels
 
@@ -1006,7 +1006,7 @@ With Appwrite, these industries can launch faster, reduce backend complexity, an
 
 ## 7a-Supabase
 
-![Supabase logo](../../assets/baas/supabase/jbr/supabase-logo-wordmark--light.png)
+![Supabase logo](../../../../assets/baas/supabase/jbr/supabase-logo-wordmark--light.png)
 
 ### Cost Comparison
 
@@ -1038,7 +1038,7 @@ With Appwrite, these industries can launch faster, reduce backend complexity, an
 
 ## 7b-AWS-Amplify
 
-![Amplify logo](../../assets/baas/aws-amplify/jbr/Amplify.png)
+![Amplify logo](../../../../assets/baas/aws-amplify/jbr/Amplify.png)
 
 ### Cost Comparison
 
@@ -1062,7 +1062,7 @@ Overall, **Appwrite** is a cost-effective, flexible solution for small to mid-si
 
 ## 7c-Backendless
 
-![Backendless](../../assets/baas/appwrite/jbr/backend.webp)
+![Backendless](../../../../assets/baas/appwrite/jbr/backend.webp)
 
 ### Cost Comparison
 
@@ -1099,7 +1099,7 @@ Both Appwrite and Backendless offer scalable solutions, but Backendless comes wi
 
 ## 7d-Firebase
 
-![Firebase logo](../../assets/baas/Firebase/jbr/Primary_Horizontal_Lockup_Full_Color.png)
+![Firebase logo](../../../../assets/baas/Firebase/jbr/Primary_Horizontal_Lockup_Full_Color.png)
 
 ### Cost Comparison
 
@@ -1160,7 +1160,7 @@ Both platforms are strong choices, with Firebase excelling in managed real-time 
 
 ## 8a-Open-Source-Community
 
-![Open-Source](../../assets/baas/appwrite/jbr/open-source.webp)
+![Open-Source](../../../../assets/baas/appwrite/jbr/open-source.webp)
 
 Open-source status offers Appwrite and similar platforms several significant advantages, providing support, transparency, flexibility, and more, which collectively enhance the software and its ecosystem.
 
@@ -1196,7 +1196,7 @@ Appwrite’s open-source framework not only empowers its community but also cont
 
 ## 8b-Self-Hosted-Option
 
-![Docker](../../assets/baas/appwrite/jbr/docker-logo-blue.png)
+![Docker](../../../../assets/baas/appwrite/jbr/docker-logo-blue.png)
 
 Appwrite’s self-hosted deployment allows organizations complete control over both data and infrastructure, ideal for those prioritizing data privacy and regulatory compliance. By self-hosting, all data remains under direct control, without exposure to external cloud environments, ensuring sensitive information is safeguarded against unauthorized access. This approach mitigates risks tied to third-party data handling, making Appwrite’s self-hosting an attractive choice for security-conscious applications [130](#references), [131](#references).
 
@@ -1206,7 +1206,7 @@ Appwrite further simplifies deployment with one-click installation options on pl
 
 ## 8c-Cloud-Hosting
 
-![Cloud](../../assets/baas/appwrite/jbr/cloud.jpg)
+![Cloud](../../../../assets/baas/appwrite/jbr/cloud.jpg)
 
 ### Appwrite Cloud: A Streamlined Backend Solution for Developers
 
@@ -1273,7 +1273,7 @@ The **Enterprise Plan** offers custom solutions with features like 24/7 support,
 
 ## 8d-Security
 
-![Security](../../assets/baas/appwrite/jbr/security.jpg)
+![Security](../../../../assets/baas/appwrite/jbr/security.jpg)
 
 Appwrite integrates robust security features that align with industry standards, providing developers with tools to build secure and compliant applications. Its security framework includes encryption, user authentication, and access control measures that enhance data protection and privacy.
 
@@ -1299,7 +1299,7 @@ Appwrite’s comprehensive security suite and commitment to industry standards p
 
 ## 8e-Modularity-and-Extensibility
 
-![Modularity](../../assets/baas/appwrite/jbr/modularity.png)
+![Modularity](../../../../assets/baas/appwrite/jbr/modularity.png)
 
 ### Customizable nature and ability to integrate with existing projects.
 
@@ -1315,7 +1315,7 @@ Appwrite is particularly advantageous for startups and MVPs due to its rapid dep
 
 ## 8f-Cross-Platform-SDKs
 
-![SDK](../../assets/baas/appwrite/jbr/sdk.png)
+![SDK](../../../../assets/baas/appwrite/jbr/sdk.png)
 
 Appwrite provides a robust suite of SDKs and APIs that facilitate backend development for both mobile and web applications. Appwrite's broad SDK support spans numerous programming languages and platforms, such as JavaScript, Flutter, React Native, Swift, Kotlin, PHP, Python, Ruby, Dart, and more, making it adaptable to various development environments, whether client-side or server-side [143](#references), [144](#references). The platform additionally includes integration via HTTP, GraphQL, and WebSocket protocols, enhancing its versatility in cross-platform applications and positioning it within BaaS offerings that prioritize multi-platform connectivity [143](#references).
 
@@ -1325,7 +1325,7 @@ Appwrite’s addition of SDKs and runtimes for languages like Go further strengt
 
 ## 9a-Feature-Gaps
 
-![Feature Gaps](../../assets/baas/appwrite/jbr/featureGaps.jpg)
+![Feature Gaps](../../../../assets/baas/appwrite/jbr/featureGaps.jpg)
 
 ### Features that Appwrite Lacks Compared to Competitors
 
@@ -1358,7 +1358,7 @@ While Appwrite is strong in providing secure, open-source backend solutions, com
 
 ## 9b-Learning-Curve
 
-![Learning Curve](../../assets/baas/appwrite/jbr/curve.jpg)
+![Learning Curve](../../../../assets/baas/appwrite/jbr/curve.jpg)
 
 ### Installation Challenges
 
@@ -1382,7 +1382,7 @@ To mitigate these difficulties, it's advantageous for all users to start with ba
 
 ## 10a-Github-Activity
 
-![Github](../../assets/baas/appwrite/jbr/GitHub_Lockup_Dark.png)
+![Github](../../../../assets/baas/appwrite/jbr/GitHub_Lockup_Dark.png)
 
 Appwrite's GitHub presence reflects a robust and active community committed to its ongoing development. The project has gathered an impressive **45.1k stars** [161](#references) and boasts **4k forks** [161](#references) indicating significant interest and adoption by developers worldwide. This popularity is supported by **800+ contributors** [163](#references) who have collectively contributed to **3K+ pull requests** and **21K+ commits**, showcasing a continuous and dynamic development process [163](#references).
 
@@ -1392,7 +1392,7 @@ Participation in initiatives like Hacktoberfest further stimulates community con
 
 ## 10b-Developer-Resources
 
-![Developer Resources](../../assets/baas/appwrite/jbr/full_logo_blurple_RGB.png)
+![Developer Resources](../../../../assets/baas/appwrite/jbr/full_logo_blurple_RGB.png)
 
 ### Available documentation, tutorials, and support channels (Discord, forums, etc.)
 
@@ -1423,7 +1423,7 @@ These resources are designed to offer support for various aspects of using Appwr
 
 ## 10c-Extensions-and-Plugins
 
-![Extensions](../../assets/baas/appwrite/jbr/stripe.png)
+![Extensions](../../../../assets/baas/appwrite/jbr/stripe.png)
 
 Appwrite provides a range of third-party plugins and extensions that expand its native capabilities, allowing developers to integrate diverse functionalities into their applications. Key integrations in the Appwrite ecosystem include:
 
@@ -1445,7 +1445,7 @@ In addition to these integrations, the community-driven repository ["Awesome App
 
 ## 10d-Community-Feedback
 
-![Feedback](../../assets/baas/appwrite/jbr/feedback.jpg)
+![Feedback](../../../../assets/baas/appwrite/jbr/feedback.jpg)
 
 Developers commonly praise Appwrite for its ease of use and setup, especially for frontend developers or those new to backend services. The straightforward REST API, well-organized SDKs, and clear documentation make it an attractive choice for adding backend functionality quickly. Many developers find it among the fastest platforms to start creating functional applications, drawing comparisons to popular backend solutions like Firebase and Supabase, yet with the added flexibility of local deployment. [168](#references)
 
@@ -1465,7 +1465,7 @@ The open-source nature of Appwrite is appreciated for enabling customizations an
 
 ## 11a-Roadmap
 
-![Roadmap](../../assets/baas/appwrite/jbr/roadmap.jpg)
+![Roadmap](../../../../assets/baas/appwrite/jbr/roadmap.jpg)
 
 Appwrite's publicly available roadmap showcases its commitment to transparency and developer collaboration, detailing current development initiatives, completed milestones, and future goals through its GitHub project boards. The roadmap's primary focus is on four strategic pillars: **Friction** (enhancing developer adoption), **Reliability** (ensuring scalability), **Growth** (broadening capabilities), and **Revenue** (long-term sustainability). These focus areas guide its short-term and long-term plans [171](#references), [172](#references).
 
@@ -1496,7 +1496,7 @@ Appwrite’s roadmap and future goals are structured around enhancing the develo
 
 ## 11b-Upcoming-Features
 
-![Upcoming Features](../../assets/baas/appwrite/jbr/upcoming-features.jpg)
+![Upcoming Features](../../../../assets/baas/appwrite/jbr/upcoming-features.jpg)
 
 Appwrite is planning to introduce various features and improvements designed to enhance functionality, improve user control, and increase data processing efficiency across multiple areas.
 
@@ -1530,7 +1530,7 @@ A new **Active User metrics** feature will display the number of active users pe
 
 ## 11c-Market-Potential
 
-![Market Potential](../../assets/baas/appwrite/jbr/potential.jpg)
+![Market Potential](../../../../assets/baas/appwrite/jbr/potential.jpg)
 
 Appwrite is poised to become a major player in the BaaS and development platform space due to its commitment to open-source development, flexibility, and community-driven growth. By allowing developers to self-host and customize the backend, Appwrite offers an alternative to proprietary platforms like Firebase, giving developers more control over their projects and appealing to those looking to avoid vendor lock-in. This open-source approach could foster a strong developer community, positioning Appwrite as a highly customizable backend solution for various user bases, including startups and enterprise developers. [181](#references)
 
@@ -1548,7 +1548,7 @@ In summary, Appwrite’s future in the BaaS and development platform space appea
 
 # 12-Conclusion
 
-![Appwrite](../../assets/baas/appwrite/jbr/appwrite_white_logo.png)
+![Appwrite](../../../../assets/baas/appwrite/jbr/appwrite_white_logo.png)
 
 ## 12a-Summary-of-Key-Points
 
