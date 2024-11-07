@@ -2256,7 +2256,7 @@ The Appwrite community on Discord provides valuable support and resources, foste
 - [Evolution](https://unsplash.com/photos/people-walking-on-sidewalk-during-daytime-xJY-7gtC38o)  
   _Photo by Eugene Zhyvchik on Unsplash_
 
-- [Performance](https://unsplash.com/photos/white-and-blue-analog-tachometer-gauge-HUJDz6CJEaM)
+- [Performance](https://unsplash.com/photos/white-and-blue-analog-tachometer-gauge-HUJDz6CJEaM)    
   _Photo by Chris Liverani on Unsplash_
 
 - [Category](https://chatgpt.com/)
