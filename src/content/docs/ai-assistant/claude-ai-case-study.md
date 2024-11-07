@@ -62,12 +62,10 @@ Overall, Claude.ai’s mix of capabilities and flexibility gives it a distinct e
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [Anthropic](https://support.anthropic.com/en/)
+- [Techopedia](https://www.techopedia.com/definition/claude-ai)
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [ChatGPT](https://chatgpt.com/)
+- [Claude.ai](https://claude.ai/new)
