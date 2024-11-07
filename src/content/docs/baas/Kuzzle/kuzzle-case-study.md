@@ -110,3 +110,4 @@ When choosing a backend platform, it's essential to consider the specific needs 
 - [Blog from back4app regarding Kuzzle alternatives](https://blog.back4app.com/kuzzle-alternatives/)
 - [Kuzzle](https://kuzzle.io)
 - [Kuzzle docs](https://docs.kuzzle.io/core/2/guides/introduction/what-is-kuzzle/)
+- [Kuzzle V2 update](https://github.com/kuzzleio/kuzzle/releases/tag/2.0.0)
