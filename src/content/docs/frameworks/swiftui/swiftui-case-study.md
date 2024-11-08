@@ -18,11 +18,11 @@ The approach of SwiftUI allow developers to build complex UI using simple syntax
 
 - 2019: Introduction of SwiftUI as a declarative UI tool.
 
-- 2020: SwiftUI 2.0 was released. Expanding to include additional modifierts, new layout and widgets. Also Apple added support for maps with the Map view. MapKitt allows for map annotation and atellite imagery (announced at WWDC (Worldwide Developers Confrence)).
+- 2020: SwiftUI 2.0 was released. Expanding to include additional modifiers, new layout and widgets. Also Apple added support for maps with the Map view. MapKit allows for map annotation and satellite imagery (announced at Apple´s WWDC (Worldwide Developers Conference)).
 
-- 2021: SwiftUI 3.0 was released. Better integrations for macOS and watchOS alon with support for asynchrous programming via Swifts´s concurrency model (async/await). Also Apple added Canvas element, adding support for immediat mode drawing and performant 2D drawing (WWDC).
+- 2021: SwiftUI 3.0 was released. Better integrations for macOS and watchOS along with support for asynchrous programming via Swifts´s concurrency model (async/await). Also Apple added Canvas element, adding support for immediat mode drawing and performant 2D drawing (WWDC).
 
-- 2022: Apple relesed Swift Charts, a framework for making customizable and accessible charts (like navigation views) (WWDC).
+- 2022: Apple released Swift Charts, a framework for making customizable and accessible charts (like navigation views) (WWDC).
 
 - 2023: Apple announced the Apple Vision Pro, and support for devices ´was added to SwiftUI. New views for AR such as RealityView and ImmersiveSpace was also announced (WWDC).
 
@@ -33,7 +33,7 @@ The approach of SwiftUI allow developers to build complex UI using simple syntax
 SwiftUI has several features that make it a compelling framework for building applications within the Apple ecosystem. Some of them are:
 
 **Declarative Syntax:**
-The SwiftUI is similar to React or Svelte (components). Developers uses a declareative syntax meaning you could just state what your user interface should do. In a way you could describe how the UI should looke like in a particular state. For an example look at this code cnippet:
+The SwiftUI is similar to React or Svelte (components). Developers uses a declareative syntax meaning you could just state what your user interface should do. In a way you could describe how the UI should looke like in a particular state. For an example look at this code snippet:
 
 ```swift
 import SwiftUI
@@ -86,10 +86,10 @@ The outcome would look like this in "live preview" inside Xcode:
 
 <img src="../../../../assets/frameworks/swiftui/code-example-swiftui.png" alt="SwiftUI code example" height="200" style="width: auto;">
 
-In this code we got a ContentView. This is a way SwiftUI make it´s magic. You simply just write what you want to be on the screen. In my example I got an Zstack, that is layer stack, and I tell that to have a background color of blue. inside the ZStack there is a VStack. That is a Vertical Stack, meaning it is a container for vertical content. Inside the CStack there is an image ans a text (vertically alligned) and after those there are HStack (Horizontally Stack). The HStack includes a button with text and styling.
+In this code we got a ContentView. This is a way SwiftUI make its magic. You simply just write what you want to be on the screen. In my example I got an Zstack, that is layer stack, and I tell that to have a background color of blue. Inside the ZStack there is a VStack. That is a Vertical Stack, meaning it is a container for vertical content. Inside the VStack there is an image and text (vertically aligned) and after these there are HStack (Horizontally Stack). The HStack includes a button with text and styling.
 
 **Cross-Platform Support:**
-A developer could just write once, and then it works on iOS, macOS, watchOS, tvOS. It is a big plus for Apple´s ecosystem. However SwiftUI only works on Apple devices. There are some online editors out there, but to get the full potential of SwiftUI, Apple is the way to go.
+A developer could just write once, and then it works on iOS, macOS, watchOS, tvOS. It is a big plus for Apple´s ecosystem. However SwiftUI only works on Apple devices. There are some online editors out there, but to get the full potential of SwiftUI, Apple is the way to go!
 
 **Live Preview:**
 In Xcode, the live preview feature allows developers to instantly see the effects of their code changes in real time without having to build and run the entire application. This feature is part of SwiftUI and makes use of Xcode Previews to visually update the interface alongside your code editor. You can make changes to the UI, add new views, or adjust layout properties, and see how these modifications look immediately. This capability helps developers rapidly iterate on their designs and catch UI bugs early, providing a more efficient and interactive development experience.
@@ -101,11 +101,11 @@ In SwiftUI, state management is essential for handling and maintaining the curre
 
 _AppKit_
 
-AppKit is the framework used for building macOS applications. It’s a collection of tools and components that help developers create the user interface for desktop applications—things like buttons, menus, and windows. SwiftUI can integrate with AppKit by using NSViewRepresentable and NSViewControllerRepresentable to include AppKit components inside a SwiftUI layout. This means that if there’s something specific that SwiftUI can't do on its own, you can still use AppKit features to complete your app.
+AppKit is the framework used for building macOS applications. It’s a collection of tools and components that help developers create the user interface for desktop application-stuff like buttons, menus, and windows. SwiftUI can integrate with AppKit by using NSViewRepresentable and NSViewControllerRepresentable to include AppKit components inside a SwiftUI layout. This means that if there’s something specific that SwiftUI can't do on its own, you can still use AppKit features to complete your app.
 
 _UIKit_
 
-UIKit is the framework used for building apps for iOS and iPadOS. It provides all the basic building blocks for creating apps on iPhones and iPads, like buttons, labels, lists, and more. SwiftUI can use UIViewRepresentable and UIViewControllerRepresentable to bring UIKit views and controllers into a SwiftUI app. This is really useful if you have older UIKit code or if there are certain features that SwiftUI doesn’t have yet but UIKit does.
+UIKit is the framework used for building apps for iOS and iPadOS. It provides all the basic building blocks for creating apps on iPhones and iPads, like buttons, labels, lists, and more. SwiftUI can use UIViewRepresentable and UIViewControllerRepresentable to bring UIKit views and controllers into a SwiftUI app. This is really useful if you have older UIKit code or if there are certain features that SwiftUI doesn’t have yet - but UIKit does.
 
 _WatchKit_
 
@@ -122,7 +122,7 @@ So to get the max out of SwiftUI, a developer can use:
 - WatchKit for Apple Watch interfaces.
 - Technology-specific views to make the most out of device-specific features.
 
-This allows SwiftUI to interact smoothly with other parts of Apple's ecosystem, giving developers the ability to leverage the best features from older, established frameworks while building their user interfaces in a modern, consistent way.
+This allows SwiftUI to interact smoothly with other parts of Apple's ecosystem, giving developers the ability to leverage the best features from older, established frameworks while building their user interfaces in a modern, consistent way. This is one of Chris Lattner points when introducing Swift back in 2014 to his supperiors and senior developers working at Apple.
 
 ## How it works
 
@@ -130,7 +130,7 @@ SwiftUI works by combining view modifiers and state management to create dynamic
 
 **View Modifiers**
 
-In SwiftUI, view modifiers are a crutial part of how you customize the appearance and behavior of views. A view modifier is essentially a function that returns a modified version of the original view, allowing developers to chain multiple modifications in a clean and readable way. For example, if you want to add padding, change the background color, or round the corners of a view, you can do all of that using view modifiers. Here’s a simple example:
+In SwiftUI, view modifiers are a crucial part of how you customize the appearance and behavior of views. A view modifier is essentially a function that returns a modified version of the original view, allowing developers to chain multiple modifications in a clean and readable way. For example, if you want to add padding, change the background color, or round the corners of a view, you can do all of that using view modifiers. Here’s a simple example:
 
 ```swift
 Text("Hello, SwiftUI!")
@@ -165,7 +165,7 @@ Together, these components allow SwiftUI to offer a streamlined and intuitive ap
 
 ## Getting Started
 
-Here are the main steps to start a SwiftUI projects
+Here are the main steps to start a SwiftUI projects:
 
 Before you begin, make sure you have Xcode installed on your mac os system.
 
@@ -173,14 +173,14 @@ Before you begin, make sure you have Xcode installed on your mac os system.
 To create a new project, open your Xcode program and "create new project"
 
 **Step 2: Navigate to the project directory**
-Choose for witch platform you want to build. IOS, WatchOS, App Playground etc.
+Choose for which platform you want to build. IOS, WatchOS, App Playground etc.
 
 **Step 3: Start coding**
-Start coding and you can always see your changes in the "simulator".
+Start coding and you can always see your changes in the live Preview or "simulator".
 
 ## Conclusion
 
-I think SwiftUI is an elegant, powerful tool for building UI across the Apple ecosystem. It´s providing developers with a simple and declarative way to create responsive and visually appealing applications. Its features like Live Preview in Xcode and cross-platform support across iOS, macOS, watchOS, and tvOS make it highly efficient and enjoyable for developers. However, SwiftUI is still evolving, and some complex or platform-specific features may require falling back on older frameworks like UIKit or AppKit, which can be a bit challenging to manage. Despite these limitations, I think SwiftUI remains a powerful tool that simplifies UI development and delivers a consistent, high-quality user experience for Apple devices.
+I think SwiftUI is an elegant, powerful tool for building UI across the Apple ecosystem. The framework provides developers with a simple and declarative way to create responsive and visually appealing applications. Its features like Live Preview in Xcode and cross-platform support across iOS, macOS, watchOS, and tvOS make it highly efficient and enjoyable for developers. However, SwiftUI is still evolving, and some complex or platform-specific features may require falling back on older frameworks like UIKit or AppKit, which can be a bit challenging to manage. Despite these limitations, I think SwiftUI remains a powerful tool that simplifies UI development and delivers a consistent, high-quality user experience for Apple devices.
 
 ## References
 
