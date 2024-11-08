@@ -87,9 +87,6 @@ Kuzzle’s flexibility extends to various front-end frameworks and mobile platfo
 - **Mobile Frameworks**: Kuzzle also supports mobile applications built with **React Native** and **Flutter**. For mobile platforms, Kuzzle’s WebSocket capabilities ensure real-time updates on both iOS and Android.
 - **Cross-Platform Synchronization**: By providing WebSocket support, Kuzzle enables seamless data synchronization across devices, whether on a web application, mobile application, or IoT devices, making it a versatile backend solution for any project.
 
----
-
-
 ## Use cases
 
 Kuzzle's diverse capabilities make it suitable for a wide range of applications, including
