@@ -1,8 +1,10 @@
 ---
 title: Squarespace Case Study
 author: Karl Erik Wøien <karlwoien>
-tags: squarespace, case study, platform
+tags: Squarespace, Case study, Development platform, Website builder
 ---
+
+![Squarespace logo](https://static1.squarespace.com/static/5134cbefe4b0c6fb04df8065/t/5bd1e161419202b8ab974c21/1582743997338/squarespace-logo-horizontal-black.jpg?format=1500w)
 
 ## Introduction
 
@@ -38,7 +40,7 @@ Squarespace provides a wide range of features that make it easy to create and ma
 
 ## Applications of Squarespace
 
-Squarespace’s flexibility and ease of use make it suitable for a range of applications such as:
+Squarespace's flexibility and ease of use make it suitable for a range of applications such as:
 
 - **Small Business Websites:** Ideal for small businesses needing a quick and affordable online presence.
 - **E-commerce Stores:** Effective for small to medium-sized online stores with tools for managing products and processing payments.
@@ -48,12 +50,13 @@ Squarespace’s flexibility and ease of use make it suitable for a range of appl
 - **Event and Landing Pages:** A popular choice for event pages, wedding sites, or one-off promotional sites.
 
 ## Strengths and Weaknesses
+
 ### Strengths
 - **User-Friendly Interface:** Easy drag-and-drop setup, accessible to non-coders.
 - **Professional Templates:** High-quality, responsive designs for a polished look.
 - **All-in-One Platform:** Consolidates hosting, SEO, and domain management (source).
 - **E-commerce Support:** Integrated tools for small business e-commerce.
-- **Customer Support: 24/7** support through live chat and email.
+- **Customer Support:** 24/7 support through live chat and email.
 
 ### Weaknesses
 - **Limited Customization:** Restricted template flexibility for advanced custom designs.
@@ -61,6 +64,16 @@ Squarespace’s flexibility and ease of use make it suitable for a range of appl
 - **Performance Limitations:** May struggle with larger sites or high-traffic needs.
 - **Limited Integrations:** Fewer third-party apps compared to competitors.
 - **Advanced Learning Curve:** Some advanced tools require more experience.
+
+## Getting started
+
+**To get started with Squarespace you just need to follow these easy steps:**
+
+1. Go to [squarespace.com](https://www.squarespace.com) and click "Get Started."
+2. Choose a template suited to your site type, like a portfolio, blog, or online store.
+3. Use the drag-and-drop editor to customize text, images, colors, and layout.
+4. Explore features such as e-commerce, SEO, and blogging tools with a 14-day free trial.
+5. When ready, select a subscription plan and publish your site.
 
 ## Comparison with Coding from Scratch or Frameworks
 
@@ -111,12 +124,12 @@ In summary, Squarespace provides a streamlined, user-friendly platform ideal for
 In contrast, coding with HTML/CSS/JavaScript or using frameworks offers greater customization, flexibility, and scalability but requires time, technical skills, and ongoing maintenance. The choice between Squarespace and coding from scratch ultimately depends on a project’s complexity, budget, and the user’s technical expertise. Squarespace is ideal for those seeking a quick, accessible deployment, while custom coding remains best suited for highly tailored, scalable projects that require maximum control and adaptability.
 
 ## References
-https://www.squarespace.com/
-https://timeline.squarespace.com/
-https://www.squarespace.com/blog/
-https://firstsiteguide.com/squarespace-review/
-https://www.twicecommerce.com/blog/ecommerce/squarespace-pros-and-cons
-https://support.squarespace.com/hc/en-us/articles/205815928-Adding-custom-code-
+- [Squarespace Official Site](https://www.squarespace.com/)
+- [Squarespace Timeline](https://timeline.squarespace.com/)
+- [Squarespace Blog](https://www.squarespace.com/blog/)
+- [Squarespace Review by FirstSiteGuide](https://firstsiteguide.com/squarespace-review/)
+- [Pros and Cons of Squarespace by TwiceCommerce](https://www.twicecommerce.com/blog/ecommerce/squarespace-pros-and-cons)
+- [Squarespace Support Article on Adding Custom Code](https://support.squarespace.com/hc/en-us/articles/205815928-Adding-custom-code-)
 
 ## Additional Resources
-https://chatgpt.com/
+- [ChatGPT](https://chatgpt.com/)
