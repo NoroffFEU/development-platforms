@@ -29,27 +29,66 @@ The following timeline highlights Kuzzle's development milestones:
 
 Kuzzle is a powerful backend solution designed for building scalable and real-time applications. Its main features include:
 
-- **Data storage and access:**
-  Kuzzle provides real-time capabilities, allowing developers to push updates to clients instantly using WebSockets or HTTP.
-  Kuzzle's Realtime Engine allows you to do Pub/Sub in dedicated communication channels called rooms.
-  ![Kuzzle pub/sub system](https://docs.kuzzle.io/core/2/assets/pub-sub-C0Ps9Vp_.png)
+### Data Storage and Access
 
-- **Advanced Search:**
-  It offers advanced search functionalities, including full-text search, geospatial queries, and filtering options.
+Kuzzle provides **real-time data synchronization** capabilities, which is crucial for applications that require instant updates (e.g., social media feeds, live auctions, or chat applications). 
 
-- **Data Persistence:**
-  Kuzzle supports data persistence, enabling applications to store and retrieve data efficiently using Elasticsearch as a NoSQL document storage.
+- **WebSockets & HTTP**: Kuzzle supports both WebSockets and HTTP protocols for seamless communication between the backend and client applications. WebSockets are ideal for maintaining persistent connections, ensuring real-time updates, while HTTP is useful for traditional request-response patterns.
+- **Realtime Engine & Pub/Sub**: Kuzzle’s Realtime Engine is built on a **Publish/Subscribe (Pub/Sub)** model, where data is pushed to clients as soon as it's available. Developers can create dedicated communication **channels (rooms)** to which clients can subscribe, and any event in those rooms will trigger real-time updates to the clients subscribed to that room.
+- **Custom Event Handling**: The Pub/Sub model allows users to define custom events, letting developers fine-tune how they want to trigger data changes based on specific conditions or user actions.
+  
+![Kuzzle pub/sub system](https://docs.kuzzle.io/core/2/assets/pub-sub-C0Ps9Vp_.png)
 
-- **User Management:**
-  It includes built-in user authentication and management, supporting various authentication methods and role-based access control.
+### Advanced Search
 
-- **API Generation:**
-  Kuzzle automatically generates RESTful and WebSocket APIs, simplifying the integration process for front-end applications.
+Kuzzle offers highly **customizable search capabilities**, built on top of **Elasticsearch**. This allows developers to execute sophisticated queries on large datasets efficiently.
 
-- **Plugins and Extensibility:** The platform is highly extensible, allowing developers to create plugins to extend its functionality.
+- **Full-text Search**: Developers can implement complex search features, such as full-text search, to find documents based on keywords, stemming, and fuzzy matching.
+- **Geospatial Queries**: Kuzzle enables geospatial queries, allowing developers to search for documents based on their geographical location. This is useful for applications involving maps, location-based services, or geo-aware recommendations.
+- **Faceted Search**: You can use filters to refine results based on attributes like categories, dates, or custom tags, enhancing the user experience and making data retrieval more efficient.
 
-- **Cross-Platform:**
-  Kuzzle supports various front-end frameworks, enhancing flexibility across mobile and web applications.
+### Data Persistence
+
+Kuzzle uses **Elasticsearch** as a NoSQL document storage backend, providing efficient data indexing and retrieval.
+
+- **Indexing and Querying**: With Elasticsearch, documents are indexed by fields, making queries extremely fast even as the dataset grows. Developers can index documents in real-time and perform complex queries to fetch data instantly.
+- **Horizontal Scalability**: Kuzzle’s Elasticsearch-based storage allows horizontal scaling, meaning you can add more nodes to handle larger amounts of data as your application grows.
+- **Automatic Sharding and Replication**: Elasticsearch automatically handles data sharding (splitting data across different servers) and replication (copying data to multiple nodes), ensuring availability and fault tolerance.
+
+### User Management
+
+Kuzzle’s **built-in user authentication and management** system helps streamline user access and security for applications.
+
+- **Multi-Authentication**: Kuzzle supports various authentication methods, including **password-based**, **OAuth**, **JWT (JSON Web Tokens)**, and more. This flexibility enables developers to choose the right method for their application’s security model.
+- **Role-Based Access Control (RBAC)**: With RBAC, developers can define user roles and their permissions. You can create roles such as **admin**, **user**, or custom roles, and assign permissions at different levels (read, write, execute) for different parts of your application.
+- **Security Features**: Kuzzle ensures that all user data is protected through encrypted communications (e.g., HTTPS, WebSocket Secure), and sensitive data is stored in a secure manner.
+
+### API Generation
+
+Kuzzle simplifies backend API development by automatically generating **RESTful** and **WebSocket APIs**, providing developers with ready-to-use endpoints for frontend integration.
+
+- **Automatic REST API**: Kuzzle creates **CRUD** (Create, Read, Update, Delete) endpoints for data models, meaning developers don't have to manually build APIs from scratch.
+- **WebSocket API**: Real-time functionality is integrated directly into the WebSocket API. This is essential for applications requiring live data feeds or instant communication.
+- **Custom API Extensions**: Beyond the default APIs, Kuzzle allows you to create custom API extensions to meet specific use cases, giving you flexibility for handling more complex requirements.
+
+### Plugins and Extensibility
+
+Kuzzle is built to be extensible, supporting custom plugins that enhance or change its default behavior.
+
+- **Custom Plugin Development**: Developers can write plugins to add additional functionality, whether it’s for integrating with external services, altering API behavior, or adding specific business logic to Kuzzle’s core services.
+- **Plugin Ecosystem**: Kuzzle offers an ecosystem of existing plugins to extend its functionality, such as plugins for **data validation**, **notifications**, **integration with external services**, and more.
+- **Event-driven Architecture**: Plugins can hook into specific events within the platform (e.g., data changes, user authentication) to perform actions, such as sending notifications or triggering workflows.
+
+### Cross-Platform
+
+Kuzzle’s flexibility extends to various front-end frameworks and mobile platforms.
+
+- **JavaScript/TypeScript SDKs**: Kuzzle offers **official SDKs** for integrating with popular frameworks like **React**, **Vue**, and **Angular**. These SDKs allow developers to manage user authentication, real-time data synchronization, and more from the client-side application.
+- **Mobile Frameworks**: Kuzzle also supports mobile applications built with **React Native** and **Flutter**. For mobile platforms, Kuzzle’s WebSocket capabilities ensure real-time updates on both iOS and Android.
+- **Cross-Platform Synchronization**: By providing WebSocket support, Kuzzle enables seamless data synchronization across devices, whether on a web application, mobile application, or IoT devices, making it a versatile backend solution for any project.
+
+---
+
 
 ## Use cases
 
@@ -72,7 +111,6 @@ Kuzzle IoT was selected as the data and IoT platform for the **Finistère Smart 
 With **475,000+ connected sensors** and equipment, Kuzzle IoT monitors these smart territories in real-time through a territorial hypervisor, enabling data-driven decision-making and smarter urban management.
 
 For detailed insights on how Kuzzle IoT powers the Smart City transformation, check out our [**Smart City Case Study**](https://kuzzle.io/success-stories/smart-city-sdef/).
-
 
 ## Market comparison Firebase & AWS Amplify
 
@@ -103,9 +141,22 @@ When choosing a backend platform, it's essential to consider the specific needs 
   
 - **AWS Amplify** is perfect for enterprise-level applications needing high scalability and integration with the broader AWS ecosystem, but it may be overkill for smaller projects.
 
+### Pricing
+
+Kuzzle offers various pricing options based on the hosting solution you choose. They provide both self-hosted and managed cloud services.
+
+- **Free Plan**: Kuzzle offers a free plan, which is suitable for small-scale projects or testing the platform.
+- **Managed Cloud Plans**: These start at **$1,200 per month**. This option includes cloud hosting, allowing you to leverage Kuzzle's platform without managing the infrastructure yourself.
+- **Premium Support**: Kuzzle also offers premium support, which begins at **$2,400 per month**. This provides additional help and services, such as consulting and direct assistance.
+
+For detailed information on pricing and to get a customized quote based on your needs, you can visit Kuzzle's official website or reach out to their sales team.
+
+### Open community
+
 ### References
 
 - [Blog from back4app regarding Kuzzle alternatives](https://blog.back4app.com/kuzzle-alternatives/)
 - [Kuzzle](https://kuzzle.io)
 - [Kuzzle docs](https://docs.kuzzle.io/core/2/guides/introduction/what-is-kuzzle/)
 - [Kuzzle V2 update](https://github.com/kuzzleio/kuzzle/releases/tag/2.0.0)
+- [Pricing details](https://blog.back4app.com/mbaas-comparison/)
