@@ -6,8 +6,7 @@ tags: firebase, case study, platform, backend, baas
 
 ## Introduction
 
-This case study outlines the key aspects of Firebase, a comprehensive app development platform by Google. Firebase provides various backend services, SDKs, and UI libraries to facilitate the development of web and mobile applications.
-This document explores its history, main features, comparisons to other platforms, getting started steps, and concludes with an analysis of its advantages and limitations.
+This case study outlines the key aspects of Firebase, a comprehensive app development platform by Google. Firebase provides various backend services, SDKs, and UI libraries to facilitate the development of web and mobile applications. This document explores its history, main features, comparisons to other platforms, getting started steps, and concludes with an analysis of its advantages and limitations.
 
 ## Brief History
 
@@ -18,6 +17,7 @@ This document explores its history, main features, comparisons to other platform
 - **2019**: Firebase introduces Cloud Firestore as an improved database solution.
 - **2021**: Firebase continues to expand, adding features like Firebase Extensions and enhanced security measures.
 - **2023**: Firebase updates its machine learning capabilities and introduces new tools for improved app quality and performance monitoring.
+- **2024**: Firebase integrates with Vertex AI for advanced machine learning, introduces Firebase Data Connect with PostgreSQL support, launches Gemini AI assistant, enhances app hosting for modern frameworks, and updates Remote Config with feature rollouts.
 
 ## Main Features
 
