@@ -6,7 +6,7 @@ tags: Firebase, development platforms, Web Based Services
 
 
 
-## Introduction
+## Introductio
 
 Firebase is a cloud-based development platform provided by Google that offers a range of tools and services to help developers build and optimize web and mobile applications. It’s known as a Backend-as-a-Service (BaaS) platform, meaning it manages essential backend functions, so developers can focus on the front end and user experience.
 
