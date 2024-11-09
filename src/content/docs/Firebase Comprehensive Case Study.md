@@ -1,7 +1,7 @@
 
 ---
-title: Example Case Study
-author: Example Author <ExampleUsername>
+title: Firebase Comprehensive Case Study
+author: Tugba AKCA <TGBAKC>
 tags: example, case study, platform
 ---
 
@@ -96,7 +96,13 @@ Getting started with Firebase is straightforward, especially for beginners. Fire
 2. Register your app by providing a nickname and setting up Firebase Hosting if needed.
 3. Firebase will generate configuration code for your app. Copy this code, as you’ll use it to initialize Firebase in your project.
 
+### Step 3: Install Firebase SDK
+For a web project, install Firebase using npm:
 
+```bash
+npm install firebase
+
+ ```
 ## Conclusion
 
 Firebase is a powerful and versatile platform for building and managing web and mobile applications, especially for developers who want to focus more on frontend features and less on backend infrastructure. Firebase offers a wide array of services, such as real-time databases, authentication, hosting, and analytics, which make it a one-stop solution for app development. 
