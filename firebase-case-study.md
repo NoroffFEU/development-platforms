@@ -1,4 +1,5 @@
 Noroff Development Platforms
+![Firebase Logo](./src/assets/firebase/firebase.jpg)
 
 Title: Firebase case study
 Author: Robert Filep
