@@ -1,8 +1,8 @@
 
 ---
-title: Firebase Comprehensive Case Study
-author: Tugba AKCA <TGBAKC>
-tags: example, case study, platform
+title: "Firebase Comprehensive Case Study"
+author: "Tugba AKCA <TGBAKC>"
+tags: ["example", "case study", "platform"]
 ---
 
 
