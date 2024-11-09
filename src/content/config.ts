@@ -7,7 +7,7 @@ export const collections = {
     schema: docsSchema({
       extend: z.object({
         title: z.string(),
-        date: z.string().datetime().optional(),  // `date` alanını isteğe bağlı yaptık
+        date: z.string().datetime().optional(),
         author: z.string().optional(),
       }),
     }),
