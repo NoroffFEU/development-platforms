@@ -1,7 +1,7 @@
 
 ---
 title: "Firebase Comprehensive Case Study"
-date: "2024-11-10T00:00:00Z"  # ISO datetime format
+date: "2024-11-9T00:00:00Z"  # ISO datetime format
 author: "Tugba AKCA"
 keywords: ["Firebase", "development platforms", "Web Based Services"]
 tags: ["Development Platforms","Firebase"]
