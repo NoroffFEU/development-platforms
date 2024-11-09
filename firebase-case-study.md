@@ -69,7 +69,7 @@ Firebase offers a robust and scalable platform for developing applications acros
 By handling infrastructure, real-time data, and cross-platform functionality, Firebase accelerates development, reduces costs, and provides a strong foundation for building engaging and reliable applications.
 In scenarios like an auction website, Firebase’s features greatly enhance user experience, streamline development, and ensure efficient resource management.
 
-References
+References:
 
 Firebase Documentation: Comprehensive guides and tutorials on using Firebase’s services. https://firebase.google.com/docs/
 
