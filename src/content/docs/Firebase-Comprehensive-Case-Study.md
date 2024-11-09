@@ -1,7 +1,7 @@
 
 ---
 title: "Firebase Comprehensive Case Study"
-date: "2024-11-10"
+date: "2024-11-10T00:00:00Z"  # ISO datetime format
 author: "Tugba AKCA"
 tags: ["example", "case study", "platform"]
 ---
