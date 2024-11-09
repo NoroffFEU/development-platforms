@@ -2,14 +2,10 @@
 
 
 ---
-title: "Test Case"
+title: Firebase Comprehensive Case Study
+author: Tugba AKCA
+tags: ["Firebase", "development platforms", "Web Based Services"]
 ---
-
-# Test File Content
-
-This is a simple test.
-
-
 
 
 ## Introduction
