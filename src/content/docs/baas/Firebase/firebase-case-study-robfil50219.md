@@ -6,7 +6,8 @@ tags: firebase, case study, platform, backend, baas
 
 ## Introduction
 
-This case study outlines the key aspects of Firebase, a comprehensive app development platform by Google. Firebase provides various backend services, SDKs, and UI libraries to facilitate the development of web and mobile applications. This document explores its history, main features, comparisons to other platforms, getting started steps, and concludes with an analysis of its advantages and limitations.
+This case study outlines the key aspects of Firebase, a comprehensive app development platform by Google. Firebase provides various backend services, SDKs, and UI libraries to facilitate the development of web and mobile applications.
+This document explores its history, main features, comparisons to other platforms, getting started steps, and concludes with an analysis of its advantages and limitations.
 
 ## Brief History
 
