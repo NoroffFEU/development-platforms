@@ -1,11 +1,9 @@
-
-
-
 ---
 title: Firebase Comprehensive Case Study
-author: Tugba AKCA
-tags: ["Firebase", "development platforms", "Web Based Services"]
+author: Tugba AKCA<TGBAKC>
+tags: Firebase, development platforms, Web Based Services
 ---
+
 
 
 ## Introduction
