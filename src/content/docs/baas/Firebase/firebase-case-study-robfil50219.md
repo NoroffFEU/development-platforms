@@ -1,7 +1,7 @@
 ---
 title: Firebase Case Study
 author: Robert Filep
-tags: firebase, case study, platform, backend, baas
+tags: firebase, case study, platform, backend, baas, cloud, database, authentication, hosting, real-time, serverless, Google, app development
 ---
 
 ## Introduction
