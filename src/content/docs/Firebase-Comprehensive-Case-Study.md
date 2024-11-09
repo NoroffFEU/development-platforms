@@ -1,9 +1,11 @@
 
 ---
 title: "Firebase Comprehensive Case Study"
-author: "Tugba AKCA <TGBAKC>"
+date: "2024-11-10"
+author: "Tugba AKCA"
 tags: ["example", "case study", "platform"]
 ---
+
 
 
 ## Introduction
