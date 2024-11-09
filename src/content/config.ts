@@ -6,10 +6,10 @@ export const collections = {
     type: 'content',
     schema: docsSchema({
       extend: z.object({
-        title: z.string(),               // Title alanını zorunlu yapıyoruz
-        date: z.string().datetime(),     // Date alanını zorunlu yapıyoruz
-        author: z.string().optional()    // Author alanını isteğe bağlı bırakıyoruz
-      })
-    })
-  })
+        title: z.string(),
+        date: z.string().datetime().optional(),  // `date` alanını isteğe bağlı yaptık
+        author: z.string().optional(),
+      }),
+    }),
+  }),
 };
