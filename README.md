@@ -1,6 +1,6 @@
 # Noroff Development Platforms
 
-*A student written library of development platform case studies.*
+_A student written library of development platform case studies._
 
 **Please do not delete this file!**
 
