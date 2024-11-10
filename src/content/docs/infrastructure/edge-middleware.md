@@ -1,7 +1,7 @@
 ---
 title: Vercel Edge Middleware
 author: Bergit Tveit <@BergitTveit>
-tags: vercel, edge middleware, web development, request handling, middleware
+tags: vercel, edge middleware, web development, request handling, middleware, netlify
 ---
 
 ## Introduction
@@ -72,7 +72,29 @@ Image source: Code example from tumetus/nextjs-middleware-example
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+After researching Vercel Edge Middleware, I found that it's a powerful tool for handling web requests at the edge of the network. Let me break down my findings:
+
+### Key Benefits
+
+- Works extremely well with Next.js projects
+- Runs code close to users, making websites faster
+- Great for real-time monitoring
+- Supports multiple programming languages
+
+### Limitations
+
+- Can be difficult to learn compared to other options on the marked
+- Works best with Next.js, might not be neccessary for simple websites
+- Documentation could be better
+
+### Best Used For
+
+- Checking if users are logged in
+- Protecting websites from bots
+- Redirecting users based on their location
+- Testing different versions of your website
+
+In general, while it may no be neccessary for basic sites, Vercel Edge Middleware is a great choice for projects needing advanced features — especially those using Next.js. It’s a solid tool for speeding up web requests and improving the user experience.
 
 ## References
 
