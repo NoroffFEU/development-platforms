@@ -43,8 +43,9 @@ To get started with Vercel Edge Middleware:
 
 1. **Create a Middleware File**: In your Vercel project, create a new file named `middleware.ts` (or `middleware.js` for JavaScript) in the root directory.
 2. **Define Your Middleware Function**: In the middleware file, export a function that will handle the request processing. For example :
+   ![alt text](../../../assets/infrastructure/Edge-middleware.png)
 
-![Example Image](../../../assets/infrastructure/middleware.png)
+Image source: Code example from tumetus/nextjs-middleware-example
 
 3. **Configure Middleware Matching**: In your Vercel project settings, navigate to the "Edge Functions" section and configure the matching rules for your middleware function.
 4. **Deploy Your Project**: Deploy your Vercel project, and your middleware function will start executing at the edge for incoming requests that match the configured rules.
@@ -56,11 +57,8 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Edge Middleware overview](https://vercel.com/docs/functions/edge-middleware)
-
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [Next.js Middleware Tutorial - Getting Started With Middleware](https://www.youtube.com/watch?v=NlBSheYPKkg)
+- [Next.js Middleware Example Repository](https://github.com/tumetus/nextjs-middleware-example)
+- [Netlify vs Vercel - Which Is Better For Your Next Project?](https://www.evolvingdev.com/post/netlify-vs-vercel)
 
 ## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
