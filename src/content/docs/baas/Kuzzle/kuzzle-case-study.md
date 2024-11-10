@@ -8,16 +8,16 @@ tags: Kuzzle, BAAS, PAAS,
 
 ## Introduction
 
-Kuzzle is a robust and flexible backend platform designed to support the development of complex, real-time applications. It provides developers with essential tools and services, enabling them to focus on building unique business logic without the need to recreate common backend functionalities. Whether you're developing IoT systems, smart city infrastructure, or large-scale enterprise applications, Kuzzle offers out-of-the-box features such as real-time data synchronization, advanced search capabilities, and secure user management. By offering scalability, extensibility, and high performance, Kuzzle is well-suited for applications that require both reliability and flexibility.
+Kuzzle is a powerful and adaptable backend platform tailored for building complex, real-time applications across diverse fields, from IoT and smart city solutions to enterprise-scale systems. Designed to streamline backend development, Kuzzle equips developers with essential tools and services that allow them to focus on creating unique business logic, eliminating the need to reinvent common backend functionalities. With built-in features like real-time data synchronization, advanced search, and secure user management, Kuzzle provides a scalable and high-performance foundation for applications where reliability and flexibility are paramount. By supporting self-hosted and managed deployment options, Kuzzle also offers a level of control that is ideal for industries requiring stringent data security and low-latency processing, making it a go-to choice for developers building future-ready applications in data-intensive environments.
 
 ## Brief History
 
 The following timeline highlights Kuzzle's development milestones:
 
-- 2015: Kuzzle has been founded.
+- 2015: Kuzzle was founded.
 - 2016: Kuzzle launched as an open-source project.
 - 2017 - 2018: Kuzzle expands its focus on real-time and IoT applications. Gaining traction within the industries requiring complex data management (Smart city infrastructure & Healthcare).
-- 2019: The release of Kuzzle v2. V2 introduced enchanced real-time capabilities, improved API management, a more extensible plugin system, robust security features, and expanded protocol support, making Kuzzle even more powerful and flexible.
+- 2019: The release of Kuzzle v2. V2 introduced enhanced real-time capabilities, improved API management, a more extensible plugin system, robust security features, and expanded protocol support, making Kuzzle even more powerful and flexible.
 - 2020: Expansion of IoT and enterprise capabilities
 - 2021: Update on SDK and client libraries for a smoother integration across multiple platforms.
 - Security updates and the encouragement of community contributions.
@@ -129,6 +129,7 @@ When choosing a backend platform, it's essential to consider the specific needs 
 | **Ideal Use Cases**      | IoT, smart cities, real-time tracking, and geospatial applications | Mobile/web apps, simple real-time apps     | Enterprise-level, full-stack applications |
 | **Community and Support**| Active community, enterprise support available | Large community, extensive documentation    | AWS support plans, extensive resources    |
 | **Serverless Support**   | No (requires dedicated server)           | Yes (fully serverless)                      | Yes (supports serverless architecture)    |
+| **Developer Learning Curve** | Moderate to steep (requires familiarity with Elasticsearch and real-time systems) | Easy for basic use; some complexity with scaling and security | Moderate (integrates various AWS services, requires AWS knowledge) |
 
 ## Conclusion
 
