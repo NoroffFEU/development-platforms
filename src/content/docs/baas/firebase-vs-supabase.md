@@ -338,7 +338,7 @@ const uploadImage = uploadBytes(storageRef, file, metadataFile);
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-| Note:   (I have included a brief setup for Supabase)                                                              |
+### Note:   (I have included a brief setup for Supabase)                                                              
 
  Go to supabase.com, sign up, and log in.
 
