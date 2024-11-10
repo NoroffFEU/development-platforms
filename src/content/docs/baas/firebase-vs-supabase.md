@@ -1,4 +1,12 @@
 
+---
+Title: "Firebase vs Supabase- A Case Study"
+Kitty Alice Case 
+
+description: "A comparative analysis of Firebase and Supabase for backend development."
+date: 10th November 2024.
+---
+
 
 ### Firebase vs. Supabase: A Comparative Analysis of Backend as a Service Solutions
 
