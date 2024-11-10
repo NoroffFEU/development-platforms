@@ -340,7 +340,7 @@ const uploadImage = uploadBytes(storageRef, file, metadataFile);
 
 | Note:   (I have included a brief setup for Supabase)                                                              |
 |-----------------------------------------------------------------------|
-| Go to supabase.com, sign up, and log in.
+ Go to supabase.com, sign up, and log in.
 
 
 Click "New Project" and choose your project’s name, database password, and region.
@@ -367,7 +367,6 @@ const supabase = createClient(supabaseUrl, supabaseKey)
 ```
 Use supabase.auth for authentication, supabase.from for database operations, and supabase.storage for file management.
 
-  |
 
 
 
