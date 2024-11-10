@@ -125,7 +125,7 @@ Kuzzle IoT was selected as the data and IoT platform for the **Finistère Smart 
 
 With **475,000+ connected sensors** and equipment, Kuzzle IoT monitors these smart territories in real-time through a territorial hypervisor, enabling data-driven decision-making and smarter urban management.
 
-For detailed insights on how Kuzzle IoT powers the Smart City transformation, check out our [**Smart City Case Study**](https://kuzzle.io/success-stories/smart-city-sdef/).
+For detailed insights on how Kuzzle IoT powers the Smart City transformation, check out the [**Smart City Case Study**](https://kuzzle.io/success-stories/smart-city-sdef/).
 
 ## Market comparison Firebase & AWS Amplify
 
@@ -167,8 +167,6 @@ Kuzzle offers various pricing options based on the hosting solution you choose. 
 
 For detailed information on pricing and to get a customized quote based on your needs, you can visit Kuzzle's official website or reach out to their sales team.
 
-### Open community
-
 ### References
 
 - [Blog from back4app regarding Kuzzle alternatives](https://blog.back4app.com/kuzzle-alternatives/)
@@ -176,3 +174,5 @@ For detailed information on pricing and to get a customized quote based on your 
 - [Kuzzle docs](https://docs.kuzzle.io/core/2/guides/introduction/what-is-kuzzle/)
 - [Kuzzle V2 update](https://github.com/kuzzleio/kuzzle/releases/tag/2.0.0)
 - [Pricing details](https://blog.back4app.com/mbaas-comparison/)
+- [Firebase docs](https://firebase.google.com/docs)
+- [Amazon AWS docs](https://docs.aws.amazon.com/)
