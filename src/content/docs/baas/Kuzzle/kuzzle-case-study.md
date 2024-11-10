@@ -117,7 +117,7 @@ Kuzzle's diverse capabilities make it suitable for a wide range of applications,
   Kuzzle’s real-time data capabilities are beneficial for tracking vehicles and assets.
 
 - **All use cases**
-  Kuzzle offers robust backend solutions well-suited for applications requiring real-time tracking, monitoring, and data synchronization. For a comprehensive list of use cases, visit Kuzzle use cases.[Kuzzle use cases](https://kuzzle.io/use-case/)
+  Kuzzle offers robust backend solutions well-suited for applications requiring real-time tracking, monitoring, and data synchronization. For a comprehensive list of use cases, see [Kuzzle use cases](https://kuzzle.io/use-case/).
 
 ### **High-Profile Use Cases: Kuzzle IoT in Action**
 
