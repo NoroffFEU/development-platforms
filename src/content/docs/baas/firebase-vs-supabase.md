@@ -338,7 +338,8 @@ const uploadImage = uploadBytes(storageRef, file, metadataFile);
 
 | Note:   (I have included a brief setup for Supabase)                                                              |
 |-----------------------------------------------------------------------|
-| Create a Supabase Project: Sign up on Supabase’s site, create a project, and access your API URL and anon key.
+| Create a Supabase Project: 
+Sign up on Supabase’s site, create a project, and access your API URL and anon key.
 Install the Supabase Client:
 Install with npm install @supabase/supabase-js.
 Initialize Supabase in your app using the provided API URL and anon key.
@@ -348,8 +349,7 @@ Database: Utilize Supabase’s PostgreSQL database for structured data.
 Storage: Manage user-uploaded files with Supabase Storage.
 Real-Time: Enable real-time updates on data changes.
 Expand and Customize: Self-host if needed; Supabase’s open-source nature supports advanced SQL querying and custom infrastructure.
-Summary
-Firebase is ideal for quick setup and real-time applications with minimal backend management, thanks to its Google Cloud integration and NoSQL database. Supabase offers a flexible, open-source alternative with SQL and self-hosting, suited to projects needing structured data and custom infrastructure. Firebase is more plug-and-play, while Supabase provides greater control for developers preferring SQL and open-source solutions.
+
   |
 
 
