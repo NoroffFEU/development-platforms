@@ -338,17 +338,32 @@ const uploadImage = uploadBytes(storageRef, file, metadataFile);
 
 | Note:   (I have included a brief setup for Supabase)                                                              |
 |-----------------------------------------------------------------------|
-| Create a Supabase Project: 
-Sign up on Supabase’s site, create a project, and access your API URL and anon key.
-Install the Supabase Client:
-Install with npm install @supabase/supabase-js.
-Initialize Supabase in your app using the provided API URL and anon key.
-Use Supabase Services:
-Authentication: Set up providers in the Supabase dashboard and use supabase.auth in your app.
-Database: Utilize Supabase’s PostgreSQL database for structured data.
-Storage: Manage user-uploaded files with Supabase Storage.
-Real-Time: Enable real-time updates on data changes.
-Expand and Customize: Self-host if needed; Supabase’s open-source nature supports advanced SQL querying and custom infrastructure.
+| Go to supabase.com, sign up, and log in.
+
+
+Click "New Project" and choose your project’s name, database password, and region.
+
+
+In your Supabase dashboard, go to Project Settings to find the API URL and public API key (also called the anon key). You’ll need these to connect your app to Supabase.
+
+In your project folder, install the Supabase client library:
+
+```
+npm install @supabase/supabase-js
+
+```
+
+Import and configure Supabase in your app using the API URL and anon key:
+
+```
+import { createClient } from '@supabase/supabase-js'
+
+const supabaseUrl = 'YOUR_SUPABASE_URL'
+const supabaseKey = 'YOUR_ANON_KEY'
+const supabase = createClient(supabaseUrl, supabaseKey)
+
+```
+Use supabase.auth for authentication, supabase.from for database operations, and supabase.storage for file management.
 
   |
 
