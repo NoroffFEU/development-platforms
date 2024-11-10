@@ -25,9 +25,7 @@ The following timeline highlights Kuzzle's development milestones:
 - 2020: Expansion of IoT and enterprise capabilities
 - 2021: Update on SDK and client libraries for a smoother integration across multiple platforms.
 - Security updates and the encouragement of community contributions.
-- 2023 - Present: Expanded protocol support
-- Enterprise offerings
-- Ai and Machine Learning integrations.
+- 2023 - **Present:** Expanded protocol support, enterprise offerings, Ai and Machine Learning integrations.
 
 ## Main Features
 
