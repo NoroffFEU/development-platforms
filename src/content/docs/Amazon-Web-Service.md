@@ -1,6 +1,6 @@
 ---
 title: Amazon Web Services (AWS) Case Study
-author: Example Author <ExampleUsername>
+author: Example Author <Gana Kingsly>
 tags: AWS, case study, cloud platform
 ---
 
