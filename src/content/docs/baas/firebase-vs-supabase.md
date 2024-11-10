@@ -334,7 +334,9 @@ const uploadImage = uploadBytes(storageRef, file, metadataFile);
 
 [How to Install Firebase](https://blog.logrocket.com/firebase-vs-supabase-choosing-right-tool-project/)
 
+----------------------------------------------------------------------------------------------------------------------------------------
 
+----------------------------------------------------------------------------------------------------------------------------------------
 
 | Note:   (I have included a brief setup for Supabase)                                                              |
 |-----------------------------------------------------------------------|
