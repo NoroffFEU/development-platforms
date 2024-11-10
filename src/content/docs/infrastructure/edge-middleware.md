@@ -18,8 +18,6 @@ Vercel Edge Middleware provides developers with the ability to run code before a
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
-
 - **Request Interception:** Vercel Edge Middleware allows developers to intercept and modify incoming HTTP requests before they reach the application. This enables powerful use cases like authentication, bot protection, redirects, and request rewriting.
 - **Serverless Execution:** Edge Middleware functions are executed at the edge of Vercel's network, closest to the user, providing low-latency and high-performance request handling.
 
@@ -31,11 +29,33 @@ Describe the primary purpose of the tool that you have selected. Which problems 
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+In comparing Vercel Edge Middleware to other tools on the market, I decided to focus on Netlify Edge Functions as it's a widely accessible alternative that many developers, including myself, have come across in web projects. While there are other great tools like Cloudflare Workers and AWS Lambda@Edge available, Netlify provides a more direct comparison since it targets similar use cases and developer experiences.
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+### Key Differentiators
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+Vercel Edge Middleware:
+
+- Superior Next.js integration
+- Advanced server-side rendering capabilities
+- Intelligent edge caching
+- Real-time analytics and monitoring
+- Optimized for dynamic content
+
+Netlify Edge Functions:
+
+- More flexible deployment options
+- Better handling of large media files
+- Built-in A/B testing capabilities
+- Stronger static site optimization
+- Better documentation
+- Simpler to learn
+
+Vercel Edge Middleware shows great strength in server-side functionality, especially when working with Next.js applications. Its edge functions run at the CDN level, and operates closer to the user and improves response times. Netlify, on the other hand, leverages a global multi-cloud Edge network that fits well for a static site, it offers more flexible memory and assures the most recent deployment of the web site is available.
+
+Netlify Edge Functions offers many similar capabilities to Vercel Edge Middleware, but there are some key differences. One significant advantage of Vercel's solution is its integration with Next.js projects.
+However, Netlify have some great features like built-in A/B testing and is generally easier to learn if you are new to edge computing.
+
+The choice between these two often comes down to your specific project needs. I've found Vercel Edge Middleware to be the better choice for projects requiring sophisticated server-side rendering and real-time data handling. However, for projects focused on static content delivery or if you require more flexible deployment configurations, Netlify Edge Functions might be the better option.
 
 ## Getting Started
 
