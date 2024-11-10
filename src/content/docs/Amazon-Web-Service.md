@@ -61,5 +61,8 @@ However, its complex pricing and steep learning curve can pose challenges. AWS r
 - *Amazon Web Services in Action* by Andreas Wittig and Michael Wittig
 - AWS Official Blog on new service releases
 - [AWS Certified Solutions Architect Official Study Guide](https://aws.amazon.com/certification/)
+
+## Additional Resources
+
 - [AWS Whitepapers & Guides](https://aws.amazon.com/whitepapers/)
 
