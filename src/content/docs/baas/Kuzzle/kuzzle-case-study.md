@@ -165,7 +165,7 @@ Kuzzle offers various pricing options based on the hosting solution you choose. 
 - **Managed Cloud Plans**: These start at **$1,200 per month**. This option includes cloud hosting, allowing you to leverage Kuzzle's platform without managing the infrastructure yourself.
 - **Premium Support**: Kuzzle also offers premium support, which begins at **$2,400 per month**. This provides additional help and services, such as consulting and direct assistance.
 
-For detailed information on pricing and to get a customized quote based on your needs, you can visit Kuzzle's official website or reach out to their sales team.
+For detailed information on pricing and to get a customized quote based on your needs, you can visit Kuzzle's official website or reach out to their [sales team](https://kuzzle.io/kuzzle-iot-platform/demo-iot/).
 
 ### References
 
