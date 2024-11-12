@@ -1,10 +1,9 @@
 
 ---
-Title: "Firebase vs Supabase- A Case Study"
-Kitty Alice Case 
+Title: "Firebase vs Supabase- A comparative analysis of Firebase and Supabase for backend development."
+author: Kitty Alice Case 
+tags: supabase, firebase
 
-description: "A comparative analysis of Firebase and Supabase for backend development."
-date: 10th November 2024.
 ---
 
 
