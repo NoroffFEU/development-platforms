@@ -1,7 +1,7 @@
-**title:** Amazon RDS and Managed Relational Databases  
-**author:** Øyvind Kjellin <ykjellin>  
-**tags:** AWS, Amazon RDS, managed databases, cloud computing
-
+---
+title: amazon rds and managed relational databases
+author: øyvind kjellin <ykjellin>
+tags: aws, amazon rds, managed databases, cloud computing
 ---
 
 ![Amazon RDS Banner](../../../../assets/amazon/RDS/aws-rds-logo.png)
