@@ -107,3 +107,11 @@ While both Userpilot and Hotjar are commonly used in UX design, they have distin
 Userpilot is a versatile tool for enhancing in-app user experiences through onboarding, UX analytics, and user feedback collection. This case study demonstrates how Userpilot’s data-driven UX approach can improve user engagement, retention, and satisfaction while reducing development dependency. Userpilot is particularly valuable for SaaS companies where user retention and satisfaction are central to business success.
 
 ---
+
+## references
+
+[Userpilot Website](https://www.userpilot.com)
+
+[Hotjar Website](https://www.hotjar.com)
+
+---
