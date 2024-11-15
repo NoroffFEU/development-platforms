@@ -1,8 +1,6 @@
 ---
 title: Appwrite Consolidated Case Study
-author-1: Jon Henrik Åvitsland <jonhenrikaavitsland>
-author-2: Henrik Bakke <Bakek-lang>
-author-3: Ramona Jensen <RamonaXR>
+author: Jon Henrik Åvitsland <jonhenrikaavitsland>, Henrik Bakke <Bakek-lang>, Ramona Jensen <RamonaXR>
 tags: case study, platform, BaaS, Backend-as-a-Service, backend, database, authentication, Open-Source, Self-Hosting, Cloud-Hosting, Developer Community, Real-Time Data, Scalability, Customizable, Flexibility, SDKs, SDK Support, Documentation, Modularity, Severless Functions, Security and Compliance, Data Privacy, Community Engagement, Integration with Third-Party-Services, Multi-Cloud Compatibility, Cost-Effectiveness
 ---
 
