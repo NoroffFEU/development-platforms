@@ -155,18 +155,23 @@ pipeline {
         }
     }
 }
+```
 
+## Pipeline Breakdown
 
-Pipeline Breakdown
-Agent: Tells Jenkins to run the pipeline on any available machine.
-Stages:
-Build: Compiles the app using Gradle.
-Test: Runs the tests.
-Deploy: Deploys the app with deploy.sh.
-Post Actions:
-always: Saves the built files and test results, no matter what.
-success and failure: Logs if the pipeline worked or failed.
-Why Use a Jenkinsfile?
+- Agent: Tells Jenkins to run the pipeline on any available machine.
+
+- Stages:
+  Build: Compiles the app using Gradle.
+  Test: Runs the tests.
+  Deploy: Deploys the app with deploy.sh.
+
+- Post Actions:
+  always: Saves the built files and test results, no matter what.
+  success and failure: Logs if the pipeline worked or failed.
+
+## Why Use a Jenkinsfile?
+
 A Jenkinsfile keeps the whole automation process consistent and easy to track, right alongside your code. Plus, it’s version-controlled, so any changes are easy to see and update.
 
 ## Summary
@@ -181,4 +186,7 @@ Jenkins GitHub Repository: https://github.com/jenkinsci/jenkins
 Basra, A. (2023): Introduction to Jenkins and CI/CD. LinkedIn Learning.
 Quick, J., & Goodman, D. (2024): The Power of Jenkins Pipelines. DevOps Insights, YouTube.
 Smart, T. (2023). Building CI/CD Pipelines with Jenkins: A Comprehensive Guide. Tech Stack Journal.
+
+```
+
 ```
