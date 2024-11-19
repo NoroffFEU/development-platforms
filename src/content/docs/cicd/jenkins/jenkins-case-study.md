@@ -1,13 +1,7 @@
 ---
 title: "A Case Study of Jenkins: Automating CI/CD Pipelines"
 author: "Fredrik Mohag Håkansson <@FredrikMohag>"
-tags:
-  - Jenkins
-  - CI/CD
-  - DevOps
-  - Automation
-  - Continuous Integration
-  - Pipeline
+tags: Jenkins, CI/CD, DevOps, Automation, Continuous Integration, Pipeline
 ---
 
 ## Introduction
