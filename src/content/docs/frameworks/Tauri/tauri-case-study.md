@@ -109,46 +109,46 @@ To compare their technical features more directly, the following table highlight
 | **Cross-Platform Support**     | Desktop + Mobile | Desktop Only  | Desktop + Mobile | Desktop Only  | Desktop Only  |
 | **Community/Ecosystem**        | Growing          | Large         | Large            | Small         | Small         |
 
-### Tauri vs Electron
+## Tauri vs Electron
 
 A detailed comparison between Tauri and it's main competitor Electron was conducted using a real-world application, Authme—a simple cross-platform two-factor authenticator app for desktop. This comparison highlights that while Tauri offers advantages in bundle size, startup time, and security, it may require developers to adapt to Rust for backend development and address potential rendering inconsistencies across platforms. Electron, with its mature ecosystem and consistent rendering, remains a robust choice, especially for those already proficient in JavaScript.
 
-**Bundle Size**
+### Bundle Size
 
 - Tauri: The installer is approximately 2.5 MB, resulting in a significantly smaller application bundle.
 - Electron: The installer is around 85 MB, leading to larger application sizes.
 
-**Startup Time**
+### Startup Time
 
 - Tauri: Approximately 2 seconds.
 - Electron: Approximately 4 seconds.
 
-**Performance**
+### Performance
 
 - Tauri: Lower RAM usage (~80 MB) and minimal CPU and GPU usage when idle.
 - Electron: Higher RAM usage (~120 MB) with similar CPU and GPU usage when idle.
 
-**App Backend**
+### App Backend
 
 - Tauri: Requires backend development in Rust, which may present a learning curve for developers unfamiliar with the language.
 - Electron: Allows backend development in JavaScript using the Node.js runtime, which may be more accessible for web developers.
 
-**Rendering**
+### Rendering
 
 - Tauri: Utilizes the system's native webview (Edge Webview2 on Windows, WebKitGTK on Linux, and WebKit on macOS), which may lead to inconsistencies across platforms due to varying support for web standards.
 - Electron: Bundles Chromium, ensuring consistent rendering across all platforms.
 
-**Security**
+### Security
 
 - Tauri: Offers enhanced security features by default, including explicit enabling or disabling of certain APIs.
 - Electron: Provides full access to Node.js APIs, which could pose security risks if not properly managed.
 
-**Auto-Update**
+### Auto-Update
 
 - Tauri: Includes a built-in auto-updater, though it may require maintaining a custom update server or manually updating a JSON file.
 - Electron: Commonly uses electron-updater, which can pull binaries from GitHub releases, offering a more streamlined update process.
 
-**Developer Experience**
+### Developer Experience
 
 - Tauri: Provides a comprehensive CLI with features like hot reload, cross-platform building, and app icon generation. Compatible with any web framework.
 - Electron: Offers the core framework, but additional setup is required for features like hot reloading and bundling.
@@ -180,19 +180,19 @@ Before starting, ensure your system meets the following requirements:
 
 - **Rust**: Install Rust using `rustup` (Tauri requires Rust for backend development).
 
-  1. Install with:
+  - Install with:
 
   ```bash
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
   ```
 
-  2. Add it to your path:
+  - Add it to your path:
 
   ```bash
   source $HOME/.cargo/env
   ```
 
-  3. Verify installation:
+  - Verify installation:
 
   ```bash
   rustc --version
@@ -204,13 +204,13 @@ Before starting, ensure your system meets the following requirements:
 
 ### 2. Installing Tauri CLI
 
-1. Install the Tauri CLI globally using NPM:
+- Install the Tauri CLI globally using NPM:
 
 ```bash
 npm install -g @tauri-apps/cli
 ```
 
-2. Verify installation:
+- Verify installation:
 
 ```bash
 tauri --version
@@ -222,18 +222,18 @@ tauri --version
 
 Tauri integrates seamlessly with frontend frameworks like React, Vue, Svelte, or plain HTML/CSS/JavaScript.
 
-1. Set up a new project using the Tauri CLI:
+- Set up a new project using the Tauri CLI:
 
 ```bash
 npx create-tauri-app
 ```
 
-2. Follow the prompts:
+- Follow the prompts:
 
-- Choose a frontend framework (e.g., React, Vue, or Vanilla JavaScript).
-- Provide the project name and directory.
+  - Choose a frontend framework (e.g., React, Vue, or Vanilla JavaScript).
+  - Provide the project name and directory.
 
-3. Navigate to the project directory:
+- Navigate to the project directory:
 
 ```bash
 cd <project-name>
@@ -243,31 +243,31 @@ cd <project-name>
 
 ### 4. Running the Application
 
-1. Install the project dependencies:
+- Install the project dependencies:
 
 ```bash
 npm install
 ```
 
-2. Start the development server:
+- Start the development server:
 
 ```bash
 npm run tauri dev
 ```
 
-3. The application will launch in a desktop window using your system's native webview.
+- The application will launch in a desktop window using your system's native webview.
 
 ---
 
 ### 5. Building the Application
 
-1. Run the build command:
+- Run the build command:
 
 ```bash
 npm run tauri build
 ```
 
-2. Tauri will generate an executable file for your platform in the src-tauri/target/release directory.
+- Tauri will generate an executable file for your platform in the src-tauri/target/release directory.
 
 ### 6. Directory Structure
 
@@ -280,17 +280,16 @@ After creating a Tauri project, you’ll find the following key directories:
 
 After building your Tauri application, you can distribute it to users by following these steps:
 
-1. Locate the generated executable in the src-tauri/target/release/ directory.
-2. Distribution Methods:
+- Locate the generated executable in the src-tauri/target/release/ directory.
+- Distribution Methods:
 
-- Direct Download: Host the file on your website or a GitHub release page.
-- Package Managers: Package your app for platforms like:
-  - Homebrew (macOS): For easy installation by macOS users.
-  - Chocolatey (Windows): A package manager for Windows systems.
+  - Direct Download: Host the file on your website or a GitHub release page.
+  - Package Managers: Package your app for platforms like:
+    - Homebrew (macOS): For easy installation by macOS users.
+    - Chocolatey (Windows): A package manager for Windows systems.
 
-3. Auto-Update:
-
-- For ongoing updates, you can configure Tauri's auto-update feature. Refer to the official Tauri documentation for setup instructions.
+- Auto-Update:
+  - For ongoing updates, you can configure Tauri's auto-update feature. Refer to the official Tauri documentation for setup instructions.
 
 ## Conclusion
 
@@ -302,7 +301,7 @@ With recent advancements such as support for mobile platforms and ongoing contri
 
 - [Tauri Blog: Getting Started](https://tauri.app/start/)
 - [LevMiner Blog: Tauri vs. Electron](https://www.levminer.com/blog/tauri-vs-electron)
-- [History from Wikipedia](<https://en.wikipedia.org/wiki/Tauri_(software_framework)>)
+- [History from Wikiwand](<https://www.wikiwand.com/en/articles/Tauri_(software_framework)>)
 - [Tauri Blog: Release Dates and Updates](https://tauri.app/blog/)
 - [NLnet Project: Tauri](https://nlnet.nl/project/Tauri/)
 - [The Commons Conservancy: Tauri Programme](https://commonsconservancy.org/programmes/tauri/)
