@@ -8,11 +8,8 @@ tags: tauri, desktop apps, cross-platform, rust, javascript
 
 ## Introduction
 
-Tauri is an open-source framework designed to enable developers to create lightweight, secure, and efficient cross-platform desktop applications using web technologies such as HTML, CSS, and JavaScript. Unlike traditional desktop application frameworks, Tauri leverages a Rust-based backend and a minimal runtime, ensuring applications are not only performant but also memory-safe and secure.
-
-The framework addresses common challenges in desktop development, such as large application bundle sizes and potential security vulnerabilities, by offering a smaller footprint and stronger isolation mechanisms. Tauri is particularly appealing to developers seeking to build modern applications with familiar web technologies while benefiting from the advantages of Rust's performance and safety features.
-
-Since its inception, Tauri has gained traction as a competitive alternative to frameworks like Electron, offering a balance between simplicity, performance, and flexibility. It is especially suitable for projects where security, efficiency, and cross-platform compatibility are critical requirements.
+Tauri is an open-source framework for building lightweight, secure, and cross-platform desktop applications with web technologies like HTML, CSS, and JavaScript. By utilizing a Rust-based backend and native web renderers, Tauri combines efficiency, performance, and strong memory safety.
+Since its launch, Tauri has emerged as a competitive alternative to frameworks like Electron, offering a modern solution for developers prioritizing security and cross-platform compatibility.
 
 ## Brief History
 
@@ -21,6 +18,24 @@ Since its inception, Tauri has gained traction as a competitive alternative to f
 - 2022: Tauri releases its first stable version (1.0), enabling developers to create robust desktop applications for Windows, macOS, and Linux with minimal bundle sizes.
 - 2023: The Tauri team partners with CrabNebula to further enhance the project’s development and expand its ecosystem. This collaboration brings additional expertise and resources to the framework.
 - 2024: Tauri 2.0 is launched, introducing support for mobile platforms like Android and iOS, allowing developers to build cross-platform apps from a single codebase while maintaining the framework’s focus on security and performance.
+
+## Funding and Usage
+
+### Funding
+
+Tauri, as an open-source project, operates without traditional revenue streams. Instead, it relies on grants, sponsorships, and contributions from its community:
+
+- Grants and Sponsorships: Tauri has received support from organizations like NLnet through the NGI Assure Fund, backed by the European Commission’s Next Generation Internet programme. These grants fund the development of features focused on security and privacy.
+- Community Contributions: The project thrives on contributions from a global network of developers who provide code, time, and resources to enhance the framework.
+- Non-Profit Governance: Tauri is governed by the Tauri Programme within The Commons Conservancy, a Dutch non-profit organization. This ensures that the project aligns with open-source principles and community interests.
+
+### Usage
+
+Tauri has grown steadily in adoption since its release, attracting developers and companies worldwide for its innovative approach to desktop application development:
+
+- Adoption by Companies: Approximately 90 companies use Tauri, including notable names like Cloudflare, ABBYY, and Cboe Global Markets.
+- Geographical Distribution: Tauri is used in 17 countries, with the largest adoption in the United States, followed by the United Kingdom, Canada, France, and Spain.
+- Developer Community: Tauri’s open-source ecosystem includes contributions from developers across the globe, fostering a vibrant and growing community.
 
 ## Main Features
 
@@ -150,26 +165,153 @@ While Tauri offers significant advantages, it does have some limitations:
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+### 1. Prerequisites
+
+Before starting, ensure your system meets the following requirements:
+
+- **Operating System**: Windows, macOS, or Linux.
+- **Node.js**: Version 16 or higher installed.
+
+  - Verify installation with:
+
+  ```bash
+  node -v
+  ```
+
+- **Rust**: Install Rust using `rustup` (Tauri requires Rust for backend development).
+
+  1. Install with:
+
+  ```bash
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  ```
+
+  2. Add it to your path:
+
+  ```bash
+  source $HOME/.cargo/env
+  ```
+
+  3. Verify installation:
+
+  ```bash
+  rustc --version
+  ```
+
+- **Package Manager**: NPM, Yarn, or PNPM.
+
+---
+
+### 2. Installing Tauri CLI
+
+1. Install the Tauri CLI globally using NPM:
+
+```bash
+npm install -g @tauri-apps/cli
+```
+
+2. Verify installation:
+
+```bash
+tauri --version
+```
+
+---
+
+### 3. Creating a New Tauri Project
+
+Tauri integrates seamlessly with frontend frameworks like React, Vue, Svelte, or plain HTML/CSS/JavaScript.
+
+1. Set up a new project using the Tauri CLI:
+
+```bash
+npx create-tauri-app
+```
+
+2. Follow the prompts:
+
+- Choose a frontend framework (e.g., React, Vue, or Vanilla JavaScript).
+- Provide the project name and directory.
+
+3. Navigate to the project directory:
+
+```bash
+cd <project-name>
+```
+
+---
+
+### 4. Running the Application
+
+1. Install the project dependencies:
+
+```bash
+npm install
+```
+
+2. Start the development server:
+
+```bash
+npm run tauri dev
+```
+
+3. The application will launch in a desktop window using your system's native webview.
+
+---
+
+### 5. Building the Application
+
+1. Run the build command:
+
+```bash
+npm run tauri build
+```
+
+2. Tauri will generate an executable file for your platform in the src-tauri/target/release directory.
+
+### 6. Directory Structure
+
+After creating a Tauri project, you’ll find the following key directories:
+
+- src/: Contains your frontend code (HTML, CSS, JavaScript).
+- src-tauri/: Contains the Tauri configuration and backend Rust code.
+
+### 7. Deploying the Application
+
+After building your Tauri application, you can distribute it to users by following these steps:
+
+1. Locate the generated executable in the src-tauri/target/release/ directory.
+2. Distribution Methods:
+
+- Direct Download: Host the file on your website or a GitHub release page.
+- Package Managers: Package your app for platforms like:
+  - Homebrew (macOS): For easy installation by macOS users.
+  - Chocolatey (Windows): A package manager for Windows systems.
+
+3. Auto-Update:
+
+- For ongoing updates, you can configure Tauri's auto-update feature. Refer to the official Tauri documentation for setup instructions.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+Tauri has established itself as a strong alternative for building cross-platform desktop applications, offering advantages like small application size, enhanced security, and flexibility with frontend frameworks. Its use of Rust and native web renderers allows developers to create efficient and secure applications without compromising on performance.
+
+With recent advancements such as support for mobile platforms and ongoing contributions from its community, Tauri is expected to see continued growth and adoption. As more developers seek lightweight and secure solutions for application development, Tauri’s focus on modern needs positions it as a reliable and forward-thinking framework for the future.
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
-
-atskirai prideti linkus i tauri website bet skirtingus psl, pvz about, documentation, history, etc
-tauri vs electron
-wiki
+- [Tauri Blog: Getting Started](https://tauri.app/start/)
+- [LevMiner Blog: Tauri vs. Electron](https://www.levminer.com/blog/tauri-vs-electron)
+- [History from Wikipedia](<https://en.wikipedia.org/wiki/Tauri_(software_framework)>)
+- [Tauri Blog: Release Dates and Updates](https://tauri.app/blog/)
+- [NLnet Project: Tauri](https://nlnet.nl/project/Tauri/)
+- [The Commons Conservancy: Tauri Programme](https://commonsconservancy.org/programmes/tauri/)
+- [TheirStack: Tauri Technology Insights](https://theirstack.com/en/technology/tauri)
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
-  oficail website
-  github
+- [Tauri Official Website](https://tauri.app)
+- [Tauri GitHub Repository](https://github.com/tauri-apps/tauri)
+- [Electron Documentation](https://www.electronjs.org/docs/latest)
+- [Beginner’s Guide to Tauri (YouTube)](https://www.youtube.com/watch?v=BGm0SCfY5Ak)
+- [Rust Programming Language](https://www.rust-lang.org/)
