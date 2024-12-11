@@ -32,11 +32,13 @@ GitHub Actions provides a robust set of tools to automate various development ta
 | **Self-Hosted Runners** | Run workflows on your own infrastructure for greater control and cost savings.                         |
 | **Native Integration**  | Seamlessly integrates with GitHub repositories, issues, and pull requests for streamlined automation.  |
 | **Security Features**   | Includes secret management, dependency scanning, and support for secure workflows.                     |
+| **Matrix Builds**       | Run tests across multiple versions, configurations, or environments in parallel for faster testing.    |
 
 ### Unique Benefits
 
 - **Ease of Use**: GitHub Actions is integrated directly into GitHub, reducing setup complexity.
 - **Scalability**: Supports parallel execution, matrix builds, and workflows for large repositories.
+- **Customization**: GitHub Actions offers significant customization options through YAML configuration files, making it easy to tailor workflows to specific needs.
 
 ## Market Comparison
 
