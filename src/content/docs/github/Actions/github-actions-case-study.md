@@ -1,8 +1,8 @@
 ---
-title: Github Actions case study
-author: Eirik Nordstrand Veskje
-keywords: development platforms, GitHub, automation, CI/CD, GitHub Actions
-tags: Development Platforms, GitHub, Automation, CI/CD, GitHub Actions
+Title: Github Actions case study
+Author: Eirik Nordstrand Veskje
+Keywords: development platforms, GitHub, automation, CI/CD, GitHub Actions
+Tags: Development Platforms, GitHub, Automation, CI/CD, GitHub Actions
 ---
 
 ![GitHub logomark in white](/src/assets/github/github-mark-white.png)
