@@ -7,7 +7,6 @@ Tags: Development Platforms, GitHub, Automation, CI/CD, GitHub Actions
 
 [![Getting Started with GitHub Actions](https://img.youtube.com/vi/R8_veQiYBjI/0.jpg)](https://www.youtube.com/watch?v=R8_veQiYBjI)
 
-
 ## Summary
 
 This video tutorial introduces GitHub Actions and walks you through setting up automated workflows directly in your GitHub repository. The following key topics are covered:
