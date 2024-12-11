@@ -72,6 +72,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Run Tests
         run: npm test
+```
 
 ## Commit and Push
 
@@ -103,4 +104,11 @@ As GitHub continues to expand its ecosystem, GitHub Actions is expected to gain 
 - *CI/CD with GitHub Actions* by GitHub Universe Webinar
 
 With these insights, developers can better understand how to leverage GitHub Actions to improve their workflows and achieve greater efficiency in their projects.
+
+## References
+
+- [Getting Started with GitHub Actions Video](https://www.youtube.com/watch?v=R8_veQiYBjI)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [GitHub Actions Marketplace](https://github.com/marketplace/actions)
+- TechWorld with Nana - *Getting Started with GitHub Actions* video tutorial
 ```
