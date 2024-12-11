@@ -5,15 +5,8 @@ keywords: development platforms, GitHub, automation, CI/CD, GitHub Actions
 tags: Development Platforms, GitHub, Automation, CI/CD, GitHub Actions
 ---
 
-<iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/R8_veQiYBjI" 
-    title="Getting Started with GitHub Actions" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
+[![Getting Started with GitHub Actions](https://img.youtube.com/vi/R8_veQiYBjI/0.jpg)](https://www.youtube.com/watch?v=R8_veQiYBjI)
+
 
 ## Summary
 
