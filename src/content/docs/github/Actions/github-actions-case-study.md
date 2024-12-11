@@ -9,7 +9,7 @@ Tags: Development Platforms, GitHub, Automation, CI/CD, GitHub Actions
 
 ## Introduction
 
-GitHub Actions is a feature provided by GitHub to automate workflows, such as Continuous Integration (CI) and Continuous Deployment (CD), directly within a repository. It allows developers to define custom workflows using YAML files, enabling seamless integration with the development process. This case study explores GitHub Actions' history, features, applications, and comparisons with similar tools like Jenkins, GitLab CI, and CircleCI.
+GitHub Actions is a feature provided by GitHub to automate workflows, such as Continuous Integration (CI) and Continuous Deployment (CD), directly within a repository. It allows developers to define custom workflows using YAML files, enabling seamless integration with the development process. This case study explores GitHub Actions history, features, applications, and comparisons with similar tools like Jenkins, GitLab CI, and CircleCI.
 
 ## Brief History
 
@@ -61,17 +61,17 @@ GitHub Actions competes with several popular CI/CD tools.
 ```yaml
 name: CI Workflow
 on:
-  push:
-    branches:
-      - main
+ push:
+  branches:
+   - main
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-      - name: Run Tests
-        run: npm test
+ build:
+  runs-on: ubuntu-latest
+  steps:
+   - name: Checkout Code
+     uses: actions/checkout@v3
+   - name: Run Tests
+     run: npm test
 ```
 
 ## Commit and Push
@@ -85,12 +85,12 @@ GitHub Actions is an efficient solution for automating workflows, particularly f
 
 ### Advantages and Disadvantages
 
-| **Advantages**                            | **Disadvantages**                                  |
-|-------------------------------------------|---------------------------------------------------|
-| Easy to set up and use                     | Limited applicability for non-GitHub projects     |
-| Integrated directly within the GitHub ecosystem | Heavily reliant on the GitHub platform            |
+| **Advantages**                                  | **Disadvantages**                                         |
+| ----------------------------------------------- | --------------------------------------------------------- |
+| Easy to set up and use                          | Limited applicability for non-GitHub projects             |
+| Integrated directly within the GitHub ecosystem | Heavily reliant on the GitHub platform                    |
 | Extensive resources through Actions Marketplace | Can become costly for projects with high resource demands |
-| Supports scalable workflows                | Less flexible compared to some standalone CI/CD tools |
+| Supports scalable workflows                     | Less flexible compared to some standalone CI/CD tools     |
 
 ## Future Outlook
 
@@ -101,7 +101,7 @@ As GitHub continues to expand its ecosystem, GitHub Actions is expected to gain 
 - [GitHub Actions Marketplace](https://github.com/marketplace/actions)
 - [Comprehensive Guide to GitHub Actions](https://docs.github.com/en/actions)
 - [Advanced Workflow Configuration](https://docs.github.com/en/actions/learn-github-actions)
-- *CI/CD with GitHub Actions* by GitHub Universe Webinar
+- [GitHub Actions: CI/CD for millions - Universe 2022](https://www.youtube.com/watch?v=sAv88cjWpG4&t=1s)
 
 With these insights, developers can better understand how to leverage GitHub Actions to improve their workflows and achieve greater efficiency in their projects.
 
@@ -110,5 +110,4 @@ With these insights, developers can better understand how to leverage GitHub Act
 - [Getting Started with GitHub Actions Video](https://www.youtube.com/watch?v=R8_veQiYBjI)
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [GitHub Actions Marketplace](https://github.com/marketplace/actions)
-- TechWorld with Nana - *Getting Started with GitHub Actions* video tutorial
-```
+- TechWorld with Nana - _Getting Started with GitHub Actions_ video tutorial
