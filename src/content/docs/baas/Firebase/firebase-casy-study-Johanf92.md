@@ -12,17 +12,12 @@ For frontend developers, Firebase is very helpful as it eliminates the need to w
 
 ## Brief History
 
-Firebase was founded in 2011 by James Tamplin and Andrew Lee. Firebase evolved from Envolve, a platform that provided an API for integrating online chat functionality. Since the chat functionality was being used for purposes beyond its initial scope, the founders decided to shift their focus and establish Firebase as a separate platform in 2012.
-
-Firebase first product was the Firebase Realtime Database, designed for mobile and web applications. It allowed developers to create real-time applications and collaborate on projects seamlessly.
-
-In May 2012, just one month after launching, Firebase raised $1.1 million in seed funding. By June 2013, they secured an additional $5.6 million in further funding.
-
-In 2014, Firebase expanded its offerings with the launch of Firebase Hosting and Firebase Authentication. That same year, in October, Firebase was acquired by Google.
-
-In 2015, Google acquired Divshot, an HTML5 web-hosting platform, to integrate with Firebase services. The following year, 2016, LaunchKit joined Firebase to enhance its growth tools, which further improved the app-building and scaling experience.
-
-In 2017, Google launched Cloud Firestore. Firestore is a real-time document database that can sync data across different platforms, offering more flexibility and scalability for developers.
+- Firebase was founded in 2011 by James Tamplin and Andrew Lee. Firebase evolved from Envolve, a platform that provided an API for integrating online chat functionality. Since the chat functionality was being used for purposes beyond its initial scope, the founders decided to shift their focus and establish Firebase as a separate platform in 2012.
+- Firebase first product was the Firebase Realtime Database, designed for mobile and web applications. It allowed developers to create real-time applications and collaborate on projects seamlessly.
+- In May 2012, just one month after launching, Firebase raised $1.1 million in seed funding. By June 2013, they secured an additional $5.6 million in further funding.
+- In 2014, Firebase expanded its offerings with the launch of Firebase Hosting and Firebase Authentication. That same year, in October, Firebase was acquired by Google.
+- In 2015, Google acquired Divshot, an HTML5 web-hosting platform, to integrate with Firebase services. The following year, 2016, LaunchKit joined Firebase to enhance its growth tools, which further improved the app-building and scaling experience.
+- In 2017, Google launched Cloud Firestore. Firestore is a real-time document database that can sync data across different platforms, offering more flexibility and scalability for developers.
 
 ## Main Features:
 
@@ -34,9 +29,9 @@ When it’s time to grow your app, Firebase supports you with Analytics to under
 
 ## Strengths:
 
-**User Friendly** It’s very easy for beginners offering many pre-built solutions like mentioned above with authentication and hosting.
+**User Friendly** It’s very easy for beginners; offering many pre-built solutions like mentioned above with authentication and hosting.
 **Real time capabilities** Allows instant data synchronization across devices, making it a solution for chat functionality, collaborative tools and live updates.
-**Cross-Platform Support** - Supports Android iOS and web apps. Making it easy for teams to develop
+**Cross-Platform Support** - Supports Android iOS and web apps. Making it easy for teams to develop.
 **Integration with google services** Tightly integrated with Google’s ecosystem, including Analytics and Machine Learning.
 **Scalable infrastructure** Designed for both large and small user bases.
 **Generous free tier**
@@ -48,7 +43,7 @@ When it’s time to grow your app, Firebase supports you with Analytics to under
 
 ## Quick comparison to Supabase
 
-Firebase, as metnioned above is a widely-used Backend-as-a-Service (BaaS) platform, offering tools for real-time apps and seamless integration with Google services. Supabase, an open-source alternative, is built on PostgreSQL and appeals to developers needing SQL for complex queries or relational data. It also allows self-hosting for greater control, while Firebase emphasizes simplicity in a managed environment. Both platforms support scalability through pay-as-you-go pricing, catering to different developer preferences and project needs.
+Firebase, as mentioned above, is a widely-used Backend-as-a-Service (BaaS) platform, offering tools for real-time apps and seamless integration with Google services. Supabase, an open-source alternative, is built on PostgreSQL and appeals to developers needing SQL for complex queries or relational data. It also allows self-hosting for greater control, while Firebase emphasizes simplicity in a managed environment. Both platforms support scalability through pay-as-you-go pricing, catering to different developer preferences and project needs.
 
 **Firebase Pros:**
 
@@ -91,13 +86,14 @@ Firebase is a popular choice among developers, offering a powerful platform that
 
 Firebase is beginner-friendly and packed with features, but this can lead to vendor lock-in, which may limit your flexibility in the long run. Developers looking for more customization, open-source options, or SQL-first solutions might find platforms like Supabase, AWS Amplify, or MongoDB better suited to their needs.
 
-All in all, Firebase balance of ease of use, and advanced functionality makes it an attractive option, especially for projects that benefit from its real-time capabilities and tight integration with Google's ecosystem. However, evaluating the specific needs of your project will help determine if Firebase or an alternative platform is the best fit.
+All in all, Firebase's balance of ease of use, and advanced functionality makes it an attractive option, especially for projects that benefit from its real-time capabilities and tight integration with Google's ecosystem. However, evaluating the specific needs of your project will help determine if Firebase or an alternative platform is the best fit.
 
 ## Refrences:
 
 https://npm-compare.com/@supabase/supabase-js,aws-amplify,firebase,parse-server
 https://www.reddit.com/r/reactnative/comments/16b53hn/baas_opinions_firebase_vs_aws_vs_supabase_vs/
 https://invozone.com/blog/firebase-vs-supabase-key-differences-choosing-guide/
+https://firebase.google.com/
 
 ### Strenght/weakness:
 
@@ -109,8 +105,3 @@ https://pangea.ai/resources/should-professionals-use-firebase-pros-and-cons
 https://www.peerspot.com/products/google-firebase-pros-and-cons
 https://www.weetechsolution.com/blog/mongodb-vs-firebase-which-is-the-right-database
 https://blog.minimacode.com/use-firebase-for-your-project/
-
-### Youtube
-
-https://www.youtube.com/watch?v=p9pgI3Mg-So
-https://www.youtube.com/watch?v=QP8sjZuOlFY&t=8s
