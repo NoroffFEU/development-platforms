@@ -1,8 +1,7 @@
 ---
-Title: GitHub Actions (Video)
-Author: Eirik Nordstrand Veskje
-Keywords: development platforms, GitHub, automation, CI/CD, GitHub Actions
-Tags: Development Platforms, GitHub, Automation, CI/CD, GitHub Actions
+title: Github Actions Case Study
+author: Eirik Nordstrand Veskje
+tags: Development Platforms, GitHub, Automation, CI/CD, GitHub Actions
 ---
 
 [![Getting Started with GitHub Actions](https://img.youtube.com/vi/R8_veQiYBjI/0.jpg)](https://www.youtube.com/watch?v=R8_veQiYBjI)
