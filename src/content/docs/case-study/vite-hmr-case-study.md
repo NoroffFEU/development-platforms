@@ -100,8 +100,3 @@ As development platforms evolve, Vite stands out as a trailblazer by leveraging 
 - Course: Development Platforms
 - Institution: Noroff
 
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
