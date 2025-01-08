@@ -10,9 +10,11 @@ Netlify is a essential platform designed to make modern web development easier a
 
 ## Brief History
 
-- 2014: Netlify was founded by Mathias Biilmann (CEO) and Chris Bach (CSO) with the vision of creating a platform that empowers developers to build, deploy, and manage websites effortlessly.
-- 2015: Netlify was officially launched and quickly gained popularity for its ability to simplify web development and deployment, offering scalability and flexibility.
-- 2017: MakerLoop was rebranded as Netlify.
+**2014:** Netlify was founded by Mathias Biilmann (CEO) and Chris Bach (CSO) with the vision of creating a platform that empowers developers to build, deploy, and manage websites effortlessly.
+
+**2015:** Netlify was officially launched and quickly gained popularity for its ability to simplify web development and deployment, offering scalability and flexibility.
+
+**2017:** MakerLoop was rebranded as Netlify.
 
 ## References
 
