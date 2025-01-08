@@ -1,6 +1,6 @@
 ---
-title: Example Case Study
-author: Example Author <ExampleUsername>
+title: Github Copilot 
+author: Andreas Abrahamsen, Vicktoria A. Bure, Andreas S. Joakimsen
 tags: example, case study, platform
 ---
 
