@@ -4,6 +4,14 @@ author: Andreas Abrahamsen, Vicktoria A. Bure, Andreas S. Joakimsen
 tags: AI, GitHub, Copilot
 ---
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Brief History](#brief-history)
+3. [Main Features](#main-features)
+4. [Market Comparison](#market-comparison)
+5. [Getting Started](#getting-started)
+6. [Conclusion](#conclusion)
+
 ## Introduction
 
 This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
