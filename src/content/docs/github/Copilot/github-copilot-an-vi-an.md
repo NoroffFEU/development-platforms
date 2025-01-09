@@ -18,14 +18,26 @@ This is a template for a written case study, please note that this is only a sug
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- **2020 (June)**: OpenAI released GPT-3, a large language model demonstrating the potential for AI to generate programming code alongside natural language. This sparked interest at GitHub, which partnered with OpenAI to create GitHub Copilot, an AI tool designed to assist developers with context-aware code generation.
+
+- **2021 (June)**: GitHub Copilot debuted in a technical preview for Visual Studio Code, powered by OpenAI’s Codex model. Codex, a fine-tuned version of GPT-3 trained on billions of lines of public code, enabled Copilot to suggest code snippets, complete functions, and adapt to a variety of programming languages.
+
+- **2021 (October)**: Copilot expanded to Neovim and JetBrains IDEs, opening its functionality to developers using lightweight and professional development environments. This broadened its adoption among a diverse developer audience.
+
+- **2022 (March)**: Support was added for Visual Studio 2022, enabling enterprise developers to integrate Copilot into their workflows. This marked a step toward making the tool enterprise-ready.
+
+- **2022 (June)**: GitHub Copilot exited its technical preview and became widely available as a subscription-based service. Individual developers could now subscribe, while students and verified open-source contributors received free access. It quickly became popular for its ability to reduce repetitive coding tasks and help developers learn new languages or frameworks.
+
+- **2023 (March)**: GitHub announced **Copilot X**, a significant upgrade powered by OpenAI’s GPT-4 model. The update introduced:
+  - **Conversational Capabilities**: Developers could interact with Copilot through chat or voice to resolve issues, clarify code, or generate new snippets.
+  - **Pull Request Integration**: Copilot provided suggestions for code reviews and improvements directly within GitHub pull request workflows.
+  - **Command Line Assistance**: AI support extended to terminal tasks.
+  - **Documentation Support**: Copilot could generate or improve project documentation, further simplifying developer workflows.
+  - **Enterprise Focus**: GitHub introduced enterprise-specific features, such as centralized management for licensing, enhanced security, and tools to support team collaboration. These features allowed businesses to adopt Copilot at scale while maintaining governance over its use.
+
+- **Impact**: Copilot transformed software development by streamlining repetitive tasks, accelerating learning for junior developers, and providing advanced debugging and testing support. It also highlighted ethical concerns about AI’s use of publicly available code, prompting ongoing discussions about responsible AI use.
+
+- **Future Directions**: GitHub plans to expand Copilot’s capabilities with deeper integrations into GitHub Actions, AI-driven debugging tools, and support for software architecture design. These advancements aim to solidify Copilot as a cornerstone of the modern development ecosystem.
 
 ## Main Features
 
