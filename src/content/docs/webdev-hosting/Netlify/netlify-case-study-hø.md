@@ -71,10 +71,11 @@ Netlify integrates with a global CDN (content delivery network) and it enables w
 
 ## Market Comparison
 
-| Feature                         | Netlify                                                                | Vercel                                                                                                                                                              |
-| ------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Server-Side Rendering (SSR)** | Netlify doesn’t offer native support for SSR in the same way as Vercel | Deeply integrates with Next.js, making it a better choice for projects where SSR is essential, such as those requiring dynamic content and improved SEO performance |
-| **Edge Network Support**        | Utilizes a global CDN to ensure fast content delivery                  | Ideal for apps where performance is the highest priority and users are distributed globally                                                                         |
+| Feature                               | Netlify                                                                                                                                             | Vercel                                                                                                                                                                |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Server-Side Rendering (SSR)**       | Netlify doesn’t offer native support for SSR in the same way as Vercel                                                                              | Deeply integrates with Next.js, making it a better choice for projects where SSR is essential, such as those requiring dynamic content and improved SEO performance   |
+| **Edge Network Support**              | Utilizes a global CDN to ensure fast content delivery                                                                                               | Ideal for apps where performance is the highest priority and users are distributed globally                                                                           |
+| **Scalability and Automatic Scaling** | Offers automatic scaling and works well for various project sizes, but Vercel is better for handling highly dynamic apps requiring advanced scaling | Excels in scaling by automatically adjusting serverless functions and edge deployments based on demand. A better choice for large-scale apps with fluctuating traffic |
 
 ## References
 
