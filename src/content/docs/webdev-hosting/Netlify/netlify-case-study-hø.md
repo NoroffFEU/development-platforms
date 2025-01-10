@@ -69,6 +69,12 @@ Netlify integrates with a global CDN (content delivery network) and it enables w
 
 - Since the CDN cache may contain sensitive information such as personal data, it is essential to implement thorough security measures.
 
+## Market Comparison
+
+| Feature                         | Netlify                                                                | Vercel                                                                                                                                                              |
+| ------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Server-Side Rendering (SSR)** | Netlify doesn’t offer native support for SSR in the same way as Vercel | Deeply integrates with Next.js, making it a better choice for projects where SSR is essential, such as those requiring dynamic content and improved SEO performance |
+
 ## References
 
 - [Netlify Docs](https://docs.netlify.com/platform/what-is-netlify/)
