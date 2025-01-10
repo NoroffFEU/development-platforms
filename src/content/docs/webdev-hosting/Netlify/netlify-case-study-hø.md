@@ -76,6 +76,9 @@ Netlify integrates with a global CDN (content delivery network) and it enables w
 | **Server-Side Rendering (SSR)**       | Netlify doesn’t offer native support for SSR in the same way as Vercel                                                                              | Deeply integrates with Next.js, making it a better choice for projects where SSR is essential, such as those requiring dynamic content and improved SEO performance   |
 | **Edge Network Support**              | Utilizes a global CDN to ensure fast content delivery                                                                                               | Ideal for apps where performance is the highest priority and users are distributed globally                                                                           |
 | **Scalability and Automatic Scaling** | Offers automatic scaling and works well for various project sizes, but Vercel is better for handling highly dynamic apps requiring advanced scaling | Excels in scaling by automatically adjusting serverless functions and edge deployments based on demand. A better choice for large-scale apps with fluctuating traffic |
+| **Asynchronous execution**            | Offers "background functions" that run asynchronously for up to 15 minutes, ideal for tasks like batch processing or web scraping                   | Serverless functions are synchronous by nature                                                                                                                        |
+| **Analytics**                         | Server-side, GDPR-compliant, tracks visitors and performance without slowing the site                                                               | Client-side, focuses on Core Web Vitals but may slow down the site; supports Next.js, Nuxt, and Gatsby                                                                |
+| **Pricing**                           | 100 GB free bandwidth, 1 TB on Pro; 300 build minutes/month with extra 500 minutes for $7                                                           | 100 GB free bandwidth, 1 TB on Pro; 6000 build minutes/month                                                                                                          |
 
 ## References
 
@@ -85,3 +88,5 @@ Netlify integrates with a global CDN (content delivery network) and it enables w
 - [Netlify functions](https://www.netlify.com/platform/core/functions/)
 - [Netlify edge](https://www.netlify.com/platform/core/edge/)
 - [OTAKOYI](https://otakoyi.software/blog/overview-of-benefits-and-drawbacks-of-netlify-cms)
+- [Vercel vs Netlify: How to Pick the Right Platform](https://focusreactive.com/vercel-vs-netlify-how-to-pick-the-right-platform/)
+- [Vercel vs Netlify: Battle of the Composable Web platforms](https://ikius.com/blog/vercel-vs-netlify)
