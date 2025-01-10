@@ -74,6 +74,7 @@ Netlify integrates with a global CDN (content delivery network) and it enables w
 | Feature                         | Netlify                                                                | Vercel                                                                                                                                                              |
 | ------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Server-Side Rendering (SSR)** | Netlify doesn’t offer native support for SSR in the same way as Vercel | Deeply integrates with Next.js, making it a better choice for projects where SSR is essential, such as those requiring dynamic content and improved SEO performance |
+| **Edge Network Support**        | Utilizes a global CDN to ensure fast content delivery                  | Ideal for apps where performance is the highest priority and users are distributed globally                                                                         |
 
 ## References
 
