@@ -41,6 +41,34 @@ Netlify integrates with a global CDN (content delivery network) and it enables w
 - Sites and apps are deployed to multiple cloud providers for ultimate reliability.
 - Ensures secure web experiences through pre-rendered pages served via edge nodes.
 
+## Advantages
+
+**Improved development efficiency through automated deployment:**
+
+- Netlify integrates with GitLab, GitHub, and Bitbucket, enabling the build and deployment process to be fully automated. This eliminates the need for manual tasks, allowing developers to improve their efficiency.
+
+**Simplification of various tasks through plugins:**
+
+- Netlify offers a variety of plugins that simplify tasks such as setting up custom domains, managing forms, and optimizing images. Additionally, it allows developers to create custom plugins tailored to their specific needs.
+
+**Cost reduction through serverless functions/architecture:**
+
+- Netlify adopts a serverless architecture, eliminating the need for servers. This not only reduces the effort required for server setup and management but also helps lower costs.
+
+## Disadvantages
+
+**Limitations of serverless architecture:**
+
+- Netlify adopts a serverless architecture, eliminating the need for servers. However, when server-side processing is required, it is necessary to use other services.
+
+**Increased costs based on the scale of the project:**
+
+- Netlify offers both a free and a paid plan, but as the scale of the project increases, the costs may rise.
+
+**Concerns about security-related issues:**
+
+- Since the CDN cache may contain sensitive information such as personal data, it is essential to implement thorough security measures.
+
 ## References
 
 - [Netlify Docs](https://docs.netlify.com/platform/what-is-netlify/)
@@ -48,3 +76,4 @@ Netlify integrates with a global CDN (content delivery network) and it enables w
 - [Canvas Business Model](https://canvasbusinessmodel.com/blogs/brief-history/netlify-brief-history)
 - [Netlify functions](https://www.netlify.com/platform/core/functions/)
 - [Netlify edge](https://www.netlify.com/platform/core/edge/)
+- [OTAKOYI](https://otakoyi.software/blog/overview-of-benefits-and-drawbacks-of-netlify-cms)
