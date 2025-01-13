@@ -4,12 +4,7 @@
 
 ## Introduction
 
-WAF is like your website’s super-smart guard that keeps everything safe and running smoothly. It acts like a security guard, checking all the traffic coming to your website and blocking anything harmful. WAFs are important because they stop attacks like:
-
--	**SQL Injection:** Hackers try to mess with your website’s database to steal or damage data.
--	**Cross-Site Scripting (XSS):** Bad scripts are injected to trick users or steal their information.
--	**DDoS Attacks:** Hackers send too much traffic to crash your website.
-
+A Web Application Firewall (WAF) is like a smart security guard for your website. It monitors all incoming traffic, blocks harmful activities like hacking attempts, and keeps your site safe and running smoothly. WAFs are essential for protecting against common web attacks like SQL injection, XSS, and DDoS.
 
 ## Brief History
 * **1990s:** Firewalls emerged to protect networks, focusing on packet filtering; web apps introduced new vulnerabilities.
