@@ -16,6 +16,20 @@ A Web Application Firewall (WAF) is like a smart security guard for your website
 * **2017:** Machine learning-powered WAFs emerged, focusing on zero-day threats and behavior analytics.
 * **2020s:** Modern WAFs protect APIs, integrate with DevSecOps, and secure CI/CD pipelines.
 
+## Related Terms to Understand WAF
+  
+**HTTP/S:** *The protocol used for transferring data over the web. HTTPS is the secure version, encrypting communication (handshake) between the user and the server.*
+
+**SQL Injection:** *An attack where hackers manipulate SQL queries to access or damage a database.*
+
+**Cross-Site Scripting (XSS):** *An attack where malicious scripts are injected into a website to trick users or steal data.*
+
+**DDoS Attack:** *Distributed Denial-of-Service attack, where an attacker overwhelms a website with excessive traffic to crash it.*
+
+**API:** *Application Programming Interface, a set of rules that allows different software systems to communicate with each other.*
+
+**OWASP Top 10:** *A list of the ten most critical web application security risks, maintained by the Open Web Application Security Project (OWASP).*
+
 ## Main Features
 
 A Web Application Firewall (WAF) is a security tool designed to protect web applications by filtering and monitoring HTTP/S traffic and preventing common attacks.
@@ -33,20 +47,6 @@ A Web Application Firewall (WAF) is a security tool designed to protect web appl
 | **Cloud-Based WAF Options** | Provides scalable and hardware-free security solutions. |
 | **API Security** | Safeguards APIs and microservices from common threats.! |
 | **Automated Threat Detection** | Uses machine learning to detect zero-day and emerging attacks. |
-
-### Related Terms to Understand WAF
-  
-**HTTP/S:** *The protocol used for transferring data over the web. HTTPS is the secure version, encrypting communication (handshake) between the user and the server.*
-
-**SQL Injection:** *An attack where hackers manipulate SQL queries to access or damage a database.*
-
-**Cross-Site Scripting (XSS):** *An attack where malicious scripts are injected into a website to trick users or steal data.*
-
-**DDoS Attack:** *Distributed Denial-of-Service attack, where an attacker overwhelms a website with excessive traffic to crash it.*
-
-**API:** *Application Programming Interface, a set of rules that allows different software systems to communicate with each other.*
-
-**OWASP Top 10:** *A list of the ten most critical web application security risks, maintained by the Open Web Application Security Project (OWASP).*
 
 ## Market Comparison
 
