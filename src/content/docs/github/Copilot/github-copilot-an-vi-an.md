@@ -77,13 +77,22 @@ To start using Github Copilot the user needs the following:
 
 
 ### 2. Enabling GitHub Copilot
-  1. **Subscribe to GitHub Copilot**
+  #### 1. Subscribe to GitHub Copilot
   - Go to the Github Copilot subscription page [Github Copilot subscription page](https://github.com/features/copilot#pricing) and activate a subscription plan.
   - Students and open-source contributors can apply for free access.
-  2.  **Install the extension:**
-  - For VS code, search for “GitHub Copilot” in the Extension Marketplace.(img need)
-   - For other supported IDEs, follow the installation instructions provided at [Github.]( https://docs.github.com/en/copilot)
-  3. **Sign In:**
+
+    
+  #### 2. Install the extension:
+
+  - **For Visual Studio Code:**
+    1. Open the Extension Marketplace `CTRL+Shift+X`
+    2. Search for "GitHub Copilot" and click **Install**.
+    3. Once installed, restart your IDE.
+  
+  - **For other supported IDEs:**
+    Follow the installation instructions provided at [Github.]( https://docs.github.com/en/copilot)
+
+ #### 3. Sign In:
   - After installation, sign in to your GitHub account through the extension. This step ensures Copilot has access to your account and IDE.
 
 ### 3. Configuring GitHub Copilot
@@ -92,12 +101,28 @@ Once installed, configure Copilot to match your preferences:
 - **Privacy settings:** Decide whether Copilot can use your code snippets to improve its AI models.
 - **Keybindings:** Customize shortcuts to accept or reject suggestions quickly.
 
-### 4. Using GitHub Copilot
-- **Start typing:** Begin writing code in a supported file type (e.g., Javascript, Python or java). Copilot will automatically suggest completions, ranging from a single line to entire functions.
-- **Accepting suggestions:** Press (`Tab`)  or (`Enter`) to accept a suggestion 
-- **Exploring alternative suggestions:** (`Press Ctrl + ]`) (or the equivalent keybinding) to cycle through multiple suggestions for the same prompt.
-- **Custom Prompts:** Write a comment or plain text description of what you need, and Copilot will generate the corresponding code.
 
+### 4. Using GitHub Copilot
+
+#### 1. Start Typing
+Begin writing code in a supported file type (e.g., JavaScript, Java or Python). Copilot will automatically suggest completions, ranging from single lines to entire functions.  
+
+#### 2. Accepting Suggestions
+Press `Tab` or `Enter` to accept a suggestion.  
+
+#### 3. Exploring Alternative Suggestions
+Use `Ctrl + ]` (or the equivalent keybinding) to cycle through multiple suggestions for the same prompt.  
+
+#### 4. Custom Prompts
+
+Write a comment or a plain text descriptions of what you need to guide Copilot. For example:
+
+```javascript
+// Create a JavaScript function to reverse a string
+function reverseString(str) {
+    return str.split('').reverse().join('');
+}
+```
 
 ### 5. Advance features
 - **Context-Aware assistance:** Copilot adapts its suggestions based on the surrounding code, project structure and coding patterns.
