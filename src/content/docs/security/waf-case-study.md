@@ -6,6 +6,11 @@
 
 A Web Application Firewall (WAF) is like a smart security guard for your website. It monitors all incoming traffic, blocks harmful activities like hacking attempts, and keeps your site safe and running smoothly. WAFs are essential for protecting against common web attacks like SQL injection, XSS, and DDoS.
 
+**Usefulness to Developers**
+* **Time-Saving:** Automates security, freeing developers to focus on coding.
+* **Integration-Friendly:** Easily incorporates into CI/CD workflows.
+* **Improved App Stability:** Blocks threats that could disrupt application functionality.
+
 ## Brief History
 * **1990s:** Firewalls emerged to protect networks, focusing on packet filtering; web apps introduced new vulnerabilities.
 * **1999:** First WAF introduced to address web-specific threats like SQL injection and XSS with rule-based HTTP filtering.
@@ -34,11 +39,6 @@ A Web Application Firewall (WAF) is like a smart security guard for your website
 
 A Web Application Firewall (WAF) is a security tool designed to protect web applications by filtering and monitoring HTTP/S traffic and preventing common attacks.
 
-### Usefulness to Developers
-* **Time-Saving:** Automates security, freeing developers to focus on coding.
-* **Integration-Friendly:** Easily incorporates into CI/CD workflows.
-* **Improved App Stability:** Blocks threats that could disrupt application functionality.
-
 |  FEATURE  | DESCRIPTION  |
 |---|---|
 | **Protection Against OWASP Top 10 Vulnerabilities** | Prevents SQL injection, XSS, and other web-based attacks. |
@@ -47,6 +47,66 @@ A Web Application Firewall (WAF) is a security tool designed to protect web appl
 | **Cloud-Based WAF Options** | Provides scalable and hardware-free security solutions. |
 | **API Security** | Safeguards APIs and microservices from common threats.! |
 | **Automated Threat Detection** | Uses machine learning to detect zero-day and emerging attacks. |
+
+## WAF Tools
+![image](https://github.com/user-attachments/assets/464d3937-d7a5-4cb5-8268-a6b6c64b21c6)
+### 🛠️ Cloudflare WAF 
+Cloudflare WAF is a cloud-based security solution integrated into Cloudflare's global content delivery network (CDN). It is designed to protect web applications by monitoring and filtering HTTP/S traffic.
+  
+**Key Capabilities:**
+- **DDoS Mitigation:** Automatically identifies and blocks large-scale DDoS attacks without manual intervention.
+- **OWASP Top 10 Protection:** Pre-built rules defend against common vulnerabilities like SQL injection and XSS.
+- **Custom Rules:** Allows users to define their own rules for specific use cases.
+- **API Security:** Dedicated protection for REST and GraphQL APIs, ensuring API traffic is secure.
+- **Simplified Deployment:** As a cloud-based solution, it requires no on-premise hardware or complicated setup.
+
+**When to Use Cloudflare WAF:**
+- Ideal for businesses looking for a simple, scalable, and cost-effective WAF.
+- Great for protecting applications with minimal technical overhead.
+
+#### Setting Up Cloudflare WAF
+1. **Sign In:**
+  - *Log in to your Cloudflare Dashboard and select your domain.*
+2. **Enable WAF:**
+  - *Go to Security > WAF in the dashboard.*
+  - *Ensure the WAF is toggled ON for your domain.*
+3. **Add Rules:**
+  - *Use Managed Rulesets (e.g., OWASP Top 10).*
+  - *Create Custom Rules to block or allow specific traffic patterns.*
+4. **Set Rule Priority:**
+  - *Arrange rules to ensure proper execution order.*
+5. **Test and Monitor:**
+  - *Review blocked requests and fine-tune rules via Firewall Events.*
+
+___________________________________________________________________________________
+  
+![image](https://github.com/user-attachments/assets/ce485d4e-43b9-474a-afbe-a2127b8b35b9)
+### 🛠️ AWS WAF
+AWS WAF is a web application firewall integrated with the AWS ecosystem. It offers detailed traffic control for applications running on AWS infrastructure, making it ideal for businesses already using AWS services.
+
+**Key Capabilities:**
+- **Rule Customization:** Users can create and modify rules to block specific traffic patterns, tailored to their needs.
+- **AWS Integration:** Works seamlessly with AWS services like CloudFront, API Gateway, and Load Balancers.
+- **Bot Control:** Provides features to identify and mitigate harmful bot traffic.
+- **Detailed Metrics and Logging:** Monitors traffic patterns in real-time using AWS CloudWatch, enabling granular visibility.
+- **Flexible Pricing:** Pay-as-you-go model ensures you only pay for what you use.
+
+**When to Use AWS WAF:**
+- Best suited for businesses heavily invested in the AWS ecosystem.
+- Ideal for teams that need granular control over application security.
+
+#### Setting Up AWS WAF
+1. **Log In:**
+  - *Access the AWS Management Console and navigate to AWS WAF & Shield.*
+2. **Create Web ACL:**
+  - *Define scope (CloudFront or regional resource like ALB).*
+  - *Name the Web ACL and associate it with resources to protect.*
+3. **Add Rules:**
+  - *Use Managed Rules (e.g., AWS OWASP Top 10) or create Custom Rules for specific traffic patterns.*
+4. **Set Rule Priority:**
+  - *Arrange rules to determine their execution order.*
+5. **Review and Save:**
+  - *Review your setup and click Create Web ACL to deploy.*
 
 ## Market Comparison
 
@@ -57,12 +117,19 @@ A Web Application Firewall (WAF) is a security tool designed to protect web appl
 |**Fortinet**|Strong security, works in any setup|Expensive for small businesses|Connects with Fortinet tools|
 |**Imperva**|Advanced threat detection|High cost|Supports various platforms|
 |**ModSecurity**|Free, highly customizable|Requires technical skills|Works with Apache, Nginx, etc.|
- 
-## Getting Started
+
 
 ## Conclusion
+Web Application Firewalls (WAFs) are critical for protecting web applications from threats like SQL injection, XSS, and DDoS attacks. Tools like Cloudflare WAF are simple and scalable, while AWS WAF offers more customization and works perfectly with AWS services. Choosing the right WAF ensures security, supports modern workflows, and maintains application stability.
 
 ### References
+* [OWASP Top 10](https://owasp.org/www-project-top-ten/) - Detailed list of the most critical web application security risks.  
+* [Cloudflare WAF Documentation](https://developers.cloudflare.com/waf/) - Official documentation for configuring and using Cloudflare WAF.  
+* [AWS WAF Documentation](https://docs.aws.amazon.com/waf/latest/developerguide/) - Official guide for AWS WAF setup and features.  
+* [PCI DSS Guidelines](https://www.pcisecuritystandards.org/) - Compliance standards for secure web application usage.  
+* [ModSecurity Documentation](https://www.modsecurity.org/) - Resources on the first open-source WAF and its capabilities.  
+* [Akamai WAF Overview](https://www.akamai.com/products/web-application-firewall) - Insights into Akamai's cloud-based WAF solution.  
+* [Fortinet WAF Documentation](https://www.fortinet.com/products/web-application-firewall) - Detailed information on Fortinet’s WAF tools.
 
 ### Additional Resources
 
