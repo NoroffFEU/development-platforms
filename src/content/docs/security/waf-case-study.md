@@ -1,6 +1,6 @@
 |  TITLE  | AUTHOR  |  TAGS  |
 |---|---|---|
-| Web Application Firewalls (WAF): Case Study | Anna Aasprong Brekken <AnnaAaBrekke>  |  security, web application firewall, WAF, threat detection, case study |    
+| Web Application Firewalls (WAF): Case Study | Anna Aasprong Brekke <AnnaAaBrekke>  |  security, web application firewall, WAF, threat detection, case study |    
 
 ## Introduction
 
