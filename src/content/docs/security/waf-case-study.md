@@ -55,6 +55,14 @@ A Web Application Firewall (WAF) is a security tool designed to protect web appl
 
 ## Market Comparison
 
+|  WAF TOOL  | STRENGTHS  |  WEAKNESSES  | INTEGRATION |
+|---|---|---|---|
+| **Cloudflare** | Easy to use, scalable, DDoS protection | Limited customization | Works with most CDNs |
+|**AWS**|Customizable, works with AWS services|Complex setup for beginners|Best for AWS users|
+|**Fortinet**|Strong security, works in any setup|Expensive for small businesses|Connects with Fortinet tools|
+|**Imperva**|Advanced threat detection|High cost|Supports various platforms|
+|**ModSecurity**|Free, highly customizable|Requires technical skills|Works with Apache, Nginx, etc.|
+ 
 ## Getting Started
 
 ## Conclusion
