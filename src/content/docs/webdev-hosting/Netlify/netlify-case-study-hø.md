@@ -80,6 +80,20 @@ Netlify integrates with a global CDN (content delivery network) and it enables w
 | **Analytics**                         | Server-side, GDPR-compliant, tracks visitors and performance without slowing the site                                                               | Client-side, focuses on Core Web Vitals but may slow down the site; supports Next.js, Nuxt, and Gatsby                                                                |
 | **Pricing**                           | 100 GB free bandwidth, 1 TB on Pro; 300 build minutes/month with extra 500 minutes for $7                                                           | 100 GB free bandwidth, 1 TB on Pro; 6000 build minutes/month                                                                                                          |
 
+## Getting Started
+
+1. **Signing Up**
+   Create a free account on Netlify. You can sign up using GitHub, GitLab, Bitbucket, or email.
+
+2. **Connect and select repository**
+   Click the "Deploy to Netlify" button to be directed to the Netlify app. Choose a platform to deploy your project from—GitHub, GitLab, Bitbucket, or Azure DevOps—and select the repository you want to deploy.
+
+3. **Configuration for the project**
+   Set up the build settings, including the deployment branch, build command, and publish directory. You can also customize the site name, which determines the default URL for your site.
+
+4. **Deploy your site**
+   Once your settings are configured, click the "Deploy [your project name]" button to start the deployment process. Netlify will clone the repository and build the project. When the deployment is successful, you'll receive a production URL to access your website.
+
 ## References
 
 - [Netlify Docs](https://docs.netlify.com/platform/what-is-netlify/)
