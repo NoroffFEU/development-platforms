@@ -72,17 +72,17 @@ Similarly, a self hosted tool and a cloud based tool with a similar purpose may 
 ### 1. Requirments:
 To start using Github Copilot the user needs the following:
 - GitHub account (paid or free)
-- A supported IDE, vs code, Neovim, jetbrains etc
+- A supported IDE (e.g., vs code, Neovim, jetbrains, etc.)
 - An active GitHub Copilot subscription or eligibility for free access(student or verified open-source contributors)
 
 
 ### 2. Enabling GitHub Copilot
   1. **Subscribe to GitHub Copilot**
-  - Go to the Github Copilot subscription page (https://github.com/features/copilot#pricing) and activate a subscription plan.
+  - Go to the Github Copilot subscription page [Github Copilot subscription page](https://github.com/features/copilot#pricing) and activate a subscription plan.
   - Students and open-source contributors can apply for free access.
   2.  **Install the extension:**
   - For VS code, search for “GitHub Copilot” in the Extension Marketplace.(img need)
-   - For other supported IDEs, follow the installation instructions provided at GitHub. ( https://docs.github.com/en/copilot)
+   - For other supported IDEs, follow the installation instructions provided at [Github.]( https://docs.github.com/en/copilot)
   3. **Sign In:**
   - After installation, sign in to your GitHub account through the extension. This step ensures Copilot has access to your account and IDE.
 
@@ -94,8 +94,8 @@ Once installed, configure Copilot to match your preferences:
 
 ### 4. Using GitHub Copilot
 - **Start typing:** Begin writing code in a supported file type (e.g., Javascript, Python or java). Copilot will automatically suggest completions, ranging from a single line to entire functions.
-- **Accepting suggestions:** Press Tab or Enter to accept a suggestion 
-- **Exploring alternative suggestions:** Press Ctrl + ] (or the equivalent keybinding) to cycle through multiple suggestions for the same prompt.
+- **Accepting suggestions:** Press (`Tab`)  or (`Enter`) to accept a suggestion 
+- **Exploring alternative suggestions:** (`Press Ctrl + ]`) (or the equivalent keybinding) to cycle through multiple suggestions for the same prompt.
 - **Custom Prompts:** Write a comment or plain text description of what you need, and Copilot will generate the corresponding code.
 
 
@@ -109,7 +109,6 @@ Once installed, configure Copilot to match your preferences:
 - **Combine with traditional coding:** Treat Copilot as a collaborative assistant, not a replacement.
 - **Review outputs:** Verify AI-generated code for accuracy, especially when working on critical or sensitive tasks.
 
-// If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
 
 ## Conclusion
 
