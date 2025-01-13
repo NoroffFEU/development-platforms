@@ -77,44 +77,37 @@ To start using Github Copilot the user needs the following:
 
 
 ### 2. Enabling GitHub Copilot
-  1. Subscribe to GitHub Copilot
-  Go to the Github Copilot subscription page (https://github.com/features/copilot#pricing) and activate a subscription plan.
-  Students and open-source contributors can apply for free access.
-  2.  Install the extension:
-  For VS code, search for “GitHub Copilot” in the Extension Marketplace.(img need)
-   For other supported IDEs, follow the installation instructions provided at GitHub. ( https://docs.github.com/en/copilot)
-  3. Sign In:
-  After installation, sign in to your GitHub account through the extension. This step ensures Copilot has access to your account and IDE.
+  1. **Subscribe to GitHub Copilot**
+  - Go to the Github Copilot subscription page (https://github.com/features/copilot#pricing) and activate a subscription plan.
+  - Students and open-source contributors can apply for free access.
+  2.  **Install the extension:**
+  - For VS code, search for “GitHub Copilot” in the Extension Marketplace.(img need)
+   - For other supported IDEs, follow the installation instructions provided at GitHub. ( https://docs.github.com/en/copilot)
+  3. **Sign In:**
+  - After installation, sign in to your GitHub account through the extension. This step ensures Copilot has access to your account and IDE.
 
-3. Configuring GitHub Copilot
+### 3. Configuring GitHub Copilot
 Once installed, configure Copilot to match your preferences:
-- Enable or Disable suggestions: Choose when Copilot provides suggestions(e.g, on new lines, within existing code etc)
-- Privacy settings: Decide whether Copilot can use your code snippets to improve its AI models.
-- Keybindings: Customize shortcuts to accept or reject suggestions quickly.
+- **Enable or Disable suggestions:** Choose when Copilot provides suggestions(e.g, on new lines, within existing code etc)
+- **Privacy settings:** Decide whether Copilot can use your code snippets to improve its AI models.
+- **Keybindings:** Customize shortcuts to accept or reject suggestions quickly.
 
-4. Using GitHub Copilot
+### 4. Using GitHub Copilot
 - **Start typing:** Begin writing code in a supported file type (e.g., Javascript, Python or java). Copilot will automatically suggest completions, ranging from a single line to entire functions.
 - **Accepting suggestions:** Press Tab or Enter to accept a suggestion 
 - **Exploring alternative suggestions:** Press Ctrl + ] (or the equivalent keybinding) to cycle through multiple suggestions for the same prompt.
 - **Custom Prompts:** Write a comment or plain text description of what you need, and Copilot will generate the corresponding code.
 
 
-5. Advance features
-**Context-Aware assistance:**
-Copilot adapts its suggestions based on the surrounding code, project structure and coding patterns.
+### 5. Advance features
+- **Context-Aware assistance:** Copilot adapts its suggestions based on the surrounding code, project structure and coding patterns.
+- **Comments to guide Copilot:** Developers can use plain English comments to guide Copilot, e.g., # Create a function to sort an array.
+- **Real-Time Feedback:** Modify Suggestions directly in the IDE and provide feedback to refine future outputs
 
-
-Comments to guide Copilot:
-Developers can use plain English comments to guide Copilot, e.g., # Create a function to sort an array.
-
-
-Real-Time Feedback:
-Modify Suggestions directly in the IDE and provide feedback to refine future outputs
-
-6. Tips for use of Copilot: 
-Start small: Use Copilot for boilerplate code and repetitive tasks. 
-Combine with traditional coding: Treat Copilot as a collaborative assistant, not a replacement.
-Review outputs: Verify AI-generated code for accuracy, especially when working on critical or sensitive tasks.
+### 6. Tips for use of Copilot: 
+- **Start small:** Use Copilot for boilerplate code and repetitive tasks. 
+- **Combine with traditional coding:** Treat Copilot as a collaborative assistant, not a replacement.
+- **Review outputs:** Verify AI-generated code for accuracy, especially when working on critical or sensitive tasks.
 
 // If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
 
