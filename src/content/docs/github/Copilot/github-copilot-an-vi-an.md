@@ -130,9 +130,9 @@ function reverseString(str) {
 - **Real-Time Feedback:** Modify Suggestions directly in the IDE and provide feedback to refine future outputs
 
 ### 6. Tips for use of Copilot: 
-- **Start small:** Use Copilot for boilerplate code and repetitive tasks. 
-- **Combine with traditional coding:** Treat Copilot as a collaborative assistant, not a replacement.
-- **Review outputs:** Verify AI-generated code for accuracy, especially when working on critical or sensitive tasks.
+- **Start small:** Begin with tasks like boilerplate code, repetitive patterns, or setup scripts.. 
+- **Combine with traditional coding:** Treat Copilot as a collaborative assistant, not a replacement. Use it to complement your work by handling simpler or repetitive tasks while you focus on complex logic.
+- **Review outputs:** Verify AI-generated code for accuracy, logic errors, inefficiencies, or potential vulnerabilities - especially when working on critical or sensitive tasks.
 
 
 ## Conclusion
