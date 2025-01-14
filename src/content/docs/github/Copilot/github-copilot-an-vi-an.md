@@ -16,7 +16,7 @@ tags: AI, GitHub, Copilot
 
 This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
 
-## Brief History
+## History of GitHub Copilot
 
 - **2020 (June)**: OpenAI released GPT-3, a large language model demonstrating the potential for AI to generate programming code alongside natural language. This sparked interest at GitHub, which partnered with OpenAI to create GitHub Copilot, an AI tool designed to assist developers with context-aware code generation.
 
@@ -34,6 +34,11 @@ This is a template for a written case study, please note that this is only a sug
   - **Command Line Assistance**: AI support extended to terminal tasks.
   - **Documentation Support**: Copilot could generate or improve project documentation, further simplifying developer workflows.
   - **Enterprise Focus**: GitHub introduced enterprise-specific features, such as centralized management for licensing, enhanced security, and tools to support team collaboration. These features allowed businesses to adopt Copilot at scale while maintaining governance over its use.
+ 
+- **2024 Enhancements**:
+  - **Copilot Extensions Guide and Compliance Reports (June 2024):** GitHub released tools and documentation for developers to build custom Copilot Extensions, promoting personalization and integration within workflows. GitHub released SOC 2 Type I and ISO 27001 compliance reports for Copilot Business and Enterprise, ensuring enterprise-level security and trust.
+  - **Enhanced Copilot Chat (July 2024):** Copilot Chat was upgraded with OpenAI’s GPT-4o, delivering faster and more accurate interactions across platforms like Visual Studio, VS Code, JetBrains IDEs, GitHub Mobile apps, and GitHub.com.
+  - **Multi-Model Support and GitHub Spark Introduction(October 2024):** Copilot began offering support for multiple AI models from providers like Anthropic, Google, and OpenAI, giving developers flexibility to choose the most suitable model for their needs. GitHub introduced Spark, an AI tool for building web applications using natural language prompts, powered by OpenAI and Anthropic models.
 
 - **Impact**: Copilot transformed software development by streamlining repetitive tasks, accelerating learning for junior developers, and providing advanced debugging and testing support. It also highlighted ethical concerns about AI’s use of publicly available code, prompting ongoing discussions about responsible AI use.
 
