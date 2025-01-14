@@ -6,19 +6,23 @@ tags: Postman, APILifecycle, APITesting, APIDevelopment, APIDocumentation, RESTA
 
 ## Introduction
 
-Postman lets you execute, test and interact with APIs. 
+Postman lets you execute, test and interact with APIs in an easy and visual way before you start working with them in your project. You can set up all your APIs in Postman to get familiar with what you can do with them and if everything works properly.
+
+Postman is a 
+
+In this case study we will look closer at how we can get started with and use Postman. We will look at some examples on how to test APIs and what the benefits of this are. Fist, we'll get a short history of why this development tool was created.
 
 ## Brief History
 
-Postman was first built by Abhinav Asthana, and then developed further with co-founders Ankit Sobti and Abhijit Kane. After experiencing difficulties and issues when working with APIs on his own projects, Abhinav Asthana wanted to create a tool to simplify the API testing process. An early version of Postman was in use in 2012 and available on Chrome Web Store, and from there it got popular quickly. Postman was launched formally in 2014. [^1]
+Postman was first built by Abhinav Asthana, and then developed further with co-founders Ankit Sobti and Abhijit Kane. After experiencing difficulties and issues when working with APIs on his own projects, Abhinav Asthana wanted to create a tool to simplify the API testing process. An early version of Postman was in use in 2012 and available on Chrome Web Store, and from there it got popular quickly.[^1] Postman was formally founded in 2014.[^2]
 
-Today, Postman Inc. is the leading API platform and they claim that over 500,000 companies are using Postman. [^2]
+Today, Postman Inc. is the leading API platform and they claim that over 500,000 companies are using Postman.[^3]
 
-Read more about Postman's history on this blog post written by Abhinav Asthana: [Postman's blog](https://blog.postman.com/how-we-built-postman-product-and-company/)
+Read more about Postman's history on this blog post written by Abhinav Asthana: [How we built Postman—the product and the company](https://blog.postman.com/how-we-built-postman-product-and-company/)
 
 ## Main Features
 
-- we can use the browser-based interface or download the desktop app
+- we can use the web version or download the desktop app
 - demo 
 - unik: collections, environments, set up variables
 - testing REST APIs
@@ -68,6 +72,8 @@ Eli Nygård (GitHub Profile: [elinygard](https://github.com/elinygard) )
 
 ## References
 
-[^1]: [Postman blog post about their founding history](https://blog.postman.com/how-we-built-postman-product-and-company/)
+[^1]: [Blog post about Postman's history](https://blog.postman.com/how-we-built-postman-product-and-company/)
 
-[^2]: [www.postman.com/case-studies/](https://www.postman.com/case-studies/)
+[^2]: [www.forbes.com/companies/postman/](https://www.forbes.com/companies/postman/)
+
+[^3]: [www.postman.com/case-studies/](https://www.postman.com/case-studies/)
