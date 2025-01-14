@@ -84,7 +84,7 @@ Comparison with Webpack's HMR:
 | State Retention | Always retains state | Often loses state | 
 | CSS Handling | Native CSS updates | Requires CSS loaders and plugins | 
 
-![Vite vs Webpack HMR Comparison](assets/images/vite_vs_webpack_hmr_comparison.png)
+![Vite vs Webpack HMR Comparison](~/assets/images/vite_vs_webpack_hmr_comparison.png)
 
 *Figure: Radar chart comparing Vite and Webpack for Hot Module Replacement.*
 
