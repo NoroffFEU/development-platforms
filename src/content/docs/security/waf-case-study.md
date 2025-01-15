@@ -118,7 +118,6 @@ AWS WAF is a web application firewall integrated with the AWS ecosystem. It offe
 |**Imperva**|Advanced threat detection|High cost|Supports various platforms|
 |**ModSecurity**|Free, highly customizable|Requires technical skills|Works with Apache, Nginx, etc.|
 
-
 ## Conclusion
 Web Application Firewalls (WAFs) are essential tools for keeping websites and apps safe from attacks like SQL injection, XSS, and DDoS. They help protect sensitive data, ensure websites run smoothly, and save developers time by automating security tasks.
 
@@ -133,7 +132,15 @@ In today’s fast-paced development world, a good WAF does more than block threa
 * [PCI DSS Guidelines](https://www.pcisecuritystandards.org/) - Compliance standards for secure web application usage.  
 * [ModSecurity Documentation](https://www.modsecurity.org/) - Resources on the first open-source WAF and its capabilities.  
 * [Akamai WAF Overview](https://www.akamai.com/products/web-application-firewall) - Insights into Akamai's cloud-based WAF solution.  
-* [Fortinet WAF Documentation](https://www.fortinet.com/products/web-application-firewall) - Detailed information on Fortinet’s WAF tools.
+* [Fortinet WAF Documentation](https://www.fortinet.com/products/web-application-firewall) - Detailed information on Fortinet’s WAF tools.  
+* [Web Application Firewall - Wikipedia](https://en.wikipedia.org/wiki/Web_application_firewall) - Overview of WAFs, including functionality and history.  
+* [Application Firewall - Wikipedia](https://en.wikipedia.org/wiki/Application_firewall) - Explanation of application firewalls and their evolution.
 
 ### Additional Resources
+* [Noroff - Module 3: Security](https://mollify.noroff.dev/content/feu2/development-platforms/module-3/security?nav=undefined)  
+* [Understanding WAFs (YouTube Video)](https://www.youtube.com/watch?v=BNHIgUMCn7c)  
+* [Web Application Firewalls Overview (YouTube Video)](https://www.youtube.com/watch?v=-n15VR9HWiI)  
+* [WAF Features Explained (YouTube Video)](https://www.youtube.com/watch?v=Zwdp7o5kzf8)  
+* [WAF and API Protection (YouTube Video)](https://www.youtube.com/watch?v=tRx8fdtAsmk)  
+
 
