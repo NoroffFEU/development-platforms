@@ -180,7 +180,7 @@ This section can be used to summarize your findings. What are the main advantage
 - [How GitHub Copilot handles data](https://resources.github.com/learn/pathways/copilot/essentials/how-github-copilot-handles-data/)
 - [Security Weaknesses of Copilot-Generated Code in GitHub Projects: An Empirical Study](https://arxiv.org/abs/2310.02059)
 - [The Verge - GitHub CEO Thomas Dohmke says the AI industry needs competition to thrive](https://www.theverge.com/24221978/github-thomas-dohmke-ai-copilot-microsoft-openai-open-source)
-- [The Verge - GitHub’s AI-powered Copilot will help you write code for 10$ a month]https://www.theverge.com/2022/6/21/23176574/github-copilot-launch-pricing-release-date?utm_source=chatgpt.com
+- [The Verge - GitHub’s AI-powered Copilot will help you write code for 10$ a month](https://www.theverge.com/2022/6/21/23176574/github-copilot-launch-pricing-release-date?utm_source=chatgpt.com)
 - [The Verge - GitHub Copilot will support models from Anthropic, Google, and OpenAI](https://www.theverge.com/2024/10/29/24282544/github-copilot-multi-model-anthropic-google-open-ai-github-spark-announcement?utm_source=chatgpt.com)
 
 
