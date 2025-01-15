@@ -142,7 +142,7 @@ Continuous Integration and Continuous Deployment (CI/CD) tools play a critical r
 4. **Integrations**
 
   **Azure Pipelines:** Built to work seamlessly with Azure DevOps, GitHub, and other Microsoft services. Also integrates with third-party tools like Kubernetes, Docker, and Jenkins.
-  
+
   **Jenkins:** Supports integrations with almost every tool via plugins. However, some plugins may require additional configuration or have compatibility issues.
   Example: Jenkins may work better for a team with a diverse tech stack, while Azure Pipelines is ideal for teams already using Azure services.
 
@@ -159,6 +159,15 @@ Continuous Integration and Continuous Deployment (CI/CD) tools play a critical r
 
   **Jenkins:** Security depends on the configuration. Out-of-the-box Jenkins is less secure, but it can be hardened with plugins and best practices.
   Key Difference: Azure Pipelines is better suited for teams prioritizing security with minimal manual effort.
+
+  | Feature               | Azure Pipelines                  | Jenkins                     |
+|-----------------------|----------------------------------|----------------------------|
+| **Setup**             | Quick and cloud-based           | Manual and infrastructure-dependent |
+| **Flexibility**       | Limited to Azure ecosystem       | Highly customizable with plugins |
+| **Scalability**       | Automatic with hosted agents     | Requires manual scaling   |
+| **Cost**              | Free tier available, paid plans for enterprises | Free, but incurs infrastructure costs |
+| **Best Use Case**     | Teams using Azure/cloud services | Teams with specific workflows or offline needs |
+
 
 
 Azure DevOps Pipelines is ideal for organizations seeking a fully managed CI/CD solution with strong cloud integration, scalability, and ease of use. On the other hand, Jenkins offers unparalleled flexibility and customization, making it a great choice for teams with specific infrastructure requirements or complex workflows. Ultimately, the choice depends on your team’s expertise, budget, and preferred level of control.
