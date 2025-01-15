@@ -37,7 +37,8 @@ These are some of the key applications and services that Cloudflare provides:
 **Content Delivery Network (CDN) Benefits:** Page load times and overall website performance is improved by the global network of servers that is strategically placed across various locations. A website’s content like images, CSS files and JavaScript files are cached and delivered from servers that is close to their users, which is beneficial for the performance of the websites.
 
 **HTTP/2 Protocol:** Cloudflare supports HTTP/2 by default, which is a modern and faster alternative to the HTTP/1.1 protocol. It allows for parallel loading of page element, which speeds up the website.
-Extensive Security Solutions
+
+### Extensive Security Solutions
 
 **DDoS Protection:** Cloudflare’s network can detect and mitigate DDoS attacks, preventing them from reaching your server and cause downtime. It safeguards a website from malicious traffic and stops DDoS attacks, which maintains the availability and accessibility of a website. 
 
@@ -75,7 +76,7 @@ Here comes a comparison between Cloudflare and Akamai. Akamai is one of the larg
 
 ### Network Size and Reach
 
-Akamai is the most established Content Delivery Network (CDN) providers and has one of the largest global networks. It has more than 300.000 servers located worldwide, which gives a great coverage and low latency. Cloudflare has a global network with more than 330 data centres in more than 100 countries.
+Akamai is the most established Content Delivery Network (CDN) provider and has one of the largest global networks. It has more than 300.000 servers located worldwide, which gives a great coverage and low latency. Cloudflare has a global network with more than 330 data centres in more than 100 countries.
 
 ### Functionality and Services
 
