@@ -49,22 +49,17 @@ Designed as an “AI pair programmer,” Copilot helps developers write code fas
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
-
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-
-Example feature table:
+GitHub Copilot gives a wide range of features that improve developer productivity and streamline the coding process. Below is a list of its main features.
 
 | Feature | Description |
 | --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
+| Code Completion | Offers intelligent, autocomplete-style recommendations in compatible IDEs, including Vim/Neovim, Visual Studio, Code, and jetBrains IDEs |
+| Pull Request Summaries | This is an AI-generated summary of changes that are  made in pull requests, highlighting affected files and giving key points for reviewers. (Enterprise-only feature.) |
+| Text Completion (Beta) | This Helps to generate an accurate pull request description quickly, helping with both time and consistency. (Enterprise-only feature.) |
+| Knowledge Bases | Allows a user to define documentation as context when using Copilot Chat. This results in more precise answers. (Enterprise-only feature.) |
+| Suggestions for Unit Tests | Recommends simple unit tests and code examples to strengthen the quality of the code. |
+| Integration with IDEs | Easily combined into multiple IDEs, making sure the developers can use Copilot without disorganizing their existing workflows. |
 
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
 ## Market Comparison
 
