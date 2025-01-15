@@ -174,17 +174,17 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## References
 
-- https://github.com/orgs/community/discussions/7163
-- https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features
-- https://docs.github.com/en/copilot
-- https://resources.github.com/learn/pathways/copilot/essentials/how-github-copilot-handles-data/
-- https://arxiv.org/abs/2310.02059?
-- https://www.theverge.com/24221978/github-thomas-dohmke-ai-copilot-microsoft-openai-open-source
-- https://www.theverge.com/2022/6/21/23176574/github-copilot-launch-pricing-release-date?utm_source=chatgpt.com
-- https://www.theverge.com/2024/10/29/24282544/github-copilot-multi-model-anthropic-google-open-ai-github-spark-announcement?utm_source=chatgpt.com
+- [GitHub discussion - Is GitHub Copilot safe Privacy wise?](https://github.com/orgs/community/discussions/7163)
+- [GitHub Copilot features](https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features)
+- [GitHub documentaion](https://docs.github.com/en/copilot)
+- [How GitHub Copilot handles data](https://resources.github.com/learn/pathways/copilot/essentials/how-github-copilot-handles-data/)
+- [Security Weaknesses of Copilot-Generated Code in GitHub Projects: An Empirical Study](https://arxiv.org/abs/2310.02059)
+- [The Verge - GitHub CEO Thomas Dohmke says the AI industry needs competition to thrive](https://www.theverge.com/24221978/github-thomas-dohmke-ai-copilot-microsoft-openai-open-source)
+- [The Verge - GitHub’s AI-powered Copilot will help you write code for 10$ a month]https://www.theverge.com/2022/6/21/23176574/github-copilot-launch-pricing-release-date?utm_source=chatgpt.com
+- [The Verge - GitHub Copilot will support models from Anthropic, Google, and OpenAI](https://www.theverge.com/2024/10/29/24282544/github-copilot-multi-model-anthropic-google-open-ai-github-spark-announcement?utm_source=chatgpt.com)
 
 
 ## Additional Resources
 
-- [Github Copilot Documentations]([https://example.com](https://docs.github.com/en/copilot/quickstart))
-- [Github Copilot Quickstart - How to use GitHub Copilot]([https://youtu.be/dQw4w9WgXcQ](https://docs.github.com/en/copilot/quickstart))
+- [Github Copilot Quickstart - How to use GitHub Copilot](https://docs.github.com/en/copilot/quickstart)
+
