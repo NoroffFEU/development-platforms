@@ -75,7 +75,7 @@ Example Use Case: Open-source projects hosted on GitHub can use Azure Pipelines 
 
 Like any development platform, Azure DevOps Pipelines has its strengths and weaknesses. While it offers robust features for CI/CD and DevOps workflows, it may not be the perfect fit for every organization. Below is an analysis of its key strengths and areas for improvement.
 
-  ## Strengths:
+  **Strengths:**
 
   1. Comprehensive Integration with DevOps Ecosystem
    Azure Pipelines integrates seamlessly with the entire Azure DevOps suite, as well as with third-party tools like GitHub, Jenkins, Docker, and Kubernetes. This makes it an all-in-one solution for CI/CD and DevOps workflows.
@@ -93,7 +93,7 @@ Like any development platform, Azure DevOps Pipelines has its strengths and weak
    4. Security and Compliance
    With features like role-based access control (RBAC) and integration with Azure Policy, Azure Pipelines ensures that workflows are secure and meet compliance requirements.
 
-   ## Weaknesses:
+   **Weaknesses:**
 
    1. Complexity for Beginners
    Azure Pipelines can be overwhelming for new users due to its extensive features and configuration options. Beginners may find it difficult to set up pipelines without prior knowledge of CI/CD workflows.
