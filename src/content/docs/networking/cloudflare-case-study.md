@@ -52,7 +52,8 @@ Extensive Security Solutions
 **Cloudflare Domains:** Registration services are also offered by Cloudflare, which allows to manage website’s domain names through the platform. Offers opportunity to simplify DNS configuration and streamline your workflow.
 
 **Flexible Pricing:** Scalable pricing plans that cater to a variety of needs, from personal blogs to large enterprises. Also offers a free plan that includes essential features.
-Cloudflare’s weaknesses
+
+## Cloudflare’s weaknesses
 
 ### Dependency on Cloudflare’s Infrastructure
 
