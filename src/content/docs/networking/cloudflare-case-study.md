@@ -24,27 +24,33 @@ The company has launched services like Workers AI in 2023, allowing users to uti
 
 These are some of the key applications and services that Cloudflare provides:
 
--	Content Delivery Network (CDN): Caches website content at strategic locations around the world, reducing latency and improving load times for users all around the world.
--	DDoS Mitigation: Free or paid mitigation services that protect customers from denial of service (DDoS) attacks. DDoS attacks meaning malicious attempts to disrupt a targeted server, service or network by overwhelming it with a flood of internet traffic. 
--	Cloudflare Workers: A computing platform without a server that allows developers to run JavaScript, Rust, C and C++ code at the edge, allowing for low-latency applications without configuring or maintaining infrastructure.
--	Cloudflare WAF (Web Application Firewall): A firewall that sits in front of web applications to stop a real-time attack by using rulesets, advanced rate limiting, exposed credential checks, uploaded content scanning and other security measures. 
--	Workers AI: A framework that allows developers to run AI models and leverage NVIDIA GPUs within Cloudflare’s network for artificial intelligence applications.
+-	**Content Delivery Network (CDN):** Caches website content at strategic locations around the world, reducing latency and improving load times for users all around the world.
+-	**DDoS Mitigation:** Free or paid mitigation services that protect customers from denial of service (DDoS) attacks. DDoS attacks meaning malicious attempts to disrupt a targeted server, service or network by overwhelming it with a flood of internet traffic. 
+-	**Cloudflare Workers:** A computing platform without a server that allows developers to run JavaScript, Rust, C and C++ code at the edge, allowing for low-latency applications without configuring or maintaining infrastructure.
+-	**Cloudflare WAF (Web Application Firewall):** A firewall that sits in front of web applications to stop a real-time attack by using rulesets, advanced rate limiting, exposed credential checks, uploaded content scanning and other security measures. 
+-	**Workers AI:** A framework that allows developers to run AI models and leverage NVIDIA GPUs within Cloudflare’s network for artificial intelligence applications.
 
 ## Cloudflare’s Strengths
 
 ### Performance Optimization
 
 **Content Delivery Network (CDN) Benefits:** Page load times and overall website performance is improved by the global network of servers that is strategically placed across various locations. A website’s content like images, CSS files and JavaScript files are cached and delivered from servers that is close to their users, which is beneficial for the performance of the websites.
+
 **HTTP/2 Protocol:** Cloudflare supports HTTP/2 by default, which is a modern and faster alternative to the HTTP/1.1 protocol. It allows for parallel loading of page element, which speeds up the website.
 Extensive Security Solutions
+
 **DDoS Protection:** Cloudflare’s network can detect and mitigate DDoS attacks, preventing them from reaching your server and cause downtime. It safeguards a website from malicious traffic and stops DDoS attacks, which maintains the availability and accessibility of a website. 
+
 **Web Application Firewall (WAF):** Offers customizable firewall rules to protect applications from vulnerabilities and exploits.
+
 **SSL/TLS Encryption and HTTPS Support:** By using SSL/TLS encryption capabilities, it secures the communication between a website and its visitors. It enables HTTPS for a website, which ensures an encrypted connection.
 
 ### Highly Customizable
 
 **Page Rules:** Cloudflare’s page rules makes it possible to customize settings like caching, security and other settings for individual pages on your website.
+
 **Cloudflare Domains:** Registration services are also offered by Cloudflare, which allows to manage website’s domain names through the platform. Offers opportunity to simplify DNS configuration and streamline your workflow.
+
 **Flexible Pricing:** Scalable pricing plans that cater to a variety of needs, from personal blogs to large enterprises. Also offers a free plan that includes essential features.
 Cloudflare’s weaknesses
 
@@ -59,6 +65,7 @@ Cloudflare’s weaknesses
 ### Overlapping and Troubleshooting Issues
 
 **Overlap:** It might be that the existing hosting provider already provides services like DDoS protection, caching and DNS optimalization. If Cloudflare is also added, it might cause redundancy without performance gains. This can overcomplicate your setup and cause issues with troubleshooting. 
+
 **Complexity with Debugging:** Finding out of what is causing issues can be more difficult as another layer in the traffic route is added. It can be challenging to figure out where the issue stems from, is it within your site, Cloudflare or your host’s end?
 
 ## Comparison: Cloudflare VS Akamai
@@ -67,7 +74,7 @@ Here comes a comparison between Cloudflare and Akamai. Akamai is one of the larg
 
 ### Network Size and Reach
 
-Akamai is the most established Content Delivery Network (CDN) providers and has one of the largest global networks. It has more than 300.000 servers located worldwide, which gives a great coverage and low latency. Cloudflare has a global network with more than 250 data centres in more than 100 countries.
+Akamai is the most established Content Delivery Network (CDN) providers and has one of the largest global networks. It has more than 300.000 servers located worldwide, which gives a great coverage and low latency. Cloudflare has a global network with more than 330 data centres in more than 100 countries.
 
 ### Functionality and Services
 
