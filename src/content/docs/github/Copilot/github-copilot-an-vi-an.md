@@ -61,6 +61,70 @@ GitHub Copilot gives a wide range of features that improve developer productivit
 | Integration with IDEs | Easily combined into multiple IDEs, making sure the developers can use Copilot without disorganizing their existing workflows. |
 
 
+## Strengths
+
+### Faster Coding
+- **Code Suggestions:** Predicts and writes code for you, saving time on tedious tasks.
+- **Handles Complexity:** Generates algorithms, data structures, and features from simple comments.
+- **Less Searching:** Reduces time spent searching for snippets or documentation.
+
+### Broad Support
+- **Versatile:** Works with many programming languages and frameworks.
+- **Context-Aware:** Adapts to the language and framework you are using.
+
+### Awareness
+- **Understands Code:** Provides suggestions based on the current file and its context.
+- **Natural Language:** Generates code from comments like "function to calculate days."
+
+### Improves Code Quality
+- **Best Practices:** Suggests solutions that follow community standards.
+- **Fewer Errors:** Minimizes common mistakes like typos or incorrect API usage.
+
+### User-Friendly
+- **Easy to Use:** Integrates seamlessly with tools like Visual Studio Code.
+- **Control Options:** Accept, reject, or modify suggestions as needed.
+
+### Learning Tool
+- **Teaches Coding:** Helps new developers learn patterns and syntax.
+- **Encourages Creativity:** Offers alternative approaches to problem-solving.
+
+---
+
+## Weaknesses
+
+### Context Limitations
+- **Limited Scope:** Only understands visible code, missing dependencies in other files.
+- **Oversimplifies Tasks:** May struggle with large or complex projects.
+
+### Code Quality Issues
+- **Not Always Optimal:** Suggestions might work but are not always efficient.
+- **Misses Edge Cases:** May fail to address unique or non-standard requirements.
+
+### Security Risks
+- **Insecure Patterns:** Could suggest code with security vulnerabilities (e.g., SQL injection).
+- **Needs Review:** Developers must verify suggestions for safety and compliance.
+
+### Training Limitations
+- **Generic Suggestions:** Based on public GitHub code, which may not suit specialized needs.
+- **Outdated Practices:** Might suggest older coding methods.
+
+### Legal Concerns
+- **Copyright Issues:** May inadvertently reproduce copyrighted code.
+- **Plagiarism Risk:** Generated snippets could conflict with licensing restrictions.
+
+### Over-Reliance
+- **Less Learning:** Developers might not fully understand auto-generated code.
+- **Debugging Problems:** Fixing issues in unfamiliar code can be challenging.
+
+### Specialization Gaps
+- **Weak in Niche Areas:** Struggles with unique languages or cutting-edge technologies.
+- **Limited Customization:** Difficult to adapt to highly specific workflows.
+
+### Resource Heavy
+- **Performance Issues:** Requires a stable internet connection and robust hardware.
+- **Occasional Lag:** Complex tasks may slow down suggestions.
+
+
 ## Market Comparison
 
 While there are many contenders to first place, there is a broad consensus that Tabnine is the strongest competitor. This segment will focus on just that, and will take a closer look at key features such as language support, integration, AI capabilities and specific strengths, and will close with a short comparison wrap-up. 
