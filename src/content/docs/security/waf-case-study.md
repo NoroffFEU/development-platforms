@@ -1,5 +1,5 @@
 ---
-title: Web Application Firewalls (WAF): Case Study
+title: Web Application Firewalls (WAF) Case Study
 author: Anna Aasprong Brekke <AnnaAaBrekke>
 tags: security, web application firewall, WAF, threat detection, case study, Cloudflare, AWS WAF
 ---
