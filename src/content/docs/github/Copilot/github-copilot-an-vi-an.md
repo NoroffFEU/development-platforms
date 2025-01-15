@@ -174,12 +174,17 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- https://github.com/orgs/community/discussions/7163
+- https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features
+- https://docs.github.com/en/copilot
+- https://resources.github.com/learn/pathways/copilot/essentials/how-github-copilot-handles-data/
+- https://arxiv.org/abs/2310.02059?
+- https://www.theverge.com/24221978/github-thomas-dohmke-ai-copilot-microsoft-openai-open-source
+- https://www.theverge.com/2022/6/21/23176574/github-copilot-launch-pricing-release-date?utm_source=chatgpt.com
+- https://www.theverge.com/2024/10/29/24282544/github-copilot-multi-model-anthropic-google-open-ai-github-spark-announcement?utm_source=chatgpt.com
+
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [Github Copilot Documentations]([https://example.com](https://docs.github.com/en/copilot/quickstart))
+- [Github Copilot Quickstart - How to use GitHub Copilot]([https://youtu.be/dQw4w9WgXcQ](https://docs.github.com/en/copilot/quickstart))
