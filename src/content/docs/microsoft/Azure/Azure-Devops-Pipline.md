@@ -121,36 +121,42 @@ Continuous Integration and Continuous Deployment (CI/CD) tools play a critical r
 
   **Azure Pipelines:** Cloud-based and user-friendly. Users can quickly set up pipelines through the Azure portal or YAML configuration. No need to manage infrastructure for Microsoft-hosted agents.
   Example: A small startup can start using Azure Pipelines immediately without worrying about server setup.
+
   **Jenkins:** Requires manual setup and hosting on local or cloud infrastructure. Installation, plugin management, and configuration are more time-intensive.
   Example: Organizations with in-house DevOps expertise might prefer Jenkins because they have control over the infrastructure.
 
 2. **Flexibility and Customization**
 
   **Azure Pipelines:** Limited to the features and options provided by Azure DevOps and its integrations. Self-hosted agents allow some customization, but hosted agents are fixed.
+
   **Jenkins:** Highly customizable. Open-source with a vast library of plugins. Users can write custom scripts and tailor Jenkins to any development workflow.
   Example: Jenkins can be used for niche environments like IoT or highly specific build pipelines.
 
 3. **Scalability**
 
   **Azure Pipelines:** Automatically scales with Microsoft-hosted agents for cloud workloads. Supports distributed builds and parallel pipelines for enterprise-scale applications.
+
   **Jenkins:** Scales based on the infrastructure you provide. You must set up additional nodes (agents) manually for distributed builds.
   Key Difference: Azure Pipelines offers out-of-the-box scalability, while Jenkins gives complete control but requires more management.
 
 4. **Integrations**
 
   **Azure Pipelines:** Built to work seamlessly with Azure DevOps, GitHub, and other Microsoft services. Also integrates with third-party tools like Kubernetes, Docker, and Jenkins.
+  
   **Jenkins:** Supports integrations with almost every tool via plugins. However, some plugins may require additional configuration or have compatibility issues.
   Example: Jenkins may work better for a team with a diverse tech stack, while Azure Pipelines is ideal for teams already using Azure services.
 
 5. **Cost**
 
   **Azure Pipelines:** Free for public repositories and includes a generous free tier for private projects. Costs increase with additional self-hosted agents or parallel jobs.
+
   **Jenkins:** Free and open-source, but organizations must account for infrastructure costs and maintenance overhead.
   Key Takeaway: Azure Pipelines offers predictable pricing for small to mid-sized teams, while Jenkins may be cost-efficient for teams with existing infrastructure.
 
 6. **Security**
 
   **Azure Pipelines:** Provides built-in compliance features like RBAC (Role-Based Access Control) and integrates with Azure Active Directory for advanced identity management.
+
   **Jenkins:** Security depends on the configuration. Out-of-the-box Jenkins is less secure, but it can be hardened with plugins and best practices.
   Key Difference: Azure Pipelines is better suited for teams prioritizing security with minimal manual effort.
 
