@@ -8,16 +8,16 @@ tags: AI, GitHub, Copilot
 1. [Introduction](#introduction)
 2. [History of GitHub Copilot](#History-of-gitHub-copilot)
 3. [Main Features](#main-features)
-4. [Market Comparison](#market-comparison)
-5. [Getting Started](#getting-started-with-GitHub-Copilot)
-6. [Conclusion](#conclusion)
+4. [Strengths and Weaknesses](#strengths-and-weaknesses)
+5. [Market Comparison](#market-comparison)
+6. [Getting Started](#getting-started-with-GitHub-Copilot)
+7. [Conclusion](#conclusion)
 
 ## Introduction
 
 Github Copilot is a coding assistant powered by Artificial Intelligence. It is developed by Github and OpenAI. GitHub Copilot offers suggestions that are  aware of the context, from single lines of code to complete functions. It is available as an extension for Visual Studio Code, Visual Studio, Neovim, JetBrains IDEs, and Azure Data Studio, and offers support for a wide range of different languages.
 
 Designed as an “AI pair programmer,” Copilot helps developers write code faster by suggesting names for variables, type annotations, and unit tests. It boosts productivity but it is meant to assist, not replace, developers, and act as a collaborative partner when coding.
-
 
 ## History of GitHub Copilot
 
@@ -61,67 +61,66 @@ GitHub Copilot gives a wide range of features that improve developer productivit
 | Suggestions for Unit Tests | Recommends simple unit tests and code examples to strengthen the quality of the code. |
 | Integration with IDEs | Easily combined into multiple IDEs, making sure the developers can use Copilot without disorganizing their existing workflows. |
 
+## Strengths and Weaknesses
 
-## Strengths
+### Strengths
 
-### Faster Coding
+#### Faster Coding
 - **Code Suggestions:** Predicts and writes code for you, saving time on tedious tasks.
 - **Handles Complexity:** Generates algorithms, data structures, and features from simple comments.
 - **Less Searching:** Reduces time spent searching for snippets or documentation.
 
-### Broad Support
+#### Broad Support
 - **Versatile:** Works with many programming languages and frameworks.
 - **Context-Aware:** Adapts to the language and framework you are using.
 
-### Awareness
+#### Awareness
 - **Understands Code:** Provides suggestions based on the current file and its context.
 - **Natural Language:** Generates code from comments like "function to calculate days."
 
-### Improves Code Quality
+#### Improves Code Quality
 - **Best Practices:** Suggests solutions that follow community standards.
 - **Fewer Errors:** Minimizes common mistakes like typos or incorrect API usage.
 
-### User-Friendly
+#### User-Friendly
 - **Easy to Use:** Integrates seamlessly with tools like Visual Studio Code.
 - **Control Options:** Accept, reject, or modify suggestions as needed.
 
-### Learning Tool
+#### Learning Tool
 - **Teaches Coding:** Helps new developers learn patterns and syntax.
 - **Encourages Creativity:** Offers alternative approaches to problem-solving.
 
----
+### Weaknesses
 
-## Weaknesses
-
-### Context Limitations
+#### Context Limitations
 - **Limited Scope:** Only understands visible code, missing dependencies in other files.
 - **Oversimplifies Tasks:** May struggle with large or complex projects.
 
-### Code Quality Issues
+#### Code Quality Issues
 - **Not Always Optimal:** Suggestions might work but are not always efficient.
 - **Misses Edge Cases:** May fail to address unique or non-standard requirements.
 
-### Security Risks
+#### Security Risks
 - **Insecure Patterns:** Could suggest code with security vulnerabilities (e.g., SQL injection).
 - **Needs Review:** Developers must verify suggestions for safety and compliance.
 
-### Training Limitations
+#### Training Limitations
 - **Generic Suggestions:** Based on public GitHub code, which may not suit specialized needs.
 - **Outdated Practices:** Might suggest older coding methods.
 
-### Legal Concerns
+#### Legal Concerns
 - **Copyright Issues:** May inadvertently reproduce copyrighted code.
 - **Plagiarism Risk:** Generated snippets could conflict with licensing restrictions.
 
-### Over-Reliance
+#### Over-Reliance
 - **Less Learning:** Developers might not fully understand auto-generated code.
 - **Debugging Problems:** Fixing issues in unfamiliar code can be challenging.
 
-### Specialization Gaps
+#### Specialization Gaps
 - **Weak in Niche Areas:** Struggles with unique languages or cutting-edge technologies.
 - **Limited Customization:** Difficult to adapt to highly specific workflows.
 
-### Resource Heavy
+#### Resource Heavy
 - **Performance Issues:** Requires a stable internet connection and robust hardware.
 - **Occasional Lag:** Complex tasks may slow down suggestions.
 
