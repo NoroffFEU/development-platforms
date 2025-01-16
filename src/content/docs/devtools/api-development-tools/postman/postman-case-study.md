@@ -43,25 +43,73 @@ For additional features, Postman offers three paid plans: **Basic**, **Professio
 
 ## Getting Started
 
-In this part we will look at how to get started with Postman and demonstrate a basic API request.
+In this chapter, we’ll explore how to get started with Postman and demonstrate how to send a basic API request. By following these steps, you’ll gain confidence in using Postman and understand how it simplifies API testing.
 
-1. [Download the Postman desktop app](https://www.postman.com/downloads/) and register an account **or** sign up and use the [Web Version](https://identity.getpostman.com/signup?continue=https%3A%2F%2Fgo.postman.co%2Fhome&ref_key=vAHTF49tlH25ipNrVVgbRK)
-2. We will now send a request to an endpoint and see the response data sent from the server.
+For this demonstration we will be using the [Noroff API Documentation](https://docs.noroff.dev/docs/v2/).
 
-- Click the plus icon to add a new tab.
+### Step 1: Install Postman
+
+To begin, [download the Postman desktop app](https://www.postman.com/downloads/) and create an account. Alternatively, you can sign up and use the [web version of Postman](https://identity.getpostman.com/signup?continue=https%3A%2F%2Fgo.postman.co%2Fhome&ref_key=vAHTF49tlH25ipNrVVgbRK).
+
+### Step 2: Sending Your First API Request
+
+We will send a request to the [API endpoint Books](https://docs.noroff.dev/docs/v2/basic/books) to retrieve all books and examine the server's response data.
+
+1. Open Postman and click the **plus icon** to create a new request tab.
+
+2. In this demonstration, we’ll be making a **GET** request. Ensure the **GET** method is selected in the dropdown menu.
+
+3. Enter the **API URL** in the input field. First, we need the API base URL, [`https://v2.api.noroff.dev/`](https://docs.noroff.dev/docs/v2/about#base-url). For this example, we’re using the **All Books** endpoint and from the documentation we can see that we need to add `/books` to the base URL.
+
+4. Click the **Send** button.
+
 - We have chosen the request type HTTP since we are making a ... request in this demontration.
-- Select the correct method, in this case GET, and enter the API url. We are using the Books endpoint from the [Noroff API Documentation](https://docs.noroff.dev/docs/v2/basic/books#all-books).
-- Click the Send button.
 
 ![GET request](../../../../../assets/postman/get-request-demo-1.png)
 
-- We have now tested this endpoint and it responded with a success (200 OK) retrieveing a list of All Books. We can view the response in a JSON format from the server and study the data we can use in our project.
+After clicking **Send**, Postman will send the request to the server. The server will respond, and we'll see the response details in the lower section of the Postman interface. In this case, the server responds with a success status (200 OK) and a list of all books. The data is displayed in JSON format, which we can explore to understand what information is available.
 
 ![GET response All books](../../../../../assets/postman/get-request-demo-2.png)
 
-- The response data contains a list of books, all with a unique id. From the [Books API Documentation](https://docs.noroff.dev/docs/v2/basic/books#single-book) we can see that we can also test the endpoint GET Single book. We will do that now, with only a small change in the API url. According to the API documentation, all we need to do is add the id to the url, and click the Send button.
+### Step 3: Testing Another Endpoint
+
+The response data includes a list of books, each with a unique `id`. According to the API documentation, we can also retrieve information for a single book by modifying the API URL.
+
+1. Replace the previous URL with the **Single Book** endpoint URL, appending the book’s `id` to the base URL.
+
+2. Click the **Send** button to test this new endpoint.
 
 ![GET response Single book](../../../../../assets/postman/get-request-demo-3.png)
+
+The server will now respond with data for the specific book corresponding to the provided `id`. This demonstrates how small changes to the URL can allow us to interact with different API endpoints effectively.
+
+### Expanding Beyond the Basics
+
+This simple demonstration provides a quick example of what we can achieve with Postman. However, Postman offers many more powerful features to explore.
+
+#### Using Collections
+
+We can now save the response into a collection.
+
+1. With the response we got for a single book open, click the **Save** button, located above the **Send** button. A window opens, choose a suitable name for the request and the collection, and click the **Save** button.
+
+2. The response Single Book is now neatly saved inside the Collection Books in the left panel of Postman's interface.
+
+![Saving the response](../../../../../assets/postman/get-request-demo-4.png)
+
+![Collections](../../../../../assets/postman/get-request-demo-5.png)
+
+#### Request Options and Customizations
+
+In addition to making **GET** requests, we can also perform **PUT**, **POST**, or **DELETE** requests if the API supports these operations. These allow us to create, update, or delete resources in our application.
+
+Postman also enables us to:
+
+- Add **query parameters** (Params) to customize the requests.
+- Include **authorization headers** for secure API access.
+- Attach data in the **Body** section for requests like POST or PUT.
+
+
 
 ## Market Comparison
 
