@@ -6,7 +6,7 @@ tags: AI, GitHub, Copilot
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Brief History](#brief-history)
+2. [History of GitHub Copilot](#History-of-gitHub-copilot)
 3. [Main Features](#main-features)
 4. [Market Comparison](#market-comparison)
 5. [Getting Started](#getting-started)
@@ -23,7 +23,7 @@ Designed as an “AI pair programmer,” Copilot helps developers write code fas
 
 - **2020 (June)**: OpenAI released GPT-3, a large language model demonstrating the potential for AI to generate programming code alongside natural language. This sparked interest at GitHub, which partnered with OpenAI to create GitHub Copilot, an AI tool designed to assist developers with context-aware code generation.
 
-- **2021 (June)**: GitHub Copilot debuted in a technical preview for Visual Studio Code, powered by OpenAI’s Codex model. Codex, a fine-tuned version of GPT-3 trained on billions of lines of public code, enabled Copilot to suggest code snippets, complete functions, and adapt to a variety of programming languages.
+- **2021 (June)**: GitHub Copilot debuted in a technical preview for Visual Studio Code, powered by OpenAI’s [Codex model](https://openai.com/index/openai-codex/). Codex, a fine-tuned version of GPT-3 trained on billions of lines of public code, enabled Copilot to suggest code snippets, complete functions, and adapt to a variety of programming languages.
 
 - **2021 (October)**: Copilot expanded to Neovim and JetBrains IDEs, opening its functionality to developers using lightweight and professional development environments. This broadened its adoption among a diverse developer audience.
 
@@ -31,7 +31,8 @@ Designed as an “AI pair programmer,” Copilot helps developers write code fas
 
 - **2022 (June)**: GitHub Copilot exited its technical preview and became widely available as a subscription-based service. Individual developers could now subscribe, while students and verified open-source contributors received free access. It quickly became popular for its ability to reduce repetitive coding tasks and help developers learn new languages or frameworks.
 
-- **2023 (March)**: GitHub announced **Copilot X**, a significant upgrade powered by OpenAI’s GPT-4 model. The update introduced:
+- **2023 (March)**: GitHub announced [Copilot X](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience/)
+, a significant upgrade powered by OpenAI’s GPT-4 model. The update introduced:
   - **Conversational Capabilities**: Developers could interact with Copilot through chat or voice to resolve issues, clarify code, or generate new snippets.
   - **Pull Request Integration**: Copilot provided suggestions for code reviews and improvements directly within GitHub pull request workflows.
   - **Command Line Assistance**: AI support extended to terminal tasks.
