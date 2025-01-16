@@ -9,7 +9,7 @@ tags: AI, GitHub, Copilot
 2. [History of GitHub Copilot](#History-of-gitHub-copilot)
 3. [Main Features](#main-features)
 4. [Market Comparison](#market-comparison)
-5. [Getting Started](#getting-started)
+5. [Getting Started](#getting-started-with-GitHub-Copilot)
 6. [Conclusion](#conclusion)
 
 ## Introduction
