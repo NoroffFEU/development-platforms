@@ -247,4 +247,5 @@ In summary, GitHub Copilot is a game-changer for coding, offering speed, support
 ## Additional Resources
 
 - [Github Copilot Quickstart - How to use GitHub Copilot](https://docs.github.com/en/copilot/quickstart)
+- [Stay updated with GitHub Copilot changelog](https://github.blog/changelog/label/copilot/)
 
