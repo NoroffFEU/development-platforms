@@ -16,13 +16,13 @@ The study will guide readers on how to get started with Postman, including setup
 
 Postman was first built by Abhinav Asthana, and then developed further with co-founders Ankit Sobti and Abhijit Kane. After experiencing difficulties and issues when working with APIs on his own projects, Abhinav Asthana wanted to create a tool to simplify the API testing process. An early version of Postman was in use in 2012 and available on Chrome Web Store, and from there it got popular quickly.[^1] Postman was formally founded in 2014.[^2]
 
-Today, Postman Inc. is the leading API platform and they claim that over 500,000 companies are using Postman.[^3]
+Today, Postman Inc. is the leading API development tool and they claim that over 500,000 companies are using Postman.[^3]
 
 Read more about Postman's history on this blog post written by Abhinav Asthana: [How we built Postman—the product and the company](https://blog.postman.com/how-we-built-postman-product-and-company/)
 
 ## Main Features
 
-Postman gives the users many options without complicating the experience. The primary purpose of Postman is to make the testing of APIs easy. Here are some of the main features:
+The primary purpose of Postman is to make the testing of APIs easy. Postman gives the users many options without complicating the experience. Here are some of the main features:
 
 - **User-Friendly Interface:** Postman has a intuitive, visual design that simplifies working with APIs, even for developers new to API testing. It's available as a desktop app, web app, and browser extension.
 - **API Testing and Debugging:** Postman easily sends requests (GET, POST, PUT, DELETE, etc.) and analyze responses to verify API functionality and identify issues.
@@ -57,17 +57,17 @@ We will send a request to the [API endpoint Books](https://docs.noroff.dev/docs/
 
 1. Open Postman and click the **plus icon** to create a new request tab.
 
-2. In this demonstration, we’ll be making a **GET** request. Ensure the **GET** method is selected in the dropdown menu.
+2. Postman supports various request types, including HTTP, GraphQL, and WebSocket. For this demonstration, we’ll stick with **HTTP**, as it’s the most commonly used for APIs.
 
-3. Enter the **API URL** in the input field. First, we need the API base URL, [`https://v2.api.noroff.dev/`](https://docs.noroff.dev/docs/v2/about#base-url). For this example, we’re using the **All Books** endpoint and from the documentation we can see that we need to add `/books` to the base URL.
+3. In this demonstration, we’ll be making a **GET** request. Ensure the **GET** method is selected in the dropdown menu.
 
-4. Click the **Send** button.
+4. Enter the **API URL** in the input field. First, we need the API base URL, [`https://v2.api.noroff.dev/`](https://docs.noroff.dev/docs/v2/about#base-url). For this example, we’re using the **All Books** endpoint and from the documentation we can see that we need to append `/books` to the base URL.
 
-- We have chosen the request type HTTP since we are making a ... request in this demontration.
+5. Click the **Send** button.
 
-![GET request](../../../../../assets/postman/get-request-demo-1.png)
+![GET request](../../../../../assets/postman/get-request-demo-1-.png)
 
-After clicking **Send**, Postman will send the request to the server. The server will respond, and we'll see the response details in the lower section of the Postman interface. In this case, the server responds with a success status (200 OK) and a list of all books. The data is displayed in JSON format, which we can explore to understand what information is available.
+After clicking **Send**, Postman will send the request to the server. The server will respond, and we'll see the response details in the lower section of the Postman interface. In this case, the server responds with a success status (200 OK) and a list of all books. The data is displayed in JSON format, which we can explore to understand what information is available to us.
 
 ![GET response All books](../../../../../assets/postman/get-request-demo-2.png)
 
@@ -75,7 +75,7 @@ After clicking **Send**, Postman will send the request to the server. The server
 
 The response data includes a list of books, each with a unique `id`. According to the API documentation, we can also retrieve information for a single book by modifying the API URL.
 
-1. Replace the previous URL with the **Single Book** endpoint URL, appending the book’s `id` to the base URL.
+1. To test the **Single Book** endpoint, we'll append the book’s `id` to the base URL and the single book endpoint `/books/<id>`.
 
 2. Click the **Send** button to test this new endpoint.
 
@@ -89,39 +89,47 @@ This simple demonstration provides a quick example of what we can achieve with P
 
 #### Using Collections
 
-We can now save the response into a collection.
+Postman has made it easy for us to organize our API requests into what they call Collections. It is similar to how we use folders to keep our files organized on our computer. When you save your requests in a collection, you can look back on them, reuse, automate and share them with team members. It saves you and your team a lot of time, not have to redo the same requests.
+
+Let's save the single book response we made above in a new collection.
 
 1. With the response we got for a single book open, click the **Save** button, located above the **Send** button. A window opens, choose a suitable name for the request and the collection, and click the **Save** button.
 
-2. The response Single Book is now neatly saved inside the Collection Books in the left panel of Postman's interface.
+2. The response Single Book is now neatly saved inside the Collection Books, in the left panel of Postman's interface. This way we can organize our requests and easily share a collection.
 
 ![Saving the response](../../../../../assets/postman/get-request-demo-4.png)
+*Saving the response (1).*
 
 ![Collections](../../../../../assets/postman/get-request-demo-5.png)
+*Overview of our newly created Collection (2).*
 
 #### Request Options and Customizations
 
 In addition to making **GET** requests, we can also perform **PUT**, **POST**, or **DELETE** requests if the API supports these operations. These allow us to create, update, or delete resources in our application.
 
-Postman also enables us to:
+Postman also enables us to customize the requests depending on the API:
 
-- Add **query parameters** (Params) to customize the requests.
-- Include **authorization headers** for secure API access.
-- Attach data in the **Body** section for requests like POST or PUT.
+- We can add **query parameters** (Params) to customize the requests.
+- We can include **authorization headers** for secure API access.
+- And we can attach data in the **Body** section for requests like POST or PUT.
 
+---
 
+Find out more in [Postman's Learning Center](https://learning.postman.com/)
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+There are several API development tools on the market. We will look at xxx other.
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+### Swagger
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+- A partially Open Source. Swagger has some open-source tools, but they also offer proprietary tools.
 
-- swagger
+### Hoppscotch
+
+- An open-source tool
+
 - Apidog
-- Hoppscotch (open-source)
 
 When selecting an alternative to Postman, consider factors such as your specific API development needs, team collaboration requirements, preferred user interface, and budget constraints to choose the tool that best aligns with your workflow.
 
