@@ -1,24 +1,24 @@
 ---
 title: Postman
 author: Eli Nygård <elinygard>
-tags: Postman, APILifecycle, APITesting, APIDevelopment, APIDocumentation, RESTAPI, GraphQL, 
+tags: Postman, APILifecycle, APITesting, APIDevelopment, APIDocumentation, RESTAPI
 ---
 
 ![Postman Logo](../../../../../assets/postman/Postman-logo-orange-2021.png)
 
 ## Introduction
 
-This case study explores Postman, a powerful development platform for APIs. Postman lets you use, build and test APIs through an intuitive, visual interface, making it an excellent choice for beginners. It allows developers to set up and organize APIs, test their functionality, and explore their capabilities before integrating them into projects.
+This case study explores Postman, a powerful development tool for APIs. Postman lets you use, build and test APIs through an intuitive, visual interface, making it an excellent choice for beginners. It allows developers to set up and organize APIs, test their functionality, and explore their capabilities before integrating them into projects.
 
-The study will guide readers on how to get started with Postman, including setup and initial use, and provide examples of testing APIs. (Additionally, it will highlight the practical benefits of using this tool, such as improving efficiency and ensuring API reliability.) To set the stage, we’ll first delve into the origins of Postman and why it was created.
+The study will guide readers on how to get started with Postman, including setup and initial use, and provide examples of testing APIs. To set the stage, we’ll first delve into the origins of Postman and why it was created.
 
 ## Brief History
 
-Postman was first built by Abhinav Asthana, and then developed further with co-founders Ankit Sobti and Abhijit Kane. After experiencing difficulties and issues when working with APIs on his own projects, Abhinav Asthana wanted to create a tool to simplify the API testing process. An early version of Postman was in use in 2012 and available on Chrome Web Store, and from there it got popular quickly.[^1] Postman was formally founded in 2014.[^2]
+Postman was initially created by Abhinav Asthana and later developed further with co-founders Ankit Sobti and Abhijit Kane. While working on his own projects, Asthana encountered challenges with APIs and envisioned a tool that would simplify the API testing process. An early version of Postman was launched in 2012 on the Chrome Web Store, where it quickly gained popularity. [^1] Postman Inc. was officially founded in 2014. [^2]
 
-Today, Postman Inc. is the leading API development tool and they claim that over 500,000 companies are using Postman.[^3]
+Today, Postman Inc. is a leading API development platform, claiming that over 500,000 companies use their tool. [^3]
 
-Read more about Postman's history on this blog post written by Abhinav Asthana: [How we built Postman—the product and the company](https://blog.postman.com/how-we-built-postman-product-and-company/)
+For more about Postman’s history, you can read this blog post by Abhinav Asthana: [How we built Postman—the product and the company](https://blog.postman.com/how-we-built-postman-product-and-company/)
 
 ## Main Features
 
@@ -75,7 +75,7 @@ After clicking **Send**, Postman will send the request to the server. The server
 
 The response data includes a list of books, each with a unique `id`. According to the API documentation, we can also retrieve information for a single book by modifying the API URL.
 
-1. To test the **Single Book** endpoint, we'll append the book’s `id` to the base URL and the single book endpoint `/books/<id>`.
+1. To test the **Single Book** endpoint, we'll append the book’s `id` to the single book endpoint `/books/<id>`.
 
 2. Click the **Send** button to test this new endpoint.
 
@@ -85,23 +85,23 @@ The server will now respond with data for the specific book corresponding to the
 
 ### Expanding Beyond the Basics
 
-This simple demonstration provides a quick example of what we can achieve with Postman. However, Postman offers many more powerful features to explore.
+The simple demonstration above provides a quick example of what we can achieve with Postman. However, Postman offers many more powerful features worth exploring.
 
 #### Using Collections
 
-Postman has made it easy for us to organize our API requests into what they call Collections. It is similar to how we use folders to keep our files organized on our computer. When you save your requests in a collection, you can look back on them, reuse, automate and share them with team members. It saves you and your team a lot of time, not have to redo the same requests.
+Postman makes it easy to organize API requests into what it calls **Collections.** These work similarly to folders we use to organize files on a computer. When you save your requests in a collection, you can refer to them later, reuse them, automate workflows, and share them with team members. This feature saves you and your team valuable time by eliminating the need to repeat the same requests manually.
 
-Let's save the single book response we made above in a new collection.
+Let's save the single book response we made above into a new collection:
 
-1. With the response we got for a single book open, click the **Save** button, located above the **Send** button. A window opens, choose a suitable name for the request and the collection, and click the **Save** button.
+1. With the single book response open, click the **Save** button, located above the **Send** button. A dialog window will open. Choose a suitable name for the request and the collection, then click **Save**.
 
-2. The response Single Book is now neatly saved inside the Collection Books, in the left panel of Postman's interface. This way we can organize our requests and easily share a collection.
+2. The **Single Book** response is now neatly saved inside the **Books** collection, visible in Postman’s left-hand panel. This allows us to organize requests efficiently and share collections with ease.
 
 ![Saving the response](../../../../../assets/postman/get-request-demo-4.png)
 *Saving the response (1).*
 
 ![Collections](../../../../../assets/postman/get-request-demo-5.png)
-*Overview of our newly created Collection (2).*
+*The newly created Collection (2).*
 
 #### Request Options and Customizations
 
@@ -109,35 +109,42 @@ In addition to making **GET** requests, we can also perform **PUT**, **POST**, o
 
 Postman also enables us to customize the requests depending on the API:
 
-- We can add **query parameters** (Params) to customize the requests.
-- We can include **authorization headers** for secure API access.
-- And we can attach data in the **Body** section for requests like POST or PUT.
+- **Query parameters** can be added under the **Params** tab to filter or customize the requests.
+- **Authorization headers** can be included to access secure APIs.
+- Data in the **Body** section for methods like **POST** or **PUT**.
 
 ---
 
-Find out more in [Postman's Learning Center](https://learning.postman.com/)
+To find out more, visit [Postman's Learning Center](https://learning.postman.com/)
 
 ## Market Comparison
 
-There are several API development tools on the market. We will look at xxx other.
+There are several API development tools on the market. Postman is a proprietary tool, we will therefor look at one tool that is open source.
 
-### Swagger
+### Hoppscotch [^5]
 
-- A partially Open Source. Swagger has some open-source tools, but they also offer proprietary tools.
+- Choose between a free Community plan and an Enterprise paid plan.
+- Open-Source API Tool under the MIT License.
+- Hoppscotch was originally web-based. The desktop app was released in 2023.
+- Designed to be minimalistic. The design is much like Postman's.
+- Offers some of the same options as Postman: multiple protocols, collections, sharing with team members.
+- Focuses only on API testing and development, where Postman offers more advanced features like automated testing.
 
-### Hoppscotch
+**Other tools worth mentioning are:**
 
-- An open-source tool
+- Swagger (offers a free open source tool, and several paid proprietary tools with advanced features) [^6]
+- Apidog (proprietary tool with paid options for advanced features) [^7]
+- Insomnia (open-source) [^8]
 
-- Apidog
-
-When selecting an alternative to Postman, consider factors such as your specific API development needs, team collaboration requirements, preferred user interface, and budget constraints to choose the tool that best aligns with your workflow.
+When selecting an API development tool, consider factors such as your specific API development needs, team collaboration requirements, preferred user interface, and budget constraints to choose the tool that best aligns with your workflow.
 
 ## Conclusion
 
+Postman is an easy-to-learn tool for those new to working with APIs, while also offering advanced features that cater to experienced developers. Its intuitive interface allows users to get up to speed quickly, and the comprehensive learning center provides all the resources you might need. With their free plan, you can accomplish a lot in API testing, making it an excellent choice for a single developer or a small team. Its versatility and accessibility ensure that developers of all levels can seamlessly integrate it into their workflow.
+
 ## Author
 
-Eli Nygård (GitHub Profile: [elinygard](https://github.com/elinygard) )
+Eli Nygård (GitHub Profile: [elinygard](https://github.com/elinygard))
 
 ## References
 
@@ -150,3 +157,11 @@ Eli Nygård (GitHub Profile: [elinygard](https://github.com/elinygard) )
 [^3]: [www.postman.com/case-studies/](https://www.postman.com/case-studies/)
 
 [^4]: [www.postman.com/pricing/](https://www.postman.com/pricing/)
+
+[^5]: [https://hoppscotch.com/](https://hoppscotch.com/) | [https://docs.hoppscotch.io/](https://docs.hoppscotch.io/)
+
+[^6]: [https://swagger.io/why-swagger/](https://swagger.io/why-swagger/)
+
+[^7]: [https://apidog.com/pricing/](https://apidog.com/pricing/)
+
+[^8]: [https://insomnia.rest/pricing](https://insomnia.rest/pricing)
