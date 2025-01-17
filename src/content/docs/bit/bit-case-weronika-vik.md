@@ -42,7 +42,10 @@ One key difference between the two is their focus on integration. Bit supports a
 When it comes to collaboration, Bit has a clear advantage, it enables teams to share components across projects, ensuring consistency and reducing redundancy. The platform's version control system allows developers to track changes to individual components and roll back if necessary, making it ideal for large teams working on multiple applications. On the other hand, Storybook excels in helping developers design, build and test components in isolation but does not offer the same level of cross-project sharing or version control. It is more geared towards creating comprehensive components libraries and documenting them for other developers to reference.
 In summary, Bit and Storybook serve different needs within the development process. Bit is better suited for teams that need to manage and collaborate on reusable components across multiple projects, while Storybook shines when it comes to building and documenting components in a single codebase- Both tools enchance the component-driven development workflow, but they cater to different aspects aspects of the process.
 
-- **Bit vs Lerna:** Blah
+- **Bit vs Lerna:** Bit and Lerna are both tools that aim to streamline development processes, but they target different areas of the workflow. Lerna is designed primarily for managing monorepros - repositories that contain multiple packages. It simplifies tasks such as dependency amanagement and versioning within a single repository. Lerna helps teams working with a monorepo structure to manage their projects more effectively by handling inter-package dependenvies and potimizing the publishing process for multiple pakcages at once.
+Bit is more focused on managing individual UI components and enabling their reuse across multiple projects. It allows developers to isolate components from their codebases and share them with other teams or applications, making it easier to maintain consistency and reduce duplication. Unlike Lerna, whihc is mostly used for managing code within a single monorepo, Bit operates across different repositories, making it a more versatile tool for teams working with multiple projects or in distributed environments.
+While Lerna excels at handling multiple packages within one codebase as previously mentioned, Bit offers more granular control over the reuse of specific components, which can be shared and versioned independently across different projects. This makes Bit particulary valuable for teams working on projects where modularity and component sharing are essential. However, Lerna may still be the preferred option for teams using monorepo and needing to manage entire packages rather than individual components.
+In conclusion, Lerna is ideal for monorepos where managing multiple pakcages and dependencies is a priority, while Bit is better suited for teams looking to share and collaborate on reusable components across different projects.
 
 - **Bit vs npm:** Blah
 
@@ -61,6 +64,7 @@ Blah
 - [Bit's github] https://github.com/teambit/bit/blob/master/CHANGELOG.md
 - [Explains what Bit is, how it works and examples on usage] (https://www.youtube.com/watch?v=E5lgoz6-nfs)
 - [Bit & Storybook comparison] https://machineservant.com/blog/2023-01-25-storybook-vs-bit/
+- [Lerna] https://lerna.js.org
 
 ## Additional Resources
 
