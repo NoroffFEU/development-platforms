@@ -29,21 +29,19 @@ Bit is a platform designed to streamline the development, sharing and management
 - **Framework Compatibility:** Bit supports multiple frameworks such as React, Vue and Angular, making it a versatile tool for teams with diverse technologies.
 - **Component Testing and Previewing:** Bit offers a visual workspace for testing and previewing components before integrating them into projects. Developers can see how components behave in isolation or with mock data.
 - **Collaboration-Friendly:** Bit fosters collaboration by creating a shared hub for components, enabling teams to work together more efficiently, especially in distributed setups.
-- **Blach:** Blach
-- **Blach:** Blach
-
-Example feature table:
-
-| Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
+- **Dependency Management::** Bit handles component dependencies automatically, ensuring that each piece of the project is functional and up to date without manual intervention.
+- **Consistansy:** Bit is widely used to manage design systems, helping organications to maintain consistent branding and UI across large scale projetcs.
 
 ## Market Comparison
 
-Blah
+In the evolving landscape of software development, tools and platforms that streamline workflows and enchance collaboration have become essential. With the rise of component driven development, plenty of developers seek ways to efficiently manage and reuse UI components across projects. Bit is one such platform, offering solutions for component sharing, versioning and collaboration.
+However, Bit is not the only tool on the market with such qualities, the top competitors with similar features are Storybook, Lerna and npm. Several other platforms offer similar functionalities, each with it's strenght and weaknesses. By evaluating the advantages and disadvantages of these platforms, I aim to provide a clearer picture of how Bit stands in a relation to it's competitors, and where it excels and/or falls short.
+
+- **Bit vs Storybook:** Blah
+
+- **Bit vs Lerna:** Blah
+
+- **Bit vs npm:** Blah
 
 ## Getting Started
 
