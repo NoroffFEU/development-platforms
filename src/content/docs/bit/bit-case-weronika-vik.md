@@ -47,11 +47,22 @@ Bit is more focused on managing individual UI components and enabling their reus
 While Lerna excels at handling multiple packages within one codebase as previously mentioned, Bit offers more granular control over the reuse of specific components, which can be shared and versioned independently across different projects. This makes Bit particulary valuable for teams working on projects where modularity and component sharing are essential. However, Lerna may still be the preferred option for teams using monorepo and needing to manage entire packages rather than individual components.
 In conclusion, Lerna is ideal for monorepos where managing multiple pakcages and dependencies is a priority, while Bit is better suited for teams looking to share and collaborate on reusable components across different projects.
 
-- **Bit vs npm:** Blah
+- **Bit vs npm:** Bit and npm (Node Package Manager) are both tools used in the development process, but they serve fundamentally different purposes. npm is primarily a package manager for JavaScript and Node.js projects. It allows developers to manage install dependencies from a large registry of pakcages. Developers can use npm to download libraries and tools that they need to build their apllications and it also provides a way to publish their own packages for others to use.
+In contrast, Bit is a platform that focuses on the management and sharing of indicidual UI components. While npm manages entire pakcages, which are often composed of many different modules of features, Bit allows developers to break down their projects into smaller, reusable components. These components can be shared across different applications, versioned and updated independently, helping to maintain consistency and reduce redundancy.
+One major difference between the two is that npm is a general-puprose package manager, widely used for handling dependencies in JavaScript and Node.js projects, where as Bit is a specialized tool that facilitates the sharing and collaboration of indicidual components, especially in component driven development workflows. Bit add a layer of functionality on top of package management by offering features like version control for components, real-time updates and a visual workspace for testing components.
+While npm has a much larger community and a wider range of packages, Bit provides a more targeted solution for teams that need to collaborate on reusable components across different projects. For developers looking to share small, specific pieces of UI code rather than entire packages, Bit offers a more granular and flexible apporach.
+In Summary, npm is an essential tool for managing JavaScript dependencies, while Bit excels in the sharing and versioning of individual components across multiple projects. Developers who need to manage entire packages would benefit from npm, but for teams focused on component reuse and collaboration, Bit offers more specialized features.
 
 ## Getting Started
 
-Blah
+I will be exploring how to set up and use Bit within a project using VS Code as the code editor and Bash for terminal commands. Bit is a platform that is supposed to manage, version and share components across projects, and I am going to showcase that and give a step by step tutorial.
+
+1. Ensure Node.js is installed either on the computer or in the code editor. To check you can use the command "node -v" to see what version of Node.js you have, if nothing comes up or it's outdated, run the "npm install node" or check the Node.js guide from their official website to update/install Node.js.
+2. Install Bit by using the command "npm install bit-bin --global" in the terminal.
+3. Create a folder to keep your components inside, and make a file to test Bit with, such as button.js, and add a basic button component inside. 
+4. Run the Bit add command in the terminal, "bit add components/button.js --main button.js". This will add the component to the Bit workspace, after the component is tracked by Bit you can version it using the Bit tag command, "bit tag components/button 1.0.0".
+5. To share the component with others or use it across multiple projects, use the command "bit export <username>.<name-of-collection>".
+6. To test if the export worked, create a new directory for a different project/workspace. Open this new project in the code editor and initialize it with Bit by using the commands: "mkdir testing-bit", "cd testing-bit" and "bit init". Write the Bit import command to fetch the button we made in step 3. "bit import <username>.<name-of-collection>/button", once that is done, make a file where you wish the Bit component should be in, and fetch the button. 
 
 ## Conclusion
 
@@ -65,6 +76,8 @@ Blah
 - [Explains what Bit is, how it works and examples on usage] (https://www.youtube.com/watch?v=E5lgoz6-nfs)
 - [Bit & Storybook comparison] https://machineservant.com/blog/2023-01-25-storybook-vs-bit/
 - [Lerna] https://lerna.js.org
+- [npm-about] https://docs.npmjs.com/about-npm
+- [Bit - Getting Started] https://bit.dev/docs/intro/
 
 ## Additional Resources
 
