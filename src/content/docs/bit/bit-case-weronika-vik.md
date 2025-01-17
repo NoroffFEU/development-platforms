@@ -1,7 +1,7 @@
 ---
 title: Bit Case Study
 author: Weronika Vik, werivik
-tags: case study, bit, AI
+tags: case study, bit
 ---
 
 ## Introduction
@@ -12,15 +12,25 @@ This Report explores Bit as a Case Study, examining it's functionality, the posi
 
 ## Brief History
 
-Blah
+- 2015: Bit was conceptualised by a team of developers who aimed to solve the problem of reusing UI components across multiple projects.
+- 2016: Bit's first version was launched, focusing on enabling developers to share and manage React components in a collaborative way.
+- 2018: The platform introduced support for multiple frameworks, including Vue and Angular, broadening it's appeal to diverse developer communities.
+- 2019: Bit launched a visual workspace for component exploration, making it easier for teams to preview, test and integrate components into projects.
+- 2020: Bit became widely recognized as a useful tool for maintaining design systems.
+- 2022: Bit expanded it's collaboration features, allowing real-time updates to components shared across distributed teams.
+- 2024: Bit introduced advanced version control and AI-powered suggestions for component optimization, setting a new standard in component management.
 
 ## Main Features
 
-Blah
+Bit is a platform designed to streamline the development, sharing and management of UI components, addressing common challanges in modern frontend development. Below is an overview of it's primary features and their benefits:
 
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
+- **Component Sharing:** Bit allows developers to extract individual components from their projects and share them across teams or applications. This helps reduce duplication and ensures consistency across codebases.
+- **Version Control for Components:** Each component managed by Bit is version-controlled, enabling developers to track changes, roll back to earlier version and maintan a stable development environment.
+- **Framework Compatibility:** Bit supports multiple frameworks such as React, Vue and Angular, making it a versatile tool for teams with diverse technologies.
+- **Component Testing and Previewing:** Bit offers a visual workspace for testing and previewing components before integrating them into projects. Developers can see how components behave in isolation or with mock data.
+- **Collaboration-Friendly:** Bit fosters collaboration by creating a shared hub for components, enabling teams to work together more efficiently, especially in distributed setups.
+- **Blach:** Blach
+- **Blach:** Blach
 
 Example feature table:
 
@@ -45,12 +55,16 @@ Blah
 
 ## References
 
-- [Example.com](https://example.com)
+- https://bit.dev/blog
+- https://itnext.io/building-a-frontend-developer-platform-in-2024-872911462d3d
+- https://github.com/teambit/bit/blob/master/CHANGELOG.md
+- [Explains what Bit is, how it works and examples on usage] (https://www.youtube.com/watch?v=E5lgoz6-nfs)
+
 - *Good Examples* by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
+- https://bit.dev
 - [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
