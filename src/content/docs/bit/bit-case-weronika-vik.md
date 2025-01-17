@@ -37,7 +37,10 @@ Bit is a platform designed to streamline the development, sharing and management
 In the evolving landscape of software development, tools and platforms that streamline workflows and enchance collaboration have become essential. With the rise of component driven development, plenty of developers seek ways to efficiently manage and reuse UI components across projects. Bit is one such platform, offering solutions for component sharing, versioning and collaboration.
 However, Bit is not the only tool on the market with such qualities, the top competitors with similar features are Storybook, Lerna and npm. Several other platforms offer similar functionalities, each with it's strenght and weaknesses. By evaluating the advantages and disadvantages of these platforms, I aim to provide a clearer picture of how Bit stands in a relation to it's competitors, and where it excels and/or falls short.
 
-- **Bit vs Storybook:** Blah
+- **Bit vs Storybook:** While Bit and Storybook operate within the component-driven development ecosystem, they serve distinct purposes and are not direct competeitors. Bit is primarily focused on enabling developers to share and collaborate on reusable components across different projects, while Storybook serves as a development environment for building and testing UI components in isolation within a single project.
+One key difference between the two is their focus on integration. Bit supports a wide range of frameworks, such as React, Vue and Angular, allowing developers to use it across various technologies and projects. This makes it a versatile solutoin for teams working with different tech stacks. in contrast, Storybook is more specialized, initially focused on React, though it has expanded to support other frameworks. It's core strength lies in providing a platform for developers to build and visually test UI components in isolation, making it an excellent tool for dovumenting and showcasing individual components within a project.
+When it comes to collaboration, Bit has a clear advantage, it enables teams to share components across projects, ensuring consistency and reducing redundancy. The platform's version control system allows developers to track changes to individual components and roll back if necessary, making it ideal for large teams working on multiple applications. On the other hand, Storybook excels in helping developers design, build and test components in isolation but does not offer the same level of cross-project sharing or version control. It is more geared towards creating comprehensive components libraries and documenting them for other developers to reference.
+In summary, Bit and Storybook serve different needs within the development process. Bit is better suited for teams that need to manage and collaborate on reusable components across multiple projects, while Storybook shines when it comes to building and documenting components in a single codebase- Both tools enchance the component-driven development workflow, but they cater to different aspects aspects of the process.
 
 - **Bit vs Lerna:** Blah
 
@@ -53,16 +56,12 @@ Blah
 
 ## References
 
-- https://bit.dev/blog
-- https://itnext.io/building-a-frontend-developer-platform-in-2024-872911462d3d
-- https://github.com/teambit/bit/blob/master/CHANGELOG.md
+- [Bit's Blog] https://bit.dev/blog
+- [Development Platforms]https://itnext.io/building-a-frontend-developer-platform-in-2024-872911462d3d
+- [Bit's github] https://github.com/teambit/bit/blob/master/CHANGELOG.md
 - [Explains what Bit is, how it works and examples on usage] (https://www.youtube.com/watch?v=E5lgoz6-nfs)
-
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [Bit & Storybook comparison] https://machineservant.com/blog/2023-01-25-storybook-vs-bit/
 
 ## Additional Resources
 
-- https://bit.dev
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [Bit]https://bit.dev
