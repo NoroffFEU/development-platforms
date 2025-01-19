@@ -1,6 +1,6 @@
 ---
 title: Netlify vs GitHub Pages
-author: Your Full Name <yourgithubusername>
+author: Veronica Strand <Asora7>
 tags: netlify, GitHub Pages, hosting, web development, CI/CD, static websites
 ---
 
