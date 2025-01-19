@@ -6,11 +6,17 @@ tags: example, case study, platform
 
 ## Introduction
 
-In this case study, I explore the Rust programming language and the Yew framework. Rust is celebrated for its security, high performance, and memory safety, achieved without relying on garbage collection. Its advanced compiler acts as a code auditor, ensuring correctness and safety before execution.
+Working with Rust has been both a challenge and a joy. It is a language that stands out for its combination of high performance, security, and memory safety—all achieved without relying on garbage collection. Rust’s compiler feels like a collaborator, catching mistakes before they become runtime issues. It's like having a vigilant mentor constantly watching over your code.
 
-The primary goal of this project is to demonstrate Rust's type system and unique features like PhantomData, while integrating a small frontend with Yew and an API using Sanity. I chose Sanity because it is free and quick to set up, allowing me to focus on Rust’s capabilities without needing a self-hosted backend.
+The goal of this project was to build a login application that highlights some of Rust's most powerful features:
 
-Had I more time, I would have built a backend with Actix, but this would have required paid server resources. Nonetheless, this setup allowed me to stress-test Rust and observe its behavior and complexity in a full-stack context.
+**Strong Typing and Error Handling:** Demonstrating how Rust's type system prevents mistakes and guarantees safety.
+
+**Frontend Exploration with Yew:** Using Yew, a Rust-based frontend framework, to bring Rust's power into the browser.
+
+**API Integration via Sanity:** Instead of building a backend from scratch, I used Sanity—a headless CMS—to deliver dynamic content.
+
+By merging Rust's backend strengths with Yew's frontend capabilities, this project showcases how Rust can be used as a full-stack solution for modern web applications. While time constraints prevented me from delving deeper into custom backend solutions with Actix, the setup with Sanity provided an efficient and reliable alternative. This project not only tested Rust’s capabilities but also pushed my understanding of how a cutting-edge language can integrate across the stack.
 
 ## Brief History
 
