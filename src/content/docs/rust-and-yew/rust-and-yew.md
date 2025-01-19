@@ -1,6 +1,6 @@
 ---
 title: Case Study Rust and Yew framework.
-author: ELisabeth Petrine Lynghaug <EPetrineLynghaug>
+author: ELisabeth Petrine Lynghaug 
 tags: example, case study, platform
 ---
 
@@ -65,28 +65,46 @@ Example feature table:
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
-
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+When comparing Rust and Yew to other technologies, their unique advantages and limitations become evident. Rust offers unparalleled memory safety and performance, making it ideal for developers prioritizing reliability. However, its steep learning curve and strict ownership model may pose challenges for beginners. Yew, while fast and efficient due to WebAssembly, requires knowledge of Rust and has limited documentation, which can slow adoption. In contrast, technologies like JavaScript and React benefit from mature ecosystems but lack the inherent safety and performance of Rust and Yew.
 
 ## Getting Started
 
 If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
 
+Rust
+
+Ownership Model: Demands a deep understanding of ownership, borrowing, and lifetimes.
+
+Strict Typing: Requires careful adherence to type rules, increasing development time initially.
+
+Growing Ecosystem: While expanding, the ecosystem is not as extensive as other languages.
+
+Yew
+
+Steep Learning Curve: Requires knowledge of both Rust and WebAssembly.
+
+Limited Documentation: Still early in development, making troubleshooting harder.
+
+Wasm Challenges: Debugging and browser integration can be more complex than JavaScrit
+
+
+
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+Rust
+
+Rust is a powerful and flexible language that delivers high performance and unparalleled safety. It is ideal for developers prioritizing reliability and correctness, especially in complex systems.
+
+Yew
+
+Yew demonstrates that Rust can be a viable alternative for frontend development. While it is still in its early stages, it provides a promising path for full-stack development with Rust, offering better safety and performance than many current technologies.
+
+Both Rust and Yew require significant time and effort to master, but the results are applications that are faster, safer, and more robust than most alternatives.
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [Rust](https://www.rust-lang.org/)
+- [Yew](https://yew.rs/)
+- [Webassembly](https://webassembly.org/)
 
-## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
