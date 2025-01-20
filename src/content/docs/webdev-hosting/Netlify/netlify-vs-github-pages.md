@@ -107,15 +107,6 @@ While both platforms aim to simplify hosting, developers often find **Netlify** 
 - **Routing and File Structure**  
   GitHub Pages does not natively support advanced routing. Issues like 404 errors can occur unless files like `index.html` and `404.html` are correctly placed.
 
-## Pricing Comparison
-
-### GitHub Pages
-- **Free for Public Repositories:** Unlimited hosting for public repositories.
-- **Limitations:** No support for private repositories or advanced features like serverless functions.
-
-### Netlify
-- **Free Tier:** Includes 100GB bandwidth and 300 build minutes per month, with free custom domains and HTTPS.
-- **Paid Options:** For higher traffic or additional features, such as team collaboration and advanced serverless functions.
 
 ## Getting Started
 
