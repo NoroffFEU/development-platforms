@@ -6,7 +6,7 @@ tags: hosting, static sites, Netlify, GitHub Pages
 
 ## Introduction
 
-Netlify and GitHub Pages are two popular platforms for hosting static websites. Both provide us developers with easy-to-use tools for deploying their projects online, but they differ significantly in features, functionality, and target audiences. This case study explores their history, main features, market comparison, and best use cases to help developers make an informed choice.
+Netlify and GitHub Pages are two popular platforms for hosting static websites. Both provide us developers with easy-to-use tools for deploying their projects online, but they differ significantly in features, functionality, and target audiences. This case study explores their history, main features, market comparison, ease of use comparison, pricing, best use cases, and recommendations to help developers make an informed choice.
 
 ## Brief History
 
@@ -43,7 +43,7 @@ Netlify and GitHub Pages are two popular platforms for hosting static websites. 
 ### Key Differences
 
 | Feature/Aspect         | Netlify                                  | GitHub Pages                          |
-|-------------------------|------------------------------------------|---------------------------------------|
+|------------------------|------------------------------------------|---------------------------------------|
 | **Ease of Use**         | User-friendly dashboard and workflow.   | Simpler for GitHub-based workflows.   |
 | **Dynamic Features**    | Supports serverless and edge functions. | Static site hosting only.             |
 | **Framework Support**   | Optimized for modern frameworks.        | Jekyll by default; less modern focus. |
@@ -61,12 +61,14 @@ Netlify and GitHub Pages are two popular platforms for hosting static websites. 
 **Disadvantages:**
 - Limited to static sites.
 - Less flexibility with modern frameworks.
+- Requires manual configuration for complex builds.
 
 #### Netlify
 **Advantages:**
 - Powerful integrations with modern tools.
 - Serverless and edge functionality.
 - Enhanced performance with CDN and edge computing.
+- Easy setup for custom domains and HTTPS.
 
 **Disadvantages:**
 - Free tier has limitations for high-traffic sites.
@@ -105,6 +107,15 @@ While both platforms aim to simplify hosting, developers often find **Netlify** 
 - **Routing and File Structure**  
   GitHub Pages does not natively support advanced routing. Issues like 404 errors can occur unless files like `index.html` and `404.html` are correctly placed.
 
+## Pricing Comparison
+
+### GitHub Pages
+- **Free for Public Repositories:** Unlimited hosting for public repositories.
+- **Limitations:** No support for private repositories or advanced features like serverless functions.
+
+### Netlify
+- **Free Tier:** Includes 100GB bandwidth and 300 build minutes per month, with free custom domains and HTTPS.
+- **Paid Options:** For higher traffic or additional features, such as team collaboration and advanced serverless functions.
 
 ## Getting Started
 
@@ -125,6 +136,10 @@ While both platforms aim to simplify hosting, developers often find **Netlify** 
 Netlify and GitHub Pages cater to different needs. GitHub Pages is ideal for developers seeking a simple, free solution for static sites, especially if they are already using GitHub. On the other hand, Netlify offers advanced features like serverless functions, edge computing, and modern framework support, making it suitable for more complex or scalable projects.
 
 Ultimately, the choice depends on your project's requirements. If you need simplicity and free hosting, GitHub Pages is a great option. If you require dynamic capabilities and modern workflows, Netlify is worth exploring.
+
+## Recommendations
+- **Use GitHub Pages** if you need a simple, free static website, especially for personal projects or documentation sites.
+- **Use Netlify** if you're working on a more complex project with dynamic features, or you need advanced integrations like serverless functions and modern frameworks.
 
 ## References
 
