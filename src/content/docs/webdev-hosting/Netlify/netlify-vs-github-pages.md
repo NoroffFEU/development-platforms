@@ -6,7 +6,7 @@ tags: hosting, static sites, Netlify, GitHub Pages
 
 ## Introduction
 
-Netlify and GitHub Pages are two popular platforms for hosting static websites. Both provide us developers with easy-to-use tools for deploying their projects online, but they differ significantly in features, functionality, and target audiences. This case study explores their history, main features, market comparison, ease of use comparison, pricing, best use cases, and recommendations to help developers make an informed choice.
+Netlify and GitHub Pages are two popular platforms for hosting static websites. Both provide us developers with easy-to-use tools for deploying their projects online, but they differ significantly in features, functionality, and target audiences. This case study explores their history, main features, market comparison, ease of use comparison, best use cases, and recommendations to help developers make an informed choice.
 
 ## Brief History
 
