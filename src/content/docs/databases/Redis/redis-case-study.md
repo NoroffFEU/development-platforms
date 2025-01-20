@@ -66,7 +66,24 @@ This guide provides a detailed walkthrough for integrating Redis with Visual Stu
 -Git
 
 1. **Install Redis:**
-   Ensure Redis is installed on your machine as described in the [Getting Started Guide](https://redis.io/topics/quickstart).
+
+# Linux
+
+sudo apt-get install redis-server
+
+# macOS (using Homebrew)
+
+Install homebrew: https://docs.brew.sh/Installation
+
+brew install redis
+
+# Windows (using Windows Subsystem for Linux)
+
+Official WSL : https://learn.microsoft.com/en-us/windows/wsl/install
+wsl --install
+wsl
+sudo apt-get update
+sudo apt-get install redis-server
 
 2. **VSCode Extensions:**
    Install the "Redis Explorer" extension from the VSCode Marketplace. This extension allows you to interact with Redis databases directly from VSCode, offering features like viewing keys, editing values, and monitoring performance. More details can be found on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RedisExplorer.redis-explorer).
