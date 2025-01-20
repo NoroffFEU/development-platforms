@@ -60,33 +60,37 @@ This guide provides a detailed walkthrough for integrating Redis with Visual Stu
 
 ## Prerequisites
 
--Visual Studio Code
--Basic understanding of Redis concepts
--Node.js
--Git
+- Visual Studio Code
+- Basic understanding of Redis concepts
+- Node.js
+- Git
 
-1. **Install Redis:**
+## Install Redis:
 
-# Linux
+#### Linux
 
-sudo apt-get install redis-server
+`$ sudo apt-get install redis-server`
 
-# macOS (using Homebrew)
+#### macOS (using Homebrew)
 
 Install homebrew: https://docs.brew.sh/Installation
 
-brew install redis
+`brew install redis`
 
-# Windows (using Windows Subsystem for Linux)
+#### Windows (using Windows Subsystem for Linux)
 
 Official WSL : https://learn.microsoft.com/en-us/windows/wsl/install
+
+```
 wsl --install
 wsl
 sudo apt-get update
 sudo apt-get install redis-server
+```
 
-2. **VSCode Extensions:**
-   Install the "Redis Explorer" extension from the VSCode Marketplace. This extension allows you to interact with Redis databases directly from VSCode, offering features like viewing keys, editing values, and monitoring performance. More details can be found on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RedisExplorer.redis-explorer).
+### 2 **VSCode Extensions:**
+
+Install the "Redis Explorer" extension from the VSCode Marketplace. This extension allows you to interact with Redis databases directly from VSCode, offering features like viewing keys, editing values, and monitoring performance. More details can be found on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RedisExplorer.redis-explorer).
 
 3. **Setting Up Redis Explorer:**
 
@@ -129,3 +133,14 @@ Redis transcends being merely a database or caching solution. Through its persis
 ## Citing Redis Success Stories
 
 For academic or professional referencing of specific Redis implementations, consider the customer success stories from Redis's official [customer showcase](https://redis.io/customers/). These illustrate the versatility and scalability of Redis within a multitude of industries, providing insights into its real-world application.
+
+````
+
+```
+
+```
+
+```
+
+```
+````
