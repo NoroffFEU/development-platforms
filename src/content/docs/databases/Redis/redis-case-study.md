@@ -101,6 +101,22 @@ sudo apt-get install redis-server
 - **Thunder Client** - Alternative REST client
   https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
 
+### Configuration Steps for Redis Explorer
+
+1. Install extension
+2. Open command palette
+3. Search for "Redis : Add connection"
+4. Configure connection :
+
+```json
+{
+  "host": "localhost",
+  "port": 6379,
+  "password": "",
+  "name": "Local Redis"
+}
+```
+
 <!-- Install the "Redis Explorer" extension from the VSCode Marketplace. This extension allows you to interact with Redis databases directly from VSCode, offering features like viewing keys, editing values, and monitoring performance. More details can be found on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RedisExplorer.redis-explorer). -->
 
 <!-- 3. **Setting Up Redis Explorer:**
