@@ -58,6 +58,13 @@ To embark on a journey with Redis:
 
 This guide provides a detailed walkthrough for integrating Redis with Visual Studio Code, including best practices, troubleshooting tips, and real-world implementation examples.
 
+## Prerequisites
+
+-Visual Studio Code
+-Basic understanding of Redis concepts
+-Node.js
+-Git
+
 1. **Install Redis:**
    Ensure Redis is installed on your machine as described in the [Getting Started Guide](https://redis.io/topics/quickstart).
 
