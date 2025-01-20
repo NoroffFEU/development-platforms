@@ -50,10 +50,8 @@ GitKraken is more suitable for advanced users or teams who require a comprehensi
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [Wikipedia](https://en.wikipedia.org/wiki/GitKraken)
+- [GitKraken](https://www.gitkraken.com/)
 
 ## Additional Resources
 
