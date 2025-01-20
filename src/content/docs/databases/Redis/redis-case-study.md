@@ -88,11 +88,22 @@ sudo apt-get update
 sudo apt-get install redis-server
 ```
 
-### 2 **VSCode Extensions:**
+## **VSCode Extensions:**
 
-Install the "Redis Explorer" extension from the VSCode Marketplace. This extension allows you to interact with Redis databases directly from VSCode, offering features like viewing keys, editing values, and monitoring performance. More details can be found on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RedisExplorer.redis-explorer).
+#### Essential Extensions
 
-3. **Setting Up Redis Explorer:**
+- **Redis Explorer** - For Redis database management
+  https://marketplace.visualstudio.com/items?itemName=davidsekar.redis-xplorer
+
+- **REST Client** - For testing Redis REST APIs
+  https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+- **Thunder Client** - Alternative REST client
+  https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client
+
+<!-- Install the "Redis Explorer" extension from the VSCode Marketplace. This extension allows you to interact with Redis databases directly from VSCode, offering features like viewing keys, editing values, and monitoring performance. More details can be found on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RedisExplorer.redis-explorer). -->
+
+<!-- 3. **Setting Up Redis Explorer:**
 
    - Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac) and type 'Redis: Add Connection'.
    - Provide your Redis connection details. For local development, this might simply be `redis://127.0.0.1:6379`.
@@ -106,7 +117,9 @@ Install the "Redis Explorer" extension from the VSCode Marketplace. This extensi
 5. **Advanced Configuration:**
    For more complex setups, such as connecting to remote Redis instances or configuring secure connections, refer to the extension documentation and Redis's own security guidelines which can be accessed through [Redis Security Configuration](https://redis.io/topics/security).
 
-By integrating Redis with VSCode, developers can enhance their productivity by managing Redis data structures and monitoring their applications directly within their coding environment.
+By integrating Redis with VSCode, developers can enhance their productivity by managing Redis data structures and monitoring their applications directly within their coding environment. -->
+
+## end of vs code extensions ⬆️ ⬆️ ⬆️
 
 ## Case Studies and Success Stories
 
