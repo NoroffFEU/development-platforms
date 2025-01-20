@@ -1,7 +1,7 @@
 ---
 title: Netlify vs GitHub Pages Case Study
 author: Veronica Strand <Asora7>
-tags: netlify, github-pages, case study, platform
+tags: hosting, static sites, Netlify, GitHub Pages
 ---
 
 ## Introduction
