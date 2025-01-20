@@ -32,11 +32,11 @@ Designed from the ground up for speed and simplicity, Redis boasts:
 
 By providing a wide variety of data structures and various persistence options, Redis facilitates atomic operations, ensuring that all operations execute as an indivisible sequence. Its replication and messaging system capabilities make it robust enough to withstand the demands of high-traffic apps while maintaining data integrity.
 
-| Feature            | Redis Lite          | Heroku Redis        | Redis Enterprise                  | Description                                      |
-|--------------------|---------------------|---------------------|-----------------------------------|--------------------------------------------------|
-| Persistence        | RDB & AOF           | RDB & AOF           | RDB, AOF, & Diskless Replication  | Redis supports different persistence options for data durability. |
-| Data Structures    | Basic Structures    | Basic Structures    | Gears & AI Modules                | Redis has introduced advanced module capabilities in higher tiers. |
-| High Availability  | None                | Standard Replication| Advanced Replication + Rack/Zone Awareness | Redis can ensure uptime with configurations that withstand failures. |
+| Feature           | Redis Lite       | Heroku Redis         | Redis Enterprise                           | Description                                                          |
+| ----------------- | ---------------- | -------------------- | ------------------------------------------ | -------------------------------------------------------------------- |
+| Persistence       | RDB & AOF        | RDB & AOF            | RDB, AOF, & Diskless Replication           | Redis supports different persistence options for data durability.    |
+| Data Structures   | Basic Structures | Basic Structures     | Gears & AI Modules                         | Redis has introduced advanced module capabilities in higher tiers.   |
+| High Availability | None             | Standard Replication | Advanced Replication + Rack/Zone Awareness | Redis can ensure uptime with configurations that withstand failures. |
 
 _References: [Redis Documentation](https://redis.io/documentation), [Heroku Redis](https://www.dragonflydb.io/guides/heroku-redis-pricing)_
 
@@ -56,7 +56,7 @@ To embark on a journey with Redis:
 
 ## Integrating Redis with Visual Studio Code
 
-Using Redis within Visual Studio Code can streamline your development workflow. Here’s a simple guide to set up Redis in VSCode:
+This guide provides a detailed walkthrough for integrating Redis with Visual Studio Code, including best practices, troubleshooting tips, and real-world implementation examples.
 
 1. **Install Redis:**
    Ensure Redis is installed on your machine as described in the [Getting Started Guide](https://redis.io/topics/quickstart).
@@ -65,11 +65,13 @@ Using Redis within Visual Studio Code can streamline your development workflow. 
    Install the "Redis Explorer" extension from the VSCode Marketplace. This extension allows you to interact with Redis databases directly from VSCode, offering features like viewing keys, editing values, and monitoring performance. More details can be found on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RedisExplorer.redis-explorer).
 
 3. **Setting Up Redis Explorer:**
+
    - Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac) and type 'Redis: Add Connection'.
    - Provide your Redis connection details. For local development, this might simply be `redis://127.0.0.1:6379`.
    - Once connected, you can browse your Redis keys and data structures directly within VSCode.
 
 4. **Usage Tips:**
+
    - Use the integrated terminal in VSCode to interact with Redis using the Redis CLI commands. You can follow the official [Redis Command Reference](https://redis.io/commands) for assistance.
    - Employ the "Redis Explorer" to monitor and debug Redis operations during development.
 
