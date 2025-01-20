@@ -33,9 +33,15 @@ Timelines
 
 ## Comparison with other Frameworks
 
-| Feature                               | React                                                                                                                                           | Vue.js                                                                                                                                                           |
-| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |                                                                                                       |
+| Feature            | React                                  | Vue.js                                  |
+|--------------------|----------------------------------------|-----------------------------------------|
+| **Learning Curve**  | Steeper, requires understanding JSX    | Easier for beginners                   |
+| **Community**       | Larger, more mature community          | Smaller but growing rapidly             |
+| **Performance**     | High performance with Virtual DOM      | Comparable performance, with optimizations |
+| **Integration**     | Works well with existing codebases     | Easy integration into projects         |
+| **Size**            | Heavier (about 100KB)                  | Lighter (about 60KB)                   |
 
+---
 
 ## Getting Started with React
 
