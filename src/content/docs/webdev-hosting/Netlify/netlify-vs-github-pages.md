@@ -128,10 +128,6 @@ Netlify and GitHub Pages cater to different needs. GitHub Pages is ideal for dev
 
 Ultimately, the choice depends on your project's requirements. If you need simplicity and free hosting, GitHub Pages is a great option. If you require dynamic capabilities and modern workflows, Netlify is worth exploring.
 
-## Recommendations
-- **Use GitHub Pages** if you need a simple, free static website, especially for personal projects or documentation sites.
-- **Use Netlify** if you're working on a more complex project with dynamic features, or you need advanced integrations like serverless functions and modern frameworks.
-
 ## References
 
 - [Netlify](https://www.netlify.com/)
