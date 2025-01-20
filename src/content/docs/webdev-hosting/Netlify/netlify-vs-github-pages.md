@@ -1,109 +1,106 @@
 ---
-title: Netlify vs GitHub Pages
+title: Netlify vs GitHub Pages Case Study
 author: Veronica Strand <Asora7>
-tags: netlify, GitHub Pages, hosting, web development, CI/CD, static websites
+tags: netlify, github-pages, case study, platform
 ---
 
 ## Introduction
 
-This case study compares **Netlify** and **GitHub Pages**, two popular platforms for hosting static websites. Both offer simple deployment options for web developers, but they differ in terms of features, ease of use, and integration with other services. This study aims to help you decide which platform better suits your project needs.
+Netlify and GitHub Pages are two popular platforms for hosting static websites. Both provide developers with easy-to-use tools for deploying their projects online, but they differ significantly in features, functionality, and target audiences. This case study explores their history, main features, market comparison, and best use cases to help developers make an informed choice.
 
 ## Brief History
 
-- **2008**: GitHub introduces GitHub Pages as a feature to host static websites directly from repositories, targeting simplicity for developers.
-- **2014**: GitHub Pages gains popularity due to its seamless integration with Git workflows and static site generator support like Jekyll.
-- **2015**: Netlify launches as a modern platform focusing on continuous deployment and advanced web development features like serverless functions and edge delivery.
-- **2019**: Netlify introduces new integrations, serverless technologies, and edge functions, expanding its appeal for large-scale, dynamic projects.
-- **2020s**: Both platforms continue to improve—GitHub Pages enhances its integration with Actions for CI/CD workflows, while Netlify remains a favorite for JAMstack applications.
+- **2008**: GitHub Pages was launched as a feature of GitHub to enable developers to host static sites directly from their repositories.
+- **2014**: Netlify was founded by Mathias Biilmann and Christian Bach, focusing on modern web development workflows and static site hosting.
+- **2016**: Netlify introduced serverless functions, expanding its capabilities beyond static hosting.
+- **2020**: GitHub Pages introduced built-in support for GitHub Actions, enabling CI/CD workflows for deployment.
+- **2023**: Netlify continued to enhance its platform with edge functions and integrations for modern frameworks like Next.js and Astro.
 
 ## Main Features
 
-### Netlify
-- **Continuous Deployment**: Automates builds and deployments with every Git push to connected repositories.
-- **Serverless Functions**: Enables dynamic back-end functionality without managing servers.
-- **Form Handling**: Offers built-in form submission handling, eliminating the need for additional back-end logic.
-- **Global CDN**: Distributes content across multiple servers worldwide for faster load times.
-- **Custom Build Settings**: Supports modern frameworks like React, Vue, Next.js, and Gatsby.
-- **Edge Functions**: Runs JavaScript closer to users, enhancing performance for specific workloads.
-- **Analytics (Paid)**: Provides insights into visitor statistics and traffic performance.
-
 ### GitHub Pages
-- **Static Website Hosting**: Hosts static files directly from GitHub repositories.
-- **Jekyll Integration**: Simplifies static site generation with themes and plugins.
-- **Free Hosting**: Completely free for public repositories, with no bandwidth limits for personal projects.
-- **Custom Domains**: Allows linking of custom domains with HTTPS support.
-- **Version Control Integration**: Works seamlessly with Git to deploy updates.
-- **GitHub Actions Support**: Adds CI/CD workflows for automated builds and deployments.
-- **Simple Setup**: Ideal for beginners and small projects without complex requirements.
 
-## Feature Comparison Table
-
-| **Feature**              | **Netlify**                            | **GitHub Pages**                        |
-|--------------------------|----------------------------------------|----------------------------------------|
-| **Cost**                | Free (Paid plans for advanced features) | Free                                   |
-| **Hosting Type**         | Static + dynamic (serverless functions) | Static only                            |
-| **Custom Domains**       | Yes                                    | Yes                                    |
-| **Continuous Deployment**| Yes (automatic builds from Git)        | Yes (via GitHub Actions or manual setup)|
-| **Build Tools**          | Fully integrated (React, Vue, Next.js) | Limited to Jekyll and static files     |
-| **Serverless Functions** | Yes                                    | No                                     |
-| **Edge Functions**       | Yes                                    | No                                     |
-| **Analytics**            | Yes (paid)                             | No                                     |
-
-## Strengths and Weaknesses
+| Feature                        | Description                                                                 |
+|--------------------------------|-----------------------------------------------------------------------------|
+| **Free Hosting**               | Provides free static hosting with a GitHub repository.                     |
+| **Custom Domains**             | Supports custom domains with HTTPS.                                        |
+| **Jekyll Integration**         | Built-in support for Jekyll static site generator.                         |
+| **GitHub Integration**         | Automatically deploys changes from the repository.                        |
 
 ### Netlify
-**Strengths**:
-- Advanced build tools and framework support.
-- Built-in CI/CD for effortless deployment workflows.
-- Serverless and edge computing capabilities for dynamic functionality.
-- Excellent documentation and integrations.
 
-**Weaknesses**:
-- Some advanced features are locked behind paid plans.
-- Overkill for simple static sites.
-
-### GitHub Pages
-**Strengths**:
-- Completely free and easy to use for public repositories.
-- Native integration with GitHub's ecosystem.
-- Perfect for small static sites or personal projects.
-
-**Weaknesses**:
-- Limited support for modern frameworks and build tools.
-- No dynamic features like serverless functions or edge computing.
-- Deployment automation requires additional setup with GitHub Actions.
+| Feature                        | Description                                                                 |
+|--------------------------------|-----------------------------------------------------------------------------|
+| **Continuous Deployment**      | Integrates with Git providers for seamless deployments.                    |
+| **Serverless Functions**       | Allows backend functionality via serverless APIs.                          |
+| **Edge Functions**             | Supports dynamic rendering at the edge for faster performance.             |
+| **Modern Framework Support**   | Optimized for React, Vue, Next.js, Astro, and other frameworks.            |
+| **Built-in Forms**             | Enables form handling without backend setup.                               |
+| **Custom Domains with HTTPS**  | Provides free custom domains and automated HTTPS.                          |
 
 ## Market Comparison
 
-Netlify is a modern platform suited for **JAMstack** applications, while GitHub Pages is ideal for **static websites**. If your project involves dynamic content, advanced build pipelines, or serverless architecture, Netlify is the better choice. For small, straightforward static sites, GitHub Pages is sufficient and more cost-effective.
+### Key Differences
 
-### Example Use Cases
-- **Netlify**: Portfolio sites with interactive elements, JAMstack blogs, or e-commerce platforms requiring serverless APIs.
-- **GitHub Pages**: Personal blogs, small documentation sites, or landing pages.
+| Feature/Aspect         | Netlify                                  | GitHub Pages                          |
+|-------------------------|------------------------------------------|---------------------------------------|
+| **Ease of Use**         | User-friendly dashboard and workflow.   | Simpler for GitHub-based workflows.   |
+| **Dynamic Features**    | Supports serverless and edge functions. | Static site hosting only.             |
+| **Framework Support**   | Optimized for modern frameworks.        | Jekyll by default; less modern focus. |
+| **Pricing**             | Free tier with advanced paid options.   | Completely free for public repos.     |
+| **Deployment Control**  | Flexible; deploy from Git or CLI.       | Tied to GitHub repositories.          |
+
+### Advantages and Disadvantages
+
+#### GitHub Pages
+**Advantages:**
+- Free and easy to set up.
+- Ideal for GitHub-based workflows.
+- Integrated with GitHub Actions for CI/CD.
+
+**Disadvantages:**
+- Limited to static sites.
+- Less flexibility with modern frameworks.
+
+#### Netlify
+**Advantages:**
+- Powerful integrations with modern tools.
+- Serverless and edge functionality.
+- Enhanced performance with CDN and edge computing.
+
+**Disadvantages:**
+- Free tier has limitations for high-traffic sites.
+- Slightly steeper learning curve compared to GitHub Pages.
 
 ## Getting Started
 
-### Netlify
-1. Create a free account at [Netlify](https://www.netlify.com).
-2. Connect your GitHub repository.
-3. Set build settings (e.g., `npm run build` for React).
-4. Deploy and configure your domain.
-
 ### GitHub Pages
-1. Push your static files to a GitHub repository.
-2. Enable GitHub Pages in the repository settings.
-3. Optionally configure a custom domain.
-4. Visit the deployed site using the provided URL.
+1. Create a repository on GitHub.
+2. Add your static site files (HTML, CSS, JS) to the repository.
+3. Go to **Settings > Pages** and select a branch to deploy.
+4. Optionally configure a custom domain.
+
+### Netlify
+1. Create an account on [Netlify](https://www.netlify.com/).
+2. Link your GitHub, GitLab, or Bitbucket repository.
+3. Configure build settings (if needed) and deploy.
+4. Optionally configure serverless functions, custom domains, or edge functions.
 
 ## Conclusion
 
-Both Netlify and GitHub Pages are excellent platforms for static site hosting, each catering to different use cases. Netlify is powerful and feature-rich, making it ideal for complex modern web projects. GitHub Pages, on the other hand, offers a free, straightforward solution for static sites without requiring advanced configuration.
+Netlify and GitHub Pages cater to different needs. GitHub Pages is ideal for developers seeking a simple, free solution for static sites, especially if they are already using GitHub. On the other hand, Netlify offers advanced features like serverless functions, edge computing, and modern framework support, making it suitable for more complex or scalable projects.
+
+Ultimately, the choice depends on your project's requirements. If you need simplicity and free hosting, GitHub Pages is a great option. If you require dynamic capabilities and modern workflows, Netlify is worth exploring.
 
 ## References
 
-- [Netlify](https://www.netlify.com)
-- [GitHub Pages](https://pages.github.com)
-- [Netlify Documentation](https://docs.netlify.com)
+- [Netlify](https://www.netlify.com/)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [JAMstack Website](https://jamstack.org)
+- [Comparing Netlify and GitHub Pages](https://www.freecodecamp.org/news/netlify-vs-github-pages/)
+
+## Additional Resources
+
+- [Netlify Edge Functions](https://www.netlify.com/products/edge/)
+- [GitHub Pages with Jekyll](https://jekyllrb.com/docs/github-pages/)
+- [Serverless Functions on Netlify](https://docs.netlify.com/functions/overview/)
 
