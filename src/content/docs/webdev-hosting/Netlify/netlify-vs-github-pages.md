@@ -132,7 +132,8 @@ Ultimately, the choice depends on your project's requirements. If you need simpl
 
 - [Netlify](https://www.netlify.com/)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [Comparing Netlify and GitHub Pages](https://www.freecodecamp.org/news/netlify-vs-github-pages/)
+- - [GitHub vs Netlify](https://stackshare.io/stackups/github-pages-vs-netlify)
+
 
 ## Additional Resources
 
