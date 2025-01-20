@@ -1,6 +1,8 @@
 ---
 title: Turso: A Modern DBaaS Case Study
-author: Jesus Alberola Herrero <Whisperpiano>
+author:
+  name: Jesus Alberola Herrero
+  alias: Whisperpiano
 tags: DBaaS, Turso, libSQL, SQLite, datastore, modern database, case study
 ---
 
