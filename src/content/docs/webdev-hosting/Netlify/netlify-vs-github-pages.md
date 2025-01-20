@@ -131,8 +131,9 @@ Ultimately, the choice depends on your project's requirements. If you need simpl
 ## References
 
 - [Netlify](https://www.netlify.com/)
+- [Netlify doc](https://docs.netlify.com)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- - [GitHub vs Netlify](https://stackshare.io/stackups/github-pages-vs-netlify)
+- [GitHub vs Netlify](https://stackshare.io/stackups/github-pages-vs-netlify)
 
 
 ## Additional Resources
