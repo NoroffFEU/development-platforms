@@ -1,0 +1,97 @@
+---
+title: Netlify Case Study
+author: Angelina Lapin <angelina-lapin>
+tags: netlify, case study, platform, hosting, development
+---
+
+## Introduction
+
+Netlify is a cloud-based platform that provides an intuitive way to build, deploy, and manage modern web applications and static websites. With features like continuous deployment, serverless functions, and automated builds, Netlify is popular among developers for its simplicity and powerful capabilities. This case study explores Netlify's features, benefits, history, applications, and a comparison with other platforms.
+
+## Background
+
+Traditionally, hosting websites involved setting up servers, configuring hosting environments, and managing manual deployments. Netlify, introduced in 2014, revolutionized the process by automating many of these tasks, enabling developers to focus on building applications instead of managing infrastructure. Founded by Mathias Biilmann and Chris Bach, Netlify quickly gained traction due to its developer-friendly approach and innovative features.
+
+**Problem Statement**
+
+A growing startup faces challenges in deploying and maintaining its web application. Deployments are error-prone, slow, and require significant manual effort. The team seeks a solution that simplifies deployment, automates builds, and enhances scalability.
+
+**Solution**
+
+Netlify provides a comprehensive platform for building and deploying web applications with features that address the startup’s needs. By using Netlify, the team can:
+
+1. Deploy applications directly from Git repositories.
+
+2. Use continuous integration to automate builds and deploy changes instantly.
+
+3. Leverage serverless functions for backend logic without managing servers.
+
+4. Optimize performance using a global Content Delivery Network (CDN).
+
+## Implementation
+
+1. Connecting to Git: The team connects their GitHub repository to Netlify, enabling automatic deployments whenever changes are pushed.
+
+2. Build Settings: Netlify is configured to run a build command (e.g., npm run build) and deploy the output folder (e.g., dist/).
+
+3. Custom Domains: A custom domain is linked to the project, and HTTPS is enabled with a single click.
+
+4. Serverless Functions: Key backend functionalities, such as API endpoints, are implemented using Netlify’s serverless functions.
+
+5. Deploy Previews: The team uses Netlify’s deploy preview feature to test changes before deploying them to production.
+
+**Results**
+
+After implementing Netlify, the team experienced:
+
+- **Faster Deployments:** Updates were live within seconds of pushing changes to the repository.
+- **Improved Developer Experience:** The intuitive interface and automation reduced the complexity of managing deployments.
+- **Enhanced Performance:** Built-in CDN ensured fast content delivery to users worldwide.
+- **Scalability:** Netlify handled increased traffic seamlessly during product launches.
+
+## Strengths and Weaknesses of Netlify
+
+**Strengths**
+
+- **Ease of Use:** User-friendly interface and straightforward setup.
+- **Automation:** Continuous integration and deployment from Git repositories.
+- **Serverless Functions:** Enables backend logic without the need for dedicated servers.
+- **Performance:** Integrated CDN ensures quick content delivery.
+- **Free Tier:** Generous free plan suitable for small projects and individual developers.
+
+**Weaknesses**
+
+- **Vendor Lock-in:** Heavy reliance on Netlify’s ecosystem can limit flexibility.
+- **Resource Limits:** Serverless functions have limitations on runtime and memory.
+- **Less Suitable for Complex Backends:** Better suited for static sites and JAMstack applications.
+ 
+## Comparison with Other Platforms
+
+- **Netlify vs. Vercel:** While both platforms offer similar features, Vercel excels in supporting Next.js applications natively. Netlify, however, provides better support for a wider range of static site generators.
+- **Netlify vs. AWS Amplify:** AWS Amplify offers greater backend customization and integration with AWS services but requires more expertise to configure. Netlify is more beginner-friendly.
+- **Netlify vs. GitHub Pages:** GitHub Pages is ideal for simple static sites but lacks advanced features like serverless functions and continuous deployment.
+
+## Interesting Facts
+
+- Netlify coined the term "JAMstack" (JavaScript, APIs, and Markup) to describe its approach to modern web development.
+
+- As of 2023, Netlify supports over 3 million developers worldwide.
+
+- Netlify offers plugins and integrations to extend its functionality, including analytics, forms, and image optimization.
+
+## Conclusion
+
+Netlify transformed the startup’s workflow by simplifying deployments, automating builds, and enhancing scalability. Its serverless functions and intuitive interface made it an invaluable tool, though the team remained mindful of potential limitations like vendor lock-in and function resource limits. Overall, Netlify is an excellent choice for modern web development, particularly for static sites and JAMstack applications.
+
+## Sources
+
+- [Official Netlify Documentation:](https://docs.netlify.com)
+
+- [Netlify Blog:] (https://www.netlify.com/blog/)
+
+- [Case Studies on Netlify:] (https://www.netlify.com/case-studies/)
+
+- [Community Discussions:] (https://answers.netlify.com)
+
+- [Article on JAMstack:] (https://jamstack.org)
+
