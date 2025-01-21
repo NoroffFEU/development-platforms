@@ -18,9 +18,7 @@ tags: aws, CloudFront
 ## Introduction
 
 AWS CloudFront is Amazon's Content Delivery Network (CDN) service. Its main goal is to speed up content delivery for users while optimizing performance.
-
 This includes delivering images, HTML, CSS, and JavaScript. When a user requests content, the request is routed to the nearest server holding the data.
-
 This ensures the least possible delay between the user's request and the server's response, providing a faster experience for the end-user.
 
 ## Brief History
