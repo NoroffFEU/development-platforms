@@ -54,6 +54,10 @@ This is GitHub key features:
 
 - **Pull requests**: When a user have made changes to a project's code on a separate branch, he can make a pull request. This is an important step in quality control where other developers can inspect the changes in the code. They do this to make sure that the code is bug free and has no issues. When it is determined that the code is safe it can be merged from this branch to it's parent branch or to the main branch.
 
+![Pull Request Workflow Screenshot](/src/assets/github/pullscreenshot.png)
+
+
+
 - **Issues**: GitHub Issues can be used to track ideas, feedback, tasks, or bugs for work on GitHub. Issues can be an important part of development as bugs and problems with the code arises developers can raise an issue and also assign the issue to specific developers for fixing.
 
 - **Merging**: Is adding new code to a project from a separate branch. usually this is done after a pull request.
