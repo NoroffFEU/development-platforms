@@ -4,23 +4,26 @@ keywords: development platforms, github
 tags: Development Platforms, github
 ---
 
-![GitHub logomark in white](~/assets/github/github-mark-white.png)
-
+![GitHub logomark in white](/src/assets/github/github-mark-white.png)
 ## Introduction
 
-GitHub is an Internet hosting service for software development and version control using Git. It is a web based platform where users can store their code and collaborate together on a coding project. GitHub has a lot of great tools/features like github desktop, actions, project management, teams, etc.
+GitHub is the world's leading platform for version control and collaboration, built around Git. It is designed to help developers work together on projects efficiently by managing code, tracking changes, and collaborating in real time. GitHub has grown from being just a version control system into a full-fledged development platform with automation, collaboration, and deployment features
 
 ## Brief History
 
 GitHub was founded in 2008 by Tom Preston-Werner, Chris Wanstrath, P.J. Hyett, and Scott Chacon. GitHub has had an enormous growth since it was founded and today it is one of the most popular platforms for web hosting and code sharing. GitHub's headquarters is based in San Francisco in the state of California, in the united states of america. The CEO of GitHub is named Thomas Dohmke. GitHub currently has about 2500 employees and in 2018 it had about 200-300 million USD of revenue.
 
+What started as a tool for developers to host and collaborate on open-source projects has grown into the most popular code collaboration platform in the world.
+
+
+
 ### From the beginning to the present time (2023)
 
-**github blooming**
+**Key Milestones:**
 
-- (year 2010) Two years after its launch, GitHub was hosting over 1 million repositories.
-- (year 2011) In the period of January to May 2011 ReadWriteWeb reported that GitHub had surpassed SourceForge and Google Code in total number of commits.
-- (year 2013) It was hosting 5 million repositories and had over 3 million users. Before this year ended the amount of repositories had doubled again and it was now hosting over 10 million repositories.
+- 2010: Two years after its launch, GitHub was hosting over 1 million repositories.
+- 2011: In the period of January to May 2011 ReadWriteWeb reported that GitHub had surpassed SourceForge and Google Code in total number of commits.
+- 2013: It was hosting 5 million repositories and had over 3 million users. Before this year ended the amount of repositories had doubled again and it was now hosting over 10 million repositories.
 
 **Finance**
 
@@ -58,7 +61,9 @@ This is GitHub key features:
 - **Integration**: GitHub allows for developers to use other programs in combination with github. examples are: continuous integration systems, tools for project management and several IDEs.
 
 - **GitHub Actions**: Is a feature where you can add automated tasks to a project. The automated tasks can either be run manually or be set to run at specific points of development such as when a pull request is made. GitHub actions is very flexible and allows for lots of different programming languages and tools to be used with it.
-  examples of GitHub actions usage: deploy to static pages, end to end testing and unit testing.
+examples of GitHub actions usage: deploy to static pages, end to end testing and unit testing.
+
+![Alt text](image.png)
 
 - **GitHub Pages**: Can be used to host a web project directly from GitHub. It is an easy way for developers to host a project and/or share details for a project.
 
@@ -105,13 +110,69 @@ There are other platforms similar to github:
 
 - **GitLab**: GitLab is open source and can be self hosted for free. It launched in 2014 and it is a web-based platform for collaboration and version control. gitlab has built-in continuous integration and testing capabilities. gitlab has about 200-500 thousand users and is owned by gitlab inc. it has a limit of 10 GB of repository storage, which is ten times greater than github.
 
+![Gitlab Logo](/src/assets/gitlab/gitlab-logo-200.svg)
+
 - **Azure DevOps**: Is owned by Microsoft and is a cloud based platform that focuses on enterprise customers, it is a good option if you use a lot of Microsoft products and services as it integrates well with many of their products. Azure devops is a fully integrated set of services that provide all the tools necessary for building and maintaining a backlog.
 
+![Azure DevOps logo](/src/assets/Azure_devOps/Azure%20Devops.png)
+
 - **Bitbucket**: launched in 2008 and is owned by atlassian. It is a web based platform for collaboration and version control. It has about 10 million users. It has a storage limit of 2 GB repository storage, which is twice the limit of github. It provides integration with other Atlassian tools. But it is much more limited in its capabilities than the other alternatives.
+
+![Bitbucket Logo](/src/assets/bitbucket/BitBucket.png)
+
+When considering development platforms, GitHub, GitLab, and Bitbucket each have unique strengths and focus areas, making them suitable for different kinds of projects. Here's a breakdown of their key differences:
+
+1.Focus
+GitHub is primarily focused on open-source collaboration and version control. It has become the largest platform for hosting public repositories, making it ideal for developers who want their work to be visible and collaborative.
+GitLab, on the other hand, emphasizes DevOps and continuous integration/continuous delivery (CI/CD). It provides built-in tools for automation and deployment, which are especially useful for teams focused on streamlined workflows.
+Bitbucket is primarily geared toward teams working on private repositories. It integrates seamlessly with other Atlassian products like Jira, making it ideal for organizations that already use Atlassian's ecosystem.
+
+2.CI/CD
+GitHub provides GitHub Actions, which is a powerful tool for automation and CI/CD, though it requires manual setup for each workflow.
+GitLab offers built-in CI/CD tools that are free and easy to configure, making it a strong choice for teams with a DevOps focus.
+Bitbucket also supports CI/CD through its Bitbucket Pipelines feature, but it is not as robust or widely adopted as GitHub Actions or GitLab's built-in tools.
+
+3.Self-Hosting
+GitHub is primarily a cloud-based platform, with self-hosting available only through its enterprise plan, making it less accessible for smaller organizations.
+GitLab, being open-source, allows anyone to self-host their own instance for free, giving organizations more control over their data.
+Bitbucket does not support self-hosting, which might be a limitation for organizations that require on-premises solutions.
+
+4.Community and Ecosystem
+GitHub boasts the largest developer community, with millions of users contributing to open-source projects. Its vast ecosystem of integrations and tools further enhances its capabilities.
+GitLab has a smaller but dedicated audience, especially among teams focusing on DevOps.
+Bitbucket is comparatively smaller and more niche, appealing to teams already using Atlassian products like Jira or Trello.
+
+5.Storage and Pricing
+GitHub offers free plans with a storage limit of 500 MB per repository, making it sufficient for small to medium projects.
+GitLab is more generous, offering up to 10 GB per repository for free, making it an attractive choice for larger projects.
+Bitbucket offers 2 GB per repository, which is less than GitLab but more than GitHub's free plan. However, for larger storage needs, upgrading to paid plans is required on all platforms.
+
+6.Integration
+GitHub has a vast ecosystem of integrations and third-party tools, making it highly flexible and customizable.
+GitLab offers integrations as well, but its focus remains on its native all-in-one DevOps platform, which reduces the need for third-party tools.
+Bitbucket excels in integrating with Atlassian tools like Jira, Trello, and Confluence, making it a strong choice for teams already using those services.
+
+GitHub is an excellent platform for public and open-source projects, with its large community, robust tools, and extensive integration options. For private repositories and seamless Atlassian integration, Bitbucket is a strong contender. Meanwhile, GitLab stands out for its DevOps-centric approach, offering built-in CI/CD tools and free self-hosting options. Ultimately, the best platform depends on your project's needs and your team's workflow preferences.
+
+## why i chose Github for my case study
+
+As a front-end development student, I chose GitHub for my case study because it has played a pivotal role in my learning journey. Here’s why:
+
+-Practical Usage: I began using GitHub in my first year at Noroff to manage assignments and collaborate with classmates. This hands-on experience has given me a solid understanding of its features.
+-Industry Relevance: GitHub is widely regarded as an essential tool for developers, making it crucial for my career development.
+-Community Engagement: Through GitHub, I’ve been exposed to open-source projects and have learned from contributions made by other developers.
+-Learning Opportunities: GitHub’s comprehensive documentation and active community have helped me overcome challenges and learn best practices.
+
+
+
 
 ## Summary
 
 GitHub is one of the best (if not the best) platforms for open-source projects, you can also use it for private repositories. It has a great community, is easy to use, great security and many features and tools for collaboration. But everything has it's limits. It can be scaled up but only up to a certain point where other alternatives might seem like a better option for enterprises, in that case azure devops might be a better alternative.
+Purpose of GitHub:
+The purpose of GitHub is to simplify code management and enable collaboration. Developers can host their code, track changes, and work with teammates efficiently. GitHub’s integration with Git provides powerful version control, and its collaborative tools, like pull requests and issues, streamline team workflows.
+
+GitHub also empowers the open-source community by providing a centralized platform for sharing and contributing to projects. Its purpose extends beyond collaboration to include learning, automation, and professional growth.
 
 ### Credits
 
@@ -124,4 +185,5 @@ GitHub is one of the best (if not the best) platforms for open-source projects, 
 - [GitHub docs](https://docs.github.com/en)
 - [GitHub's website](https://github.com)
 - [Gitlab wiki](https://en.wikipedia.org/wiki/GitLab)
-- [bitbucket wiki](https://en.wikipedia.org/wiki/Bitbucket)
+- [Chatggpt](https://chatgpt.com/)
+

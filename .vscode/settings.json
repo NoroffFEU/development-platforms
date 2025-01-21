@@ -18,5 +18,6 @@
     "tlsv",
     "webdev",
     "Yvetot"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
