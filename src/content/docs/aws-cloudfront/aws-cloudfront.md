@@ -145,19 +145,23 @@ This ensures the least possible delay between the user's request and the server'
 1. **Global Reach and Performance**
    CloudFront has a vast network of over 400 edge locations in 90+ cities worldwide. This makes it so no matter the location of the user the delivery of content is fast.
 
-This also makes it so the user experience is good because the content will always be served from the closest edge location. So instead of a person from Norway using a edge location that is located in the US, which would make the delivery slow, they would use one that is located in Oslo. So, by caching content closer to end-users, CloudFront ensures faster load times, which gives a much better user experience.
+   This also makes it so the user experience is good because the content will always be served from the closest edge location. So instead of a person from Norway using a edge location that is located in the US, which would make the delivery slow, they would use one that is located in Oslo. So, by caching content 
+   closer. 
+   to end-users, CloudFront ensures faster load times, which gives a much better user experience.
 
 2. **Seamless integration with AWS Ecosystem**
    AWS is a really big subject and is not only CloudFront, but it has also services like S3, EC2, Lambda@Edge, DynamoDB and AWS Shield.
    So for developers who already use other AWS services, using CloudFront will simplify the setup. An example could be a website who uses S3 for static hosting, this website can connect directly to CloudFront for global distribution with minimal configuration.
 
 3. **Advanced Security Features**
-   CloudFront is very secure, it includes multiple layers of security to protect applications and data. If we look back at the integration features with the other AWS services, there are also AWS shield standard (which is free) or AWS Shield Advanced (premium) which protects against DDoS attacks. Also, the HTTPS support is enabled by default, other than that SSL/TLS certificates can be managed via AWS Certificate manager.
+   CloudFront is very secure, it includes multiple layers of security to protect applications and data. If we look back at the integration features with the other AWS services, there are also AWS shield standard (which is free) or AWS Shield Advanced (premium) which protects against DDoS attacks. Also, the HTTPS 
+   support is enabled by default, other than that SSL/TLS certificates can be managed via AWS Certificate manager.
 
-There are also access restrictions, control using signed URLs, signed cookies or geofencing to restrict who can access content. An example of this could be streaming platforms, they can use signed URLs to ensure that only people who are authorized can access paid video content.
+   There are also access restrictions, control using signed URLs, signed cookies or geofencing to restrict who can access content. An example of this could be streaming platforms, they can use signed URLs to ensure that only people who are authorized can access paid video content.
 
 4. **Cost Optimization**
-   CloudFront reduces costs by caching content and decreasing the load on the origin servers. This is strong cause it reduces requests to S3, EC2 or other origins. By doing this it is saving bandwidth and processing costs. So, a static website hosted on S3 pays significantly less for traffic when served via CloudFront.
+   CloudFront reduces costs by caching content and decreasing the load on the origin servers. This is strong cause it reduces requests to S3, EC2 or other origins. By doing this it is saving bandwidth and processing costs. So, a static website hosted on S3 pays significantly less for traffic when served via 
+   CloudFront.
 
 ### Weaknesses
 
@@ -165,10 +169,12 @@ There are also access restrictions, control using signed URLs, signed cookies or
    CloudFront Charges based on data transfer, request counts and edge function usage, which can make it hard to predict costs. So, it would be difficult for a small startup to estimate costs for unpredictable traffic spikes, resulting in unexpected bills.
 
 2. **Learning Curve**
-   To setup and use CloudFront requires knowledge about AWS services, and a solid understanding of CDNs. This means that new developers might find the interface and configuration a bit overwhelming. There are also advanced features that require technical expertise – such as signed URLs or Lambda@Edge. This means that a small team might need to invest extra time to learn and configure CloudFront caching policies compared to simpler CDNs like Cloudflare.
+   To setup and use CloudFront requires knowledge about AWS services, and a solid understanding of CDNs. This means that new developers might find the interface and configuration a bit overwhelming. There are also advanced features that require technical expertise – such as signed URLs or Lambda@Edge. This means 
+   that a small team might need to invest extra time to learn and configure CloudFront caching policies compared to simpler CDNs like Cloudflare.
 
 3. **Limited Real-Time Analytics**
-   Their real-time analytics are limited compared to competitors like Fastly. This means that developers may need to rely on third-party tools to gain deep insights into request-level data. This is why Fastly’s ability to analyze traffic in real time is great, because it provides better insight during high-traffic events.
+   Their real-time analytics are limited compared to competitors like Fastly. This means that developers may need to rely on third-party tools to gain deep insights into request-level data. This is why Fastly’s ability to analyze traffic in real time is great, because it provides better insight during high-traffic 
+   events.
 
 ## Conclusion
 
