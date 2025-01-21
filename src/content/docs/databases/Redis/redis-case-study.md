@@ -14,8 +14,12 @@ Redis, known for its unprecedented performance enhancements, began its journey m
 
 - **2009:** Salvatore Sanfilippo crafts Redis out of the necessity for faster web analytics.
 - **2010–2014:** It gains momentum for performance and versatility.
-- **2015:** Redis Labs is founded, enhancing commercial support and services.
+- **2012:** VMware acquires the Redis trademark and employs Sanfilippo to work full-time on Redis development.
+- **2013:** Redis introduces Cluster specification, enabling distributed Redis deployments.
+- **2015:** Redis Labs (now Redis Inc.) is founded, enhancing commercial support and services.
+- **2018:** Redis becomes completely open source under BSD license.
 - **2020:** Version 6.0 launches, introducing ACL and multithreading for I/O operations.
+- **2021:** Sanfilipo steps down as Redis maintainer , passing the torch to the Redis core team.
 - **2022:** Maintaining dominance as a preferred in-memory database, it thrives across various sectors from gaming to financial platforms.
 
 Salvatore Sanfilippo's initial development of Redis was aimed at improving real-time web analytics capabilities. However, its exceptional speed and adaptability soon made it a top choice for developers looking for a high-performance, in-memory data store solution.
