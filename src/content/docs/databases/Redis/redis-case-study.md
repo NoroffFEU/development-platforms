@@ -1,8 +1,12 @@
 ---
 title: Redis Case Study
-author: Tord Åke Larsson <lordaake>
+author: Angelos Zaros <AngelosZar>
 tags: redis, case study, in-memory database, technology, implementation guide
 ---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/redis.png" alt="Redis Logo" width="300" height="300"/>
+</p>
 
 ## Introduction
 
