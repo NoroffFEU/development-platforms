@@ -17,6 +17,25 @@ Netlify is a modern development platform for building and deploying websites and
 - 2018: Launches Netlify Functions for serverless backend functionality.
 - 2020: Celebrates 1 million developers using the platform.
 
+## Main Features
+
+**JAMstack Support
+Built for modern development architectures with static site generators and dynamic content handling.
+
+**Continuous Deployment
+Automatic updates triggered by Git-based workflows.
+
+**Netlify Edge
+Provides faster load times with global distribution of content.
+
+**Netlify Functions
+Enables developers to add serverless backend functionality.
+
+**Built-in Analytics
+Offers privacy-first, performance-focused analytics.
+
+**Integrations
+Compatible with tools like GitHub, Bitbucket, and GitLab.
 
 ## Getting Started
 - Sign Up: Create an account at Netlify.
