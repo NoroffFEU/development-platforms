@@ -24,8 +24,9 @@ bolt.new, a cloud-based platform designed to simplify frontend development. It h
 - **Automatic Scaling**: Supports automatic scaling of applications to handle varying traffic loads without manual intervention.
 - **Continuous Deployment**: Integrates with GitHub, GitLab, and Bitbucket for automated deployments and version control.
 
-## References
+## Resources
 
 - [bolt.new](https://bolt.new/)
+- [support.bolt.new](https://support.bolt.new/Getting-Started-Guide-for-Bolt-new-174d971055d68015926ad8fa2b3db2dc)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/search?q=Developer%20Platforms)
 - [youtube - Greg Isenberg](https://youtu.be/1SfUMQ1yTY8?si=8ZQ_7J7H9mk-KZoj)
