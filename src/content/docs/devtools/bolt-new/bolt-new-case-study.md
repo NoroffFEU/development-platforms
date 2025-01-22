@@ -19,4 +19,4 @@ bolt.new, a cloud-based platform designed to simplify frontend development. It h
 
 - [bolt.new](https://bolt.new/)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/search?q=Developer%20Platforms)
-- [youtube - Greg Isenberg](https://www.youtube.com/watch?v=1SfUMQ1yTY8&t=1607s)
+- [youtube - Greg Isenberg](https://youtu.be/1SfUMQ1yTY8?si=8ZQ_7J7H9mk-KZoj)
