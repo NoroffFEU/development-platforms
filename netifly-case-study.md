@@ -21,4 +21,5 @@ Netlify is a modern development platform for building and deploying websites and
 
 
 ## References
+[General information] (https://www.netlify.com/)
 [History] (https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/)
