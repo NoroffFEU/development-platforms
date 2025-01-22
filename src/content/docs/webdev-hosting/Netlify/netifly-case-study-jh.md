@@ -37,6 +37,20 @@ Offers privacy-first, performance-focused analytics.
 **Integrations**
 Compatible with tools like GitHub, Bitbucket, and GitLab.
 
+### Strengths
+- User-friendly interface, making it accessible to developers of all skill levels.
+- Comprehensive Git integration for seamless CI/CD workflows.
+- Strong support for JAMstack frameworks like Gatsby, Hugo, and Jekyll.
+- Built-in features like form handling, analytics, and identity management, reducing reliance on external tools.
+- Free tier with generous allowances for small projects and personal use.
+- Possibility for frontend developers to implement the whole project without other developers.
+- Community-driven content contributions
+
+### Weaknesses
+- Limited support for backend-heavy applications or those requiring robust databases.
+- May not offer as deep an integration with some frameworks compared to competitors like Vercel (e.g., Next.js).
+- Potential scaling challenges for enterprise-level use cases with highly dynamic content.
+
 ## Market Comparison
 
 Netlify and Vercel are prominent platforms in the Jamstack ecosystem, each offering unique features tailored to modern web development. Below is a comparative analysis highlighting their advantages and disadvantages:
