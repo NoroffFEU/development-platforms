@@ -66,12 +66,9 @@ Netlify and Vercel are prominent platforms in the Jamstack ecosystem, each offer
 - **Netlify**: Offers a generous free tier with 100 GB of bandwidth and 300 build minutes per month. Paid plans start at $19 per month per member, providing additional features and increased limits.
 - **Vercel**: Provides a free tier with 100 GB of bandwidth and 100 build hours per month. The Pro plan starts at $20 per month per member, offering enhanced capabilities and higher usage limits.
 
-### Conclusion
+### Analysis Summary
 
 Both Netlify and Vercel offer robust platforms for deploying and managing modern web applications. **Netlify** stands out with its comprehensive built-in features and support for various static site generators, making it a versatile choice for diverse projects. **Vercel** excels in performance optimization and seamless integration with frontend frameworks, particularly Next.js, making it ideal for applications where speed and frontend performance are critical. The choice between the two platforms should be based on specific project requirements, framework preferences, and the development team's workflow.
-
-
-
 
 ## Getting Started
 - Sign Up: Create an account at Netlify.
@@ -79,6 +76,9 @@ Both Netlify and Vercel offer robust platforms for deploying and managing modern
 - Deploy: Select the branch and configure build settings.
 - Customize: Use Netlify's drag-and-drop interface or CLI for advanced workflows.
 - Go Live: Deploy and share your website instantly.
+
+## Conclusion 
+Netlify is a leading platform for deploying and scaling modern web applications, particularly within the JAMstack architecture. Its strengths include serverless functions, edge computing, and seamless CI/CD integration, making it a preferred choice for static and serverless projects. However, it is less suited for applications requiring complex backend infrastructure. As the platform evolves, Netlify continues to play a critical role in modern web development by enabling fast, scalable, and collaborative workflows.
 
 ## References
 [General information] (https://www.netlify.com/)
