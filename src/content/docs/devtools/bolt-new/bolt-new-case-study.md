@@ -15,6 +15,15 @@ bolt.new, a cloud-based platform designed to simplify frontend development. It h
 - **2022**: bolt.new expands its feature set, adding support for serverless functions and integrations with popular frontend frameworks.
 - **2023**: The platform grows its user base significantly and begins offering more robust deployment options for scaling applications.
 
+## Main Features
+
+- **Intuitive Interface**: A user-friendly platform that simplifies the development process, making it accessible for both beginners and experienced developers.
+- **Global CDN**: Ensures fast and reliable content delivery by caching assets across a worldwide network of servers.
+- **JAMstack Support**: Built with JAMstack in mind, making it easy to integrate with static site generators, APIs, and modern frontend frameworks.
+- **Serverless Functions**: Allows developers to run backend logic without managing servers, simplifying infrastructure setup.
+- **Automatic Scaling**: Supports automatic scaling of applications to handle varying traffic loads without manual intervention.
+- **Continuous Deployment**: Integrates with GitHub, GitLab, and Bitbucket for automated deployments and version control.
+
 ## References
 
 - [bolt.new](https://bolt.new/)
