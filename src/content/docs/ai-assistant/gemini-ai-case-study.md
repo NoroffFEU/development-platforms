@@ -1,7 +1,7 @@
 ---
-title: Gemini.ai Case Study
+title: Gemini AI Case Study
 author: Gyda Lofthus
-tags: Gemini.ai, case study, ai, assistant
+tags: Gemini, case study, ai, assistant, Google
 ---
 
 ## Introduction
@@ -32,7 +32,7 @@ The Gemini 2.0 has many strengths such as:
 
 ## Weaknesses
 
-Some weaknesses of the Gamini 2.0 include:
+Some weaknesses of the Gemini 2.0 include:
 
 - Limited availability. Currently the full access to Gemini is restricted to developers and enterprise customers on Google Cloud platforms.
 - Bias and Fairness. Like many AI models, Gemini 2.0 can inherit biases from its training data, leading to concerns about fairness and ethical implications in its outputs
@@ -44,10 +44,10 @@ Some weaknesses of the Gamini 2.0 include:
 
 ## References
 
-[Wikipedia - Gemini](<https://en.wikipedia.org/wiki/Gemini_(chatbot)#History>)
-[Britannica- Large language model](https://www.britannica.com/topic/large-language-model)
-[Blog Google - Introducing Gemini](https://blog.google/technology/ai/google-gemini-ai/?utm_source=chatgpt.com#sundar-note)
-[Blog Google - Introducing Gemini 2.0](https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/?utm_source=chatgpt.com#ceo-message)
-[Google - Latest News](https://blog.google/feed/google-workspace-generative-ai-features/?utm_source=chatgpt.com)
-[Observer - OpenAI o3 vs. Google Gemini 2.0](https://observer.com/2025/01/openai-google-gemini-agi/?utm_source=chatgpt.com)
-[Analytics Vidhya - What is Google Gemini?](https://www.analyticsvidhya.com/blog/2023/12/what-is-google-gemini-features-usage-and-limitations/?utm_source=chatgpt.com#h-google-gemini-limitations)
+- [Wikipedia - Gemini](<https://en.wikipedia.org/wiki/Gemini_(chatbot)#History>)
+- [Britannica- Large language model](https://www.britannica.com/topic/large-language-model)
+- [Blog Google - Introducing Gemini](https://blog.google/technology/ai/google-gemini-ai/?utm_source=chatgpt.com#sundar-note)
+- [Blog Google - Introducing Gemini 2.0](https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/?utm_source=chatgpt.com#ceo-message)
+- [Google - Latest News](https://blog.google/feed/google-workspace-generative-ai-features/?utm_source=chatgpt.com)
+- [Observer - OpenAI o3 vs. Google Gemini 2.0](https://observer.com/2025/01/openai-google-gemini-agi/?utm_source=chatgpt.com)
+- [Analytics Vidhya - What is Google Gemini?](https://www.analyticsvidhya.com/blog/2023/12/what-is-google-gemini-features-usage-and-limitations/?utm_source=chatgpt.com#h-google-gemini-limitations)
