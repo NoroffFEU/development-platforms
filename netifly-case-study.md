@@ -18,7 +18,12 @@ Netlify is a modern development platform for building and deploying websites and
 - 2020: Celebrates 1 million developers using the platform.
 
 
-
+## Getting Started
+- Sign Up: Create an account at Netlify.
+- Connect Repository: Link your GitHub, GitLab, or Bitbucket repository.
+- Deploy: Select the branch and configure build settings.
+- Customize: Use Netlify's drag-and-drop interface or CLI for advanced workflows.
+- Go Live: Deploy and share your website instantly.
 
 ## References
 [General information] (https://www.netlify.com/)
