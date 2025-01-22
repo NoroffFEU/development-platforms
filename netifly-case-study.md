@@ -47,3 +47,4 @@ Compatible with tools like GitHub, Bitbucket, and GitLab.
 ## References
 [General information] (https://www.netlify.com/)
 [History] (https://www.netlify.com/blog/2020/08/03/netlify-milestones-on-the-road-to-1-million-devs/)
+[Feautures] (https://docs.netlify.com/platform/primitives/)
