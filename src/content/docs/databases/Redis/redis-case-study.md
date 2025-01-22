@@ -167,10 +167,6 @@ Install the Redis Explorer extension from VS Code Marketplace to interact with R
 2. Type 'Redis: Add Connection'
 3. Enter connection details:
 
-## end of vs code extensions ⬆️ ⬆️ ⬆️
-
-<!--  -->
-
 ## Case Studies and Success Stories
 
 Redis has become a cornerstone technology across major enterprises, demonstrating exceptional versatility and scalability. Industry leaders leverage Redis in diverse ways:
