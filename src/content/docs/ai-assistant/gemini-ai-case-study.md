@@ -39,8 +39,26 @@ Some weaknesses of the Gemini 2.0 include:
 - Data requirements and computational costs. Gemini needs a lot of computing power and large amounts of data to work effectively. This makes it harder to scale and less accessible for widespread use.
 
 ## Comparison
+There are more and more chatbots entering the scene. Some of the most popular ones include ChatGPT, Claude and Gemini. In this document I will focus on comparing Gemini to ChatGPT as this is one of the biggest AI chatbots in the marked right now.
+
+### ChatGPT
+ChatGPT was launched as a prototype in November 2022. It supports a variety of use cases, including drafting text, brainstorming ideas, answering questions, rendering images, and writing code.
+
+### What they have in common
+- **Data analysis.** They both can analyze data and provide summaries, feedback and insights about it. They can also turn your data into different visualizations, such as graphs.
+- **Web searches.** Both search the web for real-time data to inform its responses. 
+- **Data management.** They both have similar controls for managing data. You can turn memories off delete conversations, and have conversations not show in your chat history. The only difference is that ChatGPT allows you to archive conversations. 
+
+### What makes them different
+- **Context window.** ChatGPT's content window is smaller than Gemini's. ChatGPT offers 128 000 tokens while Gemini offers one million. Even though this sounds like a big difference, you will probably not notice since 128 000 is more than enough. A context window in AI refers to the amount of information a large language model (LLM) can process at once. It's akin to the model's short-term memory, determining how much text it can consider when generating responses. The size of this window is measured in tokens, which are units of text like words or characters
+- **Logical reasoning.** ChatGPT's model o1 uses chain-of-thought reasoning to analyze problems, this is something Google is still working on. This makes ChatGPT the better option for solving tasks like decoding, solving crossword, and answering math questions. 
+- **Image generation.** Both apps lets you generate AI images. ChatGPT uses the DALL·E 3, while Gemini uses Imagen 3. ChatGPT limits the number of images you can create on a free account, while Gemini has no limits. Personally I think the images ChatGPT creates are worth paying for, as I find them much better than Gemini's. 
+- **File conversion.** ChatGPT can covert files from one format to another, which is something Gemini doesn't offer yet. 
+
 
 ## Conclusion
+Gemini represents Google's leap forward in generative AI, offering innovations like multimodal capabilities, seamless integration with Google tools, and a larger context window. These features position it as a powerful assistant. However, challenges remain. Biases in its training data can raise fairness and ethical concerns, while its high computational demands and reliance on extensive data make it expensive to operate and less accessible to smaller users. Despite these limitations, Gemini's advancements has great potential to shape the future of generative AI in meaningful ways.
+
 
 ## References
 
@@ -51,3 +69,6 @@ Some weaknesses of the Gemini 2.0 include:
 - [Google - Latest News](https://blog.google/feed/google-workspace-generative-ai-features/?utm_source=chatgpt.com)
 - [Observer - OpenAI o3 vs. Google Gemini 2.0](https://observer.com/2025/01/openai-google-gemini-agi/?utm_source=chatgpt.com)
 - [Analytics Vidhya - What is Google Gemini?](https://www.analyticsvidhya.com/blog/2023/12/what-is-google-gemini-features-usage-and-limitations/?utm_source=chatgpt.com#h-google-gemini-limitations)
+- [Wikipedia - ChatGPT](https://no.wikipedia.org/wiki/ChatGPT)
+- [Zapier - Gemini vs. ChatGPT](https://zapier.com/blog/gemini-vs-chatgpt/)
+- [McKinsey - Contex window](https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-a-context-window?utm_source=chatgpt.com)
