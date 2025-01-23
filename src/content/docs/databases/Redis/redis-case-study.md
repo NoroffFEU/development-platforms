@@ -32,7 +32,7 @@ Salvatore Sanfilippo's initial development of Redis was aimed at improving real-
 
 Redis excels through its architecture designed for exceptional performance and operational simplicity:
 
-- **Data Structures:** Support for strings, lists, sets, and beyond.
+- **Data Structures:**
 
   - Strings , Lists ,sets ,hashes
   - Sorted Sets with range queries
@@ -167,6 +167,14 @@ Install the Redis Explorer extension from VS Code Marketplace to interact with R
 2. Type 'Redis: Add Connection'
 3. Enter connection details:
 
+## Performance Optimization
+
+- Enable pipelining for bulk operations
+- Use appropriate data structures (e.g., HSET for nested data)
+- Configure maxmemory and eviction policies
+- Monitor metrics: hit/miss ratio, memory usage
+- Consider clustering for >25GB datasets
+
 ## Case Studies and Success Stories
 
 Redis has become a cornerstone technology across major enterprises, demonstrating exceptional versatility and scalability. Industry leaders leverage Redis in diverse ways:
@@ -188,6 +196,7 @@ Redis has evolved beyond its origins as a database and caching system to become 
 - [Mastering Redis(Documentation)](https://redis.io/documentation)
 - [Redis free course ](https://www.youtube.com/watch?v=XCsS_NVAa1g)
 - [Heroku Redis Pricing](https://www.dragonflydb.io/guides/heroku-redis-pricing)
+- [Performance Optimization](https://redis.io/kb/doc/1mebipyp1e/performance-tuning-best-practices)
 - [Redis vs Memcached: Battle of the In-Memory Data Store Giants](https://www.wallarm.com/cloud-native-products-101/redis-vs-memcached-in-memory-data-store)
 
 ## Additional Resources
