@@ -8,7 +8,7 @@ tags: X, xAI, Grok, AI, Aurora, Elon Musk, Twitter, chatbot, Machine Learning, A
 
 Grok is the name of a generative AI chatbot developed by the company xAI – with the proclaimed mission to "Understand the Universe". According to Oxford Learner's Dictionaries, to "grok" something means "to understand something completely using your feelings rather than considering the facts". The chatbot was launched in 2023 and is based on a large language model with the same name.
 
-Elon Musk, world's wealthiest man as of January 2024, co-founded the AI research organization OpenAI in 2015, but parted ways in 2018 because of disagreements. In 2023 he proclaimed the intent to create a truth-seeking AI as he viewed ChatGPT was trained to be politically correct.
+Elon Musk, world's wealthiest man as of January 2025, co-founded the AI research organization OpenAI in 2015, but parted ways in 2018 because of disagreements. In 2023 he proclaimed the intent to create a truth-seeking AI as he viewed ChatGPT as being trained to be politically correct.
 
 ## Brief History
 
@@ -28,7 +28,7 @@ Elon Musk, world's wealthiest man as of January 2024, co-founded the AI research
 
 When asking Grok itself about its primary purpose, this is what it replied: "Grok is a multifaceted AI tool developed by xAI, primarily aimed at providing answers to a wide range of questions with an emphasis on understanding human intentions and delivering helpful responses."
 
-Furthermore it underlined the design to interpret and respond to users with a deep understanding of context and intent. The integration with social media platform X (formerly Twitter) enables Grok to flaunt up to date knowledge about current events and discussions around the world. As opposed to more politically correct chatbots, Grok does as well tolerate a more edgy discourse and can respond with humour. Beyond textual queries, Grok may as well analyze images and diagrams.
+Furthermore it underlined its design to interpret and respond to users with a deep understanding of context and intent. The integration with social media platform X (formerly Twitter) enables Grok to flaunt up to date knowledge about current events and discussions around the world. As opposed to more politically correct chatbots, Grok does as well tolerate a more edgy discourse and can respond with humour. Beyond textual queries, Grok may as well analyze images and diagrams.
 
 Underneath I want to go through specifically how Grok can be beneficial for developers:
 
@@ -38,7 +38,7 @@ Grok can provide coding assistance, including debugging and generation of code. 
 
 ### Learning New Ideas
 
-Learning new programming concepts is simplified using Grok as it is driven by real time input of information and may thus come up with revolutionary ideas. It can teach developers new languages, tools and frameworks and guide them to additional resources online for further studies.
+Learning new programming concepts is simplified using Grok as it is driven by real time input of information, and may thus come up with revolutionary ideas. It can teach developers new languages, tools and frameworks and guide them to additional resources online for further studies.
 
 ### API and Tool Integration
 
@@ -47,7 +47,7 @@ Developers can integrate Grok's capabilities into their own applications or serv
 Key Features of Grok:
 
 - **Smart AI:** Grok provides detailed answers as well as tools for writing, learning, coding help and problem solving.
-- **X Integration:** That Grok is built into the X app makes it easy for X users to use it without needing an additional app.
+- **X Integration:** That Grok is built into the X app makes it easy for X users to use it without needing to download an additional app.
 - **Image generation:** Grok easily converts text prompts into realistic pictures.
 - **Internet Access:** This keeps Grok up to date with the newest information out there.
 
@@ -57,13 +57,15 @@ The most obvious AI chatbots to compare the capabilities of Grok with would be t
 
 A major difference between Grok and f.ex. ChatGPT is the much larger dataset of the latter. That's making ChatGPT much more efficient at handling large arrays of queries and generate creative content. Grok may however come up with more witty answers and doesn't shy away from hard questions.
 
+Another advantage Grok got compared to more static datasets of other bots, is its continuos connection to the internet through posts on X. This is although indeed not a certificate of Grok as being more truthful, as social media posts are not necessarily a reflection of reality and might be filled with trolling, conspiracy theories and so on.
+
 Another interesting factor is the image generation through Aurora. Whereas ChatGPT produces pictures that might easily be identified as artificially made, Grok can come up with photorealistic images of even copyrighted and very specific people and things. This would make Grok ideal for programmers for to make realistic example or placeholder images instead of f.ex. collecting royalty-free images from sites like Unsplash or other more image specific AI tools.
 
 I want to break down the pros and cons of using Grok below:
 
 ### Pros of Grok
 
-- Free of use with a free X account
+- Free of use with a X account
 - No need to download any additional app than X
 - Access to real time data from X posts
 - Photorealistic image generation of copyrighted material
@@ -90,13 +92,11 @@ So for now, the steps required to use Grok outside U.S., Australia and India is 
 
 ## Conclusion
 
-To conclude, Grok can be described as having a disadvantage compared to ChatGPT when it comes to performance and the ability to handle complex programming inquiries. While Grok may come up with a more up to date and innovative solution, in general ChatGPT would have a more reliable and easy to understand comments alongside its coding generation.
-
-The main advantage of Grok is arguably that its more up to date – with the benefits and disadvantages that may bring.
+To conclude, Grok can be described as having a disadvantage compared to ChatGPT when it comes to performance and the ability to handle complex programming inquiries. While Grok may come up with a more up to date and innovative solution, in general ChatGPT would have a more reliable and easy to understand comments alongside its coding generation. The main advantage of Grok is arguably that its more up to date – with the benefits and disadvantages that may bring.
 
 Currently, the main use cases for Grok are similar to that of ChatGPT, albeit less broad and with less options for plugins etc. The main limitations are the substantially smaller dataset as compared to competitors, making Grok less capable of coming up with solutions to complex coding and math tasks. That Grok stays up to date may as well be a disadvantage as the information it provides may be false.
 
-For the future, Grok may grow to become a more competent competitor to ChatGPT as stronger LLMs are getting released. It's image generation through Aurora is already competitive and even better than many other AI solutions in terms of realism. With the standing of Musk as a highly influential and ambitious personality in tech and in the world in general, I think we will see Grok develop to become a more serious competitor to ChatGPT as time goes. For now Grok may be an interesting substitute for f.ex. ChatGPT when it comes to coding purposes, but it would still make sense to stick with the latter – or even more developer streamlined tools.
+For the future, Grok may grow to become a more competent competitor to ChatGPT as stronger LLMs are getting released. Its image generation through Aurora is already competitive and even better than many other AI solutions in terms of realism. With the standing of Musk as a highly influential and ambitious personality in tech and in the world in general, I think we will see Grok develop to become a more serious competitor to ChatGPT as time goes. For now Grok may be an interesting substitute for f.ex. ChatGPT when it comes to coding purposes, but it would still make sense to stick with the latter – or even more developer streamlined tools.
 
 ## References
 
