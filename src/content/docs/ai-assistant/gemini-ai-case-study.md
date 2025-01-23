@@ -22,21 +22,30 @@ The Gemini Flash is an experimental model that offers enhanced performance and s
 
 The Gemini Advanced is integrated into different tools in Google, such as Gmail, Docs, Sheets, Chat, and Meet. This version assists with tasks such as summarizing emails, creating professional documents, and taking meeting notes. It also helps with complex projects involving coding, research, or data analysis.
 
+Here is an example showing how you can ask Gemini for a graph of the weather. The temperatures I found online was some degrees different from what Gemini gave me. This was based on the weather 23.01.25:
+
+![Screenshot](../../../assets/gemini/2025-01-23.png)
+
+You can also ask Gemini to make you images. I asked for a river with mountains behind and it made me a pretty good image. From my impression Gemini makes a lot better images with the Advanced version compared to the 1.5 Flash version. This is made with the Gemini Advanced:
+
+![Screenshot](../../../assets/gemini/Skjermbilde%202025-01-23%20112421.png)
+
+
 ## Strengths
 
 The Gemini 2.0 has many strengths such as:
 
-- Multimodal Capabilities: Gemini 2.0 can process and generate text, images, and audio, allowing for more natural and versatile interactions.
-- Enhanced Reasoning: The "Thinking Mode" provides step-by-step explanations, improving the model's reasoning abilities.
-- Integrated Outputs: Users can generate combined outputs, such as blog posts with AI-generated visuals and multilingual text-to-speech audio, from a single prompt.
+- **Multimodal Capabilities:** Gemini 2.0 can process and generate text, images, and audio, allowing for more natural and versatile interactions.
+- **Enhanced Reasoning:** The "Thinking Mode" provides step-by-step explanations, improving the model's reasoning abilities.
+- **Integrated Outputs:** Users can generate combined outputs, such as blog posts with AI-generated visuals and multilingual text-to-speech audio, from a single prompt.
 
 ## Weaknesses
 
 Some weaknesses of the Gemini 2.0 include:
 
-- Limited availability. Currently the full access to Gemini is restricted to developers and enterprise customers on Google Cloud platforms.
-- Bias and Fairness. Like many AI models, Gemini 2.0 can inherit biases from its training data, leading to concerns about fairness and ethical implications in its outputs
-- Data requirements and computational costs. Gemini needs a lot of computing power and large amounts of data to work effectively. This makes it harder to scale and less accessible for widespread use.
+- **Limited availability.** Currently the full access to Gemini is restricted to developers and enterprise customers on Google Cloud platforms.
+- **Bias and Fairness.** Like many AI models, Gemini 2.0 can inherit biases from its training data, leading to concerns about fairness and ethical implications in its outputs
+- **Data requirements and computational costs.** Gemini needs a lot of computing power and large amounts of data to work effectively. This makes it harder to scale and less accessible for widespread use.
 
 ## Comparison
 There are more and more chatbots entering the scene. Some of the most popular ones include ChatGPT, Claude and Gemini. In this document I will focus on comparing Gemini to ChatGPT as this is one of the biggest AI chatbots in the marked right now.
@@ -52,7 +61,7 @@ ChatGPT was launched as a prototype in November 2022. It supports a variety of u
 ### What makes them different
 - **Context window.** ChatGPT's content window is smaller than Gemini's. ChatGPT offers 128 000 tokens while Gemini offers one million. Even though this sounds like a big difference, you will probably not notice since 128 000 is more than enough. A context window in AI refers to the amount of information a large language model (LLM) can process at once. It's akin to the model's short-term memory, determining how much text it can consider when generating responses. The size of this window is measured in tokens, which are units of text like words or characters
 - **Logical reasoning.** ChatGPT's model o1 uses chain-of-thought reasoning to analyze problems, this is something Google is still working on. This makes ChatGPT the better option for solving tasks like decoding, solving crossword, and answering math questions. 
-- **Image generation.** Both apps lets you generate AI images. ChatGPT uses the DALL·E 3, while Gemini uses Imagen 3. ChatGPT limits the number of images you can create on a free account, while Gemini has no limits. Personally I think the images ChatGPT creates are worth paying for, as I find them much better than Gemini's. 
+- **Image generation.** Both apps lets you generate AI images. ChatGPT uses the DALL·E 3, while Gemini uses Imagen 3. ChatGPT limits the number of images you can create on a free account, while Gemini has no limits.
 - **File conversion.** ChatGPT can covert files from one format to another, which is something Gemini doesn't offer yet. 
 
 
