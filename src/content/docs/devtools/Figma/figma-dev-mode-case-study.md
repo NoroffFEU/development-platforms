@@ -1,7 +1,7 @@
 ---
 title: Figma Dev Mode Case Study
 author: Oda Karoline Rolstad Verbeke <kittypoda>
-tags: figma, design, ui/ux, collaboration
+tags: figma, design, UI/UX, collaboration, case study
 ---
 
 ## Introduction
