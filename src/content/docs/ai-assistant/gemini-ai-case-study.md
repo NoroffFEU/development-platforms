@@ -26,7 +26,7 @@ Here is an example showing how you can ask Gemini for a graph of the weather. Th
 
 ![Screenshot](../../../assets/gemini/2025-01-23.png)
 
-You can also ask Gemini to make you images. I asked for a river with mountains behind and it made me a pretty good image. From my impression Gemini makes images pretty much just as good on the free version and the Advanced version. This is made with the Gemini Advanced:
+You can also ask Gemini to make you images. I asked for a river with mountains behind and it made me a pretty good image. From my impression Gemini makes images pretty much just as good on the free version as the Advanced version. This is made with the Gemini Advanced:
 
 ![Screenshot](../../../assets/gemini/Skjermbilde%202025-01-23%20112421.png)
 
