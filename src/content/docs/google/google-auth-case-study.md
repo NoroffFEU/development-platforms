@@ -8,25 +8,24 @@ tags: google, authenticator, mfa, security, case study, app
 
 This case study will dive deeper into Google Authentication, what it is, its history, and how it works. I will also go through the pros and cons, and compare it to other similar products. First of all, what do we mean by "Authentication" in Development Platforms?
 
-Authentication is the process of verifying a user's identity. By asking the user for either an email or a username and password. The server can check the provided details against a database or an external service[1].
+Authentication is the process of verifying a user's identity. By asking the user for either an email or a username and password. The server can check the provided details against a database or an external service[^1].
 
-There are several types of authentications like local, third-party and passwordless authentication but also "MFA". MFA stands for multi-factor authentication. It is an authentication process that is built upon using multiple means of identification to ensure a user's identity[1]. Google Authenticator is a MFA, but how does it work?
+There are several types of authentications like local, third-party and passwordless authentication but also "MFA". MFA stands for multi-factor authentication. It is an authentication process that is built upon using multiple means of identification to ensure a user's identity[^1]. A username and password combination alone can easily be stolen. MFA can help keep your data safe from hackers. Google Authenticator is a MFA, but how does it work?
 
 ### What is Google Authenticator?
 
 Google Authenticator is a free mobile app that utilize the most common MFA approach, which is two-factor authentication (2FA). The 2FA method requires two forms of identification to verify the identify of a user. The two forms of identification can be either of these:
 
-1. A PIN or password[1].
-2. A mobile device or other device[1].
-3. Biometric data - voice recognition, fingerprint or retina scan[1].
-4. Security questions[1].
+1. A PIN or password[^1].
+2. A mobile device or other device[^1].
+3. Biometric data - voice recognition, fingerprint or retina scan[^1].
+4. Security questions[^1].
 
-The Google Authenticator app generates a 6-digit code which is a time-based one-time password (TOTP). To confirm a user's identity and gain access to their accounts, resources, or data, the user must enter the code in addition to their login details, such as their username and password[2].
+The Google Authenticator app generates a 6-digit code which is a time-based one-time password (TOTP). To confirm a user's identity and gain access to their accounts, resources, or data, the user must enter the code in addition to their login details, such as their username and password[^2]. In other words, the two-step verification provides an extra layer of security to prevent unauthorized login attempts in case your password gets compromised.
 
 ## Brief History
 
-Add history of google authenticator.
-Released sept 20th 2010.
+- **2010**: The app was initially released 20th of september[^3].
 
 ## Main Features
 
@@ -38,7 +37,15 @@ Compare advantages and disadvantages of the authenticator. Compare to other auth
 
 ## Getting Started
 
-Describe how to use the authenticator.
+### Setting up and getting started with Google Authenticator:
+
+1. Download the Google Authenticator app from Google Play Store or Apple App Store on your device.
+
+2. Login to your chosen website or service, navigate to security settings and enable 2FA or MFA on your account. You will be provided with a QR code or a setup key.
+
+3. Open Google Authenticator app on your device and tap the plus sign to add your chosen website or service. Either scan the QR code or enter the setup key to add the account to the app. You will get a 6-digit code that changes every 30 seconds.
+
+4. Return to your website or service and enter the 6-digit code to verify and complete the setup.
 
 ## Conclusion
 
@@ -46,12 +53,10 @@ Summarize findings. Main advantages/disadvantages. Main use cases. Main limitati
 
 ## References
 
-[1] [Noroff - Module 3: Security](https://mollify.noroff.dev/content/feu2/development-platforms/module-3/security?nav=undefined)
-
-[2] [Daito article - The beginner's guide to Google Authenticator](https://www.daito.io/resources/google-authenticator-guide)
+[^1]: [Noroff - Module 3: Security](https://mollify.noroff.dev/content/feu2/development-platforms/module-3/security?nav=undefined)
+[^2]: [Daito article - The beginner's guide to Google Authenticator](https://www.daito.io/resources/google-authenticator-guide)
+[^3]: [Wikipedia 2024 - Google Authenticator](https://en.wikipedia.org/wiki/Google_Authenticator)
 
 https://www.techtarget.com/searchsecurity/definition/Google-Authenticator
-
-https://en.wikipedia.org/wiki/Google_Authenticator
 
 https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en&pli=1
