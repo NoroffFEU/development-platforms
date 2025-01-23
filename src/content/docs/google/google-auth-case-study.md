@@ -68,3 +68,7 @@ Summarize findings. Main advantages/disadvantages. Main use cases. Main limitati
 [^4]: [Google play store](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en&pli=1)
 
 https://www.techtarget.com/searchsecurity/definition/Google-Authenticator
+
+https://www.softforge.co.uk/blogs/all-topics/how-to-set-up-and-use-google-authenticator-a-step-by-step-guide
+
+https://techcrunch.com/2010/09/20/google-secure-password/
