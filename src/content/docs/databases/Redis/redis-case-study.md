@@ -175,6 +175,14 @@ Install the Redis Explorer extension from VS Code Marketplace to interact with R
 - Monitor metrics: hit/miss ratio, memory usage
 - Consider clustering for >25GB datasets
 
+## Security Best Practices
+
+- Enable protected mode and authentication
+- Use TLS for encryption in transit
+- Implement role-based access control (ACL)
+- Disable FLUSHALL/FLUSHDB in production
+- Regular security audits and updates
+
 ## Case Studies and Success Stories
 
 Redis has become a cornerstone technology across major enterprises, demonstrating exceptional versatility and scalability. Industry leaders leverage Redis in diverse ways:
@@ -197,6 +205,7 @@ Redis has evolved beyond its origins as a database and caching system to become 
 - [Redis free course ](https://www.youtube.com/watch?v=XCsS_NVAa1g)
 - [Heroku Redis Pricing](https://www.dragonflydb.io/guides/heroku-redis-pricing)
 - [Performance Optimization](https://redis.io/kb/doc/1mebipyp1e/performance-tuning-best-practices)
+- [Security best practices](https://redis.io/kb/doc/1mebipyp1e/performance-tuning-best-practices)
 - [Redis vs Memcached: Battle of the In-Memory Data Store Giants](https://www.wallarm.com/cloud-native-products-101/redis-vs-memcached-in-memory-data-store)
 
 ## Additional Resources
@@ -206,6 +215,7 @@ Redis has evolved beyond its origins as a database and caching system to become 
 - [Redis Best Practices](https://redis.io/topics/best-practices)
 - [Redis Modules](https://redis.io/modules)
 - [Redis Configurations(Article)](https://www.geeksforgeeks.org/complete-tutorial-of-configuration-in-redis/)
+- [Security best practices(Article)](https://medium.com/@okanyildiz1994/mastering-redis-security-an-in-depth-guide-to-best-practices-and-configuration-strategies-df12271062be)
 - [Redis Configuration (Official)](https://redis.io/docs/latest/operate/oss_and_stack/management/config/)
 
 ## Citing Redis Success Stories
