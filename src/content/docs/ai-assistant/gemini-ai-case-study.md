@@ -22,14 +22,17 @@ The Gemini Flash is an experimental model that offers enhanced performance and s
 
 The Gemini Advanced is integrated into different tools in Google, such as Gmail, Docs, Sheets, Chat, and Meet. This version assists with tasks such as summarizing emails, creating professional documents, and taking meeting notes. It also helps with complex projects involving coding, research, or data analysis.
 
-Here is an example showing how you can ask Gemini for a graph of the weather. The temperatures I found online was some degrees different from what Gemini gave me. This was based on the weather 23.01.25:
+Here is an example showing how you can ask Gemini for a graph of the weather. The temperatures I found online was a little colder than what Gemini gave me. This was based on the weather 23.01.25:
 
 ![Screenshot](../../../assets/gemini/2025-01-23.png)
 
-You can also ask Gemini to make you images. I asked for a river with mountains behind and it made me a pretty good image. From my impression Gemini makes a lot better images with the Advanced version compared to the 1.5 Flash version. This is made with the Gemini Advanced:
+You can also ask Gemini to make you images. I asked for a river with mountains behind and it made me a pretty good image. From my impression Gemini makes images pretty much just as good on the free version and the Advanced version. This is made with the Gemini Advanced:
 
 ![Screenshot](../../../assets/gemini/Skjermbilde%202025-01-23%20112421.png)
 
+This was made with the free version:
+
+![Screenshot](../../../assets/gemini/3.png)
 
 ## Strengths
 
