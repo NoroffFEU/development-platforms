@@ -1,4 +1,8 @@
-# Figma Dev Mode Case Study
+---
+title: Figma Dev Mode Case Study
+author: Oda Karoline Rolstad Verbeke
+tags: figma, design, 
+---
 
 ## Introduction
 Figma, a popular web-based design and prototyping tool, introduced **Dev Mode** to streamline the workflow between designers and developers. This feature addresses one of the most common challenges in front-end development: efficiently translating design files into production-ready code. Dev Mode enhances collaboration by providing developers with all the necessary design specifications and assets directly within the Figma interface.
