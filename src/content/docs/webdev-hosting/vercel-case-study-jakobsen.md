@@ -24,6 +24,8 @@ Vercel is one
 ## Market Comparison
 
 
+
+
 ## Problems or challenges
 
 ## Getting Started
@@ -38,11 +40,7 @@ To deploy a new Project, import an existing Git Repository or get started with o
 ## References
 
 - [vercel.com](https://vercel.com)
-
-
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [wikipedia.org] (https://en.wikipedia.org/wiki/Vercel)
 
 ## Additional Resources
 
