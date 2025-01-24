@@ -6,7 +6,7 @@ tags: google, authenticator, mfa, security, case study, app
 
 ## Introduction
 
-This case study will dive deeper into Google Authentication, what it is, its history, and how it works. I will also go through the pros and cons, and compare it to other similar products. First of all, what do we mean by "Authentication" in Development Platforms?
+This case study will dive deeper into Google Authenticator, what it is, its history, and how it works. I will also go through the pros and cons, and compare it to other similar products. First of all, what do we mean by "Authentication" in Development Platforms?
 
 Authentication is the process of verifying a user's identity. By asking the user for either an email or a username and password. The server can check the provided details against a database or an external service.[^1]
 
@@ -43,6 +43,23 @@ Describe purpose of the authenticator. How can it be useful to developers? Which
 ## Market Comparison
 
 Compare advantages and disadvantages of the authenticator. Compare to other authenticators on the market.
+
+Pros:
+
+- Easy to use
+- Free
+- Can manage codes for several accounts
+- Account creation is not required
+
+Cons:
+
+- Collects a lot of data
+
+Other authenticators:
+
+- Microsoft Authenticator
+- 2FAS
+- Authy
 
 ## Getting Started
 
