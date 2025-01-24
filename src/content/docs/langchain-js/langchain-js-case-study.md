@@ -1,3 +1,9 @@
+---
+title: LangChain Case Study
+author: Thi Minh Thu Huynh <Mithu225>
+tags: langchain, case study, platform.
+---
+
 ## Introduction
 LangChain.js is the JavaScript implementation of the acclaimed LangChain framework, specifically tailored for developers building applications in JavaScript and TypeScript. This framework is designed to seamlessly integrate Large Language Models (LLMs) into modern JavaScript ecosystems, enabling the creation of intelligent, dynamic, and context-aware applications. By providing a robust set of modules, LangChain.js simplifies complex tasks such as prompt engineering, context management, and chain orchestration. Its developer-friendly API and modular design empower JavaScript developers to unlock the full potential of LLMs, fostering innovation and accelerating development across various industries.
 
