@@ -194,7 +194,7 @@ EXPOSE 3000
 
 # Start the Node.js application
 CMD ["npm", "start"]
-
+```
 
 ### 3. Build and Run the Container
 
@@ -207,6 +207,8 @@ docker run -d -p 3000:3000 --name my-running-node-app my-node-app
 
 # (Optional) Check logs to ensure your app started
 docker logs my-running-node-app
+```
+
 
 - **Conclusion**:
 
