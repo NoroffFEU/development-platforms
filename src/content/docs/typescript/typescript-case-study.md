@@ -1,5 +1,5 @@
 ---
-title: Typescript
+title: TypeScript
 author: Mathias K. Moen
 tags: typescript, type safety, syntax, tool, error handling, scaling, javascript, development platform 
 ---
@@ -37,21 +37,32 @@ TypeScript offers several key features that enhance JavaScript development:
 
 ## Market Comparison
 
-TypeScript has gained significant popularity among developers, but it's not the only option for adding types to JavaScript. Here's how it compares to some alternatives:
+
+
+TypeScript has gained significant popularity among developers, but it's not the only option for adding types to JavaScript. I'll give a few comparisons, starting with TS vs JS:
 
 1. **TypeScript vs. JavaScript**
-   - Advantages: Static typing, better tooling, easier refactoring
-   - Disadvantages: Learning curve, compilation step, slightly more verbose
 
-2. **TypeScript vs. Flow (Facebook's static type checker)**
+   - Advantages:
+     - TypeScript: Static typing, better tooling, easier refactoring, scaling, autocompletion, easier to find errors
+     - Javascript: Dynamic typing, no compilation step, more flexible, widely used, faster development cycle
+
+   - Disadvantages:
+     - TypeScript: Learning curve, compilation step, slightly more verbose
+     - Javascript: Error prone, harder to maintain large codebases, less tooling support, difficult to refactor
+   
+![Javascript Example](/src/assets/TypeScript/js-example.png "Javascript Example")
+![Javascript Example](/src/assets/TypeScript/ts-example.png "TypeScript Example")
+
+1. **TypeScript vs. Flow (Facebook's static type checker)**
    - Advantages: Larger community, better tooling, more frequent updates
    - Disadvantages: Requires compilation, slightly more complex setup
 
-3. **TypeScript vs. Dart**
-   - Typescript: Closer to JavaScript, easier adoption for JS developers
+2. **TypeScript vs. Dart**
+   - TypeScript: Closer to JavaScript, easier adoption for JS developers
    - Dart: Dart has better performance for mobile apps (Flutter)
 
-4. **TypeScript vs. JSDoc**
+3. **TypeScript vs. JSDoc**
    - Advantages:
      - TypeScript: Built-in type system, stronger static analysis, better tooling, ideal for large projects.
      - JSDoc: No compilation required, easy to add incrementally, works with plain JavaScript.
@@ -60,17 +71,19 @@ TypeScript has gained significant popularity among developers, but it's not the 
      - TypeScript: Requires a build step, more setup, steeper learning curve.
      - JSDoc: Limited type-checking, verbose syntax, less consistency for advanced features.
 
+![Javascript Example](/src/assets/TypeScript/jsdoc-example.png "JSDocs Example")
+
 ## Getting Started
 
 To start using TypeScript:
 
 1. Install TypeScript globally:
 ```bash
-npm install -g typescript
+npm install -g TypeScript
 ```
 
 2. Create a TypeScript file (e.g., `hello.ts`):
-```typescript
+```TypeScript
 function greet(name: string) {
   console.log(`Hello, ${name}!`);
 }
@@ -78,7 +91,7 @@ function greet(name: string) {
 greet("TypeScript");
 ```
 
-3. Compile the Typescript file:
+3. Compile the TypeScript file:
 ```bash
 tsc hello.ts
 ```
@@ -90,21 +103,22 @@ node hello.js
 
 ## Conclusion
 
-TypeScript has become an essential tool for many JavaScript developers, especially for large-scale applications. Its static typing system helps catch errors early, improves code quality, and enhances developer productivity through better tooling and IDE support. While it does introduce a compilation step and a learning curve, the benefits often outweigh these drawbacks for many projects.
+TypeScript has become an essential tool for many JavaScript developers, especially for large-scale applications. Its static typing system helps catch errors early, improves code quality, and enhances developer productivity through better tooling and IDE support. While it does introduce a compilation step and a learning curve, the benefits often outweigh these drawbacks for many projects.  
+Personally I would strongly suggest learning at least the basics since most open JavaScript positions (Norwegian market) uses TypeScript. 
 
 As JavaScript continues to evolve, TypeScript is likely to remain relevant by quickly adopting new ECMAScript features and providing type definitions for popular libraries. Its growing ecosystem and strong community support suggest a bright future for TypeScript in web and Node.js development.
 
 ## References
 
-- [Typescript Official Website](https://www.typescriptlang.org/)
-- [Typescript Github Repo](https://github.com/microsoft/TypeScript)
-- [Typescript Docs](https://www.typescriptlang.org/docs/handbook/release-notes/overview.html)
-- [Typescript Wikipedia](https://en.wikipedia.org/wiki/TypeScript)
-- [Typescript in 100 seconds](https://www.youtube.com/watch?v=zQnBQ4tB3ZA)
+- [TypeScript Official Website](https://www.TypeScriptlang.org/)
+- [TypeScript Github Repo](https://github.com/microsoft/TypeScript)
+- [TypeScript Docs](https://www.TypeScriptlang.org/docs/handbook/release-notes/overview.html)
+- [TypeScript Wikipedia](https://en.wikipedia.org/wiki/TypeScript)
+- [TypeScript in 100 seconds](https://www.youtube.com/watch?v=zQnBQ4tB3ZA)
 
 ## Additional Resources
 
-- [Youtube - Typescript - The basics](https://www.youtube.com/watch?v=ahCwqrYpIuM)
-- [Youtube - Learn Typescript Generics](https://www.youtube.com/watch?v=EcCTIExsqmI)
-- [Youtube - React Typescript Tutorial Series](https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=1) (Codevolution is highly recommended, free and easily digested tutorials on different dev platforms/tools)
-- [VSCode Extension - Pretty Typescript Errors](https://marketplace.visualstudio.com/items?itemName=YoavBls.pretty-ts-errors)
+- [Youtube - TypeScript - The basics](https://www.youtube.com/watch?v=ahCwqrYpIuM)
+- [Youtube - Learn TypeScript Generics](https://www.youtube.com/watch?v=EcCTIExsqmI)
+- [Youtube - React TypeScript Tutorial Series](https://www.youtube.com/watch?v=TiSGujM22OI&list=PLC3y8-rFHvwi1AXijGTKM0BKtHzVC-LSK&index=1) (Codevolution is recommended, free and easily digested tutorials on different dev platforms/tools)
+- [VSCode Extension - Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=YoavBls.pretty-ts-errors)
