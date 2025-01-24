@@ -99,7 +99,7 @@ After implementing Netlify, the team experienced:
 Using Netlify for a recent project, I was impressed by the speed and simplicity of deployment. Setting up HTTPS with a single click and testing deploy previews before going live saved significant time. While I faced challenges with serverless function limits, the overall experience was seamless and efficient.
 **Hypothesis on the Future of Web Hosting** With the rise of JAMstack and serverless computing, platforms like Netlify are likely to dominate the hosting landscape. I foresee a future where web hosting becomes even more abstracted, enabling developers to deploy complex applications with minimal configuration. However, flexibility and backend integration will remain areas for growth.
 
-##Practical Value: Real-world Use Case
+## Practical Value: Real-world Use Case
 
 A mid-sized e-commerce company adopted Netlify for their JAMstack site. Results included:
 
@@ -135,7 +135,7 @@ Netlify is a transformative platform that simplifies web hosting and deployment,
 
 - [Article on JAMstack:] (https://jamstack.org)
 
-- [Firebase Overview:] https://firebase.google.com
+- [Firebase Overview:] (https://firebase.google.com)
 
-- [DigitalOcean App Platform:] https://www.digitalocean.com
+- [DigitalOcean App Platform:] (https://www.digitalocean.com)
 
