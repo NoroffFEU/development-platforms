@@ -1,7 +1,7 @@
 ---
 title: Figma Dev Mode Case Study
 author: Oda Karoline Rolstad Verbeke <kittypoda>
-tags: figma, design, UI/UX, collaboration, case study
+tags: figma, figma dev mode, design, UI/UX, collaboration, case study
 ---
 
 ## Introduction
@@ -18,8 +18,11 @@ Figma Dev Mode is designed for:
 - **Product Teams**: Facilitating seamless collaboration and reducing the risk of miscommunication during the development process.
 
 ## Key Features of Dev Mode
-- **Code Snippets**: Dev Mode allows developers to view and copy automatically generated code snippets for elements in CSS, Swift, or XML.
-- **Inspect Mode**: Provides detailed information about sizes, spacing, and typography.
+- **Code Snippets**: Dev Mode allows developers to view and copy automatically generated code snippets for elements in CSS, Swift, or XML. These snippets inclued detailed information such as:
+  - **Color Codes:** Provides HEX, RGB, and HSL values for colors used in the design
+  - **Typography:** Displays font families, sizes, weights, line heights and letter spacing
+  - **Dimensions and Spacing:** Highlights the width, height, padding and margin of elements.
+  - **Component Structure:** Breaks down nested elements and layers, making it easier to understand the hierarchy.
 - **Asset Export**: Developers can download icons, images, and other assets directly from Figma in various formats.
 - **Version History**: Tracks changes made to the design, ensuring developers work with the most up-to-date files.
 - **Plugin Support**: Integrates with developer-focused plugins like Zeplin and Storybook.
@@ -46,5 +49,8 @@ Figma Dev Mode is a powerful addition to the Figma ecosystem, bridging the gap b
 1. Figma Official Documentation: [https://www.figma.com](https://www.figma.com)
 2. Config 2023 Keynote: [https://www.figma.com/config](https://www.figma.com/config)
 3. Zeplin vs. Figma Dev Mode Comparison: [https://example.com/comparison](https://example.com/comparison)
+4. Figma Dev Mode Blog Post: https://www.figma.com/blog/dev-mode 
+
+
 
 
