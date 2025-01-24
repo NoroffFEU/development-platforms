@@ -196,7 +196,7 @@ EXPOSE 3000
 CMD ["npm", "start"]
 
 
-*### 3. Build and Run the Container
+### 3. Build and Run the Container
 
 ```bash
 # Build the Docker image from the Dockerfile in the current directory
