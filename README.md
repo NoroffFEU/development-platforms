@@ -10,6 +10,10 @@ Explore the live [site](https://library.noroff.dev/)
 
 Development Platforms is a collaborative research course operated by Noroff FEU. The course is designed to give students exposure to and practice with technical research and documentation.
 
+## Requirements
+
+Node.js - v18.17.1 or v20.3.0, v22.0.0 or higher. ( v19 and v21 are not supported.)
+
 ## Contributing
 
 1. Create a `fork` of this repository.

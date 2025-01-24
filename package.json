@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "engines": {
-    "node": ">=18.14.1"
+    "node": ">=18.17.1"
   },
   "license": "CC-BY-SA-4.0",
   "scripts": {
