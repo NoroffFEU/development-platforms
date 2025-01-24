@@ -5,6 +5,7 @@ author: Anand Chetty
 ---
 
 History:
+
 In 2011 the Facebook had issues with code maintenance due to increasing numbers of features. The growing number of team-members and app-features slowed them down so over time their app became difficult to maintain.The engineers could not keep up with the cascading updates.
 -cascading updates ensure that when a primary key in a parent table changes, the related foreign keys in child tables are automatically updated to maintain data integrity.
 
@@ -18,8 +19,30 @@ In 2011 the Facebook had issues with code maintenance due to increasing numbers 
 
 What is React?
 React is a Javascript-based library that employs Webpack to automatically compile React, JSX and Es6
-while also handling Css prefixes.
+while also handling Css prefixes. Essentially a library to build dynamic and interactive web applications.
 
 Key Features of React:
 
-1. Components and Jsx
+1. Components :
+
+In React, there are two main types of components: class components and function components.
+
+Class component: A class component in React is an ES6 JavaScript class that extends React.Component. It allows you to create reusable, stateful UI components with access to React’s lifecycle methods.
+• It inherits from React.Component, which gives it special features.
+• It can store its own data (called “state”) and react to changes.
+• It has lifecycle methods—special functions that run at different points in the component’s life, like when it’s added to the page or updated.
+
+Function components have become the standard approach for modern React development.
+• Hooks(Hooks are functions introduced in React 16.8 that allow you to use state and lifecycle features in function components) making function components as powerful as class components.
+• They are easier to read, write, and test.
+• They result in smaller bundle sizes and better performance.
+
+2. JSX
+
+JSX(Javascript XML) is an extension to Javascript which lets you write HTML-like code in Javascript. It looks like HTML ,but behind the scenes React transforms it into Javascript functions.
+
+JSX example: const element = <h1>Hello, world!</h1>;
+
+React conversion: const element = React.createElement('h1', null, 'Hello, world!');
+
+Here we see React convert the code from JSX to JS. This lets us work with both HTML-markup and JS in the same file,making the code easier to read and manage.
