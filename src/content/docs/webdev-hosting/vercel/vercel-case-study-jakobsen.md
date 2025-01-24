@@ -44,6 +44,12 @@ Comparison of Vercel and Netlify:
 | Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
 
+| Feature | Description |
+| --- | --- |
+| Example Feature | This feature does something for a specific reason. |
+| Example Feature | This feature does something for a specific reason. |
+| Example Feature | This feature does something for a specific reason. |
+
 ## Problems or challenges
 
 
