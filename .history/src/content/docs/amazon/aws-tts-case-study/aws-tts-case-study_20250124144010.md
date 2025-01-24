@@ -248,7 +248,6 @@ Voice assistant.
 3. [Boto3 Library Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 4. [Comparison with Google Cloud TTS](https://cloud.google.com/text-to-speech)
 5. [Azure Speech Services Overview](https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/)
-6. [AI Powered Voice Assistant Project](https://www.tomshardware.com/raspberry-pi/raspberry-pi-5-brings-futuramas-bender-to-life-as-a-chatgpt-powered-personal-assistant)
 
 ## Additional Resources
 

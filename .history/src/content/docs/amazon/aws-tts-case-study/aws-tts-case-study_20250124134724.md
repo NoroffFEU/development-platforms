@@ -175,26 +175,9 @@ pip install boto3
 
 ### **4. Example Code**
 
-Set environment variables securely in a .env file.
-
-- AWS_ACCESS_KEY_ID=your-access-key-id
-- AWS_SECRET_ACCESS_KEY=your-secret-access-key
-- AWS_DEFAULT_REGION=replace-with-your-preferred-region (E.g. us-east-1 for generative voice)
-
-Install the dotenv package for Python to load the env variables.
-
-```
-pip install python-dotenv
-```
-
-#### A simple Python example demonstrating how to interact with AWS Polly:
+Below is a simple Python example demonstrating how to interact with AWS Polly:
 
 ```python
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-
 import boto3
 
 
@@ -203,10 +186,9 @@ polly = boto3.client('polly')
 
 # Call Polly's synthesize_speech API to convert text to speech
 response = polly.synthesize_speech(
-    Text='Hello there! Now we are actually running the generative neural voice!',
+    Text='Hello, welcome to AWS Polly!',
     OutputFormat='mp3',
-    VoiceId='Stephen',
-    Engine='neural'
+    VoiceId='Joanna'
 )
 
 # Save the audio stream as an MP3 file
@@ -216,30 +198,11 @@ with open('speech.mp3', 'wb') as file:
 print("Speech saved as 'speech.mp3'")
 ```
 
-To run this example code:
-
-- Save the script
-- Open a terminal in the same directory and run:
-
-```
-python filename.py
-```
-
-Verify that a file named speech.mp3 is created in the directory.
-
 ## Conclusion
 
 AWS Polly stands out as a robust and cost-effective text-to-speech solution, particularly for developers already working within the AWS ecosystem. Its scalability, extensive voice options, and ease of use make it suitable for applications ranging from accessibility tools to voice assistants and e-learning platforms. While competitors like Google Cloud TTS and Azure Speech Services offer similar capabilities, Polly excels in its seamless integration with AWS services and flexible pay-as-you-go pricing.
 
 Polly’s focus on customization through SSML and custom lexicons makes it a versatile tool for developers looking to add lifelike speech to their applications.
-
-## Project Suggestions
-
-Voice assistant.
-
-- Take voice input, convert it to text (Google Speech Recognition API or OpenAI Whisper).
-- ChatGPT to process a response to input text.
-- AWS Polly to turn GPT's response back to generative AI voice.
 
 ## References
 
@@ -248,7 +211,6 @@ Voice assistant.
 3. [Boto3 Library Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 4. [Comparison with Google Cloud TTS](https://cloud.google.com/text-to-speech)
 5. [Azure Speech Services Overview](https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/)
-6. [AI Powered Voice Assistant Project](https://www.tomshardware.com/raspberry-pi/raspberry-pi-5-brings-futuramas-bender-to-life-as-a-chatgpt-powered-personal-assistant)
 
 ## Additional Resources
 
