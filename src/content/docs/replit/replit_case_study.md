@@ -1,6 +1,6 @@
 ---
 title: "Case Study: Replit - An Online Coding Environment"
-author: ""
+author: "Shakhzod Gayratov"
 tags:
   [
     "Replit",
