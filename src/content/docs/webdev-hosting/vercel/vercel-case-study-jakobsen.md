@@ -6,7 +6,8 @@ tags: Vercel, hosting, web-developing, cloud platform
 
 ## Introduction
 
-Vercel is an American cloud platform as a service company. The Company maintains the Next.js web development framework. It has becone a leading tool for server-rendered React applications. It is easy to use and great for smaller projects, front-end developers, and static web applications.
+Vercel is a modern web hosting platform designed to make it easy for developers to deploy and manage web applications. Vercel is a popular choice for hosting static sites and serverless web applications, especially for those using frameworks like Next.js.
+It is easy to use and great for smaller projects. The Vercel Company maintains the Next.js web development framework.
 
 ## Brief History
 
@@ -20,8 +21,7 @@ Vercel is an American cloud platform as a service company. The Company maintains
 ## Main Features
 (Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?)
 
-Vercel is a perfect chioce for a fast, low-cost, and straightforward website, i.e. personal blogs, portofolios, informational sites etc. It is very userfriendly and beginnerfriendly with a simple setup and maintence, and it does not require a backend. It is also extreamly fast since files are served directly from a server or CDN.
-
+Vercel is known for its focus on speed, simplicity and developer experience. It is a prfect choose for personal blogs, portofolios, informational sites etc. It is very userfriendly and beginnerfriendly with a simple setup and maintence, and it does not require a backend. It is also extreamly fast since files are served directly from a server or CDN. 
 
 ## Market Comparison
 
@@ -38,15 +38,9 @@ Comparison of a Cloud Hosting(AWS, GCP, Azure) and a Static Web Hosting(i.e Verc
 
 Comparison of Vercel and Netlify:
 
-|      | Vercel | Netlify |
+| Vercel | Netlify |
 | --- | --- |
-| Framework Support | Optimized for Next.js, but supperts others | Any framework, with focus on JAMstack |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-| Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
+| Optimized for Next.js, but supports others | Ane framework, with focus on JAMstack |
 | Example Feature | This feature does something for a specific reason. |
 | Example Feature | This feature does something for a specific reason. |
 
