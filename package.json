@@ -2,7 +2,9 @@
   "name": "starlight",
   "type": "module",
   "version": "0.0.1",
-  "nodeVersion": "^18.0.0",
+  "engines": {
+    "node": ">=18"
+  },
   "license": "CC-BY-SA-4.0",
   "scripts": {
     "dev": "astro dev",
