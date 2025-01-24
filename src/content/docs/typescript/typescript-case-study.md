@@ -52,7 +52,7 @@ TypeScript has gained significant popularity among developers, but it's not the 
      - Javascript: Error prone, harder to maintain large codebases, less tooling support, difficult to refactor
    
 ![Javascript Example](/src/assets/TypeScript/js-example.png "Javascript Example")
-![Javascript Example](/src/assets/TypeScript/ts-example.png "TypeScript Example")
+![Typescript Example](/src/assets/TypeScript/ts-example.png "TypeScript Example")
 
 1. **TypeScript vs. Flow (Facebook's static type checker)**
    - Advantages: Larger community, better tooling, more frequent updates
