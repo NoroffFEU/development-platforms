@@ -107,7 +107,7 @@ A mid-sized e-commerce company adopted Netlify for their JAMstack site. Results 
 - Cost savings of $1,200/month by eliminating dedicated servers.
 - Page load times improved by 30%, boosting conversion rates by 12%.
 
-##Economic Impact
+## Economic Impact
 
 Netlify’s free tier saved the company $5,000 annually during the initial development phase. Reduced infrastructure costs and faster go-to-market times provided a significant ROI.
 
@@ -117,7 +117,7 @@ Netlify’s free tier saved the company $5,000 annually during the initial devel
 
 2. **Function Limits:** Heavy computational tasks might require additional services.
 
-3: **Dependency on Git:** Organizations not using Git workflows may face integration challenges.
+3. **Dependency on Git:** Organizations not using Git workflows may face integration challenges.
 
 ## Conclusion
 
@@ -127,15 +127,15 @@ Netlify is a transformative platform that simplifies web hosting and deployment,
 
 - [Official Netlify Documentation:](https://docs.netlify.com)
 
-- [Netlify Blog:] (https://www.netlify.com/blog/)
+- [Netlify Blog:](https://www.netlify.com/blog/)
 
-- [Case Studies on Netlify:] (https://www.netlify.com/case-studies/)
+- [Case Studies on Netlify:](https://www.netlify.com/case-studies/)
 
-- [Community Discussions:] (https://answers.netlify.com)
+- [Community Discussions:](https://answers.netlify.com)
 
-- [Article on JAMstack:] (https://jamstack.org)
+- [Article on JAMstack:](https://jamstack.org)
 
-- [Firebase Overview:] (https://firebase.google.com)
+- [Firebase Overview:](https://firebase.google.com)
 
-- [DigitalOcean App Platform:] (https://www.digitalocean.com)
+- [DigitalOcean App Platform:](https://www.digitalocean.com)
 
