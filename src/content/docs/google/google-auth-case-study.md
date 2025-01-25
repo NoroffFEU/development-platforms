@@ -88,7 +88,7 @@ Google Authenticator has some good features like multiple account support, offli
 
 Authenticator apps shouldn't require a lot of data from you because they are normally just token generators. So if you care about your personal data and want to be careful with sharing them, Google's app might not be the best choice for you.
 
-Although there might be better authenticator apps than what Google offers, it still provides additional security for your accounts. Also, because Google is widely known it might be easier for a user to choose their authenticator. All in all, the app is free, easy to setup, and intuitive. Its not a bad alternative for extra security.
+Although there might be better authenticator apps than what Google offers, it still provides additional security for your accounts. Also, because Google is widely known it might be easier for a user to choose Google's authenticator. All in all, the app is free, easy to setup, and intuitive. Its not a bad alternative for extra security.
 
 ## References
 
