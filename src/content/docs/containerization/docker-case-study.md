@@ -299,10 +299,11 @@ will also be important for organizations heavily reliant on Docker Desktop or co
 
 ## 11. References
 
-- **Docker Official Documentation**  
-- **Docker GitHub Repository**  
-- **Open Container Initiative (OCI)**  
-- **Podman Official Documentation**  
-- **Kubernetes Documentation**  
-- **Docker Minecraft Server**  
-- **containerd GitHub Repository**  
+- [Docker Official Documentation](https://docs.docker.com/)
+- [Docker GitHub Repository](https://github.com/docker)
+- [Open Container Initiative (OCI)](https://opencontainers.org/)
+- [Podman Official Documentation](https://podman.io/)
+- [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+- [Docker Minecraft Server](https://github.com/itzg/docker-minecraft-server)
+- [containerd GitHub Repository](https://github.com/containerd/containerd)
+
