@@ -20,29 +20,9 @@ During development, Vercel provides tools for real-time collaboration on your pr
 - 2024: Vercel is valued at $3.25 billion.
 
 ## Main Features
-(Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?)
 
-Vercel is known for its focus on speed, simplicity and developer experience. It is a prfect choose for personal blogs, portofolios, informational sites etc. It is very userfriendly and beginnerfriendly with a simple setup and maintence, and it does not require a backend. It is also extreamly fast since files are served directly from a server or CDN. The Vercel Company maintains the Next.js web development framework, and therefor it is a popular choice for those using Next.js as a framwork on their application.
-
-Vercel supports a wide range of the most popular frontend frameworks, optimizing how your site builds and runs no matter what tool you use.
-
-Deploying on Vercel with one of the supported frameworks gives access to many features, such as:
-
-- Serverless Functions enable developers to write functions that scale based on traffic demands, preventing failures during peak hours and reducing costs during low activity.
-
-- Edge Functions are a fast, scalable solution for delivering dynamic content quickly and globally. By default, Edge Functions are deployed near your site's visitors in one of Vercel's Edge regions.
-
-- Edge Middleware is code that executes before a request is processed on a site, enabling you to modify the response. Because it runs before the cache, Edge Middleware is an effective way to personalize statically generated content.
-
-- Multi-runtime Support allows the use of various runtimes for your functions, each with unique libraries, APIs, and features tailored to different technical requirements.
-
-- Incremental Static Regeneration enables content updates without redeployment. Vercel caches the page to serve it statically and rebuilds it on a specified interval.
-
-- Speed Insights provide data on your project's Core Web Vitals performance in the Vercel dashboard, helping you improve loading speed, responsiveness, and visual stability.
-
-- Analytics offer detailed insights into your website's performance over time, including metrics like top pages, top referrers, and user demographics.
-
-- Skew Protection uses version locking to ensure that the client and server use the same version of your application, preventing version skew and related errors.
+Vercel is known for its focus on speed, simplicity and developer experience. It is a perfect choice for personal blogs, portofolios, informational sites etc. Vercel is offering seamless integration with static site generators and supports a wide range of the most popular frontend frameworks, optimizing how your site builds and runs no matter what tool you use. It is also extreamly fast since files are served directly from a server or a global CDN.
+Vercel supports serverless functions, allowing developers to add backend logic without managing servers.
 
 ## Market Comparison
 
@@ -67,9 +47,11 @@ Comparison of Vercel and Netlify:
 
 ## Problems or challenges
 
+It is heavily optimized for Next.js, and using other frameworks is supported but may not be as seamless. 
+
 Most resources include an amount of usage your projects can use within your billing cycle. If you exceed the included amount, you are charged for the extra usage.
 
-
+It has a limited backend capability, and are therefor not a good choice for complex backend applications. 
 
 ## Getting Started
 
