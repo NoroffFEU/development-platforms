@@ -76,7 +76,7 @@ Netlify and GitHub Pages are two popular platforms for hosting static websites. 
 
 ## Ease of Use Comparison
 
-While both platforms aim to simplify hosting, developers often find **Netlify** easier to use. Below are some key reasons why:
+While both platforms aim to simplify hosting, new developers often find **Netlify** easier to use. Below are some key reasons why:
 
 ### **Why Netlify Can Feel Easier**
 - **Automatic Setup**  
