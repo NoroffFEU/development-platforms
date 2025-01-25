@@ -25,7 +25,8 @@ Netlify and GitHub Pages are two popular platforms for hosting static websites. 
 | **Free Hosting**               | Provides free static hosting with a GitHub repository.                     |
 | **Custom Domains**             | Supports custom domains with HTTPS.                                        |
 | **Jekyll Integration**         | Built-in support for Jekyll static site generator.                         |
-| **GitHub Integration**         | Automatically deploys changes from the repository.                        |
+| **GitHub Integration**         | Automatically deploys changes from the repository.
+                        |
 
 ### Netlify
 
@@ -106,6 +107,10 @@ While both platforms aim to simplify hosting, developers often find **Netlify** 
 
 - **Routing and File Structure**  
   GitHub Pages does not natively support advanced routing. Issues like 404 errors can occur unless files like `index.html` and `404.html` are correctly placed.
+
+### Examples
+If you're creating a simple personal portfolio or blog using Jekyll, GitHub Pages is an ideal choice. For example, you could set up a blog repository on GitHub, enable GitHub Pages under Settings > Pages, and your site is live in minutes. In contrast, if you're building a React-based e-commerce site with dynamic routing and serverless functions (e.g., handling form submissions or API calls), Netlify would be the better option. For instance, you can deploy your React app directly from a GitHub repository to Netlify, use serverless functions to manage shopping cart updates, and configure redirects for seamless navigation—all from Netlify's dashboard without additional backend infrastructure.
+
 
 
 ## Getting Started
