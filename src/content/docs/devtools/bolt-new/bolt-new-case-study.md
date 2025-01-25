@@ -61,6 +61,42 @@ bolt.new stands out in the crowded field of frontend development platforms by of
 | **Developer Experience** | Intuitive and easy-to-use                     | AI-driven, assists with code writing, debugging, and optimization |
 | **Pricing**              | Pay-as-you-go                                 | Subscription-based with varying plans                             |
 
+## Getting Started
+
+Getting started with **bolt.new** is simple and requires no complex setup. Follow these steps to quickly begin using the platform and take advantage of its AI-powered features.
+
+![Bolt.new Getting Started](/src/assets/stackblitz/bolt-new/bolt-new.png)
+
+### 1. Sign Up and Project Creation
+
+1. Visit [bolt.new](https://bolt.new) and sign up using your email or GitHub account.
+2. After logging in, click on **"New Project"** to start a new workspace.
+3. Choose from available project templates or start from scratch.
+
+### 2. Setting Up Your Environment
+
+1. Select the preferred tech stack (e.g., React, Vue, Next.js).
+2. Configure environment variables and project settings.
+3. bolt.new will automatically generate the project structure and suggest best practices.
+
+### 3. Using AI-Powered Features
+
+- Get **real-time code suggestions** and component recommendations.
+- Utilize the **AI-powered deployment assistant** to optimize CI/CD pipelines.
+- Collaborate with your team through AI-driven code reviews and suggestions.
+
+### 4. Deployment
+
+1. Connect your repository (GitHub, GitLab, etc.).
+2. Set up auto-deployment rules with one click.
+3. Deploy your project to bolt.new's cloud platform with a global CDN for optimal performance.
+
+### 5. Monitoring and Optimization
+
+- Use the built-in **analytics dashboard** to track performance.
+- Leverage AI recommendations to improve speed and scalability.
+- Set up automated notifications for any performance or security issues.
+
 ## Resources
 
 - [bolt.new](https://bolt.new/)
