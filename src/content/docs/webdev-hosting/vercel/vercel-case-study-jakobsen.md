@@ -103,10 +103,8 @@ Once the project has been cloned to your git provider, Vercel will automatically
 
 ## Conclusion
 
-Vercel is great for smaller projects and static web applications, and if you are using any of Vercel´s supported frameworks.
-
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
-
+Vercel is great for smaller projects and static web applications, and if you are using any of Vercel´s supported frameworks, especially Next.js.
+As AI-powered web applications grow in popularity, Vercel could explore integrations with AI tools or platforms to simplify deploying machine learning models at the edge or within serverless functions.
 
 ## References
 
