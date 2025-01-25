@@ -38,6 +38,31 @@ At its core, Kubernetes organizes applications into **containers**—lightweight
 
 ---
 
+## Kubernetes Setup
+
+Below is a simplified diagram of a Kubernetes architecture to help visualize how its components interact:
+
+![Kubernetes Setup](https://kubernetes.io/images/docs/components-of-kubernetes.svg)
+
+### Key Components:
+- **Master Node (Control Plane)**:
+  - **API Server**: Manages communication between all components.
+  - **Scheduler**: Assigns Pods to Worker Nodes based on resource availability.
+  - **Controller Manager**: Ensures the cluster state matches the desired state.
+  - **ETCD**: Stores the cluster state as a distributed key-value store.
+
+- **Worker Nodes**:
+  - **Kubelet**: Communicates with the Master Node to execute instructions.
+  - **Kube-Proxy**: Handles network routing to and from Pods.
+  - **Pods**: Smallest deployable units containing one or more containers.
+
+- **Load Balancer/Ingress**:
+  - Manages external traffic and routes it to the correct Pods.
+
+This architecture ensures a highly scalable and fault-tolerant system for modern applications.
+
+---
+
 ## Applications and Use Cases
 
 Kubernetes is widely used across industries for its flexibility and scalability. Below are some real-world applications:
@@ -123,4 +148,4 @@ Kubernetes has revolutionized how modern applications are developed and managed.
 2. [Kubernetes Documentation](https://kubernetes.io/docs/home/)
 3. [Helm Charts](https://helm.sh/)
 4. [Cloud Native Computing Foundation](https://www.cncf.io/)
-5. [Kubernetes Crash Course for Absolute Beginners]( https://www.youtube.com/watch?v=s_o8dwzRlu4&t=227s)
+5. [Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4&t=227s)
