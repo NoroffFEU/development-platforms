@@ -29,37 +29,46 @@ The Google Authenticator app generates a 6-digit code which is a time-based one-
 
 ## Main Features
 
-Describe purpose of the authenticator. How can it be useful to developers? Which problems does it solve? Is there something unique about this tool?
-| Feature | Description |
-|---|---|
-| Rotating codes | Codes rotate every 30 seconds based on the time on your device.[^2] |
-| Network access not necessary | The generation of codes don't require internet connection because they are generated locally on your device.[^2] |
-| Syncing of codes | Authenticator codes can be synced to your Google account and across devices. This means that the codes are always accessible, even if you lose your phone.[^4] |
-| QR code setup | You can quickly set up your Authenticator accounts automatically with QR code.[^4] |
-| Supports multiple accounts | The app can manage several accounts which means you don't have to move between apps every time you need to log in.[^4] |
-| Supports counter-based and time-based code generation | Choose the type of code generation that you prefer and suits your needs.[^4] |
-| Transfer accounts | You can move Google Authenticator accounts between devices with a QR code.[^4] |
+| Feature                                               | Description                                                                                                                                                    |
+| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Rotating codes                                        | Codes rotate every 30 seconds based on the time on your device.[^2]                                                                                            |
+| Network access not necessary                          | The generation of codes don't require internet connection because they are generated locally on your device.[^2]                                               |
+| Syncing of codes                                      | Authenticator codes can be synced to your Google account and across devices. This means that the codes are always accessible, even if you lose your phone.[^4] |
+| QR code setup                                         | You can quickly set up your Authenticator accounts automatically with QR code.[^4]                                                                             |
+| Supports multiple accounts                            | The app can manage several accounts which means you don't have to move between apps every time you need to log in.[^4]                                         |
+| Supports counter-based and time-based code generation | Choose the type of code generation that you prefer and suits your needs.[^4]                                                                                   |
+| Transfer accounts                                     | You can move Google Authenticator accounts between devices with a QR code.[^4]                                                                                 |
 
 ## Market Comparison
 
-Compare advantages and disadvantages of the authenticator. Compare to other authenticators on the market.
+Let's look at the advantages and disadvantages of Google Authenticator:
 
-Pros:
+**Advantages:**
 
 - Easy to use
-- Free
-- Can manage codes for several accounts
-- Account creation is not required
+- Offline functionality: No need for internet connection to generate verification codes.
+- Good compatibility: Can manage codes for several accounts.
+- Account creation isn't required.[^5]
 
-Cons:
+**Disadvantages:**
 
-- Collects a lot of data
+- Collects a lot of data.
+- No verification to access the app.
+- Not open-source.
 
-Other authenticators:
+**Google Authenticator vs. 2FAS:**
 
-- Microsoft Authenticator
-- 2FAS
-- Authy
+2FAS is also an authenticator app, let's compare them.
+
+- Both are easy to use and have a user-friendly interface.
+- They don't require account creation.
+- They both work offline.
+
+2FAS is open-source while Google Authenticator is proprietary. As open-source, the code is transparent and opens up for reviews and verification from the community. With being proprietary, the code is only accessible to the owner or company. Therefore, the code being open-source can increase the trust in the software.
+
+Google Authenticator collects more data than several other authenticator apps, in comparison 2FAS has more limited data collection.[^6]
+
+You don't need any verification to access Google's app which is a potential security risk if your phone gets stolen. With 2FAS you can make a PIN or use biometric scans to lock and unlock the app.[^6]
 
 ## Getting Started
 
@@ -75,7 +84,11 @@ Other authenticators:
 
 ## Conclusion
 
-Summarize findings. Main advantages/disadvantages. Main use cases. Main limitations. What does the future of the tool look like?
+Google Authenticator has some good features like multiple account support, offline functionality and authenticator code syncing but it doesn't really stand out compared to 2FAS and other similar apps.
+
+Authenticator apps shouldn't require a lot of data from you because they are normally just token generators. So if you care about your personal data and want to be careful with sharing them, Google's app might not be the best choice for you.
+
+Although there might be better authenticator apps than what Google offers, it still provides additional security for your accounts. Also, because Google is widely known it might be easier for a user to choose their authenticator. All in all, the app is free, easy to setup, and intuitive. Its not a bad alternative for extra security.
 
 ## References
 
@@ -83,9 +96,5 @@ Summarize findings. Main advantages/disadvantages. Main use cases. Main limitati
 [^2]: [Daito article - The beginner's guide to Google Authenticator](https://www.daito.io/resources/google-authenticator-guide)
 [^3]: [Wikipedia 2024 - Google Authenticator](https://en.wikipedia.org/wiki/Google_Authenticator)
 [^4]: [Google play store](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en&pli=1)
-
-https://www.techtarget.com/searchsecurity/definition/Google-Authenticator
-
-https://www.softforge.co.uk/blogs/all-topics/how-to-set-up-and-use-google-authenticator-a-step-by-step-guide
-
-https://techcrunch.com/2010/09/20/google-secure-password/
+[^5]: [PCMAG - Kim Key, December 2024 - The Best Authenticator Apps for 2025](https://uk.pcmag.com/security/153947/the-best-authenticator-apps-for-2024)
+[^6]: [PCMAG - Kim Key, September 2024 - 2FAS review ](https://uk.pcmag.com/security/154416/2fas)
