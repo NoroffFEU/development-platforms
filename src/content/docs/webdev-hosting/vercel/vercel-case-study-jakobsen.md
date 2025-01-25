@@ -28,22 +28,13 @@ Vercel supports serverless functions, allowing developers to add backend logic w
 
 Comparison of a Cloud Hosting(AWS, GCP, Azure) and a Static Web Hosting(i.e Vercel, Netlify, GitHub Pages):
 
-| Feature | Cloud Hosting | Static Web Hosting |
+| Cloud Hosting | Vercel(static web hosting) |
 | --- | --- |
 | Content Type | Dynamic and Static | Static Only |
 | Scalability | Highly scalability| Limited scalability |
 | Cost | Pay-as-you-go; varies with usage | Low or free for simple websites |
 | Complexity | High | Simple and beginner-friendly |
 | Performance | Fast, but depends on setup | Extremely fast with CDNs |
-
-
-Comparison of Vercel and Netlify:
-
-| Vercel | Netlify |
-| --- | --- |
-| Optimized for Next.js, but supports others | Ane framework, with focus on JAMstack |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
 
 ## Problems or challenges
 
@@ -75,7 +66,7 @@ It has a limited backend capability, and are therefor not a good choice for comp
 Once you've selected a template, Click Deploy on the template page to start the process.
 To ensure you can easily update your project after deploying it, Vercel will create a new repository with your chosen Git provider. Every push to that Git repository will be deployed automatically.
 First, select the Git provider that you'd like to connect to. Once you’ve signed in, you’ll need to set the scope and repository name. At this point, Vercel will clone a copy of the source code into your Git account.
-Once the project has been cloned to your git provider, Vercel will automatically start deploying the project. This starts with building your project, then assigning the domain, and finally celebrating your deployed project with confetti.
+Once the project has been cloned to your git provider, Vercel will automatically start deploying the project. This starts with building your project, then assigning the domain, and finally deploying the project.
 
 - When the project is deployed, a URL is generated and are automatically given a subdomain under the vercel.app domain. If you continue to your dashboard, you can click on the domain to preview a live, accessible URL that is instantly available on the internet.
 
@@ -104,10 +95,12 @@ Once the project has been cloned to your git provider, Vercel will automatically
 ## Conclusion
 
 Vercel is great for smaller projects and static web applications, and if you are using any of Vercel´s supported frameworks, especially Next.js.
+They will likely continue focusing on simplisity and developer experience.
 As AI-powered web applications grow in popularity, Vercel could explore integrations with AI tools or platforms to simplify deploying machine learning models at the edge or within serverless functions.
 
 ## References
 
-- [vercel.com](https://vercel.com)
+- [vercel.com] (https://vercel.com) 
+- [vercel.com/docs] (https://vercel.com) 
 - [wikipedia.org] (https://en.wikipedia.org/wiki/Vercel)
 - [Chatgpt.com] (https://www.chatgpt.com)
