@@ -26,7 +26,6 @@ Netlify and GitHub Pages are two popular platforms for hosting static websites. 
 | **Custom Domains**             | Supports custom domains with HTTPS.                                        |
 | **Jekyll Integration**         | Built-in support for Jekyll static site generator.                         |
 | **GitHub Integration**         | Automatically deploys changes from the repository.
-                        |
 
 ### Netlify
 
