@@ -1,7 +1,7 @@
 ---
-Title: Azure DevOps Pipline
-Author: Vahideh Abrishami
-Tags: CI/CD, Azure Devops, Automation
+title: Azure DevOps Pipline
+author: Vahideh Abrishami
+tags: CI/CD, Azure Devops, Automation
 ---
 ## Introduction:
 
