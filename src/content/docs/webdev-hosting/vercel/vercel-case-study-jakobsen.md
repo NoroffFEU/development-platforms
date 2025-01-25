@@ -28,7 +28,7 @@ Vercel supports serverless functions, allowing developers to add backend logic w
 
 Comparison of a Cloud Hosting(AWS, GCP, Azure) and a Static Web Hosting(i.e Vercel, Netlify, GitHub Pages):
 
-| Cloud Hosting | Vercel(static web hosting) |
+| Features | Cloud Hosting | Vercel(static web hosting) |
 | --- | --- |
 | Content Type | Dynamic and Static | Static Only |
 | Scalability | Highly scalability| Limited scalability |
