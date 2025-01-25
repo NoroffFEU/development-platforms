@@ -222,6 +222,7 @@ services:
     environment:
       POSTGRES_USER: myuser
       POSTGRES_PASSWORD: mypassword
+```
 Bring up both containers (web and db) with:
 
 bash
@@ -246,6 +247,7 @@ docker run -d \
   -e MEMORY=2G \
   -v /path/on/host/minecraft-data:/data \
   itzg/minecraft-server
+```
 ## Key Points
 
 - **Port Mapping**:  
