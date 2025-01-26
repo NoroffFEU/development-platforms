@@ -112,7 +112,7 @@ hent_vaerdata(by)
 
 ### **Oppsummering**
 
-(https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/aba3996e806aa0295afd3151724b45edf5e3a968/public/images/muligheter.jpg)
+(https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/images/muligheter.jpg)
 
 ### ** Erfaringen så langt med Raspberry Pi 5 **
 ![Raspberry Pi Desktop Kit]
