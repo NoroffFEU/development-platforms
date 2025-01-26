@@ -111,7 +111,7 @@ hent_vaerdata(by)
 
 
 ### **Oppsummering**
-https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/Hvordan%20bygge%20et%20prosjekt%20med%20API%20og%20DATAbaser%20Det%20finnes%20ingen%20absolutt%20fasit%20p%C3%A5%20hvordan%20man%20bygger%20opp%20et%20slikt%20system.jpg
+(https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/Hvordan%20bygge%20et%20prosjekt%20med%20API%20og%20DATAbaser%20Det%20finnes%20ingen%20absolutt%20fasit%20p%C3%A5%20hvordan%20man%20bygger%20opp%20et%20slikt%20system.jpg)
 Raspberry Pi 5 er en kraftig og fleksibel utviklingsplattform som passer til en rekke prosjekter, fra enkle hobbyprosjekter til avanserte utviklingsoppgaver. Med sin kraftige maskinvare og aktive fellesskap er den et utmerket valg for utviklere som ønsker å utforske teknologiens potensiale. Dette eksempelet med Python og værdata viser hvordan plattformen kan brukes for å bygge praktiske applikasjoner.
 
 
