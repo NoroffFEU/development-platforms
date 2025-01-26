@@ -77,7 +77,7 @@ function Video({ video }) {
 | **Performance**     | High performance with Virtual DOM      | Comparable performance, with optimizations |
 | **Integration**     | Works well with existing codebases     | Easy integration into projects         |
 | **Size**            | Heavier (about 100KB)                  | Lighter (about 60KB)                   |
-**Ecosystem**|Rich ecosystem with tools like React Router, Redux, React Native, Next.js etc. | Smaller ecosystem, but growing with tools like Vue Router, Vuex, Next.js
+|**Ecosystem**|Rich ecosystem with tools like React Router, Redux, React Native, Next.js etc. | Smaller ecosystem, but growing with tools like Vue Router, Vuex, Next.js| 
 ---
 
 ## Getting Started with React
