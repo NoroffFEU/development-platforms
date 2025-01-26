@@ -55,11 +55,10 @@ In Summary, npm is an essential tool for managing JavaScript dependencies, while
 
 ## Getting Started
 
-I will be showing how to set up and use Bit within a project using VS Code as the code editor and Bash for terminal commands. I will be using the Bit Getting started guide on how to install and initialize the project.
+I will be showing how to set up, export and import Bit Components within a project using VS Code as the code editor and Bash for terminal commands. I will be using the Bit Getting started guide on how to install and initialize the project.
+OBS! Make sure you make an account before starting, only registered users can use Bit.
 
-OBS! Make sure you make an account before starting, only registered users can use Bit (as far as I am aware).
-
-### Creating a Component 
+Downloading and Importing Components:
 
 1. Make a new repro where your will be testing and creating your components using Bit.
 2. Install Bit by using the command "npx @teambit/bvm install" in the terminal of your computer.
@@ -71,7 +70,7 @@ OBS! Make sure you make an account before starting, only registered users can us
 7. Before we can export the component, we must be logged in, to make sure you are logged in use the command "bit login". If you are not logged in, you will be transfered to a new webpage where you must login to your Bit account.
 8. Once the component is tagged, and we are logged in to our Bit account, we can export it to the Bit platform so that it is available to be used in other projects or teams. Use the command: "bit export" in the terminal to push the component. To check if you have successfully exported your component, open up the webpage with you Bit account and under "overview" you can see if you have gotten a new/existing repro and a new component inside it.
 
-### Fetching a Component
+Fecting and Testing Components:
 
 1. To start fetching yours or others components, you must first see if they exist. In your Bit account, navigate where the component you wish to fetch is, if we continue where we left off, the component will be inside the repro you have made earlier, under "overview". You should see the component listed there with the version 1.0.0 as it was the first component we made and have not added any "updates" to it. You can also see all the details to it by clicking the component to ensure everything is correct.
 2. To confirm that our component has been exported and can be used in other projects, we can import it into a different project, or even the same project we used earlier. Open up the terminal and navigate into your new/previous repro. Import the component by running the command "bit import your-org.your-repro-name.component". Replace your-org with your organization name, repro-name with your previously made repro's name where the component is inside, and component with the component's name.
@@ -79,7 +78,15 @@ OBS! Make sure you make an account before starting, only registered users can us
 
 ## Conclusion
 
-Blah
+In this raport, I have explored Bit as a powerful tool for modern software development, focusing on it's ability to streamline the management, sharing and reuse of UI components across various projects. Through it's features, such as version control, component sharing and dependency management, Bit simplifies the development process and promotes collaboration within teams. It enabled modular, reusable code that not only reduces redundancy but also ensures consistency across applications.
+
+The main advantages of Bit include it's versatility across frameworks such as React, Angular and Vue, it's version control capabilities and the ease with which teams can collaborate on shared components easily. These features make Bit particulary valuable in large, distributed development evniroments where maintaining a consistent design systm and reusing components can be a challange. Additionally, Bit's visual workspace for previewing and testing components ensures that developers can validate components before integration, enchancing quality control.
+
+However, Bit does have some limitaions, as most Development Platforms. Bit requires and online account to fully utilize it's platform, which may be a hurdle for teams or developers who prefer local only workflows. While Bit excels at managing individual components, it is not a direct replacement for tools like Lerna or npm, which are btter suited for managing entire project pakcages. Additionally, Bit's platform apporach may not always intergrate seamlessly with all existing tools or workflows.
+
+Looking towards the future, Bit's continued focus on enchancing collaboration and optimizing component management makes it an increasibly attractive tool for teams focused on modular, component driven development. As the trend towards composable software and reusable components grows, Bit is likely to remain a key player in helping teams work more efficiently and maintain high quality codebases.
+
+In conclucion, Bit presents a promising solution for teams seeking management and sharing UI components, offering a range of features designed to improve collaboration, version control and consistency. While it may not replace all tools in a development ecosystem, Bit offers significant advantagesfor teams focused on modularity and reusability, positioning itself as an indispensable asset in the modern software development landscape.
 
 ## References
 
