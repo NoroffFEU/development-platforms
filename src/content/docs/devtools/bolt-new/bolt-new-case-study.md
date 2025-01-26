@@ -26,29 +26,7 @@ bolt.new, a cloud-based platform designed to simplify frontend development. It h
 
 ## Market Comparison
 
-bolt.new stands out in the crowded field of frontend development platforms by offering unique features and ease of use. Below is a comparison of bolt.new with some of its competitors, including **Cursor AI**:
-
-### Bolt.new vs Netlify
-
-| Feature                  | bolt.new                          | Netlify                               |
-| ------------------------ | --------------------------------- | ------------------------------------- |
-| **Platform Type**        | Cloud-based platform for frontend | Cloud platform for web projects       |
-| **JAMstack Support**     | Strong support for JAMstack       | Strong support for JAMstack           |
-| **Serverless Functions** | Yes, fully integrated             | Yes, with integrations to AWS Lambda  |
-| **Global CDN**           | Yes, fast and reliable            | Yes, fast and reliable                |
-| **Automatic Scaling**    | Yes, automatic scaling available  | Yes, with auto-scaling configurations |
-| **CI/CD Integration**    | Built-in CI/CD pipelines          | Built-in CI/CD pipelines              |
-
-### Bolt.new vs Vercel
-
-| Feature                  | bolt.new                          | Vercel                                     |
-| ------------------------ | --------------------------------- | ------------------------------------------ |
-| **Platform Type**        | Cloud-based platform for frontend | Cloud platform for frontend & backend      |
-| **Serverless Functions** | Yes, fully integrated             | Yes, fully integrated with Next.js         |
-| **Global CDN**           | Yes, fast and reliable            | Yes, optimized for Next.js                 |
-| **Automatic Scaling**    | Yes, with auto-scaling            | Yes, with auto-scaling                     |
-| **Developer Experience** | Intuitive and easy-to-use         | Developer-centric, especially for Next.js  |
-| **Pricing**              | Pay-as-you-go                     | Free tier with paid plans for higher usage |
+bolt.new stands out in the crowded field of frontend development platforms by offering unique features and ease of use. Below is a comparison of bolt.new with its competitor **Cursor AI**:
 
 ### Bolt.new vs Cursor AI
 
