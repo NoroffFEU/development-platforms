@@ -1,9 +1,10 @@
 # Noroff Development Platforms
 ![Raspberry Pi Desktop Kit](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/oversiktsbilde.jpg)
 ### **Introduksjon**
-Raspberry Pi 5 er den nyeste modellen i Raspberry Pi-serien, kjent for sin kompakte størrelse, lave pris og brede bruksområder. Som en kraftig mikrodatabase tilbyr den muligheter for læring, utvikling og innovasjon. Raspberry Pi 5 har oppgradert maskinvare som en raskere prosessor, støtte for USB 3.0, og forbedret termisk ytelse, noe som gjør den til et ideelt valg for prosjekter som spenner fra grunnleggende programmering til avansert utvikling.
+Raspberry Pi 5 er den nyeste modellen i Raspberry Pi-serien, kjent for sin kompakte størrelse, lave pris og brede bruksområder. Som en kraftig mikrodatabase tilbyr den muligheter for læring, utvikling og innovasjon. Raspberry Pi 5 har oppgradert maskinvare som en raskere prosessor enn forgjengeren Pi 4, støtte for USB 3.0, og forbedret termisk ytelse, noe som gjør den til et ideelt valg for prosjekter som spenner fra grunnleggende programmering til avansert utvikling.
 
-Denne case-studien fokuserer på Raspberry Pi 5s historie, bruksområder, styrker/svakheter, og hvordan den sammenligner med andre utviklingsplattformer som Arduino og Jetson Nano. Videre inkluderes et praktisk eksempel som demonstrerer bruken av Raspberry Pi 5 for å innhente værinformasjon ved hjelp av Python.
+Denne begrensede case-studien fokuserer på Raspberry Pi 5s historie, bruksområder, styrker/svakheter, og hvordan den sammenligner med andre utviklingsplattformer som Arduino og Jetson Nano. Videre inkluderes et praktisk eksempel som demonstrerer bruken av Raspberry Pi 5 for å innhente værinformasjon ved hjelp av Python.
+Samt en egenvurdering av montering, oppsett og av egen bruk. 
 
 ---
 
@@ -29,6 +30,7 @@ Her er Raspbery´s egen side om forslag til prosjekter og utviklingsmuligheter!
 (https://www.raspberrypi.com/products/build-hat/)
 
 ---
+![Raspberry Pi Desktop Kit](public/images/legomotor.jpg)
 
 ### **Styrker og svakheter**
 **Styrker:**  
@@ -113,7 +115,7 @@ hent_vaerdata(by)
 ### **Oppsummering**
 
 
-(https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/muligheter.jpg)
+![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/muligheter.jpg)
 
 ### ** Erfaringen så langt med Raspberry Pi 5 **
 ![Raspberry Pi Desktop Kit]
@@ -124,4 +126,4 @@ Neste for meg blir å etablere en nettside hvor jeg kan vise frem de data jeg he
 Etter dette tenker jeg at jeg må etabelere en nettside for hytta som viser temp, kanskje et ute kamera og booking system for bruk av hytta. 
 
 
-https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/nerd%20at%20work.jpg
+![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/nerd%20at%20work.jpg)
