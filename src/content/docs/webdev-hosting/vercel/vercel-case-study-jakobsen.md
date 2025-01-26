@@ -30,11 +30,13 @@ Comparison of a Cloud Hosting(AWS, GCP, Azure) and a Static Web Hosting(i.e Verc
 
 | Features | Cloud Hosting | Vercel(static web hosting) |
 | --- | --- | --- |
-| Content Type | Dynamic and Static | Static Only |
-| Scalability | Highly scalability| Limited scalability |
+| Content Type | Dynamic, complex apllications | Static, serverless applications |
+| Scalability | Highly scalability | Limited scalability |
+| Ease of use | Moderate to complex; requires setup | Simple and developer friendly |
 | Cost | Pay-as-you-go; varies with usage | Low or free for simple websites |
 | Complexity | High | Simple and beginner-friendly |
 | Performance | Fast, but depends on setup | Extremely fast with CDNs |
+| Dynamic Features | Full backend support, databases, APIs | Serverless functions, APIs |
 
 ## Problems or challenges
 
