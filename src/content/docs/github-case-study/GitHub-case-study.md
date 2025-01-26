@@ -4,8 +4,8 @@ keywords: development platforms, github
 tags: Development Platforms, github
 ---
 
-![GitHub logomark in white](/src/assets/github/github-mark-white.png)
 ## Introduction
+![GitHub logomark in white](/src/assets/github/github-mark-white.png)
 
 GitHub is the world's leading platform for version control and collaboration, built around Git. It is designed to help developers work together on projects efficiently by managing code, tracking changes, and collaborating in real time. GitHub has grown from being just a version control system into a full-fledged development platform with automation, collaboration, and deployment features
 
@@ -41,6 +41,8 @@ In 2018 GitHub fell victim to what was considered to be the third biggest DDoS (
 **Acquisition by Microsoft**
 Microsoft has since 2012 been using github to host open-source projects and development tools such as .NET Core, Chakra Core, MSBuild, PowerShell, PowerToys, Visual Studio Code, Windows Calculator, Windows Terminal and most of its product documentation (now to be found on Microsoft Docs). Microsoft announced on June 4Th 2018 that it intended to acquire GitHub for 7.5 billion USD. Only months later on October 26, 2018. the deal was closed. Under Microsoft GitHub continued to operate independently as a community, platform and business. This acquisition was in line with Microsoft's business strategy under CEO Satya Nadella, which focused on cloud computing services, alongside the development of and contributions to open-source software. Concerns over the sale bolstered interest in competitors like: Bitbucket, GitLab and SourceForge. they reported that they had seen spikes in new users intending to switch from GitHub to their respective services. In 2019 GitHub acquired Semmle, a code analysis tool, and in 2020 GitHub launched in India under the name GitHub India Private Limited. In 2020 it also acquired npm (Node Package Manager) for an undisclosed sum.
 
+![Microsoft](/src/assets/github/microsoft.png)
+
 ## Features
 
 This is GitHub key features:
@@ -50,15 +52,15 @@ This is GitHub key features:
 - **Team-Collaboration**: Users can work together on the same project, inspect each others code, raise issues and make plans for the project.
 
 - **Branches**: A user can start a new branch either from the main branch or a different branch. This allows the user to write new code for the project without adding it to the project itself. When new code is written on a new branch it can be merged into the main project. Usually users make a pull request before merging.
-  This system enables users to develop code on different versions of a project at the same time.
+This system enables users to develop code on different versions of a project at the same time.
 
 - **Pull requests**: When a user have made changes to a project's code on a separate branch, he can make a pull request. This is an important step in quality control where other developers can inspect the changes in the code. They do this to make sure that the code is bug free and has no issues. When it is determined that the code is safe it can be merged from this branch to it's parent branch or to the main branch.
 
 ![Pull Request Workflow Screenshot](/src/assets/github/pullscreenshot.png)
 
-
-
 - **Issues**: GitHub Issues can be used to track ideas, feedback, tasks, or bugs for work on GitHub. Issues can be an important part of development as bugs and problems with the code arises developers can raise an issue and also assign the issue to specific developers for fixing.
+
+![Issues](/src/assets/github/Screenshot deploy at 13.39.38.png)
 
 - **Merging**: Is adding new code to a project from a separate branch. usually this is done after a pull request.
 
@@ -67,11 +69,12 @@ This is GitHub key features:
 - **GitHub Actions**: Is a feature where you can add automated tasks to a project. The automated tasks can either be run manually or be set to run at specific points of development such as when a pull request is made. GitHub actions is very flexible and allows for lots of different programming languages and tools to be used with it.
 examples of GitHub actions usage: deploy to static pages, end to end testing and unit testing.
 
-![Alt text](image.png)
+![Github actions](/src/assets/github/image.png)
 
 - **GitHub Pages**: Can be used to host a web project directly from GitHub. It is an easy way for developers to host a project and/or share details for a project.
 
-- **GitHub Enterprise**: Allows businesses to run their github projects on their own servers with additional security and access to more features like GitHub Enterprise API.
+![Github pages Screenshot](/src/assets/github/pullscreenshot.png)
+
 
 ## Strengths
 
@@ -158,16 +161,71 @@ Bitbucket excels in integrating with Atlassian tools like Jira, Trello, and Conf
 
 GitHub is an excellent platform for public and open-source projects, with its large community, robust tools, and extensive integration options. For private repositories and seamless Atlassian integration, Bitbucket is a strong contender. Meanwhile, GitLab stands out for its DevOps-centric approach, offering built-in CI/CD tools and free self-hosting options. Ultimately, the best platform depends on your project's needs and your team's workflow preferences.
 
-## why i chose Github for my case study
+
+## Github in Education and Academia case study:
+
+GitHub has emerged as a transformative tool in education and academia, providing a practical platform for students, educators, and researchers to collaborate, manage projects, and engage in real-world development practices.As a second-year front-end development student at Noroff, i´ve realized how pivotal Github is in the education and learning process.It’s more than just a version control platform; it’s a tool that has helped me grow as a developer, gain real-world experience, and learn industry-relevant practices.
+
+When I started using GitHub in my first year, it felt overwhelming at first, with all the technical terms like branches, pull requests, and commits. However, over time, it became an essential part of my daily workflow, and now, I can confidently say that GitHub has transformed the way I approach projects and collaborate with others.
+
+Here are the key ways GitHub excels in this industry and how it helps me learn:
+
+In our courses at Noroff, GitHub plays a crucial role in both individual assignments and group projects. Here’s how it has been beneficial for me:
+
+1. Learning Version Control
+Before starting at Noroff, I didn’t know much about version control. GitHub has taught me the importance of tracking changes in my code and managing different versions of a project. I now understand how to commit changes, work on branches, and roll back to previous versions if I make a mistake.
+
+2. Collaborating with Classmates
+Group projects are a big part of the front-end development curriculum. GitHub allows my teammates and me to collaborate effectively. We can each work on our own branch, review each other’s code through pull requests, and merge changes without worrying about overwriting someone else’s work.
+
+For example, in one of our group assignments, we used GitHub Issues to track tasks like "style the homepage" or "add a contact form." This made it easy to know who was responsible for what and when tasks were completed.
+
+3. Building a Portfolio
+GitHub is also where I host my projects. Every assignment or personal project I complete is saved as a repository on my GitHub profile. This not only keeps my work organized but also helps me showcase my skills to potential employers.
+
+One of the most satisfying moments was when I created my first public repository and shared it with classmates. 
+
+4. Exploring Open Source
+GitHub has opened the door to the world of open-source development. I’ve explored projects from developers worldwide, learned from their code, and even contributed to a small project. This gave me a sense of what it’s like to be part of the global development community.
+
+How GitHub Enhances Education:
+
+GitHub Classroom:
+At Noroff, we’ve used GitHub Classroom for some of our assignments. It simplifies the process of receiving and submitting work. Teachers can provide feedback directly in our repositories using pull requests or comments. This is much more practical than sending files back and forth via email.
+
+Real-World Skills:
+GitHub prepares us for the workplace. Employers expect developers to know how to use version control systems, and GitHub is one of the most popular platforms. By using it in my coursework, I feel more confident about entering the professional world.
+
+# Strengths of GitHub for Students Like Me:
+
+- Free to Use: As a student, the fact that GitHub is free is a big plus. GitHub’s Education Pack also offers free premium features, which is amazing for exploring advanced tools like GitHub Actions.
+- Global Community: GitHub’s open-source community has helped me learn from others’ work and connect with like-minded developers.
+Ease of Hosting: I’ve used GitHub Pages to host small projects, like my portfolio website and a simple JavaScript game. It’s quick, free, and very beginner-friendly.
+- Learning Resources: GitHub’s own documentation and tutorials have been a lifesaver whenever I’ve been stuck.
+
+# Challenges I’ve Faced:
+
+-Steep Learning Curve: When I first started using GitHub, understanding concepts like branching and merging was intimidating. But with practice and guidance from my instructors, I’ve overcome these hurdles.
+-Mistakes with Pull Requests: In one of my projects, I accidentally merged code before it was reviewed. This taught me the importance of reviewing pull requests carefully and learning how to resolve conflicts.
+
+# Why GitHub Excels in Education:
+GitHub is a perfect fit for education because it mirrors real-world workflows. It allows us to:
+
+- Work in teams efficiently, just like we would in a professional setting.
+- Build a portfolio of projects that demonstrates our skills to employers.
+- Learn how to use tools like GitHub Actions, which automate tasks like deployment and testing.
+
+By incorporating GitHub into my studies, I feel more confident about my abilities and more prepared to enter the industry. For me, GitHub isn’t just a platform; it’s an essential part of my learning journey and professional growth.
+
+
+## why i chose Github for my case study:
 
 As a front-end development student, I chose GitHub for my case study because it has played a pivotal role in my learning journey. Here’s why:
 
--Practical Usage: I began using GitHub in my first year at Noroff to manage assignments and collaborate with classmates. This hands-on experience has given me a solid understanding of its features.
--Industry Relevance: GitHub is widely regarded as an essential tool for developers, making it crucial for my career development.
--Community Engagement: Through GitHub, I’ve been exposed to open-source projects and have learned from contributions made by other developers.
--Learning Opportunities: GitHub’s comprehensive documentation and active community have helped me overcome challenges and learn best practices.
-
-
+- Practical Usage: I began using GitHub in my first year at Noroff to manage assignments and collaborate with classmates. This hands-on experience has given me a solid understanding of its features.
+- Industry Relevance: GitHub is widely regarded as an essential tool for developers, making it crucial for my career development.
+- Community Engagement: Through GitHub, I’ve been exposed to open-source projects and have learned from contributions made by other developers.
+- Learning Opportunities: GitHub’s comprehensive documentation and active community have helped me overcome challenges and learn best practices.
 
 
 ## Summary
@@ -175,6 +233,8 @@ As a front-end development student, I chose GitHub for my case study because it 
 GitHub is one of the best (if not the best) platforms for open-source projects, you can also use it for private repositories. It has a great community, is easy to use, great security and many features and tools for collaboration. But everything has it's limits. It can be scaled up but only up to a certain point where other alternatives might seem like a better option for enterprises, in that case azure devops might be a better alternative.
 Purpose of GitHub:
 The purpose of GitHub is to simplify code management and enable collaboration. Developers can host their code, track changes, and work with teammates efficiently. GitHub’s integration with Git provides powerful version control, and its collaborative tools, like pull requests and issues, streamline team workflows.
+
+GitHub has been a game-changer in my education as a front-end development student. It’s not just a tool for managing code—it’s a platform that has taught me how to collaborate, contribute to open source, and prepare for a career in tech.
 
 GitHub also empowers the open-source community by providing a centralized platform for sharing and contributing to projects. Its purpose extends beyond collaboration to include learning, automation, and professional growth.
 
