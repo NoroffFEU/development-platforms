@@ -26,7 +26,7 @@ bolt.new, a cloud-based platform designed to simplify frontend development. It h
 
 ## Market Comparison
 
-bolt.new stands out in the crowded field of frontend development platforms by offering unique features and ease of use. Below is a comparison of bolt.new with its competitor **Cursor AI**:
+bolt.new stands out in the crowded field of frontend development platforms by offering unique features and ease of use. Below is a comparison of bolt.new with its competitors **Cursor AI** and **V0**:
 
 ### Bolt.new vs Cursor AI
 
@@ -38,6 +38,17 @@ bolt.new stands out in the crowded field of frontend development platforms by of
 | **Serverless Functions** | Yes, fully integrated                         | No, focuses more on coding assistance                             |
 | **Developer Experience** | Intuitive and easy-to-use                     | AI-driven, assists with code writing, debugging, and optimization |
 | **Pricing**              | Pay-as-you-go                                 | Subscription-based with varying plans                             |
+
+### Bolt.new vs V0.dev (Vercel)
+
+| Feature                  | bolt.new                              | V0.dev (Vercel)                               |
+| ------------------------ | ------------------------------------- | --------------------------------------------- |
+| **Platform Type**        | Cloud-based frontend development      | AI-assisted frontend development              |
+| **AI Integration**       | No AI focus, manual development       | Yes, AI-assisted component creation           |
+| **Deployment**           | Yes, with global CDN and auto-scaling | Yes, tightly integrated with Vercel           |
+| **Serverless Functions** | Yes, built-in                         | Yes, with Vercel's Edge Functions             |
+| **Supported Frameworks** | React, Vue, Next.js, and more         | Primarily Next.js-focused but supports others |
+| **Pricing**              | Pay-as-you-go                         | Free tier available, with premium features    |
 
 ## Getting Started
 
