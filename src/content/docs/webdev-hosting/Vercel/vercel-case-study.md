@@ -1,6 +1,6 @@
 ---
 title: Vercel Case Study
-author: "Maria Do Rosario Bustillo De Azevedo <[RosarioBA]>"
+author: "Maria Do Rosario Bustillo De Azevedo <RosarioBA>"
 tags: web-hosting, deployment-platform, nextjs, serverless, cloud-platform
 ---
 
