@@ -1,6 +1,5 @@
 # Noroff Development Platforms
-![Raspberry Pi Desktop Kit](attachment:/mnt/data/20250118_002434.jpeg)
-/Users/christianwestby/Documents/Images/Raspberry PI 5/20250118_002434.jpg
+![Raspberry Pi Desktop Kit](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/oversiktsbilde.jpg)
 ### **Introduksjon**
 Raspberry Pi 5 er den nyeste modellen i Raspberry Pi-serien, kjent for sin kompakte størrelse, lave pris og brede bruksområder. Som en kraftig mikrodatabase tilbyr den muligheter for læring, utvikling og innovasjon. Raspberry Pi 5 har oppgradert maskinvare som en raskere prosessor, støtte for USB 3.0, og forbedret termisk ytelse, noe som gjør den til et ideelt valg for prosjekter som spenner fra grunnleggende programmering til avansert utvikling.
 
@@ -55,7 +54,7 @@ Dette eksempelet demonstrerer hvordan Raspberry Pi 5 kan brukes til å utvikle e
 
 3. **Forbered maskinvaren**:  
    Monter kjølesystemet og koble til tastatur og skjerm som vist på bildet:  
-   ![Raspberry Pi Maskinvare](attachment:/mnt/data/20250118_003841.jpeg)
+   ![Raspberry Pi Maskinvare]https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/montering.jpg
 
 ---
 
@@ -103,26 +102,4 @@ hent_vaerdata(by)
 ### **Oppsummering**
 Raspberry Pi 5 er en kraftig og fleksibel utviklingsplattform som passer til en rekke prosjekter, fra enkle hobbyprosjekter til avanserte utviklingsoppgaver. Med sin kraftige maskinvare og aktive fellesskap er den et utmerket valg for utviklere som ønsker å utforske teknologiens potensiale. Dette eksempelet med Python og værdata viser hvordan plattformen kan brukes for å bygge praktiske applikasjoner.
 
-*A student written library of development platform case studies.*
 
-**Please do not delete this file!**
-
-## Purpose
-
-Development Platforms is a collaborative research course operated by Noroff FEU. The course is designed to give students exposure to and practice with technical research and documentation.
-
-## Contributing
-
-1. Create a `fork` of this repository.
-2. Create a `branch` for your contribution.
-3. Add new lessons or edit existing lessons.
-4. Commit your changes with helpful descriptions.
-5. Push your changes and open a Pull Request.
-   1. Pull Request title for new content: `Adds case study: <name>.md`
-   2. Pull Request title for edits: `Edits case study: <name>.md`
-   3. Describe your changes and why you have made these.
-   4. Request review from the repository owner.
-
-## License
-
-All work in this repository is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
