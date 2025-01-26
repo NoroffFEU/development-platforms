@@ -158,4 +158,4 @@ For meg så langt har denne teknologiske morrosaken vært til god læring, glede
 Så basert på det kan jeg ikke noe annet enn å anbefale en Raspberry Pi 5 til alle som syns overnevte er kult. 
 
 
-![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/main/public/images/nerdatwork.jpg)
+![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/nerdatwork.jpg)
