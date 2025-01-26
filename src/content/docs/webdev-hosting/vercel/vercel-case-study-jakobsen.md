@@ -12,12 +12,12 @@ During development, Vercel provides tools for real-time collaboration on your pr
 
 ## Brief History
 
-- 2015: Vercel was originally founded by Guillermo Rauch, Tony Kovanen and Naoyuki Kanezawa.
+- 2015: Vercel was originally founded as ZEIT by Guillermo Rauch, Tony Kovanen and Naoyuki Kanezawa.
 - 2020: ZEIT rebranded to Vercel.
 - 2021: Vercel raised $102 million in a Series C funding round.
 - 2021: Vercel acquired Turborepo.
 - 2022: Vercel acquired Splitbee.
-- 2024: Vercel is valued at $3.25 billion.
+- 2024: Vercel was valued at $3.25 billion.
 
 ## Main Features
 
@@ -65,7 +65,7 @@ It has a limited backend capability, and are therefor not a good choice for comp
 1. Importing by using a template:
 
 - To create a new project on Vercel by using a template, you select a template from https://vercel.com/templates. You can use the filters to select a template based on use case, framework, and other requirements.
-Once you've selected a template, Click Deploy on the template page to start the process.
+Once you've selected a template, click "Deploy" on the template page to start the process.
 To ensure you can easily update your project after deploying it, Vercel will create a new repository with your chosen Git provider. Every push to that Git repository will be deployed automatically.
 First, select the Git provider that you'd like to connect to. Once you’ve signed in, you’ll need to set the scope and repository name. At this point, Vercel will clone a copy of the source code into your Git account.
 Once the project has been cloned to your git provider, Vercel will automatically start deploying the project. This starts with building your project, then assigning the domain, and finally deploying the project.
