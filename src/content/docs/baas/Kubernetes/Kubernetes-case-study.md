@@ -1,6 +1,6 @@
 ---
 Title: Kubernetes Case Study
-Author:  Ukonu Kalu Idika <Ukonuidika>  
+Author: Ukonu Kalu Idika <Ukonuidika>  
 Tags: kubernetes, containerization, case study
 
 ---
