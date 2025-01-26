@@ -15,15 +15,26 @@ Raspberry Pi Foundation lanserte sin første modell i 2012, med mål om å gjør
 ### **Bruksområder**
 Raspberry Pi 5 kan brukes til en rekke prosjekter:
 - **Hjemmeautomasjon**: Styring av smartenheter i hjemmet.  
-- **Læring og undervisning**: Brukes i skoler og universiteter som et rimelig læringsverktøy.  
-- **Webutvikling og serverdrift**: Drift av enkle webservere eller API-tjenester.  
+- **Læring og undervisning**: Brukes i skoler og universiteter som et rimelig, innuativt, motiverende og gøy læringsverktøy.  
+- **Webutvikling og serverdrift**: Drift av enkle webservere eller API-tjenester. Enten man studerer skole og ønsker å supplere til utdanningen, ønsker å lære mer om API-er og databaser selv eller om man ønsker å automatisere eller programere ulike prosjekter hjemme. Som f.eks Legoprosjekter  eller ulike sensorer som temperatur, luftkvalitet, kamera,video/ bilde opptak fra hytta osv osv.
+
 - **Sensorintegrasjon**: Innhenting og analyse av data fra sensorer som værstasjoner.  
+
+### ** Mange muligheter for læring ***
+Det finnes flere muligheter for læring med dette produktet og det er flere sammarbeidspartnere og prosjekter og løsninger finnes. 
+Et eksempel er Lego.
+(https://www.youtube.com/watch?v=UqUG2VUFsrg)
+
+Her er Raspbery´s egen side om forslag til prosjekter og utviklingsmuligheter!
+(https://www.raspberrypi.com/products/build-hat/)
 
 ---
 
 ### **Styrker og svakheter**
 **Styrker:**  
-- Rimelig pris sammenlignet med konkurrerende plattformer.  
+- Rimelig pris sammenlignet med konkurrerende plattformer.Hvis man ønsker kan man bygge sin egen pc med alt av tilbehør som trenges. Men her blir det ofte
+uforholdsmessig dyrt, pcen eller serveren vil ta mye større fysisk plass og mobiliteten forsvinner. Samt at den enkle muligheten for å koble til allerde gode 
+Hat´er vil forsvinne. Og det finens mange gode Hat´er der ute allerede som dekker de aller fleste ønsker.    
 - Aktivt fellesskap og rikelig med ressurser for læring.  
 - Fleksibilitet med støtte for flere operativsystemer.  
 
@@ -45,7 +56,7 @@ Dette eksempelet demonstrerer hvordan Raspberry Pi 5 kan brukes til å utvikle e
 1. **Installer Raspberry Pi OS**:  
    Sørg for at din Raspberry Pi er konfigurert med Raspberry Pi OS. Følg oppsettet i "The Official Raspberry Pi Beginner's Guide" som vist i bildet nedenfor.  
 
-![Raspberry Pi Maskinvare](attachment:/mnt/data/20250118_003841.jpeg)
+
 2. **Installer nødvendige biblioteker**:  
    Åpne terminalen og installer `requests`-modulen for Python:  
    ```bash
@@ -54,7 +65,7 @@ Dette eksempelet demonstrerer hvordan Raspberry Pi 5 kan brukes til å utvikle e
 
 3. **Forbered maskinvaren**:  
    Monter kjølesystemet og koble til tastatur og skjerm som vist på bildet:  
-   ![Raspberry Pi Maskinvare]https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/montering.jpg
+   ![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/montering.jpg)
 
 ---
 
@@ -100,6 +111,17 @@ hent_vaerdata(by)
 
 
 ### **Oppsummering**
+https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/Hvordan%20bygge%20et%20prosjekt%20med%20API%20og%20DATAbaser%20Det%20finnes%20ingen%20absolutt%20fasit%20p%C3%A5%20hvordan%20man%20bygger%20opp%20et%20slikt%20system.jpg
 Raspberry Pi 5 er en kraftig og fleksibel utviklingsplattform som passer til en rekke prosjekter, fra enkle hobbyprosjekter til avanserte utviklingsoppgaver. Med sin kraftige maskinvare og aktive fellesskap er den et utmerket valg for utviklere som ønsker å utforske teknologiens potensiale. Dette eksempelet med Python og værdata viser hvordan plattformen kan brukes for å bygge praktiske applikasjoner.
+
+
+### ** Erfaringen så langt med Raspberry Pi 5 **
+![Raspberry Pi Desktop Kit]
+
+Erfaringen så langt er at dette er drit kult!  Man må bruke ChatGPT i starten, men det løsner mer og mer. Man, jeg ihvertfall , bruker terminalen for ålegge  kode inn i python og Nano for å skrive koden til python. Her er det imdelrtid noen utfordringer med at Python ikke klarer å lese alle kode tegne som f.eks æ,ø,å eller f.eks symbolet for celcius som nano godtar. 
+
+Neste for meg blir å etablere en nettside hvor jeg kan vise frem de data jeg henter, som i mitt tilfelle. Være og temp fra Oslo by. 
+Etter dette tenker jeg at jeg må etabelere en nettside for hytta som viser temp, kanskje et ute kamera og booking system for bruk av hytta. 
+
 
 
