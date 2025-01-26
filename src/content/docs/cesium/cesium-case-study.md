@@ -1,3 +1,9 @@
+---
+title: "Cesium Case Study"
+author: "Sindre M"
+tags: [Cesium, 3D Visualization, Development Platforms, WebGL]
+---
+
 # Cesium: A Development Platform for 3D Geospatial Visualization
 
 ## 1. Introduction
