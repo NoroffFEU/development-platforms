@@ -97,20 +97,8 @@ hent_vaerdata(by)
    ```
 3. Programmet vil vise værinformasjon for byen du oppgir, f.eks. Oslo. Resultatet vises med hvit tekst på svart bakgrunn i terminalen.
 
----
 
-#### **Visuelle forbedringer**
-For å presentere informasjon på skjermen med svart bakgrunn og hvit tekst, kan du bruke følgende justeringer i scriptet for å få en visuelt mer tiltalende utskrift:
 
-```python
-import os
-
-# Endre terminalbakgrunn til svart
-os.system('echo -e "\033]11;#000000\007"')  # Bakgrunn
-os.system('echo -e "\033]10;#FFFFFF\007"')  # Tekstfarge
-```
-
----
 
 ### **Oppsummering**
 Raspberry Pi 5 er en kraftig og fleksibel utviklingsplattform som passer til en rekke prosjekter, fra enkle hobbyprosjekter til avanserte utviklingsoppgaver. Med sin kraftige maskinvare og aktive fellesskap er den et utmerket valg for utviklere som ønsker å utforske teknologiens potensiale. Dette eksempelet med Python og værdata viser hvordan plattformen kan brukes for å bygge praktiske applikasjoner.
