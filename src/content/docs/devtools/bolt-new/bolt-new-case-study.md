@@ -10,7 +10,7 @@ bolt.new, a cloud-based platform designed to simplify frontend development. It h
 
 ## Brief History
 
-- **2020**: bolt.new is founded with the goal of simplifying cloud-based web development for frontend developers.
+- **2020**: StackBlitz, known for its in-browser development environments, starts working on bolt.new to simplify cloud-based web development for frontend developers.
 - **2021**: The platform introduces its first set of tools focused on JAMstack architecture, gaining attention for its ease of use.
 - **2022**: bolt.new expands its feature set, adding support for serverless functions and integrations with popular frontend frameworks.
 - **2023**: The platform grows its user base significantly and begins offering more robust deployment options for scaling applications.
