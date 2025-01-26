@@ -55,14 +55,27 @@ In Summary, npm is an essential tool for managing JavaScript dependencies, while
 
 ## Getting Started
 
-I will be exploring how to set up and use Bit within a project using VS Code as the code editor and Bash for terminal commands. Bit is a platform that is supposed to manage, version and share components across projects, and I am going to showcase that and give a step by step tutorial.
+I will be showing how to set up and use Bit within a project using VS Code as the code editor and Bash for terminal commands. I will be using the Bit Getting started guide on how to install and initialize the project.
 
-1. Ensure Node.js is installed either on the computer or in the code editor. To check you can use the command "node -v" to see what version of Node.js you have, if nothing comes up or it's outdated, run the "npm install node" or check the Node.js guide from their official website to update/install Node.js.
-2. Install Bit by using the command "npm install bit-bin --global" in the terminal.
-3. Create a folder to keep your components inside, and make a file to test Bit with, such as button.js, and add a basic button component inside. 
-4. Run the Bit add command in the terminal, "bit add components/button.js --main button.js". This will add the component to the Bit workspace, after the component is tracked by Bit you can version it using the Bit tag command, "bit tag components/button 1.0.0".
-5. To share the component with others or use it across multiple projects, use the command "bit export <username>.<name-of-collection>".
-6. To test if the export worked, create a new directory for a different project/workspace. Open this new project in the code editor and initialize it with Bit by using the commands: "mkdir testing-bit", "cd testing-bit" and "bit init". Write the Bit import command to fetch the button we made in step 3. "bit import <username>.<name-of-collection>/button", once that is done, make a file where you wish the Bit component should be in, and fetch the button. 
+OBS! Make sure you make an account before starting, only registered users can use Bit (as far as I am aware).
+
+### Creating a Component 
+
+1. Make a new repro where your will be testing and creating your components using Bit.
+2. Install Bit by using the command "npx @teambit/bvm install" in the terminal of your computer.
+3. To initalize a workspace use the command "bit init --default-scope my-org.my-project" in the terminal, replace the my-org with your organization name and my-project with your projects name, either a already existing project or a new one. 
+4. Make a new folder inside the repro where you wish your component to be inside, I made a folder named button and added a button.html, button.css and button.js files with basic codes inside.
+5. To add your component to Bit use the command: "bit add your-component.js your-component.css your-component.html --main your-component.js". Since I named everything "button" for me it looks like such: "bit add button.js button.css button.html --main button.js
+". 
+6. Now that the component is successfully added to Bit, we will need to tag it to give it a version number so we can later fetch and update the component. using the command "bit tag --build" Bit should do everything by itself.
+7. Before we can export the component, we must be logged in, to make sure you are logged in use the command "bit login". If you are not logged in, you will be transfered to a new webpage where you must login to your Bit account.
+8. Once the component is tagged, and we are logged in to our Bit account, we can export it to the Bit platform so that it is available to be used in other projects or teams. Use the command: "bit export" in the terminal to push the component. To check if you have successfully exported your component, open up the webpage with you Bit account and under "overview" you can see if you have gotten a new/existing repro and a new component inside it.
+
+### Fetching a Component
+
+1. To start fetching yours or others components, you must first see if they exist. In your Bit account, navigate where the component you wish to fetch is, if we continue where we left off, the component will be inside the repro you have made earlier, under "overview". You should see the component listed there with the version 1.0.0 as it was the first component we made and have not added any "updates" to it. You can also see all the details to it by clicking the component to ensure everything is correct.
+2. To confirm that our component has been exported and can be used in other projects, we can import it into a different project, or even the same project we used earlier. Open up the terminal and navigate into your new/previous repro. Import the component by running the command "bit import your-org.your-repro-name.component". Replace your-org with your organization name, repro-name with your previously made repro's name where the component is inside, and component with the component's name.
+3. If it everything goes successfully, the component should now be inside your new repro, or "reused" in your old repro. To test if it works you can run the command "bit start" or use live-server. 
 
 ## Conclusion
 
