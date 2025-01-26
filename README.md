@@ -111,9 +111,8 @@ hent_vaerdata(by)
 
 
 ### **Oppsummering**
-(/Users/christianwestby/PROGRAMING WORLD/Raspberry-Pi-5-product-case-study.md/public/images/muligheter.jpg)
-Raspberry Pi 5 er en kraftig og fleksibel utviklingsplattform som passer til en rekke prosjekter, fra enkle hobbyprosjekter til avanserte utviklingsoppgaver. Med sin kraftige maskinvare og aktive fellesskap er den et utmerket valg for utviklere som ønsker å utforske teknologiens potensiale. Dette eksempelet med Python og værdata viser hvordan plattformen kan brukes for å bygge praktiske applikasjoner.
 
+(https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/aba3996e806aa0295afd3151724b45edf5e3a968/public/images/muligheter.jpg)
 
 ### ** Erfaringen så langt med Raspberry Pi 5 **
 ![Raspberry Pi Desktop Kit]
