@@ -117,3 +117,5 @@ With features like automatic scaling, serverless functions, and AI-powered tools
 - [Cursor AI Official Site](https://cursor.so)
 - [Cursor AI Documentation](https://docs.cursor.so)
 - [Cursor AI Blog](https://blog.cursor.so)
+- [V0.dev](https://v0.dev/)
+- [V0 docs](https://v0.dev/docs)
