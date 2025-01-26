@@ -1,5 +1,10 @@
 # Noroff Development Platforms
+
+![Raspberry Pi Desktop Kit](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/api_project_setup.jpg)
+
 ![Raspberry Pi Desktop Kit](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/oversiktsbilde.jpg)
+
+
 ### **Introduksjon**
 Raspberry Pi 5 er den nyeste modellen i Raspberry Pi-serien, kjent for sin kompakte størrelse, lave pris og brede bruksområder. Som en kraftig mikrodatabase tilbyr den muligheter for læring, utvikling og innovasjon. Raspberry Pi 5 har oppgradert maskinvare som en raskere prosessor enn forgjengeren Pi 4, støtte for USB 3.0, og forbedret termisk ytelse, noe som gjør den til et ideelt valg for prosjekter som spenner fra grunnleggende programmering til avansert utvikling.
 
@@ -39,10 +44,13 @@ uforholdsmessig dyrt, pcen eller serveren vil ta mye større fysisk plass og mob
 Hat´er vil forsvinne. Og det finens mange gode Hat´er der ute allerede som dekker de aller fleste ønsker.    
 - Aktivt fellesskap og rikelig med ressurser for læring.  
 - Fleksibilitet med støtte for flere operativsystemer.  
+- Det er mulighter for å anskaffe seg større caser for å skape mer rom for bedre bedre kjøling,utvidelse av Hat´er som blant annet WiFi kort eller dac- lydkort.
+- Det følger med 64 GB sd kort i pakken. Her er det mulighter for å tilkoble større eksterne lagringmedier for mer morro.  
 
 **Svakheter:**  
 - Begrenset prosessorkraft for svært intensive oppgaver.  
 - Avhengighet av eksterne komponenter som strømforsyning og kjøling for optimal ytelse.  
+- Det følger med litt lite lagringsplass. 
 
 ---
 
@@ -78,7 +86,7 @@ Bruk følgende Python-kode for å hente værdata fra OpenWeatherMap:
 import requests
 
 # Din API-nøkkel fra OpenWeatherMap
-API_KEY = "din_api_nøkkel"
+API_KEY = "47a959104bef0e1b3d170475f531bb98l" # Denne API- nøkkelen får man tilsendt og man legger den bare inn i koden. 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def hent_vaerdata(by):
@@ -115,15 +123,22 @@ hent_vaerdata(by)
 ### **Oppsummering**
 
 
-![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/muligheter.jpg)
+![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/images/muligheter.jpg)
 
 ### ** Erfaringen så langt med Raspberry Pi 5 **
 ![Raspberry Pi Desktop Kit]
 
-Erfaringen så langt er at dette er drit kult!  Man må bruke ChatGPT i starten, men det løsner mer og mer. Man, jeg ihvertfall , bruker terminalen for ålegge  kode inn i python og Nano for å skrive koden til python. Her er det imdelrtid noen utfordringer med at Python ikke klarer å lese alle kode tegne som f.eks æ,ø,å eller f.eks symbolet for celcius som nano godtar. 
+Erfaringen så langt er at dette er drit kult!!  Man må bruke ChatGPT i starten for å flyt i læringen,for boka gidder man jo ikke å bla i. Men det løsner mer og mer. Man, jeg ihvertfall , bruker terminalen for å legge kode inn i python og Nano for å skrive koden til python. Her er det imdelrtid noen utfordringer med at Python ikke klarer å lese alle kode tegne som f.eks æ,ø,å eller f.eks symbolet for celcius som nano godtar.
+Nano virker for meg som et litt tungvindt tekst/kode editor. Den har ikke f.eks VS codes fete funksjoner som bl.annet linter.
+Og Python er super følsom eller nøye om du vill på innrykk. Alt SKAL være på linje (det skal jo det da) men det pleier jo å funke selv om det ser helt forferdelig ut. 
+Så dette er bare å se på som god læring inn mot et nytt programeringspråk tenker jeg.
 
-Neste for meg blir å etablere en nettside hvor jeg kan vise frem de data jeg henter, som i mitt tilfelle. Være og temp fra Oslo by. 
+Neste for meg tenker jeg, blir å etablere en nettside hvor jeg kan vise frem de data jeg henter, som i mitt tilfelle. Være og temp fra flere byer, hente ut data fra sensor i stua om luftfuktighet, temp osv. 
 Etter dette tenker jeg at jeg må etabelere en nettside for hytta som viser temp, kanskje et ute kamera og booking system for bruk av hytta. 
 
+For meg så langt har denne teknologiske morrosaken vært til god læring, glede, frustrasjon, motivasjon til å bedre forstå API og dens bruks områder og samt at jeg har fått satt igang læring av et nytt programeringsspråk Python. Noe som er drit kult!
 
-![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/nerd%20at%20work.jpg)
+Så basert på det kan jeg ikke noe annet enn å anbefale en Raspberry Pi 5 til alle som syns overnevte er kult. 
+
+
+![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/main/public/images/nerdatwork.jpg)
