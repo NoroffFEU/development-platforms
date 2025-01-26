@@ -124,4 +124,4 @@ Neste for meg blir å etablere en nettside hvor jeg kan vise frem de data jeg he
 Etter dette tenker jeg at jeg må etabelere en nettside for hytta som viser temp, kanskje et ute kamera og booking system for bruk av hytta. 
 
 
-
+https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/nerd%20at%20work.jpg
