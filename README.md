@@ -118,6 +118,18 @@ hent_vaerdata(by)
 3. Programmet vil vise værinformasjon for byen du oppgir, f.eks. Oslo. Resultatet vises med hvit tekst på svart bakgrunn i terminalen.
 
 
+### ***Montering**
+
+Selve Raspberry "boksen" - Inside the juice....
+
+For noen som har bygget litt pc-er eller jobbet litt med elektronikk er dette en smal sak, godteri på en lørdagskveld. Bare kos!
+Det skal holdes en tunge rett i munnen ved enkelte tilpassninger slik at kortet i seg selv ikke blir ødelagt eller at man kløne å bøyer ide pinnene. Man kan bytte ut kjøleribber, kjølevifte og legge til Hat´er. Det jeg tenker er at man tar seg god tid til å identifisere hva man vill og skal gjøre. Sørge for at man har nok og riktige deler. Og ikke minst være litt tålmodig....
+
+Man kan velge å kjøpe bare Raspberry Pi 5 enheten og koble denne opp mot eget tastatur, mus og skjerm. Det som er greit å passe på da
+er et tilkoblingene er av micro-usb til usb eller micro-usb til HDMI. SÅ flere adaptere er nødvendig. Dette skal etter hva jeg forstår fungere uten feil eller mangler.
+Jeg valgte å til innkjøpe av komplett pakke og skjerm. Dette er plugg and play og selv den mest halvblinde apekatten ville klart å sette dette sammen uten problemer. 
+
+Innstalasjonen gikk også greit. Ved å bruke ChatGPT fikk man gode tips og løsninger. Dog måtte man inn å tweeke litt for å få instalert alt og i riktig rekkefølge uten at Mr.ChatGPT kommenterte dette... 
 
 
 ### **Oppsummering**
@@ -129,9 +141,14 @@ hent_vaerdata(by)
 ![Raspberry Pi Desktop Kit]
 
 Erfaringen så langt er at dette er drit kult!!  Man må bruke ChatGPT i starten for å flyt i læringen,for boka gidder man jo ikke å bla i. Men det løsner mer og mer. Man, jeg ihvertfall , bruker terminalen for å legge kode inn i python og Nano for å skrive koden til python. Her er det imdelrtid noen utfordringer med at Python ikke klarer å lese alle kode tegne som f.eks æ,ø,å eller f.eks symbolet for celcius som nano godtar.
-Nano virker for meg som et litt tungvindt tekst/kode editor. Den har ikke f.eks VS codes fete funksjoner som bl.annet linter.
+Nano virker for meg som et litt tungvindt tekst/kode editor. Den har ikke f.eks VS codes fete funksjoner som bl.annet lintere.
 Og Python er super følsom eller nøye om du vill på innrykk. Alt SKAL være på linje (det skal jo det da) men det pleier jo å funke selv om det ser helt forferdelig ut. 
-Så dette er bare å se på som god læring inn mot et nytt programeringspråk tenker jeg.
+Så dette er bare å se på som god læring inn mot et nytt programeringspråk tenker jeg og øvelse i best practisce.
+
+En annen fordel tenker jeg er at jeg lærer meg og blir mye mer komfertabel med bruk av terminalen, dens kommandoer og oversikt.
+
+En tredje og høythengende fordel er læren, bruken og utviklingen av Linux kunnskapen min. Raspberry Pi 5 er
+et Linux-basert. Operativsystemet er bruker Linux-kjernen. Man får da tilgang til de fleste programmer og verktøy som fungerer på Debian-systemer. 
 
 Neste for meg tenker jeg, blir å etablere en nettside hvor jeg kan vise frem de data jeg henter, som i mitt tilfelle. Være og temp fra flere byer, hente ut data fra sensor i stua om luftfuktighet, temp osv. 
 Etter dette tenker jeg at jeg må etabelere en nettside for hytta som viser temp, kanskje et ute kamera og booking system for bruk av hytta. 
