@@ -1,5 +1,5 @@
 ---
-title: Case Study: OpenResty  
+title: OpenResty Case Study
 author: Erik Torkildsen <kiretwo>  
 tags: openresty, web-server, lua, nginx, case-study  
 ---
