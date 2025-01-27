@@ -35,7 +35,7 @@ Her er Raspbery´s egen side om forslag til prosjekter og utviklingsmuligheter!
 (https://www.raspberrypi.com/products/build-hat/)
 
 ---
-![Raspberry Pi Desktop Kit](public/images/legomotor.jpg)
+![Raspberry Pi Desktop Kit](public/images/legomotor.jpg) (https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/legomotor.jpg)
 
 ### **Styrker og svakheter**
 **Styrker:**  
@@ -118,7 +118,7 @@ hent_vaerdata(by)
 3. Programmet vil vise værinformasjon for byen du oppgir, f.eks. Oslo. Resultatet vises med hvit tekst på svart bakgrunn i terminalen.
 
 
-### ***Montering**
+### ***Montering***
 
 Selve Raspberry "boksen" - Inside the juice....
 
@@ -135,7 +135,9 @@ Innstalasjonen gikk også greit. Ved å bruke ChatGPT fikk man gode tips og løs
 ### **Oppsummering**
 
 
-![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/images/muligheter.jpg)
+![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/legoeducationAngularMotor.jpg)
+
+
 
 ### ** Erfaringen så langt med Raspberry Pi 5 **
 ![Raspberry Pi Desktop Kit]
