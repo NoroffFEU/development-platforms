@@ -35,7 +35,9 @@ Her er Raspbery´s egen side om forslag til prosjekter og utviklingsmuligheter!
 (https://www.raspberrypi.com/products/build-hat/)
 
 ---
-![Raspberry Pi Desktop Kit](public/images/legomotor.jpg) (https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/legomotor.jpg)
+
+
+<img src="https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/legomotor.jpg" alt="Raspberry Pi Desktop Kit" width="500" />
 
 ### **Styrker og svakheter**
 **Styrker:**  
@@ -124,7 +126,7 @@ Til venstre i bildet viser man Python-koden og api spørringen skrevt i Nano. Je
 
 Her er et bilde av prosjektet:
 
-<img src="https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/nanokodeogpythonsvar.png" alt="Raspberry Pi Desktop Kit" width="500" />
+<img src="https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/nanokodeogpythonsvar.png" alt="Raspberry Pi Desktop Kit" width="1000" />
 
 
 ### ***Montering***
@@ -144,7 +146,10 @@ Innstalasjonen gikk også greit. Ved å bruke ChatGPT fikk man gode tips og løs
 ### **Oppsummering**
 
 
-![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/legoeducationAngularMotor.jpg)
+# Raspberry Pi 5 Product Case Study
+
+
+<img src="https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/legoeducationAngularMotor.jpg" alt="Lego motor" width="500" />
 
 
 
