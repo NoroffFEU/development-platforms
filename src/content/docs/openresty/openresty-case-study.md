@@ -14,7 +14,6 @@ OpenResty is a high-performance web platform that embeds the Lua scripting langu
 - **2011**: Open-sourced, gaining adoption for its lightweight scripting capabilities.  
 - **2015**: Adopted by **Cloudflare** for edge security tools like Web Application Firewalls (WAF).  
 - **2017**: Became the foundation for **Kong API Gateway**, a widely-used open-source API management tool.  
-- **Today**: OpenResty powers critical infrastructure for fintech, e-commerce, and CDN providers, with a thriving community of contributors.
 
 ---
 
