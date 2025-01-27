@@ -61,6 +61,10 @@ Sammenlignet med Arduino, som er mer fokusert på lavnivå maskinvarekontroll, t
 
 ---
 
+ ### **Forbered maskinvaren**:  
+   Monter kjølesystemet og koble til tastatur og skjerm som vist på bildet:  
+   ![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/montering.jpg)
+
 ### **Praktisk eksempel: Innhenting av værdata med Python**
 Dette eksempelet demonstrerer hvordan Raspberry Pi 5 kan brukes til å utvikle en enkel applikasjon for innhenting av værdata fra OpenWeatherMap API. Prosjektet er perfekt for nybegynnere og lar deg utforske bruk av Python og API-integrasjon.
 
@@ -75,9 +79,7 @@ Dette eksempelet demonstrerer hvordan Raspberry Pi 5 kan brukes til å utvikle e
    pip install requests
    ```
 
-3. **Forbered maskinvaren**:  
-   Monter kjølesystemet og koble til tastatur og skjerm som vist på bildet:  
-   ![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/montering.jpg)
+3.
 
 ---
 
