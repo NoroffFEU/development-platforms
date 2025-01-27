@@ -29,7 +29,7 @@ Raspberry Pi 5 kan brukes til en rekke prosjekter:
 
 - **Sensorintegrasjon**: Innhenting og analyse av data fra sensorer som værstasjoner.  
 
-### ** Mange muligheter for læring ***
+### **Mange muligheter for læring**
 Det finnes flere muligheter for læring med dette produktet og det er flere sammarbeidspartnere og prosjekter og løsninger finnes. 
 Et eksempel er Lego.
 (https://www.youtube.com/watch?v=UqUG2VUFsrg)
@@ -73,16 +73,14 @@ Dette eksempelet demonstrerer hvordan Raspberry Pi 5 kan brukes til å utvikle e
 
 #### **Trinn 1: Klargjør Raspberry Pi**
 1. **Installer Raspberry Pi OS**:  
-   Sørg for at din Raspberry Pi er konfigurert med Raspberry Pi OS. Følg oppsettet i "The Official Raspberry Pi Beginner's Guide" som vist i bildet nedenfor.  
-
+   Sørg for at din Raspberry Pi er konfigurert med Raspberry Pi OS. Følg oppsettet i "The Official Raspberry Pi Beginner's Guide".  
+   Eller bruk f.eks ChatGPT og få en hurtig gudie til oppsettet. 
 
 2. **Installer nødvendige biblioteker**:  
    Åpne terminalen og installer `requests`-modulen for Python:  
    ```bash
    pip install requests
    ```
-
-3.
 
 ---
 
@@ -93,7 +91,7 @@ Bruk følgende Python-kode for å hente værdata fra OpenWeatherMap:
 import requests
 
 # Din API-nøkkel fra OpenWeatherMap
-API_KEY = "47a959104bef0e1b3d170475f531bb98l" # Denne API- nøkkelen får man tilsendt og man legger den bare inn i koden. 
+API_KEY = "47a959104bef0e1b3d170475f531bb98l" 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def hent_vaerdata(by):
@@ -118,7 +116,7 @@ hent_vaerdata(by)
 
 #### **Trinn 3: Kjøre scriptet**
 1. Lagre scriptet som `vaerdata.py` på din Raspberry Pi.  
-2. Kjrø scriptet i terminalen:  
+2. Kjør scriptet i terminalen:  
    ```bash
    python vaerdata.py
    ```
@@ -160,17 +158,18 @@ Innstalasjonen gikk også greit. Ved å bruke ChatGPT fikk man gode tips og løs
 ### ** Erfaringen så langt med Raspberry Pi 5 **
 
 
-Erfaringen så langt er at dette er drit kult!!  Man må bruke ChatGPT i starten for å flyt i læringen,for boka gidder man jo ikke å bla i. Men det løsner mer og mer. Man, jeg ihvertfall , bruker terminalen for å legge kode inn i python og Nano for å skrive koden til python. Her er det imdelrtid noen utfordringer med at Python ikke klarer å lese alle kode tegne som f.eks æ,ø,å eller f.eks symbolet for celcius som nano godtar.
+Erfaringen så langt er at dette er drit kult!! 
+Man må bruke ChatGPT i starten for å flyt i læringen,for boka gidder man jo ikke å bla i. Men det løsner mer og mer. Man, jeg ihvertfall , bruker terminalen for å legge kode inn i python og Nano for å skrive koden til python. Her er det imdelertid noen utfordringer med at Python ikke klarer å lese alle kodetegnene som f.eks æ,ø,å eller f.eks symbolet for celcius som nano godtar.
 Nano virker for meg som et litt tungvindt tekst/kode editor. Den har ikke f.eks VS codes fete funksjoner som bl.annet lintere.
 Og Python er super følsom eller nøye om du vill på innrykk. Alt SKAL være på linje (det skal jo det da) men det pleier jo å funke selv om det ser helt forferdelig ut. 
 Så dette er bare å se på som god læring inn mot et nytt programeringspråk tenker jeg og øvelse i best practisce.
 
-En annen fordel tenker jeg er at jeg lærer meg og blir mye mer komfertabel med bruk av terminalen, dens kommandoer og oversikt.
+En annen fordel tenker jeg er at jeg lærer meg og blir mye mer komfertabel med bruk av terminalen, dens kommandoer og "enkelhet".
 
 En tredje og høythengende fordel er læren, bruken og utviklingen av Linux kunnskapen min. Raspberry Pi 5 er
-et Linux-basert. Operativsystemet er bruker Linux-kjernen. Man får da tilgang til de fleste programmer og verktøy som fungerer på Debian-systemer. 
+et Linux-basert. Operativsystemet bruker Linux-kjernen. Man får da tilgang til de fleste programmer Linux kjører og verktøy som fungerer på Debian-systemer. 
 
-Neste for meg tenker jeg, blir å etablere en nettside hvor jeg kan vise frem de data jeg henter, som i mitt tilfelle. Være og temp fra flere byer, hente ut data fra sensor i stua om luftfuktighet, temp osv. 
+Neste for meg tenker jeg, blir å etablere en nettside/app hvor jeg kan vise frem de data jeg henter, som i mitt tilfelle, Vær og temp fra flere byer, hente ut data fra sensor i stua om luftfuktighet, temp osv. 
 Etter dette tenker jeg at jeg må etabelere en nettside for hytta som viser temp, kanskje et ute kamera og booking system for bruk av hytta. 
 
 For meg så langt har denne teknologiske morrosaken vært til god læring, glede, frustrasjon, motivasjon til å bedre forstå API og dens bruksområder og samt at jeg har fått satt igang læring av et nytt programeringsspråk Python. Noe som er drit kult!
