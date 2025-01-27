@@ -17,6 +17,8 @@ GitKraken is a powerful and intuitive Git client designed to simplify version co
 ## Main Features
 
 GitKraken simplifies Git workflows by providing a visual representation of branches, commits, and merge histories, making operations like branching, merging, and resolving conflicts straightforward. It also includes productivity enhancements such as a built-in code editor, kanban boards and command terminal. GitKraken is available in free version, but also has a paid premium version with more advanced features. GitKraken is available on Windows, macOS and Linux.
+GitKraken has advanced features which are more user friendly, and visually cleaner compared to other tools like Github Desktop.
+One of these advanced features is rebasing. Rebasing is an action that allows you to rewrite commits from one Git branch to another branch. Essentially, Git rebase is deleting commits from one branch and adding them to another.
 
 | Feature | Description |
 | --- | --- |
@@ -25,8 +27,6 @@ GitKraken simplifies Git workflows by providing a visual representation of branc
 | Cross-Platform Support | Available on Windows, macOS and Linux. |
 | GitKraken Boards | Integrated kanban boards for task and issue tracking. |
 | Graphical User Interface | Provides a clear, visual representation of branches, commits and merge histories. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
 ## Market Comparison
 
@@ -40,20 +40,14 @@ You may find this online tool useful for creating tables: https://www.tablesgene
 
 
 
-## Getting Started
-
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
-
 ## Conclusion
 
-GitKraken is more suitable for advanced users or teams who require a comprehensive tool with visual Git history, advanced operations, and integrations with various Git hosting platforms and project management tools.
+GitKraken is more suitable for advanced users or teams who require a comprehensive tool with visual Git history, and integrations with various Git hosting platforms and project management tools.
+GitKraken saves time and boosts productivity, making it an excellent tool for front-end developers working in teams, or on large complex projects.
+
 
 ## References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/GitKraken)
 - [GitKraken](https://www.gitkraken.com/)
-
-## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [Git GUI's compared](https://youtu.be/w3jiY-UKW6I?si=IIV4uZMnu7hnRJzs)
