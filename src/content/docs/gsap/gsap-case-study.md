@@ -105,6 +105,6 @@ Compared to Anime.js, GSAP is better suited for complex animations and advanced 
 
 - [gsap](https://gsap.com/)
 - [Stackradar](https://www.stackradar.co/tools/greensock)
-- [dev.to] (https://dev.to/sharoztanveer/gsap-vs-framer-motion-which-animation-library-should-you-choose-for-your-creative-web-projects-4d02)
+- [dev.to](https://dev.to/sharoztanveer/gsap-vs-framer-motion-which-animation-library-should-you-choose-for-your-creative-web-projects-4d02)
 - [anime.js](https://animejs.com/)
 
