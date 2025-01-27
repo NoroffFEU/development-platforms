@@ -148,7 +148,6 @@ Innstalasjonen gikk også greit. Ved å bruke ChatGPT fikk man gode tips og løs
 ### **Oppsummering**
 
 
-# Raspberry Pi 5 Product Case Study
 
 
 <img src="https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/legoeducationAngularMotor.jpg" alt="Lego motor" width="500" />
@@ -156,7 +155,7 @@ Innstalasjonen gikk også greit. Ved å bruke ChatGPT fikk man gode tips og løs
 
 
 ### ** Erfaringen så langt med Raspberry Pi 5 **
-![Raspberry Pi Desktop Kit]
+
 
 Erfaringen så langt er at dette er drit kult!!  Man må bruke ChatGPT i starten for å flyt i læringen,for boka gidder man jo ikke å bla i. Men det løsner mer og mer. Man, jeg ihvertfall , bruker terminalen for å legge kode inn i python og Nano for å skrive koden til python. Her er det imdelrtid noen utfordringer med at Python ikke klarer å lese alle kode tegne som f.eks æ,ø,å eller f.eks symbolet for celcius som nano godtar.
 Nano virker for meg som et litt tungvindt tekst/kode editor. Den har ikke f.eks VS codes fete funksjoner som bl.annet lintere.
