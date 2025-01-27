@@ -129,3 +129,8 @@ Step 19. If you choose paid plan in step 6 you can consider
 
 ## Conclusion
 From what we have talked about Wordpress is a pretty big tool for modern day web development which allows inexperienced and experienced users create the website they want. Its easy to see why Wordpress has so huge popularity as it does, since its very easy to use and offers various benefits which other similar platforms doesn't or do offer but to a lesser or worse extend than what Wordpress does.
+
+## Resources
+
+1. [Wordpress Official Website](https://wordpress.com/about/)
+2. [Content Snare](hhttps://contentsnare.com/wordpress-history/#:~:text=Its%20co%2Dfounders%2C%20Matt%20Mullenweg,authors%20with%20no%20technical%20knowledge.)
