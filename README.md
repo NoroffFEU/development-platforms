@@ -117,6 +117,15 @@ hent_vaerdata(by)
    ```
 3. Programmet vil vise værinformasjon for byen du oppgir, f.eks. Oslo. Resultatet vises med hvit tekst på svart bakgrunn i terminalen.
 
+### **Python kode skrevet i Nano og respons fra API***
+
+Til venstre i bildet viser man Python-koden og api spørringen skrevt i Nano. Jeg utvidet eksempelet over med bare en by, til å endre scriptet til å hente fra flere byer samtidig. 
+
+
+Her er et bilde av prosjektet:
+
+<img src="https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/nanokodeogpythonsvar.png" alt="Raspberry Pi Desktop Kit" width="500" />
+
 
 ### ***Montering***
 
@@ -155,9 +164,14 @@ et Linux-basert. Operativsystemet er bruker Linux-kjernen. Man får da tilgang t
 Neste for meg tenker jeg, blir å etablere en nettside hvor jeg kan vise frem de data jeg henter, som i mitt tilfelle. Være og temp fra flere byer, hente ut data fra sensor i stua om luftfuktighet, temp osv. 
 Etter dette tenker jeg at jeg må etabelere en nettside for hytta som viser temp, kanskje et ute kamera og booking system for bruk av hytta. 
 
-For meg så langt har denne teknologiske morrosaken vært til god læring, glede, frustrasjon, motivasjon til å bedre forstå API og dens bruks områder og samt at jeg har fått satt igang læring av et nytt programeringsspråk Python. Noe som er drit kult!
+For meg så langt har denne teknologiske morrosaken vært til god læring, glede, frustrasjon, motivasjon til å bedre forstå API og dens bruksområder og samt at jeg har fått satt igang læring av et nytt programeringsspråk Python. Noe som er drit kult!
 
 Så basert på det kan jeg ikke noe annet enn å anbefale en Raspberry Pi 5 til alle som syns overnevte er kult. 
+
+
+ ### NERD OUT 
+
+
 
 
 ![Raspberry Pi Maskinvare](https://github.com/ChristianWestby/Raspberry-Pi-5-product-case-study.md/blob/main/public/images/nerdatwork.jpg)
