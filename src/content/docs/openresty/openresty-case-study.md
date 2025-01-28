@@ -92,6 +92,8 @@ Here is a step by step guide on how to set up OpenResty with Docker.
 
 > You can alternatively download OpenResty from their [official OpenResty website](https://openresty.org/en/download.html) eliminating the need for Docker, but I found the set up to be harder, so I won't cover how to do that here.
 
+---
+
 ### Step 1: Install Docker
 
 If you don't already have Docker installed, download and install it from the [official Docker website](https://www.docker.com/).
@@ -104,6 +106,8 @@ After installation, verify Docker is installed by running (in Terminal):
 docker --version
 ```
 
+---
+
 ### Step 2: Create a New Project Directory
 
 Set up a directory for your OpenResty project. This will contain the necessary files like configurations and HTML files.
@@ -111,6 +115,8 @@ Set up a directory for your OpenResty project. This will contain the necessary f
 mkdir openresty-docker-setup
 cd openresty-docker-setup
 ```
+
+---
 
 ### Step 3: Create the OpenResty Configuration File
 
@@ -143,6 +149,8 @@ This basic configuration:
 - Starts an OpenResty server on port 80.
 - Uses Lua to generate dynamic content ("Hello, OpenResty running on Docker!").
 
+---
+
 ### Step 4: Create a Dockerfile
 
 Create a `Dockerfile` to define the Docker image for OpenResty.
@@ -164,6 +172,8 @@ CMD ["openresty", "-g", "daemon off;"]
 - **Expose port 80:** Makes OpenResty accessible on port 80.
 - **Command:** Starts OpenResty when the container runs.
 
+---
+
 ### Step 5: Build the Docker Image
 
 In the same directory, build your Docker image using the following command:
@@ -171,6 +181,8 @@ In the same directory, build your Docker image using the following command:
 docker build -t openresty-demo .
 ```
 - `-t openresty-demo`: Tags the image as `openresty-demo`.
+
+---
 
 ### Step 6: Run the OpenResty Container
 
@@ -181,6 +193,8 @@ docker run -d -p 8080:80 openresty-demo
 - `-d`: Runs the container in detached mode (background).
 - `-p 8080:80`: Maps port 80 in the container to port 8080 on your local machine.
 - `openresty-demo`: Specifies the image to use.
+
+---
 
 ### Step 7: Test Your Setup
 
@@ -201,6 +215,8 @@ Now that you have OpenResty running with Docker and serving content, let's expan
 - Configuring OpenResty to handle both static and dynamic routes.
 
 We'll work step-by-step through the necessary files and configurations.
+
+---
 
 ### Step 8: Update `nginx.conf`
 
@@ -243,6 +259,8 @@ http {
   - Fetches dynamic data from a Lua module (`my_module`).
   - Passes the data to `my_template.html` for rendering.
 
+---
+
 ### Step 9: Create an HTML Template
 
 Add a file named `my_template.html` to define the structure of the dynamic page. This file is located at `/usr/local/openresty/nginx/html/` inside the container.
@@ -264,6 +282,8 @@ Add the following content:
 ```
 - `{{ title }}`, `{{ heading }}`, and `{{ message }}` are placeholders.
 - The template engine replaces these placeholders with data from the Lua module.
+
+---
 
 ### Step 10: Add Lua Module
 
@@ -288,6 +308,8 @@ end
 return _M
 ```
 - `my_module.lua`: Provides dynamic data (as a Lua table) to be rendered in the template.
+
+---
 
 ### Step 11: Update the Dockerfile
 
@@ -317,6 +339,8 @@ CMD ["openresty", "-g", "daemon off;"]
 - Lua modules and templates are copied into the appropriate directories.
 - The `nginx.conf` file is copied to configure the web server.
 
+---
+
 ### Step 12: Build and Run the Project
 
 First check if you have any running containers and then stop and remove them.
@@ -342,11 +366,15 @@ docker run -d -p 8080:80 openresty-dynamic
 - Visit `http://localhost:8080` to see the dynamic page:
   **Output:** A rendered HTML page with the data provided by `my_module`.
 
+---
+
 ### Step 13: Next Steps
 
 - **Customize the Data:** Modify my_module.lua to fetch data from a database or API.
 - **Add More Routes:** Define additional routes in nginx.conf for new features.
 - **Deploy the Project:** Use a cloud provider (like AWS, GCP, or Azure) to make the project accessible to others.
+
+---
 
 ### Summary
 
