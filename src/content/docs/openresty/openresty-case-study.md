@@ -414,7 +414,7 @@ As industries increasingly adopt `edge computing and microservices`, OpenResty i
 
 ## Additional Resources
 
-[Hello World HTTP Example in OpenResty](https://www.youtube.com/watch?v=eSfYLvVQMxw&list=PLlR4WakbzQp0iUvHwJeBcG5MKWgGa_ahU&index=11) - YouTube tutorial explaining OpenResty basics and setup.
-[OpenResty GitHub Repository](https://github.com/openresty/openresty) - Source code, modules, and community contributions for OpenResty.
-[LuaRocks](https://luarocks.org/) - A package manager for Lua, useful for OpenResty developers.
+[Hello World HTTP Example in OpenResty](https://www.youtube.com/watch?v=eSfYLvVQMxw&list=PLlR4WakbzQp0iUvHwJeBcG5MKWgGa_ahU&index=11) - YouTube tutorial explaining OpenResty basics and setup.  
+[OpenResty GitHub Repository](https://github.com/openresty/openresty) - Source code, modules, and community contributions for OpenResty.  
+[LuaRocks](https://luarocks.org/) - A package manager for Lua, useful for OpenResty developers.  
 
