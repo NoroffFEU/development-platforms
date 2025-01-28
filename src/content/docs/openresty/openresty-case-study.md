@@ -363,7 +363,7 @@ docker run -d -p 8080:80 openresty-dynamic
 ```
 
 **Test Your Dynamic Page**
-- Visit `http://localhost:8080` to see the dynamic page:
+- Visit `http://localhost:8080` to see the dynamic page:  
   **Output:** A rendered HTML page with the data provided by `my_module`.
 
 ---
@@ -390,9 +390,9 @@ OpenResty is a `high-performance, Lua-driven extension of Nginx` that shines in 
 
 ### Key Takeaways:
 
-- `Performance:` Built on Nginx, OpenResty efficiently handles high-concurrency workloads with low latency.
-- `Flexibility:` Lua scripting enables powerful customizations, making OpenResty ideal for edge computing and microservices.
-- `Integration:` It combines seamlessly with Nginx’s ecosystem, offering a lightweight yet capable alternative to full-stack frameworks.
+- **Performance:** Built on Nginx, OpenResty efficiently handles high-concurrency workloads with low latency.
+- **Flexibility:** Lua scripting enables powerful customizations, making OpenResty ideal for edge computing and microservices.
+- **Integration:** It combines seamlessly with Nginx’s ecosystem, offering a lightweight yet capable alternative to full-stack frameworks.
 
 ### Limitations:
 
