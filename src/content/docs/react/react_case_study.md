@@ -4,18 +4,23 @@ keywords: components,JSX,State,Prop,Virtual DOM
 author: Anand Chetty
 ---
 
+This case study reviews React, one of the more popular Javascript libraries used to build dynamic user interfaces and web applications.It goes through some history , key features and some comparisons to Vue.js and Angular.
+
 History:
 
 In 2011 the Facebook had issues with code maintenance due to increasing numbers of features. The growing number of team-members and app-features slowed them down so over time their app became difficult to maintain.The engineers could not keep up with the cascading updates.
--cascading updates ensure that when a primary key in a parent table changes, the related foreign keys in child tables are automatically updated to maintain data integrity.
 
-- React was created by Jordan Walke, initially called "F-Bolt" then "FaxJS". Deployed on Facebook's News Feed in 2011, then integrated on instagram in 2012. In 2013 the project is officially open-sourced.Most of this was done by Pete Hunt.
+• 2011  
+ React was created by Jordan Walke, initially called "F-Bolt" then "FaxJS". Deployed on Facebook's News Feed in 2011, then integrated on instagram in 2012. In 2013 the project is officially open-sourced.Most of this was done by Pete Hunt.
 
--2014 React developer tools: Now you able to monitor your react code via Chrome DevTools, here you are able to select root components and sub components(more on that later), here you are also able to step through the components with breakpoints.
+• 2014
+React developer tools: Now you able to monitor your react code via Chrome DevTools, here you are able to select root components and sub components(more on that later), here you are also able to step through the components with breakpoints.
 
--2015 React Native(Mobil:Android,iOS,OWP) was announced at Facebook's React Conf in February 2015 and open-sourced in March 2015.
+• 2015
+React Native(Mobil:Android,iOS,OWP) was announced at Facebook's React Conf in February 2015 and open-sourced in March 2015.
 
--2016 React turns mainstream: React 15 was released in April 2016, focusing on performance improvements, particularly with updates to how React handled rendering and the DOM. This helped establish it as a mature and reliable framework. By 2016, React was well on its way to becoming the dominant choice for building modern web applications, a status it continues to hold in many contexts today.
+• 2016
+React turns mainstream: React 15 was released in April 2016, focusing on performance improvements, particularly with updates to how React handled rendering and the DOM. This helped establish it as a mature and reliable framework. By 2016, React was well on its way to becoming the dominant choice for building modern web applications, a status it continues to hold in many contexts today.
 
 What is React?
 React is a Javascript-based library that employs Webpack to automatically compile React, JSX and Es6
@@ -51,6 +56,13 @@ Here we see React convert the code from JSX to JS. This lets us work with both H
 
 Props(properties)is a way to pass data from the parent component into the child component. These props are read-only and cannot be modified by child components.
 Props makes a component re-usable and and allows for a component to display different content depending on the passed data(props).
+
+Here´s a example :
+function Greeting(props) {
+return <h1>Hello, {props.name}!</h1>;
+}
+
+                    <Greeting name="Anand" />;
 
 4. State and useState
 
@@ -154,6 +166,11 @@ Here are some of the strengths and weaknesses:
                     •   Complex
                     •   Large bundle size
 
+
+
+
+
+
 All frameworks and libraries have their pros and cons. Choosing a a framework or library depends on the team preference ,scalability and the specific project at hand.
 
 References:
@@ -172,6 +189,3 @@ References:
              #:~:text=JavaScript%20syntax%20improvements.-,History,HTML%20component%20library%20for%20PHP.
 
              10 Key Reasons Why You Should Use React for Web Development:https://www.techmagic.co/blog/why-we-use-react-js-in-the-development#:~:text=React%20is%20a%20JavaScript%20library,usually%20works%20fast%20and%20efficiently.
-
-
-
