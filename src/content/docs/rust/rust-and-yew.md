@@ -1,7 +1,7 @@
 ---
 title: Case Study Rust and Yew Framework
 author: E. Petrine Lnghaug
-tags: example, case study, Rust, Framework.
+tags: case study, Rust, Framework.
 ---
 
 ## Introduction
