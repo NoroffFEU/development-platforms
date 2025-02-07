@@ -16,7 +16,9 @@
     "Squarespace",
     "tauri",
     "tlsv",
+    "transformative",
     "webdev",
     "Yvetot"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
