@@ -1,4 +1,8 @@
-# Case Study: Accessibility Tools for Frontend Development
+---
+title: Accessibility tools front end case study
+author: Øyvind Riisnes <Oyvindeavor>
+tags: accessibility, case study, Front end
+---
 
 ## Introduction
 Over 1 billion people worldwide live with some form of disability. By ignoring accessibility in web development, we exclude a significant portion of the population from accessing vital information, services, and opportunities. As frontend developers, our responsibility extends beyond aesthetics and functionality to ensuring that our work is inclusive and usable by everyone. Fortunately, modern tools make accessibility testing and implementation straightforward, enabling developers to integrate accessibility into their workflow without slowing down productivity.
