@@ -1,14 +1,7 @@
 ---
 title: "Case Study: Replit - An Online Coding Environment"
 author: "Shakhzod Gayratov"
-tags:
-  [
-    "Replit",
-    "Development Platforms",
-    "Online IDE",
-    "Collaboration",
-    "Case Study",
-  ]
+tags: Replit, Development Platforms, Online IDE, Collaboration, Case Study
 ---
 
 # **Case Study: Replit - An Online Coding Environment**
