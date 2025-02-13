@@ -1,114 +1,140 @@
 ---
-title: Vercel Case Study
-author: "Maria Do Rosario Bustillo De Azevedo <[RosarioBA]>"
-tags: web-hosting, deployment-platform, nextjs, serverless, cloud-platform
+title: Vercel web hosting service
+author: Sandra Grande < sandygrandy >
+tags: hosting, deployment, service
 ---
 
 ## Introduction
 
-Vercel is a cloud platform that makes deploying websites and web applications incredibly simple, especially for frontend developers. Originally known as ZEIT, the company was founded with the goal of making web deployment as easy as pushing code to GitHub.
-
-Think of Vercel like a special delivery service for websites - you give it your code, and it automatically puts your website online, making it fast and accessible to everyone. What makes Vercel particularly important in modern web development is that it removes many technical complications that developers usually face when putting their websites on the internet.
-
-The platform is particularly valuable for frontend developers because it handles all the complex backend work of deploying and hosting websites. When you push your code to GitHub, Vercel automatically updates your website, checks if everything works correctly, and shows you a preview before making it live. This process, which used to take hours or even days to set up manually, now happens in minutes.
+Vercel is one of the leading hosting and deployment platforms for modern web applications. Vercel offers ways to build, preview and deploy projects. Focuses on performance, scalability and simplicity. It is a go-to platform for many using frameworks like Next.js, Svelte, React and more. This case study explores history, features, use cases, strength and weaknesses and more.
 
 ## Brief History
 
-In 2015, developer Guillermo Rauch launched a company called ZEIT with a clear goal: to make web deployment simpler. His experience in web development led him to spot a major problem - deploying websites was too complex and time-consuming for most developers.
+You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
 
-ZEIT's big break came when they created Next.js. The timing couldn't have been better. React was becoming popular, and websites needed better ways to handle search engine optimization. Developers quickly adopted Next.js because it solved these problems effectively.
-
-The company hit a turning point in April 2020 when ZEIT became Vercel. This wasn't just a name change - it marked the start of rapid growth:
-- $21 million right after rebranding
-- Another $40 million by the end of 2020
-- $102 million in mid-2021, making them a unicorn startup worth $1.1 billion
-- An additional $150 million investment later that year
-
-A game-changing moment came when Rich Harris, who created the popular Svelte framework, joined the team. This showed how serious Vercel was about improving web development tools. The numbers backed this up - Next.js went from having 500,000 weekly downloads to over 5 million after the rebranding.
+- 2015: Founded by Tony Kovanen (vercels ex-cto), and Naoyuki Kanezawa. Originally named Zeit
+- 2016: Vercel created Next.js
+- 2020: Rebranded from Zeit to Vercel.
+- 2021: Raised $102 million in a Series C funding round.
+- 2021: Vercel aquired Turborepo (incremental bundler system for JavaScript and TypeScript).
+- 2022: Vercel aquired Splitbee (tracking and analyzing for online businesses).
+- 2024: Vercel is valued at $3.25 billion.
 
 ## Main Features
 
-| Feature | Description |
-|---------|-------------|
-| Serverless Functions | Backend code execution without server management using Node.js, Python, Go, or Ruby |
-| Edge Network | Global CDN with automatic HTTPS, SSL certification, and location-based routing |
-| Deployment Pipeline | Git integration with automatic deployments and preview environments |
-| Development Tools | Built-in analytics, monitoring, and team collaboration features |
+Vercel is a complete hosting platform for developers, providing mulitple technologies for the Front-end but also some elements requires for the back-end as well. Vercels product stack is meant to be end-to-end in that it adresses functionality around developing, previewing and deployment for developers.
 
-### Serverless Functions 
+- **Easy deployment features:**
+  Vercel features easy deployment, allowing developers to integrate their Git repositories directly. Pushing to main branch or PR automatically triggers a build and deploys a preview. Eliminates the steps of manual deployment steps.
 
-Vercel's approach to server management centers on serverless functions. These functions handle backend tasks without requiring traditional server setup. Developers can use Node.js, Python, Go, or Ruby to write simple API endpoints that run only when needed. Testing shows these functions scale automatically with traffic levels, handling both small personal projects and larger applications effectively.
+- **Serverless functions:**
+  Vercel includes built-it support for serverless functions. This allows developers to add a dynamic backend to their frontend apps without provisioning or managing servers. These functions are automatically deployed as API-endpoints and scales on demand.
 
-### Development Tools
-Analysis shows the platform provides:
-- Real-time performance monitoring
-- Error tracking and logging
-- Team collaboration features
-- Project analytics dashboard
-- Deployment insights
+- **Edge network and Global CDN:**
+  Vercel’s platform is powered by a globally distributed edge network. This ensures that applications are delivered to users with minimal latency, regardless of their geographic location. Static assets, serverless functions, and dynamic content all benefit from this edge-first approach.
 
-### Working with Other Tools
-The platform integrates with:
-- Multiple Git providers
-- Popular frontend frameworks
-- Monitoring services
-- Database solutions
-- Content management systems
+- **Framework support:**
+  Vercel is optimized for modern frameworks with first-class support for Next.js, which Vercel created. It also supports other popular frameworks like React, Vue.js, and Svelte. Developers can leverage Vercel’s platform to build and deploy static sites, single-page applications, and server-side rendered apps with ease.
 
-## Getting Started
+- **Analytics and performance monitoring:**
+  Vercel provides built-in analytics tools to track performance metrics like page load speed, time to first byte (TTFB), and other web vitals. These insights help developers optimize their applications.
 
-Deploy a website on Vercel in three steps:
-
-1. **Prepare Your Repository**
-   - Create a new GitHub repository
-   - Add your project files
-   - Commit and push changes
-
-2. **Connect with Vercel**
-   - Visit vercel.com
-   - Sign up using GitHub
-   - Select "Import Project"
-   - Choose your repository
-
-3. **Deploy Your Site**
-   - Vercel detects project configuration
-   - Assigns a unique domain
-   - Configures HTTPS automatically
-   - Enables preview deployments
+- **CI/CD Integration:**
+  Vercel automates the continuous integration and continuous deployment (CI/CD) process. Every push to a repository automatically creates a deployment preview, enabling developers and stakeholders to test changes before merging them into production.
 
 ## Market Comparison
 
-### Platform Comparison
-Vercel and Netlify approach deployment differently:
+Vercel vs. Netlify
 
-| Feature | Vercel | Netlify |
-|---------|---------|----------|
-| Build Minutes (Free Tier) | 6,000 monthly | 300 monthly |
-| Core Focus | Next.js & Performance | Static Sites & Forms |
-| Key Strength | Edge Computing | Built-in Features |
+Netlify and Vercel are two large, popular plaforms for web hosting. They provide most of the same services, while they do have some differences.
 
-### Framework Support
-While both support major frameworks, each has specializations:
-- Vercel: Optimized for Next.js
-- Netlify: Better for static generators (Jekyll, Hugo)
+- **Ease of use:**
+  Both platforms are simple and easy to use with minimal configuration.
 
-### Distinguishing Features
-Vercel excels in performance and deployment speed, while Netlify offers more built-in features for traditional websites.
+- **Deployment speed**
+  Both platforms provide seamless Git integration and fast deployments. Although Vercel with Next.js offers the capability to deploy a server-side rendered Next.js application, which is not as easy with Netlify.
+
+- **Serverless functions:**
+  Both platforms offers serverless functions as a part of their service, but Vercels is a bit more powerful with its integration of Next.js.
+
+- **Global delivery:**
+  Both platforms use global CDNs to ensure fast and reliable content delivery to their users.
+
+- **Pricing:**
+  Both platforms offer a free, pro and enterprise pricing for projects. The pro plan is similar in pricing with 19$ at Netlify and 20$ at Vercel and similar features. What suits who depends on the project and what features are needed.
+
+## Getting Started with Vercel
+
+**To deploy a project:**
+
+1. You need to create a user at Vercel. You can also sign up with Github, GitLab and Bitbucket.
+
+2. Install a project locally with npx or npm:
+
+   npx create-next-app@latest my-vercel-app
+   cd my-vercel-app
+
+   After this, you can customise your project as needed.
+
+3. Initialise Git with your project:
+
+   git init
+   git add .
+   git commit -m "Initial commit"
+
+   Create new repo on Github or preffered Git provider and push your project.
+
+   git remote add origin <your-repo-url>
+   git branch -M main
+   git push -u origin main
+
+4. Connect repository to Vercel
+
+   Log in and go to your dashboard.
+   Click "new project" and select "Import Git repository"
+   Pick Git provider and select your repository.
+   Configure any deployment settings if needed and click "Deploy"
+
+5. Wait for deployment
+
+   Vercel will automatically detect the framework and configure the build process.
+
+   Once done with deploying, Vercel provides you with an unique URL for your project.
+
+   It is as easy as that!
+
+**To make changes to your project:**
+
+1. Edit code locally
+
+2. Push changes to Git
+
+3. Vercel will automatically trigger a new deployment!
+
+**Use Analytics and Monitoring:**
+
+Head to the analytics tab in the Vercel dashboard. Here you can track performance metrics like load times and user data.
+
+**Collaborate with a team:**
+
+Go to settings and find the team section to invite team members to your project.
 
 ## Conclusion
 
-Vercel streamlines web deployment through automation and modern tooling. Its strengths in Next.js integration and edge computing make it ideal for modern web applications, despite limitations in backend operations and potential scaling costs.
+Vercel is a top platform for frontend developers that offers a combination of simplicity, performance, and scalability. The seamless deployment process, built-in serverless functions and global edge network make it a easy choice for hosting modern web applications. While it does have some limitations, especially for heavy backend use cases, it excels as a platform for static sites, server-side rendered apps, and especially for projects using modern frameworks like Next.js. For developers looking to streamline their workflows and deliver lightning-fast experiences to users, Vercel is a tool to consider.
 
 ## References
 
-1. Gage, J. (2023, May 10). Technical Newsletter Article
-2. Ahmed, A. (2023, July 30). What is Vercel and Why You Should Use It?
-3. Sharma, M. (2024, Feb 11). Demystifying Vercel
-4. Savelyev, A. (2024, Jan 16). History of Vercel
-5. Emadamerho-Atori, N. Vercel vs Netlify: Compare Jamstack Hosting and Deployment
+- https://research.contrary.com/company/vercel
+- https://en.wikipedia.org/wiki/Vercel
+- https://vercel.com/docs
+- https://dev.to/lilxyzz/netlify-vs-vercel-2024-free-hosting-face-off-oo9
+- https://www.getfishtank.com/insights/vercel-vs-netlify
+- https://vercel.com/docs/getting-started-with-vercel
 
 ## Additional Resources
 
-- [Vercel Documentation](https://vercel.com/docs)
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Vercel GitHub](https://github.com/vercel/vercel)
+- https://turbo.build/
+- https://nextjs.org/governance
+- https://vercel.com/pricing?utm_source=google&utm_medium=cpc&utm_campaign=Brand_Vercel_T2&utm_campaign_id=17166484772&utm_term=vercel%20pricing&utm_content=150538224945_665278891380&gad_source=1&gclid=Cj0KCQiA19e8BhCVARIsALpFMgE-A6UEpft4wuy_J_BbLkrtNUEOrCNyvbEdr2bRvkh_MI_GyblrOSkaAnIcEALw_wcB
+- https://www.netlify.com/pricing/
