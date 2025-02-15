@@ -1,10 +1,8 @@
 ---
-Title: Kubernetes Case Study
-Author: Ukonu Kalu Idika <Ukonuidika>  
-Tags: kubernetes, containerization, case study
-
+title: Kubernetes Case Study
+author: Ukonu Kalu Idika <Ukonuidika>  
+tags: kubernetes, containerization, case study
 ---
-
 ## Introduction
 
 Kubernetes (K8s) is a powerful open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. Initially developed by Google, it has become the industry standard for modern application infrastructure, enabling developers to build resilient and scalable systems. Kubernetes is widely adopted in cloud-native environments, allowing applications to run seamlessly across private, public, and hybrid cloud infrastructures.
