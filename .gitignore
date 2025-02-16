@@ -22,3 +22,8 @@ pnpm-debug.log*
 
 # Ignore PostCSS configuration
 postcss.config.*
+
+# Redis
+dump.rdb
+*.rdb
+appendonly.aof
