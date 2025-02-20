@@ -22,3 +22,12 @@ pnpm-debug.log*
 
 # Ignore PostCSS configuration
 postcss.config.*
+
+
+# history
+/.history/
+/.history/*
+.history*
+*.history
+history/
+history/*
