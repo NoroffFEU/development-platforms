@@ -100,9 +100,8 @@ Webflow provides a visual-first approach to building responsive sites, combining
 ## References
 
 - [Webflow Official Website](https://webflow.com)
-- [Official Webflow Blog](https://webflow.com/blog)
+- [Webflow Offical Blog](https://webflow.com/blog)
 - [Webflow AI at Webflow](https://webflow.com/ai)
-- [Webflow Series B Funding](https://webflow.com/blog/webflow-series-b-funding)
 - [Forbes: Webflow Company Profile](https://www.forbes.com/companies/webflow/)
 - [Forbes: $30,000 In Debt To Building A $4 Billion Company](https://www.forbes.com/sites/stevenli1/2022/03/31/30000-in-debt-to-building-a-4-billion-company-the-story-of-how-three-cofounders-beat-impossible-odds-at-webflow/)
 - [The best companies build their websites on Webflow](https://webflow.com/blog/build-better-brand-campaign)
