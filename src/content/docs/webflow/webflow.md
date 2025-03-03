@@ -16,7 +16,7 @@ Webflow is a browser-based development platform that enables users to design, bu
 - **2018**: eCommerce (beta) introduced, expanding Webflow beyond basic site building.
 - **2019**: Secured \$72 million in Series A funding (an early investment round). Used these resources to refine eCommerce, interactions, and continue platform growth.
 - **2021**: Announces \$140 million in Series B funding (follow up round), added membership features, logic flows and continued expansion of the user community.
-- **2022-Present**: Valued at over \$4 billion and powering +300,000 companies, including New York Times Dropbox. Linda Tong took over as CEO while co-founder Vlad Magdalin stepped in as the Chief Innovation Officer after leading the company for over a decade.
+- **2022-Present**: Valued at over \$4 billion and powering +300,000 companies, including New York Times and Dropbox. Linda Tong took over as CEO while co-founder Vlad Magdalin stepped in as the Chief Innovation Officer after leading the company for over a decade.
 
 ## Key Features
 
