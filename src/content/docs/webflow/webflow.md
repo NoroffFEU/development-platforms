@@ -53,10 +53,10 @@ Webflow is a browser-based development platform that enables users to design, bu
 ## Market Comparison
 
 | Platform        | Pros                                                                               | Cons                                                                                        |
-| --------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | --- |
+| --------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **Webflow**     | - Fine-grained design control<br>- One-way code export<br>- Built-in CMS & hosting | - Steeper learning curve for beginners<br>- Subscription costs can increase for large sites |
 | **Wix**         | - User-friendly<br>- Extensive template library                                    | - Limited code export<br>- Less design freedom than Webflow                                 |
-| **Squarespace** | - Polished templates<br>- Built-in commerce                                        | - Less flexible for custom layouts<br>- Minimal direct code editing                         |     |
+| **Squarespace** | - Polished templates<br>- Built-in commerce                                        | - Less flexible for custom layouts<br>- Minimal direct code editing                         |
 
 ## Comparison with Coding from Scratch or Frameworks
 
