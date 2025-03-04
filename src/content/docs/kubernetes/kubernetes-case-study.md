@@ -83,74 +83,107 @@ Below is a brief comparison of Kubernetes with other container orchestration sol
 
 ## Getting Started
 
-1. **Install Minikube**  
-   A local Kubernetes setup tool for experimenting with Kubernetes on a single machine.
+Below is a short guide to help you containerize a basic application and run it locally using **Docker Desktop** and **Minikube** on a macOS machine. This approach is great for front-end developers who want to simulate a containerized environment or get a taste of Kubernetes.
+
+---
+
+### 1. Install Docker Desktop
+
+Docker Desktop is a convenient way to install and manage Docker Engine on macOS, providing a graphical interface and all necessary tooling.
+
+```bash
+brew install --cask docker
+```
+
+1. Once installed, open Docker Desktop via Spotlight (cmd+SPACE and search for docker).
+2. Wait until it says “Docker is running” (a whale symbol) in the status.
+3. In a new terminal, run:
+
+```bash
+docker version
+```
+
+You should see both Client and Server sections if Docker is operational.
+
+### 2. Install Minikube and Kubectl
+
+**Minikube** allows you to create a local Kubernetes cluster on your machine.
+**Kubectl** is the official Kubernetes CLI tool for interacting with that cluster.
 
 ```bash
 brew install minikube
-minikube start
 ```
 
-2. **Kubectl**
-   The command-line tool to manage Kubernetes.
+**Note:** On newer versions of Homebrew, installing Minikube may also install Kubectl. If not, you can install Kubectl separately with `brew install kubectl`
+
+### 3. Start Minikube with Docker as the driver
+
+Since you have Docker Desktop running, specify Docker as the underlying driver for Minikube:
 
 ```bash
-brew install kubectl
-kubectl get nodes
+minikube start --driver=docker
 ```
 
-3. **Define a Deployment & Service**
-   Create YAML manifests that describe your desired application state.
+- Minikube spins up a single-node Kubernetes cluster on your Mac.
+- This can take a few moments while it downloads base images.
 
-```yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: example-deployment
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: example
-  template:
-    metadata:
-      labels:
-        app: example
-    spec:
-      containers:
-        - name: example-container
-          image: nginx:latest
-          ports:
-            - containerPort: 80
-```
-
-Then expose this deployment as a service:
-
-```yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: example-service
-spec:
-  type: NodePort
-  selector:
-    app: example
-  ports:
-    - protocol: TCP
-      port: 80
-      nodePort: 30000
-```
-
-4. **Apply Configuration**
-   Use `kubectl apply` to create the deployment and service:
+Check that your cluster is running:
 
 ```bash
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
+  kubectl get nodes
 ```
 
-5. **Access Your App**
-   Once deployed, you can access your application on `<NodeIP>:30000`.
+You should see something like this:
+| NAME | STATUS | ROLES | AGE | VERSION |
+| ---------| ------------| --------------| ----| --------|
+| minikube | Ready | control-plane | 35s | v1.XX.X |
+
+### 4. Containerize your application
+
+Choose an existing project, f.ex. your latest Noroff assignment.
+
+1. Open the project in VS Code.
+1. Optionally create a new Git branch for your Docker changes:
+
+```bash
+git checkout -b docker-setup
+```
+
+3. In the project's root folder, run:
+
+```bash
+docker init
+```
+
+Docker will walk you through a few questions to create a `Dockerfile` and a `compose.yaml` (Compose file) with sensible defaults.
+
+1. **Dockerfile** – defines how to build and run your container (e.g., specifying the base image, copying files, running build scripts).
+2. **compose.yaml** – defines how to combine multiple containers or services (e.g., a front-end and a backend) in a single environment.
+
+**Tip:** Inspect these files. They often include detailed inline comments to explain each section.
+
+You may now run `docker compose up` to run your project. Be aware that the `Dockerfile` and `compose.yaml` files may need additional changes. In that case, the [Dockerfile reference](https://docs.docker.com/reference/dockerfile/) and [Compose file reference](https://docs.docker.com/reference/compose-file/) may be good places to look.
+
+### Next Steps: Deploying to Minikube
+
+If you want to take your Dockerized app and run it in Kubernetes:
+
+1. Push your Docker image to a registry (e.g., Docker Hub) or use your local Docker daemon with Minikube.
+2. Create Kubernetes manifests (Deployment, Service) describing how your containers should run.
+3. Use kubectl apply -f to deploy those manifests to your Minikube cluster.
+4. Access your service using minikube service <service-name> or by checking your NodePort.
+
+### Wrap-Up
+
+By installing Docker Desktop and Minikube, you’ve set up a modern, local development environment suitable for containerizing and orchestrating front-end (and back-end) applications. Whether you choose to run your app via simple Docker Compose or go full-on Kubernetes with Minikube, you now have the fundamental building blocks to experiment with containerized workflows and microservices architecture.
+
+Feel free to explore further:
+
+- Docker best practices (multi-stage builds, Docker secrets).
+- Minikube advanced usage (ingress controllers, volumes, multi-cluster management).
+- Kubernetes basics (Deployments, Services, Ingress, ConfigMaps, Secrets).
+
+With this setup, you’re well on your way to becoming proficient in container-based development!
 
 ## Should You Use Kubernetes in Your Project?
 
