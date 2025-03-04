@@ -16,7 +16,8 @@ Webflow is a browser-based development platform that enables users to design, bu
 - **2018**: eCommerce (beta) introduced, expanding Webflow beyond basic site building.
 - **2019**: Secured \$72 million in Series A funding (an early investment round). Used these resources to refine eCommerce, interactions, and continue platform growth.
 - **2021**: Announces \$140 million in Series B funding (follow up round), added membership features, logic flows and continued expansion of the user community.
-- **2022-Present**: Valued at over \$4 billion and powering +300,000 companies, including New York Times and Dropbox. Linda Tong took over as CEO while co-founder Vlad Magdalin stepped in as the Chief Innovation Officer after leading the company for over a decade.
+- **2022**: Secured \$120 million in Series C at a \$4 billion valuation. By year’s end, served over 3.5 million users (including 200,000+ paying customers).
+- **2023-Present**: Leadership transition sees Linda Tong step in as CEO, with Vlad Magdalin taking on Chief Innovation Officer responsibilities after a decade leading the company.
 
 ## Key Features
 
@@ -44,6 +45,11 @@ Webflow is a browser-based development platform that enables users to design, bu
 
 - Offers built-in integrated product listings, shopping carts, and payment systems.
 - Best suited for small to mid-sized stores and may lack features needed by larger or complex e-commerce sites.
+
+### Security
+
+- Offers free SSL certificates for all sites, ensuring secure connections between users and your website.
+- Includes advanced Distributed Denial-of-Service (DDoS) protection measures help prevent common attacks and ensure site availability. ​
 
 ### AI Assistant (Beta)
 
@@ -102,9 +108,11 @@ Webflow provides a visual-first approach to building responsive sites, combining
 - [Webflow Official Website](https://webflow.com)
 - [Webflow Offical Blog](https://webflow.com/blog)
 - [Webflow AI at Webflow](https://webflow.com/ai)
+- [Webflow vs Squarespace](https://www.flow.ninja/blog/webflow-vs-squarespace)
+- [Webflow vs Wix](https://www.flow.ninja/blog/webflow-vs-wix)
+- [Wikipedia: Webflow](https://en.wikipedia.org/wiki/Webflow)
 - [Forbes: Webflow Company Profile](https://www.forbes.com/companies/webflow/)
 - [Forbes: $30,000 In Debt To Building A $4 Billion Company](https://www.forbes.com/sites/stevenli1/2022/03/31/30000-in-debt-to-building-a-4-billion-company-the-story-of-how-three-cofounders-beat-impossible-odds-at-webflow/)
-- [The best companies build their websites on Webflow](https://webflow.com/blog/build-better-brand-campaign)
 
 ## Additional resources
 
