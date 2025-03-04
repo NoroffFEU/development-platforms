@@ -14,9 +14,9 @@ Webflow is a browser-based development platform that enables users to design, bu
 - **2013**: Public launch following seed funding. Webflow started generating buzz on tech sites and social media for bridging the gap between no-code design and front-end standards.
 - **2014-2015**: Addition of CMS functionality allowed for dynamic content, expanding Webflow from a simple site builder to a more powerful platform for blogs and small businesses.
 - **2018**: eCommerce (beta) introduced, expanding Webflow beyond basic site building.
-- **2019**: Secured \$72 million in Series A funding (an early investment round). Used these resources to refine eCommerce, interactions, and continue platform growth.
-- **2021**: Announces \$140 million in Series B funding (follow up round), added membership features, logic flows and continued expansion of the user community.
-- **2022**: Secured \$120 million in Series C at a \$4 billion valuation. By year’s end, served over 3.5 million users (including 200,000+ paying customers).
+- **2019**: Secured \$72M in Series A funding (an early investment round). Used these resources to refine eCommerce, interactions, and continue platform growth.
+- **2021**: Announces \$140M in Series B funding (follow up round), added membership features, logic flows and continued expansion of the user community.
+- **2022**: Secured \$120M in Series C (growth and expansion round) at a \$4B valuation. By year’s end, served over 3.5 million users (including 200,000+ paying customers).
 - **2023-Present**: Leadership transition sees Linda Tong step in as CEO, with Vlad Magdalin taking on Chief Innovation Officer responsibilities after a decade leading the company.
 
 ## Key Features
@@ -49,7 +49,7 @@ Webflow is a browser-based development platform that enables users to design, bu
 ### Security
 
 - Offers free SSL certificates for all sites, ensuring secure connections between users and your website.
-- Includes advanced Distributed Denial-of-Service (DDoS) protection measures help prevent common attacks and ensure site availability. ​
+- Built-in DDoS protection defends against attacks and enhances site reliability. ​
 
 ### AI Assistant (Beta)
 
@@ -60,15 +60,15 @@ Webflow is a browser-based development platform that enables users to design, bu
 
 | Platform        | Pros                                                                               | Cons                                                                                        |
 | --------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| **Webflow**     | - Fine-grained design control<br>- One-way code export<br>- Built-in CMS & hosting | - Steeper learning curve for beginners<br>- Subscription costs can increase for large sites |
-| **Wix**         | - User-friendly<br>- Extensive template library                                    | - Limited code export<br>- Less design freedom than Webflow                                 |
-| **Squarespace** | - Polished templates<br>- Built-in commerce                                        | - Less flexible for custom layouts<br>- Minimal direct code editing                         |
+| **Webflow**     | - Fine-grained design control<br>- One-way code export<br>- Built-in CMS & hosting<br>- Advanced animations & interactions | - Steeper learning curve for beginners<br>- Subscription costs can increase for large sites<br>- No live chat or phone support |
+| **Wix**         | - User-friendly<br>- Large selection of templates<br>- App market for added features                                    | - Limited code export<br>- Less design freedom than Webflow<br>- SEO limitations                                 |
+| **Squarespace** | - Polished templates<br>- Built-in commerce<br>- Simplified user experience                                       | - Less flexible for custom layouts<br>- Minimal direct code editing<br>- Limited advanced animations                         |
 
 ## Comparison with Coding from Scratch or Frameworks
 
 | Approach                                                         | Pros                                                                                      | Cons                                                                     |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Webflow**                                                      | - Visual, low-code environment<br>- Quick prototyping<br>- Integrated CMS & hosting       | - Ongoing subscription<br>- Limited for complex back-end logic           |
+| **Webflow**                                                      | - Visual, low-code environment with front-end control<br>- Quick prototyping<br>- Integrated CMS & hosting       | - Ongoing subscription<br>- Limited for complex back-end logic           |
 | **Coding from Scratch**                                          | - Maximum control over code<br>- No dependency on a third-party platform                  | - Longer development cycle<br>- Developer must handle hosting/security   |
 | **Front-End Frameworks** (e.g., **React**, **Vue**, **Angular**) | - Large community & ecosystem<br>- Reusable components<br>- Highly scalable architectures | - Requires coding expertise<br>- Must manage build tooling & deployments |
 
@@ -76,7 +76,7 @@ Webflow is a browser-based development platform that enables users to design, bu
 
 - **Learning Curve**: Despite being “no-code", foundational HTML/CSS knowledge often helps users take full advantage of its capabilities.
 - **Back-End Flexibility**: Lacks robust server-side processing or built-in databases, so complex applications often need external tools or APIs.
-- **Exported Code Maintenance**: While you can export HTML/CSS/JS to host or modify elsewhere, any external changes can't be automatically re-imported into Webflow.
+- **Exported Code Limitations**: Webflow exports clean, semantic HTML and CSS, but dynamic features—such as CMS content, User Accounts, E-Commerce, site search, and password protection—are not included. Forms require third-party integration, and exported code cannot be re-imported into Webflow.
 - **Pricing**: Costs may rise depending on site complexity, traffic, or business-specific features (eCommerce, membership).
 
 ## Potential Developer Workflow
@@ -101,13 +101,21 @@ Webflow is a browser-based development platform that enables users to design, bu
 
 ## Conclusion
 
-Webflow provides a visual-first approach to building responsive sites, combining design, CMS, and hosting into a single service. Its **advantages** include rapid site creation, code export options, and built-in global hosting—features appealing to front-end developers and designers who want to skip manual setup. Its **disadvantages** include limited back-end logic, potential pricing scales as site needs grows, and a learning curve that still requires understanding of foundational web concepts. Ultimately, Webflow can accelerate workflow for small-to-medium projects where a visual interface and quick deployments are priorities, but it may not replace custom-coded solutions for complex applications.
+Webflow is a visual-first website development platform that integrates design, CMS, and hosting into a single tool. It enables users to build responsive sites without requiring deep coding knowledge, making it a flexible alternative to traditional web development. Its **advantages** include rapid site creation, fine-grained design control, a built-in CMS, global hosting and code export options appealing to front-end developers and designers who want to skip manual setup. Webflow also provides advanced animation and interaction tools, allowing for more dynamic designs compared to other no/low-code platforms. However, Webflow has **limitations** that should be considered. Its learning curve is steeper than that of simpler website builders, as users benefit from understanding HTML, CSS, and responsive design principles. Additionally, while it offers hosting and e-commerce features, the platform lacks built-in back-end development tools, making it less suitable for applications requiring complex server-side logic. 
+
+### Who Should Use Webflow?
+
+- **Best suited for:** Designers, developers, agencies and businesses that require customized layouts, advanced animations and an integrated CMS.
+- **Not ideal for:** Projects that need server-side logic, large-scale eCommerce, or a simple drag-and-drop interface with minimal learning curve. 
+
+Ultimately, Webflow bridges the gap between traditional coding and no-code builders, providing developers and designers with a structured workflow that generates clean, semantic HTML and CSS. While it is well suited for small-to-medium projects requiring design flexibility and CMS functionality, larger applications with back-end dependencies may be better served by traditional front-end/back-end frameworks.
 
 ## References
 
 - [Webflow Official Website](https://webflow.com)
-- [Webflow Offical Blog](https://webflow.com/blog)
+- [Webflow Official Blog](https://webflow.com/blog)
 - [Webflow AI at Webflow](https://webflow.com/ai)
+- [Webflow Help Center: Code Export](https://help.webflow.com/hc/en-us/articles/33961386739347-Code-export#01JDAH4E0DFKS27EEW0BYY4X4K)
 - [Webflow vs Squarespace](https://www.flow.ninja/blog/webflow-vs-squarespace)
 - [Webflow vs Wix](https://www.flow.ninja/blog/webflow-vs-wix)
 - [Wikipedia: Webflow](https://en.wikipedia.org/wiki/Webflow)
