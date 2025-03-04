@@ -33,7 +33,7 @@ The platform supports various Agile methodologies without forcing teams into rig
 
 ### Integration Capabilities
 
-A key strength of Azure Boards is its seamless integration with other tools. Azure Repos integration links work items directly to code changes and pull requests. GitHub integration connects work items to GitHub repositories using the AB# mention syntax. Microsoft Teams integration allows creating and updating work items from chat conversations. For custom needs, the REST API enables integration with other systems, while Microsoft Office integration supports traditional project management practices.
+Azure Boards easily connects with tools your team already uses. It works smoothly with GitHub and Azure Repos to link work items directly to code changes. You can create and update work items right from Microsoft Teams chats. It also works with familiar Microsoft Office tools and can connect to other business systems your organization relies on.
 
 ### Analytics and Reporting
 
@@ -57,11 +57,7 @@ Azure Boards targets enterprise organizations with complex work management needs
 
 ## Getting Started with Azure Boards
 
-Implementing Azure Boards effectively requires thoughtful setup and configuration. Users begin by accessing Azure DevOps (dev.azure.com), signing in with a Microsoft account, and creating or selecting a project. Choosing a process template (Basic, Agile, Scrum, or CMMI) determines available work item types and workflows. Teams then configure area paths to organize work by team or component and set up iteration paths for planning cadence.
-
-Once configured, teams create work items through the Work Items hub, backlogs, or boards. Large initiatives typically start with epics and features, breaking down into more detailed stories or issues. Organizing work effectively involves prioritizing the backlog, establishing hierarchical relationships, adding tags for flexible categorization, and assigning work to team members and iterations.
-
-Team collaboration happens through the Discussion section in work items, @mentions to notify team members, and Microsoft Teams integration. Progress tracking uses sprint burndown charts, cumulative flow diagrams, and customized dashboards. Integration with development tools links work items to code changes in Azure Repos or GitHub, while external tool integration supports Excel for bulk updates and Power BI for reporting.
+Azure Boards is simple to set up. Sign in to Azure DevOps, create a project, and choose a process template (Basic, Agile, Scrum, or CMMI). Configure team areas and sprint schedules, then start creating work items. Organize large initiatives into epics and features, breaking them down into smaller stories or tasks. Prioritize your backlog, assign work to team members, and track progress using built-in charts and dashboards. Azure Boards integrates with development tools like GitHub and supports Microsoft Teams for collaboration.
 
 ## Best Practices
 
