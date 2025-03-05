@@ -6,7 +6,7 @@ tags: infrastructure, cloud, automation, terraform
 
 ## Introduction
 
-Infrastructure as Code (IaC) is a methodology that allows developers to define and automate the infrastructure of a project. This includes components such as servers, databases, networks, and more. In the field of information technology, IaC provides a way to define infrastructure using human-readable machine code written in plain text, which is then executed using tools such as Terraform.
+Infrastructure as Code (IaC) is a methodology that allows developers to define and automate the infrastructure of a IT project or IT product. This includes components such as servers, databases, networks, and more. In the field of information technology, IaC provides a way to define infrastructure using human-readable machine code written in plain text, which is then executed using tools such as Terraform.
 This approach helps automate time-consuming tasks that would otherwise have to be performed manually, freeing up developers to focus less on provisioning and deploying servers and more on higher-value tasks.
 Today, the most commonly used cloud providers for provisioning infrastructure are the major cloud platforms, including Google Cloud, AWS (Amazon Web Services), and Microsoft Azure.
 
@@ -159,7 +159,7 @@ This is an excellent guide for getting familiar with Terraform. You learn how to
 
 Terraform helps keep track of the content in the state file (terraform.tfstate) and uses that information to keep the infrastructure in sync with your changes in code. When you update the configuration, the Terraform state file determines what needs to be updated.
 
-## Conclution
+## Conclusion
 
 We live in a time where efficiency is a top priority. Unlike traditional approaches, new methods have been developed to enable this. Since the early 1990s, various automation techniques for infrastructure have been continuously improved. With the rise of cloud computing in the early 2000s as an alternative to traditional on-premise servers, many major organizations have embraced this transformation.
 
