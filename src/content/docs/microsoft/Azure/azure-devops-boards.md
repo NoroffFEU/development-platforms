@@ -21,6 +21,8 @@ A significant rebrand occurred in 2018 when the system became Azure DevOps, with
 
 ## Main Features
 
+![Azure DevOps Boards](https://learn.microsoft.com/en-us/azure/devops/boards/media/best-practices/features-board-customized.png?view=azure-devops)
+
 ### Work Item Tracking
 
 The foundation of Azure Boards is its work item tracking system, where each item represents a distinct unit of work. The system supports four process models—Agile, Scrum, Basic, and CMMI—each with specific work item types suited to different methodologies. Work items support rich text formatting, file attachments, custom fields, and comprehensive history tracking. Items can be linked to other work items, code changes, and test cases, creating a web of relationships that reflects the complex nature of software development.
