@@ -1,6 +1,6 @@
 ---
 title: Azure DevOps Boards
-author: Kariann Norheim <KariannNor>
+author: Kariann Norheim | KariannNor
 keywords: Development platforms, Azure DevOps, Agile development, project management
 tags: Development Platforms, Azure DevOps, Agile, Project Management
 ---
