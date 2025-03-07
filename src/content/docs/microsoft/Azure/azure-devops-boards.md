@@ -5,6 +5,8 @@ keywords: Development platforms, Azure DevOps, Agile development, project manage
 tags: Development Platforms, Azure DevOps, Agile, Project Management
 ---
 
+![Azure DevOps logo](https://www.vivantio.com/wp-content/uploads/2024-vivantio-integrations-cover-azure-devops.png)
+
 # Case Study on Azure DevOps Boards
 
 ## Introduction
