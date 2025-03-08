@@ -164,7 +164,6 @@ You can start using HTMX by simply including it via a **CDN** or installing it t
 
 ### Using a CDN or installin with npm
 
-
 Add the following script tag to the `<head>` section of your HTML file:
 
 ```html
@@ -175,7 +174,6 @@ If you're using a JavaScript build system, you can install HTMX using npm:
 ```bash
 npm install htmx.org
 ```
-
 
 ## Conclusion
 
@@ -195,6 +193,6 @@ HTMX is a cool and simple JavaScript library that makes it easier to add dynamic
 5. Gous, K. (2020, May 15). *HTMX – A JavaScript Framework That Uses HTML for Dynamic Content.* TechCrunch. Retrieved from [https://techcrunch.com/2020/05/15/htmx-a-javascript-framework-that-uses-html-for-dynamic-content/](https://techcrunch.com/2020/05/15/htmx-a-javascript-framework-that-uses-html-for-dynamic-content/)
 
 
-## Additional Resources
+
 
 
