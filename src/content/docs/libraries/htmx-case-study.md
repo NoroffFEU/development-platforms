@@ -5,6 +5,7 @@ tags: HTMX, WebDevelopment, MinimalJS, AJAX, ServerSideRendering
 ---
 
 ## Introduction
+
 Web development has evolved a lot over the years, with many developers relying on JavaScript frameworks like React, Vue, and Angular to create interactive web applications. However, these frameworks can be complex and require a lot of setup. HTMX is a lightweight JavaScript library that takes a different approach—it allows developers to add dynamic behavior to web pages using only HTML attributes, without writing a lot of JavaScript.
 
 HTMX makes it easy to send AJAX requests, update parts of a page, and even use WebSockets or Server-Sent Events, all while keeping the code simple. This means developers can build interactive web applications without turning them into full Single Page Applications (SPAs). In this case study, I will explore what HTMX is, how it works, its advantages and disadvantages, and how it compares to other web development tools.
