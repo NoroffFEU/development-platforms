@@ -1,5 +1,5 @@
 ---
-title: HTMX: A JavaScript Library for Dynamic HTML
+title: HTMX A JavaScript Library for Dynamic HTML
 keywords: HTMX, Hypermedia-driven web development, WebSockets, Lightweight frontend alternatives, HTML-first web development
 tags: HTMX, WebDevelopment, MinimalJS, AJAX, ServerSideRendering
 ---
