@@ -43,8 +43,6 @@ Kubernetes, often called _k8s_, is an open-source container orchestration platfo
 - **Today**  
   Kubernetes continues to evolve rapidly with a robust community that consistently drives new features, best practices, and ecosystem projects. This ensures Kubernetes remains a **pillar** of cloud-native infrastructure - even a decade after that first fateful commit.
 
-Source: [10 Years of Kubernetes, June 06, 2024, kubernetes.io](https://kubernetes.io/blog/2024/06/06/10-years-of-kubernetes/)
-
 ## Main Features
 
 - **Automated Scheduling & Deployment**  
@@ -219,3 +217,4 @@ Kubernetes is a powerful solution for modern, cloud-native applications. By prov
 - [Kubernetes Official Documentation](https://kubernetes.io/docs/home/)
 - [Cloud Native Computing Foundation](https://www.cncf.io/)
 - [Kubernetes on GitHub](https://www.github.com/kubernetes/kubernetes)
+- [10 Years of Kubernetes, June 06, 2024, kubernetes.io](https://kubernetes.io/blog/2024/06/06/10-years-of-kubernetes/)
