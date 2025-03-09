@@ -4,7 +4,7 @@ author: Marte Lilleberre <@Berrinj>
 tags: xata, case study, database, postgres, branching, deploy, open source, serverless, free plan, platform
 ---
 
-<img src="\Xata.png">
+![Xata Logo](/src/assets/databases/xata.png)
 
 ## Introduction
 
