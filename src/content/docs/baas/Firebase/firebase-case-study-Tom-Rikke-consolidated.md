@@ -2,7 +2,7 @@
 
 <a href="#top" class="back-to-top">Back to Top</a>
 
-## Introduction
+# Introduction
 
 Firebase is a comprehensive cloud-based development platform provided by Google, designed to support applications of all sizes, from small projects to large-scale enterprises. As a Backend-as-a-Service (BaaS) solution, Firebase offers a suite of tools and services that streamline the development process, including real-time databases, authentication, storage, hosting, and more. This robust platform enables developers to focus on creating exceptional user experiences without the need to manage backend infrastructure, making app development faster and more efficient.
 
@@ -206,7 +206,28 @@ All in all, Firebase’s balance of ease of use, and advanced functionality make
   html {
     scroll-behavior: smooth;
   }
- 
+
+  h1, h2, h3, h4 {
+    font-style: bold;
+    font-family: "Big Shoulders", sans-serif;
+  }
+
+  h1{
+        font-size: 32px;
+
+  }
+  h2{
+        font-size: 28px;
+
+  }
+  h3{
+        font-size: 24px;
+
+  }
+  h4{
+        font-size: 20px;
+
+  }
 
   .back-to-top {
     position: fixed;
