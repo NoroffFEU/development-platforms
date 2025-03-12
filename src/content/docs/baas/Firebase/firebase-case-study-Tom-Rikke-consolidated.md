@@ -134,6 +134,61 @@ All in all, Firebase’s balance of ease of use, and advanced functionality make
 
 ## <div id="references">References</div>
 
+**Firebase Documentation**
+
+- [Firebase Getting Started](https://firebase.google.com/docs/build)
+- [Firebase Authentication](https://firebase.google.com/docs/auth)
+- [Firebase Cloud Firestore](https://firebase.google.com/docs/firestore)
+- [Firebase Realtime Database](https://firebase.google.com/docs/database)
+- [Firebase Cloud Storage for Firebase](https://firebase.google.com/docs/storage)
+- [Firebase Security Rules](https://firebase.google.com/docs/rules)
+- [Firebase Hosting](https://firebase.google.com/docs/hosting)
+
+**Firebase Plans and Pricing**
+
+- [Firebase Payment Plans](https://firebase.google.com/pricing)
+- [Firebase Price Calculator](https://firebase.google.com/pricing#blaze-calculator)
+
+**Firebase Introductions**
+
+- https://www.geeksforgeeks.org/firebase-introduction/
+- https://www.javatpoint.com/firebase-introduction
+- https://www.linkedin.com/learning/firebase-essential-training/control-access-with-cloud-functions?autoplay=true&resume=false
+
+**Firebase Comparisons**
+
+- https://medium.com/mqos-technologies/mongodb-vs-firebase-which-is-the-best-database-in-2022-aff873566586
+- https://www.mitrais.com/news-updates/aws-amplify-vs-google-firebase-which-is-better/
+- https://www.bairesdev.com/blog/amplify-vs-firebase-which-one-is-best/
+- https://os-system.com/blog/comparison-firebase-with-other-platforms/
+- https://invozone.com/blog/firebase-vs-supabase-key-differences-choosing-guide/
+- https://npm-compare.com/@supabase/supabase-js,aws-amplify,firebase,parse-server
+- https://www.reddit.com/r/reactnative/comments/16b53hn/baas_opinions_firebase_vs_aws_vs_supabase_vs/
+
+**Firebase Pros and Cons**
+
+- https://osdb.io/firebase-pros-and-cons-when-you-should-and-shouldnt-use-firebase-osdb/#ib-toc-anchor-4
+- https://www.altexsoft.com/blog/firebase-review-pros-cons-alternatives/
+- https://trustradius.com/products/firebase/reviews?qs=pros-and-cons#reviews
+- https://www.peerspot.com/products/google-firebase-pros-and-cons
+- https://www.weetechsolution.com/blog/mongodb-vs-firebase-which-is-the-right-database
+- https://blog.minimacode.com/use-firebase-for-your-project/
+
+**Firebase Video guides**
+
+- [YouTube the short version](https://www.youtube.com/watch?v=vAoB4VbhRzM)
+- [YouTube the long version](https://www.youtube.com/watch?v=zQyrwxMPm88)
+
+**Firebase Socials**
+
+- [Firebase website](https://firebase.google.com/)
+- [Firebase Support](https://firebase.google.com/support)
+- [YouTube](https://www.youtube.com/@Firebase)
+- [X/Twitter](https://x.com/Firebase)
+- [Reddit - Firebase Community](https://www.reddit.com/r/firebase/)
+
+---
+
 ### <div id="contributions">Contributors</div>
 
 | Previous contributions:                | View file                                                                  |
