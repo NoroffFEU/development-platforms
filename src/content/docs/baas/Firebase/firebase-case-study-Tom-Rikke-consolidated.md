@@ -1,20 +1,8 @@
 <img src="../../../../assets/baas/Firebase/jbr/Primary_Horizontal_Lockup_Full_Color.png" id="top" />
 
-| Table content                                      |
-| -------------------------------------------------- |
-| <a href="#introduction">#Introduction</a>          |
-| <a href="#briefHistory">#Brief history </a>        |
-| <a href="#mainFeatures">#Main features</a>         |
-| <a href="#marketComparison">#Market comparison</a> |
-| <a href="#gettingStarted">#Getting started</a>     |
-| <a href="#pricing">#Pricing </a>                   |
-| <a href="#conclusion">#Conclusion </a>             |
-| <a href="#references">#References</a>              |
-| <a href="#contributions">#Contributions</a>        |
-
 <a href="#top" class="back-to-top">Back to Top</a>
 
-## <div id="introduction">Introduction</div>
+## Introduction
 
 Firebase is a comprehensive cloud-based development platform provided by Google, designed to support applications of all sizes, from small projects to large-scale enterprises. As a Backend-as-a-Service (BaaS) solution, Firebase offers a suite of tools and services that streamline the development process, including real-time databases, authentication, storage, hosting, and more. This robust platform enables developers to focus on creating exceptional user experiences without the need to manage backend infrastructure, making app development faster and more efficient.
 
@@ -34,13 +22,13 @@ Originally created to simplify data storage and transfer for real-time applicati
 
 </details>
 
-## <div id="briefHistory">Brief History</div>
+## Brief History
 
-## <div id="mainFeatures">Main Features</div>
+## Main Features
 
-## <div id="marketComparison">Market Comparison</div>
+## Market Comparison
 
-## <div id="gettingStarted">Getting Started</div>
+## Getting Started
 
 ### **Firebase Project Setup Guide**
 
@@ -118,13 +106,13 @@ const firebaseConfig = {
 
 ---
 
-## <div id="pricing">Pricing</div>
+## Pricing
 
 Firebase uses a pay-as-you-go pricing model that makes it flexible for developers at different stages of their projects. It offers a free tier, called the Spark Plan, which is great for beginners or small apps. This plan comes with generous limits for features like authentication, database usage, and hosting, making it ideal for testing or small-scale prototypes.
 
 For larger or more demanding apps, Firebase provides the Blaze Plan, where you only pay for what you use. While this model supports scalability, costs can add up quickly if your app requires heavy database usage, extensive reads/writes, or large amounts of cloud storage. Keeping track of your usage is important to avoid unexpected bills.
 
-## <div id="conclusion">Conclusion</div>
+## Conclusion
 
 Firebase is a popular choice among developers, offering a powerful platform that simplifies app development. Its seamless integration with Google services and features like real-time data synchronization, authentication, and hosting makes Firebase an excellent choice for creating scalable and efficient applications. The free tier is a great starting point for smaller projects, but costs can escalate quickly as your app grows. This is an important consideration for larger applications.
 
@@ -132,7 +120,7 @@ Firebase is beginner-friendly and packed with features, but this can lead to ven
 
 All in all, Firebase’s balance of ease of use, and advanced functionality makes it an attractive option, especially for projects that benefit from its real-time capabilities and tight integration with Google’s ecosystem. However, evaluating the specific needs of your project will help determine if Firebase or an alternative platform is the best fit.
 
-## <div id="references">References</div>
+## References
 
 **Firebase Documentation**
 
@@ -189,7 +177,7 @@ All in all, Firebase’s balance of ease of use, and advanced functionality make
 
 ---
 
-### <div id="contributions">Contributors</div>
+### Contributors
 
 | Previous contributions:                | View file                                                                  |
 | -------------------------------------- | -------------------------------------------------------------------------- |
