@@ -121,6 +121,10 @@ const firebaseConfig = {
 
 ## <div id="pricing">Pricing</div>
 
+Firebase uses a pay-as-you-go pricing model that makes it flexible for developers at different stages of their projects. It offers a free tier, called the Spark Plan, which is great for beginners or small apps. This plan comes with generous limits for features like authentication, database usage, and hosting, making it ideal for testing or small-scale prototypes.
+
+For larger or more demanding apps, Firebase provides the Blaze Plan, where you only pay for what you use. While this model supports scalability, costs can add up quickly if your app requires heavy database usage, extensive reads/writes, or large amounts of cloud storage. Keeping track of your usage is important to avoid unexpected bills.
+
 ## <div id="conclusion">Conclusion</div>
 
 ## <div id="references">References</div>
