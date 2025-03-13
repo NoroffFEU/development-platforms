@@ -95,10 +95,7 @@ const toggleDarkMode = () => {
   document.documentElement.classList.toggle('dark');
 };
 ```
-![Dark Mode Toggle](../../../../assets/frameworks/css/toggle-theme.png)
-
-### **💻 Live Demo:**
-🔗 **[View Live](https://codepen.io/skhm/pen/mybmexV)**
+![Dark Mode Toggle](../../../../assets/frameworks/css/dark-mode.png)
 
 ---
 
@@ -194,3 +191,6 @@ Many popular companies use Tailwind CSS for their applications:
 📌 [Tailwind CSS GitHub Repository](https://github.com/tailwindlabs/tailwindcss)  
 📌 [Bootstrap vs. Tailwind: A Performance Comparison](https://www.sitepoint.com/tailwind-vs-bootstrap/)  
 🎥 [Tailwind CSS Full Course (YouTube)](https://www.youtube.com/watch?v=dFgzHOX84xQ)  
+
+### **💻 Live Demo:**
+🔗 **[View Live](https://codepen.io/skhm/pen/mybmexV)**
