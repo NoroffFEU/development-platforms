@@ -112,6 +112,17 @@ Tailwind CSS Plus is a **premium subscription service** offered by Tailwind Labs
 - **Advanced Plugins** – Includes premium Tailwind CSS plugins for typography, animations, and gradients.
 - **AI-Powered Code Suggestions** – Smart design recommendations to speed up development.
 
+### **Tailwind CSS (Free) vs. Tailwind CSS Plus (Premium)**
+| Feature | Tailwind CSS (Free) | Tailwind CSS Plus |
+|---------|--------------------|------------------|
+| **Utility-First CSS Framework** | ✅ Yes | ✅ Yes |
+| **Customizable Theme (`tailwind.config.js`)** | ✅ Yes | ✅ Yes |
+| **Pre-Built UI Components** | ❌ No | ✅ Yes |
+| **Figma Design Integration** | ❌ No | ✅ Yes |
+| **Advanced Plugins (Typography, Forms, etc.)** | ❌ No | ✅ Yes |
+| **AI-Powered Code Suggestions** | ❌ No | ✅ Yes |
+| **Pricing** | Free | Paid Subscription |
+
 ---
 
 ## **6. Real-World Usage: Companies Using Tailwind CSS**
@@ -122,6 +133,17 @@ Many popular companies use Tailwind CSS for their applications:
 - **Hashnode** – A blogging platform built using Tailwind CSS.
 
 > *"Laravel officially recommends Tailwind CSS for styling in Laravel Jetstream. This demonstrates how Tailwind is being adopted in production applications for scalability and maintainability."*
+
+---
+## **Market Comparison**
+### **How does Tailwind CSS compare to Bootstrap & Chakra UI?**
+
+![Comparison](../../../../assets/frameworks/css/comparison.png)
+
+### **Why Choose Tailwind?**
+✅ More **flexible** than Bootstrap  
+✅ More **customizable** than Chakra UI  
+✅ **Lightweight & scalable** for modern applications  
 
 ---
 
