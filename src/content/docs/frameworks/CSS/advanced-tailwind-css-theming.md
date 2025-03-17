@@ -187,10 +187,39 @@ Many popular companies use Tailwind CSS for their applications:
 ---
 
 ## **References & Additional Resources**
-📌 [Tailwind CSS Official Documentation](https://tailwindcss.com/docs/)  
-📌 [Tailwind CSS GitHub Repository](https://github.com/tailwindlabs/tailwindcss)  
-📌 [Bootstrap vs. Tailwind: A Performance Comparison](https://www.sitepoint.com/tailwind-vs-bootstrap/)  
-🎥 [Tailwind CSS Full Course (YouTube)](https://www.youtube.com/watch?v=dFgzHOX84xQ)  
+
+### **Official Tailwind CSS Documentation**
+- **Theme Customization**: [https://tailwindcss.com/docs/theme](https://tailwindcss.com/docs/theme)  
+- **Adding Custom Styles**: [https://tailwindcss.com/docs/adding-custom-styles](https://tailwindcss.com/docs/adding-custom-styles)  
+- **Dark Mode**: [https://tailwindcss.com/docs/dark-mode](https://tailwindcss.com/docs/dark-mode)  
+- **Extend Tailwind’s Configuration**: [https://tailwindcss.com/docs/configuration](https://tailwindcss.com/docs/configuration)  
+
+---
+
+### **Advanced Techniques & Tips**
+- **Using `@layer` for Custom Styles**: [https://dev.to/rowsanali/how-to-use-layer-for-advanced-styling-in-tailwind-css-26pj](https://dev.to/rowsanali/how-to-use-layer-for-advanced-styling-in-tailwind-css-26pj)  
+- **Tailwind CSS Advanced Techniques**: [https://tailgrids.com/blog/tailwind-css-advanced-techniques-and-tips](https://tailgrids.com/blog/tailwind-css-advanced-techniques-and-tips)  
+- **Customizing Tailwind Colors on GitHub Discussions**: [https://github.com/tailwindlabs/tailwindcss/discussions/15668](https://github.com/tailwindlabs/tailwindcss/discussions/15668)  
+
+---
+
+### **Tailwind CSS + UI Components**
+- **Tailwind UI (Pre-built Components by Tailwind Labs)**: [https://tailwindui.com/](https://tailwindui.com/)  
+- **Flowbite (UI Component Library for Tailwind)**: [https://flowbite.com/](https://flowbite.com/)  
+- **DaisyUI (Tailwind CSS Component Library)**: [https://daisyui.com/](https://daisyui.com/)  
+
+---
+
+### **Comparisons & Alternatives**
+- **Bootstrap vs. Tailwind: Which One to Choose?**: [https://www.sitepoint.com/tailwind-vs-bootstrap/](https://www.sitepoint.com/tailwind-vs-bootstrap/)  
+- **Chakra UI vs. Tailwind CSS**: [https://blog.logrocket.com/chakra-ui-vs-tailwind-css/](https://blog.logrocket.com/chakra-ui-vs-tailwind-css/)  
+
+---
+
+### **Video Tutorials**
+- **Tailwind CSS Advanced Techniques (YouTube)**: [https://www.youtube.com/watch?v=LHYqKEtD-Co](https://www.youtube.com/watch?v=LHYqKEtD-Co)  
+- **Tailwind CSS Theming Guide (YouTube)**: [https://www.youtube.com/watch?v=dFgzHOX84xQ](https://www.youtube.com/watch?v=dFgzHOX84xQ)  
+
 
 ### **💻 Live Demo:**
 🔗 **[View Live](https://codepen.io/skhm/pen/mybmexV)**
