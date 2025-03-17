@@ -1,12 +1,12 @@
 ---
 title: Mantine Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+author: Diana Bergelin <Anaid0616>
+tags: mantine, ui, case study, platform
 ---
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+Mantine is a modern React component library that provides a comprehensive set of accessible and customizable UI components. It simplifies frontend development by offering ready-to-use components while still allowing developers full control over styling and behavior. Mantine's lightweight nature makes it easy to use and ideal for developers of all skill levels. The library is free and open-source under the MIT license, ensuring it can be used in any project without restrictions.
 
 ## Brief History
 
