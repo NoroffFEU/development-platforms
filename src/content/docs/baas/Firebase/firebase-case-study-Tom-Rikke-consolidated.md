@@ -23,6 +23,25 @@ Originally created to simplify data storage and transfer for real-time applicati
 </details>
 
 ## Brief History
+#### Origins and Early Development (2011-2014)  
+Firebase was founded in 2011 by James Tamplin and Andrew Lee as part of Envolve, a startup providing an API for online chat. They noticed developers using the service to synchronize application data in real time, leading to the creation of Firebase.
+
+In April 2012, Firebase launched its first product, the Firebase Realtime Database, enabling seamless data synchronization across Android, iOS, and web applications. After launching the beta, Firebase raised $1.1 million in seed funding in May 2012, followed by a $5.6 million Series A funding round in 2013.
+
+In 2014, Firebase expanded with Firebase Authentication and Firebase Hosting, evolving into a comprehensive backend-as-a-service (BaaS) platform. In October, Google acquired Firebase, integrating it into its cloud ecosystem.
+
+#### Expansion Under Google (2015-2019)  
+Following the acquisition, Google further developed Firebase by integrating it with other services and acquiring complementary companies: 
+- **2015:** Google acquired Divshot, a web hosting platform, and merged it into Firebase.
+- **2016:** At Google I/O, Firebase was relaunched as a unified platform, introducing Firebase Analytics, Cloud Messaging, Test Lab, Crash Reporting, Notifications, Dynamic Links, Invites, App Indexing, AdWords, and AdMob. A new console, SDK, and documentation were also introduced.
+- **2017:** Firebase launched Cloud Firestore, a real-time document database that synchronizes data across platforms. Additionally, Google acquired Fabric and Crashlytics from Twitter to enhance Firebase’s crash reporting capabilities.
+- **2018:** Firebase introduced Firebase ML Kit, providing machine learning tools for mobile developers.
+- **2019:** Cloud Firestore became Firebase’s primary database solution, improving scalability and performance.
+
+#### Continued Growth and Innovation (2020-Present)
+- **2021:** Firebase expanded with Firebase Extensions and enhanced security features.
+- **2023:** Firebase improved its machine learning capabilities and introduced new tools for better app quality and performance monitoring.
+- **2024:** Firebase integrated with Vertex AI for advanced machine learning, introduced Firebase Data Connect with PostgreSQL support, launched Gemini AI assistant, enhanced app hosting for modern frameworks, and updated Remote Config with feature rollouts.
 
 ## Main Features
 
@@ -204,7 +223,7 @@ Overall, Firebase strikes a balance between ease of use and advanced functionali
 
 | Consolidated and updated by: |
 | ---------------------------- |
-| Rikke                        |
+| Rikke Juliane                |
 | Tom                          |
 
 #### DEMO - Built test websites
