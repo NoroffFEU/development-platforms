@@ -51,7 +51,7 @@ Tailwind's utility classes enable the creation of a responsive product grid with
     <h2 class="mt-2 text-xl font-semibold">Product 1</h2>
     <p class="text-gray-600">$29.99</p>
   </div>
-  <!-- Repeat for other products -->
+ 
 </div>
 
 
