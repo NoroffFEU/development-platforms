@@ -1,4 +1,10 @@
-# Deno: A Secure and Modern Runtime for JavaScript and TypeScript
+---
+title: "Deno: A Secure and Modern Runtime for JavaScript and TypeScript"
+description: "A case study on Deno, a secure alternative to Node.js, exploring its features, benefits, and use cases."
+author: "Hilde-Kathrine Ljosland Vatne"
+date: "2024-03-17"
+tags: ["Deno", "JavaScript", "Backend", "Security"]
+---
 
 ## 1. Introduction
 
