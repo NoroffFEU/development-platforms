@@ -44,7 +44,75 @@ Following the acquisition, Google further developed Firebase by integrating it w
 - **2024:** Firebase integrated with Vertex AI for advanced machine learning, introduced Firebase Data Connect with PostgreSQL support, launched Gemini AI assistant, enhanced app hosting for modern frameworks, and updated Remote Config with feature rollouts.
 
 ## Main Features
+Firebase's portfolio of products is divided into three categories: **Build**, **Release & Monitor**, and **Engage**. Each category includes a range of products, tools, and integrations designed to help developers create, manage, and optimize their apps. Below, we explore these features in detail by category.
 
+<details>
+  <summary style="color:salmon; user-select: none; cursor: pointer;"><strong>Build</strong></summary>
+  
+- **Cloud Firestore**: A NoSQL document database, the next evolution of Firebase's Realtime Database. Data is stored in documents and organized into collections, enabling horizontal scaling rather than vertical scaling like traditional SQL databases. Firestore automatically scales, supporting up to 1 million concurrent connections and 10 thousand writes per second. It is designed to provide better performance and scalability while simplifying data models and queries.
+  
+- **Realtime Database**: The original Firebase database, launched in 2011. It stores data as JSON and synchronizes it across platforms in real-time. This database can be accessed from the client-side SDK and can be used offline, improving the end-user experience.
+  
+- **Cloud Functions**: A backend framework for Firebase, similar to Express.js, that allows developers to write logic for handling HTTP requests. Cloud Functions run on Google's infrastructure, eliminating the need to manage servers.
+  
+- **Authentication**: Firebase offers two primary authentication methods. The first is FirebaseUI Auth, a drop-in UI solution supporting third-party sign-ins (Google, Facebook, GitHub, etc.). The second is Firebase SDK Authentication, which handles multiple sign-in methods like email/password, phone number, and third-party OAuth.
+  
+- **Cloud Messaging**: A service for sending push notifications to users. Firebase Cloud Messaging can target users by groups, categories, or custom conditions. It’s designed for scalability and can be managed from the Firebase Console GUI or through server-side code.
+  
+- **Hosting**: A web hosting service that serves content over SSL connections via a global CDN (Content Delivery Network). Firebase Hosting allows for easy deployment and management of web apps.
+  
+- **Firebase ML**: A mobile SDK that brings machine learning capabilities to apps. It offers both cloud-based and on-device APIs, supporting tasks like text recognition, image labeling, object tracking, barcode scanning, language identification, and smart replies.
+</details>
+
+<details>
+  <summary style="color:salmon; user-select: none; cursor: pointer;"><strong>Release & Monitor</strong></summary>
+
+- **Crashlytics**: A tool for tracking, prioritizing, and fixing crashes in real-time. It helps developers manage app crashes more effectively and improve app reliability.
+  
+- **Google Analytics**: Provides detailed data on up to 500 distinct events, including app performance, user behavior, purchases, and more.
+  
+- **Remote Config**: Enables developers to make quick updates and personalize the user experience without redeploying the app.
+  
+- **Performance Monitoring**: A real-time tool for tracking and analyzing app performance, with customizable views and reports.
+  
+- **Test Lab**: Allows developers to test apps in simulated real-world environments without needing to write extra code.
+  
+- **App Distribution**: A solution for managing beta testing programs, allowing easy distribution of pre-release versions to testers.
+</details>
+
+<details>
+  <summary style="color:salmon; user-select: none; cursor: pointer;"><strong>Engage</strong></summary>
+
+  - **Remote Config**: As part of both the Build and Engage categories, this feature enables quick, seamless updates and personalization of user experiences.
+  
+- **Google Analytics**: Integrated with both the Build and Engage categories, providing key insights into user interactions, behavior, and app performance.
+  
+- **A/B Testing**: A tool for running experiments and analyzing the outcomes, helping developers optimize app features and user engagement.
+  
+- **Authentication**: As mentioned in the Build category, Firebase Authentication offers a comprehensive suite of sign-in solutions, ensuring secure and seamless user access across platforms.
+  
+- **Cloud Messaging**: Also included in Engage, Firebase Cloud Messaging allows developers to send targeted notifications to users based on specific conditions or behaviors.
+  
+- **Dynamic Links**: A feature that creates smart URLs, guiding users to relevant content and seamlessly transitioning them from the web to the app.
+  
+- **In-App Messaging**: Allows developers to engage active users with targeted messages triggered by specific user actions or behavior.
+
+  </details>
+
+<details>
+  <summary style="color:salmon; user-select: none; cursor: pointer;"><strong>Additional Features</strong></summary>
+
+  - **Real-time Database**: Firebase’s real-time database allows developers to store and access data in real-time, making it ideal for applications like chat apps or multiplayer games that require constant data updates.
+  
+- **User Authentication**: Firebase Authentication supports multiple authentication methods, including email/password, phone number, and popular social providers like Google, Facebook, and Apple.
+  
+- **Cloud Storage**: Firebase Cloud Storage offers scalable and secure file storage, allowing developers to store large amounts of data like images, videos, and audio with fine-grained access control.
+  
+- **Hosting**: Firebase Hosting enables developers to deploy and host web apps quickly, with features like custom domains, SSL certificates, and global content distribution.
+  
+- **Cloud Functions**: A serverless platform for running backend code in response to Firebase events or HTTP requests. Cloud Functions support multiple languages like Node.js and JavaScript and can be used for tasks like email processing, payment handling, or database updates.
+  </details>
+  
 ## Market Comparison
 
 ## Getting Started
