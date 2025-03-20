@@ -5,16 +5,17 @@ tags: database, fauna, case study, platform, document-relational, mongodb, postg
 ---
 
 ![Fauna Logo](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1uiv5gXGspEI9x37qNb6Y0%2F5c48844dce8f2510f7bf4e90cc1dad2b%2Ftwitter_card_02__1_.png&w=3840&q=75)
-*Figure 1: Fauna DB backdrop.*
+*Figure 1: [Fauna DB Backdrop](https://fauna.com/blog/the-future-of-fauna)*
+<br>
+<br>
+<br>
 
-# Fauna: Is it truly the perfect mixture of the most common database paradigms, all in one sophisticated model?
-
-## Introduction
-
-**Fauna** is the most versitile, multi-model database system to date. It determines how to best use the most common database paradigms, through tailored queries satisfying most user needs. Delivered as a global API endpoint, **Fauna** is a distributed serverless, document-relational database, that with it's flexibility, meets the requirements of simple, and at the same time, demanding modern applications. The pay-as-you-go model let's developers pay for the usage, not idle time. Let's learn where it started, what distinguishes it from other database providers and how it compares, to see whether **Fauna** truly is the perfect database system to serve most modern applications today.
+# **FAUNA:**<br> Is it truly the perfect mixture of the most common database paradigms, all in one sophisticated model?
+<br>
 
 ## Table of Contents
 
+- [Introduction](#introduction)
 - [Brief History](#brief-history)
 
 - [Main Features](#main-features)
@@ -32,27 +33,42 @@ tags: database, fauna, case study, platform, document-relational, mongodb, postg
 - [Conclusion](#conclusion)
 
 - [References](#references)
+<br>
+<br>
+<br>
+
+## Introduction
+
+**Fauna** is the most **versitile, multi-model** database system to date. It determines how to best use the most common database paradigms, through tailored queries satisfying most user needs. Delivered as a global API endpoint, **Fauna** is a **distributed serverless**, **document-relational database**, that with it's **flexibility**, meets the requirements of simple, and at the same time, demanding modern applications. The pay-as-you-go model let's developers pay for the usage, not idle time. Let's learn where it started, what distinguishes it from other database providers and how it compares, to see whether **Fauna** truly is the perfect database system to serve most modern applications today.
+
 
 
 
 ## Brief History
 
-- 2012: It all started with Thomson, Diamond, Weng et al. publishing the paper; '[Calvin: Fast Distributed Transactions for Partitioned Database Systems](https://www.mydistributed.systems/2020/08/calvin.html)', a transactional protocol optimized for geographic replication, being a great inspiration for Fauna's creation. 
+- 2012: It all started with **Thomson, Diamond, Weng et al.** publishing the paper; **'[Calvin: Fast Distributed Transactions for Partitioned Database Systems](https://www.mydistributed.systems/2020/08/calvin.html)'**, a transactional protocol optimized for geographic replication, being a great inspiration for **Fauna's** creation. 
 
-- 2016: Fauna is created by two ex-Twitter (ex-X) engineers. It's known to be the only database that has based its system on the Calvin Protocol.
+- 2016: Fauna is created by two **ex-Twitter** (ex-X) engineers. It's known to be the only database that has based its system on the Calvin Protocol.
+<br>
+<br>
 
 
 ## Main Features
+![Fauna ](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F36ymP3VMpo1aBu5uv8u71%2F11932d3def1c7e72921b9c6d1765769b%2Fproduct-email.png&w=3840&q=75)
+*Figure 2: [Fauna features](https://fauna.com/blog/product-updates-june-2022)*
 
-The most unique feature that **Fauna** has to offer is its flexibility, thanks to the way that this system handles queries and chooses the most appropriate database paradigm to satisfy the query. At the core, it's a document-relational model, where the documents are rows and collections are equivalent to tables. Thanks to this structure, developers can execute joins across document collections, making data handling easier. 
+The most unique feature that **Fauna** has to offer is its **flexibility**, thanks to the way that this system handles queries and chooses the most appropriate database paradigm to satisfy the query. At the core, it's a **document-relational model**, where the documents are rows and collections are equivalent to tables. Thanks to this structure, developers can execute **joins** across document collections, making **data handling** easier. 
 
-Handling data becomes even easier using the **FQL** native **Fauna** query language. It's essentially a mix of TypeScript and SQL, allowing for complex data queries and operations, aggregations, server-side functions and more.
+Handling data becomes even easier using the **FQL** native **Fauna** query language. It's essentially a mix of **TypeScript** and **SQL**, allowing for **complex data queries** and **operations**, **aggregations**, **server-side functions** and more.
 
-Another advantage of **Fauna** is its flexible indexing system. Developers can create secondary indexes on any nested JSON field, enabling multi-term searches, embedded data retrieval, and high-performance queries. Unlike conventional NoSQL systems, **Fauna’s** indexing mechanism enhances both consistency and query speed, making it easier to scale applications without sacrificing performance.
+Another advantage of **Fauna** is its **flexible indexing system**. Developers can create secondary indexes on any nested JSON field, enabling **multi-term searches**, **embedded data retrieval**, and **high-performance queries**. Unlike conventional NoSQL systems, **Fauna’s** indexing mechanism enhances both **consistency** and **query speed**, making it easier to scale applications without sacrificing performance.
 
-**Fauna** resticts access based on user identity as well as using a hierarchical database structure by default, solving for potential security risks. 
+**Fauna** **resticts access** based on **user identity** as well as using a **hierarchical database** structure by default, solving for potential security risks. 
 
-A distinct architectural feature **Fauna** has to offer, is that it's inspired by the [Calvin Transaction Protocol](https://www.mydistributed.systems/2020/08/calvin.html), rendering it a serverless database system. The biggest aid of the Calvin protocol is how it removes the need for per-transaction locks. All coordinator nodes are stateless and scale horizontally. Its serverles nature essentially means developers don’t have to worry about infrastructure management. 
+A distinct architectural feature **Fauna** has to offer, is that it's inspired by the **[Calvin Transaction Protocol](https://www.mydistributed.systems/2020/08/calvin.html)**, rendering it a **serverless database** system. The biggest aid of the Calvin protocol is how it removes the need for **per-transaction locks**. All coordinator nodes are **stateless** and **scale horizontally**. Its serverles nature essentially means developers don’t have to worry about **infrastructure management**.<br><br>
+
+![Fauna ](https://learn.g2.com/hubfs/document%20database%20vs.%20relational%20database%20vs.%20graph%20database.png)
+*Figure 3: [Document, relational and graph database model](https://learn.g2.com/hubfs/document%20database%20vs.%20relational%20database%20vs.%20graph%20database.png)*
 
 
 ### Key Takeaways:
@@ -66,7 +82,7 @@ A distinct architectural feature **Fauna** has to offer, is that it's inspired b
         - Rapid data model changes. 
         - Schema enforcement without complex migrations
         - Flexibility to adjust normalization and access patterns, which enhances scalability and adaptability. 
-        - NoSQL scalability
+        - NoSQL scalability<br><br>
 
 - **Fauna Query Language (FQL):** 
     - Typescript / SQL based
@@ -76,7 +92,7 @@ A distinct architectural feature **Fauna** has to offer, is that it's inspired b
         - Data interactions and manipulation
         - Serverless API functions
             - HTTP API
-            - Client Drivers (JS, Pythn, Go, C#, Java etc.)
+            - Client Drivers (JS, Pythn, Go, C#, Java etc.)<br><br>
 
 - **Secondary Indexes:** 
     - Can be creafted for any nested JSON field 
@@ -84,17 +100,17 @@ A distinct architectural feature **Fauna** has to offer, is that it's inspired b
         - One or more terms. 
         - Multiple values. 
         - Embedded data in the index. 
-    - Improves consistency and speeds up common queries
+    - Improves consistency and speeds up common queries<br><br>
 
 - **Security and Access Control:** 
     - Identitity based access control
-    - Hierarchal database structure to mitigate security risks
+    - Hierarchal database structure to mitigate security risks<br><br>
 
 - **Calvin transaction protocol:** 
     - No per-transaction locks
     - Global consistency
     - Horizontal scaling
-    - Stateless nodes
+    - Stateless nodes<br><br>
 
 - **Serverless and Scalable:** 
     - No user infrastructure management
@@ -102,7 +118,16 @@ A distinct architectural feature **Fauna** has to offer, is that it's inspired b
     - Fault tolerance
     - Automatic Scaling
 
-To sumamrize, let's make a table showing the strengths and weaknesses of this well-architected database, to help create a more fully-fledged picture. 
+<br><br>
+
+
+![Fauna ](https://images.ctfassets.net/po4qc9xpmpuh/4g7Z8QPzNcQ5GUfWOLdqc5/cf0409b2fa5c50e6afbba1eea2c9601f/fauna-serverless-patterns-ref-archs.png)
+*Figure 4: [Fauna web service pattern](https://learn.g2.com/hubfs/document%20database%20vs.%20relational%20database%20vs.%20graph%20database.png)*
+
+<br><br>
+
+To help create a more fully fledged picture of **Fauna**, below is a table showcasing its **strengths** and **weaknesses**.
+<br><br>
 
 ### Strengths and Weaknesses:
 
@@ -118,9 +143,14 @@ To sumamrize, let's make a table showing the strengths and weaknesses of this we
 
 As every project has its unique needs, it's vital to consider what other database providers have to offer compared to **Fauna**, before judging it's powers. **MongoDB** and **PostgreSQL** are some of the most compelling database resources used in the developer market today.
 
+![Fauna ](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1Px7PM6zqRFeWBMtg3eR3x%2Fd99f9372fb83e137dd94cbcb0ec0eb7f%2Ffauna_vs_mongo_blog.png&w=3840&q=75)
+*Figure 4: [Fauna v.s. MongoDB](https://fauna.com/blog/comparing-fauna-and-mongodb)*
+
+
+
 ### MongoDB
 
-**MongoDB** is a document database. It supports Query API and CRUD, supports multiple storage engines and allows for horizontal scalability, through [sharding](https://www.mongodb.com/docs/manual/sharding/#std-label-sharding-introduction). Here is how these central areas of **Fauna** compare with **MongoDB**:
+**MongoDB** is a **document database**. It supports **Query API** and **CRUD**, supports **multiple storage engines** and allows for **horizontal scaling**, through **[sharding](https://www.mongodb.com/docs/manual/sharding/#std-label-sharding-introduction)**. Here is how these central areas of **Fauna** compare with **MongoDB**:
 
 
 | **Feature**              | **Fauna**  | **MongoDB**  |
@@ -136,16 +166,23 @@ As every project has its unique needs, it's vital to consider what other databas
 | **Replication**       | **Automatic** with global distribution and **Calvin protocol**  | High availability **replica sets** for distributed environments |
 | **Data Consistency**  | **Distributed consistency (ACID-compliant)** | **ACID transactions** supported for multi-document operations (optional) |
 | **Cost**             | Can get **expensive at scale** | **More cost-effective for large-scale projects** (self-hosting available) |
+<br>
 
 #### Key Takeaways: 
 
 - **Fauna is fully serverless and globally distributed** with strong consistency, making it great for **modern web applications**.  
 
 - **MongoDB offers greater control, flexibility, and self-hosting options**, making it better for **large-scale, complex NoSQL applications**.
+<br>
+<br>
+
+![Fauna ](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1cBq1oFwfzVlFq6pOhsfyk%2Fab4657d53982e07c81765568db3a9595%2FServerless_part_1.png&w=3840&q=75)
+*Figure 4: [Fauna v.s. PostgreSQL](https://fauna.com/blog/modernizing-from-postgresql-to-serverless-with-fauna-part-1)*
+
 
 ### PostgreSQL
 
-Another well known database distributor is **PostgreSQL**. It is a fully open-source, object-relational database system. How does it compare to **Fauna** in the same key areas?
+Another well known database distributor is **PostgreSQL**. It is a fully **open-source**, **object-relational** database system. How does it compare to **Fauna** in the same key areas?
 
 
 | **Feature**              | **Fauna**  | **PostgreSQL**  |
@@ -161,6 +198,7 @@ Another well known database distributor is **PostgreSQL**. It is a fully open-so
 | **Replication**       | **Automatic** with global distribution and **Calvin protocol**  | **Manual setup required** (supports **streaming replication, logical replication**) |
 | **Data Consistency**  | **Distributed consistency (ACID-compliant)** | ACID-compliant, **multi-region support possible** (via tools like **Patroni, Citus**) |
 | **Cost**             | Can get **expensive at scale** | **Free open-source**, but managed services (AWS RDS, etc.) **increase cost** |
+<br>
 
 
 #### Key Takeaways: 
@@ -168,15 +206,22 @@ Another well known database distributor is **PostgreSQL**. It is a fully open-so
 - **Fauna offers a modern, NoSQL, globally distributed approach** with built-in ACID compliance.  
 
 - **PostgreSQL is a powerful, structured relational database** with deep **SQL support**, **advanced security**, and **strong ecosystem tools**.
+<br>
+<br>
 
 
 ## Getting Started
 
-If you have already decided that **Fauna** is indeed the best tool for you project's needs, go ahead and start you journey. Here is a quick and well documented guide for how to get started with - [Fauna](https://fauna.com/blog/getting-started-w-faunadb-quickstart-guide).
+If you have already decided that **Fauna** is indeed the best tool for you project's needs, go ahead and start your journey. ***[Here is a quick and well documented guide for how to get started with Fauna](https://fauna.com/blog/getting-started-w-faunadb-quickstart-guide)***.
+<br>
+<br>
+
+![Fauna Logo](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1uiv5gXGspEI9x37qNb6Y0%2F5c48844dce8f2510f7bf4e90cc1dad2b%2Ftwitter_card_02__1_.png&w=3840&q=75)
+*Figure 1: [Fauna DB Backdrop](https://fauna.com/blog/the-future-of-fauna)*
 
 ## Conclusion
  
-So, is **Fauna DB** spice and everything nice? To put it simply: **No**, because there is no perfect database that is the perfect blend. Is it the best, well-documented tool, consisting of the best parts of database paradigms, out on the market today? I would say: **Sure**. As for the longer answer; it truly depends on your specific application needs. Fauna is great for modern, global and smaller to mid-scale applications (if cost-effectivity is a concern), that is serverless and therefore also requires less user driven maintenance. This database however, gives you less customization possibilities and the learning curve for learning FQL might add to the time spent on your application overall. Nevertheless, this case study is by no means exhaustive of the topic, and it's most recommended to use it as an introductory piece in your journey of making a decision: for Your application, Yourself and Your Team. 
+***Is Fauna DB spice and everything nice?***<br> To put it simply: **No**, because there is **no perfect database**. <br> ***Is it the best, well-documented tool, consisting of the best parts of database paradigms, out on the market today?***<br> I would say: **Sure**.<br> As for the **longer answer**; it truly depends on your specific **application needs**. Fauna is great for **modern**, **global** and smaller to **mid-scale** applications (if cost-effectivity is a concern), that is **serverless** and therefore also requires **less user driven maintenance**. This database however, gives you **little customization** possibilities and the **learning curve** for FQL might add to the **time** spent on your application overall. Nevertheless, this case study is by no means exhaustive of the topic, and it's most recommended to use it as an introductory piece in your journey of making a decision: **for Your application, Yourself and Your Team**. 
 
 
 ## References
@@ -193,11 +238,23 @@ So, is **Fauna DB** spice and everything nice? To put it simply: **No**, because
 
 ## Additional Resources
 
-- ['Calvin: Fast Distributed Transactions for Partitioned Database Systems](https://www.mydistributed.systems/2020/08/calvin.html)
+- [Calvin: Fast Distributed Transactions for Partitioned Database Systems](https://www.mydistributed.systems/2020/08/calvin.html)
 
 - [Calvin Transaction Protocol](https://www.mydistributed.systems/2020/08/calvin.html)
 
 - [Sharding](https://www.mongodb.com/docs/manual/sharding/#std-label-sharding-introduction)
 
-[Fauna Getting Started](https://fauna.com/blog/getting-started-w-faunadb-quickstart-guide).
+- [Document, relational and graph database model](https://learn.g2.com/hubfs/document%20database%20vs.%20relational%20database%20vs.%20graph%20database.png)
+
+- [Fauna Getting Started](https://fauna.com/blog/getting-started-w-faunadb-quickstart-guide)
+
+- [Future of Fauna](https://fauna.com/blog/the-future-of-fauna)
+
+- [Fauna web service pattern](https://learn.g2.com/hubfs/document%20database%20vs.%20relational%20database%20vs.%20graph%20database.png)
+
+- [Fauna v.s. MongoDB](https://fauna.com/blog/comparing-fauna-and-mongodb)
+
+- [Fauna v.s. PostgreSQL](https://fauna.com/blog/modernizing-from-postgresql-to-serverless-with-fauna-part-1)
+
+
 
