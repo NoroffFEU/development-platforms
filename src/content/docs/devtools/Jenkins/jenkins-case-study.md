@@ -236,39 +236,38 @@ As DevOps continues to evolve, Jenkins’ adaptability, active community, and ex
 Looking ahead, Jenkins is likely to continue evolving in response to the growing demands of the DevOps landscape. Key improvements are expected in the areas of cloud-native integration, user interface modernization, and enhanced scalability. Jenkins will continue to expand its plugin ecosystem to keep pace with emerging technologies like AI/ML pipelines and serverless architecture. Additionally, Jenkins will focus on improving security features and user adoption, ensuring its place in the competitive CI/CD landscape.
 
 # References
+
+#### Core Jenkins References:
 - https://www.jenkins.io/
-- https://www.jenkins.io/press/
-- https://www.jenkins.io/project/conduct/
 - https://www.jenkins.io/doc/
 - https://www.jenkins.io/blog/2011/01/11/hudsons-future/
-- https://en.wikipedia.org/wiki/Jenkins_(software)
+- https://www.jenkins.io/doc/book/installing/
+- https://www.jenkins.io/doc/pipeline/tour/getting-started/
+- https://www.jenkins.io/download/verify/
+- https://www.jenkins.io/project/roadmap/
+- https://www.jenkins.io/blog/
+
+#### Third-Party Jenkins Overviews / Tutorials:
 - https://tuxcare.com/blog/what-is-jenkins/
-- https://www.linkedin.com/pulse/what-jenkins-history-features-advantages-how-nokia-getting-shaikh/
 - https://www.simplilearn.com/tutorials/jenkins-tutorial/what-is-jenkins?#jenkins_architecture
 - https://blog.devops.dev/understanding-jenkins-ui-cd13af52bdbc
 - https://www.tutorialspoint.com/jenkins/jenkins_installation.htm
-- https://www.jenkins.io/doc/book/installing/
-- https://www.jenkins.io/doc/book/installing/macos/
-- https://www.jenkins.io/doc/book/installing/linux/
-- https://www.jenkins.io/doc/book/installing/windows/
-- https://www.jenkins.io/doc/pipeline/tour/getting-started/
-- https://www.jenkins.io/download/verify/
+
+#### CI/CD Tool Alternatives:
 - https://www.reddit.com/r/devops/comments/1ceikc8/true_jenkins_alternative/
 - https://docs.gitlab.com/ci/
 - https://circleci.com/docs/
-- https://confluence.atlassian.com/alldoc/atlassian-documentation-32243719.html
 - https://docs.travis-ci.com/
 - https://www.jetbrains.com/teamcity/
 - https://spacelift.io/blog/jenkins-alternatives
-- https://www.jenkins.io/project/roadmap/
-- https://www.jenkins.io/blog/
+
+#### Future of Jenkins / Critical Discussion: 
 - https://devops.com/jenkins-and-jenkinsx-in-2024-2/
-- https://webinars.techstronglearning.com/let-the-butler-retire-modernizing-your-ci/cd-beyond-jenkins
 - https://devops.com/the-future-of-jenkins-in-2024/
-- https://devops.com/navigating-the-ai-powered-era-why-modern-deployment-platforms-must-evolve-beyond-jenkins-argocd/ 
+- https://devops.com/navigating-the-ai-powered-era-why-modern-deployment-platforms-must-evolve-beyond-jenkins-argocd/
+- https://webinars.techstronglearning.com/let-the-butler-retire-modernizing-your-ci/cd-beyond-jenkins
 
 
 ## Additional Resources
-
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [Jenkins Documentation (Official) – Step-by-step guides and best practices]([https://example.com](https://www.jenkins.io/doc/))
+- [Jenkins Full Course (Simplilearn) – Beginner to advanced video tutorial](https://www.simplilearn.com/tutorials/jenkins-tutorial)
