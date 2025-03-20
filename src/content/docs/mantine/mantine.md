@@ -4,21 +4,21 @@ author: Diana Bergelin <Anaid0616>
 tags: mantine, ui, case study, platform
 ---
 
+![Mantine Logo](/src/assets/mantine/mantinelogo.svg)
+
 ## Introduction
 
 Mantine is a modern React component library that provides a comprehensive set of accessible and customizable UI components. It simplifies frontend development by offering ready-to-use components while still allowing developers full control over styling and behavior. Mantine's lightweight nature makes it easy to use and ideal for developers of all skill levels. The library is free and open-source under the MIT license, ensuring it can be used in any project without restrictions.
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
+• 2021: Mantine is introduced as an open-source React component library.
 
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+• 2022: Grows in popularity due to its accessibility features and extensive documentation.
+
+• 2023: Expands its component set and gains more traction among React developers as a strong competitor to Material UI and Chakra UI.
+
+• 2024: Continues to receive active development, with growing community adoption and regular updates.
 
 ## Main Features
 
