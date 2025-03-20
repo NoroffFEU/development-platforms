@@ -22,23 +22,7 @@ Mantine is a modern React component library that provides a comprehensive set of
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
-
-You may use subheadings, tables or bullet points to structure your description:
-
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-
-Example feature table:
-
-| Feature         | Description                                        |
-| --------------- | -------------------------------------------------- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+With over 100 responsive components and 50 hooks, Mantine UI allows you to build websites quickly using pre-made, customizable elements. Some of its key features include:
 
 ## Market Comparison
 
