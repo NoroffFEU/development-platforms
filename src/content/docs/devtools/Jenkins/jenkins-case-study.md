@@ -269,5 +269,5 @@ Looking ahead, Jenkins is likely to continue evolving in response to the growing
 
 
 ## Additional Resources
-- [Jenkins Documentation (Official) – Step-by-step guides and best practices]([https://example.com](https://www.jenkins.io/doc/))
+- [Jenkins Documentation (Official) – Step-by-step guides and best practices](https://www.jenkins.io/doc/)
 - [Jenkins Full Course (Simplilearn) – Beginner to advanced video tutorial](https://www.simplilearn.com/tutorials/jenkins-tutorial)
