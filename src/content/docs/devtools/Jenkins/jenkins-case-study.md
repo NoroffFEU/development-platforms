@@ -79,12 +79,12 @@ The pipeline system allows developers to write step-by-step instructions for how
   ```
 
 ## Architecture (Controller/Agent)
-![Jenkins-Architecture](https://github.com/user-attachments/assets/083195c8-00e4-482b-866e-0e301b0a90e1)
+![Jenkins-Architecture](https://github.com/user-attachments/assets/912da36b-c332-4559-a107-2c2594ea7f2e)
 
 
 Jenkins uses a Controller-Agent architecture, which allows it to scale efficiently and distribute build tasks across multiple machines. This setup is essential for handling large projects and improving build performance.
 - **Controller Node:**
-The Controller (Also called Master) is the central hub responsible for managing Jenkins operations, such as scheduling builds, maintaining the web interface, managing job configurations, and monitoring the status of builds.
+The Controller (also called Master) is the central hub responsible for managing Jenkins operations, such as scheduling builds, maintaining the web interface, managing job configurations, and monitoring the status of builds.
 
 - **Agent Nodes:**
 (previously known as slaves) are separate machines that execute the actual build tasks. They receive jobs from the Controller and can run builds in parallel, speeding up the process. Agents can be physical machines, virtual machines, or containers (like Docker).
@@ -151,7 +151,7 @@ Jenkins is one of the leading CI/CD tools, but there are several strong competit
 # Getting Started
 Jenkins requires the Java Development Kit (JDK), version 11 or 17 is recommended. You can download the latest version of Java from [the Oracle website](https://www.oracle.com/no/java/technologies/downloads/) or install it through your package manager if you're using Linux.
 
-Once Java is installed, you can proceed with Jenkins installation below. I also highly recommend checking out the [official Jenkins documentation](https://www.jenkins.io/doc/) for the latest setup details, as Jenkins has many features and customization options.
+Once Java is installed, you can proceed with the Jenkins installation below. I also highly recommend checking out the [official Jenkins documentation](https://www.jenkins.io/doc/) for the latest setup details, as Jenkins has many features and customization options.
 
 ### 1. Install Jenkins
 - **Windows:** Download the Jenkins ```.msi``` installer from Jenkins Downloads. Run the installer, which will automatically set Jenkins as a Windows service.
