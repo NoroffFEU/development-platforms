@@ -9,7 +9,7 @@ tags: case study, platform, Jenkins, CI, CD, DevOps, IaC
 
 Jenkins is a free, open-source automation server widely used for Continuous Integration (CI) and Continuous Deployment (CD). It helps developers streamline tasks such as building, testing, and deploying software, making the development process faster, more reliable, and less error-prone.
 
-Jenkins is written entirely in Java and is maintained by the Jenkins community under the Continuous Delivery Foundation (CDF). Thanks to its flexibility, Jenkins supports over 2,000 plugins, allowing integration with popular tools like GitHub, GitLab, Docker, Bitbucket, and Slack.
+Jenkins is written entirely in Java and is maintained by the Jenkins community under the Continuous Delivery Foundation (CDF). Thanks to its flexibility, Jenkins supports over 1800 plugins, allowing integration with popular tools like GitHub, GitLab, Docker, Bitbucket, and Slack.
 
 Its strong plugin ecosystem and active community make Jenkins a powerful tool for automating the entire software delivery pipeline.
 ![Jenkins-UI](https://github.com/user-attachments/assets/e8a443c9-3388-4a06-9a74-320df4393522)
