@@ -79,7 +79,8 @@ The pipeline system allows developers to write step-by-step instructions for how
   ```
 
 ## Architecture (Controller/Agent)
-![Jenkins-Architecture](https://github.com/user-attachments/assets/40ec81fb-c0be-4641-ba95-d92ea200a6dd)
+![Jenkins-Architecture](https://github.com/user-attachments/assets/083195c8-00e4-482b-866e-0e301b0a90e1)
+
 
 Jenkins uses a Controller-Agent architecture, which allows it to scale efficiently and distribute build tasks across multiple machines. This setup is essential for handling large projects and improving build performance.
 - **Controller Node:**
