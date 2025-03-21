@@ -23,6 +23,25 @@ Mantine is a modern React component library that provides a comprehensive set of
 ## Main Features
 
 With over 100 responsive components and 50 hooks, Mantine UI allows you to build websites quickly using pre-made, customizable elements. Some of its key features include:
+Rich Component Library
+• Includes essential UI elements like buttons, modals, tooltips, accordions, and more.
+• Fully customizable using props and CSS-in-JS solutions.
+
+Built-in Dark Mode & Theming
+• Easy-to-toggle dark mode for seamless user experience.
+• Supports dynamic theme switching with full customization.
+
+Hooks & Utility Functions
+• Comes with Mantine Hooks, offering useful features like notifications, focus traps, and scroll locking.
+• Optimized for performance with lazy loading components.
+
+Advanced Form Handling
+• Supports react-hook-form and Formik.
+• Built-in validation and state management for forms.
+
+Great Developer Experience
+• Well-documented with a live playground for components.
+• Strong TypeScript support.
 
 ## Market Comparison
 
@@ -42,12 +61,12 @@ This section can be used to summarize your findings. What are the main advantage
 
 ## References
 
-- [Example.com](https://example.com)
-- _Good Examples_ by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+- [Mantine official docs](https://mantine.dev/)
+- [Github repository](https://github.com/mantinedev/mantine)
+- [A guide to build with Mantine](https://codeparrot.ai/blogs/mantine-ui-a-comprehensive-guide-to-building-modern-web-interfaces)
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+- [What you can do with Mantine (CoderOne)](https://youtu.be/sXwdGmY9SAY?si=uxJi_d5qal1kg7yU)
+- [Mantine UI V7, Course | Installation](https://youtu.be/EMoKmShoM_U?si=9b2MzbznHm1veirI)
+- [5 reasons to choose Mantine](https://medium.com/@shaymusts/5-reasons-to-choose-mantine-ui-b583dbcdc64b)
