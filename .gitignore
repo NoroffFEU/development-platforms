@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # Ignore PostCSS configuration
 postcss.config.*
+
+# vscode
+.vscode/
