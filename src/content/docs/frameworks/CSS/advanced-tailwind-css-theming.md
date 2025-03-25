@@ -1,8 +1,8 @@
 ---
 
-title: "Advanced Tailwind CSS Customization & Theming"
-author: "Sana Khuram"
-tags: ["Tailwind CSS", "Customization", "Theming", "Dark Mode", "UI Components"]
+title:  Advanced Tailwind CSS Customization & Theming
+author: Sana Khuram <sanakhuram>
+tags:   Tailwind CSS, Customization, Theming, Dark Mode, UI Components
 ---
 
 # **Advanced Tailwind CSS Customization & Theming**
