@@ -82,7 +82,7 @@ React.js is a powerful **JavaScript library** for building dynamic user interfac
 
 
 ### **React vs. Vue vs. Angular – When to Use What?** 
- 
+
 - **React.js** – Best for scalable applications, SPAs, and large projects with reusable components. 
 
 - **Vue.js** – Ideal for beginners and small-to-medium projects requiring simplicity.
