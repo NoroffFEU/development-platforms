@@ -210,11 +210,6 @@ Many popular companies use Tailwind CSS for their applications:
 
 ---
 
-### **Comparisons & Alternatives**
-- **Bootstrap vs. Tailwind: Which One to Choose?**: [https://www.sitepoint.com/tailwind-vs-bootstrap/](https://www.sitepoint.com/tailwind-vs-bootstrap/)  
-- **Chakra UI vs. Tailwind CSS**: [https://blog.logrocket.com/chakra-ui-vs-tailwind-css/](https://blog.logrocket.com/chakra-ui-vs-tailwind-css/)  
-
----
 
 ### **Video Tutorials**
 - **Tailwind CSS Advanced Techniques (YouTube)**: [https://www.youtube.com/watch?v=LHYqKEtD-Co](https://www.youtube.com/watch?v=LHYqKEtD-Co)  
