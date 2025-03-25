@@ -208,13 +208,6 @@ Many popular companies use Tailwind CSS for their applications:
 - **Flowbite (UI Component Library for Tailwind)**: [https://flowbite.com/](https://flowbite.com/)  
 - **DaisyUI (Tailwind CSS Component Library)**: [https://daisyui.com/](https://daisyui.com/)  
 
----
-
-
-### **Video Tutorials**
-- **Tailwind CSS Advanced Techniques (YouTube)**: [https://www.youtube.com/watch?v=LHYqKEtD-Co](https://www.youtube.com/watch?v=LHYqKEtD-Co)  
-- **Tailwind CSS Theming Guide (YouTube)**: [https://www.youtube.com/watch?v=dFgzHOX84xQ](https://www.youtube.com/watch?v=dFgzHOX84xQ)  
-
 
 ### **💻 Live Demo:**
 
