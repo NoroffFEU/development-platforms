@@ -1,6 +1,6 @@
 ---
 title: Case Study on the Leading Frontend Library React
-author: [Noor807] 
+author: Noor807
 tags: react.js, case study, web development, frontend, javascript
 ---
 
