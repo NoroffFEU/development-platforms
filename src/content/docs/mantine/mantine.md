@@ -45,11 +45,17 @@ Great Developer Experience
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+Mantine competes with other popular UI libraries like Material UI, Chakra UI, and Radix UI. Below is a feature comparison:
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
-
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+| Features           | Mantine | Material UI | Chakra UI | Radix UI |
+| ------------------ | ------- | ----------- | --------- | -------- |
+| Theming Support    | ✅ Yes  | ✅ Yes      | ✅ Yes    | ❌ No    |
+| Dark Mode          | ✅ Yes  | ✅ Yes      | ✅ Yes    | ❌ No    |
+| Built-in Hooks     | ✅ Yes  | ❌ No       | ✅ Yes    | ❌ No    |
+| Fully Customizable | ✅ Yes  | ✅ Yes      | ✅ Yes    | ✅ Yes   |
+| Accessibility      | ✅ Yes  | ✅ Yes      | ✅ Yes    | ✅ Yes   |
+| TypeScript Support | ✅ Yes  | ✅ Yes      | ✅ Yes    | ✅ Yes   |
+| Lightweight        | ✅ Yes  | ❌ No       | ✅ Yes    | ✅ Yes   |
 
 ## Getting Started
 
@@ -64,6 +70,7 @@ This section can be used to summarize your findings. What are the main advantage
 - [Mantine official docs](https://mantine.dev/)
 - [Github repository](https://github.com/mantinedev/mantine)
 - [A guide to build with Mantine](https://codeparrot.ai/blogs/mantine-ui-a-comprehensive-guide-to-building-modern-web-interfaces)
+- ChatGPT
 
 ## Additional Resources
 
