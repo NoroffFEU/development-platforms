@@ -1,3 +1,9 @@
+---
+title: Firebase Case Study (consolidated)
+author: Rikke and Tom
+tags: firebase, baas,  case study, development-platform, platform,
+---
+
 <img src="../../../../assets/baas/Firebase/jbr/Primary_Horizontal_Lockup_Full_Color.png" id="top" />
 
 <a href="#top" class="back-to-top">Back to Top</a>
