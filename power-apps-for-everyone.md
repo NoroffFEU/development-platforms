@@ -25,8 +25,24 @@ Front-End Developers can play a crucial role in:
 
 By bridging the gap between low-code capabilities and advanced development techniques, Front-End Developers can ensure that applications are both functional and aligned with modern UX standards.​
 
-## Case Study: Transforming Excel Data Into A Business Application With Power Apps
+## Case Study: Transforming Sales Competitions with Power Apps
+# Scenario
+A large warehouse already operates with internal data systems for managing inventory and logistics.
+However, Individual sales departments frequently organize sales competitions to motivate employees and boost performance.
+These competitions are currently tracked using Excel spreadsheets, which are growing too large and becoming error-prone due to multiple employees having access.
+
+The company faces two key challenges:
+
+1. Data Integrity: With multiple users making edits, errors and accidental overwrites are common.
+
+2. IT Resource Constraints: Integrating competition data into the company’s main systems would require significant IT resources, which are already stretched thin.
+
+# Solution
+The sales departments turn to Microsoft Power Apps to develop a custom sales competition tracker, allowing teams to input, monitor, and analyze performance data in a controlled, user-friendly environment—without overloading the company’s IT department.
+
+# Process
 
 
 
-# Resources
+
+## Resources
