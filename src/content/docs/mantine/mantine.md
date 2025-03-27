@@ -57,13 +57,60 @@ Mantine competes with other popular UI libraries like Material UI, Chakra UI, an
 | TypeScript Support | ✅ Yes  | ✅ Yes      | ✅ Yes    | ✅ Yes   |
 | Lightweight        | ✅ Yes  | ❌ No       | ✅ Yes    | ✅ Yes   |
 
+Why Choose Mantine?
+
+1. Over Material UI
+   Mantine UI is known for its smaller bundle sizes, potentially improving  
+   performance in large applications. Material UI, while feature-rich, can result in larger bundle
+   sizes.
+
+2. Over Chakra UI
+   Mantine UI has a larger number of pre-built components and built-in hooks, covering more advanced UI elements such as notifications and modals.
+
+3. Over Radix UI
+   Comes with styles while still being flexible. Mantine supports dark color schemes and custom themes.
+
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+Installation
+To start using Mantine, install it via npm or yarn:
+
+```bash
+npm install @mantine/core @mantine/hooks
+```
+
+or
+
+```bash
+yarn add @mantine/core @mantine/hooks
+```
+
+Basic Usage:
+import { Button } from '@mantine/core';
+
+function App() {
+return <Button color="blue">Click me</Button>;
+}
+
+The easiest way to get started is to use one of the templates. All templates include required dependencies and pre-configured settings, read more on:
+
+- [Getting started with Mantine](https://mantine.dev/getting-started/)
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+Advantages:
+• Rich component library with built-in dark mode.
+• Highly customizable with great developer experience.
+• Strong accessibility and TypeScript support.
+• Active community and regular updates.
+
+Disadvantages:
+• Slightly larger bundle size compared to lighter libraries like Radix UI.
+• Not as widely adopted as Material UI, meaning fewer third-party integrations.
+• Doesn’t have as large community support system as Chakra UI.
+
+Future Outlook
+Mantine is continuously evolving, with strong community support and regular updates. As developers seek better customization and built-in accessibility, Mantine has the potential to grow into one of the leading React UI libraries.
 
 ## References
 
