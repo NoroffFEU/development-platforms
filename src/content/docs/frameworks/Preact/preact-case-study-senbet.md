@@ -71,9 +71,15 @@ render(<App />, document.getElementById("root"));
 
 ## Preact vs React
 
-- Compared to React, preact does not have as big eco-system or community support and has limited enterprise adoption.
-- Preact shines in mobile-first performance applications, while React remains superior for large-scale, complex applications.
-- Preact enhances performance by avoiding the use of synthetic event system. Unlike React, Preact relies directly on the browser's built in event handling. This makes Preact more efficient and does not add an extra layer of event management, therefore handles user interactions more swiftly.
+- **Ecosystem:** Compared to React, preact does not have as big eco-system or community support and has limited enterprise adoption.
+
+- **Use case:** Preact shines in mobile-first performance applications, while React remains superior for large-scale, complex applications.
+
+- **Performance:** Preact enhances performance by avoiding the use of synthetic event system. Unlike React, Preact relies directly on the browser's built in event handling. This makes Preact more efficient and does not add an extra layer of event management, therefore handles user interactions more swiftly.
+
+- **Bundle Size:** Preact is significantly smaller (~3KB) compared to React (~40KB). This makes Preact ideal for performance-sensitive applications where minimizing JavaScript payload is crucial.
+
+- **Support:** React has continuous development and backing from Meta, ensuring long-term improvements. Preact is community-driven and may not receive updates as frequently.
 
 ## Conclusion
 
