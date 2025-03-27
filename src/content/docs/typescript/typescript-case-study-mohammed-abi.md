@@ -1,7 +1,7 @@
 ---
-Author: Mohammed Abi
-Title: Typescript,
-Keywords: Static typing, Typesafety, Scalability, Maintainability & Reliability
+author: Mohammed Abi
+title: Typescript,
+keywords: Static typing, Typesafety, Scalability, Maintainability & Reliability
 ---
 
 # TypeScript: A Case Study
