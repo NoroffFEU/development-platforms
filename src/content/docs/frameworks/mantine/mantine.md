@@ -4,7 +4,7 @@ author: Diana Bergelin <Anaid0616>
 tags: mantine, ui, case study, platform
 ---
 
-![Mantine Logo](../../../assets/mantine/mantinelogo.svg)
+![Mantine Logo](../../../../assets/frameworks/mantine/mantine.png)
 
 ## Introduction
 
