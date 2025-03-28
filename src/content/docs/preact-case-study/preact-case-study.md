@@ -1,3 +1,13 @@
+---
+title: "Preact Case Study: History, Features, Comparisons, and Student Insights"
+description: "Exploring Preact as a lightweight alternative to React, including core features, historical context, comparisons, and student insights."
+author: "Sirak Getachew Shenkoru"
+---
+
+# Exploring Preact – A Lightweight React Alternative  
+**Author:** Sirak Getachew Shenkoru  
+**Course:** DVP - Development Platforms
+
 # Exploring Preact – A Lightweight React Alternative  
 **Author:** Sirak Getachew Shenkoru  
 **Course:** DVP - Development Platforms  
