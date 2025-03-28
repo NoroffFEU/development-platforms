@@ -41,8 +41,17 @@ The company faces two key challenges:
 The sales departments turn to Microsoft Power Apps to develop a custom sales competition tracker, allowing teams to input, monitor, and analyze performance data in a controlled, user-friendly environment—without overloading the company’s IT department.
 
 # Process
+- Data Integration: Power Apps connects to existing company data where relevant while allowing teams to maintain separate, structured competition records.
 
+- App Design: Using Power Apps drag-and-drop interface, departments can design a dashboard displaying real-time leaderboards.
 
+- Automation: With Power Automate, notifications are triggered for key events—such as when a salesperson reaches a milestone or when a competition period ends.
+
+- Access Control: Unlike spreadsheets, the app ensures role-based access, meaning only authorized users can edit results, while everyone else can view the data securely. 
+
+- Deployment: The app is rolled out across sales teams, with training sessions ensuring employees can easily use the new system. 
+
+# Outcome
 
 
 ## Resources
