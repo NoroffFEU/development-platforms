@@ -117,4 +117,4 @@ As frontend ecosystems move toward customization and composability, **shadcn/ui*
 
 - [shadcn/ui Crash course (Video)](https://www.youtube.com/watch?v=wcTzlJi2Oz4&ab_channel=NetNinja)
 - [shadcn/ui Component Demo](https://ui.shadcn.com/docs/components/button)
-- [Why You Should Try shadcn/ui]([https://blog.maxleiter.com/posts/why-i-use-shadcn-ui](https://medium.com/front-end-weekly/seven-reasons-why-i-love-shadcn-ui-bccaee4ae46d))
+- [Why You Should Try shadcn/ui]([https://blog.maxleiter.com/posts/why-i-use-shadcn-ui](https://medium.com/front-end-weekly/seven-reasons-why-i-love-shadcn-ui-bccaee4ae46d)
