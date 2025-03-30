@@ -1,6 +1,6 @@
 ---
 title: Fauna Case Study
-author: Aggi Cieplak <aggicreative555>
+author: Aggi Cieplak
 tags: database, fauna, case study, platform, document-relational, mongodb, postgresql,
 ---
 
@@ -46,11 +46,9 @@ tags: database, fauna, case study, platform, document-relational, mongodb, postg
 
 ## Brief History
 
-- 2012: It all started with **Thomson, Diamond, Weng et al.** publishing the paper; **'[Calvin: Fast Distributed Transactions for Partitioned Database Systems](https://www.mydistributed.systems/2020/08/calvin.html)'**, a transactional protocol optimized for geographic replication, being a great inspiration for **Fauna's** creation. 
+- `2012:` It all started with **Thomson, Diamond, Weng et al.** publishing the paper; **'[Calvin: Fast Distributed Transactions for Partitioned Database Systems](https://www.mydistributed.systems/2020/08/calvin.html)'**, a transactional protocol optimized for geographic replication, being a great inspiration for **Fauna's** creation. 
 
-- 2016: Fauna is created by two **ex-Twitter** (ex-X) engineers. It's known to be the only database that has based its system on the Calvin Protocol.
-<br>
-<br>
+- `2016:` Fauna is created by two **ex-Twitter** (ex-X) engineers. It's known to be the only database that has based its system on the Calvin Protocol.
 
 
 ## Main Features
@@ -119,10 +117,8 @@ A distinct architectural feature **Fauna** has to offer, is that it's inspired b
 ![Fauna ](https://images.ctfassets.net/po4qc9xpmpuh/4g7Z8QPzNcQ5GUfWOLdqc5/cf0409b2fa5c50e6afbba1eea2c9601f/fauna-serverless-patterns-ref-archs.png)
 *Figure 3: [Fauna web service pattern](https://learn.g2.com/hubfs/document%20database%20vs.%20relational%20database%20vs.%20graph%20database.png)*
 
-<br><br>
-
 To help create a more fully fledged picture of **Fauna**, below is a table showcasing its **strengths** and **weaknesses**.
-<br><br>
+
 
 ### Strengths and Weaknesses:
 
@@ -136,7 +132,7 @@ To help create a more fully fledged picture of **Fauna**, below is a table showc
 
 ## Market Comparison
 
-As every project has its unique needs, it's vital to consider what other database providers have to offer compared to **Fauna**, before judging it's powers. **MongoDB** and **PostgreSQL** are some of the most compelling database resources used in the developer market today.<br><br>
+As every project has its unique needs, it's vital to consider what other database providers have to offer compared to **Fauna**, before judging it's powers. **MongoDB** and **PostgreSQL** are some of the most compelling database resources used in the developer market today.
 
 
 ### MongoDB
