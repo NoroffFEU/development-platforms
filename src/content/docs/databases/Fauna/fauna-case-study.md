@@ -67,9 +67,6 @@ Another advantage of **Fauna** is its **flexible indexing system**. Developers c
 
 A distinct architectural feature **Fauna** has to offer, is that it's inspired by the **[Calvin Transaction Protocol](https://www.mydistributed.systems/2020/08/calvin.html)**, rendering it a **serverless database** system. The biggest aid of the Calvin protocol is how it removes the need for **per-transaction locks**. All coordinator nodes are **stateless** and **scale horizontally**. Its serverles nature essentially means developers don’t have to worry about **infrastructure management**.<br><br>
 
-![Fauna ](https://learn.g2.com/hubfs/document%20database%20vs.%20relational%20database%20vs.%20graph%20database.png)
-*Figure 3: [Document, relational and graph database model](https://learn.g2.com/hubfs/document%20database%20vs.%20relational%20database%20vs.%20graph%20database.png)*
-
 
 ### Key Takeaways:
 
@@ -78,7 +75,7 @@ A distinct architectural feature **Fauna** has to offer, is that it's inspired b
     - Document-relational
     - JSON stored in database collections.
     - Supports optional relationships and joins for traversal. 
-    - This data model enables:
+    - This feature enables:
         - Rapid data model changes. 
         - Schema enforcement without complex migrations
         - Flexibility to adjust normalization and access patterns, which enhances scalability and adaptability. 
@@ -86,11 +83,11 @@ A distinct architectural feature **Fauna** has to offer, is that it's inspired b
 
 - **Fauna Query Language (FQL):** 
     - Typescript / SQL based
-    - Enables:
+    - This feature enables:
         - Complex queries
         - Aggregations
         - Data interactions and manipulation
-        - Serverless API functions
+        - Serverless API functions:
             - HTTP API
             - Client Drivers (JS, Pythn, Go, C#, Java etc.)<br><br>
 
@@ -116,13 +113,11 @@ A distinct architectural feature **Fauna** has to offer, is that it's inspired b
     - No user infrastructure management
     - Global replication
     - Fault tolerance
-    - Automatic Scaling
-
-<br><br>
+    - Automatic Scaling<br><br>
 
 
 ![Fauna ](https://images.ctfassets.net/po4qc9xpmpuh/4g7Z8QPzNcQ5GUfWOLdqc5/cf0409b2fa5c50e6afbba1eea2c9601f/fauna-serverless-patterns-ref-archs.png)
-*Figure 4: [Fauna web service pattern](https://learn.g2.com/hubfs/document%20database%20vs.%20relational%20database%20vs.%20graph%20database.png)*
+*Figure 3: [Fauna web service pattern](https://learn.g2.com/hubfs/document%20database%20vs.%20relational%20database%20vs.%20graph%20database.png)*
 
 <br><br>
 
@@ -141,16 +136,17 @@ To help create a more fully fledged picture of **Fauna**, below is a table showc
 
 ## Market Comparison
 
-As every project has its unique needs, it's vital to consider what other database providers have to offer compared to **Fauna**, before judging it's powers. **MongoDB** and **PostgreSQL** are some of the most compelling database resources used in the developer market today.
-
-![Fauna ](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1Px7PM6zqRFeWBMtg3eR3x%2Fd99f9372fb83e137dd94cbcb0ec0eb7f%2Ffauna_vs_mongo_blog.png&w=3840&q=75)
-*Figure 4: [Fauna v.s. MongoDB](https://fauna.com/blog/comparing-fauna-and-mongodb)*
-
+As every project has its unique needs, it's vital to consider what other database providers have to offer compared to **Fauna**, before judging it's powers. **MongoDB** and **PostgreSQL** are some of the most compelling database resources used in the developer market today.<br><br>
 
 
 ### MongoDB
 
-**MongoDB** is a **document database**. It supports **Query API** and **CRUD**, supports **multiple storage engines** and allows for **horizontal scaling**, through **[sharding](https://www.mongodb.com/docs/manual/sharding/#std-label-sharding-introduction)**. Here is how these central areas of **Fauna** compare with **MongoDB**:
+**MongoDB** is a **document database**. It supports **Query API** and **CRUD**, supports **multiple storage engines** and allows for **horizontal scaling**, through **[sharding](https://www.mongodb.com/docs/manual/sharding/#std-label-sharding-introduction)**. Here is how these central areas of **Fauna** compare with **MongoDB**:<br><br>
+
+![Fauna ](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1Px7PM6zqRFeWBMtg3eR3x%2Fd99f9372fb83e137dd94cbcb0ec0eb7f%2Ffauna_vs_mongo_blog.png&w=3840&q=75)
+*Figure 4: [Fauna v.s. MongoDB](https://fauna.com/blog/comparing-fauna-and-mongodb)*
+<br><br>
+
 
 
 | **Feature**              | **Fauna**  | **MongoDB**  |
@@ -172,17 +168,15 @@ As every project has its unique needs, it's vital to consider what other databas
 
 - **Fauna is fully serverless and globally distributed** with strong consistency, making it great for **modern web applications**.  
 
-- **MongoDB offers greater control, flexibility, and self-hosting options**, making it better for **large-scale, complex NoSQL applications**.
-<br>
-<br>
-
-![Fauna ](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1cBq1oFwfzVlFq6pOhsfyk%2Fab4657d53982e07c81765568db3a9595%2FServerless_part_1.png&w=3840&q=75)
-*Figure 4: [Fauna v.s. PostgreSQL](https://fauna.com/blog/modernizing-from-postgresql-to-serverless-with-fauna-part-1)*
+- **MongoDB offers greater control, flexibility, and self-hosting options**, making it better for **large-scale, complex NoSQL applications**.<br><br>
 
 
 ### PostgreSQL
 
-Another well known database distributor is **PostgreSQL**. It is a fully **open-source**, **object-relational** database system. How does it compare to **Fauna** in the same key areas?
+Another well known database distributor is **PostgreSQL**. It is a fully **open-source**, **object-relational** database system. How does it compare to **Fauna** in the same key areas?<br><br>
+![Fauna ](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1cBq1oFwfzVlFq6pOhsfyk%2Fab4657d53982e07c81765568db3a9595%2FServerless_part_1.png&w=3840&q=75)
+*Figure 4: [Fauna v.s. PostgreSQL](https://fauna.com/blog/modernizing-from-postgresql-to-serverless-with-fauna-part-1)*
+<br><br>
 
 
 | **Feature**              | **Fauna**  | **PostgreSQL**  |
@@ -217,7 +211,7 @@ If you have already decided that **Fauna** is indeed the best tool for you proje
 <br>
 
 ![Fauna Logo](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1uiv5gXGspEI9x37qNb6Y0%2F5c48844dce8f2510f7bf4e90cc1dad2b%2Ftwitter_card_02__1_.png&w=3840&q=75)
-*Figure 1: [Fauna DB Backdrop](https://fauna.com/blog/the-future-of-fauna)*
+*Figure 5: [Fauna DB Backdrop](https://fauna.com/blog/the-future-of-fauna)*
 
 ## Conclusion
  
