@@ -9,7 +9,7 @@ tags: database, fauna, case study, platform, document-relational, mongodb, postg
 
 
 # **FAUNA:**<br> Is it truly the perfect mixture of the most common database paradigms, all in one sophisticated model?
-<br>
+
 
 ## Table of Contents
 
@@ -31,9 +31,7 @@ tags: database, fauna, case study, platform, document-relational, mongodb, postg
 - [Conclusion](#conclusion)
 
 - [References](#references)
-<br>
-<br>
-<br>
+
 
 ## Introduction
 
@@ -61,7 +59,7 @@ Another advantage of **Fauna** is its **flexible indexing system**. Developers c
 
 **Fauna** **resticts access** based on **user identity** as well as using a **hierarchical database** structure by default, solving for potential security risks. 
 
-A distinct architectural feature **Fauna** has to offer, is that it's inspired by the **[Calvin Transaction Protocol](https://www.mydistributed.systems/2020/08/calvin.html)**, rendering it a **serverless database** system. The biggest aid of the Calvin protocol is how it removes the need for **per-transaction locks**. All coordinator nodes are **stateless** and **scale horizontally**. Its serverles nature essentially means developers don’t have to worry about **infrastructure management**.<br><br>
+A distinct architectural feature **Fauna** has to offer, is that it's inspired by the **[Calvin Transaction Protocol](https://www.mydistributed.systems/2020/08/calvin.html)**, rendering it a **serverless database** system. The biggest aid of the Calvin protocol is how it removes the need for **per-transaction locks**. All coordinator nodes are **stateless** and **scale horizontally**. Its serverles nature essentially means developers don’t have to worry about **infrastructure management**.
 
 
 ### Key Takeaways:
@@ -118,13 +116,13 @@ As every project has its unique needs, it's vital to consider what other databas
 | **Replication**       | **Automatic** with global distribution and **Calvin protocol**  | High availability **replica sets** for distributed environments |
 | **Data Consistency**  | **Distributed consistency (ACID-compliant)** | **ACID transactions** supported for multi-document operations (optional) |
 | **Cost**             | Can get **expensive at scale** | **More cost-effective for large-scale projects** (self-hosting available) |
-<br>
+
 
 #### Key Takeaways: 
 
 - **Fauna is fully serverless and globally distributed** with strong consistency, making it great for **modern web applications**.  
 
-- **MongoDB offers greater control, flexibility, and self-hosting options**, making it better for **large-scale, complex NoSQL applications**.<br><br>
+- **MongoDB offers greater control, flexibility, and self-hosting options**, making it better for **large-scale, complex NoSQL applications**.
 
 
 ### PostgreSQL
