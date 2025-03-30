@@ -1,10 +1,10 @@
-### Microsoft Power Apps For Everyone
-## The Future Of Low-Code
-
+---
+Title: Microsoft Power Apps For Everyone - The Future Of Low-Code
 Author: Hanna Høidahl
+---
 
 ## Norway´s IT Developer Shortage and The Role Of Low-Code & AI
-Norway is experiencing a significant shortage of skilled IT Proffesionals, with reports pointing to 40.000 unfilled positions by 2030, whereas 10.000 of them will be software developers. This gap poses challenges to the nation's ambitions of becoming a leading digital economy.
+Norway is experiencing a significant shortage of skilled IT Proffesionals, with reports pointing to 40.000 unfilled positions by 2030, including 10.000 software developers. This gap poses challenges to the nation's ambitions of becoming a leading digital economy.
 
 Low-Code platforms like Microsoft Power Apps offer a promising solution by enabling a broader range of individuals, including those without formal programming backgrounds, to develop applications. This democratization of app development can help alleviate the strain on professional developers and accelerate digital transformation across various sectors.
 
@@ -17,11 +17,11 @@ As an aspiring Front-End Developer, integrating low-code platforms into your ski
 While low-code tools simplify application development, they often require customization and enhancement to meet specific user experience (UX) and design requirements.
 
 Front-End Developers can play a crucial role in: 
-  -  Customizing User Interfaces: Enhancing the visual appeal and usability of applications beyond the standard components offered by low-code platforms.​
+-  Customizing User Interfaces: Enhancing the visual appeal and usability of applications beyond the standard components offered by low-code platforms.​
 
-	- Integrating Advanced Functionality: Incorporating complex features or third-party services that may not be readily available within the low-code environment.​
+- Integrating Advanced Functionality: Incorporating complex features or third-party services that may not be readily available within the low-code environment.​
 
-	- Ensuring Responsive Design: Optimizing applications for various devices and screen sizes to provide a consistent user experience.​
+- Ensuring Responsive Design: Optimizing applications for various devices and screen sizes to provide a consistent user experience.​
 
 By bridging the gap between low-code capabilities and advanced development techniques, Front-End Developers can ensure that applications are both functional and aligned with modern UX standards.​
 
@@ -51,7 +51,14 @@ The sales departments turn to Microsoft Power Apps to develop a custom sales com
 
 - Deployment: The app is rolled out across sales teams, with training sessions ensuring employees can easily use the new system. 
 
-# Outcome
+- AI Integration: Incorporating AI-driven analytics to predict sales trends and identify high-performing employees, allowing managers to make data-driven decisions.
 
+# Outcome
+The new Power Apps solution eliminates spreadsheet-related errors, improves engagement through real-time competition updates, and reduces IT dependency by allowing non-technical users to manage their own sales competitions efficiently.
+
+The transition from Excel to a dedicated low-code application showcases how business teams can innovate independently while keeping data structured and secure.
+
+## Conclusion: The Future of Low Code and Front-End Development
+Incorporating low-code platforms like Power Apps into the development landscape not only addresses the immediate need for more developers but also opens new avenues for Front-End Developers. By combining low-code development with traditional front-end skills, developers can create sophisticated, user-centric applications that meet the needs of both businesses and end-users.
 
 ## Resources
