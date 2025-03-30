@@ -62,3 +62,9 @@ The transition from Excel to a dedicated low-code application showcases how busi
 Incorporating low-code platforms like Power Apps into the development landscape not only addresses the immediate need for more developers but also opens new avenues for Front-End Developers. By combining low-code development with traditional front-end skills, developers can create sophisticated, user-centric applications that meet the needs of both businesses and end-users.
 
 ## Resources
+- https://www.devspace.no/blog/is-there-shortage-of-skilled-developers
+- https://www.griddynamics.com/blog/tech-talent-shortage
+- https://learn.microsoft.com/en-us/power-apps/
+- https://learn.microsoft.com/en-us/ai-builder/
+- https://www.seattlenewmedia.com/blog/why-no-code-low-code-is-the-future-of-development
+- https://www.youtube.com/watch?v=mnHxS5XD8jc
