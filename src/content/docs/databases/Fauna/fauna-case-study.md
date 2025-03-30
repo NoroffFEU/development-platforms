@@ -6,9 +6,7 @@ tags: database, fauna, case study, platform, document-relational, mongodb, postg
 
 ![Fauna Logo](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1uiv5gXGspEI9x37qNb6Y0%2F5c48844dce8f2510f7bf4e90cc1dad2b%2Ftwitter_card_02__1_.png&w=3840&q=75)
 *Figure 1: [Fauna DB Backdrop](https://fauna.com/blog/the-future-of-fauna)*
-<br>
-<br>
-<br>
+
 
 # **FAUNA:**<br> Is it truly the perfect mixture of the most common database paradigms, all in one sophisticated model?
 <br>
@@ -68,50 +66,15 @@ A distinct architectural feature **Fauna** has to offer, is that it's inspired b
 
 ### Key Takeaways:
 
+| **Features**                    | **Summary** |
+|----------------------------------|------------|
+| **Data Modeling**               | Supports **document-relational** data with **JSON stored in collections**. Enables **optional relationships and joins**, allowing **rapid model changes**, **schema enforcement without complex migrations**, and **scalability through flexible normalization**. |
+| **Fauna Query Language (FQL)**  | **Typescript/SQL-based** query language that enables **complex queries, aggregations, and data interactions**. Supports **serverless API functions** via **HTTP API** and **Client Drivers** (JS, Python, Go, C#, Java, etc.).|
+| **Secondary Indexes**           | Can be **created for any nested JSON field**. Indexes support **multiple terms, values, and embedded data**, improving **query performance and consistency**. |
+| **Security and Access Control** | Implements **identity-based access control** with a **hierarchical database structure** to mitigate security risks. |
+| **Calvin Transaction Protocol** | Ensures **global consistency** with **no per-transaction locks**, **horizontal scaling**, and **stateless nodes**. |
+| **Serverless and Scalable**     | Requires **no user infrastructure management**, supports **global replication**, offers **fault tolerance**, and **automatically scales** based on demand. |
 
-- **Fauna Data modeling:** 
-    - Document-relational
-    - JSON stored in database collections.
-    - Supports optional relationships and joins for traversal. 
-    - This feature enables:
-        - Rapid data model changes. 
-        - Schema enforcement without complex migrations
-        - Flexibility to adjust normalization and access patterns, which enhances scalability and adaptability. 
-        - NoSQL scalability<br><br>
-
-- **Fauna Query Language (FQL):** 
-    - Typescript / SQL based
-    - This feature enables:
-        - Complex queries
-        - Aggregations
-        - Data interactions and manipulation
-        - Serverless API functions:
-            - HTTP API
-            - Client Drivers (JS, Pythn, Go, C#, Java etc.)<br><br>
-
-- **Secondary Indexes:** 
-    - Can be creafted for any nested JSON field 
-    - Indexes can have: 
-        - One or more terms. 
-        - Multiple values. 
-        - Embedded data in the index. 
-    - Improves consistency and speeds up common queries<br><br>
-
-- **Security and Access Control:** 
-    - Identitity based access control
-    - Hierarchal database structure to mitigate security risks<br><br>
-
-- **Calvin transaction protocol:** 
-    - No per-transaction locks
-    - Global consistency
-    - Horizontal scaling
-    - Stateless nodes<br><br>
-
-- **Serverless and Scalable:** 
-    - No user infrastructure management
-    - Global replication
-    - Fault tolerance
-    - Automatic Scaling<br><br>
 
 
 ![Fauna ](https://images.ctfassets.net/po4qc9xpmpuh/4g7Z8QPzNcQ5GUfWOLdqc5/cf0409b2fa5c50e6afbba1eea2c9601f/fauna-serverless-patterns-ref-archs.png)
@@ -137,13 +100,10 @@ As every project has its unique needs, it's vital to consider what other databas
 
 ### MongoDB
 
-**MongoDB** is a **document database**. It supports **Query API** and **CRUD**, supports **multiple storage engines** and allows for **horizontal scaling**, through **[sharding](https://www.mongodb.com/docs/manual/sharding/#std-label-sharding-introduction)**. Here is how these central areas of **Fauna** compare with **MongoDB**:<br><br>
-
 ![Fauna ](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1Px7PM6zqRFeWBMtg3eR3x%2Fd99f9372fb83e137dd94cbcb0ec0eb7f%2Ffauna_vs_mongo_blog.png&w=3840&q=75)
 *Figure 4: [Fauna v.s. MongoDB](https://fauna.com/blog/comparing-fauna-and-mongodb)*
-<br><br>
 
-
+**MongoDB** is a **document database**. It supports **Query API** and **CRUD**, supports **multiple storage engines** and allows for **horizontal scaling**, through **[sharding](https://www.mongodb.com/docs/manual/sharding/#std-label-sharding-introduction)**. Here is how these central areas of **Fauna** compare with **MongoDB**.
 
 | **Feature**              | **Fauna**  | **MongoDB**  |
 |-------------------------|-----------|-------------|
@@ -169,10 +129,11 @@ As every project has its unique needs, it's vital to consider what other databas
 
 ### PostgreSQL
 
-Another well known database distributor is **PostgreSQL**. It is a fully **open-source**, **object-relational** database system. How does it compare to **Fauna** in the same key areas?<br><br>
 ![Fauna ](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1cBq1oFwfzVlFq6pOhsfyk%2Fab4657d53982e07c81765568db3a9595%2FServerless_part_1.png&w=3840&q=75)
-*Figure 4: [Fauna v.s. PostgreSQL](https://fauna.com/blog/modernizing-from-postgresql-to-serverless-with-fauna-part-1)*
-<br><br>
+*Figure 5: [Fauna v.s. PostgreSQL](https://fauna.com/blog/modernizing-from-postgresql-to-serverless-with-fauna-part-1)*
+
+Another well known database distributor is **PostgreSQL**. It is a fully **open-source**, **object-relational** database system. How does it compare to **Fauna** in the same key areas?
+
 
 
 | **Feature**              | **Fauna**  | **PostgreSQL**  |
@@ -188,7 +149,6 @@ Another well known database distributor is **PostgreSQL**. It is a fully **open-
 | **Replication**       | **Automatic** with global distribution and **Calvin protocol**  | **Manual setup required** (supports **streaming replication, logical replication**) |
 | **Data Consistency**  | **Distributed consistency (ACID-compliant)** | ACID-compliant, **multi-region support possible** (via tools like **Patroni, Citus**) |
 | **Cost**             | Can get **expensive at scale** | **Free open-source**, but managed services (AWS RDS, etc.) **increase cost** |
-<br>
 
 
 #### Key Takeaways: 
@@ -196,22 +156,18 @@ Another well known database distributor is **PostgreSQL**. It is a fully **open-
 - **Fauna offers a modern, NoSQL, globally distributed approach** with built-in ACID compliance.  
 
 - **PostgreSQL is a powerful, structured relational database** with deep **SQL support**, **advanced security**, and **strong ecosystem tools**.
-<br>
-<br>
 
 
 ## Getting Started
 
 If you have already decided that **Fauna** is indeed the best tool for you project's needs, go ahead and start your journey. ***[Here is a quick and well documented guide for how to get started with Fauna](https://fauna.com/blog/getting-started-w-faunadb-quickstart-guide)***.
-<br>
-<br>
 
 ![Fauna Logo](https://fauna.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fpo4qc9xpmpuh%2F1uiv5gXGspEI9x37qNb6Y0%2F5c48844dce8f2510f7bf4e90cc1dad2b%2Ftwitter_card_02__1_.png&w=3840&q=75)
-*Figure 5: [Fauna DB Backdrop](https://fauna.com/blog/the-future-of-fauna)*
+*Figure 6: [Fauna DB Backdrop](https://fauna.com/blog/the-future-of-fauna)*
 
 ## Conclusion
  
-***Is Fauna DB spice and everything nice?***<br> To put it simply: **No**, because there is **no perfect database**. <br> ***Is it the best, well-documented tool, consisting of the best parts of database paradigms, out on the market today?***<br> I would say: **Sure**.<br> As for the **longer answer**; it truly depends on your specific **application needs**. Fauna is great for **modern**, **global** and smaller to **mid-scale** applications (if cost-effectivity is a concern), that is **serverless** and therefore also requires **less user driven maintenance**. This database however, gives you **little customization** possibilities and the **learning curve** for FQL might add to the **time** spent on your application overall. Nevertheless, this case study is by no means exhaustive of the topic, and it's most recommended to use it as an introductory piece in your journey of making a decision: **for Your application, Yourself and Your Team**. 
+***Is Fauna DB spice and everything nice?*** <br> To put it simply: **No**, because there is **no perfect database**. ***Is it the best, well-documented tool, consisting of the best parts of database paradigms, out on the market today?*** I would say: **Sure**. As for the **longer answer**; it truly depends on your specific **application needs**. Fauna is great for **modern**, **global** and smaller to **mid-scale** applications (if cost-effectivity is a concern), that is **serverless** and therefore also requires **less user driven maintenance**. This database however, gives you **little customization** possibilities and the **learning curve** for FQL might add to the **time** spent on your application overall. Nevertheless, this case study is by no means exhaustive of the topic, and it's most recommended to use it as an introductory piece in your journey of making a decision: **for Your application, Yourself and Your Team**. 
 
 
 ## References
