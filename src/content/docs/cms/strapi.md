@@ -1,7 +1,7 @@
 ---
 title: Strapi
-keywords: development platforms, cms, strapi
-tags: development platforms, cms, strapi
+keywords: development platforms, cms, strapi, postman, API
+tags: development platforms, cms, strapi, postman, API
 ---
 
 ## Introduction
@@ -10,7 +10,7 @@ The creation and maintenance of databases or Application Programming Interfaces 
 
 However, web development platforms and technologies are evolving in such a way that the distance between frontend and backend developers is getting shorter and shorter. The widespread adoption of Strapi is an example of that trend. Strapi is an open-source headless Content Management System (CMS). It is arguably the easiest way for developers to create and manage their own APIs.
 
-This article will explain what Strapi is, why it was created and how it currently works. It will also cover some of its strengths and weaknesses. At the end, there will be a demonstration of Strapi in action – in combination with PostgreSQL – to create a simple API that serves developers with academic articles ready to be used in their frontend projects.
+This article will explain what Strapi is, why it was created and how it currently works. It will also cover some of its strengths and weaknesses. At the end, there will be a demonstration of Strapi in action – in combination with PostgreSQL – to create a simple API that serves developers with academic articles ready to be used in their frontend projects. Additionally, we'll also explore another approach: leveraging Strapi's Quickstart option to swiftly set up an API without the need for a specific database backend. This hands-on walkthrough will include testing the API endpoints in Postman.
 
 ## Brief History
 
@@ -54,9 +54,23 @@ Strapi has, of course, some weaknesses too. For some projects, the following top
 - Strapi does not have a native hosting environment yet, although they have recently announced StrapiCloud, as a tool which will fill this gap in the future.
 - Strapi is rapidly evolving and that means it is frequently updated. Some of these updates may be disruptive, as they implement breaking changes that may compromise some projects.
 
-## Comparison
+## Market Comparison
 
-There are at least two ways of comparing Strapi with similar products: (a) analysing how it differs from more traditional CMS platforms like Wordpress (WP), Drupal and Joomla; and (b) analysing how it differs from more modern products that perform similar roles, even though these may not be strictly equivalent in terms of functionalities.
+There are at least two ways of comparing Strapi with similar products: 
+
+1. Analysing how it differs from more traditional CMS platforms like Wordpress (WP), Drupal and Joomla
+2. Analysing how it differs from more modern products that perform similar roles, even though these may not be strictly equivalent in terms of functionalities.
+
+January 16th 2024 [Medium.com](https://medium.com/@weframe.tech/strapi-vs-directus-vs-payload-headless-cms-comparison-2024-cf86502acf24) made an not sponsored article  of a comprehensive comparison of the best headless CMS options in 2024. Weframe Tech and experts in Jamstack and headless commerce chose to highlight the top three Directus, Payload and Strapi. All three Payload ,Strapi and Directus CMS are free and open source, unless you choose to use their respective cloud hosting services. 
+
+|Headless CMS |Directus |Strapi |Payload
+|---------------|-----------------------|--------------|-----------|
+| Github Metrics | 24.4k stars | 58.3k stars | 16.7k stars 
+| Requirements |CPU: 1+ cores, Memory: 1GB+, Disk: 2GB+ |CPU: 2+ cores, Memory: 4GB+, Disk: 32GB+ |CPU: 2+ cores, Memory: 4 GB+, Disk: 8GB+
+| Database support |Postgres, MySQL,Sqlite3, CockroachDB |Postgres, MySQL, MariaDB, SQLite|Postgres, MongoDB
+| Admin app | Vue | React | React
+
+If you search for terms like “CMS for developers,” “Next CMS,” or “best headless CMS,” you’ll likely find Strapi appearing on the first page ahead of Directus or payload cms. The contrast in popularity is quite evident according to Medium.com. Even though Directus has been in existence for longer than Strapi, having its roots in the PHP version prior to v9, Strapi seems to have taken the lead in a big way. This success can perhaps be attributed to their marketing department as they was presented as the future as an improved alternative to WordPress.
 
 ### Strapi vs. Traditional CMS platforms
 
@@ -78,11 +92,19 @@ On the one hand, Strapi seems to be the most flexible and most customisable of t
 
 There are of course numerous other tools that allow developers to create their own APIs (like Netlify CMS, Butter CMS, Umbraco CMS, Firebase, AppWrite, Parse, AWS Amplify and countless others). But many of these fall into the Backend as a service (BaaS) category, which means they go beyond merely CMS functionalities. For that reason, they should not be directly compared to products that primarily advertise themselves as headless CMS platforms.
 
-## Use case: creating an API
+## Use case: creating an API with Strapi
 
-It's time to see Strapi in action. In this demonstration, a simple API designed to serve clients with academic articles will be created. Each entry will consist of fields like title, authors, publication date, body, references and so on. There are many ways of creating a Strapi API. One of them is by integrating Strapi with PostgreSQL database. First, make sure you have both NodeJS and npm installed in your development environment. Then, follow the steps:
+It's time to see Strapi in action. First, make sure you have both NodeJS and npm installed in your development environment. 
 
-### Installing PostgreSQL
+Let's dive into the practical side of Strapi by creating an API. There are many ways of creating a Strapi API, and one effective method involves integrating Strapi with a PostgreSQL database. Another approach is installing Strapi using the Quickstart option, which doesn't require a connection to PostgreSQL. This approach is perfect for quickly setting up an API without the need for a specific database backend.
+
+Regardless of these two methods, each entry in the API will include essential fields such as title, authors, publication date, body, references, and more. Let's get started on building a API with Strapi! Below, we'll explore two demonstrations illustrating how to create a simple API.
+
+### 1. Strapi with PostgreSQL
+
+In this demonstration, we'll guide you through the process of installing Strapi alongside PostgreSQL. We'll focus on creating an API tailored to serve clients with academic articles. This tutorial will cover the installation steps and showcase the configuration needed to set up your API efficiently.
+
+#### Installing PostgreSQL
 
 1. Download PosgreSQL. Go to https://www.postgresql.org, and download the version that corresponds to your operating system.
 2. Install PostgreSQL. An installation wizard will be prompted. Follow the steps and select the default options.
@@ -92,7 +114,7 @@ It's time to see Strapi in action. In this demonstration, a simple API designed 
 6. Once the installation is complete, open the application called PGAdmin. This is where you will actually create the database. You may need to enter your password again.
 7. Right-click on "Databases" and click on "Create". Give it a name and save. Your database will have been created under the "Databases" folder.
 
-### Installing Strapi
+#### Installing Strapi with PostgreSQL
 
 8. Now it's time to start using Strapi. Create a folder where you would like to install it.
 9. In the command line, type `npx create-strapi-app project-name`. Make sure you run this command inside the folder where you wish to install it. Here you can give your project any name you like. For demonstration purposes, the project name will be `fff`. So the full command to be execute is `npx create-strapi-app fff`.
@@ -132,7 +154,7 @@ It's time to see Strapi in action. In this demonstration, a simple API designed 
 27. To add new content via the Strapi interface, go to "Content manager", select the desired content-type and click on "Create new entry". For example, to create your first article, fill all the necessary fields and click "Save". After the entry is save, it is necessary to "Publish" it, so it becomes available via the API. Try to add a few articles. Once they are ready, we will be able to start using the API.
 28. To check whether your database has been correctly updated with the newly added information, you can go back to the PGAdmin application. Open the database, click on "Schema" and then on "Tables". A new table named "articles" will be available. Right-click that table and go to "View data" and a list of updated items will be displayed.
 
-### Accessing the API data
+#### Accessing the API data
 
 29. It's time to check whether the API is already available. Go to http://localhost:1337/api/articles. Nothing is displayed yet (403 status). That's because the API has net yet been set to public. To do that, go back to Strapi's dashboard and click on "Settings".
 30. Under the "Users & Permissions Plugin" area, click on "Roles". Then click on "Public".
@@ -140,16 +162,159 @@ It's time to see Strapi in action. In this demonstration, a simple API designed 
 32. Now, if you repeat step 29 (or refresh the page), the API data will be correctly displayed. It is ready to be consumed in our local development environment.
 33. The API will continue to be available for as long as the `npm run develop` command keeps running in your terminal. In order to interrupt the process, exit the process (by pressing "control C", for example). After refreshing the page, the API will no longer be available. To make it locally available again, run the command `npm run develop` one more time.
 
+### 2. Strapi using the Quickstart option
+
+In this tutorial, we'll explore the practical steps of setting up and utilizing Strapi to construct API endpoints. Our focus will be on creating a backend for an fictive online shoe store named "ShoeDays.", created only for this demos purpose. Through Strapi's Quickstart option, we'll swiftly install Strapi and proceed to define dedicated endpoints for each product in the ShoeDays inventory. This walkthrough provides a hands-on experience in Strapi's efficiency for API development.
+
+#### Installing Strapi with the terminal 
+1. Begin by opening your terminal and navigating to the directory where you intend to install your project.
+
+2. Once in the desired directory, create a new folder for your project using the 'mkdir' command followed by the desired name.
+
+3. Enter the newly created folder by using the 'cd' command. Within this folder, create a subdirectory named "backend" to house your Strapi project.
+
+4. Initiate the creation of a Strapi project by executing the command 'npx create-strapi-app' and specifying the project name as 'backend'.
+
+    ![img of terminal](/src/assets/cms/strapi/image.png)
+
+5. Upon completion, Strapi will automatically launch a local development server. Access the Strapi welcome page via your web browser and proceed to authenticate as an admin user. 
+![img of strapi welcome page](/src/assets/cms/strapi/image-1.png)
+
+8. Once authenticated, return to your terminal and terminate the local server by pressing 'ctrl + C'. Then, navigate into the 'backend' folder and open it in VS Code using the command 'code .'.
+![img of terminal creating a folder](/src/assets/cms/strapi/image-2.png)	
+
+9. To restart the server and regain access to the Strapi admin panel, open a new terminal window in VSCode and execute the command 'npm run develop'.
+![img of terminal accessing the server](/src/assets/cms/strapi/image-3.png)
+
+#### Adding content in Strapi to fetch API endpoints
+1. Within the Strapi admin panel, navigate to 'Plugins' > 'Content-Types Builder'.
+Content-Type-Builder: is a blueprint for the content describing the contents fields and datatypes.
+
+2. Click on 'Create new Collection type' to initiate the creation of a new content type.
+![img of strapi create new collection type](/src/assets/cms/strapi/image-4.png)
+
+3. Next, select "Add another field to this collection type" to begin defining the fields for your collection.
+![img of adding another filed to collection type](/src/assets/cms/strapi/image-5.png)
+
+4.Begin by adding fields that capture relevant information about each shoe product, such as Name ('Text' field), Description ('Text' field), Price ('Number' field), Gender ('Enumeration' field), and Image ('Media' field).
+![img of adding fields to each product](/src/assets/cms/strapi/image-6.png)
+
+5. Add the 'Name' field with the type 'Short text'.
+![img of setting values to each product](/src/assets/cms/strapi/image-7.png)
+
+6. Configure the advanced settings by setting a default value, marking it as a required field, and making it unique.
+![img of setting required and unique field to product](/src/assets/cms/strapi/image-8.png)
+
+7. Proceed to add the 'Description' field with the type 'Long text'.
+![img of adding description to product](/src/assets/cms/strapi/image-9.png)
+
+8. 	Add an 'Enumeration field' named 'Gender' and define its values.
+![img of adding enumeration field to product](/src/assets/cms/strapi/image-10.png)
+
+9. Configure the advanced settings for the 'Gender' field by setting a default value, such as 'Unisex'.
+![img of adding default value to product](/src/assets/cms/strapi/image-11.png)
+
+10. Include a 'Media' field named 'Image' with the type 'Multiple media'.
+![img of adding media field to product ](/src/assets/cms/strapi/image-12.png)
+
+11. Specify the allowed types of media in the 'Advanced settings' for the 'Image' field.
+![img of selecting allowed media type to product](/src/assets/cms/strapi/image-13.png)
+
+12. Add a 'Number' field named 'Price' with the number format set to 'Decimal'.
+![img of adding number field and price format to product](/src/assets/cms/strapi/image-14.png)
+
+13.	Once all fields are configured, save the collection type. Strapi will automatically save and refresh the server.
+![img of saving collection type](/src/assets/cms/strapi/image-15.png)
+
+14. To access the newly created collection type, navigate to 'Content Manager' > 'Collection Types' > 'product' on the Strapi Dashboard.
+
+#### Creating products with Custom Fields
+1. Now, let's proceed to create products using our custom set fields.
+Create a new entry by selecting 'Create new entry'.
+
+2. Fill in the required fields such as name(*), description, gender, price, and image. Don't forget to add Alternative text for the image.
+![Alt text](/src/assets/cms/strapi/image-16.png)
+
+3. 	Once all product details are entered, proceed to save the entry.
+![Alt text](/src/assets/cms/strapi/image-17.png)
+
+3. Upon creating a new 'Content-type' for our products, Strapi automatically generates corresponding endpoints in our backend project. These endpoints are located within the 'product' folder inside the 'api' directory. Additionally, you can find the configuration file for these routes in the 'config' folder.
+
+### Testing the endpoints in Postman
+Postman is a versatile tool used for testing RESTful API endpoints. In this section, we will utilize Postman as our frontend to interact with the API endpoints generated by our backend in Strapi. We'll create an authenticated user role in Strapi and use token-based access generated in Postman to perform CRUD operations. This will allow us to test the functionality of our endpoints effectively.
+
+Download Postman app: https://www.postman.com/ 
+
+1. 	Begin by creating a new collection in Postman. For this example, let's name the collection 'ShoeDays' and create a New HTTP request.
+![img of creating a new collection in Postman](/src/assets/cms/strapi/image-18.png)
+
+2. 	Send a GET request to http://localhost:1337/product. You may receive a 403 error initially because Strapi automatically protects content-types from public access.
+![img of receiving a 403 error after sending a GET request](/src/assets/cms/strapi/image-19.png)
+
+3. 	Save the request as 'all products' within a collection folder named 'Strapi'.
+![img of saving the GET request in a strapi folder](/src/assets/cms/strapi/image-20.png)
+
+4. 	To gain access to the product endpoints, navigate back to the Strapi dashboard and go to General > Settings > Users & Permissions Plugin > Roles.
+![img of setting roles in Strapi](/src/assets/cms/strapi/image-21.png)
+
+5. Under 'Permissions', ensure that 'find' and 'findOne' are checked to grant unauthorized/unauthenticated users access to fetch data. 
+![img of checking the boxes find and findOne](/src/assets/cms/strapi/image-22.png)
+
+6. 	Return to Postman and resend the request. You should now receive a JSON response containing all products.
+![img of returning json response in Postman](/src/assets/cms/strapi/image-23.png)
+
+7. 	To get the single product, we need to get it by its :id
+create a new HTTP GET request to http://localhost:1337/api/products/1 
+Save the request in the 'Strapi' collection as 'single product'.
+
+![img of sending GET request by id](/src/assets/cms/strapi/image-24.png)
+
+#### 	Using Postman as frontend to test authenticated requests
+
+By default, Strapi restricts unauthorized users from performing CREATE, PUT, and DELETE requests. Let's set up authentication in Strapi and test authenticated requests using Postman. As this project is focused on showcasing the functionality of a authenticated role within the system, we will not create additional roles, such as typical buyer roles, since the scope of this project is limited.
+
+	
+  1. In Strapi, navigate to Settings > Users & Permissions Plugin > Roles > Authenticated > Permissions > Product. Select all options to grant permissions.
+![img of selecting all options for Roles permissions in Strapi](/src/assets/cms/strapi/image-25.png)
+
+2. 	Create a new role by clicking on '+ Add new role' in the Roles section.
+![img of setting new role in Strapi](/src/assets/cms/strapi/image-26.png)
+
+3. 	Create a role named 'auth' for authenticated users, allowing them to CRUD and publish content.
+![img of creating a auth role in Strapi](/src/assets/cms/strapi/image-27.png)
+
+4. Create a new user in Strapi under Content-manager > Collection types > User. Ensure to set the role as 'Authenticated' and confirm the user. 
+![img of creating a new entry in Strapi](/src/assets/cms/strapi/image-28.png)
+
+5. 	Save the request in the 'Strapi' collection folder.
+![img of setting default values to role in Strapi](/src/assets/cms/strapi/image-29.png)
+
+6. Log in to Postman as the admin user by sending a request to the authenticated endpoint (ex, http://localhost:1337/api/auth/local) with the username and password included in the request body.
+![img of setting id and password in raw JSON in Postman](/src/assets/cms/strapi/image-30.png)
+
+7. 	Save the request in the 'Strapi' collection folder.
+![img of saving the request as admin in Postman](/src/assets/cms/strapi/image-31.png)
+
+8. 	Upon sending the request, you will receive a JWT token in the response, allowing you to authenticate as the admin user for CRUD operations.
+![img of receiving the jwt as response in Postman](/src/assets/cms/strapi/image-32.png)
+
+9. Test authentication by creating a new HTTP DELETE request to a single product by it's id > http://localhost:1337/api/products/1. Set the authentication type to 'Bearer Token' and paste the JWT token in the Token field.
+![img of inserting token and receiving data](/src/assets/cms/strapi/image-33.png)
+
+10. You can now access and manage products through authenticated requests using Postman.
+
+
+
 ### Deploying the API
 
 The Strapi API which has been created by following the steps above will only be available in your local environment. Deploying the API to make it publicly available requires another sequence of procedures –- like integrating your newly-created API with a remote server and a remote database. There are many ways of doing that. While deployment strategies are not the main intent of this article, a sample API has been deployed, for demonstration purposes, by using the following method:
 
-a) Creating a Strapi project, similarly to what has been done in the previous chapters;
-b) Installing the Cloudinary Strapi plugin;
-c) Using Render.com to host a PostgreSQL database;
-d) Connecting Render.com to a Github repository containing the Strapi project.
+1. Creating a Strapi project, similarly to what has been done in the previous chapters;
+2. Installing the Cloudinary Strapi plugin;
+3. Using Render.com to host a PostgreSQL database;
+4. Connecting Render.com to a Github repository containing the Strapi project.
 
-A detailed guide on how to implement these steps can be found on this [online tutorial](https://www.youtube.com/watch?v=akvItcWW81g)). The result has been a functional live API deployed at:
+A detailed guide on how to implement these steps can be found on this [online tutorial](https://www.youtube.com/watch?v=akvItcWW81g). The result has been a functional live API deployed at:
 
 `https://fff-api.onrender.com/api/articles`
 
@@ -170,11 +335,17 @@ A few notes on how to use this API:
 
 ## Summary
 
-This article has covered one of the many possible ways of getting started with Strapi APIs. This service is one of the most popular choices among developers who wish to create and maintain their APIs without necessarily resorting to in-depth knowledge on backend technologies. Ease of use has made Strapi a sensible alternative for developers who wish to work with headless CMS projects -- without having to rely on legacy platforms like Wordpress. This article has only served as an introduction to the topic, however. There is, of course, a lot more to explore and discover. It is very likely that, sooner or later, you will encounter Strapi APIs in your future projects.
+This article has covered one of the many possible ways of getting started with Strapi APIs. This service is one of the most popular choices among developers who wish to create and maintain their APIs without necessarily resorting to in-depth knowledge on backend technologies. Ease of use has made Strapi a sensible alternative for developers who wish to work with headless CMS projects -- without having to rely on legacy platforms like Wordpress. 
+
+This article has also provided a simple walkthrough of one of many potential pathways for getting started with Strapi. Throughout the walkthroughs, readers were guided through the process of setting up Strapi, creating custom content types, and testing endpoints using Postman. Strapi's user-friendly interface and flexibility make it an attractive option for developers seeking to create and maintain APIs without extensive backend knowledge, particularly for headless CMS projects. 
+
+This article has only served as an introduction to the topic, however. There is, of course, a lot more to explore and discover. It is very likely that, sooner or later, you will encounter Strapi APIs in your future projects.
 
 ## Credits
 
 Henri Kugler ([@NehGuk](https://github.com/NehGuk))
+
+Karen Jo Fiksdahl ([@KarenJoo](https://github.com/KarenJoo))
 
 ## References
 
@@ -189,3 +360,4 @@ Henri Kugler ([@NehGuk](https://github.com/NehGuk))
 - [Cloudinary's Official website](https://strapi.io/blog/add-cloudinary-support-to-your-strapi-application)
 - [Render's official website](https://render.com)
 - [Farming for the future](https://map.farmingforthefuture.site)
+- [Strapi vs Directus vs Payload, Headless CMS Comparison 2024](https://medium.com/@weframe.tech/strapi-vs-directus-vs-payload-headless-cms-comparison-2024-cf86502acf24) 
