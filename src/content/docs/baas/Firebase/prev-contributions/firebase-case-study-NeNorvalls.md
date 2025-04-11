@@ -8,7 +8,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ## \*What is **_FIREBASE_**?\*
 
-![Firebase](~/assets/firebase/firebase.jpg)
+![Firebase](../../../../../assets/firebase/firebase.jpg)
 
 **Firebase** is a cross-platform development service with features that help developers to work efficiently, quickly, and reliably, solving the three main issues in mobile apps and all multi-platform devices. It is a back-end platform that increases an application's resources based on demand. It is a leading platform that is relied upon by developers globally. It has benefited from rapid improvement and additional features that provide satisfying results for developers and users. Since it is cloud-hosted, it gives smooth performance due to hassle-free demand scaling. All components are available for mobile and web-based applications, including services for building, testing, and managing apps.
 
@@ -28,9 +28,9 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ## **Features**
 
-![Features](~/assets/firebase/features.jpg)
+![Features](../../../../../assets/firebase/features.jpg)
 
-![Firebase Products & Features](~/assets/firebase/features_services.jpg)
+![Firebase Products & Features](../../../../../assets/firebase/features_services.jpg)
 [image reference from](https://www.altexsoft.com/blog/firebase-review-pros-cons-alternatives/)
 
 ---
@@ -85,7 +85,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ## **Strengths**
 
-![Strengths](~/assets/firebase/strengths.jpg)
+![Strengths](../../../../../assets/firebase/strengths.jpg)
 
 - Free to start
 - Development speed
@@ -117,7 +117,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ## **Weaknesses**
 
-![Weakneses](~/assets/firebase/weaknesses.jpg)
+![Weakneses](../../../../../assets/firebase/weaknesses.jpg)
 
 - It’s not Open-Source
 - Firebase does not work in many countries
@@ -190,7 +190,7 @@ tags: Firebase, Firestore, Cloud Storage, Machine Learning, Google Analytics
 
 ## **References**
 
-![Reference](~/assets/firebase/references.jpg)
+![Reference](../../../../../assets/firebase/references.jpg)
 
 ### **Introduction**
 
