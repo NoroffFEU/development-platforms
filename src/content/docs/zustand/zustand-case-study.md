@@ -1,3 +1,9 @@
+---
+title: Zustand Case Study
+author: Patrick <PatrickRoethe>
+tags: [React, Global statemanagement]
+---
+
 # Zustand Case Study
 
 ## Introduction
