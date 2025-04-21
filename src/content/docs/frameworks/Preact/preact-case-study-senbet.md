@@ -1,8 +1,6 @@
 ---
 title: Preact Case Study
-
 author: Senbet
-
 tags: preact, case study, framework,
 ---
 
