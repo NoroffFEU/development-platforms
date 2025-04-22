@@ -23,24 +23,35 @@ Mantine is a modern React component library that provides a comprehensive set of
 ## Main Features
 
 With over 100 responsive components and 50 hooks, Mantine UI allows you to build websites quickly using pre-made, customizable elements. Some of its key features include:
+
 Rich Component Library
+
 • Includes essential UI elements like buttons, modals, tooltips, accordions, and more.
+
 • Fully customizable using props and CSS-in-JS solutions.
 
 Built-in Dark Mode & Theming
+
 • Easy-to-toggle dark mode for seamless user experience.
+
 • Supports dynamic theme switching with full customization.
 
 Hooks & Utility Functions
+
 • Comes with Mantine Hooks, offering useful features like notifications, focus traps, and scroll locking.
+
 • Optimized for performance with lazy loading components.
 
 Advanced Form Handling
+
 • Supports react-hook-form and Formik.
+
 • Built-in validation and state management for forms.
 
 Great Developer Experience
+
 • Well-documented with a live playground for components.
+
 • Strong TypeScript support.
 
 ## Market Comparison
@@ -99,17 +110,25 @@ The easiest way to get started is to use one of the templates. All templates inc
 ## Conclusion
 
 Advantages:
+
 • Rich component library with built-in dark mode.
+
 • Highly customizable with great developer experience.
+
 • Strong accessibility and TypeScript support.
+
 • Active community and regular updates.
 
 Disadvantages:
+
 • Slightly larger bundle size compared to lighter libraries like Radix UI.
+
 • Not as widely adopted as Material UI, meaning fewer third-party integrations.
+
 • Doesn’t have as large community support system as Chakra UI.
 
 Future Outlook
+
 Mantine is continuously evolving, with strong community support and regular updates. As developers seek better customization and built-in accessibility, Mantine has the potential to grow into one of the leading React UI libraries.
 
 ## References
