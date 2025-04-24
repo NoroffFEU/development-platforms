@@ -1,0 +1,79 @@
+---
+title: Docker Case Study
+author: Christian Grøtan <Chrissebah>
+tags: Docker, case study, DevTools
+---
+
+## Introduction
+
+Docker, developed by Docker Inc., is a suite of platform-as-a-service offerings that utilize OS-level virtualization to distribute software in packages, known as containers. Docker provides both free and premium tiers of service. The core component responsible for hosting these containers is referred to as Docker Engine, with its initial release dating back to 2013.
+
+## Brief History
+
+- 2010: Docker was created by a man called Solomon Hykes, and was initially intented to be an internal project at a complany called dotCloud.
+- 2013: In March of 2013 the first version of Docker, the Docker Engine, was released. It was released as an open-source project.
+- 2013: Later this same year in October, dotCloud officially changed its name to Docker, Inc. and shifted its main focus on the Docker Engine.
+- 2014: The introduction of Docker Hub came in June of 2014. Docker Hub is a cloud-based service made to allow users to share and manage containerised applications.
+- 2016: This year Microsoft announced that Docker was now available for use natively on Windows 10.
+- 2021: Docker Desktop for Windows and MacOS users was no longer free for enterprise users, introducing a personal plan for companies and adding a premium tier for the software. The Linux desktop app remained unaffected.
+- 2023: Docker acquired AtomicJar, an application for development testing.
+
+## Main Features
+
+The primary purpose of Docker is to solve challenges associated with deploying software in diverse computing environments. Its main features include:
+
+- **Dependency Management:**  Docker allows developers to encapsulate their applications along with all dependencies, libraries, and runtime environments into lightweight containers, ensuring consistency across different environments.
+- **Developer Productivity:** Docker streamlines the development workflow by providing tools for building, testing, and deploying applications within containers, enhancing collaboration among team members.
+- **Isolation:** Docker containers provide process isolation, enhancing security and stability by allowing multiple applications to run independently on the same host.
+- **Portability:** Docker containers are platform-independent, enabling developers to build applications once and deploy them anywhere, reducing compatibility issues.
+- **Resource Efficiency:** Docker containers share the host system's kernel, making them lightweight and efficient compared to traditional virtual machines, leading to faster deployment times.
+
+## Market Comparison
+
+For my comparison, I will compare Docker to possibly the biggest competitor, Kubernetes. Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management. Originally designed by Google, the project is now maintained by the Cloud Native Computing Foundation [Wikipedia]
+
+-**Advantages of Kubernetes:** 
+Scaleability and Orchestration: One of Kubernetes' strong points is its managing of large-scale containerised applications across a cluster of machines.
+Advanced Scheduling: Kubernetes offers sophisticated scheduling capabilities, allowing for optimal resource allocation and workload placement.
+Self-healing: Kubernetes has the capabilities of automatically restarting and even replacing containers that fail, improving application reliability and availability.
+
+-**Disadvantages of Kubernetes:** 
+Complexity: Kubernetes has a steeper learning curve compared to Docker, requiring more time and effort to master its concepts and architecture. This can lead to more time needing to be allocated to teach new employees and could be too difficult for a user working alone.
+Resource Cverhead: Kubernetes has higher resource requirements compared to Docker, both in terms of memory and CPU usage. This means that working on mulitple projects requires more hardware power and more costs.
+Overkill: Overall this makes it so that the application is somewhat overkill for small projects and individual developers who dont need the advanced features.
+
+-**Advantages of Docker:** 
+Easy: Docker's simplicity makes it more accessible to developers who are new to containerization. This also means that a workplace does not have to spend too much time teaching new employees.
+Better for local development: Docker's lightweight containers are ideal for running development environments on individual machines.
+Strong ecosystem: Docker Hub, Docker Compose, and Docker Swarm provide a comprehensive set of tools for building, deploying, and managing containerized applications. This and the availability to work on different operating systems makes it a strong condender for companies with several different users both on and off site.
+
+-**Disadvantages of Docker:** 
+Limited orchestration: While Docker Swarm provides basic orchestration capabilities, it lacks some of the advanced features and scalability of Kubernetes.
+Resource management: Docker's resource management capabilities are not as robust as Kubernetes, particularly for large, complex deployments.
+Learning curve: Docker's simplicity can become a limitation for more advanced use cases, as it may lack the flexibility and fine-grained control offered by Kubernetes. This means that the more advanced uses could cater more for bigger companies.
+
+## Getting Started
+
+I could type out the step by step guide of how to use docker but I would most likely over-complicate it. Docker has a large community and a fantastic guide on how to use it and how to fix most issues that could occur. Their website has a large amount of documentation to help a user get started with Docker. Their guides cover: getting started, Language-Specific guides, Use-case guides, Develop with Docker, Build with Docker, Deployment and orchestration, Educational resources. Their FAQ page covers a lot of issues and questions any user could have, be it for a brand new user or a veteran, and they have a support team to help for any more complicated issues that are not covered in these guides. (https://docs.docker.com/get-started/overview/)
+
+## Conclusion
+
+My case study on Docker reveals its versatility in several key areas. Docker simplifies application packaging by bundling applications and dependencies into containers for consistent deployment. It also supports microservices architecture, enabling scalable and flexible deployment. In CI/CD (Continuous Integration/Continuous Deployment) pipelines, Docker automates testing, integration, and deployment processes, while promoting collaboration between development and operations teams, streamlining the development lifecycle.
+
+However, Docker has limitations. Managing large infrastructures can be challenging, and more complex deployments may require additional tools like Kubernetes. Security concerns, such as image vulnerabilities and container isolation, need careful attention.
+
+In summary, Docker is a valuable tool for modern application development, offering benefits in packaging, microservices, CI/CD, and DevOps. Yet, users must be mindful of challenges such as scalability, orchestration, and security. It is perfect for someone who is working on a solo project, or is just simply learning something new, but for some users or businesses it could be better to have an application that has more features and works better on a larger scale. But it comes purely down to the persons' or companies' needs.
+
+The future of Docker appears promising, with continued innovation and development in containerization technology. Docker's focus on simplicity, portability, and efficiency aligns well with modern software development practices. Additionally, Docker's integration with emerging technologies such as serverless computing and edge computing positions it as a foundational tool for building and deploying applications in diverse environments. However, Docker will need to address challenges such as improving orchestration capabilities and enhancing security to remain competitive in the rapidly evolving containerization landscape.
+
+## References
+
+- [Wikipedia,Docker](https://en.wikipedia.org/wiki/Docker_(software))
+- [Docker, Inc.](https://www.docker.com/company/)
+- [Docker, Inc. Documentation](https://docs.docker.com/)
+- [Docker, Inc. Blog](https://www.docker.com/blog/)
+- [Wikipedia,Kubernetes](https://en.wikipedia.org/wiki/Kubernetes)
+
+## Additional Resources
+
+- [Using Docker and Getting Started](https://docs.docker.com/get-started/overview/)
