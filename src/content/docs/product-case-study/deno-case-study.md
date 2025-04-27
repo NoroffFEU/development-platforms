@@ -1,6 +1,5 @@
 
 ---
-## 
 title: Deno Case Study
 author: Zico
 tags: deno, case study, platform
