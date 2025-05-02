@@ -8,7 +8,6 @@ tags: Supabase, BaaS, Postgres, Storage, Authentication, Firebase alternative, I
 
 Supabase is an open-source backend as a service (BaaS) which is often described as an alternative to Firebase. It provides developers with a pre-configured backend stack, including a PostgreSQL database, user authentication, storage for files, serverless functions and real-time data subscriptions. The goal Supabase is trying to accomplish is that it's trying to let developers start their projects with a postgres database, authentication, instant APIs, storage etc to save time and allow developers to focus on the frontend and other things and not so much the backend.
 
-
 ## Brief History
 
 Supabase was founded in early 2020 by Paul Copplestone and Anthony Wilson. They gained this idea from their experience that many robust open source tools like Postgres existed, but developers lacked an easy way to use them as a backend platform.
@@ -25,15 +24,16 @@ Supabase was founded in early 2020 by Paul Copplestone and Anthony Wilson. They 
 - **September 2024:** Series C funding was started and they were able to raise $80M, totaling the entire funding to $196M. Supabase noted that the "AI boom" was a major driver of recent growth as they had been early to support AI use cases and 10% of active databases on Supabase were now powering AI applications.
 - **April 2025:** Supabase announced a massive $200M series D at a $2 billion valuation. This raise came just 7 months after the Series C. They had a massive growth where over 1.7 million developers now use Supabase's platform and the project has 81 000+ stars on github.
 
-
 ## Main Features
 
 Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
 
 You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
+
+- **PostgreSQL Database:** Supabase uses a standard Postgres database to store all application data (tables, rows, etc...), and it enables Postgre's advances features for users. They also encourage using Postgres Row Level Security (RLS) policies tied to their Auth system as this allows the database to enforce who can see or edit each row.
+- **Realtime:** One of Supabase's standout features is its built-in realtime capabilities. Any changes to the database can be streamed to clients using websockets, enabling dynamic, live-updating interfaces like chat apps or collaborative tools.
+- **File Storage:** Supabase includes a file storage solution, where developers can upload and serve files like images, videos or documents. The storage system is tightly integrated with authentication and RLS policies, making it easy to control who can access specific files.
+- **Custom Backend Logic:** Supabase supports edge functions written in Deno. These serverless functions can run at the edge for low-latency responses and are useful for handling events, running background jobs or integrating with third-party APIs.
 
 Example feature table:
 
