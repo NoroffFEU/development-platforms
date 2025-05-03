@@ -26,49 +26,87 @@ Supabase was founded in early 2020 by Paul Copplestone and Anthony Wilson. They 
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
-
-You may use subheadings, tables or bullet points to structure your description:
+Some of the main features mentioned here is provided and meant to be an all in one toolkit that replaces the need to set up and maintain seperate services for things like databases, authentication, file storage, realtime updates and backend functions.
 
 - **PostgreSQL Database:** Supabase uses a standard Postgres database to store all application data (tables, rows, etc...), and it enables Postgre's advances features for users. They also encourage using Postgres Row Level Security (RLS) policies tied to their Auth system as this allows the database to enforce who can see or edit each row.
+
 - **Realtime:** One of Supabase's standout features is its built-in realtime capabilities. Any changes to the database can be streamed to clients using websockets, enabling dynamic, live-updating interfaces like chat apps or collaborative tools.
+
 - **File Storage:** Supabase includes a file storage solution, where developers can upload and serve files like images, videos or documents. The storage system is tightly integrated with authentication and RLS policies, making it easy to control who can access specific files.
+
 - **Custom Backend Logic:** Supabase supports edge functions written in Deno. These serverless functions can run at the edge for low-latency responses and are useful for handling events, running background jobs or integrating with third-party APIs.
 
-Example feature table:
+### How some of the features can be utilized:
 
-| Feature | Description |
+| Features | Description |
 | --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+| Blog/CMS | A Blog or CMS can use Supabase's auto-generated REST API to manage posts, comments and users. Editors can log in through OAuth, create new content via the API, and use edge functions to send email notifications on new posts. |
+| Chat application | A chat application can use Supabase's realtime database to instantly sync messages between users. For example, when one user sends a message, all connected clients will receive the new message instantly without needing to refresh.  |
+| Task manager app | For a task manager app, supabase uses authentication to handle sign-ups and logins, PostgreSQL to store task data, and Row-Level Security to ensure each user only accesses their own tasks. |
 
 ## Market Comparison
 
-This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
+Supabase is in the competetive market of backend as a service platform. Below we'll briefly compare Supabase to other well known BaaS.
 
-If you are writing about an open source tool, it may be a good idea to compare it to similar proprietary tools. Likewise, if you are writing about a proprietary tool, it may be a good idea to compare it to similar open source tools.
+### Supabase vs Firebase
 
-Similarly, a self hosted tool and a cloud based tool with a similar purpose may make for a good comparison.
+Firebase is known to be Supabase's direct competitor. The biggest differences here is that Firebase uses Firestone which is a NoSQL document-based database, while Supabase uses PostgreSQL. Supabase is fully open-source, while Firebase is not. Self hosting is possible with Supabase, but not with firebase. Supabase is often favored by developers who want SQL, open-source tooling and full control over data.
+
+### Supabase vs Hasura
+
+Hasura is another platform that provides instant GraphQL APIs on PostgreSQL. The advantage Supabase have here is that it provides a more broad experience while Hasura is better suited for projects that are GraphQL heavy.
+
 
 ## Getting Started
 
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
+**1. Create an account:** Go to https://supabase.com and sign up using your email or Github account.
+
+**2. Create a new project:** Once you're logged in, click "New project", then:
+- Give your project a name.
+- Choose a strong database password (you'll need this to connect later).
+- Select a region close your to your users.
+- Click "Create project" (this will provide a PostSQL database for you).
+
+**3. Access the dashboard:** After your project is ready, you'll see the Supabase dashboard where you can:
+- View and edit tables in the database.
+- Configure authentication settings.
+- Manage file storage.
+- Use the SQL editor.
+
+**4. Add a table:** In the table editor, you can create a table manually or use SQL. For example a todo table with columns like id, task and completed. You can also enable the RLS. It's going to be off by default.
+
+**5. Set up authentication:** You can set up the auth by going to the tab to enable email/password login or OAuth.
+
+**6 Connect Supabase to project:** You can install the Supabase client in your frontend project with for example javascript by doing the following:
+```
+npm install @supabase/supabase-js
+```
+then initialize it:
+```
+import { createClient } from "@supabase/supabase-js"
+
+const supabase = createClient("https://project-name-supabase.co", "anon-key")
+```
+this will allow you to interact with your database using Supabase's javascript client for querying, inserting, updating and authentication.
+
+**10. Go live:** Your Supabase project is cloud-hosted by default and production ready. You can now build and deploy your frontend and connect directly.
 
 ## Conclusion
 
-This section can be used to summarize your findings. What are the main advantages and disadvantages of your chosen tool? What are the main use cases for this tool? What are the main limitations of this tool? What does the future look like for this tool?
+I think Supabase is a great choice if you want to focus more on building your project without spending too much time with the backend. It provides you with a real database (PostgreSQL), built in authentication, file storage and realtime features. And everything is managed by a clean interface to easily navigate around. It's also open-source, which means that you have full control without being locked into a specific platform. 
 
 ## References
 
-- [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
-- The Example Podcast, Episode 1
-- [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
+[Supabase Official Website](https://supabase.com/)
 
-## Additional Resources
+[Supabase Docs](https://supabase.com/docs)
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+[Introducing Supabase: An Open Source Firebase Alternative](https://supabase.com/blog/introducing-supabase)
+
+[Supabase vs Firebase – A Deep Comparison](https://blog.logrocket.com/supabase-vs-firebase-comparison/)
+
+[Fireship – Supabase in 100 Seconds](https://www.youtube.com/watch?v=zBZgdTb-dns&ab_channel=Fireship)
+
+[The Net Ninja – Supabase Full Course for Beginners](https://www.youtube.com/watch?v=ydz7Dj5QHKY&list=PL4cUxeGkcC9hUb6sHthUEwG7r9VDPBMKO&ab_channel=NetNinja)
+
+[Hasura vs Supabase: Head-to-Head](https://hasura.io/blog/hasura-vs-supabase-compare-graphql-backend/)
