@@ -142,7 +142,7 @@ As the web continues to evolve toward composable, API-first architectures, Netli
 
 ## 👨‍👩‍👧‍👦 CREDITS
 
-**Author:** Ole Henrik Haug
+**Author:** Ole Henrik Haug (OH2021)
 
 **Course:** Development Platforms
 
