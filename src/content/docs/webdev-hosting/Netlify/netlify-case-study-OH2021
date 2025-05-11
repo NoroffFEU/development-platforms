@@ -1,0 +1,81 @@
+# Case Study: Netlify Web Hosting
+
+## 📌 Introduction
+
+Netlify is a modern web hosting and automation platform designed specifically for frontend developers. It simplifies the process of deploying static websites and single-page applications by integrating CI/CD, custom domains, HTTPS, and serverless functions into a unified platform. Its popularity stems from its seamless developer experience, powerful automation tools, and compatibility with modern frameworks like React, Vue, Svelte, and others.
+
+## 🕰️ History and Background
+
+Netlify was founded in 2014 by Mathias Biilmann and Christian Bach, originally under the name *MakerLoop*. The product launched in 2015 and quickly gained traction among JAMstack developers. JAMstack (JavaScript, APIs, and Markup) is a modern web development architecture that Netlify helped popularize.
+
+Netlify's approach differed from traditional hosting providers by focusing on Git-based workflows, serverless architecture, and continuous deployment. Over time, it evolved into a full-featured platform, supporting millions of developers and enterprises worldwide.
+
+## ⚙️ Key Features
+
+- **Git Integration**: Automatically deploys sites from GitHub, GitLab, or Bitbucket repositories on every push.
+- **Continuous Deployment (CI/CD)**: Builds and deploys code automatically using build tools like npm, Webpack, Hugo, or Gatsby.
+- **Global CDN**: All assets are served via a fast, globally distributed content delivery network (CDN).
+- **Serverless Functions**: Built-in AWS Lambda support for backend logic, written directly in the project repo.
+- **Instant Rollbacks**: One-click reversion to previous deploys.
+- **Form Handling**: Native support for HTML form submissions without backend code.
+- **Custom Domains & HTTPS**: Easy domain management and free SSL certificates via Let's Encrypt.
+- **Split Testing & Edge Functions**: A/B testing and personalized content delivery using edge logic.
+
+## 🔧 Use Cases
+
+Netlify is commonly used for:
+- Personal portfolios and blogs
+- Documentation sites (e.g., with Docusaurus or MkDocs)
+- Marketing websites and landing pages
+- E-commerce frontends using headless CMS
+- Static site generation (SSG) with frameworks like Next.js or Hugo
+
+## 📊 Strengths
+
+- **Developer Experience**: Clean UI, simple CLI, and intuitive Git-based deployment.
+- **Performance**: Static site generation and CDN-backed delivery ensure blazing-fast load times.
+- **Scalability**: Can scale globally without manual configuration or expensive infrastructure.
+- **Free Tier**: Generous free tier suitable for hobby projects and small teams.
+- **Built-in CI/CD**: Eliminates the need for third-party CI tools in many projects.
+
+## ⚠️ Weaknesses
+
+- **Limited Dynamic Backend**: Not ideal for apps with heavy server-side logic (e.g., real-time apps or complex databases).
+- **Cold Starts for Serverless**: Functions may experience slight delays on first load.
+- **Build Limits on Free Plan**: Restricted build minutes and bandwidth on the free plan.
+- **Lock-in**: Tightly integrated features may make migration to another host more complex.
+
+## 🔁 Comparison to Other Hosting Platforms
+
+| Feature                | **Netlify**         | **Vercel**            | **GitHub Pages**       | **Firebase Hosting**   |
+|------------------------|---------------------|------------------------|------------------------|------------------------|
+| Git Integration        | ✅ Yes              | ✅ Yes                 | ✅ Yes                 | ❌ No (manual deploy)  |
+| Serverless Functions   | ✅ Built-in         | ✅ Built-in            | ❌ No                 | ✅ Via Cloud Functions |
+| CDN                    | ✅ Global CDN       | ✅ Global CDN          | ✅ (limited)           | ✅ Global CDN          |
+| Free Tier              | ✅ Generous         | ✅ Generous            | ✅ Free for public     | ✅ Generous            |
+| Best For               | Static sites, JAMstack | React/Next.js apps | Docs, static pages    | Apps with Firebase DB  |
+
+## 🚀 Example: Deploying a Static Site with Netlify
+
+1. Push your static site code to GitHub.
+2. Login to Netlify and click **"New Site from Git"**.
+3. Connect your GitHub repo and set the build command (e.g., `npm run build`) and output folder (e.g., `dist/`).
+4. Click **Deploy Site**.
+5. Netlify builds and deploys your site, available at a custom subdomain or your own domain.
+
+## 👨‍👩‍👧‍👦 Credits
+
+**Author:**  
+- Ole Henrik Haug  
+
+**Course:** [Course Title Here]  
+**Instructor:** [Instructor Name, if required]
+
+## 📚 References
+
+- [Netlify Documentation](https://docs.netlify.com/)
+- [Netlify GitHub Repository](https://github.com/netlify)
+- [JAMstack.org](https://jamstack.org/)
+- [Vercel vs Netlify Comparison - LogRocket Blog](https://blog.logrocket.com/vercel-vs-netlify/)
+- [Netlify Case Studies](https://www.netlify.com/customers/)
+
