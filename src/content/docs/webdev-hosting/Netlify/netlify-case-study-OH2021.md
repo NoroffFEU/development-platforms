@@ -99,7 +99,7 @@ Netlify is ideal for:
 - [Netlify Documentation](https://docs.netlify.com/)
 - [Netlify GitHub Repository](https://github.com/netlify)
 - [JAMstack.org](https://jamstack.org/)
-- [Vercel vs Netlify - LogRocket Blog](https://blog.logrocket.com/vercel-vs-netlify/)
+- [Vercel vs Netlify - LogRocket Blog]([https://blog.logrocket.com/vercel-vs-netlify/](https://dev.to/focusreactive/vercel-vs-netlify-how-to-pick-the-right-one-d1e))
 - [Netlify Case Studies](https://www.netlify.com/customers/)
 
 ---
