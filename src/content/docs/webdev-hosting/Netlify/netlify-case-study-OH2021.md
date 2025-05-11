@@ -155,7 +155,7 @@ As the web continues to evolve toward composable, API-first architectures, Netli
 * [JAMstack.org](https://jamstack.org/)
 * [Vercel vs Netlify - Dev.to Comparison](https://dev.to/focusreactive/vercel-vs-netlify-how-to-pick-the-right-one-d1e)
 * [Netlify Case Studies](https://www.netlify.com/customers/)
-* [Smashing Magazine]([https://www.smashingmagazine.com/2017/11/smashing-magazine-redesign/](https://www.smashingmagazine.com/2020/01/migration-from-wordpress-to-jamstack/))
+* [Smashing Magazine](https://www.smashingmagazine.com/2020/01/migration-from-wordpress-to-jamstack/)
 * [Netlify Pricing](https://www.netlify.com/pricing/)
 
 ---
