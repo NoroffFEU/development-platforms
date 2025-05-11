@@ -89,8 +89,7 @@ Netlify is ideal for:
 **Author:**  
 - **Ole Henrik Haug**
 
-**Course:** _[Insert Course Title]_  
-**Instructor:** _[Insert Name, if required]_
+**Course:** Development Platforms
 
 ---
 
