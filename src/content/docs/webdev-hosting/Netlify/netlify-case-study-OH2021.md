@@ -1,8 +1,7 @@
-# 🚀 ---
+---
 title: Netlify
 author: Author <Sugal Aden>
 tags: case study
----
 ---
 
 ## 📌 INTRODUCTION
