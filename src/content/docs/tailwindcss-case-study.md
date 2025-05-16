@@ -82,7 +82,13 @@ Now you can use Tailwind’s utility classes in your HTML like this:
 ```
 
 ## 8. Personal Reflections
-I tried Tailwind using PlayTailwind, and I really liked it. It felt easy to test things quickly, and it was fun to design directly in the browser. The long class names in HTML can be a bit much, but overall, I think it’s a great tool if you want freedom and speed.
+In the beginning, I found the idea of Tailwind a bit overwhelming. I was used to frameworks like Bootstrap, where many design decisions were already made for me. Tailwind felt very different — more manual and “free”.
+
+But after working on a few real projects with Tailwind, I started to really enjoy it. It gave me more control over the design, and I didn’t have to keep switching between CSS and HTML files. I could style directly in my markup, and that made things quicker and easier to adjust.
+
+It did take some time to get used to the utility classes, and sometimes the HTML can look a bit messy. But once I understood the logic behind it, Tailwind became a very natural tool to use. I now feel more confident building layouts from scratch, and I appreciate how customizable everything is.
+
+Overall, learning and using Tailwind has been a positive experience — it made me feel more independent and creative in how I write front-end code.
 
 ## 9. Conclusion
 Tailwind CSS is a helpful tool for front-end developers. It makes building websites faster and gives you a lot of control. It’s not perfect for every project, but it works well in many situations — especially if you want to make your own design from scratch.
