@@ -1,6 +1,6 @@
 ---
 title: Netlify
-author: Author <Sugal Aden>
+author: Ole Henrik Haug <OH2021>
 tags: case study
 ---
 
