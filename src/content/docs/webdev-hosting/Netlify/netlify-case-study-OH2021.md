@@ -1,5 +1,8 @@
-# 🚀 CASE STUDY: NETLIFY WEB HOSTING
-
+# 🚀 ---
+title: Netlify
+author: Author <Sugal Aden>
+tags: case study
+---
 ---
 
 ## 📌 INTRODUCTION
