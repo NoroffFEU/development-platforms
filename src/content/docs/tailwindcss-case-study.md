@@ -30,11 +30,6 @@ Tailwind is used in many types of projects — from personal websites to big com
 - Bootstrap is more beginner-friendly because you don’t need to style much.
 - Tailwind gives more control and freedom, but takes more effort.
   
-**Tailwind vs Styled-Components**
-- Styled-components (in React) puts styles inside your JavaScript. Tailwind keeps styling in HTML with utility classes.
-  
-**Tailwind vs Material UI**
-- Material UI comes with pre-built components based on Google’s design. Tailwind gives you basic building blocks to make your own design.
 
 ## 10. How to Install and Get Started
 
@@ -46,11 +41,14 @@ If you want to use Tailwind CSS in your project, the easiest way is to install i
 
 Open your terminal and run:
 
-```bash npm install tailwindcss @tailwindcss/vite```
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
 
 ### **2. Update your Vite config
 In your vite.config.ts (or .js), add the Tailwind plugin:
 
+```javascript
 import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 
@@ -59,22 +57,29 @@ export default defineConfig({
     tailwindcss(),
   ],
 })
+```
 
 ### **3. Import Tailwind in your CSS file
 
 Create a CSS file (for example style.css) and add:
+```javascript
 @import "tailwindcss";
+```
 
 ### **4. Start your project
 
 Run your dev server with:
 
+```bash
 npm run dev
+```
 
 ### **5. Use Tailwind in your HTML
 
 Now you can use Tailwind’s utility classes in your HTML like this:
+```html
 <h1 class="text-2xl font-bold text-blue-600">Hello, Tailwind!</h1>
+```
 
 ## 8. Personal Reflections
 I tried Tailwind using PlayTailwind, and I really liked it. It felt easy to test things quickly, and it was fun to design directly in the browser. The long class names in HTML can be a bit much, but overall, I think it’s a great tool if you want freedom and speed.
@@ -86,3 +91,6 @@ Tailwind CSS is a helpful tool for front-end developers. It makes building websi
  - https://tailwindcss.com
  - https://tailwindcss.com/docs/installation/using-vite
  - https://play.tailwindcss.com/
+ - https://www.youtube.com/watch?v=UBOj6rqRUME
+ - https://www.youtube.com/@TailwindLabs
+ - 
