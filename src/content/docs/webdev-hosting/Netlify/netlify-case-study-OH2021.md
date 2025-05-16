@@ -1,5 +1,5 @@
 ---
-title: Netlify Case study
+title: Netlify Case Study
 author: Ole Henrik Haug <OH2021>
 tags: netlify, web hosting, frontend development, static site generation, cloud platforms, modern web
 ---
