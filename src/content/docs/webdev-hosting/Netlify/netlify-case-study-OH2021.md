@@ -1,24 +1,27 @@
 ---
-title: Netlify
+title: Netlify Case study
 author: Ole Henrik Haug <OH2021>
-tags: case study
+tags: netlify, web hosting, frontend development, static site generation, cloud platforms, modern web
 ---
 
 ## 📌 INTRODUCTION
 
-**Netlify** is a modern web hosting and automation platform designed specifically for frontend developers. It simplifies the process of deploying static websites and single-page applications by integrating **CI/CD**, custom domains, **HTTPS**, and **serverless functions** into a unified platform.
+**Netlify** is a modern and essential web hosting platform which is designed specifically for frontend developers. It integrates **CI/CD**, custom domains, **HTTPS**, and **serverless functions** into a unified platform and simplifies the process of deploying static websites and single-page applications.
 
-Its popularity stems from its seamless developer experience, powerful automation tools, and compatibility with modern frameworks like **React**, **Vue**, **Svelte**, and others. It offers a fully managed experience that removes the traditional pain points of web hosting such as server configuration, deployment complexity, and manual SSL certificate renewal.
+The popularity of the web hosting platform comes from the seamless developer experience, powerful automation tools, and the compatibility that Netlify has with modern frameworks like **React**, **Vue**, **Svelte**, and others. Also, Netlify do offer a fully managed experience. It removes the traditional pain points of web hosting such as server configuration, deployment complexity, and manual SSL certificate renewal which makes web hosting much easier and automated. This case study is a comprehensive overview of Netlify as a web hosting platform, with the main focus on how it supports frontend development and the JAMstack architecture.
 
 ---
 
 ## 🕰️ HISTORY AND BACKGROUND
 
-Netlify was founded in **2014** by **Mathias Biilmann** and **Christian Bach**, originally under the name *MakerLoop*. The product launched in **2015** and quickly gained traction among JAMstack developers.
+* **2014**: Netlify gets founded by **Mathias Biilmann** and **Christian Bach**, originally under the name *MakerLoop*. It didn't launch until **2015** but did gain 
+  traction rapidly among JAMstack developers.
 
-Netlify helped popularize the **JAMstack** (JavaScript, APIs, and Markup) architecture. Unlike traditional hosts, it focused on **Git-based workflows**, **serverless architecture**, and **continuous deployment** — now powering millions of projects globally.
+* **2015-2017**: Netlify also helped popularize the **JAMstack** (JavaScript, APIs, and Markup) architecture. Netlify was different, because it focused on **Git-based 
+  workflows**, **serverless architecture**, and **continuous deployment** — which is now powering millions of projects globally.
 
-Netlify has since attracted investment from major firms such as Andreessen Horowitz and has become a key player in the frontend ecosystem. The company also contributes to open source, including the **Netlify CMS** and other tools tailored for the JAMstack community.
+* **2017-2019**: Netlify started to attract investments from major firms such as Andreessen Horowitz and has played a key role in the frontend ecosystem. Also, the company
+  contributes to open source, which includinges the **Netlify CMS** and other tools that are tailored for the JAMstack community.
 
 ---
 
@@ -33,7 +36,7 @@ Netlify has since attracted investment from major firms such as Andreessen Horow
 * 🔒 **HTTPS + Domains**: Free SSL with Let's Encrypt and intuitive DNS configuration.
 * 🧪 **Split Testing & Edge Functions**: A/B test features or deliver personalized content at the edge using Netlify Edge Functions.
 * 📈 **Analytics**: Privacy-focused analytics built directly into the dashboard, requiring no client-side JavaScript.
-* 🔄 **Deploy Previews**: Automatically create staging previews for every pull request for collaborative review.
+* 🔄 **Deploy Previews**: Automatically generate a preview for every pull request to enable collaborative review.
 
 ---
 
@@ -42,9 +45,9 @@ Netlify has since attracted investment from major firms such as Andreessen Horow
 Netlify is ideal for:
 
 * 💼 Personal portfolios and blogs
-* 📚 Documentation sites (e.g., **Docusaurus**, **MkDocs**)
+* 📚 Documentation sites (for example, **Docusaurus**, **MkDocs**)
 * 📣 Marketing and landing pages
-* 🛒 Headless e-commerce frontends (e.g., with **Shopify**, **Snipcart**, **Contentful**)
+* 🛒 Headless e-commerce frontends (for example, with **Shopify**, **Snipcart**, **Contentful**)
 * ⚡ Static Site Generation (SSG) with **Next.js**, **Gatsby**, **Hugo**, etc.
 * 🧱 Enterprise-grade frontend platforms using micro-frontends or composable architectures
 
@@ -52,7 +55,7 @@ Netlify is ideal for:
 
 ## 📊 STRENGTHS
 
-* 💻 **Great Developer Experience**: CLI + UI + Git = 💯. Devs can ship features quickly without managing infrastructure.
+* 💻 **Great Developer Experience**: CLI + UI + Git = a happy developer experience. Devs can ship features quickly without managing infrastructure.
 * 🚄 **High Performance**: Static + CDN = ultra-fast page loads globally.
 * 🌍 **Global Scalability**: Sites are replicated worldwide to handle high traffic with no manual setup.
 * 🆓 **Free Tier**: Ideal for students, hobbyists, and small teams with 100 GB bandwidth and 300 build minutes.
@@ -88,65 +91,57 @@ Netlify is ideal for:
 
 1. 📁 Push your static site code to **GitHub**.
 2. 🔗 Log in to **Netlify** and click **“New Site from Git”**.
-3. ⚙️ Choose your GitHub repo, set the build command (e.g., `npm run build`) and output directory (e.g., `dist/`, `build/`).
+3. ⚙️ Choose your GitHub repo, set the build command (for example, `npm run build`) and output directory (for example, `dist/`, `build/`).
 4. ✅ Click **Deploy Site**.
 5. 🌐 Netlify builds and hosts your site, providing a public link or allowing connection to your custom domain.
 
-Bonus: Set up **Deploy Previews** to generate a testable version of your site for every PR!
+Note: You can configure **Deploy Previews** to automatically build and deploy test environments for each PR.
 
 ---
 
-## 🏢 REAL-WORLD USAGE & ADOPTION
+## 🏢 REAL-WORLD USE
 
-Many modern development teams use Netlify to streamline frontend operations. Major users include:
+A large number of modern development teams use Netlify to streamline their frontend operations. Notable users include:
 
-* 📘 **Smashing Magazine**: Migrated from WordPress to a JAMstack stack using Netlify + Hugo.
-* 🌍 **UNICEF**: Hosts microsites on Netlify for international outreach.
-* 📚 **Harvard Business Review**: Uses Netlify for marketing content and lightning-fast performance.
+* 📘 **Smashing Magazine**: Initially used WordPress, but moved over to a JAMstack stack using Netlify + Hugo.
+* 🌍 **UNICEF**: To reach audiences worldwide, UNICEF relies on Netlify to deploy and manage microsites.
+* 📚 **Harvard Business Review**: Uses Netlify for their marketing content and for fast, reliable performance.
 
-These organizations benefit from faster deployment times, better performance, and simplified workflows with minimal infrastructure overhead.
+These notable organizations benefit from the fast deployment times, better performance, and workflows that are simplified with minimal infrastructure overhead.
 
 ---
 
 ## 🛠️ GET STARTED WITH NETLIFY
-Getting started with Netlify is quick and beginner-friendly. Here’s a streamlined guide to help you launch your first site:
+To get started with Netlify is quick, easy and very beginner-friendly. Here’s a easy guide to help you launch your first site:
 
 Create an Account
-Visit netlify.com and sign up with your GitHub, GitLab, or Bitbucket account.
+Visit netlify.com and register using your GitHub, GitLab, or Bitbucket account. Ensure that you select the “Remember me” option to enable convenient one-click login for future access.
 
 Prepare Your Project
-Make sure your site is a static project or uses a supported build tool (e.g., Next.js, Hugo, Gatsby). Push your code to a Git repository.
+First, ensure your site is a static project or utilizes a supported build tool (for example, Next.js, Hugo, or Gatsby). Then, push your code to a Git repository.
 
 Connect Your Repo
-In the Netlify dashboard, click “Add new site” → “Import an existing project”, and authorize access to your repo.
+In the Netlify dashboard, select “Add new site” followed by “Import an existing project,” then authorize access to your repository.
 
 Configure Build Settings
-Set your build command (like npm run build) and the publish directory (build/, dist/, or similar).
+Configure your build command (for example, npm run build) and specify the publish directory (such as build/, dist/, or an equivalent folder).
 
 Deploy and Preview
-Hit Deploy Site — Netlify will build and serve your site instantly. You’ll get a live preview URL, plus deploy logs to troubleshoot if needed.
+Click Deploy Site — Netlify will then immediately build and host your site. You will receive a live preview URL along with deployment logs to assist with troubleshooting if necessary.
 
 Go Further
-Add custom domains, configure redirects, create serverless functions, or enable form handling — all from the dashboard.
+Add custom domains, configure redirects, create serverless functions, or enable form handling — all of which can be efficiently managed with the dashboard.
 
-Netlify's intuitive interface, detailed docs, and generous free tier make it accessible whether you're a student, freelancer, or pro developer.
+The intuitive interface, detailed documentation, and generous free tier of Netlify make it accessible whether you're a student, freelancer, or professional developer.
 
 ---
 
 ## 🔚 CONCLUSION
-Netlify has revolutionized the way modern websites are built and hosted. With its seamless Git-based workflows, fast global CDN, and integrated serverless capabilities, it empowers frontend developers to deploy and scale websites without worrying about infrastructure.
+The way modern websites are built and hosted has been revolutionized by Netlify. With its seamless Git-based workflows, fast global CDN, and integrated serverless capabilities, it empowers frontend developers to deploy and scale websites without worrying about infrastructure.
 
-While it may not be suitable for complex backend-heavy applications, Netlify excels at delivering blazing-fast static sites, dynamic content at the edge, and a fantastic developer experience. Whether you're creating a personal portfolio or building production-grade frontend architectures, Netlify remains a top choice in the developer toolkit.
+Netlify may not be suitable for complex backend-heavy applications; however, it excels at delivering blazing-fast static sites, real-time content delivery at the edge, and a fantastic developer experience. Netlify remains a top choice in the developer toolkit whether you're creating a personal portfolio or building professional frontend architectures.
 
-As the web continues to evolve toward composable, API-first architectures, Netlify's platform will likely play a central role in shaping the future of frontend development.
-
----
-
-## 👨‍👩‍👧‍👦 CREDITS
-
-**Author:** Ole Henrik Haug (OH2021)
-
-**Course:** Development Platforms
+The move toward composable, API-first architectures definitely positions Netlify’s platform at the forefront of frontend development’s future.
 
 ---
 
