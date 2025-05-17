@@ -15,10 +15,13 @@ As a Front End Developer, Arch Linux bundled with a window manager like Hyprland
 
 - **1991:** Linus Torvalds creates the Linux kernel and shares it publicly.
 - **1992:** Linux is relicensed under the GNU General Public License (GPL).
+- **1996:** Torvalds announces a mascot for Linux, a penguin named Tux.
 - **Mid-1990s:** Popular distros like Slackware, Debian, and Red Hat emerge.
-- **2000s:** Ubuntu and Fedora bring Linux to a wider audience.
-- **2002:** First formal release of Arch after being in development since 2001, but became popular in more recent years.
-- **2010s–2020s:** Linux dominates the cloud, powers Android, and grows in desktop popularity among developers.
+- **2000s:** Ubuntu and Fedora bring Linux to a wider audience with easier installation and polished desktops.
+- **2002:** The first formal release of Arch Linux, after initial development began in 2001.
+- **2013:** A major milestone, Google's Linux-based Android OS reaches 75% global smartphone market share.
+- **2017:** The TOP500 list of the world's fastest supercomputers includes only Linux-based systems.
+- **2010s–2020s:** Linux dominates cloud infrastructure, powers Android, and grows in desktop popularity among developers and enthusiasts.
 
 ## Main Features
 
@@ -38,6 +41,13 @@ Linux provides developers with a number of features that make it an ideal platfo
 | Shell Scripting | Automate tasks using Bash, Zsh, or other shells. |
 | Native Dev Tools | Comes with GCC, make, Python, Git, and more preinstalled or easily installable. |
 | Lightweight or Full Desktop | Use minimal setups (e.g., windows managers like i3 or Hyprland) or full-featured desktops (e.g., GNOME/KDE). |
+
+### Understanding the Linux Stack
+
+Linux systems are built in layers, giving users and developers a high degree of flexibility and control. At the core is the **Linux kernel**, which handles hardware interaction and system processes. On top of the kernel, various **distributions** (e.g., Arch, Ubuntu, Fedora) provide package managers, software defaults, and configuration conventions.
+
+Users can then choose a **window manager** (e.g., i3, Hyprland) or a full **desktop environment** (e.g., GNOME, KDE Plasma) to customize their graphical interface. Because these components are modular, Linux allows for highly personalized setups — something that’s especially appealing to developers who want a workspace tailored to their workflow.
+
 
 ## Market Comparison
 
@@ -64,7 +74,7 @@ To get started with Linux as a development platform:
    - Terminal editors like **Vim**, **Neovim**, or **Nano** are great lightweight options.
      - If you're using Neovim, install your preferred plugin manager (e.g., **LazyVim**) and configure accordingly.
    - GUI IDEs like **JetBrains Rider** (excellent for C#) also run well on Linux.
-
+<!--br-->
 3. **Install Git and Developer Tools**:
    ```bash
    sudo pacman -S git base-devel curl
@@ -88,13 +98,17 @@ While powerful, it is important to review the packages as they are not officiall
 ## Conclusion
 
 Linux offers a powerful, flexible, and developer-friendly environment for software development. Whether you’re writing code, managing servers, or building embedded systems, Linux provides the control and tools needed to do the job well. While it may have a learning curve, the long-term benefits often outweigh the initial challenges — especially for those who value open-source software and system transparency.
-While some distributions are easier to learn than others, taking a deep dive: into Arch is well worth it for the quality of its community and documentation alone.
+While some distributions are easier to learn than others, taking a deep dive into Arch is well worth it for the quality of its community and documentation alone.  
+With its stability, transparency, and unparalleled customizability, Linux has the potential to be the clear choice for developers seeking a platform tailored to their needs.
 
 ## References
 
 - [https://kernel.org](https://kernel.org)
 - [https://ubuntu.com](https://ubuntu.com)
 - [https://archlinux.org/](https://archlinux.org/)
+- [https://en.wikipedia.org/wiki/History_of_Linux](https://en.wikipedia.org/wiki/History_of_Linux)
+- [https://en.wikipedia.org/wiki/TOP500](https://en.wikipedia.org/wiki/TOP500)  
+###### (Yes, it's Wikipedia, but the article sources are solid)
 
 ## Additional Resources
 
