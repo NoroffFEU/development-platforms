@@ -23,6 +23,16 @@ The popularity of the web hosting platform comes from the seamless developer exp
 * **2017-2019**: Netlify started to attract investments from major firms such as Andreessen Horowitz and has played a key role in the frontend ecosystem. Also, the company
   contributes to open source, which includinges the **Netlify CMS** and other tools that are tailored for the JAMstack community.
 
+* **2020**: Several new features have been introduced on Netlify, including Edge Handlers, Brotli compression on Netlify Edge, and support for self-hosted GitHub and GitLab repositories.
+
+* **2021**: The acquisition of FeaturePeek enhanced Netlify's Deploy Previews, optimizing teamwork and coordination for web developers.
+
+* **2022**: To extend its serverless capabilities, Netlify acquired Quirrel and introduced Edge Functions to accelerate the development of modern web applications at the edge.
+
+* **2023**: Netlify’s acquisition of Stackbit, a visual editing platform, expanded its offerings by providing web teams with a complete suite of tools for managing the entire web stack.
+
+* **2025**: The launching of AI-powered tools on Netlify, including Deploy Assist and integrations with platforms like Bolt.new, enabling the creation of AI-generated websites.
+
 ---
 
 ## ⚙️ KEY FEATURES
@@ -149,6 +159,11 @@ The move toward composable, API-first architectures definitely positions Netlify
 
 * [Netlify Documentation](https://docs.netlify.com/)
 * [Netlify GitHub Repository](https://github.com/netlify)
+* [Netlify Blog](https://www.netlify.com/blog/2020/12/21/top-10-from-2020-netlify-features-announcements/?utm_source=chatgpt.com)
+* [Netlify Press Releases](https://www.netlify.com/press/netlify-acquires-featurepeek-and-launches-next-generation-of-deploy-previews-to-streamline-collaboration-for-web-teams/)
+* [Netlify Press Releases](https://www.netlify.com/press/netlify-announces-acquisition-of-quirrel-to-extend-serverless-functions-capabilities/?utm_source=chatgpt.com)
+* [Netlify Press Releases](https://www.netlify.com/press/netlify-acquires-stackbit-to-provide-web-teams-with-a-full-set-of-solutions-across-their-web-stack/?utm_source=chatgpt.com)
+* [Netlify Press Releases](https://www.netlify.com/press/bolt-netlify-1-million-ai-generated-websites/?utm_source=chatgpt.com)
 * [JAMstack.org](https://jamstack.org/)
 * [Vercel vs Netlify - Dev.to Comparison](https://dev.to/focusreactive/vercel-vs-netlify-how-to-pick-the-right-one-d1e)
 * [Netlify Case Studies](https://www.netlify.com/customers/)
