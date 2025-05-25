@@ -1,6 +1,7 @@
 ---
-Title: Microsoft Power Apps For Everyone - The Future Of Low-Code
-Author: Hanna Høidahl
+title: Microsoft Power Apps For Everyone - The Future Of Low-Code
+author: Hanna Høidahl
+tags: microsoft, low-code
 ---
 
 ## Norway´s IT Developer Shortage and The Role Of Low-Code & AI
