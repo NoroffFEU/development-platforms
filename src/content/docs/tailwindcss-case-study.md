@@ -1,3 +1,9 @@
+---
+title: Tailwind CSS Case Study
+author: Kine Ones <KineOnes>
+tags: tailwind, tailwindcss, css, framework
+---
+
 # Tailwind CSS – Utility-First Styling for Modern Web Development
 
 ## 1. Introduction
