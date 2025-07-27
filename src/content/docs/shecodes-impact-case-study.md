@@ -4,6 +4,9 @@ Author: "Marianne Engesvik"
 Date: 2025-08-17
 ---
 
+<p align="center">
+  <img src="shecodes.png" alt="Prosjektlogo" width="300">
+</p>
 ![Logo](shecodes.png)
 
 ## Introduction
