@@ -1,7 +1,7 @@
 ---
-title: "SheCodes – A Platform for Empowering Women in Technology"
-author: "Marianne Engesvik"
-date: 2025-07-27
+Title: "SheCodes – A Platform for Empowering Women in Technology"
+Author: "Marianne Engesvik"
+Date: 2025-08-17
 ---
 
 ## Introduction
