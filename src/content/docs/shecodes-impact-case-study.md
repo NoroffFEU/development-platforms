@@ -4,6 +4,8 @@ Author: "Marianne Engesvik"
 Date: 2025-08-17
 ---
 
+![Logo](shecodes.png)
+
 ## Introduction
 
 In the rapidly advancing field of technology, the presence of gender disparity remains a significant challenge. **SheCodes**, founded in October 2017 by full-stack engineer Matt Delac, is a pioneering platform committed to bridging this gap.
