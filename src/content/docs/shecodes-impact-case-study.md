@@ -1,13 +1,15 @@
 ---
+<p align="center">
 Title: "SheCodes – A Platform for Empowering Women in Technology"
 Author: "Marianne Engesvik"
 Date: 2025-08-17
+</p>
+
 ---
 
 <p align="center">
-  <img src="shecodes.png" alt="Prosjektlogo" width="300">
+  <img src="shecodes.png" alt="Prosjectlogo" width="300">
 </p>
-![Logo](shecodes.png)
 
 ## Introduction
 
