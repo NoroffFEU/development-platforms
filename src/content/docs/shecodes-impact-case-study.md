@@ -10,7 +10,7 @@ Date: 2025-08-17
 
 ## Introduction
 
-In the rapidly advancing field of technology, the presence of gender disparity remains a significant challenge. **SheCodes**, founded in October 2017 by full-stack engineer Matt Delac, is a pioneering platform committed to bridging this gap.
+Despite rapid advances in technology, gender disparity remains a persistent challenge. **SheCodes**, founded in October 2017 by full-stack engineer Matt Delac, is a pioneering platform committed to bridging this gap.
 
 Originally conceived as a small in-person workshop aimed at teaching basic coding to 10 women, the initiative quickly expanded due to high demand and positive feedback. SheCodes is now a fully online global platform dedicated to fostering inclusivity and diversity in tech.
 
@@ -35,7 +35,7 @@ Today, SheCodes offers structured online learning for beginners and advanced lea
 
 SheCodes is dedicated to diminishing the gender gap in the technology sector by empowering women with practical coding skills. The platform promotes:
 
-- A supportive and inclusive environment
+- A supportive and inclusive environment, open to women and gender minorities including trans and non-binary individuals
 - Structured, project-based learning
 - International reach with flexible scheduling
 
@@ -49,14 +49,16 @@ SheCodes is designed to be accessible and beginner-friendly, allowing women from
    Users start by going to [SheCodes.io](https://www.shecodes.io) to explore the available workshops and courses.
 
 2. **Choose a Workshop**  
-   SheCodes offers multiple workshops tailored to different skill levels:
+   SheCodes offers multiple workshops tailored to different skill levels and goals:
 
    - _SheCodes Basics_ – An introduction to HTML, CSS, and JavaScript.
    - _SheCodes Plus_ – More advanced JavaScript concepts and APIs.
    - _SheCodes React_ – Building interactive web apps with React.
+   - _SheCodes Pro_ - A comprehensive 4-month program covering multiple technologies and advanced projects
+   - _SheCodes Max_ - The most extensive program, including career support, portfolio development, and advanced technical topics
 
 3. **Register and Pay**  
-   After selecting a course, users register by creating an account and paying the workshop fee. Payment grants access to course materials, videos, and the community.
+   After selecting a course, users register by creating an account and paying the workshop fee. Prices typically range from $99 to $199 per workshop, depending on the level and region. SheCodes also offers scholarships and discounted programs for students in developing countries or with financial need.
 
 4. **Engage in the Workshop**  
    Workshops are structured with daily lessons delivered via video and written content. Participants work on hands-on projects to practice coding skills. The format encourages completing assignments step-by-step, with clear deadlines.
@@ -65,7 +67,7 @@ SheCodes is designed to be accessible and beginner-friendly, allowing women from
    Students join a supportive online community where they can ask questions, share progress, and receive mentorship from instructors and alumni.
 
 6. **Project Portfolio**  
-   By the end of each workshop, participants build a final project, such as a personal portfolio website or a small web application, which they can showcase to potential employers or clients.
+   By the end of each workshop, participants build a final project, such as a personal portfolio website or a small web app like a weather dashboard or a calculator, which they can showcase to potential employers or clients.
 
 7. **Next Steps**  
    Graduates are encouraged to continue learning with advanced workshops or participate in SheCodes’ ongoing community events, webinars, and networking opportunities.
@@ -141,13 +143,17 @@ This focus on human connection sets SheCodes apart from many self-paced online c
 
 ## Weaknesses and Challenges
 
-| Weakness               | Description                                    |
-| ---------------------- | ---------------------------------------------- |
-| **Limited Tech Scope** | Mainly front-end technologies                  |
-| **Paid Model**         | Courses have fees; financial access varies     |
-| **Scalability**        | Personalized mentoring may face scaling limits |
-| **Regional Focus**     | May still cater more to certain countries      |
-| **Founder Dependency** | Heavy association with one individual          |
+| Weakness                                     | Description                                                                                                                        |
+| -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Limited Tech Scope**                       | Mainly front-end technologies                                                                                                      |
+| **Paid Model**                               | Courses have fees; financial access varies                                                                                         |
+| **Scalability**                              | Personalized mentoring may face scaling limits                                                                                     |
+| **Regional Focus**                           | May still cater more to certain countries                                                                                          |
+| **Founder Dependency**                       | Heavy association with one individual                                                                                              |
+| **Limited Variety in Learning Styles**       | Primarily video lessons and small projects may not suit all learning preferences (e.g., kinesthetic or auditory learners)          |
+| **Lack of Backend and Data Science Content** | Minimal or no coverage of backend development, databases, DevOps, or data analysis, which are important in tech careers            |
+| **No Accredited Certification**              | Certificates are not formally recognized by universities or major industry bodies, which can limit their value in some job markets |
+| **Limited Personalization**                  | The fixed curriculum offers little room for tailoring content to individual learners’ goals or pace                                |
 
 ---
 
@@ -201,9 +207,37 @@ This focus on human connection sets SheCodes apart from many self-paced online c
 
 ---
 
+## Discussion: SheCodes in Context
+
+SheCodes provides a unique space in the coding education landscape by specifically targeting women and gender minorities, combining accessible coding workshops with a strong support network. This human-centered, community-driven approach sets it apart from many generic platforms.
+
+Unlike platforms such as **Codecademy** or **freeCodeCamp**, which serve the general public, SheCodes offers mentorship, structured projects, and community engagement specifically tailored for women starting out in tech. While **freeCodeCamp** excels in being completely free and backend-inclusive, it lacks live mentorship — a feature SheCodes uses to build confidence and retention.
+
+Compared to **Udemy**, which offers affordable courses but inconsistent quality, SheCodes provides a more curated learning path. While **Coursera** delivers accredited university content, it often lacks the peer support and beginner-friendly pacing found in SheCodes' workshops.
+
+However, SheCodes does have limitations. It is primarily front-end focused (though expanding), and the paid model may be a barrier for some. Despite this, its mission-driven philosophy, personalized feedback, and growing alumni network make it a compelling option for women seeking a supportive entry into tech.
+
+In short, SheCodes fills a critical gap — not just teaching code, but building confidence, community, and careers for women in tech.
+
+---
+
 ## Conclusion
 
-SheCodes has emerged as a transformative platform, helping reduce gender inequality in tech by providing accessible, high-quality coding education for women. By addressing its current limitations, the platform can further increase its global impact and sustainability.
+SheCodes is a well-crafted learning platform that stands out for its mission to empower women in technology through beginner-friendly, structured coding workshops. Its main strengths lie in its community support, mentorship model, and hands-on project-based learning. SheCodes is especially well-suited for beginners who value guidance, flexibility, and a safe, inclusive learning environment.
+
+The main disadvantages include its limited focus on front-end technologies (though this is improving with the addition of SheCodes Pro and Max), and its paid model, which may not be accessible to everyone despite scholarship options.
+
+Key use cases for SheCodes include:
+
+- Women and gender minorities seeking to start a career in web development
+- Learners who prefer structured, deadline-driven workshops over self-paced courses
+- Individuals looking to build a portfolio with real projects and get mentorship along the way
+
+Limitations of the platform include a lack of backend content, limited depth for more advanced learners, and potential challenges in scaling one-on-one mentorship globally.
+
+Looking forward, SheCodes has strong potential to continue expanding both its curriculum and global reach. By addressing its technical limitations and maintaining its focus on community and inclusion, it is well-positioned to make a lasting impact in narrowing the gender gap in tech.
+
+The information in this case study is based on publicly available data from SheCodes.io and user experiences shared via their official website and third-party reviews.
 
 ---
 
