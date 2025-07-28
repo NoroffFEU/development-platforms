@@ -12,6 +12,8 @@ Date: 2025-08-17
 
 Despite rapid advances in technology, gender disparity remains a persistent challenge. **SheCodes**, founded in October 2017 by full-stack engineer Matt Delac, is a pioneering platform committed to bridging this gap.
 
+This case study provides an in-depth exploration of SheCodes—from its founding as a small in-person workshop to becoming a global online platform. It examines how SheCodes has grown over time and the significant impact it has made in empowering women and gender minorities to enter technology careers. Through mentorship, community support, and structured learning, SheCodes plays a vital role in reducing the gender gap in tech and shaping the futures of thousands of women worldwide.
+
 Originally conceived as a small in-person workshop aimed at teaching basic coding to 10 women, the initiative quickly expanded due to high demand and positive feedback. SheCodes is now a fully online global platform dedicated to fostering inclusivity and diversity in tech.
 
 This case study explores the inception, growth, and impact of SheCodes, highlighting its role in reducing the gender gap and shaping thousands of women’s careers worldwide.
@@ -242,6 +244,8 @@ Limitations of the platform include a lack of backend content, limited depth for
 
 Looking forward, SheCodes has strong potential to continue expanding both its curriculum and global reach. By addressing its technical limitations and maintaining its focus on community and inclusion, it is well-positioned to make a lasting impact in narrowing the gender gap in tech.
 
+In summary, this case study has traced the journey of SheCodes from its inception through its rapid growth to its current global influence. The platform’s targeted mission to empower women and gender minorities through accessible, project-based coding education, combined with strong mentorship and community support, has contributed meaningfully to narrowing the gender gap in technology. Thousands of women have launched tech careers thanks to SheCodes, underscoring the platform’s significant impact on diversity and inclusion within the industry.
+
 The information in this case study is based on publicly available data from SheCodes.io and user experiences shared via their official website and third-party reviews.
 
 ---
@@ -249,7 +253,6 @@ The information in this case study is based on publicly available data from SheC
 ## Resources
 
 - [SheCodes Official Website](https://www.shecodes.io)
-- [Women Who Code](https://www.womenwhocode.com/)
 - [Codecademy](https://www.codecademy.com/)
 - [freeCodeCamp](https://www.freecodecamp.org/)
 - [Udemy](https://www.udemy.com/)
