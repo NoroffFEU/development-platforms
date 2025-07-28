@@ -5,7 +5,7 @@ Date: 2025-08-17
 ---
 
 <p align="center">
-  <img src="shecodes.png" alt="Prosjectlogo" width="300">
+  <img src="/src/assets/images/shecodes.png" alt="Prosjectlogo" width="300">
 </p>
 
 ## Introduction
