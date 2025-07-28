@@ -22,12 +22,16 @@ This case study explores the inception, growth, and impact of SheCodes, highligh
 
 ## Brief History
 
-| Year         | Milestone                                   |
-| ------------ | ------------------------------------------- |
-| 2017         | First workshop launched in Lisbon, Portugal |
-| 2018–2019    | Expansion of in-person and online workshops |
-| 2020         | Transition to fully online, global platform |
-| 2020–present | Courses offered to women in 196 countries   |
+| Year         | Milestone                                                                                                                                                                 |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2017         | First workshop launched in Lisbon, Portugal                                                                                                                               |
+| 2018–2019    | Expansion of in-person and online workshops                                                                                                                               |
+| 2020         | Transition to fully online, global platform                                                                                                                               |
+| 2020–present | Courses offered to women in 196 countries                                                                                                                                 |
+| 2023         | Partnership with Meta to offer a six-month front-end development bootcamp called "She Codes Too" covering HTML, CSS, JavaScript, and React                                |
+| 2024         | Collaboration with Al-Mustaqbal University in Iraq for a three-day workshop "Coding for Everyone" focused on introducing women to tech                                    |
+| 2024         | SheCodes Society at BINUS University, Indonesia discussed potential collaboration with Microsoft's "Code Without Barriers" initiative                                     |
+| 2025         | Launch of SheCodes Python courses: "Python Basics" and "Python Advanced" covering fundamentals and advanced Python skills including API integration and data manipulation |
 
 Today, SheCodes offers structured online learning for beginners and advanced learners, with a community of thousands of students and an average rating of **4.9/5**.
 
