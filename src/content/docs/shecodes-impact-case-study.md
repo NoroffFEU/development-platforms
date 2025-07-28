@@ -131,13 +131,18 @@ This focus on human connection sets SheCodes apart from many self-paced online c
 
 ## Strengths of SheCodes
 
-| Strength                     | Description                                        |
-| ---------------------------- | -------------------------------------------------- |
-| **Targeted for Women**       | Fills a unique niche in tech education             |
-| **Comprehensive Curriculum** | Covers HTML, CSS, JS, React, and career prep       |
-| **Flexible Online Learning** | Learn anytime, anywhere                            |
-| **Strong Community Support** | Mentors and alumni engagement                      |
-| **Proven Success**           | High satisfaction and thousands of success stories |
+| Strength                     | Description                                                           |
+| ---------------------------- | --------------------------------------------------------------------- |
+| **Targeted for Women**       | Fills a unique niche in tech education                                |
+| **Comprehensive Curriculum** | Covers HTML, CSS, JS, React, and career prep                          |
+| **Flexible Online Learning** | Learn anytime, anywhere                                               |
+| **Strong Community Support** | Mentors and alumni engagement                                         |
+| **Proven Success**           | High satisfaction and thousands of success stories                    |
+| **Mentorship Model**         | Personalized guidance boosts confidence and retention                 |
+| **Project-Based Learning**   | Hands-on projects help build practical skills                         |
+| **Global Accessibility**     | Open to women worldwide with flexible schedules                       |
+| **Inclusive Environment**    | Welcomes gender minorities including trans and non-binary individuals |
+| **Career Support**           | Provides portfolio development and job readiness                      |
 
 ---
 
