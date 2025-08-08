@@ -235,21 +235,21 @@ firebase emulators:start
 
 Firebase has evolved into a powerful Backend-as-a-Service (BaaS) platform that enables rapid development and deployment of modern web and mobile applications. Its main strengths lie in its **real-time data capabilities, integrated authentication, serverless backend with Cloud Functions**, and **tight integration with Google Cloud services**.
 
-🔎 ### Advantages: 
+### 🔎 Advantages: 
  - **Ease of use** - especially for frontend developers and small teams. 
  - **Real-time data synchronoization - enables dynamic and responsive applications.
  - **Built-in Authentication** - simplifies user management and security.
  - **Scalable infrastructure** - handles millions of users without manual server management.
  - **Powerful tools** - like Crashlytics, Analytics, ML Kit, and Emulator Suite. 
 
- ⚠️ ### Limitations: 
+### ⚠️ Limitations: 
 
  - **Vendor lock-in** - Firebase is a proprietery platform tied closely to Google's ecosystem.
  - **Pricing at scale** - costs can rise quickly with high usage.
  - **NoSQL only** - Firestore and Realtime Database don't suit all data models. 
  - **Limited flexibility** - compared to full backend frameworks or open-source alternatives.
 
- 💡 ### Use Cases: 
+### 💡 Use Cases: 
 
  Firebase is ideal for: 
  
@@ -258,7 +258,7 @@ Firebase has evolved into a powerful Backend-as-a-Service (BaaS) platform that e
  - Cross-platform mobile apps using frameworks like Flutter or React Native. 
  - Teams that value speed, hosting, and integrated analytics in one platform. 
 
- 🔮 ### The Future of Firebase:
+### 🔮 The Future of Firebase:
 
  As Firebase continues to evolve, we can expect **tighter integration with Google Cloud**, more **AI/ML capabilities**, and improved **developer tooling**. Its active community and strong support from Google make it a safe and promising choice for developers in 2025 and beyond.
 
