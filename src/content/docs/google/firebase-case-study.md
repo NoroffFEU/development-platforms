@@ -237,7 +237,7 @@ Firebase has evolved into a powerful Backend-as-a-Service (BaaS) platform that e
 
 ### 🔎 Advantages: 
  - **Ease of use** - especially for frontend developers and small teams. 
- - **Real-time data synchronoization - enables dynamic and responsive applications.
+ - **Real-time data synchronoization** - enables dynamic and responsive applications.
  - **Built-in Authentication** - simplifies user management and security.
  - **Scalable infrastructure** - handles millions of users without manual server management.
  - **Powerful tools** - like Crashlytics, Analytics, ML Kit, and Emulator Suite. 
@@ -272,6 +272,8 @@ Firebase has evolved into a powerful Backend-as-a-Service (BaaS) platform that e
 
 ## Additional Resources
 
-- [More about Examples](https://example.com)
-- [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
+### 📺 YouTube Channels & Videos
+
+- [Fireship - Firebase in 100 seconds](https://www.youtube.com/watch?v=vAoB4VbhRzM)
+- [Fireship - Ultimate Beginner's Guide](https://www.youtube.com/watch?v=9kRgVxULbag)
 
