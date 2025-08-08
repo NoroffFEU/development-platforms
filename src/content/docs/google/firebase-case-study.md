@@ -93,7 +93,7 @@ A scalable, flexible NoSQL database with real-time data syncing, offline support
 - **Firebase Security Rules**  
   Fine-grained control over who can access Firestore, Storage, etc.
 
-  ### 🧪 8. Emulator Suite
+### 🧪 8. Emulator Suite
 
 - Local development environment for:
   - Firestore
@@ -133,7 +133,6 @@ Firebase’s main features support:
 
 You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
 
-## Market Comparison
 
 ## 🔍 Market Comparison
 
@@ -200,7 +199,7 @@ Go to [https://console.firebase.google.com](https://console.firebase.google.com)
   firebase.initializeApp(firebaseConfig);
 </script>
 ```
-
+```
 npm install firebase
 
 ```
@@ -276,5 +275,3 @@ Firebase has evolved into a powerful Backend-as-a-Service (BaaS) platform that e
 - [More about Examples](https://example.com)
 - [Examples, the Full Course](https://youtu.be/dQw4w9WgXcQ)
 
-Test push after fresh reinstall!
-```
