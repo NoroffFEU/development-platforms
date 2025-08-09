@@ -27,5 +27,10 @@
     "Wathan",
     "webdev",
     "Yvetot"
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#3C2B06",
+    "titleBar.activeBackground": "#553C08",
+    "titleBar.activeForeground": "#FEFBF4"
+  }
 }
