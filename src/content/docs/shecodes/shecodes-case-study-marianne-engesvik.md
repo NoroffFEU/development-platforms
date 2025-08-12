@@ -29,9 +29,11 @@ This case study explores the inception, growth, and impact of SheCodes, highligh
 | 2020         | Transition to fully online, global platform                                                                                                                               |
 | 2020–present | Courses offered to women in 196 countries                                                                                                                                 |
 | 2024         | SheCodes Society at BINUS University, Indonesia discussed potential collaboration with Microsoft's "Code Without Barriers" initiative                                     |
-| 2024/2025    | Launch of SheCodes Python courses: "Python Basics" and "Python Advanced" covering fundamentals and advanced Python skills including API integration and data manipulation |
+| _2024/2025_  | Launch of SheCodes Python courses: "Python Basics" and "Python Advanced" covering fundamentals and advanced Python skills including API integration and data manipulation |
 
 Today, SheCodes offers structured online learning for beginners and advanced learners, with a community of thousands of students and an average rating of **4.9/5**.
+
+> **Source note:** The exact launch date of SheCodes' Python courses is not officially documented. Social media posts and platform updates suggest they were introduced sometime between mid-2024 and early 2025. Therefore, the timeframe "2024/2025" is used in the text.
 
 ---
 
