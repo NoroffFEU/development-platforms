@@ -1,9 +1,9 @@
-<img src="https://www.shecodes.io/assets/branding/logo-shecodes-3dfa60aeab8ef361842da5a2b6d46db3af1b7afafefee3dde0a9846389de754b.png" width="150" alt="SheCodes Logo">
+| **Title** | SheCodes – A Platform for Empowering Women in Technology |
 
-| **Title**  | SheCodes – A Platform for Empowering Women in Technology |
-| ---------- | -------------------------------------------------------- |
-| **Author** | Marianne Engesvik                                        |
-| **Date**   | 2025-08-17                                               |
+<img src="https://www.shecodes.io/assets/branding/logo-shecodes-3dfa60aeab8ef361842da5a2b6d46db3af1b7afafefee3dde0a9846389de754b.png" width="340" alt="SheCodes Logo">
+
+| **Author** | Marianne Engesvik |
+| **Date** | 2025-08-17 |
 
 ## Introduction
 
