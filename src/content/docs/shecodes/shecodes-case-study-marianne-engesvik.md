@@ -1,14 +1,14 @@
+![SheCodes Logo](https://www.shecodes.io/assets/branding/logo-shecodes-3dfa60aeab8ef361842da5a2b6d46db3af1b7afafefee3dde0a9846389de754b.png)
+
 ---
+
 Title: "SheCodes – A Platform for Empowering Women in Technology"
 Author: "Marianne Engesvik"
 Date: 2025-08-17
+
 ---
 
 ![SheCodes Logo](https://www.shecodes.io/assets/branding/logo-shecodes-3dfa60aeab8ef361842da5a2b6d46db3af1b7afafefee3dde0a9846389de754b.png)
-
-<!-- <p align="center">
-  <img src="/src/assets/images/shecodes.png" alt="Projectlogo" width="300">
-</p> -->
 
 ## Introduction
 
