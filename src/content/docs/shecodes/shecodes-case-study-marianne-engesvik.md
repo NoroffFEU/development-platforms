@@ -261,4 +261,4 @@ The information in this case study is based on publicly available data from SheC
 - [Coursera](https://www.coursera.org/)
 - [SheCodes Success Stories](https://www.shecodes.io/stories)
 - [SheCodes LinkedIn](https://www.linkedin.com/company/shecodesio/)
-- [Binus University International] (https://international.binus.ac.id/computer-science/2024/10/12/shecodes-society-binus-international-and-microsoft-discuss-potential-collaboration-for-empowering-women-in-tech/?utm_source=chatgpt.com)
+- [Binus University International](https://international.binus.ac.id/computer-science/2024/10/12/shecodes-society-binus-international-and-microsoft-discuss-potential-collaboration-for-empowering-women-in-tech/?utm_source=chatgpt.com)
