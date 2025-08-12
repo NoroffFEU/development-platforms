@@ -8,7 +8,7 @@ Date: 2025-08-17
 
 ---
 
-![SheCodes Logo](https://www.shecodes.io/assets/branding/logo-shecodes-3dfa60aeab8ef361842da5a2b6d46db3af1b7afafefee3dde0a9846389de754b.png)
+<!-- ![SheCodes Logo](https://www.shecodes.io/assets/branding/logo-shecodes-3dfa60aeab8ef361842da5a2b6d46db3af1b7afafefee3dde0a9846389de754b.png) -->
 
 ## Introduction
 
