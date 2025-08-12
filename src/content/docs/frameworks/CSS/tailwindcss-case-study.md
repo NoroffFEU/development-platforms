@@ -28,22 +28,27 @@ Tailwind lets you style elements directly in your HTML using utility classes. In
 **Worth mentioning features:**
 
 **Utility-first Approach:** Makes you style by using a set of redy-to-use utility classes without constantly switching between your HTML and CSS files.
+
 _Why I like it:
 Let’s me style elements right away, keeping my workflow smooth and fast._
 
 **Customizability:** Makes you easily adjust colours, spacing, and other design details through configuration files.
+
 _Why I like it:
 Gives me control over the look and feel of every project I work on._
 
 **Responsive Design:** Built-in responsive utilities like `sm:`, `md:`, `lg:`, and `xl:` mean I can handle different screen sizes without writing custom media queries.
+
 _Why I like it:
 Saves me time by making layouts adapt naturally to any device._
 
-**Plugin System:** Extend Tailwind’s functionality by adding your own plugins or using community-made ones.  
+**Plugin System:** Extend Tailwind’s functionality by adding your own plugins or using community-made ones.
+
 _Why I like it:
 Lets me add extra features or use plugins others have built._
 
 **Performance Optimization:** Tailwind integrates tools like PurgeCSS (tree-shaking) to automatically remove unused CSS in production, keeping file sizes small.
+
 _Why I like it:
 Optimizes CSS so my projects load quickly and stay lightweight._
 
