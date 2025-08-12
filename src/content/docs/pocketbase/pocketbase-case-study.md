@@ -1,24 +1,24 @@
 ---
-title: Example Case Study
-author: Example Author <ExampleUsername>
-tags: example, case study, platform
+title: Pocketbase Case Study
+author: Christian Grøtteland <cgrotteland92>
+tags: backend, database, sqlite, authentication, case study
 ---
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+PocketBase represents a big shift in backend development, offering developers an open source backend in 1 file with realtime database, authentication, file storage and admin dashboard. This approach to backend-as-a-service (BaaS) solutions challenges traditional multi-component architectures by consolidating essential backend functionality into a single executable file.
+
+Built with Go and utilizing SQLite as its embedded database, PocketBase addresses the growing need for lighweight , self-hosted backend solutions that can be deployed quickly without complex infrastructure requirements. It combines an embedded SQLite database with data validation, real-time subscriptions, and an easy to use REST API, along with authentication and file storage, making it a particularly attractive for rapid prototyping and small to medium sized projects.
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
+While specific founding dates and detailed timeline information for PocketBase are limited in public documentation, the project has gained significant traction in the devopler community:
 
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+- Early 2022: PocketBase emerges as an open-source project written in Go, focusing on simplicity and developer experience.
+- December 2022: The project gets wider recognition when featured in a Fireship video calling it "the ultimate side-project backend", Fireship is a big Youtuber with 4 million subscribers.
+- 2023-2024: Active development continues with regular updates and feature additions.
+- 2024: PocketBase becomes a popular alternative to traditional BaaS solutions like Firebase and Supabase.
+- 2025: Migration guides from Firebase to PocketBase highlight significant cost advantages and simplified deployment.
 
 ## Main Features
 
