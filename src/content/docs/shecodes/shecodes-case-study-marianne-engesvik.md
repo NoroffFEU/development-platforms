@@ -1,12 +1,14 @@
----
-Title: "SheCodes – A Platform for Empowering Women in Technology"
-Author: "Marianne Engesvik"
-Date: 2025-08-17
----
-
 <p align="center">
   <img src="/src/assets/images/shecodes.png" alt="Prosjectlogo" width="300">
 </p>
+
+---
+
+Title: "SheCodes – A Platform for Empowering Women in Technology"
+Author: "Marianne Engesvik"
+Date: 2025-08-17
+
+---
 
 ## Introduction
 
