@@ -2,9 +2,13 @@
 
 <img src="https://www.shecodes.io/assets/branding/logo-shecodes-3dfa60aeab8ef361842da5a2b6d46db3af1b7afafefee3dde0a9846389de754b.png" width="340" alt="SheCodes Logo">
 
-| **Author** | Marianne Engesvik |
-| ---------- | ----------------- |
-| **Date**   | 2025-08-17        |
+---
+
+title: "SheCodes – Empowering Women in Tech"
+description: "A case study on SheCodes, covering its history, features, strengths, weaknesses, and impact on women in tech."
+author: "Marianne Engesvik"
+
+---
 
 ## Introduction
 
