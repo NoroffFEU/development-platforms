@@ -25,7 +25,7 @@ Tailwind was created to offer developers an alternative to traditional CSS appro
 
 Tailwind lets you style elements directly in your HTML using utility classes. In my opinion, this makes frontend development much faster.
 
-**Worth mentioning features:**
+### Worth mentioning features:
 
 **Utility-first Approach:** Makes you style by using a set of ready-to-use utility classes without constantly switching between your HTML and CSS files.
 
