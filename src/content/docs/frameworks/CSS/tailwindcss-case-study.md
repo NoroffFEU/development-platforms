@@ -126,6 +126,7 @@ Here is a small example of how Tailwind can be used:
 ```
 
 ![Example image](/src/assets/frameworks/css/code-example-iselin.png)
+_Screenshot showing the output of the code above_
 
 On tailwindcss.com/docs, you’ll find the complete documentation for all the utility classes used in Tailwind. The site also includes guides for getting started (if you want to use a different setup), configuration options, customization tips, and examples of best practices. You can explore responsive design features, theme configuration, and even learn how to extend Tailwind with plugins—all in one place.
 
