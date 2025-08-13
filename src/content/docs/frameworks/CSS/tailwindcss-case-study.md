@@ -113,7 +113,7 @@ Here is a small example of how Tailwind can be used:
     >
       <h1 class="text-3xl font-bold text-orange-800 mb-4">Hello everybody!</h1>
       <p class="text-orange-900/80 text-lg mb-6">
-        This is a paragraph styled with Tailwind CSS.
+        This is a paragraph styled with TailwindCSS.
       </p>
       <button
         class="px-6 py-3 bg-gradient-to-r from-pink-500 via-orange-500 to-yellow-400 text-white font-semibold rounded-lg shadow-md hover:shadow-lg hover:scale-105 hover:brightness-110 transition-transform duration-300 w-full"
