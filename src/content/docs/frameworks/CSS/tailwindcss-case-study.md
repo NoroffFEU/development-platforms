@@ -27,12 +27,12 @@ Tailwind lets you style elements directly in your HTML using utility classes. In
 
 **Worth mentioning features:**
 
-**Utility-first Approach:** Makes you style by using a set of redy-to-use utility classes without constantly switching between your HTML and CSS files.
+**Utility-first Approach:** Makes you style by using a set of ready-to-use utility classes without constantly switching between your HTML and CSS files.
 
 _Why I like it:
 Let’s me style elements right away, keeping my workflow smooth and fast._
 
-**Customizability:** Makes you easily adjust colours, spacing, and other design details through configuration files.
+**Customizability:** Makes you easily adjust colors, spacing, and other design details through configuration files.
 
 _Why I like it:
 Gives me control over the look and feel of every project I work on._
@@ -66,7 +66,7 @@ Tailwind takes a different route with its utility-first approach. Instead of pre
 
 In short, if you want speed and ready components, Bootstrap or Materialize are solid. But if you want total design freedom and a modern workflow, Tailwind is an awesome choice.
 
-## Get stared
+## Get started
 
 I have based my work on the latest version, which is v4.1. I’ve also chosen to use Tailwind CLI, as it’s the easiest and fastest way to get up and running with Tailwind CSS.
 
