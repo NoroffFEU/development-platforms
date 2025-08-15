@@ -276,4 +276,4 @@ Firebase has evolved into a powerful Backend-as-a-Service (BaaS) platform that e
 
 - [Fireship - Firebase in 100 seconds](https://www.youtube.com/watch?v=vAoB4VbhRzM)
 - [Fireship - Ultimate Beginner's Guide](https://www.youtube.com/watch?v=9kRgVxULbag)
-
+- [Firebase Official Youtube Channel](https://www.youtube.com/@Firebase)
