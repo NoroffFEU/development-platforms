@@ -6,39 +6,45 @@ tags: cdn, case study, cloudinary, content distribution network
 
 ## Introduction
 
-This is a template for a written case study, please note that this is only a suggestion. Your selected topic may or may not conform to this structure. As a content author or editor you should use your discretion and structure each document in order to convey the most important information in the most effective way.
+In an ever-growing online world, performance and availability become core for any website looking to serve multimedia assets. CDNs looks to provide this by creating a network of servers and serving the content to the end-user from the geographically closest server to them, known as the “edge server”.
+
+This works perfectly for improving load times for websites but comes with the drawback of assets getting stale if the original is updated. CDN is ideal for websites where its contents get updated rarely.
+
+In this case study, we will be exploring one of these CDNs in Cloudinary. With its free entry point, vast toolbox and developer options for uploading and managing assets, it’s a perfect starting point for newcomers to CDN systems.
 
 ## Brief History
 
-You may use a bullet point list or subheadings to structure a timeline of your chosen topic's history:
-- 1990: Examples are invented by John Doe.
-- 1991: Examples are first used in Example Project.
-- 1996: Example Project is released to the public.
-- 1999: John Doe steps down as CEO of Example Company.
-- 2001: E.G. Group acquires Example Company for $1.23 billion.
-- 2009: Anonymous leaks database of politically sensitive Examples to the public.
-- 2010: E.G. Group open sources Example Project and all proprietary Examples.
+Key moments from Cloudinaries brief history:
+
+- 2011: Cloudinary founded in Israel by Itai Lahan, Tal Lev-Ami and Nadav Soferman.
+- 2014: Announced fully integrated image processing add-ons using technologies like Imagga, URL2PNG, Aspose and WebPurify to name a few.
+- 2015: Received a strategic investment from Bessemer Venture Partners.
+- 2015: First U.S headquarters in Palo Alto, California opened and added video management to its services.
+- 2019: Moved the company to Santa Clara, California and launched tools for responsive image breakpoint generation.
 
 ## Main Features
 
-Describe the primary purpose of the tool that you have selected. Which problems does it solve? Is there something unique about this tool? How can it be useful to developers?
+Cloudinary provides an easy-to-use platform for storing, adjusting and optimizing images, videos and 3D assets for all screen sizes utilizing AI technologies. With a healthy ecosystem with over 300 partners, integrations and plug-ins offer Cloudinary a single CDN system to manage, transform, optimize and deliver engaging visual content.
 
-You may use subheadings, tables or bullet points to structure your description:
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
-- **Example Feature:** This feature does something for a specific reason.
+### Transform and Customize
 
-Example feature table:
+- **Generative Image manipulation:** Using generative AI to fill, remove, replace objects or upscale your images. 
+- **3D:** Upload and implement 3D models.
+- **Product Gallery:** Gallery widget for back-end media management.
+- **Filters and Overlays:** Making edits directly to the assets with filters and overlays.
 
-| Feature | Description |
-| --- | --- |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
-| Example Feature | This feature does something for a specific reason. |
+### Optimize and Deliver
 
-You may find this online tool useful for creating tables: https://www.tablesgenerator.com/markdown_tables
+- **Cropping:** Set wanted measurements and automatically crop your images. In addition, with AI powered tools, you can crop with object awareness both in images and videos.
+- **Auto Responsive:** Automatically adjusts the size and shape of your image to fit the device it is being viewed on.
+- **Automatic Optimization:** Chooses the best format for highest user experience by automatically formatting your assets.
 
-## Market Comparison
+### Manage and Analyze
+
+- **Smart Tagging:** AI tools recognize and create tags and captions during the upload of images and videos. 
+- **Automated Workflows:** Create presets that can easily be applied to all your assets for a seamless workflow.
+
+## Market Comparison: Cloudflare vs Cloudinary
 
 This section can be used to compare the advantages and disadvantages of your chosen tool to other similar tools. You may use subheadings, tables or bullet points to structure your description.
 
@@ -57,7 +63,7 @@ This section can be used to summarize your findings. What are the main advantage
 ## References
 
 - [Example.com](https://example.com)
-- *Good Examples* by John Doe, 1990
+- _Good Examples_ by John Doe, 1990
 - The Example Podcast, Episode 1
 - [Examples Explained](https://youtu.be/dQw4w9WgXcQ)
 
