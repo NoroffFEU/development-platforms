@@ -1,6 +1,7 @@
 ---
 title: Next.JS for fullstack 
 keywords: development platforms, Next Js, Backend, Frontend, Fullstack,
+author: Andre Strøm <Andlie94>
 tags: Development Platforms, Next Js, Frameworks, Fullstack, React, Vue, Vercel
 ---
 # Next.js: A complete framework for web development
@@ -234,7 +235,3 @@ NEXT.JS (07.07.). The Story of Next.js: How One Framework Tried to Fix the Web. 
 August 11, 2025, from https://nextjs.org/docs/app/getting-started/installation
 
 (n.d.) API Routes, august 12, 2025, from https://nextjs.org/docs/pages/building-your-application/routing/api-routes 
-
-### Credits
-
-- Andre Lier Strøm (Andlie94)
