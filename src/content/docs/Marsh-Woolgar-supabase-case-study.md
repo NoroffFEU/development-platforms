@@ -1,5 +1,5 @@
 ---
-title: Supabase: A Solid Open Source Firebase Alternative
+title: Supabase - A Solid Open Source Firebase Alternative
 author: Marsh Woolgar <Marshflair1988>
 tags: case study, supabase, baas, database
 ---
