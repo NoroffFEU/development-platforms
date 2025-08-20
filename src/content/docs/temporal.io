@@ -1,3 +1,9 @@
+---
+title: temporal.io workflow orchestration platform case study
+author: Adlan Ilyasov <IlyaAdlan>
+tags: temporal, workflow, orchestration, backend, distributed-systems
+---
+
 # Temporal.io Case Study: Workflows That Won't Let You Down
 
 ## What Even is Temporal?
