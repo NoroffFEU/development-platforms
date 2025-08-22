@@ -1,7 +1,7 @@
 ---
 title: Lightning-Fast Hot Module Replacement (HMR) Case Study
 author: lynar13
-tags: example, case study, platform
+tags: case study, supabase, development platforms
 ---
 
 ## Introduction
