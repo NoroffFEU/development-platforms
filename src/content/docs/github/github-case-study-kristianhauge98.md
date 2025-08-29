@@ -1,6 +1,6 @@
 ---
-title: GitHub
-Keywords: development platform - GitHub
+title: GitHub Case Study
+author: Kristian Haugen <kristianhaugen98>
 tags: Development Platforms, github
 ---
 
@@ -157,10 +157,6 @@ The difference is that its strong integration with Atlassian tools like Jiar and
 
 Easy to use, lightweight platform for open-source projects to work on. It's simplicity (but can be owervelming for new users) is a grate start for storing your repositories and hosting your own website. For it to be free, it have good features and i don't really think it lacks features, despite it's free to use. Ofcourse it have limits, but it's more like for big businesses / enterprises.
 Personally, i really like GitHub, what it offers, and what you can do, free of use. i would really recommend using GitHub to others who code and developing.
-
-### Author
-
-Kristian Haugen (KristianHaugen98) on GitHub, thank you.
 
 #### Refrences:
 
