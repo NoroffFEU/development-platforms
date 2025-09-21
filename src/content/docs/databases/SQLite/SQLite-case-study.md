@@ -20,6 +20,7 @@ SQLite, conceived by D. Richard Hipp in the spring of 2000, was designed to full
 ### Key Milestones:
 
 - **2000**: SQLite is released as an open-source project, offering a simple, disk-based database that requires zero configuration and offers a complete SQL implementation.
+
 - **2010**: SQLite becomes the most widely deployed database engine in the world, thanks to its integration into all major browsers, mobile operating systems, and embedded systems.
 
 - **SQLite 3.0**: Introduces many significant features, including UTF-8 support, manifest typing, and the ability to store large blobs, marking a major evolution in its capabilities.
