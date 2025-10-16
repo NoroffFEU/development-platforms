@@ -1,7 +1,7 @@
 ---
 title: Building and Hosting APIs with Microsoft Azure
 author: Vilde Avløs <vildeavloes>
-tags: Development Platforms, Cloud, Hosting, Microsoft 
+tags: Development Platforms, Cloud, Hosting, Microsoft, Google, AWS, API
 ---
 
 ## Introduction
