@@ -1,0 +1,128 @@
+---
+title: Azure DevOps Study
+author: Hajnalka Zsobrakne Fenyo <hajnalkazsobraknefenyo>
+tags: Development Platforms, Microsoft, Azure DevOps, CI/CD, DevOps
+---
+
+# Azure DevOps
+
+![Azure DevOps Logo](https://miro.medium.com/1*8orwInnxqPRhrcKf9aOo9Q.png)
+
+| Feature            | GitHub                            | Azure DevOps                                 |
+|--------------------|-----------------------------------|----------------------------------------------|
+| CI/CD              | GitHub Actions                    | Azure Pipelines                              |
+| Owner              | Microsoft                         | Microsoft                                    |
+| Launched           | 2008                              | 2018                                         |
+| License            | Proprietary                       | Proprietary                                  |
+| Unique Aspects     | Strong open source community      | Strong integration with Microsoft products   |
+| Primary Focus      | Code hosting and collaboration    | End-to-end DevOps lifecycle management       |
+| Version Control    | Git-based                         | Git-based                                    |
+| Project Management | GitHub Issues and Projects        | Azure Boards                                 |
+| Security           | Code scanning, Dependabot         | DevSec, Security Center                      |
+| Unique Tools       | GitHub Copilot, GitHub Codespaces | Azure Artifacts, Azure Test Plans            |
+| Best for           | Open source projects              | Enterprise-level DevOps, Microsoft ecosystem |
+| Pricing            | Free for public repos             | Free tier, paid plans                        |
+
+
+## Introduction
+
+DevOps combines development (Dev) and operations (Ops) to unite people, process, and technology in application planning, development, delivery, and operations. DevOps enables coordination and collaboration between formerly siloed roles like development, IT operations, quality engineering, and security.
+
+Teams adopt DevOps culture, practices, and tools to increase confidence in the applications they build, respond better to customer needs, and achieve business goals faster. DevOps helps teams continually provide value to customers by producing better, more reliable products.
+
+## Brief History
+
+**2007:** In 2007, Patrick Debois observed significant friction between development and operations teams during a major data center migration project. This experience laid the groundwork for ideas that would later evolve into DevOps.
+
+**2008:** In 2008, Andrew Shafer organized a birds of a feather meeting on Agile Infrastructure, which unexpectedly attracted Patrick Debois. This meeting sparked early discussions that eventually contributed to the DevOps movement.
+
+**2009:** In 2009, John Allspaw and Paul Hammond showcased rapid, high-frequency deployments at Flickr, highlighting potential benefits of closer collaboration between Dev and Ops. Later that year, Patrick Debois organized the first DevOpsDays conference in Belgium, popularizing the term "DevOps."
+
+**2010:** In 2010, Jez Humble and David Farley published Continuous Delivery, presenting key principles for rapid and reliable software releases. Their work emphasized the importance of automation and collaboration in modern software development.
+
+**2013:** In 2013, Gene Kim, Kevin Behr, and George Spafford released The Phoenix Project, applying lean manufacturing ideas to IT challenges. The book became influential in illustrating how DevOps practices could revive underperforming IT operations.
+
+**2015:** In 2015, Dr. Nicole Forsgren, Gene Kim, and Jez Humble founded DORA to research and validate DevOps practices. Their State of DevOps studies revealed that high-performing organizations achieve significantly better throughput and efficiency.
+
+**2016:** In 2016, the DevOps Handbook was published, providing practical guidance for implementing DevOps practices across organizations. Authored by industry pioneers, it built on earlier insights from The Phoenix Project and Continuous Delivery.
+
+**2019:** By 2019, the DevOps movement had matured, with over 60 DevOpsDays events held internationally. Leadership shifted to reflect this growth, ensuring that the community continuously evolved and expanded.
+
+## Main Features
+
+DevOps influences the application lifecycle throughout its planning, development, delivery, and operations phases. Each phase relies on the other phases, and the phases aren't role-specific. A DevOps culture involves all roles in each phase to some extent.
+
+### Unique Benefits
+
+- **Accelerate time to market**: Through increased efficiencies, improved team collaboration, automation tools, and continuous deployment teams are able to rapidly reduce the time from product inception to market launch.
+
+- **Improve collaboration and communication**: DevOps practices break down traditional silos between development, operations, and other stakeholders. This fosters a culture of collaboration, shared responsibility, and open communication, leading to better teamwork and more effective problem-solving.
+
+- **Enhance quality and reliability**: By implementing continuous integration, continuous delivery, and automated testing, DevOps helps identify and address issues early in the development process. This results in higher-quality software with fewer bugs and improved reliability.
+
+- **Adapt to the market and competition**: A DevOps culture demands teams have a customer-first focus. By marrying agility, team collaboration, and focus on the customer experience, teams can continuously deliver value to their customers and increase their competitiveness in the marketplace.
+
+- **Maintain system stability and reliability**: By adopting continuous improvement practices, teams are able to build in increased stability and reliability of the products and services they deploy. These practices help reduce failures and risk.
+
+- **Improve the mean time to recovery**: The mean time to recovery metric indicates how long it takes to recover from a failure or breach. To manage software failures, security breaches, and continuous improvement plans, teams should measure and work to improve this metric.
+
+## Overview
+
+- Collaborate: Work with team members to develop applications using cloud service.
+- Plan and track: Manage your work, track code defects, and address issues efficiently.
+- Use continuous integration and deployment: Set up automated builds and deployments to streamline your development process.
+- Integrate: Connect with other services using service hooks for seamless workflows.
+- Enhance: Access other features and extensions to extend the capabilities of Azure DevOps.
+- Organize: Create one or more projects to segment and manage your work effectively.
+
+
+## Built-in Tools 
+
+### Boards
+- Like Kanban boards: a visual project management tool that helps teams manage workflow by displaying tasks as cards that move through columns representing different stages of a project.
+- Kanban is a method for managing knowledge work with an emphasis on just-in-time delivery while not overloading the team members.
+
+- Filterable task boards to manage work with customizable workflows.
+- Statuses, assignees, tags, and priorities.
+- Integration with Azure services for seamless deployment and monitoring.
+- Comprehensive dashboards and reporting for tracking project progress and performance.
+- Agile model: epics, features, user stories, tasks, bugs.
+- Can make boards for different teams and projects.
+- Tasks can be linked to description, status, assignee, tags, priority.
+
+### Repositories 
+- This section stores the source code for the different projects. 
+- Like GitHub: 
+  - branch policies: require a minimum number of reviewers, enforce work item linking, check for linked builds, and limit merge types.
+  - pull requests: facilitate code reviews and discussions before merging changes into the main branch.
+  - code search: quickly find code snippets, files, and references across your repositories.
+
+### Pipelines:
+- Automating processes, triggering, variables, parameters, resources, stages, jobs, steps.
+- The part of Azure DevOps
+- Combines continuous integration, continuous testing, and continuous delivery -> automatically build, test, and deploy code projects to any destination
+- Supports all major languages and project types,
+- Automate workflows in your chosen technologies and frameworks whether your app is on-premises or in the cloud
+- Can create executable files etc. -> store these
+- Can check the different runs, the results of the different steps and the log files that are usually deleted.
+
+- Provides features like approvals, gates, and manual interventions to ensure that your deployments are controlled and compliant with your organization's policies.
+
+### Releases:
+- Continuous delivery to any platform and cloud.
+- Deploy to multiple targets simultaneously.
+- Approvals and checks at each stage of the release process.
+- Track releases with detailed logs and reports.
+
+### Artifacts:
+- Universal package management for all types of packages.
+- Integration with popular package managers like npm, Maven, NuGet, and Python.
+- Securely store and manage your packages in a central repository.
+- Control access to packages with fine-grained permissions.
+
+
+## Additional Resources
+
+- [What is DevOps?](https://azure.microsoft.com/en-us/overview/devops/what-is-devops/)
+- [A Brief History of DevOps and Its Impact on Software Development](https://www.everythingdevops.dev/blog/a-brief-history-of-devops-and-its-impact-on-software-development)
+- [What is Azure Pipelines?](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines?view=azure-devops)
