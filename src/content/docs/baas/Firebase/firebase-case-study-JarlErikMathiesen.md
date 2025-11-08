@@ -64,7 +64,7 @@ AWS Amplify shines for enterprise-level projects. It integrates deeply with AWS 
 
 ## Testing
 
-I was uncertain what i was going to write about and wanted it to be a technology it that could be useful to learn about as a frontend developer. I landed on firebase since it's popular among frontend developers, provides a lot of the backend in a simple way and it was new so i could learn a technology i didn't know anything about.
+I was uncertain what i was going to write about and wanted it to be a technology it that could be useful to learn about as a frontend developer. I landed on Firebase since it's popular among frontend developers, provides a lot of the backend in a simple way and it was new so i could learn a technology i didn't know anything about.
 
 I decided to test it by making a miniblog. On an earlier assignment we used a headless CMS to load and make posts from a database in Wordpress. I did the hosting on netlify. Since firebase had its own database system i wanted to see how simple it would be to integrate this compared to netlify. The ability to host and have backend services at one place was very attractive.
 
