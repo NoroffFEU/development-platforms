@@ -1,0 +1,58 @@
+---
+title: Grafana Case Study
+author: Ole Jørgen Øverby (@OJOverby)
+tags: grafana, monitoring, observability
+---
+
+# Grafana
+
+## What is Grafana
+Grafana is an open-source platform for monitoring and visualizing data. It uses several data sources and creates an overview of the data in customizable dashboards. Grafana itself does not monitor the data, but imports data from other data sources and creates a visual presentation of the data. These integrations can have different objectives, like monitoring computer metrics, others can give Grafana access to error logs or databases. Some of the most common data sources for Grafana are: 
+- AWS CloudWatch
+- Azure Monitor
+- Elasticsearch
+- Graphite
+- InfluxDB
+- Jaeger
+- Loki
+- Microsoft SQL Server
+- MySQL
+- PostgresSQL
+- Prometheus
+- Pyroscope
+
+In many setups Grafana is installed together with several of these data collection systems to provide Grafana with the data it needs to visualize.
+
+## History of Grafana
+Grafana was made by the Swedish developer Torkel Ödegaard. He started it originally as a open-source project in 2013 for visualization of time series databases. The project grew in popularity within the developer community he co-founded Grafana Labs with Raj Dut and Anthony Woods and together they developed Grafana Labs to support continued open-source development and offer enterprise features and managed services.
+
+## Grafana in the workplace
+
+I work in a company that owns and manages some of Norways biggest food chains, and it uses Grafana as a part of managing everyday operations. In Norways food market correct prices and item information is important, and by using Grafana to monitor different systems we can see when something is wrong, or in some cases when it’s about to go wrong and can prevent issues before they become an issue. We have 3500 computers and 16600 checkout terminals, so having the right tools to help us monitor all these is essential.
+In every store the backroom computer is also used as a server for receiving and sending data. By installing Grafana alloy, an observability agent that provides a pipeline for data sources such as Prometheus, Loki, OpenTelemetry and Pyroscope, on each of the backroom computers everything can be monitored. For a store to run without issues it's important that all services on the backroom computer and all communications between all equipment such as cash registers, deli weights or vending machines. By monitoring Windows message queues, that sends information to the different devices in the store, and services on the backroom computer we can monitor that the computer is in good “health”. It is also possible to set up different alarms in Grafana that can alert us if anything is or going to go wrong.
+
+Let’s have a look at some examples of how this works. 
+
+![Grafana server dashboard](../../../assets/grafana/grafana-1.png)
+Here we got a graphical display of some of the servers, you can set up different graphical displays within Grafana and customize them to show the specific data that you need to know. In this instance we are mostly interested in the flow of data, and we can see that we have 4 issues at this current time. We can click on one of the servers to get more specific information about what the issues are.
+
+![Grafana server details dashboard](../../../assets/grafana/grafana-2.png)
+On this screen we can see the overall status of the server, and we can also see that alarm has been triggered. Alarms can be set up in Grafana to monitor certain parameters and trigger if something is wrong and send mail to a team who can handle the issue. We can see that in this example it is a high amount of messages in queue alert. On the same page we can find the section that monitors the message queue and figure out what is wrong.
+
+![Grafana message queue dashboard](../../../assets/grafana/grafana-3.png)
+Here we can see that the server is having trouble sending data to the store with the number 11678, this means that the backroom computer of this store is having some issues. The computer can be offline, shut off or experience other issues that is preventing it from receiving data.
+It’s just not the flow of data we can monitor, we can also observe more common issues like computers running out of storage space, in the display below we can see a collection of computers that are soon completely full.
+
+![Grafana storage space dashboard](../../../assets/grafana/grafana-4.png)
+
+Using these dashboards we can find errors that the end user might not even have noticed yet, and resolve issues before they cause any major problems.
+
+## Strengths and limitations
+
+As we’ve seen in the examples Grafana is excellent at finding and visualizing data. It is a great tool to diagnose issues and monitor large amounts of data. Dashboards can be customized to fit your needs and display any metric you set it up to. Agents can be installed on several types of equipment like servers and computers, making it possible to monitor several types of equipment within the same framework.
+The limitations of the product are that although it is excellent at displaying issues, it can do nothing to solve them. It has no way of setting up solutions, it reads data and doesn’t write it. It can be connected to other 3rd party tools that can help it solve its issues but nothing native within the framework. And even though the dashboards can be easy to read and intuitive, setting them up is not. It is quite a technical task to set up dashboards and alarms and you need to know the system and its parameters well for it to go smoothly.
+
+## References
+ - Grafana documentation (https://grafana.com/docs/)
+ - Story of Grafana (https://grafana.com/story-of-grafana)
+ - Grafana wikipedia article (https://en.wikipedia.org/wiki/Grafana)
