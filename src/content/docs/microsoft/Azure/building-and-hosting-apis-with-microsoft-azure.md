@@ -81,7 +81,7 @@ Key features:
 
 - **Flexibility:** Azure supports a wide range of programming languages, frameworks and architectures. From traditional web applications to modern serverless and microservice-based APIs, developers can choose the model that best fits their project. It also allows flexibility within a developer team. 
 
-- **Security:**  With services like Microsoft Entra ID and Azure Key Vault offers a high-level security with minimal configuration. Azure ensures strong authentication, encryption and access control, protecting APIs and sensitive data across environments. 
+- **Security:**  With services like Microsoft Entra ID and Azure Key Vault, Azure offers a high-level security with minimal configuration. Azure ensures strong authentication, encryption and access control, protecting APIs and sensitive data across environments. 
 
 - **Scalability:** Automatic scaling and global data center coverage allow APIs to handle varying workloads efficiently, maintaining reliability and high performance. 
 
