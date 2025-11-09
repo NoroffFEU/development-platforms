@@ -37,7 +37,7 @@ Let’s have a look at some examples of how this works.
 Here we got a graphical display of some of the servers, you can set up different graphical displays within Grafana and customize them to show the specific data that you need to know. In this instance we are mostly interested in the flow of data, and we can see that we have 4 issues at this current time. We can click on one of the servers to get more specific information about what the issues are.
 
 ![Grafana server details dashboard](../../../assets/grafana/grafana-2.png)
-On this screen we can see the overall status of the server, and we can also see that alarm has been trigged. Alarms can be set up in Grafana to monitor certain parameters and trigger if something is wrong and send mail to a team who can handle the issue. We can see that in this example it is a high amount of messages in queue alert. On the same page we can find the section that monitors the message queue and figure out what is wrong.
+On this screen we can see the overall status of the server, and we can also see that alarm has been triggered. Alarms can be set up in Grafana to monitor certain parameters and trigger if something is wrong and send mail to a team who can handle the issue. We can see that in this example it is a high amount of messages in queue alert. On the same page we can find the section that monitors the message queue and figure out what is wrong.
 
 ![Grafana message queue dashboard](../../../assets/grafana/grafana-3.png)
 Here we can see that the server is having trouble sending data to the store with the number 11678, this means that the backroom computer of this store is having some issues. The computer can be offline, shut off or experience other issues that is preventing it from receiving data.
