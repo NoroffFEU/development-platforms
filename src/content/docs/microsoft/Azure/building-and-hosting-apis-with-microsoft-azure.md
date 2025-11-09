@@ -121,7 +121,7 @@ Azure’s strengths lie in its flexibility, security, scalability and seamless i
 Despite some challenges such as complexity, cost management and potential vendor lock-in, Azure remains one of the most comprehensive cloud platforms available. For organizations looking to modernize their API workflows and ensure secure, scalable and maintainable systems, Microsoft Azure stands out as a leading choice in today’s cloud landscape. 
 
 
-## References«
+## References
 
 - [What is Azure?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure)
 - [The Evolutionary History of Azure: From Windows Azure to Microsoft Azure](https://www.techaheadcorp.com/knowledge-center/history-of-azure/)
