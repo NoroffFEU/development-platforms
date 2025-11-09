@@ -46,7 +46,7 @@ MongoDB Atlas is a multi-cloud database service that simplifies deploying and ma
 | Stream Processing            | Read, write and transform streams of data.                                                                                                                                 |
 | Data Federation              | Allows for querying, transformation and moving of data across different sources.                                                                                           |
 | Security and networking      | Provides mandatory TLS/SSL, VPCs for all projects and authentication from sources you declare.                                                                             |
-| Compliance                   | You decided which cloud provider to use, which is subjects to due diligens at least twice per year. You also decided where your customer data should be physically stored. |
+| Compliance                   | You decide which cloud provider to use, which is subjects to due diligence at least twice per year. You also decide where your customer data should be physically stored. |
 
 ## Market Comparison - Amazon DynamoDB
 
