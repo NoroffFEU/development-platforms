@@ -46,7 +46,7 @@ Key features:
 -	Built-in versioning, revisions and analytics for full lifecycle control
  
 ### Azure Functions
-Azure Function is a serverless compute service that runs code in response to events or HTTP requests without having to manage servers. It is ideal for lightweight APIs, automation and event-driven applications. Developers can quickly deploy and scale small units of functionality.  
+Azure Functions is a serverless compute service that runs code in response to events or HTTP requests without having to manage servers. It is ideal for lightweight APIs, automation and event-driven applications. Developers can quickly deploy and scale small units of functionality.  
 
 Key features:  
 -	Event-driven execution triggered by HTTP requests or data changes 
