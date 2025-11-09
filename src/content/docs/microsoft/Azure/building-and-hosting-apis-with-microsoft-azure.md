@@ -118,7 +118,7 @@ Microsoft Azure provides a powerful and versatile environment for building, host
 
 Azure’s strengths lie in its flexibility, security, scalability and seamless integration across services – all supported by an extensive global infrastructure. It offers a unified ecosystem that simplifies deployment, monitoring and management while maintaining enterprise-grade reliability and compliance. 
 
-Despite some challenges such as complexity, cost management and potential vendor lock-in, Azure remains one of the most comprehensive cloud platforms available. For organizations looking to modernize their API workflows and ensure secure, scalable and maintainable systems, Microsoft Azure stands out a leading choice in today’s cloud landscape. 
+Despite some challenges such as complexity, cost management and potential vendor lock-in, Azure remains one of the most comprehensive cloud platforms available. For organizations looking to modernize their API workflows and ensure secure, scalable and maintainable systems, Microsoft Azure stands out as a leading choice in today’s cloud landscape. 
 
 
 ## References«
