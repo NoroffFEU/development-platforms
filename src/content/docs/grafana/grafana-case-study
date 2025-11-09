@@ -45,7 +45,7 @@ It’s just not the flow of data we can monitor, we can also observe more common
 
 ![Grafana storage space dashboard](../../../assets/grafana/grafana-4.png)
 
-Using these dashboards we can find errors that the end user might not even have noticed yet, and resolve issues before that cause any major problems.
+Using these dashboards we can find errors that the end user might not even have noticed yet, and resolve issues before they cause any major problems.
 
 ## Strengths and limitations
 
