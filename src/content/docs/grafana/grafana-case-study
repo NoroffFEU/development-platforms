@@ -7,7 +7,7 @@ tags: grafana, monitoring, observability
 # Grafana
 
 ## What is Grafana
-Grafana is an open-source platform for monitoring and visualization of data. It uses several data sources and creates an overview of the data in customizable dashboards. Grafana itself does not monitor the data, but imports data from other data sources and creates a visual presentation of the data. These integrations can have different objectives, like monitoring computer metrics, others can give Grafana access to error logs or databases. Some of the most normal data sources for Grafana is: 
+Grafana is an open-source platform for monitoring and visualizing data. It uses several data sources and creates an overview of the data in customizable dashboards. Grafana itself does not monitor the data, but imports data from other data sources and creates a visual presentation of the data. These integrations can have different objectives, like monitoring computer metrics, others can give Grafana access to error logs or databases. Some of the most common data sources for Grafana are: 
 - AWS CloudWatch
 - Azure Monitor
 - Elasticsearch
