@@ -24,7 +24,7 @@ Grafana is an open-source platform for monitoring and visualizing data. It uses 
 In many setups Grafana is installed together with several of these data collection systems to provide Grafana with the data it needs to visualize.
 
 ## History of Grafana
-Grafana was made by the Swedish developer Torkel Ödegaard, he started it originally as a open-source project in 2013 for visualization of time series databases. The project grew in popularity within the developer community he co-founded Grafana Labs with Raj Dut and Anthony Woods and together they developed Grafana Labs to support continued open-source development and offer enterprise features and managed services.
+Grafana was made by the Swedish developer Torkel Ödegaard. He started it originally as a open-source project in 2013 for visualization of time series databases. The project grew in popularity within the developer community he co-founded Grafana Labs with Raj Dut and Anthony Woods and together they developed Grafana Labs to support continued open-source development and offer enterprise features and managed services.
 
 ## Grafana in the workplace
 
